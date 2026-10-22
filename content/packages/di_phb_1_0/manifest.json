@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "packageId": "di_phb",
-  "packageVersion": "1.0-minimum-rulings.1",
+  "packageVersion": "1.0-frag-save.1",
   "lifecycle": "draft",
   "dependencies": [],
   "sources": [
@@ -12,7 +12,8 @@
   ],
   "requiredCapabilities": [
     "phb.roll_bindings.v1",
-    "phb.equipment.minimum_rulings.v1"
+    "phb.equipment.minimum_rulings.v1",
+    "phb.save_outcomes.v1"
   ],
   "publicationBlocked": true,
   "publicationBlockers": [
@@ -41,9 +42,9 @@
     },
     {
       "id": "di.action.frag_grenade.throw",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/action/frag_grenade.throw.json",
-      "sha256": "e1f6096ec02e67e91bcb77833a19a069e074e2192df894b73a5a36abb0ec046e"
+      "sha256": "6698774df7064d94abc9d40ef0ef66764ee302a386b8f132d8cff4a7b61a0d02"
     },
     {
       "id": "di.action.lasgun.attack",
@@ -5681,9 +5682,9 @@
     },
     {
       "id": "di.weapon.frag_grenade",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/weapon/frag_grenade.json",
-      "sha256": "eb8a9bc3ddf010a09974ae6f79d49281eed78076f72ab28a87d82c8688fd7345"
+      "sha256": "a19e4e479a659cb36a653640c7e339dae1a1b332aff95ba6d2f8123e33faad0c"
     },
     {
       "id": "di.weapon.lasgun",

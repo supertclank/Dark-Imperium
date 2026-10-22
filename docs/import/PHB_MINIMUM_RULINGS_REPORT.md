@@ -1,3 +1,5 @@
+> **Current Frag gate pass:** [Results](PHB_FRAG_GATE_REPORT.md). Narrow profile PLAYABLE_WITH_MANUAL_RULES; narrow builder data READY_WITH_MANUAL_RULES. 93 tests; 948 drafts; 310 candidates. Generic Blast and 31 original rulings remain unresolved. Earlier pass statements below are historical.
+
 # Minimum PHB rulings and narrow character proof
 
 Applied exactly the five user-approved rulings **009, 024, 049, 050, 051**. **31 of the original 36 remain UNRESOLVED**, including all seven Origin/rarity decisions 001–007. The approval text is preserved byte-for-byte with SHA-256 provenance in the review ledger. No other ruling was resolved by implication.

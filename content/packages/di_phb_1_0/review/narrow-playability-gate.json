@@ -1,0 +1,23 @@
+{
+  "scope": "Existing Human/Schola/Veteran level-1 proof only",
+  "playability": "PLAYABLE_WITH_MANUAL_RULES",
+  "builderData": "READY_WITH_MANUAL_RULES",
+  "proofFixture": "tests/fixtures/narrow/veteran-level-1.json",
+  "pin": "6bea0f10886d3f460f64bdafb01b1540388b63c3e509d348ab4fdafc9525c7aa",
+  "scopeIsNotRuntimeAuthorization": true,
+  "creationBlockers": [],
+  "manualProcedures": [
+    "Human failed-save reroll",
+    "Schola conditional fear advantage and education",
+    "Tactical Aim target/turn tracking",
+    "Med-Pack use",
+    "Reload/ammunition and ordinary action adjudication"
+  ],
+  "runtimeDeferred": [
+    "multiTargetDamageRollPolicy",
+    "runtimeActionTransactions",
+    "authoritativeContextAndOwnership",
+    "publishedRulesetLock"
+  ],
+  "fullCatalogue": "BLOCKED"
+}

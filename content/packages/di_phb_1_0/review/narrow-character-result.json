@@ -1,20 +1,13 @@
 {
-  "status": "INCOMPLETE",
+  "status": "VALID",
   "eligibilityStatus": "VALID",
   "eligibilityScope": "species/origin/class/subclass prerequisites only",
   "errors": [],
-  "unresolved": [
-    {
-      "code": "FRAG_SUCCESS_OUTCOME_UNSPECIFIED",
-      "field": "inventory.di.weapon.frag_grenade",
-      "message": "PHB page 47 gives Dexterity save and 3d6 piercing but no successful-save consequence. Do not import generic half-damage rules.",
-      "rulingIds": []
-    }
-  ],
+  "unresolved": [],
   "projection": {
     "actorId": "0605c094-ab37-5967-8eee-0fb61de6b010",
-    "engineVersion": "phb-narrow-proof.1",
-    "lockDigest": "dc8cafc3275f27a7ebad1df9da40df7036dbcc2df5ee66228c28273eda96bac5",
+    "engineVersion": "phb-narrow-proof.2",
+    "lockDigest": "6bea0f10886d3f460f64bdafb01b1540388b63c3e509d348ab4fdafc9525c7aa",
     "classTraining": {
       "hitDie": 10,
       "savingThrowAttributes": [
@@ -329,7 +322,7 @@
           "id": "di.weapon.frag_grenade"
         },
         "modeId": "base",
-        "resolution": "manual_save_outcome"
+        "resolution": "context_required"
       },
       {
         "ref": {
@@ -379,7 +372,7 @@
     "rollDefinitions": [
       {
         "schemaVersion": 1,
-        "id": "1ee88898-8575-5aeb-a915-1d8de0c6f53d",
+        "id": "da61ae9b-0068-5d8d-afde-a2c60db0c19a",
         "category": "attribute",
         "label": "Strength check",
         "source": {
@@ -393,8 +386,8 @@
           "instanceId": "0605c094-ab37-5967-8eee-0fb61de6b010"
         },
         "snapshot": {
-          "rulesetLockDigest": "dc8cafc3275f27a7ebad1df9da40df7036dbcc2df5ee66228c28273eda96bac5",
-          "engineVersion": "phb-narrow-proof.1",
+          "rulesetLockDigest": "6bea0f10886d3f460f64bdafb01b1540388b63c3e509d348ab4fdafc9525c7aa",
+          "engineVersion": "phb-narrow-proof.2",
           "stateVersion": 0,
           "contextDigest": "fb08848b9976764ce00bfa6ea35e7cca9e37532238c5d19d2dc836f2efc21883"
         },
@@ -440,7 +433,7 @@
       },
       {
         "schemaVersion": 1,
-        "id": "e855ed05-2b63-50f7-a770-4159c46fe61e",
+        "id": "3c5bdc5f-64a2-5e25-9855-b44e7375b762",
         "category": "skill",
         "label": "Athletics",
         "source": {
@@ -454,8 +447,8 @@
           "instanceId": "0605c094-ab37-5967-8eee-0fb61de6b010"
         },
         "snapshot": {
-          "rulesetLockDigest": "dc8cafc3275f27a7ebad1df9da40df7036dbcc2df5ee66228c28273eda96bac5",
-          "engineVersion": "phb-narrow-proof.1",
+          "rulesetLockDigest": "6bea0f10886d3f460f64bdafb01b1540388b63c3e509d348ab4fdafc9525c7aa",
+          "engineVersion": "phb-narrow-proof.2",
           "stateVersion": 0,
           "contextDigest": "fb08848b9976764ce00bfa6ea35e7cca9e37532238c5d19d2dc836f2efc21883"
         },
@@ -513,7 +506,7 @@
       },
       {
         "schemaVersion": 1,
-        "id": "3dd7d167-8ea9-5d48-9ab3-63ba9639243f",
+        "id": "cef43c94-bfa1-5362-a90a-e3d44340426b",
         "category": "save",
         "label": "Dexterity save",
         "source": {
@@ -527,8 +520,8 @@
           "instanceId": "0605c094-ab37-5967-8eee-0fb61de6b010"
         },
         "snapshot": {
-          "rulesetLockDigest": "dc8cafc3275f27a7ebad1df9da40df7036dbcc2df5ee66228c28273eda96bac5",
-          "engineVersion": "phb-narrow-proof.1",
+          "rulesetLockDigest": "6bea0f10886d3f460f64bdafb01b1540388b63c3e509d348ab4fdafc9525c7aa",
+          "engineVersion": "phb-narrow-proof.2",
           "stateVersion": 0,
           "contextDigest": "fb08848b9976764ce00bfa6ea35e7cca9e37532238c5d19d2dc836f2efc21883"
         },
@@ -586,7 +579,7 @@
       },
       {
         "schemaVersion": 1,
-        "id": "f72f04a7-6adc-5c26-9421-34c61c11ecd3",
+        "id": "1c22b562-b415-594b-8662-d871554f9b67",
         "category": "ability",
         "label": "Initiative",
         "source": {
@@ -600,8 +593,8 @@
           "instanceId": "0605c094-ab37-5967-8eee-0fb61de6b010"
         },
         "snapshot": {
-          "rulesetLockDigest": "dc8cafc3275f27a7ebad1df9da40df7036dbcc2df5ee66228c28273eda96bac5",
-          "engineVersion": "phb-narrow-proof.1",
+          "rulesetLockDigest": "6bea0f10886d3f460f64bdafb01b1540388b63c3e509d348ab4fdafc9525c7aa",
+          "engineVersion": "phb-narrow-proof.2",
           "stateVersion": 0,
           "contextDigest": "fb08848b9976764ce00bfa6ea35e7cca9e37532238c5d19d2dc836f2efc21883"
         },
@@ -659,7 +652,7 @@
       },
       {
         "schemaVersion": 1,
-        "id": "d6b5822b-971c-5118-bbb8-44b089dd14e9",
+        "id": "f9bd038a-49cd-5672-95a6-28ebf4b48e2f",
         "category": "attack",
         "label": "Lasgun attack",
         "source": {
@@ -673,8 +666,8 @@
           "instanceId": "0605c094-ab37-5967-8eee-0fb61de6b010"
         },
         "snapshot": {
-          "rulesetLockDigest": "dc8cafc3275f27a7ebad1df9da40df7036dbcc2df5ee66228c28273eda96bac5",
-          "engineVersion": "phb-narrow-proof.1",
+          "rulesetLockDigest": "6bea0f10886d3f460f64bdafb01b1540388b63c3e509d348ab4fdafc9525c7aa",
+          "engineVersion": "phb-narrow-proof.2",
           "stateVersion": 0,
           "contextDigest": "fb08848b9976764ce00bfa6ea35e7cca9e37532238c5d19d2dc836f2efc21883"
         },
@@ -735,14 +728,14 @@
           "ref": {
             "id": "di.action.lasgun.attack"
           },
-          "executionId": "051509ae-fee2-5132-afbc-29d6d8ac92a3",
+          "executionId": "904f89c2-e538-5f3c-b655-b9af35466079",
           "stageId": "attack",
           "modeId": "base"
         }
       },
       {
         "schemaVersion": 1,
-        "id": "08770d91-336b-58b8-bf6c-4e904084f2f0",
+        "id": "8f74a6f2-be15-51b9-91ff-6c0cdc8a8ab4",
         "category": "damage",
         "label": "Lasgun damage",
         "source": {
@@ -756,8 +749,8 @@
           "instanceId": "0605c094-ab37-5967-8eee-0fb61de6b010"
         },
         "snapshot": {
-          "rulesetLockDigest": "dc8cafc3275f27a7ebad1df9da40df7036dbcc2df5ee66228c28273eda96bac5",
-          "engineVersion": "phb-narrow-proof.1",
+          "rulesetLockDigest": "6bea0f10886d3f460f64bdafb01b1540388b63c3e509d348ab4fdafc9525c7aa",
+          "engineVersion": "phb-narrow-proof.2",
           "stateVersion": 0,
           "contextDigest": "fb08848b9976764ce00bfa6ea35e7cca9e37532238c5d19d2dc836f2efc21883"
         },
@@ -815,14 +808,14 @@
           "ref": {
             "id": "di.action.lasgun.attack"
           },
-          "executionId": "051509ae-fee2-5132-afbc-29d6d8ac92a3",
+          "executionId": "904f89c2-e538-5f3c-b655-b9af35466079",
           "stageId": "damage",
           "modeId": "base"
         }
       },
       {
         "schemaVersion": 1,
-        "id": "5715f89e-dcb8-514c-87c3-5aca865765d4",
+        "id": "8dfa510a-f107-54ae-b0c4-58cf31f44563",
         "category": "attack",
         "label": "Combat Blade attack",
         "source": {
@@ -836,8 +829,8 @@
           "instanceId": "0605c094-ab37-5967-8eee-0fb61de6b010"
         },
         "snapshot": {
-          "rulesetLockDigest": "dc8cafc3275f27a7ebad1df9da40df7036dbcc2df5ee66228c28273eda96bac5",
-          "engineVersion": "phb-narrow-proof.1",
+          "rulesetLockDigest": "6bea0f10886d3f460f64bdafb01b1540388b63c3e509d348ab4fdafc9525c7aa",
+          "engineVersion": "phb-narrow-proof.2",
           "stateVersion": 0,
           "contextDigest": "fb08848b9976764ce00bfa6ea35e7cca9e37532238c5d19d2dc836f2efc21883"
         },
@@ -898,14 +891,14 @@
           "ref": {
             "id": "di.action.combat_blade.attack"
           },
-          "executionId": "81443806-a7b0-54f1-bb60-b354a592724e",
+          "executionId": "2b26c489-4fec-5739-a303-372f853c32f7",
           "stageId": "attack",
           "modeId": "base"
         }
       },
       {
         "schemaVersion": 1,
-        "id": "9dc8310e-0825-5e74-b8c4-d4aa0f6b4560",
+        "id": "ae22ad5d-1f4c-5413-ba83-5db3112fd60f",
         "category": "damage",
         "label": "Combat Blade damage",
         "source": {
@@ -919,8 +912,8 @@
           "instanceId": "0605c094-ab37-5967-8eee-0fb61de6b010"
         },
         "snapshot": {
-          "rulesetLockDigest": "dc8cafc3275f27a7ebad1df9da40df7036dbcc2df5ee66228c28273eda96bac5",
-          "engineVersion": "phb-narrow-proof.1",
+          "rulesetLockDigest": "6bea0f10886d3f460f64bdafb01b1540388b63c3e509d348ab4fdafc9525c7aa",
+          "engineVersion": "phb-narrow-proof.2",
           "stateVersion": 0,
           "contextDigest": "fb08848b9976764ce00bfa6ea35e7cca9e37532238c5d19d2dc836f2efc21883"
         },
@@ -978,7 +971,225 @@
           "ref": {
             "id": "di.action.combat_blade.attack"
           },
-          "executionId": "81443806-a7b0-54f1-bb60-b354a592724e",
+          "executionId": "2b26c489-4fec-5739-a303-372f853c32f7",
+          "stageId": "damage",
+          "modeId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "e59a2ee4-b360-5747-a28b-9c85cc8e0161",
+        "category": "attack",
+        "label": "Laspistol attack",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.weapon.laspistol"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "0605c094-ab37-5967-8eee-0fb61de6b010"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "6bea0f10886d3f460f64bdafb01b1540388b63c3e509d348ab4fdafc9525c7aa",
+          "engineVersion": "phb-narrow-proof.2",
+          "stateVersion": 0,
+          "contextDigest": "fb08848b9976764ce00bfa6ea35e7cca9e37532238c5d19d2dc836f2efc21883"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "ability",
+                "value": 2,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.weapon.laspistol"
+                  }
+                },
+                "label": "Dexterity",
+                "contextual": false
+              },
+              {
+                "id": "proficiency",
+                "value": 2,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.class.veteran"
+                  }
+                },
+                "label": "Weapon proficiency",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "enabled",
+          "threshold": 20,
+          "comparison": "at_least"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        },
+        "action": {
+          "ref": {
+            "id": "di.action.laspistol.attack"
+          },
+          "executionId": "29317a85-c5f3-5596-b92a-a34b4e68dac3",
+          "stageId": "attack",
+          "modeId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "e82838b4-da77-5f84-9f75-5d0ed284af6d",
+        "category": "damage",
+        "label": "Laspistol damage",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.weapon.laspistol"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "0605c094-ab37-5967-8eee-0fb61de6b010"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "6bea0f10886d3f460f64bdafb01b1540388b63c3e509d348ab4fdafc9525c7aa",
+          "engineVersion": "phb-narrow-proof.2",
+          "stateVersion": 0,
+          "contextDigest": "fb08848b9976764ce00bfa6ea35e7cca9e37532238c5d19d2dc836f2efc21883"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 6
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "ability",
+                "value": 2,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.weapon.laspistol"
+                  }
+                },
+                "label": "Dexterity",
+                "contextual": false
+              },
+              {
+                "id": "printed",
+                "value": 0,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.weapon.laspistol"
+                  }
+                },
+                "label": "Printed bonus",
+                "contextual": false
+              }
+            ],
+            "damageType": {
+              "id": "di.damage_type.radiant"
+            }
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "action": {
+          "ref": {
+            "id": "di.action.laspistol.attack"
+          },
+          "executionId": "29317a85-c5f3-5596-b92a-a34b4e68dac3",
+          "stageId": "damage",
+          "modeId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "125caaf4-1a4b-5f66-a60c-3feacb63f08a",
+        "category": "damage",
+        "label": "Frag Grenade base damage",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.weapon.frag_grenade"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "0605c094-ab37-5967-8eee-0fb61de6b010"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "6bea0f10886d3f460f64bdafb01b1540388b63c3e509d348ab4fdafc9525c7aa",
+          "engineVersion": "phb-narrow-proof.2",
+          "stateVersion": 0,
+          "contextDigest": "fb08848b9976764ce00bfa6ea35e7cca9e37532238c5d19d2dc836f2efc21883"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 3,
+                "sides": 6
+              }
+            ],
+            "modifiers": [],
+            "damageType": {
+              "id": "di.damage_type.piercing"
+            }
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "action": {
+          "ref": {
+            "id": "di.action.frag_grenade.throw"
+          },
+          "executionId": "642fb369-03ce-5afe-a3b7-4df8dbfffed2",
           "stageId": "damage",
           "modeId": "base"
         }
@@ -986,12 +1197,9 @@
     ],
     "resources": null,
     "resistances": null,
-    "unresolvedFields": [
-      "fragGrenade.successfulSaveOutcome",
-      "runtimeActionTransactions"
-    ],
-    "readiness": "BLOCKED",
-    "note": "Core calculated profile complete for this scope. Required Frag Grenade outcome remains unspecified; not certified playable.",
+    "unresolvedFields": [],
+    "readiness": "READY_WITH_MANUAL_RULES",
+    "note": "Playable with source-defined manual procedures within the reviewed narrow scope; offline conformance is not runtime authorization.",
     "weaponProficiencies": {
       "groups": [
         "basic_firearm",
@@ -1061,7 +1269,13 @@
       },
       "saveAttribute": "dexterity",
       "dc": 12,
-      "radiusFt": 15,
+      "area": {
+        "shape": "sphere",
+        "radius": {
+          "value": 15,
+          "unit": "ft"
+        }
+      },
       "damage": [
         {
           "id": "base",
@@ -1080,9 +1294,145 @@
         }
       ],
       "abilityDamageBonus": 0,
-      "successOutcome": "unresolved",
-      "resolution": "BLOCKED"
+      "outcomes": {
+        "failure": {
+          "damageMultiplier": {
+            "numerator": 1,
+            "denominator": 1
+          },
+          "rounding": "floor"
+        },
+        "success": {
+          "damageMultiplier": {
+            "numerator": 1,
+            "denominator": 2
+          },
+          "rounding": "floor"
+        }
+      },
+      "consumption": {
+        "resource": "item_quantity",
+        "quantity": 1,
+        "on": "committed_use"
+      },
+      "resolution": "STRUCTURED",
+      "multiTargetDamageRollPolicy": "DEFERRED",
+      "damageRoll": {
+        "schemaVersion": 1,
+        "id": "125caaf4-1a4b-5f66-a60c-3feacb63f08a",
+        "category": "damage",
+        "label": "Frag Grenade base damage",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.weapon.frag_grenade"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "0605c094-ab37-5967-8eee-0fb61de6b010"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "6bea0f10886d3f460f64bdafb01b1540388b63c3e509d348ab4fdafc9525c7aa",
+          "engineVersion": "phb-narrow-proof.2",
+          "stateVersion": 0,
+          "contextDigest": "fb08848b9976764ce00bfa6ea35e7cca9e37532238c5d19d2dc836f2efc21883"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 3,
+                "sides": 6
+              }
+            ],
+            "modifiers": [],
+            "damageType": {
+              "id": "di.damage_type.piercing"
+            }
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "action": {
+          "ref": {
+            "id": "di.action.frag_grenade.throw"
+          },
+          "executionId": "642fb369-03ce-5afe-a3b7-4df8dbfffed2",
+          "stageId": "damage",
+          "modeId": "base"
+        }
+      },
+      "application": "Apply the explicit outcome to an accepted base roll separately for each accepted target save; target mitigation/HP application is outside this function."
     },
-    "snapshotScope": "Offline content proof pin; not a published ruleset lock or runtime authorization."
+    "snapshotScope": "Offline content proof pin; not a published ruleset lock or runtime authorization.",
+    "runtimeDeferred": [
+      "multiTargetDamageRollPolicy",
+      "runtimeActionTransactions",
+      "authoritativeContextAndOwnership",
+      "publishedRulesetLock"
+    ]
+  },
+  "playability": "PLAYABLE_WITH_MANUAL_RULES",
+  "dependencyAnalysis": {
+    "creationBlockers": [],
+    "resolvedItemRulings": [
+      "PHB-RULE-059"
+    ],
+    "outsideScopeRulings": [
+      "PHB-RULE-001",
+      "PHB-RULE-002",
+      "PHB-RULE-003",
+      "PHB-RULE-004",
+      "PHB-RULE-005",
+      "PHB-RULE-006",
+      "PHB-RULE-007",
+      "PHB-RULE-010",
+      "PHB-RULE-011",
+      "PHB-RULE-012",
+      "PHB-RULE-014",
+      "PHB-RULE-015",
+      "PHB-RULE-016",
+      "PHB-RULE-017",
+      "PHB-RULE-018",
+      "PHB-RULE-020",
+      "PHB-RULE-022",
+      "PHB-RULE-026",
+      "PHB-RULE-028",
+      "PHB-RULE-029",
+      "PHB-RULE-030",
+      "PHB-RULE-032",
+      "PHB-RULE-035",
+      "PHB-RULE-037",
+      "PHB-RULE-038",
+      "PHB-RULE-046",
+      "PHB-RULE-047",
+      "PHB-RULE-055",
+      "PHB-RULE-056",
+      "PHB-RULE-057",
+      "PHB-RULE-058"
+    ],
+    "manualProcedures": [
+      "Human failed-save reroll",
+      "Schola conditional fear advantage and education",
+      "Tactical Aim target/turn tracking",
+      "Med-Pack use",
+      "Reload/ammunition and ordinary action adjudication"
+    ],
+    "runtimeDeferred": [
+      "multiTargetDamageRollPolicy",
+      "runtimeActionTransactions",
+      "authoritativeContextAndOwnership",
+      "publishedRulesetLock"
+    ]
   }
 }

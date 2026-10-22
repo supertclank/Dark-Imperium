@@ -1,0 +1,498 @@
+# Dark Imperium Web – Resolve Frag Grenade Narrow Gate & Validate Playable Profile
+
+You are working on **Dark Imperium Web**.
+
+The previous minimum-rulings pass successfully integrated PHB-RULE-009, PHB-RULE-024, PHB-RULE-049, PHB-RULE-050 and PHB-RULE-051.
+
+Current state:
+
+- 948 canonical drafts
+- 310 remaining candidates
+- 692 manual entries
+- 81 passing content tests
+- Narrow calculated core: PASS
+- 8 validated baseline RollDefinitions
+- Narrow playable character: BLOCKED
+- Full level 1–3 catalogue: BLOCKED
+- Rules Engine: PARTIAL
+- Dice Engine: PARTIAL
+- Docker: UNVERIFIED
+- 31 of the original 36 human rulings remain unresolved
+
+The narrow Human / Schola Progenium / Veteran level-1 proof character is blocked by one newly isolated source gap:
+
+The Frag Grenade profile specifies:
+
+- 15-ft radius
+- Dexterity save
+- 3d6 piercing damage
+
+but does not state the successful-save consequence.
+
+An explicit human ruling is now approved for **Frag Grenade only**.
+
+Do NOT generalise this ruling to all Blast weapons.
+
+Do NOT resolve generic PHB-RULE-018 by implication.
+
+---
+
+# Approved Frag Grenade Ruling
+
+For the canonical Frag Grenade:
+
+## Failed Dexterity Save
+
+Take:
+
+`3d6 piercing damage`
+
+## Successful Dexterity Save
+
+Take:
+
+`half of the rolled 3d6 piercing damage, rounded down`
+
+## Ability Modifier
+
+Do not add an ability modifier to Frag Grenade damage.
+
+## Area
+
+15-ft radius.
+
+## Save
+
+Use the existing canonical grenade save DC policy.
+
+## Consumption
+
+The grenade remains expended after use according to the existing grenade rules.
+
+This ruling is specific to the Frag Grenade profile.
+
+It does NOT establish a generic rule that:
+
+- all Blast effects deal half damage on success
+- all area weapons deal half damage on success
+- all grenades deal half damage on success
+
+Other unresolved Blast/save effects must retain their current blocked state unless their own source text explicitly defines the result.
+
+---
+
+# Phase 1 – Record the Ruling
+
+Record this approved decision in the human-ruling/review ledger.
+
+Preserve:
+
+- exact approval text
+- provenance
+- ruling timestamp or existing audit metadata
+- source relationship
+- affected canonical entity
+
+If a dedicated new ruling ID is appropriate for the item-specific gap, create one according to the existing review-ID convention.
+
+Do not mark PHB-RULE-018 resolved.
+
+PHB-RULE-018 remains unresolved for generic Blast behaviour.
+
+---
+
+# Phase 2 – Update Frag Grenade Canonical Content
+
+Update the canonical Frag Grenade entity so its save result is structured.
+
+Represent at minimum:
+
+- save ability: Dexterity
+- area: 15-ft radius
+- failure damage: 3d6 piercing
+- success damage: half rolled damage
+- success rounding: floor
+- ability damage modifier: none
+- consumption behaviour
+- source reference
+
+Avoid storing the success behaviour only in display prose.
+
+The rules engine must be able to consume it structurally.
+
+---
+
+# Phase 3 – Structured Save Outcome Model
+
+If the current action/effect schema cannot represent:
+
+- full damage on failure
+- half damage on success
+- round down
+
+make the smallest reusable schema extension required.
+
+Prefer a declarative result model such as:
+
+```text
+save:
+  ability: dexterity
+
+outcomes:
+  failure:
+    damage_multiplier: 1
+
+  success:
+    damage_multiplier: 0.5
+    rounding: floor
+```
+
+This example is conceptual only.
+
+Follow the existing project architecture and naming conventions.
+
+Do NOT create executable rule scripts.
+
+---
+
+# Phase 4 – Frag Grenade Roll / Save Definition
+
+Validate the complete structured grenade intent.
+
+Expected mechanics:
+
+- Save DC derived from the existing grenade save policy
+- Dexterity save
+- 15-ft radius
+- 3d6 piercing base damage
+- Failed save: full rolled damage
+- Successful save: half rolled damage rounded down
+- No automatic ability modifier
+
+Ensure the Dice/RollDefinition architecture can represent the damage roll independently from the save result.
+
+---
+
+# Phase 5 – Regression Tests
+
+Add tests covering at minimum:
+
+## Save Failure
+
+Example:
+
+`3d6 = 11`
+
+Failed save:
+
+`11 piercing damage`
+
+## Save Success – Even Result
+
+Example:
+
+`3d6 = 10`
+
+Successful save:
+
+`5 piercing damage`
+
+## Save Success – Odd Result
+
+Example:
+
+`3d6 = 11`
+
+Successful save:
+
+`5 piercing damage`
+
+Verify mathematical floor.
+
+## Modifier Exclusion
+
+Ensure Dexterity or other ability modifiers are NOT added to Frag Grenade damage.
+
+## Scope Protection
+
+Add a test proving that resolving Frag Grenade does NOT automatically mark:
+
+- generic Blast
+- other unresolved grenades
+- other area attacks
+
+as having half-damage-on-save behaviour.
+
+---
+
+# Phase 6 – Narrow Character Revalidation
+
+Re-run the existing narrow proof:
+
+- Human
+- Schola Progenium
+- Veteran
+- Level 1
+- Twitchy
+- Existing standard-array values
+- Existing proficiencies
+- Existing starting equipment
+
+Starting equipment includes:
+
+- Lasgun
+- Laspistol
+- Combat Blade
+- Flak Armour
+- 2 Frag Grenades
+- Med-Pack
+
+Re-run:
+
+- selection validation
+- calculated character projection
+- inventory validation
+- action generation
+- RollDefinition generation
+- rules dependency analysis
+
+The previously blocked Frag Grenade dependency should now be resolved.
+
+---
+
+# Phase 7 – Playability Gate
+
+Assess the narrow proof character using:
+
+```text
+PLAYABLE
+PLAYABLE_WITH_MANUAL_RULES
+BLOCKED
+```
+
+The character may be declared PLAYABLE_WITH_MANUAL_RULES if:
+
+- all mandatory creation choices are valid
+- core calculated statistics are valid
+- mandatory equipment is valid
+- mandatory actions/rolls are structurally valid
+- remaining manual features do not prevent normal use
+
+Do not require all optional or future mechanics to be automated.
+
+If the character remains BLOCKED, report the exact remaining dependency.
+
+Do not invent a resolution.
+
+---
+
+# Phase 8 – Runtime Contract Readiness
+
+Now that the narrow content profile may be playable, document the minimum runtime contract required by the future application.
+
+Create or update:
+
+`docs/content/CHARACTER_RUNTIME_CONTRACT.md`
+
+Define the boundary between:
+
+- canonical content
+- persisted character selections
+- calculated character profile
+- runtime mutable state
+- action request
+- RollDefinition
+- DiceRollResult
+- resource/ammunition transactions
+
+At minimum consider:
+
+## Persisted Character
+
+- identity
+- species
+- Origin
+- class
+- level
+- ability selections
+- proficiencies/choices
+- equipment
+- Universal Trait
+
+## Calculated Profile
+
+- ability modifiers
+- HP maximum
+- AC
+- Speed
+- saves
+- skills
+- proficiency
+- available actions
+- derived RollDefinitions
+
+## Runtime State
+
+- current HP
+- current ammunition/reload state
+- limited-use resources
+- temporary effects
+- conditions
+
+Do not implement the complete runtime engine yet.
+
+---
+
+# Phase 9 – Attack Runtime Contract
+
+Document how a future weapon attack proceeds.
+
+Conceptually:
+
+```text
+Character requests Lasgun attack
+↓
+Backend verifies ownership/context
+↓
+Calculated action loaded
+↓
+Attack RollDefinition generated
+↓
+Dice resolved
+↓
+Attack result accepted
+↓
+Damage RollDefinition becomes eligible
+↓
+Damage rolled
+↓
+Future encounter system applies result
+```
+
+The current offline conformance RollDefinition must not be treated as authorization to attack.
+
+Preserve that security boundary.
+
+---
+
+# Phase 10 – Grenade Runtime Contract
+
+Document future grenade execution.
+
+Conceptually:
+
+```text
+Character selects Frag Grenade
+↓
+Verify inventory quantity
+↓
+Consume one grenade transactionally
+↓
+Determine targets in area
+↓
+Targets roll Dexterity saves
+↓
+Roll 3d6 damage once as defined by the rules implementation
+↓
+Apply full or half-rounded-down result per target
+```
+
+If whether damage is rolled once for all targets or separately per target is not established by current approved rules, DO NOT invent it.
+
+Explicitly flag that execution detail for later resolution if necessary.
+
+The character creation gate should not be re-blocked merely because encounter-level multi-target execution is deferred.
+
+---
+
+# Phase 11 – Update Readiness
+
+Reassess separately:
+
+## Narrow Character Profile
+
+Expected goal:
+
+`PLAYABLE` or `PLAYABLE_WITH_MANUAL_RULES`
+
+## Narrow Character Builder Data
+
+Expected goal:
+
+`READY` or `READY_WITH_MANUAL_RULES`
+
+## Full Level 1–3 Catalogue
+
+Expected to remain:
+
+`BLOCKED`
+
+unless independently proven otherwise.
+
+## Rules Engine
+
+Likely remains:
+
+`PARTIAL`
+
+## Dice Engine
+
+Likely remains:
+
+`PARTIAL`
+
+Do not exaggerate readiness.
+
+---
+
+# Phase 12 – Tests
+
+Run the full content test suite.
+
+All existing 81 tests must continue to pass.
+
+Add the new Frag Grenade and narrow-gate regression coverage.
+
+Report exact total.
+
+---
+
+# Phase 13 – Docker
+
+Do not spend substantial implementation effort on environment-specific Docker failures in this task.
+
+You may re-run existing verification if appropriate.
+
+If buildx/Desktop environment failures remain unchanged:
+
+- preserve the existing UNVERIFIED state
+- record that the failure is environmental
+- do not claim application failure
+- do not redesign Docker
+
+---
+
+# Completion Report
+
+At completion report:
+
+1. Frag Grenade ruling integration
+2. Whether PHB-RULE-018 remains unresolved
+3. Canonical record count
+4. Candidate count
+5. Manual-entry count
+6. Passing test count
+7. Narrow proof result
+8. Character Builder narrow readiness
+9. Full catalogue readiness
+10. Rules Engine readiness
+11. Dice Engine readiness
+12. Runtime contract documentation added
+13. Exact remaining blockers
+14. Recommended next implementation task
+
+If the narrow proof becomes PLAYABLE or PLAYABLE_WITH_MANUAL_RULES and narrow builder data becomes READY, recommend the next task as:
+
+**Implement the first production data-driven character builder and character persistence flow for the validated narrow Human / Schola Progenium / Veteran path, while keeping unsupported PHB options visibly unavailable.**
+
+Do NOT expose blocked options as playable simply because the UI exists.

@@ -60,6 +60,20 @@ def grenade_dc(level, dexterity_modifier):
     require(type(dexterity_modifier) is int, 'DEXTERITY_MODIFIER')
     return 8 + proficiency(level) + dexterity_modifier
 
+def save_damage(rolled_damage, save_succeeded, outcomes):
+    """Resolve explicit per-target save scaling, before unresolved mitigation.
+
+    Caller supplies the approved outcome object; there is no Blast default.
+    Does not reroll, add attributes, consume inventory or mutate target HP.
+    """
+    from phb_equipment import validate_save_outcomes
+    validate_save_outcomes(outcomes)
+    require(type(rolled_damage) is int and 0 <= rolled_damage <= 1000000,'ROLLED_DAMAGE_INTEGER')
+    require(type(save_succeeded) is bool,'SAVE_RESULT_REQUIRED')
+    result=outcomes['success' if save_succeeded else 'failure']
+    fraction=result['damageMultiplier']
+    return rolled_damage * fraction['numerator'] // fraction['denominator']
+
 def compare(a, op, b):
     require(op in ('eq','lt','lte','gt','gte'), 'COMPARISON')
     return {'eq':a==b,'lt':a<b,'lte':a<=b,'gt':a>b,'gte':a>=b}[op]

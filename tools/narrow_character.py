@@ -1,7 +1,7 @@
 """Deterministic level-1 Human/Schola/Veteran conformance projection.
 
 This is an offline rules proof, not application authorization or a dice executor.
-The mandatory Frag Grenade's missing successful-save outcome remains a blocker.
+Approved item-specific save outcomes support the narrow manual-play gate.
 """
 import copy
 import uuid
@@ -9,7 +9,7 @@ import content_import as c
 import character_creation as creation
 import phb_policies as p
 
-ENGINE='phb-narrow-proof.1'
+ENGINE='phb-narrow-proof.2'
 
 def source(id):return {'kind':'content','ref':{'id':id}}
 def modifier(id,value,owner,label,contextual=False):
@@ -70,23 +70,29 @@ def project(draft, records=None):
     proj['weaponProficiencies']={'groups':sorted(groups),'specificWeapons':sorted(direct),'startingPackageWeapons':sorted(starting)}
     proj['inventory']=copy.deepcopy(inventory)
     frag=records['di.weapon.frag_grenade']['data']['modes'][0]
-    proj['grenadeSaveIntent']={'item':{'id':'di.weapon.frag_grenade'},'saveAttribute':frag['save']['attribute'],'dc':p.grenade_dc(1,mods['dexterity']),'radiusFt':15,'damage':copy.deepcopy(frag['damage']),'abilityDamageBonus':p.save_weapon_damage_bonus(mods['dexterity']),'successOutcome':frag['save']['successOutcome'],'resolution':'BLOCKED'}
+    if 'outcomes' not in frag.get('save',{}) or 'area' not in frag or 'consumption' not in frag:
+        block('FRAG_SAVE_STRUCTURE_REQUIRED','inventory.di.weapon.frag_grenade','Explicit approved save outcomes, area and consumption are required.');out['status']='INCOMPLETE';return out
+    from phb_equipment import validate_save_outcomes
+    validate_save_outcomes(frag['save']['outcomes'])
+    proj['grenadeSaveIntent']={'item':{'id':'di.weapon.frag_grenade'},'saveAttribute':frag['save']['attribute'],'dc':p.grenade_dc(1,mods['dexterity']),'area':copy.deepcopy(frag['area']),'damage':copy.deepcopy(frag['damage']),'abilityDamageBonus':p.save_weapon_damage_bonus(mods['dexterity']),'outcomes':copy.deepcopy(frag['save']['outcomes']),'consumption':copy.deepcopy(frag['consumption']),'resolution':'STRUCTURED','multiTargetDamageRollPolicy':'DEFERRED'}
     proj['features']=copy.deepcopy(proj['features'])
-    proj['actions']=[{'ref':records[id]['data']['modes'][0]['action'],'item':{'id':id},'modeId':'base','resolution':'manual_save_outcome' if id=='di.weapon.frag_grenade' else 'context_required'} for id in sorted(starting)]
+    proj['actions']=[{'ref':records[id]['data']['modes'][0]['action'],'item':{'id':id},'modeId':'base','resolution':'context_required'} for id in sorted(starting)]
     for f in proj['features']:
         if f['id']=='di.feature.class.veteran.level_1.tactical_aim':proj['actions'].append({'feature':f,'label':'Tactical Aim','resolution':'manual_context','economy':'bonus_action','effect':'Next ranged weapon attack against the chosen visible target this turn deals proficiency bonus extra damage.'})
     proj['actions'] += [{'label':'Faith, Fear, or Discipline','resolution':'manual','source':{'id':'di.feature.species.human.traits'},'uses':'Once per long rest; reroll failed save; must use new result.'},{'label':'Use Med-Pack','resolution':'manual','source':{'id':'di.equipment.med_pack'}}]
     # This snapshot pins every canonical record plus the approved policy document and kit.
-    pin={'records':{id:c.digest(e) for id,e in sorted(records.items())},'approvals':c.digest(c.read(c.PACKAGE/'review/decisions.json')['humanRulings']),'package':package,'engine':ENGINE}
+    decisions=c.read(c.PACKAGE/'review/decisions.json')
+    pin={'records':{id:c.digest(e) for id,e in sorted(records.items())},'approvals':c.digest({'human':decisions['humanRulings'],'item':decisions.get('itemRulings',[])}),'package':package,'engine':ENGINE}
     proj['lockDigest']=c.digest(pin);proj['engineVersion']=ENGINE
     proj['snapshotScope']='Offline content proof pin; not a published ruleset lock or runtime authorization.'
-    proj['unresolvedFields']=['fragGrenade.successfulSaveOutcome','runtimeActionTransactions']
-    proj['note']='Core calculated profile complete for this scope. Required Frag Grenade outcome remains unspecified; not certified playable.'
-    block('FRAG_SUCCESS_OUTCOME_UNSPECIFIED','inventory.di.weapon.frag_grenade','PHB page 47 gives Dexterity save and 3d6 piercing but no successful-save consequence. Do not import generic half-damage rules.')
-    out['status']='INCOMPLETE';proj['readiness']='BLOCKED'
+    proj['unresolvedFields']=[]
+    proj['runtimeDeferred']=['multiTargetDamageRollPolicy','runtimeActionTransactions','authoritativeContextAndOwnership','publishedRulesetLock']
+    proj['note']='Playable with source-defined manual procedures within the reviewed narrow scope; offline conformance is not runtime authorization.'
+    out['status']='VALID';out['playability']='PLAYABLE_WITH_MANUAL_RULES';proj['readiness']='READY_WITH_MANUAL_RULES'
+    out['dependencyAnalysis']={'creationBlockers':[],'resolvedItemRulings':['PHB-RULE-059'],'outsideScopeRulings':[x['id'] for x in c.read(c.PACKAGE/'review/human-rulings-integration.json') if x['status']=='UNRESOLVED'],'manualProcedures':['Human failed-save reroll','Schola conditional fear advantage and education','Tactical Aim target/turn tracking','Med-Pack use','Reload/ammunition and ordinary action adjudication'],'runtimeDeferred':proj['runtimeDeferred']}
     return out
 
-def compile_rolls(projection, context, records=None):
+def compile_rolls(projection, context, records=None, weapon_ids=None):
     """Compile baseline conformance intents from explicit, bounded test context.
 
     These definitions don't spend ammo, authorize attacks, or apply damage. A
@@ -114,7 +120,7 @@ def compile_rolls(projection, context, records=None):
     d20=[{'id':'base','count':1,'sides':20}]
     rolls=[roll('ability.strength','Strength check','attribute',d20,[modifier('ability',mods['strength'],owner,'Strength')]),roll('skill.athletics','Athletics','skill',d20,[modifier('ability',mods['strength'],owner,'Strength'),modifier('proficiency',pb,'di.skill.athletics','Proficiency')]),roll('save.dexterity','Dexterity save','save',d20,[modifier('ability',mods['dexterity'],owner,'Dexterity'),modifier('proficiency',pb,owner,'Save proficiency')]),roll('initiative','Initiative','ability',d20,[modifier('ability',mods['dexterity'],owner,'Dexterity'),modifier('twitchy',values['initiative']-mods['dexterity'],'di.feature.universal.twitchy','Twitchy')])]
     wp=projection['weaponProficiencies']
-    for id in ['di.weapon.lasgun','di.weapon.combat_blade']:
+    for id in (weapon_ids if weapon_ids is not None else ['di.weapon.lasgun','di.weapon.combat_blade']):
         c.require(any(i['definition']['id']==id for i in projection['inventory']),'WEAPON_NOT_OWNED')
         weapon=records[id];d=weapon['data'];m=d['modes'][0]
         ability=p.weapon_ability(d['category'],finesse=d['abilityBinding']['attack']=='finesse',selected=context['finesseAbility'])
@@ -128,6 +134,30 @@ def compile_rolls(projection, context, records=None):
         rolls.append(roll(id+'.damage',weapon['name']+' damage','damage',[{'id':'base','count':dice['count'],'sides':dice['sides']}],[modifier('ability',mods[ability],id,ability.title()),modifier('printed',dice['bonus']+component['bonus']['value'],id,'Printed bonus')],id,component['damageType'],action))
     for r in rolls:validate_roll(r,records)
     return rolls
+
+def compile_grenade_intent(projection, context, records=None):
+    """Separate base damage definition from per-target save outcomes.
+
+    No damage-sharing policy, target save bonus or resource mutation is inferred.
+    """
+    records=records if records is not None else c.load()[1]
+    baseline=compile_rolls(projection,context,records)
+    c.require(any(i['definition']['id']=='di.weapon.frag_grenade' and i['quantity']>0 for i in projection['inventory']),'GRENADE_NOT_OWNED')
+    mode=records['di.weapon.frag_grenade']['data']['modes'][0]
+    from phb_equipment import validate_save_outcomes
+    validate_save_outcomes(mode['save'].get('outcomes'))
+    c.require(records['di.weapon.frag_grenade']['data']['abilityBinding']['damage']=='none','GRENADE_ABILITY_EXCLUDED')
+    snapshot=copy.deepcopy(baseline[0]['snapshot']);components=[]
+    for damage in mode['damage']:
+        dice=damage['dice'];printed=dice['bonus']+damage['bonus']['value']
+        components.append({'id':damage['id'],'groups':[{'id':'base','count':dice['count'],'sides':dice['sides']}],'modifiers':[] if printed==0 else [modifier('printed',printed,'di.weapon.frag_grenade','Printed bonus')],'damageType':damage['damageType']})
+    execution=str(uuid.uuid5(uuid.NAMESPACE_URL,c.digest({'actor':projection['actorId'],'snapshot':snapshot,'weapon':'di.weapon.frag_grenade'})))
+    roll={'schemaVersion':1,'id':str(uuid.uuid5(uuid.NAMESPACE_URL,c.digest({'execution':execution,'components':components,'stage':'damage'}))),'category':'damage','label':'Frag Grenade base damage','source':source('di.weapon.frag_grenade'),'actor':{'kind':'character','instanceId':projection['actorId']},'snapshot':snapshot,'components':components,'advantage':{'state':'normal','policyId':'phb.advantage.v1','appliedGroupIds':[]},'critical':{'policyId':'phb.critical.v1','status':'disabled'},'action':{'ref':mode['action'],'executionId':execution,'stageId':'damage','modeId':'base'}}
+    validate_roll(roll,records)
+    values=projection['values']
+    intent={'item':{'id':'di.weapon.frag_grenade'},'saveAttribute':mode['save']['attribute'],'dc':p.grenade_dc(values['level'],values['attributeModifiers']['dexterity']),'area':copy.deepcopy(mode['area']),'damage':copy.deepcopy(mode['damage']),'abilityDamageBonus':0,'outcomes':copy.deepcopy(mode['save']['outcomes']),'consumption':copy.deepcopy(mode['consumption']),'resolution':'STRUCTURED','multiTargetDamageRollPolicy':'DEFERRED','damageRoll':roll}
+    intent['application']='Apply the explicit outcome to an accepted base roll separately for each accepted target save; target mitigation/HP application is outside this function.'
+    return intent
 
 def validate_roll(roll,records):
     c.shape(roll,['schemaVersion','id','category','label','source','actor','snapshot','components','advantage','critical'],['natural','action'])

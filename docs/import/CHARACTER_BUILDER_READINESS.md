@@ -1,9 +1,9 @@
 # Character Builder readiness
 
-| Scope | Status | Reason |
-| --- | --- | --- |
-| Human/Schola/Veteran level 1 core calculations | PASS | All required numerical core fields calculated |
-| Narrow complete playable path | BLOCKED | Mandatory Frag Grenade successful-save outcome unspecified |
-| Full level 1–3 catalogue | BLOCKED | 31 original unanswered rulings and incomplete content/implementation |
+| Scope | Status |
+| --- | --- |
+| Existing Human/Schola/Veteran level-1 proof | PLAYABLE_WITH_MANUAL_RULES |
+| Narrow builder data | READY_WITH_MANUAL_RULES |
+| Full level 1–3 catalogue | BLOCKED |
 
-The [current report](PHB_MINIMUM_RULINGS_REPORT.md) distinguishes the numerical proof from playable certification. No visual builder was implemented.
+No mandatory narrow creation blocker remains after PHB-RULE-059. Runtime authority/transactions and encounter multi-target damage sharing are deferred separately. This does not certify unsupported selections. See [current report](PHB_FRAG_GATE_REPORT.md).

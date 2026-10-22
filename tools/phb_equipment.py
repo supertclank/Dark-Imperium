@@ -28,13 +28,22 @@ def validate_equipment(entity, records):
     c.require(isinstance(d['modes'],list) and d['modes'],'WEAPON_MODES')
     c.require(len({m['id'] for m in d['modes']})==len(d['modes']),'DUPLICATE_MODE')
     for m in d['modes']:
-        c.shape(m,['id','name','attackKind','delivery','damage','range','costs','action'],['save','manualRules'])
+        c.shape(m,['id','name','attackKind','delivery','damage','range','costs','action'],['save','manualRules','area','consumption'])
         c.local(m['id']);c.ref(m['action'],records,'action')
         c.require(m['attackKind'] in ['melee','ranged','area'] and m['delivery'] in ['attack_roll','target_test'],'WEAPON_MODE')
         c.require(m['costs']==[],'MANUAL_RESOURCE_COSTS_ONLY')
         if 'manualRules' in m:c.manuals(m['manualRules'])
         if 'save' in m:
-            c.shape(m['save'],['attribute','dcPolicy','successOutcome']);c.require(m['save']=={'attribute':'dexterity','dcPolicy':'phb.grenade_dc.v1','successOutcome':'unresolved'},'GRENADE_SAVE_SUBSET')
+            c.shape(m['save'],['attribute','dcPolicy'],['successOutcome','outcomes'])
+            c.require(m['save']['attribute']=='dexterity' and m['save']['dcPolicy']=='phb.grenade_dc.v1','GRENADE_SAVE_SUBSET')
+            c.require(('successOutcome' in m['save']) != ('outcomes' in m['save']),'SAVE_OUTCOME_REPRESENTATION')
+            if 'outcomes' in m['save']:
+                validate_save_outcomes(m['save']['outcomes'])
+            else:c.require(m['save']['successOutcome']=='unresolved','UNRESOLVED_SAVE_OUTCOME')
+        if 'area' in m:
+            c.shape(m['area'],['shape','radius']);c.require(m['area']['shape']=='sphere','AREA_SHAPE');c.shape(m['area']['radius'],['value','unit']);c.integer(m['area']['radius']['value'],1,1000000);c.require(m['area']['radius']['unit']=='ft','AREA_UNIT')
+        if 'consumption' in m:
+            c.shape(m['consumption'],['resource','quantity','on']);c.require(m['consumption']=={'resource':'item_quantity','quantity':1,'on':'committed_use'},'ITEM_CONSUMPTION')
         c.require(m['damage'],'DAMAGE_REQUIRED')
         for component in m['damage']:
             c.shape(component,['id','dice','bonus','damageType']);c.local(component['id']);c.ref(component['damageType'],records,'damage_type');c.number(component['bonus'])
@@ -43,3 +52,13 @@ def validate_equipment(entity, records):
         if r['kind']=='reach':c.shape(r,['kind','distance']);distances=[r['distance']]
         else:c.shape(r,['kind','normal','long']);c.require(r['kind']=='distance','RANGE_KIND');distances=[r['normal'],r['long']];c.require(r['long']['value']>=r['normal']['value'],'RANGE_ORDER')
         for distance in distances:c.shape(distance,['value','unit']);c.require(distance['unit']=='ft','RANGE_UNIT');c.integer(distance['value'],1,1000000)
+
+def validate_save_outcomes(outcomes):
+    """Explicit rational scaling only. Absence never supplies a default."""
+    c.shape(outcomes,['failure','success'])
+    for outcome in outcomes.values():
+        c.shape(outcome,['damageMultiplier','rounding'])
+        c.shape(outcome['damageMultiplier'],['numerator','denominator'])
+        c.integer(outcome['damageMultiplier']['numerator'],0,10)
+        c.integer(outcome['damageMultiplier']['denominator'],1,10)
+        c.require(outcome['rounding']=='floor','DAMAGE_ROUNDING')

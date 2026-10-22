@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.action.frag_grenade.throw",
   "kind": "action",
-  "revision": 1,
+  "revision": 2,
   "name": "Throw Frag Grenade",
   "summary": "Throw Frag Grenade",
   "descriptionMarkdown": "Throw Frag Grenade",
@@ -37,10 +37,10 @@
           {
             "id": "source_rule",
             "automation": "manual",
-            "text": "Action; range 30/90 ft. Point within 30 ft requires no attack. Beyond 30 ft: DC 10 Dexterity check; failure lands 10 ft short. Expend grenade. 15-ft radius; Dexterity save; 3d6 piercing. Successful-save consequence is not specified in the Frag row.",
+            "text": "Action; range 30/90 ft. Point within 30 ft requires no attack. Beyond 30 ft: DC 10 Dexterity check; failure lands 10 ft short. Expend one grenade on committed use. Use di.weapon.frag_grenade base mode for structured area, save DC, damage and per-target outcomes. Multi-target damage roll sharing is deferred; no default inferred.",
             "adjudicator": "gm",
             "context": "source-defined procedure",
-            "reason": "Partial source procedure; successful-save consequence remains unresolved, not assumed half damage."
+            "reason": "Manual placement/target adjudication; mechanical save outcome is owned by the weapon mode (PHB-RULE-059), not duplicated here."
           }
         ]
       }

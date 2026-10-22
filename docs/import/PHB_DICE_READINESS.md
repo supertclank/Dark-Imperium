@@ -1,5 +1,5 @@
 # Dice Engine readiness
 
-**PARTIAL.** Eight deterministic, structured baseline RollDefinitions now validate for the narrow proof: ability, skill, save, initiative and separate Lasgun/Combat Blade attack and damage. Snapshots bind canonical content, approvals, package, actor, state and explicit baseline context. They are offline conformance artifacts, not server-authorized executions.
+**PARTIAL.** Eleven deterministic structured roll definitions validate for the complete narrow proof: the existing eight baseline rolls, Laspistol attack/damage and independent Frag Grenade base damage. Target save outcomes are applied separately from the base damage roll; no ability modifier is added. Multi-target roll sharing remains deferred without blocking creation.
 
-The grenade save/DC and listed damage are structured, but its successful-save outcome remains blocked. Context evaluation, ownership, ammo/action transactions, parent hit results and general compiler coverage still need implementation. No animated dice added. See [full result](PHB_MINIMUM_RULINGS_REPORT.md).
+These offline definitions are not runtime authorization. Authoritative resolution, accepted result linkage, resource transactions and general context compilation remain future work. See [current report](PHB_FRAG_GATE_REPORT.md) and [runtime contract](../content/CHARACTER_RUNTIME_CONTRACT.md).

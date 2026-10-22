@@ -59,9 +59,9 @@ class MinimumRulingsTests(unittest.TestCase):
         self.assertEqual(mode['damage'][0]['dice'],{'count':3,'sides':6,'bonus':0})
         self.assertEqual(p.save_weapon_damage_bonus(5),0);self.assertEqual(p.save_weapon_damage_bonus(-2),0)
         self.assertEqual(p.save_weapon_damage_bonus(5,explicitly_add=True),5)
-        self.assertEqual(mode['save']['successOutcome'],'unresolved')
+        self.assertEqual(mode['save']['outcomes']['success']['damageMultiplier'],{'numerator':1,'denominator':2})
         intent=n.project(self.draft(),self.records)['projection']['grenadeSaveIntent']
-        self.assertEqual((intent['dc'],intent['abilityDamageBonus'],intent['radiusFt']),(12,0,15))
+        self.assertEqual((intent['dc'],intent['abilityDamageBonus'],intent['area']['radius']['value']),(12,0,15))
     def test_medkit_alias_and_riot_same_profile(self):
         bindings=c.read(c.PACKAGE/'review/starting-reference-bindings.json')['bindings']
         self.assertEqual(bindings['medkit'],{'id':'di.equipment.med_pack'})
@@ -79,14 +79,15 @@ class MinimumRulingsTests(unittest.TestCase):
         for key in ['psychic_focus','rune_stones']:self.assertIn('psychic_focus',self.records['di.equipment.'+key]['data']['functionalTags'])
         for key in ['symbol_of_faith','oath_token','spirit_charm']:
             e=self.records['di.equipment.'+key];self.assertEqual(e['data']['features'],[]);self.assertTrue(e['data']['manualRules'])
-    def test_projection_exact_values_and_missing_outcome_block(self):
+    def test_projection_exact_values_and_approved_outcome_gate(self):
         out=n.project(self.draft(),self.records);v=out['projection']['values']
         self.assertEqual(v['attributes'],dict(zip(['strength','dexterity','constitution','intelligence','wisdom','charisma'],[17,15,13,12,10,8])))
         self.assertEqual((v['maximumWounds'],v['defence'],v['initiative'],v['proficiencyBonus']),(11,14,4,2))
         self.assertEqual(v['saves']['dexterity']['modifier'],4);self.assertEqual(v['saves']['wisdom']['modifier'],2)
         self.assertEqual(v['skills']['di.skill.athletics']['modifier'],5)
-        self.assertEqual(out['errors'],[]);self.assertEqual(out['status'],'INCOMPLETE')
-        self.assertEqual([x['code'] for x in out['unresolved']],['FRAG_SUCCESS_OUTCOME_UNSPECIFIED'])
+        self.assertEqual(out['errors'],[]);self.assertEqual(out['status'],'VALID')
+        self.assertEqual(out['unresolved'],[])
+        self.assertEqual(out['playability'],'PLAYABLE_WITH_MANUAL_RULES')
     def test_eight_deterministic_roll_definitions(self):
         proj=n.project(self.draft(),self.records)['projection'];a=n.compile_rolls(proj,self.fixture['context'],self.records);b=n.compile_rolls(proj,self.fixture['context'],self.records)
         self.assertEqual(a,b);self.assertEqual(len(a),8);self.assertEqual(len({r['id'] for r in a}),8)

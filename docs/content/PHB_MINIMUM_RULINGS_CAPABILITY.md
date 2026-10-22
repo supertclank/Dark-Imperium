@@ -1,3 +1,5 @@
+> **Current Frag gate pass:** [Results](../import/PHB_FRAG_GATE_REPORT.md). Narrow profile PLAYABLE_WITH_MANUAL_RULES; narrow builder data READY_WITH_MANUAL_RULES. 93 tests; 948 drafts; 310 candidates. Generic Blast and 31 original rulings remain unresolved. Earlier pass statements below are historical.
+
 # Minimum-rulings import capability
 
 `phb.equipment.minimum_rulings.v1` is an explicitly bounded offline import capability. It extends the emitted subset, not the production database schema. All new fields are validated; unsupported fields fail closed.
@@ -13,3 +15,8 @@ Human Broad Training's one-option reviewed weapon choice exists only to support 
 Policy IDs: `phb.advantage.v1` follows PDF 18 cancellation; `phb.critical.v1` follows PDF 31 natural 20, dice twice/modifiers once; `phb.grenade_dc.v1` follows PDF 47 (8 + PB + Dexterity). This baseline compiler emits normal rolls only; it does not silently resolve other policies.
 
 Run `python -B -m unittest discover -s tests/content`. See the [current readiness report](../import/PHB_MINIMUM_RULINGS_REPORT.md).
+
+
+## Explicit save outcomes capability
+
+`phb.save_outcomes.v1` adds optional mode `area`, `consumption` and `save.outcomes`. Outcomes require explicit success and failure records, each with `damageMultiplier: {numerator, denominator}` and `rounding: floor`. Integers preserve exact arithmetic; denominator must be positive. No scripts or floating-point multipliers are accepted. The existing unresolved representation remains supported; the two forms are mutually exclusive. There is no generic default. Only Frag Grenade currently supplies these approved outcomes. `save_damage` scales an accepted base total without rolling, adding abilities, mutating resources or applying target mitigation. The independent damage RollDefinition retains the unscaled base dice.

@@ -5204,5 +5204,28 @@
       "Apply the cited source-scoped interpretation when complete.",
       "Preserve unresolved context/precedence rather than applying an external-game convention."
     ]
+  },
+  {
+    "id": "PHB-RULE-059",
+    "group": "PHB-005",
+    "title": "Frag Grenade successful-save outcome",
+    "status": "RESOLVED",
+    "decision": "For the canonical Frag Grenade:\r\n\r\n## Failed Dexterity Save\r\n\r\nTake:\r\n\r\n`3d6 piercing damage`\r\n\r\n## Successful Dexterity Save\r\n\r\nTake:\r\n\r\n`half of the rolled 3d6 piercing damage, rounded down`\r\n\r\n## Ability Modifier\r\n\r\nDo not add an ability modifier to Frag Grenade damage.\r\n\r\n## Area\r\n\r\n15-ft radius.\r\n\r\n## Save\r\n\r\nUse the existing canonical grenade save DC policy.\r\n\r\n## Consumption\r\n\r\nThe grenade remains expended after use according to the existing grenade rules.\r\n\r\nThis ruling is specific to the Frag Grenade profile.\r\n\r\nIt does NOT establish a generic rule that:\r\n\r\n- all Blast effects deal half damage on success\r\n- all area weapons deal half damage on success\r\n- all grenades deal half damage on success\r\n\r\nOther unresolved Blast/save effects must retain their current blocked state unless their own source text explicitly defines the result.",
+    "approval": {
+      "path": "review/approved-frag-grenade-ruling.txt",
+      "sha256": "452552846ddc3d05edc0fd5b3c48296e96d25ce14650795f7b5f0aca32afeea8",
+      "approvedBy": "user",
+      "recordedAt": "2026-10-22T18:19:00Z",
+      "sourceRelationship": "Item-specific approved clarification of PHB v1.0 PDF 47; not an erratum for other Blast/save effects."
+    },
+    "sourcePages": [
+      47
+    ],
+    "affectedIds": [
+      "di.weapon.frag_grenade",
+      "di.action.frag_grenade.throw"
+    ],
+    "supersedesGap": "PHB-GAP-FRAG-SAVE-SUCCESS",
+    "scope": "Frag Grenade only; PHB-RULE-018 remains unresolved."
   }
 ]

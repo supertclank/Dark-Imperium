@@ -1,7 +1,5 @@
-# Next required ruling
+# Remaining ruling boundary
 
-The previously requested minimum rulings 009, 024, 049, 050 and 051 are now approved and integrated.
+The narrow Frag Grenade save gap is now resolved by item-specific PHB-RULE-059. **No mandatory ruling blocks the validated narrow creation path.**
 
-The narrow Veteran proof still requires a source-supported answer: **what happens on a successful Dexterity save against a Frag Grenade?** PDF 47 gives 3d6 piercing and the save but no success consequence. Do not assume half damage from another weapon or game.
-
-The full catalogue still needs Origin/rarity rulings 001–007 plus applicable conditional rulings. See [current readiness](PHB_MINIMUM_RULINGS_REPORT.md).
+PHB-RULE-018 remains unresolved for generic Blast. The original catalogue checklist still has 31 unanswered decisions. Multi-target grenade damage-roll sharing is separately deferred to encounter execution and must not receive an invented default. See [current readiness](PHB_FRAG_GATE_REPORT.md).

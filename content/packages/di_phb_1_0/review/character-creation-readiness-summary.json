@@ -1,26 +1,26 @@
 {
-  "rulingsIntegrated": [
-    "PHB-RULE-009",
-    "PHB-RULE-024",
-    "PHB-RULE-049",
-    "PHB-RULE-050",
-    "PHB-RULE-051"
-  ],
-  "remainingUnresolved": 31,
+  "itemRulingIntegrated": "PHB-RULE-059",
+  "originalApprovedRulings": 5,
+  "additionalApprovedItemRulings": 1,
+  "originalUnresolvedRulings": 31,
+  "genericBlast": "UNRESOLVED",
   "canonicalRecords": 948,
   "candidateCount": 310,
-  "promotedCandidates": 23,
-  "newCanonicalRecords": 74,
   "manualEntries": 692,
-  "contentTestsPassed": 81,
-  "narrowProof": "INCOMPLETE",
-  "coreCalculatedProfile": "PASS",
-  "rollDefinitions": 8,
-  "narrowCreationReadiness": "BLOCKED",
-  "fullLevel1To3Catalogue": "BLOCKED",
+  "contentTestsPassed": 93,
+  "narrowProof": "PLAYABLE_WITH_MANUAL_RULES",
+  "narrowBuilderData": "READY_WITH_MANUAL_RULES",
+  "fullCatalogue": "BLOCKED",
   "rulesEngine": "PARTIAL",
   "diceEngine": "PARTIAL",
+  "rollDefinitions": 11,
   "docker": "UNVERIFIED",
-  "applicationTests": "ENVIRONMENT_BLOCKED",
-  "remainingNarrowSourceGap": "Frag Grenade successful-save consequence is unspecified on PDF 47; this is not resolved by the five approvals."
+  "dockerNote": "Previous environmental buildx/Desktop failures retained; not rerun in this pass.",
+  "creationBlockers": [],
+  "runtimeDeferred": [
+    "multiTargetDamageRollPolicy",
+    "runtimeActionTransactions",
+    "authoritativeContextAndOwnership",
+    "publishedRulesetLock"
+  ]
 }
