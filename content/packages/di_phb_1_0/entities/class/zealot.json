@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "di.class.zealot",
+  "kind": "class",
+  "revision": 1,
+  "name": "Zealot",
+  "summary": "11.2 Zealot Fanatic, martyr, firebrand, preacher, and close-combat executioner. Allowed Species: Human. Hit Die: d10. Primary Abilities: Strength or Dexterity, Charisma or Wisdom. Saving Throws: Strength, Charisma. Armour: Light, medium, flak, carapace. Weapons: Simple weapons, martial melee weapons, pistols, flamers, and chain weapons.",
+  "descriptionMarkdown": "11.2 Zealot\nFanatic, martyr, firebrand, preacher, and close-combat executioner.\nAllowed Species: Human.\nHit Die: d10.\nPrimary Abilities: Strength or Dexterity, Charisma or Wisdom.\nSaving Throws: Strength, Charisma.\nArmour: Light, medium, flak, carapace.\nWeapons: Simple weapons, martial melee weapons, pistols, flamers, and chain weapons.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.2",
+        "heading": "Zealot",
+        "pdfPage": 53,
+        "printedPage": 40
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "features": [
+      {
+        "id": "di.feature.class.zealot.training"
+      }
+    ],
+    "progression": {
+      "id": "di.progression.zealot"
+    },
+    "requirements": {
+      "kind": "selected",
+      "content": {
+        "id": "di.species.human"
+      }
+    }
+  }
+}

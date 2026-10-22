@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_19_1",
+  "kind": "rule",
+  "revision": 1,
+  "name": "When to Use a Lasting Injury",
+  "summary": "● A character survives catastrophic damage or a narrative injury that clearly exceeds normal hit-point loss. ● A character is reduced to 0 HP by a critical hit, and the GM has announced that the encounter can cause lasting injuries. ● A disease, toxin, environmental hazard or boss ability explicitly calls for a lasting injury check. ● The player chooses an injury as the consequence of surviving an otherwise fatal situation. Do not impose permanent disfigurement, limb loss or involuntary cyber...",
+  "descriptionMarkdown": "● A character survives catastrophic damage or a narrative \ninjury that clearly exceeds normal hit-point loss.\n● A character is reduced to 0 HP by a critical hit, and the \nGM has announced that the encounter can cause \nlasting injuries.\n● A disease, toxin, environmental hazard or boss ability \nexplicitly calls for a lasting injury check.\n● The player chooses an injury as the consequence of \nsurviving an otherwise fatal situation.\nDo not impose permanent disfigurement, limb loss or \ninvoluntary cybernetics as a hidden consequence of one \nroll. Those outcomes should be discussed with the \naffected player.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "19.1",
+        "heading": "When to Use a Lasting Injury",
+        "pdfPage": 110,
+        "printedPage": 97
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "● A character survives catastrophic damage or a narrative \ninjury that clearly exceeds normal hit-point loss.\n● A character is reduced to 0 HP by a critical hit, and the \nGM has announced that the encounter can cause \nlasting injuries.\n● A disease, toxin, environmental hazard or boss ability \nexplicitly calls for a lasting injury check.\n● The player chooses an injury as the consequence of \nsurviving an otherwise fatal situation.\nDo not impose permanent disfigurement, limb loss or \ninvoluntary cybernetics as a hidden consequence of one \nroll. Those outcomes should be discussed with the \naffected player.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

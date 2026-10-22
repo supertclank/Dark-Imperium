@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.sanctioning_scars",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Sanctioning Scars",
+  "summary": "Talent: Sanctioning Scars Requirement: Human Psyker Benefit: When you trigger Perils, reduce the psychic damage you take from that Peril’s result by your proficiency bonus.",
+  "descriptionMarkdown": "Talent: Sanctioning Scars\nRequirement: Human Psyker\nBenefit: When you trigger Perils, reduce the psychic damage you take from that Peril’s result by your proficiency bonus.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Sanctioning Scars",
+        "pdfPage": 87,
+        "printedPage": 74
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Sanctioning Scars\nRequirement: Human Psyker\nBenefit: When you trigger Perils, reduce the psychic damage you take from that Peril’s result by your proficiency bonus.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_15_4_1",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Warp Static",
+  "summary": "You take 1d6 psychic damage and cannot take reactions until your next turn.",
+  "descriptionMarkdown": "You take 1d6 psychic damage and cannot take reactions \nuntil your next turn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "15.4.1",
+        "heading": "Warp Static",
+        "pdfPage": 95,
+        "printedPage": 82
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "perils",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "You take 1d6 psychic damage and cannot take reactions \nuntil your next turn.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

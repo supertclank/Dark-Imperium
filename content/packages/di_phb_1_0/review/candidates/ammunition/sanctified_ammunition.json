@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.ammunition.sanctified_ammunition",
+  "kind": "ammunition",
+  "name": "Sanctified Ammunition",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Ammunition: Sanctified Ammunition; Availability: Rare; Effect: On a hit against a daemon, Warp-Born creature or explicitly corrupted target, add +1d4 radiant damage.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Sanctified Ammunition",
+          "pdfPage": 105,
+          "printedPage": 92
+        }
+      }
+    }
+  ]
+}

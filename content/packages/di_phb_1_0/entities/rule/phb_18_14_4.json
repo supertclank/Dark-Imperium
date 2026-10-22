@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_18_14_4",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Faction Relics",
+  "summary": "Faction relics are named or storied objects. Their provenance matters as much as their rules: carrying one can create authority, suspicion, obligations or enemies. Relic Availability Effect The Last Light - Imperial Near-Unique Lasgun: 1d10 radiant; 100/300 ft; Accurate, Armour-Breaking, Reload 30. Once per short rest on a hit, choose a second creature directly behind the target within 30 ft; if the original attack roll would hit it, it takes 1d10 radiant damage. Bulwark of Saint Drusus - Imp...",
+  "descriptionMarkdown": "Faction relics are named or storied objects. Their provenance matters as much as their rules: carrying one can create \nauthority, suspicion, obligations or enemies.\nRelic Availability Effect\nThe Last Light - Imperial Near-Unique\nLasgun: 1d10 radiant; 100/300 ft; Accurate, Armour-Breaking, Reload 30. \nOnce per short rest on a hit, choose a second creature directly behind the \ntarget within 30 ft; if the original attack roll would hit it, it takes 1d10 radiant \ndamage.\nBulwark of Saint Drusus - Imperial Near-Unique\nRefractor relic. Once per short rest, reaction to reduce damage to you by \n2d8 + proficiency bonus; allies within 5 ft reduce the same instance of area \ndamage by your proficiency bonus. Burden: Ecclesiarchal or Inquisitorial \nownership is likely.\nMartyr's Censer - Imperial Exceptional\nOnce per long rest as an action, for 1 minute, allies within 15 ft have \nadvantage on fear and Corruption saves. Daemons and explicitly corrupted \ncreatures that start their turn in the aura take radiant damage equal to your \nproficiency bonus.\nArc of the Reductor - Mechanicus Near-Unique\nArc rifle: 2d8 lightning; 80/240 ft; Shock, Armour-Breaking, Mechanicus, \nReload 8. Once per short rest, a hit against a machine, vehicle or structure \nbecomes a critical hit.\nOmnissian Data-Relic - \nMechanicus Near-Unique\nWhile interfaced, gain +1 to Technology checks and advantage to identify \nMechanicus systems. Once per short rest, reroll a failed Technology check. \nBurden: the Cult Mechanicus regards the device as institutional property.\nBig Lug's Door - Ogryn Near-Unique\n+2 AC; Ogryn only; counts as a Slab Shield. If you did not move this turn, \none Small or Medium ally directly behind you has Full Cover. Once per \nshort rest when a ranged attack misses you, move 5 ft toward the attacker \nwithout provoking opportunity attacks.\nRelic Availability Effect\nGrutt's Lucky Club - Ogryn Exceptional\n2d6 bludgeoning; Melee; Ogryn, Heavy, Brutal. Once per short rest when \nyou miss with it, reroll the attack. If the reroll hits a Large or smaller target, it \nmust pass a Strength save or be pushed 10 ft.\nAncestor-Wrought Rail Rifle - Kin Near-Unique\n2d10 force; 150/450 ft; Accurate, Heavy, Armour-Breaking, Reload 2. Once \nper short rest, one attack ignores Light and Heavy Cover and one source of \nresistance to its weapon damage.\nOathplate of the First Claim - Kin Near-Unique\nAC 17, max Dex +1; Kin only; no Speed penalty. Once per short rest, \nignore one effect that would shove, knock you prone, or reduce your Speed. \nAllies within 5 ft gain +1 to saves against forced movement while you are \nconscious.\nGhosthelm of the Wandering Seer \n- Aeldari Near-Unique\nAeldari Warlock or GM-approved Psyker. Once per long rest when Perils \ntrigger, treat the severity result as Warp Static. After resolving it, reduce \nyour Warp Pressure by your proficiency bonus, minimum 0.\nStarfall Long Rifle - Aeldari Near-Unique\n1d10 piercing; 180/720 ft; Accurate, Silent, Monomolecular, Reload 6. If you \nare Hidden and did not move this turn, attacks with it score a critical hit on \n19-20. Once per short rest, ignore Heavy Cover on one attack.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "18.14.4",
+        "heading": "Faction Relics",
+        "pdfPage": 107,
+        "printedPage": 94
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Faction relics are named or storied objects. Their provenance matters as much as their rules: carrying one can create \nauthority, suspicion, obligations or enemies.\nRelic Availability Effect\nThe Last Light - Imperial Near-Unique\nLasgun: 1d10 radiant; 100/300 ft; Accurate, Armour-Breaking, Reload 30. \nOnce per short rest on a hit, choose a second creature directly behind the \ntarget within 30 ft; if the original attack roll would hit it, it takes 1d10 radiant \ndamage.\nBulwark of Saint Drusus - Imperial Near-Unique\nRefractor relic. Once per short rest, reaction to reduce damage to you by \n2d8 + proficiency bonus; allies within 5 ft reduce the same instance of area \ndamage by your proficiency bonus. Burden: Ecclesiarchal or Inquisitorial \nownership is likely.\nMartyr's Censer - Imperial Exceptional\nOnce per long rest as an action, for 1 minute, allies within 15 ft have \nadvantage on fear and Corruption saves. Daemons and explicitly corrupted \ncreatures that start their turn in the aura take radiant damage equal to your \nproficiency bonus.\nArc of the Reductor - Mechanicus Near-Unique\nArc rifle: 2d8 lightning; 80/240 ft; Shock, Armour-Breaking, Mechanicus, \nReload 8. Once per short rest, a hit against a machine, vehicle or structure \nbecomes a critical hit.\nOmnissian Data-Relic - \nMechanicus Near-Unique\nWhile interfaced, gain +1 to Technology checks and advantage to identify \nMechanicus systems. Once per short rest, reroll a failed Technology check. \nBurden: the Cult Mechanicus regards the device as institutional property.\nBig Lug's Door - Ogryn Near-Unique\n+2 AC; Ogryn only; counts as a Slab Shield. If you did not move this turn, \none Small or Medium ally directly behind you has Full Cover. Once per \nshort rest when a ranged attack misses you, move 5 ft toward the attacker \nwithout provoking opportunity attacks.\nRelic Availability Effect\nGrutt's Lucky Club - Ogryn Exceptional\n2d6 bludgeoning; Melee; Ogryn, Heavy, Brutal. Once per short rest when \nyou miss with it, reroll the attack. If the reroll hits a Large or smaller target, it \nmust pass a Strength save or be pushed 10 ft.\nAncestor-Wrought Rail Rifle - Kin Near-Unique\n2d10 force; 150/450 ft; Accurate, Heavy, Armour-Breaking, Reload 2. Once \nper short rest, one attack ignores Light and Heavy Cover and one source of \nresistance to its weapon damage.\nOathplate of the First Claim - Kin Near-Unique\nAC 17, max Dex +1; Kin only; no Speed penalty. Once per short rest, \nignore one effect that would shove, knock you prone, or reduce your Speed. \nAllies within 5 ft gain +1 to saves against forced movement while you are \nconscious.\nGhosthelm of the Wandering Seer \n- Aeldari Near-Unique\nAeldari Warlock or GM-approved Psyker. Once per long rest when Perils \ntrigger, treat the severity result as Warp Static. After resolving it, reduce \nyour Warp Pressure by your proficiency bonus, minimum 0.\nStarfall Long Rifle - Aeldari Near-Unique\n1d10 piercing; 180/720 ft; Accurate, Silent, Monomolecular, Reload 6. If you \nare Hidden and did not move this turn, attacks with it score a critical hit on \n19-20. Once per short rest, ignore Heavy Cover on one attack.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

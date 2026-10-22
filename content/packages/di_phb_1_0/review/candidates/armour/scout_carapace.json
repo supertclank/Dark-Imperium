@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.armour.scout_carapace",
+  "kind": "armour",
+  "name": "Scout Carapace",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-007"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "AC: 14 + Dex modifier, max +3; Lighter carapace plates for scouts and infiltrators.; Availability: Controlled",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "9",
+          "heading": "Scout Carapace",
+          "pdfPage": 42,
+          "printedPage": 29
+        }
+      }
+    }
+  ]
+}

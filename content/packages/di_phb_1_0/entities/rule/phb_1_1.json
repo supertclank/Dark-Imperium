@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_1_1",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Design Goals",
+  "summary": "● Brutal but heroic. ● Tactical without becoming simulation-heavy. ● Grimdark without making player choices meaningless. ● Built around ranged combat, cover, faith, corruption and dangerous psychic power. ● Playable with mixed warbands of soldiers, zealots, psykers, abhumans, enforcers, scum and Mechanicus operatives. ● Fast enough to run at a normal tabletop while still making equipment and battlefield position matter.",
+  "descriptionMarkdown": "● Brutal but heroic.\n● Tactical without becoming simulation-heavy.\n● Grimdark without making player choices meaningless.\n● Built around ranged combat, cover, faith, corruption and dangerous psychic power.\n● Playable with mixed warbands of soldiers, zealots, psykers, abhumans, enforcers, scum and Mechanicus operatives.\n● Fast enough to run at a normal tabletop while still making equipment and battlefield position matter.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "1.1",
+        "heading": "Design Goals",
+        "pdfPage": 15,
+        "printedPage": 2
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "● Brutal but heroic.\n● Tactical without becoming simulation-heavy.\n● Grimdark without making player choices meaningless.\n● Built around ranged combat, cover, faith, corruption and dangerous psychic power.\n● Playable with mixed warbands of soldiers, zealots, psykers, abhumans, enforcers, scum and Mechanicus operatives.\n● Fast enough to run at a normal tabletop while still making equipment and battlefield position matter.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

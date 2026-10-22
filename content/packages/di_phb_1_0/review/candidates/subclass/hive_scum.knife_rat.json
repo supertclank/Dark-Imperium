@@ -1,0 +1,30 @@
+{
+  "proposedId": "di.subclass.hive_scum.knife_rat",
+  "kind": "subclass",
+  "name": "Knife Rat",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-012"
+  ],
+  "proposedData": {
+    "parentClass": {
+      "id": "di.class.hive_scum"
+    }
+  },
+  "evidence": [
+    {
+      "text": "Knife Rat; Your melee attacks with light weapons score a critical hit on 19- 20.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "11.6",
+          "heading": "Knife Rat",
+          "pdfPage": 65,
+          "printedPage": 52
+        }
+      }
+    }
+  ]
+}

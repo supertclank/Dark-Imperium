@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.weapon.wargear.grutts_lucky_club_ogryn",
+  "kind": "weapon",
+  "name": "Grutt's Lucky Club - Ogryn",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Relic: Grutt's Lucky Club - Ogryn; Availability: Exceptional; Effect: 2d6 bludgeoning; Melee; Ogryn, Heavy, Brutal. Once per short rest when you miss with it, reroll the attack. If the reroll hits a Large or smaller target, it must pass a Strength save or be pushed 10 ft.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Grutt's Lucky Club - Ogryn",
+          "pdfPage": 108,
+          "printedPage": 95
+        }
+      }
+    }
+  ]
+}

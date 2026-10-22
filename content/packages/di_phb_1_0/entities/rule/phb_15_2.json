@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_15_2",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Reducing Warp Pressure",
+  "summary": "Method Effect Short rest Reduce Warp Pressure to 0. Long rest Reduce Warp Pressure to 0. Vent as an action Make a DC 12 Wisdom save. On success, reduce Warp Pressure by 1d4 + proficiency bonus. On failure, reduce it by 1 and take 1d6 psychic damage. Kill with Focused Rupture Reduce Warp Pressure by 1. Stabilising Focus Reduce Warp Pressure by 1 once per short rest.",
+  "descriptionMarkdown": "Method Effect\nShort rest Reduce Warp Pressure to 0.\nLong rest Reduce Warp Pressure to 0.\nVent as an \naction\nMake a DC 12 Wisdom save. On success, \nreduce Warp Pressure by 1d4 + proficiency \nbonus. On failure, reduce it by 1 and take \n1d6 psychic damage.\nKill with \nFocused \nRupture\nReduce Warp Pressure by 1.\nStabilising \nFocus\nReduce Warp Pressure by 1 once per short \nrest.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "15.2",
+        "heading": "Reducing Warp Pressure",
+        "pdfPage": 95,
+        "printedPage": 82
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "perils",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Method Effect\nShort rest Reduce Warp Pressure to 0.\nLong rest Reduce Warp Pressure to 0.\nVent as an \naction\nMake a DC 12 Wisdom save. On success, \nreduce Warp Pressure by 1d4 + proficiency \nbonus. On failure, reduce it by 1 and take \n1d6 psychic damage.\nKill with \nFocused \nRupture\nReduce Warp Pressure by 1.\nStabilising \nFocus\nReduce Warp Pressure by 1 once per short \nrest.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

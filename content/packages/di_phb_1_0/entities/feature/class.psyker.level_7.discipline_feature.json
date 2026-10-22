@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.psyker.level_7.discipline_feature",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Discipline Feature",
+  "summary": "Discipline Feature Biomancer Your healing powers also end one minor bleeding or poison effect. Telekine Your forced movement increases by 5 ft. Diviner When you use a reaction power, you may move 5 ft without provoking opportunity attacks. Pyromancer Creatures damaged by your Pyromancy powers cannot benefit from invisibility until your next turn. Malefic-Touched When you frighten a creature with a Malefic power, you gain temporary HP equal to your proficiency bonus. Blank / Null-Bound When yo...",
+  "descriptionMarkdown": "Discipline Feature\nBiomancer Your healing powers also end one \nminor bleeding or poison effect.\nTelekine Your forced movement increases \nby 5 ft.\nDiviner\nWhen you use a reaction power, \nyou may move 5 ft without \nprovoking opportunity attacks.\nPyromancer\nCreatures damaged by your \nPyromancy powers cannot benefit \nfrom invisibility until your next turn.\nMalefic-Touched\nWhen you frighten a creature with \na Malefic power, you gain \ntemporary HP equal to your \nproficiency bonus.\nBlank / Null-Bound\nWhen you reduce psychic damage \nor resist a psychic effect, one \nhostile psyker or daemon within 30 \nft has disadvantage on its next \nWisdom or Charisma saving throw \nbefore the end of your next turn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.3.7",
+        "heading": "Discipline Feature",
+        "pdfPage": 57,
+        "printedPage": 44
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Discipline Feature\nBiomancer Your healing powers also end one \nminor bleeding or poison effect.\nTelekine Your forced movement increases \nby 5 ft.\nDiviner\nWhen you use a reaction power, \nyou may move 5 ft without \nprovoking opportunity attacks.\nPyromancer\nCreatures damaged by your \nPyromancy powers cannot benefit \nfrom invisibility until your next turn.\nMalefic-Touched\nWhen you frighten a creature with \na Malefic power, you gain \ntemporary HP equal to your \nproficiency bonus.\nBlank / Null-Bound\nWhen you reduce psychic damage \nor resist a psychic effect, one \nhostile psyker or daemon within 30 \nft has disadvantage on its next \nWisdom or Charisma saving throw \nbefore the end of your next turn.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

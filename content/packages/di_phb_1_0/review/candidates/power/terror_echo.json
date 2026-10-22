@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.terror_echo",
+  "kind": "power",
+  "name": "Terror Echo",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Terror Echo; Tag: Malefic; Rule: Action. Range 60 ft. Wisdom save. Failure: frightened until the end of the next turn and takes 2d6 psychic damage.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Terror Echo",
+          "pdfPage": 92,
+          "printedPage": 79
+        }
+      }
+    }
+  ]
+}

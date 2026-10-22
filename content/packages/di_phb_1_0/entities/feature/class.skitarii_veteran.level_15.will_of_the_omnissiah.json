@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.skitarii_veteran.level_15.will_of_the_omnissiah",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Will of the Omnissiah",
+  "summary": "Once per long rest, enter a perfect doctrinal state for 1 minute. During this time, Targeting Protocol does not expend uses, but you may only have one target marked at a time.",
+  "descriptionMarkdown": "Once per long rest, enter a perfect doctrinal state for 1 \nminute. During this time, Targeting Protocol does\nnot expend uses, but you may only have one target \nmarked at a time.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.8.15",
+        "heading": "Will of the Omnissiah",
+        "pdfPage": 72,
+        "printedPage": 59
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per long rest, enter a perfect doctrinal state for 1 \nminute. During this time, Targeting Protocol does\nnot expend uses, but you may only have one target \nmarked at a time.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

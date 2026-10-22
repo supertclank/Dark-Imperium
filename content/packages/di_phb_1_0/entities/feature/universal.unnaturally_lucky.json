@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.universal.unnaturally_lucky",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Unnaturally Lucky",
+  "summary": "Trait: Unnaturally Lucky Effect: Once per long rest, reroll any d20 roll. You must use the new result.",
+  "descriptionMarkdown": "Trait: Unnaturally Lucky\nEffect: Once per long rest, reroll any d20 roll. You must use the new result.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "5",
+        "heading": "Unnaturally Lucky",
+        "pdfPage": 29,
+        "printedPage": 16
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "general",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Trait: Unnaturally Lucky\nEffect: Once per long rest, reroll any d20 roll. You must use the new result.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

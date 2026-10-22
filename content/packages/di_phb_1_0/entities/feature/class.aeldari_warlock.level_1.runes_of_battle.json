@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.aeldari_warlock.level_1.runes_of_battle",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Runes of Battle",
+  "summary": "You learn psychic powers from the Universal, Divination, Telekinesis, and Warlock power lists. You may learn Pyromancy only if the GM allows a destructive battle-seer interpretation. You cannot learn Malefic powers. The Aeldari Warlock level table lists your Minor, Standard, and Major powers known. You learn powers from your allowed lists as you gain levels.",
+  "descriptionMarkdown": "You learn psychic powers from the Universal, Divination, \nTelekinesis, and Warlock power lists. You may\nlearn Pyromancy only if the GM allows a destructive \nbattle-seer interpretation. You cannot learn\nMalefic powers.\nThe Aeldari Warlock level table lists your Minor, \nStandard, and Major powers known. You learn powers\nfrom your allowed lists as you gain levels.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.12.1",
+        "heading": "Runes of Battle",
+        "pdfPage": 83,
+        "printedPage": 70
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "You learn psychic powers from the Universal, Divination, \nTelekinesis, and Warlock power lists. You may\nlearn Pyromancy only if the GM allows a destructive \nbattle-seer interpretation. You cannot learn\nMalefic powers.\nThe Aeldari Warlock level table lists your Minor, \nStandard, and Major powers known. You learn powers\nfrom your allowed lists as you gain levels.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

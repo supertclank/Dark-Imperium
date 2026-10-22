@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.universal.augmetic_scarred",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Augmetic Scarred",
+  "summary": "Trait: Augmetic Scarred Effect: Gain one minor augmetic upgrade. You suffer disadvantage on Persuasion checks with groups that distrust obvious cybernetics.",
+  "descriptionMarkdown": "Trait: Augmetic Scarred\nEffect: Gain one minor augmetic upgrade. You suffer disadvantage on Persuasion checks with groups that distrust obvious cybernetics.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "5",
+        "heading": "Augmetic Scarred",
+        "pdfPage": 29,
+        "printedPage": 16
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "general",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Trait: Augmetic Scarred\nEffect: Gain one minor augmetic upgrade. You suffer disadvantage on Persuasion checks with groups that distrust obvious cybernetics.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

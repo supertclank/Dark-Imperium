@@ -1,0 +1,45 @@
+{
+  "proposedId": "di.vehicle.civilian_autocar",
+  "kind": "vehicle",
+  "name": "Civilian Autocar",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-010"
+  ],
+  "proposedData": {
+    "size": "large",
+    "defence": {
+      "kind": "constant",
+      "value": 12
+    },
+    "hull": {
+      "kind": "constant",
+      "value": 35
+    },
+    "movement": [
+      {
+        "mode": "ground",
+        "speed": {
+          "value": 60,
+          "unit": "ft"
+        }
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "text": "Civilian Autocar\nLarge wheeled vehicle\nAC 12 | HP 35 | DT 0 | Speed 60 ft | Handling +1\nCrew 1 D | Passengers 3 | Cargo 250 kg | Controlled\nWeapons: none. Enclosed. A hive taxi, route-car or staff car. No firing ports; occupants must open a window or hatch \nto attack. Suits maintained roads and broad service tunnels.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "21.10",
+          "heading": "Civilian Autocar",
+          "pdfPage": 119,
+          "printedPage": 106
+        }
+      }
+    }
+  ]
+}

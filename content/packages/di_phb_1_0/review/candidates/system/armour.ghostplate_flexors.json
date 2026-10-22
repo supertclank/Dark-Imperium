@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.system.armour.ghostplate_flexors",
+  "kind": "system",
+  "name": "Ghostplate Flexors",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Modification: Ghostplate Flexors; Availability: Rare; Effect: Aspect-Pattern Armour or Rune Armour only. Once per short rest, when an attack misses you, move 5 ft without provoking opportunity attacks.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "9",
+          "heading": "Ghostplate Flexors",
+          "pdfPage": 45,
+          "printedPage": 32
+        }
+      }
+    }
+  ]
+}

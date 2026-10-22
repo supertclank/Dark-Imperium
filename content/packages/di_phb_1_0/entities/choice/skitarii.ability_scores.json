@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "di.choice.skitarii.ability_scores",
+  "kind": "choice",
+  "revision": 1,
+  "name": "Skitarii Augmented Human ability score choice",
+  "summary": "Skitarii Augmented Human ability score choice",
+  "descriptionMarkdown": "Skitarii Augmented Human ability score choice",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "3.4",
+        "heading": "Skitarii Augmented Human ability score choice",
+        "pdfPage": 23,
+        "printedPage": 10
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "purpose": "attribute",
+    "selectionMode": "options",
+    "cardinality": {
+      "min": 1,
+      "max": 1,
+      "unique": true
+    },
+    "repeatScope": "once_per_actor",
+    "options": [
+      {
+        "id": "dexterity",
+        "label": "dexterity +2",
+        "grants": [
+          {
+            "id": "increase",
+            "kind": "attribute_increase",
+            "attributeKey": "dexterity",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "id": "intelligence",
+        "label": "intelligence +2",
+        "grants": [
+          {
+            "id": "increase",
+            "kind": "attribute_increase",
+            "attributeKey": "intelligence",
+            "amount": 2
+          }
+        ]
+      }
+    ]
+  }
+}

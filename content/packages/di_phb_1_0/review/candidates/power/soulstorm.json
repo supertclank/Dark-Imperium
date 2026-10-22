@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.soulstorm",
+  "kind": "power",
+  "name": "Soulstorm",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Soulstorm; Tag: Pyromancy; Rule: Action. 20-ft radius within 90 ft. Dexterity save. Failure: 4d6 fire/radiant damage and burning ground for 1 minute; success:s half.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Soulstorm",
+          "pdfPage": 93,
+          "printedPage": 80
+        }
+      }
+    }
+  ]
+}

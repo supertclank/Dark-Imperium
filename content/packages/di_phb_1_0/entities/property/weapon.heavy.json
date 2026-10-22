@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "di.property.weapon.heavy",
+  "kind": "property",
+  "revision": 1,
+  "name": "Heavy",
+  "summary": "Requires Strength 15 or relevant training. Moving before firing may impose disadvantage.",
+  "descriptionMarkdown": "Requires Strength 15 or relevant training. Moving before firing may impose disadvantage.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "7",
+        "heading": "Heavy",
+        "pdfPage": 35,
+        "printedPage": 22
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "appliesToKinds": [
+      "weapon"
+    ],
+    "parameters": [],
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Requires Strength 15 or relevant training. Moving before firing may impose disadvantage.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

@@ -1,0 +1,576 @@
+{
+  "schemaVersion": 1,
+  "id": "di.choice.human.ability_scores",
+  "kind": "choice",
+  "revision": 1,
+  "name": "Human ability score increases",
+  "summary": "Human ability score increases",
+  "descriptionMarkdown": "Human ability score increases",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "3.1",
+        "heading": "Human ability score increases",
+        "pdfPage": 23,
+        "printedPage": 10
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "purpose": "attribute",
+    "selectionMode": "options",
+    "cardinality": {
+      "min": 1,
+      "max": 1,
+      "unique": true
+    },
+    "repeatScope": "once_per_actor",
+    "options": [
+      {
+        "id": "strength_dexterity",
+        "label": "strength +2; dexterity +1",
+        "grants": [
+          {
+            "id": "primary",
+            "kind": "attribute_increase",
+            "attributeKey": "strength",
+            "amount": 2
+          },
+          {
+            "id": "secondary",
+            "kind": "attribute_increase",
+            "attributeKey": "dexterity",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "id": "strength_constitution",
+        "label": "strength +2; constitution +1",
+        "grants": [
+          {
+            "id": "primary",
+            "kind": "attribute_increase",
+            "attributeKey": "strength",
+            "amount": 2
+          },
+          {
+            "id": "secondary",
+            "kind": "attribute_increase",
+            "attributeKey": "constitution",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "id": "strength_intelligence",
+        "label": "strength +2; intelligence +1",
+        "grants": [
+          {
+            "id": "primary",
+            "kind": "attribute_increase",
+            "attributeKey": "strength",
+            "amount": 2
+          },
+          {
+            "id": "secondary",
+            "kind": "attribute_increase",
+            "attributeKey": "intelligence",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "id": "strength_wisdom",
+        "label": "strength +2; wisdom +1",
+        "grants": [
+          {
+            "id": "primary",
+            "kind": "attribute_increase",
+            "attributeKey": "strength",
+            "amount": 2
+          },
+          {
+            "id": "secondary",
+            "kind": "attribute_increase",
+            "attributeKey": "wisdom",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "id": "strength_charisma",
+        "label": "strength +2; charisma +1",
+        "grants": [
+          {
+            "id": "primary",
+            "kind": "attribute_increase",
+            "attributeKey": "strength",
+            "amount": 2
+          },
+          {
+            "id": "secondary",
+            "kind": "attribute_increase",
+            "attributeKey": "charisma",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "id": "dexterity_strength",
+        "label": "dexterity +2; strength +1",
+        "grants": [
+          {
+            "id": "primary",
+            "kind": "attribute_increase",
+            "attributeKey": "dexterity",
+            "amount": 2
+          },
+          {
+            "id": "secondary",
+            "kind": "attribute_increase",
+            "attributeKey": "strength",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "id": "dexterity_constitution",
+        "label": "dexterity +2; constitution +1",
+        "grants": [
+          {
+            "id": "primary",
+            "kind": "attribute_increase",
+            "attributeKey": "dexterity",
+            "amount": 2
+          },
+          {
+            "id": "secondary",
+            "kind": "attribute_increase",
+            "attributeKey": "constitution",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "id": "dexterity_intelligence",
+        "label": "dexterity +2; intelligence +1",
+        "grants": [
+          {
+            "id": "primary",
+            "kind": "attribute_increase",
+            "attributeKey": "dexterity",
+            "amount": 2
+          },
+          {
+            "id": "secondary",
+            "kind": "attribute_increase",
+            "attributeKey": "intelligence",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "id": "dexterity_wisdom",
+        "label": "dexterity +2; wisdom +1",
+        "grants": [
+          {
+            "id": "primary",
+            "kind": "attribute_increase",
+            "attributeKey": "dexterity",
+            "amount": 2
+          },
+          {
+            "id": "secondary",
+            "kind": "attribute_increase",
+            "attributeKey": "wisdom",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "id": "dexterity_charisma",
+        "label": "dexterity +2; charisma +1",
+        "grants": [
+          {
+            "id": "primary",
+            "kind": "attribute_increase",
+            "attributeKey": "dexterity",
+            "amount": 2
+          },
+          {
+            "id": "secondary",
+            "kind": "attribute_increase",
+            "attributeKey": "charisma",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "id": "constitution_strength",
+        "label": "constitution +2; strength +1",
+        "grants": [
+          {
+            "id": "primary",
+            "kind": "attribute_increase",
+            "attributeKey": "constitution",
+            "amount": 2
+          },
+          {
+            "id": "secondary",
+            "kind": "attribute_increase",
+            "attributeKey": "strength",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "id": "constitution_dexterity",
+        "label": "constitution +2; dexterity +1",
+        "grants": [
+          {
+            "id": "primary",
+            "kind": "attribute_increase",
+            "attributeKey": "constitution",
+            "amount": 2
+          },
+          {
+            "id": "secondary",
+            "kind": "attribute_increase",
+            "attributeKey": "dexterity",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "id": "constitution_intelligence",
+        "label": "constitution +2; intelligence +1",
+        "grants": [
+          {
+            "id": "primary",
+            "kind": "attribute_increase",
+            "attributeKey": "constitution",
+            "amount": 2
+          },
+          {
+            "id": "secondary",
+            "kind": "attribute_increase",
+            "attributeKey": "intelligence",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "id": "constitution_wisdom",
+        "label": "constitution +2; wisdom +1",
+        "grants": [
+          {
+            "id": "primary",
+            "kind": "attribute_increase",
+            "attributeKey": "constitution",
+            "amount": 2
+          },
+          {
+            "id": "secondary",
+            "kind": "attribute_increase",
+            "attributeKey": "wisdom",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "id": "constitution_charisma",
+        "label": "constitution +2; charisma +1",
+        "grants": [
+          {
+            "id": "primary",
+            "kind": "attribute_increase",
+            "attributeKey": "constitution",
+            "amount": 2
+          },
+          {
+            "id": "secondary",
+            "kind": "attribute_increase",
+            "attributeKey": "charisma",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "id": "intelligence_strength",
+        "label": "intelligence +2; strength +1",
+        "grants": [
+          {
+            "id": "primary",
+            "kind": "attribute_increase",
+            "attributeKey": "intelligence",
+            "amount": 2
+          },
+          {
+            "id": "secondary",
+            "kind": "attribute_increase",
+            "attributeKey": "strength",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "id": "intelligence_dexterity",
+        "label": "intelligence +2; dexterity +1",
+        "grants": [
+          {
+            "id": "primary",
+            "kind": "attribute_increase",
+            "attributeKey": "intelligence",
+            "amount": 2
+          },
+          {
+            "id": "secondary",
+            "kind": "attribute_increase",
+            "attributeKey": "dexterity",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "id": "intelligence_constitution",
+        "label": "intelligence +2; constitution +1",
+        "grants": [
+          {
+            "id": "primary",
+            "kind": "attribute_increase",
+            "attributeKey": "intelligence",
+            "amount": 2
+          },
+          {
+            "id": "secondary",
+            "kind": "attribute_increase",
+            "attributeKey": "constitution",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "id": "intelligence_wisdom",
+        "label": "intelligence +2; wisdom +1",
+        "grants": [
+          {
+            "id": "primary",
+            "kind": "attribute_increase",
+            "attributeKey": "intelligence",
+            "amount": 2
+          },
+          {
+            "id": "secondary",
+            "kind": "attribute_increase",
+            "attributeKey": "wisdom",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "id": "intelligence_charisma",
+        "label": "intelligence +2; charisma +1",
+        "grants": [
+          {
+            "id": "primary",
+            "kind": "attribute_increase",
+            "attributeKey": "intelligence",
+            "amount": 2
+          },
+          {
+            "id": "secondary",
+            "kind": "attribute_increase",
+            "attributeKey": "charisma",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "id": "wisdom_strength",
+        "label": "wisdom +2; strength +1",
+        "grants": [
+          {
+            "id": "primary",
+            "kind": "attribute_increase",
+            "attributeKey": "wisdom",
+            "amount": 2
+          },
+          {
+            "id": "secondary",
+            "kind": "attribute_increase",
+            "attributeKey": "strength",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "id": "wisdom_dexterity",
+        "label": "wisdom +2; dexterity +1",
+        "grants": [
+          {
+            "id": "primary",
+            "kind": "attribute_increase",
+            "attributeKey": "wisdom",
+            "amount": 2
+          },
+          {
+            "id": "secondary",
+            "kind": "attribute_increase",
+            "attributeKey": "dexterity",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "id": "wisdom_constitution",
+        "label": "wisdom +2; constitution +1",
+        "grants": [
+          {
+            "id": "primary",
+            "kind": "attribute_increase",
+            "attributeKey": "wisdom",
+            "amount": 2
+          },
+          {
+            "id": "secondary",
+            "kind": "attribute_increase",
+            "attributeKey": "constitution",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "id": "wisdom_intelligence",
+        "label": "wisdom +2; intelligence +1",
+        "grants": [
+          {
+            "id": "primary",
+            "kind": "attribute_increase",
+            "attributeKey": "wisdom",
+            "amount": 2
+          },
+          {
+            "id": "secondary",
+            "kind": "attribute_increase",
+            "attributeKey": "intelligence",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "id": "wisdom_charisma",
+        "label": "wisdom +2; charisma +1",
+        "grants": [
+          {
+            "id": "primary",
+            "kind": "attribute_increase",
+            "attributeKey": "wisdom",
+            "amount": 2
+          },
+          {
+            "id": "secondary",
+            "kind": "attribute_increase",
+            "attributeKey": "charisma",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "id": "charisma_strength",
+        "label": "charisma +2; strength +1",
+        "grants": [
+          {
+            "id": "primary",
+            "kind": "attribute_increase",
+            "attributeKey": "charisma",
+            "amount": 2
+          },
+          {
+            "id": "secondary",
+            "kind": "attribute_increase",
+            "attributeKey": "strength",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "id": "charisma_dexterity",
+        "label": "charisma +2; dexterity +1",
+        "grants": [
+          {
+            "id": "primary",
+            "kind": "attribute_increase",
+            "attributeKey": "charisma",
+            "amount": 2
+          },
+          {
+            "id": "secondary",
+            "kind": "attribute_increase",
+            "attributeKey": "dexterity",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "id": "charisma_constitution",
+        "label": "charisma +2; constitution +1",
+        "grants": [
+          {
+            "id": "primary",
+            "kind": "attribute_increase",
+            "attributeKey": "charisma",
+            "amount": 2
+          },
+          {
+            "id": "secondary",
+            "kind": "attribute_increase",
+            "attributeKey": "constitution",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "id": "charisma_intelligence",
+        "label": "charisma +2; intelligence +1",
+        "grants": [
+          {
+            "id": "primary",
+            "kind": "attribute_increase",
+            "attributeKey": "charisma",
+            "amount": 2
+          },
+          {
+            "id": "secondary",
+            "kind": "attribute_increase",
+            "attributeKey": "intelligence",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "id": "charisma_wisdom",
+        "label": "charisma +2; wisdom +1",
+        "grants": [
+          {
+            "id": "primary",
+            "kind": "attribute_increase",
+            "attributeKey": "charisma",
+            "amount": 2
+          },
+          {
+            "id": "secondary",
+            "kind": "attribute_increase",
+            "attributeKey": "wisdom",
+            "amount": 1
+          }
+        ]
+      }
+    ]
+  }
+}

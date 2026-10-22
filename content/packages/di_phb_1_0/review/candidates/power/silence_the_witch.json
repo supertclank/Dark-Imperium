@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.silence_the_witch",
+  "kind": "power",
+  "name": "Silence the Witch",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Silence the Witch; Tag: Null; Rule: Reaction. When a creature within 60 ft uses a psychic power, force it to make a Charisma save. On a failure, it adds +1d4 to any Perils severity roll caused by that power.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Silence the Witch",
+          "pdfPage": 92,
+          "printedPage": 79
+        }
+      }
+    }
+  ]
+}

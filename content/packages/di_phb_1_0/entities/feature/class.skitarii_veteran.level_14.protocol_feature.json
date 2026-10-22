@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.skitarii_veteran.level_14.protocol_feature",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Protocol Feature",
+  "summary": "Combat Protocol Feature Ranger Your first ranged hit each combat deals +2d6 damage if you did not move. Vanguard Creatures damaged by your rad or poison effects cannot regain hit points until your next turn. Protector When you use your reaction to protect an ally, reduce damage by your Intelligence modifier if the attack still hits. Data-Hunter Your identified target loses one resistance of the GM’s choice against the next damage it takes. Infiltrator When hidden from auspex or standard visio...",
+  "descriptionMarkdown": "Combat Protocol Feature\nRanger\nYour first ranged hit each combat \ndeals +2d6 damage if you did not \nmove.\nVanguard\nCreatures damaged by your rad or \npoison effects cannot regain hit \npoints until your next turn.\nProtector\nWhen you use your reaction to \nprotect an ally, reduce damage by \nyour Intelligence modifier if the \nattack still hits.\nData-Hunter\nYour identified target loses one \nresistance of the GM’s choice \nagainst the next damage it takes.\nInfiltrator\nWhen hidden from auspex or \nstandard vision, your next hit deals \n+1d8 damage.\nCombat Protocol Feature\nRuststalker\nYour melee critical hits disable \nreactions until the target’s next \nturn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.8.14",
+        "heading": "Protocol Feature",
+        "pdfPage": 72,
+        "printedPage": 59
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Combat Protocol Feature\nRanger\nYour first ranged hit each combat \ndeals +2d6 damage if you did not \nmove.\nVanguard\nCreatures damaged by your rad or \npoison effects cannot regain hit \npoints until your next turn.\nProtector\nWhen you use your reaction to \nprotect an ally, reduce damage by \nyour Intelligence modifier if the \nattack still hits.\nData-Hunter\nYour identified target loses one \nresistance of the GM’s choice \nagainst the next damage it takes.\nInfiltrator\nWhen hidden from auspex or \nstandard vision, your next hit deals \n+1d8 damage.\nCombat Protocol Feature\nRuststalker\nYour melee critical hits disable \nreactions until the target’s next \nturn.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

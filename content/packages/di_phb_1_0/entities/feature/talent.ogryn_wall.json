@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.ogryn_wall",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Ogryn Wall",
+  "summary": "Talent: Ogryn Wall Requirement: Ogryn Benefit: Allies behind you gain light cover while you are not incapacitated.",
+  "descriptionMarkdown": "Talent: Ogryn Wall\nRequirement: Ogryn\nBenefit: Allies behind you gain light cover while you are not incapacitated.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Ogryn Wall",
+        "pdfPage": 87,
+        "printedPage": 74
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Ogryn Wall\nRequirement: Ogryn\nBenefit: Allies behind you gain light cover while you are not incapacitated.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

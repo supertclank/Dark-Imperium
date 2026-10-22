@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.brawler",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Brawler",
+  "summary": "Talent: Brawler Benefit: Your unarmed strikes deal 1d6 damage, or 1d8 if both hands are free.",
+  "descriptionMarkdown": "Talent: Brawler\nBenefit: Your unarmed strikes deal 1d6 damage, or 1d8 if both hands are free.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Brawler",
+        "pdfPage": 86,
+        "printedPage": 73
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Brawler\nBenefit: Your unarmed strikes deal 1d6 damage, or 1d8 if both hands are free.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

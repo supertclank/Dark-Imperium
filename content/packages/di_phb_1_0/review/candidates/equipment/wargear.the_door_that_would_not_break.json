@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.wargear.the_door_that_would_not_break",
+  "kind": "equipment",
+  "name": "The Door That Would Not Break",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Unique Item: The Door That Would Not Break; Availability: Unique; Effect and Burden: +2 AC; Ogryn only; counts as a Slab Shield and has no Speed penalty. If you do not move, up to two Small or Medium allies directly behind you have Full Cover. Once per long rest, when a weapon attack hits you, reduce that attack's damage to 0. Burden: it is enormous and impossible to conceal.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "The Door That Would Not Break",
+          "pdfPage": 108,
+          "printedPage": 95
+        }
+      }
+    }
+  ]
+}

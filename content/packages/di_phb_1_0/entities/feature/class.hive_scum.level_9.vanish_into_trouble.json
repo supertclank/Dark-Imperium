@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.hive_scum.level_9.vanish_into_trouble",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Vanish into Trouble",
+  "summary": "Once per short rest, when you take damage, you may use your reaction to halve the damage and move up to 10 ft without provoking opportunity attacks.",
+  "descriptionMarkdown": "Once per short rest, when you take damage, you may \nuse your reaction to halve the damage and move\nup to 10 ft without provoking opportunity attacks.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.6.9",
+        "heading": "Vanish into Trouble",
+        "pdfPage": 65,
+        "printedPage": 52
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per short rest, when you take damage, you may \nuse your reaction to halve the damage and move\nup to 10 ft without provoking opportunity attacks.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

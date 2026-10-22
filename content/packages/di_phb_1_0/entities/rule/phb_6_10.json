@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_6_10",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Opportunity Attacks",
+  "summary": "When a hostile creature you can see leaves your melee reach using its own movement, you may use your reaction to make one melee weapon attack against it immediately before it leaves your reach. A creature that takes the Disengage action does not provoke opportunity attacks for the rest of that turn. Forced movement, teleportation and movement that does not use the creature's own Speed do not normally provoke opportunity attacks. Ranged weapons cannot normally make opportunity attacks unless a...",
+  "descriptionMarkdown": "When a hostile creature you can see leaves your melee reach using its own movement, you may use your reaction to \nmake one melee weapon attack against it immediately before it leaves your reach. A creature that takes the Disengage \naction does not provoke opportunity attacks for the rest of that turn. Forced movement, teleportation and movement \nthat does not use the creature's own Speed do not normally provoke opportunity attacks. Ranged weapons cannot \nnormally make opportunity attacks unless a feature specifically allows it.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "6.10",
+        "heading": "Opportunity Attacks",
+        "pdfPage": 32,
+        "printedPage": 19
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When a hostile creature you can see leaves your melee reach using its own movement, you may use your reaction to \nmake one melee weapon attack against it immediately before it leaves your reach. A creature that takes the Disengage \naction does not provoke opportunity attacks for the rest of that turn. Forced movement, teleportation and movement \nthat does not use the creature's own Speed do not normally provoke opportunity attacks. Ranged weapons cannot \nnormally make opportunity attacks unless a feature specifically allows it.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

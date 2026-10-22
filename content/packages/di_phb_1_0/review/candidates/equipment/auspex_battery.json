@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.auspex_battery",
+  "kind": "equipment",
+  "name": "Auspex Battery",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Item: Auspex Battery; Use: Action; Rule: Restore one expended use of an auspex/scanner or power it for one scene.; Availability: Issued",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "17",
+          "heading": "Auspex Battery",
+          "pdfPage": 101,
+          "printedPage": 88
+        }
+      }
+    }
+  ]
+}

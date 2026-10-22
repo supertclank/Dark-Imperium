@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_16_4",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Reducing Corruption",
+  "summary": "Corruption is deliberately difficult to remove. Major purification, exorcism, sacrifice, a factional favour, destruction of the source or a dedicated redemption mission may reduce Corruption by 1. Ordinary rests and medicine do not remove it.",
+  "descriptionMarkdown": "Corruption is deliberately difficult to remove. Major \npurification, exorcism, sacrifice, a factional favour, \ndestruction of the source or a dedicated redemption \nmission may reduce Corruption by 1. Ordinary rests and \nmedicine do not remove it.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "16.4",
+        "heading": "Reducing Corruption",
+        "pdfPage": 98,
+        "printedPage": 85
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Corruption is deliberately difficult to remove. Major \npurification, exorcism, sacrifice, a factional favour, \ndestruction of the source or a dedicated redemption \nmission may reduce Corruption by 1. Ordinary rests and \nmedicine do not remove it.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "di.class.kin_armsman",
+  "kind": "class",
+  "revision": 1,
+  "name": "Kin Armsman",
+  "summary": "11.9 Kin Armsman A Squat/Kin line fighter, oath-sworn guard, void mercenary, hold defender, or Hearthkyn-style warrior. Allowed Species: Squat/Kin only. Hit Die: d10. Primary Abilities: Constitution, Dexterity or Wisdom. Saving Throws: Constitution, Wisdom. Armour: Light, medium, Kin armour, void suits, exo-frame plate. Weapons: Pistols, basic firearms, Kin weapons, axes, hammers, grenades.",
+  "descriptionMarkdown": "11.9 Kin Armsman\nA Squat/Kin line fighter, oath-sworn guard, void mercenary, hold defender, or Hearthkyn-style warrior.\nAllowed Species: Squat/Kin only.\nHit Die: d10.\nPrimary Abilities: Constitution, Dexterity or Wisdom.\nSaving Throws: Constitution, Wisdom.\nArmour: Light, medium, Kin armour, void suits, exo-frame plate.\nWeapons: Pistols, basic firearms, Kin weapons, axes, hammers, grenades.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.9",
+        "heading": "Kin Armsman",
+        "pdfPage": 74,
+        "printedPage": 61
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "features": [
+      {
+        "id": "di.feature.class.kin_armsman.training"
+      }
+    ],
+    "progression": {
+      "id": "di.progression.kin_armsman"
+    },
+    "requirements": {
+      "kind": "selected",
+      "content": {
+        "id": "di.species.kin"
+      }
+    }
+  }
+}

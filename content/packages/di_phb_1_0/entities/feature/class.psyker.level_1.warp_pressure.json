@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.psyker.level_1.warp_pressure",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Warp Pressure",
+  "summary": "A Psyker has a score called Warp Pressure. Warp Pressure starts at 0. Whenever you use a psychic power, increase your Warp Pressure by that power’s cost. After resolving the power, roll a d20. If the result is equal to or lower than your current Warp Pressure, Perils of the Warp triggers. Example: ● Your Warp Pressure is 5. ● You cast Focused Rupture. ● Focused Rupture adds +2 Warp Pressure. ● Your Warp Pressure is now 7. ● You roll a d20. ● On a 1- 7, Perils trigger.",
+  "descriptionMarkdown": "A Psyker has a score called Warp Pressure.\nWarp Pressure starts at 0.\nWhenever you use a psychic power, increase your Warp \nPressure by that power’s cost.\nAfter resolving the power, roll a d20. If the result is equal \nto or lower than your current Warp Pressure,\nPerils of the Warp triggers.\nExample:\n● Your Warp Pressure is 5.\n● You cast Focused Rupture.\n● Focused Rupture adds +2 Warp Pressure.\n● Your Warp Pressure is now 7.\n● You roll a d20.\n● On a 1- 7, Perils trigger.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "15.1",
+        "heading": "Warp Pressure",
+        "pdfPage": 95,
+        "printedPage": 82
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "A Psyker has a score called Warp Pressure.\nWarp Pressure starts at 0.\nWhenever you use a psychic power, increase your Warp \nPressure by that power’s cost.\nAfter resolving the power, roll a d20. If the result is equal \nto or lower than your current Warp Pressure,\nPerils of the Warp triggers.\nExample:\n● Your Warp Pressure is 5.\n● You cast Focused Rupture.\n● Focused Rupture adds +2 Warp Pressure.\n● Your Warp Pressure is now 7.\n● You roll a d20.\n● On a 1- 7, Perils trigger.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "di.progression.subclass.veteran.shock_trooper",
+  "kind": "progression",
+  "revision": 1,
+  "name": "Shock Trooper progression",
+  "summary": "Regimental Doctrine at 3, improvements at 7 and 14.",
+  "descriptionMarkdown": "Regimental Doctrine at 3, improvements at 7 and 14.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.1",
+        "heading": "Shock Trooper progression",
+        "pdfPage": 50,
+        "printedPage": 37
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "axis": {
+      "kind": "class_level",
+      "class": {
+        "id": "di.class.veteran"
+      }
+    },
+    "maxLevel": 20,
+    "entries": [
+      {
+        "level": 3,
+        "grants": [
+          {
+            "id": "doctrine_3",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.subclass.veteran.shock_trooper.level_3"
+            }
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "grants": [
+          {
+            "id": "doctrine_7",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.subclass.veteran.shock_trooper.level_7"
+            }
+          }
+        ]
+      },
+      {
+        "level": 14,
+        "grants": [
+          {
+            "id": "doctrine_14",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.subclass.veteran.shock_trooper.level_14"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "di.skill.insight",
+  "kind": "skill",
+  "revision": 1,
+  "name": "Insight",
+  "summary": "Normal ability: wisdom. The GM may pair the skill with another ability when the approach changes.",
+  "descriptionMarkdown": "Normal ability: wisdom. The GM may pair the skill with another ability when the approach changes.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "2.5",
+        "heading": "Insight",
+        "pdfPage": 18,
+        "printedPage": 5
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "attributeKey": "wisdom"
+  }
+}

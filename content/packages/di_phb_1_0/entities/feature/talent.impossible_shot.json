@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.impossible_shot",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Impossible Shot",
+  "summary": "Talent: Impossible Shot Requirement: Ratling Benefit: Once per short rest, ignore cover on one ranged attack.",
+  "descriptionMarkdown": "Talent: Impossible Shot\nRequirement: Ratling\nBenefit: Once per short rest, ignore cover on one ranged attack.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Impossible Shot",
+        "pdfPage": 87,
+        "printedPage": 74
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Impossible Shot\nRequirement: Ratling\nBenefit: Once per short rest, ignore cover on one ranged attack.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

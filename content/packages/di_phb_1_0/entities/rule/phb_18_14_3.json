@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_18_14_3",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Archeotech",
+  "summary": "Archeotech represents technology whose manufacture is poorly understood, lost or institutionally restricted. Its Availability describes access, not the ability to mass-produce it. Item Availability Effect Volkite Serpenta Exceptional 1d10 radiant/fire; 50/150 ft; Light, Reload 8. Once per turn when you hit a Bloodied target, deal +1d6 fire damage. Volkite Charger Near-Unique 2d8 radiant/fire; 80/240 ft; Burst, Reload 12. Once per turn, if the target has already taken damage this round, deal +...",
+  "descriptionMarkdown": "Archeotech represents technology whose manufacture is poorly understood, lost or institutionally restricted. Its \nAvailability describes access, not the ability to mass-produce it.\nItem Availability Effect\nVolkite Serpenta Exceptional 1d10 radiant/fire; 50/150 ft; Light, Reload 8. Once per turn when you hit a \nBloodied target, deal +1d6 fire damage.\nVolkite Charger Near-Unique 2d8 radiant/fire; 80/240 ft; Burst, Reload 12. Once per turn, if the target has \nalready taken damage this round, deal +1d8 fire damage.\nSuspensor Harness Exceptional\nChoose one Heavy weapon you carry. You ignore its movement-based \nHeavy penalty. If it is Emplaced, you may fire it as though it were merely \nHeavy while the harness is functioning. Requires Strength 13+ or an \nappropriate interface.\nArcheotech Logic Engine Exceptional\nAdvantage on Technology checks to identify or operate ancient machinery. \nOnce per short rest, after rolling an Intelligence or Technology check, add \n1d8 before the result is declared.\nPhase-Shunt Field Near-Unique\nOnce per long rest when damage would reduce you to 0 HP but not kill you \noutright, remain at 1 HP and teleport up to 15 ft to a visible unoccupied \nspace. The field becomes Damaged after use until properly repaired.\nMedicae Crucible Exceptional\nOnce per long rest as an action, a creature you touch regains 4d8 + \nproficiency bonus HP and ends Poisoned or one disease. It may suppress \none lasting-injury penalty until its next long rest, but does not cure the \ninjury.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "18.14.3",
+        "heading": "Archeotech",
+        "pdfPage": 107,
+        "printedPage": 94
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Archeotech represents technology whose manufacture is poorly understood, lost or institutionally restricted. Its \nAvailability describes access, not the ability to mass-produce it.\nItem Availability Effect\nVolkite Serpenta Exceptional 1d10 radiant/fire; 50/150 ft; Light, Reload 8. Once per turn when you hit a \nBloodied target, deal +1d6 fire damage.\nVolkite Charger Near-Unique 2d8 radiant/fire; 80/240 ft; Burst, Reload 12. Once per turn, if the target has \nalready taken damage this round, deal +1d8 fire damage.\nSuspensor Harness Exceptional\nChoose one Heavy weapon you carry. You ignore its movement-based \nHeavy penalty. If it is Emplaced, you may fire it as though it were merely \nHeavy while the harness is functioning. Requires Strength 13+ or an \nappropriate interface.\nArcheotech Logic Engine Exceptional\nAdvantage on Technology checks to identify or operate ancient machinery. \nOnce per short rest, after rolling an Intelligence or Technology check, add \n1d8 before the result is declared.\nPhase-Shunt Field Near-Unique\nOnce per long rest when damage would reduce you to 0 HP but not kill you \noutright, remain at 1 HP and teleport up to 15 ft to a visible unoccupied \nspace. The field becomes Damaged after use until properly repaired.\nMedicae Crucible Exceptional\nOnce per long rest as an action, a creature you touch regains 4d8 + \nproficiency bonus HP and ends Poisoned or one disease. It may suppress \none lasting-injury penalty until its next long rest, but does not cure the \ninjury.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

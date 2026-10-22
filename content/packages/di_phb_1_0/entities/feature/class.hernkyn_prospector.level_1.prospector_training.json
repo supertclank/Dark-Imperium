@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.hernkyn_prospector.level_1.prospector_training",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Prospector Training",
+  "summary": "Gain proficiency in Survival and one of Investigation, Perception, Stealth, Technology, or Vehicles. You also gain proficiency with prospector rigs and Kin ranged weapons.",
+  "descriptionMarkdown": "Gain proficiency in Survival and one of Investigation, \nPerception, Stealth, Technology, or Vehicles. You\nalso gain proficiency with prospector rigs and Kin ranged \nweapons.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.10.1",
+        "heading": "Prospector Training",
+        "pdfPage": 77,
+        "printedPage": 64
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Gain proficiency in Survival and one of Investigation, \nPerception, Stealth, Technology, or Vehicles. You\nalso gain proficiency with prospector rigs and Kin ranged \nweapons.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

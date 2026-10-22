@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.kin_armsman.level_14.doctrine_feature",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Doctrine Feature",
+  "summary": "Hold Doctrine Feature Hearthguard While you are below half hit points, your armour damage reduction increases by 1. Ironhead Once per short rest, when you damage an object, vehicle, or machine, treat the hit as a critical hit. Guild-Militant When you mark a target with Oath-Mark, allies gain +1 to damage against it until your next turn.",
+  "descriptionMarkdown": "Hold Doctrine Feature\nHearthguard\nWhile you are below half hit points, \nyour armour damage reduction \nincreases by 1.\nIronhead\nOnce per short rest, when you \ndamage an object, vehicle, or \nmachine, treat the hit as a critical \nhit.\nGuild-Militant\nWhen you mark a target with \nOath-Mark, allies gain +1 to \ndamage against it until your next \nturn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.9.14",
+        "heading": "Doctrine Feature",
+        "pdfPage": 75,
+        "printedPage": 62
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Hold Doctrine Feature\nHearthguard\nWhile you are below half hit points, \nyour armour damage reduction \nincreases by 1.\nIronhead\nOnce per short rest, when you \ndamage an object, vehicle, or \nmachine, treat the hit as a critical \nhit.\nGuild-Militant\nWhen you mark a target with \nOath-Mark, allies gain +1 to \ndamage against it until your next \nturn.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.aeldari_warlock.level_10.war_rune_mastery",
+  "kind": "feature",
+  "revision": 1,
+  "name": "War-Rune Mastery",
+  "summary": "Once per short rest, when you cast a Minor or Standard power from the Warlock, Divination, or Telekinesis lists, you may target one additional creature within 10 ft of the original target. The second target takes half damage; if the power has no damage, the secondary effect lasts no longer than until the start of your next turn unless the GM rules the effect cannot sensibly be split.",
+  "descriptionMarkdown": "Once per short rest, when you cast a Minor or Standard \npower from the Warlock, Divination, or Telekinesis lists, \nyou may target one additional creature within 10 ft of the \noriginal target. The second target takes half damage; if \nthe power has no damage, the secondary effect lasts no \nlonger than until the start of your next turn unless the GM \nrules the effect cannot sensibly be split.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.12.10",
+        "heading": "War-Rune Mastery",
+        "pdfPage": 84,
+        "printedPage": 71
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per short rest, when you cast a Minor or Standard \npower from the Warlock, Divination, or Telekinesis lists, \nyou may target one additional creature within 10 ft of the \noriginal target. The second target takes half damage; if \nthe power has no damage, the secondary effect lasts no \nlonger than until the start of your next turn unless the GM \nrules the effect cannot sensibly be split.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

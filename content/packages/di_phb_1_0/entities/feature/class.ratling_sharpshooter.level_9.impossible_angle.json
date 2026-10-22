@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.ratling_sharpshooter.level_9.impossible_angle",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Impossible Angle",
+  "summary": "Once per short rest, ignore light and heavy cover on one ranged weapon attack.",
+  "descriptionMarkdown": "Once per short rest, ignore light and heavy cover on one \nranged weapon attack.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.7.9",
+        "heading": "Impossible Angle",
+        "pdfPage": 68,
+        "printedPage": 55
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per short rest, ignore light and heavy cover on one \nranged weapon attack.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

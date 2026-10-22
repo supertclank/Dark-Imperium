@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_15_4_7",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Reality Tear",
+  "summary": "A 10-ft radius area within 30 ft becomes warped terrain for 1 minute. A creature that enters the area for the first time on a turn or starts its turn there takes 2d6 force damage.",
+  "descriptionMarkdown": "A 10-ft radius area within 30 ft becomes warped terrain \nfor 1 minute.\nA creature that enters the area for the first time on a turn \nor starts its turn there takes 2d6 force\ndamage.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "15.4.7",
+        "heading": "Reality Tear",
+        "pdfPage": 95,
+        "printedPage": 82
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "perils",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "A 10-ft radius area within 30 ft becomes warped terrain \nfor 1 minute.\nA creature that enters the area for the first time on a turn \nor starts its turn there takes 2d6 force\ndamage.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

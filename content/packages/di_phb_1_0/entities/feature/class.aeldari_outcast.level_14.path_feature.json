@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.aeldari_outcast.level_14.path_feature",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Path Feature",
+  "summary": "Outcast Path Feature Ranger Your Death from Elsewhere feature recharges when you roll initiative if you have no uses remaining. Corsair After scoring a critical hit, you may make one pistol or blade attack as a bonus action. Shadow Guide Once per short rest, you and up to two allies within 30 ft may move 10 ft without provoking opportunity attacks.",
+  "descriptionMarkdown": "Outcast Path Feature\nRanger\nYour Death from Elsewhere \nfeature recharges when you roll \ninitiative if you have no uses \nremaining.\nCorsair\nAfter scoring a critical hit, you may \nmake one pistol or blade attack as \na bonus action.\nShadow Guide\nOnce per short rest, you and up to \ntwo allies within 30 ft may move 10 \nft without provoking opportunity \nattacks.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.11.14",
+        "heading": "Path Feature",
+        "pdfPage": 80,
+        "printedPage": 67
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Outcast Path Feature\nRanger\nYour Death from Elsewhere \nfeature recharges when you roll \ninitiative if you have no uses \nremaining.\nCorsair\nAfter scoring a critical hit, you may \nmake one pistol or blade attack as \na bonus action.\nShadow Guide\nOnce per short rest, you and up to \ntwo allies within 30 ft may move 10 \nft without provoking opportunity \nattacks.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

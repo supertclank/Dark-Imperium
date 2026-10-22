@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "di.class.arbites_enforcer",
+  "kind": "class",
+  "revision": 1,
+  "name": "Arbites Enforcer",
+  "summary": "11.5 Arbites Enforcer Judge, riot officer, executioner, investigator, and breacher. Allowed Species: Human only. Hit Die: d10. Primary Abilities: Strength or Dexterity, Wisdom. Saving Throws: Strength, Wisdom. Armour: Light, medium, flak, carapace, riot armour. Weapons: Pistols, shotguns, shock weapons, mauls, shields, grenades.",
+  "descriptionMarkdown": "11.5 Arbites Enforcer\nJudge, riot officer, executioner, investigator, and breacher.\nAllowed Species: Human only.\nHit Die: d10.\nPrimary Abilities: Strength or Dexterity, Wisdom.\nSaving Throws: Strength, Wisdom.\nArmour: Light, medium, flak, carapace, riot armour.\nWeapons: Pistols, shotguns, shock weapons, mauls, shields, grenades.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.5",
+        "heading": "Arbites Enforcer",
+        "pdfPage": 62,
+        "printedPage": 49
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "features": [
+      {
+        "id": "di.feature.class.arbites_enforcer.training"
+      }
+    ],
+    "progression": {
+      "id": "di.progression.arbites_enforcer"
+    },
+    "requirements": {
+      "kind": "selected",
+      "content": {
+        "id": "di.species.human"
+      }
+    }
+  }
+}

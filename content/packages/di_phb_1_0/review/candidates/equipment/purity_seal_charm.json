@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.purity_seal_charm",
+  "kind": "equipment",
+  "name": "Purity Seal Charm",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Item: Purity Seal Charm; Use: Reaction; Rule: Once, when you fail a save against fear, corruption or psychic horror, add 1d4 to the roll; consumed or ritually spent.; Availability: Controlled",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "17",
+          "heading": "Purity Seal Charm",
+          "pdfPage": 101,
+          "printedPage": 88
+        }
+      }
+    }
+  ]
+}

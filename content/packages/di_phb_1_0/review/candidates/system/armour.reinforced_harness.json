@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.system.armour.reinforced_harness",
+  "kind": "system",
+  "name": "Reinforced Harness",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Modification: Reinforced Harness; Availability: Controlled; Effect: Ogryn armour only. Once per short rest, reduce damage from one non- critical bludgeoning, piercing, or slashing hit by 1d6 + your Constitution modifier.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "9",
+          "heading": "Reinforced Harness",
+          "pdfPage": 44,
+          "printedPage": 31
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.med_pack",
+  "kind": "equipment",
+  "name": "Med-Pack",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Item: Med-Pack; Use: Action; Rule: DC 12 Medicine on a creature within 5 ft. Success: regain 2d6 + proficiency bonus HP, or stabilise and restore to 1 HP. Consumed.; Availability: Issued",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "17",
+          "heading": "Med-Pack",
+          "pdfPage": 101,
+          "printedPage": 88
+        }
+      }
+    }
+  ]
+}

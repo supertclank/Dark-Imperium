@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.null_field",
+  "kind": "power",
+  "name": "Null Field",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Null Field; Tag: Null; Rule: Action. Self, 10-ft aura until the start of your next turn. Allies in the aura have advantage on saving throws against psychic powers. Hostile psykers inside the aura increase Warp Pressure by +1 when using a power.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Null Field",
+          "pdfPage": 92,
+          "printedPage": 79
+        }
+      }
+    }
+  ]
+}

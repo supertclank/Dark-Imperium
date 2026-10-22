@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.augmetic.pain_editor",
+  "kind": "augmetic",
+  "name": "Pain Editor",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Upgrade: Pain Editor; Effect: Once per long rest, when reduced below half HP, gain temporary HP equal to level + Constitution modifier.; Availability: Rare",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "13",
+          "heading": "Pain Editor",
+          "pdfPage": 89,
+          "printedPage": 76
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.hernkyn_prospector.level_13.no_stone_unturned",
+  "kind": "feature",
+  "revision": 1,
+  "name": "No Stone Unturned",
+  "summary": "When you make an Investigation, Perception, Survival, or Technology check, treat a d20 roll of 7 or lower as an 8. This does not apply during direct psychic interference or Warp distortion.",
+  "descriptionMarkdown": "When you make an Investigation, Perception, Survival, or \nTechnology check, treat a d20 roll of 7 or\nlower as an 8. This does not apply during direct psychic \ninterference or Warp distortion.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.10.13",
+        "heading": "No Stone Unturned",
+        "pdfPage": 77,
+        "printedPage": 64
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When you make an Investigation, Perception, Survival, or \nTechnology check, treat a d20 roll of 7 or\nlower as an 8. This does not apply during direct psychic \ninterference or Warp distortion.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

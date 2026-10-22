@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_2_2",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Hit Points",
+  "summary": "At level 1, gain the maximum value of your class Hit Die + your Constitution modifier. At later levels, either roll the Hit Die or use the fixed value: d6 = 4, d8 = 5, d10 = 6, d12 = 7, then add your Constitution modifier. Species and class features may alter your maximum hit points.",
+  "descriptionMarkdown": "At level 1, gain the maximum value of your class Hit Die \n+ your Constitution modifier. At later levels, either roll the \nHit Die or use the fixed value: d6 = 4, d8 = 5, d10 = 6, \nd12 = 7, then add your Constitution modifier. Species \nand class features may alter your maximum hit points.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "2.2",
+        "heading": "Hit Points",
+        "pdfPage": 17,
+        "printedPage": 4
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "At level 1, gain the maximum value of your class Hit Die \n+ your Constitution modifier. At later levels, either roll the \nHit Die or use the fixed value: d6 = 4, d8 = 5, d10 = 6, \nd12 = 7, then add your Constitution modifier. Species \nand class features may alter your maximum hit points.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.kin_armsman.level_18.doctrine_feature",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Doctrine Feature",
+  "summary": "Hold Doctrine Feature Hearthguard Your armour damage reduction applies to critical hits, but only for 1 damage. Ironhead Your attacks against machines, vehicles, and structures ignore resistance once per turn. Guild-Militant When an ally hits your Oath-Mark target, they may move 5 ft without provoking opportunity attacks.",
+  "descriptionMarkdown": "Hold Doctrine Feature\nHearthguard\nYour armour damage reduction \napplies to critical hits, but only for \n1 damage.\nIronhead\nYour attacks against machines, \nvehicles, and structures ignore \nresistance once per turn.\nGuild-Militant\nWhen an ally hits your Oath-Mark \ntarget, they may move 5 ft without \nprovoking opportunity attacks.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.9.18",
+        "heading": "Doctrine Feature",
+        "pdfPage": 75,
+        "printedPage": 62
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Hold Doctrine Feature\nHearthguard\nYour armour damage reduction \napplies to critical hits, but only for \n1 damage.\nIronhead\nYour attacks against machines, \nvehicles, and structures ignore \nresistance once per turn.\nGuild-Militant\nWhen an ally hits your Oath-Mark \ntarget, they may move 5 ft without \nprovoking opportunity attacks.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

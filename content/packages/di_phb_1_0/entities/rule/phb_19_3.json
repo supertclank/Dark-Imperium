@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_19_3",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Medical Care",
+  "summary": "Care Capabilities Improvised Stabilisation, basic wound care, common med-stims and splints; no major surgery. Field Medicae Treat combat wounds, infection, poison and uncomplicated surgery. Hospital / Regimental Major surgery, rehabilitation, organ support and standard bionic replacement. Specialist Advanced augmetics, rare disease treatment, psychic care or xenobiological expertise. Exceptional Archeotech intervention, elite Mechanicus reconstruction or unique institutional resources.",
+  "descriptionMarkdown": "Care Capabilities\nImprovised\nStabilisation, basic wound care, \ncommon med-stims and splints; no \nmajor surgery.\nField Medicae Treat combat wounds, infection, poison \nand uncomplicated surgery.\nHospital / \nRegimental\nMajor surgery, rehabilitation, organ \nsupport and standard bionic \nreplacement.\nSpecialist\nAdvanced augmetics, rare disease \ntreatment, psychic care or \nxenobiological expertise.\nExceptional\nArcheotech intervention, elite \nMechanicus reconstruction or unique \ninstitutional resources.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "19.3",
+        "heading": "Medical Care",
+        "pdfPage": 110,
+        "printedPage": 97
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Care Capabilities\nImprovised\nStabilisation, basic wound care, \ncommon med-stims and splints; no \nmajor surgery.\nField Medicae Treat combat wounds, infection, poison \nand uncomplicated surgery.\nHospital / \nRegimental\nMajor surgery, rehabilitation, organ \nsupport and standard bionic \nreplacement.\nSpecialist\nAdvanced augmetics, rare disease \ntreatment, psychic care or \nxenobiological expertise.\nExceptional\nArcheotech intervention, elite \nMechanicus reconstruction or unique \ninstitutional resources.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

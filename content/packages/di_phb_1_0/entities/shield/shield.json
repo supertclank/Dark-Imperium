@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "di.shield.shield",
+  "kind": "shield",
+  "revision": 1,
+  "name": "Shield",
+  "summary": "+2 AC. Requires one hand. Issued.",
+  "descriptionMarkdown": "+2 AC. Requires one hand. Issued.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "9.1",
+        "heading": "Shield",
+        "pdfPage": 42,
+        "printedPage": 29
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "equip": {
+      "slots": [
+        "hand"
+      ],
+      "hands": 1
+    },
+    "properties": [],
+    "features": [],
+    "defence": {
+      "value": {
+        "kind": "constant",
+        "value": 2
+      },
+      "mode": "add",
+      "stackGroup": "di.defence.shield"
+    }
+  }
+}

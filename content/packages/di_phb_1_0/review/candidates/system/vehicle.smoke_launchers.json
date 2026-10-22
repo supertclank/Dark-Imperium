@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.system.vehicle.smoke_launchers",
+  "kind": "system",
+  "name": "Smoke launchers",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-010"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Upgrade: Smoke launchers; Availability: Controlled; Effect: iTnwcor euassees. per mission. Driver or gunner action creates stationary smoke in a 20-ft radius centred on the vehicle until the start of that operator’s next turn. Attacks through it have disadvantage; no protection against area effects.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "21",
+          "heading": "Smoke launchers",
+          "pdfPage": 118,
+          "printedPage": 105
+        }
+      }
+    }
+  ]
+}

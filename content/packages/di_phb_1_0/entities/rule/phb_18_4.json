@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_18_4",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Xenos, Forbidden and Black-Market Gear",
+  "summary": "Availability and provenance are separate. A Rare Imperial power sword and a Rare Aeldari weapon may share the same acquisition difficulty but carry very different legal, technical and political consequences. Xenos or proscribed equipment may require a specific contact, training, modification or narrative permission even when a Requisition test succeeds.",
+  "descriptionMarkdown": "Availability and provenance are separate. A Rare Imperial power sword and a Rare Aeldari weapon may share the \nsame acquisition difficulty but carry very different legal, technical and political consequences. Xenos or proscribed \nequipment may require a specific contact, training, modification or narrative permission even when a Requisition test \nsucceeds.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "18.4",
+        "heading": "Xenos, Forbidden and Black-Market Gear",
+        "pdfPage": 103,
+        "printedPage": 90
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Availability and provenance are separate. A Rare Imperial power sword and a Rare Aeldari weapon may share the \nsame acquisition difficulty but carry very different legal, technical and political consequences. Xenos or proscribed \nequipment may require a specific contact, training, modification or narrative permission even when a Requisition test \nsucceeds.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.ogryn_skullbreaker.level_14.role_feature",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Role Feature",
+  "summary": "Ogryn Role Feature Bulwark Allies benefiting from cover provided by your slab shield have advantage on Dexterity saving throws against Blast and Spray effects, and ignore the first 5 ft of forced movement they would suffer each round. Gun Lugger You ignore disadvantage from firing Heavy or Ogryn weapons after moving. Bone ’ead Once per long rest, treat a failed Wisdom or Intelligence saving throw as a success. Brute Once per turn, when you push or knock a creature prone, deal bludgeoning dama...",
+  "descriptionMarkdown": "Ogryn Role Feature\nBulwark\nAllies benefiting from cover \nprovided by your slab shield have \nadvantage on Dexterity saving \nthrows against Blast and Spray \neffects, and ignore the first 5 ft of \nforced movement they would \nsuffer each round.\nGun Lugger\nYou ignore disadvantage from \nfiring Heavy or Ogryn weapons \nafter moving.\nBone ’ead\nOnce per long rest, treat a failed \nWisdom or Intelligence saving \nthrow as a success.\nBrute\nOnce per turn, when you push or \nknock a creature prone, deal \nbludgeoning damage equal to your \nStrength modifier.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.4.14",
+        "heading": "Role Feature",
+        "pdfPage": 60,
+        "printedPage": 47
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Ogryn Role Feature\nBulwark\nAllies benefiting from cover \nprovided by your slab shield have \nadvantage on Dexterity saving \nthrows against Blast and Spray \neffects, and ignore the first 5 ft of \nforced movement they would \nsuffer each round.\nGun Lugger\nYou ignore disadvantage from \nfiring Heavy or Ogryn weapons \nafter moving.\nBone ’ead\nOnce per long rest, treat a failed \nWisdom or Intelligence saving \nthrow as a success.\nBrute\nOnce per turn, when you push or \nknock a creature prone, deal \nbludgeoning damage equal to your \nStrength modifier.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

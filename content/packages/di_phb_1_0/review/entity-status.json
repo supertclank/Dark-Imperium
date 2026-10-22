@@ -1,0 +1,4054 @@
+{
+  "di.skill.acrobatics": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.proficiency.skill.acrobatics": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.skill.athletics": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.proficiency.skill.athletics": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.skill.investigation": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.proficiency.skill.investigation": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.skill.medicine": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.proficiency.skill.medicine": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.skill.perception": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.proficiency.skill.perception": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.skill.stealth": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.proficiency.skill.stealth": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.skill.survival": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.proficiency.skill.survival": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.skill.technology": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.proficiency.skill.technology": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.skill.deception": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.proficiency.skill.deception": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.skill.intimidation": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.proficiency.skill.intimidation": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.skill.persuasion": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.proficiency.skill.persuasion": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.skill.insight": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.proficiency.skill.insight": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.skill.history": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.proficiency.skill.history": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.skill.religion": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.proficiency.skill.religion": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.skill.sleight_of_hand": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.proficiency.skill.sleight_of_hand": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.feature.species.human.traits": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.species.human.baseline": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.choice.human.ability_scores": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.choice.human.imperial_adaptability": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.species.human": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.species.ogryn.traits": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.species.ogryn.baseline": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.species.ogryn": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.species.ratling.traits": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.species.ratling.baseline": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.species.ratling": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.species.skitarii.traits": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.species.skitarii.baseline": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.choice.skitarii.ability_scores": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.species.skitarii": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.species.kin.traits": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.species.kin.baseline": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.choice.kin.ability_scores": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.species.kin": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.species.aeldari.traits": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.species.aeldari.baseline": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.choice.aeldari.ability_scores": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.species.aeldari": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.choice.hiveborn.skills": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.feature.origin.hiveborn": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-001"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.background.hiveborn": {
+    "status": "DUPLICATE_OR_CONFLICT",
+    "issues": [
+      "PHB-001"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.choice.shrine_worlder.skills": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.feature.origin.shrine_worlder": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.background.shrine_worlder": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.choice.penal_worlder.skills": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.feature.origin.penal_worlder": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-001"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.background.penal_worlder": {
+    "status": "DUPLICATE_OR_CONFLICT",
+    "issues": [
+      "PHB-001"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.choice.voidborn.skills": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.feature.origin.voidborn": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-001"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.background.voidborn": {
+    "status": "DUPLICATE_OR_CONFLICT",
+    "issues": [
+      "PHB-001"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.origin.forge_world": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-001"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.background.forge_world": {
+    "status": "DUPLICATE_OR_CONFLICT",
+    "issues": [
+      "PHB-001"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.choice.schola_progenium.skills": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.choice.schola_progenium.skills_2": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.feature.origin.schola_progenium": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.background.schola_progenium": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.choice.militarum_regiment.skills": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.feature.origin.militarum_regiment": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-001"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.background.militarum_regiment": {
+    "status": "DUPLICATE_OR_CONFLICT",
+    "issues": [
+      "PHB-001"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.choice.underhive.skills": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.feature.origin.underhive": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-001"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.background.underhive": {
+    "status": "DUPLICATE_OR_CONFLICT",
+    "issues": [
+      "PHB-001"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.choice.craftworld_outcast.skills": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.feature.origin.craftworld_outcast": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.background.craftworld_outcast": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.choice.mining_hold_guild.skills": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.feature.origin.mining_hold_guild": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.background.mining_hold_guild": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.universal.faithful": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.universal.jaded": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.universal.twitchy": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.feature.universal.unnaturally_lucky": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.universal.augmetic_scarred": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.universal.chem_hardened": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.universal.devoted_servant": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.universal.touched_by_the_warp": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.universal.hive_survivor": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.universal.munitorum_drilled": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.universal.iron_nerves": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.universal.faith_in_steel": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.universal.dirty_pragmatist": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.universal.vox_familiar": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.universal.grudge_bearer": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.universal.hard_to_kill": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.universal.knife_in_the_boot": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.universal.field_chirurgeon": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.universal.black_market_eye": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.universal.litany_marked": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.property.weapon.accurate": {
+    "status": "MANUAL_RULE",
+    "issues": [],
+    "coverage": "MANUAL_ONLY"
+  },
+  "di.property.weapon.armour_breaking": {
+    "status": "MANUAL_RULE",
+    "issues": [],
+    "coverage": "MANUAL_ONLY"
+  },
+  "di.property.weapon.beam": {
+    "status": "MANUAL_RULE",
+    "issues": [],
+    "coverage": "MANUAL_ONLY"
+  },
+  "di.property.weapon.blast": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-004"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.property.weapon.brutal": {
+    "status": "MANUAL_RULE",
+    "issues": [],
+    "coverage": "MANUAL_ONLY"
+  },
+  "di.property.weapon.burst": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-004"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.property.weapon.chain": {
+    "status": "MANUAL_RULE",
+    "issues": [],
+    "coverage": "MANUAL_ONLY"
+  },
+  "di.property.weapon.close_quarters": {
+    "status": "MANUAL_RULE",
+    "issues": [],
+    "coverage": "MANUAL_ONLY"
+  },
+  "di.property.weapon.emplaced": {
+    "status": "MANUAL_RULE",
+    "issues": [],
+    "coverage": "MANUAL_ONLY"
+  },
+  "di.property.weapon.entangling": {
+    "status": "MANUAL_RULE",
+    "issues": [],
+    "coverage": "MANUAL_ONLY"
+  },
+  "di.property.weapon.finesse": {
+    "status": "MANUAL_RULE",
+    "issues": [],
+    "coverage": "MANUAL_ONLY"
+  },
+  "di.property.weapon.focus": {
+    "status": "MANUAL_RULE",
+    "issues": [],
+    "coverage": "MANUAL_ONLY"
+  },
+  "di.property.weapon.heavy": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-004"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.property.weapon.industrial": {
+    "status": "MANUAL_RULE",
+    "issues": [],
+    "coverage": "MANUAL_ONLY"
+  },
+  "di.property.weapon.light": {
+    "status": "MANUAL_RULE",
+    "issues": [],
+    "coverage": "MANUAL_ONLY"
+  },
+  "di.property.weapon.mechanicus": {
+    "status": "MANUAL_RULE",
+    "issues": [],
+    "coverage": "MANUAL_ONLY"
+  },
+  "di.property.weapon.monomolecular": {
+    "status": "MANUAL_RULE",
+    "issues": [],
+    "coverage": "MANUAL_ONLY"
+  },
+  "di.property.weapon.ogryn": {
+    "status": "MANUAL_RULE",
+    "issues": [],
+    "coverage": "MANUAL_ONLY"
+  },
+  "di.property.weapon.overheat": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-004"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.property.weapon.power_field": {
+    "status": "MANUAL_RULE",
+    "issues": [],
+    "coverage": "MANUAL_ONLY"
+  },
+  "di.property.weapon.psyker": {
+    "status": "MANUAL_RULE",
+    "issues": [],
+    "coverage": "MANUAL_ONLY"
+  },
+  "di.property.weapon.reload": {
+    "status": "MANUAL_RULE",
+    "issues": [],
+    "coverage": "MANUAL_ONLY"
+  },
+  "di.property.weapon.shield": {
+    "status": "MANUAL_RULE",
+    "issues": [],
+    "coverage": "MANUAL_ONLY"
+  },
+  "di.property.weapon.shock": {
+    "status": "MANUAL_RULE",
+    "issues": [],
+    "coverage": "MANUAL_ONLY"
+  },
+  "di.property.weapon.silent": {
+    "status": "MANUAL_RULE",
+    "issues": [],
+    "coverage": "MANUAL_ONLY"
+  },
+  "di.property.weapon.spray": {
+    "status": "MANUAL_RULE",
+    "issues": [],
+    "coverage": "MANUAL_ONLY"
+  },
+  "di.property.weapon.spirit_weapon": {
+    "status": "MANUAL_RULE",
+    "issues": [],
+    "coverage": "MANUAL_ONLY"
+  },
+  "di.property.weapon.suppression": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-004"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.property.weapon.thrown": {
+    "status": "MANUAL_RULE",
+    "issues": [],
+    "coverage": "MANUAL_ONLY"
+  },
+  "di.property.weapon.twin_linked": {
+    "status": "MANUAL_RULE",
+    "issues": [],
+    "coverage": "MANUAL_ONLY"
+  },
+  "di.property.weapon.versatile": {
+    "status": "MANUAL_RULE",
+    "issues": [],
+    "coverage": "MANUAL_ONLY"
+  },
+  "di.feature.talent.rapid_reload": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.hip_fire": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.close_quarters_killer": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.heavy_weapon_training": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.iron_discipline": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.combat_medic": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.grenadier": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.brawler": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.cybernetic_implant": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.point_blank_execution": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.suppressive_discipline": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.field_armourer": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.bayonet_fighter": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.breacher": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.crisis_runner": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.dead_calm": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.tactical_reposition": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.weapon_specialist": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.armour_familiarity": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.relic_bearer": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.ogryn_wall": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.bigger_gun": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.loyal_as_stone": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.bone_ead_implant": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.too_angry_to_notice": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.ratling_vanish": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.impossible_shot": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.pocket_marksman": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.scavvers_luck": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.cooks_morale": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.machine_precision": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.sacred_augmetics": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.rad_hardened": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.noospheric_burst": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.cold_logic": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.witch_sight": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.imperial_flexibility": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.last_order_standing": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.sanctioning_scars": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.hive_blooded": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.ancestors_grudge": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.hold_born_engineer": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.void_stock": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.iron_stance": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.kin_weapon_master": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.aeldari_grace": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.path_discipline": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.rangers_cloak": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.witchblade_adept": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.talent.alien_reflexes": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_1_1": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_1_2": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_1_3": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_1_4": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_1_5": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_2_1": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_2_2": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_2_3": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_2_3_1": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_2_4_1": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_2_4_2": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_2_4_3": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_2_4_4": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_2_4_5": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_2_4_6": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_2_5": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_6_1": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_6_2": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_6_3": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_6_4": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_6_5": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_6_6": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_6_7": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_6_8": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_6_9": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_6_10": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_6_11": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_6_12": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_6_13": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_6_14": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_14_1": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_14_2": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_14_3": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_14_4": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_14_5": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_14_6": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_14_7": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_14_8": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_15_1": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_15_2": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_15_3": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_15_4_1": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_15_4_2": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_15_4_3": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_15_4_4": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_15_4_5": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_15_4_6": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_15_4_7": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_15_4_8": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_15_5": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_15_6": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_15_7": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_16_1": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_16_2": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_16_3": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_16_4": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_18_1": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_18_2": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_18_3": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_18_4": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_18_5": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_18_6": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_18_7": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_18_8": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_18_9": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_18_10": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_18_11": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_18_12": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_18_13": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_18_14": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_18_14_1": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_18_14_2": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_18_14_3": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_18_14_4": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_18_14_5": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_18_14_6": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_19_1": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_19_2": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_19_3": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_19_4": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_20_1": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_20_2": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_21_1": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_21_2": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_21_3": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_21_4": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_21_5": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_21_6": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_21_7": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_21_8": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_21_9": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_21_10": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.rule.phb_21_11": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.veteran.training": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-002",
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.veteran.level_1.guardsman_training": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.veteran.level_1.tactical_aim": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.veteran.level_2.suppressing_fire": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.veteran.level_3.regimental_doctrine": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.veteran.level_4.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.veteran.level_5.extra_attack": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.veteran.level_6.fire_team_veteran": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.veteran.level_7.doctrine_feature": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.veteran.level_8.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.veteran.level_9.hold_the_line": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.veteran.level_10.killing_zone": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.veteran.level_11.veterans_accuracy": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.veteran.level_12.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.veteran.level_13.battlefield_instinct": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.veteran.level_14.improved_doctrine": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.veteran.level_15.kill_confirmed": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.veteran.level_16.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.veteran.level_17.veterans_command": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.veteran.level_18.dug_in_kill_team": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.veteran.level_19.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.veteran.level_20.lord_castellans_moment": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.progression.veteran": {
+    "status": "READY",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.class.veteran": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.zealot.training": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-002",
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.zealot.level_1.fury_of_faith": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.zealot.level_1.martyrs_endurance": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.zealot.level_1.martyrs_mercy": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.zealot.level_2.charge_of_conviction": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.zealot.level_3.sacred_path": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.zealot.level_4.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.zealot.level_5.extra_attack": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.zealot.level_6.blood_and_benediction": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.zealot.level_7.sacred_path_feature": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.zealot.level_8.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.zealot.level_9.refuse_the_dark": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.zealot.level_10.sainted_fury": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.zealot.level_11.martyrs_renewal": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.zealot.level_12.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.zealot.level_13.unbroken_creed": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.zealot.level_14.sacred_path_feature": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.zealot.level_15.living_saints_shadow": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.zealot.level_16.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.zealot.level_17.martyrdom_unending": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.zealot.level_18.sacred_path_ascendant": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.zealot.level_19.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.zealot.level_20.living_icon_of_wrath": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.progression.zealot": {
+    "status": "READY",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.class.zealot": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.psyker.training": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-002",
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.psyker.level_1.psychic_discipline": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.psyker.level_1.warp_pressure": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-012"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.psyker.level_2.psychic_ward": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.psyker.level_3.discipline_feature": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.psyker.level_4.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.psyker.level_5.empowered_manifestation": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.psyker.level_6.disciplined_channel": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.psyker.level_7.discipline_feature": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.psyker.level_8.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.psyker.level_9.warp_anchor": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.psyker.level_10.mastered_manifestation": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.psyker.level_11.major_power_access": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.psyker.level_12.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.psyker.level_13.sanctioned_focus": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.psyker.level_14.discipline_feature": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.psyker.level_15.alpha_level_risk": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.psyker.level_16.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.psyker.level_17.soul_bound_discipline": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.psyker.level_18.warp_crowned_focus": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.psyker.level_19.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.psyker.level_20.sanctioned_apex": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.progression.psyker": {
+    "status": "READY",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.class.psyker": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ogryn_skullbreaker.training": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-002",
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ogryn_skullbreaker.level_1.big_lad": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ogryn_skullbreaker.level_1.loyal_protector": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ogryn_skullbreaker.level_2.brutal_impact": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ogryn_skullbreaker.level_3.ogryn_role": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ogryn_skullbreaker.level_4.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ogryn_skullbreaker.level_5.extra_attack": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ogryn_skullbreaker.level_6.too_stubborn_to_drop": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ogryn_skullbreaker.level_7.role_feature": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ogryn_skullbreaker.level_8.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ogryn_skullbreaker.level_9.living_barricade": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ogryn_skullbreaker.level_10.thunderous_violence": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ogryn_skullbreaker.level_11.bigger_and_meaner": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ogryn_skullbreaker.level_12.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ogryn_skullbreaker.level_13.cant_keep_him_down": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ogryn_skullbreaker.level_14.role_feature": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ogryn_skullbreaker.level_15.walking_fortress": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ogryn_skullbreaker.level_16.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ogryn_skullbreaker.level_17.mountain_of_muscle": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ogryn_skullbreaker.level_18.role_feature": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ogryn_skullbreaker.level_19.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ogryn_skullbreaker.level_20.unkillable_big_lad": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.progression.ogryn_skullbreaker": {
+    "status": "READY",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.class.ogryn_skullbreaker": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.arbites_enforcer.training": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-002",
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.arbites_enforcer.level_1.enforcer_training": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.arbites_enforcer.level_1.authority": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.arbites_enforcer.level_2.breach_and_clear": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.arbites_enforcer.level_3.enforcement_doctrine": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.arbites_enforcer.level_4.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.arbites_enforcer.level_5.extra_attack": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.arbites_enforcer.level_6.lockdown_order": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.arbites_enforcer.level_7.doctrine_feature": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.arbites_enforcer.level_8.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.arbites_enforcer.level_9.no_escape": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.arbites_enforcer.level_10.judgement_protocol": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.arbites_enforcer.level_11.riot_control": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.arbites_enforcer.level_12.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.arbites_enforcer.level_13.legal_terror": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.arbites_enforcer.level_14.doctrine_feature": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.arbites_enforcer.level_15.sentence_executed": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.arbites_enforcer.level_16.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.arbites_enforcer.level_17.absolute_jurisdiction": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.arbites_enforcer.level_18.doctrine_feature": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.arbites_enforcer.level_19.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.arbites_enforcer.level_20.final_sentence": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.progression.arbites_enforcer": {
+    "status": "READY",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.class.arbites_enforcer": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hive_scum.training": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-002",
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hive_scum.level_1.dirty_fighter": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hive_scum.level_1.streetwise": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hive_scum.level_2.cunning_action": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hive_scum.level_3.gang_style": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hive_scum.level_4.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hive_scum.level_5.backstabber_3d6": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-012"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hive_scum.level_6.low_cunning": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hive_scum.level_7.gang_style_feature": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hive_scum.level_8.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hive_scum.level_9.vanish_into_trouble": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hive_scum.level_10.knife_edge_survivor": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hive_scum.level_11.backstabber_4d6": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-012"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hive_scum.level_12.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hive_scum.level_13.underhive_reputation": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hive_scum.level_14.gang_style_feature": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hive_scum.level_15.backstabber_5d6": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-012"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hive_scum.level_16.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hive_scum.level_17.no_honour": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-012"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hive_scum.level_17.no_problem": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-012"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hive_scum.level_18.backstabber_6d6": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hive_scum.level_19.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hive_scum.level_20.king_of_the_underhive": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.progression.hive_scum": {
+    "status": "READY",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.class.hive_scum": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ratling_sharpshooter.training": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-002",
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ratling_sharpshooter.level_1.small_target": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ratling_sharpshooter.level_1.deadeye": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ratling_sharpshooter.level_2.scamper": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ratling_sharpshooter.level_3.ratling_trick": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ratling_sharpshooter.level_4.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ratling_sharpshooter.level_5.killshot": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ratling_sharpshooter.level_6.cameleoline_habits": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ratling_sharpshooter.level_7.ratling_trick_feature": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ratling_sharpshooter.level_8.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ratling_sharpshooter.level_9.impossible_angle": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ratling_sharpshooter.level_10.perfect_shot": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ratling_sharpshooter.level_11.deadeye_3d6": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-012"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ratling_sharpshooter.level_12.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ratling_sharpshooter.level_13.gone_before_the_shot": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ratling_sharpshooter.level_14.ratling_trick_feature": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ratling_sharpshooter.level_15.ghost_marksman": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ratling_sharpshooter.level_16.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ratling_sharpshooter.level_17.deadeye_4d6": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ratling_sharpshooter.level_18.ratling_trick_feature": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ratling_sharpshooter.level_19.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.ratling_sharpshooter.level_20.impossible_little_legend": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.progression.ratling_sharpshooter": {
+    "status": "READY",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.class.ratling_sharpshooter": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.skitarii_veteran.training": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-002",
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.skitarii_veteran.level_1.machine_focus": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.skitarii_veteran.level_1.targeting_protocol": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.skitarii_veteran.level_2.augmetic_reflexes": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.skitarii_veteran.level_3.combat_protocol": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.skitarii_veteran.level_4.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.skitarii_veteran.level_5.extra_attack": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.skitarii_veteran.level_6.doctrinal_subroutine": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.skitarii_veteran.level_7.protocol_feature": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.skitarii_veteran.level_8.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.skitarii_veteran.level_9.blessed_autosenses": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.skitarii_veteran.level_10.omnissian_execution": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.skitarii_veteran.level_11.calculated_volley": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.skitarii_veteran.level_12.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.skitarii_veteran.level_13.redundant_systems": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.skitarii_veteran.level_14.protocol_feature": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.skitarii_veteran.level_15.will_of_the_omnissiah": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.skitarii_veteran.level_16.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.skitarii_veteran.level_17.perfect_targeting_logic": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.skitarii_veteran.level_18.protocol_feature": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.skitarii_veteran.level_19.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.skitarii_veteran.level_20.living_instrument_of_the_omnissiah": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.progression.skitarii_veteran": {
+    "status": "READY",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.class.skitarii_veteran": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.kin_armsman.training": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-002",
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.kin_armsman.level_1.kin_training": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.kin_armsman.level_1.oath_mark": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.kin_armsman.level_2.steady_advance": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.kin_armsman.level_3.hold_doctrine": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.kin_armsman.level_4.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.kin_armsman.level_5.extra_attack": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.kin_armsman.level_6.grudge_settled": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.kin_armsman.level_7.doctrine_feature": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.kin_armsman.level_8.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.kin_armsman.level_9.void_hardened_line": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.kin_armsman.level_10.ancestral_wrath": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.kin_armsman.level_11.kinfire_drill": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.kin_armsman.level_12.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.kin_armsman.level_13.iron_compact": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.kin_armsman.level_14.doctrine_feature": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.kin_armsman.level_15.holdfast_champion": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.kin_armsman.level_16.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.kin_armsman.level_17.grudge_bound_advance": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.kin_armsman.level_18.doctrine_feature": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.kin_armsman.level_19.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.kin_armsman.level_20.ancestor_core_champion": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.progression.kin_armsman": {
+    "status": "READY",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.class.kin_armsman": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hernkyn_prospector.training": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-002",
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hernkyn_prospector.level_1.prospector_training": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hernkyn_prospector.level_1.claim_sight": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hernkyn_prospector.level_2.surveyors_step": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hernkyn_prospector.level_3.expedition_role": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hernkyn_prospector.level_4.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hernkyn_prospector.level_5.extra_attack": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hernkyn_prospector.level_6.mark_the_seam": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hernkyn_prospector.level_7.expedition_feature": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hernkyn_prospector.level_8.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hernkyn_prospector.level_9.outriders_escape": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hernkyn_prospector.level_10.perfect_claim": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hernkyn_prospector.level_11.deep_scan": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hernkyn_prospector.level_12.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hernkyn_prospector.level_13.no_stone_unturned": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hernkyn_prospector.level_14.expedition_feature": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hernkyn_prospector.level_15.master_prospector": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hernkyn_prospector.level_16.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hernkyn_prospector.level_17.legendary_claim_staker": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hernkyn_prospector.level_18.expedition_feature": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hernkyn_prospector.level_19.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.hernkyn_prospector.level_20.claim_the_horizon": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.progression.hernkyn_prospector": {
+    "status": "READY",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.class.hernkyn_prospector": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_outcast.training": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-002",
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_outcast.level_1.ranger_training": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_outcast.level_1.shuriken_grace": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_outcast.level_2.ghostwalk": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_outcast.level_3.outcast_path": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_outcast.level_4.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_outcast.level_5.extra_attack": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_outcast.level_6.unseen_shot": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_outcast.level_7.path_feature": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_outcast.level_8.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_outcast.level_9.webway_instinct": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_outcast.level_10.death_from_elsewhere": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_outcast.level_11.perfect_motion": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_outcast.level_12.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_outcast.level_13.vanish_beyond_sight": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_outcast.level_14.path_feature": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_outcast.level_15.mythic_outcast": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_outcast.level_16.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_outcast.level_17.pathless_perfection": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_outcast.level_18.path_feature": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_outcast.level_19.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_outcast.level_20.legend_of_the_wandering_path": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.progression.aeldari_outcast": {
+    "status": "READY",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.class.aeldari_outcast": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_warlock.training": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-002",
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_warlock.level_1.runes_of_battle": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_warlock.level_1.witchblade_training": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_warlock.level_2.rune_ward": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_warlock.level_3.warlock_path": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_warlock.level_4.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_warlock.level_5.empowered_rune": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_warlock.level_6.battle_seer": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_warlock.level_7.path_feature": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_warlock.level_8.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_warlock.level_9.ghosthelm_discipline": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_warlock.level_10.war_rune_mastery": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_warlock.level_11.major_rune_access": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_warlock.level_12.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_warlock.level_13.fate_splitter": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_warlock.level_14.path_feature": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_warlock.level_15.storm_of_runes": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_warlock.level_16.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_warlock.level_17.spirit_rune_focus": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_warlock.level_18.path_feature": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_warlock.level_19.ability_score_improvement_talent": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-003"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.class.aeldari_warlock.level_20.farseers_echo": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.progression.aeldari_warlock": {
+    "status": "READY",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.class.aeldari_warlock": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.subclass.veteran.shock_trooper.level_3": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.subclass.veteran.shock_trooper.level_7": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.subclass.veteran.shock_trooper.level_14": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.progression.subclass.veteran.shock_trooper": {
+    "status": "READY",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.subclass.veteran.shock_trooper": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.subclass.veteran.marksman.level_3": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.subclass.veteran.marksman.level_7": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.subclass.veteran.marksman.level_14": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.progression.subclass.veteran.marksman": {
+    "status": "READY",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.subclass.veteran.marksman": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.subclass.veteran.sergeant.level_3": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.subclass.veteran.sergeant.level_7": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.feature.subclass.veteran.sergeant.level_14": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.progression.subclass.veteran.sergeant": {
+    "status": "READY",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.subclass.veteran.sergeant": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.choice.veteran.subclass": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.choice.veteran.starting_skills": {
+    "status": "READY",
+    "issues": [],
+    "coverage": "STRUCTURED"
+  },
+  "di.damage_type.bludgeoning": {
+    "status": "READY",
+    "issues": [
+      "PHB-002"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.damage_type.fire": {
+    "status": "READY",
+    "issues": [
+      "PHB-002"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.damage_type.force": {
+    "status": "READY",
+    "issues": [
+      "PHB-002"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.damage_type.lightning": {
+    "status": "READY",
+    "issues": [
+      "PHB-002"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.damage_type.necrotic": {
+    "status": "READY",
+    "issues": [
+      "PHB-002"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.damage_type.piercing": {
+    "status": "READY",
+    "issues": [
+      "PHB-002"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.damage_type.poison": {
+    "status": "READY",
+    "issues": [
+      "PHB-002"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.damage_type.psychic": {
+    "status": "READY",
+    "issues": [
+      "PHB-002"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.damage_type.radiant": {
+    "status": "READY",
+    "issues": [
+      "PHB-002"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.damage_type.radiation": {
+    "status": "READY",
+    "issues": [
+      "PHB-002"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.damage_type.slashing": {
+    "status": "READY",
+    "issues": [
+      "PHB-002"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.damage_type.thunder": {
+    "status": "READY",
+    "issues": [
+      "PHB-002"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.armour.ogryn_leathers": {
+    "status": "READY",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.shield.shield": {
+    "status": "READY",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.action.lasgun.base_damage": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  },
+  "di.action.warp_spark.base_damage": {
+    "status": "MANUAL_RULE",
+    "issues": [
+      "PHB-011"
+    ],
+    "coverage": "PARTIALLY_STRUCTURED"
+  }
+}

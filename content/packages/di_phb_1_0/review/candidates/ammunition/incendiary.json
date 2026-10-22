@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.ammunition.incendiary",
+  "kind": "ammunition",
+  "name": "Incendiary",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Ammunition: Incendiary; Availability: Scarce; Effect: Suitable projectile, bolt or flamer weapons. Once per turn on a hit, deal +1d4 fire damage. The ammunition is conspicuous and rarely appropriate for stealth.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Incendiary",
+          "pdfPage": 105,
+          "printedPage": 92
+        }
+      }
+    }
+  ]
+}

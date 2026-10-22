@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.system.armour.adaptive_weave",
+  "kind": "system",
+  "name": "Adaptive Weave",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Modification: Adaptive Weave; Availability: Scarce; Effect: You do not suffer Stealth disadvantage from the armour, and you ignore difficult terrain caused by rubble, foliage, loose debris, or similar ground during the first 10 ft you move each turn.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "9",
+          "heading": "Adaptive Weave",
+          "pdfPage": 45,
+          "printedPage": 32
+        }
+      }
+    }
+  ]
+}

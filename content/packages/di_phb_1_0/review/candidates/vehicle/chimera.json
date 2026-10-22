@@ -1,0 +1,45 @@
+{
+  "proposedId": "di.vehicle.chimera",
+  "kind": "vehicle",
+  "name": "Chimera",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-010"
+  ],
+  "proposedData": {
+    "size": "huge",
+    "defence": {
+      "kind": "constant",
+      "value": 17
+    },
+    "hull": {
+      "kind": "constant",
+      "value": 120
+    },
+    "movement": [
+      {
+        "mode": "ground",
+        "speed": {
+          "value": 40,
+          "unit": "ft"
+        }
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "text": "Chimera\nHuge tracked carrier\nAC 17 | HP 120 | DT 10 | Speed 40 ft | Handling −1\nCrew 1 D, 2 G | Passengers 12 | Cargo 500 kg | Rare\nWeapons: turret multi-laser (one G); forward heavy bolter (other G). Enclosed; two firing ports; Sealed. Amphibious in \ncalm water at half Speed. Ogryns use three passenger spaces.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "21.10",
+          "heading": "Chimera",
+          "pdfPage": 120,
+          "printedPage": 107
+        }
+      }
+    }
+  ]
+}

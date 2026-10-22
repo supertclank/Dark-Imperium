@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_19_2",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Lasting Injury Table",
+  "summary": "d8 Injury Until Treated 1 Concussion Disadvantage on the first Intelligence or Wisdom test after each rest. 2 Damaged Arm Cannot use Heavy or two-handed weapons; disadvantage on tasks requiring both hands. 3 Damaged Leg Speed reduced by 10 ft; disadvantage on saves against being knocked prone. 4 Internal Trauma Maximum HP reduced by your character level. 5 Eye Injury Disadvantage on sight-based Perception and ranged attacks beyond normal range. 6 Respiratory Damage Environmental smoke, gas an...",
+  "descriptionMarkdown": "d8 Injury Until Treated\n1 Concussion Disadvantage on the first Intelligence or Wisdom test after each rest.\n2 Damaged Arm Cannot use Heavy or two-handed weapons; disadvantage on tasks requiring both hands.\n3 Damaged Leg Speed reduced by 10 ft; disadvantage on saves against being knocked prone.\n4 Internal Trauma Maximum HP reduced by your character level.\n5 Eye Injury Disadvantage on sight-based Perception and ranged attacks beyond normal range.\n6 Respiratory Damage Environmental smoke, gas and exertion cause Exposure one step faster when that system \nis in use.\n7 Nerve Damage Cannot take reactions during the first round of combat.\n8 Severe Scarring No universal combat penalty; choose one social context in which the scar changes \nreactions.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "19.2",
+        "heading": "Lasting Injury Table",
+        "pdfPage": 110,
+        "printedPage": 97
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "d8 Injury Until Treated\n1 Concussion Disadvantage on the first Intelligence or Wisdom test after each rest.\n2 Damaged Arm Cannot use Heavy or two-handed weapons; disadvantage on tasks requiring both hands.\n3 Damaged Leg Speed reduced by 10 ft; disadvantage on saves against being knocked prone.\n4 Internal Trauma Maximum HP reduced by your character level.\n5 Eye Injury Disadvantage on sight-based Perception and ranged attacks beyond normal range.\n6 Respiratory Damage Environmental smoke, gas and exertion cause Exposure one step faster when that system \nis in use.\n7 Nerve Damage Cannot take reactions during the first round of combat.\n8 Severe Scarring No universal combat penalty; choose one social context in which the scar changes \nreactions.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

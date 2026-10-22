@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.aeldari_outcast.level_20.legend_of_the_wandering_path",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Legend of the Wandering Path",
+  "summary": "Once per long rest, for 1 minute, you may use Ghostwalk without a bonus action on each of your turns. During this time, your first hit each turn against a creature that cannot see you becomes a critical hit on a roll of 19-20.",
+  "descriptionMarkdown": "Once per long rest, for 1 minute, you may use Ghostwalk \nwithout a bonus action on each of your\nturns. During this time, your first hit each turn against a \ncreature that cannot see you becomes\na critical hit on a roll of 19-20.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.11.20",
+        "heading": "Legend of the Wandering Path",
+        "pdfPage": 81,
+        "printedPage": 68
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per long rest, for 1 minute, you may use Ghostwalk \nwithout a bonus action on each of your\nturns. During this time, your first hit each turn against a \ncreature that cannot see you becomes\na critical hit on a roll of 19-20.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

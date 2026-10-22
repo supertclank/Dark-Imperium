@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_6_7",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Dropping to 0 Hit Points",
+  "summary": "At 0 hit points, you fall unconscious unless a feature says otherwise. At the start of each of your turns, make a death saving throw. On 10 or higher, gain one success; on 9 or lower, gain one failure. Three successes stabilise you. Three failures kill you. A natural 20 restores 1 hit point; a natural 1 causes two failures. Taking damage at 0 HP causes one failure, or two if the damage came from a critical hit.",
+  "descriptionMarkdown": "At 0 hit points, you fall unconscious unless a feature says \notherwise. At the start of each of your turns, make a \ndeath saving throw. On 10 or higher, gain one success; \non 9 or lower, gain one failure. Three successes stabilise \nyou. Three failures kill you. A natural 20 restores 1 hit \npoint; a natural 1 causes two failures. Taking damage at \n0 HP causes one failure, or two if the damage came from \na critical hit.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "6.7",
+        "heading": "Dropping to 0 Hit Points",
+        "pdfPage": 31,
+        "printedPage": 18
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "At 0 hit points, you fall unconscious unless a feature says \notherwise. At the start of each of your turns, make a \ndeath saving throw. On 10 or higher, gain one success; \non 9 or lower, gain one failure. Three successes stabilise \nyou. Three failures kill you. A natural 20 restores 1 hit \npoint; a natural 1 causes two failures. Taking damage at \n0 HP causes one failure, or two if the damage came from \na critical hit.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "di.property.weapon.reload",
+  "kind": "property",
+  "revision": 1,
+  "name": "Reload X",
+  "summary": "Must reload after X shots or uses.",
+  "descriptionMarkdown": "Must reload after X shots or uses.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "7",
+        "heading": "Reload X",
+        "pdfPage": 35,
+        "printedPage": 22
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "appliesToKinds": [
+      "weapon"
+    ],
+    "parameters": [
+      {
+        "name": "capacity",
+        "type": "integer",
+        "required": true,
+        "min": 1
+      }
+    ],
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Must reload after X shots or uses.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

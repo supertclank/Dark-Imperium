@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "di.choice.mining_hold_guild.skills",
+  "kind": "choice",
+  "revision": 1,
+  "name": "Choose 2 skill proficiency",
+  "summary": "Choose 2 skill proficiency",
+  "descriptionMarkdown": "Choose 2 skill proficiency",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "4.10",
+        "heading": "Choose 2 skill proficiency",
+        "pdfPage": 27,
+        "printedPage": 14
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "purpose": "skill",
+    "selectionMode": "options",
+    "cardinality": {
+      "min": 2,
+      "max": 2,
+      "unique": true
+    },
+    "repeatScope": "once_per_actor",
+    "options": [
+      {
+        "id": "athletics",
+        "label": "Athletics",
+        "grants": [
+          {
+            "id": "proficiency",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.athletics"
+            }
+          }
+        ]
+      },
+      {
+        "id": "investigation",
+        "label": "Investigation",
+        "grants": [
+          {
+            "id": "proficiency",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.investigation"
+            }
+          }
+        ]
+      },
+      {
+        "id": "survival",
+        "label": "Survival",
+        "grants": [
+          {
+            "id": "proficiency",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.survival"
+            }
+          }
+        ]
+      },
+      {
+        "id": "technology",
+        "label": "Technology",
+        "grants": [
+          {
+            "id": "proficiency",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.technology"
+            }
+          }
+        ]
+      },
+      {
+        "id": "persuasion",
+        "label": "Persuasion",
+        "grants": [
+          {
+            "id": "proficiency",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.persuasion"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

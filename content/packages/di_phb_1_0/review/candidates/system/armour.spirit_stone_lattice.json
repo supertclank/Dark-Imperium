@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.system.armour.spirit_stone_lattice",
+  "kind": "system",
+  "name": "Spirit-Stone Lattice",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Modification: Spirit-Stone Lattice; Availability: Rare; Effect: Once per short rest, add +1d4 to a saving throw against a psychic or daemonic effect after seeing the roll but before the result is declared.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "9",
+          "heading": "Spirit-Stone Lattice",
+          "pdfPage": 45,
+          "printedPage": 32
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.ogryn_skullbreaker.level_10.thunderous_violence",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Thunderous Violence",
+  "summary": "Once per short rest, when you hit with a melee weapon or Ogryn weapon, deal an additional 2d8 damage and force the target to make a Strength saving throw. On a failure, it is knocked prone.",
+  "descriptionMarkdown": "Once per short rest, when you hit with a melee weapon \nor Ogryn weapon, deal an additional 2d8 damage\nand force the target to make a Strength saving throw. On \na failure, it is knocked prone.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.4.10",
+        "heading": "Thunderous Violence",
+        "pdfPage": 59,
+        "printedPage": 46
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per short rest, when you hit with a melee weapon \nor Ogryn weapon, deal an additional 2d8 damage\nand force the target to make a Strength saving throw. On \na failure, it is knocked prone.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

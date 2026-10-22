@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_2_3_1",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Class at a Glance",
+  "summary": "Class Role Hit Die Primary Abilities Complexity Veteran Ranged combat/leadership d10 Dexterity, Wisdom Low Zealot Melee striker/support d10 Strength or Dexterity; Wisdom or Charisma Medium Psyker Psychic control/support d6 Intelligence or Wisdom High Ogryn Skullbreaker Tank/bruiser d12 Strength, Constitution Low Arbites Enforcer Control/frontline d10 Strength or Dexterity; Wisdom Medium Hive Scum Skirmisher/rogue d8 Dexterity, Charisma Medium Ratling Sharpshooter Sniper/scout d8 Dexterity, Wi...",
+  "descriptionMarkdown": "Class Role Hit Die Primary Abilities Complexity\nVeteran Ranged combat/leadership d10 Dexterity, Wisdom Low\nZealot Melee striker/support d10 Strength or Dexterity; Wisdom or \nCharisma Medium\nPsyker Psychic control/support d6 Intelligence or Wisdom High\nOgryn Skullbreaker Tank/bruiser d12 Strength, Constitution Low\nArbites Enforcer Control/frontline d10 Strength or Dexterity; Wisdom Medium\nHive Scum Skirmisher/rogue d8 Dexterity, Charisma Medium\nRatling Sharpshooter Sniper/scout d8 Dexterity, Wisdom Medium\nSkitarii Veteran Ranged specialist/controller d10 Dexterity, Intelligence Medium\nKin Armsman Frontline/support d10 Constitution; Dexterity or Wisdom Medium\nHernkyn Prospector Scout / ranged support d8 Dexterity; Wisdom or Intelligence Medium\nAeldari Outcast Mobile striker/scout d8 Dexterity, Wisdom Medium\nAeldari Warlock Psychic support/control d6 Wisdom or Intelligence; Dexterity High\nOptional campaign restriction: in a strictly Imperial \ncampaign, Squats/Kin may appear as sanctioned allies \nwhile Aeldari are normally NPCs or exceptional guest \ncharacters.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "2.3.1",
+        "heading": "Class at a Glance",
+        "pdfPage": 17,
+        "printedPage": 4
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Class Role Hit Die Primary Abilities Complexity\nVeteran Ranged combat/leadership d10 Dexterity, Wisdom Low\nZealot Melee striker/support d10 Strength or Dexterity; Wisdom or \nCharisma Medium\nPsyker Psychic control/support d6 Intelligence or Wisdom High\nOgryn Skullbreaker Tank/bruiser d12 Strength, Constitution Low\nArbites Enforcer Control/frontline d10 Strength or Dexterity; Wisdom Medium\nHive Scum Skirmisher/rogue d8 Dexterity, Charisma Medium\nRatling Sharpshooter Sniper/scout d8 Dexterity, Wisdom Medium\nSkitarii Veteran Ranged specialist/controller d10 Dexterity, Intelligence Medium\nKin Armsman Frontline/support d10 Constitution; Dexterity or Wisdom Medium\nHernkyn Prospector Scout / ranged support d8 Dexterity; Wisdom or Intelligence Medium\nAeldari Outcast Mobile striker/scout d8 Dexterity, Wisdom Medium\nAeldari Warlock Psychic support/control d6 Wisdom or Intelligence; Dexterity High\nOptional campaign restriction: in a strictly Imperial \ncampaign, Squats/Kin may appear as sanctioned allies \nwhile Aeldari are normally NPCs or exceptional guest \ncharacters.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

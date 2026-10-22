@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.ogryn_skullbreaker.level_13.cant_keep_him_down",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Can’t Keep Him Down",
+  "summary": "When you spend Hit Dice during a short rest, treat any roll of 1 or 2 as a 3. If you begin your turn below half hit points, you may end one frightened or suppressed condition affecting you.",
+  "descriptionMarkdown": "When you spend Hit Dice during a short rest, treat any \nroll of 1 or 2 as a 3. If you begin your turn below\nhalf hit points, you may end one frightened or \nsuppressed condition affecting you.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.4.13",
+        "heading": "Can’t Keep Him Down",
+        "pdfPage": 60,
+        "printedPage": 47
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When you spend Hit Dice during a short rest, treat any \nroll of 1 or 2 as a 3. If you begin your turn below\nhalf hit points, you may end one frightened or \nsuppressed condition affecting you.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

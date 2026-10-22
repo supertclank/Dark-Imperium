@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.kin_armsman.level_20.ancestor_core_champion",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Ancestor-Core Champion",
+  "summary": "Once per long rest, for 1 minute, your Oath-Mark does not expend uses. The first time each round that an oath-marked enemy damages an ally, you may make one weapon attack against that enemy as a reaction if it is within range.",
+  "descriptionMarkdown": "Once per long rest, for 1 minute, your Oath-Mark does \nnot expend uses. The first time each\nround that an oath-marked enemy damages an ally, you \nmay make one weapon attack against\nthat enemy as a reaction if it is within range.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.9.20",
+        "heading": "Ancestor-Core Champion",
+        "pdfPage": 75,
+        "printedPage": 62
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per long rest, for 1 minute, your Oath-Mark does \nnot expend uses. The first time each\nround that an oath-marked enemy damages an ally, you \nmay make one weapon attack against\nthat enemy as a reaction if it is within range.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

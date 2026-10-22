@@ -1,0 +1,30 @@
+{
+  "proposedId": "di.subclass.ratling_sharpshooter.underhive_rat",
+  "kind": "subclass",
+  "name": "Underhive Rat",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-012"
+  ],
+  "proposedData": {
+    "parentClass": {
+      "id": "di.class.ratling_sharpshooter"
+    }
+  },
+  "evidence": [
+    {
+      "text": "Underhive Rat; Gain expertise in Stealth or Sleight of Hand. You have advantage on checks to hide in urban ruins, crowds, vents, pipes, and debris.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "11.7",
+          "heading": "Underhive Rat",
+          "pdfPage": 68,
+          "printedPage": 55
+        }
+      }
+    }
+  ]
+}

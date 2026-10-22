@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.kinetic_bulwark",
+  "kind": "power",
+  "name": "Kinetic Bulwark",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Kinetic Bulwark; Tag: Telekinesis; Rule: Reaction. When an ally within 30 ft is hit, reduce damage by 2d8 + psychic ability modifier.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Kinetic Bulwark",
+          "pdfPage": 92,
+          "printedPage": 79
+        }
+      }
+    }
+  ]
+}

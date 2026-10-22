@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.ammunition.tracer_target_marking",
+  "kind": "ammunition",
+  "name": "Tracer / Target-Marking",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Ammunition: Tracer / Target-Marking; Availability: Controlled; Effect: The first creature hit during the Reload cycle is easier to track; the next allied ranged attack against it before your next turn ignores Light Cover.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Tracer / Target-Marking",
+          "pdfPage": 105,
+          "printedPage": 92
+        }
+      }
+    }
+  ]
+}

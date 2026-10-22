@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.veteran.shock_trooper.level_3",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Shock Trooper 3",
+  "summary": "Once per turn, when you hit with a lasgun, autogun, shotgun, or bolter, deal +1d6 damage.",
+  "descriptionMarkdown": "Once per turn, when you hit with a lasgun, autogun, shotgun, or bolter, deal +1d6 damage.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.1",
+        "heading": "Shock Trooper 3",
+        "pdfPage": 50,
+        "printedPage": 37
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per turn, when you hit with a lasgun, autogun, shotgun, or bolter, deal +1d6 damage.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

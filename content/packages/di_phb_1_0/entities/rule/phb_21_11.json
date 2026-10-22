@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_21_11",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Weapon Profiles",
+  "summary": "All these mounts count as Heavy and Emplaced, resolved using 21.3. The heavy stubber, heavy bolter and multi-laser retain Chapter 8 damage, range and other properties. Range is in feet; two numbers mean normal/maximum range. A single area range is the furthest point the gunner may choose. Weapon Damage Range Properties Availability Heavy stubber 1d12 piercing 120/360 Burst, Suppression; Reload 40 Controlled Heavy bolter 1d12 piercing + 1d6 thunder 100/300 Burst, Brutal, Suppression; Reload 30...",
+  "descriptionMarkdown": "All these mounts count as Heavy and Emplaced, resolved using 21.3. The heavy stubber, heavy bolter and multi-laser \nretain Chapter 8 damage, range and other properties. Range is in feet; two numbers mean normal/maximum range. A \nsingle area range is the furthest point the gunner may choose.\nWeapon Damage Range Properties Availability\nHeavy stubber 1d12 piercing 120/360 Burst, Suppression; Reload 40 Controlled\nHeavy bolter 1d12 piercing + 1d6 \nthunder 100/300 Burst, Brutal, Suppression; Reload 30 Scarce\nMulti-laser 2d8 radiant 120/360 Burst; Reload 40 Scarce\nAutocannon 2d10 piercing 160/480 Armour-Breaking; Reload 10 Rare\nLascannon 4d10 radiant 200/600 Armour-Breaking; Reload 5 Rare\nBattle cannon 3d10 piercing + 3d10 \nthunder 240 15-ft radius; Armour-Breaking; Reload 1 Exceptional\nBolt cannon 3d8 piercing 120/360 Burst, Brutal; Reload 12 Rare\nHYLas rotary cannon 3d8 radiant 120/360 Burst; Reload 20 Rare\nMagna-coil autocannon 3d10 piercing 160/480 Armour-Breaking; Reload 8 Rare\nScatter laser 3d8 radiant 160/480 Burst; Reload 24 Rare\nShuriken cannon 2d10 slashing 120/360 Burst, Monomolecular; Reload 18 Rare\nTwin shuriken catapults 1d8 slashing 60/180 Burst, Monomolecular, Twin-Linked; \nReload 24 Scarce\nPulse laser 4d10 radiant 200/600 Armour-Breaking; Reload 6 Exceptional\nBattle cannon: choose a visible point within 240 ft. Creatures and vehicles within 15 ft make Dexterity saves against \nthe gunner’s mounted save DC, taking full damage on failure or half on success. Full Cover blocks the blast. Apply \nArmour-Breaking and DT after the save. No attack roll, critical hit or Dexterity damage modifier applies. Spend one \nshell; reloading loads one from the eight-shell mission supply.\nBurst uses the Chapter 7 −2 attack penalty and extra damage die. It expends three shots instead of one and \nrequires at least three remaining. For mixed dice, an extra Burst or Brutal die is the first damage die listed. \nArea weapons cannot use Burst. A Suppression mount may require one creature it hits to make a Wisdom save \nagainst the mounted save DC; failure applies Suppressed as in 6.3. Hulls are immune.\nReload X is the current magazine’s remaining firing uses; Burst consumes three. An action by the gunner or loader fills \nit to X from compatible stores. Ordinary spare magazines are abstracted unless scarcity was declared; battle cannon \nshells are always counted. This list does not grant additional mounts.\nLoadout options: with GM approval, replace a Sentinel multi-laser with a lascannon or a Vyper scatter laser with a \nshuriken cannon. Retain stations and firing limits. A pulse laser needs a suitable heavy Aeldari chassis and is not a \nnormal Vyper upgrade.\nDamage example: a heavy bolter hits a Chimera (DT 10) for 8 piercing + 5 thunder. The combined 13 meets DT, so \napply all 13 HP damage. A separate 9-damage hit does nothing. Armour-Breaking instead compares damage with DT \n5. Passengers are not automatically damaged.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "21.11",
+        "heading": "Weapon Profiles",
+        "pdfPage": 121,
+        "printedPage": 108
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "All these mounts count as Heavy and Emplaced, resolved using 21.3. The heavy stubber, heavy bolter and multi-laser \nretain Chapter 8 damage, range and other properties. Range is in feet; two numbers mean normal/maximum range. A \nsingle area range is the furthest point the gunner may choose.\nWeapon Damage Range Properties Availability\nHeavy stubber 1d12 piercing 120/360 Burst, Suppression; Reload 40 Controlled\nHeavy bolter 1d12 piercing + 1d6 \nthunder 100/300 Burst, Brutal, Suppression; Reload 30 Scarce\nMulti-laser 2d8 radiant 120/360 Burst; Reload 40 Scarce\nAutocannon 2d10 piercing 160/480 Armour-Breaking; Reload 10 Rare\nLascannon 4d10 radiant 200/600 Armour-Breaking; Reload 5 Rare\nBattle cannon 3d10 piercing + 3d10 \nthunder 240 15-ft radius; Armour-Breaking; Reload 1 Exceptional\nBolt cannon 3d8 piercing 120/360 Burst, Brutal; Reload 12 Rare\nHYLas rotary cannon 3d8 radiant 120/360 Burst; Reload 20 Rare\nMagna-coil autocannon 3d10 piercing 160/480 Armour-Breaking; Reload 8 Rare\nScatter laser 3d8 radiant 160/480 Burst; Reload 24 Rare\nShuriken cannon 2d10 slashing 120/360 Burst, Monomolecular; Reload 18 Rare\nTwin shuriken catapults 1d8 slashing 60/180 Burst, Monomolecular, Twin-Linked; \nReload 24 Scarce\nPulse laser 4d10 radiant 200/600 Armour-Breaking; Reload 6 Exceptional\nBattle cannon: choose a visible point within 240 ft. Creatures and vehicles within 15 ft make Dexterity saves against \nthe gunner’s mounted save DC, taking full damage on failure or half on success. Full Cover blocks the blast. Apply \nArmour-Breaking and DT after the save. No attack roll, critical hit or Dexterity damage modifier applies. Spend one \nshell; reloading loads one from the eight-shell mission supply.\nBurst uses the Chapter 7 −2 attack penalty and extra damage die. It expends three shots instead of one and \nrequires at least three remaining. For mixed dice, an extra Burst or Brutal die is the first damage die listed. \nArea weapons cannot use Burst. A Suppression mount may require one creature it hits to make a Wisdom save \nagainst the mounted save DC; failure applies Suppressed as in 6.3. Hulls are immune.\nReload X is the current magazine’s remaining firing uses; Burst consumes three. An action by the gunner or loader fills \nit to X from compatible stores. Ordinary spare magazines are abstracted unless scarcity was declared; battle cannon \nshells are always counted. This list does not grant additional mounts.\nLoadout options: with GM approval, replace a Sentinel multi-laser with a lascannon or a Vyper scatter laser with a \nshuriken cannon. Retain stations and firing limits. A pulse laser needs a suitable heavy Aeldari chassis and is not a \nnormal Vyper upgrade.\nDamage example: a heavy bolter hits a Chimera (DT 10) for 8 piercing + 5 thunder. The combined 13 meets DT, so \napply all 13 HP damage. A separate 9-damage hit does nothing. Armour-Breaking instead compares damage with DT \n5. Passengers are not automatically damaged.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

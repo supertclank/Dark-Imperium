@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.veteran.level_18.dug_in_kill_team",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Dug-In Kill Team",
+  "summary": "While you are in cover, allies within 10 ft of you gain +1 AC against ranged attacks and +1 to saving throws against Suppression. This bonus ends for an ally if they move more than half their speed away from cover.",
+  "descriptionMarkdown": "While you are in cover, allies within 10 ft of you gain +1 \nAC against ranged attacks and +1 to\nsaving throws against Suppression. This bonus ends for \nan ally if they move more than half\ntheir speed away from cover.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.1.18",
+        "heading": "Dug-In Kill Team",
+        "pdfPage": 51,
+        "printedPage": 38
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "While you are in cover, allies within 10 ft of you gain +1 \nAC against ranged attacks and +1 to\nsaving throws against Suppression. This bonus ends for \nan ally if they move more than half\ntheir speed away from cover.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

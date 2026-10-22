@@ -1,0 +1,83 @@
+{
+  "proposedId": "di.weapon.shuriken_pistol",
+  "kind": "weapon",
+  "name": "Shuriken Pistol",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-005"
+  ],
+  "proposedData": {
+    "properties": [
+      {
+        "property": {
+          "id": "di.property.weapon.light"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.monomolecular"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.reload"
+        },
+        "arguments": {
+          "capacity": 12
+        }
+      }
+    ],
+    "modes": [
+      {
+        "id": "base",
+        "name": "Base profile",
+        "damage": [
+          {
+            "id": "component_1",
+            "dice": {
+              "count": 1,
+              "sides": 6,
+              "bonus": 0
+            },
+            "bonus": {
+              "kind": "constant",
+              "value": 0
+            },
+            "damageType": {
+              "id": "di.damage_type.slashing"
+            }
+          }
+        ],
+        "range": {
+          "kind": "distance",
+          "normal": {
+            "value": 50,
+            "unit": "ft"
+          },
+          "long": {
+            "value": 150,
+            "unit": "ft"
+          }
+        }
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "text": "Weapon: Shuriken Pistol; Damage: 1d6 slashing; Range: 50/150; Properties: Light, Monomolecular, Reload 12; Availability: Issued",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "8",
+          "heading": "Shuriken Pistol",
+          "pdfPage": 40,
+          "printedPage": 27
+        }
+      }
+    }
+  ]
+}

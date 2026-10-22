@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "di.property.weapon.silent",
+  "kind": "property",
+  "revision": 1,
+  "name": "Silent",
+  "summary": "Does not automatically reveal the attacker's exact position when fired from hiding.",
+  "descriptionMarkdown": "Does not automatically reveal the attacker's exact position when fired from hiding.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "7",
+        "heading": "Silent",
+        "pdfPage": 35,
+        "printedPage": 22
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "appliesToKinds": [
+      "weapon"
+    ],
+    "parameters": [],
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Does not automatically reveal the attacker's exact position when fired from hiding.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

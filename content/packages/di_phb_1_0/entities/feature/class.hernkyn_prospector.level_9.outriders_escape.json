@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.hernkyn_prospector.level_9.outriders_escape",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Outrider’s Escape",
+  "summary": "Once per short rest, when you are hit by an attack, reduce the damage by 1d8 + your Dexterity modifier and move 10 ft without provoking opportunity attacks.",
+  "descriptionMarkdown": "Once per short rest, when you are hit by an attack, \nreduce the damage by 1d8 + your Dexterity modifier\nand move 10 ft without provoking opportunity attacks.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.10.9",
+        "heading": "Outrider’s Escape",
+        "pdfPage": 77,
+        "printedPage": 64
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per short rest, when you are hit by an attack, \nreduce the damage by 1d8 + your Dexterity modifier\nand move 10 ft without provoking opportunity attacks.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

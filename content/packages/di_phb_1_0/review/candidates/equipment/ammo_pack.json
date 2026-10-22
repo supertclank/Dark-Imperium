@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.ammo_pack",
+  "kind": "equipment",
+  "name": "Ammo Pack",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Item: Ammo Pack; Use: Action or downtime; Rule: When ammunition is being tracked, or a mission effect has exhausted a routine reload supply, restore one Reload cycle for a pistol, basic or heavy weapon. In standard play, ordinary spare ammunition is otherwise abstracted.; Availability: Issued",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "17",
+          "heading": "Ammo Pack",
+          "pdfPage": 101,
+          "printedPage": 88
+        }
+      }
+    }
+  ]
+}

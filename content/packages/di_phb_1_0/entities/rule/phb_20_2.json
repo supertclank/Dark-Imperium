@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_20_2",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Retraining",
+  "summary": "Between missions, the GM may allow a character to retrain one proficiency, Talent, psychic power or comparable choice when the fiction supports training, reconditioning, recovered memory, doctrinal change or a new mentor. Retraining is not intended to become free respec after every mission.",
+  "descriptionMarkdown": "Between missions, the GM may allow a character to retrain one proficiency, Talent, psychic power or comparable \nchoice when the fiction supports training, reconditioning, recovered memory, doctrinal change or a new mentor. \nRetraining is not intended to become free respec after every mission.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "20.2",
+        "heading": "Retraining",
+        "pdfPage": 112,
+        "printedPage": 99
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Between missions, the GM may allow a character to retrain one proficiency, Talent, psychic power or comparable \nchoice when the fiction supports training, reconditioning, recovered memory, doctrinal change or a new mentor. \nRetraining is not intended to become free respec after every mission.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

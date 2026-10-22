@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_6_6",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Critical Hits",
+  "summary": "On a natural 20 with an attack roll, roll the attack's damage dice twice and add modifiers once. Properties such as Brutal or Chain may add further dice. Effects that trigger on a critical hit resolve after confirming the hit.",
+  "descriptionMarkdown": "On a natural 20 with an attack roll, roll the attack's \ndamage dice twice and add modifiers once. Properties \nsuch as Brutal or Chain may add further dice. Effects that \ntrigger on a critical hit resolve after confirming the hit.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "6.6",
+        "heading": "Critical Hits",
+        "pdfPage": 31,
+        "printedPage": 18
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "On a natural 20 with an attack roll, roll the attack's \ndamage dice twice and add modifiers once. Properties \nsuch as Brutal or Chain may add further dice. Effects that \ntrigger on a critical hit resolve after confirming the hit.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

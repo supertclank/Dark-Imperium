@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.veteran.marksman.level_3",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Marksman 3",
+  "summary": "If you did not move this turn, your first ranged attack gains +2 to hit.",
+  "descriptionMarkdown": "If you did not move this turn, your first ranged attack gains +2 to hit.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.1",
+        "heading": "Marksman 3",
+        "pdfPage": 50,
+        "printedPage": 37
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "If you did not move this turn, your first ranged attack gains +2 to hit.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

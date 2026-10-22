@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.pain_spike",
+  "kind": "power",
+  "name": "Pain Spike",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Pain Spike; Tag: Biomancy; Rule: Action. Range 60 ft. Constitution save. Failure: 1d8 psychic damage, and the target cannot take reactions.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Pain Spike",
+          "pdfPage": 91,
+          "printedPage": 78
+        }
+      }
+    }
+  ]
+}

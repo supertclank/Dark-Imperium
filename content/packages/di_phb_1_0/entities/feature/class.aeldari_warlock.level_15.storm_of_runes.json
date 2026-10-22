@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.aeldari_warlock.level_15.storm_of_runes",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Storm of Runes",
+  "summary": "Once per long rest, for 1 minute, your first psychic power each turn costs 1 less Warp Pressure, minimum 1. If Perils triggers during this minute, add +2 to the severity roll after all reductions.",
+  "descriptionMarkdown": "Once per long rest, for 1 minute, your first psychic power \neach turn costs 1 less Warp Pressure, minimum\n1. If Perils triggers during this minute, add +2 to the \nseverity roll after all reductions.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.12.15",
+        "heading": "Storm of Runes",
+        "pdfPage": 84,
+        "printedPage": 71
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per long rest, for 1 minute, your first psychic power \neach turn costs 1 less Warp Pressure, minimum\n1. If Perils triggers during this minute, add +2 to the \nseverity roll after all reductions.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

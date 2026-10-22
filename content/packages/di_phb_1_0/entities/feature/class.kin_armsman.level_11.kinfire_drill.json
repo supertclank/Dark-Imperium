@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.kin_armsman.level_11.kinfire_drill",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Kinfire Drill",
+  "summary": "When you use Oath-Mark, you may choose one ally within 30 ft. That ally may make one weapon attack against the marked target as a reaction.",
+  "descriptionMarkdown": "When you use Oath-Mark, you may choose one ally \nwithin 30 ft. That ally may make one weapon attack\nagainst the marked target as a reaction.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.9.11",
+        "heading": "Kinfire Drill",
+        "pdfPage": 74,
+        "printedPage": 61
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When you use Oath-Mark, you may choose one ally \nwithin 30 ft. That ally may make one weapon attack\nagainst the marked target as a reaction.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

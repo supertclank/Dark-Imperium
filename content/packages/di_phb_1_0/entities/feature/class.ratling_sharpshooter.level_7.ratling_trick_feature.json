@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.ratling_sharpshooter.level_7.ratling_trick_feature",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Ratling Trick Feature",
+  "summary": "Ratling Trick Feature Long-Las Sniper Your first Accurate weapon hit each combat adds +1d6 damage. Underhive Rat Climbing, crawling, squeezing, and moving through tight spaces costs you no extra movement. Spotter Your mark also adds +1 damage. Black-Market Gremlin Once per session, produce one plausible piece of minor contraband or ammunition.",
+  "descriptionMarkdown": "Ratling Trick Feature\nLong-Las Sniper Your first Accurate weapon hit \neach combat adds +1d6 damage.\nUnderhive Rat\nClimbing, crawling, squeezing, and \nmoving through tight spaces costs \nyou no extra movement.\nSpotter Your mark also adds +1 damage.\nBlack-Market Gremlin\nOnce per session, produce one \nplausible piece of minor \ncontraband or ammunition.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.7.7",
+        "heading": "Ratling Trick Feature",
+        "pdfPage": 68,
+        "printedPage": 55
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Ratling Trick Feature\nLong-Las Sniper Your first Accurate weapon hit \neach combat adds +1d6 damage.\nUnderhive Rat\nClimbing, crawling, squeezing, and \nmoving through tight spaces costs \nyou no extra movement.\nSpotter Your mark also adds +1 damage.\nBlack-Market Gremlin\nOnce per session, produce one \nplausible piece of minor \ncontraband or ammunition.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

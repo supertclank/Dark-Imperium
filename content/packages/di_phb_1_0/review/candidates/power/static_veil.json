@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.static_veil",
+  "kind": "power",
+  "name": "Static Veil",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Static Veil; Tag: Telekinesis, Universal; Rule: Reaction. Trigger: targeted by a ranged attack. Add +2 AC against that attack.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Static Veil",
+          "pdfPage": 91,
+          "printedPage": 78
+        }
+      }
+    }
+  ]
+}

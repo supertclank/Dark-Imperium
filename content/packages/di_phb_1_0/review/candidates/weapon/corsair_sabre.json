@@ -1,0 +1,70 @@
+{
+  "proposedId": "di.weapon.corsair_sabre",
+  "kind": "weapon",
+  "name": "Corsair Sabre",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-005"
+  ],
+  "proposedData": {
+    "properties": [
+      {
+        "property": {
+          "id": "di.property.weapon.finesse"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.light"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.monomolecular"
+        },
+        "arguments": {}
+      }
+    ],
+    "modes": [
+      {
+        "id": "base",
+        "name": "Base profile",
+        "damage": [
+          {
+            "id": "component_1",
+            "dice": {
+              "count": 1,
+              "sides": 6,
+              "bonus": 0
+            },
+            "bonus": {
+              "kind": "constant",
+              "value": 0
+            },
+            "damageType": {
+              "id": "di.damage_type.slashing"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "text": "Weapon: Corsair Sabre; Damage: 1d6 slashing; Range: Melee; Properties: Finesse, Light, Monomolecular; Availability: Controlled",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "8",
+          "heading": "Corsair Sabre",
+          "pdfPage": 40,
+          "printedPage": 27
+        }
+      }
+    }
+  ]
+}

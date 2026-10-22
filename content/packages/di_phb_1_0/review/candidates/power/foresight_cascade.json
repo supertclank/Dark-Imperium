@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.foresight_cascade",
+  "kind": "power",
+  "name": "Foresight Cascade",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Foresight Cascade; Tag: Divination; Rule: Action. Range 60 ft. Up to three allies may immediately move 10 ft without provoking opportunity attacks and add 1d4 to their next d20 roll.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Foresight Cascade",
+          "pdfPage": 93,
+          "printedPage": 80
+        }
+      }
+    }
+  ]
+}

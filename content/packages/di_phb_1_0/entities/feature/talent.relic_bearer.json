@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.relic_bearer",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Relic-Bearer",
+  "summary": "Talent: Relic-Bearer Benefit: You carry a minor relic, oath-token, saint bone, engraved casing, or machine charm. Once per long rest, add 1d4 to a saving throw after seeing the roll.",
+  "descriptionMarkdown": "Talent: Relic-Bearer\nBenefit: You carry a minor relic, oath-token, saint bone, engraved casing, or machine charm. Once per long rest, add 1d4 to a saving throw after seeing the roll.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Relic-Bearer",
+        "pdfPage": 86,
+        "printedPage": 73
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Relic-Bearer\nBenefit: You carry a minor relic, oath-token, saint bone, engraved casing, or machine charm. Once per long rest, add 1d4 to a saving throw after seeing the roll.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

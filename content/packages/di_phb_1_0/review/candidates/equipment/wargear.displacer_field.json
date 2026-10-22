@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.wargear.displacer_field",
+  "kind": "equipment",
+  "name": "Displacer Field",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Item: Displacer Field; Availability: Near-Unique; Effect: Once per short rest, when an attack hits you, use your reaction to teleport up to 10 ft to an unoccupied space you can see and halve the triggering damage. If no safe space exists, the reaction cannot be used.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Displacer Field",
+          "pdfPage": 107,
+          "printedPage": 94
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.psyker.level_20.sanctioned_apex",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Sanctioned Apex",
+  "summary": "Once per long rest, when you cast a Major Power, you may apply two different Empowered options to it. Increase Warp Pressure only once for Empowering, but if Perils triggers, add +2 to the severity roll.",
+  "descriptionMarkdown": "Once per long rest, when you cast a Major Power, you \nmay apply two different Empowered\noptions to it. Increase Warp Pressure only once for \nEmpowering, but if Perils triggers, add +2 to\nthe severity roll.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.3.20",
+        "heading": "Sanctioned Apex",
+        "pdfPage": 57,
+        "printedPage": 44
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per long rest, when you cast a Major Power, you \nmay apply two different Empowered\noptions to it. Increase Warp Pressure only once for \nEmpowering, but if Perils triggers, add +2 to\nthe severity roll.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

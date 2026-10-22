@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.system.armour.slab_lock_bracing",
+  "kind": "system",
+  "name": "Slab-Lock Bracing",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Modification: Slab-Lock Bracing; Availability: Controlled; Effect: Slab Shield only. If your Strength is 18 or higher, the shield no longer reduces your speed. While braced, you have advantage on saves against being moved.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "9",
+          "heading": "Slab-Lock Bracing",
+          "pdfPage": 44,
+          "printedPage": 31
+        }
+      }
+    }
+  ]
+}

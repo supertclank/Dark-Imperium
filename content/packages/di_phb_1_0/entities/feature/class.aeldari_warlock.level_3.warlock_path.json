@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.aeldari_warlock.level_3.warlock_path",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Warlock Path",
+  "summary": "Path Benefit Seer of Battle Once per short rest, add or subtract 1d4 from a d20 roll made by a creature you can see. Storm Warlock When you deal force, lightning, fire, or radiant damage with a psychic power, add +1 damage per die. Spirit Guardian Allies within 10 ft of you gain advantage on saving throws against fear while you are conscious.",
+  "descriptionMarkdown": "Path Benefit\nSeer of Battle\nOnce per short rest, add or \nsubtract 1d4 from a d20 roll made \nby a creature you can see.\nStorm Warlock\nWhen you deal force, lightning, \nfire, or radiant damage with a \npsychic power, add +1 damage \nper die.\nSpirit Guardian\nAllies within 10 ft of you gain \nadvantage on saving throws \nagainst fear while you are \nconscious.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.12.4",
+        "heading": "Warlock Path",
+        "pdfPage": 83,
+        "printedPage": 70
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Path Benefit\nSeer of Battle\nOnce per short rest, add or \nsubtract 1d4 from a d20 roll made \nby a creature you can see.\nStorm Warlock\nWhen you deal force, lightning, \nfire, or radiant damage with a \npsychic power, add +1 damage \nper die.\nSpirit Guardian\nAllies within 10 ft of you gain \nadvantage on saving throws \nagainst fear while you are \nconscious.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

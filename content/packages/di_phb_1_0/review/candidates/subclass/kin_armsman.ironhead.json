@@ -1,0 +1,30 @@
+{
+  "proposedId": "di.subclass.kin_armsman.ironhead",
+  "kind": "subclass",
+  "name": "Ironhead",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-012"
+  ],
+  "proposedData": {
+    "parentClass": {
+      "id": "di.class.kin_armsman"
+    }
+  },
+  "evidence": [
+    {
+      "text": "Ironhead; You gain advantage on checks to mine, breach, salvage, demolish, or repair machinery and structures.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "11.9",
+          "heading": "Ironhead",
+          "pdfPage": 74,
+          "printedPage": 61
+        }
+      }
+    }
+  ]
+}

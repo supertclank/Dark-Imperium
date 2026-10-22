@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_18_10",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Salvage and Captured Equipment",
+  "summary": "Characters can recover enemy equipment, but a battlefield is not a consequence-free catalogue. Salvage bypasses the question of whether the item physically exists; it does not bypass condition, ammunition, legality, compatibility, ownership or maintenance. Step Player Procedure 1. Secure The item must actually be recovered from the scene. A retreat, collapsing site or hostile reinforcements can make this impossible. 2. Assess Use Investigation, Technology or an appropriate tool proficiency wh...",
+  "descriptionMarkdown": "Characters can recover enemy equipment, but a battlefield is not a consequence-free catalogue. Salvage bypasses the \nquestion of whether the item physically exists; it does not bypass condition, ammunition, legality, compatibility, \nownership or maintenance.\nStep Player Procedure\n1. Secure\nThe item must actually be recovered from \nthe scene. A retreat, collapsing site or \nhostile reinforcements can make this \nimpossible.\n2. Assess\nUse Investigation, Technology or an \nappropriate tool proficiency when the item's \ncondition, traps, corruption or unfamiliar \ntechnology is uncertain.\n3. Restore\nDamaged or Worn gear may require parts, a \nmaintenance kit, workshop time or a project \nbefore it can be trusted.\n4. Integrate\nUnfamiliar, species-pattern, Mechanicus, \nxenos or proscribed gear may require \ntraining, an interface, ammunition or a \nspecialist before use.\n5. Explain\nIf authorities care about ownership or \nlegality, the warband needs a believable \nprovenance, permit, patron or very \nconvincing lie.\nRecovering an item therefore does not require a normal Requisition test, but keeping it may create an equivalent cost in \nrepairs, contacts, Heat, favours or narrative risk. This is deliberate: loot should create choices rather than convert every \nbattlefield into a shopping trip.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "18.10",
+        "heading": "Salvage and Captured Equipment",
+        "pdfPage": 105,
+        "printedPage": 92
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Characters can recover enemy equipment, but a battlefield is not a consequence-free catalogue. Salvage bypasses the \nquestion of whether the item physically exists; it does not bypass condition, ammunition, legality, compatibility, \nownership or maintenance.\nStep Player Procedure\n1. Secure\nThe item must actually be recovered from \nthe scene. A retreat, collapsing site or \nhostile reinforcements can make this \nimpossible.\n2. Assess\nUse Investigation, Technology or an \nappropriate tool proficiency when the item's \ncondition, traps, corruption or unfamiliar \ntechnology is uncertain.\n3. Restore\nDamaged or Worn gear may require parts, a \nmaintenance kit, workshop time or a project \nbefore it can be trusted.\n4. Integrate\nUnfamiliar, species-pattern, Mechanicus, \nxenos or proscribed gear may require \ntraining, an interface, ammunition or a \nspecialist before use.\n5. Explain\nIf authorities care about ownership or \nlegality, the warband needs a believable \nprovenance, permit, patron or very \nconvincing lie.\nRecovering an item therefore does not require a normal Requisition test, but keeping it may create an equivalent cost in \nrepairs, contacts, Heat, favours or narrative risk. This is deliberate: loot should create choices rather than convert every \nbattlefield into a shopping trip.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

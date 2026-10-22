@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_21_1",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Profiles and Crew",
+  "summary": "Read a profile: AC protects the hull; HP measures structural damage; DT is its Damage Threshold (21.5); Speed is tactical movement in feet per round. Handling modifies driving checks and vehicle Dexterity saves. Crew lists working stations; Passengers lists additional seats. Cargo is capacity after the listed occupants and their normal gear. Vehicles proficiency adds your proficiency bonus to Dexterity (Vehicles) checks and can qualify you for mounted- weapon attacks. Add proficiency only onc...",
+  "descriptionMarkdown": "Read a profile: AC protects the hull; HP measures structural damage; DT is its Damage Threshold (21.5); Speed is \ntactical movement in feet per round. Handling modifies driving checks and vehicle Dexterity saves. Crew lists working \nstations; Passengers lists additional seats. Cargo is capacity after the listed occupants and their normal gear.\nVehicles proficiency adds your proficiency bonus to Dexterity (Vehicles) checks and can qualify you for mounted-\nweapon attacks. Add proficiency only once, even if another proficiency applies. Anyone may attempt ordinary driving. \nUnfamiliar alien controls require instruction or a compatible interface before use. Technology repairs vehicles; it does \nnot replace Vehicles for driving.\nStations: D = driver, G = gunner, L = loader. One conscious driver at the controls is required to move. Other stations \nmay remain empty but cannot act. A G operates one weapon at a time; an L may reload a mount. A one-crew vehicle \nlets its driver operate its listed weapon. A passenger must enter a crew station before using it.\nTurns: each character keeps their own initiative, action, bonus action and reaction. The vehicle grants no extra turns. \nOn their turn, a driver may spend their entire personal movement allowance to move the vehicle up to its Speed, \nwithout spending an action. The vehicle receives this movement only once per round, even if drivers swap. Riding does \nnot spend a passenger’s movement.\nStation changes: boarding a stationary vehicle, disembarking or changing to an accessible station costs 10 ft of \npersonal movement. A driver who spent their movement cannot then disembark normally that turn. Small and Medium \ncreatures use one seat. An Ogryn uses three passenger spaces and needs suitable access and reinforcement. \nOrdinary crew stations require the Ogryn accommodation upgrade; bikes and undersized chassis cannot take it.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "21.1",
+        "heading": "Profiles and Crew",
+        "pdfPage": 114,
+        "printedPage": 101
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Read a profile: AC protects the hull; HP measures structural damage; DT is its Damage Threshold (21.5); Speed is \ntactical movement in feet per round. Handling modifies driving checks and vehicle Dexterity saves. Crew lists working \nstations; Passengers lists additional seats. Cargo is capacity after the listed occupants and their normal gear.\nVehicles proficiency adds your proficiency bonus to Dexterity (Vehicles) checks and can qualify you for mounted-\nweapon attacks. Add proficiency only once, even if another proficiency applies. Anyone may attempt ordinary driving. \nUnfamiliar alien controls require instruction or a compatible interface before use. Technology repairs vehicles; it does \nnot replace Vehicles for driving.\nStations: D = driver, G = gunner, L = loader. One conscious driver at the controls is required to move. Other stations \nmay remain empty but cannot act. A G operates one weapon at a time; an L may reload a mount. A one-crew vehicle \nlets its driver operate its listed weapon. A passenger must enter a crew station before using it.\nTurns: each character keeps their own initiative, action, bonus action and reaction. The vehicle grants no extra turns. \nOn their turn, a driver may spend their entire personal movement allowance to move the vehicle up to its Speed, \nwithout spending an action. The vehicle receives this movement only once per round, even if drivers swap. Riding does \nnot spend a passenger’s movement.\nStation changes: boarding a stationary vehicle, disembarking or changing to an accessible station costs 10 ft of \npersonal movement. A driver who spent their movement cannot then disembark normally that turn. Small and Medium \ncreatures use one seat. An Ogryn uses three passenger spaces and needs suitable access and reinforcement. \nOrdinary crew stations require the Ogryn accommodation upgrade; bikes and undersized chassis cannot take it.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_16_1",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Gaining Corruption",
+  "summary": "● Catastrophic Perils or direct possession pressure. ● Bargaining with a Warp entity. ● Using a forbidden relic whose rules state that it corrupts the bearer. ● Deliberately channelling unstable or Malefic power beyond safe limits. ● Prolonged exposure to a major daemonic ritual or Warp breach. ● Failing a clearly announced corruption save at a major narrative threshold.",
+  "descriptionMarkdown": "● Catastrophic Perils or direct possession pressure.\n● Bargaining with a Warp entity.\n● Using a forbidden relic whose rules state that it corrupts \nthe bearer.\n● Deliberately channelling unstable or Malefic power \nbeyond safe limits.\n● Prolonged exposure to a major daemonic ritual or Warp \nbreach.\n● Failing a clearly announced corruption save at a major \nnarrative threshold.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "16.1",
+        "heading": "Gaining Corruption",
+        "pdfPage": 98,
+        "printedPage": 85
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "● Catastrophic Perils or direct possession pressure.\n● Bargaining with a Warp entity.\n● Using a forbidden relic whose rules state that it corrupts \nthe bearer.\n● Deliberately channelling unstable or Malefic power \nbeyond safe limits.\n● Prolonged exposure to a major daemonic ritual or Warp \nbreach.\n● Failing a clearly announced corruption save at a major \nnarrative threshold.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

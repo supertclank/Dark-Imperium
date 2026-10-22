@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "di.property.weapon.burst",
+  "kind": "property",
+  "revision": 1,
+  "name": "Burst",
+  "summary": "Take -2 to hit. On a hit, add one extra weapon damage die. Uses extra ammunition.",
+  "descriptionMarkdown": "Take -2 to hit. On a hit, add one extra weapon damage die. Uses extra ammunition.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "7",
+        "heading": "Burst",
+        "pdfPage": 35,
+        "printedPage": 22
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "appliesToKinds": [
+      "weapon"
+    ],
+    "parameters": [],
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Take -2 to hit. On a hit, add one extra weapon damage die. Uses extra ammunition.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

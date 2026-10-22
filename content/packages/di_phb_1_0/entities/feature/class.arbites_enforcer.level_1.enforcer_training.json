@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.arbites_enforcer.level_1.enforcer_training",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Enforcer Training",
+  "summary": "Gain proficiency in two skills from Athletics, Insight, Intimidation, Investigation, Perception, and Persuasion.",
+  "descriptionMarkdown": "Gain proficiency in two skills from Athletics, Insight, \nIntimidation, Investigation, Perception, and\nPersuasion.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.5.1",
+        "heading": "Enforcer Training",
+        "pdfPage": 62,
+        "printedPage": 49
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Gain proficiency in two skills from Athletics, Insight, \nIntimidation, Investigation, Perception, and\nPersuasion.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

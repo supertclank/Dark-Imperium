@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.mind_lumen",
+  "kind": "power",
+  "name": "Mind Lumen",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Mind Lumen; Tag: Divination, Universal; Rule: Bonus Action. Self. 10 minutes. See psychic traces, Warp residue, emotional impressions, and unnatural disturbances within 30 ft.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Mind Lumen",
+          "pdfPage": 91,
+          "printedPage": 78
+        }
+      }
+    }
+  ]
+}

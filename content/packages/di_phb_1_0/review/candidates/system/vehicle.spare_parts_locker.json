@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.system.vehicle.spare_parts_locker",
+  "kind": "system",
+  "name": "Spare-parts locker",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-010"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Upgrade: Spare-parts locker; Availability: Scarce; Effect: Includes two repair kits. Once per mission reroll one failed field-repair check, using the new result. Expended kits need replacement; locker remains reusable.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "21",
+          "heading": "Spare-parts locker",
+          "pdfPage": 118,
+          "printedPage": 105
+        }
+      }
+    }
+  ]
+}

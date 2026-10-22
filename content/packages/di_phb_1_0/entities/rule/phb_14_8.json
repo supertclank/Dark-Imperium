@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_14_8",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Warlock Rune Powers",
+  "summary": "Warlock Rune Powers are discipline-locked to Aeldari Warlocks unless the GM allows a rare relic, spirit-stone, or farseer intervention. Power Level Tag Rule Conceal Minor Warlock, Divination Bonus Action. Range 30 ft. One creature gains +1 AC against ranged attacks until your next turn if it has moved or is in cover. Reveal Minor Warlock, Divination Bonus Action. Range 60 ft. One hidden or obscured creature makes a Wisdom save. On failure, it cannot benefit from invisibility or being hidden u...",
+  "descriptionMarkdown": "Warlock Rune Powers are discipline-locked to Aeldari Warlocks unless the GM allows a rare relic, spirit-stone, or \nfarseer intervention.\nPower Level Tag Rule\nConceal Minor Warlock, Divination Bonus Action. Range 30 ft. One creature gains +1 AC against ranged attacks until \nyour next turn if it has moved or is in cover.\nReveal Minor Warlock, Divination Bonus Action. Range 60 ft. One hidden or obscured creature makes a Wisdom \nsave. On failure, it cannot benefit from invisibility or being hidden until your next \nturn.\nProtect Standard Warlock, Telekinesis Action. Range 30 ft. One ally gains +2 AC until the start of your next turn.\nJinx Standard Warlock, Divination Action. Range 60 ft. Wisdom save. On failure, the target suffers -2 AC until the \nstart of your next turn.\nQuicken Standard Warlock, Biomancy Bonus Action. Range 30 ft. One ally gains +10 ft speed and may move through \nallied spaces until your next turn.\nRestrain Fate Standard Warlock, Divination Reaction. When a creature within 60 ft makes an attack roll, subtract 1d4 from the \nroll.\nDestructor Rune Major Warlock, Pyromancy Action. 15-ft cone. Dexterity save. Failure: 5d6 fire/radiant damage; success: half. \nCorrupted creatures take +1d6.\nFortune Thread Major Warlock, Divination Bonus Action. Range 30 ft. For 1 minute, once per round, the target may reroll \none attack roll, saving throw, or ability check. Concentration.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "14.8",
+        "heading": "Warlock Rune Powers",
+        "pdfPage": 93,
+        "printedPage": 80
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "psyker",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Warlock Rune Powers are discipline-locked to Aeldari Warlocks unless the GM allows a rare relic, spirit-stone, or \nfarseer intervention.\nPower Level Tag Rule\nConceal Minor Warlock, Divination Bonus Action. Range 30 ft. One creature gains +1 AC against ranged attacks until \nyour next turn if it has moved or is in cover.\nReveal Minor Warlock, Divination Bonus Action. Range 60 ft. One hidden or obscured creature makes a Wisdom \nsave. On failure, it cannot benefit from invisibility or being hidden until your next \nturn.\nProtect Standard Warlock, Telekinesis Action. Range 30 ft. One ally gains +2 AC until the start of your next turn.\nJinx Standard Warlock, Divination Action. Range 60 ft. Wisdom save. On failure, the target suffers -2 AC until the \nstart of your next turn.\nQuicken Standard Warlock, Biomancy Bonus Action. Range 30 ft. One ally gains +10 ft speed and may move through \nallied spaces until your next turn.\nRestrain Fate Standard Warlock, Divination Reaction. When a creature within 60 ft makes an attack roll, subtract 1d4 from the \nroll.\nDestructor Rune Major Warlock, Pyromancy Action. 15-ft cone. Dexterity save. Failure: 5d6 fire/radiant damage; success: half. \nCorrupted creatures take +1d6.\nFortune Thread Major Warlock, Divination Bonus Action. Range 30 ft. For 1 minute, once per round, the target may reroll \none attack roll, saving throw, or ability check. Concentration.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

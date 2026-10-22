@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.zealot.level_9.refuse_the_dark",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Refuse the Dark",
+  "summary": "Once per long rest, when you or an ally within 30 ft would drop to 0 hit points, you may use your reaction to let the target drop to 1 hit point instead.",
+  "descriptionMarkdown": "Once per long rest, when you or an ally within 30 ft would \ndrop to 0 hit points, you may use your\nreaction to let the target drop to 1 hit point instead.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.2.9",
+        "heading": "Refuse the Dark",
+        "pdfPage": 53,
+        "printedPage": 40
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per long rest, when you or an ally within 30 ft would \ndrop to 0 hit points, you may use your\nreaction to let the target drop to 1 hit point instead.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

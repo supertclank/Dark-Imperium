@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.wargear.teleport_homer",
+  "kind": "equipment",
+  "name": "Teleport Homer",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Item: Teleport Homer; Availability: Rare; Effect: Action to deploy. Once per long rest, a friendly teleport, drop or extraction that can lock onto the homer may arrive within 10 ft of it without scatter or positional error, subject to campaign access.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Teleport Homer",
+          "pdfPage": 107,
+          "printedPage": 94
+        }
+      }
+    }
+  ]
+}

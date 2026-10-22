@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_1_5",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Rules Priority",
+  "summary": "1. Use the most recent Player's Handbook for player- facing character rules. 2. Use a dedicated Bestiary stat block over an older conversion or improvised profile. 3. A specific feature overrides a general rule when the two conflict. 4. When two equally specific rules conflict, use the newer version and record the issue for the next revision. 5. When no rule applies, the GM makes a ruling using the closest existing procedure and play continues.",
+  "descriptionMarkdown": "1. Use the most recent Player's Handbook for player-\nfacing character rules.\n2. Use a dedicated Bestiary stat block over an older \nconversion or improvised profile.\n3. A specific feature overrides a general rule when the \ntwo conflict.\n4. When two equally specific rules conflict, use the newer \nversion and record the issue for the next revision.\n5. When no rule applies, the GM makes a ruling using \nthe closest existing procedure and play continues.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "1.5",
+        "heading": "Rules Priority",
+        "pdfPage": 15,
+        "printedPage": 2
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "1. Use the most recent Player's Handbook for player-\nfacing character rules.\n2. Use a dedicated Bestiary stat block over an older \nconversion or improvised profile.\n3. A specific feature overrides a general rule when the \ntwo conflict.\n4. When two equally specific rules conflict, use the newer \nversion and record the issue for the next revision.\n5. When no rule applies, the GM makes a ruling using \nthe closest existing procedure and play continues.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

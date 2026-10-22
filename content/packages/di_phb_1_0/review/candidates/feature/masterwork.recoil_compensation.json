@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.feature.masterwork.recoil_compensation",
+  "kind": "feature",
+  "name": "Recoil Compensation",
+  "status": "MANUAL_RULE",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-011"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Masterwork Trait: Recoil Compensation; Eligible Item: Heavy ranged weapon; Effect: Moving before firing no longer imposes a penalty from the Heavy property, though other Heavy restrictions still apply.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Recoil Compensation",
+          "pdfPage": 105,
+          "printedPage": 92
+        }
+      }
+    }
+  ]
+}

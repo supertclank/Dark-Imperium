@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.rad_hardened",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Rad-Hardened",
+  "summary": "Talent: Rad-Hardened Requirement: Skitarii Benefit: Resistance to poison or radiation damage. Advantage on saves against radiation, toxins, and disease.",
+  "descriptionMarkdown": "Talent: Rad-Hardened\nRequirement: Skitarii\nBenefit: Resistance to poison or radiation damage. Advantage on saves against radiation, toxins, and disease.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Rad-Hardened",
+        "pdfPage": 87,
+        "printedPage": 74
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Rad-Hardened\nRequirement: Skitarii\nBenefit: Resistance to poison or radiation damage. Advantage on saves against radiation, toxins, and disease.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

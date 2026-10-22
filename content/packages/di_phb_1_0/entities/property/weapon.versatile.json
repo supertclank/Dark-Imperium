@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "di.property.weapon.versatile",
+  "kind": "property",
+  "revision": 1,
+  "name": "Versatile X",
+  "summary": "Can be wielded in one or two hands; use the listed versatile die when wielded in two hands.",
+  "descriptionMarkdown": "Can be wielded in one or two hands; use the listed versatile die when wielded in two hands.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "7",
+        "heading": "Versatile X",
+        "pdfPage": 35,
+        "printedPage": 22
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "appliesToKinds": [
+      "weapon"
+    ],
+    "parameters": [
+      {
+        "name": "sides",
+        "type": "integer",
+        "required": true,
+        "min": 2,
+        "max": 1000
+      }
+    ],
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Can be wielded in one or two hands; use the listed versatile die when wielded in two hands.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

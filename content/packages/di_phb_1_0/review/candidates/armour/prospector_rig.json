@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.armour.prospector_rig",
+  "kind": "armour",
+  "name": "Prospector Rig",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-007"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "AC: 14 + Dex modifier, max +2; Climbing anchors, void seals and harness points; advantage on climbing, anchoring or forced-movement checks in low gravity.; Availability: Controlled",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "9",
+          "heading": "Prospector Rig",
+          "pdfPage": 42,
+          "printedPage": 29
+        }
+      }
+    }
+  ]
+}

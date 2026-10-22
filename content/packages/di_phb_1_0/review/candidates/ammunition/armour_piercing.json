@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.ammunition.armour_piercing",
+  "kind": "ammunition",
+  "name": "Armour-Piercing",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Ammunition: Armour-Piercing; Availability: Scarce; Effect: Projectile or bolt weapons only. Once during the Reload cycle, one attack gains Armour-Breaking. Declare before the attack roll.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Armour-Piercing",
+          "pdfPage": 105,
+          "printedPage": 92
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.kin_armsman.level_17.grudge_bound_advance",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Grudge-Bound Advance",
+  "summary": "When a creature marked by Oath-Mark damages you or an ally, your next hit against it before the end of your next turn deals +1d8 damage and ignores light cover.",
+  "descriptionMarkdown": "When a creature marked by Oath-Mark damages you or \nan ally, your next hit against it before\nthe end of your next turn deals +1d8 damage and ignores \nlight cover.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.9.17",
+        "heading": "Grudge-Bound Advance",
+        "pdfPage": 75,
+        "printedPage": 62
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When a creature marked by Oath-Mark damages you or \nan ally, your next hit against it before\nthe end of your next turn deals +1d8 damage and ignores \nlight cover.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

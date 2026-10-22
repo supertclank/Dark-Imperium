@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.loyal_as_stone",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Loyal as Stone",
+  "summary": "Talent: Loyal as Stone Requirement: Ogryn Benefit: When an ally within 5 ft fails a death save, you may use your reaction to let them reroll it.",
+  "descriptionMarkdown": "Talent: Loyal as Stone\nRequirement: Ogryn\nBenefit: When an ally within 5 ft fails a death save, you may use your reaction to let them reroll it.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Loyal as Stone",
+        "pdfPage": 87,
+        "printedPage": 74
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Loyal as Stone\nRequirement: Ogryn\nBenefit: When an ally within 5 ft fails a death save, you may use your reaction to let them reroll it.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

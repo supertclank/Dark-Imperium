@@ -1,0 +1,71 @@
+{
+  "proposedId": "di.weapon.lasgun",
+  "kind": "weapon",
+  "name": "Lasgun",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-005"
+  ],
+  "proposedData": {
+    "properties": [
+      {
+        "property": {
+          "id": "di.property.weapon.reload"
+        },
+        "arguments": {
+          "capacity": 30
+        }
+      }
+    ],
+    "modes": [
+      {
+        "id": "base",
+        "name": "Base profile",
+        "damage": [
+          {
+            "id": "component_1",
+            "dice": {
+              "count": 1,
+              "sides": 8,
+              "bonus": 0
+            },
+            "bonus": {
+              "kind": "constant",
+              "value": 0
+            },
+            "damageType": {
+              "id": "di.damage_type.radiant"
+            }
+          }
+        ],
+        "range": {
+          "kind": "distance",
+          "normal": {
+            "value": 80,
+            "unit": "ft"
+          },
+          "long": {
+            "value": 240,
+            "unit": "ft"
+          }
+        }
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "text": "Weapon: Lasgun; Damage: 1d8 radiant; Range: 80/240; Properties: Reload 30; Availability: Issued",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "8",
+          "heading": "Lasgun",
+          "pdfPage": 37,
+          "printedPage": 24
+        }
+      }
+    }
+  ]
+}

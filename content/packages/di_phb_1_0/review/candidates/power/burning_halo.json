@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.burning_halo",
+  "kind": "power",
+  "name": "Burning Halo",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Burning Halo; Tag: Pyromancy; Rule: Bonus Action. Self. 1 minute. Creatures that hit you with melee attacks take fire damage equal to your proficiency bonus.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Burning Halo",
+          "pdfPage": 92,
+          "printedPage": 79
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.ratling_sharpshooter.level_2.scamper",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Scamper",
+  "summary": "You may Dash, Disengage, or Hide as a bonus action. Moving through the space of a Medium or larger ally does not count as difficult terrain for you.",
+  "descriptionMarkdown": "You may Dash, Disengage, or Hide as a bonus action. \nMoving through the space of a Medium or larger\nally does not count as difficult terrain for you.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.7.3",
+        "heading": "Scamper",
+        "pdfPage": 68,
+        "printedPage": 55
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "You may Dash, Disengage, or Hide as a bonus action. \nMoving through the space of a Medium or larger\nally does not count as difficult terrain for you.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

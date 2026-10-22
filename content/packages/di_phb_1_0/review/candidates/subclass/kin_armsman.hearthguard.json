@@ -1,0 +1,30 @@
+{
+  "proposedId": "di.subclass.kin_armsman.hearthguard",
+  "kind": "subclass",
+  "name": "Hearthguard",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-012"
+  ],
+  "proposedData": {
+    "parentClass": {
+      "id": "di.class.kin_armsman"
+    }
+  },
+  "evidence": [
+    {
+      "text": "Hearthguard; While wearing medium or heavy Kin armour, reduce non-critical weapon damage by 1.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "11.9",
+          "heading": "Hearthguard",
+          "pdfPage": 74,
+          "printedPage": 61
+        }
+      }
+    }
+  ]
+}

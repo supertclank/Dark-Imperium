@@ -1,0 +1,69 @@
+{
+  "proposedId": "di.weapon.big_friendly_rock",
+  "kind": "weapon",
+  "name": "Big Friendly Rock",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-005"
+  ],
+  "proposedData": {
+    "properties": [
+      {
+        "property": {
+          "id": "di.property.weapon.ogryn"
+        },
+        "arguments": {}
+      }
+    ],
+    "modes": [
+      {
+        "id": "base",
+        "name": "Base profile",
+        "damage": [
+          {
+            "id": "component_1",
+            "dice": {
+              "count": 1,
+              "sides": 10,
+              "bonus": 0
+            },
+            "bonus": {
+              "kind": "constant",
+              "value": 0
+            },
+            "damageType": {
+              "id": "di.damage_type.bludgeoning"
+            }
+          }
+        ],
+        "range": {
+          "kind": "distance",
+          "normal": {
+            "value": 30,
+            "unit": "ft"
+          },
+          "long": {
+            "value": 90,
+            "unit": "ft"
+          }
+        }
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "text": "Weapon: Big Friendly Rock; Damage: 1d10 bludgeoning; Range: 30/90; Properties: Ogryn, Thrown. Uses Strength. Large or smaller target hit: Strength save or be pushed 5 ft. Carry 2; replenish from suitable debris or after a short rest.; Availability: Improvised",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "8",
+          "heading": "Big Friendly Rock",
+          "pdfPage": 38,
+          "printedPage": 25
+        }
+      }
+    }
+  ]
+}

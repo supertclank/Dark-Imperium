@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "di.property.weapon.finesse",
+  "kind": "property",
+  "revision": 1,
+  "name": "Finesse",
+  "summary": "Use Strength or Dexterity for attack and damage rolls.",
+  "descriptionMarkdown": "Use Strength or Dexterity for attack and damage rolls.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "7",
+        "heading": "Finesse",
+        "pdfPage": 35,
+        "printedPage": 22
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "appliesToKinds": [
+      "weapon"
+    ],
+    "parameters": [],
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Use Strength or Dexterity for attack and damage rolls.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

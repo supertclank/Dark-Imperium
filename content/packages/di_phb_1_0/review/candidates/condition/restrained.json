@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.condition.restrained",
+  "kind": "condition",
+  "name": "Restrained",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-013"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Condition / State: Restrained; Effect: Your Speed becomes 0. Your attacks have disadvantage, attacks against you have advantage, and you have disadvantage on Dexterity saving throws.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "6",
+          "heading": "Restrained",
+          "pdfPage": 33,
+          "printedPage": 20
+        }
+      }
+    }
+  ]
+}

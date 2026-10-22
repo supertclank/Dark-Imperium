@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.psyker.training",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Psyker training and hit die",
+  "summary": "11.3 Psyker A sanctioned psychic operative walking the knife-edge between weapon and catastrophe. Allowed Species: Human only. Hit Die: d6. Primary Abilities: Intelligence or Wisdom. Saving Throws: Intelligence, Wisdom. Armour: Light armour. Weapons: Simple weapons, pistols, and force weapons. Special: Uses Psychic Powers and Perils of the Warp.",
+  "descriptionMarkdown": "11.3 Psyker\nA sanctioned psychic operative walking the knife-edge between weapon and catastrophe.\nAllowed Species: Human only.\nHit Die: d6.\nPrimary Abilities: Intelligence or Wisdom.\nSaving Throws: Intelligence, Wisdom.\nArmour: Light armour.\nWeapons: Simple weapons, pistols, and force weapons.\nSpecial: Uses Psychic Powers and Perils of the Warp.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.3",
+        "heading": "Psyker training and hit die",
+        "pdfPage": 56,
+        "printedPage": 43
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "11.3 Psyker\nA sanctioned psychic operative walking the knife-edge between weapon and catastrophe.\nAllowed Species: Human only.\nHit Die: d6.\nPrimary Abilities: Intelligence or Wisdom.\nSaving Throws: Intelligence, Wisdom.\nArmour: Light armour.\nWeapons: Simple weapons, pistols, and force weapons.\nSpecial: Uses Psychic Powers and Perils of the Warp.\n",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

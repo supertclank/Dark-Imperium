@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.scavvers_luck",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Scavver’s Luck",
+  "summary": "Talent: Scavver’s Luck Requirement: Ratling Benefit: Once per long rest, declare that you packed a small mundane item worth 25 throne gelt or less.",
+  "descriptionMarkdown": "Talent: Scavver’s Luck\nRequirement: Ratling\nBenefit: Once per long rest, declare that you packed a small mundane item worth 25 throne gelt or less.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Scavver’s Luck",
+        "pdfPage": 87,
+        "printedPage": 74
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Scavver’s Luck\nRequirement: Ratling\nBenefit: Once per long rest, declare that you packed a small mundane item worth 25 throne gelt or less.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

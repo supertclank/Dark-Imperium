@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_20_1",
+  "kind": "rule",
+  "revision": 1,
+  "name": "When You Gain a Level",
+  "summary": "1. Increase maximum HP using your class Hit Die. 2. Increase proficiency bonus if the new level crosses a proficiency threshold. 3. Gain the class features listed for the new level. 4. If the level grants an Ability Score Improvement / Talent, choose one of those options according to the class rules. 5. Update attack modifiers, saving throw DCs, class resources and any feature that scales with level or proficiency bonus.",
+  "descriptionMarkdown": "1. Increase maximum HP using your class Hit Die.\n2. Increase proficiency bonus if the new level crosses a proficiency threshold.\n3. Gain the class features listed for the new level.\n4. If the level grants an Ability Score Improvement / Talent, choose one of those options according to the class rules.\n5. Update attack modifiers, saving throw DCs, class resources and any feature that scales with level or proficiency \nbonus.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "20.1",
+        "heading": "When You Gain a Level",
+        "pdfPage": 112,
+        "printedPage": 99
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "1. Increase maximum HP using your class Hit Die.\n2. Increase proficiency bonus if the new level crosses a proficiency threshold.\n3. Gain the class features listed for the new level.\n4. If the level grants an Ability Score Improvement / Talent, choose one of those options according to the class rules.\n5. Update attack modifiers, saving throw DCs, class resources and any feature that scales with level or proficiency \nbonus.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

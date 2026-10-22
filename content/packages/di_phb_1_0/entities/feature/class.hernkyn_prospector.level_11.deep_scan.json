@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.hernkyn_prospector.level_11.deep_scan",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Deep Scan",
+  "summary": "As an action, study a creature, machine, vehicle, structure, or battlefield feature within 120 ft. Learn one resistance, weakness, hidden danger, structural flaw, route, or tactical fact, as appropriate.",
+  "descriptionMarkdown": "As an action, study a creature, machine, vehicle, \nstructure, or battlefield feature within 120 ft. Learn one\nresistance, weakness, hidden danger, structural flaw, \nroute, or tactical fact, as appropriate.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.10.11",
+        "heading": "Deep Scan",
+        "pdfPage": 77,
+        "printedPage": 64
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "As an action, study a creature, machine, vehicle, \nstructure, or battlefield feature within 120 ft. Learn one\nresistance, weakness, hidden danger, structural flaw, \nroute, or tactical fact, as appropriate.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

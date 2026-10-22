@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.armour.flak_armour",
+  "kind": "armour",
+  "name": "Flak Armour",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-007"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "AC: 12 + Dex modifier; Standard military protection.; Availability: Issued",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "9",
+          "heading": "Flak Armour",
+          "pdfPage": 42,
+          "printedPage": 29
+        }
+      }
+    }
+  ]
+}

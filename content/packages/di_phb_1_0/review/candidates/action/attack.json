@@ -1,0 +1,28 @@
+{
+  "proposedId": "di.action.attack",
+  "kind": "action",
+  "name": "Attack",
+  "status": "MANUAL_RULE",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-011"
+  ],
+  "proposedData": {
+    "economy": "action"
+  },
+  "evidence": [
+    {
+      "text": "Make weapon attacks allowed by your class features and equipment.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "6.1",
+          "heading": "Attack",
+          "pdfPage": 31,
+          "printedPage": 18
+        }
+      }
+    }
+  ]
+}

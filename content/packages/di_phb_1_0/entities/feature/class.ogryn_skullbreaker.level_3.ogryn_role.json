@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.ogryn_skullbreaker.level_3.ogryn_role",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Ogryn Role",
+  "summary": "Role Benefit Bulwark While using a shield, allies behind you gain light cover. Gun Lugger You can use heavy weapons without the normal movement penalty. Bone ’ead You gain proficiency in Wisdom saves and one additional skill. Brute Once per turn, when you hit with a melee weapon, deal +1d6 damage.",
+  "descriptionMarkdown": "Role Benefit\nBulwark While using a shield, allies behind \nyou gain light cover.\nGun Lugger\nYou can use heavy weapons \nwithout the normal movement \npenalty.\nBone ’ead You gain proficiency in Wisdom \nsaves and one additional skill.\nBrute\nOnce per turn, when you hit with a \nmelee weapon, deal +1d6 \ndamage.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.4.4",
+        "heading": "Ogryn Role",
+        "pdfPage": 59,
+        "printedPage": 46
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Role Benefit\nBulwark While using a shield, allies behind \nyou gain light cover.\nGun Lugger\nYou can use heavy weapons \nwithout the normal movement \npenalty.\nBone ’ead You gain proficiency in Wisdom \nsaves and one additional skill.\nBrute\nOnce per turn, when you hit with a \nmelee weapon, deal +1d6 \ndamage.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

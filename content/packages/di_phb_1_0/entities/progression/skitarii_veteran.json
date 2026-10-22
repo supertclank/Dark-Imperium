@@ -1,0 +1,282 @@
+{
+  "schemaVersion": 1,
+  "id": "di.progression.skitarii_veteran",
+  "kind": "progression",
+  "revision": 1,
+  "name": "Skitarii Veteran progression",
+  "summary": "Exact level labels from the class table; feature automation is separately classified.",
+  "descriptionMarkdown": "Exact level labels from the class table; feature automation is separately classified.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.8",
+        "heading": "Skitarii Veteran progression",
+        "pdfPage": 71,
+        "printedPage": 58
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "axis": {
+      "kind": "class_level",
+      "class": {
+        "id": "di.class.skitarii_veteran"
+      }
+    },
+    "maxLevel": 20,
+    "entries": [
+      {
+        "level": 1,
+        "grants": [
+          {
+            "id": "level_1_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.skitarii_veteran.level_1.machine_focus"
+            }
+          },
+          {
+            "id": "level_1_2",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.skitarii_veteran.level_1.targeting_protocol"
+            }
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "grants": [
+          {
+            "id": "level_2_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.skitarii_veteran.level_2.augmetic_reflexes"
+            }
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "grants": [
+          {
+            "id": "level_3_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.skitarii_veteran.level_3.combat_protocol"
+            }
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "grants": [
+          {
+            "id": "level_4_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.skitarii_veteran.level_4.ability_score_improvement_talent"
+            }
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "grants": [
+          {
+            "id": "level_5_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.skitarii_veteran.level_5.extra_attack"
+            }
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "grants": [
+          {
+            "id": "level_6_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.skitarii_veteran.level_6.doctrinal_subroutine"
+            }
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "grants": [
+          {
+            "id": "level_7_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.skitarii_veteran.level_7.protocol_feature"
+            }
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "grants": [
+          {
+            "id": "level_8_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.skitarii_veteran.level_8.ability_score_improvement_talent"
+            }
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "grants": [
+          {
+            "id": "level_9_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.skitarii_veteran.level_9.blessed_autosenses"
+            }
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "grants": [
+          {
+            "id": "level_10_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.skitarii_veteran.level_10.omnissian_execution"
+            }
+          }
+        ]
+      },
+      {
+        "level": 11,
+        "grants": [
+          {
+            "id": "level_11_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.skitarii_veteran.level_11.calculated_volley"
+            }
+          }
+        ]
+      },
+      {
+        "level": 12,
+        "grants": [
+          {
+            "id": "level_12_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.skitarii_veteran.level_12.ability_score_improvement_talent"
+            }
+          }
+        ]
+      },
+      {
+        "level": 13,
+        "grants": [
+          {
+            "id": "level_13_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.skitarii_veteran.level_13.redundant_systems"
+            }
+          }
+        ]
+      },
+      {
+        "level": 14,
+        "grants": [
+          {
+            "id": "level_14_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.skitarii_veteran.level_14.protocol_feature"
+            }
+          }
+        ]
+      },
+      {
+        "level": 15,
+        "grants": [
+          {
+            "id": "level_15_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.skitarii_veteran.level_15.will_of_the_omnissiah"
+            }
+          }
+        ]
+      },
+      {
+        "level": 16,
+        "grants": [
+          {
+            "id": "level_16_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.skitarii_veteran.level_16.ability_score_improvement_talent"
+            }
+          }
+        ]
+      },
+      {
+        "level": 17,
+        "grants": [
+          {
+            "id": "level_17_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.skitarii_veteran.level_17.perfect_targeting_logic"
+            }
+          }
+        ]
+      },
+      {
+        "level": 18,
+        "grants": [
+          {
+            "id": "level_18_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.skitarii_veteran.level_18.protocol_feature"
+            }
+          }
+        ]
+      },
+      {
+        "level": 19,
+        "grants": [
+          {
+            "id": "level_19_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.skitarii_veteran.level_19.ability_score_improvement_talent"
+            }
+          }
+        ]
+      },
+      {
+        "level": 20,
+        "grants": [
+          {
+            "id": "level_20_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.skitarii_veteran.level_20.living_instrument_of_the_omnissiah"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

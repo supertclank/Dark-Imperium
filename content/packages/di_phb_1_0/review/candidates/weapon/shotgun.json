@@ -1,0 +1,77 @@
+{
+  "proposedId": "di.weapon.shotgun",
+  "kind": "weapon",
+  "name": "Shotgun",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-005"
+  ],
+  "proposedData": {
+    "properties": [
+      {
+        "property": {
+          "id": "di.property.weapon.close_quarters"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.reload"
+        },
+        "arguments": {
+          "capacity": 8
+        }
+      }
+    ],
+    "modes": [
+      {
+        "id": "base",
+        "name": "Base profile",
+        "damage": [
+          {
+            "id": "component_1",
+            "dice": {
+              "count": 1,
+              "sides": 10,
+              "bonus": 0
+            },
+            "bonus": {
+              "kind": "constant",
+              "value": 0
+            },
+            "damageType": {
+              "id": "di.damage_type.piercing"
+            }
+          }
+        ],
+        "range": {
+          "kind": "distance",
+          "normal": {
+            "value": 30,
+            "unit": "ft"
+          },
+          "long": {
+            "value": 90,
+            "unit": "ft"
+          }
+        }
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "text": "Weapon: Shotgun; Damage: 1d10 piercing; Range: 30/90; Properties: Close-Quarters, Reload 8; Availability: Issued",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "8",
+          "heading": "Shotgun",
+          "pdfPage": 37,
+          "printedPage": 24
+        }
+      }
+    }
+  ]
+}

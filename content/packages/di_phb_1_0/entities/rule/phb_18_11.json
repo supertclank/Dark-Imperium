@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_18_11",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Item Condition and Repair",
+  "summary": "Use Item Condition when maintenance, salvage or scarcity matters. Most issued and newly requisitioned equipment begins Serviceable. Do not roll condition for every ordinary attack; condition changes when a rule, hazard, critical failure, neglect or narrative event specifically threatens the item. Condition Effect Pristine Exceptionally maintained. Ignore the first event each mission that would reduce the item's Condition. Serviceable Normal function with no penalty. Condition Effect Worn On a...",
+  "descriptionMarkdown": "Use Item Condition when maintenance, salvage or scarcity matters. Most issued and newly requisitioned equipment \nbegins Serviceable. Do not roll condition for every ordinary attack; condition changes when a rule, hazard, critical \nfailure, neglect or narrative event specifically threatens the item.\nCondition Effect\nPristine\nExceptionally maintained. Ignore the first \nevent each mission that would reduce the \nitem's Condition.\nServiceable Normal function with no penalty.\nCondition Effect\nWorn\nOn a natural 1 during demanding use, the \nitem becomes Damaged after resolving the \naction.\nDamaged\nOne property or benefit chosen by the GM is \nunavailable until repaired. A natural 1 during \ndemanding use can cause complete failure.\nRuined\nThe item cannot function until rebuilt or \nreplaced with appropriate facilities and \nparts.\nA field repair normally improves Damaged to Worn. Proper workshop repair can restore Serviceable. Returning an item \nto Pristine requires exceptional maintenance, master-crafting or replacement components.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "18.11",
+        "heading": "Item Condition and Repair",
+        "pdfPage": 105,
+        "printedPage": 92
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Use Item Condition when maintenance, salvage or scarcity matters. Most issued and newly requisitioned equipment \nbegins Serviceable. Do not roll condition for every ordinary attack; condition changes when a rule, hazard, critical \nfailure, neglect or narrative event specifically threatens the item.\nCondition Effect\nPristine\nExceptionally maintained. Ignore the first \nevent each mission that would reduce the \nitem's Condition.\nServiceable Normal function with no penalty.\nCondition Effect\nWorn\nOn a natural 1 during demanding use, the \nitem becomes Damaged after resolving the \naction.\nDamaged\nOne property or benefit chosen by the GM is \nunavailable until repaired. A natural 1 during \ndemanding use can cause complete failure.\nRuined\nThe item cannot function until rebuilt or \nreplaced with appropriate facilities and \nparts.\nA field repair normally improves Damaged to Worn. Proper workshop repair can restore Serviceable. Returning an item \nto Pristine requires exceptional maintenance, master-crafting or replacement components.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

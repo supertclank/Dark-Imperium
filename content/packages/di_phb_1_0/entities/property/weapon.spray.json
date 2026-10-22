@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "di.property.weapon.spray",
+  "kind": "property",
+  "revision": 1,
+  "name": "Spray",
+  "summary": "Uses an area saving throw instead of a normal attack roll.",
+  "descriptionMarkdown": "Uses an area saving throw instead of a normal attack roll.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "7",
+        "heading": "Spray",
+        "pdfPage": 35,
+        "printedPage": 22
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "appliesToKinds": [
+      "weapon"
+    ],
+    "parameters": [],
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Uses an area saving throw instead of a normal attack roll.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

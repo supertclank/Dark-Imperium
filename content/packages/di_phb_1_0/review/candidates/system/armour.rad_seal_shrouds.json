@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.system.armour.rad_seal_shrouds",
+  "kind": "system",
+  "name": "Rad-Seal Shrouds",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Modification: Rad-Seal Shrouds; Availability: Controlled; Effect: Advantage on saves against radiation and contaminated atmospheres. The first time you take radiation damage after a short rest, reduce it by your proficiency bonus.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "9",
+          "heading": "Rad-Seal Shrouds",
+          "pdfPage": 44,
+          "printedPage": 31
+        }
+      }
+    }
+  ]
+}

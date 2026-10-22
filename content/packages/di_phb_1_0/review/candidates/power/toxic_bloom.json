@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.toxic_bloom",
+  "kind": "power",
+  "name": "Toxic Bloom",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Toxic Bloom; Tag: Biomancy; Rule: Action. 10-ft radius within 60 ft. Constitution save. Failure: 2d8 poison/necrotic damage and poisoned until next turn; success: half and no poison.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Toxic Bloom",
+          "pdfPage": 92,
+          "printedPage": 79
+        }
+      }
+    }
+  ]
+}

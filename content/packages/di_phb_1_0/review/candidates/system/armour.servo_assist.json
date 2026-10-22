@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.system.armour.servo_assist",
+  "kind": "system",
+  "name": "Servo Assist",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Modification: Servo Assist; Typical Availability: Rare; Effect: Add +1d4 to one Strength check per short rest involving lifting, forcing or breaching.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "9",
+          "heading": "Servo Assist",
+          "pdfPage": 44,
+          "printedPage": 31
+        }
+      }
+    }
+  ]
+}

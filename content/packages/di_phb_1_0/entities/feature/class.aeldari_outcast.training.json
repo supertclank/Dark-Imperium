@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.aeldari_outcast.training",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Aeldari Outcast training and hit die",
+  "summary": "11.11 Aeldari Outcast An Aeldari ranger, exile, corsair-adjacent wanderer, pathless scout, or alien marksman pursuing a hidden agenda. Allowed Species: Aeldari only. Hit Die: d8. Primary Abilities: Dexterity, Wisdom. Saving Throws: Dexterity, Wisdom. Armour: Aeldari mesh, ranger weave, light armour. Weapons: Aeldari weapons, pistols, blades, sniper weapons.",
+  "descriptionMarkdown": "11.11 Aeldari Outcast\nAn Aeldari ranger, exile, corsair-adjacent wanderer, pathless scout, or alien marksman pursuing a hidden agenda.\nAllowed Species: Aeldari only.\nHit Die: d8.\nPrimary Abilities: Dexterity, Wisdom.\nSaving Throws: Dexterity, Wisdom.\nArmour: Aeldari mesh, ranger weave, light armour.\nWeapons: Aeldari weapons, pistols, blades, sniper weapons.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.11",
+        "heading": "Aeldari Outcast training and hit die",
+        "pdfPage": 80,
+        "printedPage": 67
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "11.11 Aeldari Outcast\nAn Aeldari ranger, exile, corsair-adjacent wanderer, pathless scout, or alien marksman pursuing a hidden agenda.\nAllowed Species: Aeldari only.\nHit Die: d8.\nPrimary Abilities: Dexterity, Wisdom.\nSaving Throws: Dexterity, Wisdom.\nArmour: Aeldari mesh, ranger weave, light armour.\nWeapons: Aeldari weapons, pistols, blades, sniper weapons.\n",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.crush_grip",
+  "kind": "power",
+  "name": "Crush Grip",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Crush Grip; Tag: Telekinesis; Rule: Action. Range 60 ft. Strength save. Failure: 2d8 force damage, and speed becomes 0 until the end of the next turn.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Crush Grip",
+          "pdfPage": 92,
+          "printedPage": 79
+        }
+      }
+    }
+  ]
+}

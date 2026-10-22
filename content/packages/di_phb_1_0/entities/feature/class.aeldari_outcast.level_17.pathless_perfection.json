@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.aeldari_outcast.level_17.pathless_perfection",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Pathless Perfection",
+  "summary": "Once per round, when you move at least 10 ft before attacking, you may add +1d4 to either the attack roll or the damage roll after seeing the d20.",
+  "descriptionMarkdown": "Once per round, when you move at least 10 ft before \nattacking, you may add +1d4 to either the\nattack roll or the damage roll after seeing the d20.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.11.17",
+        "heading": "Pathless Perfection",
+        "pdfPage": 81,
+        "printedPage": 68
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per round, when you move at least 10 ft before \nattacking, you may add +1d4 to either the\nattack roll or the damage roll after seeing the d20.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

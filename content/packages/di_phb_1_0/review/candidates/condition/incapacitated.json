@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.condition.incapacitated",
+  "kind": "condition",
+  "name": "Incapacitated",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-013"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Condition / State: Incapacitated; Effect: You cannot take actions, bonus actions or reactions.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "6",
+          "heading": "Incapacitated",
+          "pdfPage": 32,
+          "printedPage": 19
+        }
+      }
+    }
+  ]
+}

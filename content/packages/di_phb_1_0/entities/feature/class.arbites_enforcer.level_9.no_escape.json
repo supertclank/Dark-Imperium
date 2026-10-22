@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.arbites_enforcer.level_9.no_escape",
+  "kind": "feature",
+  "revision": 1,
+  "name": "No Escape",
+  "summary": "When a creature you can see within 30 ft moves away from you or an ally, you may use your reaction to force it to make a Wisdom save. On a failure, its movement ends.",
+  "descriptionMarkdown": "When a creature you can see within 30 ft moves away \nfrom you or an ally, you may use your reaction to\nforce it to make a Wisdom save. On a failure, its \nmovement ends.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.5.9",
+        "heading": "No Escape",
+        "pdfPage": 62,
+        "printedPage": 49
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When a creature you can see within 30 ft moves away \nfrom you or an ally, you may use your reaction to\nforce it to make a Wisdom save. On a failure, its \nmovement ends.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

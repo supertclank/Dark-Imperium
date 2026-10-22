@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.veteran.marksman.level_7",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Marksman 7",
+  "summary": "Accurate weapons gain +1 damage when you did not move.",
+  "descriptionMarkdown": "Accurate weapons gain +1 damage when you did not move.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.1",
+        "heading": "Marksman 7",
+        "pdfPage": 50,
+        "printedPage": 37
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Accurate weapons gain +1 damage when you did not move.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

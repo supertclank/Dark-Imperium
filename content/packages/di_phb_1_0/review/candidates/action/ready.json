@@ -1,0 +1,28 @@
+{
+  "proposedId": "di.action.ready",
+  "kind": "action",
+  "name": "Ready",
+  "status": "MANUAL_RULE",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-011"
+  ],
+  "proposedData": {
+    "economy": "action"
+  },
+  "evidence": [
+    {
+      "text": "Choose a perceivable trigger and an action or movement to resolve with your reaction.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "6.1",
+          "heading": "Ready",
+          "pdfPage": 31,
+          "printedPage": 18
+        }
+      }
+    }
+  ]
+}

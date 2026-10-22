@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.bone_ead_implant",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Bone ’ead Implant",
+  "summary": "Talent: Bone ’ead Implant Requirement: Ogryn Benefit: Increase Intelligence by 1, maximum 12. You gain proficiency in Wisdom saves or one skill.",
+  "descriptionMarkdown": "Talent: Bone ’ead Implant\nRequirement: Ogryn\nBenefit: Increase Intelligence by 1, maximum 12. You gain proficiency in Wisdom saves or one skill.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Bone ’ead Implant",
+        "pdfPage": 87,
+        "printedPage": 74
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Bone ’ead Implant\nRequirement: Ogryn\nBenefit: Increase Intelligence by 1, maximum 12. You gain proficiency in Wisdom saves or one skill.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

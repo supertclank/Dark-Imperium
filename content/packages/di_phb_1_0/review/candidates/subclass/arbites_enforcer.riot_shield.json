@@ -1,0 +1,30 @@
+{
+  "proposedId": "di.subclass.arbites_enforcer.riot_shield",
+  "kind": "subclass",
+  "name": "Riot Shield",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-012"
+  ],
+  "proposedData": {
+    "parentClass": {
+      "id": "di.class.arbites_enforcer"
+    }
+  },
+  "evidence": [
+    {
+      "text": "Riot Shield; While using a shield, you gain +1 AC and advantage against being shoved.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "11.5",
+          "heading": "Riot Shield",
+          "pdfPage": 62,
+          "printedPage": 49
+        }
+      }
+    }
+  ]
+}

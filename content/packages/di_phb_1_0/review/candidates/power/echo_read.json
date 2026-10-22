@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.echo_read",
+  "kind": "power",
+  "name": "Echo Read",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Echo Read; Tag: Divination; Rule: Action. Touch an object or corpse. Learn one recent strong emotion, danger, or image attached to it.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Echo Read",
+          "pdfPage": 92,
+          "printedPage": 79
+        }
+      }
+    }
+  ]
+}

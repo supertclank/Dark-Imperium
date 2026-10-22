@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.bayonet_fighter",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Bayonet Fighter",
+  "summary": "Talent: Bayonet Fighter Benefit: When wielding a basic firearm in two hands, you may make a 1d6 piercing melee attack with it.",
+  "descriptionMarkdown": "Talent: Bayonet Fighter\nBenefit: When wielding a basic firearm in two hands, you may make a 1d6 piercing melee attack with it.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Bayonet Fighter",
+        "pdfPage": 86,
+        "printedPage": 73
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Bayonet Fighter\nBenefit: When wielding a basic firearm in two hands, you may make a 1d6 piercing melee attack with it.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

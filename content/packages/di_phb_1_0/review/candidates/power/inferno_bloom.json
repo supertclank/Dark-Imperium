@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.inferno_bloom",
+  "kind": "power",
+  "name": "Inferno Bloom",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Inferno Bloom; Tag: Pyromancy; Rule: Action. Point within 90 ft. 15-ft radius Dexterity save. Failure: 5d6 fire/radiant damage; success:s half.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Inferno Bloom",
+          "pdfPage": 93,
+          "printedPage": 80
+        }
+      }
+    }
+  ]
+}

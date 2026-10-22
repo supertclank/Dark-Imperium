@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_14_2",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Psychic Attack Modifier",
+  "summary": "Proficiency bonus + Intelligence or Wisdom modifier",
+  "descriptionMarkdown": "Proficiency bonus + Intelligence or Wisdom modifier",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "14.2",
+        "heading": "Psychic Attack Modifier",
+        "pdfPage": 91,
+        "printedPage": 78
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "psyker",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Proficiency bonus + Intelligence or Wisdom modifier",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

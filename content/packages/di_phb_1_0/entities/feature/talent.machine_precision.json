@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.machine_precision",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Machine Precision",
+  "summary": "Talent: Machine Precision Requirement: Skitarii Benefit: Once per short rest, add your Intelligence modifier to a weapon damage roll.",
+  "descriptionMarkdown": "Talent: Machine Precision\nRequirement: Skitarii\nBenefit: Once per short rest, add your Intelligence modifier to a weapon damage roll.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Machine Precision",
+        "pdfPage": 87,
+        "printedPage": 74
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Machine Precision\nRequirement: Skitarii\nBenefit: Once per short rest, add your Intelligence modifier to a weapon damage roll.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

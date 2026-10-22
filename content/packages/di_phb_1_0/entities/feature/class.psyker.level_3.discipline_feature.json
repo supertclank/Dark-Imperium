@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.psyker.level_3.discipline_feature",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Discipline Feature",
+  "summary": "Discipline Feature Biomancer When you heal a creature, it gains temporary hit points equal to your proficiency bonus. Telekine When you cast a force power, you may push the target 10 ft on a failed save. Diviner Once per short rest, add or subtract 1d4 from a d20 roll made by a creature you can see. Pyromancer Fire powers deal +1 damage per damage die. Malefic-Touched When you trigger Perils, your next psychic power deals +1d8 damage. Discipline Feature Blank / Null-Bound You have advantage o...",
+  "descriptionMarkdown": "Discipline Feature\nBiomancer\nWhen you heal a creature, it gains \ntemporary hit points equal to your \nproficiency bonus.\nTelekine\nWhen you cast a force power, you \nmay push the target 10 ft on a \nfailed save.\nDiviner\nOnce per short rest, add or \nsubtract 1d4 from a d20 roll made \nby a creature you can see.\nPyromancer Fire powers deal +1 damage per \ndamage die.\nMalefic-Touched\nWhen you trigger Perils, your next \npsychic power deals +1d8 \ndamage.\nDiscipline Feature\nBlank / Null-Bound\nYou have advantage on saving \nthrows against psychic powers \nand Perils effects. When a \ncreature you can see within 30 ft \ngains Warp Pressure, you may \nuse your reaction to reduce \npsychic damage dealt to one ally \nby your proficiency bonus.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.3.3",
+        "heading": "Discipline Feature",
+        "pdfPage": 56,
+        "printedPage": 43
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Discipline Feature\nBiomancer\nWhen you heal a creature, it gains \ntemporary hit points equal to your \nproficiency bonus.\nTelekine\nWhen you cast a force power, you \nmay push the target 10 ft on a \nfailed save.\nDiviner\nOnce per short rest, add or \nsubtract 1d4 from a d20 roll made \nby a creature you can see.\nPyromancer Fire powers deal +1 damage per \ndamage die.\nMalefic-Touched\nWhen you trigger Perils, your next \npsychic power deals +1d8 \ndamage.\nDiscipline Feature\nBlank / Null-Bound\nYou have advantage on saving \nthrows against psychic powers \nand Perils effects. When a \ncreature you can see within 30 ft \ngains Warp Pressure, you may \nuse your reaction to reduce \npsychic damage dealt to one ally \nby your proficiency bonus.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

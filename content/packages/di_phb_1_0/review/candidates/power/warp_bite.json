@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.warp_bite",
+  "kind": "power",
+  "name": "Warp Bite",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Warp Bite; Tag: Malefic; Rule: Action. Range 60 ft. Psychic attack. On hit, 1d10 psychic damage. If you roll a natural 1, immediately add +1 Warp Pressure.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Warp Bite",
+          "pdfPage": 92,
+          "printedPage": 79
+        }
+      }
+    }
+  ]
+}

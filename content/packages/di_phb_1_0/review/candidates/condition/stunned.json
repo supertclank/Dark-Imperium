@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.condition.stunned",
+  "kind": "condition",
+  "name": "Stunned",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-013"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Condition / State: Stunned; Effect: You are Incapacitated, cannot move and can speak only falteringly. You automatically fail Strength and Dexterity saving throws, and attacks against you have advantage.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "6",
+          "heading": "Stunned",
+          "pdfPage": 33,
+          "printedPage": 20
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.fortune_thread",
+  "kind": "power",
+  "name": "Fortune Thread",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Fortune Thread; Level: Major; Tag: Warlock, Divination; Rule: Bonus Action. Range 30 ft. For 1 minute, once per round, the target may reroll one attack roll, saving throw, or ability check. Concentration.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Fortune Thread",
+          "pdfPage": 93,
+          "printedPage": 80
+        }
+      }
+    }
+  ]
+}

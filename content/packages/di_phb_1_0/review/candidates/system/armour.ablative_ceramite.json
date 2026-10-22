@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.system.armour.ablative_ceramite",
+  "kind": "system",
+  "name": "Ablative Ceramite",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Modification: Ablative Ceramite; Availability: Scarce; Effect: Once per short rest, when a weapon attack scores a critical hit against you, treat it as a normal hit instead. Other critical effects still apply if the attack explicitly says they cannot be negated.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "9",
+          "heading": "Ablative Ceramite",
+          "pdfPage": 44,
+          "printedPage": 31
+        }
+      }
+    }
+  ]
+}

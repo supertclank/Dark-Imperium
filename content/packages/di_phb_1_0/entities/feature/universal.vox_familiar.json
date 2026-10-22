@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.universal.vox_familiar",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Vox Familiar",
+  "summary": "Trait: Vox Familiar Effect: Allies within 120 ft with vox access can understand your short coded messages even in combat noise.",
+  "descriptionMarkdown": "Trait: Vox Familiar\nEffect: Allies within 120 ft with vox access can understand your short coded messages even in combat noise.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "5",
+        "heading": "Vox Familiar",
+        "pdfPage": 29,
+        "printedPage": 16
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "general",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Trait: Vox Familiar\nEffect: Allies within 120 ft with vox access can understand your short coded messages even in combat noise.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.kin_armsman.level_2.steady_advance",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Steady Advance",
+  "summary": "Your speed is not reduced by difficult terrain caused by rubble, industrial clutter, loose rock, gantries, mine workings, or shipboard debris. When you move no more than half your speed on your turn, you gain +1 AC until the start of your next turn.",
+  "descriptionMarkdown": "Your speed is not reduced by difficult terrain caused by \nrubble, industrial clutter, loose rock, gantries,\nmine workings, or shipboard debris. When you move no \nmore than half your speed on your turn, you\ngain +1 AC until the start of your next turn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.9.3",
+        "heading": "Steady Advance",
+        "pdfPage": 74,
+        "printedPage": 61
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Your speed is not reduced by difficult terrain caused by \nrubble, industrial clutter, loose rock, gantries,\nmine workings, or shipboard debris. When you move no \nmore than half your speed on your turn, you\ngain +1 AC until the start of your next turn.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

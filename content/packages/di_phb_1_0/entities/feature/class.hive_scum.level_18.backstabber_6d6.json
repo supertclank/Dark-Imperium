@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.hive_scum.level_18.backstabber_6d6",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Backstabber +6d6",
+  "summary": "Your Dirty Fighter damage increases to +6d6.",
+  "descriptionMarkdown": "Your Dirty Fighter damage increases to +6d6.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.6.18",
+        "heading": "Backstabber +6d6",
+        "pdfPage": 66,
+        "printedPage": 53
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Your Dirty Fighter damage increases to +6d6.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.veteran.sergeant.level_7",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Sergeant 7",
+  "summary": "When an ally within 30 ft fails a fear or Suppression save, use your reaction to let them reroll it.",
+  "descriptionMarkdown": "When an ally within 30 ft fails a fear or Suppression save, use your reaction to let them reroll it.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.1",
+        "heading": "Sergeant 7",
+        "pdfPage": 50,
+        "printedPage": 37
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When an ally within 30 ft fails a fear or Suppression save, use your reaction to let them reroll it.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

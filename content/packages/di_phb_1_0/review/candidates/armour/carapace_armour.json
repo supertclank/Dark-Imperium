@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.armour.carapace_armour",
+  "kind": "armour",
+  "name": "Carapace Armour",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-007"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "AC: 15 + Dex modifier, max +2; Heavy tactical armour.; Availability: Controlled",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "9",
+          "heading": "Carapace Armour",
+          "pdfPage": 42,
+          "printedPage": 29
+        }
+      }
+    }
+  ]
+}

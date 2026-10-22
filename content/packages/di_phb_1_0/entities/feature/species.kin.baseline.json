@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.species.kin.baseline",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Squat / Kin fixed baseline",
+  "summary": "Fixed ability adjustments and speed from species entry.",
+  "descriptionMarkdown": "Fixed ability adjustments and speed from species entry.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "3.5",
+        "heading": "Squat / Kin fixed baseline",
+        "pdfPage": 24,
+        "printedPage": 11
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "species_trait",
+    "effects": [
+      {
+        "id": "speed",
+        "automation": "automatic",
+        "activation": "continuous",
+        "target": {
+          "kind": "stat",
+          "key": "movement.walk",
+          "scope": "self"
+        },
+        "operation": "base",
+        "value": {
+          "kind": "constant",
+          "value": 25
+        },
+        "duration": {
+          "kind": "while_source"
+        },
+        "stacking": {
+          "group": "di.movement.walk",
+          "mode": "replace"
+        },
+        "priority": 0
+      },
+      {
+        "id": "ability_constitution",
+        "automation": "automatic",
+        "activation": "continuous",
+        "target": {
+          "kind": "stat",
+          "key": "attribute.constitution.score",
+          "scope": "self"
+        },
+        "operation": "add",
+        "value": {
+          "kind": "constant",
+          "value": 2
+        },
+        "duration": {
+          "kind": "while_source"
+        },
+        "stacking": {
+          "group": "di.attribute.constitution.score",
+          "mode": "sum"
+        },
+        "priority": 0
+      }
+    ],
+    "grants": [],
+    "manualRules": []
+  }
+}

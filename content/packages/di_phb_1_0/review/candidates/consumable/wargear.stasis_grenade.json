@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.consumable.wargear.stasis_grenade",
+  "kind": "consumable",
+  "name": "Stasis Grenade",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Item: Stasis Grenade; Availability: Exceptional; Effect: Consumable. 10-ft radius; Constitution save. Failure: Restrained and Incapacitated until the start of the thrower's next turn. Success: Speed halved and no reactions for the same duration.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Stasis Grenade",
+          "pdfPage": 107,
+          "printedPage": 94
+        }
+      }
+    }
+  ]
+}

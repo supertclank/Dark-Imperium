@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.system.armour.ancestor_wrought_plating",
+  "kind": "system",
+  "name": "Ancestor-Wrought Plating",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Modification: Ancestor-Wrought Plating; Availability: Rare; Effect: Once per short rest, reduce the extra damage dice of a critical hit against you by one die, minimum the weapon’s normal damage.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "9",
+          "heading": "Ancestor-Wrought Plating",
+          "pdfPage": 45,
+          "printedPage": 32
+        }
+      }
+    }
+  ]
+}

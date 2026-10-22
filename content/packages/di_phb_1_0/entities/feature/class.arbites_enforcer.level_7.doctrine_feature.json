@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.arbites_enforcer.level_7.doctrine_feature",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Doctrine Feature",
+  "summary": "Enforcement Doctrine Feature Riot Shield When you take the Dodge action with a shield, one adjacent ally also gains +2 AC. Executioner Your Executioner damage becomes +1d8. Investigator When you hit a creature you have studied or identified, add your Wisdom modifier to the damage once per turn.",
+  "descriptionMarkdown": "Enforcement Doctrine Feature\nRiot Shield\nWhen you take the Dodge action \nwith a shield, one adjacent ally \nalso gains +2 AC.\nExecutioner Your Executioner damage \nbecomes +1d8.\nInvestigator\nWhen you hit a creature you have \nstudied or identified, add your \nWisdom modifier to the damage \nonce per turn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.5.7",
+        "heading": "Doctrine Feature",
+        "pdfPage": 62,
+        "printedPage": 49
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Enforcement Doctrine Feature\nRiot Shield\nWhen you take the Dodge action \nwith a shield, one adjacent ally \nalso gains +2 AC.\nExecutioner Your Executioner damage \nbecomes +1d8.\nInvestigator\nWhen you hit a creature you have \nstudied or identified, add your \nWisdom modifier to the damage \nonce per turn.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

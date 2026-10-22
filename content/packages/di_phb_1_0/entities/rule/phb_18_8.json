@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_18_8",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Master-Crafted Wargear",
+  "summary": "Master-crafted gear is not an ordinary shopping upgrade. It is normally Rare or Exceptional, comes from a named maker or institution, and should matter enough that losing it hurts. A master-crafted item has one Masterwork Trait. Particularly important relic-grade items may have a second trait at the GM's discretion. Bonuses from duplicate Masterwork Traits never stack. Masterwork Trait Eligible Item Effect Perfect Balance Melee or ranged weapon Gain +1 to attack rolls made with the item. Arti...",
+  "descriptionMarkdown": "Master-crafted gear is not an ordinary shopping upgrade. It is normally Rare or Exceptional, comes from a named \nmaker or institution, and should matter enough that losing it hurts. A master-crafted item has one Masterwork Trait. \nParticularly important relic-grade items may have a second trait at the GM's discretion. Bonuses from duplicate \nMasterwork Traits never stack.\nMasterwork Trait Eligible Item Effect\nPerfect Balance Melee or ranged weapon Gain +1 to attack rolls made with the item.\nArtificer Edge Melee weapon Once per turn when you roll weapon damage, reroll one damage die and \nuse the new result.\nPrecision Barrel / Focusing \nArray Ranged weapon Increase normal range by 25%. This does not increase maximum range \nbeyond double the new normal range.\nRapid Feed Reload weapon Increase Reload by 50%, rounded up. Does not stack with Extended \nMagazine.\nMasterwork Trait Eligible Item Effect\nRecoil Compensation Heavy ranged weapon Moving before firing no longer imposes a penalty from the Heavy \nproperty, though other Heavy restrictions still apply.\nCompact Pattern Pistol, basic firearm or \ncompact melee weapon\nAdvantage on checks to conceal the item; it can be readied from \nconcealment without an item interaction once per turn.\nArtificer Armour Armour Increase the armour's AC by +1. A shield or field cannot gain this trait.\nResponsive Plating Armour Once per short rest, reduce damage from one non-critical weapon hit by \nyour proficiency bonus.\nSealed Systems Armour\nGain advantage on saves against gas, smoke and airborne toxins. If the \narmour is already sealed, it also tolerates brief vacuum exposure without \na separate suit breach test.\nBounded accuracy matters. The +1 attack or +1 AC traits above are intentionally powerful and should remain \nuncommon. They represent prized equipment, not a mandatory mathematical treadmill.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "18.8",
+        "heading": "Master-Crafted Wargear",
+        "pdfPage": 104,
+        "printedPage": 91
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Master-crafted gear is not an ordinary shopping upgrade. It is normally Rare or Exceptional, comes from a named \nmaker or institution, and should matter enough that losing it hurts. A master-crafted item has one Masterwork Trait. \nParticularly important relic-grade items may have a second trait at the GM's discretion. Bonuses from duplicate \nMasterwork Traits never stack.\nMasterwork Trait Eligible Item Effect\nPerfect Balance Melee or ranged weapon Gain +1 to attack rolls made with the item.\nArtificer Edge Melee weapon Once per turn when you roll weapon damage, reroll one damage die and \nuse the new result.\nPrecision Barrel / Focusing \nArray Ranged weapon Increase normal range by 25%. This does not increase maximum range \nbeyond double the new normal range.\nRapid Feed Reload weapon Increase Reload by 50%, rounded up. Does not stack with Extended \nMagazine.\nMasterwork Trait Eligible Item Effect\nRecoil Compensation Heavy ranged weapon Moving before firing no longer imposes a penalty from the Heavy \nproperty, though other Heavy restrictions still apply.\nCompact Pattern Pistol, basic firearm or \ncompact melee weapon\nAdvantage on checks to conceal the item; it can be readied from \nconcealment without an item interaction once per turn.\nArtificer Armour Armour Increase the armour's AC by +1. A shield or field cannot gain this trait.\nResponsive Plating Armour Once per short rest, reduce damage from one non-critical weapon hit by \nyour proficiency bonus.\nSealed Systems Armour\nGain advantage on saves against gas, smoke and airborne toxins. If the \narmour is already sealed, it also tolerates brief vacuum exposure without \na separate suit breach test.\nBounded accuracy matters. The +1 attack or +1 AC traits above are intentionally powerful and should remain \nuncommon. They represent prized equipment, not a mandatory mathematical treadmill.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

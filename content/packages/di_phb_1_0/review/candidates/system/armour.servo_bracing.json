@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.system.armour.servo_bracing",
+  "kind": "system",
+  "name": "Servo-Bracing",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Modification: Servo-Bracing; Availability: Scarce; Effect: When firing a Heavy or Mechanicus weapon, you may count as stationary if you moved no more than 10 ft this turn.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "9",
+          "heading": "Servo-Bracing",
+          "pdfPage": 44,
+          "printedPage": 31
+        }
+      }
+    }
+  ]
+}

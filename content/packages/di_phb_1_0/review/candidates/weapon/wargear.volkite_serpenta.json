@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.weapon.wargear.volkite_serpenta",
+  "kind": "weapon",
+  "name": "Volkite Serpenta",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Item: Volkite Serpenta; Availability: Exceptional; Effect: 1d10 radiant/fire; 50/150 ft; Light, Reload 8. Once per turn when you hit a Bloodied target, deal +1d6 fire damage.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Volkite Serpenta",
+          "pdfPage": 107,
+          "printedPage": 94
+        }
+      }
+    }
+  ]
+}

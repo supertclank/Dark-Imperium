@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_2_4_2",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Skitarii",
+  "summary": "Skitarii cannot be Psykers. They may only take the Skitarii Veteran class. Skitarii are cybernetically altered, doctrinally conditioned, and tied to the Machine Cult. Their identity should stay separate from psychic characters, faith- driven zealots, underhive scum, and normal Imperial soldiers.",
+  "descriptionMarkdown": "Skitarii cannot be Psykers. They may only take the \nSkitarii Veteran class.\nSkitarii are cybernetically altered, doctrinally conditioned, \nand tied to the Machine Cult. Their identity\nshould stay separate from psychic characters, faith-\ndriven zealots, underhive scum, and normal\nImperial soldiers.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "2.4.2",
+        "heading": "Skitarii",
+        "pdfPage": 17,
+        "printedPage": 4
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Skitarii cannot be Psykers. They may only take the \nSkitarii Veteran class.\nSkitarii are cybernetically altered, doctrinally conditioned, \nand tied to the Machine Cult. Their identity\nshould stay separate from psychic characters, faith-\ndriven zealots, underhive scum, and normal\nImperial soldiers.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

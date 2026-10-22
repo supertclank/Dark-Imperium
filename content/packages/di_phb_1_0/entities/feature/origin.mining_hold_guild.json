@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.origin.mining_hold_guild",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Mining Hold / Guild benefits",
+  "summary": "4.10 Mining Hold / Guild Raised in a Squat/Kin hold, mining fleet, oath-band, salvage guild, prospecting clan, or void-industrial enclave. Allowed Species: Squat/Kin. Skill Proficiency: Choose two from Athletics, Investigation, Survival, Technology, and Persuasion. Oath and Ledger: You can usually identify the likely value, industrial purpose, or salvage use of machinery, ore, weapons, armour, and voidship components. Hold-Fast: Once per short rest, when you fail a saving throw against being ...",
+  "descriptionMarkdown": "4.10 Mining Hold / Guild\nRaised in a Squat/Kin hold, mining fleet, oath-band, \nsalvage guild, prospecting clan, or void-industrial\nenclave.\nAllowed Species: Squat/Kin.\nSkill Proficiency: Choose two from Athletics, \nInvestigation, Survival, Technology, and Persuasion.\nOath and Ledger: You can usually identify the likely \nvalue, industrial purpose, or salvage use of\nmachinery, ore, weapons, armour, and voidship \ncomponents.\nHold-Fast: Once per short rest, when you fail a saving \nthrow against being frightened, knocked prone,\nmoved, or suppressed, you may reroll it. You must use \nthe new result.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "4.10",
+        "heading": "Mining Hold / Guild benefits",
+        "pdfPage": 27,
+        "printedPage": 14
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "background_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "4.10 Mining Hold / Guild\nRaised in a Squat/Kin hold, mining fleet, oath-band, \nsalvage guild, prospecting clan, or void-industrial\nenclave.\nAllowed Species: Squat/Kin.\n\nOath and Ledger: You can usually identify the likely \nvalue, industrial purpose, or salvage use of\nmachinery, ore, weapons, armour, and voidship \ncomponents.\nHold-Fast: Once per short rest, when you fail a saving \nthrow against being frightened, knocked prone,\nmoved, or suppressed, you may reroll it. You must use \nthe new result.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

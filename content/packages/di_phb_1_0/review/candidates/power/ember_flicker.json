@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.ember_flicker",
+  "kind": "power",
+  "name": "Ember Flicker",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Ember Flicker; Tag: Pyromancy; Rule: Bonus Action. Range 30 ft. Ignite or extinguish a small flame; one creature takes 1 fire damage if holding a flammable object.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Ember Flicker",
+          "pdfPage": 91,
+          "printedPage": 78
+        }
+      }
+    }
+  ]
+}

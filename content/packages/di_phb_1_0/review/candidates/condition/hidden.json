@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.condition.hidden",
+  "kind": "condition",
+  "name": "Hidden",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-013"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Condition / State: Hidden; Effect: You are unseen and unheard by a creature that has not located you. Attacks against a creature you are hidden from normally have advantage. Making an attack normally reveals your position after the attack resolves unless a feature says otherwise.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "6",
+          "heading": "Hidden",
+          "pdfPage": 32,
+          "printedPage": 19
+        }
+      }
+    }
+  ]
+}

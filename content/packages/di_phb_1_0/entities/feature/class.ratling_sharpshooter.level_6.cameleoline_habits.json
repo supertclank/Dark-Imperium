@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.ratling_sharpshooter.level_6.cameleoline_habits",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Cameleoline Habits",
+  "summary": "If you have cover or concealment, you may attempt to hide even when lightly observed, provided you do not move more than half your speed this turn.",
+  "descriptionMarkdown": "If you have cover or concealment, you may attempt to \nhide even when lightly observed, provided you do\nnot move more than half your speed this turn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.7.6",
+        "heading": "Cameleoline Habits",
+        "pdfPage": 68,
+        "printedPage": 55
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "If you have cover or concealment, you may attempt to \nhide even when lightly observed, provided you do\nnot move more than half your speed this turn.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

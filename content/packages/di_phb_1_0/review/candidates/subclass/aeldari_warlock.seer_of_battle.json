@@ -1,0 +1,30 @@
+{
+  "proposedId": "di.subclass.aeldari_warlock.seer_of_battle",
+  "kind": "subclass",
+  "name": "Seer of Battle",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-012"
+  ],
+  "proposedData": {
+    "parentClass": {
+      "id": "di.class.aeldari_warlock"
+    }
+  },
+  "evidence": [
+    {
+      "text": "Seer of Battle; Once per short rest, add or subtract 1d4 from a d20 roll made by a creature you can see.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "11.12",
+          "heading": "Seer of Battle",
+          "pdfPage": 83,
+          "printedPage": 70
+        }
+      }
+    }
+  ]
+}

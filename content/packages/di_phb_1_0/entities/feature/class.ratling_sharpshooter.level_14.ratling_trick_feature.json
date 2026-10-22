@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.ratling_sharpshooter.level_14.ratling_trick_feature",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Ratling Trick Feature",
+  "summary": "Ratling Trick Feature Long-Las Sniper When you use Killshot, the attack ignores light and heavy cover and ignores resistance from non- powered armour. Ratling Trick Feature Underhive Rat Once per short rest, when an attack misses you while you are in cover, you may Hide as a reaction. Spotter Your marked target grants +1d4 to the next two allied attacks instead of one. Black-Market Gremlin When you spend downtime in a settlement, reduce the cost or difficulty of acquiring illegal ammunition o...",
+  "descriptionMarkdown": "Ratling Trick Feature\nLong-Las Sniper\nWhen you use Killshot, the attack \nignores light and heavy cover and \nignores resistance from non-\npowered armour.\nRatling Trick Feature\nUnderhive Rat\nOnce per short rest, when an \nattack misses you while you are in \ncover, you may Hide as a reaction.\nSpotter\nYour marked target grants +1d4 to \nthe next two allied attacks instead \nof one.\nBlack-Market Gremlin\nWhen you spend downtime in a \nsettlement, reduce the cost or \ndifficulty of acquiring illegal \nammunition or forged papers.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.7.14",
+        "heading": "Ratling Trick Feature",
+        "pdfPage": 68,
+        "printedPage": 55
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Ratling Trick Feature\nLong-Las Sniper\nWhen you use Killshot, the attack \nignores light and heavy cover and \nignores resistance from non-\npowered armour.\nRatling Trick Feature\nUnderhive Rat\nOnce per short rest, when an \nattack misses you while you are in \ncover, you may Hide as a reaction.\nSpotter\nYour marked target grants +1d4 to \nthe next two allied attacks instead \nof one.\nBlack-Market Gremlin\nWhen you spend downtime in a \nsettlement, reduce the cost or \ndifficulty of acquiring illegal \nammunition or forged papers.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

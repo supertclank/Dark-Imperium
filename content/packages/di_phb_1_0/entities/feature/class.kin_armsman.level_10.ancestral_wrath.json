@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.kin_armsman.level_10.ancestral_wrath",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Ancestral Wrath",
+  "summary": "Once per short rest, when you hit a creature marked by Oath-Mark, deal an additional 2d8 damage. If that creature damaged you or an ally since your last turn, it also becomes Suppressed until the start of your next turn.",
+  "descriptionMarkdown": "Once per short rest, when you hit a creature marked by \nOath-Mark, deal an additional 2d8 damage. If\nthat creature damaged you or an ally since your last turn, \nit also becomes Suppressed until the start of\nyour next turn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.9.10",
+        "heading": "Ancestral Wrath",
+        "pdfPage": 74,
+        "printedPage": 61
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per short rest, when you hit a creature marked by \nOath-Mark, deal an additional 2d8 damage. If\nthat creature damaged you or an ally since your last turn, \nit also becomes Suppressed until the start of\nyour next turn.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

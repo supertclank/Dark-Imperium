@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.feature.masterwork.artificer_armour",
+  "kind": "feature",
+  "name": "Artificer Armour",
+  "status": "MANUAL_RULE",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-011"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Masterwork Trait: Artificer Armour; Eligible Item: Armour; Effect: Increase the armour's AC by +1. A shield or field cannot gain this trait.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Artificer Armour",
+          "pdfPage": 105,
+          "printedPage": 92
+        }
+      }
+    }
+  ]
+}

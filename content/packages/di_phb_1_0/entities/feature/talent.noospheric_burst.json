@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.noospheric_burst",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Noospheric Burst",
+  "summary": "Talent: Noospheric Burst Requirement: Skitarii Benefit: Once per short rest, as a bonus action, choose one ally within 60 ft. Their next attack gains +1d4 to hit.",
+  "descriptionMarkdown": "Talent: Noospheric Burst\nRequirement: Skitarii\nBenefit: Once per short rest, as a bonus action, choose one ally within 60 ft. Their next attack gains +1d4 to hit.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Noospheric Burst",
+        "pdfPage": 87,
+        "printedPage": 74
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Noospheric Burst\nRequirement: Skitarii\nBenefit: Once per short rest, as a bonus action, choose one ally within 60 ft. Their next attack gains +1d4 to hit.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

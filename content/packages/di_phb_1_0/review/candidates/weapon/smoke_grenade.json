@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.weapon.smoke_grenade",
+  "kind": "weapon",
+  "name": "Smoke Grenade",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-005"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Grenade: Smoke Grenade; Effect: 20-ft radius heavily obscured area for 1 minute.; Availability: Controlled",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "10",
+          "heading": "Smoke Grenade",
+          "pdfPage": 47,
+          "printedPage": 34
+        }
+      }
+    }
+  ]
+}

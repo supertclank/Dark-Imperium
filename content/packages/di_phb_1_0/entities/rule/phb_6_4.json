@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_6_4",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Reload",
+  "summary": "A weapon with Reload X can normally make X attacks before it must be reloaded. Reloading uses an action unless a class feature, trait or item says otherwise. Reload X represents the current magazine, cylinder, charge pack or power cell, not the character's total ammunition. In standard play, ordinary spare ammunition is abstracted, and a character is assumed to carry enough routine reloads for the mission unless the GM says scarcity matters. Ammo Packs in Chapter 17 are used when ammunition i...",
+  "descriptionMarkdown": "A weapon with Reload X can normally make X attacks \nbefore it must be reloaded. Reloading uses an action \nunless a class feature, trait or item says otherwise. \nReload X represents the current magazine, cylinder, \ncharge pack or power cell, not the character's total \nammunition. In standard play, ordinary spare ammunition \nis abstracted, and a character is assumed to carry \nenough routine reloads for the mission unless the GM \nsays scarcity matters. Ammo Packs in Chapter 17 are \nused when ammunition is limited, an emergency resupply \nis needed, or specialist ammunition must be restored. \nSurvival-focused campaigns may instead use Supply \nStates from the GM Guide.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "6.4",
+        "heading": "Reload",
+        "pdfPage": 31,
+        "printedPage": 18
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "A weapon with Reload X can normally make X attacks \nbefore it must be reloaded. Reloading uses an action \nunless a class feature, trait or item says otherwise. \nReload X represents the current magazine, cylinder, \ncharge pack or power cell, not the character's total \nammunition. In standard play, ordinary spare ammunition \nis abstracted, and a character is assumed to carry \nenough routine reloads for the mission unless the GM \nsays scarcity matters. Ammo Packs in Chapter 17 are \nused when ammunition is limited, an emergency resupply \nis needed, or specialist ammunition must be restored. \nSurvival-focused campaigns may instead use Supply \nStates from the GM Guide.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

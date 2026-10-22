@@ -1,0 +1,282 @@
+{
+  "schemaVersion": 1,
+  "id": "di.progression.ogryn_skullbreaker",
+  "kind": "progression",
+  "revision": 1,
+  "name": "Ogryn Skullbreaker progression",
+  "summary": "Exact level labels from the class table; feature automation is separately classified.",
+  "descriptionMarkdown": "Exact level labels from the class table; feature automation is separately classified.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.4",
+        "heading": "Ogryn Skullbreaker progression",
+        "pdfPage": 59,
+        "printedPage": 46
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "axis": {
+      "kind": "class_level",
+      "class": {
+        "id": "di.class.ogryn_skullbreaker"
+      }
+    },
+    "maxLevel": 20,
+    "entries": [
+      {
+        "level": 1,
+        "grants": [
+          {
+            "id": "level_1_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.ogryn_skullbreaker.level_1.big_lad"
+            }
+          },
+          {
+            "id": "level_1_2",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.ogryn_skullbreaker.level_1.loyal_protector"
+            }
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "grants": [
+          {
+            "id": "level_2_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.ogryn_skullbreaker.level_2.brutal_impact"
+            }
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "grants": [
+          {
+            "id": "level_3_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.ogryn_skullbreaker.level_3.ogryn_role"
+            }
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "grants": [
+          {
+            "id": "level_4_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.ogryn_skullbreaker.level_4.ability_score_improvement_talent"
+            }
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "grants": [
+          {
+            "id": "level_5_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.ogryn_skullbreaker.level_5.extra_attack"
+            }
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "grants": [
+          {
+            "id": "level_6_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.ogryn_skullbreaker.level_6.too_stubborn_to_drop"
+            }
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "grants": [
+          {
+            "id": "level_7_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.ogryn_skullbreaker.level_7.role_feature"
+            }
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "grants": [
+          {
+            "id": "level_8_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.ogryn_skullbreaker.level_8.ability_score_improvement_talent"
+            }
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "grants": [
+          {
+            "id": "level_9_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.ogryn_skullbreaker.level_9.living_barricade"
+            }
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "grants": [
+          {
+            "id": "level_10_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.ogryn_skullbreaker.level_10.thunderous_violence"
+            }
+          }
+        ]
+      },
+      {
+        "level": 11,
+        "grants": [
+          {
+            "id": "level_11_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.ogryn_skullbreaker.level_11.bigger_and_meaner"
+            }
+          }
+        ]
+      },
+      {
+        "level": 12,
+        "grants": [
+          {
+            "id": "level_12_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.ogryn_skullbreaker.level_12.ability_score_improvement_talent"
+            }
+          }
+        ]
+      },
+      {
+        "level": 13,
+        "grants": [
+          {
+            "id": "level_13_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.ogryn_skullbreaker.level_13.cant_keep_him_down"
+            }
+          }
+        ]
+      },
+      {
+        "level": 14,
+        "grants": [
+          {
+            "id": "level_14_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.ogryn_skullbreaker.level_14.role_feature"
+            }
+          }
+        ]
+      },
+      {
+        "level": 15,
+        "grants": [
+          {
+            "id": "level_15_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.ogryn_skullbreaker.level_15.walking_fortress"
+            }
+          }
+        ]
+      },
+      {
+        "level": 16,
+        "grants": [
+          {
+            "id": "level_16_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.ogryn_skullbreaker.level_16.ability_score_improvement_talent"
+            }
+          }
+        ]
+      },
+      {
+        "level": 17,
+        "grants": [
+          {
+            "id": "level_17_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.ogryn_skullbreaker.level_17.mountain_of_muscle"
+            }
+          }
+        ]
+      },
+      {
+        "level": 18,
+        "grants": [
+          {
+            "id": "level_18_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.ogryn_skullbreaker.level_18.role_feature"
+            }
+          }
+        ]
+      },
+      {
+        "level": 19,
+        "grants": [
+          {
+            "id": "level_19_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.ogryn_skullbreaker.level_19.ability_score_improvement_talent"
+            }
+          }
+        ]
+      },
+      {
+        "level": 20,
+        "grants": [
+          {
+            "id": "level_20_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.ogryn_skullbreaker.level_20.unkillable_big_lad"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

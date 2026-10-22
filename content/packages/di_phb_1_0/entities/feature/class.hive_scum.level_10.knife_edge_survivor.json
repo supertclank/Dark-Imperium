@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.hive_scum.level_10.knife_edge_survivor",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Knife-Edge Survivor",
+  "summary": "Once per long rest, when you fail a Dexterity or Charisma saving throw, you may treat the roll as a success instead.",
+  "descriptionMarkdown": "Once per long rest, when you fail a Dexterity or Charisma \nsaving throw, you may treat the roll as a\nsuccess instead.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.6.10",
+        "heading": "Knife-Edge Survivor",
+        "pdfPage": 65,
+        "printedPage": 52
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per long rest, when you fail a Dexterity or Charisma \nsaving throw, you may treat the roll as a\nsuccess instead.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

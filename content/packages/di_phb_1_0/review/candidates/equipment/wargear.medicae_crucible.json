@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.wargear.medicae_crucible",
+  "kind": "equipment",
+  "name": "Medicae Crucible",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Item: Medicae Crucible; Availability: Exceptional; Effect: Once per long rest as an action, a creature you touch regains 4d8 + proficiency bonus HP and ends Poisoned or one disease. It may suppress one lasting-injury penalty until its next long rest, but does not cure the injury.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Medicae Crucible",
+          "pdfPage": 107,
+          "printedPage": 94
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.weapon_maintenance_kit",
+  "kind": "equipment",
+  "name": "Weapon Maintenance Kit",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Item: Weapon Maintenance Kit; Use: Short rest; Rule: DC 12 Technology or appropriate tool check to repair one jammed, damaged, overheated or fouled weapon.; Availability: Issued",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "17",
+          "heading": "Weapon Maintenance Kit",
+          "pdfPage": 101,
+          "printedPage": 88
+        }
+      }
+    }
+  ]
+}

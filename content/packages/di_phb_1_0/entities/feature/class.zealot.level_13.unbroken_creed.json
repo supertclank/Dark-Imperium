@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.zealot.level_13.unbroken_creed",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Unbroken Creed",
+  "summary": "You are immune to the frightened condition while below half your maximum hit points. Allies within 10 ft of you have advantage on saves against fear while you are conscious.",
+  "descriptionMarkdown": "You are immune to the frightened condition while below \nhalf your maximum hit points. Allies within 10\nft of you have advantage on saves against fear while you \nare conscious.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.2.13",
+        "heading": "Unbroken Creed",
+        "pdfPage": 53,
+        "printedPage": 40
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "You are immune to the frightened condition while below \nhalf your maximum hit points. Allies within 10\nft of you have advantage on saves against fear while you \nare conscious.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

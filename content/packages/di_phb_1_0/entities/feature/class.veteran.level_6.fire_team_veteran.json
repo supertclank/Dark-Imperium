@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.veteran.level_6.fire_team_veteran",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Fire Team Veteran",
+  "summary": "When you hit a creature with a ranged weapon attack, one ally within 30 ft who can see or hear you gains +1 to their next attack roll against that creature before the start of your next turn. Uses: proficiency bonus per long rest.",
+  "descriptionMarkdown": "When you hit a creature with a ranged weapon attack, \none ally within 30 ft who can see or hear you\ngains +1 to their next attack roll against that creature \nbefore the start of your next turn. Uses:\nproficiency bonus per long rest.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.1.6",
+        "heading": "Fire Team Veteran",
+        "pdfPage": 50,
+        "printedPage": 37
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When you hit a creature with a ranged weapon attack, \none ally within 30 ft who can see or hear you\ngains +1 to their next attack roll against that creature \nbefore the start of your next turn. Uses:\nproficiency bonus per long rest.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

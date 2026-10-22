@@ -1,0 +1,30 @@
+{
+  "proposedId": "di.subclass.zealot.flagellant",
+  "kind": "subclass",
+  "name": "Flagellant",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-012"
+  ],
+  "proposedData": {
+    "parentClass": {
+      "id": "di.class.zealot"
+    }
+  },
+  "evidence": [
+    {
+      "text": "Flagellant; Once per round, when you take damage, your next melee attack deals +1d6 bonus damage.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "11.2",
+          "heading": "Flagellant",
+          "pdfPage": 53,
+          "printedPage": 40
+        }
+      }
+    }
+  ]
+}

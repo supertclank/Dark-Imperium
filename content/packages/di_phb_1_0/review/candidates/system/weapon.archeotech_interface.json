@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.system.weapon.archeotech_interface",
+  "kind": "system",
+  "name": "Archeotech Interface",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Modification: Archeotech Interface; Availability: Exceptional; Effect: Choose one compatible advanced modification that normally could not be fitted to this pattern. Installation requires exceptional facilities and GM approval.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Archeotech Interface",
+          "pdfPage": 104,
+          "printedPage": 91
+        }
+      }
+    }
+  ]
+}

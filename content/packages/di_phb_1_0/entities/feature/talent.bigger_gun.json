@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.bigger_gun",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Bigger Gun",
+  "summary": "Talent: Bigger Gun Requirement: Ogryn Benefit: You can wield one Heavy weapon without disadvantage from moving.",
+  "descriptionMarkdown": "Talent: Bigger Gun\nRequirement: Ogryn\nBenefit: You can wield one Heavy weapon without disadvantage from moving.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Bigger Gun",
+        "pdfPage": 87,
+        "printedPage": 74
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Bigger Gun\nRequirement: Ogryn\nBenefit: You can wield one Heavy weapon without disadvantage from moving.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

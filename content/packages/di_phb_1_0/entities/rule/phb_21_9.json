@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_21_9",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Requisition and Modifications",
+  "summary": "Use Chapter 18’s Availability and provenance rules. Success normally grants a mission loan or support, not personal ownership. Agree the chassis, listed weapons, supplies, crew arrangements, route and recovery conditions. Vehicles are not class starting equipment unless explicitly granted by the GM. Civilian transport fits early missions; armed scouts and carriers require credible faction support. Tanks and alien grav- tanks are substantial assets, even for experienced warbands. Low-level cre...",
+  "descriptionMarkdown": "Use Chapter 18’s Availability and provenance rules. Success normally grants a mission loan or support, not personal \nownership. Agree the chassis, listed weapons, supplies, crew arrangements, route and recovery conditions. Vehicles \nare not class starting equipment unless explicitly granted by the GM.\nCivilian transport fits early missions; armed scouts and carriers require credible faction support. Tanks and alien grav-\ntanks are substantial assets, even for experienced warbands. Low-level crews can be assigned one, but need a reason \nit cannot solve every obstacle. Captured vehicles still require access, supplies, maintenance and a safe destination; \npossessing one does not make its use lawful or consequence-free.\nEach vehicle has two modification slots. Fit one upgrade per slot and never duplicate it. Fitting or replacing one takes \nfour hours in a suitable workshop with tools. Undamaged upgrades can be recovered. Built-in traits use no slots. \nPersonal armour or weapon upgrades do not apply to hulls or mounts unless explicitly permitted.\nUpgrade Availability Effect\nReinforced plating Rare\nAdd 20 maximum and current HP when fitted. Speed −10 ft, minimum \n10 ft. Removal removes 20 current HP, minimum 1. No AC or DT \nincrease.\nSmoke launchers Controlled\nTwo uses per mission. Driver or gunner action creates stationary smoke in a \n20-ft radius centred on the vehicle until the start of that operator’s next turn. \nAttacks through it have disadvantage; no protection against area effects.\nAuspex survey suite Scarce\nA crew member scanning as an action gains advantage on one Perception or \nSurvival check for routes, obstacles or ambushes within 300 ft. Does not see \nthrough solid barriers.\nRecovery winch Controlled\nAt rest, an operator’s action pulls an unsecured or willing object up to cargo \ncapacity by 10 ft. With a sound anchor, ten minutes frees the vehicle from \nordinary mud or a shallow ditch.\nAll-terrain running gear Scarce Wheeled or tracked chassis ignores difficult terrain from mud, loose rubble \nand shallow debris; not walls, deep water or impassable slopes.\nSealed compartment Rare Enclosed chassis gains Sealed and one hour of internal air. Cannot fit to \nexposed bikes or open-topped vehicles.\nOgryn accommodation Controlled\nConvert one suitable crew station for an Ogryn OR reinforce suitable \npassenger space so an Ogryn uses two spaces instead of three. Choose one \nversion; no duplicates. Chassis must have enough physical room.\nSpare-parts locker Scarce\nIncludes two repair kits. Once per mission reroll one failed field-repair check, \nusing the new result. Expended kits need replacement; locker remains \nreusable.\nWeapon swaps need GM approval, the new weapon’s Availability, a compatible mount and four workshop hours. A \nswap replaces a mount’s weapon; it does not add a weapon or crew station. An integral bike or walker weapon cannot \nbe removed and wielded as an ordinary personal firearm.\nTravel times follow the route and the vehicle’s fictional capabilities, not a conversion of tactical Speed into miles per \nhour. A compact chase, a breakdown and a choice of route are usually more useful than tracking fuel for every mile.\nVehicle Profiles",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "21.9",
+        "heading": "Requisition and Modifications",
+        "pdfPage": 118,
+        "printedPage": 105
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Use Chapter 18’s Availability and provenance rules. Success normally grants a mission loan or support, not personal \nownership. Agree the chassis, listed weapons, supplies, crew arrangements, route and recovery conditions. Vehicles \nare not class starting equipment unless explicitly granted by the GM.\nCivilian transport fits early missions; armed scouts and carriers require credible faction support. Tanks and alien grav-\ntanks are substantial assets, even for experienced warbands. Low-level crews can be assigned one, but need a reason \nit cannot solve every obstacle. Captured vehicles still require access, supplies, maintenance and a safe destination; \npossessing one does not make its use lawful or consequence-free.\nEach vehicle has two modification slots. Fit one upgrade per slot and never duplicate it. Fitting or replacing one takes \nfour hours in a suitable workshop with tools. Undamaged upgrades can be recovered. Built-in traits use no slots. \nPersonal armour or weapon upgrades do not apply to hulls or mounts unless explicitly permitted.\nUpgrade Availability Effect\nReinforced plating Rare\nAdd 20 maximum and current HP when fitted. Speed −10 ft, minimum \n10 ft. Removal removes 20 current HP, minimum 1. No AC or DT \nincrease.\nSmoke launchers Controlled\nTwo uses per mission. Driver or gunner action creates stationary smoke in a \n20-ft radius centred on the vehicle until the start of that operator’s next turn. \nAttacks through it have disadvantage; no protection against area effects.\nAuspex survey suite Scarce\nA crew member scanning as an action gains advantage on one Perception or \nSurvival check for routes, obstacles or ambushes within 300 ft. Does not see \nthrough solid barriers.\nRecovery winch Controlled\nAt rest, an operator’s action pulls an unsecured or willing object up to cargo \ncapacity by 10 ft. With a sound anchor, ten minutes frees the vehicle from \nordinary mud or a shallow ditch.\nAll-terrain running gear Scarce Wheeled or tracked chassis ignores difficult terrain from mud, loose rubble \nand shallow debris; not walls, deep water or impassable slopes.\nSealed compartment Rare Enclosed chassis gains Sealed and one hour of internal air. Cannot fit to \nexposed bikes or open-topped vehicles.\nOgryn accommodation Controlled\nConvert one suitable crew station for an Ogryn OR reinforce suitable \npassenger space so an Ogryn uses two spaces instead of three. Choose one \nversion; no duplicates. Chassis must have enough physical room.\nSpare-parts locker Scarce\nIncludes two repair kits. Once per mission reroll one failed field-repair check, \nusing the new result. Expended kits need replacement; locker remains \nreusable.\nWeapon swaps need GM approval, the new weapon’s Availability, a compatible mount and four workshop hours. A \nswap replaces a mount’s weapon; it does not add a weapon or crew station. An integral bike or walker weapon cannot \nbe removed and wielded as an ordinary personal firearm.\nTravel times follow the route and the vehicle’s fictional capabilities, not a conversion of tactical Speed into miles per \nhour. A compact chase, a breakdown and a choice of route are usually more useful than tracking fuel for every mile.\nVehicle Profiles",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

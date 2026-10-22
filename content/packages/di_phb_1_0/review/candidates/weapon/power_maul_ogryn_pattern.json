@@ -1,0 +1,70 @@
+{
+  "proposedId": "di.weapon.power_maul_ogryn_pattern",
+  "kind": "weapon",
+  "name": "Power Maul, Ogryn Pattern",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-005"
+  ],
+  "proposedData": {
+    "properties": [
+      {
+        "property": {
+          "id": "di.property.weapon.ogryn"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.power_field"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.shock"
+        },
+        "arguments": {}
+      }
+    ],
+    "modes": [
+      {
+        "id": "base",
+        "name": "Base profile",
+        "damage": [
+          {
+            "id": "component_1",
+            "dice": {
+              "count": 2,
+              "sides": 6,
+              "bonus": 0
+            },
+            "bonus": {
+              "kind": "constant",
+              "value": 0
+            },
+            "damageType": {
+              "id": "di.damage_type.bludgeoning"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "text": "Weapon: Power Maul, Ogryn Pattern; Damage: 2d6 bludgeoning; Range: Melee; Properties: Ogryn, Power Field, Shock; Availability: Rare",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "8",
+          "heading": "Power Maul, Ogryn Pattern",
+          "pdfPage": 38,
+          "printedPage": 25
+        }
+      }
+    }
+  ]
+}

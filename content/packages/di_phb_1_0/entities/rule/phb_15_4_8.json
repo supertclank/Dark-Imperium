@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_15_4_8",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Catastrophic Perils",
+  "summary": "You drop to 0 hit points. Every creature within 30 ft takes 4d6 psychic damage. A hostile Warp entity, hallucination, corruption event, daemon sign, or possession threat enters the scene. After resolving Catastrophic Perils, the character gains 1 Corruption.",
+  "descriptionMarkdown": "You drop to 0 hit points. Every creature within 30 ft takes \n4d6 psychic damage.\nA hostile Warp entity, hallucination, corruption event, \ndaemon sign, or possession threat enters the\nscene.\nAfter resolving Catastrophic Perils, the character gains 1 \nCorruption.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "15.4.8",
+        "heading": "Catastrophic Perils",
+        "pdfPage": 95,
+        "printedPage": 82
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "perils",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "You drop to 0 hit points. Every creature within 30 ft takes \n4d6 psychic damage.\nA hostile Warp entity, hallucination, corruption event, \ndaemon sign, or possession threat enters the\nscene.\nAfter resolving Catastrophic Perils, the character gains 1 \nCorruption.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

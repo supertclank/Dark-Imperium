@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "di.proficiency.skill.medicine",
+  "kind": "proficiency",
+  "revision": 1,
+  "name": "Medicine proficiency",
+  "summary": "Add proficiency when this skill applies, once.",
+  "descriptionMarkdown": "Add proficiency when this skill applies, once.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "2.5",
+        "heading": "Medicine proficiency",
+        "pdfPage": 18,
+        "printedPage": 5
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "category": "skill",
+    "appliesTo": {
+      "ids": [
+        {
+          "id": "di.skill.medicine"
+        }
+      ]
+    }
+  }
+}

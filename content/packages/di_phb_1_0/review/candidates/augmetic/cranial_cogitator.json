@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.augmetic.cranial_cogitator",
+  "kind": "augmetic",
+  "name": "Cranial Cogitator",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Upgrade: Cranial Cogitator; Effect: Gain proficiency in Investigation or Technology. Once per long rest, reroll a failed Intelligence check.; Availability: Scarce",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "13",
+          "heading": "Cranial Cogitator",
+          "pdfPage": 89,
+          "printedPage": 76
+        }
+      }
+    }
+  ]
+}

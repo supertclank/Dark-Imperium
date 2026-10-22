@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.universal.black_market_eye",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Black-Market Eye",
+  "summary": "Trait: Black-Market Eye Effect: Gain proficiency in Investigation or Insight. Advantage on checks to assess the value, legality or likely source of weapons, relics, chems and contraband.",
+  "descriptionMarkdown": "Trait: Black-Market Eye\nEffect: Gain proficiency in Investigation or Insight. Advantage on checks to assess the value, legality or likely source of weapons, relics, chems and contraband.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "5",
+        "heading": "Black-Market Eye",
+        "pdfPage": 29,
+        "printedPage": 16
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "general",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Trait: Black-Market Eye\nEffect: Gain proficiency in Investigation or Insight. Advantage on checks to assess the value, legality or likely source of weapons, relics, chems and contraband.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

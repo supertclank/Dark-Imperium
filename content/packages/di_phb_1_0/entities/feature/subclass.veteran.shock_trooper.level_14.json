@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.veteran.shock_trooper.level_14",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Shock Trooper 14",
+  "summary": "Your Shock Trooper bonus becomes +1d8.",
+  "descriptionMarkdown": "Your Shock Trooper bonus becomes +1d8.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.1",
+        "heading": "Shock Trooper 14",
+        "pdfPage": 51,
+        "printedPage": 38
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Your Shock Trooper bonus becomes +1d8.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

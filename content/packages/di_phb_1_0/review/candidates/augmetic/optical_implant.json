@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.augmetic.optical_implant",
+  "kind": "augmetic",
+  "name": "Optical Implant",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Upgrade: Optical Implant; Effect: Gain darkvision 60 ft, or add +1d4 to a Perception check once per short rest.; Availability: Controlled",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "13",
+          "heading": "Optical Implant",
+          "pdfPage": 89,
+          "printedPage": 76
+        }
+      }
+    }
+  ]
+}

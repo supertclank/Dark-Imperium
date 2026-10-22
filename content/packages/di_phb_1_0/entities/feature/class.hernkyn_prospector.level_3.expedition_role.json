@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.hernkyn_prospector.level_3.expedition_role",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Expedition Role",
+  "summary": "Role Benefit Outrider Your speed increases by 5 ft. When you Dash, opportunity attacks against you have disadvantage. Claim-Staker You gain expertise in Investigation or Survival. You can identify valuable materials, salvage, ore, or structural weaknesses. Trail Gunner Your first ranged hit on each of your turns deals +1d4 damage while no hostile creature is adjacent to you.",
+  "descriptionMarkdown": "Role Benefit\nOutrider\nYour speed increases by 5 ft. \nWhen you Dash, opportunity \nattacks against you have \ndisadvantage.\nClaim-Staker\nYou gain expertise in Investigation \nor Survival. You can identify \nvaluable materials, salvage, ore, \nor structural weaknesses.\nTrail Gunner\nYour first ranged hit on each of \nyour turns deals +1d4 damage \nwhile no hostile creature is \nadjacent to you.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.10.4",
+        "heading": "Expedition Role",
+        "pdfPage": 77,
+        "printedPage": 64
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Role Benefit\nOutrider\nYour speed increases by 5 ft. \nWhen you Dash, opportunity \nattacks against you have \ndisadvantage.\nClaim-Staker\nYou gain expertise in Investigation \nor Survival. You can identify \nvaluable materials, salvage, ore, \nor structural weaknesses.\nTrail Gunner\nYour first ranged hit on each of \nyour turns deals +1d4 damage \nwhile no hostile creature is \nadjacent to you.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

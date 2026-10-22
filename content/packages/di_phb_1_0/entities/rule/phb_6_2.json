@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_6_2",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Cover",
+  "summary": "Cover Effect Light Cover +2 AC against attacks that pass through the cover. Heavy Cover +5 AC against attacks that pass through the cover. Full Cover Cannot be directly targeted through the obstruction. Examples: crates, railings and pipework are usually Light Cover; barricades, firing ports and armoured machinery are usually Heavy Cover; sealed walls and complete corners provide Full Cover. The GM decides whether a line of fire crosses the cover.",
+  "descriptionMarkdown": "Cover Effect\nLight Cover +2 AC against attacks that pass \nthrough the cover.\nHeavy Cover +5 AC against attacks that pass \nthrough the cover.\nFull Cover Cannot be directly targeted through the \nobstruction.\nExamples: crates, railings and pipework are usually Light \nCover; barricades, firing ports and armoured machinery \nare usually Heavy Cover; sealed walls and complete \ncorners provide Full Cover. The GM decides whether a \nline of fire crosses the cover.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "6.2",
+        "heading": "Cover",
+        "pdfPage": 31,
+        "printedPage": 18
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Cover Effect\nLight Cover +2 AC against attacks that pass \nthrough the cover.\nHeavy Cover +5 AC against attacks that pass \nthrough the cover.\nFull Cover Cannot be directly targeted through the \nobstruction.\nExamples: crates, railings and pipework are usually Light \nCover; barricades, firing ports and armoured machinery \nare usually Heavy Cover; sealed walls and complete \ncorners provide Full Cover. The GM decides whether a \nline of fire crosses the cover.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

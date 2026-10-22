@@ -30,3 +30,7 @@ All examples use the reserved `example` namespace and `verification: placeholder
 Every entity inherits the envelope in CONTENT_MODEL. Every payload field is defined by its entity/family table. Examples are complete records in [examples/catalog.json](examples/catalog.json); the catalog is a compact review fixture, not an importer or full rulebook. [examples/ruleset-lock.json](examples/ruleset-lock.json) pins its records. [examples/character.json](examples/character.json) demonstrates owned state.
 
 Machine-readable examples and repository-local checks are described in [VERIFICATION.md](VERIFICATION.md). No claim is made that the existing engine accepts this contract or that a production JSON Schema/compiler has been implemented.
+
+## PHB import status — 22 October 2026
+
+The supplied Version 1.0 handbook is now registered and partially transcribed. See [PHB import report](../import/PHB_IMPORT_REPORT.md). The original example records remain historical placeholders and are not PHB data. Canonical drafts and incomplete candidates are separate; publication and full builder readiness remain blocked pending source review and mapping.

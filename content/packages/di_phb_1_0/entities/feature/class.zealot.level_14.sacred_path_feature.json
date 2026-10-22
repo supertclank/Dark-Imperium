@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.zealot.level_14.sacred_path_feature",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Sacred Path Feature",
+  "summary": "Sacred Path Feature Preacher Once per long rest, as an action, up to three allies within 30 ft regain hit points equal to 2d6 + your Wisdom or Charisma modifier. Flagellant Once per turn, when you are below half hit points, your melee attacks deal +1d8 radiant or fire damage. Purifier Your fire damage ignores resistance, and daemons/corrupted creatures cannot regain hit points until the start of your next turn after taking your fire damage.",
+  "descriptionMarkdown": "Sacred Path Feature\nPreacher\nOnce per long rest, as an action, \nup to three allies within 30 ft regain \nhit points equal to 2d6 + your \nWisdom or Charisma modifier.\nFlagellant\nOnce per turn, when you are \nbelow half hit points, your melee \nattacks deal +1d8 radiant or fire \ndamage.\nPurifier\nYour fire damage ignores \nresistance, and \ndaemons/corrupted creatures \ncannot regain hit points until the \nstart of your next turn after taking \nyour fire damage.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.2.14",
+        "heading": "Sacred Path Feature",
+        "pdfPage": 54,
+        "printedPage": 41
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Sacred Path Feature\nPreacher\nOnce per long rest, as an action, \nup to three allies within 30 ft regain \nhit points equal to 2d6 + your \nWisdom or Charisma modifier.\nFlagellant\nOnce per turn, when you are \nbelow half hit points, your melee \nattacks deal +1d8 radiant or fire \ndamage.\nPurifier\nYour fire damage ignores \nresistance, and \ndaemons/corrupted creatures \ncannot regain hit points until the \nstart of your next turn after taking \nyour fire damage.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

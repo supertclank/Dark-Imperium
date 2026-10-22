@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_6_13",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Rest and Recovery",
+  "summary": "Rest Duration Effect Short Rest At least 1 hour A period of relative safety with no strenuous activity. You may spend Hit Dice; for each die spent, roll it and regain HP equal to the result + your Constitution modifier. Recover features that say they return on a short rest. Warp Pressure is reduced to 0 as described in Chapter 15. Long Rest At least 8 hours At least 6 hours should be sleep or an equivalent species-appropriate rest unless the GM rules otherwise. Restore all lost HP, recover lo...",
+  "descriptionMarkdown": "Rest Duration Effect\nShort Rest At least 1 hour\nA period of relative safety with no strenuous activity. You may spend Hit Dice; for each \ndie spent, roll it and regain HP equal to the result + your Constitution modifier. Recover \nfeatures that say they return on a short rest. Warp Pressure is reduced to 0 as described \nin Chapter 15.\nLong Rest At least 8 hours\nAt least 6 hours should be sleep or an equivalent species-appropriate rest unless the \nGM rules otherwise. Restore all lost HP, recover long-rest features and regain spent Hit \nDice up to half your total Hit Dice, minimum one. Warp Pressure is reduced to 0. A \ncharacter can normally benefit from only one long rest in 24 hours.\nRest does not remove Corruption, lasting injuries, lost equipment or narrative consequences unless a specific rule says \notherwise.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "6.13",
+        "heading": "Rest and Recovery",
+        "pdfPage": 32,
+        "printedPage": 19
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "rest",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Rest Duration Effect\nShort Rest At least 1 hour\nA period of relative safety with no strenuous activity. You may spend Hit Dice; for each \ndie spent, roll it and regain HP equal to the result + your Constitution modifier. Recover \nfeatures that say they return on a short rest. Warp Pressure is reduced to 0 as described \nin Chapter 15.\nLong Rest At least 8 hours\nAt least 6 hours should be sleep or an equivalent species-appropriate rest unless the \nGM rules otherwise. Restore all lost HP, recover long-rest features and regain spent Hit \nDice up to half your total Hit Dice, minimum one. Warp Pressure is reduced to 0. A \ncharacter can normally benefit from only one long rest in 24 hours.\nRest does not remove Corruption, lasting injuries, lost equipment or narrative consequences unless a specific rule says \notherwise.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.system.armour.void_seal_redundancy",
+  "kind": "system",
+  "name": "Void-Seal Redundancy",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Modification: Void-Seal Redundancy; Availability: Controlled; Effect: A sealed Kin suit remains functional after one breach each mission; the breach is sealed automatically at the end of the current turn unless the armour is Ruined.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "9",
+          "heading": "Void-Seal Redundancy",
+          "pdfPage": 45,
+          "printedPage": 32
+        }
+      }
+    }
+  ]
+}

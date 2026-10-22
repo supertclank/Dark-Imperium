@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.wargear.arc_of_the_reductor_mechanicus",
+  "kind": "equipment",
+  "name": "Arc of the Reductor - Mechanicus",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Relic: Arc of the Reductor - Mechanicus; Availability: Near-Unique; Effect: Arc rifle: 2d8 lightning; 80/240 ft; Shock, Armour-Breaking, Mechanicus, Reload 8. Once per short rest, a hit against a machine, vehicle or structure becomes a critical hit.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Arc of the Reductor - Mechanicus",
+          "pdfPage": 107,
+          "printedPage": 94
+        }
+      }
+    }
+  ]
+}

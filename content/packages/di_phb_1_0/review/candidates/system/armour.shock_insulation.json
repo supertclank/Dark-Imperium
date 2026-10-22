@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.system.armour.shock_insulation",
+  "kind": "system",
+  "name": "Shock Insulation",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Modification: Shock Insulation; Typical Availability: Scarce; Effect: Resistance to the first instance of lightning or electrical damage you take after each short rest.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "9",
+          "heading": "Shock Insulation",
+          "pdfPage": 44,
+          "printedPage": 31
+        }
+      }
+    }
+  ]
+}

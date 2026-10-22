@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.aeldari_outcast.level_13.vanish_beyond_sight",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Vanish Beyond Sight",
+  "summary": "Once per long rest, as a bonus action, become invisible until the start of your next turn or until you make an attack. This is a psychic-adjacent Aeldari trick, not a normal Imperial stealth field.",
+  "descriptionMarkdown": "Once per long rest, as a bonus action, become invisible \nuntil the start of your next turn or until you make an \nattack. This is a psychic-adjacent Aeldari trick, not a \nnormal Imperial stealth field.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.11.13",
+        "heading": "Vanish Beyond Sight",
+        "pdfPage": 80,
+        "printedPage": 67
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per long rest, as a bonus action, become invisible \nuntil the start of your next turn or until you make an \nattack. This is a psychic-adjacent Aeldari trick, not a \nnormal Imperial stealth field.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

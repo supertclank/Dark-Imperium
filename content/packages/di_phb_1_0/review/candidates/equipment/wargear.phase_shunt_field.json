@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.wargear.phase_shunt_field",
+  "kind": "equipment",
+  "name": "Phase-Shunt Field",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Item: Phase-Shunt Field; Availability: Near-Unique; Effect: Once per long rest when damage would reduce you to 0 HP but not kill you outright, remain at 1 HP and teleport up to 15 ft to a visible unoccupied space. The field becomes Damaged after use until properly repaired.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Phase-Shunt Field",
+          "pdfPage": 107,
+          "printedPage": 94
+        }
+      }
+    }
+  ]
+}

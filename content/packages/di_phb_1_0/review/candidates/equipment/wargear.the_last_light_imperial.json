@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.wargear.the_last_light_imperial",
+  "kind": "equipment",
+  "name": "The Last Light - Imperial",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Relic: The Last Light - Imperial; Availability: Near-Unique; Effect: Lasgun: 1d10 radiant; 100/300 ft; Accurate, Armour-Breaking, Reload 30. Once per short rest on a hit, choose a second creature directly behind the target within 30 ft; if the original attack roll would hit it, it takes 1d10 radiant damage.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "The Last Light - Imperial",
+          "pdfPage": 107,
+          "printedPage": 94
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "proposedId": "di.vehicle.scout_sentinel",
+  "kind": "vehicle",
+  "name": "Scout Sentinel",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-010"
+  ],
+  "proposedData": {
+    "size": "large",
+    "defence": {
+      "kind": "constant",
+      "value": 15
+    },
+    "hull": {
+      "kind": "constant",
+      "value": 65
+    },
+    "movement": [
+      {
+        "mode": "ground",
+        "speed": {
+          "value": 40,
+          "unit": "ft"
+        }
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "text": "Scout Sentinel\nLarge walker\nAC 15 | HP 65 | DT 5 | Speed 40 ft | Handling +1\nCrew 1 D | Passengers 0 | Cargo 100 kg | Rare\nWeapons: forward multi-laser (D). Exposed cockpit. Turns in place; ignores difficult terrain from rubble, shallow mud \nand stairs wide enough for its feet. No wall-climbing or Ogryn accommodation.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "21.10",
+          "heading": "Scout Sentinel",
+          "pdfPage": 119,
+          "printedPage": 106
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "proposedId": "di.weapon.battle_cannon",
+  "kind": "weapon",
+  "name": "Battle cannon",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-005"
+  ],
+  "proposedData": {
+    "properties": [
+      {
+        "property": {
+          "id": "di.property.weapon.armour_breaking"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.reload"
+        },
+        "arguments": {
+          "capacity": 1
+        }
+      }
+    ],
+    "modes": [
+      {
+        "id": "base",
+        "name": "Base profile",
+        "damage": [
+          {
+            "id": "component_1",
+            "dice": {
+              "count": 3,
+              "sides": 10,
+              "bonus": 0
+            },
+            "bonus": {
+              "kind": "constant",
+              "value": 0
+            },
+            "damageType": {
+              "id": "di.damage_type.piercing"
+            }
+          },
+          {
+            "id": "component_2",
+            "dice": {
+              "count": 3,
+              "sides": 10,
+              "bonus": 0
+            },
+            "bonus": {
+              "kind": "constant",
+              "value": 0
+            },
+            "damageType": {
+              "id": "di.damage_type.thunder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "text": "Weapon: Battle cannon; Damage: 3d10 piercing + 3d10 thunder; Range: 240; Properties: 15-ft radius; Armour-Breaking; Reload 1; Availability: Exceptional",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "21.11",
+          "heading": "Battle cannon",
+          "pdfPage": 121,
+          "printedPage": 108
+        }
+      }
+    }
+  ]
+}

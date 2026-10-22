@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.zealot.level_15.living_saints_shadow",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Living Saint’s Shadow",
+  "summary": "Once per long rest, when you are reduced to 0 hit points but not killed outright, or when you fail a death saving throw, you instead stand with 1 hit point, end the prone condition on yourself, and emit a 30-ft aura until the end of your next turn. Allies in the aura gain advantage on attack rolls and saving throws against fear.",
+  "descriptionMarkdown": "Once per long rest, when you are reduced to 0 hit points \nbut not killed outright, or when you fail a death saving \nthrow, you instead stand with 1 hit point, end the prone \ncondition on yourself, and emit a 30-ft aura until the end \nof your next turn. Allies in the aura gain advantage on \nattack rolls and saving throws against fear.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.2.15",
+        "heading": "Living Saint’s Shadow",
+        "pdfPage": 54,
+        "printedPage": 41
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per long rest, when you are reduced to 0 hit points \nbut not killed outright, or when you fail a death saving \nthrow, you instead stand with 1 hit point, end the prone \ncondition on yourself, and emit a 30-ft aura until the end \nof your next turn. Allies in the aura gain advantage on \nattack rolls and saving throws against fear.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

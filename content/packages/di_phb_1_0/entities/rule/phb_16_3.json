@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_16_3",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Corruption Scars",
+  "summary": "At Corruption 3 or when a rule specifically causes a scar, choose a fitting consequence with the GM: visible mutation, recurring hallucination, warp-sensitive wound, compulsive ritual, psychic echo, social stigma or another narrow effect. A scar should produce decisions and roleplay without making a character mechanically unusable.",
+  "descriptionMarkdown": "At Corruption 3 or when a rule specifically causes a scar, \nchoose a fitting consequence with the GM: visible \nmutation, recurring hallucination, warp-sensitive wound, \ncompulsive ritual, psychic echo, social stigma or another \nnarrow effect. A scar should produce decisions and \nroleplay without making a character mechanically \nunusable.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "16.3",
+        "heading": "Corruption Scars",
+        "pdfPage": 98,
+        "printedPage": 85
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "At Corruption 3 or when a rule specifically causes a scar, \nchoose a fitting consequence with the GM: visible \nmutation, recurring hallucination, warp-sensitive wound, \ncompulsive ritual, psychic echo, social stigma or another \nnarrow effect. A scar should produce decisions and \nroleplay without making a character mechanically \nunusable.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

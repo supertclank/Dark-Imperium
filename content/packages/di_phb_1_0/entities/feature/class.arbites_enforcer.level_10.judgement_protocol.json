@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.arbites_enforcer.level_10.judgement_protocol",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Judgement Protocol",
+  "summary": "Once per short rest, when you hit a creature that is frightened, prone, restrained, stunned, or Suppressed, the attack becomes a critical hit.",
+  "descriptionMarkdown": "Once per short rest, when you hit a creature that is \nfrightened, prone, restrained, stunned, or\nSuppressed, the attack becomes a critical hit.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.5.10",
+        "heading": "Judgement Protocol",
+        "pdfPage": 62,
+        "printedPage": 49
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per short rest, when you hit a creature that is \nfrightened, prone, restrained, stunned, or\nSuppressed, the attack becomes a critical hit.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

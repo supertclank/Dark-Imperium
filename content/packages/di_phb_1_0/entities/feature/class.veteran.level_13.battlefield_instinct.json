@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.veteran.level_13.battlefield_instinct",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Battlefield Instinct",
+  "summary": "You cannot be surprised while conscious. When initiative is rolled, you may move up to 10 ft before the first turn begins, provided this movement ends in cover or closer to an ally.",
+  "descriptionMarkdown": "You cannot be surprised while conscious. When initiative \nis rolled, you may move up to 10 ft before the\nfirst turn begins, provided this movement ends in cover or \ncloser to an ally.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.1.13",
+        "heading": "Battlefield Instinct",
+        "pdfPage": 51,
+        "printedPage": 38
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "You cannot be surprised while conscious. When initiative \nis rolled, you may move up to 10 ft before the\nfirst turn begins, provided this movement ends in cover or \ncloser to an ally.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

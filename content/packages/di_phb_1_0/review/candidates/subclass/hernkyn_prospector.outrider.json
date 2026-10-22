@@ -1,0 +1,30 @@
+{
+  "proposedId": "di.subclass.hernkyn_prospector.outrider",
+  "kind": "subclass",
+  "name": "Outrider",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-012"
+  ],
+  "proposedData": {
+    "parentClass": {
+      "id": "di.class.hernkyn_prospector"
+    }
+  },
+  "evidence": [
+    {
+      "text": "Outrider; Your speed increases by 5 ft. When you Dash, opportunity attacks against you have disadvantage.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "11.10",
+          "heading": "Outrider",
+          "pdfPage": 77,
+          "printedPage": 64
+        }
+      }
+    }
+  ]
+}

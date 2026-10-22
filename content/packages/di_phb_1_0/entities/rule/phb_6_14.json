@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_6_14",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Conditions and Battlefield States",
+  "summary": "The following definitions apply when a rule gives a creature one of these conditions or states. If a feature gives a more specific duration or effect, the specific feature wins. Condition / State Effect Blinded You cannot see and automatically fail checks that require sight. Your attacks have disadvantage; attacks against you have advantage. Bloodied You are Bloodied while at or below half your maximum HP. Bloodied is a state, not a condition, and has no effect by itself unless a rule refers ...",
+  "descriptionMarkdown": "The following definitions apply when a rule gives a creature one of these conditions or states. If a feature gives a more \nspecific duration or effect, the specific feature wins.\nCondition / State Effect\nBlinded You cannot see and automatically fail checks that require sight. Your attacks have disadvantage; \nattacks against you have advantage.\nBloodied You are Bloodied while at or below half your maximum HP. Bloodied is a state, not a condition, \nand has no effect by itself unless a rule refers to it.\nCharmed You cannot attack or deliberately harm the creature that charmed you. That creature has \nadvantage on social checks made against you.\nFrightened\nWhile you can see the source of your fear, you have disadvantage on ability checks and attack \nrolls and cannot willingly move closer to it. A \"fear save\" is a save made to avoid or end this \ncondition.\nGrappled Your Speed becomes 0 and cannot benefit from bonuses to Speed. The condition ends if the \ngrappler is incapacitated or you are moved beyond its reach.\nHidden\nYou are unseen and unheard by a creature that has not located you. Attacks against a creature \nyou are hidden from normally have advantage. Making an attack normally reveals your position \nafter the attack resolves unless a feature says otherwise.\nIncapacitated You cannot take actions, bonus actions or reactions.\nInvisible\nYou cannot be seen without a special sense or effect. Your attacks normally have advantage, \nand attacks against you normally have disadvantage. You can still be detected by sound, tracks \nor other evidence.\nPoisoned You have disadvantage on attack rolls and ability checks.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "6.14",
+        "heading": "Conditions and Battlefield States",
+        "pdfPage": 32,
+        "printedPage": 19
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "The following definitions apply when a rule gives a creature one of these conditions or states. If a feature gives a more \nspecific duration or effect, the specific feature wins.\nCondition / State Effect\nBlinded You cannot see and automatically fail checks that require sight. Your attacks have disadvantage; \nattacks against you have advantage.\nBloodied You are Bloodied while at or below half your maximum HP. Bloodied is a state, not a condition, \nand has no effect by itself unless a rule refers to it.\nCharmed You cannot attack or deliberately harm the creature that charmed you. That creature has \nadvantage on social checks made against you.\nFrightened\nWhile you can see the source of your fear, you have disadvantage on ability checks and attack \nrolls and cannot willingly move closer to it. A \"fear save\" is a save made to avoid or end this \ncondition.\nGrappled Your Speed becomes 0 and cannot benefit from bonuses to Speed. The condition ends if the \ngrappler is incapacitated or you are moved beyond its reach.\nHidden\nYou are unseen and unheard by a creature that has not located you. Attacks against a creature \nyou are hidden from normally have advantage. Making an attack normally reveals your position \nafter the attack resolves unless a feature says otherwise.\nIncapacitated You cannot take actions, bonus actions or reactions.\nInvisible\nYou cannot be seen without a special sense or effect. Your attacks normally have advantage, \nand attacks against you normally have disadvantage. You can still be detected by sound, tracks \nor other evidence.\nPoisoned You have disadvantage on attack rolls and ability checks.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

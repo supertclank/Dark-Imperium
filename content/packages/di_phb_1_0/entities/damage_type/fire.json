@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "di.damage_type.fire",
+  "kind": "damage_type",
+  "revision": 1,
+  "name": "Fire",
+  "summary": "Damage label used by PHB profiles. No universal resistance multiplier is inferred.",
+  "descriptionMarkdown": "Damage label used by PHB profiles. No universal resistance multiplier is inferred.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "8",
+        "heading": "Fire",
+        "pdfPage": 37,
+        "printedPage": 24
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "category": "fire"
+  }
+}

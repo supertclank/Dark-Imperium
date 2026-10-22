@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.arbites_enforcer.level_3.enforcement_doctrine",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Enforcement Doctrine",
+  "summary": "Doctrine Benefit Riot Shield While using a shield, you gain +1 AC and advantage against being shoved. Executioner Your attacks against frightened, prone, or restrained creatures deal +1d6 damage. Investigator Gain expertise in Investigation or Insight. As a bonus action, study one creature, device, or scene you can see within 60 ft; until the end of your next turn, it counts as studied for your Investigator features. Uses: proficiency bonus per long rest.",
+  "descriptionMarkdown": "Doctrine Benefit\nRiot Shield\nWhile using a shield, you gain +1 \nAC and advantage against being \nshoved.\nExecutioner\nYour attacks against frightened, \nprone, or restrained creatures deal \n+1d6 damage.\nInvestigator\nGain expertise in Investigation or \nInsight. As a bonus action, study \none creature, device, or scene you \ncan see within 60 ft; until the end \nof your next turn, it counts as \nstudied for your Investigator \nfeatures. Uses: proficiency bonus \nper long rest.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.5.4",
+        "heading": "Enforcement Doctrine",
+        "pdfPage": 62,
+        "printedPage": 49
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Doctrine Benefit\nRiot Shield\nWhile using a shield, you gain +1 \nAC and advantage against being \nshoved.\nExecutioner\nYour attacks against frightened, \nprone, or restrained creatures deal \n+1d6 damage.\nInvestigator\nGain expertise in Investigation or \nInsight. As a bonus action, study \none creature, device, or scene you \ncan see within 60 ft; until the end \nof your next turn, it counts as \nstudied for your Investigator \nfeatures. Uses: proficiency bonus \nper long rest.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

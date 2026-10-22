@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_21_10",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Civilian and Imperial Scouts",
+  "summary": "These are complete starting profiles for Dark Imperium. Weapons are defined in 21.11. Enclosed, Exposed and Open- topped use the protection in 21.3. Sealed excludes normal airborne contaminants while closed and provides one hour of internal air; it does not grant voidworthiness or protect a breached hull. Capacities and statistics are conversion values for these representative loadouts. Civilian Autocar Large wheeled vehicle AC 12 | HP 35 | DT 0 | Speed 60 ft | Handling +1 Crew 1 D | Passenge...",
+  "descriptionMarkdown": "These are complete starting profiles for Dark Imperium. Weapons are defined in 21.11. Enclosed, Exposed and Open-\ntopped use the protection in 21.3. Sealed excludes normal airborne contaminants while closed and provides one hour \nof internal air; it does not grant voidworthiness or protect a breached hull. Capacities and statistics are conversion \nvalues for these representative loadouts.\nCivilian Autocar\nLarge wheeled vehicle\nAC 12 | HP 35 | DT 0 | Speed 60 ft | Handling +1\nCrew 1 D | Passengers 3 | Cargo 250 kg | Controlled\nWeapons: none. Enclosed. A hive taxi, route-car or staff car. No firing ports; occupants must open a window or hatch \nto attack. Suits maintained roads and broad service tunnels.\nCargo Hauler\nHuge wheeled vehicle\nAC 12 | HP 70 | DT 5 | Speed 40 ft | Handling −1\nCrew 1 D | Passengers 2 | Cargo 3 tonnes | Controlled\nWeapons: none. Enclosed cab; open cargo bed. Six additional passengers may ride exposed in the bed, replacing 1 \ntonne of cargo. This does not provide reinforced Ogryn accommodation.\nHive Outrider Bike\nLarge wheeled vehicle\nAC 13 | HP 30 | DT 0 | Speed 80 ft | Handling +2\nCrew 1 D | Passengers 1 | Cargo 50 kg | Controlled\nWeapons: none. Exposed. Driver needs one free hand for the controls and can use a one-handed personal weapon \nnormally. Passenger can use personal weapons. Neither position accommodates an Ogryn.\nArmoured Utility Truck\nHuge wheeled vehicle\nAC 15 | HP 90 | DT 5 | Speed 50 ft | Handling 0\nCrew 1 D, 1 G | Passengers 8 | Cargo 1 tonne | Scarce\nWeapons: turret heavy stubber (G). Enclosed; two firing ports. Reinforced bay accommodates Ogryns at three spaces \neach. Use for prison vans, militia carriers and hardened convoy trucks.\nScout Sentinel\nLarge walker\nAC 15 | HP 65 | DT 5 | Speed 40 ft | Handling +1\nCrew 1 D | Passengers 0 | Cargo 100 kg | Rare\nWeapons: forward multi-laser (D). Exposed cockpit. Turns in place; ignores difficult terrain from rubble, shallow mud \nand stairs wide enough for its feet. No wall-climbing or Ogryn accommodation.\nTaurox\nHuge tracked carrier\nAC 16 | HP 95 | DT 10 | Speed 60 ft | Handling 0\nCrew 1 D, 1 G | Passengers 10 | Cargo 500 kg | Rare\nWeapons: turret autocannon with Twin-Linked (G). Enclosed; two firing ports. Ignores difficult terrain from rubble and \nshallow mud. Ogryns use three passenger spaces; normal crew stations are human-sized.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "21.10",
+        "heading": "Civilian and Imperial Scouts",
+        "pdfPage": 119,
+        "printedPage": 106
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "These are complete starting profiles for Dark Imperium. Weapons are defined in 21.11. Enclosed, Exposed and Open-\ntopped use the protection in 21.3. Sealed excludes normal airborne contaminants while closed and provides one hour \nof internal air; it does not grant voidworthiness or protect a breached hull. Capacities and statistics are conversion \nvalues for these representative loadouts.\nCivilian Autocar\nLarge wheeled vehicle\nAC 12 | HP 35 | DT 0 | Speed 60 ft | Handling +1\nCrew 1 D | Passengers 3 | Cargo 250 kg | Controlled\nWeapons: none. Enclosed. A hive taxi, route-car or staff car. No firing ports; occupants must open a window or hatch \nto attack. Suits maintained roads and broad service tunnels.\nCargo Hauler\nHuge wheeled vehicle\nAC 12 | HP 70 | DT 5 | Speed 40 ft | Handling −1\nCrew 1 D | Passengers 2 | Cargo 3 tonnes | Controlled\nWeapons: none. Enclosed cab; open cargo bed. Six additional passengers may ride exposed in the bed, replacing 1 \ntonne of cargo. This does not provide reinforced Ogryn accommodation.\nHive Outrider Bike\nLarge wheeled vehicle\nAC 13 | HP 30 | DT 0 | Speed 80 ft | Handling +2\nCrew 1 D | Passengers 1 | Cargo 50 kg | Controlled\nWeapons: none. Exposed. Driver needs one free hand for the controls and can use a one-handed personal weapon \nnormally. Passenger can use personal weapons. Neither position accommodates an Ogryn.\nArmoured Utility Truck\nHuge wheeled vehicle\nAC 15 | HP 90 | DT 5 | Speed 50 ft | Handling 0\nCrew 1 D, 1 G | Passengers 8 | Cargo 1 tonne | Scarce\nWeapons: turret heavy stubber (G). Enclosed; two firing ports. Reinforced bay accommodates Ogryns at three spaces \neach. Use for prison vans, militia carriers and hardened convoy trucks.\nScout Sentinel\nLarge walker\nAC 15 | HP 65 | DT 5 | Speed 40 ft | Handling +1\nCrew 1 D | Passengers 0 | Cargo 100 kg | Rare\nWeapons: forward multi-laser (D). Exposed cockpit. Turns in place; ignores difficult terrain from rubble, shallow mud \nand stairs wide enough for its feet. No wall-climbing or Ogryn accommodation.\nTaurox\nHuge tracked carrier\nAC 16 | HP 95 | DT 10 | Speed 60 ft | Handling 0\nCrew 1 D, 1 G | Passengers 10 | Cargo 500 kg | Rare\nWeapons: turret autocannon with Twin-Linked (G). Enclosed; two firing ports. Ignores difficult terrain from rubble and \nshallow mud. Ogryns use three passenger spaces; normal crew stations are human-sized.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

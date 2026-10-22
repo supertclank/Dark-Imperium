@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.veteran.level_9.hold_the_line",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Hold the Line",
+  "summary": "While you are in cover, allies within 5 ft of you also gain advantage on saving throws against Suppression.",
+  "descriptionMarkdown": "While you are in cover, allies within 5 ft of you also gain \nadvantage on saving throws against\nSuppression.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.1.9",
+        "heading": "Hold the Line",
+        "pdfPage": 50,
+        "printedPage": 37
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "While you are in cover, allies within 5 ft of you also gain \nadvantage on saving throws against\nSuppression.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.universal.munitorum_drilled",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Munitorum Drilled",
+  "summary": "Trait: Munitorum Drilled Effect: Gain proficiency with one basic firearm. Once per short rest, reload a basic weapon without spending an action.",
+  "descriptionMarkdown": "Trait: Munitorum Drilled\nEffect: Gain proficiency with one basic firearm. Once per short rest, reload a basic weapon without spending an action.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "5",
+        "heading": "Munitorum Drilled",
+        "pdfPage": 29,
+        "printedPage": 16
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "general",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Trait: Munitorum Drilled\nEffect: Gain proficiency with one basic firearm. Once per short rest, reload a basic weapon without spending an action.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

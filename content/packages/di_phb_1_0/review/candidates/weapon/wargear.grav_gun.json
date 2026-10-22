@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.weapon.wargear.grav_gun",
+  "kind": "weapon",
+  "name": "Grav-Gun",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Item: Grav-Gun; Availability: Exceptional; Effect: 2d8 force; 60/180 ft; Heavy, Armour-Breaking, Reload 6. On a hit against AC 17+, a vehicle or a Large or larger creature, it must pass a Strength saving throw or lose 10 ft Speed until your next turn.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Grav-Gun",
+          "pdfPage": 107,
+          "printedPage": 94
+        }
+      }
+    }
+  ]
+}

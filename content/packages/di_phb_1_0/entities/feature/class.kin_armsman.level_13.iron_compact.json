@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.kin_armsman.level_13.iron_compact",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Iron Compact",
+  "summary": "Once per long rest, when you or an ally within 10 ft would fail a saving throw, you may add your Constitution modifier to the roll. If this turns the failure into a success, you cannot use Oath-Mark on your next turn.",
+  "descriptionMarkdown": "Once per long rest, when you or an ally within 10 ft would \nfail a saving throw, you may add your\nConstitution modifier to the roll. If this turns the failure \ninto a success, you cannot use Oath-Mark on\nyour next turn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.9.13",
+        "heading": "Iron Compact",
+        "pdfPage": 74,
+        "printedPage": 61
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per long rest, when you or an ally within 10 ft would \nfail a saving throw, you may add your\nConstitution modifier to the roll. If this turns the failure \ninto a success, you cannot use Oath-Mark on\nyour next turn.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

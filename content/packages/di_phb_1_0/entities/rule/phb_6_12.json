@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_6_12",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Two-Weapon Fighting",
+  "summary": "When you take the Attack action and attack with a one-handed Light melee weapon, you may use a bonus action to make one attack with a different one-handed Light melee weapon in your other hand. Do not add your ability modifier to the bonus attack's damage unless that modifier is negative or a feature says otherwise. Drawing or stowing both weapons follows the normal item-interaction limits unless a feature says otherwise. Light pistols may be carried in either hand, but dual-wielding pistols ...",
+  "descriptionMarkdown": "When you take the Attack action and attack with a one-handed Light melee weapon, you may use a bonus action to \nmake one attack with a different one-handed Light melee weapon in your other hand. Do not add your ability modifier to \nthe bonus attack's damage unless that modifier is negative or a feature says otherwise. Drawing or stowing both \nweapons follows the normal item-interaction limits unless a feature says otherwise.\nLight pistols may be carried in either hand, but dual-wielding pistols does not by itself grant an additional attack. A \nfeature that grants a bonus-action pistol attack, such as a Gunslinger or Talent feature, may use either ready pistol. \nReload each firearm separately. Carrying a pistol and a blade likewise grants no extra attack unless a feature provides \none.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "6.12",
+        "heading": "Two-Weapon Fighting",
+        "pdfPage": 32,
+        "printedPage": 19
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When you take the Attack action and attack with a one-handed Light melee weapon, you may use a bonus action to \nmake one attack with a different one-handed Light melee weapon in your other hand. Do not add your ability modifier to \nthe bonus attack's damage unless that modifier is negative or a feature says otherwise. Drawing or stowing both \nweapons follows the normal item-interaction limits unless a feature says otherwise.\nLight pistols may be carried in either hand, but dual-wielding pistols does not by itself grant an additional attack. A \nfeature that grants a bonus-action pistol attack, such as a Gunslinger or Talent feature, may use either ready pistol. \nReload each firearm separately. Carrying a pistol and a blade likewise grants no extra attack unless a feature provides \none.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

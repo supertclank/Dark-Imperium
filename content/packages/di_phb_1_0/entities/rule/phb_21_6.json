@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_21_6",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Boarding and Disembarking",
+  "summary": "Boarding in motion: from within 5 ft, spend an action and make DC 13 Athletics or Acrobatics to reach an exposed foothold. DC 16 if either vehicle used Drive Hard this round. Failure leaves you where you started; failure by 5 or more also puts you Prone in the nearest safe space and deals 2d6 bludgeoning. Closed or locked hatches must still be opened or breached. Moving inside then costs normal movement. Jumping out of a moving vehicle uses the same action, check and failure damage. No check ...",
+  "descriptionMarkdown": "Boarding in motion: from within 5 ft, spend an action and make DC 13 Athletics or Acrobatics to reach an exposed \nfoothold. DC 16 if either vehicle used Drive Hard this round. Failure leaves you where you started; failure by 5 or more \nalso puts you Prone in the nearest safe space and deals 2d6 bludgeoning. Closed or locked hatches must still be \nopened or breached. Moving inside then costs normal movement.\nJumping out of a moving vehicle uses the same action, check and failure damage. No check is needed if it has not \nmoved since the start of its driver’s last turn. A passing hull may be targeted by an opportunity melee attack as if it were \na creature; carried occupants do not provoke just because the vehicle moves. Normal creature-only grapples and \nshoves cannot move a vehicle.\nChases and Maintenance",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "21.6",
+        "heading": "Boarding and Disembarking",
+        "pdfPage": 116,
+        "printedPage": 103
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Boarding in motion: from within 5 ft, spend an action and make DC 13 Athletics or Acrobatics to reach an exposed \nfoothold. DC 16 if either vehicle used Drive Hard this round. Failure leaves you where you started; failure by 5 or more \nalso puts you Prone in the nearest safe space and deals 2d6 bludgeoning. Closed or locked hatches must still be \nopened or breached. Moving inside then costs normal movement.\nJumping out of a moving vehicle uses the same action, check and failure damage. No check is needed if it has not \nmoved since the start of its driver’s last turn. A passing hull may be targeted by an opportunity melee attack as if it were \na creature; carried occupants do not provoke just because the vehicle moves. Normal creature-only grapples and \nshoves cannot move a vehicle.\nChases and Maintenance",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

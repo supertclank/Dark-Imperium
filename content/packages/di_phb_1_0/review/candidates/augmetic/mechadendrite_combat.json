@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.augmetic.mechadendrite_combat",
+  "kind": "augmetic",
+  "name": "Mechadendrite, Combat",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Upgrade: Mechadendrite, Combat; Effect: Once per short rest, make a 1d4 bludgeoning or piercing attack as a bonus action.; Availability: Scarce",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "13",
+          "heading": "Mechadendrite, Combat",
+          "pdfPage": 89,
+          "printedPage": 76
+        }
+      }
+    }
+  ]
+}

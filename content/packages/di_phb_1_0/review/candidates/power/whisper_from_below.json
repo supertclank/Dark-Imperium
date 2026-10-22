@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.whisper_from_below",
+  "kind": "power",
+  "name": "Whisper from Below",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Whisper from Below; Tag: Malefic; Rule: Bonus Action. Range 30 ft. One creature makes a Wisdom save. Failure: disadvantage on the next Wisdom saving throw before your next turn.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Whisper from Below",
+          "pdfPage": 92,
+          "printedPage": 79
+        }
+      }
+    }
+  ]
+}

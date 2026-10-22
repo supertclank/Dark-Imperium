@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.ratling_sharpshooter.level_18.ratling_trick_feature",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Ratling Trick Feature",
+  "summary": "Ratling Trick Feature Long-Las Sniper Your first Accurate weapon hit each round ignores heavy cover. Underhive Rat When you Hide as a reaction, you may also move 5 ft. Spotter Your mark grants +1d4 to the next three allied attacks instead of two. Black-Market Gremlin Once per session, produce one rare ammunition, forged credential, or compact tool with GM approval.",
+  "descriptionMarkdown": "Ratling Trick Feature\nLong-Las Sniper Your first Accurate weapon hit \neach round ignores heavy cover.\nUnderhive Rat When you Hide as a reaction, you \nmay also move 5 ft.\nSpotter Your mark grants +1d4 to the next \nthree allied attacks instead of two.\nBlack-Market Gremlin\nOnce per session, produce one \nrare ammunition, forged \ncredential, or compact tool with \nGM approval.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.7.18",
+        "heading": "Ratling Trick Feature",
+        "pdfPage": 69,
+        "printedPage": 56
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Ratling Trick Feature\nLong-Las Sniper Your first Accurate weapon hit \neach round ignores heavy cover.\nUnderhive Rat When you Hide as a reaction, you \nmay also move 5 ft.\nSpotter Your mark grants +1d4 to the next \nthree allied attacks instead of two.\nBlack-Market Gremlin\nOnce per session, produce one \nrare ammunition, forged \ncredential, or compact tool with \nGM approval.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

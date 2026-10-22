@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.condition.exhaustion",
+  "kind": "condition",
+  "name": "Exhaustion",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-013"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "\nSome hazards, drugs and environmental effects cause levels of Exhaustion. Effects are cumulative. Removing one \nlevel removes only that level and any higher-level effects that no longer apply.\nLevel Effect\n1 Disadvantage on ability checks.\n2 Speed halved.\n3 Disadvantage on attack rolls and saving throws.\n4 Maximum HP halved.\n5 Speed becomes 0.\n6 Death.\nUnless a rule says otherwise, finishing a long rest while you have access to food, water, and a safe place to recover \nremoves one level of Exhaustion.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "6.14",
+          "heading": "Exhaustion",
+          "pdfPage": 33,
+          "printedPage": 20
+        }
+      }
+    }
+  ]
+}

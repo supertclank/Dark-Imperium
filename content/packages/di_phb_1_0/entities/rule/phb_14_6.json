@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_14_6",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Standard Psychic Powers",
+  "summary": "Power Tag Rule Focused Rupture Universal Action. Range 90 ft. Intelligence save. Failure: 3d8 force damage; success: half. If this kills the target, reduce Warp Pressure by 1. Assail Telekinesis, Universal Action. Range 60 ft. Choose up to three creatures. Psychic attack against each target. Hit: 1d6 force damage. Psychic Shield Telekinesis, Universal Action. Range 30 ft. One creature gains temporary HP equal to 1d8 + psychic ability modifier + proficiency bonus and advantage on fear saves wh...",
+  "descriptionMarkdown": "Power Tag Rule\nFocused Rupture Universal Action. Range 90 ft. Intelligence save. Failure: 3d8 force damage; success: half. If this kills \nthe target, reduce Warp Pressure by 1.\nAssail Telekinesis, Universal Action. Range 60 ft. Choose up to three creatures. Psychic attack against each target. Hit: \n1d6 force damage.\nPsychic Shield Telekinesis, Universal Action. Range 30 ft. One creature gains temporary HP equal to 1d8 + psychic ability modifier \n+ proficiency bonus and advantage on fear saves while they remain.\nSoulfire Pyromancy, Universal Action. Range 60 ft. Dexterity save. Failure: 2d6 fire/radiant damage and burns for 1d6 at the \nstart of the next turn; success: half and no burn.\nDominate Nerve Biomancy, Universal Action. Range 60 ft. Wisdom save. Failure: no reactions and disadvantage on next attack \nroll.\nWarp Step Universal Bonus Action. Teleport 30 ft to a visible unoccupied space. Immediately roll for Perils even if \nWarp Pressure would not normally trigger it.\nBlood Surge Biomancy Bonus Action. Range 30 ft. One ally gains +10 ft speed and advantage on Strength checks \nfor 1 minute.\nToxic Bloom Biomancy Action. 10-ft radius within 60 ft. Constitution save. Failure: 2d8 poison/necrotic damage and \npoisoned until next turn; success: half and no poison.\nKinetic Bulwark Telekinesis Reaction. When an ally within 30 ft is hit, reduce damage by 2d8 + psychic ability modifier.\nCrush Grip Telekinesis Action. Range 60 ft. Strength save. Failure: 2d8 force damage, and speed becomes 0 until \nthe end of the next turn.\nFate’s Nudge Divination Reaction. Add or subtract 1d4 from a d20 roll made by a creature you can see within 60 ft.\nPrescient Aim Divination Bonus Action. Range 60 ft. One ally gains advantage on their next ranged attack before your \nnext turn.\nCleansing Wave Pyromancy Action. 15-ft cone. Dexterity save. Failure: 3d6 fire/radiant damage; success: half. Daemons \nand corrupted creatures take +1d6.\nBurning Halo Pyromancy Bonus Action. Self. 1 minute. Creatures that hit you with melee attacks take fire damage \nequal to your proficiency bonus.\nTerror Echo Malefic Action. Range 60 ft. Wisdom save. Failure: frightened until the end of the next turn and takes \n2d6 psychic damage.\nBaleful Rupture Malefic Action. Range 90 ft. Intelligence save. Failure: 4d8 psychic damage; success: half. Add +1 \nextra Warp Pressure after resolving.\nNull Field Null Action. Self, 10-ft aura until the start of your next turn. Allies in the aura have advantage on \nsaving throws against psychic powers. Hostile psykers inside the aura increase Warp \nPressure by +1 when using a power.\nSilence the Witch Null Reaction. When a creature within 60 ft uses a psychic power, force it to make a Charisma \nsave. On a failure, it adds +1d4 to any Perils severity roll caused by that power.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "14.6",
+        "heading": "Standard Psychic Powers",
+        "pdfPage": 92,
+        "printedPage": 79
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "psyker",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Power Tag Rule\nFocused Rupture Universal Action. Range 90 ft. Intelligence save. Failure: 3d8 force damage; success: half. If this kills \nthe target, reduce Warp Pressure by 1.\nAssail Telekinesis, Universal Action. Range 60 ft. Choose up to three creatures. Psychic attack against each target. Hit: \n1d6 force damage.\nPsychic Shield Telekinesis, Universal Action. Range 30 ft. One creature gains temporary HP equal to 1d8 + psychic ability modifier \n+ proficiency bonus and advantage on fear saves while they remain.\nSoulfire Pyromancy, Universal Action. Range 60 ft. Dexterity save. Failure: 2d6 fire/radiant damage and burns for 1d6 at the \nstart of the next turn; success: half and no burn.\nDominate Nerve Biomancy, Universal Action. Range 60 ft. Wisdom save. Failure: no reactions and disadvantage on next attack \nroll.\nWarp Step Universal Bonus Action. Teleport 30 ft to a visible unoccupied space. Immediately roll for Perils even if \nWarp Pressure would not normally trigger it.\nBlood Surge Biomancy Bonus Action. Range 30 ft. One ally gains +10 ft speed and advantage on Strength checks \nfor 1 minute.\nToxic Bloom Biomancy Action. 10-ft radius within 60 ft. Constitution save. Failure: 2d8 poison/necrotic damage and \npoisoned until next turn; success: half and no poison.\nKinetic Bulwark Telekinesis Reaction. When an ally within 30 ft is hit, reduce damage by 2d8 + psychic ability modifier.\nCrush Grip Telekinesis Action. Range 60 ft. Strength save. Failure: 2d8 force damage, and speed becomes 0 until \nthe end of the next turn.\nFate’s Nudge Divination Reaction. Add or subtract 1d4 from a d20 roll made by a creature you can see within 60 ft.\nPrescient Aim Divination Bonus Action. Range 60 ft. One ally gains advantage on their next ranged attack before your \nnext turn.\nCleansing Wave Pyromancy Action. 15-ft cone. Dexterity save. Failure: 3d6 fire/radiant damage; success: half. Daemons \nand corrupted creatures take +1d6.\nBurning Halo Pyromancy Bonus Action. Self. 1 minute. Creatures that hit you with melee attacks take fire damage \nequal to your proficiency bonus.\nTerror Echo Malefic Action. Range 60 ft. Wisdom save. Failure: frightened until the end of the next turn and takes \n2d6 psychic damage.\nBaleful Rupture Malefic Action. Range 90 ft. Intelligence save. Failure: 4d8 psychic damage; success: half. Add +1 \nextra Warp Pressure after resolving.\nNull Field Null Action. Self, 10-ft aura until the start of your next turn. Allies in the aura have advantage on \nsaving throws against psychic powers. Hostile psykers inside the aura increase Warp \nPressure by +1 when using a power.\nSilence the Witch Null Reaction. When a creature within 60 ft uses a psychic power, force it to make a Charisma \nsave. On a failure, it adds +1d4 to any Perils severity roll caused by that power.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

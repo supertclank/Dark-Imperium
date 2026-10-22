@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.cleansing_wave",
+  "kind": "power",
+  "name": "Cleansing Wave",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Cleansing Wave; Tag: Pyromancy; Rule: Action. 15-ft cone. Dexterity save. Failure: 3d6 fire/radiant damage; success: half. Daemons and corrupted creatures take +1d6.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Cleansing Wave",
+          "pdfPage": 92,
+          "printedPage": 79
+        }
+      }
+    }
+  ]
+}

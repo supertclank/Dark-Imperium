@@ -1,0 +1,54 @@
+{
+  "proposedId": "di.weapon.ghostsword",
+  "kind": "weapon",
+  "name": "Ghostsword",
+  "status": "AMBIGUOUS",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-005",
+    "PHB-006"
+  ],
+  "proposedData": {
+    "properties": [
+      {
+        "property": {
+          "id": "di.property.weapon.finesse"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.spirit_weapon"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.power_field"
+        },
+        "arguments": {}
+      }
+    ],
+    "modes": [
+      {
+        "id": "base",
+        "name": "Base profile"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "text": "Weapon: Ghostsword; Damage: 1d8 slashing/psychic; Range: Melee; Properties: Finesse, Spirit Weapon, Power Field; Availability: Exceptional",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "8",
+          "heading": "Ghostsword",
+          "pdfPage": 40,
+          "printedPage": 27
+        }
+      }
+    }
+  ]
+}

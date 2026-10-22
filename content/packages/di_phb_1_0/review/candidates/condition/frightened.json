@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.condition.frightened",
+  "kind": "condition",
+  "name": "Frightened",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-013"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Condition / State: Frightened; Effect: While you can see the source of your fear, you have disadvantage on ability checks and attack rolls and cannot willingly move closer to it. A \"fear save\" is a save made to avoid or end this condition.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "6",
+          "heading": "Frightened",
+          "pdfPage": 32,
+          "printedPage": 19
+        }
+      }
+    }
+  ]
+}

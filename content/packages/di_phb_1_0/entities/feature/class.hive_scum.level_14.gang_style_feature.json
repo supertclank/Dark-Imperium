@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.hive_scum.level_14.gang_style_feature",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Gang Style Feature",
+  "summary": "Gang Style Feature Gunslinger Your first pistol hit each turn deals +1d6 damage if the target is within 30 ft. Knife Rat When you score a critical hit with a light melee weapon, the target cannot take reactions until its next turn. Chem-User Once per long rest, ignore the exhaustion risk from your combat chems. Gang Style Feature Sump Ghost Once per short rest, become hidden from one creature even if it can see you, provided there is cover, smoke, steam, machinery, darkness, or a crowd within...",
+  "descriptionMarkdown": "Gang Style Feature\nGunslinger\nYour first pistol hit each turn deals \n+1d6 damage if the target is within \n30 ft.\nKnife Rat\nWhen you score a critical hit with a \nlight melee weapon, the target \ncannot take reactions until its next \nturn.\nChem-User\nOnce per long rest, ignore the \nexhaustion risk from your combat \nchems.\nGang Style Feature\nSump Ghost\nOnce per short rest, become \nhidden from one creature even if it \ncan see you, provided there is \ncover, smoke, steam, machinery, \ndarkness, or a crowd within 10 ft.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.6.14",
+        "heading": "Gang Style Feature",
+        "pdfPage": 65,
+        "printedPage": 52
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Gang Style Feature\nGunslinger\nYour first pistol hit each turn deals \n+1d6 damage if the target is within \n30 ft.\nKnife Rat\nWhen you score a critical hit with a \nlight melee weapon, the target \ncannot take reactions until its next \nturn.\nChem-User\nOnce per long rest, ignore the \nexhaustion risk from your combat \nchems.\nGang Style Feature\nSump Ghost\nOnce per short rest, become \nhidden from one creature even if it \ncan see you, provided there is \ncover, smoke, steam, machinery, \ndarkness, or a crowd within 10 ft.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

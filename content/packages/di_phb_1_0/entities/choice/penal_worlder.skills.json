@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "di.choice.penal_worlder.skills",
+  "kind": "choice",
+  "revision": 1,
+  "name": "Choose 1 skill proficiency",
+  "summary": "Choose 1 skill proficiency",
+  "descriptionMarkdown": "Choose 1 skill proficiency",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "4.3",
+        "heading": "Choose 1 skill proficiency",
+        "pdfPage": 26,
+        "printedPage": 13
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "purpose": "skill",
+    "selectionMode": "options",
+    "cardinality": {
+      "min": 1,
+      "max": 1,
+      "unique": true
+    },
+    "repeatScope": "once_per_actor",
+    "options": [
+      {
+        "id": "athletics",
+        "label": "Athletics",
+        "grants": [
+          {
+            "id": "proficiency",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.athletics"
+            }
+          }
+        ]
+      },
+      {
+        "id": "deception",
+        "label": "Deception",
+        "grants": [
+          {
+            "id": "proficiency",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.deception"
+            }
+          }
+        ]
+      },
+      {
+        "id": "intimidation",
+        "label": "Intimidation",
+        "grants": [
+          {
+            "id": "proficiency",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.intimidation"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

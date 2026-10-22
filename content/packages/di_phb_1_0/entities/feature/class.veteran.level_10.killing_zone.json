@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.veteran.level_10.killing_zone",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Killing Zone",
+  "summary": "Once per short rest, choose a 20-ft area you can see. Until the start of your next turn, the first time each hostile creature enters that area or leaves cover inside it, you may make one ranged weapon attack against it as a reaction. You still only have one reaction.",
+  "descriptionMarkdown": "Once per short rest, choose a 20-ft area you can see. \nUntil the start of your next turn, the first time each\nhostile creature enters that area or leaves cover inside it, \nyou may make one ranged weapon attack\nagainst it as a reaction. You still only have one reaction.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.1.10",
+        "heading": "Killing Zone",
+        "pdfPage": 50,
+        "printedPage": 37
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per short rest, choose a 20-ft area you can see. \nUntil the start of your next turn, the first time each\nhostile creature enters that area or leaves cover inside it, \nyou may make one ranged weapon attack\nagainst it as a reaction. You still only have one reaction.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

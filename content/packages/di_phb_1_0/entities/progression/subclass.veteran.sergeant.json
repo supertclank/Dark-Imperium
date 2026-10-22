@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "di.progression.subclass.veteran.sergeant",
+  "kind": "progression",
+  "revision": 1,
+  "name": "Sergeant progression",
+  "summary": "Regimental Doctrine at 3, improvements at 7 and 14.",
+  "descriptionMarkdown": "Regimental Doctrine at 3, improvements at 7 and 14.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.1",
+        "heading": "Sergeant progression",
+        "pdfPage": 50,
+        "printedPage": 37
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "axis": {
+      "kind": "class_level",
+      "class": {
+        "id": "di.class.veteran"
+      }
+    },
+    "maxLevel": 20,
+    "entries": [
+      {
+        "level": 3,
+        "grants": [
+          {
+            "id": "doctrine_3",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.subclass.veteran.sergeant.level_3"
+            }
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "grants": [
+          {
+            "id": "doctrine_7",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.subclass.veteran.sergeant.level_7"
+            }
+          }
+        ]
+      },
+      {
+        "level": 14,
+        "grants": [
+          {
+            "id": "doctrine_14",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.subclass.veteran.sergeant.level_14"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

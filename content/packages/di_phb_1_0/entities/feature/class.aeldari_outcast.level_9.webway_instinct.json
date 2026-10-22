@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.aeldari_outcast.level_9.webway_instinct",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Webway Instinct",
+  "summary": "You have advantage on saving throws against being surprised, lost, restrained by terrain, or trapped by mundane mechanisms.",
+  "descriptionMarkdown": "You have advantage on saving throws against being \nsurprised, lost, restrained by terrain, or trapped by \nmundane mechanisms.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.11.9",
+        "heading": "Webway Instinct",
+        "pdfPage": 80,
+        "printedPage": 67
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "You have advantage on saving throws against being \nsurprised, lost, restrained by terrain, or trapped by \nmundane mechanisms.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

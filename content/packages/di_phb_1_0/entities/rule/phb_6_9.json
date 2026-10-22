@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_6_9",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Ranged Attacks and Range",
+  "summary": "A weapon range written as two numbers, such as 80/240 ft, lists its normal range first and maximum range second. Attacks made at or within normal range are resolved normally. Attacks beyond normal range and up to maximum range are made with disadvantage. A target beyond maximum range cannot be attacked with that weapon. Area weapons that list a cone, line or radius use that listed area instead of normal range bands unless their profile says otherwise.",
+  "descriptionMarkdown": "A weapon range written as two numbers, such as 80/240 ft, lists its normal range first and maximum range second. \nAttacks made at or within normal range are resolved normally. Attacks beyond normal range and up to maximum range \nare made with disadvantage. A target beyond maximum range cannot be attacked with that weapon. Area weapons \nthat list a cone, line or radius use that listed area instead of normal range bands unless their profile says otherwise.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "6.9",
+        "heading": "Ranged Attacks and Range",
+        "pdfPage": 31,
+        "printedPage": 18
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "A weapon range written as two numbers, such as 80/240 ft, lists its normal range first and maximum range second. \nAttacks made at or within normal range are resolved normally. Attacks beyond normal range and up to maximum range \nare made with disadvantage. A target beyond maximum range cannot be attacked with that weapon. Area weapons \nthat list a cone, line or radius use that listed area instead of normal range bands unless their profile says otherwise.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

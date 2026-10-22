@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.zealot.level_3.sacred_path",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Sacred Path",
+  "summary": "Path Benefit Preacher Allies within 30 ft gain advantage on fear saves while you are conscious. Flagellant Once per round, when you take damage, your next melee attack deals +1d6 bonus damage. Purifier You gain proficiency with flamers. Once per turn, fire damage you deal ignores resistance.",
+  "descriptionMarkdown": "Path Benefit\nPreacher\nAllies within 30 ft gain advantage \non fear saves while you are \nconscious.\nFlagellant\nOnce per round, when you take \ndamage, your next melee attack \ndeals +1d6 bonus damage.\nPurifier\nYou gain proficiency with flamers. \nOnce per turn, fire damage you \ndeal ignores resistance.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.2.5",
+        "heading": "Sacred Path",
+        "pdfPage": 53,
+        "printedPage": 40
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Path Benefit\nPreacher\nAllies within 30 ft gain advantage \non fear saves while you are \nconscious.\nFlagellant\nOnce per round, when you take \ndamage, your next melee attack \ndeals +1d6 bonus damage.\nPurifier\nYou gain proficiency with flamers. \nOnce per turn, fire damage you \ndeal ignores resistance.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.aeldari_warlock.level_2.rune_ward",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Rune Ward",
+  "summary": "When you or an ally within 30 ft takes damage, use your reaction to reduce the damage by 1d8 + your psychic ability modifier. This increases Warp Pressure by 1.",
+  "descriptionMarkdown": "When you or an ally within 30 ft takes damage, use your \nreaction to reduce the damage by 1d8 + your\npsychic ability modifier. This increases Warp Pressure by \n1.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.12.3",
+        "heading": "Rune Ward",
+        "pdfPage": 83,
+        "printedPage": 70
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When you or an ally within 30 ft takes damage, use your \nreaction to reduce the damage by 1d8 + your\npsychic ability modifier. This increases Warp Pressure by \n1.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.system.armour.blast_baffles",
+  "kind": "system",
+  "name": "Blast Baffles",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Modification: Blast Baffles; Availability: Scarce; Effect: Gain advantage on Dexterity saves against Blast and Spray effects while wearing Ogryn Plate or Bullgryn Plate.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "9",
+          "heading": "Blast Baffles",
+          "pdfPage": 44,
+          "printedPage": 31
+        }
+      }
+    }
+  ]
+}

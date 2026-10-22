@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.aeldari_outcast.level_7.path_feature",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Path Feature",
+  "summary": "Outcast Path Feature Ranger Your attacks with Accurate Aeldari weapons ignore light cover. Corsair Your Shuriken Grace damage applies to pistol attacks. Outcast Path Feature Shadow Guide Allies within 10 ft of you ignore non-magical difficult terrain while travelling carefully.",
+  "descriptionMarkdown": "Outcast Path Feature\nRanger Your attacks with Accurate Aeldari \nweapons ignore light cover.\nCorsair Your Shuriken Grace damage \napplies to pistol attacks.\nOutcast Path Feature\nShadow Guide\nAllies within 10 ft of you ignore \nnon-magical difficult terrain while \ntravelling carefully.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.11.7",
+        "heading": "Path Feature",
+        "pdfPage": 80,
+        "printedPage": 67
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Outcast Path Feature\nRanger Your attacks with Accurate Aeldari \nweapons ignore light cover.\nCorsair Your Shuriken Grace damage \napplies to pistol attacks.\nOutcast Path Feature\nShadow Guide\nAllies within 10 ft of you ignore \nnon-magical difficult terrain while \ntravelling carefully.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

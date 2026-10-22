@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_21_3",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Actions and Attacks",
+  "summary": "Action Effect Drive Hard Driver: move up to the vehicle’s Speed again. Once per vehicle per round. Until the driver’s next turn, attacks from it have disadvantage and targets have advantage on saves against its mounted area weapons. Evasive Driving Driver: declare before vehicle movement; cap that movement at half Speed. Until the driver’s next turn, attacks against the hull have disadvantage and it has advantage on Dexterity saves. Attacks from it have disadvantage; targets have advantage on...",
+  "descriptionMarkdown": "Action Effect\nDrive Hard\nDriver: move up to the vehicle’s Speed again. Once per vehicle per round. Until the driver’s next \nturn, attacks from it have disadvantage and targets have advantage on saves against its mounted \narea weapons.\nEvasive Driving\nDriver: declare before vehicle movement; cap that movement at half Speed. Until the driver’s next \nturn, attacks against the hull have disadvantage and it has advantage on Dexterity saves. Attacks \nfrom it have disadvantage; targets have advantage on saves against its mounted area weapons. \nCannot combine with Drive Hard.\nFire a Mount At its station, make one mounted attack or use one mounted area weapon. Extra Attack does not \nadd shots. Each mount can fire only once per round, including reactions.\nReload a Mount At its station or loader position, reload one mount. Each mount can be reloaded only once per \nround.\nSpot or Assist Use Help to give one ally advantage on their next driving check or mounted attack before your next \nturn. A useful view, communication and plausible assistance are required.\nDamage Control At the affected system: action and DC 13 Intelligence (Technology) check to clear one weapon \njam, engine stall or vehicle fire. Restores no HP.\nOne action cannot both drive and fire. A one-crew vehicle can move normally and fire using its driver’s action, but \ncannot Drive Hard and fire that turn. Readying a mount uses Ready and a reaction; its once-per-round limit still applies. \nAn explicitly granted additional action may fire a different mount that the operator can access.\nMounted attack = d20 + Dexterity modifier + proficiency if proficient in Vehicles or that weapon. Add Dexterity to \ndamage once on a hit. Mounted save DC = 8 + Dexterity modifier + proficiency if trained. Area weapons add no ability \nmodifier to damage. A mount removes normal Heavy and Emplaced movement restrictions; other properties still apply. \nPersonal-weapon-only features do not automatically apply to mounts.\nTurret mounts fire in any direction; forward mounts fire in a 90-degree arc centred on the hull’s front. Terrain and the \nhull still block line of fire. Vehicle movement counts as occupant movement for Accurate and other “did not move” \nbenefits. Personal weapons retain their normal rules, including Extra Attack; they do not use Fire a Mount.\nClosed compartments provide Full Cover from outside attacks and effects that cannot pass through the hull. Open-\ntopped vehicles and exposed riders provide Light Cover where the hull blocks the line of fire. Using a hatch or firing \nport exposes that occupant with Heavy Cover until their next turn. One occupant uses each firing port per round. Target \na visible occupant using their own AC. Hull hits do not also hit the crew.\nArea effects resolve separately against the hull and exposed occupants in the area. Full Cover protects enclosed \noccupants unless an effect penetrates it. Vehicle Strength saves use +2 for Large, +4 for Huge or +6 for Gargantuan; \nConstitution saves use +4. Dexterity saves use the driver’s Dexterity (Vehicles) modifier + Handling. An uncontrolled or \nimmobilised vehicle automatically fails Dexterity saves.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "21.3",
+        "heading": "Actions and Attacks",
+        "pdfPage": 115,
+        "printedPage": 102
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Action Effect\nDrive Hard\nDriver: move up to the vehicle’s Speed again. Once per vehicle per round. Until the driver’s next \nturn, attacks from it have disadvantage and targets have advantage on saves against its mounted \narea weapons.\nEvasive Driving\nDriver: declare before vehicle movement; cap that movement at half Speed. Until the driver’s next \nturn, attacks against the hull have disadvantage and it has advantage on Dexterity saves. Attacks \nfrom it have disadvantage; targets have advantage on saves against its mounted area weapons. \nCannot combine with Drive Hard.\nFire a Mount At its station, make one mounted attack or use one mounted area weapon. Extra Attack does not \nadd shots. Each mount can fire only once per round, including reactions.\nReload a Mount At its station or loader position, reload one mount. Each mount can be reloaded only once per \nround.\nSpot or Assist Use Help to give one ally advantage on their next driving check or mounted attack before your next \nturn. A useful view, communication and plausible assistance are required.\nDamage Control At the affected system: action and DC 13 Intelligence (Technology) check to clear one weapon \njam, engine stall or vehicle fire. Restores no HP.\nOne action cannot both drive and fire. A one-crew vehicle can move normally and fire using its driver’s action, but \ncannot Drive Hard and fire that turn. Readying a mount uses Ready and a reaction; its once-per-round limit still applies. \nAn explicitly granted additional action may fire a different mount that the operator can access.\nMounted attack = d20 + Dexterity modifier + proficiency if proficient in Vehicles or that weapon. Add Dexterity to \ndamage once on a hit. Mounted save DC = 8 + Dexterity modifier + proficiency if trained. Area weapons add no ability \nmodifier to damage. A mount removes normal Heavy and Emplaced movement restrictions; other properties still apply. \nPersonal-weapon-only features do not automatically apply to mounts.\nTurret mounts fire in any direction; forward mounts fire in a 90-degree arc centred on the hull’s front. Terrain and the \nhull still block line of fire. Vehicle movement counts as occupant movement for Accurate and other “did not move” \nbenefits. Personal weapons retain their normal rules, including Extra Attack; they do not use Fire a Mount.\nClosed compartments provide Full Cover from outside attacks and effects that cannot pass through the hull. Open-\ntopped vehicles and exposed riders provide Light Cover where the hull blocks the line of fire. Using a hatch or firing \nport exposes that occupant with Heavy Cover until their next turn. One occupant uses each firing port per round. Target \na visible occupant using their own AC. Hull hits do not also hit the crew.\nArea effects resolve separately against the hull and exposed occupants in the area. Full Cover protects enclosed \noccupants unless an effect penetrates it. Vehicle Strength saves use +2 for Large, +4 for Huge or +6 for Gargantuan; \nConstitution saves use +4. Dexterity saves use the driver’s Dexterity (Vehicles) modifier + Handling. An uncontrolled or \nimmobilised vehicle automatically fails Dexterity saves.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

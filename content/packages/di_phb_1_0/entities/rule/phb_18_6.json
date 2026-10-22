@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_18_6",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Equipment by Character Tier",
+  "summary": "Tier does not hard-lock equipment. It describes what the campaign can usually support without exceptional story justification. A low-level character can carry a relic if the story gives them one; a high-level character can still be stuck with a battered lasgun after capture or disaster. Tier Levels Normal Access Typical Exceptional Reward Tier 1 1-4 Issued and Controlled gear. Scarce items appear as specialist mission assets. One Scarce item, unusual modification, or limited- use specialist a...",
+  "descriptionMarkdown": "Tier does not hard-lock equipment. It describes what the campaign can usually support without exceptional story \njustification. A low-level character can carry a relic if the story gives them one; a high-level character can still be stuck \nwith a battered lasgun after capture or disaster.\nTier Levels Normal Access Typical Exceptional Reward\nTier 1 1-4 Issued and Controlled gear. Scarce items appear \nas specialist mission assets.\nOne Scarce item, unusual modification, or limited-\nuse specialist ammunition.\nTier 2 5-10 Issued, Controlled and Scarce gear. Rare items \nbecome plausible rewards or difficult requisitions.\nA Rare weapon, advanced augmetic, field or power \nweapon, or first master-crafted item.\nTier 3 11-16\nScarce gear is routine for established warbands; \nRare equipment is attainable through strong faction \naccess.\nExceptional armoury access, advanced master-\ncrafted gear, archeotech fragments or major \nfaction-specific wargear.\nTier 4 17-20\nRare equipment can be expected around elite \noperatives. Exceptional gear remains politically and \nnarratively important.\nExceptional or Near-Unique relic access tied to \nmajor obligations, patrons or campaign events.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "18.6",
+        "heading": "Equipment by Character Tier",
+        "pdfPage": 104,
+        "printedPage": 91
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Tier does not hard-lock equipment. It describes what the campaign can usually support without exceptional story \njustification. A low-level character can carry a relic if the story gives them one; a high-level character can still be stuck \nwith a battered lasgun after capture or disaster.\nTier Levels Normal Access Typical Exceptional Reward\nTier 1 1-4 Issued and Controlled gear. Scarce items appear \nas specialist mission assets.\nOne Scarce item, unusual modification, or limited-\nuse specialist ammunition.\nTier 2 5-10 Issued, Controlled and Scarce gear. Rare items \nbecome plausible rewards or difficult requisitions.\nA Rare weapon, advanced augmetic, field or power \nweapon, or first master-crafted item.\nTier 3 11-16\nScarce gear is routine for established warbands; \nRare equipment is attainable through strong faction \naccess.\nExceptional armoury access, advanced master-\ncrafted gear, archeotech fragments or major \nfaction-specific wargear.\nTier 4 17-20\nRare equipment can be expected around elite \noperatives. Exceptional gear remains politically and \nnarratively important.\nExceptional or Near-Unique relic access tied to \nmajor obligations, patrons or campaign events.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

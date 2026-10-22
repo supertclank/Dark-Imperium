@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.cybernetic_implant",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Cybernetic Implant",
+  "summary": "Talent: Cybernetic Implant Benefit: Gain one minor augmetic upgrade.",
+  "descriptionMarkdown": "Talent: Cybernetic Implant\nBenefit: Gain one minor augmetic upgrade.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Cybernetic Implant",
+        "pdfPage": 86,
+        "printedPage": 73
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Cybernetic Implant\nBenefit: Gain one minor augmetic upgrade.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

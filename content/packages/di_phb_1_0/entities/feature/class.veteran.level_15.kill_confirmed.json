@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.veteran.level_15.kill_confirmed",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Kill Confirmed",
+  "summary": "Once per short rest, when you hit a creature with a ranged weapon attack, turn the hit into a critical hit. If the target is already bloodied, Suppressed, prone, or exposed out of cover, add an extra 2d6 damage after resolving the critical hit.",
+  "descriptionMarkdown": "Once per short rest, when you hit a creature with a \nranged weapon attack, turn the hit into a critical hit. If the \ntarget is already bloodied, Suppressed, prone, or \nexposed out of cover, add an extra 2d6 damage after \nresolving the critical hit.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.1.15",
+        "heading": "Kill Confirmed",
+        "pdfPage": 51,
+        "printedPage": 38
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per short rest, when you hit a creature with a \nranged weapon attack, turn the hit into a critical hit. If the \ntarget is already bloodied, Suppressed, prone, or \nexposed out of cover, add an extra 2d6 damage after \nresolving the critical hit.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

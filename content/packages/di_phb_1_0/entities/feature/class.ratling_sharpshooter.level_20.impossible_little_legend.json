@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.ratling_sharpshooter.level_20.impossible_little_legend",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Impossible Little Legend",
+  "summary": "Once per long rest, for 1 minute, you cannot be targeted by opportunity attacks, and the first ranged attack you make each turn from cover has advantage. If that attack hits, you may immediately Hide without using an action.",
+  "descriptionMarkdown": "Once per long rest, for 1 minute, you cannot be targeted \nby opportunity attacks, and the first\nranged attack you make each turn from cover has \nadvantage. If that attack hits, you may\nimmediately Hide without using an action.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.7.20",
+        "heading": "Impossible Little Legend",
+        "pdfPage": 69,
+        "printedPage": 56
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per long rest, for 1 minute, you cannot be targeted \nby opportunity attacks, and the first\nranged attack you make each turn from cover has \nadvantage. If that attack hits, you may\nimmediately Hide without using an action.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

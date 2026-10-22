@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.hernkyn_prospector.level_1.claim_sight",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Claim Sight",
+  "summary": "As a bonus action, mark one creature, object, route, or terrain feature within 120 ft that you can see. Until the end of your next turn, you or one ally gains +1d4 to the next check or attack involving that mark. Uses: proficiency bonus per long rest.",
+  "descriptionMarkdown": "As a bonus action, mark one creature, object, route, or \nterrain feature within 120 ft that you can see.\nUntil the end of your next turn, you or one ally gains +1d4 \nto the next check or attack involving that\nmark. Uses: proficiency bonus per long rest.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.10.2",
+        "heading": "Claim Sight",
+        "pdfPage": 77,
+        "printedPage": 64
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "As a bonus action, mark one creature, object, route, or \nterrain feature within 120 ft that you can see.\nUntil the end of your next turn, you or one ally gains +1d4 \nto the next check or attack involving that\nmark. Uses: proficiency bonus per long rest.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

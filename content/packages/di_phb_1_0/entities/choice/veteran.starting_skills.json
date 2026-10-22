@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "di.choice.veteran.starting_skills",
+  "kind": "choice",
+  "revision": 1,
+  "name": "Choose 2 skill proficiency",
+  "summary": "Choose 2 skill proficiency",
+  "descriptionMarkdown": "Choose 2 skill proficiency",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.1.1",
+        "heading": "Choose 2 skill proficiency",
+        "pdfPage": 50,
+        "printedPage": 37
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "purpose": "skill",
+    "selectionMode": "options",
+    "cardinality": {
+      "min": 2,
+      "max": 2,
+      "unique": true
+    },
+    "repeatScope": "once_per_actor",
+    "options": [
+      {
+        "id": "athletics",
+        "label": "Athletics",
+        "grants": [
+          {
+            "id": "proficiency",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.athletics"
+            }
+          }
+        ]
+      },
+      {
+        "id": "insight",
+        "label": "Insight",
+        "grants": [
+          {
+            "id": "proficiency",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.insight"
+            }
+          }
+        ]
+      },
+      {
+        "id": "intimidation",
+        "label": "Intimidation",
+        "grants": [
+          {
+            "id": "proficiency",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.intimidation"
+            }
+          }
+        ]
+      },
+      {
+        "id": "medicine",
+        "label": "Medicine",
+        "grants": [
+          {
+            "id": "proficiency",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.medicine"
+            }
+          }
+        ]
+      },
+      {
+        "id": "perception",
+        "label": "Perception",
+        "grants": [
+          {
+            "id": "proficiency",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.perception"
+            }
+          }
+        ]
+      },
+      {
+        "id": "stealth",
+        "label": "Stealth",
+        "grants": [
+          {
+            "id": "proficiency",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.stealth"
+            }
+          }
+        ]
+      },
+      {
+        "id": "survival",
+        "label": "Survival",
+        "grants": [
+          {
+            "id": "proficiency",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.survival"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.ogryn_skullbreaker.training",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Ogryn Skullbreaker training and hit die",
+  "summary": "11.4 Ogryn Skullbreaker A walking wall of muscle, loyalty, and violence. Allowed Species: Ogryn only. Hit Die: d12. Primary Abilities: Strength, Constitution. Saving Throws: Strength, Constitution. Armour: Modified heavy armour, Ogryn armour, Ogryn plate. Weapons: Ogryn weapons, simple melee weapons, heavy blunt weapons, ripper guns.",
+  "descriptionMarkdown": "11.4 Ogryn Skullbreaker\nA walking wall of muscle, loyalty, and violence.\nAllowed Species: Ogryn only.\nHit Die: d12.\nPrimary Abilities: Strength, Constitution.\nSaving Throws: Strength, Constitution.\nArmour: Modified heavy armour, Ogryn armour, Ogryn plate.\nWeapons: Ogryn weapons, simple melee weapons, heavy blunt weapons, ripper guns.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.4",
+        "heading": "Ogryn Skullbreaker training and hit die",
+        "pdfPage": 59,
+        "printedPage": 46
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "11.4 Ogryn Skullbreaker\nA walking wall of muscle, loyalty, and violence.\nAllowed Species: Ogryn only.\nHit Die: d12.\nPrimary Abilities: Strength, Constitution.\nSaving Throws: Strength, Constitution.\nArmour: Modified heavy armour, Ogryn armour, Ogryn plate.\nWeapons: Ogryn weapons, simple melee weapons, heavy blunt weapons, ripper guns.\n",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

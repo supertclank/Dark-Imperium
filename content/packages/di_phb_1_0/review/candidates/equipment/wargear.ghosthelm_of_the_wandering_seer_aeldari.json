@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.wargear.ghosthelm_of_the_wandering_seer_aeldari",
+  "kind": "equipment",
+  "name": "Ghosthelm of the Wandering Seer - Aeldari",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Relic: Ghosthelm of the Wandering Seer - Aeldari; Availability: Near-Unique; Effect: Aeldari Warlock or GM-approved Psyker. Once per long rest when Perils trigger, treat the severity result as Warp Static. After resolving it, reduce your Warp Pressure by your proficiency bonus, minimum 0.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Ghosthelm of the Wandering Seer - Aeldari",
+          "pdfPage": 108,
+          "printedPage": 95
+        }
+      }
+    }
+  ]
+}

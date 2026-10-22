@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "di.property.weapon.blast",
+  "kind": "property",
+  "revision": 1,
+  "name": "Blast",
+  "summary": "Explosive or impact burst. Nearby creatures or objects may also be affected, usually with a Dexterity save for half damage.",
+  "descriptionMarkdown": "Explosive or impact burst. Nearby creatures or objects may also be affected, usually with a Dexterity save for half damage.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "7",
+        "heading": "Blast",
+        "pdfPage": 35,
+        "printedPage": 22
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "appliesToKinds": [
+      "weapon"
+    ],
+    "parameters": [],
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Explosive or impact burst. Nearby creatures or objects may also be affected, usually with a Dexterity save for half damage.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

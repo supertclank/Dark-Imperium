@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.skitarii_veteran.level_13.redundant_systems",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Redundant Systems",
+  "summary": "When you fail a Constitution, Dexterity, or Intelligence saving throw, you may add 1d4 to the result. You can use this after seeing the roll but before the GM declares the result. Uses: proficiency bonus per long rest.",
+  "descriptionMarkdown": "When you fail a Constitution, Dexterity, or Intelligence \nsaving throw, you may add 1d4 to the result. You\ncan use this after seeing the roll but before the GM \ndeclares the result. Uses: proficiency bonus per long\nrest.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.8.13",
+        "heading": "Redundant Systems",
+        "pdfPage": 72,
+        "printedPage": 59
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When you fail a Constitution, Dexterity, or Intelligence \nsaving throw, you may add 1d4 to the result. You\ncan use this after seeing the roll but before the GM \ndeclares the result. Uses: proficiency bonus per long\nrest.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

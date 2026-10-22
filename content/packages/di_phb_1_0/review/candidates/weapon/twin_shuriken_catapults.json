@@ -1,0 +1,89 @@
+{
+  "proposedId": "di.weapon.twin_shuriken_catapults",
+  "kind": "weapon",
+  "name": "Twin shuriken catapults",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-005"
+  ],
+  "proposedData": {
+    "properties": [
+      {
+        "property": {
+          "id": "di.property.weapon.burst"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.monomolecular"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.twin_linked"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.reload"
+        },
+        "arguments": {
+          "capacity": 24
+        }
+      }
+    ],
+    "modes": [
+      {
+        "id": "base",
+        "name": "Base profile",
+        "damage": [
+          {
+            "id": "component_1",
+            "dice": {
+              "count": 1,
+              "sides": 8,
+              "bonus": 0
+            },
+            "bonus": {
+              "kind": "constant",
+              "value": 0
+            },
+            "damageType": {
+              "id": "di.damage_type.slashing"
+            }
+          }
+        ],
+        "range": {
+          "kind": "distance",
+          "normal": {
+            "value": 60,
+            "unit": "ft"
+          },
+          "long": {
+            "value": 180,
+            "unit": "ft"
+          }
+        }
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "text": "Weapon: Twin shuriken catapults; Damage: 1d8 slashing; Range: 60/180; Properties: Burst, Monomolecular, Twin-Linked; Reload 24; Availability: Scarce",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "21.11",
+          "heading": "Twin shuriken catapults",
+          "pdfPage": 121,
+          "printedPage": 108
+        }
+      }
+    }
+  ]
+}

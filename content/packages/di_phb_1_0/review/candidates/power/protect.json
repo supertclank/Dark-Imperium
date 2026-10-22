@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.protect",
+  "kind": "power",
+  "name": "Protect",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Protect; Level: Standard; Tag: Warlock, Telekinesis; Rule: Action. Range 30 ft. One ally gains +2 AC until the start of your next turn.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Protect",
+          "pdfPage": 93,
+          "printedPage": 80
+        }
+      }
+    }
+  ]
+}

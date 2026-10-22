@@ -1,0 +1,30 @@
+{
+  "proposedId": "di.subclass.arbites_enforcer.investigator",
+  "kind": "subclass",
+  "name": "Investigator",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-012"
+  ],
+  "proposedData": {
+    "parentClass": {
+      "id": "di.class.arbites_enforcer"
+    }
+  },
+  "evidence": [
+    {
+      "text": "Investigator; Gain expertise in Investigation or Insight. As a bonus action, study one creature, device, or scene you can see within 60 ft; until the end of your next turn, it counts as studied for your Investigator features. Uses: proficiency bonus per long rest.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "11.5",
+          "heading": "Investigator",
+          "pdfPage": 62,
+          "printedPage": 49
+        }
+      }
+    }
+  ]
+}

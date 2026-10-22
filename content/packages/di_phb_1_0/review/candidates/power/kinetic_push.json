@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.kinetic_push",
+  "kind": "power",
+  "name": "Kinetic Push",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Kinetic Push; Tag: Telekinesis, Universal; Rule: Action. Range 30 ft. Strength save. Failure: pushed 10 ft and takes 1d6 force damage.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Kinetic Push",
+          "pdfPage": 91,
+          "printedPage": 78
+        }
+      }
+    }
+  ]
+}

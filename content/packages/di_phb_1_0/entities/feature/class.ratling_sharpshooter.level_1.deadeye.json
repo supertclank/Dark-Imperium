@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.ratling_sharpshooter.level_1.deadeye",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Deadeye",
+  "summary": "Once per turn, when you hit with a ranged weapon attack and had advantage on the attack roll, you deal an extra +1d6 damage. This increases to +2d6 at level 5 and +3d6 at level 11.",
+  "descriptionMarkdown": "Once per turn, when you hit with a ranged weapon attack \nand had advantage on the attack roll, you deal\nan extra +1d6 damage. This increases to +2d6 at level 5 \nand +3d6 at level 11.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.7.2",
+        "heading": "Deadeye",
+        "pdfPage": 68,
+        "printedPage": 55
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per turn, when you hit with a ranged weapon attack \nand had advantage on the attack roll, you deal\nan extra +1d6 damage. This increases to +2d6 at level 5 \nand +3d6 at level 11.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

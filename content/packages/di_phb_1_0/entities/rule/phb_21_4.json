@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_21_4",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Collisions",
+  "summary": "Ram: the driver spends an action, moves at least 20 ft straight using available vehicle movement, and chooses a target in the path. It makes a Dexterity save against 8 + the driver’s Dexterity modifier + Vehicles proficiency, if trained. Damage is 4d6 bludgeoning for a Large rammer, 6d6 for Huge or 8d6 for Gargantuan. A creature takes half on a successful save and moves to the nearest safe space. A vehicle that succeeds avoids the ram if it has a clear path; otherwise it fails. Fixed obstacle...",
+  "descriptionMarkdown": "Ram: the driver spends an action, moves at least 20 ft straight using available vehicle movement, and chooses a target \nin the path. It makes a Dexterity save against 8 + the driver’s Dexterity modifier + Vehicles proficiency, if trained. \nDamage is 4d6 bludgeoning for a Large rammer, 6d6 for Huge or 8d6 for Gargantuan. A creature takes half on a \nsuccessful save and moves to the nearest safe space. A vehicle that succeeds avoids the ram if it has a clear path; \notherwise it fails. Fixed obstacles automatically fail.\nOn contact the rammer stops. A struck vehicle or solid obstacle deals half the rolled damage back to it. An accidental \ncollision deals the full size-based damage to the moving vehicle and obstacle. Apply DT normally. A vehicle can ram \nonce per round and cannot also Drive Hard. Hull damage harms occupants only if it causes a wreck.\nDamage and Breakdowns",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "21.4",
+        "heading": "Collisions",
+        "pdfPage": 115,
+        "printedPage": 102
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Ram: the driver spends an action, moves at least 20 ft straight using available vehicle movement, and chooses a target \nin the path. It makes a Dexterity save against 8 + the driver’s Dexterity modifier + Vehicles proficiency, if trained. \nDamage is 4d6 bludgeoning for a Large rammer, 6d6 for Huge or 8d6 for Gargantuan. A creature takes half on a \nsuccessful save and moves to the nearest safe space. A vehicle that succeeds avoids the ram if it has a clear path; \notherwise it fails. Fixed obstacles automatically fail.\nOn contact the rammer stops. A struck vehicle or solid obstacle deals half the rolled damage back to it. An accidental \ncollision deals the full size-based damage to the moving vehicle and obstacle. Apply DT normally. A vehicle can ram \nonce per round and cannot also Drive Hard. Hull damage harms occupants only if it causes a wreck.\nDamage and Breakdowns",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

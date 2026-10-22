@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.rapid_reload",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Rapid Reload",
+  "summary": "Talent: Rapid Reload Benefit: Reload basic weapons as a bonus action instead of an action.",
+  "descriptionMarkdown": "Talent: Rapid Reload\nBenefit: Reload basic weapons as a bonus action instead of an action.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Rapid Reload",
+        "pdfPage": 86,
+        "printedPage": 73
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Rapid Reload\nBenefit: Reload basic weapons as a bonus action instead of an action.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

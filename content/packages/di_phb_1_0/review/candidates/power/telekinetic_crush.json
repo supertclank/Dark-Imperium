@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.telekinetic_crush",
+  "kind": "power",
+  "name": "Telekinetic Crush",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Telekinetic Crush; Tag: Telekinesis; Rule: Action. Range 60 ft. Strength save. Failure: 4d8 force damage and restrained until the end of the next turn; success: half and not restrained.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Telekinetic Crush",
+          "pdfPage": 93,
+          "printedPage": 80
+        }
+      }
+    }
+  ]
+}

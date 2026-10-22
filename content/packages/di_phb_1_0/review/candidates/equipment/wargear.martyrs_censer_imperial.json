@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.wargear.martyrs_censer_imperial",
+  "kind": "equipment",
+  "name": "Martyr's Censer - Imperial",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Relic: Martyr's Censer - Imperial; Availability: Exceptional; Effect: Once per long rest as an action, for 1 minute, allies within 15 ft have advantage on fear and Corruption saves. Daemons and explicitly corrupted creatures that start their turn in the aura take radiant damage equal to your proficiency bonus.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Martyr's Censer - Imperial",
+          "pdfPage": 107,
+          "printedPage": 94
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.arbites_enforcer.level_6.lockdown_order",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Lockdown Order",
+  "summary": "As an action, choose a 15-ft area you can see within 60 ft. Hostile creatures in that area must make a Wisdom save against your Authority DC. On a failure, they cannot take reactions and their speed is halved until the start of your next turn.",
+  "descriptionMarkdown": "As an action, choose a 15-ft area you can see within 60 \nft. Hostile creatures in that area must make a\nWisdom save against your Authority DC. On a failure, \nthey cannot take reactions and their speed is\nhalved until the start of your next turn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.5.6",
+        "heading": "Lockdown Order",
+        "pdfPage": 62,
+        "printedPage": 49
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "As an action, choose a 15-ft area you can see within 60 \nft. Hostile creatures in that area must make a\nWisdom save against your Authority DC. On a failure, \nthey cannot take reactions and their speed is\nhalved until the start of your next turn.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

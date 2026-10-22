@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.shield.slab_shield",
+  "kind": "shield",
+  "name": "Slab Shield",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-007"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "AC: +2 AC; Ogryn only; speed reduced by 5 ft while carried.; Availability: Controlled",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "9",
+          "heading": "Slab Shield",
+          "pdfPage": 42,
+          "printedPage": 29
+        }
+      }
+    }
+  ]
+}

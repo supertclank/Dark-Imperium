@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.condition.blinded",
+  "kind": "condition",
+  "name": "Blinded",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-013"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Condition / State: Blinded; Effect: You cannot see and automatically fail checks that require sight. Your attacks have disadvantage; attacks against you have advantage.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "6",
+          "heading": "Blinded",
+          "pdfPage": 32,
+          "printedPage": 19
+        }
+      }
+    }
+  ]
+}

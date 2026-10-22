@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.wargear.the_first_oathstone",
+  "kind": "equipment",
+  "name": "The First Oathstone",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Unique Item: The First Oathstone; Availability: Unique; Effect and Burden: Kin relic. Once per long rest, when a creature harms you or an ally within 30 ft, name it oath-bound for 1 minute. Once each round when an ally hits that creature, that ally adds your proficiency bonus to the damage. Burden: abandoning the oath has serious cultural consequences.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "The First Oathstone",
+          "pdfPage": 108,
+          "printedPage": 95
+        }
+      }
+    }
+  ]
+}

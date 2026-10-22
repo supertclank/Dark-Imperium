@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "di.background.hiveborn",
+  "kind": "background",
+  "revision": 1,
+  "name": "Hiveborn",
+  "summary": "4.1 Hiveborn Raised in the brutal density of a hive city. Allowed Species: Human, Ratling, rare Ogryn. Skill Proficiency: Choose one from Deception, Insight, Intimidation, Sleight of Hand, or Stealth. Crowd Rat: You ignore difficult terrain caused by crowds, rubble, cramped spaces, pipes, gantries, and dense urban clutter. Seen Worse: You have advantage on saving throws against fear caused by gore, violence, intimidation, or battlefield horror.",
+  "descriptionMarkdown": "4.1 Hiveborn\nRaised in the brutal density of a hive city.\nAllowed Species: Human, Ratling, rare Ogryn.\nSkill Proficiency: Choose one from Deception, Insight, \nIntimidation, Sleight of Hand, or Stealth.\nCrowd Rat: You ignore difficult terrain caused by \ncrowds, rubble, cramped spaces, pipes, gantries, and\ndense urban clutter.\nSeen Worse: You have advantage on saving throws \nagainst fear caused by gore, violence, intimidation,\nor battlefield horror.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "4.1",
+        "heading": "Hiveborn",
+        "pdfPage": 26,
+        "printedPage": 13
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "features": [
+      {
+        "id": "di.feature.origin.hiveborn"
+      }
+    ],
+    "choices": [
+      {
+        "id": "di.choice.hiveborn.skills"
+      }
+    ]
+  }
+}

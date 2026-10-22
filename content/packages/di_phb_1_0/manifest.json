@@ -1,0 +1,3622 @@
+{
+  "schemaVersion": 1,
+  "packageId": "di_phb",
+  "packageVersion": "1.0-intake.1",
+  "lifecycle": "draft",
+  "dependencies": [],
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a"
+    }
+  ],
+  "requiredCapabilities": [],
+  "publicationBlocked": true,
+  "publicationBlockers": [
+    "PHB-002",
+    "PHB-003",
+    "PHB-011"
+  ],
+  "entities": [
+    {
+      "id": "di.action.lasgun.base_damage",
+      "revision": 1,
+      "path": "entities/action/lasgun.base_damage.json",
+      "sha256": "3eb9f4985759c9ad2775ecff4a24bfdd42e5b7745198c3b0c6e9b10fecb8d7a9"
+    },
+    {
+      "id": "di.action.warp_spark.base_damage",
+      "revision": 1,
+      "path": "entities/action/warp_spark.base_damage.json",
+      "sha256": "eeed2786716d5a785b1f7917c65da8dab768f2b1a4a667604e9840a95179dab0"
+    },
+    {
+      "id": "di.armour.ogryn_leathers",
+      "revision": 1,
+      "path": "entities/armour/ogryn_leathers.json",
+      "sha256": "d3aed68575e58ff0926038bd3d2e2a29104935a18a959875963c4d339d37207f"
+    },
+    {
+      "id": "di.background.craftworld_outcast",
+      "revision": 1,
+      "path": "entities/background/craftworld_outcast.json",
+      "sha256": "e932084df72a8ab74df871a5ed132f85c47f9004cdce836f5b90ef91e7fd0751"
+    },
+    {
+      "id": "di.background.forge_world",
+      "revision": 1,
+      "path": "entities/background/forge_world.json",
+      "sha256": "e9b6e609f7c5d1d79dd48f8ab38a41bee0dbcae375c90b01262d45ae5c2a0fc5"
+    },
+    {
+      "id": "di.background.hiveborn",
+      "revision": 1,
+      "path": "entities/background/hiveborn.json",
+      "sha256": "4d0f78d8ec7f77c35918504a043725eadc188f7a252a37a620dc1ebdcc68d535"
+    },
+    {
+      "id": "di.background.militarum_regiment",
+      "revision": 1,
+      "path": "entities/background/militarum_regiment.json",
+      "sha256": "9240c5a83a4eea1e2640966c675b316517d194f55b8eab5f08e81378e187fc61"
+    },
+    {
+      "id": "di.background.mining_hold_guild",
+      "revision": 1,
+      "path": "entities/background/mining_hold_guild.json",
+      "sha256": "4e94816a6b45c10c5e9cefcf9756099c7b3d63630bba7c4f886165c20e73d26f"
+    },
+    {
+      "id": "di.background.penal_worlder",
+      "revision": 1,
+      "path": "entities/background/penal_worlder.json",
+      "sha256": "556ab844534a4e3dbc17baa430874276cc74e2566da4b76ae298c859750eb091"
+    },
+    {
+      "id": "di.background.schola_progenium",
+      "revision": 1,
+      "path": "entities/background/schola_progenium.json",
+      "sha256": "c661d56402cc03b947351a20cf090cbe4cffbbb7a45ba6b522649c04f73934cf"
+    },
+    {
+      "id": "di.background.shrine_worlder",
+      "revision": 1,
+      "path": "entities/background/shrine_worlder.json",
+      "sha256": "c6117d47092e61ec6b796cfbe72aa5cc580061a84ac4a481a825054e3b257b72"
+    },
+    {
+      "id": "di.background.underhive",
+      "revision": 1,
+      "path": "entities/background/underhive.json",
+      "sha256": "2ae8eca0d5e83b21e3316b04cc43d47b3c82d774a07c4f73e3567a6e716981ff"
+    },
+    {
+      "id": "di.background.voidborn",
+      "revision": 1,
+      "path": "entities/background/voidborn.json",
+      "sha256": "54e958a74c628da9f7fdec8f055603e91809ed7a9221fef40c2bb25a01e4791e"
+    },
+    {
+      "id": "di.choice.aeldari.ability_scores",
+      "revision": 1,
+      "path": "entities/choice/aeldari.ability_scores.json",
+      "sha256": "ec2239097b07b9bf850636f72b7d682490849587a2c6633b00cf3d5553d1f300"
+    },
+    {
+      "id": "di.choice.craftworld_outcast.skills",
+      "revision": 1,
+      "path": "entities/choice/craftworld_outcast.skills.json",
+      "sha256": "53a54462c38c91af9409c035268c42f19e63113774992fe4e668ad54301fad14"
+    },
+    {
+      "id": "di.choice.hiveborn.skills",
+      "revision": 1,
+      "path": "entities/choice/hiveborn.skills.json",
+      "sha256": "9ec4214f7a3f05b1612902aefcafccf503b6f885c7301472c2bf120f60254a57"
+    },
+    {
+      "id": "di.choice.human.ability_scores",
+      "revision": 1,
+      "path": "entities/choice/human.ability_scores.json",
+      "sha256": "5c9dcda3b6e3a3d51c55990faa172c8ead9941af31b4eda05863a99714427f13"
+    },
+    {
+      "id": "di.choice.human.imperial_adaptability",
+      "revision": 1,
+      "path": "entities/choice/human.imperial_adaptability.json",
+      "sha256": "a37755a2fa523fd065c65abaaf0d04728796ef671658ca923055af8ac9850cc5"
+    },
+    {
+      "id": "di.choice.kin.ability_scores",
+      "revision": 1,
+      "path": "entities/choice/kin.ability_scores.json",
+      "sha256": "ff5f0b49eec72453d389cc18e1bb720a1db79a160856838f7c2f982bbe3cab6b"
+    },
+    {
+      "id": "di.choice.militarum_regiment.skills",
+      "revision": 1,
+      "path": "entities/choice/militarum_regiment.skills.json",
+      "sha256": "d508738b0e1638c01ddf2e695cacb8d765d06cadcd8f1b92e24dd1fb37d8f258"
+    },
+    {
+      "id": "di.choice.mining_hold_guild.skills",
+      "revision": 1,
+      "path": "entities/choice/mining_hold_guild.skills.json",
+      "sha256": "fcb99f73a3b8c0474ba2ab4a1a1401101a2dc297e38f73c99a21da6ddbe0cd6a"
+    },
+    {
+      "id": "di.choice.penal_worlder.skills",
+      "revision": 1,
+      "path": "entities/choice/penal_worlder.skills.json",
+      "sha256": "07b29efd20658bb516e71ed63760dcfc3ad45db1b38eb008e961a8537229a42f"
+    },
+    {
+      "id": "di.choice.schola_progenium.skills",
+      "revision": 1,
+      "path": "entities/choice/schola_progenium.skills.json",
+      "sha256": "768a66263f6d72256219308c964b25ecc0ecdf0a40d83daec17dfe33ea57da1f"
+    },
+    {
+      "id": "di.choice.schola_progenium.skills_2",
+      "revision": 1,
+      "path": "entities/choice/schola_progenium.skills_2.json",
+      "sha256": "5196b2bdd61f5256d7bb307b6c5e17e184b83e597a6266d80088668999c60fa3"
+    },
+    {
+      "id": "di.choice.shrine_worlder.skills",
+      "revision": 1,
+      "path": "entities/choice/shrine_worlder.skills.json",
+      "sha256": "1a153e2ea9ba4500abc765e99457771fbc544a2ca339eb652b3343286805cc13"
+    },
+    {
+      "id": "di.choice.skitarii.ability_scores",
+      "revision": 1,
+      "path": "entities/choice/skitarii.ability_scores.json",
+      "sha256": "99d1e4c05876abe3eb8a2223bfe3409adcea1dd368d20ccf4cc6c57de931fe6a"
+    },
+    {
+      "id": "di.choice.underhive.skills",
+      "revision": 1,
+      "path": "entities/choice/underhive.skills.json",
+      "sha256": "ac19a5e8080080279055a1994d05243581786c2352f7a21c9222e4a5bf51418b"
+    },
+    {
+      "id": "di.choice.veteran.starting_skills",
+      "revision": 1,
+      "path": "entities/choice/veteran.starting_skills.json",
+      "sha256": "73b0261c85f269a141f62da4e466e065c555075d1dcfaa23bf00b36f0d43ef9e"
+    },
+    {
+      "id": "di.choice.veteran.subclass",
+      "revision": 1,
+      "path": "entities/choice/veteran.subclass.json",
+      "sha256": "b7085ef8c5733b4f382d32834592474e10290d8d9934931e07e41509ba8f9047"
+    },
+    {
+      "id": "di.choice.voidborn.skills",
+      "revision": 1,
+      "path": "entities/choice/voidborn.skills.json",
+      "sha256": "80101e733b3b5ff722ff3896e1572869de7946eea21615efd10d7a7f4225014c"
+    },
+    {
+      "id": "di.class.aeldari_outcast",
+      "revision": 1,
+      "path": "entities/class/aeldari_outcast.json",
+      "sha256": "56ba357b8bb52c2020df9e1a6f9249cd1e71827449117aa6ec8f32725fa21cf1"
+    },
+    {
+      "id": "di.class.aeldari_warlock",
+      "revision": 1,
+      "path": "entities/class/aeldari_warlock.json",
+      "sha256": "2e0a0896ef1ce687f4583c9c5e1f60eddcf81de1a335817f54a7b8d90d502c5c"
+    },
+    {
+      "id": "di.class.arbites_enforcer",
+      "revision": 1,
+      "path": "entities/class/arbites_enforcer.json",
+      "sha256": "dea66e516f06a77bfd8be0ec443f1bf349fb8921bcbaf5b1ae6bd4258e5a48dd"
+    },
+    {
+      "id": "di.class.hernkyn_prospector",
+      "revision": 1,
+      "path": "entities/class/hernkyn_prospector.json",
+      "sha256": "82ac60f8855005d160661ed28b9f6d2b248a457c6a6aa6eb7b4b9a67baf28bda"
+    },
+    {
+      "id": "di.class.hive_scum",
+      "revision": 1,
+      "path": "entities/class/hive_scum.json",
+      "sha256": "f2dc9f40d72557905fbe49e88d5870a7f1a840c5f0aabaec6e00dedd9a83615f"
+    },
+    {
+      "id": "di.class.kin_armsman",
+      "revision": 1,
+      "path": "entities/class/kin_armsman.json",
+      "sha256": "8644ca1229dab8a1e29af5399482b75ff4f28bc67e5340c1c62b39c39ac07293"
+    },
+    {
+      "id": "di.class.ogryn_skullbreaker",
+      "revision": 1,
+      "path": "entities/class/ogryn_skullbreaker.json",
+      "sha256": "8b17b77b07842ac8871cb50d2cfe14b863db2b0424d88ca4559d002634bd6c33"
+    },
+    {
+      "id": "di.class.psyker",
+      "revision": 1,
+      "path": "entities/class/psyker.json",
+      "sha256": "382f5e014004c59dc821fdf886b557954c68c5471e93e66b39e4927051cee7b8"
+    },
+    {
+      "id": "di.class.ratling_sharpshooter",
+      "revision": 1,
+      "path": "entities/class/ratling_sharpshooter.json",
+      "sha256": "814fdfc1fc2d6a81d8c436a7f83ba1c47d072ef287f470f7b5195f93b99b3974"
+    },
+    {
+      "id": "di.class.skitarii_veteran",
+      "revision": 1,
+      "path": "entities/class/skitarii_veteran.json",
+      "sha256": "068ace932d16c260a33e921f3a589505cd0b79b390dc2d176586d900398489ec"
+    },
+    {
+      "id": "di.class.veteran",
+      "revision": 1,
+      "path": "entities/class/veteran.json",
+      "sha256": "4250c46fc7c072ad8b8cf80b58229c1bf37360a74e08579e0bfd82b337e9dfeb"
+    },
+    {
+      "id": "di.class.zealot",
+      "revision": 1,
+      "path": "entities/class/zealot.json",
+      "sha256": "1696eedd15a157c4f837a499f94ba8839f1180f9c78eda0bce00382d9b213a1e"
+    },
+    {
+      "id": "di.damage_type.bludgeoning",
+      "revision": 1,
+      "path": "entities/damage_type/bludgeoning.json",
+      "sha256": "d62eefaa9e7b83aef28605d42e9ef94253c1669be5ad94b06159caa1a06d3f70"
+    },
+    {
+      "id": "di.damage_type.fire",
+      "revision": 1,
+      "path": "entities/damage_type/fire.json",
+      "sha256": "bf2e4176171a9c8b7cb4693f0ced3dd25cc24a80028f8b27a7a3664a361cd8f7"
+    },
+    {
+      "id": "di.damage_type.force",
+      "revision": 1,
+      "path": "entities/damage_type/force.json",
+      "sha256": "df15face3e8c58f14094154d5c847259439bafc034bcb7b63a2a41a803646d67"
+    },
+    {
+      "id": "di.damage_type.lightning",
+      "revision": 1,
+      "path": "entities/damage_type/lightning.json",
+      "sha256": "e9e7db5a24a5988e3701db5ab20f2f69d9467d8f28bdc99f8d7e53271cfb9b8b"
+    },
+    {
+      "id": "di.damage_type.necrotic",
+      "revision": 1,
+      "path": "entities/damage_type/necrotic.json",
+      "sha256": "c0e4ea3ebefa022410a6761b76d766b176d2e1d3180ec8c707c591f2625bb3df"
+    },
+    {
+      "id": "di.damage_type.piercing",
+      "revision": 1,
+      "path": "entities/damage_type/piercing.json",
+      "sha256": "9e61c5a15466654afe88acee8424a6a3c1dd425094e4bc681cc9c9242980ab98"
+    },
+    {
+      "id": "di.damage_type.poison",
+      "revision": 1,
+      "path": "entities/damage_type/poison.json",
+      "sha256": "a055059b6b4f7bb7c7455df109f43a21fa07c7fb4c611ae4f268bbadc7aff29d"
+    },
+    {
+      "id": "di.damage_type.psychic",
+      "revision": 1,
+      "path": "entities/damage_type/psychic.json",
+      "sha256": "be83db76751e3f2bad4c71d9379caef310d024dc5cb6ea13260c499e47b28862"
+    },
+    {
+      "id": "di.damage_type.radiant",
+      "revision": 1,
+      "path": "entities/damage_type/radiant.json",
+      "sha256": "e2f2480fbd4a76b634c11f0002e1ea62f85ef5bee2e5407e353061f83070875b"
+    },
+    {
+      "id": "di.damage_type.radiation",
+      "revision": 1,
+      "path": "entities/damage_type/radiation.json",
+      "sha256": "cd7b22d47a53eb29f40f745a31ade58062312e03d69606485c251ee53603dc82"
+    },
+    {
+      "id": "di.damage_type.slashing",
+      "revision": 1,
+      "path": "entities/damage_type/slashing.json",
+      "sha256": "9b7b74e1af0c4bc3a177eb389178385c6df9dbb8237dcdc1d245ae7c6792b79f"
+    },
+    {
+      "id": "di.damage_type.thunder",
+      "revision": 1,
+      "path": "entities/damage_type/thunder.json",
+      "sha256": "bf0ddef4c54b769abd6d082979e84a60ff20172a3126ddea5f598efc9eacc430"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_1.ranger_training",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_outcast.level_1.ranger_training.json",
+      "sha256": "2d4aff41ee85ba8c507697292154c196ea5c12290a376d1462e429721ce6ef7f"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_1.shuriken_grace",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_outcast.level_1.shuriken_grace.json",
+      "sha256": "6d423a7c19b7a608863291e02052f0f9058b672509951068561232a9e167503d"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_10.death_from_elsewhere",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_outcast.level_10.death_from_elsewhere.json",
+      "sha256": "145b84a3d94ebc1daa37f06b7f16d4ba99ea2da13236094b77422c9f58146dc8"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_11.perfect_motion",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_outcast.level_11.perfect_motion.json",
+      "sha256": "08cdcd736059ecc866e36281d74469584f3f6fd6e32195a0ccdc30a7c6e14cb4"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_12.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_outcast.level_12.ability_score_improvement_talent.json",
+      "sha256": "6f7fe8fd0d228870a73e2efdfaad6171f0248a563a983887ec7f2a1cb57715cf"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_13.vanish_beyond_sight",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_outcast.level_13.vanish_beyond_sight.json",
+      "sha256": "515a4fa6a01b3a51b54767107054b605118d3838c8a584807b90eb39e1c5020f"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_14.path_feature",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_outcast.level_14.path_feature.json",
+      "sha256": "88b0f388e278c60a185306d174f6d8b418e7b973e93325c4dd2897bfb3cd763a"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_15.mythic_outcast",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_outcast.level_15.mythic_outcast.json",
+      "sha256": "8657388f7263f53f949366bf0725f96f96a5f0c7bd1e891babeac9e763e2d73d"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_16.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_outcast.level_16.ability_score_improvement_talent.json",
+      "sha256": "bd3ffc7d7b59ed9dbcccaaa261e449ebf0830debe88d51752e80d2bf2315f89c"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_17.pathless_perfection",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_outcast.level_17.pathless_perfection.json",
+      "sha256": "e17bb8549f6f4beada5a7ef94a169b3b21879c9e2c78779f494fdd6d50bc7490"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_18.path_feature",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_outcast.level_18.path_feature.json",
+      "sha256": "586282ce420f80990dd0896155ae66a841f3adbe73b05ffc993fd072fe3ae2a3"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_19.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_outcast.level_19.ability_score_improvement_talent.json",
+      "sha256": "635a07a7b74109335a3bb53c6b874657a136a86631ef5f10d6dd01a5e57db7d7"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_2.ghostwalk",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_outcast.level_2.ghostwalk.json",
+      "sha256": "41101e1a9b8804b91a948941574e9e5a6f76453006a20e77faa0abf0a309287f"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_20.legend_of_the_wandering_path",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_outcast.level_20.legend_of_the_wandering_path.json",
+      "sha256": "a3563f1cc18bf78b0a9871c2f55e57e3121c06eef888f8941f65b779962b6d31"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_3.outcast_path",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_outcast.level_3.outcast_path.json",
+      "sha256": "eb493308db1acecceed2a6e415dfae4cea8fcbaf89d2570bbdb7df5eeff2d7c6"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_4.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_outcast.level_4.ability_score_improvement_talent.json",
+      "sha256": "55b48b679a6a44a7d548ba8fb34ec4735e1840bfc27a3584f9b7cdf385969586"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_5.extra_attack",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_outcast.level_5.extra_attack.json",
+      "sha256": "2748fa207d0c5dd2b96f53d899aefd62fb2d1893bfba9100d4f37e27f1e1dccb"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_6.unseen_shot",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_outcast.level_6.unseen_shot.json",
+      "sha256": "f322865ce6a207502e98d73ea81252c9c930c8afd7d09f736a4be47d613f26fb"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_7.path_feature",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_outcast.level_7.path_feature.json",
+      "sha256": "d6cd3a63639692031dcd900ca7af5f50f8ea1724d86f9e4ae37ecffd268cf2be"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_8.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_outcast.level_8.ability_score_improvement_talent.json",
+      "sha256": "955f0b73bca9a1352bfb0df045eefb68c9b1db2e42ac0776b68e683f1b98d5ce"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_9.webway_instinct",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_outcast.level_9.webway_instinct.json",
+      "sha256": "9d93d407b026a150c132c1eee4d86cebb920ce726d34f94b7221ffde194ac5be"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.training",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_outcast.training.json",
+      "sha256": "8f43ba149fefa2447194ebcf29c0cfd03499fa436bf779f896f42ea064879929"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_1.runes_of_battle",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_warlock.level_1.runes_of_battle.json",
+      "sha256": "3c2c249340a03a713dc524b41ed6fb8ad02f13190154a3fab754b713f41e3c10"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_1.witchblade_training",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_warlock.level_1.witchblade_training.json",
+      "sha256": "dbb33b0f1fe87580833fdff6eb637f78bfdaf1d63fe9380feadf6d63cba160e7"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_10.war_rune_mastery",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_warlock.level_10.war_rune_mastery.json",
+      "sha256": "e81d1002fb5b034a7e2a075eb4a2ebe65f0fa002ead043f845dbbdbbac644d5b"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_11.major_rune_access",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_warlock.level_11.major_rune_access.json",
+      "sha256": "f3c89875e521238e644cde774e7e0936705926a43957dd65c3a4546c2e795491"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_12.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_warlock.level_12.ability_score_improvement_talent.json",
+      "sha256": "bcedba770251dedc9b07f53a6b2ea5a9d6f8f4d01f5c571083729980aa8e69cb"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_13.fate_splitter",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_warlock.level_13.fate_splitter.json",
+      "sha256": "2478a644cdb38512447b80c54e46f59c3ba0441dfc4956817f2fa71fb06e04a9"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_14.path_feature",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_warlock.level_14.path_feature.json",
+      "sha256": "ee44da7e0f8a06807abed35d268e649c9c2527e1d23faebe5ae8ad31bc6ffeeb"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_15.storm_of_runes",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_warlock.level_15.storm_of_runes.json",
+      "sha256": "bd3935e12d5eac29baa4ad6fd4d5b3b90d52b1cb9d87e77f622ad3fcf64e8214"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_16.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_warlock.level_16.ability_score_improvement_talent.json",
+      "sha256": "a9765f63e876226a3cbf64e39d238d20b52f03a5e5b5e722540f95a4fe891ca5"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_17.spirit_rune_focus",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_warlock.level_17.spirit_rune_focus.json",
+      "sha256": "ca8979727a73470272c8bbdc4397d4412c07bb217c0f0256fdfecadcc813ed6f"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_18.path_feature",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_warlock.level_18.path_feature.json",
+      "sha256": "71f955ec46d6e627c8fa3e424bfa7767dd827bbf7679afe0c73de4f5cdc59c80"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_19.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_warlock.level_19.ability_score_improvement_talent.json",
+      "sha256": "4565322762069544ada30a667d742d13e83f40aa645a968d9c40c74e2ca6cb80"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_2.rune_ward",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_warlock.level_2.rune_ward.json",
+      "sha256": "77084e8772d506bb6aad0d34d30caf3a59327d463e547446e2414d91f83c330f"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_20.farseers_echo",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_warlock.level_20.farseers_echo.json",
+      "sha256": "5d5be7c7b18eba445e30a4c49ef30d233c60a089364df278b51f51ba25abc7e2"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_3.warlock_path",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_warlock.level_3.warlock_path.json",
+      "sha256": "d45857e3ac62dc9252b912881fd2a39dd4e4c5ae24f8054c409c4e8523a26282"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_4.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_warlock.level_4.ability_score_improvement_talent.json",
+      "sha256": "f042669fd5982a88745b816bcf2211a214a649b84492626096a2c93aef9468e7"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_5.empowered_rune",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_warlock.level_5.empowered_rune.json",
+      "sha256": "e28f2553080952e7c688aad523ba27606d1c1ba1e00f108dc326d2a3547f5665"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_6.battle_seer",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_warlock.level_6.battle_seer.json",
+      "sha256": "f3feeef48f015569a19104e4f2f9a37249cd052607d9222300096e49d0144b56"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_7.path_feature",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_warlock.level_7.path_feature.json",
+      "sha256": "31b25d5810ca4eca66c8c4fef025a9f868b9092f7c619d084195205a796a9bc4"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_8.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_warlock.level_8.ability_score_improvement_talent.json",
+      "sha256": "33b493531da1e6795263b773e2888a10a9aa325db0f9ffa12e5e0893e9a75d28"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_9.ghosthelm_discipline",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_warlock.level_9.ghosthelm_discipline.json",
+      "sha256": "755100d063be5e5f2de89bac8a2a96d0de8ab04e8bdfbc18cf10f6fcb4581da5"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.training",
+      "revision": 1,
+      "path": "entities/feature/class.aeldari_warlock.training.json",
+      "sha256": "58dd53fce0041d82aae45c85091b25b3748828b7016020b021e3710197c4d2fd"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_1.authority",
+      "revision": 1,
+      "path": "entities/feature/class.arbites_enforcer.level_1.authority.json",
+      "sha256": "03659d460d3914a875e53a98c4d62c67431870efbe7b44fffb98542090986f11"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_1.enforcer_training",
+      "revision": 1,
+      "path": "entities/feature/class.arbites_enforcer.level_1.enforcer_training.json",
+      "sha256": "738db6cea47e2bdf156e6e138397ee64f46af6df5007fecc45e7d509bad61cde"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_10.judgement_protocol",
+      "revision": 1,
+      "path": "entities/feature/class.arbites_enforcer.level_10.judgement_protocol.json",
+      "sha256": "9decc12fe42cdeff9b2674d718f218c670a67ab51a2227a23b0d31dd0bd182de"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_11.riot_control",
+      "revision": 1,
+      "path": "entities/feature/class.arbites_enforcer.level_11.riot_control.json",
+      "sha256": "fd81693faf572c94e89a89b2bb1aa7140fdc3a07a82c333b94c61a0c44d76eca"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_12.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.arbites_enforcer.level_12.ability_score_improvement_talent.json",
+      "sha256": "31a8049e889c4a6dad3e1d833d6e153f9946847fc4da0440faef6f9c028d06ee"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_13.legal_terror",
+      "revision": 1,
+      "path": "entities/feature/class.arbites_enforcer.level_13.legal_terror.json",
+      "sha256": "bfe1786f3a232dd59110753853af6f07c79b8c91569578c303879347cb6b57d4"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_14.doctrine_feature",
+      "revision": 1,
+      "path": "entities/feature/class.arbites_enforcer.level_14.doctrine_feature.json",
+      "sha256": "7331afc0a9951ec633f385ad1fde657673b10a0b6efbf701cc9f16a8b63f818c"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_15.sentence_executed",
+      "revision": 1,
+      "path": "entities/feature/class.arbites_enforcer.level_15.sentence_executed.json",
+      "sha256": "a4ba0d8639b0c76a0ce67657c6ad03cf9fc0917739dae09910cde0238f0cc9e8"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_16.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.arbites_enforcer.level_16.ability_score_improvement_talent.json",
+      "sha256": "6b4d2395184f1ad2a87028871df53ae45f34bb2a8c7b8cd83a45d98b7404e94e"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_17.absolute_jurisdiction",
+      "revision": 1,
+      "path": "entities/feature/class.arbites_enforcer.level_17.absolute_jurisdiction.json",
+      "sha256": "2ff07d3f9a6d83fda14fe71784178b110ebfef245d040de1250aa0502cd251c4"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_18.doctrine_feature",
+      "revision": 1,
+      "path": "entities/feature/class.arbites_enforcer.level_18.doctrine_feature.json",
+      "sha256": "20935e810a48d33833ceee3bb17e843349b2c199496557f82bb07dd2d4799f71"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_19.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.arbites_enforcer.level_19.ability_score_improvement_talent.json",
+      "sha256": "1293f3624f670d8a02f86fa8e97370ade7781082e5c14363fce190e81be0e0d0"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_2.breach_and_clear",
+      "revision": 1,
+      "path": "entities/feature/class.arbites_enforcer.level_2.breach_and_clear.json",
+      "sha256": "7bbdef3aca5d7b9739e79807fc7482b3bd6c46c18957fceaab3ca7fc390d2c97"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_20.final_sentence",
+      "revision": 1,
+      "path": "entities/feature/class.arbites_enforcer.level_20.final_sentence.json",
+      "sha256": "1b740b35387e71058ab306e5b38d67997d68bd1991b9ad2161d1fa3b9e300d63"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_3.enforcement_doctrine",
+      "revision": 1,
+      "path": "entities/feature/class.arbites_enforcer.level_3.enforcement_doctrine.json",
+      "sha256": "682335dea785304303efcd064dbeb44ac4991a74169608975fb314762ea4e3e5"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_4.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.arbites_enforcer.level_4.ability_score_improvement_talent.json",
+      "sha256": "fa57d37fdd3275c12d4dada62880b9889fedbdef66333963a4637b7ed4ecce7e"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_5.extra_attack",
+      "revision": 1,
+      "path": "entities/feature/class.arbites_enforcer.level_5.extra_attack.json",
+      "sha256": "423e1d6dedd7610f149f65647308e210b893a1de2a9217b04f639e238357b719"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_6.lockdown_order",
+      "revision": 1,
+      "path": "entities/feature/class.arbites_enforcer.level_6.lockdown_order.json",
+      "sha256": "aa92cad4a9e9a8b7edb3c9a0b396714f29a036dcb1d3e75b923e468859d2f68e"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_7.doctrine_feature",
+      "revision": 1,
+      "path": "entities/feature/class.arbites_enforcer.level_7.doctrine_feature.json",
+      "sha256": "e1418ec2f3d1c9c3e696b3e0eedf242a467fb9e54b6751b109d175904b2523d0"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_8.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.arbites_enforcer.level_8.ability_score_improvement_talent.json",
+      "sha256": "ae9cba2a079e2b561a61e8b1f9a01826ef4a2899c6ee04f8b50caf9f5fffc67f"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_9.no_escape",
+      "revision": 1,
+      "path": "entities/feature/class.arbites_enforcer.level_9.no_escape.json",
+      "sha256": "dbf5bbca777493e75935ab9909ad89108250d0972221df97d7b25cb0f8396164"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.training",
+      "revision": 1,
+      "path": "entities/feature/class.arbites_enforcer.training.json",
+      "sha256": "ba73fa4a6fd6479ee2a68bf576e1be6e3b8ab341126f3bbc6ecf7a45433c332b"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_1.claim_sight",
+      "revision": 1,
+      "path": "entities/feature/class.hernkyn_prospector.level_1.claim_sight.json",
+      "sha256": "56c9d1a394a38a172263cec63d6a934537498471cb148674f93bfb4b6b2e1e8c"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_1.prospector_training",
+      "revision": 1,
+      "path": "entities/feature/class.hernkyn_prospector.level_1.prospector_training.json",
+      "sha256": "e7f34c081040e8ad4e7487c10523c1e53124b707549a8476dd1008e67ef50c3a"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_10.perfect_claim",
+      "revision": 1,
+      "path": "entities/feature/class.hernkyn_prospector.level_10.perfect_claim.json",
+      "sha256": "e4b853e67445c0fbd601f81565d24a10f541b2dbb58b79cd8ab1c9dc21054ad2"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_11.deep_scan",
+      "revision": 1,
+      "path": "entities/feature/class.hernkyn_prospector.level_11.deep_scan.json",
+      "sha256": "f4fe067297ca4f78010765e742568d14bc717b8c2326cbfff52bc29bf252d530"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_12.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.hernkyn_prospector.level_12.ability_score_improvement_talent.json",
+      "sha256": "e28accf847266e0e22a81d34a16ba17088083833b3b2e041b3c31dcba312a0fc"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_13.no_stone_unturned",
+      "revision": 1,
+      "path": "entities/feature/class.hernkyn_prospector.level_13.no_stone_unturned.json",
+      "sha256": "65af75804261e76df456ccb9df16548115bef38a304f75600ece4b65a2143d59"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_14.expedition_feature",
+      "revision": 1,
+      "path": "entities/feature/class.hernkyn_prospector.level_14.expedition_feature.json",
+      "sha256": "546caaf2a4e935b0bde8a59158e0568cf1cad9ea6dacd36e0eddf8faa20480ba"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_15.master_prospector",
+      "revision": 1,
+      "path": "entities/feature/class.hernkyn_prospector.level_15.master_prospector.json",
+      "sha256": "902cefd9cae6729022d5c28d44bafc9b0962c2c827fca4d1c705a9320c94cfb6"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_16.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.hernkyn_prospector.level_16.ability_score_improvement_talent.json",
+      "sha256": "eb957078da93ff079ec72c55d0d08f3530c03e628882212bdcb7846ac403f10d"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_17.legendary_claim_staker",
+      "revision": 1,
+      "path": "entities/feature/class.hernkyn_prospector.level_17.legendary_claim_staker.json",
+      "sha256": "cec8307fe3f2d35c231ff475e5b3c883bba3c9c5ae7ff139519a5e8a5a0f1f4a"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_18.expedition_feature",
+      "revision": 1,
+      "path": "entities/feature/class.hernkyn_prospector.level_18.expedition_feature.json",
+      "sha256": "8e20afce542714460c825519666fd7dfa5b9920db1d77f78eca88c0f59b1f671"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_19.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.hernkyn_prospector.level_19.ability_score_improvement_talent.json",
+      "sha256": "43e4f70b259e092c744425361cd91ad70d55fa110b5c5981d28be29779ab99c4"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_2.surveyors_step",
+      "revision": 1,
+      "path": "entities/feature/class.hernkyn_prospector.level_2.surveyors_step.json",
+      "sha256": "0f0b5fcfd7a871c0c3b7221b0ea12a3dbc054ebe190507712145b4077bcc74e4"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_20.claim_the_horizon",
+      "revision": 1,
+      "path": "entities/feature/class.hernkyn_prospector.level_20.claim_the_horizon.json",
+      "sha256": "ca27ccf8e4fe6f67678ce4b2e8f493f5b9baf15dafdfaefc0e18876e2acf14c6"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_3.expedition_role",
+      "revision": 1,
+      "path": "entities/feature/class.hernkyn_prospector.level_3.expedition_role.json",
+      "sha256": "b090fb8819dc1055cf6b61688e2240518d612234929181ed104a929adb602757"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_4.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.hernkyn_prospector.level_4.ability_score_improvement_talent.json",
+      "sha256": "4b9ce3dbeae40a738c20fcd29a41b35c52fdf60dbf604938641ea7a5fb5cc745"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_5.extra_attack",
+      "revision": 1,
+      "path": "entities/feature/class.hernkyn_prospector.level_5.extra_attack.json",
+      "sha256": "84bd40c7d6982d924bae42576191803d1555b3edf7aad2a3eda1f116bbc932c2"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_6.mark_the_seam",
+      "revision": 1,
+      "path": "entities/feature/class.hernkyn_prospector.level_6.mark_the_seam.json",
+      "sha256": "daa8d2538f60e45016e17c008fe129dffdef7f6c885ac621afa6a88f5c3ae9b6"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_7.expedition_feature",
+      "revision": 1,
+      "path": "entities/feature/class.hernkyn_prospector.level_7.expedition_feature.json",
+      "sha256": "1732c93729ba5461b354d4aed66c4c7a08c76fdf00fb86d59b53764a4bea5304"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_8.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.hernkyn_prospector.level_8.ability_score_improvement_talent.json",
+      "sha256": "b8c40ff39e21442f999489c6bcc774f2aa3c80c04cc0591881d432de81c8eb5e"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_9.outriders_escape",
+      "revision": 1,
+      "path": "entities/feature/class.hernkyn_prospector.level_9.outriders_escape.json",
+      "sha256": "6d833255a5ec67ccedcb2e05ba400409d265cfd72e9e4ffc3ae0a263caabb33b"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.training",
+      "revision": 1,
+      "path": "entities/feature/class.hernkyn_prospector.training.json",
+      "sha256": "7e0d176067510ca7b0afac38520e814856cc8ca8e6a7efe245124f1f58859889"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_1.dirty_fighter",
+      "revision": 1,
+      "path": "entities/feature/class.hive_scum.level_1.dirty_fighter.json",
+      "sha256": "858777037ec4cb7e3c5acbcd873641ad97d611bd5b2bce9fd7cbf6b2969b590e"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_1.streetwise",
+      "revision": 1,
+      "path": "entities/feature/class.hive_scum.level_1.streetwise.json",
+      "sha256": "ca363ac1dded8fc46323d97958fdbcdb01504649b675753ab456e4de0cdb9a4c"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_10.knife_edge_survivor",
+      "revision": 1,
+      "path": "entities/feature/class.hive_scum.level_10.knife_edge_survivor.json",
+      "sha256": "06b28891aa8a25f46fa1785b673329f64e711dc9180204d9376678cb4ca1e464"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_11.backstabber_4d6",
+      "revision": 1,
+      "path": "entities/feature/class.hive_scum.level_11.backstabber_4d6.json",
+      "sha256": "7e36aba4b8bc4bd806dc4b94488eec1b2e45a08b87be11f56a96689457121a1a"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_12.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.hive_scum.level_12.ability_score_improvement_talent.json",
+      "sha256": "dc262ba33f711ca807109672cdb9c5eff299972c215a59d9c6989d9b1ff3a725"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_13.underhive_reputation",
+      "revision": 1,
+      "path": "entities/feature/class.hive_scum.level_13.underhive_reputation.json",
+      "sha256": "f1c1f293901f01e02dde656c08aaf45d62d8fdb5085c7568b02e381e90c99a61"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_14.gang_style_feature",
+      "revision": 1,
+      "path": "entities/feature/class.hive_scum.level_14.gang_style_feature.json",
+      "sha256": "3274db65065f4676ced016109691d6ae05378e52183f534fc1c6b62ca0494f0d"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_15.backstabber_5d6",
+      "revision": 1,
+      "path": "entities/feature/class.hive_scum.level_15.backstabber_5d6.json",
+      "sha256": "f6006748096ef8f41ae175ade552370809d58bb79d40c061eae5357240361f0b"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_16.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.hive_scum.level_16.ability_score_improvement_talent.json",
+      "sha256": "3e5407899d125b24f6508bca01ae8ad4274da016bb7b9c8789cb1514f1b6b65d"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_17.no_honour",
+      "revision": 1,
+      "path": "entities/feature/class.hive_scum.level_17.no_honour.json",
+      "sha256": "016e6a3a6cd00bacb67bfc4994364d553351faa1bad34d860d5c0c1959825939"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_17.no_problem",
+      "revision": 1,
+      "path": "entities/feature/class.hive_scum.level_17.no_problem.json",
+      "sha256": "608e2340c20e8b43bf8151ff52ce104044e0641333da9ac44b14b2e589be2713"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_18.backstabber_6d6",
+      "revision": 1,
+      "path": "entities/feature/class.hive_scum.level_18.backstabber_6d6.json",
+      "sha256": "d035211243667fc3ef665401b06f5e4d4a063de49524865aa44637dc9f123d59"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_19.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.hive_scum.level_19.ability_score_improvement_talent.json",
+      "sha256": "2a3dfcdec016d78ae6ea2da13157e0e036d9f239c54b2c389de2d98d4cd53d19"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_2.cunning_action",
+      "revision": 1,
+      "path": "entities/feature/class.hive_scum.level_2.cunning_action.json",
+      "sha256": "840e39b923ca8c6e79971d09cb11f94d46b82fb79daf87990341a8c7f891e10c"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_20.king_of_the_underhive",
+      "revision": 1,
+      "path": "entities/feature/class.hive_scum.level_20.king_of_the_underhive.json",
+      "sha256": "d97674a388e2395a6a76237241e90cdaf629a7d7e82a7965ec2194cba716cc8b"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_3.gang_style",
+      "revision": 1,
+      "path": "entities/feature/class.hive_scum.level_3.gang_style.json",
+      "sha256": "08e56cd16e56244f5b3c6473a4b0fee4e5ba84014ecd6e925e3bd7c5d651ef4a"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_4.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.hive_scum.level_4.ability_score_improvement_talent.json",
+      "sha256": "67edac53a4c0658fc7cf432114a12ae7af02b7bca81cd0a263dd9c6df57a3202"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_5.backstabber_3d6",
+      "revision": 1,
+      "path": "entities/feature/class.hive_scum.level_5.backstabber_3d6.json",
+      "sha256": "10b5741c6e3f34a132801bd4337bae2928d17402e6221ca9747a5ee11da13241"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_6.low_cunning",
+      "revision": 1,
+      "path": "entities/feature/class.hive_scum.level_6.low_cunning.json",
+      "sha256": "d999da753cddadf8fd0bcf95db2ed31ed5213ea1ecc75101400dc0b9d2a4bd43"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_7.gang_style_feature",
+      "revision": 1,
+      "path": "entities/feature/class.hive_scum.level_7.gang_style_feature.json",
+      "sha256": "6f715266d8311c33a5ff2337a1b456ba8bab8c918651d58d2da0d588cbf2a209"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_8.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.hive_scum.level_8.ability_score_improvement_talent.json",
+      "sha256": "04b1c1828aced83b28f1b9bdf396a8c9c5ff6f09fe51b9ca487d9c746f1336ac"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_9.vanish_into_trouble",
+      "revision": 1,
+      "path": "entities/feature/class.hive_scum.level_9.vanish_into_trouble.json",
+      "sha256": "78dd0095dc7d8dd3ea13da4b74a63b7fdcdcc1f9721055f71b8cb6e78fad54ca"
+    },
+    {
+      "id": "di.feature.class.hive_scum.training",
+      "revision": 1,
+      "path": "entities/feature/class.hive_scum.training.json",
+      "sha256": "61e1dc72b018ca6af6c45aab807951703345d1089c8e35be75e30c8fb5df66b0"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_1.kin_training",
+      "revision": 1,
+      "path": "entities/feature/class.kin_armsman.level_1.kin_training.json",
+      "sha256": "a98fdc8636a54e16c6978db3913656e70691392ea053f01bdfffd2cca7774cf0"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_1.oath_mark",
+      "revision": 1,
+      "path": "entities/feature/class.kin_armsman.level_1.oath_mark.json",
+      "sha256": "5601fe7c3183fb0e228fdbf7063c475d443bac76626767e2b5a26d7ad080c756"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_10.ancestral_wrath",
+      "revision": 1,
+      "path": "entities/feature/class.kin_armsman.level_10.ancestral_wrath.json",
+      "sha256": "8faee3367359eac32d6e9f5c37488dc68152f5cbe59e7bf91b024bd5abcf004a"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_11.kinfire_drill",
+      "revision": 1,
+      "path": "entities/feature/class.kin_armsman.level_11.kinfire_drill.json",
+      "sha256": "24a8d8eeddd2a9359bc546f9e5e4cd6c99dcdd544145a8991b8235c3991590fc"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_12.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.kin_armsman.level_12.ability_score_improvement_talent.json",
+      "sha256": "30d2fd9d8e6048fc3e9f034dad21f5aabcddaa2cdde4501f14526554345dfe65"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_13.iron_compact",
+      "revision": 1,
+      "path": "entities/feature/class.kin_armsman.level_13.iron_compact.json",
+      "sha256": "ce59a23e1b0dc13f4a232ca46baf2a9074976abeeb561306701538047f9ab99e"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_14.doctrine_feature",
+      "revision": 1,
+      "path": "entities/feature/class.kin_armsman.level_14.doctrine_feature.json",
+      "sha256": "5415ac24c51c27e0d211fe6f50ee40a3c150d072e21253fecc98ef6b0d387ca7"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_15.holdfast_champion",
+      "revision": 1,
+      "path": "entities/feature/class.kin_armsman.level_15.holdfast_champion.json",
+      "sha256": "a59fa7c41f2ec523b8a6d294a5fb92c5f9971130111b53c0c7103c6eb80916f4"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_16.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.kin_armsman.level_16.ability_score_improvement_talent.json",
+      "sha256": "5a0ceb62c0e4127ae16a963e78bd57837f04f8e8b5d1a30aef628300b5ebf23f"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_17.grudge_bound_advance",
+      "revision": 1,
+      "path": "entities/feature/class.kin_armsman.level_17.grudge_bound_advance.json",
+      "sha256": "c64423735f326aebfea1e2f4b82f3c7fb79f86df42c951c8f055a237d4300009"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_18.doctrine_feature",
+      "revision": 1,
+      "path": "entities/feature/class.kin_armsman.level_18.doctrine_feature.json",
+      "sha256": "3285e9de424dc20a9017617f3d5d71b93f62d8359a1e8f3545970e1b2358e5cc"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_19.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.kin_armsman.level_19.ability_score_improvement_talent.json",
+      "sha256": "5337f8fd3a2e61cd4ee17475956931fc125c5ea01c94cf803ecfe18ce2ff772d"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_2.steady_advance",
+      "revision": 1,
+      "path": "entities/feature/class.kin_armsman.level_2.steady_advance.json",
+      "sha256": "a22bb3867ec63988a40314b5e284a69261f4a66fe5268a2811e5856a670ba2c4"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_20.ancestor_core_champion",
+      "revision": 1,
+      "path": "entities/feature/class.kin_armsman.level_20.ancestor_core_champion.json",
+      "sha256": "991890bf66d6109f56a122797cb11f7e2d584ec75586072fc0f6416e09c5438f"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_3.hold_doctrine",
+      "revision": 1,
+      "path": "entities/feature/class.kin_armsman.level_3.hold_doctrine.json",
+      "sha256": "5e7fc0f268b4fbd6eedc689aa2e2a3c7ae5ed0b832ffe502eb6744454faab54a"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_4.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.kin_armsman.level_4.ability_score_improvement_talent.json",
+      "sha256": "8451a51ec2a108566ce380d70f12c35ad80717177eadc4108a4095d958fbc248"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_5.extra_attack",
+      "revision": 1,
+      "path": "entities/feature/class.kin_armsman.level_5.extra_attack.json",
+      "sha256": "a3bd0799707f2e9bf3504122d6df7a494ea3ce563b664aed975ae7a5869935aa"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_6.grudge_settled",
+      "revision": 1,
+      "path": "entities/feature/class.kin_armsman.level_6.grudge_settled.json",
+      "sha256": "5e7d8735c74ec4d3125065a98a2a1549b9cc7202714076d1f6e81ea74e95f517"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_7.doctrine_feature",
+      "revision": 1,
+      "path": "entities/feature/class.kin_armsman.level_7.doctrine_feature.json",
+      "sha256": "8c4b988f8f2996775f8e2b3515991334b06d2130cff970f8ffbec8b55238080d"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_8.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.kin_armsman.level_8.ability_score_improvement_talent.json",
+      "sha256": "aeabf5be6b7791eb4103ffaa5da17e81e79917c4c0bdd9be8b7cb4416d7781ea"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_9.void_hardened_line",
+      "revision": 1,
+      "path": "entities/feature/class.kin_armsman.level_9.void_hardened_line.json",
+      "sha256": "d0035545415a5d9e8e593ad4fb2a88eb2fb5f771cac220d5ab1687f8feaa5a61"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.training",
+      "revision": 1,
+      "path": "entities/feature/class.kin_armsman.training.json",
+      "sha256": "fe8aa61387782df0d562c65c91435695a7f8b964c91a516ed60db3efe49d1749"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_1.big_lad",
+      "revision": 1,
+      "path": "entities/feature/class.ogryn_skullbreaker.level_1.big_lad.json",
+      "sha256": "abef75c7e8534cae5b094874dd4ccf230dec524c3a92fdf19e246f5653c98605"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_1.loyal_protector",
+      "revision": 1,
+      "path": "entities/feature/class.ogryn_skullbreaker.level_1.loyal_protector.json",
+      "sha256": "d34cd1d15aef643a64c4f64e1593792efc2bb40a42cb51d8823eac12ecdfe568"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_10.thunderous_violence",
+      "revision": 1,
+      "path": "entities/feature/class.ogryn_skullbreaker.level_10.thunderous_violence.json",
+      "sha256": "45362968a9277a8891b29bf210a31a6643c7b0ceae56b4ab4e09342cc79d7020"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_11.bigger_and_meaner",
+      "revision": 1,
+      "path": "entities/feature/class.ogryn_skullbreaker.level_11.bigger_and_meaner.json",
+      "sha256": "f0a5cd3edf120d7c5f68d42922b863fd4b88394889a11c53419f72b23ce87f77"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_12.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.ogryn_skullbreaker.level_12.ability_score_improvement_talent.json",
+      "sha256": "23c37d9e377052ac19631f14e48c46d9490c50a55088da5ac54c6fdda439c506"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_13.cant_keep_him_down",
+      "revision": 1,
+      "path": "entities/feature/class.ogryn_skullbreaker.level_13.cant_keep_him_down.json",
+      "sha256": "8f1856f64faa621ddf2efa45ffad893d36e578d6030b4c90891b1151311ea3ef"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_14.role_feature",
+      "revision": 1,
+      "path": "entities/feature/class.ogryn_skullbreaker.level_14.role_feature.json",
+      "sha256": "2588c236c6c3384c6330ca6e6930ec24482edd0708388fdf0ee79cdf5412cee0"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_15.walking_fortress",
+      "revision": 1,
+      "path": "entities/feature/class.ogryn_skullbreaker.level_15.walking_fortress.json",
+      "sha256": "77da20e0735001a69333b6b28b928281d9e075f617f30ca60e56a229ccb733c6"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_16.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.ogryn_skullbreaker.level_16.ability_score_improvement_talent.json",
+      "sha256": "3c9aca04de156a107e0ba1bc15139a58c48adc77c47aba07b49c7ec83922ff9c"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_17.mountain_of_muscle",
+      "revision": 1,
+      "path": "entities/feature/class.ogryn_skullbreaker.level_17.mountain_of_muscle.json",
+      "sha256": "15eef274a03dc7528f81d7741e34aea1c01d6b8a14cd0f8489a1756369139c8a"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_18.role_feature",
+      "revision": 1,
+      "path": "entities/feature/class.ogryn_skullbreaker.level_18.role_feature.json",
+      "sha256": "79576d32303d3a6d9e9faa1383cb11c1775fe5c8d5373611ceeca23cbdc81c91"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_19.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.ogryn_skullbreaker.level_19.ability_score_improvement_talent.json",
+      "sha256": "496782e7f24a70590d0e68f9d2614a4d59d09ae6ac536c54d3ddfb3becb6e2b1"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_2.brutal_impact",
+      "revision": 1,
+      "path": "entities/feature/class.ogryn_skullbreaker.level_2.brutal_impact.json",
+      "sha256": "a1dbf97aa1925cf2cc4f92ef8629636300c9031e2a971c188fe245d57ad535a1"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_20.unkillable_big_lad",
+      "revision": 1,
+      "path": "entities/feature/class.ogryn_skullbreaker.level_20.unkillable_big_lad.json",
+      "sha256": "c0d6d631cda4a06925703a367c2690dc3bae4cc0694cc2a10b9d35482af5ca82"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_3.ogryn_role",
+      "revision": 1,
+      "path": "entities/feature/class.ogryn_skullbreaker.level_3.ogryn_role.json",
+      "sha256": "cf0f9a51623d4fb7a67ed014b2df8e291f87fd378713263e9eaf50ab865c9fb0"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_4.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.ogryn_skullbreaker.level_4.ability_score_improvement_talent.json",
+      "sha256": "2cbb98172cdbe3fa05ed3359446975b853da5132b9e33d91804165dbcd2685a5"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_5.extra_attack",
+      "revision": 1,
+      "path": "entities/feature/class.ogryn_skullbreaker.level_5.extra_attack.json",
+      "sha256": "5cfeae1984234bd6bd4b77e9099aa7886ca39b18cfa84f8b080729af0c44f951"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_6.too_stubborn_to_drop",
+      "revision": 1,
+      "path": "entities/feature/class.ogryn_skullbreaker.level_6.too_stubborn_to_drop.json",
+      "sha256": "920427b241fffe8087fd29d2d417279c160fbfc4c32f3b06fa16f0d91fa07dcd"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_7.role_feature",
+      "revision": 1,
+      "path": "entities/feature/class.ogryn_skullbreaker.level_7.role_feature.json",
+      "sha256": "27630ba962a3197e17e8bef783c1d6a3d4157a353b0a820625dc7ececfd09192"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_8.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.ogryn_skullbreaker.level_8.ability_score_improvement_talent.json",
+      "sha256": "f3e60e9ef0c18af03533ac4f30b5866602d6a57f0843032241d5f439230faf01"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_9.living_barricade",
+      "revision": 1,
+      "path": "entities/feature/class.ogryn_skullbreaker.level_9.living_barricade.json",
+      "sha256": "a67cb68e047e93767cb87500c41480729a9ebbf94733f8787483687311c2ac4a"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.training",
+      "revision": 1,
+      "path": "entities/feature/class.ogryn_skullbreaker.training.json",
+      "sha256": "0932fb4533a0ce03b5c43e26eb7c3e7c20a926f954a5098dcdeb7679a65230e4"
+    },
+    {
+      "id": "di.feature.class.psyker.level_1.psychic_discipline",
+      "revision": 1,
+      "path": "entities/feature/class.psyker.level_1.psychic_discipline.json",
+      "sha256": "15b22e67f8f1bc5bd4487c9d0809dd86cfab768c21fba60ebcda80810d8df6be"
+    },
+    {
+      "id": "di.feature.class.psyker.level_1.warp_pressure",
+      "revision": 1,
+      "path": "entities/feature/class.psyker.level_1.warp_pressure.json",
+      "sha256": "64fd11a8f929c3f46485e69a152d5947f53ff736e3b3de2cf1322d4440d994a0"
+    },
+    {
+      "id": "di.feature.class.psyker.level_10.mastered_manifestation",
+      "revision": 1,
+      "path": "entities/feature/class.psyker.level_10.mastered_manifestation.json",
+      "sha256": "a8d1614c2436226c004d8eb9ea6db6355c4320049c8e63eb8fcd5afca8f8a9d6"
+    },
+    {
+      "id": "di.feature.class.psyker.level_11.major_power_access",
+      "revision": 1,
+      "path": "entities/feature/class.psyker.level_11.major_power_access.json",
+      "sha256": "1f60f2a533140d73884792d68179b8f9d4799d0f36c53a30af921d636cf984a8"
+    },
+    {
+      "id": "di.feature.class.psyker.level_12.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.psyker.level_12.ability_score_improvement_talent.json",
+      "sha256": "c700b688ffde3920be508b3800230c25a908793dc9a29216091468296deffdf7"
+    },
+    {
+      "id": "di.feature.class.psyker.level_13.sanctioned_focus",
+      "revision": 1,
+      "path": "entities/feature/class.psyker.level_13.sanctioned_focus.json",
+      "sha256": "edb86b6d6d176e6ef448853fe9247b4b1ad4d5afd0928db09f46ca769900f030"
+    },
+    {
+      "id": "di.feature.class.psyker.level_14.discipline_feature",
+      "revision": 1,
+      "path": "entities/feature/class.psyker.level_14.discipline_feature.json",
+      "sha256": "5f01d2d472339971583f2f51d9537f5e327d0c2dfddc6d25758cb49011a0ab63"
+    },
+    {
+      "id": "di.feature.class.psyker.level_15.alpha_level_risk",
+      "revision": 1,
+      "path": "entities/feature/class.psyker.level_15.alpha_level_risk.json",
+      "sha256": "dd6e4d8d478dafb7eeb6e02a7de47bf6c31dea3dbc84bc076d80b667968f269f"
+    },
+    {
+      "id": "di.feature.class.psyker.level_16.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.psyker.level_16.ability_score_improvement_talent.json",
+      "sha256": "e1ffca62b9af8590b193479d86484c5cad0fe6dcde1855d5a9eda6e127a0916b"
+    },
+    {
+      "id": "di.feature.class.psyker.level_17.soul_bound_discipline",
+      "revision": 1,
+      "path": "entities/feature/class.psyker.level_17.soul_bound_discipline.json",
+      "sha256": "ed57dfe78d4eb8be5e728ad1da13c897d940cb19209ca785f250680af3e02682"
+    },
+    {
+      "id": "di.feature.class.psyker.level_18.warp_crowned_focus",
+      "revision": 1,
+      "path": "entities/feature/class.psyker.level_18.warp_crowned_focus.json",
+      "sha256": "321f47b82c2d5511470aa8d6acd35d32962989054f4400d6fea750dd1665478b"
+    },
+    {
+      "id": "di.feature.class.psyker.level_19.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.psyker.level_19.ability_score_improvement_talent.json",
+      "sha256": "37796c6c611fe21020a4306e95516b250368397cbe3df169a798a03c2bd6f7c7"
+    },
+    {
+      "id": "di.feature.class.psyker.level_2.psychic_ward",
+      "revision": 1,
+      "path": "entities/feature/class.psyker.level_2.psychic_ward.json",
+      "sha256": "bbcd5199284883d8f332103cb9fa7ad9cae378fcad6cb89c91aa24bb1f429aa4"
+    },
+    {
+      "id": "di.feature.class.psyker.level_20.sanctioned_apex",
+      "revision": 1,
+      "path": "entities/feature/class.psyker.level_20.sanctioned_apex.json",
+      "sha256": "78097ace4e48f2ab9eaa450430919c219f18f46a0b51e347d9dd33aa33c8fc37"
+    },
+    {
+      "id": "di.feature.class.psyker.level_3.discipline_feature",
+      "revision": 1,
+      "path": "entities/feature/class.psyker.level_3.discipline_feature.json",
+      "sha256": "0dad5ad9d68d30f98eae15ce30af074fac1d6dfcad3f9de438c61b356c273bc5"
+    },
+    {
+      "id": "di.feature.class.psyker.level_4.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.psyker.level_4.ability_score_improvement_talent.json",
+      "sha256": "196095c16460c0264ffc2247feebb4be945f71149d94d56179b74bb25bdca6e0"
+    },
+    {
+      "id": "di.feature.class.psyker.level_5.empowered_manifestation",
+      "revision": 1,
+      "path": "entities/feature/class.psyker.level_5.empowered_manifestation.json",
+      "sha256": "97bb5f8a83489b86de18e05a133869c45b6d03d23350f29c5c6b1f93a8a743cc"
+    },
+    {
+      "id": "di.feature.class.psyker.level_6.disciplined_channel",
+      "revision": 1,
+      "path": "entities/feature/class.psyker.level_6.disciplined_channel.json",
+      "sha256": "2bb512788b54970613ef429c1417fe0e87ad748a1fa8dda621533f4a177591e3"
+    },
+    {
+      "id": "di.feature.class.psyker.level_7.discipline_feature",
+      "revision": 1,
+      "path": "entities/feature/class.psyker.level_7.discipline_feature.json",
+      "sha256": "df08df02b59f8842d1025c882f95c979fc15fca28e1c773a49cc9f134639b697"
+    },
+    {
+      "id": "di.feature.class.psyker.level_8.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.psyker.level_8.ability_score_improvement_talent.json",
+      "sha256": "8ec81d8c2a392e33119395d5a1f426e7856fd84911f96251f1b5926861976aae"
+    },
+    {
+      "id": "di.feature.class.psyker.level_9.warp_anchor",
+      "revision": 1,
+      "path": "entities/feature/class.psyker.level_9.warp_anchor.json",
+      "sha256": "7a077bd5c4363f2c46971c2fbf4dd72a55248d3f893df9dba55c9d60108cafc6"
+    },
+    {
+      "id": "di.feature.class.psyker.training",
+      "revision": 1,
+      "path": "entities/feature/class.psyker.training.json",
+      "sha256": "aebea6d804b293f2736712c2d26ff15c0a1d8263127361be9fe5c3788061f6fe"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_1.deadeye",
+      "revision": 1,
+      "path": "entities/feature/class.ratling_sharpshooter.level_1.deadeye.json",
+      "sha256": "c31ad21125909136e096c4871ab0f6884b669d6850143f2d8855b2a9da388aec"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_1.small_target",
+      "revision": 1,
+      "path": "entities/feature/class.ratling_sharpshooter.level_1.small_target.json",
+      "sha256": "6ce1fa51d20797baaad05dc8c1c8ab1287f7379d578c5e09435f07eb338c7823"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_10.perfect_shot",
+      "revision": 1,
+      "path": "entities/feature/class.ratling_sharpshooter.level_10.perfect_shot.json",
+      "sha256": "ffac8816a8d725dbea8b8e78cdf586bc33d2fa399607c6872efec4bcc93a3c07"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_11.deadeye_3d6",
+      "revision": 1,
+      "path": "entities/feature/class.ratling_sharpshooter.level_11.deadeye_3d6.json",
+      "sha256": "645ac67218642e347f86975ac86980c581f3d92ba7d46144ad2327c52db62bfe"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_12.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.ratling_sharpshooter.level_12.ability_score_improvement_talent.json",
+      "sha256": "a4e6bcedad827a773acb122942ea8b87976b2456716cea25174fbf840c21e67f"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_13.gone_before_the_shot",
+      "revision": 1,
+      "path": "entities/feature/class.ratling_sharpshooter.level_13.gone_before_the_shot.json",
+      "sha256": "71a4dac2d7c947540d251f2d49c43bc88ca5ebafde1818b682e1d7c7a646f077"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_14.ratling_trick_feature",
+      "revision": 1,
+      "path": "entities/feature/class.ratling_sharpshooter.level_14.ratling_trick_feature.json",
+      "sha256": "b882c2c20afa69f5dadcec65207cf2b896ce201d01ce2d737d4131b6a5e39aa0"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_15.ghost_marksman",
+      "revision": 1,
+      "path": "entities/feature/class.ratling_sharpshooter.level_15.ghost_marksman.json",
+      "sha256": "d00ffdf97a69a528f18596eb77e1dfa56719b4905302110314754192ff63e1ea"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_16.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.ratling_sharpshooter.level_16.ability_score_improvement_talent.json",
+      "sha256": "980eda8cd8992b29b7f71113af0452ace3fc6749cec22b63c37932f86629713a"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_17.deadeye_4d6",
+      "revision": 1,
+      "path": "entities/feature/class.ratling_sharpshooter.level_17.deadeye_4d6.json",
+      "sha256": "3122c9cb9592524be7afc2c7121b08c84a336925dae23c613c07907f18221fc0"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_18.ratling_trick_feature",
+      "revision": 1,
+      "path": "entities/feature/class.ratling_sharpshooter.level_18.ratling_trick_feature.json",
+      "sha256": "3e7c9bc311935de45d747541866a588b3a196eccb3991078c33e020db2275fe1"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_19.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.ratling_sharpshooter.level_19.ability_score_improvement_talent.json",
+      "sha256": "06d8beee64afe589b3650eb666e1fa9ed3ba8809e1872561fec249b58905d28a"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_2.scamper",
+      "revision": 1,
+      "path": "entities/feature/class.ratling_sharpshooter.level_2.scamper.json",
+      "sha256": "f47ab48f4c047f5059bc2768e2dad735a002fc97b4e044bb52991fa23f4a64be"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_20.impossible_little_legend",
+      "revision": 1,
+      "path": "entities/feature/class.ratling_sharpshooter.level_20.impossible_little_legend.json",
+      "sha256": "1925d28fdeb4c2552f7cc85dc916cb065d8dc825131db327aa99a5256be01e85"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_3.ratling_trick",
+      "revision": 1,
+      "path": "entities/feature/class.ratling_sharpshooter.level_3.ratling_trick.json",
+      "sha256": "b8844cfc31bb3833dda3f10cb03164827b819bab71ca3a1e46cc0aa4827f975d"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_4.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.ratling_sharpshooter.level_4.ability_score_improvement_talent.json",
+      "sha256": "603b76afd76cb74171a6a02118352f8942a5010e3e158a310a4a43d2f4587018"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_5.killshot",
+      "revision": 1,
+      "path": "entities/feature/class.ratling_sharpshooter.level_5.killshot.json",
+      "sha256": "9c64ac0b14cb0df7d4a9c45ca7850cbd43ef9e3ebc2f4328100c2aadab6bebd2"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_6.cameleoline_habits",
+      "revision": 1,
+      "path": "entities/feature/class.ratling_sharpshooter.level_6.cameleoline_habits.json",
+      "sha256": "1a37aa40e7e5ba6fdc732a8792e0fd421f1cade5cd737d1c48052c73ba60cc53"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_7.ratling_trick_feature",
+      "revision": 1,
+      "path": "entities/feature/class.ratling_sharpshooter.level_7.ratling_trick_feature.json",
+      "sha256": "a63b383a8dce658ebd70e9774eda4e66ecd2b51c07cbca103b69d027a91c9e8e"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_8.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.ratling_sharpshooter.level_8.ability_score_improvement_talent.json",
+      "sha256": "f8b71652192627e34c1ef26d5eedf086528bab429a2e0acf9f4030e0a3131ab3"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_9.impossible_angle",
+      "revision": 1,
+      "path": "entities/feature/class.ratling_sharpshooter.level_9.impossible_angle.json",
+      "sha256": "eaf527088f48cfbb20065714be243b4617581c66d587507e99fb66a4287ab4dd"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.training",
+      "revision": 1,
+      "path": "entities/feature/class.ratling_sharpshooter.training.json",
+      "sha256": "34266ed7328eeb30a0cfd3fc10818a7a163cefe22ba18a2bd616e0503fccdc34"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_1.machine_focus",
+      "revision": 1,
+      "path": "entities/feature/class.skitarii_veteran.level_1.machine_focus.json",
+      "sha256": "83c15b6d69fe2b41679d51489b3fa73f474eafde3fd32d1639cc8eccdaeac804"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_1.targeting_protocol",
+      "revision": 1,
+      "path": "entities/feature/class.skitarii_veteran.level_1.targeting_protocol.json",
+      "sha256": "15835aa8608417be8846ce85f4dcdd0a6cc2cc8db1d2220061fe2bead782b49b"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_10.omnissian_execution",
+      "revision": 1,
+      "path": "entities/feature/class.skitarii_veteran.level_10.omnissian_execution.json",
+      "sha256": "906a8045aaaccd38af4b8d2737be5ba3f345d3615d27c99707ff84e7202fb885"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_11.calculated_volley",
+      "revision": 1,
+      "path": "entities/feature/class.skitarii_veteran.level_11.calculated_volley.json",
+      "sha256": "c0f43ba52b5a3b6432e76abdb5f2eaa2c85317239da22551703f694e4c25ad5a"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_12.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.skitarii_veteran.level_12.ability_score_improvement_talent.json",
+      "sha256": "7913a5eeb0650521742fb20835e42c0b790f73c767b4ce8014e9f2ded38effa1"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_13.redundant_systems",
+      "revision": 1,
+      "path": "entities/feature/class.skitarii_veteran.level_13.redundant_systems.json",
+      "sha256": "fb62c16249ecc3220d33a8224914337caf12b015bfc4d4850fc0b4ec9576c5d8"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_14.protocol_feature",
+      "revision": 1,
+      "path": "entities/feature/class.skitarii_veteran.level_14.protocol_feature.json",
+      "sha256": "4249060798a6862f711fa35559c5aae7fdcbaf4af3a094b133339b43f0b4f150"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_15.will_of_the_omnissiah",
+      "revision": 1,
+      "path": "entities/feature/class.skitarii_veteran.level_15.will_of_the_omnissiah.json",
+      "sha256": "8e3c358c07f805300683905e7d7b737e7ca1f44601763a9d162acbfeff3f14c9"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_16.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.skitarii_veteran.level_16.ability_score_improvement_talent.json",
+      "sha256": "89c4388cfcfa91abdc6ac0b574947824d661f6b6f45c1660871058ab0ebac5fc"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_17.perfect_targeting_logic",
+      "revision": 1,
+      "path": "entities/feature/class.skitarii_veteran.level_17.perfect_targeting_logic.json",
+      "sha256": "bc929f35d55faa011e776b5b44904af1432e7331cb001394073141d34eb8c659"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_18.protocol_feature",
+      "revision": 1,
+      "path": "entities/feature/class.skitarii_veteran.level_18.protocol_feature.json",
+      "sha256": "f5630b40e5d6e34921cfa110a561d9ed2226de10dd0009906ae4dc1879029050"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_19.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.skitarii_veteran.level_19.ability_score_improvement_talent.json",
+      "sha256": "6579b8033742e21fb69505a83d2198128b4879ba712a52433e3ea0a922294b20"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_2.augmetic_reflexes",
+      "revision": 1,
+      "path": "entities/feature/class.skitarii_veteran.level_2.augmetic_reflexes.json",
+      "sha256": "982debb9b72de55f55c642be3e53459f73847ef4cb601c866472aa810f9eb717"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_20.living_instrument_of_the_omnissiah",
+      "revision": 1,
+      "path": "entities/feature/class.skitarii_veteran.level_20.living_instrument_of_the_omnissiah.json",
+      "sha256": "0d6dde0df56b4e640bdc64952f3e63af9c41533ea3379dd9d3a31328ca73b113"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_3.combat_protocol",
+      "revision": 1,
+      "path": "entities/feature/class.skitarii_veteran.level_3.combat_protocol.json",
+      "sha256": "be03522230b8c6b0673c70edf87fd9ee6a2917b459d85d496e8d3148cb139814"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_4.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.skitarii_veteran.level_4.ability_score_improvement_talent.json",
+      "sha256": "80f992f7926d9c337ccf2de8252bc27cf997a1668495f3026557389caa8e1d35"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_5.extra_attack",
+      "revision": 1,
+      "path": "entities/feature/class.skitarii_veteran.level_5.extra_attack.json",
+      "sha256": "642798cf2b65b32641a15213e7be1f3dda5d5f04a477846466354c34227643cd"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_6.doctrinal_subroutine",
+      "revision": 1,
+      "path": "entities/feature/class.skitarii_veteran.level_6.doctrinal_subroutine.json",
+      "sha256": "d025e7f6c8a8c168ef183d4aa00070789d6fe55ee87d926f64b146a5b9362109"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_7.protocol_feature",
+      "revision": 1,
+      "path": "entities/feature/class.skitarii_veteran.level_7.protocol_feature.json",
+      "sha256": "918e2356da98b150c2c9a73068ed48f5ba30e944b338083d98ed693dec67037f"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_8.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.skitarii_veteran.level_8.ability_score_improvement_talent.json",
+      "sha256": "403b5a9a1a5c04cebd2e0cd296b958c75acdb84f111adfef99d32b6d7700469a"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_9.blessed_autosenses",
+      "revision": 1,
+      "path": "entities/feature/class.skitarii_veteran.level_9.blessed_autosenses.json",
+      "sha256": "330e2c4049b15b6da0fb6518ac6013ff8a8dcade8fcaf657f78d4132d5e8a447"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.training",
+      "revision": 1,
+      "path": "entities/feature/class.skitarii_veteran.training.json",
+      "sha256": "b60a6016afe2eb5168d63f07e2e0acc2257f77193893b0d79b132b08690fb5a0"
+    },
+    {
+      "id": "di.feature.class.veteran.level_1.guardsman_training",
+      "revision": 1,
+      "path": "entities/feature/class.veteran.level_1.guardsman_training.json",
+      "sha256": "3918973814c6d57e8fd14f2758ca78ef47eff88f645a60e7b6fd9389da2e7f9a"
+    },
+    {
+      "id": "di.feature.class.veteran.level_1.tactical_aim",
+      "revision": 1,
+      "path": "entities/feature/class.veteran.level_1.tactical_aim.json",
+      "sha256": "769368ca933e904e3d44cc9ba944ea9dfb5717ecc5093594548e536ae3746780"
+    },
+    {
+      "id": "di.feature.class.veteran.level_10.killing_zone",
+      "revision": 1,
+      "path": "entities/feature/class.veteran.level_10.killing_zone.json",
+      "sha256": "2c3d7dec4bc80e56539fda5aa39c6392daa527b20dcc8ad883cb2019d432089f"
+    },
+    {
+      "id": "di.feature.class.veteran.level_11.veterans_accuracy",
+      "revision": 1,
+      "path": "entities/feature/class.veteran.level_11.veterans_accuracy.json",
+      "sha256": "dd2562f7a816f961df1ae31103dc7329f0346f5baec79aac8390145b779f364d"
+    },
+    {
+      "id": "di.feature.class.veteran.level_12.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.veteran.level_12.ability_score_improvement_talent.json",
+      "sha256": "3bf9ec2023be78370b009542601ca5c6344e90bb24cc6f0d607ae06ea5ed9d98"
+    },
+    {
+      "id": "di.feature.class.veteran.level_13.battlefield_instinct",
+      "revision": 1,
+      "path": "entities/feature/class.veteran.level_13.battlefield_instinct.json",
+      "sha256": "cba95748363ffdfe76adcdc7f642512948a1f3627dffe1a54e07929f15432eba"
+    },
+    {
+      "id": "di.feature.class.veteran.level_14.improved_doctrine",
+      "revision": 1,
+      "path": "entities/feature/class.veteran.level_14.improved_doctrine.json",
+      "sha256": "f93c938ce9294875da36ea0997ee21cd41c7e372cfc18790892a1eb5e725951d"
+    },
+    {
+      "id": "di.feature.class.veteran.level_15.kill_confirmed",
+      "revision": 1,
+      "path": "entities/feature/class.veteran.level_15.kill_confirmed.json",
+      "sha256": "6705fa0be06158d02f8e98a599aed335c025ed5eb90bbb5e038767ef8fdadaa6"
+    },
+    {
+      "id": "di.feature.class.veteran.level_16.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.veteran.level_16.ability_score_improvement_talent.json",
+      "sha256": "6376b68b53bb42997e2d219a66e2459e21af40b31b8651f9c4d994c2142cd73b"
+    },
+    {
+      "id": "di.feature.class.veteran.level_17.veterans_command",
+      "revision": 1,
+      "path": "entities/feature/class.veteran.level_17.veterans_command.json",
+      "sha256": "eb97cddf76ec71696c5431663f3d61671a125f8d8b2e4322d11b5ed323a5ccc3"
+    },
+    {
+      "id": "di.feature.class.veteran.level_18.dug_in_kill_team",
+      "revision": 1,
+      "path": "entities/feature/class.veteran.level_18.dug_in_kill_team.json",
+      "sha256": "6e29bb5d09870f704f495655dd5b0a65a7b6979fd07d7ccd089ac8710ed25dc6"
+    },
+    {
+      "id": "di.feature.class.veteran.level_19.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.veteran.level_19.ability_score_improvement_talent.json",
+      "sha256": "bcc4b1563bfac90709f9edffbf2438b2b01326a8b4859ce0fbbd88c11e43439e"
+    },
+    {
+      "id": "di.feature.class.veteran.level_2.suppressing_fire",
+      "revision": 1,
+      "path": "entities/feature/class.veteran.level_2.suppressing_fire.json",
+      "sha256": "f96bc4537235c4f2f3586d4106a0610f560f3c88aacd65221ed2df0b645cda68"
+    },
+    {
+      "id": "di.feature.class.veteran.level_20.lord_castellans_moment",
+      "revision": 1,
+      "path": "entities/feature/class.veteran.level_20.lord_castellans_moment.json",
+      "sha256": "e096bd130f750f1fe871eb1f45ff5e6645ce5458be9f764ee61bfae05c887cb1"
+    },
+    {
+      "id": "di.feature.class.veteran.level_3.regimental_doctrine",
+      "revision": 1,
+      "path": "entities/feature/class.veteran.level_3.regimental_doctrine.json",
+      "sha256": "0d41d37f3b2e126bb2bcf39af890e0b15f5ba33840a63a12e3ac47b4cbbd6272"
+    },
+    {
+      "id": "di.feature.class.veteran.level_4.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.veteran.level_4.ability_score_improvement_talent.json",
+      "sha256": "8c80882a5bec15bf7888034c369dde42fff993c77df5d52ba7d566d3ea211f2d"
+    },
+    {
+      "id": "di.feature.class.veteran.level_5.extra_attack",
+      "revision": 1,
+      "path": "entities/feature/class.veteran.level_5.extra_attack.json",
+      "sha256": "a730b8a000a87ef5c645c1a485bafdcb4e55ce5f15a17d3e91d9fb07af9faf87"
+    },
+    {
+      "id": "di.feature.class.veteran.level_6.fire_team_veteran",
+      "revision": 1,
+      "path": "entities/feature/class.veteran.level_6.fire_team_veteran.json",
+      "sha256": "61d80a2eac2e4a655cec2496206a84335ab3fa65e8404a28233480b08a89ff41"
+    },
+    {
+      "id": "di.feature.class.veteran.level_7.doctrine_feature",
+      "revision": 1,
+      "path": "entities/feature/class.veteran.level_7.doctrine_feature.json",
+      "sha256": "8a0118d6857699f55e4045d70f7731c8909b0b22208956b05d4b0f8c4deefb31"
+    },
+    {
+      "id": "di.feature.class.veteran.level_8.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.veteran.level_8.ability_score_improvement_talent.json",
+      "sha256": "0046ca0a4b8bbf2836a9c29d0c971ce054f2e61cda1bc4aab9997d44258dae64"
+    },
+    {
+      "id": "di.feature.class.veteran.level_9.hold_the_line",
+      "revision": 1,
+      "path": "entities/feature/class.veteran.level_9.hold_the_line.json",
+      "sha256": "dac488baedcdee4e36bf706ee4ef4a4cc0fcc136df61df54c23a239d9f495042"
+    },
+    {
+      "id": "di.feature.class.veteran.training",
+      "revision": 1,
+      "path": "entities/feature/class.veteran.training.json",
+      "sha256": "08484bc3c1fabdb53d1b8e2af43cb98d650a204da444a2979d0299ae0328182e"
+    },
+    {
+      "id": "di.feature.class.zealot.level_1.fury_of_faith",
+      "revision": 1,
+      "path": "entities/feature/class.zealot.level_1.fury_of_faith.json",
+      "sha256": "e1ba58ca4adf8d32089453cbf7df2bdfc978becfee698fbb75f95390dd42083a"
+    },
+    {
+      "id": "di.feature.class.zealot.level_1.martyrs_endurance",
+      "revision": 1,
+      "path": "entities/feature/class.zealot.level_1.martyrs_endurance.json",
+      "sha256": "9db4d769ef2e3946e6fdc98ebf6638d7a8200aa0fb7c4b709ecfa4d7ea07e7c6"
+    },
+    {
+      "id": "di.feature.class.zealot.level_1.martyrs_mercy",
+      "revision": 1,
+      "path": "entities/feature/class.zealot.level_1.martyrs_mercy.json",
+      "sha256": "69ae80f15ea80c01dbb4206bc39004404db391e6e67bcf4771e301287bd7de21"
+    },
+    {
+      "id": "di.feature.class.zealot.level_10.sainted_fury",
+      "revision": 1,
+      "path": "entities/feature/class.zealot.level_10.sainted_fury.json",
+      "sha256": "aebde14217ab3eb555bd3a784d22f9e965ec194a7e6fcfb453581301eae57604"
+    },
+    {
+      "id": "di.feature.class.zealot.level_11.martyrs_renewal",
+      "revision": 1,
+      "path": "entities/feature/class.zealot.level_11.martyrs_renewal.json",
+      "sha256": "42cac340072f49f60055db23a07efd6c4afabc3f7b88896ebd81bd6e7bf5fcaf"
+    },
+    {
+      "id": "di.feature.class.zealot.level_12.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.zealot.level_12.ability_score_improvement_talent.json",
+      "sha256": "d0bb1ce0601437b8de4be6ad9d12d9f6dfeac786e4e0a33bbd2c2629b48921bc"
+    },
+    {
+      "id": "di.feature.class.zealot.level_13.unbroken_creed",
+      "revision": 1,
+      "path": "entities/feature/class.zealot.level_13.unbroken_creed.json",
+      "sha256": "fbb0daaa31382c1641326ebe1199b601992c2e5c38a108148ef74a24de0928fe"
+    },
+    {
+      "id": "di.feature.class.zealot.level_14.sacred_path_feature",
+      "revision": 1,
+      "path": "entities/feature/class.zealot.level_14.sacred_path_feature.json",
+      "sha256": "ec4e3086af73f6f87164675eb11a87b2a4becb17b1bca7fa424740140019c1e6"
+    },
+    {
+      "id": "di.feature.class.zealot.level_15.living_saints_shadow",
+      "revision": 1,
+      "path": "entities/feature/class.zealot.level_15.living_saints_shadow.json",
+      "sha256": "a04d6b8b025be1cc3bb0e690b4db95d61e3493c13a8088d60e7ce9587dcf6b68"
+    },
+    {
+      "id": "di.feature.class.zealot.level_16.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.zealot.level_16.ability_score_improvement_talent.json",
+      "sha256": "b2d7fde4274474c198a878a1dd0b631e478960d6aca3573998ca16c4d7d72802"
+    },
+    {
+      "id": "di.feature.class.zealot.level_17.martyrdom_unending",
+      "revision": 1,
+      "path": "entities/feature/class.zealot.level_17.martyrdom_unending.json",
+      "sha256": "405ba77f86d41d555a39e7ad879ccaa9ad63f2008e48b226f38b5f32c8a16963"
+    },
+    {
+      "id": "di.feature.class.zealot.level_18.sacred_path_ascendant",
+      "revision": 1,
+      "path": "entities/feature/class.zealot.level_18.sacred_path_ascendant.json",
+      "sha256": "e18ae93452d23650d328399090e492be11bb1717bb527453f9f4afa09e7d8361"
+    },
+    {
+      "id": "di.feature.class.zealot.level_19.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.zealot.level_19.ability_score_improvement_talent.json",
+      "sha256": "b972d81a3546ba22dcf5058ee04747a9a1944dc2ad98d1ca5a30b6aed5a2b99f"
+    },
+    {
+      "id": "di.feature.class.zealot.level_2.charge_of_conviction",
+      "revision": 1,
+      "path": "entities/feature/class.zealot.level_2.charge_of_conviction.json",
+      "sha256": "d3757a1a22259dba45a8830101932ffd9812b935d2f8a296619a46a1917e6ca2"
+    },
+    {
+      "id": "di.feature.class.zealot.level_20.living_icon_of_wrath",
+      "revision": 1,
+      "path": "entities/feature/class.zealot.level_20.living_icon_of_wrath.json",
+      "sha256": "98ea5abf716ec80db89ebbe5ce48af5d266bdd05b77dd604e9ead7b337f9ebdb"
+    },
+    {
+      "id": "di.feature.class.zealot.level_3.sacred_path",
+      "revision": 1,
+      "path": "entities/feature/class.zealot.level_3.sacred_path.json",
+      "sha256": "9b2a996071bbcf16c2115b0bab1ecc294767950986a535915c6b6d0eb6993e95"
+    },
+    {
+      "id": "di.feature.class.zealot.level_4.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.zealot.level_4.ability_score_improvement_talent.json",
+      "sha256": "48b1adb678642e2ab76a097e68b10905639be50ca877851b8157f56cc45a2b2b"
+    },
+    {
+      "id": "di.feature.class.zealot.level_5.extra_attack",
+      "revision": 1,
+      "path": "entities/feature/class.zealot.level_5.extra_attack.json",
+      "sha256": "0ac97747ad467b4b2f2bab53070d0ef1241a3fba95f2186610e1392ac816bdfb"
+    },
+    {
+      "id": "di.feature.class.zealot.level_6.blood_and_benediction",
+      "revision": 1,
+      "path": "entities/feature/class.zealot.level_6.blood_and_benediction.json",
+      "sha256": "dd7ae5070f3e67758786371e3989724a6a52c452f99382738f5dd7f040facd5c"
+    },
+    {
+      "id": "di.feature.class.zealot.level_7.sacred_path_feature",
+      "revision": 1,
+      "path": "entities/feature/class.zealot.level_7.sacred_path_feature.json",
+      "sha256": "f341a9d968e630c2a3ecd24cbd1c53c5e51759095a3a43e805d54caf06b32b07"
+    },
+    {
+      "id": "di.feature.class.zealot.level_8.ability_score_improvement_talent",
+      "revision": 1,
+      "path": "entities/feature/class.zealot.level_8.ability_score_improvement_talent.json",
+      "sha256": "5cb80f1c1c6bbd748eab978a718687560abe7faa391b851e37014e568778ea1a"
+    },
+    {
+      "id": "di.feature.class.zealot.level_9.refuse_the_dark",
+      "revision": 1,
+      "path": "entities/feature/class.zealot.level_9.refuse_the_dark.json",
+      "sha256": "f135a14546efc72c65a098fa4908f5ab825518b79cc5dc0b546eeb6dcfed423c"
+    },
+    {
+      "id": "di.feature.class.zealot.training",
+      "revision": 1,
+      "path": "entities/feature/class.zealot.training.json",
+      "sha256": "08d191a3508e24cb98a8571dc5e58b8f5618728aa9cfebb145bcd104552ba133"
+    },
+    {
+      "id": "di.feature.origin.craftworld_outcast",
+      "revision": 1,
+      "path": "entities/feature/origin.craftworld_outcast.json",
+      "sha256": "56455c2c40cf1ffdd21016eb31b638b6c0de536295ace4ad014d98973f6ad652"
+    },
+    {
+      "id": "di.feature.origin.forge_world",
+      "revision": 1,
+      "path": "entities/feature/origin.forge_world.json",
+      "sha256": "4c4e18af5d3fdb691f35ca55507243e2bcd7e9b4ad22a396c44496fa92933b71"
+    },
+    {
+      "id": "di.feature.origin.hiveborn",
+      "revision": 1,
+      "path": "entities/feature/origin.hiveborn.json",
+      "sha256": "3045b02cbc71ab53f042eadc34364936e7220a625e044ec7f7d02fc54d6e210c"
+    },
+    {
+      "id": "di.feature.origin.militarum_regiment",
+      "revision": 1,
+      "path": "entities/feature/origin.militarum_regiment.json",
+      "sha256": "95376fc7af14115afc4be0b74010c5f1147ab071954252180b6974c47087a88b"
+    },
+    {
+      "id": "di.feature.origin.mining_hold_guild",
+      "revision": 1,
+      "path": "entities/feature/origin.mining_hold_guild.json",
+      "sha256": "eca50b07da9f45db99022379c29be1c796bc57adfc07f6428d4910b317b81298"
+    },
+    {
+      "id": "di.feature.origin.penal_worlder",
+      "revision": 1,
+      "path": "entities/feature/origin.penal_worlder.json",
+      "sha256": "e61363f98ac6cf9824cf82231b01af20083a02e75c74e9e5d5aec05e016d6ea6"
+    },
+    {
+      "id": "di.feature.origin.schola_progenium",
+      "revision": 1,
+      "path": "entities/feature/origin.schola_progenium.json",
+      "sha256": "579206f6da13ec3e6e061ec44084788c580724f285cee673c55e7e4e0fe3663f"
+    },
+    {
+      "id": "di.feature.origin.shrine_worlder",
+      "revision": 1,
+      "path": "entities/feature/origin.shrine_worlder.json",
+      "sha256": "50149dbc9e1c138168d49f705f7cabfa4ae7de54836e665b8427183039ca061a"
+    },
+    {
+      "id": "di.feature.origin.underhive",
+      "revision": 1,
+      "path": "entities/feature/origin.underhive.json",
+      "sha256": "ee75e314894b770bcc4881d83a81e4ba6801e9cc911da9a3aca91a17be96b48d"
+    },
+    {
+      "id": "di.feature.origin.voidborn",
+      "revision": 1,
+      "path": "entities/feature/origin.voidborn.json",
+      "sha256": "4f9a1a617ce9973cdc4f53a86548c1341fca50c4134592b5cdac4d6a92fa04c4"
+    },
+    {
+      "id": "di.feature.species.aeldari.baseline",
+      "revision": 1,
+      "path": "entities/feature/species.aeldari.baseline.json",
+      "sha256": "117c640cdb54109c98f6fccab2697cfdff3b1b74770838592374ef8d83bc2f92"
+    },
+    {
+      "id": "di.feature.species.aeldari.traits",
+      "revision": 1,
+      "path": "entities/feature/species.aeldari.traits.json",
+      "sha256": "5eb1059167fceeeff9c57bfb2409f7a36c33a7e6bee1989f6169a20f9b60e8ff"
+    },
+    {
+      "id": "di.feature.species.human.baseline",
+      "revision": 1,
+      "path": "entities/feature/species.human.baseline.json",
+      "sha256": "d53ad6f500e2beb96da892d8be14d3d721426a4fcdaacc56627e4f268636c691"
+    },
+    {
+      "id": "di.feature.species.human.traits",
+      "revision": 1,
+      "path": "entities/feature/species.human.traits.json",
+      "sha256": "24a7543d0fdd9a32f3bc2c57d1aed3f31834686ac65a2c17ffc8a00e7474d671"
+    },
+    {
+      "id": "di.feature.species.kin.baseline",
+      "revision": 1,
+      "path": "entities/feature/species.kin.baseline.json",
+      "sha256": "e6b309189fa8330606fb9a8e7aa69b3ed8acda81d3fe2ef3efa72b63adbee5da"
+    },
+    {
+      "id": "di.feature.species.kin.traits",
+      "revision": 1,
+      "path": "entities/feature/species.kin.traits.json",
+      "sha256": "272fa719ff1ffbeba483b1d130719f9aef758368c633ab6c26fc69689ce6398c"
+    },
+    {
+      "id": "di.feature.species.ogryn.baseline",
+      "revision": 1,
+      "path": "entities/feature/species.ogryn.baseline.json",
+      "sha256": "c2dc638c4a6d2f166328a3fa13d2c2c5661163c0cc46d782c5dcdd133db679d3"
+    },
+    {
+      "id": "di.feature.species.ogryn.traits",
+      "revision": 1,
+      "path": "entities/feature/species.ogryn.traits.json",
+      "sha256": "de7c17d300a7e55d081565a20b04fa9ba0dcb7ec430772a7423e671864e84484"
+    },
+    {
+      "id": "di.feature.species.ratling.baseline",
+      "revision": 1,
+      "path": "entities/feature/species.ratling.baseline.json",
+      "sha256": "3469910681edaeafac86165bf8ce3283c3443b732605d75e1caed890e2ad96e0"
+    },
+    {
+      "id": "di.feature.species.ratling.traits",
+      "revision": 1,
+      "path": "entities/feature/species.ratling.traits.json",
+      "sha256": "805848b3e6933c892e76290adbf6edbaa5a6ee7a7ec4e72628a815aaa4b7238e"
+    },
+    {
+      "id": "di.feature.species.skitarii.baseline",
+      "revision": 1,
+      "path": "entities/feature/species.skitarii.baseline.json",
+      "sha256": "a3038cb0c82e8f5ee2850d39b52f9d93791b047e93d6be81c17d8fb3eee47af3"
+    },
+    {
+      "id": "di.feature.species.skitarii.traits",
+      "revision": 1,
+      "path": "entities/feature/species.skitarii.traits.json",
+      "sha256": "74de62ef0f284204520f22f4721c1588bbd4a267cffa6ee319bea31f07395a70"
+    },
+    {
+      "id": "di.feature.subclass.veteran.marksman.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.veteran.marksman.level_14.json",
+      "sha256": "fb7421912395a7ffbba8485a48da9c2c1d99a8981b818dbd061be416f452a757"
+    },
+    {
+      "id": "di.feature.subclass.veteran.marksman.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.veteran.marksman.level_3.json",
+      "sha256": "9694e71853293efba8e18745ff314d6da386cd37a26f2e1495156dcf72bb5938"
+    },
+    {
+      "id": "di.feature.subclass.veteran.marksman.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.veteran.marksman.level_7.json",
+      "sha256": "5662c5e17bd8ac2b8f880d4917034e75b2370c58c9b86c046cb1857bd9b2fb76"
+    },
+    {
+      "id": "di.feature.subclass.veteran.sergeant.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.veteran.sergeant.level_14.json",
+      "sha256": "d4cc484c06896ca369a235f201a61170ffce6c7064d866107e73963ac577714e"
+    },
+    {
+      "id": "di.feature.subclass.veteran.sergeant.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.veteran.sergeant.level_3.json",
+      "sha256": "bc0c57cccf3306904eb62bfe7e770497c249f4401bed0fa697e03a1da7ca03d6"
+    },
+    {
+      "id": "di.feature.subclass.veteran.sergeant.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.veteran.sergeant.level_7.json",
+      "sha256": "59a5756555a9e77ca5b25144e72f406d29d6fc2b293b49be006a452260cce0d3"
+    },
+    {
+      "id": "di.feature.subclass.veteran.shock_trooper.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.veteran.shock_trooper.level_14.json",
+      "sha256": "20a0d6cba7859029bbf5d56affd09790f33228c9f97cb53f7618f750bbc3c540"
+    },
+    {
+      "id": "di.feature.subclass.veteran.shock_trooper.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.veteran.shock_trooper.level_3.json",
+      "sha256": "5f3a1910ed198891c24fea5f8486aa7e5c74ae289c4ba11c9d76a123b660a929"
+    },
+    {
+      "id": "di.feature.subclass.veteran.shock_trooper.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.veteran.shock_trooper.level_7.json",
+      "sha256": "d593fa44546a0f8cb00a16ace49a93fb060cb3fc54861d90d4c7fc0e64da1284"
+    },
+    {
+      "id": "di.feature.talent.aeldari_grace",
+      "revision": 1,
+      "path": "entities/feature/talent.aeldari_grace.json",
+      "sha256": "b9904a101196bcbce5c006ea9254fef278061a873f8d726a7cfb26b4271f0736"
+    },
+    {
+      "id": "di.feature.talent.alien_reflexes",
+      "revision": 1,
+      "path": "entities/feature/talent.alien_reflexes.json",
+      "sha256": "6d3f4736ea0a3960dbb97f23dcc47451fc6f3baab0ff8634c5e487546d78795a"
+    },
+    {
+      "id": "di.feature.talent.ancestors_grudge",
+      "revision": 1,
+      "path": "entities/feature/talent.ancestors_grudge.json",
+      "sha256": "9c1b4b7de09513eeb5ecec3410ce93bc62f42e75f9695ea50e457760d80ec088"
+    },
+    {
+      "id": "di.feature.talent.armour_familiarity",
+      "revision": 1,
+      "path": "entities/feature/talent.armour_familiarity.json",
+      "sha256": "79d34a2176e2091d0d39366d7b59de660e885b7d60d5332a8600014a3d1ce97e"
+    },
+    {
+      "id": "di.feature.talent.bayonet_fighter",
+      "revision": 1,
+      "path": "entities/feature/talent.bayonet_fighter.json",
+      "sha256": "148e2e46621d2a8a015218c7806c03f5ed6d42ea3a68e8b26cc81112d72018e9"
+    },
+    {
+      "id": "di.feature.talent.bigger_gun",
+      "revision": 1,
+      "path": "entities/feature/talent.bigger_gun.json",
+      "sha256": "296ce491f87c2c05b179b755003a424eed481422134e43cf7a8041beb64a5977"
+    },
+    {
+      "id": "di.feature.talent.bone_ead_implant",
+      "revision": 1,
+      "path": "entities/feature/talent.bone_ead_implant.json",
+      "sha256": "2a3febed7a45b0e2c0a70c164d9b9108d76a8b27fc78a8f8569c5f6ac73c7ff2"
+    },
+    {
+      "id": "di.feature.talent.brawler",
+      "revision": 1,
+      "path": "entities/feature/talent.brawler.json",
+      "sha256": "0046f5e4416784b84462d650d768fb7a959e5131e31abf796b74e7a2b95b05e0"
+    },
+    {
+      "id": "di.feature.talent.breacher",
+      "revision": 1,
+      "path": "entities/feature/talent.breacher.json",
+      "sha256": "3e33e543e566813e958065e91330ba670436d1dc36bb0eac7b2749f565df8777"
+    },
+    {
+      "id": "di.feature.talent.close_quarters_killer",
+      "revision": 1,
+      "path": "entities/feature/talent.close_quarters_killer.json",
+      "sha256": "5be51294996cc5198fc77a33f0d6a36f4b3c3a3f154db5563069cd5412ce0619"
+    },
+    {
+      "id": "di.feature.talent.cold_logic",
+      "revision": 1,
+      "path": "entities/feature/talent.cold_logic.json",
+      "sha256": "276755f45879b8de79beaf306002c077c7ae4a972d06670ddd9c80fb2a8fea25"
+    },
+    {
+      "id": "di.feature.talent.combat_medic",
+      "revision": 1,
+      "path": "entities/feature/talent.combat_medic.json",
+      "sha256": "6b102056c324aea5973fe9f5ef1d698fb884a0623161211a302fb450137421aa"
+    },
+    {
+      "id": "di.feature.talent.cooks_morale",
+      "revision": 1,
+      "path": "entities/feature/talent.cooks_morale.json",
+      "sha256": "419b7c05029d7e16047436dc2e1b1502bd5f6704abd1e18f425b691a9360dec4"
+    },
+    {
+      "id": "di.feature.talent.crisis_runner",
+      "revision": 1,
+      "path": "entities/feature/talent.crisis_runner.json",
+      "sha256": "42ced28ebe5171f9260cd389d585afab0b5b11bb7dc8e79acfba759a5b57b228"
+    },
+    {
+      "id": "di.feature.talent.cybernetic_implant",
+      "revision": 1,
+      "path": "entities/feature/talent.cybernetic_implant.json",
+      "sha256": "9ead19725da0e4d7e85717b44b9ca91a88e9e30d4736957609d7362c86862382"
+    },
+    {
+      "id": "di.feature.talent.dead_calm",
+      "revision": 1,
+      "path": "entities/feature/talent.dead_calm.json",
+      "sha256": "b85576e083ccfa92ff79f67bfc060a1c008e1949f9722bff981c6308a19de8a0"
+    },
+    {
+      "id": "di.feature.talent.field_armourer",
+      "revision": 1,
+      "path": "entities/feature/talent.field_armourer.json",
+      "sha256": "fdbff6fa221e430c12eb038f9f7c2ecda5e7c02373995b863f92671975430aae"
+    },
+    {
+      "id": "di.feature.talent.grenadier",
+      "revision": 1,
+      "path": "entities/feature/talent.grenadier.json",
+      "sha256": "9dda4c6ea85bb5e8437e77608a49f19a15a017705c885ea90504e3b8f8d58262"
+    },
+    {
+      "id": "di.feature.talent.heavy_weapon_training",
+      "revision": 1,
+      "path": "entities/feature/talent.heavy_weapon_training.json",
+      "sha256": "3d65278d6b9b752b8d6fde5cd4c47d67ef7a7113f8746923f3d40412c846ab89"
+    },
+    {
+      "id": "di.feature.talent.hip_fire",
+      "revision": 1,
+      "path": "entities/feature/talent.hip_fire.json",
+      "sha256": "8016a9fda4bdbabbcb43c8aa873b777d2f14b70d893653809ee143adaa52165c"
+    },
+    {
+      "id": "di.feature.talent.hive_blooded",
+      "revision": 1,
+      "path": "entities/feature/talent.hive_blooded.json",
+      "sha256": "bd3929687f82729c736e87d5721f3db204120690c9ba010bac5ed3d4ebc27f7c"
+    },
+    {
+      "id": "di.feature.talent.hold_born_engineer",
+      "revision": 1,
+      "path": "entities/feature/talent.hold_born_engineer.json",
+      "sha256": "1e62d2a66b4f8bad23f2132c390db1d4e978015572bd1891b361f188179521f8"
+    },
+    {
+      "id": "di.feature.talent.imperial_flexibility",
+      "revision": 1,
+      "path": "entities/feature/talent.imperial_flexibility.json",
+      "sha256": "ba76513ba1dfb7d991fa60a02b384b43d7b5e866c6f3a53eb430175d2474aded"
+    },
+    {
+      "id": "di.feature.talent.impossible_shot",
+      "revision": 1,
+      "path": "entities/feature/talent.impossible_shot.json",
+      "sha256": "15305aa179c249b880c6a52a105d1b01bde83bdc9fb7ec8b3a54d5869ee11ca3"
+    },
+    {
+      "id": "di.feature.talent.iron_discipline",
+      "revision": 1,
+      "path": "entities/feature/talent.iron_discipline.json",
+      "sha256": "88091bcf9b09318f0fcf41915f22e13b486fc76e2af379fadb3b4c3b58eea129"
+    },
+    {
+      "id": "di.feature.talent.iron_stance",
+      "revision": 1,
+      "path": "entities/feature/talent.iron_stance.json",
+      "sha256": "26110223cf616a5220127deef92c2ddf5b1c475dd72d1625803a6a9731f6ac66"
+    },
+    {
+      "id": "di.feature.talent.kin_weapon_master",
+      "revision": 1,
+      "path": "entities/feature/talent.kin_weapon_master.json",
+      "sha256": "1878dc049fbb6a2d9b0183d9552c1a9d54ea7d66bb411311cf0c77b1d95ebabb"
+    },
+    {
+      "id": "di.feature.talent.last_order_standing",
+      "revision": 1,
+      "path": "entities/feature/talent.last_order_standing.json",
+      "sha256": "38e3983c26d341c10866c48f752f52a5c3f451c74be61c65bca9624f25880f34"
+    },
+    {
+      "id": "di.feature.talent.loyal_as_stone",
+      "revision": 1,
+      "path": "entities/feature/talent.loyal_as_stone.json",
+      "sha256": "af5c4b6b0006d21034c7f0afbbd04f7b6ca5855f74b282182cff16fe4c98de61"
+    },
+    {
+      "id": "di.feature.talent.machine_precision",
+      "revision": 1,
+      "path": "entities/feature/talent.machine_precision.json",
+      "sha256": "14ad4f29c264113eff6f11df2aa223c2462e873426710184fb3e8af15cd13d70"
+    },
+    {
+      "id": "di.feature.talent.noospheric_burst",
+      "revision": 1,
+      "path": "entities/feature/talent.noospheric_burst.json",
+      "sha256": "b293a47a31b44f60e8aaeda827733c37299f7e52ecd27ef3307d95f25e9b37fd"
+    },
+    {
+      "id": "di.feature.talent.ogryn_wall",
+      "revision": 1,
+      "path": "entities/feature/talent.ogryn_wall.json",
+      "sha256": "ea2254f35784ea9481fe13011878811f24cf4d6700fb643afbfabc294875a072"
+    },
+    {
+      "id": "di.feature.talent.path_discipline",
+      "revision": 1,
+      "path": "entities/feature/talent.path_discipline.json",
+      "sha256": "560b371719fe5a81c101701d4d17a04f279b00015c966e5a69190fe34a0c4f05"
+    },
+    {
+      "id": "di.feature.talent.pocket_marksman",
+      "revision": 1,
+      "path": "entities/feature/talent.pocket_marksman.json",
+      "sha256": "d55ce0a8d5f13520152b694e42f60e96ae7228044f16b0e7421f32e71c45348e"
+    },
+    {
+      "id": "di.feature.talent.point_blank_execution",
+      "revision": 1,
+      "path": "entities/feature/talent.point_blank_execution.json",
+      "sha256": "c31069b5a5ac3011261b1d97d29e938c4ede655c7659f79bab7dd75c5210f386"
+    },
+    {
+      "id": "di.feature.talent.rad_hardened",
+      "revision": 1,
+      "path": "entities/feature/talent.rad_hardened.json",
+      "sha256": "9645a4461d84018f834a77278d24d168f7783f11206f0eeab5d07a92289cf9a8"
+    },
+    {
+      "id": "di.feature.talent.rangers_cloak",
+      "revision": 1,
+      "path": "entities/feature/talent.rangers_cloak.json",
+      "sha256": "5ce1efaff481da93d92c40eeba9671150652440f970a9cb304bb5fbde67b4d39"
+    },
+    {
+      "id": "di.feature.talent.rapid_reload",
+      "revision": 1,
+      "path": "entities/feature/talent.rapid_reload.json",
+      "sha256": "d462520693c9694dc9714136150c6a39d52773b67d858836f2dac8a70193357e"
+    },
+    {
+      "id": "di.feature.talent.ratling_vanish",
+      "revision": 1,
+      "path": "entities/feature/talent.ratling_vanish.json",
+      "sha256": "d96b86c89945d75372154f5affe832cdc1bb284a9fd48da3d31c4297c98b422e"
+    },
+    {
+      "id": "di.feature.talent.relic_bearer",
+      "revision": 1,
+      "path": "entities/feature/talent.relic_bearer.json",
+      "sha256": "d99f3a2c73b8b47ea07a2ca1f10d88b1a87d8ce3ef81911cde8e872827febdb2"
+    },
+    {
+      "id": "di.feature.talent.sacred_augmetics",
+      "revision": 1,
+      "path": "entities/feature/talent.sacred_augmetics.json",
+      "sha256": "d3e8e844f1f582a733f74067559f5b47afc19c003d9eca3e07cb500e27f04a1c"
+    },
+    {
+      "id": "di.feature.talent.sanctioning_scars",
+      "revision": 1,
+      "path": "entities/feature/talent.sanctioning_scars.json",
+      "sha256": "0476b64f748532e60dcb224938042b68774bc8ecf30612ba384d7b2c196991f1"
+    },
+    {
+      "id": "di.feature.talent.scavvers_luck",
+      "revision": 1,
+      "path": "entities/feature/talent.scavvers_luck.json",
+      "sha256": "7103748c5d12d65519ab6450ec565b4453bf7a37d10ff036daf592c117bc2bda"
+    },
+    {
+      "id": "di.feature.talent.suppressive_discipline",
+      "revision": 1,
+      "path": "entities/feature/talent.suppressive_discipline.json",
+      "sha256": "a61ea00e0059af3204abdee5f02b7021e14671623f8e098850e0c3d6e3447f3e"
+    },
+    {
+      "id": "di.feature.talent.tactical_reposition",
+      "revision": 1,
+      "path": "entities/feature/talent.tactical_reposition.json",
+      "sha256": "88c98ae083830fa0185c4ea994558525d2e348ce711e5952378e7d5b17cbbeef"
+    },
+    {
+      "id": "di.feature.talent.too_angry_to_notice",
+      "revision": 1,
+      "path": "entities/feature/talent.too_angry_to_notice.json",
+      "sha256": "ccf28c58e94626397b7b92e7e84d90a88a6c719f77dc33f0755f59541e00f40f"
+    },
+    {
+      "id": "di.feature.talent.void_stock",
+      "revision": 1,
+      "path": "entities/feature/talent.void_stock.json",
+      "sha256": "02ca8d29c08edbe35ba381731c80871dc6b804605b663a72f3e0372bb2a5305d"
+    },
+    {
+      "id": "di.feature.talent.weapon_specialist",
+      "revision": 1,
+      "path": "entities/feature/talent.weapon_specialist.json",
+      "sha256": "54125a4b492cca467404cafb5bdda06381b857b35464f0e45cc0786d38b99aa5"
+    },
+    {
+      "id": "di.feature.talent.witch_sight",
+      "revision": 1,
+      "path": "entities/feature/talent.witch_sight.json",
+      "sha256": "750a8ce9c7a16c2e5a2f9b33a1c766be2df0f0ae1f88a9ed5304e8943c1dde57"
+    },
+    {
+      "id": "di.feature.talent.witchblade_adept",
+      "revision": 1,
+      "path": "entities/feature/talent.witchblade_adept.json",
+      "sha256": "c4ba225e44ff59dfbae55eeb3be63c1f26bd74178264ffaf00ddac3f3e1228b3"
+    },
+    {
+      "id": "di.feature.universal.augmetic_scarred",
+      "revision": 1,
+      "path": "entities/feature/universal.augmetic_scarred.json",
+      "sha256": "cfc42e9a31ad422f379203506ae7bad4319aa82c8580a13fe880905778484060"
+    },
+    {
+      "id": "di.feature.universal.black_market_eye",
+      "revision": 1,
+      "path": "entities/feature/universal.black_market_eye.json",
+      "sha256": "353c565e79ca84f96285bafac7a5901c5b57954fd59aa7244aaad769f43f0350"
+    },
+    {
+      "id": "di.feature.universal.chem_hardened",
+      "revision": 1,
+      "path": "entities/feature/universal.chem_hardened.json",
+      "sha256": "87687cf5f917ed747827a472ecbb9abb4ac8be323626feadd3a99547fe4adf17"
+    },
+    {
+      "id": "di.feature.universal.devoted_servant",
+      "revision": 1,
+      "path": "entities/feature/universal.devoted_servant.json",
+      "sha256": "89f85ae05621c18084732d701fd2ec7f6922c3fae76eb6d25bd937b23cc0aedf"
+    },
+    {
+      "id": "di.feature.universal.dirty_pragmatist",
+      "revision": 1,
+      "path": "entities/feature/universal.dirty_pragmatist.json",
+      "sha256": "fef8652ce43f1239394e7e3465c798331d5946cb1bf9cae93d662398a79b4225"
+    },
+    {
+      "id": "di.feature.universal.faith_in_steel",
+      "revision": 1,
+      "path": "entities/feature/universal.faith_in_steel.json",
+      "sha256": "1a9e1ab71c957c86823c8b1842ffda2f4f6f790f0488c149046564e0d0131e6a"
+    },
+    {
+      "id": "di.feature.universal.faithful",
+      "revision": 1,
+      "path": "entities/feature/universal.faithful.json",
+      "sha256": "a0160f9cfdcf77e857f73db2eca94b05145badb2ed1d493333ab2e34cf9755b6"
+    },
+    {
+      "id": "di.feature.universal.field_chirurgeon",
+      "revision": 1,
+      "path": "entities/feature/universal.field_chirurgeon.json",
+      "sha256": "77731e8c31ccb7259132054c26a9adfd2f5a45fb7b337b534c1b74495105c76a"
+    },
+    {
+      "id": "di.feature.universal.grudge_bearer",
+      "revision": 1,
+      "path": "entities/feature/universal.grudge_bearer.json",
+      "sha256": "f02c860282a7c6c3ebcc609a06f9532d8c54f581de63a494c62ad67e69dfe0c1"
+    },
+    {
+      "id": "di.feature.universal.hard_to_kill",
+      "revision": 1,
+      "path": "entities/feature/universal.hard_to_kill.json",
+      "sha256": "205c2d70f51dddfecd23b047162d5493b444870fc9e4bac70bf05d48e2430ded"
+    },
+    {
+      "id": "di.feature.universal.hive_survivor",
+      "revision": 1,
+      "path": "entities/feature/universal.hive_survivor.json",
+      "sha256": "573c8977ef53cda1a80a75271650b0c9558f2c05f11543bbe2cb31eaaecad27d"
+    },
+    {
+      "id": "di.feature.universal.iron_nerves",
+      "revision": 1,
+      "path": "entities/feature/universal.iron_nerves.json",
+      "sha256": "5b62158be7a472ffc38e140cb9e17ba969d0402ae2904788e5728c5500b58ed0"
+    },
+    {
+      "id": "di.feature.universal.jaded",
+      "revision": 1,
+      "path": "entities/feature/universal.jaded.json",
+      "sha256": "a9a67bf8a4618219ad1cc5e56fe033c21e164cde470d01f204383ca730b7008c"
+    },
+    {
+      "id": "di.feature.universal.knife_in_the_boot",
+      "revision": 1,
+      "path": "entities/feature/universal.knife_in_the_boot.json",
+      "sha256": "1ae5d390acb6442dc1101b7780fb97414fdd07f57d26efac385daa3e9a604e2c"
+    },
+    {
+      "id": "di.feature.universal.litany_marked",
+      "revision": 1,
+      "path": "entities/feature/universal.litany_marked.json",
+      "sha256": "c390660bf6925114ca1d063cfaa101414f814f8152306d3472f3511374f8f196"
+    },
+    {
+      "id": "di.feature.universal.munitorum_drilled",
+      "revision": 1,
+      "path": "entities/feature/universal.munitorum_drilled.json",
+      "sha256": "c119292459f66eca3175df51f5fb6a7ebe7f4ebe7a7ead013d0e16c03c9dd67a"
+    },
+    {
+      "id": "di.feature.universal.touched_by_the_warp",
+      "revision": 1,
+      "path": "entities/feature/universal.touched_by_the_warp.json",
+      "sha256": "6f3b3545bb8615e2c38abd2daa98c71d4cf16e03653e3863c6e1d37b1dffbc94"
+    },
+    {
+      "id": "di.feature.universal.twitchy",
+      "revision": 1,
+      "path": "entities/feature/universal.twitchy.json",
+      "sha256": "c18da377ba2ed8ebf1f6d36fb3a19da498bd7f7a547aefbe1f8a533270b99f0d"
+    },
+    {
+      "id": "di.feature.universal.unnaturally_lucky",
+      "revision": 1,
+      "path": "entities/feature/universal.unnaturally_lucky.json",
+      "sha256": "ce6ac8ac16055fb145211c874707534249e87ed135b48ceab33f7f450a90d8fe"
+    },
+    {
+      "id": "di.feature.universal.vox_familiar",
+      "revision": 1,
+      "path": "entities/feature/universal.vox_familiar.json",
+      "sha256": "39b52e28c1e5de04e46cb6693f8e9e7aeeb090eca46022510f68409f4868a0a5"
+    },
+    {
+      "id": "di.proficiency.skill.acrobatics",
+      "revision": 1,
+      "path": "entities/proficiency/skill.acrobatics.json",
+      "sha256": "879c33b2139bcc74a428c7098129fb227c7747f1ad1d247ac557f41dcb8d6b87"
+    },
+    {
+      "id": "di.proficiency.skill.athletics",
+      "revision": 1,
+      "path": "entities/proficiency/skill.athletics.json",
+      "sha256": "de3dec9708976ddd7975b5abe45079ab28aacaead07b903a6585624d9d5f5abf"
+    },
+    {
+      "id": "di.proficiency.skill.deception",
+      "revision": 1,
+      "path": "entities/proficiency/skill.deception.json",
+      "sha256": "d948429c19e21fb43b4d84362708883b56f334b9c07a4b624115c6c410fd637e"
+    },
+    {
+      "id": "di.proficiency.skill.history",
+      "revision": 1,
+      "path": "entities/proficiency/skill.history.json",
+      "sha256": "c493e9d3b5ecc38a3039d663cfac00c5271fc12125a2523aa8f046e68f2f88ec"
+    },
+    {
+      "id": "di.proficiency.skill.insight",
+      "revision": 1,
+      "path": "entities/proficiency/skill.insight.json",
+      "sha256": "a2095c4188d1edb40cfcaa1aa06cc0002ecdeca9350e6e90071df8d1c42fa599"
+    },
+    {
+      "id": "di.proficiency.skill.intimidation",
+      "revision": 1,
+      "path": "entities/proficiency/skill.intimidation.json",
+      "sha256": "2d45bc32f039210ac3b233609d95c8b47fdb7858cbed85ce759fe26c0c5d57c2"
+    },
+    {
+      "id": "di.proficiency.skill.investigation",
+      "revision": 1,
+      "path": "entities/proficiency/skill.investigation.json",
+      "sha256": "fd24381bcd0e09bc88c7dfdfb007004bab691dd9530d4e2873ba90b545a8b9e8"
+    },
+    {
+      "id": "di.proficiency.skill.medicine",
+      "revision": 1,
+      "path": "entities/proficiency/skill.medicine.json",
+      "sha256": "2a8fb64058657c81ba35aa1117ab04767173b5d667563da7814fdcbcde913a53"
+    },
+    {
+      "id": "di.proficiency.skill.perception",
+      "revision": 1,
+      "path": "entities/proficiency/skill.perception.json",
+      "sha256": "0d11dc53f1bf2bd39aefc386497eb0d1fbce6e00356105e8aee8084de51bbca2"
+    },
+    {
+      "id": "di.proficiency.skill.persuasion",
+      "revision": 1,
+      "path": "entities/proficiency/skill.persuasion.json",
+      "sha256": "a36d1aa3b4cdd513250eeb808ae38158cf8aa8fbc77c0df0df02f73bb6e4ff24"
+    },
+    {
+      "id": "di.proficiency.skill.religion",
+      "revision": 1,
+      "path": "entities/proficiency/skill.religion.json",
+      "sha256": "4e229d2d9d7fb8659f56d31242401262c391b0dbe506c8dac2832e9929d518b5"
+    },
+    {
+      "id": "di.proficiency.skill.sleight_of_hand",
+      "revision": 1,
+      "path": "entities/proficiency/skill.sleight_of_hand.json",
+      "sha256": "bdb73e4df2e384961972e44f30c7736a6593c62debd58689fba78af59632083d"
+    },
+    {
+      "id": "di.proficiency.skill.stealth",
+      "revision": 1,
+      "path": "entities/proficiency/skill.stealth.json",
+      "sha256": "71e4c2c08da669eba79bf82499615f4981a7fea1c80b0178e0f8bea4aa1c2cc7"
+    },
+    {
+      "id": "di.proficiency.skill.survival",
+      "revision": 1,
+      "path": "entities/proficiency/skill.survival.json",
+      "sha256": "8c5f9d9b0d3acde421549a4b0acc23c48199123d5bbbea9d603516c7e55f9b5e"
+    },
+    {
+      "id": "di.proficiency.skill.technology",
+      "revision": 1,
+      "path": "entities/proficiency/skill.technology.json",
+      "sha256": "c5c2cabc85bb5d13172f0f9f52d9f7c56dca9c325bc6dbbe68091405cdc5cea8"
+    },
+    {
+      "id": "di.progression.aeldari_outcast",
+      "revision": 1,
+      "path": "entities/progression/aeldari_outcast.json",
+      "sha256": "cddb54f1b546f3eca34399f4eaf741703900d99dbcb49802f3c784b73ec63190"
+    },
+    {
+      "id": "di.progression.aeldari_warlock",
+      "revision": 1,
+      "path": "entities/progression/aeldari_warlock.json",
+      "sha256": "d24067cd3959b1e442a57aa59c4250ba68ca3d64aee4edaf10a71e06a823d523"
+    },
+    {
+      "id": "di.progression.arbites_enforcer",
+      "revision": 1,
+      "path": "entities/progression/arbites_enforcer.json",
+      "sha256": "dbc8f55e7c742f76d49b18c007e90c0b28da80f06bc317495ddf829ed53175e5"
+    },
+    {
+      "id": "di.progression.hernkyn_prospector",
+      "revision": 1,
+      "path": "entities/progression/hernkyn_prospector.json",
+      "sha256": "49209831b6a2367a5960f117a12a8f7c73f3e744cb45eece3f9c5156b1492a63"
+    },
+    {
+      "id": "di.progression.hive_scum",
+      "revision": 1,
+      "path": "entities/progression/hive_scum.json",
+      "sha256": "7a8922ae2b870ae538f095b51a1782b3d920d971940c2165b068edd9d0f554d6"
+    },
+    {
+      "id": "di.progression.kin_armsman",
+      "revision": 1,
+      "path": "entities/progression/kin_armsman.json",
+      "sha256": "72ab3189bfae1e2353077cde2c961caa3d856379ebc2dea5df581c4f117b73fc"
+    },
+    {
+      "id": "di.progression.ogryn_skullbreaker",
+      "revision": 1,
+      "path": "entities/progression/ogryn_skullbreaker.json",
+      "sha256": "3da8f342227881989fe5519e31dd4940ae2b51f37c329e20b8d74f752e5b762a"
+    },
+    {
+      "id": "di.progression.psyker",
+      "revision": 1,
+      "path": "entities/progression/psyker.json",
+      "sha256": "50c87ada3668f822eea4e3e8828169210e4462850357297c96d8286332c6dbfb"
+    },
+    {
+      "id": "di.progression.ratling_sharpshooter",
+      "revision": 1,
+      "path": "entities/progression/ratling_sharpshooter.json",
+      "sha256": "82965870dd9b21b4c63310664ac4744622c2f64929f1b0eceafe65030385cbc3"
+    },
+    {
+      "id": "di.progression.skitarii_veteran",
+      "revision": 1,
+      "path": "entities/progression/skitarii_veteran.json",
+      "sha256": "6331b6219e841f9900e73e34c45a6f775fe5b00b8c3ef06050b275c723927376"
+    },
+    {
+      "id": "di.progression.subclass.veteran.marksman",
+      "revision": 1,
+      "path": "entities/progression/subclass.veteran.marksman.json",
+      "sha256": "faf5def00fcada83defd545bab58e09bad3fe8c609e1043ccd97417475f07010"
+    },
+    {
+      "id": "di.progression.subclass.veteran.sergeant",
+      "revision": 1,
+      "path": "entities/progression/subclass.veteran.sergeant.json",
+      "sha256": "84ad4ca2a3290768877e2f19d4a66533db8432f930efd8a4226ea8ba8565fb40"
+    },
+    {
+      "id": "di.progression.subclass.veteran.shock_trooper",
+      "revision": 1,
+      "path": "entities/progression/subclass.veteran.shock_trooper.json",
+      "sha256": "769bdbb8791bf701ed0d704cd4d24221da9cdca7d61be883146160a813f37e08"
+    },
+    {
+      "id": "di.progression.veteran",
+      "revision": 1,
+      "path": "entities/progression/veteran.json",
+      "sha256": "da32b2b9468f6656a1b683ee4781b8edc646a9c023c35243b2e3542f05973c98"
+    },
+    {
+      "id": "di.progression.zealot",
+      "revision": 1,
+      "path": "entities/progression/zealot.json",
+      "sha256": "146cfbf17083a0a7f8837ff5a42ae1f5b0c2588f35c0a634b2d56c6aba564515"
+    },
+    {
+      "id": "di.property.weapon.accurate",
+      "revision": 1,
+      "path": "entities/property/weapon.accurate.json",
+      "sha256": "81b3861cb2fd3be5e562cf6e3e24db9157abfd92b89ad2f551cd304d11d20c2a"
+    },
+    {
+      "id": "di.property.weapon.armour_breaking",
+      "revision": 1,
+      "path": "entities/property/weapon.armour_breaking.json",
+      "sha256": "3f6920ea6aee0e11c81ec3baf53d6d94dfe27521fff7b9224346f7392d7de974"
+    },
+    {
+      "id": "di.property.weapon.beam",
+      "revision": 1,
+      "path": "entities/property/weapon.beam.json",
+      "sha256": "39b6c651ab0e83313a36885af9bf1066fbb686c6715fa8bab62b822b93c739f9"
+    },
+    {
+      "id": "di.property.weapon.blast",
+      "revision": 1,
+      "path": "entities/property/weapon.blast.json",
+      "sha256": "c3b9696e24d1e9562c47f449dd2f99241176b9c0af805dd9c19d950956581df7"
+    },
+    {
+      "id": "di.property.weapon.brutal",
+      "revision": 1,
+      "path": "entities/property/weapon.brutal.json",
+      "sha256": "aff2e2975dd8c3f536e3d0791419b1b376f7cafe4a8d83876ee5235cdb4adb37"
+    },
+    {
+      "id": "di.property.weapon.burst",
+      "revision": 1,
+      "path": "entities/property/weapon.burst.json",
+      "sha256": "110cce56b2268b1b36e334eb7bf8f2218bcd5c1ca4cdfc47c3d24d1f2c936ca2"
+    },
+    {
+      "id": "di.property.weapon.chain",
+      "revision": 1,
+      "path": "entities/property/weapon.chain.json",
+      "sha256": "7887ed9e31ab3f6169c889c60a762fbf8ff14a85713eae8cf53e59627e538223"
+    },
+    {
+      "id": "di.property.weapon.close_quarters",
+      "revision": 1,
+      "path": "entities/property/weapon.close_quarters.json",
+      "sha256": "1e3906dbc605952de09fca8ad6807097955ac9b31e021ac4f1689dd8fb76d3cd"
+    },
+    {
+      "id": "di.property.weapon.emplaced",
+      "revision": 1,
+      "path": "entities/property/weapon.emplaced.json",
+      "sha256": "8d27ef8a8685843356efbf29773ceca9cb71e7547b5a8d2d8969b411252c558a"
+    },
+    {
+      "id": "di.property.weapon.entangling",
+      "revision": 1,
+      "path": "entities/property/weapon.entangling.json",
+      "sha256": "5764245fb32e2ee6e33f352fa86e5681ff522e5767e71122e35012059ac69177"
+    },
+    {
+      "id": "di.property.weapon.finesse",
+      "revision": 1,
+      "path": "entities/property/weapon.finesse.json",
+      "sha256": "8b1e7d29b9708449f8bbcfddfbbf21dbb4b834c336bdd038414a660f4e623bf8"
+    },
+    {
+      "id": "di.property.weapon.focus",
+      "revision": 1,
+      "path": "entities/property/weapon.focus.json",
+      "sha256": "0657de06d39b9a664090012b84b4fa5b7eff97c7f712275c3ebc0d4afd8dffdc"
+    },
+    {
+      "id": "di.property.weapon.heavy",
+      "revision": 1,
+      "path": "entities/property/weapon.heavy.json",
+      "sha256": "0d1c10be8a1e8e0d30320a295dfdf8800143d2afc1b031b469161f66859109f6"
+    },
+    {
+      "id": "di.property.weapon.industrial",
+      "revision": 1,
+      "path": "entities/property/weapon.industrial.json",
+      "sha256": "d123f8429d7ad5360ad10b0ce817200bb03e8507ab7724597c380555beced608"
+    },
+    {
+      "id": "di.property.weapon.light",
+      "revision": 1,
+      "path": "entities/property/weapon.light.json",
+      "sha256": "6d8e022bf7f0ca88eac6d6291b3a449f53f86c8d31d689389fedb4cdcbc90a17"
+    },
+    {
+      "id": "di.property.weapon.mechanicus",
+      "revision": 1,
+      "path": "entities/property/weapon.mechanicus.json",
+      "sha256": "9657a94c3d4997e7f1e3af8144aadf1a8378f01615ff2e21793e05b2eaeaf836"
+    },
+    {
+      "id": "di.property.weapon.monomolecular",
+      "revision": 1,
+      "path": "entities/property/weapon.monomolecular.json",
+      "sha256": "4392df319b6b4dd255363137b9e9c53b328f72065dc2a51a9181ff1547c199dd"
+    },
+    {
+      "id": "di.property.weapon.ogryn",
+      "revision": 1,
+      "path": "entities/property/weapon.ogryn.json",
+      "sha256": "447e9ea650dc0dfedb06be780a4d699cb8263d97382c5020422dd6c08dc72562"
+    },
+    {
+      "id": "di.property.weapon.overheat",
+      "revision": 1,
+      "path": "entities/property/weapon.overheat.json",
+      "sha256": "a17ffd9220ac61b30406ccb460d41cc126c21f9379fdf23a8b555b0a3607d78a"
+    },
+    {
+      "id": "di.property.weapon.power_field",
+      "revision": 1,
+      "path": "entities/property/weapon.power_field.json",
+      "sha256": "206ae174570aad4beb8a769b3e078bb5b068c045c51e6297f5991b519910195f"
+    },
+    {
+      "id": "di.property.weapon.psyker",
+      "revision": 1,
+      "path": "entities/property/weapon.psyker.json",
+      "sha256": "b8f3065a25c91b4144286221360e4dd8e13cfbd2662133ba4e7042b0ea0b2992"
+    },
+    {
+      "id": "di.property.weapon.reload",
+      "revision": 1,
+      "path": "entities/property/weapon.reload.json",
+      "sha256": "1f2893aea60df47d991cf81a69f8983e82060257b2a4e63db9e972a3a6e4b86f"
+    },
+    {
+      "id": "di.property.weapon.shield",
+      "revision": 1,
+      "path": "entities/property/weapon.shield.json",
+      "sha256": "bb861fe974117e47cbcf22a56ee3c28ddb9586cbad8945f0feeabcfb86ddd24f"
+    },
+    {
+      "id": "di.property.weapon.shock",
+      "revision": 1,
+      "path": "entities/property/weapon.shock.json",
+      "sha256": "2478d9e48f29d3b86dc62401a7fdc1c5fe8e03c6f09b043242ec20526331b51b"
+    },
+    {
+      "id": "di.property.weapon.silent",
+      "revision": 1,
+      "path": "entities/property/weapon.silent.json",
+      "sha256": "0f993121d5591242978faa6833a26f9757b0965aebfb95a49c1a24cf81c9dbb1"
+    },
+    {
+      "id": "di.property.weapon.spirit_weapon",
+      "revision": 1,
+      "path": "entities/property/weapon.spirit_weapon.json",
+      "sha256": "6d2d815b72f2af27928fad935d68efc391dcc9f8fd6d6b9c40b6b02ad33dce8e"
+    },
+    {
+      "id": "di.property.weapon.spray",
+      "revision": 1,
+      "path": "entities/property/weapon.spray.json",
+      "sha256": "9add46e9855b34bcb5104ce15a06357022704eeebcf13dd0f94014e513b6f058"
+    },
+    {
+      "id": "di.property.weapon.suppression",
+      "revision": 1,
+      "path": "entities/property/weapon.suppression.json",
+      "sha256": "a98184e0678231cad7f9c87d9710f987224b4d5fff4195b46cde7e2d86a0d3c9"
+    },
+    {
+      "id": "di.property.weapon.thrown",
+      "revision": 1,
+      "path": "entities/property/weapon.thrown.json",
+      "sha256": "43d12c023f7efa0f6750a542db9201ac0cc9278bea644f6d28f8cc7395d9292e"
+    },
+    {
+      "id": "di.property.weapon.twin_linked",
+      "revision": 1,
+      "path": "entities/property/weapon.twin_linked.json",
+      "sha256": "567ad2208a0153f21bc48abc952ff1d4238428294eaec923a960451b6a316918"
+    },
+    {
+      "id": "di.property.weapon.versatile",
+      "revision": 1,
+      "path": "entities/property/weapon.versatile.json",
+      "sha256": "5b92941cc6991d27cd6d37c78ba7db328bb8bca3486fe6f0ee80a822f52302bc"
+    },
+    {
+      "id": "di.rule.phb_14_1",
+      "revision": 1,
+      "path": "entities/rule/phb_14_1.json",
+      "sha256": "6cbf85b152ad76ba609dc3edf8ffd9cfe59234bd4e27bb5aea54c931e16f2f68"
+    },
+    {
+      "id": "di.rule.phb_14_2",
+      "revision": 1,
+      "path": "entities/rule/phb_14_2.json",
+      "sha256": "36473b05256ce1df0e3d18e0ab79e1e9308a944519f96dd7a75953f12f726668"
+    },
+    {
+      "id": "di.rule.phb_14_3",
+      "revision": 1,
+      "path": "entities/rule/phb_14_3.json",
+      "sha256": "f15a2a553941be7be58f9440ba001bbe98daa0e9c97554c211eb17540593c976"
+    },
+    {
+      "id": "di.rule.phb_14_4",
+      "revision": 1,
+      "path": "entities/rule/phb_14_4.json",
+      "sha256": "14971915169e4f973bac96bd9db0545e4063e673938cbdbcfe2b73ae2c51669a"
+    },
+    {
+      "id": "di.rule.phb_14_5",
+      "revision": 1,
+      "path": "entities/rule/phb_14_5.json",
+      "sha256": "5ee64eabc2a3b67193ff847c2433caba661e2252efb217d9e7bbb94eb3496c44"
+    },
+    {
+      "id": "di.rule.phb_14_6",
+      "revision": 1,
+      "path": "entities/rule/phb_14_6.json",
+      "sha256": "61dff986a2c9ded94f440e7993a6ec89a95a6562abb35a21b83096c119ec28cb"
+    },
+    {
+      "id": "di.rule.phb_14_7",
+      "revision": 1,
+      "path": "entities/rule/phb_14_7.json",
+      "sha256": "986e97d6cf2297e9d7adee30e811ca23d2fa790e5767eb81697ba02846cfdfff"
+    },
+    {
+      "id": "di.rule.phb_14_8",
+      "revision": 1,
+      "path": "entities/rule/phb_14_8.json",
+      "sha256": "17d25605e2d846fbfaaf5efe54b0a430f6405872277408253a84fae5b22ea23b"
+    },
+    {
+      "id": "di.rule.phb_15_1",
+      "revision": 1,
+      "path": "entities/rule/phb_15_1.json",
+      "sha256": "8708ac357cac6ca89124f71daaba36a39b8c38cf14759a81245bfb175fe74eeb"
+    },
+    {
+      "id": "di.rule.phb_15_2",
+      "revision": 1,
+      "path": "entities/rule/phb_15_2.json",
+      "sha256": "e6d5bafb4549f005b20c4136e0a725dbbb5c198028ab2b77d887f3c78295ec33"
+    },
+    {
+      "id": "di.rule.phb_15_3",
+      "revision": 1,
+      "path": "entities/rule/phb_15_3.json",
+      "sha256": "38140ed557ba221f9a0c12d6e0a97c010889894ead660b6645a2a4ac2caaf69e"
+    },
+    {
+      "id": "di.rule.phb_15_4_1",
+      "revision": 1,
+      "path": "entities/rule/phb_15_4_1.json",
+      "sha256": "36b5a5aae7d3201b159669d7a1e636a0b36e441c6ad985d77613eb9aa6a9447b"
+    },
+    {
+      "id": "di.rule.phb_15_4_2",
+      "revision": 1,
+      "path": "entities/rule/phb_15_4_2.json",
+      "sha256": "a9fd01b25d8535d4b6c7d6d4c369029d8fced2ea77883a36995fd638e7b096da"
+    },
+    {
+      "id": "di.rule.phb_15_4_3",
+      "revision": 1,
+      "path": "entities/rule/phb_15_4_3.json",
+      "sha256": "c94c0b7693cc20d1bb26a14023cfb7a9cd060403bc7cfc8656862e62aa46b6f3"
+    },
+    {
+      "id": "di.rule.phb_15_4_4",
+      "revision": 1,
+      "path": "entities/rule/phb_15_4_4.json",
+      "sha256": "d9c2fc456ca6d40cf3831ca3195d4bbed38e44aac12cb931d458ed22635046d6"
+    },
+    {
+      "id": "di.rule.phb_15_4_5",
+      "revision": 1,
+      "path": "entities/rule/phb_15_4_5.json",
+      "sha256": "4770c01a3b2b5b675ee6394c0eb0d23a6deccb1ca080ed4ff27269dea5e3afd3"
+    },
+    {
+      "id": "di.rule.phb_15_4_6",
+      "revision": 1,
+      "path": "entities/rule/phb_15_4_6.json",
+      "sha256": "0e8c248524e3b695f553421206430fe74fe54e5c9cf0b0a9123f8f18ca82d09c"
+    },
+    {
+      "id": "di.rule.phb_15_4_7",
+      "revision": 1,
+      "path": "entities/rule/phb_15_4_7.json",
+      "sha256": "0478cc5e57292e1e475809ff13430f9cbc373189513b1a76ad7cc515ab5fc80f"
+    },
+    {
+      "id": "di.rule.phb_15_4_8",
+      "revision": 1,
+      "path": "entities/rule/phb_15_4_8.json",
+      "sha256": "86cfecca4b7916cd5762e4e467ea994a52442ba5272c821976fe42acf94dd6b4"
+    },
+    {
+      "id": "di.rule.phb_15_5",
+      "revision": 1,
+      "path": "entities/rule/phb_15_5.json",
+      "sha256": "88d8a47ed9188778a91d8c665fc9c4a294f73e08344bc3af488f08bb24a4c05d"
+    },
+    {
+      "id": "di.rule.phb_15_6",
+      "revision": 1,
+      "path": "entities/rule/phb_15_6.json",
+      "sha256": "fe710df41491f3526683a8fce67ce2dd9cf3028da6ae93795bccf58c9ef989f4"
+    },
+    {
+      "id": "di.rule.phb_15_7",
+      "revision": 1,
+      "path": "entities/rule/phb_15_7.json",
+      "sha256": "06a49e89c27704aecfa605809598107ef0a0191e165a387e5a851908a0889f9c"
+    },
+    {
+      "id": "di.rule.phb_16_1",
+      "revision": 1,
+      "path": "entities/rule/phb_16_1.json",
+      "sha256": "718a5ff95942bc95fb741204a75f3b72844b83235d59ae415872ad88b1b2ae8a"
+    },
+    {
+      "id": "di.rule.phb_16_2",
+      "revision": 1,
+      "path": "entities/rule/phb_16_2.json",
+      "sha256": "d130f5c265f4e519507ba8fd495b6b6f85cbb14bd9add10cadaf826dde07f972"
+    },
+    {
+      "id": "di.rule.phb_16_3",
+      "revision": 1,
+      "path": "entities/rule/phb_16_3.json",
+      "sha256": "b4fc9dcf871d02135739fc025bababbd8bd43e6e4ec01d12f7ee78811475d07c"
+    },
+    {
+      "id": "di.rule.phb_16_4",
+      "revision": 1,
+      "path": "entities/rule/phb_16_4.json",
+      "sha256": "8a2ae62ade21ad755c9deb605eeb92d695061795a60386a2cc4942375594ac02"
+    },
+    {
+      "id": "di.rule.phb_18_1",
+      "revision": 1,
+      "path": "entities/rule/phb_18_1.json",
+      "sha256": "629a8d353e593d068c514ba7f7cd6117ab9aec668eb20544fa6f4b2222a9f298"
+    },
+    {
+      "id": "di.rule.phb_18_10",
+      "revision": 1,
+      "path": "entities/rule/phb_18_10.json",
+      "sha256": "1658b22fc25b4784a18e090780e621209fe5ab68e6a2356d31c2ee36be23d2b8"
+    },
+    {
+      "id": "di.rule.phb_18_11",
+      "revision": 1,
+      "path": "entities/rule/phb_18_11.json",
+      "sha256": "12d1770f33187b840537ce05fc1a191bcd1c82d0bed25b84b6e832a373733b14"
+    },
+    {
+      "id": "di.rule.phb_18_12",
+      "revision": 1,
+      "path": "entities/rule/phb_18_12.json",
+      "sha256": "a845a4008a766907421843fb497a830ea5f9f924ef25c5f04bd1f6b041217854"
+    },
+    {
+      "id": "di.rule.phb_18_13",
+      "revision": 1,
+      "path": "entities/rule/phb_18_13.json",
+      "sha256": "124775317c35b1a31a64ff761f59aad7164a63ea1a3a8c37b4e32a317c6a99a8"
+    },
+    {
+      "id": "di.rule.phb_18_14",
+      "revision": 1,
+      "path": "entities/rule/phb_18_14.json",
+      "sha256": "160e35efc16b0008bbb5548ea38a06669987d02e107d583f34bb4dce8930323f"
+    },
+    {
+      "id": "di.rule.phb_18_14_1",
+      "revision": 1,
+      "path": "entities/rule/phb_18_14_1.json",
+      "sha256": "073aa5ddef1e9bde24edbdb108af3c203c553e69785650e4ab14b3c4fc8618a3"
+    },
+    {
+      "id": "di.rule.phb_18_14_2",
+      "revision": 1,
+      "path": "entities/rule/phb_18_14_2.json",
+      "sha256": "b2f05b7bcfdbcfc4b33e01ce5d0a08679f08b6ff6eedb362c8170f3d344d5096"
+    },
+    {
+      "id": "di.rule.phb_18_14_3",
+      "revision": 1,
+      "path": "entities/rule/phb_18_14_3.json",
+      "sha256": "24b1787af9d5f7c88936c15c31c01ef13b25d0f455a7e0d1057d314563e56a5a"
+    },
+    {
+      "id": "di.rule.phb_18_14_4",
+      "revision": 1,
+      "path": "entities/rule/phb_18_14_4.json",
+      "sha256": "fc0a490b9ba14d4f0da6e87bb72ff3656a6c5fbbefeaa41926c608bc5b412731"
+    },
+    {
+      "id": "di.rule.phb_18_14_5",
+      "revision": 1,
+      "path": "entities/rule/phb_18_14_5.json",
+      "sha256": "d0c3b9804722621b6ede48372b461bb74c0ea91e556b105d0c181889207799e8"
+    },
+    {
+      "id": "di.rule.phb_18_14_6",
+      "revision": 1,
+      "path": "entities/rule/phb_18_14_6.json",
+      "sha256": "6a6440590b78657ffc300ddc75a8905ee26d24d1a647d14e83428870e1ed4d57"
+    },
+    {
+      "id": "di.rule.phb_18_2",
+      "revision": 1,
+      "path": "entities/rule/phb_18_2.json",
+      "sha256": "766e6950a680a044518115a38e452fc76965526537158cd120dac78a964c0f46"
+    },
+    {
+      "id": "di.rule.phb_18_3",
+      "revision": 1,
+      "path": "entities/rule/phb_18_3.json",
+      "sha256": "83d7a3be64123d155947c686bcd9a92c843ecf77839fa0ee1b8e31f06895909e"
+    },
+    {
+      "id": "di.rule.phb_18_4",
+      "revision": 1,
+      "path": "entities/rule/phb_18_4.json",
+      "sha256": "54c223d91e863434adcfd820bf64908a6f1516502ae1b11615fd5576dc8bcd2d"
+    },
+    {
+      "id": "di.rule.phb_18_5",
+      "revision": 1,
+      "path": "entities/rule/phb_18_5.json",
+      "sha256": "79dc87862c2ac340c869ddaba19ddd4406ae8f5881035811dcc7936c2b2a54ca"
+    },
+    {
+      "id": "di.rule.phb_18_6",
+      "revision": 1,
+      "path": "entities/rule/phb_18_6.json",
+      "sha256": "aab2dc55532857765c39e3806acb186be47cb83ff4983481e422428f20c1da55"
+    },
+    {
+      "id": "di.rule.phb_18_7",
+      "revision": 1,
+      "path": "entities/rule/phb_18_7.json",
+      "sha256": "7b5e645997957190ed889408b624dc9ebc5abee26edb5cab3efcde76731706ed"
+    },
+    {
+      "id": "di.rule.phb_18_8",
+      "revision": 1,
+      "path": "entities/rule/phb_18_8.json",
+      "sha256": "fd5d862cbb309b1de5022fb3ed962d41134826e274f29d882a0daf8ad0612ddc"
+    },
+    {
+      "id": "di.rule.phb_18_9",
+      "revision": 1,
+      "path": "entities/rule/phb_18_9.json",
+      "sha256": "1183f45d10eafd835cc8c35b9cf62f3051d3302038ac7b33e31d26a1d22ae5a3"
+    },
+    {
+      "id": "di.rule.phb_19_1",
+      "revision": 1,
+      "path": "entities/rule/phb_19_1.json",
+      "sha256": "37e61957dd86e89d7d2419982b37853950b94f6dbc5650e052780cecdd7715ed"
+    },
+    {
+      "id": "di.rule.phb_19_2",
+      "revision": 1,
+      "path": "entities/rule/phb_19_2.json",
+      "sha256": "35ca77f738905b7cdf5a69e61a8ba9a12df3af739843b51bd2b44f6fc117ef49"
+    },
+    {
+      "id": "di.rule.phb_19_3",
+      "revision": 1,
+      "path": "entities/rule/phb_19_3.json",
+      "sha256": "cd31ae1c3921f46438367291d8633598a89de8a08d59302ce1178c88fc385eb1"
+    },
+    {
+      "id": "di.rule.phb_19_4",
+      "revision": 1,
+      "path": "entities/rule/phb_19_4.json",
+      "sha256": "2610ed30e821584ca4363001dee3aeaed4e2a6b1464e628b3281270d7f733566"
+    },
+    {
+      "id": "di.rule.phb_1_1",
+      "revision": 1,
+      "path": "entities/rule/phb_1_1.json",
+      "sha256": "22328fdd7615232eb4d7d2c8014bc82e81916239dbc98597f5430854daf030f8"
+    },
+    {
+      "id": "di.rule.phb_1_2",
+      "revision": 1,
+      "path": "entities/rule/phb_1_2.json",
+      "sha256": "370719ff32940ba98f1853302db63a3c525adea346fbf84c09dfeb0a47122017"
+    },
+    {
+      "id": "di.rule.phb_1_3",
+      "revision": 1,
+      "path": "entities/rule/phb_1_3.json",
+      "sha256": "c2bc380bb274f9ca61956cf5f6d7d678997c74ee4870c00e0bc1e1ea4d4689eb"
+    },
+    {
+      "id": "di.rule.phb_1_4",
+      "revision": 1,
+      "path": "entities/rule/phb_1_4.json",
+      "sha256": "a0058b03112a2607cc666f63c57216a73e4ee9de9e7bf3c1cd0e85dd34ee00c2"
+    },
+    {
+      "id": "di.rule.phb_1_5",
+      "revision": 1,
+      "path": "entities/rule/phb_1_5.json",
+      "sha256": "d23a3c749affda9f24a5fece8162d0576c8e0fbab946288f913ba2598192dd84"
+    },
+    {
+      "id": "di.rule.phb_20_1",
+      "revision": 1,
+      "path": "entities/rule/phb_20_1.json",
+      "sha256": "43f70bcaf482e0d2f780d5f50ac287fd556119fa61308907db4473a5be93694f"
+    },
+    {
+      "id": "di.rule.phb_20_2",
+      "revision": 1,
+      "path": "entities/rule/phb_20_2.json",
+      "sha256": "b07e1b9049a073b2adf1766996745b1b151b7e4971cdc057f99859865f48d711"
+    },
+    {
+      "id": "di.rule.phb_21_1",
+      "revision": 1,
+      "path": "entities/rule/phb_21_1.json",
+      "sha256": "e1e99590a562af22e798bb1ba8ee16b4a00c7d4961316c3a1c9944d73963a4f0"
+    },
+    {
+      "id": "di.rule.phb_21_10",
+      "revision": 1,
+      "path": "entities/rule/phb_21_10.json",
+      "sha256": "d5b0fbe69eabe1b8430d7dbd4326f600dd2f4af947d61cadfaa0aabe7ca20436"
+    },
+    {
+      "id": "di.rule.phb_21_11",
+      "revision": 1,
+      "path": "entities/rule/phb_21_11.json",
+      "sha256": "1e78f294a5c5165f0003fc57b7934a06f63782a5a3875f11c1a319e48244b48c"
+    },
+    {
+      "id": "di.rule.phb_21_2",
+      "revision": 1,
+      "path": "entities/rule/phb_21_2.json",
+      "sha256": "1bfeed5b0faf8b6c122a2803c4c8a9605bc8cefca0a969ef274813580642e449"
+    },
+    {
+      "id": "di.rule.phb_21_3",
+      "revision": 1,
+      "path": "entities/rule/phb_21_3.json",
+      "sha256": "51cf9b62e5933fd40b6cedcbe4101da2b5933551c6543d279c8ebbed9603d3e2"
+    },
+    {
+      "id": "di.rule.phb_21_4",
+      "revision": 1,
+      "path": "entities/rule/phb_21_4.json",
+      "sha256": "5f2e348de5eaa4f472bbda1e723626595023b52f91f7675a1a8584e18e43620d"
+    },
+    {
+      "id": "di.rule.phb_21_5",
+      "revision": 1,
+      "path": "entities/rule/phb_21_5.json",
+      "sha256": "218c9b3f06ed2e1393bb312a30923c91996a1ad967546ce65a6fa015ca2dc84e"
+    },
+    {
+      "id": "di.rule.phb_21_6",
+      "revision": 1,
+      "path": "entities/rule/phb_21_6.json",
+      "sha256": "92e5330869af3ab7870cc27427e0331abdf3364ee618738a55ae3ff4c316fc4d"
+    },
+    {
+      "id": "di.rule.phb_21_7",
+      "revision": 1,
+      "path": "entities/rule/phb_21_7.json",
+      "sha256": "79b8f0806717b83c797c8d202c4e943798caf5f30f4d217f3a01184820e6e858"
+    },
+    {
+      "id": "di.rule.phb_21_8",
+      "revision": 1,
+      "path": "entities/rule/phb_21_8.json",
+      "sha256": "4dabfdc01c52d0e2840f73223d8f730bb146548f82b6af3096ac224cbdfbace0"
+    },
+    {
+      "id": "di.rule.phb_21_9",
+      "revision": 1,
+      "path": "entities/rule/phb_21_9.json",
+      "sha256": "cb5a3f52bcc3ba7f82dc870b40d880c663a798a6d9b2a7e7bfbcc3758c82ff8d"
+    },
+    {
+      "id": "di.rule.phb_2_1",
+      "revision": 1,
+      "path": "entities/rule/phb_2_1.json",
+      "sha256": "95f0b7591a1fbb890a86496b53db98a5f9bf0d722ee5eb45b0898b7bb3cdd790"
+    },
+    {
+      "id": "di.rule.phb_2_2",
+      "revision": 1,
+      "path": "entities/rule/phb_2_2.json",
+      "sha256": "bcf5311763a0282b1b40050c5901c1f41c0481fa9e2ec71449bcdd140c178871"
+    },
+    {
+      "id": "di.rule.phb_2_3",
+      "revision": 1,
+      "path": "entities/rule/phb_2_3.json",
+      "sha256": "e1c1946cdd1341e988f010a1c262e0ebffc3859f9fdb16430bfd6e3719336724"
+    },
+    {
+      "id": "di.rule.phb_2_3_1",
+      "revision": 1,
+      "path": "entities/rule/phb_2_3_1.json",
+      "sha256": "b70c7459695a20c0e2c0c11418ecc522a7ac3b33eb1883291072a790b9509f9f"
+    },
+    {
+      "id": "di.rule.phb_2_4_1",
+      "revision": 1,
+      "path": "entities/rule/phb_2_4_1.json",
+      "sha256": "9926ebbe90564030cfa565136743853a454acec02c2042ae79a77e8d2de45207"
+    },
+    {
+      "id": "di.rule.phb_2_4_2",
+      "revision": 1,
+      "path": "entities/rule/phb_2_4_2.json",
+      "sha256": "5edb64034c3643c27628e0788e6d7beb92521ec7c624d28edf2328b5c1812133"
+    },
+    {
+      "id": "di.rule.phb_2_4_3",
+      "revision": 1,
+      "path": "entities/rule/phb_2_4_3.json",
+      "sha256": "ef027345ada4f5be513569ed4aec192bbc3e9db345e7fa240fc7718314360e6c"
+    },
+    {
+      "id": "di.rule.phb_2_4_4",
+      "revision": 1,
+      "path": "entities/rule/phb_2_4_4.json",
+      "sha256": "b1b6b9c1d7eb43285718778497a10e54f261a925352fe662e1e6c19b216ec418"
+    },
+    {
+      "id": "di.rule.phb_2_4_5",
+      "revision": 1,
+      "path": "entities/rule/phb_2_4_5.json",
+      "sha256": "a7fc14eeb994c2d4149ea5ef8b15abe5f629630f82fb6abee92206b244aa72df"
+    },
+    {
+      "id": "di.rule.phb_2_4_6",
+      "revision": 1,
+      "path": "entities/rule/phb_2_4_6.json",
+      "sha256": "51711ce477251ca914dc86ea113fecae1b723030860073ab6d94ad5f85380255"
+    },
+    {
+      "id": "di.rule.phb_2_5",
+      "revision": 1,
+      "path": "entities/rule/phb_2_5.json",
+      "sha256": "0d7b65391088ecfccc1bbe44f14a7229571d7e14ee838d9b19e394162c0939f1"
+    },
+    {
+      "id": "di.rule.phb_6_1",
+      "revision": 1,
+      "path": "entities/rule/phb_6_1.json",
+      "sha256": "f2226569c28000cafe8aaff353008261f488fa5be52cbe437982d0cdf92087b6"
+    },
+    {
+      "id": "di.rule.phb_6_10",
+      "revision": 1,
+      "path": "entities/rule/phb_6_10.json",
+      "sha256": "21b5d22db592bd5f99b69acc04a041c86dd0fd7e431663c4483ad3877440d42b"
+    },
+    {
+      "id": "di.rule.phb_6_11",
+      "revision": 1,
+      "path": "entities/rule/phb_6_11.json",
+      "sha256": "af18035e15930948edb3670a34dc37b4f302a8684a582f7f66aac92fc5049fdb"
+    },
+    {
+      "id": "di.rule.phb_6_12",
+      "revision": 1,
+      "path": "entities/rule/phb_6_12.json",
+      "sha256": "68f5273b31bca60508ad489baed56c674d473c7095d11f21b3c7b70a8d70b473"
+    },
+    {
+      "id": "di.rule.phb_6_13",
+      "revision": 1,
+      "path": "entities/rule/phb_6_13.json",
+      "sha256": "8fe0e7d171b6b3ca6bfbe33644bca5d75f4dd418557a5671388232148436e67c"
+    },
+    {
+      "id": "di.rule.phb_6_14",
+      "revision": 1,
+      "path": "entities/rule/phb_6_14.json",
+      "sha256": "01a0b1e2c89842d581c70d0067db9fc0bdf3dace451ba8de7b5e6831167dd309"
+    },
+    {
+      "id": "di.rule.phb_6_2",
+      "revision": 1,
+      "path": "entities/rule/phb_6_2.json",
+      "sha256": "c97515f8033b9978dae78f0e77b4b8aea96e278348d70e6a8163c8f9cff9d77a"
+    },
+    {
+      "id": "di.rule.phb_6_3",
+      "revision": 1,
+      "path": "entities/rule/phb_6_3.json",
+      "sha256": "5dee5f87b1ad3f36b79c88f1d2aa3a4dfc17239fac54b273e79696b1a7b873b1"
+    },
+    {
+      "id": "di.rule.phb_6_4",
+      "revision": 1,
+      "path": "entities/rule/phb_6_4.json",
+      "sha256": "4b9cf702ec163ec60dc9a23c4807dfe7de4d60db594809ac7a92cc80333a5da2"
+    },
+    {
+      "id": "di.rule.phb_6_5",
+      "revision": 1,
+      "path": "entities/rule/phb_6_5.json",
+      "sha256": "19559356af3c460fc939d890988b85a8dba470368d4d0b952ba78aeb676b6722"
+    },
+    {
+      "id": "di.rule.phb_6_6",
+      "revision": 1,
+      "path": "entities/rule/phb_6_6.json",
+      "sha256": "5e9ccaae254c44937a83c83615d930ed008556b9a3305713347d6818ad85832f"
+    },
+    {
+      "id": "di.rule.phb_6_7",
+      "revision": 1,
+      "path": "entities/rule/phb_6_7.json",
+      "sha256": "9cde8770ea90a9f3f9e412afdd9dcdcd5c38c451450983a98ab0340f478239f9"
+    },
+    {
+      "id": "di.rule.phb_6_8",
+      "revision": 1,
+      "path": "entities/rule/phb_6_8.json",
+      "sha256": "f933d6cd742100077ac8ef58ba999ccbaeb368ecd75f492fea6609019fed81e3"
+    },
+    {
+      "id": "di.rule.phb_6_9",
+      "revision": 1,
+      "path": "entities/rule/phb_6_9.json",
+      "sha256": "b6daef8ecace9abf204ff30471f49fa8d325d93dc27ef03693b90b1fd635c91b"
+    },
+    {
+      "id": "di.shield.shield",
+      "revision": 1,
+      "path": "entities/shield/shield.json",
+      "sha256": "992a62c223cbd9af30af14a07c335c6fabdea557138156806ea37eb0d73e3822"
+    },
+    {
+      "id": "di.skill.acrobatics",
+      "revision": 1,
+      "path": "entities/skill/acrobatics.json",
+      "sha256": "2c4bb4cc12f240fd056af55f2f510497223956f64a3e869c418783c4e270a997"
+    },
+    {
+      "id": "di.skill.athletics",
+      "revision": 1,
+      "path": "entities/skill/athletics.json",
+      "sha256": "34629a43c66a64f169a3798ccf6a31ec0bd85d43b6fc04e4ad4956c7a7fafd71"
+    },
+    {
+      "id": "di.skill.deception",
+      "revision": 1,
+      "path": "entities/skill/deception.json",
+      "sha256": "97f24aad45409730723f1bfb29e6d35b553f8f8549c6cef7915ac51e87621168"
+    },
+    {
+      "id": "di.skill.history",
+      "revision": 1,
+      "path": "entities/skill/history.json",
+      "sha256": "3b9b3429a2730f0d3bd71d640e889c92011ea7bc03f34e4cb218dc9263f3af20"
+    },
+    {
+      "id": "di.skill.insight",
+      "revision": 1,
+      "path": "entities/skill/insight.json",
+      "sha256": "6dc8b6bdcde74d303e834923b2d4b860398ef3bbdd087f23c543567d536d4e68"
+    },
+    {
+      "id": "di.skill.intimidation",
+      "revision": 1,
+      "path": "entities/skill/intimidation.json",
+      "sha256": "1d95db98fd9c855b3cd9fa3356be11d0b915a72ef53352e974732f346a3e77ab"
+    },
+    {
+      "id": "di.skill.investigation",
+      "revision": 1,
+      "path": "entities/skill/investigation.json",
+      "sha256": "845790833e715d610937234c00eaffc08fdd14553ee4090cf798b71ddb301fb4"
+    },
+    {
+      "id": "di.skill.medicine",
+      "revision": 1,
+      "path": "entities/skill/medicine.json",
+      "sha256": "5b5da0608d06db55ba306eacc8b65f539798e157b98d6e20e2fba84d74325bc1"
+    },
+    {
+      "id": "di.skill.perception",
+      "revision": 1,
+      "path": "entities/skill/perception.json",
+      "sha256": "53242d68413b845a4ab65016add4df6290009e014cb8e1a9ec44b28ea40629e7"
+    },
+    {
+      "id": "di.skill.persuasion",
+      "revision": 1,
+      "path": "entities/skill/persuasion.json",
+      "sha256": "e5ec41d636d105343665659ffd6c7008910270e38793ad3235862db1e4639631"
+    },
+    {
+      "id": "di.skill.religion",
+      "revision": 1,
+      "path": "entities/skill/religion.json",
+      "sha256": "53a2b7adb447f0897f454d8df50da0fe8185562fd044fb396ae47144327d9fd6"
+    },
+    {
+      "id": "di.skill.sleight_of_hand",
+      "revision": 1,
+      "path": "entities/skill/sleight_of_hand.json",
+      "sha256": "b93ab016971a1e20c594d3a9a0871e60efbdfb41128dc6af19d4dfeb9a86fe65"
+    },
+    {
+      "id": "di.skill.stealth",
+      "revision": 1,
+      "path": "entities/skill/stealth.json",
+      "sha256": "eed8be6be7d1be061687405bedc6f6328483929b9922988976467d54366bdd26"
+    },
+    {
+      "id": "di.skill.survival",
+      "revision": 1,
+      "path": "entities/skill/survival.json",
+      "sha256": "43627d1cdb200ed73233c952f6491fe6223798832cbacabf6ad87de8fe42929e"
+    },
+    {
+      "id": "di.skill.technology",
+      "revision": 1,
+      "path": "entities/skill/technology.json",
+      "sha256": "c294d6f2899699298afa9baa5efcf5362d60bdfacdd7e2b718a830f31b5ead9a"
+    },
+    {
+      "id": "di.species.aeldari",
+      "revision": 1,
+      "path": "entities/species/aeldari.json",
+      "sha256": "f40d70a4cfaf79e8c4c307aae3d42bc7338ad478be14ec8d2e0e5c4e655b6de6"
+    },
+    {
+      "id": "di.species.human",
+      "revision": 1,
+      "path": "entities/species/human.json",
+      "sha256": "43b35dc0c6039200d0cd3d31d50812f9ec9220a38143e13218eed8a8506c8949"
+    },
+    {
+      "id": "di.species.kin",
+      "revision": 1,
+      "path": "entities/species/kin.json",
+      "sha256": "34991c44cb8dd2c001fefa55a911e211cc2da8b9ffa969b968aed5a3084f4aa7"
+    },
+    {
+      "id": "di.species.ogryn",
+      "revision": 1,
+      "path": "entities/species/ogryn.json",
+      "sha256": "867feb2035be0f5a29fede101ba3b81e1df04977867ddf1f8283fd48715a83f7"
+    },
+    {
+      "id": "di.species.ratling",
+      "revision": 1,
+      "path": "entities/species/ratling.json",
+      "sha256": "903e17a791be4c30b7a32ebe411ffbda85fe0111358e048cdfe63a0ee89beb62"
+    },
+    {
+      "id": "di.species.skitarii",
+      "revision": 1,
+      "path": "entities/species/skitarii.json",
+      "sha256": "dbdd6a27dbf9fcbcfbe3ecca9bd1f87894bf5d44ef158beb472adefa4a0f7f48"
+    },
+    {
+      "id": "di.subclass.veteran.marksman",
+      "revision": 1,
+      "path": "entities/subclass/veteran.marksman.json",
+      "sha256": "2dedf1f03e1b5e8f3c102e8bb27326afeeb0de80caae23be22d37f3cef29b021"
+    },
+    {
+      "id": "di.subclass.veteran.sergeant",
+      "revision": 1,
+      "path": "entities/subclass/veteran.sergeant.json",
+      "sha256": "08937b430e5494cd11eb05e577c73555684d0e4707fc223e3890787c9736b203"
+    },
+    {
+      "id": "di.subclass.veteran.shock_trooper",
+      "revision": 1,
+      "path": "entities/subclass/veteran.shock_trooper.json",
+      "sha256": "1eeee32845050046377d6bd44579d46ea0270c95aecf6af81f41081660c40f32"
+    }
+  ]
+}

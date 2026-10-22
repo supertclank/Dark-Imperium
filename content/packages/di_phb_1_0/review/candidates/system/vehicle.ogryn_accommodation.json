@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.system.vehicle.ogryn_accommodation",
+  "kind": "system",
+  "name": "Ogryn accommodation",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-010"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Upgrade: Ogryn accommodation; Availability: Controlled; Effect: Convert one suitable crew station for an Ogryn OR reinforce suitable passenger space so an Ogryn uses two spaces instead of three. Choose one version; no duplicates. Chassis must have enough physical room.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "21",
+          "heading": "Ogryn accommodation",
+          "pdfPage": 118,
+          "printedPage": 105
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "proposedId": "di.subclass.skitarii_veteran.infiltrator",
+  "kind": "subclass",
+  "name": "Infiltrator Protocol",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-012"
+  ],
+  "proposedData": {
+    "parentClass": {
+      "id": "di.class.skitarii_veteran"
+    }
+  },
+  "evidence": [
+    {
+      "text": "Infiltrator Protocol; Gain proficiency in Stealth. Once per short rest, as a bonus action, become hidden from creatures relying on standard vision or auspex until the end of your turn, provided you have cover or concealment.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "11.8",
+          "heading": "Infiltrator Protocol",
+          "pdfPage": 71,
+          "printedPage": 58
+        }
+      }
+    }
+  ]
+}

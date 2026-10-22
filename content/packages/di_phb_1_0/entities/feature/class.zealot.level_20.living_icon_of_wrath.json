@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.zealot.level_20.living_icon_of_wrath",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Living Icon of Wrath",
+  "summary": "Once per long rest, for 1 minute, your Fury of Faith applies to every melee hit rather than once per turn. If you would drop to 0 hit points during this minute, you may immediately use Martyr’s Mercy on yourself before falling unconscious.",
+  "descriptionMarkdown": "Once per long rest, for 1 minute, your Fury of Faith \napplies to every melee hit rather than once\nper turn. If you would drop to 0 hit points during this \nminute, you may immediately use\nMartyr’s Mercy on yourself before falling unconscious.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.2.20",
+        "heading": "Living Icon of Wrath",
+        "pdfPage": 54,
+        "printedPage": 41
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per long rest, for 1 minute, your Fury of Faith \napplies to every melee hit rather than once\nper turn. If you would drop to 0 hit points during this \nminute, you may immediately use\nMartyr’s Mercy on yourself before falling unconscious.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

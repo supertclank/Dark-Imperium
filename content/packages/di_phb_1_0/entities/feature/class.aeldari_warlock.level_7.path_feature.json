@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.aeldari_warlock.level_7.path_feature",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Path Feature",
+  "summary": "Warlock Path Feature Seer of Battle Your d4 becomes a d6 for your Warlock Path feature. Storm Warlock Once per turn, when a psychic power damages a creature, push it 5 ft. Warlock Path Feature Spirit Guardian When you reduce damage with Rune Ward, the target also gains temporary HP equal to your proficiency bonus.",
+  "descriptionMarkdown": "Warlock Path Feature\nSeer of Battle Your d4 becomes a d6 for your \nWarlock Path feature.\nStorm Warlock\nOnce per turn, when a psychic \npower damages a creature, push it \n5 ft.\nWarlock Path Feature\nSpirit Guardian\nWhen you reduce damage with \nRune Ward, the target also gains \ntemporary HP equal to your \nproficiency bonus.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.12.7",
+        "heading": "Path Feature",
+        "pdfPage": 83,
+        "printedPage": 70
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Warlock Path Feature\nSeer of Battle Your d4 becomes a d6 for your \nWarlock Path feature.\nStorm Warlock\nOnce per turn, when a psychic \npower damages a creature, push it \n5 ft.\nWarlock Path Feature\nSpirit Guardian\nWhen you reduce damage with \nRune Ward, the target also gains \ntemporary HP equal to your \nproficiency bonus.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

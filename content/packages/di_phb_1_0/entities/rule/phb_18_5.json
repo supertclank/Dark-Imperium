@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_18_5",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Provenance and Faction Access",
+  "summary": "Availability answers how difficult an item is to obtain. Provenance answers who made it, who claims it, who can maintain it and what happens if you are caught carrying it. A successful Requisition test never erases provenance. Provenance Normal Access Typical Complication Imperial General Militarum, Arbites, Inquisition, sanctioned institutions and ordinary Imperial markets. Rank, paperwork, mission need, local shortages or questions about ownership. Mechanicus Forge worlds, tech-priests, Ski...",
+  "descriptionMarkdown": "Availability answers how difficult an item is to obtain. Provenance answers who made it, who claims it, who can \nmaintain it and what happens if you are caught carrying it. A successful Requisition test never erases provenance.\nProvenance Normal Access Typical Complication\nImperial General Militarum, Arbites, Inquisition, sanctioned \ninstitutions and ordinary Imperial markets.\nRank, paperwork, mission need, local \nshortages or questions about ownership.\nMechanicus Forge worlds, tech-priests, Skitarii supply \nand approved workshops.\nRitual restrictions, machine-cult authority, \ndata access or maintenance dependency.\nKin Kin holds, guilds, prospectors and trusted \ntrade contacts.\nCultural ownership, ammunition \ncompatibility and reluctance to arm \noutsiders.\nProvenance Normal Access Typical Complication\nAeldari Craftworld, ranger, corsair or outcast \nnetworks.\nImperial illegality, alien maintenance, \nhidden obligations and suspicion from both \nsides.\nProscribed / Heretical No routine lawful source.\nConfiscation, corruption, Heat, \ninvestigation, spiritual danger or outright \nexecution if exposed.\nBlack Market Brokers, smugglers, gangers, scavengers \nand corrupt officials.\nFraud, debt, damaged goods, traceable \nserials, betrayal or the wrong provenance.\nFaction access is contextual rather than a second currency. A character normally treats equipment from their own \ninstitution or culture as plausible at its listed Availability. Gear from another provenance may require a contact, narrative \npermission, a +2 to +5 DC increase, or a different acquisition route altogether. Aeldari and Kin player characters do not \nautomatically make their equipment legal inside the Imperium; they merely provide a believable route to obtaining and \nmaintaining it.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "18.5",
+        "heading": "Provenance and Faction Access",
+        "pdfPage": 103,
+        "printedPage": 90
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Availability answers how difficult an item is to obtain. Provenance answers who made it, who claims it, who can \nmaintain it and what happens if you are caught carrying it. A successful Requisition test never erases provenance.\nProvenance Normal Access Typical Complication\nImperial General Militarum, Arbites, Inquisition, sanctioned \ninstitutions and ordinary Imperial markets.\nRank, paperwork, mission need, local \nshortages or questions about ownership.\nMechanicus Forge worlds, tech-priests, Skitarii supply \nand approved workshops.\nRitual restrictions, machine-cult authority, \ndata access or maintenance dependency.\nKin Kin holds, guilds, prospectors and trusted \ntrade contacts.\nCultural ownership, ammunition \ncompatibility and reluctance to arm \noutsiders.\nProvenance Normal Access Typical Complication\nAeldari Craftworld, ranger, corsair or outcast \nnetworks.\nImperial illegality, alien maintenance, \nhidden obligations and suspicion from both \nsides.\nProscribed / Heretical No routine lawful source.\nConfiscation, corruption, Heat, \ninvestigation, spiritual danger or outright \nexecution if exposed.\nBlack Market Brokers, smugglers, gangers, scavengers \nand corrupt officials.\nFraud, debt, damaged goods, traceable \nserials, betrayal or the wrong provenance.\nFaction access is contextual rather than a second currency. A character normally treats equipment from their own \ninstitution or culture as plausible at its listed Availability. Gear from another provenance may require a contact, narrative \npermission, a +2 to +5 DC increase, or a different acquisition route altogether. Aeldari and Kin player characters do not \nautomatically make their equipment legal inside the Imperium; they merely provide a believable route to obtaining and \nmaintaining it.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

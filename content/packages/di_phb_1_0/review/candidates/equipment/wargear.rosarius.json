@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.wargear.rosarius",
+  "kind": "equipment",
+  "name": "Rosarius",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Item: Rosarius; Availability: Exceptional; Effect: Force-field icon. Once per short rest, use your reaction to reduce damage to yourself by 2d8 + proficiency bonus. If this reduces the damage to 0, gain advantage on your next fear or Corruption save before the end of your next turn.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Rosarius",
+          "pdfPage": 107,
+          "printedPage": 94
+        }
+      }
+    }
+  ]
+}

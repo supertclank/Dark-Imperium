@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.armour_familiarity",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Armour Familiarity",
+  "summary": "Talent: Armour Familiarity Benefit: While wearing armour you are proficient with, reduce incoming damage from non-critical weapon attacks by 1.",
+  "descriptionMarkdown": "Talent: Armour Familiarity\nBenefit: While wearing armour you are proficient with, reduce incoming damage from non-critical weapon attacks by 1.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Armour Familiarity",
+        "pdfPage": 86,
+        "printedPage": 73
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Armour Familiarity\nBenefit: While wearing armour you are proficient with, reduce incoming damage from non-critical weapon attacks by 1.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

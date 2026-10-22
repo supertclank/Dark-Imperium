@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.arbites_enforcer.level_1.authority",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Authority",
+  "summary": "As an action, command one creature within 30 ft that can hear you. It must make a Wisdom saving throw. DC = 8 + proficiency bonus + Wisdom modifier. On a failure, choose one: the target is frightened until the end of your next turn; the target drops prone; or the target drops one held item. Uses: proficiency bonus per long rest.",
+  "descriptionMarkdown": "As an action, command one creature within 30 ft that can \nhear you. It must make a Wisdom saving\nthrow. DC = 8 + proficiency bonus + Wisdom modifier. \nOn a failure, choose one: the target is frightened\nuntil the end of your next turn; the target drops prone; or \nthe target drops one held item. Uses:\nproficiency bonus per long rest.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.5.2",
+        "heading": "Authority",
+        "pdfPage": 62,
+        "printedPage": 49
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "As an action, command one creature within 30 ft that can \nhear you. It must make a Wisdom saving\nthrow. DC = 8 + proficiency bonus + Wisdom modifier. \nOn a failure, choose one: the target is frightened\nuntil the end of your next turn; the target drops prone; or \nthe target drops one held item. Uses:\nproficiency bonus per long rest.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

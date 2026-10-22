@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.skitarii_veteran.level_11.calculated_volley",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Calculated Volley",
+  "summary": "Once per turn, when you hit a target marked by Targeting Protocol, you may immediately mark a second creature within 30 ft of the original target. This second mark lasts until the end of your next turn.",
+  "descriptionMarkdown": "Once per turn, when you hit a target marked by Targeting \nProtocol, you may immediately mark a\nsecond creature within 30 ft of the original target. This \nsecond mark lasts until the end of your next\nturn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.8.11",
+        "heading": "Calculated Volley",
+        "pdfPage": 72,
+        "printedPage": 59
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per turn, when you hit a target marked by Targeting \nProtocol, you may immediately mark a\nsecond creature within 30 ft of the original target. This \nsecond mark lasts until the end of your next\nturn.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

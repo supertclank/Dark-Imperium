@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_6_8",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Stabilising and Recovery",
+  "summary": "A creature within reach can use an action and succeed on a DC 10 Medicine check to stabilise a dying creature. Field dressings, med-packs and class features may improve this. Ordinary hit-point recovery follows the normal rest rules; lasting injuries, surgery and limb replacement use Chapter 19.",
+  "descriptionMarkdown": "A creature within reach can use an action and succeed \non a DC 10 Medicine check to stabilise a dying creature. \nField dressings, med-packs and class features may \nimprove this. Ordinary hit-point recovery follows the \nnormal rest rules; lasting injuries, surgery and limb \nreplacement use Chapter 19.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "6.8",
+        "heading": "Stabilising and Recovery",
+        "pdfPage": 31,
+        "printedPage": 18
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "A creature within reach can use an action and succeed \non a DC 10 Medicine check to stabilise a dying creature. \nField dressings, med-packs and class features may \nimprove this. Ordinary hit-point recovery follows the \nnormal rest rules; lasting injuries, surgery and limb \nreplacement use Chapter 19.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

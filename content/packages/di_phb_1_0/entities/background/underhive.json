@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "di.background.underhive",
+  "kind": "background",
+  "revision": 1,
+  "name": "Underhive",
+  "summary": "4.8 Underhive Raised below the proper world, among gangs, sump-rats, chem dens, scavvers, and forgotten habs. Allowed Species: Human, Ratling. Skill Proficiency: Choose two from Deception, Intimidation, Sleight of Hand, Stealth, and Survival. Black-Market Instinct: You know how to locate illegal goods, smugglers, fences, and information brokers in hive settlements. Never Fight Fair: Once per short rest, when you hit a creature that has not acted yet in combat, deal additional damage equal to ...",
+  "descriptionMarkdown": "4.8 Underhive\nRaised below the proper world, among gangs, sump-rats, \nchem dens, scavvers, and forgotten habs.\nAllowed Species: Human, Ratling.\nSkill Proficiency: Choose two from Deception, \nIntimidation, Sleight of Hand, Stealth, and Survival.\nBlack-Market Instinct: You know how to locate illegal \ngoods, smugglers, fences, and information\nbrokers in hive settlements.\nNever Fight Fair: Once per short rest, when you hit a \ncreature that has not acted yet in combat, deal\nadditional damage equal to your proficiency bonus.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "4.8",
+        "heading": "Underhive",
+        "pdfPage": 27,
+        "printedPage": 14
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "features": [
+      {
+        "id": "di.feature.origin.underhive"
+      }
+    ],
+    "choices": [
+      {
+        "id": "di.choice.underhive.skills"
+      }
+    ]
+  }
+}

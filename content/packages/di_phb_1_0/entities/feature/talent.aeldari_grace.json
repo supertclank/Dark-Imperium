@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.aeldari_grace",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Aeldari Grace",
+  "summary": "Talent: Aeldari Grace Requirement: Aeldari Benefit: Your speed increases by 5 ft while wearing light or Aeldari armour.",
+  "descriptionMarkdown": "Talent: Aeldari Grace\nRequirement: Aeldari\nBenefit: Your speed increases by 5 ft while wearing light or Aeldari armour.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Aeldari Grace",
+        "pdfPage": 87,
+        "printedPage": 74
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Aeldari Grace\nRequirement: Aeldari\nBenefit: Your speed increases by 5 ft while wearing light or Aeldari armour.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

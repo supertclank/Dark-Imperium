@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "di.choice.kin.ability_scores",
+  "kind": "choice",
+  "revision": 1,
+  "name": "Squat / Kin ability score choice",
+  "summary": "Squat / Kin ability score choice",
+  "descriptionMarkdown": "Squat / Kin ability score choice",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "3.5",
+        "heading": "Squat / Kin ability score choice",
+        "pdfPage": 24,
+        "printedPage": 11
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "purpose": "attribute",
+    "selectionMode": "options",
+    "cardinality": {
+      "min": 1,
+      "max": 1,
+      "unique": true
+    },
+    "repeatScope": "once_per_actor",
+    "options": [
+      {
+        "id": "intelligence",
+        "label": "intelligence +1",
+        "grants": [
+          {
+            "id": "increase",
+            "kind": "attribute_increase",
+            "attributeKey": "intelligence",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "id": "wisdom",
+        "label": "wisdom +1",
+        "grants": [
+          {
+            "id": "increase",
+            "kind": "attribute_increase",
+            "attributeKey": "wisdom",
+            "amount": 1
+          }
+        ]
+      }
+    ]
+  }
+}

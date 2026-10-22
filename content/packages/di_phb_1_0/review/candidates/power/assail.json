@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.assail",
+  "kind": "power",
+  "name": "Assail",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Assail; Tag: Telekinesis, Universal; Rule: Action. Range 60 ft. Choose up to three creatures. Psychic attack against each target. Hit: 1d6 force damage.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Assail",
+          "pdfPage": 92,
+          "printedPage": 79
+        }
+      }
+    }
+  ]
+}

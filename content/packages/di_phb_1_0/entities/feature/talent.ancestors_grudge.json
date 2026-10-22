@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.ancestors_grudge",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Ancestor’s Grudge",
+  "summary": "Talent: Ancestor’s Grudge Requirement: Squat/Kin Benefit: Once per short rest, when a creature damages you, mark it. Your next hit against it deals +1d6 damage.",
+  "descriptionMarkdown": "Talent: Ancestor’s Grudge\nRequirement: Squat/Kin\nBenefit: Once per short rest, when a creature damages you, mark it. Your next hit against it deals +1d6 damage.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Ancestor’s Grudge",
+        "pdfPage": 87,
+        "printedPage": 74
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Ancestor’s Grudge\nRequirement: Squat/Kin\nBenefit: Once per short rest, when a creature damages you, mark it. Your next hit against it deals +1d6 damage.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

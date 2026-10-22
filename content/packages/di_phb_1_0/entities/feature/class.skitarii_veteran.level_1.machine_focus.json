@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.skitarii_veteran.level_1.machine_focus",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Machine Focus",
+  "summary": "You do not suffer disadvantage on Perception checks in darkness if you have an auspex, visor, or integrated optics. You gain proficiency in Investigation or Technology.",
+  "descriptionMarkdown": "You do not suffer disadvantage on Perception checks in \ndarkness if you have an auspex, visor, or\nintegrated optics. You gain proficiency in Investigation or \nTechnology.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.8.1",
+        "heading": "Machine Focus",
+        "pdfPage": 71,
+        "printedPage": 58
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "You do not suffer disadvantage on Perception checks in \ndarkness if you have an auspex, visor, or\nintegrated optics. You gain proficiency in Investigation or \nTechnology.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

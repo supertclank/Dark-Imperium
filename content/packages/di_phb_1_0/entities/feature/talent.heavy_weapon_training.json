@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.heavy_weapon_training",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Heavy Weapon Training",
+  "summary": "Talent: Heavy Weapon Training Benefit: You ignore the movement penalty from Heavy weapons.",
+  "descriptionMarkdown": "Talent: Heavy Weapon Training\nBenefit: You ignore the movement penalty from Heavy weapons.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Heavy Weapon Training",
+        "pdfPage": 86,
+        "printedPage": 73
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Heavy Weapon Training\nBenefit: You ignore the movement penalty from Heavy weapons.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

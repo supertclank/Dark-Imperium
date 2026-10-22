@@ -1,0 +1,64 @@
+{
+  "proposedId": "di.weapon.force_sword",
+  "kind": "weapon",
+  "name": "Force Sword",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-005"
+  ],
+  "proposedData": {
+    "properties": [
+      {
+        "property": {
+          "id": "di.property.weapon.psyker"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.power_field"
+        },
+        "arguments": {}
+      }
+    ],
+    "modes": [
+      {
+        "id": "base",
+        "name": "Base profile",
+        "damage": [
+          {
+            "id": "component_1",
+            "dice": {
+              "count": 1,
+              "sides": 8,
+              "bonus": 0
+            },
+            "bonus": {
+              "kind": "constant",
+              "value": 0
+            },
+            "damageType": {
+              "id": "di.damage_type.slashing"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "text": "Weapon: Force Sword; Damage: 1d8 slashing; Properties: Psyker, Power Field; Availability: Rare",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "8",
+          "heading": "Force Sword",
+          "pdfPage": 38,
+          "printedPage": 25
+        }
+      }
+    }
+  ]
+}

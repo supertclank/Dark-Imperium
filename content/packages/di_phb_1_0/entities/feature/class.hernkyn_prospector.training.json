@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.hernkyn_prospector.training",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Hernkyn Prospector training and hit die",
+  "summary": "11.10 Hernkyn Prospector A Squat/Kin scout, outrider, claim-staker, surveyor, sniper, and forward operator. This class suits Kin who operate beyond the hold, locate resources, mark targets, and survive hostile worlds. Allowed Species: Squat/Kin only. Hit Die: d8. Primary Abilities: Dexterity, Wisdom or Intelligence. Saving Throws: Dexterity, Wisdom. Armour: Light, medium, Kin armour, prospector rigs. Weapons: Pistols, basic firearms, Kin weapons, knives, hammers, and mining tools.",
+  "descriptionMarkdown": "11.10 Hernkyn Prospector\nA Squat/Kin scout, outrider, claim-staker, surveyor, sniper, and forward operator. This class suits Kin\nwho operate beyond the hold, locate resources, mark targets, and survive hostile worlds.\nAllowed Species: Squat/Kin only.\nHit Die: d8.\nPrimary Abilities: Dexterity, Wisdom or Intelligence.\nSaving Throws: Dexterity, Wisdom.\nArmour: Light, medium, Kin armour, prospector rigs.\nWeapons: Pistols, basic firearms, Kin weapons, knives, hammers, and mining tools.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.10",
+        "heading": "Hernkyn Prospector training and hit die",
+        "pdfPage": 77,
+        "printedPage": 64
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "11.10 Hernkyn Prospector\nA Squat/Kin scout, outrider, claim-staker, surveyor, sniper, and forward operator. This class suits Kin\nwho operate beyond the hold, locate resources, mark targets, and survive hostile worlds.\nAllowed Species: Squat/Kin only.\nHit Die: d8.\nPrimary Abilities: Dexterity, Wisdom or Intelligence.\nSaving Throws: Dexterity, Wisdom.\nArmour: Light, medium, Kin armour, prospector rigs.\nWeapons: Pistols, basic firearms, Kin weapons, knives, hammers, and mining tools.\n",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

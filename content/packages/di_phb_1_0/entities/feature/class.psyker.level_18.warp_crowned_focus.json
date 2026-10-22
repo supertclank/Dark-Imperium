@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.psyker.level_18.warp_crowned_focus",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Warp-Crowned Focus",
+  "summary": "When you trigger Perils, you may choose to gain 1 Corruption to reduce the severity roll by 1d6 after seeing the result. Malefic-Touched Psykers cannot use this to reduce Catastrophic Perils below Reality Tear.",
+  "descriptionMarkdown": "When you trigger Perils, you may choose to gain 1 \nCorruption to reduce the severity roll by 1d6\nafter seeing the result. Malefic-Touched Psykers cannot \nuse this to reduce Catastrophic Perils\nbelow Reality Tear.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.3.18",
+        "heading": "Warp-Crowned Focus",
+        "pdfPage": 57,
+        "printedPage": 44
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When you trigger Perils, you may choose to gain 1 \nCorruption to reduce the severity roll by 1d6\nafter seeing the result. Malefic-Touched Psykers cannot \nuse this to reduce Catastrophic Perils\nbelow Reality Tear.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

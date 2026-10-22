@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.arbites_enforcer.training",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Arbites Enforcer training and hit die",
+  "summary": "11.5 Arbites Enforcer Judge, riot officer, executioner, investigator, and breacher. Allowed Species: Human only. Hit Die: d10. Primary Abilities: Strength or Dexterity, Wisdom. Saving Throws: Strength, Wisdom. Armour: Light, medium, flak, carapace, riot armour. Weapons: Pistols, shotguns, shock weapons, mauls, shields, grenades.",
+  "descriptionMarkdown": "11.5 Arbites Enforcer\nJudge, riot officer, executioner, investigator, and breacher.\nAllowed Species: Human only.\nHit Die: d10.\nPrimary Abilities: Strength or Dexterity, Wisdom.\nSaving Throws: Strength, Wisdom.\nArmour: Light, medium, flak, carapace, riot armour.\nWeapons: Pistols, shotguns, shock weapons, mauls, shields, grenades.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.5",
+        "heading": "Arbites Enforcer training and hit die",
+        "pdfPage": 62,
+        "printedPage": 49
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "11.5 Arbites Enforcer\nJudge, riot officer, executioner, investigator, and breacher.\nAllowed Species: Human only.\nHit Die: d10.\nPrimary Abilities: Strength or Dexterity, Wisdom.\nSaving Throws: Strength, Wisdom.\nArmour: Light, medium, flak, carapace, riot armour.\nWeapons: Pistols, shotguns, shock weapons, mauls, shields, grenades.\n",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

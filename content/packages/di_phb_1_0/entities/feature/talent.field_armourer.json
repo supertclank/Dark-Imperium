@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.field_armourer",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Field Armourer",
+  "summary": "Talent: Field Armourer Benefit: During a short rest, repair one damaged weapon or restore one use of a shield, field, or armour feature at the GM's discretion.",
+  "descriptionMarkdown": "Talent: Field Armourer\nBenefit: During a short rest, repair one damaged weapon or restore one use of a shield, field, or armour feature at the GM's discretion.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Field Armourer",
+        "pdfPage": 86,
+        "printedPage": 73
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Field Armourer\nBenefit: During a short rest, repair one damaged weapon or restore one use of a shield, field, or armour feature at the GM's discretion.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

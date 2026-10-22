@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.aeldari_warlock.level_13.fate_splitter",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Fate Splitter",
+  "summary": "Once per long rest, when a creature you can see within 60 ft makes an attack roll, saving throw, or ability check, roll 1d6 and either add or subtract it from the result.",
+  "descriptionMarkdown": "Once per long rest, when a creature you can see within \n60 ft makes an attack roll, saving throw, or\nability check, roll 1d6 and either add or subtract it from \nthe result.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.12.13",
+        "heading": "Fate Splitter",
+        "pdfPage": 84,
+        "printedPage": 71
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per long rest, when a creature you can see within \n60 ft makes an attack roll, saving throw, or\nability check, roll 1d6 and either add or subtract it from \nthe result.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

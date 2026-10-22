@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_2_4_5",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Squats / Kin",
+  "summary": "Squats, also called Kin in many modern Imperial records, are not simply short humans. They are dense, hardy, void-adapted, stubborn, and culturally bound to clan, hold, oath, guild, and ancestor-core traditions. Squats/Kin may be Kin Armsmen or Hernkyn Prospectors. They cannot be Psykers, Zealots, Arbites, Skitarii, Ogryns, Ratling Sharpshooters, or Aeldari classes. A Squat/Kin character in an Imperial warband should have a clear reason for cooperation: a trade contract, mercenary oath, salva...",
+  "descriptionMarkdown": "Squats, also called Kin in many modern Imperial records, \nare not simply short humans. They are dense,\nhardy, void-adapted, stubborn, and culturally bound to \nclan, hold, oath, guild, and ancestor-core\ntraditions.\nSquats/Kin may be Kin Armsmen or Hernkyn \nProspectors. They cannot be Psykers, Zealots, Arbites,\nSkitarii, Ogryns, Ratling Sharpshooters, or Aeldari \nclasses.\nA Squat/Kin character in an Imperial warband should \nhave a clear reason for cooperation: a trade\ncontract, mercenary oath, salvage claim, ancient grudge, \ndebt, diplomatic mission, or shared enemy.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "2.4.5",
+        "heading": "Squats / Kin",
+        "pdfPage": 18,
+        "printedPage": 5
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Squats, also called Kin in many modern Imperial records, \nare not simply short humans. They are dense,\nhardy, void-adapted, stubborn, and culturally bound to \nclan, hold, oath, guild, and ancestor-core\ntraditions.\nSquats/Kin may be Kin Armsmen or Hernkyn \nProspectors. They cannot be Psykers, Zealots, Arbites,\nSkitarii, Ogryns, Ratling Sharpshooters, or Aeldari \nclasses.\nA Squat/Kin character in an Imperial warband should \nhave a clear reason for cooperation: a trade\ncontract, mercenary oath, salvage claim, ancient grudge, \ndebt, diplomatic mission, or shared enemy.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

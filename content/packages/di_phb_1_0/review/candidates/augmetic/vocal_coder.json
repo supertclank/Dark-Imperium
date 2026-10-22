@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.augmetic.vocal_coder",
+  "kind": "augmetic",
+  "name": "Vocal Coder",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Upgrade: Vocal Coder; Effect: You can mimic machine tones, vox distortion, and binharic fragments. Gain advantage on checks to communicate with Mechanicus systems if proficient in Technology.; Availability: Controlled",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "13",
+          "heading": "Vocal Coder",
+          "pdfPage": 89,
+          "printedPage": 76
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "di.species.ratling",
+  "kind": "species",
+  "revision": 1,
+  "name": "Ratling Abhuman",
+  "summary": "3.3 Ratling Abhuman Ratlings are small abhumans known for stealth, marksmanship, scavenging, cooking, black-market dealings, and improbable survival. Ability Scores: +2 Dexterity, +1 Wisdom. Size: Small. Speed: 25 ft. Available Classes: Ratling Sharpshooter, Veteran, Hive Scum. 3.3.1 Ratling Traits Darkvision: You have darkvision to a range of 60 ft (see the rules at the start of this chapter). Small Target: When you have light cover, you may treat it as heavy cover. Sniper’s Eye: You ignore ...",
+  "descriptionMarkdown": "3.3 Ratling Abhuman\nRatlings are small abhumans known for stealth, \nmarksmanship, scavenging, cooking, black-market\ndealings, and improbable survival.\nAbility Scores: +2 Dexterity, +1 Wisdom.\nSize: Small.\nSpeed: 25 ft.\nAvailable Classes: Ratling Sharpshooter, Veteran, Hive \nScum.\n3.3.1 Ratling Traits\nDarkvision: You have darkvision to a range of 60 ft (see \nthe rules at the start of this chapter).\nSmall Target: When you have light cover, you may treat \nit as heavy cover.\nSniper’s Eye: You ignore disadvantage from attacking at \nlong range with weapons that have the\nAccurate property.\nNaturally Sneaky: You gain proficiency in Stealth.\nLucky Shot: Once per short rest, when you miss with a \nranged weapon attack, you may reroll the\nattack.\nBad in a Straight Fight: You have disadvantage on \nStrength checks made to shove or grapple creatures\nlarger than you.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "3.3",
+        "heading": "Ratling Abhuman",
+        "pdfPage": 23,
+        "printedPage": 10
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "features": [
+      {
+        "id": "di.feature.species.ratling.baseline"
+      },
+      {
+        "id": "di.feature.species.ratling.traits"
+      }
+    ],
+    "size": "small",
+    "choices": []
+  }
+}

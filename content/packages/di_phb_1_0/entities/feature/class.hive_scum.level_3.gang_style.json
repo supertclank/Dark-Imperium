@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.hive_scum.level_3.gang_style",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Gang Style",
+  "summary": "Style Benefit Gunslinger Once per turn, you can reload a pistol without using an action. Knife Rat Your melee attacks with light weapons score a critical hit on 19- 20. Chem-User Once per long rest, inject combat chems as a bonus action. Gain +10 ft speed and advantage on Strength and Dexterity checks for 1 minute. Afterwards, make a Constitution saving throw or gain one level of exhaustion. Sump Ghost You gain expertise in Stealth when in urban ruins, sewers, vents, tunnels, or industrial te...",
+  "descriptionMarkdown": "Style Benefit\nGunslinger Once per turn, you can reload a \npistol without using an action.\nKnife Rat\nYour melee attacks with light \nweapons score a critical hit on 19-\n20.\nChem-User\nOnce per long rest, inject combat \nchems as a bonus action. Gain \n+10 ft speed and advantage on \nStrength and Dexterity checks for \n1 minute. Afterwards, make a \nConstitution saving throw or gain \none level of exhaustion.\nSump Ghost\nYou gain expertise in Stealth when \nin urban ruins, sewers, vents, \ntunnels, or industrial terrain.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.6.4",
+        "heading": "Gang Style",
+        "pdfPage": 65,
+        "printedPage": 52
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Style Benefit\nGunslinger Once per turn, you can reload a \npistol without using an action.\nKnife Rat\nYour melee attacks with light \nweapons score a critical hit on 19-\n20.\nChem-User\nOnce per long rest, inject combat \nchems as a bonus action. Gain \n+10 ft speed and advantage on \nStrength and Dexterity checks for \n1 minute. Afterwards, make a \nConstitution saving throw or gain \none level of exhaustion.\nSump Ghost\nYou gain expertise in Stealth when \nin urban ruins, sewers, vents, \ntunnels, or industrial terrain.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

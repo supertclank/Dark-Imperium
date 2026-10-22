@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "di.background.forge_world",
+  "kind": "background",
+  "revision": 1,
+  "name": "Forge World",
+  "summary": "4.5 Forge World Raised among manufactorums, machine temples, data- vaults, and sacred industry. Allowed Species: Human, Skitarii. Skill Proficiency: Investigation and Technology. Machine Rites: You can perform basic maintenance on weapons, armour, augmetics, cogitators, and power systems. Logic Before Fear: Once per long rest, you may gain advantage on a saving throw against fear, panic, or psychic manipulation.",
+  "descriptionMarkdown": "4.5 Forge World\nRaised among manufactorums, machine temples, data-\nvaults, and sacred industry.\nAllowed Species: Human, Skitarii.\nSkill Proficiency: Investigation and Technology.\nMachine Rites: You can perform basic maintenance on \nweapons, armour, augmetics, cogitators, and\npower systems.\nLogic Before Fear: Once per long rest, you may gain \nadvantage on a saving throw against fear, panic, or\npsychic manipulation.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "4.5",
+        "heading": "Forge World",
+        "pdfPage": 26,
+        "printedPage": 13
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "features": [
+      {
+        "id": "di.feature.origin.forge_world"
+      }
+    ],
+    "choices": []
+  }
+}

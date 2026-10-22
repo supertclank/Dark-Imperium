@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.ogryn_skullbreaker.level_1.big_lad",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Big Lad",
+  "summary": "You count as one size larger for grappling, shoving, carrying, lifting, dragging, and breaking objects. You gain proficiency in Athletics. Due to your enormous bulk and slow reactions in cramped spaces, your Dexterity score is reduced by 2, to a minimum of 6. This penalty is applied after the species ability score increases. You cannot benefit from armour, stealth gear, or weapons that require a normal human frame unless they are modified for Ogryn use.",
+  "descriptionMarkdown": "You count as one size larger for grappling, shoving, \ncarrying, lifting, dragging, and breaking objects. You\ngain proficiency in Athletics. Due to your enormous bulk \nand slow reactions in cramped spaces, your\nDexterity score is reduced by 2, to a minimum of 6. This \npenalty is applied after the species ability score\nincreases. You cannot benefit from armour, stealth gear, \nor weapons that require a normal human\nframe unless they are modified for Ogryn use.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.4.1",
+        "heading": "Big Lad",
+        "pdfPage": 59,
+        "printedPage": 46
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "You count as one size larger for grappling, shoving, \ncarrying, lifting, dragging, and breaking objects. You\ngain proficiency in Athletics. Due to your enormous bulk \nand slow reactions in cramped spaces, your\nDexterity score is reduced by 2, to a minimum of 6. This \npenalty is applied after the species ability score\nincreases. You cannot benefit from armour, stealth gear, \nor weapons that require a normal human\nframe unless they are modified for Ogryn use.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

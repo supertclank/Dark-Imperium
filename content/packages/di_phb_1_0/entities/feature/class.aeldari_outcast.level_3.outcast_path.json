@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.aeldari_outcast.level_3.outcast_path",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Outcast Path",
+  "summary": "Path Benefit Ranger If you do not move before attacking with a ranger long rifle, your first ranged attack this turn gains +2 to hit. Corsair You gain proficiency with pistols and blades. After making a weapon attack, move 5 ft without provoking opportunity attacks. Shadow Guide Gain expertise in Stealth or Survival. You have advantage on checks to navigate ruins, wilderness, alien structures, and webway-adjacent places.",
+  "descriptionMarkdown": "Path Benefit\nRanger\nIf you do not move before \nattacking with a ranger long rifle, \nyour first ranged attack this turn \ngains +2 to hit.\nCorsair\nYou gain proficiency with pistols \nand blades. After making a \nweapon attack, move 5 ft without \nprovoking opportunity attacks.\nShadow Guide\nGain expertise in Stealth or \nSurvival. You have advantage on \nchecks to navigate ruins, \nwilderness, alien structures, and \nwebway-adjacent places.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.11.4",
+        "heading": "Outcast Path",
+        "pdfPage": 80,
+        "printedPage": 67
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Path Benefit\nRanger\nIf you do not move before \nattacking with a ranger long rifle, \nyour first ranged attack this turn \ngains +2 to hit.\nCorsair\nYou gain proficiency with pistols \nand blades. After making a \nweapon attack, move 5 ft without \nprovoking opportunity attacks.\nShadow Guide\nGain expertise in Stealth or \nSurvival. You have advantage on \nchecks to navigate ruins, \nwilderness, alien structures, and \nwebway-adjacent places.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

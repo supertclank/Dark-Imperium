@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.species.human.baseline",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Human fixed baseline",
+  "summary": "Fixed ability adjustments and speed from species entry.",
+  "descriptionMarkdown": "Fixed ability adjustments and speed from species entry.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "3.1",
+        "heading": "Human fixed baseline",
+        "pdfPage": 23,
+        "printedPage": 10
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "species_trait",
+    "effects": [
+      {
+        "id": "speed",
+        "automation": "automatic",
+        "activation": "continuous",
+        "target": {
+          "kind": "stat",
+          "key": "movement.walk",
+          "scope": "self"
+        },
+        "operation": "base",
+        "value": {
+          "kind": "constant",
+          "value": 30
+        },
+        "duration": {
+          "kind": "while_source"
+        },
+        "stacking": {
+          "group": "di.movement.walk",
+          "mode": "replace"
+        },
+        "priority": 0
+      }
+    ],
+    "grants": [],
+    "manualRules": []
+  }
+}

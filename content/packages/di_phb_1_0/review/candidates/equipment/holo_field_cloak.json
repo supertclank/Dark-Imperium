@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.holo_field_cloak",
+  "kind": "equipment",
+  "name": "Holo-Field Cloak",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-007"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "AC: Special; Once per short rest, impose disadvantage on one ranged attack against you if you moved at least 10 ft since the start of your last turn.; Availability: Rare",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "9",
+          "heading": "Holo-Field Cloak",
+          "pdfPage": 42,
+          "printedPage": 29
+        }
+      }
+    }
+  ]
+}

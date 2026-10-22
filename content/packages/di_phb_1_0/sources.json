@@ -1,0 +1,19 @@
+{
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "title": "Dark Imperium Player's Handbook",
+      "editionLabel": "Version 1.0",
+      "language": "en",
+      "originalFilename": "dark_imperium_player_handbook (2).pdf",
+      "fileSha256": "a58335b1264ac40e30ff0b310626d306fc88f7003e0c3af345e0d55c978e94b7",
+      "repositoryFile": "content/sources/phb-1.0-a58335b1.pdf",
+      "pdfPages": 125,
+      "pdfMetadataCreationDate": "2026-10-07T14:32:50Z",
+      "selectedOn": "2026-10-22",
+      "selectionReason": "User supplied this file after source intake request. Visible headers identify version 1.0; no other PHB candidate was found in project files. Filename (2) is not a version number. Newest globally is not independently established.",
+      "rightsNotes": "User-supplied private tabletop source; preserve private access. Not an assertion of publishing rights."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.dead_calm",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Dead Calm",
+  "summary": "Talent: Dead Calm Benefit: Once per short rest, ignore disadvantage on one ranged attack caused by Suppression, fear, smoke, darkness, or battlefield chaos.",
+  "descriptionMarkdown": "Talent: Dead Calm\nBenefit: Once per short rest, ignore disadvantage on one ranged attack caused by Suppression, fear, smoke, darkness, or battlefield chaos.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Dead Calm",
+        "pdfPage": 86,
+        "printedPage": 73
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Dead Calm\nBenefit: Once per short rest, ignore disadvantage on one ranged attack caused by Suppression, fear, smoke, darkness, or battlefield chaos.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

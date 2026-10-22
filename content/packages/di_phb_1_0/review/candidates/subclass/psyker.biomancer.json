@@ -1,0 +1,30 @@
+{
+  "proposedId": "di.subclass.psyker.biomancer",
+  "kind": "subclass",
+  "name": "Biomancer",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-012"
+  ],
+  "proposedData": {
+    "parentClass": {
+      "id": "di.class.psyker"
+    }
+  },
+  "evidence": [
+    {
+      "text": "Biomancer; Universal, Biomancy; Healing, endurance, flesh control, toxins, and forced growth.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "11.3",
+          "heading": "Biomancer",
+          "pdfPage": 56,
+          "printedPage": 43
+        }
+      }
+    }
+  ]
+}

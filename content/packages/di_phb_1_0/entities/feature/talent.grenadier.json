@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.grenadier",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Grenadier",
+  "summary": "Talent: Grenadier Benefit: Grenade save DCs increase by +1. You can throw grenades 20 ft farther.",
+  "descriptionMarkdown": "Talent: Grenadier\nBenefit: Grenade save DCs increase by +1. You can throw grenades 20 ft farther.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Grenadier",
+        "pdfPage": 86,
+        "printedPage": 73
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Grenadier\nBenefit: Grenade save DCs increase by +1. You can throw grenades 20 ft farther.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

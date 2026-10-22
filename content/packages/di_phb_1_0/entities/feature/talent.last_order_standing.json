@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.last_order_standing",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Last Order Standing",
+  "summary": "Talent: Last Order Standing Requirement: Human Benefit: Once per long rest, when an ally within 30 ft drops to 0 hit points, you gain temporary HP equal to your level + proficiency bonus.",
+  "descriptionMarkdown": "Talent: Last Order Standing\nRequirement: Human\nBenefit: Once per long rest, when an ally within 30 ft drops to 0 hit points, you gain temporary HP equal to your level + proficiency bonus.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Last Order Standing",
+        "pdfPage": 87,
+        "printedPage": 74
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Last Order Standing\nRequirement: Human\nBenefit: Once per long rest, when an ally within 30 ft drops to 0 hit points, you gain temporary HP equal to your level + proficiency bonus.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

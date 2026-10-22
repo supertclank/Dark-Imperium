@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.system.vehicle.sealed_compartment",
+  "kind": "system",
+  "name": "Sealed compartment",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-010"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Upgrade: Sealed compartment; Availability: Rare; Effect: Enclosed chassis gains Sealed and one hour of internal air. Cannot fit to exposed bikes or open-topped vehicles.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "21",
+          "heading": "Sealed compartment",
+          "pdfPage": 118,
+          "printedPage": 105
+        }
+      }
+    }
+  ]
+}

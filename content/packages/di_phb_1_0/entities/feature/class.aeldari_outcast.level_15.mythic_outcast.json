@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.aeldari_outcast.level_15.mythic_outcast",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Mythic Outcast",
+  "summary": "Once per long rest, for 1 minute, you gain +10 ft speed, advantage on Stealth checks, and your first weapon hit each turn deals +1d10 damage if you moved before attacking.",
+  "descriptionMarkdown": "Once per long rest, for 1 minute, you gain +10 ft speed, \nadvantage on Stealth checks, and your first\nweapon hit each turn deals +1d10 damage if you moved \nbefore attacking.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.11.15",
+        "heading": "Mythic Outcast",
+        "pdfPage": 80,
+        "printedPage": 67
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per long rest, for 1 minute, you gain +10 ft speed, \nadvantage on Stealth checks, and your first\nweapon hit each turn deals +1d10 damage if you moved \nbefore attacking.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

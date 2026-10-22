@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.baleful_rupture",
+  "kind": "power",
+  "name": "Baleful Rupture",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Baleful Rupture; Tag: Malefic; Rule: Action. Range 90 ft. Intelligence save. Failure: 4d8 psychic damage; success: half. Add +1 extra Warp Pressure after resolving.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Baleful Rupture",
+          "pdfPage": 92,
+          "printedPage": 79
+        }
+      }
+    }
+  ]
+}

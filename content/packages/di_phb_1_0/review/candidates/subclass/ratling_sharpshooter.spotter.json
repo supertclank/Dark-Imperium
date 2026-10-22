@@ -1,0 +1,30 @@
+{
+  "proposedId": "di.subclass.ratling_sharpshooter.spotter",
+  "kind": "subclass",
+  "name": "Spotter",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-012"
+  ],
+  "proposedData": {
+    "parentClass": {
+      "id": "di.class.ratling_sharpshooter"
+    }
+  },
+  "evidence": [
+    {
+      "text": "Spotter; As a bonus action, mark one enemy you can see within 120 ft. The next ally to attack that target gains +1d4 to hit. This benefit affects allies only and does not apply to your own attack unless a later feature says otherwise.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "11.7",
+          "heading": "Spotter",
+          "pdfPage": 68,
+          "printedPage": 55
+        }
+      }
+    }
+  ]
+}

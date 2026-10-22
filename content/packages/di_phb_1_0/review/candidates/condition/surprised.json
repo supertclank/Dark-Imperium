@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.condition.surprised",
+  "kind": "condition",
+  "name": "Surprised",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-013"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Condition / State: Surprised; Effect: If the GM determines you were unaware of danger when combat began, you are Surprised until the end of your first turn. While Surprised, you cannot move or take actions or bonus actions, and you cannot take reactions until that turn ends.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "6",
+          "heading": "Surprised",
+          "pdfPage": 33,
+          "printedPage": 20
+        }
+      }
+    }
+  ]
+}

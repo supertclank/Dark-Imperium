@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.universal.twitchy",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Twitchy",
+  "summary": "Trait: Twitchy Effect: Gain +2 to initiative.",
+  "descriptionMarkdown": "Trait: Twitchy\nEffect: Gain +2 to initiative.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "5",
+        "heading": "Twitchy",
+        "pdfPage": 29,
+        "printedPage": 16
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "general",
+    "effects": [
+      {
+        "id": "initiative",
+        "automation": "automatic",
+        "activation": "continuous",
+        "target": {
+          "kind": "stat",
+          "key": "initiative",
+          "scope": "self"
+        },
+        "operation": "add",
+        "value": {
+          "kind": "constant",
+          "value": 2
+        },
+        "duration": {
+          "kind": "while_source"
+        },
+        "stacking": {
+          "group": "di.initiative",
+          "mode": "sum"
+        },
+        "priority": 0
+      }
+    ],
+    "grants": [],
+    "manualRules": []
+  }
+}

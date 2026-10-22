@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.ratling_sharpshooter.level_3.ratling_trick",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Ratling Trick",
+  "summary": "Trick Benefit Long-Las Sniper If you do not move this turn, your first ranged attack gains +2 to hit. Underhive Rat Gain expertise in Stealth or Sleight of Hand. You have advantage on checks to hide in urban ruins, crowds, vents, pipes, and debris. Spotter As a bonus action, mark one enemy you can see within 120 ft. The next ally to attack that target gains +1d4 to hit. This benefit affects allies only and does not apply to your own attack unless a later feature says otherwise. Black-Market G...",
+  "descriptionMarkdown": "Trick Benefit\nLong-Las Sniper If you do not move this turn, your \nfirst ranged attack gains +2 to hit.\nUnderhive Rat\nGain expertise in Stealth or Sleight \nof Hand. You have advantage on \nchecks to hide in urban ruins, \ncrowds, vents, pipes, and debris.\nSpotter\nAs a bonus action, mark one \nenemy you can see within 120 ft. \nThe next ally to attack that target \ngains +1d4 to hit. This benefit \naffects allies only and does not \napply to your own attack unless a \nlater feature says otherwise.\nBlack-Market Gremlin\nYou can usually acquire illegal \nammo, fake papers, ration packs, \nor minor contraband in \nsettlements. You gain proficiency \nwith thieves’ tools.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.7.4",
+        "heading": "Ratling Trick",
+        "pdfPage": 68,
+        "printedPage": 55
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Trick Benefit\nLong-Las Sniper If you do not move this turn, your \nfirst ranged attack gains +2 to hit.\nUnderhive Rat\nGain expertise in Stealth or Sleight \nof Hand. You have advantage on \nchecks to hide in urban ruins, \ncrowds, vents, pipes, and debris.\nSpotter\nAs a bonus action, mark one \nenemy you can see within 120 ft. \nThe next ally to attack that target \ngains +1d4 to hit. This benefit \naffects allies only and does not \napply to your own attack unless a \nlater feature says otherwise.\nBlack-Market Gremlin\nYou can usually acquire illegal \nammo, fake papers, ration packs, \nor minor contraband in \nsettlements. You gain proficiency \nwith thieves’ tools.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

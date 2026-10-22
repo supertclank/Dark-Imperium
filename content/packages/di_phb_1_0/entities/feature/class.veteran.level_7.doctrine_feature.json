@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.veteran.level_7.doctrine_feature",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Doctrine Feature",
+  "summary": "Doctrine Feature Shock Trooper Once per short rest, reroll one damage die for a lasgun, autogun, shotgun, or bolter. Marksman Accurate weapons gain +1 damage when you did not move. Sergeant When an ally within 30 ft fails a fear or Suppression save, use your reaction to let them reroll it.",
+  "descriptionMarkdown": "Doctrine Feature\nShock Trooper\nOnce per short rest, reroll one \ndamage die for a lasgun, autogun, \nshotgun, or bolter.\nMarksman Accurate weapons gain +1 \ndamage when you did not move.\nSergeant\nWhen an ally within 30 ft fails a \nfear or Suppression save, use \nyour reaction to let them reroll it.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.1.7",
+        "heading": "Doctrine Feature",
+        "pdfPage": 50,
+        "printedPage": 37
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Doctrine Feature\nShock Trooper\nOnce per short rest, reroll one \ndamage die for a lasgun, autogun, \nshotgun, or bolter.\nMarksman Accurate weapons gain +1 \ndamage when you did not move.\nSergeant\nWhen an ally within 30 ft fails a \nfear or Suppression save, use \nyour reaction to let them reroll it.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

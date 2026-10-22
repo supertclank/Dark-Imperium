@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.weapon.wargear.starfall_long_rifle_aeldari",
+  "kind": "weapon",
+  "name": "Starfall Long Rifle - Aeldari",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Relic: Starfall Long Rifle - Aeldari; Availability: Near-Unique; Effect: 1d10 piercing; 180/720 ft; Accurate, Silent, Monomolecular, Reload 6. If you are Hidden and did not move this turn, attacks with it score a critical hit on 19-20. Once per short rest, ignore Heavy Cover on one attack.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Starfall Long Rifle - Aeldari",
+          "pdfPage": 108,
+          "printedPage": 95
+        }
+      }
+    }
+  ]
+}

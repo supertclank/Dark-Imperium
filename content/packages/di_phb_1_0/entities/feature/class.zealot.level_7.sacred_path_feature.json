@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.zealot.level_7.sacred_path_feature",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Sacred Path Feature",
+  "summary": "Sacred Path Feature Preacher When you use Martyr’s Mercy, the target also gains advantage on its next saving throw against fear. Flagellant When you take damage, gain temporary HP equal to your proficiency bonus. Purifier Your flamer and firebomb damage increases by +1 per damage die against daemons, heretics, mutants, and corrupted creatures.",
+  "descriptionMarkdown": "Sacred Path Feature\nPreacher\nWhen you use Martyr’s Mercy, the \ntarget also gains advantage on its \nnext saving throw against fear.\nFlagellant\nWhen you take damage, gain \ntemporary HP equal to your \nproficiency bonus.\nPurifier\nYour flamer and firebomb damage \nincreases by +1 per damage die \nagainst daemons, heretics, \nmutants, and corrupted creatures.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.2.8",
+        "heading": "Sacred Path Feature",
+        "pdfPage": 53,
+        "printedPage": 40
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Sacred Path Feature\nPreacher\nWhen you use Martyr’s Mercy, the \ntarget also gains advantage on its \nnext saving throw against fear.\nFlagellant\nWhen you take damage, gain \ntemporary HP equal to your \nproficiency bonus.\nPurifier\nYour flamer and firebomb damage \nincreases by +1 per damage die \nagainst daemons, heretics, \nmutants, and corrupted creatures.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

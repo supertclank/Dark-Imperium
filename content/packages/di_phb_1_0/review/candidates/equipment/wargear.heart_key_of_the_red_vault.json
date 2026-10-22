@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.wargear.heart_key_of_the_red_vault",
+  "kind": "equipment",
+  "name": "Heart-Key of the Red Vault",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Unique Item: Heart-Key of the Red Vault; Availability: Unique; Effect and Burden: Mechanicus interface. Once per long rest, treat one Technology check to unlock, disable or command a machine, security system or vehicle of DC 20 or lower as a success. Against harder systems, make the check with advantage and add 1d10. Burden: multiple forge worlds claim it.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Heart-Key of the Red Vault",
+          "pdfPage": 108,
+          "printedPage": 95
+        }
+      }
+    }
+  ]
+}

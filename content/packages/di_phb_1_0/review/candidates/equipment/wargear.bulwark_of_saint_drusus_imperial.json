@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.wargear.bulwark_of_saint_drusus_imperial",
+  "kind": "equipment",
+  "name": "Bulwark of Saint Drusus - Imperial",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Relic: Bulwark of Saint Drusus - Imperial; Availability: Near-Unique; Effect: Refractor relic. Once per short rest, reaction to reduce damage to you by 2d8 + proficiency bonus; allies within 5 ft reduce the same instance of area damage by your proficiency bonus. Burden: Ecclesiarchal or Inquisitorial ownership is likely.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Bulwark of Saint Drusus - Imperial",
+          "pdfPage": 107,
+          "printedPage": 94
+        }
+      }
+    }
+  ]
+}

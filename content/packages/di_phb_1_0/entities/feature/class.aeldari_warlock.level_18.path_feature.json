@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.aeldari_warlock.level_18.path_feature",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Path Feature",
+  "summary": "Warlock Path Feature Seer of Battle Your reaction advantage may be used after the d20 is rolled but before the result is declared. Storm Warlock Your Storm Warlock push increases to 10 ft. Spirit Guardian When Rune Ward protects an ally, one hostile creature within 30 ft has disadvantage on its next psychic saving throw.",
+  "descriptionMarkdown": "Warlock Path Feature\nSeer of Battle\nYour reaction advantage may be \nused after the d20 is rolled but \nbefore the result is declared.\nStorm Warlock Your Storm Warlock push \nincreases to 10 ft.\nSpirit Guardian\nWhen Rune Ward protects an ally, \none hostile creature within 30 ft \nhas disadvantage on its next \npsychic saving throw.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.12.18",
+        "heading": "Path Feature",
+        "pdfPage": 84,
+        "printedPage": 71
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Warlock Path Feature\nSeer of Battle\nYour reaction advantage may be \nused after the d20 is rolled but \nbefore the result is declared.\nStorm Warlock Your Storm Warlock push \nincreases to 10 ft.\nSpirit Guardian\nWhen Rune Ward protects an ally, \none hostile creature within 30 ft \nhas disadvantage on its next \npsychic saving throw.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

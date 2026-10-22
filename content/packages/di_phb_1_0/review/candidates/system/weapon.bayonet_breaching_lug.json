@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.system.weapon.bayonet_breaching_lug",
+  "kind": "system",
+  "name": "Bayonet / Breaching Lug",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Modification: Bayonet / Breaching Lug; Availability: Issued; Effect: A suitable ranged weapon can be used as a 1d6 piercing melee weapon without drawing another weapon. It is not Finesse unless the base weapon is Light.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Bayonet / Breaching Lug",
+          "pdfPage": 104,
+          "printedPage": 91
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "proposedId": "di.weapon.etacarn_mining_tool",
+  "kind": "weapon",
+  "name": "EtaCarn Mining Tool",
+  "status": "AMBIGUOUS",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-005",
+    "PHB-006"
+  ],
+  "proposedData": {
+    "properties": [
+      {
+        "property": {
+          "id": "di.property.weapon.heavy"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.industrial"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.armour_breaking"
+        },
+        "arguments": {}
+      }
+    ],
+    "modes": [
+      {
+        "id": "base",
+        "name": "Base profile"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "text": "Weapon: EtaCarn Mining Tool; Damage: 1d10 slashing/fire; Range: Melee; Properties: Heavy, Industrial, Armour- Breaking; Availability: Issued",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "8",
+          "heading": "EtaCarn Mining Tool",
+          "pdfPage": 40,
+          "printedPage": 27
+        }
+      }
+    }
+  ]
+}

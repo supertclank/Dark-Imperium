@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_21_2",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Driving and Movement",
+  "summary": "Clear roads and ordinary turns need no roll. Follow a physically possible route: a vehicle cannot pass through walls or gaps narrower than its hull. Reversing costs double movement. Walkers turn in place; other vehicles need room to turn. Rubble, stairs and steep slopes are difficult terrain unless a trait says otherwise. Tactical Speed is not maximum road speed. For map space, use 10 × 10 ft for Large, 15 × 15 ft for Huge, and at least 20 × 20 ft for Gargantuan; the GM can use the actual hul...",
+  "descriptionMarkdown": "Clear roads and ordinary turns need no roll. Follow a physically possible route: a vehicle cannot pass through walls or \ngaps narrower than its hull. Reversing costs double movement. Walkers turn in place; other vehicles need room to turn. \nRubble, stairs and steep slopes are difficult terrain unless a trait says otherwise. Tactical Speed is not maximum road \nspeed. For map space, use 10 × 10 ft for Large, 15 × 15 ft for Huge, and at least 20 × 20 ft for Gargantuan; the GM can \nuse the actual hull outline when terrain demands it.\nDifficulty Example DC\nRoutine Clear road, ordinary turn, controlled stop None\nDemanding Sharp turn, loose surface, narrow opening 10\nDangerous Dense wreckage, unstable bridge, hard evasive turn 13\nExtreme Broken causeway jump or collapsing route 16\nExceptional A barely possible stunt under severe pressure 20\nRoll Dexterity (Vehicles) + Handling. Failure ends movement before the hazard; failure by 5 or more also causes a \ncollision (21.4). The GM may state a different consequence before the roll. A natural 1 is not an automatic crash; a \nnatural 20 cannot make an impossible stunt possible.\nA skimmer operates within 10 ft of a supporting surface. It can cross terrain or calm water allowed by its profile but \ncannot climb above a wall to bypass a scene. When its drive fails, it settles onto the surface below; a fall into a chasm \nremains a fall. Falls deal 1d6 bludgeoning per 10 ft, maximum 20d6, ignoring DT; exposed occupants take their own \nfalling damage, while enclosed occupants use the wreck rules if the hull reaches 0 HP.\nVehicle Combat",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "21.2",
+        "heading": "Driving and Movement",
+        "pdfPage": 114,
+        "printedPage": 101
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Clear roads and ordinary turns need no roll. Follow a physically possible route: a vehicle cannot pass through walls or \ngaps narrower than its hull. Reversing costs double movement. Walkers turn in place; other vehicles need room to turn. \nRubble, stairs and steep slopes are difficult terrain unless a trait says otherwise. Tactical Speed is not maximum road \nspeed. For map space, use 10 × 10 ft for Large, 15 × 15 ft for Huge, and at least 20 × 20 ft for Gargantuan; the GM can \nuse the actual hull outline when terrain demands it.\nDifficulty Example DC\nRoutine Clear road, ordinary turn, controlled stop None\nDemanding Sharp turn, loose surface, narrow opening 10\nDangerous Dense wreckage, unstable bridge, hard evasive turn 13\nExtreme Broken causeway jump or collapsing route 16\nExceptional A barely possible stunt under severe pressure 20\nRoll Dexterity (Vehicles) + Handling. Failure ends movement before the hazard; failure by 5 or more also causes a \ncollision (21.4). The GM may state a different consequence before the roll. A natural 1 is not an automatic crash; a \nnatural 20 cannot make an impossible stunt possible.\nA skimmer operates within 10 ft of a supporting surface. It can cross terrain or calm water allowed by its profile but \ncannot climb above a wall to bypass a scene. When its drive fails, it settles onto the surface below; a fall into a chasm \nremains a fall. Falls deal 1d6 bludgeoning per 10 ft, maximum 20d6, ignoring DT; exposed occupants take their own \nfalling damage, while enclosed occupants use the wreck rules if the hull reaches 0 HP.\nVehicle Combat",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

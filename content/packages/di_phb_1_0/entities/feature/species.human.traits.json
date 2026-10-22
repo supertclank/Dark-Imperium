@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.species.human.traits",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Human traits",
+  "summary": "3.1 Human Humans are the baseline of the Imperium: adaptable, ambitious, fragile, and dangerously determined. Ability Scores: +2 to one ability score and +1 to another. Size: Medium. Speed: 30 ft. Available Classes: Veteran, Zealot, Psyker, Arbites Enforcer, Hive Scum. 3.1.1 Human Traits Imperial Adaptability: Gain proficiency in one skill of your choice. Broad Training: Gain one additional weapon, tool, or language proficiency. Faith, Fear, or Discipline: Once per long rest, when you fail a ...",
+  "descriptionMarkdown": "3.1 Human\nHumans are the baseline of the Imperium: adaptable, \nambitious, fragile, and dangerously determined.\nAbility Scores: +2 to one ability score and +1 to \nanother.\nSize: Medium.\nSpeed: 30 ft.\nAvailable Classes: Veteran, Zealot, Psyker, Arbites \nEnforcer, Hive Scum.\n3.1.1 Human Traits\nImperial Adaptability: Gain proficiency in one skill of \nyour choice.\nBroad Training: Gain one additional weapon, tool, or \nlanguage proficiency.\nFaith, Fear, or Discipline: Once per long rest, when you \nfail a saving throw, you may reroll it. You must\nuse the new result.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "3.1",
+        "heading": "Human traits",
+        "pdfPage": 23,
+        "printedPage": 10
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "species_trait",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "3.1 Human\nHumans are the baseline of the Imperium: adaptable, \nambitious, fragile, and dangerously determined.\nSize: Medium.\n\nAvailable Classes: Veteran, Zealot, Psyker, Arbites \nEnforcer, Hive Scum.\n3.1.1 Human Traits\nBroad Training: Gain one additional weapon, tool, or \nlanguage proficiency.\nFaith, Fear, or Discipline: Once per long rest, when you \nfail a saving throw, you may reroll it. You must\nuse the new result.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

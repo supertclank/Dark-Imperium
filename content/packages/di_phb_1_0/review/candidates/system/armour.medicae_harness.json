@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.system.armour.medicae_harness",
+  "kind": "system",
+  "name": "Medicae Harness",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Modification: Medicae Harness; Typical Availability: Scarce; Effect: Once per short rest, use a Med-Stim on yourself as a bonus action.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "9",
+          "heading": "Medicae Harness",
+          "pdfPage": 44,
+          "printedPage": 31
+        }
+      }
+    }
+  ]
+}

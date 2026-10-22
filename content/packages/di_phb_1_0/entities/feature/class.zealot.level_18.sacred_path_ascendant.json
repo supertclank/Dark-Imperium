@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.zealot.level_18.sacred_path_ascendant",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Sacred Path Ascendant",
+  "summary": "Your Sacred Path reaches its heroic form. Sacred Path Ascendant Feature Preacher Allies within 30 ft also gain +1d4 to fear saves. Flagellant The first time each round you take damage, gain temporary HP equal to twice your proficiency bonus. Purifier When you deal fire damage, one affected creature cannot benefit from cover against your next attack before your next turn.",
+  "descriptionMarkdown": "Your Sacred Path reaches its heroic form.\nSacred Path Ascendant Feature\nPreacher Allies within 30 ft also gain +1d4 to \nfear saves.\nFlagellant\nThe first time each round you take \ndamage, gain temporary HP equal \nto twice your proficiency bonus.\nPurifier\nWhen you deal fire damage, one \naffected creature cannot benefit \nfrom cover against your next \nattack before your next turn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.2.18",
+        "heading": "Sacred Path Ascendant",
+        "pdfPage": 54,
+        "printedPage": 41
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Your Sacred Path reaches its heroic form.\nSacred Path Ascendant Feature\nPreacher Allies within 30 ft also gain +1d4 to \nfear saves.\nFlagellant\nThe first time each round you take \ndamage, gain temporary HP equal \nto twice your proficiency bonus.\nPurifier\nWhen you deal fire damage, one \naffected creature cannot benefit \nfrom cover against your next \nattack before your next turn.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

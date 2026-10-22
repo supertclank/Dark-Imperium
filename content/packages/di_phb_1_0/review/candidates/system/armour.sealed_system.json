@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.system.armour.sealed_system",
+  "kind": "system",
+  "name": "Sealed System",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Modification: Sealed System; Typical Availability: Controlled; Effect: Advantage on saves against gas, smoke and airborne toxins; a suitable sealed suit also protects against brief vacuum exposure.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "9",
+          "heading": "Sealed System",
+          "pdfPage": 44,
+          "printedPage": 31
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.pariah_zone",
+  "kind": "power",
+  "name": "Pariah Zone",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Pariah Zone; Tag: Null; Rule: Action. 15-ft radius centred on you for 1 minute, concentration. Psychic powers cast inside the area cost +1 Warp Pressure, and allies inside the area have advantage on saving throws against psychic powers.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Pariah Zone",
+          "pdfPage": 93,
+          "printedPage": 80
+        }
+      }
+    }
+  ]
+}

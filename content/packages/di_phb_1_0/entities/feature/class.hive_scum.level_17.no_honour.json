@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.hive_scum.level_17.no_honour",
+  "kind": "feature",
+  "revision": 1,
+  "name": "No Honour",
+  "summary": "Progression table entry: No Honour. Full clause mapping requires review; do not infer effects.",
+  "descriptionMarkdown": "Progression table entry: No Honour. Full clause mapping requires review; do not infer effects.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.6",
+        "heading": "No Honour",
+        "pdfPage": 65,
+        "printedPage": 52
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Progression table entry: No Honour. Full clause mapping requires review; do not infer effects.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

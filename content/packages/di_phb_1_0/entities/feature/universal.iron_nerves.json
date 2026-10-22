@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.universal.iron_nerves",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Iron Nerves",
+  "summary": "Trait: Iron Nerves Effect: Once per short rest, when you would become Suppressed, ignore the condition until the start of your next turn.",
+  "descriptionMarkdown": "Trait: Iron Nerves\nEffect: Once per short rest, when you would become Suppressed, ignore the condition until the start of your next turn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "5",
+        "heading": "Iron Nerves",
+        "pdfPage": 29,
+        "printedPage": 16
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "general",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Trait: Iron Nerves\nEffect: Once per short rest, when you would become Suppressed, ignore the condition until the start of your next turn.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

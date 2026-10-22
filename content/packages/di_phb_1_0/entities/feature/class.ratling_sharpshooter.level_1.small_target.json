@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.ratling_sharpshooter.level_1.small_target",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Small Target",
+  "summary": "When you are behind light cover, you treat it as heavy cover. When you are prone, ranged attacks against you suffer an additional -2 penalty.",
+  "descriptionMarkdown": "When you are behind light cover, you treat it as heavy \ncover. When you are prone, ranged attacks\nagainst you suffer an additional -2 penalty.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.7.1",
+        "heading": "Small Target",
+        "pdfPage": 68,
+        "printedPage": 55
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When you are behind light cover, you treat it as heavy \ncover. When you are prone, ranged attacks\nagainst you suffer an additional -2 penalty.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

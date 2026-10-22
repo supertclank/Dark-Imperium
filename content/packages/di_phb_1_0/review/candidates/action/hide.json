@@ -1,0 +1,28 @@
+{
+  "proposedId": "di.action.hide",
+  "kind": "action",
+  "name": "Hide",
+  "status": "MANUAL_RULE",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-011"
+  ],
+  "proposedData": {
+    "economy": "action"
+  },
+  "evidence": [
+    {
+      "text": "Attempt to become hidden when terrain, darkness or concealment allows it.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "6.1",
+          "heading": "Hide",
+          "pdfPage": 31,
+          "printedPage": 18
+        }
+      }
+    }
+  ]
+}

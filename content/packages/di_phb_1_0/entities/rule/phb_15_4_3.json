@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_15_4_3",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Soul Echo",
+  "summary": "Every creature within 10 ft of you, including you, takes 2d6 psychic damage.",
+  "descriptionMarkdown": "Every creature within 10 ft of you, including you, takes \n2d6 psychic damage.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "15.4.3",
+        "heading": "Soul Echo",
+        "pdfPage": 95,
+        "printedPage": 82
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "perils",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Every creature within 10 ft of you, including you, takes \n2d6 psychic damage.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

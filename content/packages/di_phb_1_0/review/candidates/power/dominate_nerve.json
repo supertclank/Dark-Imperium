@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.dominate_nerve",
+  "kind": "power",
+  "name": "Dominate Nerve",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Dominate Nerve; Tag: Biomancy, Universal; Rule: Action. Range 60 ft. Wisdom save. Failure: no reactions and disadvantage on next attack roll.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Dominate Nerve",
+          "pdfPage": 92,
+          "printedPage": 79
+        }
+      }
+    }
+  ]
+}

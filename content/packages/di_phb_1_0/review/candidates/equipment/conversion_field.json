@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.conversion_field",
+  "kind": "equipment",
+  "name": "Conversion Field",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-007"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "AC: Special; Reaction: reduce radiant, fire, force or thunder damage by 2d8 once per short rest; maximum roll emits bright light until your next turn.; Availability: Exceptional",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "9",
+          "heading": "Conversion Field",
+          "pdfPage": 42,
+          "printedPage": 29
+        }
+      }
+    }
+  ]
+}

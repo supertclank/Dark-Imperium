@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.ogryn_skullbreaker.level_1.loyal_protector",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Loyal Protector",
+  "summary": "When an ally within 5 ft is targeted by an attack, and you can see the attacker, you may use your reaction before the attack roll is resolved to impose disadvantage on that roll. If the attack still hits, you may choose to take half of the damage dealt to the ally; that transferred damage cannot be reduced again by Loyal Protector.",
+  "descriptionMarkdown": "When an ally within 5 ft is targeted by an attack, and you \ncan see the attacker, you may use your reaction before \nthe attack roll is resolved to impose disadvantage on that \nroll. If the attack still hits, you may choose to take half of \nthe damage dealt to the ally; that transferred damage \ncannot be reduced again by Loyal Protector.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.4.2",
+        "heading": "Loyal Protector",
+        "pdfPage": 59,
+        "printedPage": 46
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When an ally within 5 ft is targeted by an attack, and you \ncan see the attacker, you may use your reaction before \nthe attack roll is resolved to impose disadvantage on that \nroll. If the attack still hits, you may choose to take half of \nthe damage dealt to the ally; that transferred damage \ncannot be reduced again by Loyal Protector.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

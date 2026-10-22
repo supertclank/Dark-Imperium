@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.aeldari_outcast.level_18.path_feature",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Path Feature",
+  "summary": "Outcast Path Feature Ranger Your attacks from hiding score a critical hit on 19-20. Outcast Path Feature Corsair After you move 5 ft from your Corsair feature, your next attack before your next turn gains +1d6 damage. Shadow Guide Allies moved by your Path Feature may also ignore difficult terrain until your next turn.",
+  "descriptionMarkdown": "Outcast Path Feature\nRanger Your attacks from hiding score a \ncritical hit on 19-20.\nOutcast Path Feature\nCorsair\nAfter you move 5 ft from your \nCorsair feature, your next attack \nbefore your next turn gains +1d6 \ndamage.\nShadow Guide\nAllies moved by your Path Feature \nmay also ignore difficult terrain \nuntil your next turn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.11.18",
+        "heading": "Path Feature",
+        "pdfPage": 81,
+        "printedPage": 68
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Outcast Path Feature\nRanger Your attacks from hiding score a \ncritical hit on 19-20.\nOutcast Path Feature\nCorsair\nAfter you move 5 ft from your \nCorsair feature, your next attack \nbefore your next turn gains +1d6 \ndamage.\nShadow Guide\nAllies moved by your Path Feature \nmay also ignore difficult terrain \nuntil your next turn.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

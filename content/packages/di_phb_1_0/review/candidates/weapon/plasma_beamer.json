@@ -1,0 +1,67 @@
+{
+  "proposedId": "di.weapon.plasma_beamer",
+  "kind": "weapon",
+  "name": "Plasma Beamer",
+  "status": "AMBIGUOUS",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-005",
+    "PHB-006"
+  ],
+  "proposedData": {
+    "properties": [
+      {
+        "property": {
+          "id": "di.property.weapon.beam"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.overheat"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.reload"
+        },
+        "arguments": {
+          "capacity": 6
+        }
+      }
+    ],
+    "modes": [
+      {
+        "id": "base",
+        "name": "Base profile",
+        "range": {
+          "kind": "distance",
+          "normal": {
+            "value": 60,
+            "unit": "ft"
+          },
+          "long": {
+            "value": 180,
+            "unit": "ft"
+          }
+        }
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "text": "Weapon: Plasma Beamer; Damage: 2d8 radiant/fire; Range: 60/180; Properties: Beam, Overheat, Reload 6; Availability: Rare",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "8",
+          "heading": "Plasma Beamer",
+          "pdfPage": 40,
+          "printedPage": 27
+        }
+      }
+    }
+  ]
+}

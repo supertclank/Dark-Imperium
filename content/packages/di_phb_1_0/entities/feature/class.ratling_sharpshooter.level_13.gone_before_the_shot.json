@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.ratling_sharpshooter.level_13.gone_before_the_shot",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Gone Before the Shot",
+  "summary": "After you hit or miss with a ranged attack from cover, you may move 5 ft without provoking opportunity attacks.",
+  "descriptionMarkdown": "After you hit or miss with a ranged attack from cover, you \nmay move 5 ft without provoking opportunity\nattacks.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.7.13",
+        "heading": "Gone Before the Shot",
+        "pdfPage": 68,
+        "printedPage": 55
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "After you hit or miss with a ranged attack from cover, you \nmay move 5 ft without provoking opportunity\nattacks.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

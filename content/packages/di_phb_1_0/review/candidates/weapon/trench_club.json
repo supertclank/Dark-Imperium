@@ -1,0 +1,58 @@
+{
+  "proposedId": "di.weapon.trench_club",
+  "kind": "weapon",
+  "name": "Trench Club",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-005"
+  ],
+  "proposedData": {
+    "properties": [
+      {
+        "property": {
+          "id": "di.property.weapon.light"
+        },
+        "arguments": {}
+      }
+    ],
+    "modes": [
+      {
+        "id": "base",
+        "name": "Base profile",
+        "damage": [
+          {
+            "id": "component_1",
+            "dice": {
+              "count": 1,
+              "sides": 6,
+              "bonus": 0
+            },
+            "bonus": {
+              "kind": "constant",
+              "value": 0
+            },
+            "damageType": {
+              "id": "di.damage_type.bludgeoning"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "text": "Weapon: Trench Club; Damage: 1d6 bludgeoning; Properties: Light; Availability: Issued",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "8",
+          "heading": "Trench Club",
+          "pdfPage": 38,
+          "printedPage": 25
+        }
+      }
+    }
+  ]
+}

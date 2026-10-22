@@ -1,0 +1,5532 @@
+{
+  "schemaVersion": 1,
+  "namespace": "di",
+  "allocationStatus": "reserved draft identities; not published",
+  "identities": [
+    {
+      "id": "di.action.lasgun.base_damage",
+      "name": "Lasgun base damage",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/action/lasgun.base_damage.json"
+    },
+    {
+      "id": "di.action.warp_spark.base_damage",
+      "name": "Warp Spark base damage",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/action/warp_spark.base_damage.json"
+    },
+    {
+      "id": "di.armour.ogryn_leathers",
+      "name": "Ogryn Leathers",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/armour/ogryn_leathers.json"
+    },
+    {
+      "id": "di.background.craftworld_outcast",
+      "name": "Craftworld / Outcast",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/background/craftworld_outcast.json"
+    },
+    {
+      "id": "di.background.forge_world",
+      "name": "Forge World",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/background/forge_world.json"
+    },
+    {
+      "id": "di.background.hiveborn",
+      "name": "Hiveborn",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/background/hiveborn.json"
+    },
+    {
+      "id": "di.background.militarum_regiment",
+      "name": "Militarum Regiment",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/background/militarum_regiment.json"
+    },
+    {
+      "id": "di.background.mining_hold_guild",
+      "name": "Mining Hold / Guild",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/background/mining_hold_guild.json"
+    },
+    {
+      "id": "di.background.penal_worlder",
+      "name": "Penal Worlder",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/background/penal_worlder.json"
+    },
+    {
+      "id": "di.background.schola_progenium",
+      "name": "Schola Progenium",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/background/schola_progenium.json"
+    },
+    {
+      "id": "di.background.shrine_worlder",
+      "name": "Shrine Worlder",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/background/shrine_worlder.json"
+    },
+    {
+      "id": "di.background.underhive",
+      "name": "Underhive",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/background/underhive.json"
+    },
+    {
+      "id": "di.background.voidborn",
+      "name": "Voidborn",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/background/voidborn.json"
+    },
+    {
+      "id": "di.choice.aeldari.ability_scores",
+      "name": "Aeldari / Eldar ability score choice",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/aeldari.ability_scores.json"
+    },
+    {
+      "id": "di.choice.craftworld_outcast.skills",
+      "name": "Choose 2 skill proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/craftworld_outcast.skills.json"
+    },
+    {
+      "id": "di.choice.hiveborn.skills",
+      "name": "Choose 1 skill proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/hiveborn.skills.json"
+    },
+    {
+      "id": "di.choice.human.ability_scores",
+      "name": "Human ability score increases",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/human.ability_scores.json"
+    },
+    {
+      "id": "di.choice.human.imperial_adaptability",
+      "name": "Choose 1 skill proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/human.imperial_adaptability.json"
+    },
+    {
+      "id": "di.choice.kin.ability_scores",
+      "name": "Squat / Kin ability score choice",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/kin.ability_scores.json"
+    },
+    {
+      "id": "di.choice.militarum_regiment.skills",
+      "name": "Choose 1 skill proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/militarum_regiment.skills.json"
+    },
+    {
+      "id": "di.choice.mining_hold_guild.skills",
+      "name": "Choose 2 skill proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/mining_hold_guild.skills.json"
+    },
+    {
+      "id": "di.choice.penal_worlder.skills",
+      "name": "Choose 1 skill proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/penal_worlder.skills.json"
+    },
+    {
+      "id": "di.choice.schola_progenium.skills",
+      "name": "Choose 1 skill proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/schola_progenium.skills.json"
+    },
+    {
+      "id": "di.choice.schola_progenium.skills_2",
+      "name": "Choose 1 skill proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/schola_progenium.skills_2.json"
+    },
+    {
+      "id": "di.choice.shrine_worlder.skills",
+      "name": "Choose 1 skill proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/shrine_worlder.skills.json"
+    },
+    {
+      "id": "di.choice.skitarii.ability_scores",
+      "name": "Skitarii Augmented Human ability score choice",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/skitarii.ability_scores.json"
+    },
+    {
+      "id": "di.choice.underhive.skills",
+      "name": "Choose 2 skill proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/underhive.skills.json"
+    },
+    {
+      "id": "di.choice.veteran.starting_skills",
+      "name": "Choose 2 skill proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/veteran.starting_skills.json"
+    },
+    {
+      "id": "di.choice.veteran.subclass",
+      "name": "Regimental Doctrine",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/veteran.subclass.json"
+    },
+    {
+      "id": "di.choice.voidborn.skills",
+      "name": "Choose 1 skill proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/voidborn.skills.json"
+    },
+    {
+      "id": "di.class.aeldari_outcast",
+      "name": "Aeldari Outcast",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/class/aeldari_outcast.json"
+    },
+    {
+      "id": "di.class.aeldari_warlock",
+      "name": "Aeldari Warlock",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/class/aeldari_warlock.json"
+    },
+    {
+      "id": "di.class.arbites_enforcer",
+      "name": "Arbites Enforcer",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/class/arbites_enforcer.json"
+    },
+    {
+      "id": "di.class.hernkyn_prospector",
+      "name": "Hernkyn Prospector",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/class/hernkyn_prospector.json"
+    },
+    {
+      "id": "di.class.hive_scum",
+      "name": "Hive Scum",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/class/hive_scum.json"
+    },
+    {
+      "id": "di.class.kin_armsman",
+      "name": "Kin Armsman",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/class/kin_armsman.json"
+    },
+    {
+      "id": "di.class.ogryn_skullbreaker",
+      "name": "Ogryn Skullbreaker",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/class/ogryn_skullbreaker.json"
+    },
+    {
+      "id": "di.class.psyker",
+      "name": "Psyker",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/class/psyker.json"
+    },
+    {
+      "id": "di.class.ratling_sharpshooter",
+      "name": "Ratling Sharpshooter",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/class/ratling_sharpshooter.json"
+    },
+    {
+      "id": "di.class.skitarii_veteran",
+      "name": "Skitarii Veteran",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/class/skitarii_veteran.json"
+    },
+    {
+      "id": "di.class.veteran",
+      "name": "Veteran",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/class/veteran.json"
+    },
+    {
+      "id": "di.class.zealot",
+      "name": "Zealot",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/class/zealot.json"
+    },
+    {
+      "id": "di.damage_type.bludgeoning",
+      "name": "Bludgeoning",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/damage_type/bludgeoning.json"
+    },
+    {
+      "id": "di.damage_type.fire",
+      "name": "Fire",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/damage_type/fire.json"
+    },
+    {
+      "id": "di.damage_type.force",
+      "name": "Force",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/damage_type/force.json"
+    },
+    {
+      "id": "di.damage_type.lightning",
+      "name": "Lightning",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/damage_type/lightning.json"
+    },
+    {
+      "id": "di.damage_type.necrotic",
+      "name": "Necrotic",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/damage_type/necrotic.json"
+    },
+    {
+      "id": "di.damage_type.piercing",
+      "name": "Piercing",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/damage_type/piercing.json"
+    },
+    {
+      "id": "di.damage_type.poison",
+      "name": "Poison",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/damage_type/poison.json"
+    },
+    {
+      "id": "di.damage_type.psychic",
+      "name": "Psychic",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/damage_type/psychic.json"
+    },
+    {
+      "id": "di.damage_type.radiant",
+      "name": "Radiant",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/damage_type/radiant.json"
+    },
+    {
+      "id": "di.damage_type.radiation",
+      "name": "Radiation",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/damage_type/radiation.json"
+    },
+    {
+      "id": "di.damage_type.slashing",
+      "name": "Slashing",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/damage_type/slashing.json"
+    },
+    {
+      "id": "di.damage_type.thunder",
+      "name": "Thunder",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/damage_type/thunder.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_1.ranger_training",
+      "name": "Ranger Training",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_outcast.level_1.ranger_training.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_1.shuriken_grace",
+      "name": "Shuriken Grace",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_outcast.level_1.shuriken_grace.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_10.death_from_elsewhere",
+      "name": "Death from Elsewhere",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_outcast.level_10.death_from_elsewhere.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_11.perfect_motion",
+      "name": "Perfect Motion",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_outcast.level_11.perfect_motion.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_12.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_outcast.level_12.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_13.vanish_beyond_sight",
+      "name": "Vanish Beyond Sight",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_outcast.level_13.vanish_beyond_sight.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_14.path_feature",
+      "name": "Path Feature",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_outcast.level_14.path_feature.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_15.mythic_outcast",
+      "name": "Mythic Outcast",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_outcast.level_15.mythic_outcast.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_16.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_outcast.level_16.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_17.pathless_perfection",
+      "name": "Pathless Perfection",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_outcast.level_17.pathless_perfection.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_18.path_feature",
+      "name": "Path Feature",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_outcast.level_18.path_feature.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_19.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_outcast.level_19.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_2.ghostwalk",
+      "name": "Ghostwalk",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_outcast.level_2.ghostwalk.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_20.legend_of_the_wandering_path",
+      "name": "Legend of the Wandering Path",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_outcast.level_20.legend_of_the_wandering_path.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_3.outcast_path",
+      "name": "Outcast Path",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_outcast.level_3.outcast_path.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_4.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_outcast.level_4.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_5.extra_attack",
+      "name": "Extra Attack",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_outcast.level_5.extra_attack.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_6.unseen_shot",
+      "name": "Unseen Shot",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_outcast.level_6.unseen_shot.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_7.path_feature",
+      "name": "Path Feature",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_outcast.level_7.path_feature.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_8.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_outcast.level_8.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.level_9.webway_instinct",
+      "name": "Webway Instinct",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_outcast.level_9.webway_instinct.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_outcast.training",
+      "name": "Aeldari Outcast training and hit die",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_outcast.training.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_1.runes_of_battle",
+      "name": "Runes of Battle",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_warlock.level_1.runes_of_battle.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_1.witchblade_training",
+      "name": "Witchblade Training",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_warlock.level_1.witchblade_training.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_10.war_rune_mastery",
+      "name": "War-Rune Mastery",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_warlock.level_10.war_rune_mastery.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_11.major_rune_access",
+      "name": "Major Rune Access",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_warlock.level_11.major_rune_access.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_12.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_warlock.level_12.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_13.fate_splitter",
+      "name": "Fate Splitter",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_warlock.level_13.fate_splitter.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_14.path_feature",
+      "name": "Path Feature",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_warlock.level_14.path_feature.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_15.storm_of_runes",
+      "name": "Storm of Runes",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_warlock.level_15.storm_of_runes.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_16.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_warlock.level_16.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_17.spirit_rune_focus",
+      "name": "Spirit-Rune Focus",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_warlock.level_17.spirit_rune_focus.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_18.path_feature",
+      "name": "Path Feature",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_warlock.level_18.path_feature.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_19.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_warlock.level_19.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_2.rune_ward",
+      "name": "Rune Ward",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_warlock.level_2.rune_ward.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_20.farseers_echo",
+      "name": "Farseer's Echo",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_warlock.level_20.farseers_echo.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_3.warlock_path",
+      "name": "Warlock Path",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_warlock.level_3.warlock_path.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_4.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_warlock.level_4.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_5.empowered_rune",
+      "name": "Empowered Rune",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_warlock.level_5.empowered_rune.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_6.battle_seer",
+      "name": "Battle-Seer",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_warlock.level_6.battle_seer.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_7.path_feature",
+      "name": "Path Feature",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_warlock.level_7.path_feature.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_8.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_warlock.level_8.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.level_9.ghosthelm_discipline",
+      "name": "Ghosthelm Discipline",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_warlock.level_9.ghosthelm_discipline.json"
+    },
+    {
+      "id": "di.feature.class.aeldari_warlock.training",
+      "name": "Aeldari Warlock training and hit die",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.aeldari_warlock.training.json"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_1.authority",
+      "name": "Authority",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.arbites_enforcer.level_1.authority.json"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_1.enforcer_training",
+      "name": "Enforcer Training",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.arbites_enforcer.level_1.enforcer_training.json"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_10.judgement_protocol",
+      "name": "Judgement Protocol",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.arbites_enforcer.level_10.judgement_protocol.json"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_11.riot_control",
+      "name": "Riot Control",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.arbites_enforcer.level_11.riot_control.json"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_12.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.arbites_enforcer.level_12.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_13.legal_terror",
+      "name": "Legal Terror",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.arbites_enforcer.level_13.legal_terror.json"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_14.doctrine_feature",
+      "name": "Doctrine Feature",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.arbites_enforcer.level_14.doctrine_feature.json"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_15.sentence_executed",
+      "name": "Sentence Executed",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.arbites_enforcer.level_15.sentence_executed.json"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_16.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.arbites_enforcer.level_16.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_17.absolute_jurisdiction",
+      "name": "Absolute Jurisdiction",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.arbites_enforcer.level_17.absolute_jurisdiction.json"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_18.doctrine_feature",
+      "name": "Doctrine Feature",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.arbites_enforcer.level_18.doctrine_feature.json"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_19.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.arbites_enforcer.level_19.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_2.breach_and_clear",
+      "name": "Breach and Clear",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.arbites_enforcer.level_2.breach_and_clear.json"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_20.final_sentence",
+      "name": "Final Sentence",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.arbites_enforcer.level_20.final_sentence.json"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_3.enforcement_doctrine",
+      "name": "Enforcement Doctrine",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.arbites_enforcer.level_3.enforcement_doctrine.json"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_4.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.arbites_enforcer.level_4.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_5.extra_attack",
+      "name": "Extra Attack",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.arbites_enforcer.level_5.extra_attack.json"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_6.lockdown_order",
+      "name": "Lockdown Order",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.arbites_enforcer.level_6.lockdown_order.json"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_7.doctrine_feature",
+      "name": "Doctrine Feature",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.arbites_enforcer.level_7.doctrine_feature.json"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_8.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.arbites_enforcer.level_8.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.level_9.no_escape",
+      "name": "No Escape",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.arbites_enforcer.level_9.no_escape.json"
+    },
+    {
+      "id": "di.feature.class.arbites_enforcer.training",
+      "name": "Arbites Enforcer training and hit die",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.arbites_enforcer.training.json"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_1.claim_sight",
+      "name": "Claim Sight",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hernkyn_prospector.level_1.claim_sight.json"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_1.prospector_training",
+      "name": "Prospector Training",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hernkyn_prospector.level_1.prospector_training.json"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_10.perfect_claim",
+      "name": "Perfect Claim",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hernkyn_prospector.level_10.perfect_claim.json"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_11.deep_scan",
+      "name": "Deep Scan",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hernkyn_prospector.level_11.deep_scan.json"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_12.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hernkyn_prospector.level_12.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_13.no_stone_unturned",
+      "name": "No Stone Unturned",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hernkyn_prospector.level_13.no_stone_unturned.json"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_14.expedition_feature",
+      "name": "Expedition Feature",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hernkyn_prospector.level_14.expedition_feature.json"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_15.master_prospector",
+      "name": "Master Prospector",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hernkyn_prospector.level_15.master_prospector.json"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_16.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hernkyn_prospector.level_16.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_17.legendary_claim_staker",
+      "name": "Legendary Claim-Staker",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hernkyn_prospector.level_17.legendary_claim_staker.json"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_18.expedition_feature",
+      "name": "Expedition Feature",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hernkyn_prospector.level_18.expedition_feature.json"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_19.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hernkyn_prospector.level_19.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_2.surveyors_step",
+      "name": "Surveyor’s Step",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hernkyn_prospector.level_2.surveyors_step.json"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_20.claim_the_horizon",
+      "name": "Claim the Horizon",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hernkyn_prospector.level_20.claim_the_horizon.json"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_3.expedition_role",
+      "name": "Expedition Role",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hernkyn_prospector.level_3.expedition_role.json"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_4.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hernkyn_prospector.level_4.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_5.extra_attack",
+      "name": "Extra Attack",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hernkyn_prospector.level_5.extra_attack.json"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_6.mark_the_seam",
+      "name": "Mark the Seam",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hernkyn_prospector.level_6.mark_the_seam.json"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_7.expedition_feature",
+      "name": "Expedition Feature",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hernkyn_prospector.level_7.expedition_feature.json"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_8.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hernkyn_prospector.level_8.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.level_9.outriders_escape",
+      "name": "Outrider’s Escape",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hernkyn_prospector.level_9.outriders_escape.json"
+    },
+    {
+      "id": "di.feature.class.hernkyn_prospector.training",
+      "name": "Hernkyn Prospector training and hit die",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hernkyn_prospector.training.json"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_1.dirty_fighter",
+      "name": "Dirty Fighter",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hive_scum.level_1.dirty_fighter.json"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_1.streetwise",
+      "name": "Streetwise",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hive_scum.level_1.streetwise.json"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_10.knife_edge_survivor",
+      "name": "Knife-Edge Survivor",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hive_scum.level_10.knife_edge_survivor.json"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_11.backstabber_4d6",
+      "name": "Backstabber +4d6",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hive_scum.level_11.backstabber_4d6.json"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_12.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hive_scum.level_12.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_13.underhive_reputation",
+      "name": "Underhive Reputation",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hive_scum.level_13.underhive_reputation.json"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_14.gang_style_feature",
+      "name": "Gang Style Feature",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hive_scum.level_14.gang_style_feature.json"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_15.backstabber_5d6",
+      "name": "Backstabber +5d6",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hive_scum.level_15.backstabber_5d6.json"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_16.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hive_scum.level_16.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_17.no_honour",
+      "name": "No Honour",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hive_scum.level_17.no_honour.json"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_17.no_problem",
+      "name": "No Problem",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hive_scum.level_17.no_problem.json"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_18.backstabber_6d6",
+      "name": "Backstabber +6d6",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hive_scum.level_18.backstabber_6d6.json"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_19.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hive_scum.level_19.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_2.cunning_action",
+      "name": "Cunning Action",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hive_scum.level_2.cunning_action.json"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_20.king_of_the_underhive",
+      "name": "King of the Underhive",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hive_scum.level_20.king_of_the_underhive.json"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_3.gang_style",
+      "name": "Gang Style",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hive_scum.level_3.gang_style.json"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_4.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hive_scum.level_4.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_5.backstabber_3d6",
+      "name": "Backstabber +3d6",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hive_scum.level_5.backstabber_3d6.json"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_6.low_cunning",
+      "name": "Low Cunning",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hive_scum.level_6.low_cunning.json"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_7.gang_style_feature",
+      "name": "Gang Style Feature",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hive_scum.level_7.gang_style_feature.json"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_8.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hive_scum.level_8.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.hive_scum.level_9.vanish_into_trouble",
+      "name": "Vanish into Trouble",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hive_scum.level_9.vanish_into_trouble.json"
+    },
+    {
+      "id": "di.feature.class.hive_scum.training",
+      "name": "Hive Scum training and hit die",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.hive_scum.training.json"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_1.kin_training",
+      "name": "Kin Training",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.kin_armsman.level_1.kin_training.json"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_1.oath_mark",
+      "name": "Oath-Mark",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.kin_armsman.level_1.oath_mark.json"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_10.ancestral_wrath",
+      "name": "Ancestral Wrath",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.kin_armsman.level_10.ancestral_wrath.json"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_11.kinfire_drill",
+      "name": "Kinfire Drill",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.kin_armsman.level_11.kinfire_drill.json"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_12.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.kin_armsman.level_12.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_13.iron_compact",
+      "name": "Iron Compact",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.kin_armsman.level_13.iron_compact.json"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_14.doctrine_feature",
+      "name": "Doctrine Feature",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.kin_armsman.level_14.doctrine_feature.json"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_15.holdfast_champion",
+      "name": "Holdfast Champion",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.kin_armsman.level_15.holdfast_champion.json"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_16.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.kin_armsman.level_16.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_17.grudge_bound_advance",
+      "name": "Grudge-Bound Advance",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.kin_armsman.level_17.grudge_bound_advance.json"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_18.doctrine_feature",
+      "name": "Doctrine Feature",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.kin_armsman.level_18.doctrine_feature.json"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_19.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.kin_armsman.level_19.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_2.steady_advance",
+      "name": "Steady Advance",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.kin_armsman.level_2.steady_advance.json"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_20.ancestor_core_champion",
+      "name": "Ancestor-Core Champion",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.kin_armsman.level_20.ancestor_core_champion.json"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_3.hold_doctrine",
+      "name": "Hold Doctrine",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.kin_armsman.level_3.hold_doctrine.json"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_4.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.kin_armsman.level_4.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_5.extra_attack",
+      "name": "Extra Attack",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.kin_armsman.level_5.extra_attack.json"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_6.grudge_settled",
+      "name": "Grudge Settled",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.kin_armsman.level_6.grudge_settled.json"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_7.doctrine_feature",
+      "name": "Doctrine Feature",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.kin_armsman.level_7.doctrine_feature.json"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_8.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.kin_armsman.level_8.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.level_9.void_hardened_line",
+      "name": "Void-Hardened Line",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.kin_armsman.level_9.void_hardened_line.json"
+    },
+    {
+      "id": "di.feature.class.kin_armsman.training",
+      "name": "Kin Armsman training and hit die",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.kin_armsman.training.json"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_1.big_lad",
+      "name": "Big Lad",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ogryn_skullbreaker.level_1.big_lad.json"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_1.loyal_protector",
+      "name": "Loyal Protector",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ogryn_skullbreaker.level_1.loyal_protector.json"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_10.thunderous_violence",
+      "name": "Thunderous Violence",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ogryn_skullbreaker.level_10.thunderous_violence.json"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_11.bigger_and_meaner",
+      "name": "Bigger and Meaner",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ogryn_skullbreaker.level_11.bigger_and_meaner.json"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_12.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ogryn_skullbreaker.level_12.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_13.cant_keep_him_down",
+      "name": "Can’t Keep Him Down",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ogryn_skullbreaker.level_13.cant_keep_him_down.json"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_14.role_feature",
+      "name": "Role Feature",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ogryn_skullbreaker.level_14.role_feature.json"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_15.walking_fortress",
+      "name": "Walking Fortress",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ogryn_skullbreaker.level_15.walking_fortress.json"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_16.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ogryn_skullbreaker.level_16.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_17.mountain_of_muscle",
+      "name": "Mountain of Muscle",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ogryn_skullbreaker.level_17.mountain_of_muscle.json"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_18.role_feature",
+      "name": "Role Feature",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ogryn_skullbreaker.level_18.role_feature.json"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_19.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ogryn_skullbreaker.level_19.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_2.brutal_impact",
+      "name": "Brutal Impact",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ogryn_skullbreaker.level_2.brutal_impact.json"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_20.unkillable_big_lad",
+      "name": "Unkillable Big Lad",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ogryn_skullbreaker.level_20.unkillable_big_lad.json"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_3.ogryn_role",
+      "name": "Ogryn Role",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ogryn_skullbreaker.level_3.ogryn_role.json"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_4.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ogryn_skullbreaker.level_4.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_5.extra_attack",
+      "name": "Extra Attack",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ogryn_skullbreaker.level_5.extra_attack.json"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_6.too_stubborn_to_drop",
+      "name": "Too Stubborn to Drop",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ogryn_skullbreaker.level_6.too_stubborn_to_drop.json"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_7.role_feature",
+      "name": "Role Feature",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ogryn_skullbreaker.level_7.role_feature.json"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_8.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ogryn_skullbreaker.level_8.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.level_9.living_barricade",
+      "name": "Living Barricade",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ogryn_skullbreaker.level_9.living_barricade.json"
+    },
+    {
+      "id": "di.feature.class.ogryn_skullbreaker.training",
+      "name": "Ogryn Skullbreaker training and hit die",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ogryn_skullbreaker.training.json"
+    },
+    {
+      "id": "di.feature.class.psyker.level_1.psychic_discipline",
+      "name": "Psychic Discipline",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.psyker.level_1.psychic_discipline.json"
+    },
+    {
+      "id": "di.feature.class.psyker.level_1.warp_pressure",
+      "name": "Warp Pressure",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.psyker.level_1.warp_pressure.json"
+    },
+    {
+      "id": "di.feature.class.psyker.level_10.mastered_manifestation",
+      "name": "Mastered Manifestation",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.psyker.level_10.mastered_manifestation.json"
+    },
+    {
+      "id": "di.feature.class.psyker.level_11.major_power_access",
+      "name": "Major Power Access",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.psyker.level_11.major_power_access.json"
+    },
+    {
+      "id": "di.feature.class.psyker.level_12.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.psyker.level_12.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.psyker.level_13.sanctioned_focus",
+      "name": "Sanctioned Focus",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.psyker.level_13.sanctioned_focus.json"
+    },
+    {
+      "id": "di.feature.class.psyker.level_14.discipline_feature",
+      "name": "Discipline Feature",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.psyker.level_14.discipline_feature.json"
+    },
+    {
+      "id": "di.feature.class.psyker.level_15.alpha_level_risk",
+      "name": "Alpha-Level Risk",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.psyker.level_15.alpha_level_risk.json"
+    },
+    {
+      "id": "di.feature.class.psyker.level_16.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.psyker.level_16.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.psyker.level_17.soul_bound_discipline",
+      "name": "Soul-Bound Discipline",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.psyker.level_17.soul_bound_discipline.json"
+    },
+    {
+      "id": "di.feature.class.psyker.level_18.warp_crowned_focus",
+      "name": "Warp-Crowned Focus",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.psyker.level_18.warp_crowned_focus.json"
+    },
+    {
+      "id": "di.feature.class.psyker.level_19.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.psyker.level_19.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.psyker.level_2.psychic_ward",
+      "name": "Psychic Ward",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.psyker.level_2.psychic_ward.json"
+    },
+    {
+      "id": "di.feature.class.psyker.level_20.sanctioned_apex",
+      "name": "Sanctioned Apex",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.psyker.level_20.sanctioned_apex.json"
+    },
+    {
+      "id": "di.feature.class.psyker.level_3.discipline_feature",
+      "name": "Discipline Feature",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.psyker.level_3.discipline_feature.json"
+    },
+    {
+      "id": "di.feature.class.psyker.level_4.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.psyker.level_4.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.psyker.level_5.empowered_manifestation",
+      "name": "Empowered Manifestation",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.psyker.level_5.empowered_manifestation.json"
+    },
+    {
+      "id": "di.feature.class.psyker.level_6.disciplined_channel",
+      "name": "Disciplined Channel",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.psyker.level_6.disciplined_channel.json"
+    },
+    {
+      "id": "di.feature.class.psyker.level_7.discipline_feature",
+      "name": "Discipline Feature",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.psyker.level_7.discipline_feature.json"
+    },
+    {
+      "id": "di.feature.class.psyker.level_8.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.psyker.level_8.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.psyker.level_9.warp_anchor",
+      "name": "Warp Anchor",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.psyker.level_9.warp_anchor.json"
+    },
+    {
+      "id": "di.feature.class.psyker.training",
+      "name": "Psyker training and hit die",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.psyker.training.json"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_1.deadeye",
+      "name": "Deadeye",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ratling_sharpshooter.level_1.deadeye.json"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_1.small_target",
+      "name": "Small Target",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ratling_sharpshooter.level_1.small_target.json"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_10.perfect_shot",
+      "name": "Perfect Shot",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ratling_sharpshooter.level_10.perfect_shot.json"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_11.deadeye_3d6",
+      "name": "Deadeye +3d6",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ratling_sharpshooter.level_11.deadeye_3d6.json"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_12.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ratling_sharpshooter.level_12.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_13.gone_before_the_shot",
+      "name": "Gone Before the Shot",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ratling_sharpshooter.level_13.gone_before_the_shot.json"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_14.ratling_trick_feature",
+      "name": "Ratling Trick Feature",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ratling_sharpshooter.level_14.ratling_trick_feature.json"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_15.ghost_marksman",
+      "name": "Ghost Marksman",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ratling_sharpshooter.level_15.ghost_marksman.json"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_16.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ratling_sharpshooter.level_16.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_17.deadeye_4d6",
+      "name": "Deadeye +4d6",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ratling_sharpshooter.level_17.deadeye_4d6.json"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_18.ratling_trick_feature",
+      "name": "Ratling Trick Feature",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ratling_sharpshooter.level_18.ratling_trick_feature.json"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_19.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ratling_sharpshooter.level_19.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_2.scamper",
+      "name": "Scamper",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ratling_sharpshooter.level_2.scamper.json"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_20.impossible_little_legend",
+      "name": "Impossible Little Legend",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ratling_sharpshooter.level_20.impossible_little_legend.json"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_3.ratling_trick",
+      "name": "Ratling Trick",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ratling_sharpshooter.level_3.ratling_trick.json"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_4.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ratling_sharpshooter.level_4.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_5.killshot",
+      "name": "Killshot",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ratling_sharpshooter.level_5.killshot.json"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_6.cameleoline_habits",
+      "name": "Cameleoline Habits",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ratling_sharpshooter.level_6.cameleoline_habits.json"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_7.ratling_trick_feature",
+      "name": "Ratling Trick Feature",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ratling_sharpshooter.level_7.ratling_trick_feature.json"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_8.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ratling_sharpshooter.level_8.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.level_9.impossible_angle",
+      "name": "Impossible Angle",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ratling_sharpshooter.level_9.impossible_angle.json"
+    },
+    {
+      "id": "di.feature.class.ratling_sharpshooter.training",
+      "name": "Ratling Sharpshooter training and hit die",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.ratling_sharpshooter.training.json"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_1.machine_focus",
+      "name": "Machine Focus",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.skitarii_veteran.level_1.machine_focus.json"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_1.targeting_protocol",
+      "name": "Targeting Protocol",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.skitarii_veteran.level_1.targeting_protocol.json"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_10.omnissian_execution",
+      "name": "Omnissian Execution",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.skitarii_veteran.level_10.omnissian_execution.json"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_11.calculated_volley",
+      "name": "Calculated Volley",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.skitarii_veteran.level_11.calculated_volley.json"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_12.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.skitarii_veteran.level_12.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_13.redundant_systems",
+      "name": "Redundant Systems",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.skitarii_veteran.level_13.redundant_systems.json"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_14.protocol_feature",
+      "name": "Protocol Feature",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.skitarii_veteran.level_14.protocol_feature.json"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_15.will_of_the_omnissiah",
+      "name": "Will of the Omnissiah",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.skitarii_veteran.level_15.will_of_the_omnissiah.json"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_16.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.skitarii_veteran.level_16.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_17.perfect_targeting_logic",
+      "name": "Perfect Targeting Logic",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.skitarii_veteran.level_17.perfect_targeting_logic.json"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_18.protocol_feature",
+      "name": "Protocol Feature",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.skitarii_veteran.level_18.protocol_feature.json"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_19.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.skitarii_veteran.level_19.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_2.augmetic_reflexes",
+      "name": "Augmetic Reflexes",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.skitarii_veteran.level_2.augmetic_reflexes.json"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_20.living_instrument_of_the_omnissiah",
+      "name": "Living Instrument of the Omnissiah",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.skitarii_veteran.level_20.living_instrument_of_the_omnissiah.json"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_3.combat_protocol",
+      "name": "Combat Protocol",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.skitarii_veteran.level_3.combat_protocol.json"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_4.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.skitarii_veteran.level_4.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_5.extra_attack",
+      "name": "Extra Attack",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.skitarii_veteran.level_5.extra_attack.json"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_6.doctrinal_subroutine",
+      "name": "Doctrinal Subroutine",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.skitarii_veteran.level_6.doctrinal_subroutine.json"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_7.protocol_feature",
+      "name": "Protocol Feature",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.skitarii_veteran.level_7.protocol_feature.json"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_8.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.skitarii_veteran.level_8.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.level_9.blessed_autosenses",
+      "name": "Blessed Autosenses",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.skitarii_veteran.level_9.blessed_autosenses.json"
+    },
+    {
+      "id": "di.feature.class.skitarii_veteran.training",
+      "name": "Skitarii Veteran training and hit die",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.skitarii_veteran.training.json"
+    },
+    {
+      "id": "di.feature.class.veteran.level_1.guardsman_training",
+      "name": "Guardsman Training",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.veteran.level_1.guardsman_training.json"
+    },
+    {
+      "id": "di.feature.class.veteran.level_1.tactical_aim",
+      "name": "Tactical Aim",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.veteran.level_1.tactical_aim.json"
+    },
+    {
+      "id": "di.feature.class.veteran.level_10.killing_zone",
+      "name": "Killing Zone",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.veteran.level_10.killing_zone.json"
+    },
+    {
+      "id": "di.feature.class.veteran.level_11.veterans_accuracy",
+      "name": "Veteran’s Accuracy",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.veteran.level_11.veterans_accuracy.json"
+    },
+    {
+      "id": "di.feature.class.veteran.level_12.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.veteran.level_12.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.veteran.level_13.battlefield_instinct",
+      "name": "Battlefield Instinct",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.veteran.level_13.battlefield_instinct.json"
+    },
+    {
+      "id": "di.feature.class.veteran.level_14.improved_doctrine",
+      "name": "Improved Doctrine",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.veteran.level_14.improved_doctrine.json"
+    },
+    {
+      "id": "di.feature.class.veteran.level_15.kill_confirmed",
+      "name": "Kill Confirmed",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.veteran.level_15.kill_confirmed.json"
+    },
+    {
+      "id": "di.feature.class.veteran.level_16.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.veteran.level_16.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.veteran.level_17.veterans_command",
+      "name": "Veteran's Command",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.veteran.level_17.veterans_command.json"
+    },
+    {
+      "id": "di.feature.class.veteran.level_18.dug_in_kill_team",
+      "name": "Dug-In Kill Team",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.veteran.level_18.dug_in_kill_team.json"
+    },
+    {
+      "id": "di.feature.class.veteran.level_19.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.veteran.level_19.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.veteran.level_2.suppressing_fire",
+      "name": "Suppressing Fire",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.veteran.level_2.suppressing_fire.json"
+    },
+    {
+      "id": "di.feature.class.veteran.level_20.lord_castellans_moment",
+      "name": "Lord Castellan's Moment",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.veteran.level_20.lord_castellans_moment.json"
+    },
+    {
+      "id": "di.feature.class.veteran.level_3.regimental_doctrine",
+      "name": "Regimental Doctrine",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.veteran.level_3.regimental_doctrine.json"
+    },
+    {
+      "id": "di.feature.class.veteran.level_4.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.veteran.level_4.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.veteran.level_5.extra_attack",
+      "name": "Extra Attack",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.veteran.level_5.extra_attack.json"
+    },
+    {
+      "id": "di.feature.class.veteran.level_6.fire_team_veteran",
+      "name": "Fire Team Veteran",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.veteran.level_6.fire_team_veteran.json"
+    },
+    {
+      "id": "di.feature.class.veteran.level_7.doctrine_feature",
+      "name": "Doctrine Feature",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.veteran.level_7.doctrine_feature.json"
+    },
+    {
+      "id": "di.feature.class.veteran.level_8.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.veteran.level_8.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.veteran.level_9.hold_the_line",
+      "name": "Hold the Line",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.veteran.level_9.hold_the_line.json"
+    },
+    {
+      "id": "di.feature.class.veteran.training",
+      "name": "Veteran training and hit die",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.veteran.training.json"
+    },
+    {
+      "id": "di.feature.class.zealot.level_1.fury_of_faith",
+      "name": "Fury of Faith",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.zealot.level_1.fury_of_faith.json"
+    },
+    {
+      "id": "di.feature.class.zealot.level_1.martyrs_endurance",
+      "name": "Martyr’s Endurance",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.zealot.level_1.martyrs_endurance.json"
+    },
+    {
+      "id": "di.feature.class.zealot.level_1.martyrs_mercy",
+      "name": "Martyr’s Mercy",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.zealot.level_1.martyrs_mercy.json"
+    },
+    {
+      "id": "di.feature.class.zealot.level_10.sainted_fury",
+      "name": "Sainted Fury",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.zealot.level_10.sainted_fury.json"
+    },
+    {
+      "id": "di.feature.class.zealot.level_11.martyrs_renewal",
+      "name": "Martyr’s Renewal",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.zealot.level_11.martyrs_renewal.json"
+    },
+    {
+      "id": "di.feature.class.zealot.level_12.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.zealot.level_12.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.zealot.level_13.unbroken_creed",
+      "name": "Unbroken Creed",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.zealot.level_13.unbroken_creed.json"
+    },
+    {
+      "id": "di.feature.class.zealot.level_14.sacred_path_feature",
+      "name": "Sacred Path Feature",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.zealot.level_14.sacred_path_feature.json"
+    },
+    {
+      "id": "di.feature.class.zealot.level_15.living_saints_shadow",
+      "name": "Living Saint’s Shadow",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.zealot.level_15.living_saints_shadow.json"
+    },
+    {
+      "id": "di.feature.class.zealot.level_16.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.zealot.level_16.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.zealot.level_17.martyrdom_unending",
+      "name": "Martyrdom Unending",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.zealot.level_17.martyrdom_unending.json"
+    },
+    {
+      "id": "di.feature.class.zealot.level_18.sacred_path_ascendant",
+      "name": "Sacred Path Ascendant",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.zealot.level_18.sacred_path_ascendant.json"
+    },
+    {
+      "id": "di.feature.class.zealot.level_19.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.zealot.level_19.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.zealot.level_2.charge_of_conviction",
+      "name": "Charge of Conviction",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.zealot.level_2.charge_of_conviction.json"
+    },
+    {
+      "id": "di.feature.class.zealot.level_20.living_icon_of_wrath",
+      "name": "Living Icon of Wrath",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.zealot.level_20.living_icon_of_wrath.json"
+    },
+    {
+      "id": "di.feature.class.zealot.level_3.sacred_path",
+      "name": "Sacred Path",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.zealot.level_3.sacred_path.json"
+    },
+    {
+      "id": "di.feature.class.zealot.level_4.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.zealot.level_4.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.zealot.level_5.extra_attack",
+      "name": "Extra Attack",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.zealot.level_5.extra_attack.json"
+    },
+    {
+      "id": "di.feature.class.zealot.level_6.blood_and_benediction",
+      "name": "Blood and Benediction",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.zealot.level_6.blood_and_benediction.json"
+    },
+    {
+      "id": "di.feature.class.zealot.level_7.sacred_path_feature",
+      "name": "Sacred Path Feature",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.zealot.level_7.sacred_path_feature.json"
+    },
+    {
+      "id": "di.feature.class.zealot.level_8.ability_score_improvement_talent",
+      "name": "Ability Score Improvement / Talent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.zealot.level_8.ability_score_improvement_talent.json"
+    },
+    {
+      "id": "di.feature.class.zealot.level_9.refuse_the_dark",
+      "name": "Refuse the Dark",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.zealot.level_9.refuse_the_dark.json"
+    },
+    {
+      "id": "di.feature.class.zealot.training",
+      "name": "Zealot training and hit die",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/class.zealot.training.json"
+    },
+    {
+      "id": "di.feature.origin.craftworld_outcast",
+      "name": "Craftworld / Outcast benefits",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/origin.craftworld_outcast.json"
+    },
+    {
+      "id": "di.feature.origin.forge_world",
+      "name": "Forge World benefits",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/origin.forge_world.json"
+    },
+    {
+      "id": "di.feature.origin.hiveborn",
+      "name": "Hiveborn benefits",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/origin.hiveborn.json"
+    },
+    {
+      "id": "di.feature.origin.militarum_regiment",
+      "name": "Militarum Regiment benefits",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/origin.militarum_regiment.json"
+    },
+    {
+      "id": "di.feature.origin.mining_hold_guild",
+      "name": "Mining Hold / Guild benefits",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/origin.mining_hold_guild.json"
+    },
+    {
+      "id": "di.feature.origin.penal_worlder",
+      "name": "Penal Worlder benefits",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/origin.penal_worlder.json"
+    },
+    {
+      "id": "di.feature.origin.schola_progenium",
+      "name": "Schola Progenium benefits",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/origin.schola_progenium.json"
+    },
+    {
+      "id": "di.feature.origin.shrine_worlder",
+      "name": "Shrine Worlder benefits",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/origin.shrine_worlder.json"
+    },
+    {
+      "id": "di.feature.origin.underhive",
+      "name": "Underhive benefits",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/origin.underhive.json"
+    },
+    {
+      "id": "di.feature.origin.voidborn",
+      "name": "Voidborn benefits",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/origin.voidborn.json"
+    },
+    {
+      "id": "di.feature.species.aeldari.baseline",
+      "name": "Aeldari / Eldar fixed baseline",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/species.aeldari.baseline.json"
+    },
+    {
+      "id": "di.feature.species.aeldari.traits",
+      "name": "Aeldari / Eldar traits",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/species.aeldari.traits.json"
+    },
+    {
+      "id": "di.feature.species.human.baseline",
+      "name": "Human fixed baseline",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/species.human.baseline.json"
+    },
+    {
+      "id": "di.feature.species.human.traits",
+      "name": "Human traits",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/species.human.traits.json"
+    },
+    {
+      "id": "di.feature.species.kin.baseline",
+      "name": "Squat / Kin fixed baseline",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/species.kin.baseline.json"
+    },
+    {
+      "id": "di.feature.species.kin.traits",
+      "name": "Squat / Kin traits",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/species.kin.traits.json"
+    },
+    {
+      "id": "di.feature.species.ogryn.baseline",
+      "name": "Ogryn Abhuman fixed baseline",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/species.ogryn.baseline.json"
+    },
+    {
+      "id": "di.feature.species.ogryn.traits",
+      "name": "Ogryn Abhuman traits",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/species.ogryn.traits.json"
+    },
+    {
+      "id": "di.feature.species.ratling.baseline",
+      "name": "Ratling Abhuman fixed baseline",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/species.ratling.baseline.json"
+    },
+    {
+      "id": "di.feature.species.ratling.traits",
+      "name": "Ratling Abhuman traits",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/species.ratling.traits.json"
+    },
+    {
+      "id": "di.feature.species.skitarii.baseline",
+      "name": "Skitarii Augmented Human fixed baseline",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/species.skitarii.baseline.json"
+    },
+    {
+      "id": "di.feature.species.skitarii.traits",
+      "name": "Skitarii Augmented Human traits",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/species.skitarii.traits.json"
+    },
+    {
+      "id": "di.feature.subclass.veteran.marksman.level_14",
+      "name": "Marksman 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.veteran.marksman.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.veteran.marksman.level_3",
+      "name": "Marksman 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.veteran.marksman.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.veteran.marksman.level_7",
+      "name": "Marksman 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.veteran.marksman.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.veteran.sergeant.level_14",
+      "name": "Sergeant 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.veteran.sergeant.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.veteran.sergeant.level_3",
+      "name": "Sergeant 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.veteran.sergeant.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.veteran.sergeant.level_7",
+      "name": "Sergeant 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.veteran.sergeant.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.veteran.shock_trooper.level_14",
+      "name": "Shock Trooper 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.veteran.shock_trooper.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.veteran.shock_trooper.level_3",
+      "name": "Shock Trooper 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.veteran.shock_trooper.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.veteran.shock_trooper.level_7",
+      "name": "Shock Trooper 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.veteran.shock_trooper.level_7.json"
+    },
+    {
+      "id": "di.feature.talent.aeldari_grace",
+      "name": "Aeldari Grace",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.aeldari_grace.json"
+    },
+    {
+      "id": "di.feature.talent.alien_reflexes",
+      "name": "Alien Reflexes",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.alien_reflexes.json"
+    },
+    {
+      "id": "di.feature.talent.ancestors_grudge",
+      "name": "Ancestor’s Grudge",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.ancestors_grudge.json"
+    },
+    {
+      "id": "di.feature.talent.armour_familiarity",
+      "name": "Armour Familiarity",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.armour_familiarity.json"
+    },
+    {
+      "id": "di.feature.talent.bayonet_fighter",
+      "name": "Bayonet Fighter",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.bayonet_fighter.json"
+    },
+    {
+      "id": "di.feature.talent.bigger_gun",
+      "name": "Bigger Gun",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.bigger_gun.json"
+    },
+    {
+      "id": "di.feature.talent.bone_ead_implant",
+      "name": "Bone ’ead Implant",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.bone_ead_implant.json"
+    },
+    {
+      "id": "di.feature.talent.brawler",
+      "name": "Brawler",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.brawler.json"
+    },
+    {
+      "id": "di.feature.talent.breacher",
+      "name": "Breacher",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.breacher.json"
+    },
+    {
+      "id": "di.feature.talent.close_quarters_killer",
+      "name": "Close-Quarters Killer",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.close_quarters_killer.json"
+    },
+    {
+      "id": "di.feature.talent.cold_logic",
+      "name": "Cold Logic",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.cold_logic.json"
+    },
+    {
+      "id": "di.feature.talent.combat_medic",
+      "name": "Combat Medic",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.combat_medic.json"
+    },
+    {
+      "id": "di.feature.talent.cooks_morale",
+      "name": "Cook’s Morale",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.cooks_morale.json"
+    },
+    {
+      "id": "di.feature.talent.crisis_runner",
+      "name": "Crisis Runner",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.crisis_runner.json"
+    },
+    {
+      "id": "di.feature.talent.cybernetic_implant",
+      "name": "Cybernetic Implant",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.cybernetic_implant.json"
+    },
+    {
+      "id": "di.feature.talent.dead_calm",
+      "name": "Dead Calm",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.dead_calm.json"
+    },
+    {
+      "id": "di.feature.talent.field_armourer",
+      "name": "Field Armourer",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.field_armourer.json"
+    },
+    {
+      "id": "di.feature.talent.grenadier",
+      "name": "Grenadier",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.grenadier.json"
+    },
+    {
+      "id": "di.feature.talent.heavy_weapon_training",
+      "name": "Heavy Weapon Training",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.heavy_weapon_training.json"
+    },
+    {
+      "id": "di.feature.talent.hip_fire",
+      "name": "Hip Fire",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.hip_fire.json"
+    },
+    {
+      "id": "di.feature.talent.hive_blooded",
+      "name": "Hive-Blooded",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.hive_blooded.json"
+    },
+    {
+      "id": "di.feature.talent.hold_born_engineer",
+      "name": "Hold-Born Engineer",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.hold_born_engineer.json"
+    },
+    {
+      "id": "di.feature.talent.imperial_flexibility",
+      "name": "Imperial Flexibility",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.imperial_flexibility.json"
+    },
+    {
+      "id": "di.feature.talent.impossible_shot",
+      "name": "Impossible Shot",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.impossible_shot.json"
+    },
+    {
+      "id": "di.feature.talent.iron_discipline",
+      "name": "Iron Discipline",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.iron_discipline.json"
+    },
+    {
+      "id": "di.feature.talent.iron_stance",
+      "name": "Iron Stance",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.iron_stance.json"
+    },
+    {
+      "id": "di.feature.talent.kin_weapon_master",
+      "name": "Kin Weapon Master",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.kin_weapon_master.json"
+    },
+    {
+      "id": "di.feature.talent.last_order_standing",
+      "name": "Last Order Standing",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.last_order_standing.json"
+    },
+    {
+      "id": "di.feature.talent.loyal_as_stone",
+      "name": "Loyal as Stone",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.loyal_as_stone.json"
+    },
+    {
+      "id": "di.feature.talent.machine_precision",
+      "name": "Machine Precision",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.machine_precision.json"
+    },
+    {
+      "id": "di.feature.talent.noospheric_burst",
+      "name": "Noospheric Burst",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.noospheric_burst.json"
+    },
+    {
+      "id": "di.feature.talent.ogryn_wall",
+      "name": "Ogryn Wall",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.ogryn_wall.json"
+    },
+    {
+      "id": "di.feature.talent.path_discipline",
+      "name": "Path Discipline",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.path_discipline.json"
+    },
+    {
+      "id": "di.feature.talent.pocket_marksman",
+      "name": "Pocket Marksman",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.pocket_marksman.json"
+    },
+    {
+      "id": "di.feature.talent.point_blank_execution",
+      "name": "Point Blank Execution",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.point_blank_execution.json"
+    },
+    {
+      "id": "di.feature.talent.rad_hardened",
+      "name": "Rad-Hardened",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.rad_hardened.json"
+    },
+    {
+      "id": "di.feature.talent.rangers_cloak",
+      "name": "Ranger’s Cloak",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.rangers_cloak.json"
+    },
+    {
+      "id": "di.feature.talent.rapid_reload",
+      "name": "Rapid Reload",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.rapid_reload.json"
+    },
+    {
+      "id": "di.feature.talent.ratling_vanish",
+      "name": "Ratling Vanish",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.ratling_vanish.json"
+    },
+    {
+      "id": "di.feature.talent.relic_bearer",
+      "name": "Relic-Bearer",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.relic_bearer.json"
+    },
+    {
+      "id": "di.feature.talent.sacred_augmetics",
+      "name": "Sacred Augmetics",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.sacred_augmetics.json"
+    },
+    {
+      "id": "di.feature.talent.sanctioning_scars",
+      "name": "Sanctioning Scars",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.sanctioning_scars.json"
+    },
+    {
+      "id": "di.feature.talent.scavvers_luck",
+      "name": "Scavver’s Luck",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.scavvers_luck.json"
+    },
+    {
+      "id": "di.feature.talent.suppressive_discipline",
+      "name": "Suppressive Discipline",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.suppressive_discipline.json"
+    },
+    {
+      "id": "di.feature.talent.tactical_reposition",
+      "name": "Tactical Reposition",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.tactical_reposition.json"
+    },
+    {
+      "id": "di.feature.talent.too_angry_to_notice",
+      "name": "Too Angry to Notice",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.too_angry_to_notice.json"
+    },
+    {
+      "id": "di.feature.talent.void_stock",
+      "name": "Void Stock",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.void_stock.json"
+    },
+    {
+      "id": "di.feature.talent.weapon_specialist",
+      "name": "Weapon Specialist",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.weapon_specialist.json"
+    },
+    {
+      "id": "di.feature.talent.witch_sight",
+      "name": "Witch-Sight",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.witch_sight.json"
+    },
+    {
+      "id": "di.feature.talent.witchblade_adept",
+      "name": "Witchblade Adept",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/talent.witchblade_adept.json"
+    },
+    {
+      "id": "di.feature.universal.augmetic_scarred",
+      "name": "Augmetic Scarred",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/universal.augmetic_scarred.json"
+    },
+    {
+      "id": "di.feature.universal.black_market_eye",
+      "name": "Black-Market Eye",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/universal.black_market_eye.json"
+    },
+    {
+      "id": "di.feature.universal.chem_hardened",
+      "name": "Chem-Hardened",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/universal.chem_hardened.json"
+    },
+    {
+      "id": "di.feature.universal.devoted_servant",
+      "name": "Devoted Servant",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/universal.devoted_servant.json"
+    },
+    {
+      "id": "di.feature.universal.dirty_pragmatist",
+      "name": "Dirty Pragmatist",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/universal.dirty_pragmatist.json"
+    },
+    {
+      "id": "di.feature.universal.faith_in_steel",
+      "name": "Faith in Steel",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/universal.faith_in_steel.json"
+    },
+    {
+      "id": "di.feature.universal.faithful",
+      "name": "Faithful",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/universal.faithful.json"
+    },
+    {
+      "id": "di.feature.universal.field_chirurgeon",
+      "name": "Field Chirurgeon",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/universal.field_chirurgeon.json"
+    },
+    {
+      "id": "di.feature.universal.grudge_bearer",
+      "name": "Grudge-Bearer",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/universal.grudge_bearer.json"
+    },
+    {
+      "id": "di.feature.universal.hard_to_kill",
+      "name": "Hard to Kill",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/universal.hard_to_kill.json"
+    },
+    {
+      "id": "di.feature.universal.hive_survivor",
+      "name": "Hive Survivor",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/universal.hive_survivor.json"
+    },
+    {
+      "id": "di.feature.universal.iron_nerves",
+      "name": "Iron Nerves",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/universal.iron_nerves.json"
+    },
+    {
+      "id": "di.feature.universal.jaded",
+      "name": "Jaded",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/universal.jaded.json"
+    },
+    {
+      "id": "di.feature.universal.knife_in_the_boot",
+      "name": "Knife in the Boot",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/universal.knife_in_the_boot.json"
+    },
+    {
+      "id": "di.feature.universal.litany_marked",
+      "name": "Litany-Marked",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/universal.litany_marked.json"
+    },
+    {
+      "id": "di.feature.universal.munitorum_drilled",
+      "name": "Munitorum Drilled",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/universal.munitorum_drilled.json"
+    },
+    {
+      "id": "di.feature.universal.touched_by_the_warp",
+      "name": "Touched by the Warp",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/universal.touched_by_the_warp.json"
+    },
+    {
+      "id": "di.feature.universal.twitchy",
+      "name": "Twitchy",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/universal.twitchy.json"
+    },
+    {
+      "id": "di.feature.universal.unnaturally_lucky",
+      "name": "Unnaturally Lucky",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/universal.unnaturally_lucky.json"
+    },
+    {
+      "id": "di.feature.universal.vox_familiar",
+      "name": "Vox Familiar",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/universal.vox_familiar.json"
+    },
+    {
+      "id": "di.proficiency.skill.acrobatics",
+      "name": "Acrobatics proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/skill.acrobatics.json"
+    },
+    {
+      "id": "di.proficiency.skill.athletics",
+      "name": "Athletics proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/skill.athletics.json"
+    },
+    {
+      "id": "di.proficiency.skill.deception",
+      "name": "Deception proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/skill.deception.json"
+    },
+    {
+      "id": "di.proficiency.skill.history",
+      "name": "History proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/skill.history.json"
+    },
+    {
+      "id": "di.proficiency.skill.insight",
+      "name": "Insight proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/skill.insight.json"
+    },
+    {
+      "id": "di.proficiency.skill.intimidation",
+      "name": "Intimidation proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/skill.intimidation.json"
+    },
+    {
+      "id": "di.proficiency.skill.investigation",
+      "name": "Investigation proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/skill.investigation.json"
+    },
+    {
+      "id": "di.proficiency.skill.medicine",
+      "name": "Medicine proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/skill.medicine.json"
+    },
+    {
+      "id": "di.proficiency.skill.perception",
+      "name": "Perception proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/skill.perception.json"
+    },
+    {
+      "id": "di.proficiency.skill.persuasion",
+      "name": "Persuasion proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/skill.persuasion.json"
+    },
+    {
+      "id": "di.proficiency.skill.religion",
+      "name": "Religion proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/skill.religion.json"
+    },
+    {
+      "id": "di.proficiency.skill.sleight_of_hand",
+      "name": "Sleight of Hand proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/skill.sleight_of_hand.json"
+    },
+    {
+      "id": "di.proficiency.skill.stealth",
+      "name": "Stealth proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/skill.stealth.json"
+    },
+    {
+      "id": "di.proficiency.skill.survival",
+      "name": "Survival proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/skill.survival.json"
+    },
+    {
+      "id": "di.proficiency.skill.technology",
+      "name": "Technology proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/skill.technology.json"
+    },
+    {
+      "id": "di.progression.aeldari_outcast",
+      "name": "Aeldari Outcast progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/aeldari_outcast.json"
+    },
+    {
+      "id": "di.progression.aeldari_warlock",
+      "name": "Aeldari Warlock progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/aeldari_warlock.json"
+    },
+    {
+      "id": "di.progression.arbites_enforcer",
+      "name": "Arbites Enforcer progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/arbites_enforcer.json"
+    },
+    {
+      "id": "di.progression.hernkyn_prospector",
+      "name": "Hernkyn Prospector progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/hernkyn_prospector.json"
+    },
+    {
+      "id": "di.progression.hive_scum",
+      "name": "Hive Scum progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/hive_scum.json"
+    },
+    {
+      "id": "di.progression.kin_armsman",
+      "name": "Kin Armsman progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/kin_armsman.json"
+    },
+    {
+      "id": "di.progression.ogryn_skullbreaker",
+      "name": "Ogryn Skullbreaker progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/ogryn_skullbreaker.json"
+    },
+    {
+      "id": "di.progression.psyker",
+      "name": "Psyker progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/psyker.json"
+    },
+    {
+      "id": "di.progression.ratling_sharpshooter",
+      "name": "Ratling Sharpshooter progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/ratling_sharpshooter.json"
+    },
+    {
+      "id": "di.progression.skitarii_veteran",
+      "name": "Skitarii Veteran progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/skitarii_veteran.json"
+    },
+    {
+      "id": "di.progression.subclass.veteran.marksman",
+      "name": "Marksman progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/subclass.veteran.marksman.json"
+    },
+    {
+      "id": "di.progression.subclass.veteran.sergeant",
+      "name": "Sergeant progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/subclass.veteran.sergeant.json"
+    },
+    {
+      "id": "di.progression.subclass.veteran.shock_trooper",
+      "name": "Shock Trooper progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/subclass.veteran.shock_trooper.json"
+    },
+    {
+      "id": "di.progression.veteran",
+      "name": "Veteran progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/veteran.json"
+    },
+    {
+      "id": "di.progression.zealot",
+      "name": "Zealot progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/zealot.json"
+    },
+    {
+      "id": "di.property.weapon.accurate",
+      "name": "Accurate",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/property/weapon.accurate.json"
+    },
+    {
+      "id": "di.property.weapon.armour_breaking",
+      "name": "Armour-Breaking",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/property/weapon.armour_breaking.json"
+    },
+    {
+      "id": "di.property.weapon.beam",
+      "name": "Beam",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/property/weapon.beam.json"
+    },
+    {
+      "id": "di.property.weapon.blast",
+      "name": "Blast",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/property/weapon.blast.json"
+    },
+    {
+      "id": "di.property.weapon.brutal",
+      "name": "Brutal",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/property/weapon.brutal.json"
+    },
+    {
+      "id": "di.property.weapon.burst",
+      "name": "Burst",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/property/weapon.burst.json"
+    },
+    {
+      "id": "di.property.weapon.chain",
+      "name": "Chain",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/property/weapon.chain.json"
+    },
+    {
+      "id": "di.property.weapon.close_quarters",
+      "name": "Close-Quarters",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/property/weapon.close_quarters.json"
+    },
+    {
+      "id": "di.property.weapon.emplaced",
+      "name": "Emplaced",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/property/weapon.emplaced.json"
+    },
+    {
+      "id": "di.property.weapon.entangling",
+      "name": "Entangling",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/property/weapon.entangling.json"
+    },
+    {
+      "id": "di.property.weapon.finesse",
+      "name": "Finesse",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/property/weapon.finesse.json"
+    },
+    {
+      "id": "di.property.weapon.focus",
+      "name": "Focus",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/property/weapon.focus.json"
+    },
+    {
+      "id": "di.property.weapon.heavy",
+      "name": "Heavy",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/property/weapon.heavy.json"
+    },
+    {
+      "id": "di.property.weapon.industrial",
+      "name": "Industrial",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/property/weapon.industrial.json"
+    },
+    {
+      "id": "di.property.weapon.light",
+      "name": "Light",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/property/weapon.light.json"
+    },
+    {
+      "id": "di.property.weapon.mechanicus",
+      "name": "Mechanicus",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/property/weapon.mechanicus.json"
+    },
+    {
+      "id": "di.property.weapon.monomolecular",
+      "name": "Monomolecular",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/property/weapon.monomolecular.json"
+    },
+    {
+      "id": "di.property.weapon.ogryn",
+      "name": "Ogryn",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/property/weapon.ogryn.json"
+    },
+    {
+      "id": "di.property.weapon.overheat",
+      "name": "Overheat",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/property/weapon.overheat.json"
+    },
+    {
+      "id": "di.property.weapon.power_field",
+      "name": "Power Field",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/property/weapon.power_field.json"
+    },
+    {
+      "id": "di.property.weapon.psyker",
+      "name": "Psyker",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/property/weapon.psyker.json"
+    },
+    {
+      "id": "di.property.weapon.reload",
+      "name": "Reload X",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/property/weapon.reload.json"
+    },
+    {
+      "id": "di.property.weapon.shield",
+      "name": "Shield",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/property/weapon.shield.json"
+    },
+    {
+      "id": "di.property.weapon.shock",
+      "name": "Shock",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/property/weapon.shock.json"
+    },
+    {
+      "id": "di.property.weapon.silent",
+      "name": "Silent",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/property/weapon.silent.json"
+    },
+    {
+      "id": "di.property.weapon.spirit_weapon",
+      "name": "Spirit Weapon",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/property/weapon.spirit_weapon.json"
+    },
+    {
+      "id": "di.property.weapon.spray",
+      "name": "Spray",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/property/weapon.spray.json"
+    },
+    {
+      "id": "di.property.weapon.suppression",
+      "name": "Suppression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/property/weapon.suppression.json"
+    },
+    {
+      "id": "di.property.weapon.thrown",
+      "name": "Thrown",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/property/weapon.thrown.json"
+    },
+    {
+      "id": "di.property.weapon.twin_linked",
+      "name": "Twin-Linked",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/property/weapon.twin_linked.json"
+    },
+    {
+      "id": "di.property.weapon.versatile",
+      "name": "Versatile X",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/property/weapon.versatile.json"
+    },
+    {
+      "id": "di.rule.phb_14_1",
+      "name": "Psychic Save DC",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_14_1.json"
+    },
+    {
+      "id": "di.rule.phb_14_2",
+      "name": "Psychic Attack Modifier",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_14_2.json"
+    },
+    {
+      "id": "di.rule.phb_14_3",
+      "name": "Known Powers",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_14_3.json"
+    },
+    {
+      "id": "di.rule.phb_14_4",
+      "name": "Psychic Power Cost and Empowered Powers",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_14_4.json"
+    },
+    {
+      "id": "di.rule.phb_14_5",
+      "name": "Minor Psychic Powers",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_14_5.json"
+    },
+    {
+      "id": "di.rule.phb_14_6",
+      "name": "Standard Psychic Powers",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_14_6.json"
+    },
+    {
+      "id": "di.rule.phb_14_7",
+      "name": "Major Psychic Powers",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_14_7.json"
+    },
+    {
+      "id": "di.rule.phb_14_8",
+      "name": "Warlock Rune Powers",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_14_8.json"
+    },
+    {
+      "id": "di.rule.phb_15_1",
+      "name": "Warp Pressure",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_15_1.json"
+    },
+    {
+      "id": "di.rule.phb_15_2",
+      "name": "Reducing Warp Pressure",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_15_2.json"
+    },
+    {
+      "id": "di.rule.phb_15_3",
+      "name": "Perils Severity",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_15_3.json"
+    },
+    {
+      "id": "di.rule.phb_15_4_1",
+      "name": "Warp Static",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_15_4_1.json"
+    },
+    {
+      "id": "di.rule.phb_15_4_2",
+      "name": "Bleeding Eyes",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_15_4_2.json"
+    },
+    {
+      "id": "di.rule.phb_15_4_3",
+      "name": "Soul Echo",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_15_4_3.json"
+    },
+    {
+      "id": "di.rule.phb_15_4_4",
+      "name": "Warp Scream",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_15_4_4.json"
+    },
+    {
+      "id": "di.rule.phb_15_4_5",
+      "name": "Possession Pressure",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_15_4_5.json"
+    },
+    {
+      "id": "di.rule.phb_15_4_6",
+      "name": "Uncontrolled Manifestation",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_15_4_6.json"
+    },
+    {
+      "id": "di.rule.phb_15_4_7",
+      "name": "Reality Tear",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_15_4_7.json"
+    },
+    {
+      "id": "di.rule.phb_15_4_8",
+      "name": "Catastrophic Perils",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_15_4_8.json"
+    },
+    {
+      "id": "di.rule.phb_15_5",
+      "name": "After Perils",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_15_5.json"
+    },
+    {
+      "id": "di.rule.phb_15_6",
+      "name": "Aeldari Warlock Perils",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_15_6.json"
+    },
+    {
+      "id": "di.rule.phb_15_7",
+      "name": "Malefic-Touched Perils",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_15_7.json"
+    },
+    {
+      "id": "di.rule.phb_16_1",
+      "name": "Gaining Corruption",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_16_1.json"
+    },
+    {
+      "id": "di.rule.phb_16_2",
+      "name": "Corruption Track",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_16_2.json"
+    },
+    {
+      "id": "di.rule.phb_16_3",
+      "name": "Corruption Scars",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_16_3.json"
+    },
+    {
+      "id": "di.rule.phb_16_4",
+      "name": "Reducing Corruption",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_16_4.json"
+    },
+    {
+      "id": "di.rule.phb_18_1",
+      "name": "Availability",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_18_1.json"
+    },
+    {
+      "id": "di.rule.phb_18_10",
+      "name": "Salvage and Captured Equipment",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_18_10.json"
+    },
+    {
+      "id": "di.rule.phb_18_11",
+      "name": "Item Condition and Repair",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_18_11.json"
+    },
+    {
+      "id": "di.rule.phb_18_12",
+      "name": "Replacing Lost or Destroyed Equipment",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_18_12.json"
+    },
+    {
+      "id": "di.rule.phb_18_13",
+      "name": "Trading, Gifts and Ownership",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_18_13.json"
+    },
+    {
+      "id": "di.rule.phb_18_14",
+      "name": "Exotic, Relic and Unique Wargear",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_18_14.json"
+    },
+    {
+      "id": "di.rule.phb_18_14_1",
+      "name": "Signature Wargear",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_18_14_1.json"
+    },
+    {
+      "id": "di.rule.phb_18_14_2",
+      "name": "Exotic Wargear",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_18_14_2.json"
+    },
+    {
+      "id": "di.rule.phb_18_14_3",
+      "name": "Archeotech",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_18_14_3.json"
+    },
+    {
+      "id": "di.rule.phb_18_14_4",
+      "name": "Faction Relics",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_18_14_4.json"
+    },
+    {
+      "id": "di.rule.phb_18_14_5",
+      "name": "Unique Wargear",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_18_14_5.json"
+    },
+    {
+      "id": "di.rule.phb_18_14_6",
+      "name": "Creating Additional Relics",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_18_14_6.json"
+    },
+    {
+      "id": "di.rule.phb_18_2",
+      "name": "Requisition Test",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_18_2.json"
+    },
+    {
+      "id": "di.rule.phb_18_3",
+      "name": "Requisition Outcomes",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_18_3.json"
+    },
+    {
+      "id": "di.rule.phb_18_4",
+      "name": "Xenos, Forbidden and Black-Market Gear",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_18_4.json"
+    },
+    {
+      "id": "di.rule.phb_18_5",
+      "name": "Provenance and Faction Access",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_18_5.json"
+    },
+    {
+      "id": "di.rule.phb_18_6",
+      "name": "Equipment by Character Tier",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_18_6.json"
+    },
+    {
+      "id": "di.rule.phb_18_7",
+      "name": "Weapon Modifications",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_18_7.json"
+    },
+    {
+      "id": "di.rule.phb_18_8",
+      "name": "Master-Crafted Wargear",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_18_8.json"
+    },
+    {
+      "id": "di.rule.phb_18_9",
+      "name": "Specialist Ammunition and Charges",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_18_9.json"
+    },
+    {
+      "id": "di.rule.phb_19_1",
+      "name": "When to Use a Lasting Injury",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_19_1.json"
+    },
+    {
+      "id": "di.rule.phb_19_2",
+      "name": "Lasting Injury Table",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_19_2.json"
+    },
+    {
+      "id": "di.rule.phb_19_3",
+      "name": "Medical Care",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_19_3.json"
+    },
+    {
+      "id": "di.rule.phb_19_4",
+      "name": "Augmetic Replacement",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_19_4.json"
+    },
+    {
+      "id": "di.rule.phb_1_1",
+      "name": "Design Goals",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_1_1.json"
+    },
+    {
+      "id": "di.rule.phb_1_2",
+      "name": "Core System",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_1_2.json"
+    },
+    {
+      "id": "di.rule.phb_1_3",
+      "name": "Character Tiers",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_1_3.json"
+    },
+    {
+      "id": "di.rule.phb_1_4",
+      "name": "Proficiency Bonus",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_1_4.json"
+    },
+    {
+      "id": "di.rule.phb_1_5",
+      "name": "Rules Priority",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_1_5.json"
+    },
+    {
+      "id": "di.rule.phb_20_1",
+      "name": "When You Gain a Level",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_20_1.json"
+    },
+    {
+      "id": "di.rule.phb_20_2",
+      "name": "Retraining",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_20_2.json"
+    },
+    {
+      "id": "di.rule.phb_21_1",
+      "name": "Profiles and Crew",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_21_1.json"
+    },
+    {
+      "id": "di.rule.phb_21_10",
+      "name": "Civilian and Imperial Scouts",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_21_10.json"
+    },
+    {
+      "id": "di.rule.phb_21_11",
+      "name": "Weapon Profiles",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_21_11.json"
+    },
+    {
+      "id": "di.rule.phb_21_2",
+      "name": "Driving and Movement",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_21_2.json"
+    },
+    {
+      "id": "di.rule.phb_21_3",
+      "name": "Actions and Attacks",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_21_3.json"
+    },
+    {
+      "id": "di.rule.phb_21_4",
+      "name": "Collisions",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_21_4.json"
+    },
+    {
+      "id": "di.rule.phb_21_5",
+      "name": "Hull Damage and Breakdowns",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_21_5.json"
+    },
+    {
+      "id": "di.rule.phb_21_6",
+      "name": "Boarding and Disembarking",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_21_6.json"
+    },
+    {
+      "id": "di.rule.phb_21_7",
+      "name": "Chases",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_21_7.json"
+    },
+    {
+      "id": "di.rule.phb_21_8",
+      "name": "Repairs and Resupply",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_21_8.json"
+    },
+    {
+      "id": "di.rule.phb_21_9",
+      "name": "Requisition and Modifications",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_21_9.json"
+    },
+    {
+      "id": "di.rule.phb_2_1",
+      "name": "Ability Scores",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_2_1.json"
+    },
+    {
+      "id": "di.rule.phb_2_2",
+      "name": "Hit Points",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_2_2.json"
+    },
+    {
+      "id": "di.rule.phb_2_3",
+      "name": "Species and Class Restrictions",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_2_3.json"
+    },
+    {
+      "id": "di.rule.phb_2_3_1",
+      "name": "Class at a Glance",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_2_3_1.json"
+    },
+    {
+      "id": "di.rule.phb_2_4_1",
+      "name": "Ogryns",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_2_4_1.json"
+    },
+    {
+      "id": "di.rule.phb_2_4_2",
+      "name": "Skitarii",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_2_4_2.json"
+    },
+    {
+      "id": "di.rule.phb_2_4_3",
+      "name": "Psykers",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_2_4_3.json"
+    },
+    {
+      "id": "di.rule.phb_2_4_4",
+      "name": "Ratlings",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_2_4_4.json"
+    },
+    {
+      "id": "di.rule.phb_2_4_5",
+      "name": "Squats / Kin",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_2_4_5.json"
+    },
+    {
+      "id": "di.rule.phb_2_4_6",
+      "name": "Aeldari / Eldar",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_2_4_6.json"
+    },
+    {
+      "id": "di.rule.phb_2_5",
+      "name": "Skills and Ability Checks",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_2_5.json"
+    },
+    {
+      "id": "di.rule.phb_6_1",
+      "name": "Turns and Actions",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_6_1.json"
+    },
+    {
+      "id": "di.rule.phb_6_10",
+      "name": "Opportunity Attacks",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_6_10.json"
+    },
+    {
+      "id": "di.rule.phb_6_11",
+      "name": "Grappling and Shoving",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_6_11.json"
+    },
+    {
+      "id": "di.rule.phb_6_12",
+      "name": "Two-Weapon Fighting",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_6_12.json"
+    },
+    {
+      "id": "di.rule.phb_6_13",
+      "name": "Rest and Recovery",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_6_13.json"
+    },
+    {
+      "id": "di.rule.phb_6_14",
+      "name": "Conditions and Battlefield States",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_6_14.json"
+    },
+    {
+      "id": "di.rule.phb_6_2",
+      "name": "Cover",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_6_2.json"
+    },
+    {
+      "id": "di.rule.phb_6_3",
+      "name": "Suppression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_6_3.json"
+    },
+    {
+      "id": "di.rule.phb_6_4",
+      "name": "Reload",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_6_4.json"
+    },
+    {
+      "id": "di.rule.phb_6_5",
+      "name": "Close-Quarters Shooting",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_6_5.json"
+    },
+    {
+      "id": "di.rule.phb_6_6",
+      "name": "Critical Hits",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_6_6.json"
+    },
+    {
+      "id": "di.rule.phb_6_7",
+      "name": "Dropping to 0 Hit Points",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_6_7.json"
+    },
+    {
+      "id": "di.rule.phb_6_8",
+      "name": "Stabilising and Recovery",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_6_8.json"
+    },
+    {
+      "id": "di.rule.phb_6_9",
+      "name": "Ranged Attacks and Range",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/rule/phb_6_9.json"
+    },
+    {
+      "id": "di.shield.shield",
+      "name": "Shield",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/shield/shield.json"
+    },
+    {
+      "id": "di.skill.acrobatics",
+      "name": "Acrobatics",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/skill/acrobatics.json"
+    },
+    {
+      "id": "di.skill.athletics",
+      "name": "Athletics",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/skill/athletics.json"
+    },
+    {
+      "id": "di.skill.deception",
+      "name": "Deception",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/skill/deception.json"
+    },
+    {
+      "id": "di.skill.history",
+      "name": "History",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/skill/history.json"
+    },
+    {
+      "id": "di.skill.insight",
+      "name": "Insight",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/skill/insight.json"
+    },
+    {
+      "id": "di.skill.intimidation",
+      "name": "Intimidation",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/skill/intimidation.json"
+    },
+    {
+      "id": "di.skill.investigation",
+      "name": "Investigation",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/skill/investigation.json"
+    },
+    {
+      "id": "di.skill.medicine",
+      "name": "Medicine",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/skill/medicine.json"
+    },
+    {
+      "id": "di.skill.perception",
+      "name": "Perception",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/skill/perception.json"
+    },
+    {
+      "id": "di.skill.persuasion",
+      "name": "Persuasion",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/skill/persuasion.json"
+    },
+    {
+      "id": "di.skill.religion",
+      "name": "Religion",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/skill/religion.json"
+    },
+    {
+      "id": "di.skill.sleight_of_hand",
+      "name": "Sleight of Hand",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/skill/sleight_of_hand.json"
+    },
+    {
+      "id": "di.skill.stealth",
+      "name": "Stealth",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/skill/stealth.json"
+    },
+    {
+      "id": "di.skill.survival",
+      "name": "Survival",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/skill/survival.json"
+    },
+    {
+      "id": "di.skill.technology",
+      "name": "Technology",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/skill/technology.json"
+    },
+    {
+      "id": "di.species.aeldari",
+      "name": "Aeldari / Eldar",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/species/aeldari.json"
+    },
+    {
+      "id": "di.species.human",
+      "name": "Human",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/species/human.json"
+    },
+    {
+      "id": "di.species.kin",
+      "name": "Squat / Kin",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/species/kin.json"
+    },
+    {
+      "id": "di.species.ogryn",
+      "name": "Ogryn Abhuman",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/species/ogryn.json"
+    },
+    {
+      "id": "di.species.ratling",
+      "name": "Ratling Abhuman",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/species/ratling.json"
+    },
+    {
+      "id": "di.species.skitarii",
+      "name": "Skitarii Augmented Human",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/species/skitarii.json"
+    },
+    {
+      "id": "di.subclass.veteran.marksman",
+      "name": "Marksman",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/veteran.marksman.json"
+    },
+    {
+      "id": "di.subclass.veteran.sergeant",
+      "name": "Sergeant",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/veteran.sergeant.json"
+    },
+    {
+      "id": "di.subclass.veteran.shock_trooper",
+      "name": "Shock Trooper",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/veteran.shock_trooper.json"
+    },
+    {
+      "id": "di.action.attack",
+      "name": "Attack",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.action.dash",
+      "name": "Dash",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.action.disengage",
+      "name": "Disengage",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.action.dodge",
+      "name": "Dodge",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.action.help",
+      "name": "Help",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.action.hide",
+      "name": "Hide",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.action.ready",
+      "name": "Ready",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.action.reload",
+      "name": "Reload",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.action.use_mission_gear",
+      "name": "Use Mission Gear",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.ammunition.armour_piercing",
+      "name": "Armour-Piercing",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.ammunition.hot_shot_charge_pack",
+      "name": "Hot-Shot Charge Pack",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.ammunition.incendiary",
+      "name": "Incendiary",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.ammunition.manstopper",
+      "name": "Manstopper",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.ammunition.sanctified_ammunition",
+      "name": "Sanctified Ammunition",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.ammunition.tracer_target_marking",
+      "name": "Tracer / Target-Marking",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.ammunition.xenos_exotic_magazine",
+      "name": "Xenos / Exotic Magazine",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.armour.aeldari_mesh",
+      "name": "Aeldari Mesh",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.armour.armoured_bodyglove",
+      "name": "Armoured Bodyglove",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.armour.aspect_pattern_armour",
+      "name": "Aspect-Pattern Armour",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.armour.bullgryn_plate",
+      "name": "Bullgryn Plate",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.armour.carapace_armour",
+      "name": "Carapace Armour",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.armour.exo_frame_plate",
+      "name": "Exo-Frame Plate",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.armour.flak_armour",
+      "name": "Flak Armour",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.armour.flak_greatcoat",
+      "name": "Flak Greatcoat",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.armour.flak_vest",
+      "name": "Flak Vest",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.armour.hazard_plate",
+      "name": "Hazard Plate",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.armour.hearthkyn_plate",
+      "name": "Hearthkyn Plate",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.armour.heavy_clothing",
+      "name": "Heavy Clothing",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.armour.kin_mesh",
+      "name": "Kin Mesh",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.armour.kin_void_suit",
+      "name": "Kin Void Suit",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.armour.mesh_armour",
+      "name": "Mesh Armour",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.armour.ogryn_flak_plate",
+      "name": "Ogryn Flak Plate",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.armour.ogryn_plate",
+      "name": "Ogryn Plate",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.armour.powered_carapace",
+      "name": "Powered Carapace",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.armour.prospector_rig",
+      "name": "Prospector Rig",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.armour.ranger_weave",
+      "name": "Ranger Weave",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.armour.riot_armour",
+      "name": "Riot Armour",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.armour.rune_armour",
+      "name": "Rune Armour",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.armour.scout_carapace",
+      "name": "Scout Carapace",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.armour.void_suit_armoured",
+      "name": "Void Suit, Armoured",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.armour.wargear.oathplate_of_the_first_claim_kin",
+      "name": "Oathplate of the First Claim - Kin",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.augmetic.augmetic_heart",
+      "name": "Augmetic Heart",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.augmetic.bionic_arm",
+      "name": "Bionic Arm",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.augmetic.bionic_legs",
+      "name": "Bionic Legs",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.augmetic.black_iron_jaw",
+      "name": "Black-Iron Jaw",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.augmetic.chem_injector",
+      "name": "Chem Injector",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.augmetic.cranial_cogitator",
+      "name": "Cranial Cogitator",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.augmetic.data_jack",
+      "name": "Data-Jack",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.augmetic.dermal_insulation",
+      "name": "Dermal Insulation",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.augmetic.internal_chrono",
+      "name": "Internal Chrono",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.augmetic.mag_lock_palm",
+      "name": "Mag-Lock Palm",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.augmetic.mechadendrite_combat",
+      "name": "Mechadendrite, Combat",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.augmetic.mechadendrite_medicae",
+      "name": "Mechadendrite, Medicae",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.augmetic.mechadendrite_utility",
+      "name": "Mechadendrite, Utility",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.augmetic.optical_implant",
+      "name": "Optical Implant",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.augmetic.pain_editor",
+      "name": "Pain Editor",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.augmetic.recoil_bracing",
+      "name": "Recoil Bracing",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.augmetic.respirator_implant",
+      "name": "Respirator Implant",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.augmetic.skeletal_reinforcement",
+      "name": "Skeletal Reinforcement",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.augmetic.subdermal_plating",
+      "name": "Subdermal Plating",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.augmetic.targeting_lens",
+      "name": "Targeting Lens",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.augmetic.vocal_coder",
+      "name": "Vocal Coder",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.augmetic.vox_implant",
+      "name": "Vox Implant",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.condition.blinded",
+      "name": "Blinded",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.condition.bloodied",
+      "name": "Bloodied",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.condition.charmed",
+      "name": "Charmed",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.condition.exhaustion",
+      "name": "Exhaustion",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.condition.frightened",
+      "name": "Frightened",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.condition.grappled",
+      "name": "Grappled",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.condition.hidden",
+      "name": "Hidden",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.condition.incapacitated",
+      "name": "Incapacitated",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.condition.invisible",
+      "name": "Invisible",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.condition.poisoned",
+      "name": "Poisoned",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.condition.prone",
+      "name": "Prone",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.condition.restrained",
+      "name": "Restrained",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.condition.stunned",
+      "name": "Stunned",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.condition.suppressed",
+      "name": "Suppressed",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.condition.surprised",
+      "name": "Surprised",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.condition.unconscious",
+      "name": "Unconscious",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.consumable.wargear.stasis_grenade",
+      "name": "Stasis Grenade",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.ammo_pack",
+      "name": "Ammo Pack",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.auspex_battery",
+      "name": "Auspex Battery",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.conversion_field",
+      "name": "Conversion Field",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.field_dressing",
+      "name": "Field Dressing",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.grenade_bandolier",
+      "name": "Grenade Bandolier",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.holo_field_cloak",
+      "name": "Holo-Field Cloak",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.med_pack",
+      "name": "Med-Pack",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.med_stim",
+      "name": "Med-Stim",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.purity_seal_charm",
+      "name": "Purity Seal Charm",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.rebreather_filter",
+      "name": "Rebreather Filter",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.refractor_field",
+      "name": "Refractor Field",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.specialist_ammo_pack",
+      "name": "Specialist Ammo Pack",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.stimm_slug",
+      "name": "Stimm Slug",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.void_patch_kit",
+      "name": "Void Patch Kit",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.wargear.arc_of_the_reductor_mechanicus",
+      "name": "Arc of the Reductor - Mechanicus",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.wargear.archeotech_logic_engine",
+      "name": "Archeotech Logic Engine",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.wargear.big_lugs_door_ogryn",
+      "name": "Big Lug's Door - Ogryn",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.wargear.bulwark_of_saint_drusus_imperial",
+      "name": "Bulwark of Saint Drusus - Imperial",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.wargear.digital_weapon",
+      "name": "Digital Weapon",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.wargear.displacer_field",
+      "name": "Displacer Field",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.wargear.ghosthelm_of_the_wandering_seer_aeldari",
+      "name": "Ghosthelm of the Wandering Seer - Aeldari",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.wargear.halo_of_saint_varro",
+      "name": "Halo of Saint Varro",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.wargear.heart_key_of_the_red_vault",
+      "name": "Heart-Key of the Red Vault",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.wargear.martyrs_censer_imperial",
+      "name": "Martyr's Censer - Imperial",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.wargear.medicae_crucible",
+      "name": "Medicae Crucible",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.wargear.null_rod",
+      "name": "Null Rod",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.wargear.omnissian_data_relic_mechanicus",
+      "name": "Omnissian Data-Relic - Mechanicus",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.wargear.phase_shunt_field",
+      "name": "Phase-Shunt Field",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.wargear.rosarius",
+      "name": "Rosarius",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.wargear.suspensor_harness",
+      "name": "Suspensor Harness",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.wargear.teleport_homer",
+      "name": "Teleport Homer",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.wargear.the_door_that_would_not_break",
+      "name": "The Door That Would Not Break",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.wargear.the_first_oathstone",
+      "name": "The First Oathstone",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.wargear.the_ghosts_coin",
+      "name": "The Ghost's Coin",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.wargear.the_last_light_imperial",
+      "name": "The Last Light - Imperial",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.wargear.the_veiled_eye",
+      "name": "The Veiled Eye",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.equipment.weapon_maintenance_kit",
+      "name": "Weapon Maintenance Kit",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.feature.masterwork.artificer_armour",
+      "name": "Artificer Armour",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.feature.masterwork.artificer_edge",
+      "name": "Artificer Edge",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.feature.masterwork.compact_pattern",
+      "name": "Compact Pattern",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.feature.masterwork.perfect_balance",
+      "name": "Perfect Balance",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.feature.masterwork.precision_barrel_focusing_array",
+      "name": "Precision Barrel / Focusing Array",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.feature.masterwork.rapid_feed",
+      "name": "Rapid Feed",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.feature.masterwork.recoil_compensation",
+      "name": "Recoil Compensation",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.feature.masterwork.responsive_plating",
+      "name": "Responsive Plating",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.feature.masterwork.sealed_systems",
+      "name": "Sealed Systems",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.ashen_brand",
+      "name": "Ashen Brand",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.assail",
+      "name": "Assail",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.baleful_rupture",
+      "name": "Baleful Rupture",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.biomantic_surge",
+      "name": "Biomantic Surge",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.blank_sense",
+      "name": "Blank Sense",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.blood_surge",
+      "name": "Blood Surge",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.burning_halo",
+      "name": "Burning Halo",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.cleansing_wave",
+      "name": "Cleansing Wave",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.conceal",
+      "name": "Conceal",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.crush_grip",
+      "name": "Crush Grip",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.danger_sense",
+      "name": "Danger Sense",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.destructor_rune",
+      "name": "Destructor Rune",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.dominate_nerve",
+      "name": "Dominate Nerve",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.echo_read",
+      "name": "Echo Read",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.ember_flicker",
+      "name": "Ember Flicker",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.fates_nudge",
+      "name": "Fate’s Nudge",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.flesh_knit",
+      "name": "Flesh Knit",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.flesh_reforged",
+      "name": "Flesh Reforged",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.focused_rupture",
+      "name": "Focused Rupture",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.force_dome",
+      "name": "Force Dome",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.foresight_cascade",
+      "name": "Foresight Cascade",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.fortune_thread",
+      "name": "Fortune Thread",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.hemorrhage",
+      "name": "Hemorrhage",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.inferno_bloom",
+      "name": "Inferno Bloom",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.jinx",
+      "name": "Jinx",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.kinetic_bulwark",
+      "name": "Kinetic Bulwark",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.kinetic_push",
+      "name": "Kinetic Push",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.malefic_door",
+      "name": "Malefic Door",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.mind_lumen",
+      "name": "Mind Lumen",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.null_field",
+      "name": "Null Field",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.null_glare",
+      "name": "Null Glare",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.pain_spike",
+      "name": "Pain Spike",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.pariah_zone",
+      "name": "Pariah Zone",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.possession_spike",
+      "name": "Possession Spike",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.prescient_aim",
+      "name": "Prescient Aim",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.prescient_execution",
+      "name": "Prescient Execution",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.protect",
+      "name": "Protect",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.psychic_shield",
+      "name": "Psychic Shield",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.quicken",
+      "name": "Quicken",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.restrain_fate",
+      "name": "Restrain Fate",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.reveal",
+      "name": "Reveal",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.silence_the_witch",
+      "name": "Silence the Witch",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.soulfire",
+      "name": "Soulfire",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.soulstorm",
+      "name": "Soulstorm",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.static_veil",
+      "name": "Static Veil",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.telekinetic_crush",
+      "name": "Telekinetic Crush",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.terror_echo",
+      "name": "Terror Echo",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.toxic_bloom",
+      "name": "Toxic Bloom",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.warp_bite",
+      "name": "Warp Bite",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.warp_spark",
+      "name": "Warp Spark",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.warp_step",
+      "name": "Warp Step",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.power.whisper_from_below",
+      "name": "Whisper from Below",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.shield.brute_shield_harness",
+      "name": "Brute Shield Harness",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.shield.slab_shield",
+      "name": "Slab Shield",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.aeldari_outcast.corsair",
+      "name": "Corsair",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.aeldari_outcast.ranger",
+      "name": "Ranger",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.aeldari_outcast.shadow_guide",
+      "name": "Shadow Guide",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.aeldari_warlock.seer_of_battle",
+      "name": "Seer of Battle",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.aeldari_warlock.spirit_guardian",
+      "name": "Spirit Guardian",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.aeldari_warlock.storm_warlock",
+      "name": "Storm Warlock",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.arbites_enforcer.executioner",
+      "name": "Executioner",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.arbites_enforcer.investigator",
+      "name": "Investigator",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.arbites_enforcer.riot_shield",
+      "name": "Riot Shield",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.hernkyn_prospector.claim_staker",
+      "name": "Claim-Staker",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.hernkyn_prospector.outrider",
+      "name": "Outrider",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.hernkyn_prospector.trail_gunner",
+      "name": "Trail Gunner",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.hive_scum.chem_user",
+      "name": "Chem-User",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.hive_scum.gunslinger",
+      "name": "Gunslinger",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.hive_scum.knife_rat",
+      "name": "Knife Rat",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.hive_scum.sump_ghost",
+      "name": "Sump Ghost",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.kin_armsman.guild_militant",
+      "name": "Guild-Militant",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.kin_armsman.hearthguard",
+      "name": "Hearthguard",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.kin_armsman.ironhead",
+      "name": "Ironhead",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.ogryn_skullbreaker.bone_ead",
+      "name": "Bone ’ead",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.ogryn_skullbreaker.brute",
+      "name": "Brute",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.ogryn_skullbreaker.bulwark",
+      "name": "Bulwark",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.ogryn_skullbreaker.gun_lugger",
+      "name": "Gun Lugger",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.psyker.biomancer",
+      "name": "Biomancer",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.psyker.blank_null_bound",
+      "name": "Blank / Null-Bound",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.psyker.diviner",
+      "name": "Diviner",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.psyker.malefic_touched",
+      "name": "Malefic-Touched",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.psyker.pyromancer",
+      "name": "Pyromancer",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.psyker.telekine",
+      "name": "Telekine",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.ratling_sharpshooter.black_market_gremlin",
+      "name": "Black-Market Gremlin",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.ratling_sharpshooter.long_las_sniper",
+      "name": "Long-Las Sniper",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.ratling_sharpshooter.spotter",
+      "name": "Spotter",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.ratling_sharpshooter.underhive_rat",
+      "name": "Underhive Rat",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.skitarii_veteran.data_hunter",
+      "name": "Data-Hunter Protocol",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.skitarii_veteran.infiltrator",
+      "name": "Infiltrator Protocol",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.skitarii_veteran.protector",
+      "name": "Protector Protocol",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.skitarii_veteran.ranger",
+      "name": "Ranger Protocol",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.skitarii_veteran.ruststalker",
+      "name": "Ruststalker Protocol",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.skitarii_veteran.vanguard",
+      "name": "Vanguard Protocol",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.zealot.flagellant",
+      "name": "Flagellant",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.zealot.preacher",
+      "name": "Preacher",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.subclass.zealot.purifier",
+      "name": "Purifier",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.armour.ablative_ceramite",
+      "name": "Ablative Ceramite",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.armour.adaptive_weave",
+      "name": "Adaptive Weave",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.armour.ancestor_wrought_plating",
+      "name": "Ancestor-Wrought Plating",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.armour.blast_baffles",
+      "name": "Blast Baffles",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.armour.camo_weave",
+      "name": "Camo Weave",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.armour.exo_servo_overdrive",
+      "name": "Exo-Servo Overdrive",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.armour.ghostplate_flexors",
+      "name": "Ghostplate Flexors",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.armour.grav_anchor_spurs",
+      "name": "Grav-Anchor Spurs",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.armour.hexagrammic_lining",
+      "name": "Hexagrammic Lining",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.armour.holo_weave_matrix",
+      "name": "Holo-Weave Matrix",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.armour.mag_boots_anchor_rig",
+      "name": "Mag Boots / Anchor Rig",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.armour.medicae_harness",
+      "name": "Medicae Harness",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.armour.noospheric_armour_link",
+      "name": "Noospheric Armour Link",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.armour.rad_seal_shrouds",
+      "name": "Rad-Seal Shrouds",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.armour.recoil_yoke",
+      "name": "Recoil Yoke",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.armour.reinforced_harness",
+      "name": "Reinforced Harness",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.armour.reinforced_plates",
+      "name": "Reinforced Plates",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.armour.sealed_system",
+      "name": "Sealed System",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.armour.servo_assist",
+      "name": "Servo Assist",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.armour.servo_bracing",
+      "name": "Servo-Bracing",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.armour.shock_insulation",
+      "name": "Shock Insulation",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.armour.slab_lock_bracing",
+      "name": "Slab-Lock Bracing",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.armour.spirit_stone_lattice",
+      "name": "Spirit-Stone Lattice",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.armour.void_seal_redundancy",
+      "name": "Void-Seal Redundancy",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.vehicle.all_terrain_running_gear",
+      "name": "All-terrain running gear",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.vehicle.auspex_survey_suite",
+      "name": "Auspex survey suite",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.vehicle.ogryn_accommodation",
+      "name": "Ogryn accommodation",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.vehicle.recovery_winch",
+      "name": "Recovery winch",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.vehicle.reinforced_plating",
+      "name": "Reinforced plating",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.vehicle.sealed_compartment",
+      "name": "Sealed compartment",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.vehicle.smoke_launchers",
+      "name": "Smoke launchers",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.vehicle.spare_parts_locker",
+      "name": "Spare-parts locker",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.weapon.archeotech_interface",
+      "name": "Archeotech Interface",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.weapon.bayonet_breaching_lug",
+      "name": "Bayonet / Breaching Lug",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.weapon.camo_wrap_low_signature_furniture",
+      "name": "Camo Wrap / Low-Signature Furniture",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.weapon.extended_magazine_charge_pack",
+      "name": "Extended Magazine / Charge Pack",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.weapon.recoil_compensation",
+      "name": "Recoil Compensation",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.weapon.reflex_sight",
+      "name": "Reflex Sight",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.weapon.reinforced_action",
+      "name": "Reinforced Action",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.weapon.sanctified_fittings",
+      "name": "Sanctified Fittings",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.system.weapon.targeting_optic",
+      "name": "Targeting Optic",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.vehicle.aeldari_vyper",
+      "name": "Aeldari Vyper",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.vehicle.armoured_utility_truck",
+      "name": "Armoured Utility Truck",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.vehicle.cargo_hauler",
+      "name": "Cargo Hauler",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.vehicle.chimera",
+      "name": "Chimera",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.vehicle.civilian_autocar",
+      "name": "Civilian Autocar",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.vehicle.falcon_grav_tank",
+      "name": "Falcon Grav-tank",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.vehicle.hernkyn_pioneer_bike",
+      "name": "Hernkyn Pioneer Bike",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.vehicle.hive_outrider_bike",
+      "name": "Hive Outrider Bike",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.vehicle.leman_russ_battle_tank",
+      "name": "Leman Russ Battle Tank",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.vehicle.sagitaur",
+      "name": "Sagitaur",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.vehicle.scout_sentinel",
+      "name": "Scout Sentinel",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.vehicle.taurox",
+      "name": "Taurox",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.aeldari_lasblaster",
+      "name": "Aeldari Lasblaster",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.aeldari_power_sword",
+      "name": "Aeldari Power Sword",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.arc_pistol",
+      "name": "Arc Pistol",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.arc_rifle",
+      "name": "Arc Rifle",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.autocannon",
+      "name": "Autocannon",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.autoch_pattern_bolter",
+      "name": "Autoch-Pattern Bolter",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.autoch_pattern_pistol",
+      "name": "Autoch-Pattern Pistol",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.autogun",
+      "name": "Autogun",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.autopistol",
+      "name": "Autopistol",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.battle_cannon",
+      "name": "Battle cannon",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.big_friendly_rock",
+      "name": "Big Friendly Rock",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.biting_blade",
+      "name": "Biting Blade",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.bolt_cannon",
+      "name": "Bolt cannon",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.bolt_pistol",
+      "name": "Bolt Pistol",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.bolt_revolver",
+      "name": "Bolt Revolver",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.bolter",
+      "name": "Bolter",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.brute_shield_bash",
+      "name": "Brute Shield Bash",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.chain_knife",
+      "name": "Chain Knife",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.chainsword",
+      "name": "Chainsword",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.combat_blade",
+      "name": "Combat Blade",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.combat_shotgun",
+      "name": "Combat Shotgun",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.combi_bolter",
+      "name": "Combi-Bolter",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.concussion_gauntlet",
+      "name": "Concussion Gauntlet",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.concussion_hammer",
+      "name": "Concussion Hammer",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.corsair_sabre",
+      "name": "Corsair Sabre",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.death_spinner",
+      "name": "Death Spinner",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.etacarn_mining_tool",
+      "name": "EtaCarn Mining Tool",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.executioner_blade",
+      "name": "Executioner Blade",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.firebomb",
+      "name": "Firebomb",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.flamer",
+      "name": "Flamer",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.force_staff",
+      "name": "Force Staff",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.force_sword",
+      "name": "Force Sword",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.frag_bomb",
+      "name": "Frag Bomb",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.frag_grenade",
+      "name": "Frag Grenade",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.fusion_gun",
+      "name": "Fusion Gun",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.galvanic_rifle",
+      "name": "Galvanic Rifle",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.ghostsword",
+      "name": "Ghostsword",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.grenade_launcher",
+      "name": "Grenade Launcher",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.grenadier_gauntlet",
+      "name": "Grenadier Gauntlet",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.hand_cannon",
+      "name": "Hand Cannon",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.heavy_axe",
+      "name": "Heavy Axe",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.heavy_bolter",
+      "name": "Heavy Bolter",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.heavy_chainsword",
+      "name": "Heavy Chainsword",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.heavy_stubber",
+      "name": "Heavy Stubber",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.hot_shot_lasgun",
+      "name": "Hot-Shot Lasgun",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.hylas_rotary_cannon",
+      "name": "HYLas rotary cannon",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.industrial_cutter",
+      "name": "Industrial Cutter",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.ion_blaster",
+      "name": "Ion Blaster",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.ion_pistol",
+      "name": "Ion Pistol",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.kickback_shotgun",
+      "name": "Kickback Shotgun",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.kin_power_axe",
+      "name": "Kin Power Axe",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.knife",
+      "name": "Knife",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.krak_grenade",
+      "name": "Krak Grenade",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.lascannon",
+      "name": "Lascannon",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.lascarbine",
+      "name": "Lascarbine",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.lasgun",
+      "name": "Lasgun",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.laspistol",
+      "name": "Laspistol",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.long_las",
+      "name": "Long-Las",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.magna_coil_autocannon",
+      "name": "Magna-coil autocannon",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.magna_rail_rifle",
+      "name": "Magna-Rail Rifle",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.maul",
+      "name": "Maul",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.melta_pistol",
+      "name": "Melta Pistol",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.meltagun",
+      "name": "Meltagun",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.monomolecular_blade",
+      "name": "Monomolecular Blade",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.multi_laser",
+      "name": "Multi-Laser",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.needle_rifle",
+      "name": "Needle Rifle",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.ogryn_club",
+      "name": "Ogryn Club",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.omnissian_axe",
+      "name": "Omnissian Axe",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.plasma_axe",
+      "name": "Plasma Axe",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.plasma_beamer",
+      "name": "Plasma Beamer",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.plasma_gun",
+      "name": "Plasma Gun",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.plasma_pistol",
+      "name": "Plasma Pistol",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.power_axe",
+      "name": "Power Axe",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.power_maul",
+      "name": "Power Maul",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.power_maul_ogryn_pattern",
+      "name": "Power Maul, Ogryn Pattern",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.power_sword",
+      "name": "Power Sword",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.pulse_laser",
+      "name": "Pulse laser",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.rad_grenade",
+      "name": "Rad Grenade",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.radium_carbine",
+      "name": "Radium Carbine",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.ranger_long_rifle",
+      "name": "Ranger Long Rifle",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.relic_blade",
+      "name": "Relic Blade",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.ripper_gun",
+      "name": "Ripper Gun",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.scatter_laser",
+      "name": "Scatter laser",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.shock_maul",
+      "name": "Shock Maul",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.shotgun",
+      "name": "Shotgun",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.shuriken_cannon",
+      "name": "Shuriken cannon",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.shuriken_catapult",
+      "name": "Shuriken Catapult",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.shuriken_pistol",
+      "name": "Shuriken Pistol",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.singing_spear",
+      "name": "Singing Spear",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.slab_hammer",
+      "name": "Slab Hammer",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.smoke_grenade",
+      "name": "Smoke Grenade",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.star_glaive",
+      "name": "Star Glaive",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.stub_pistol",
+      "name": "Stub Pistol",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.stub_rifle",
+      "name": "Stub Rifle",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.stun_grenade",
+      "name": "Stun Grenade",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.taser_goad",
+      "name": "Taser Goad",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.thunder_hammer",
+      "name": "Thunder Hammer",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.trench_club",
+      "name": "Trench Club",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.twin_linked_heavy_stubber",
+      "name": "Twin-Linked Heavy Stubber",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.twin_shuriken_catapults",
+      "name": "Twin shuriken catapults",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.wargear.ancestor_wrought_rail_rifle_kin",
+      "name": "Ancestor-Wrought Rail Rifle - Kin",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.wargear.conversion_beamer",
+      "name": "Conversion Beamer",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.wargear.grav_gun",
+      "name": "Grav-Gun",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.wargear.grav_pistol",
+      "name": "Grav-Pistol",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.wargear.grutts_lucky_club_ogryn",
+      "name": "Grutt's Lucky Club - Ogryn",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.wargear.inferno_pistol",
+      "name": "Inferno Pistol",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.wargear.starfall_long_rifle_aeldari",
+      "name": "Starfall Long Rifle - Aeldari",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.wargear.volkite_charger",
+      "name": "Volkite Charger",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.wargear.volkite_serpenta",
+      "name": "Volkite Serpenta",
+      "state": "reserved_candidate"
+    },
+    {
+      "id": "di.weapon.witchblade",
+      "name": "Witchblade",
+      "state": "reserved_candidate"
+    }
+  ]
+}

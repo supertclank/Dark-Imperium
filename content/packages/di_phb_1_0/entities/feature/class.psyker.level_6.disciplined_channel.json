@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.psyker.level_6.disciplined_channel",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Disciplined Channel",
+  "summary": "Once per short rest, after using a power from your chosen discipline, reduce the Warp Pressure gained by that power by 1, minimum 1.",
+  "descriptionMarkdown": "Once per short rest, after using a power from your \nchosen discipline, reduce the Warp Pressure gained\nby that power by 1, minimum 1.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.3.6",
+        "heading": "Disciplined Channel",
+        "pdfPage": 57,
+        "printedPage": 44
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per short rest, after using a power from your \nchosen discipline, reduce the Warp Pressure gained\nby that power by 1, minimum 1.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

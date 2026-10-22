@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_14_4",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Psychic Power Cost and Empowered Powers",
+  "summary": "Revised cost table Each psychic power increases Warp Pressure. Empowering a power now concretely changes the power and increases risk. Power Type Warp Pressure Cost Minor Power +1 Warp Pressure Standard Power +2 Warp Pressure Major Power +3 Warp Pressure Empowered Power +1 additional Warp Pressure, plus one Empowered effect below Empowered Option Effect Overcharged Damage If the power deals damage, add one additional damage die of the same type. Brutal Manifestation If the power requires a sa...",
+  "descriptionMarkdown": "Revised cost table\nEach psychic power increases Warp Pressure. Empowering a power now concretely changes the power\nand increases risk.\nPower Type Warp Pressure Cost\nMinor Power +1 Warp Pressure\nStandard Power +2 Warp Pressure\nMajor Power +3 Warp Pressure\nEmpowered Power +1 additional Warp Pressure, plus one Empowered effect below\nEmpowered Option Effect\nOvercharged Damage If the power deals damage, add one additional damage die of the \nsame type.\nBrutal Manifestation If the power requires a saving throw, increase the Psychic Save \nDC by +1 for that casting.\nExtended Reach Increase the range by 30 ft, or increase a cone/area radius by 5 ft.\nSustained Focus If the power grants temporary hit points, healing, protection, or a \nbonus, increase the value by your proficiency bonus.\nSplit Manifestation If the power targets one creature and does not already affect \nmultiple targets, target one additional creature within 10 ft of the \noriginal target. The second target takes half damage or receives \nhalf the non-damage effect, GM adjudication.\nDiscipline Mastery If the power belongs to your chosen discipline, you may reroll one \ndamage die or healing die from the power.\nEmpowered restriction\nA power can only be Empowered once per casting. Empowering a power always increases Warp Pressure\nbefore the Perils roll is made. Minor powers can be empowered, but doing so is reckless and should feel\ndangerous at low levels.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "14.4",
+        "heading": "Psychic Power Cost and Empowered Powers",
+        "pdfPage": 91,
+        "printedPage": 78
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "psyker",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Revised cost table\nEach psychic power increases Warp Pressure. Empowering a power now concretely changes the power\nand increases risk.\nPower Type Warp Pressure Cost\nMinor Power +1 Warp Pressure\nStandard Power +2 Warp Pressure\nMajor Power +3 Warp Pressure\nEmpowered Power +1 additional Warp Pressure, plus one Empowered effect below\nEmpowered Option Effect\nOvercharged Damage If the power deals damage, add one additional damage die of the \nsame type.\nBrutal Manifestation If the power requires a saving throw, increase the Psychic Save \nDC by +1 for that casting.\nExtended Reach Increase the range by 30 ft, or increase a cone/area radius by 5 ft.\nSustained Focus If the power grants temporary hit points, healing, protection, or a \nbonus, increase the value by your proficiency bonus.\nSplit Manifestation If the power targets one creature and does not already affect \nmultiple targets, target one additional creature within 10 ft of the \noriginal target. The second target takes half damage or receives \nhalf the non-damage effect, GM adjudication.\nDiscipline Mastery If the power belongs to your chosen discipline, you may reroll one \ndamage die or healing die from the power.\nEmpowered restriction\nA power can only be Empowered once per casting. Empowering a power always increases Warp Pressure\nbefore the Perils roll is made. Minor powers can be empowered, but doing so is reckless and should feel\ndangerous at low levels.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

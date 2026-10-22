@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.wargear.archeotech_logic_engine",
+  "kind": "equipment",
+  "name": "Archeotech Logic Engine",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Item: Archeotech Logic Engine; Availability: Exceptional; Effect: Advantage on Technology checks to identify or operate ancient machinery. Once per short rest, after rolling an Intelligence or Technology check, add 1d8 before the result is declared.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Archeotech Logic Engine",
+          "pdfPage": 107,
+          "printedPage": 94
+        }
+      }
+    }
+  ]
+}

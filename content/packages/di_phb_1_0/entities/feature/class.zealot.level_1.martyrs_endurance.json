@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.zealot.level_1.martyrs_endurance",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Martyr’s Endurance",
+  "summary": "When you are below half your maximum hit points, you gain +1 AC and advantage on saving throws against being frightened.",
+  "descriptionMarkdown": "When you are below half your maximum hit points, you \ngain +1 AC and advantage on saving throws\nagainst being frightened.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.2.2",
+        "heading": "Martyr’s Endurance",
+        "pdfPage": 53,
+        "printedPage": 40
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When you are below half your maximum hit points, you \ngain +1 AC and advantage on saving throws\nagainst being frightened.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

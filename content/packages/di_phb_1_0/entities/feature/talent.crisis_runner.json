@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.crisis_runner",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Crisis Runner",
+  "summary": "Talent: Crisis Runner Benefit: When you Dash, difficult terrain caused by rubble, crowds, gantries, wreckage, or industrial clutter costs no extra movement.",
+  "descriptionMarkdown": "Talent: Crisis Runner\nBenefit: When you Dash, difficult terrain caused by rubble, crowds, gantries, wreckage, or industrial clutter costs no extra movement.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Crisis Runner",
+        "pdfPage": 86,
+        "printedPage": 73
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Crisis Runner\nBenefit: When you Dash, difficult terrain caused by rubble, crowds, gantries, wreckage, or industrial clutter costs no extra movement.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

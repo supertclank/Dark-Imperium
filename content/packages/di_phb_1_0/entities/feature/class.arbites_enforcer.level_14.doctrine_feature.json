@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.arbites_enforcer.level_14.doctrine_feature",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Doctrine Feature",
+  "summary": "Enforcement Doctrine Feature Riot Shield While using a shield, you gain resistance to damage from opportunity attacks. Executioner Once per turn, when you reduce a hostile creature to 0 hit points, another hostile creature within 30 ft must make a Wisdom save or become frightened until your next turn. Investigator Once per short rest, ask the GM one tactical question about a creature, device, crime scene, or battlefield; the GM answers truthfully but briefly.",
+  "descriptionMarkdown": "Enforcement Doctrine Feature\nRiot Shield\nWhile using a shield, you gain \nresistance to damage from \nopportunity attacks.\nExecutioner\nOnce per turn, when you reduce a \nhostile creature to 0 hit points, \nanother hostile creature within 30 \nft must make a Wisdom save or \nbecome frightened until your next \nturn.\nInvestigator\nOnce per short rest, ask the GM \none tactical question about a \ncreature, device, crime scene, or \nbattlefield; the GM answers \ntruthfully but briefly.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.5.14",
+        "heading": "Doctrine Feature",
+        "pdfPage": 63,
+        "printedPage": 50
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Enforcement Doctrine Feature\nRiot Shield\nWhile using a shield, you gain \nresistance to damage from \nopportunity attacks.\nExecutioner\nOnce per turn, when you reduce a \nhostile creature to 0 hit points, \nanother hostile creature within 30 \nft must make a Wisdom save or \nbecome frightened until your next \nturn.\nInvestigator\nOnce per short rest, ask the GM \none tactical question about a \ncreature, device, crime scene, or \nbattlefield; the GM answers \ntruthfully but briefly.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

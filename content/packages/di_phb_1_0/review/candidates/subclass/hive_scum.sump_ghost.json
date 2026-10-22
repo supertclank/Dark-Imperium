@@ -1,0 +1,30 @@
+{
+  "proposedId": "di.subclass.hive_scum.sump_ghost",
+  "kind": "subclass",
+  "name": "Sump Ghost",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-012"
+  ],
+  "proposedData": {
+    "parentClass": {
+      "id": "di.class.hive_scum"
+    }
+  },
+  "evidence": [
+    {
+      "text": "Sump Ghost; You gain expertise in Stealth when in urban ruins, sewers, vents, tunnels, or industrial terrain.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "11.6",
+          "heading": "Sump Ghost",
+          "pdfPage": 65,
+          "printedPage": 52
+        }
+      }
+    }
+  ]
+}

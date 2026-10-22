@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "di.armour.ogryn_leathers",
+  "kind": "armour",
+  "revision": 1,
+  "name": "Ogryn Leathers",
+  "summary": "AC 12. Heavy straps, plates and reinforced hide. Issued.",
+  "descriptionMarkdown": "AC 12. Heavy straps, plates and reinforced hide. Issued.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "9.2",
+        "heading": "Ogryn Leathers",
+        "pdfPage": 42,
+        "printedPage": 29
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "equip": {
+      "slots": [
+        "body"
+      ],
+      "hands": 0
+    },
+    "properties": [],
+    "features": [],
+    "defence": {
+      "value": {
+        "kind": "constant",
+        "value": 12
+      },
+      "mode": "base",
+      "stackGroup": "di.defence.armour"
+    },
+    "category": "ogryn",
+    "requirements": {
+      "equip": {
+        "kind": "selected",
+        "content": {
+          "id": "di.species.ogryn"
+        }
+      }
+    }
+  }
+}

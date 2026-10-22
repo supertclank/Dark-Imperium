@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.hernkyn_prospector.level_15.master_prospector",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Master Prospector",
+  "summary": "Once per long rest, declare a battlefield claim. Choose one 30-ft area you can see. For 1 minute, you and allies ignore difficult terrain in that area, gain +1 to attacks against enemies in it, and have advantage on checks to interact with machinery, cover, doors, terrain, salvage, or objectives inside it.",
+  "descriptionMarkdown": "Once per long rest, declare a battlefield claim. Choose \none 30-ft area you can see. For 1 minute, you and\nallies ignore difficult terrain in that area, gain +1 to \nattacks against enemies in it, and have advantage on\nchecks to interact with machinery, cover, doors, terrain, \nsalvage, or objectives inside it.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.10.15",
+        "heading": "Master Prospector",
+        "pdfPage": 78,
+        "printedPage": 65
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per long rest, declare a battlefield claim. Choose \none 30-ft area you can see. For 1 minute, you and\nallies ignore difficult terrain in that area, gain +1 to \nattacks against enemies in it, and have advantage on\nchecks to interact with machinery, cover, doors, terrain, \nsalvage, or objectives inside it.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.weapon.wargear.inferno_pistol",
+  "kind": "weapon",
+  "name": "Inferno Pistol",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Item: Inferno Pistol; Availability: Exceptional; Effect: 2d10 fire; 20/60 ft; Light, Armour-Breaking, Reload 2. Aeldari-pattern cells and maintenance are normally required.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Inferno Pistol",
+          "pdfPage": 106,
+          "printedPage": 93
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.possession_spike",
+  "kind": "power",
+  "name": "Possession Spike",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Possession Spike; Tag: Malefic; Rule: Action. Range 30 ft. Charisma save. Failure: target is incapacitated until the end of the next turn and takes 4d8 psychic damage. If this triggers Perils, roll Perils severity with advantage and use the higher result.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Possession Spike",
+          "pdfPage": 93,
+          "printedPage": 80
+        }
+      }
+    }
+  ]
+}

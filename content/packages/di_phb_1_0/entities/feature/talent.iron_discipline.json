@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.iron_discipline",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Iron Discipline",
+  "summary": "Talent: Iron Discipline Benefit: Advantage on saving throws against fear and Suppression.",
+  "descriptionMarkdown": "Talent: Iron Discipline\nBenefit: Advantage on saving throws against fear and Suppression.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Iron Discipline",
+        "pdfPage": 86,
+        "printedPage": 73
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Iron Discipline\nBenefit: Advantage on saving throws against fear and Suppression.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

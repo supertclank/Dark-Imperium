@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.wargear.null_rod",
+  "kind": "equipment",
+  "name": "Null Rod",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Item: Null Rod; Availability: Exceptional; Effect: While held, gain advantage on saves against psychic and daemonic effects. Once per short rest, use your reaction to reduce psychic or force damage to you by 2d8; a Warp-using source also gains +1 Warp Pressure.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Null Rod",
+          "pdfPage": 107,
+          "printedPage": 94
+        }
+      }
+    }
+  ]
+}

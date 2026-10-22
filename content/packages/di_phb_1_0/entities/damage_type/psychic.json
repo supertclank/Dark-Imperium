@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "di.damage_type.psychic",
+  "kind": "damage_type",
+  "revision": 1,
+  "name": "Psychic",
+  "summary": "Damage label used by PHB profiles. No universal resistance multiplier is inferred.",
+  "descriptionMarkdown": "Damage label used by PHB profiles. No universal resistance multiplier is inferred.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "14",
+        "heading": "Psychic",
+        "pdfPage": 93,
+        "printedPage": 80
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "category": "psychic"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.armour.wargear.oathplate_of_the_first_claim_kin",
+  "kind": "armour",
+  "name": "Oathplate of the First Claim - Kin",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Relic: Oathplate of the First Claim - Kin; Availability: Near-Unique; Effect: AC 17, max Dex +1; Kin only; no Speed penalty. Once per short rest, ignore one effect that would shove, knock you prone, or reduce your Speed. Allies within 5 ft gain +1 to saves against forced movement while you are conscious.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Oathplate of the First Claim - Kin",
+          "pdfPage": 108,
+          "printedPage": 95
+        }
+      }
+    }
+  ]
+}

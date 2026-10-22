@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.ratling_sharpshooter.level_5.killshot",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Killshot",
+  "summary": "At level 5, once per short rest, when you hit a creature with a ranged weapon attack using an Accurate weapon, you may turn the hit into a critical hit. Your Deadeye damage also increases to +2d6.",
+  "descriptionMarkdown": "At level 5, once per short rest, when you hit a creature \nwith a ranged weapon attack using an Accurate\nweapon, you may turn the hit into a critical hit. Your \nDeadeye damage also increases to +2d6.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.7.5",
+        "heading": "Killshot",
+        "pdfPage": 68,
+        "printedPage": 55
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "At level 5, once per short rest, when you hit a creature \nwith a ranged weapon attack using an Accurate\nweapon, you may turn the hit into a critical hit. Your \nDeadeye damage also increases to +2d6.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

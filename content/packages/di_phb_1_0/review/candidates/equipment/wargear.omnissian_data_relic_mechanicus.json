@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.wargear.omnissian_data_relic_mechanicus",
+  "kind": "equipment",
+  "name": "Omnissian Data-Relic - Mechanicus",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Relic: Omnissian Data-Relic - Mechanicus; Availability: Near-Unique; Effect: While interfaced, gain +1 to Technology checks and advantage to identify Mechanicus systems. Once per short rest, reroll a failed Technology check. Burden: the Cult Mechanicus regards the device as institutional property.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Omnissian Data-Relic - Mechanicus",
+          "pdfPage": 107,
+          "printedPage": 94
+        }
+      }
+    }
+  ]
+}

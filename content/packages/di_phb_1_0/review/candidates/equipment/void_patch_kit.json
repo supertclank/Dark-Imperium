@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.void_patch_kit",
+  "kind": "equipment",
+  "name": "Void Patch Kit",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Item: Void Patch Kit; Use: Action; Rule: Seal a breached suit, cracked visor, pressure leak or small hull gap; usually DC 10 Technology or Survival under pressure.; Availability: Controlled",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "17",
+          "heading": "Void Patch Kit",
+          "pdfPage": 101,
+          "printedPage": 88
+        }
+      }
+    }
+  ]
+}

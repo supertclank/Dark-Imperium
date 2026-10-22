@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_21_5",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Hull Damage and Breakdowns",
+  "summary": "Damage Threshold: total all damage from one hit or effect after resistance, then compare it with DT. Below DT, the hull takes no damage. At least DT, apply the full total. DT is a threshold, not damage reduction. Do not combine separate attacks to overcome it. Against a hull, Armour-Breaking also halves DT for that hit, rounded down. It does not reduce AC or bypass Full Cover. This extends the Chapter 7 property. Power Field and Monomolecular do not bypass DT unless explicitly stated. Persona...",
+  "descriptionMarkdown": "Damage Threshold: total all damage from one hit or effect after resistance, then compare it with DT. Below DT, the \nhull takes no damage. At least DT, apply the full total. DT is a threshold, not damage reduction. Do not combine \nseparate attacks to overcome it.\nAgainst a hull, Armour-Breaking also halves DT for that hit, rounded down. It does not reduce AC or bypass Full Cover. \nThis extends the Chapter 7 property. Power Field and Monomolecular do not bypass DT unless explicitly stated. \nPersonal weapons can harm hulls when they overcome DT.\nVehicles are objects. Hulls are immune to poison, disease, radiation, fear, Suppression and effects that target only \ncreatures or minds. Psychic damage cannot harm a hull unless the power explicitly affects machinery or objects. \nVehicles do not make death saves, recover through rests or benefit from creature-only healing. Drivers and exposed \noccupants suffer conditions normally; their personal resistances do not protect the hull.\nRoll one breakdown when a critical hit damages the hull, or when it first reaches half maximum HP or less in an \nencounter. If it begins at half HP or less, roll on its first damaging hit instead. Maximum one breakdown roll per vehicle \nper round; simultaneous triggers give one roll. Critical hits otherwise double damage dice normally.\nd6 Breakdown Effect\n1 Running gear Speed is halved until repaired; minimum 5 ft unless already 0.\n2 Steering Disadvantage on driving checks and vehicle Dexterity saves until repaired.\n3 Weapon jam One random fitted mount cannot fire until Damage Control succeeds. With no mount, \nuse result 2.\n4 Hull breach Lose Sealed. One random enclosed occupant position provides only Heavy Cover until \nrepaired.\n5 Engine stall Speed becomes 0 and remaining movement is lost until Damage Control succeeds.\n6 Vehicle fire At the end of the driver’s turn, hull takes 2d6 fire damage ignoring DT. If uncontrolled, \nuse the former driver’s initiative. Damage Control extinguishes it.\nBreakdowns do not stack with themselves. A repeated active result instead deals 2d6 hull damage ignoring DT; this \ncannot trigger another breakdown. Field or workshop repair clears running-gear, steering or hull-breach damage (21.8). \nDamage Control clears only jams, stalls and fires.\nAt 0 HP the vehicle is Wrecked: stop movement and disable its mounts. Each occupant makes a DC 13 Dexterity \nsave, taking 2d6 bludgeoning on failure or half on success. Conscious occupants may immediately leave into an \nunoccupied space within 5 ft without an action. Anyone remaining must later leave normally or be rescued. Wrecks do \nnot automatically explode. Fire or hazardous cargo may create a separately signalled danger.\nUncontrolled movement: when a vehicle would next move without a conscious driver, it coasts straight up to 30 ft, \nlimited by the distance it moved last round, then stops. Resolve obstacles as collisions. A new driver at the controls \nbefore then can prevent the coast. Swapping drivers never grants a second movement allowance in the round.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "21.5",
+        "heading": "Hull Damage and Breakdowns",
+        "pdfPage": 116,
+        "printedPage": 103
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Damage Threshold: total all damage from one hit or effect after resistance, then compare it with DT. Below DT, the \nhull takes no damage. At least DT, apply the full total. DT is a threshold, not damage reduction. Do not combine \nseparate attacks to overcome it.\nAgainst a hull, Armour-Breaking also halves DT for that hit, rounded down. It does not reduce AC or bypass Full Cover. \nThis extends the Chapter 7 property. Power Field and Monomolecular do not bypass DT unless explicitly stated. \nPersonal weapons can harm hulls when they overcome DT.\nVehicles are objects. Hulls are immune to poison, disease, radiation, fear, Suppression and effects that target only \ncreatures or minds. Psychic damage cannot harm a hull unless the power explicitly affects machinery or objects. \nVehicles do not make death saves, recover through rests or benefit from creature-only healing. Drivers and exposed \noccupants suffer conditions normally; their personal resistances do not protect the hull.\nRoll one breakdown when a critical hit damages the hull, or when it first reaches half maximum HP or less in an \nencounter. If it begins at half HP or less, roll on its first damaging hit instead. Maximum one breakdown roll per vehicle \nper round; simultaneous triggers give one roll. Critical hits otherwise double damage dice normally.\nd6 Breakdown Effect\n1 Running gear Speed is halved until repaired; minimum 5 ft unless already 0.\n2 Steering Disadvantage on driving checks and vehicle Dexterity saves until repaired.\n3 Weapon jam One random fitted mount cannot fire until Damage Control succeeds. With no mount, \nuse result 2.\n4 Hull breach Lose Sealed. One random enclosed occupant position provides only Heavy Cover until \nrepaired.\n5 Engine stall Speed becomes 0 and remaining movement is lost until Damage Control succeeds.\n6 Vehicle fire At the end of the driver’s turn, hull takes 2d6 fire damage ignoring DT. If uncontrolled, \nuse the former driver’s initiative. Damage Control extinguishes it.\nBreakdowns do not stack with themselves. A repeated active result instead deals 2d6 hull damage ignoring DT; this \ncannot trigger another breakdown. Field or workshop repair clears running-gear, steering or hull-breach damage (21.8). \nDamage Control clears only jams, stalls and fires.\nAt 0 HP the vehicle is Wrecked: stop movement and disable its mounts. Each occupant makes a DC 13 Dexterity \nsave, taking 2d6 bludgeoning on failure or half on success. Conscious occupants may immediately leave into an \nunoccupied space within 5 ft without an action. Anyone remaining must later leave normally or be rescued. Wrecks do \nnot automatically explode. Fire or hazardous cargo may create a separately signalled danger.\nUncontrolled movement: when a vehicle would next move without a conscious driver, it coasts straight up to 30 ft, \nlimited by the distance it moved last round, then stops. Resolve obstacles as collisions. A new driver at the controls \nbefore then can prevent the coast. Swapping drivers never grants a second movement allowance in the round.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.kin_armsman.level_9.void_hardened_line",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Void-Hardened Line",
+  "summary": "Allies within 5 ft of you have advantage on saving throws against being shoved, knocked prone, or moved against their will while you are conscious.",
+  "descriptionMarkdown": "Allies within 5 ft of you have advantage on saving throws \nagainst being shoved, knocked prone, or\nmoved against their will while you are conscious.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.9.9",
+        "heading": "Void-Hardened Line",
+        "pdfPage": 74,
+        "printedPage": 61
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Allies within 5 ft of you have advantage on saving throws \nagainst being shoved, knocked prone, or\nmoved against their will while you are conscious.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

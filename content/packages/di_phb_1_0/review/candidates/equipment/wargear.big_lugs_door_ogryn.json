@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.wargear.big_lugs_door_ogryn",
+  "kind": "equipment",
+  "name": "Big Lug's Door - Ogryn",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Relic: Big Lug's Door - Ogryn; Availability: Near-Unique; Effect: +2 AC; Ogryn only; counts as a Slab Shield. If you did not move this turn, one Small or Medium ally directly behind you has Full Cover. Once per short rest when a ranged attack misses you, move 5 ft toward the attacker without provoking opportunity attacks.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Big Lug's Door - Ogryn",
+          "pdfPage": 107,
+          "printedPage": 94
+        }
+      }
+    }
+  ]
+}

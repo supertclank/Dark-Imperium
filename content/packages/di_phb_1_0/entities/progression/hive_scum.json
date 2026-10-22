@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 1,
+  "id": "di.progression.hive_scum",
+  "kind": "progression",
+  "revision": 1,
+  "name": "Hive Scum progression",
+  "summary": "Exact level labels from the class table; feature automation is separately classified.",
+  "descriptionMarkdown": "Exact level labels from the class table; feature automation is separately classified.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.6",
+        "heading": "Hive Scum progression",
+        "pdfPage": 65,
+        "printedPage": 52
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "axis": {
+      "kind": "class_level",
+      "class": {
+        "id": "di.class.hive_scum"
+      }
+    },
+    "maxLevel": 20,
+    "entries": [
+      {
+        "level": 1,
+        "grants": [
+          {
+            "id": "level_1_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hive_scum.level_1.dirty_fighter"
+            }
+          },
+          {
+            "id": "level_1_2",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hive_scum.level_1.streetwise"
+            }
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "grants": [
+          {
+            "id": "level_2_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hive_scum.level_2.cunning_action"
+            }
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "grants": [
+          {
+            "id": "level_3_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hive_scum.level_3.gang_style"
+            }
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "grants": [
+          {
+            "id": "level_4_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hive_scum.level_4.ability_score_improvement_talent"
+            }
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "grants": [
+          {
+            "id": "level_5_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hive_scum.level_5.backstabber_3d6"
+            }
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "grants": [
+          {
+            "id": "level_6_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hive_scum.level_6.low_cunning"
+            }
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "grants": [
+          {
+            "id": "level_7_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hive_scum.level_7.gang_style_feature"
+            }
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "grants": [
+          {
+            "id": "level_8_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hive_scum.level_8.ability_score_improvement_talent"
+            }
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "grants": [
+          {
+            "id": "level_9_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hive_scum.level_9.vanish_into_trouble"
+            }
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "grants": [
+          {
+            "id": "level_10_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hive_scum.level_10.knife_edge_survivor"
+            }
+          }
+        ]
+      },
+      {
+        "level": 11,
+        "grants": [
+          {
+            "id": "level_11_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hive_scum.level_11.backstabber_4d6"
+            }
+          }
+        ]
+      },
+      {
+        "level": 12,
+        "grants": [
+          {
+            "id": "level_12_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hive_scum.level_12.ability_score_improvement_talent"
+            }
+          }
+        ]
+      },
+      {
+        "level": 13,
+        "grants": [
+          {
+            "id": "level_13_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hive_scum.level_13.underhive_reputation"
+            }
+          }
+        ]
+      },
+      {
+        "level": 14,
+        "grants": [
+          {
+            "id": "level_14_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hive_scum.level_14.gang_style_feature"
+            }
+          }
+        ]
+      },
+      {
+        "level": 15,
+        "grants": [
+          {
+            "id": "level_15_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hive_scum.level_15.backstabber_5d6"
+            }
+          }
+        ]
+      },
+      {
+        "level": 16,
+        "grants": [
+          {
+            "id": "level_16_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hive_scum.level_16.ability_score_improvement_talent"
+            }
+          }
+        ]
+      },
+      {
+        "level": 17,
+        "grants": [
+          {
+            "id": "level_17_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hive_scum.level_17.no_honour"
+            }
+          },
+          {
+            "id": "level_17_2",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hive_scum.level_17.no_problem"
+            }
+          }
+        ]
+      },
+      {
+        "level": 18,
+        "grants": [
+          {
+            "id": "level_18_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hive_scum.level_18.backstabber_6d6"
+            }
+          }
+        ]
+      },
+      {
+        "level": 19,
+        "grants": [
+          {
+            "id": "level_19_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hive_scum.level_19.ability_score_improvement_talent"
+            }
+          }
+        ]
+      },
+      {
+        "level": 20,
+        "grants": [
+          {
+            "id": "level_20_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hive_scum.level_20.king_of_the_underhive"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "proposedId": "di.subclass.ogryn_skullbreaker.gun_lugger",
+  "kind": "subclass",
+  "name": "Gun Lugger",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-012"
+  ],
+  "proposedData": {
+    "parentClass": {
+      "id": "di.class.ogryn_skullbreaker"
+    }
+  },
+  "evidence": [
+    {
+      "text": "Gun Lugger; You can use heavy weapons without the normal movement penalty.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "11.4",
+          "heading": "Gun Lugger",
+          "pdfPage": 59,
+          "printedPage": 46
+        }
+      }
+    }
+  ]
+}

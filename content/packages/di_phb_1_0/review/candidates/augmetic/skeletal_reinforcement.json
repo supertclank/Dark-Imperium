@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.augmetic.skeletal_reinforcement",
+  "kind": "augmetic",
+  "name": "Skeletal Reinforcement",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Upgrade: Skeletal Reinforcement; Effect: Gain advantage on saves against being shoved, knocked prone, or crushed.; Availability: Scarce",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "13",
+          "heading": "Skeletal Reinforcement",
+          "pdfPage": 89,
+          "printedPage": 76
+        }
+      }
+    }
+  ]
+}

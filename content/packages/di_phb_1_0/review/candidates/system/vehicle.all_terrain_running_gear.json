@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.system.vehicle.all_terrain_running_gear",
+  "kind": "system",
+  "name": "All-terrain running gear",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-010"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Upgrade: All-terrain running gear; Availability: Scarce; Effect: Wheeled or tracked chassis ignores difficult terrain from mud, loose rubble and shallow debris; not walls, deep water or impassable slopes.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "21",
+          "heading": "All-terrain running gear",
+          "pdfPage": 118,
+          "printedPage": 105
+        }
+      }
+    }
+  ]
+}

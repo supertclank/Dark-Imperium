@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.fates_nudge",
+  "kind": "power",
+  "name": "Fate’s Nudge",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Fate’s Nudge; Tag: Divination; Rule: Reaction. Add or subtract 1d4 from a d20 roll made by a creature you can see within 60 ft.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Fate’s Nudge",
+          "pdfPage": 92,
+          "printedPage": 79
+        }
+      }
+    }
+  ]
+}

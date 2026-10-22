@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.system.armour.hexagrammic_lining",
+  "kind": "system",
+  "name": "Hexagrammic Lining",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Modification: Hexagrammic Lining; Typical Availability: Rare; Effect: Advantage on the first saving throw against a psychic or daemonic effect after each long rest.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "9",
+          "heading": "Hexagrammic Lining",
+          "pdfPage": 44,
+          "printedPage": 31
+        }
+      }
+    }
+  ]
+}

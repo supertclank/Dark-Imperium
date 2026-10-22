@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.aeldari_warlock.level_5.empowered_rune",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Empowered Rune",
+  "summary": "At level 5, once per short rest, cast one Warlock, Divination, or Telekinesis power as Empowered without paying the additional Empowered Warp Pressure cost.",
+  "descriptionMarkdown": "At level 5, once per short rest, cast one Warlock, \nDivination, or Telekinesis power as Empowered without\npaying the additional Empowered Warp Pressure cost.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.12.5",
+        "heading": "Empowered Rune",
+        "pdfPage": 83,
+        "printedPage": 70
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "At level 5, once per short rest, cast one Warlock, \nDivination, or Telekinesis power as Empowered without\npaying the additional Empowered Warp Pressure cost.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

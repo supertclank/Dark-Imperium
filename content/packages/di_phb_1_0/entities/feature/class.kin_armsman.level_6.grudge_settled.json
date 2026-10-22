@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.kin_armsman.level_6.grudge_settled",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Grudge Settled",
+  "summary": "When a creature marked by Oath-Mark drops to 0 hit points, regain temporary HP equal to your level + Constitution modifier.",
+  "descriptionMarkdown": "When a creature marked by Oath-Mark drops to 0 hit \npoints, regain temporary HP equal to your level +\nConstitution modifier.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.9.6",
+        "heading": "Grudge Settled",
+        "pdfPage": 74,
+        "printedPage": 61
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When a creature marked by Oath-Mark drops to 0 hit \npoints, regain temporary HP equal to your level +\nConstitution modifier.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.zealot.level_11.martyrs_renewal",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Martyr’s Renewal",
+  "summary": "When you use Martyr’s Mercy, roll 2d6 instead of 1d6. If the target is below half hit points, add your proficiency bonus to the healing.",
+  "descriptionMarkdown": "When you use Martyr’s Mercy, roll 2d6 instead of 1d6. If \nthe target is below half hit points, add your\nproficiency bonus to the healing.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.2.11",
+        "heading": "Martyr’s Renewal",
+        "pdfPage": 53,
+        "printedPage": 40
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When you use Martyr’s Mercy, roll 2d6 instead of 1d6. If \nthe target is below half hit points, add your\nproficiency bonus to the healing.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

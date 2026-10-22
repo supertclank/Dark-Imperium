@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.veteran.marksman",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Marksman",
+  "summary": "Marksman",
+  "descriptionMarkdown": "Marksman",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.1.4",
+        "heading": "Marksman",
+        "pdfPage": 50,
+        "printedPage": 37
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.veteran"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.subclass.veteran.marksman"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.veteran"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_15_4_6",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Uncontrolled Manifestation",
+  "summary": "The GM chooses a random psychic power you know. It immediately targets a random valid creature or location.",
+  "descriptionMarkdown": "The GM chooses a random psychic power you know. It \nimmediately targets a random valid creature or\nlocation.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "15.4.6",
+        "heading": "Uncontrolled Manifestation",
+        "pdfPage": 95,
+        "printedPage": 82
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "perils",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "The GM chooses a random psychic power you know. It \nimmediately targets a random valid creature or\nlocation.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

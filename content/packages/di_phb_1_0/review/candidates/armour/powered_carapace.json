@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.armour.powered_carapace",
+  "kind": "armour",
+  "name": "Powered Carapace",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-007"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "AC: 17, max Dex +1; Rare; power-cell maintenance. Strength checks to carry, lift or shove gain +1d4.; Availability: Rare",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "9",
+          "heading": "Powered Carapace",
+          "pdfPage": 42,
+          "printedPage": 29
+        }
+      }
+    }
+  ]
+}

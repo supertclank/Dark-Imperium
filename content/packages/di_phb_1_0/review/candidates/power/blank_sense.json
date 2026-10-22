@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.blank_sense",
+  "kind": "power",
+  "name": "Blank Sense",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Blank Sense; Tag: Null; Rule: Bonus Action. Self. 10 minutes. Sense active psychic effects, daemonic influence, blanks, and Warp residue within 30 ft.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Blank Sense",
+          "pdfPage": 92,
+          "printedPage": 79
+        }
+      }
+    }
+  ]
+}

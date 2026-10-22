@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.veteran.level_1.tactical_aim",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Tactical Aim",
+  "summary": "As a bonus action, choose one creature you can see within weapon range. Until the end of your turn, your next ranged weapon attack against that creature deals bonus damage equal to your proficiency bonus.",
+  "descriptionMarkdown": "As a bonus action, choose one creature you can see \nwithin weapon range. Until the end of your turn,\nyour next ranged weapon attack against that creature \ndeals bonus damage equal to your proficiency\nbonus.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.1.2",
+        "heading": "Tactical Aim",
+        "pdfPage": 50,
+        "printedPage": 37
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "As a bonus action, choose one creature you can see \nwithin weapon range. Until the end of your turn,\nyour next ranged weapon attack against that creature \ndeals bonus damage equal to your proficiency\nbonus.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

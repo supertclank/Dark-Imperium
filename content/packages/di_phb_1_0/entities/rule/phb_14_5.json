@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_14_5",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Minor Psychic Powers",
+  "summary": "Power Tag Rule Warp Spark Universal Action. Range 60 ft. Psychic attack. On hit, 1d8 force damage. Kinetic Push Telekinesis, Universal Action. Range 30 ft. Strength save. Failure: pushed 10 ft and takes 1d6 force damage. Mind Lumen Divination, Universal Bonus Action. Self. 10 minutes. See psychic traces, Warp residue, emotional impressions, and unnatural disturbances within 30 ft. Static Veil Telekinesis, Universal Reaction. Trigger: targeted by a ranged attack. Add +2 AC against that attack....",
+  "descriptionMarkdown": "Power Tag Rule\nWarp Spark Universal Action. Range 60 ft. Psychic attack. On hit, 1d8 force damage.\nKinetic Push Telekinesis, Universal Action. Range 30 ft. Strength save. Failure: pushed 10 ft and takes 1d6 force damage.\nMind Lumen Divination, Universal Bonus Action. Self. 10 minutes. See psychic traces, Warp residue, emotional \nimpressions, and unnatural disturbances within 30 ft.\nStatic Veil Telekinesis, Universal Reaction. Trigger: targeted by a ranged attack. Add +2 AC against that attack.\nFlesh Knit Biomancy Action. Touch. A creature regains 1d6 + psychic ability modifier HP.\nPain Spike Biomancy Action. Range 60 ft. Constitution save. Failure: 1d8 psychic damage, and the target \ncannot take reactions.\nEmber Flicker Pyromancy Bonus Action. Range 30 ft. Ignite or extinguish a small flame; one creature takes 1 fire \ndamage if holding a flammable object.\nPower Tag Rule\nAshen Brand Pyromancy Action. Range: 60 ft. Psychic attack. On hit, 1d8 fire/radiant damage, and the target \nsheds dim light until your next turn.\nDanger Sense Divination Reaction. When you roll initiative, add 1d4 to your initiative roll.\nEcho Read Divination Action. Touch an object or corpse. Learn one recent strong emotion, danger, or image \nattached to it.\nWhisper from Below Malefic Bonus Action. Range 30 ft. One creature makes a Wisdom save. Failure: disadvantage \non the next Wisdom saving throw before your next turn.\nWarp Bite Malefic Action. Range 60 ft. Psychic attack. On hit, 1d10 psychic damage. If you roll a natural \n1, immediately add +1 Warp Pressure.\nNull Glare Null Action. Range 30 ft. One creature makes a Charisma save. Failure: it has \ndisadvantage on the next psychic attack roll it makes, or the next saving throw it \nforces, before your next turn.\nBlank Sense Null Bonus Action. Self. 10 minutes. Sense active psychic effects, daemonic influence, \nblanks, and Warp residue within 30 ft.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "14.5",
+        "heading": "Minor Psychic Powers",
+        "pdfPage": 91,
+        "printedPage": 78
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "psyker",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Power Tag Rule\nWarp Spark Universal Action. Range 60 ft. Psychic attack. On hit, 1d8 force damage.\nKinetic Push Telekinesis, Universal Action. Range 30 ft. Strength save. Failure: pushed 10 ft and takes 1d6 force damage.\nMind Lumen Divination, Universal Bonus Action. Self. 10 minutes. See psychic traces, Warp residue, emotional \nimpressions, and unnatural disturbances within 30 ft.\nStatic Veil Telekinesis, Universal Reaction. Trigger: targeted by a ranged attack. Add +2 AC against that attack.\nFlesh Knit Biomancy Action. Touch. A creature regains 1d6 + psychic ability modifier HP.\nPain Spike Biomancy Action. Range 60 ft. Constitution save. Failure: 1d8 psychic damage, and the target \ncannot take reactions.\nEmber Flicker Pyromancy Bonus Action. Range 30 ft. Ignite or extinguish a small flame; one creature takes 1 fire \ndamage if holding a flammable object.\nPower Tag Rule\nAshen Brand Pyromancy Action. Range: 60 ft. Psychic attack. On hit, 1d8 fire/radiant damage, and the target \nsheds dim light until your next turn.\nDanger Sense Divination Reaction. When you roll initiative, add 1d4 to your initiative roll.\nEcho Read Divination Action. Touch an object or corpse. Learn one recent strong emotion, danger, or image \nattached to it.\nWhisper from Below Malefic Bonus Action. Range 30 ft. One creature makes a Wisdom save. Failure: disadvantage \non the next Wisdom saving throw before your next turn.\nWarp Bite Malefic Action. Range 60 ft. Psychic attack. On hit, 1d10 psychic damage. If you roll a natural \n1, immediately add +1 Warp Pressure.\nNull Glare Null Action. Range 30 ft. One creature makes a Charisma save. Failure: it has \ndisadvantage on the next psychic attack roll it makes, or the next saving throw it \nforces, before your next turn.\nBlank Sense Null Bonus Action. Self. 10 minutes. Sense active psychic effects, daemonic influence, \nblanks, and Warp residue within 30 ft.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

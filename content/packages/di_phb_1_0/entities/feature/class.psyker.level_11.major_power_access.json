@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.psyker.level_11.major_power_access",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Major Power Access",
+  "summary": "You may learn Major Psychic Powers from your chosen discipline. You may know only one Major Power at level 11 unless a class feature, relic, mentor, or campaign reward grants another.",
+  "descriptionMarkdown": "You may learn Major Psychic Powers from your chosen \ndiscipline. You may know only one Major Power\nat level 11 unless a class feature, relic, mentor, or \ncampaign reward grants another.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.3.11",
+        "heading": "Major Power Access",
+        "pdfPage": 57,
+        "printedPage": 44
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "You may learn Major Psychic Powers from your chosen \ndiscipline. You may know only one Major Power\nat level 11 unless a class feature, relic, mentor, or \ncampaign reward grants another.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

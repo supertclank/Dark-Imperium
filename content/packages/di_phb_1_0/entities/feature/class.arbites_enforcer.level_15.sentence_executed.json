@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.arbites_enforcer.level_15.sentence_executed",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Sentence Executed",
+  "summary": "Once per long rest, declare sentence on one creature you can see within 60 ft. For 1 minute, your first hit each turn against that creature deals +1d10 damage. If it drops to 0 hit points during this minute, regain one use of Authority.",
+  "descriptionMarkdown": "Once per long rest, declare sentence on one creature \nyou can see within 60 ft. For 1 minute, your first hit\neach turn against that creature deals +1d10 damage. If it \ndrops to 0 hit points during this minute, regain\none use of Authority.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.5.15",
+        "heading": "Sentence Executed",
+        "pdfPage": 63,
+        "printedPage": 50
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per long rest, declare sentence on one creature \nyou can see within 60 ft. For 1 minute, your first hit\neach turn against that creature deals +1d10 damage. If it \ndrops to 0 hit points during this minute, regain\none use of Authority.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

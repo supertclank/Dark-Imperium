@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_14_7",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Major Psychic Powers",
+  "summary": "Power Tag Rule Telekinetic Crush Telekinesis Action. Range 60 ft. Strength save. Failure: 4d8 force damage and restrained until the end of the next turn; success: half and not restrained. Inferno Bloom Pyromancy Action. Point within 90 ft. 15-ft radius Dexterity save. Failure: 5d6 fire/radiant damage; success:s half. Prescient Execution Divination Bonus Action. Range 30 ft. Concentration up to 1 minute. Once per turn, add 1d4 to an attack roll, saving throw, or ability check by yourself or an...",
+  "descriptionMarkdown": "Power Tag Rule\nTelekinetic Crush Telekinesis Action. Range 60 ft. Strength save. Failure: 4d8 force damage and restrained until the end of \nthe next turn; success: half and not restrained.\nInferno Bloom Pyromancy Action. Point within 90 ft. 15-ft radius Dexterity save. Failure: 5d6 fire/radiant damage; \nsuccess:s half.\nPrescient Execution Divination Bonus Action. Range 30 ft. Concentration up to 1 minute. Once per turn, add 1d4 to an \nattack roll, saving throw, or ability check by yourself or an ally within range.\nBiomantic Surge Biomancy Action. Touch. A creature regains 4d8 + your psychic ability modifier HP and gains \nadvantage on Strength and Constitution saves for 1 minute.\nFlesh Reforged Biomancy Action. Range 30 ft. One creature regains 3d8 HP and ends one poisoned, diseased, \nbleeding, or crippled condition at the GM's discretion.\nHemorrhage Biomancy Action. Range 60 ft. Constitution save. Failure: 5d8 necrotic damage, and the target has \ndisadvantage on Constitution saves until next turn; success: half.\nForce Dome Telekinesis Action. 10-ft radius centred on a point within 60 ft. Allies inside gain +3 AC against ranged \nattacks until the start of your next turn.\nForesight Cascade Divination Action. Range 60 ft. Up to three allies may immediately move 10 ft without provoking \nopportunity attacks and add 1d4 to their next d20 roll.\nSoulstorm Pyromancy Action. 20-ft radius within 90 ft. Dexterity save. Failure: 4d6 fire/radiant damage and burning \nground for 1 minute; success:s half.\nMalefic Door Malefic Action. Range 60 ft. Open a screaming tear. One creature makes a Wisdom save. Failure: \n6d8 psychic damage and frightened for 1 minute; repeat save at the end of each turn. \nImmediately add +2 extra Warp Pressure after resolving.\nPossession Spike Malefic Action. Range 30 ft. Charisma save. Failure: target is incapacitated until the end of the next \nturn and takes 4d8 psychic damage. If this triggers Perils, roll Perils severity with advantage \nand use the higher result.\nPariah Zone Null Action. 15-ft radius centred on you for 1 minute, concentration. Psychic powers cast inside \nthe area cost +1 Warp Pressure, and allies inside the area have advantage on saving throws \nagainst psychic powers.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "14.7",
+        "heading": "Major Psychic Powers",
+        "pdfPage": 93,
+        "printedPage": 80
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "psyker",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Power Tag Rule\nTelekinetic Crush Telekinesis Action. Range 60 ft. Strength save. Failure: 4d8 force damage and restrained until the end of \nthe next turn; success: half and not restrained.\nInferno Bloom Pyromancy Action. Point within 90 ft. 15-ft radius Dexterity save. Failure: 5d6 fire/radiant damage; \nsuccess:s half.\nPrescient Execution Divination Bonus Action. Range 30 ft. Concentration up to 1 minute. Once per turn, add 1d4 to an \nattack roll, saving throw, or ability check by yourself or an ally within range.\nBiomantic Surge Biomancy Action. Touch. A creature regains 4d8 + your psychic ability modifier HP and gains \nadvantage on Strength and Constitution saves for 1 minute.\nFlesh Reforged Biomancy Action. Range 30 ft. One creature regains 3d8 HP and ends one poisoned, diseased, \nbleeding, or crippled condition at the GM's discretion.\nHemorrhage Biomancy Action. Range 60 ft. Constitution save. Failure: 5d8 necrotic damage, and the target has \ndisadvantage on Constitution saves until next turn; success: half.\nForce Dome Telekinesis Action. 10-ft radius centred on a point within 60 ft. Allies inside gain +3 AC against ranged \nattacks until the start of your next turn.\nForesight Cascade Divination Action. Range 60 ft. Up to three allies may immediately move 10 ft without provoking \nopportunity attacks and add 1d4 to their next d20 roll.\nSoulstorm Pyromancy Action. 20-ft radius within 90 ft. Dexterity save. Failure: 4d6 fire/radiant damage and burning \nground for 1 minute; success:s half.\nMalefic Door Malefic Action. Range 60 ft. Open a screaming tear. One creature makes a Wisdom save. Failure: \n6d8 psychic damage and frightened for 1 minute; repeat save at the end of each turn. \nImmediately add +2 extra Warp Pressure after resolving.\nPossession Spike Malefic Action. Range 30 ft. Charisma save. Failure: target is incapacitated until the end of the next \nturn and takes 4d8 psychic damage. If this triggers Perils, roll Perils severity with advantage \nand use the higher result.\nPariah Zone Null Action. 15-ft radius centred on you for 1 minute, concentration. Psychic powers cast inside \nthe area cost +1 Warp Pressure, and allies inside the area have advantage on saving throws \nagainst psychic powers.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

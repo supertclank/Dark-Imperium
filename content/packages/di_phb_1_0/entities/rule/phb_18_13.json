@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_18_13",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Trading, Gifts and Ownership",
+  "summary": "Characters may trade ordinary civilian goods using local currency when the GM considers it reasonable. Military and restricted equipment remains governed by Availability and provenance even if someone has enough money to pay for it. A character may give equipment to an ally, but doing so does not grant proficiency, species compatibility, ammunition supply, legal authority or maintenance knowledge. Institutions may also treat issued wargear as property that must be returned.",
+  "descriptionMarkdown": "Characters may trade ordinary civilian goods using local currency when the GM considers it reasonable. Military and \nrestricted equipment remains governed by Availability and provenance even if someone has enough money to pay for \nit. A character may give equipment to an ally, but doing so does not grant proficiency, species compatibility, \nammunition supply, legal authority or maintenance knowledge. Institutions may also treat issued wargear as property \nthat must be returned.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "18.13",
+        "heading": "Trading, Gifts and Ownership",
+        "pdfPage": 106,
+        "printedPage": 93
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Characters may trade ordinary civilian goods using local currency when the GM considers it reasonable. Military and \nrestricted equipment remains governed by Availability and provenance even if someone has enough money to pay for \nit. A character may give equipment to an ally, but doing so does not grant proficiency, species compatibility, \nammunition supply, legal authority or maintenance knowledge. Institutions may also treat issued wargear as property \nthat must be returned.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "di.species.aeldari",
+  "kind": "species",
+  "revision": 1,
+  "name": "Aeldari / Eldar",
+  "summary": "3.6 Aeldari / Eldar Aeldari are ancient xenos whose reflexes, senses, and psychic presence far exceed human norms. Player Aeldari should represent rare outcasts, rangers, corsair- adjacent wanderers, or warlocks operating under a specific hidden purpose. Ability Scores: +2 Dexterity, +1 Intelligence or Wisdom. Size: Medium. Speed: 35 ft. Available Classes: Aeldari Outcast, Aeldari Warlock. 3.6.1 Aeldari Traits Darkvision: You have darkvision to a range of 90 ft (see the rules at the start of ...",
+  "descriptionMarkdown": "3.6 Aeldari / Eldar\nAeldari are ancient xenos whose reflexes, senses, and \npsychic presence far exceed human norms. Player\nAeldari should represent rare outcasts, rangers, corsair-\nadjacent wanderers, or warlocks operating\nunder a specific hidden purpose.\nAbility Scores: +2 Dexterity, +1 Intelligence or Wisdom.\nSize: Medium.\nSpeed: 35 ft.\nAvailable Classes: Aeldari Outcast, Aeldari Warlock.\n3.6.1 Aeldari Traits\nDarkvision: You have darkvision to a range of 90 ft (see \nthe rules at the start of this chapter).\nInhuman Grace: Gain proficiency in Acrobatics or \nStealth.\nKeen Senses: Gain proficiency in Perception. If you \nalready have Perception proficiency, add +1 to\nPerception checks instead.\nBattle Trance: You may move through the space of \nallied creatures without treating it as difficult\nterrain. Once per short rest, when you move at least 10 ft \nbefore making a weapon attack, add +1d4 to\nthe attack roll.\nAncient Mind: You have advantage on saving throws \nagainst being charmed or frightened by non-psychic \neffects.\nXenos Distrust: You have disadvantage on Persuasion \nchecks with most Imperial authorities unless\ndisguised, vouched for, or operating under an established \ntruce.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "3.6",
+        "heading": "Aeldari / Eldar",
+        "pdfPage": 24,
+        "printedPage": 11
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "features": [
+      {
+        "id": "di.feature.species.aeldari.baseline"
+      },
+      {
+        "id": "di.feature.species.aeldari.traits"
+      }
+    ],
+    "size": "medium",
+    "choices": [
+      {
+        "id": "di.choice.aeldari.ability_scores"
+      }
+    ]
+  }
+}

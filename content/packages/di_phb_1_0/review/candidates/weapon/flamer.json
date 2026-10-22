@@ -1,0 +1,75 @@
+{
+  "proposedId": "di.weapon.flamer",
+  "kind": "weapon",
+  "name": "Flamer",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-005"
+  ],
+  "proposedData": {
+    "properties": [
+      {
+        "property": {
+          "id": "di.property.weapon.spray"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.reload"
+        },
+        "arguments": {
+          "capacity": 4
+        }
+      }
+    ],
+    "modes": [
+      {
+        "id": "base",
+        "name": "Base profile",
+        "damage": [
+          {
+            "id": "component_1",
+            "dice": {
+              "count": 3,
+              "sides": 6,
+              "bonus": 0
+            },
+            "bonus": {
+              "kind": "constant",
+              "value": 0
+            },
+            "damageType": {
+              "id": "di.damage_type.fire"
+            }
+          }
+        ],
+        "range": {
+          "kind": "area",
+          "shape": "cone",
+          "size": {
+            "value": 15,
+            "unit": "ft"
+          },
+          "origin": "self"
+        }
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "text": "Weapon: Flamer; Damage: 3d6 fire; Range: 15-ft cone; Properties: Spray, Reload 4; Availability: Controlled",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "8",
+          "heading": "Flamer",
+          "pdfPage": 37,
+          "printedPage": 24
+        }
+      }
+    }
+  ]
+}

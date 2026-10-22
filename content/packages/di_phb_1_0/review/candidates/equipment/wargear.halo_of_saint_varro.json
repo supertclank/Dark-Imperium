@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.wargear.halo_of_saint_varro",
+  "kind": "equipment",
+  "name": "Halo of Saint Varro",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Unique Item: Halo of Saint Varro; Availability: Unique; Effect and Burden: Once per long rest as a bonus action, for 1 minute, you and allies within 15 ft have advantage on fear and Corruption saves; you gain resistance to psychic and force damage. Burden: visible possession attracts Ecclesiarchal attention and expectations.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Halo of Saint Varro",
+          "pdfPage": 108,
+          "printedPage": 95
+        }
+      }
+    }
+  ]
+}

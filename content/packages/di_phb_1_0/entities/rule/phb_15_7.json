@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_15_7",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Malefic-Touched Perils",
+  "summary": "When Perils is triggered by a Malefic power, the GM may use this table or add +2 to the normal Perils severity roll. These results should feel predatory, corrupting, and narratively dangerous. Severity Malefic Peril Result 2-6 Malignant Static You take 1d6 psychic damage and have disadvantage on your next saving throw against fear, charm, or corruption. 7-10 Blooded Eyes You take 2d6 psychic damage and a nearby Warp entity, cult icon, or daemon-touched creature becomes aware of your presence....",
+  "descriptionMarkdown": "When Perils is triggered by a Malefic power, the GM may use this table or add +2 to the normal\nPerils severity roll. These results should feel predatory, corrupting, and narratively dangerous.\nSeverity Malefic Peril Result\n2-6 Malignant Static You take 1d6 psychic damage and have disadvantage on your next saving throw against fear, \ncharm, or corruption.\n7-10 Blooded Eyes You take 2d6 psychic damage and a nearby Warp entity, cult icon, or daemon-touched creature \nbecomes aware of your presence.\n11-14 Predatory Echo Every creature within 10 ft, including you, takes 2d6 psychic damage. The GM may describe a \nhostile voice, omen, or watching presence.\n15-18 Daemon Scream Creatures of your choice within 30 ft must make a Wisdom save or become frightened until the \nend of their next turn. After Perils is reduced, your Warp Pressure increases by 1.\n19-22 Possession Pressure You are incapacitated until the end of your next turn. Make a Charisma save against your Psychic \nSave DC; on a failure, gain 1 Corruption.\n23-26 Unbidden Manifestation The GM chooses a random Malefic power you know. If you know no valid Malefic power, Terror \nEcho manifests instead. The target is random.\n27-30 Reality Wound A 10-ft radius area within 30 ft becomes corrupted terrain for 1 minute. Creatures entering or \nstarting there take 2d6 psychic damage. Daemons and corrupted creatures have advantage on \ntheir next attack made from inside it.\n31+ Catastrophic Breach You drop to 0 hit points. Every creature within 30 ft takes 4d6 psychic damage. A hostile Warp \nentity, possession threat, or daemon sign enters the scene, and you gain 2 Corruption instead of \n1.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "15.7",
+        "heading": "Malefic-Touched Perils",
+        "pdfPage": 96,
+        "printedPage": 83
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "perils",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When Perils is triggered by a Malefic power, the GM may use this table or add +2 to the normal\nPerils severity roll. These results should feel predatory, corrupting, and narratively dangerous.\nSeverity Malefic Peril Result\n2-6 Malignant Static You take 1d6 psychic damage and have disadvantage on your next saving throw against fear, \ncharm, or corruption.\n7-10 Blooded Eyes You take 2d6 psychic damage and a nearby Warp entity, cult icon, or daemon-touched creature \nbecomes aware of your presence.\n11-14 Predatory Echo Every creature within 10 ft, including you, takes 2d6 psychic damage. The GM may describe a \nhostile voice, omen, or watching presence.\n15-18 Daemon Scream Creatures of your choice within 30 ft must make a Wisdom save or become frightened until the \nend of their next turn. After Perils is reduced, your Warp Pressure increases by 1.\n19-22 Possession Pressure You are incapacitated until the end of your next turn. Make a Charisma save against your Psychic \nSave DC; on a failure, gain 1 Corruption.\n23-26 Unbidden Manifestation The GM chooses a random Malefic power you know. If you know no valid Malefic power, Terror \nEcho manifests instead. The target is random.\n27-30 Reality Wound A 10-ft radius area within 30 ft becomes corrupted terrain for 1 minute. Creatures entering or \nstarting there take 2d6 psychic damage. Daemons and corrupted creatures have advantage on \ntheir next attack made from inside it.\n31+ Catastrophic Breach You drop to 0 hit points. Every creature within 30 ft takes 4d6 psychic damage. A hostile Warp \nentity, possession threat, or daemon sign enters the scene, and you gain 2 Corruption instead of \n1.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

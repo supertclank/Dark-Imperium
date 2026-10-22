@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.skitarii_veteran.level_18.protocol_feature",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Protocol Feature",
+  "summary": "Combat Protocol Feature Ranger Your accurate weapons also ignore heavy cover once per round. Vanguard Your rad or poison effects impose disadvantage on the target’s next Strength or Constitution save. Protector Your protection reaction may target two allies within 30 ft. Data-Hunter Your identified target grants +1 to allied attack rolls until your next turn. Infiltrator You may remain hidden after a miss. Ruststalker Your melee hits against bloodied targets deal +1d8 damage.",
+  "descriptionMarkdown": "Combat Protocol Feature\nRanger\nYour accurate weapons also \nignore heavy cover once per \nround.\nVanguard\nYour rad or poison effects impose \ndisadvantage on the target’s next \nStrength or Constitution save.\nProtector Your protection reaction may \ntarget two allies within 30 ft.\nData-Hunter\nYour identified target grants +1 to \nallied attack rolls until your next \nturn.\nInfiltrator You may remain hidden after a \nmiss.\nRuststalker Your melee hits against bloodied \ntargets deal +1d8 damage.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.8.18",
+        "heading": "Protocol Feature",
+        "pdfPage": 72,
+        "printedPage": 59
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Combat Protocol Feature\nRanger\nYour accurate weapons also \nignore heavy cover once per \nround.\nVanguard\nYour rad or poison effects impose \ndisadvantage on the target’s next \nStrength or Constitution save.\nProtector Your protection reaction may \ntarget two allies within 30 ft.\nData-Hunter\nYour identified target grants +1 to \nallied attack rolls until your next \nturn.\nInfiltrator You may remain hidden after a \nmiss.\nRuststalker Your melee hits against bloodied \ntargets deal +1d8 damage.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

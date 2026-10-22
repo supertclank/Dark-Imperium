@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_18_14",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Exotic, Relic and Unique Wargear",
+  "summary": "High-tier equipment is intended as mission rewards, faction gifts, discoveries and campaign objectives. These items use the existing Availability and provenance rules rather than a separate currency. Exotic gear can sometimes be requisitioned; relics, archeotech and Unique items should usually enter play because the warband earned, recovered, inherited or stole them.",
+  "descriptionMarkdown": "High-tier equipment is intended as mission rewards, faction gifts, discoveries and campaign objectives. These items \nuse the existing Availability and provenance rules rather than a separate currency. Exotic gear can sometimes be \nrequisitioned; relics, archeotech and Unique items should usually enter play because the warband earned, recovered, \ninherited or stole them.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "18.14",
+        "heading": "Exotic, Relic and Unique Wargear",
+        "pdfPage": 106,
+        "printedPage": 93
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "High-tier equipment is intended as mission rewards, faction gifts, discoveries and campaign objectives. These items \nuse the existing Availability and provenance rules rather than a separate currency. Exotic gear can sometimes be \nrequisitioned; relics, archeotech and Unique items should usually enter play because the warband earned, recovered, \ninherited or stole them.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

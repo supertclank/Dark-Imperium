@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.hive_blooded",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Hive-Blooded",
+  "summary": "Talent: Hive-Blooded Requirement: Human or Ratling Benefit: You have advantage on checks to navigate hive districts, underhive markets, vents, hab-blocks, sump routes, and gang territory.",
+  "descriptionMarkdown": "Talent: Hive-Blooded\nRequirement: Human or Ratling\nBenefit: You have advantage on checks to navigate hive districts, underhive markets, vents, hab-blocks, sump routes, and gang territory.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Hive-Blooded",
+        "pdfPage": 87,
+        "printedPage": 74
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Hive-Blooded\nRequirement: Human or Ratling\nBenefit: You have advantage on checks to navigate hive districts, underhive markets, vents, hab-blocks, sump routes, and gang territory.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

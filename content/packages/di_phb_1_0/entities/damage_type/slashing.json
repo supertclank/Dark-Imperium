@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "di.damage_type.slashing",
+  "kind": "damage_type",
+  "revision": 1,
+  "name": "Slashing",
+  "summary": "Damage label used by PHB profiles. No universal resistance multiplier is inferred.",
+  "descriptionMarkdown": "Damage label used by PHB profiles. No universal resistance multiplier is inferred.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "8",
+        "heading": "Slashing",
+        "pdfPage": 38,
+        "printedPage": 25
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "category": "slashing"
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "schemaVersion": 1,
+  "id": "di.progression.psyker",
+  "kind": "progression",
+  "revision": 1,
+  "name": "Psyker progression",
+  "summary": "Exact level labels from the class table; feature automation is separately classified.",
+  "descriptionMarkdown": "Exact level labels from the class table; feature automation is separately classified.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.3",
+        "heading": "Psyker progression",
+        "pdfPage": 56,
+        "printedPage": 43
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "axis": {
+      "kind": "class_level",
+      "class": {
+        "id": "di.class.psyker"
+      }
+    },
+    "maxLevel": 20,
+    "entries": [
+      {
+        "level": 1,
+        "grants": [
+          {
+            "id": "level_1_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.psyker.level_1.psychic_discipline"
+            }
+          },
+          {
+            "id": "level_1_2",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.psyker.level_1.warp_pressure"
+            }
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "grants": [
+          {
+            "id": "level_2_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.psyker.level_2.psychic_ward"
+            }
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "grants": [
+          {
+            "id": "level_3_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.psyker.level_3.discipline_feature"
+            }
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "grants": [
+          {
+            "id": "level_4_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.psyker.level_4.ability_score_improvement_talent"
+            }
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "grants": [
+          {
+            "id": "level_5_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.psyker.level_5.empowered_manifestation"
+            }
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "grants": [
+          {
+            "id": "level_6_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.psyker.level_6.disciplined_channel"
+            }
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "grants": [
+          {
+            "id": "level_7_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.psyker.level_7.discipline_feature"
+            }
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "grants": [
+          {
+            "id": "level_8_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.psyker.level_8.ability_score_improvement_talent"
+            }
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "grants": [
+          {
+            "id": "level_9_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.psyker.level_9.warp_anchor"
+            }
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "grants": [
+          {
+            "id": "level_10_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.psyker.level_10.mastered_manifestation"
+            }
+          }
+        ]
+      },
+      {
+        "level": 11,
+        "grants": [
+          {
+            "id": "level_11_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.psyker.level_11.major_power_access"
+            }
+          }
+        ]
+      },
+      {
+        "level": 12,
+        "grants": [
+          {
+            "id": "level_12_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.psyker.level_12.ability_score_improvement_talent"
+            }
+          }
+        ]
+      },
+      {
+        "level": 13,
+        "grants": [
+          {
+            "id": "level_13_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.psyker.level_13.sanctioned_focus"
+            }
+          }
+        ]
+      },
+      {
+        "level": 14,
+        "grants": [
+          {
+            "id": "level_14_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.psyker.level_14.discipline_feature"
+            }
+          }
+        ]
+      },
+      {
+        "level": 15,
+        "grants": [
+          {
+            "id": "level_15_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.psyker.level_15.alpha_level_risk"
+            }
+          }
+        ]
+      },
+      {
+        "level": 16,
+        "grants": [
+          {
+            "id": "level_16_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.psyker.level_16.ability_score_improvement_talent"
+            }
+          }
+        ]
+      },
+      {
+        "level": 17,
+        "grants": [
+          {
+            "id": "level_17_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.psyker.level_17.soul_bound_discipline"
+            }
+          }
+        ]
+      },
+      {
+        "level": 18,
+        "grants": [
+          {
+            "id": "level_18_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.psyker.level_18.warp_crowned_focus"
+            }
+          }
+        ]
+      },
+      {
+        "level": 19,
+        "grants": [
+          {
+            "id": "level_19_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.psyker.level_19.ability_score_improvement_talent"
+            }
+          }
+        ]
+      },
+      {
+        "level": 20,
+        "grants": [
+          {
+            "id": "level_20_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.psyker.level_20.sanctioned_apex"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.kin_armsman.level_15.holdfast_champion",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Holdfast Champion",
+  "summary": "Once per long rest, plant your oath, banner, claim marker, or kin-token. For 1 minute, you and allies within 15 ft cannot be moved against your will while conscious, and your first hit each round against an oath-marked or grudge-marked enemy deals +1d10 damage.",
+  "descriptionMarkdown": "Once per long rest, plant your oath, banner, claim \nmarker, or kin-token. For 1 minute, you and allies\nwithin 15 ft cannot be moved against your will while \nconscious, and your first hit each round against an\noath-marked or grudge-marked enemy deals +1d10 \ndamage.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.9.15",
+        "heading": "Holdfast Champion",
+        "pdfPage": 75,
+        "printedPage": 62
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per long rest, plant your oath, banner, claim \nmarker, or kin-token. For 1 minute, you and allies\nwithin 15 ft cannot be moved against your will while \nconscious, and your first hit each round against an\noath-marked or grudge-marked enemy deals +1d10 \ndamage.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

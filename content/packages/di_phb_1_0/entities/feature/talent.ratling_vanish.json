@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.ratling_vanish",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Ratling Vanish",
+  "summary": "Talent: Ratling Vanish Requirement: Ratling Benefit: When you take damage, use your reaction to move 10 ft without provoking opportunity attacks.",
+  "descriptionMarkdown": "Talent: Ratling Vanish\nRequirement: Ratling\nBenefit: When you take damage, use your reaction to move 10 ft without provoking opportunity attacks.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Ratling Vanish",
+        "pdfPage": 87,
+        "printedPage": 74
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Ratling Vanish\nRequirement: Ratling\nBenefit: When you take damage, use your reaction to move 10 ft without provoking opportunity attacks.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

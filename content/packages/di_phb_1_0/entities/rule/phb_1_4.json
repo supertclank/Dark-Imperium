@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_1_4",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Proficiency Bonus",
+  "summary": "Levels Proficiency Bonus 1-4 +2 5-8 +3 9-12 +4 13-16 +5 17-20 +6",
+  "descriptionMarkdown": "Levels Proficiency Bonus\n1-4 +2\n5-8 +3\n9-12 +4\n13-16 +5\n17-20 +6",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "1.4",
+        "heading": "Proficiency Bonus",
+        "pdfPage": 15,
+        "printedPage": 2
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Levels Proficiency Bonus\n1-4 +2\n5-8 +3\n9-12 +4\n13-16 +5\n17-20 +6",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

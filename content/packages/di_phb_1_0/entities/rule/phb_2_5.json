@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_2_5",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Skills and Ability Checks",
+  "summary": "When a task has an uncertain outcome, roll d20 + the relevant ability modifier. If you are proficient in the skill or tool that applies, also add your proficiency bonus. A saving throw uses the same structure, adding proficiency only when your class or another rule grants proficiency in that saving throw. Advantage and disadvantage: roll two d20s and use the higher result for advantage or the lower result for disadvantage. Multiple sources of the same type do not stack; if you have both advan...",
+  "descriptionMarkdown": "When a task has an uncertain outcome, roll d20 + the \nrelevant ability modifier. If you are proficient in the skill or \ntool that applies, also add your proficiency bonus. A \nsaving throw uses the same structure, adding proficiency \nonly when your class or another rule grants proficiency in \nthat saving throw.\nAdvantage and disadvantage: roll two d20s and use the \nhigher result for advantage or the lower result for \ndisadvantage. Multiple sources of the same type do not \nstack; if you have both advantage and disadvantage, \nthey cancel, and you roll one d20.\nSkill Ability Typical Use\nAcrobatics Dexterity Balance, controlled movement and \nphysical agility.\nAthletics Strength\nClimbing, jumping, grappling, \nshoving, swimming and forcing \nobstacles.\nInvestigation Intelligen\nce\nSearching scenes, analysing \nevidence and piecing clues \ntogether.\nMedicine Wisdom Stabilisation, diagnosis, field \ntreatment and medicae equipment.\nPerception Wisdom Spotting threats, movement, hidden \nobjects and ambushes.\nStealth Dexterity Moving quietly, hiding, infiltration \nand avoiding observation.\nSkill Ability Typical Use\nSurvival Wisdom Tracking, navigation, shelter, \nsupplies and hostile environments.\nTechnology Intelligen\nce\nCogitators, auspexes, locks, \nmachinery and technical analysis.\nOther skills use the same procedure. Deception, \nIntimidation and Persuasion normally use Charisma; \nInsight uses Wisdom; History and Religion use \nIntelligence; Sleight of Hand uses Dexterity. The GM may \npair a skill with a different ability when the approach \nchanges, such as Strength (Intimidation) for a physical \ndisplay of force.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "2.5",
+        "heading": "Skills and Ability Checks",
+        "pdfPage": 18,
+        "printedPage": 5
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When a task has an uncertain outcome, roll d20 + the \nrelevant ability modifier. If you are proficient in the skill or \ntool that applies, also add your proficiency bonus. A \nsaving throw uses the same structure, adding proficiency \nonly when your class or another rule grants proficiency in \nthat saving throw.\nAdvantage and disadvantage: roll two d20s and use the \nhigher result for advantage or the lower result for \ndisadvantage. Multiple sources of the same type do not \nstack; if you have both advantage and disadvantage, \nthey cancel, and you roll one d20.\nSkill Ability Typical Use\nAcrobatics Dexterity Balance, controlled movement and \nphysical agility.\nAthletics Strength\nClimbing, jumping, grappling, \nshoving, swimming and forcing \nobstacles.\nInvestigation Intelligen\nce\nSearching scenes, analysing \nevidence and piecing clues \ntogether.\nMedicine Wisdom Stabilisation, diagnosis, field \ntreatment and medicae equipment.\nPerception Wisdom Spotting threats, movement, hidden \nobjects and ambushes.\nStealth Dexterity Moving quietly, hiding, infiltration \nand avoiding observation.\nSkill Ability Typical Use\nSurvival Wisdom Tracking, navigation, shelter, \nsupplies and hostile environments.\nTechnology Intelligen\nce\nCogitators, auspexes, locks, \nmachinery and technical analysis.\nOther skills use the same procedure. Deception, \nIntimidation and Persuasion normally use Charisma; \nInsight uses Wisdom; History and Religion use \nIntelligence; Sleight of Hand uses Dexterity. The GM may \npair a skill with a different ability when the approach \nchanges, such as Strength (Intimidation) for a physical \ndisplay of force.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

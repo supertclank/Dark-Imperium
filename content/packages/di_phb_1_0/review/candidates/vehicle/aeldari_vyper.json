@@ -1,0 +1,45 @@
+{
+  "proposedId": "di.vehicle.aeldari_vyper",
+  "kind": "vehicle",
+  "name": "Aeldari Vyper",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-010"
+  ],
+  "proposedData": {
+    "size": "large",
+    "defence": {
+      "kind": "constant",
+      "value": 16
+    },
+    "hull": {
+      "kind": "constant",
+      "value": 60
+    },
+    "movement": [
+      {
+        "mode": "ground",
+        "speed": {
+          "value": 90,
+          "unit": "ft"
+        }
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "text": "Aeldari Vyper\nLarge Aeldari skimmer\nAC 16 | HP 60 | DT 5 | Speed 90 ft | Handling +2\nCrew 1 D, 1 G | Passengers 0 | Cargo 50 kg | Exceptional\nWeapons: turret scatter laser (G); forward twin shuriken catapults (D). Exposed; low skimmer. Ignores ground-level \ndifficult terrain and crosses calm water. Requires Aeldari operator or compatible interface; no Ogryn accommodation.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "21.10",
+          "heading": "Aeldari Vyper",
+          "pdfPage": 120,
+          "printedPage": 107
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.ogryn_skullbreaker.level_15.walking_fortress",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Walking Fortress",
+  "summary": "Once per long rest, for 1 minute, gain resistance to bludgeoning, piercing, and slashing damage from non-powered weapons. During this time, your speed cannot be reduced unless you are incapacitated.",
+  "descriptionMarkdown": "Once per long rest, for 1 minute, gain resistance to \nbludgeoning, piercing, and slashing damage from\nnon-powered weapons. During this time, your speed \ncannot be reduced unless you are incapacitated.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.4.15",
+        "heading": "Walking Fortress",
+        "pdfPage": 60,
+        "printedPage": 47
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per long rest, for 1 minute, gain resistance to \nbludgeoning, piercing, and slashing damage from\nnon-powered weapons. During this time, your speed \ncannot be reduced unless you are incapacitated.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.ogryn_skullbreaker.level_17.mountain_of_muscle",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Mountain of Muscle",
+  "summary": "Your maximum hit points increase by an additional 10, and you have advantage on Strength saves against being restrained, knocked prone, moved, or swallowed.",
+  "descriptionMarkdown": "Your maximum hit points increase by an additional 10, \nand you have advantage on Strength\nsaves against being restrained, knocked prone, moved, \nor swallowed.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.4.17",
+        "heading": "Mountain of Muscle",
+        "pdfPage": 60,
+        "printedPage": 47
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Your maximum hit points increase by an additional 10, \nand you have advantage on Strength\nsaves against being restrained, knocked prone, moved, \nor swallowed.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

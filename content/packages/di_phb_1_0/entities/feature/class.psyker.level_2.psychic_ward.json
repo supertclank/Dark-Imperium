@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.psyker.level_2.psychic_ward",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Psychic Ward",
+  "summary": "When you or an ally within 30 ft takes damage, you may use your reaction to reduce the damage by 1d8 + your psychic ability modifier. Using this feature increases your Warp Pressure by 1.",
+  "descriptionMarkdown": "When you or an ally within 30 ft takes damage, you may \nuse your reaction to reduce the damage by 1d8\n+ your psychic ability modifier. Using this feature \nincreases your Warp Pressure by 1.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.3.2",
+        "heading": "Psychic Ward",
+        "pdfPage": 56,
+        "printedPage": 43
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When you or an ally within 30 ft takes damage, you may \nuse your reaction to reduce the damage by 1d8\n+ your psychic ability modifier. Using this feature \nincreases your Warp Pressure by 1.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

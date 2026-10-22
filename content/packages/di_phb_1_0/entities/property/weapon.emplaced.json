@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "di.property.weapon.emplaced",
+  "kind": "property",
+  "revision": 1,
+  "name": "Emplaced",
+  "summary": "Normally vehicle-, tripod- or brace-mounted. Normal infantry cannot move and fire it unless a feature, rig or GM-approved setup allows it.",
+  "descriptionMarkdown": "Normally vehicle-, tripod- or brace-mounted. Normal infantry cannot move and fire it unless a feature, rig or GM-approved setup allows it.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "7",
+        "heading": "Emplaced",
+        "pdfPage": 35,
+        "printedPage": 22
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "appliesToKinds": [
+      "weapon"
+    ],
+    "parameters": [],
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Normally vehicle-, tripod- or brace-mounted. Normal infantry cannot move and fire it unless a feature, rig or GM-approved setup allows it.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

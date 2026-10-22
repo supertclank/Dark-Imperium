@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.hemorrhage",
+  "kind": "power",
+  "name": "Hemorrhage",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Hemorrhage; Tag: Biomancy; Rule: Action. Range 60 ft. Constitution save. Failure: 5d8 necrotic damage, and the target has disadvantage on Constitution saves until next turn; success: half.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Hemorrhage",
+          "pdfPage": 93,
+          "printedPage": 80
+        }
+      }
+    }
+  ]
+}

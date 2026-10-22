@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.arbites_enforcer.level_20.final_sentence",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Final Sentence",
+  "summary": "Once per long rest, when you declare Sentence Executed, all allies within 30 ft who can hear you gain advantage on their first attack against the sentenced creature. For the duration of Sentence Executed, the first time each round an ally hits that creature, the hit deals +1d6 damage. If the creature is reduced to 0 hit points, all hostile creatures within 30 ft must make a Wisdom save against your Authority DC or become frightened until the end of your next turn.",
+  "descriptionMarkdown": "Once per long rest, when you declare Sentence \nExecuted, all allies within 30 ft who can hear you gain \nadvantage on their first attack against the sentenced \ncreature. For the duration of Sentence Executed, the first \ntime each round an ally hits that creature, the hit deals \n+1d6 damage. If the creature is reduced to 0 hit points, \nall hostile creatures within 30 ft must make a Wisdom \nsave against your Authority DC or become frightened \nuntil the end of your next turn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.5.20",
+        "heading": "Final Sentence",
+        "pdfPage": 63,
+        "printedPage": 50
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per long rest, when you declare Sentence \nExecuted, all allies within 30 ft who can hear you gain \nadvantage on their first attack against the sentenced \ncreature. For the duration of Sentence Executed, the first \ntime each round an ally hits that creature, the hit deals \n+1d6 damage. If the creature is reduced to 0 hit points, \nall hostile creatures within 30 ft must make a Wisdom \nsave against your Authority DC or become frightened \nuntil the end of your next turn.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

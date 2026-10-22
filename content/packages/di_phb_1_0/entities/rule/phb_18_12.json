@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_18_12",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Replacing Lost or Destroyed Equipment",
+  "summary": "Equipment Grade Typical Replacement Issued If the character still has an appropriate patron or institution, ordinary class equipment and common ammunition are normally replaced between authorised missions without a roll. Controlled Usually replaced with a routine Requisition test, paperwork or a short downtime action. Scarce Requires a Requisition test and a plausible supply source. Replacement may be delayed, substituted or issued only for a mission. Rare Requires strong access, Standing, a ...",
+  "descriptionMarkdown": "Equipment \nGrade Typical Replacement\nIssued\nIf the character still has an appropriate \npatron or institution, ordinary class \nequipment and common ammunition are \nnormally replaced between authorised \nmissions without a roll.\nControlled Usually replaced with a routine Requisition \ntest, paperwork or a short downtime action.\nScarce\nRequires a Requisition test and a plausible \nsupply source. Replacement may be \ndelayed, substituted or issued only for a \nmission.\nRare\nRequires strong access, Standing, a \nspecialist source or a specific reward. Loss \nshould matter.\nExceptional\nNormally a campaign objective, patron \ndecision, inheritance, major favour or \ndifficult project rather than a routine request.\nNear-Unique / \nUnique\nCannot be assumed replaceable. Recovery, \nreconstruction or replacement should be a \nstory in its own right.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "18.12",
+        "heading": "Replacing Lost or Destroyed Equipment",
+        "pdfPage": 106,
+        "printedPage": 93
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Equipment \nGrade Typical Replacement\nIssued\nIf the character still has an appropriate \npatron or institution, ordinary class \nequipment and common ammunition are \nnormally replaced between authorised \nmissions without a roll.\nControlled Usually replaced with a routine Requisition \ntest, paperwork or a short downtime action.\nScarce\nRequires a Requisition test and a plausible \nsupply source. Replacement may be \ndelayed, substituted or issued only for a \nmission.\nRare\nRequires strong access, Standing, a \nspecialist source or a specific reward. Loss \nshould matter.\nExceptional\nNormally a campaign objective, patron \ndecision, inheritance, major favour or \ndifficult project rather than a routine request.\nNear-Unique / \nUnique\nCannot be assumed replaceable. Recovery, \nreconstruction or replacement should be a \nstory in its own right.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

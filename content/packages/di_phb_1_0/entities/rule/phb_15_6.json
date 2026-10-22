@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_15_6",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Aeldari Warlock Perils",
+  "summary": "Aeldari Warlocks use the standard Perils rules unless the GM chooses to use this specialised table. These results should feel like rune backlash, spirit-stone shrieking, fate distortion, or webway trauma rather than crude daemonic possession. Severity Aeldari Peril Result 2-6 Rune Static You take 1d6 psychic damage and cannot use Rune Ward until the start of your next turn. 7-10 Ghosthelm Pain You take 2d6 psychic damage and have disadvantage on your next psychic attack roll or psychic saving...",
+  "descriptionMarkdown": "Aeldari Warlocks use the standard Perils rules unless the GM chooses to use this specialised\ntable. These results should feel like rune backlash, spirit-stone shrieking, fate distortion, or\nwebway trauma rather than crude daemonic possession.\nSeverity Aeldari Peril Result\n2-6 Rune Static You take 1d6 psychic damage and cannot use Rune Ward until the start of your next turn.\n7-10 Ghosthelm Pain You take 2d6 psychic damage and have disadvantage on your next psychic attack roll or psychic \nsaving throw before the end of your next turn.\n11-14 Ancestral Echo Every creature within 10 ft hears dead voices through your mind. Each creature, including you, \ntakes 1d6 psychic damage and cannot take reactions until its next turn.\n15-18 Fate Snarl Until the end of your next turn, the first d20 roll made by you or an ally within 30 ft is reduced by \n1d4.\n19-22 Spirit-Stone Cry You are incapacitated until the end of your next turn. One ally within 30 ft takes 1d6 psychic \ndamage unless they succeed on a Wisdom save against your Psychic Save DC.\n23-26 Rune Miscast The GM chooses a Warlock, Divination, or Telekinesis power you know. It immediately targets a \nrandom valid creature or location.\n27-30 Webway Shear A 10-ft radius area within 30 ft becomes distorted terrain for 1 minute. A creature entering it for the \nfirst time on a turn or starting there takes 2d6 force damage.\n31+ Doom of the Seer You drop to 0 hit points. Every creature within 30 ft takes 4d6 psychic damage. You gain 1 \nCorruption or a GM-approved Doom Mark tied to Aeldari fate, spirit-stones, or daemonic pursuit.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "15.6",
+        "heading": "Aeldari Warlock Perils",
+        "pdfPage": 96,
+        "printedPage": 83
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "perils",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Aeldari Warlocks use the standard Perils rules unless the GM chooses to use this specialised\ntable. These results should feel like rune backlash, spirit-stone shrieking, fate distortion, or\nwebway trauma rather than crude daemonic possession.\nSeverity Aeldari Peril Result\n2-6 Rune Static You take 1d6 psychic damage and cannot use Rune Ward until the start of your next turn.\n7-10 Ghosthelm Pain You take 2d6 psychic damage and have disadvantage on your next psychic attack roll or psychic \nsaving throw before the end of your next turn.\n11-14 Ancestral Echo Every creature within 10 ft hears dead voices through your mind. Each creature, including you, \ntakes 1d6 psychic damage and cannot take reactions until its next turn.\n15-18 Fate Snarl Until the end of your next turn, the first d20 roll made by you or an ally within 30 ft is reduced by \n1d4.\n19-22 Spirit-Stone Cry You are incapacitated until the end of your next turn. One ally within 30 ft takes 1d6 psychic \ndamage unless they succeed on a Wisdom save against your Psychic Save DC.\n23-26 Rune Miscast The GM chooses a Warlock, Divination, or Telekinesis power you know. It immediately targets a \nrandom valid creature or location.\n27-30 Webway Shear A 10-ft radius area within 30 ft becomes distorted terrain for 1 minute. A creature entering it for the \nfirst time on a turn or starting there takes 2d6 force damage.\n31+ Doom of the Seer You drop to 0 hit points. Every creature within 30 ft takes 4d6 psychic damage. You gain 1 \nCorruption or a GM-approved Doom Mark tied to Aeldari fate, spirit-stones, or daemonic pursuit.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

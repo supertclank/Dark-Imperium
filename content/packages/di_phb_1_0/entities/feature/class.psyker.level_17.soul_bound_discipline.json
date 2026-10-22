@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.psyker.level_17.soul_bound_discipline",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Soul-Bound Discipline",
+  "summary": "Choose one power from your chosen discipline. Once per short rest, you may use that power without increasing Warp Pressure by 1, minimum total cost 1. Blank / Null-Bound characters may instead choose one Null power.",
+  "descriptionMarkdown": "Choose one power from your chosen discipline. Once per \nshort rest, you may use that power\nwithout increasing Warp Pressure by 1, minimum total \ncost 1. Blank / Null-Bound characters\nmay instead choose one Null power.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.3.17",
+        "heading": "Soul-Bound Discipline",
+        "pdfPage": 57,
+        "printedPage": 44
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Choose one power from your chosen discipline. Once per \nshort rest, you may use that power\nwithout increasing Warp Pressure by 1, minimum total \ncost 1. Blank / Null-Bound characters\nmay instead choose one Null power.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

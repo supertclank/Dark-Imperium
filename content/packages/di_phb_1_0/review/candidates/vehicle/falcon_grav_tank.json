@@ -1,0 +1,45 @@
+{
+  "proposedId": "di.vehicle.falcon_grav_tank",
+  "kind": "vehicle",
+  "name": "Falcon Grav-tank",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-010"
+  ],
+  "proposedData": {
+    "size": "huge",
+    "defence": {
+      "kind": "constant",
+      "value": 18
+    },
+    "hull": {
+      "kind": "constant",
+      "value": 125
+    },
+    "movement": [
+      {
+        "mode": "ground",
+        "speed": {
+          "value": 70,
+          "unit": "ft"
+        }
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "text": "Falcon Grav-tank\nHuge Aeldari skimmer\nAC 18 | HP 125 | DT 10 | Speed 70 ft | Handling +1\nCrew 1 D, 1 G | Passengers 6 | Cargo 200 kg | Exceptional\nWeapons: turret pulse laser and shuriken cannon (same G; choose one per action); forward twin shuriken catapults \n(D). Enclosed; Sealed; no firing ports. Low skimmer. Aeldari controls; no Ogryn accommodation. Ignores ground-level \ndifficult terrain and crosses calm water.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "21.10",
+          "heading": "Falcon Grav-tank",
+          "pdfPage": 120,
+          "printedPage": 107
+        }
+      }
+    }
+  ]
+}

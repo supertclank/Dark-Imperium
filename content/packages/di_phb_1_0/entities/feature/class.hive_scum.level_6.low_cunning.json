@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.hive_scum.level_6.low_cunning",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Low Cunning",
+  "summary": "When you take the Hide, Dash, or Disengage action, you may also draw or stow one weapon, open an unlocked door, kick over cover, or interact with a small object.",
+  "descriptionMarkdown": "When you take the Hide, Dash, or Disengage action, you \nmay also draw or stow one weapon, open an\nunlocked door, kick over cover, or interact with a small \nobject.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.6.6",
+        "heading": "Low Cunning",
+        "pdfPage": 65,
+        "printedPage": 52
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When you take the Hide, Dash, or Disengage action, you \nmay also draw or stow one weapon, open an\nunlocked door, kick over cover, or interact with a small \nobject.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "proposedId": "di.subclass.ogryn_skullbreaker.brute",
+  "kind": "subclass",
+  "name": "Brute",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-012"
+  ],
+  "proposedData": {
+    "parentClass": {
+      "id": "di.class.ogryn_skullbreaker"
+    }
+  },
+  "evidence": [
+    {
+      "text": "Brute; Once per turn, when you hit with a melee weapon, deal +1d6 damage.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "11.4",
+          "heading": "Brute",
+          "pdfPage": 59,
+          "printedPage": 46
+        }
+      }
+    }
+  ]
+}

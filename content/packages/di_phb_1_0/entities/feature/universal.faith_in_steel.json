@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.universal.faith_in_steel",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Faith in Steel",
+  "summary": "Trait: Faith in Steel Effect: While wearing armour, once per long rest, reduce incoming damage by your proficiency bonus.",
+  "descriptionMarkdown": "Trait: Faith in Steel\nEffect: While wearing armour, once per long rest, reduce incoming damage by your proficiency bonus.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "5",
+        "heading": "Faith in Steel",
+        "pdfPage": 29,
+        "printedPage": 16
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "general",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Trait: Faith in Steel\nEffect: While wearing armour, once per long rest, reduce incoming damage by your proficiency bonus.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

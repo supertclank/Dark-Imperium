@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.system.weapon.reflex_sight",
+  "kind": "system",
+  "name": "Reflex Sight",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Modification: Reflex Sight; Availability: Controlled; Effect: Once per short rest, after you roll a ranged attack but before the result is declared, add +1d4 to the roll.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Reflex Sight",
+          "pdfPage": 104,
+          "printedPage": 91
+        }
+      }
+    }
+  ]
+}

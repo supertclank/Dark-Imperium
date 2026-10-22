@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.too_angry_to_notice",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Too Angry to Notice",
+  "summary": "Talent: Too Angry to Notice Requirement: Ogryn Benefit: Once per short rest, reduce psychic, poison, or necrotic damage by 1d12 + Constitution modifier.",
+  "descriptionMarkdown": "Talent: Too Angry to Notice\nRequirement: Ogryn\nBenefit: Once per short rest, reduce psychic, poison, or necrotic damage by 1d12 + Constitution modifier.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Too Angry to Notice",
+        "pdfPage": 87,
+        "printedPage": 74
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Too Angry to Notice\nRequirement: Ogryn\nBenefit: Once per short rest, reduce psychic, poison, or necrotic damage by 1d12 + Constitution modifier.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

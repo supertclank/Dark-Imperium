@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.ogryn_skullbreaker.level_11.bigger_and_meaner",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Bigger and Meaner",
+  "summary": "Your melee weapon attacks and Ogryn weapon attacks score a critical hit on a roll of 19-20 against creatures smaller than you.",
+  "descriptionMarkdown": "Your melee weapon attacks and Ogryn weapon attacks \nscore a critical hit on a roll of 19-20 against\ncreatures smaller than you.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.4.11",
+        "heading": "Bigger and Meaner",
+        "pdfPage": 59,
+        "printedPage": 46
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Your melee weapon attacks and Ogryn weapon attacks \nscore a critical hit on a roll of 19-20 against\ncreatures smaller than you.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

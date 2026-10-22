@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.system.armour.recoil_yoke",
+  "kind": "system",
+  "name": "Recoil Yoke",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Modification: Recoil Yoke; Availability: Scarce; Effect: When using an Ogryn or Heavy ranged weapon, ignore the first movement- based penalty from the Heavy property each turn.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "9",
+          "heading": "Recoil Yoke",
+          "pdfPage": 44,
+          "printedPage": 31
+        }
+      }
+    }
+  ]
+}

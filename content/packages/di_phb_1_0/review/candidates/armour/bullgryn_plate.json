@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.armour.bullgryn_plate",
+  "kind": "armour",
+  "name": "Bullgryn Plate",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-007"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "AC: 17; Speed reduced by 5 ft unless Strength is 18 or higher.; Availability: Scarce",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "9",
+          "heading": "Bullgryn Plate",
+          "pdfPage": 42,
+          "printedPage": 29
+        }
+      }
+    }
+  ]
+}

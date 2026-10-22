@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.universal.chem_hardened",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Chem-Hardened",
+  "summary": "Trait: Chem-Hardened Effect: Advantage on saving throws against poison, disease and combat drugs.",
+  "descriptionMarkdown": "Trait: Chem-Hardened\nEffect: Advantage on saving throws against poison, disease and combat drugs.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "5",
+        "heading": "Chem-Hardened",
+        "pdfPage": 29,
+        "printedPage": 16
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "general",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Trait: Chem-Hardened\nEffect: Advantage on saving throws against poison, disease and combat drugs.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

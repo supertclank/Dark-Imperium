@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.veteran.level_14.improved_doctrine",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Improved Doctrine",
+  "summary": "Doctrine Improved Feature Shock Trooper Your Shock Trooper bonus becomes +1d8. Marksman Your first ranged attack each turn ignores light cover. Sergeant Allies benefiting from your Sergeant doctrine add +1d4 to their first failed fear or Suppression save each combat.",
+  "descriptionMarkdown": "Doctrine Improved Feature\nShock Trooper Your Shock Trooper bonus \nbecomes +1d8.\nMarksman Your first ranged attack each turn \nignores light cover.\nSergeant\nAllies benefiting from your \nSergeant doctrine add +1d4 to \ntheir first failed fear or \nSuppression save each combat.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.1.14",
+        "heading": "Improved Doctrine",
+        "pdfPage": 51,
+        "printedPage": 38
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Doctrine Improved Feature\nShock Trooper Your Shock Trooper bonus \nbecomes +1d8.\nMarksman Your first ranged attack each turn \nignores light cover.\nSergeant\nAllies benefiting from your \nSergeant doctrine add +1d4 to \ntheir first failed fear or \nSuppression save each combat.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

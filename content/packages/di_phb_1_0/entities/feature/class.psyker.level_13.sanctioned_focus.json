@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.psyker.level_13.sanctioned_focus",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Sanctioned Focus",
+  "summary": "When you Vent as an action, reduce Warp Pressure by 1d6 + proficiency bonus on a successful save instead of 1d4 + proficiency bonus. On a failure, you still reduce Warp Pressure by 1.",
+  "descriptionMarkdown": "When you Vent as an action, reduce Warp Pressure by \n1d6 + proficiency bonus on a successful save\ninstead of 1d4 + proficiency bonus. On a failure, you still \nreduce Warp Pressure by 1.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.3.13",
+        "heading": "Sanctioned Focus",
+        "pdfPage": 57,
+        "printedPage": 44
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When you Vent as an action, reduce Warp Pressure by \n1d6 + proficiency bonus on a successful save\ninstead of 1d4 + proficiency bonus. On a failure, you still \nreduce Warp Pressure by 1.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

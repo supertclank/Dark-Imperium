@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.aeldari_warlock.level_1.witchblade_training",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Witchblade Training",
+  "summary": "You may use your psychic ability modifier for attack and damage rolls with witchblades and singing spears.",
+  "descriptionMarkdown": "You may use your psychic ability modifier for attack and \ndamage rolls with witchblades and singing\nspears.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.12.2",
+        "heading": "Witchblade Training",
+        "pdfPage": 83,
+        "printedPage": 70
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "You may use your psychic ability modifier for attack and \ndamage rolls with witchblades and singing\nspears.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

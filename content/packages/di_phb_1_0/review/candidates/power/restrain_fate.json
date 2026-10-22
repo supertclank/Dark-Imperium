@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.restrain_fate",
+  "kind": "power",
+  "name": "Restrain Fate",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Restrain Fate; Level: Standard; Tag: Warlock, Divination; Rule: Reaction. When a creature within 60 ft makes an attack roll, subtract 1d4 from the roll.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Restrain Fate",
+          "pdfPage": 93,
+          "printedPage": 80
+        }
+      }
+    }
+  ]
+}

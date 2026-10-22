@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.aeldari_warlock.level_11.major_rune_access",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Major Rune Access",
+  "summary": "You may learn one Major Power from the Universal, Divination, Telekinesis, or Warlock lists. You cannot learn Malefic Major Powers.",
+  "descriptionMarkdown": "You may learn one Major Power from the Universal, \nDivination, Telekinesis, or Warlock lists. You\ncannot learn Malefic Major Powers.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.12.11",
+        "heading": "Major Rune Access",
+        "pdfPage": 84,
+        "printedPage": 71
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "You may learn one Major Power from the Universal, \nDivination, Telekinesis, or Warlock lists. You\ncannot learn Malefic Major Powers.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

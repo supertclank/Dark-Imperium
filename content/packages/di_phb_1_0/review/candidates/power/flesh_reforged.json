@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.flesh_reforged",
+  "kind": "power",
+  "name": "Flesh Reforged",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Flesh Reforged; Tag: Biomancy; Rule: Action. Range 30 ft. One creature regains 3d8 HP and ends one poisoned, diseased, bleeding, or crippled condition at the GM's discretion.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Flesh Reforged",
+          "pdfPage": 93,
+          "printedPage": 80
+        }
+      }
+    }
+  ]
+}

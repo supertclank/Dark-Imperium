@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.kin_armsman.level_1.kin_training",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Kin Training",
+  "summary": "Gain proficiency in two skills from Athletics, Insight, Investigation, Perception, Survival, Technology, and Persuasion. You also gain proficiency with Kin weapons and void suits.",
+  "descriptionMarkdown": "Gain proficiency in two skills from Athletics, Insight, \nInvestigation, Perception, Survival, Technology,\nand Persuasion. You also gain proficiency with Kin \nweapons and void suits.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.9.1",
+        "heading": "Kin Training",
+        "pdfPage": 74,
+        "printedPage": 61
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Gain proficiency in two skills from Athletics, Insight, \nInvestigation, Perception, Survival, Technology,\nand Persuasion. You also gain proficiency with Kin \nweapons and void suits.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

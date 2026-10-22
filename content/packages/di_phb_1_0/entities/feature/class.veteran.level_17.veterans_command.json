@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.veteran.level_17.veterans_command",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Veteran's Command",
+  "summary": "When you use Tactical Aim, choose one ally within 30 ft who can see or hear you. That ally may add your proficiency bonus to their next weapon damage roll against the same target before the start of your next turn.",
+  "descriptionMarkdown": "When you use Tactical Aim, choose one ally within 30 ft \nwho can see or hear you. That ally may\nadd your proficiency bonus to their next weapon damage \nroll against the same target before the\nstart of your next turn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.1.17",
+        "heading": "Veteran's Command",
+        "pdfPage": 51,
+        "printedPage": 38
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When you use Tactical Aim, choose one ally within 30 ft \nwho can see or hear you. That ally may\nadd your proficiency bonus to their next weapon damage \nroll against the same target before the\nstart of your next turn.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

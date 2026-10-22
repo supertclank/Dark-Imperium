@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.system.weapon.recoil_compensation",
+  "kind": "system",
+  "name": "Recoil Compensation",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Modification: Recoil Compensation; Availability: Scarce; Effect: Once per short rest, ignore disadvantage or another penalty caused specifically by moving before firing a Heavy weapon.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Recoil Compensation",
+          "pdfPage": 104,
+          "printedPage": 91
+        }
+      }
+    }
+  ]
+}

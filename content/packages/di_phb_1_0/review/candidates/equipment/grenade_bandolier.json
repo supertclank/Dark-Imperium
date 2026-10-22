@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.grenade_bandolier",
+  "kind": "equipment",
+  "name": "Grenade Bandolier",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Item: Grenade Bandolier; Use: Passive; Rule: Carry up to four grenades ready for quick use; drawing one does not require an item interaction once per turn.; Availability: Issued",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "17",
+          "heading": "Grenade Bandolier",
+          "pdfPage": 101,
+          "printedPage": 88
+        }
+      }
+    }
+  ]
+}

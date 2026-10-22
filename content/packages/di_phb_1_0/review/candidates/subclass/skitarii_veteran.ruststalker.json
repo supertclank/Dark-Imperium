@@ -1,0 +1,30 @@
+{
+  "proposedId": "di.subclass.skitarii_veteran.ruststalker",
+  "kind": "subclass",
+  "name": "Ruststalker Protocol",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-012"
+  ],
+  "proposedData": {
+    "parentClass": {
+      "id": "di.class.skitarii_veteran"
+    }
+  },
+  "evidence": [
+    {
+      "text": "Ruststalker Protocol; Gain proficiency with blades. Your melee attacks deal +1d6 damage against targets below half their hit points.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "11.8",
+          "heading": "Ruststalker Protocol",
+          "pdfPage": 71,
+          "printedPage": 58
+        }
+      }
+    }
+  ]
+}

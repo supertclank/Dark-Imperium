@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.feature.masterwork.sealed_systems",
+  "kind": "feature",
+  "name": "Sealed Systems",
+  "status": "MANUAL_RULE",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-011"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Masterwork Trait: Sealed Systems; Eligible Item: Armour; Effect: Gain advantage on saves against gas, smoke and airborne toxins. If the armour is already sealed, it also tolerates brief vacuum exposure without a separate suit breach test.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Sealed Systems",
+          "pdfPage": 105,
+          "printedPage": 92
+        }
+      }
+    }
+  ]
+}

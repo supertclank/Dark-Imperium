@@ -1,0 +1,7338 @@
+[
+  {
+    "pdfPage": 15,
+    "printedPage": 2,
+    "top": 376.6,
+    "rows": [
+      [
+        "Tier",
+        "Levels",
+        "Typical Scope"
+      ],
+      [
+        "Tier 1",
+        "1-4",
+        "Districts, facilities, local threats and small warband operations."
+      ],
+      [
+        "Tier 2",
+        "5-10",
+        "Planetary operations, elite enemies and major institutional conflict."
+      ],
+      [
+        "Tier 3",
+        "11-16",
+        "System or subsector crises, powerful relics and strategic enemies."
+      ],
+      [
+        "Tier 4",
+        "17-20",
+        "Sector-changing operations, armies, catastrophic Warp threats and legendary characters."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 15,
+    "printedPage": 2,
+    "top": 470.7,
+    "rows": [
+      [
+        "Levels",
+        "Proficiency Bonus"
+      ],
+      [
+        "1-4",
+        "+2"
+      ],
+      [
+        "5-8",
+        "+3"
+      ],
+      [
+        "9-12",
+        "+4"
+      ],
+      [
+        "13-16",
+        "+5"
+      ],
+      [
+        "17-20",
+        "+6"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 17,
+    "printedPage": 4,
+    "top": 283.4,
+    "rows": [
+      [
+        "Species",
+        "Available Classes",
+        "Notes"
+      ],
+      [
+        "Human",
+        "Veteran, Zealot, Psyker, Arbites Enforcer, Hive Scum",
+        "Most flexible Imperial species."
+      ],
+      [
+        "Ogryn",
+        "Ogryn Skullbreaker",
+        "Class-locked; variety comes from Ogryn roles and talents."
+      ],
+      [
+        "Ratling",
+        "Ratling Sharpshooter, Veteran, Hive Scum",
+        "Sniper, scout, thief, cook and rogue-style specialist."
+      ],
+      [
+        "Skitarii",
+        "Skitarii Veteran",
+        "Mechanicus-only; no psychic access."
+      ],
+      [
+        "Squat / Kin",
+        "Kin Armsman, Hernkyn Prospector",
+        "Tough, technically capable specialist; rare in Imperial warbands."
+      ],
+      [
+        "Aeldari / Eldar",
+        "Aeldari Outcast, Aeldari Warlock",
+        "Xenos option for unusual campaigns; should require a strong narrative reason."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 17,
+    "printedPage": 4,
+    "top": 427.7,
+    "rows": [
+      [
+        "Class",
+        "Role",
+        "Hit Die",
+        "Primary Abilities",
+        "Complexity"
+      ],
+      [
+        "Veteran",
+        "Ranged combat/leadership",
+        "d10",
+        "Dexterity, Wisdom",
+        "Low"
+      ],
+      [
+        "Zealot",
+        "Melee striker/support",
+        "d10",
+        "Strength or Dexterity; Wisdom or Charisma",
+        "Medium"
+      ],
+      [
+        "Psyker",
+        "Psychic control/support",
+        "d6",
+        "Intelligence or Wisdom",
+        "High"
+      ],
+      [
+        "Ogryn Skullbreaker",
+        "Tank/bruiser",
+        "d12",
+        "Strength, Constitution",
+        "Low"
+      ],
+      [
+        "Arbites Enforcer",
+        "Control/frontline",
+        "d10",
+        "Strength or Dexterity; Wisdom",
+        "Medium"
+      ],
+      [
+        "Hive Scum",
+        "Skirmisher/rogue",
+        "d8",
+        "Dexterity, Charisma",
+        "Medium"
+      ],
+      [
+        "Ratling Sharpshooter",
+        "Sniper/scout",
+        "d8",
+        "Dexterity, Wisdom",
+        "Medium"
+      ],
+      [
+        "Skitarii Veteran",
+        "Ranged specialist/controller",
+        "d10",
+        "Dexterity, Intelligence",
+        "Medium"
+      ],
+      [
+        "Kin Armsman",
+        "Frontline/support",
+        "d10",
+        "Constitution; Dexterity or Wisdom",
+        "Medium"
+      ],
+      [
+        "Hernkyn Prospector",
+        "Scout / ranged support",
+        "d8",
+        "Dexterity; Wisdom or Intelligence",
+        "Medium"
+      ],
+      [
+        "Aeldari Outcast",
+        "Mobile striker/scout",
+        "d8",
+        "Dexterity, Wisdom",
+        "Medium"
+      ],
+      [
+        "Aeldari Warlock",
+        "Psychic support/control",
+        "d6",
+        "Wisdom or Intelligence; Dexterity",
+        "High"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 18,
+    "printedPage": 5,
+    "top": 46.8,
+    "rows": [
+      [
+        "Skill",
+        "Ability",
+        "Typical Use"
+      ],
+      [
+        "Survival",
+        "Wisdom",
+        "Tracking, navigation, shelter, supplies and hostile environments."
+      ],
+      [
+        "Technology",
+        "Intelligen ce",
+        "Cogitators, auspexes, locks, machinery and technical analysis."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 18,
+    "printedPage": 5,
+    "top": 639.7,
+    "rows": [
+      [
+        "Skill",
+        "Ability",
+        "Typical Use"
+      ],
+      [
+        "Acrobatics",
+        "Dexterity",
+        "Balance, controlled movement and physical agility."
+      ],
+      [
+        "Athletics",
+        "Strength",
+        "Climbing, jumping, grappling, shoving, swimming and forcing obstacles."
+      ],
+      [
+        "Investigation",
+        "Intelligen ce",
+        "Searching scenes, analysing evidence and piecing clues together."
+      ],
+      [
+        "Medicine",
+        "Wisdom",
+        "Stabilisation, diagnosis, field treatment and medicae equipment."
+      ],
+      [
+        "Perception",
+        "Wisdom",
+        "Spotting threats, movement, hidden objects and ambushes."
+      ],
+      [
+        "Stealth",
+        "Dexterity",
+        "Moving quietly, hiding, infiltration and avoiding observation."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 26,
+    "printedPage": 13,
+    "top": 140.3,
+    "rows": [
+      [
+        "Origin",
+        "Human",
+        "Ogryn",
+        "Ratling",
+        "Skitarii",
+        "Squat/Kin",
+        "Aeldari"
+      ],
+      [
+        "Hiveborn",
+        "Yes",
+        "Rare",
+        "Yes",
+        "No",
+        "Rare",
+        "No"
+      ],
+      [
+        "Shrine Worlder",
+        "Yes",
+        "No",
+        "Rare",
+        "No",
+        "No",
+        "No"
+      ],
+      [
+        "Penal Worlder",
+        "Yes",
+        "Yes",
+        "Yes",
+        "No",
+        "Rare",
+        "No"
+      ],
+      [
+        "Voidborn",
+        "Yes",
+        "Rare",
+        "Yes",
+        "No",
+        "Yes",
+        "Rare"
+      ],
+      [
+        "Forge World",
+        "Yes",
+        "No",
+        "No",
+        "Yes",
+        "Rare",
+        "No"
+      ],
+      [
+        "Schola Progenium",
+        "Yes",
+        "No",
+        "No",
+        "No",
+        "No",
+        "No"
+      ],
+      [
+        "Militarum Regiment",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Limited",
+        "Rare",
+        "No"
+      ],
+      [
+        "Underhive",
+        "Yes",
+        "No",
+        "Yes",
+        "No",
+        "Rare",
+        "No"
+      ],
+      [
+        "Craftworld / Outcast",
+        "No",
+        "No",
+        "No",
+        "No",
+        "No",
+        "Yes"
+      ],
+      [
+        "Mining Hold / Guild",
+        "No",
+        "No",
+        "No",
+        "No",
+        "Yes",
+        "No"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 29,
+    "printedPage": 16,
+    "top": 113.5,
+    "rows": [
+      [
+        "Trait",
+        "Effect"
+      ],
+      [
+        "Faithful",
+        "Once per long rest, when you fail a Wisdom or Charisma saving throw, reroll it. You must use the new result."
+      ],
+      [
+        "Jaded",
+        "Advantage on saving throws against fear caused by gore, death, torture, corruption or battlefield horror."
+      ],
+      [
+        "Twitchy",
+        "Gain +2 to initiative."
+      ],
+      [
+        "Unnaturally Lucky",
+        "Once per long rest, reroll any d20 roll. You must use the new result."
+      ],
+      [
+        "Augmetic Scarred",
+        "Gain one minor augmetic upgrade. You suffer disadvantage on Persuasion checks with groups that distrust obvious cybernetics."
+      ],
+      [
+        "Chem-Hardened",
+        "Advantage on saving throws against poison, disease and combat drugs."
+      ],
+      [
+        "Devoted Servant",
+        "Once per long rest, when you fail a death saving throw, treat it as a success instead."
+      ],
+      [
+        "Touched by the Warp",
+        "Human only. Know one Minor Universal Psychic Power. Using it increases Warp Pressure by 1 and risks Perils. Skitarii cannot take this trait."
+      ],
+      [
+        "Hive Survivor",
+        "Gain proficiency in Survival or Stealth. Advantage on checks to find shelter, water, food or safe routes in hive, ruin, sump or industrial terrain."
+      ],
+      [
+        "Munitorum Drilled",
+        "Gain proficiency with one basic firearm. Once per short rest, reload a basic weapon without spending an action."
+      ],
+      [
+        "Iron Nerves",
+        "Once per short rest, when you would become Suppressed, ignore the condition until the start of your next turn."
+      ],
+      [
+        "Faith in Steel",
+        "While wearing armour, once per long rest, reduce incoming damage by your proficiency bonus."
+      ],
+      [
+        "Dirty Pragmatist",
+        "Gain proficiency in Deception or Sleight of Hand. Once per short rest, draw, conceal, palm or plant a small item without requiring an action."
+      ],
+      [
+        "Vox Familiar",
+        "Allies within 120 ft with vox access can understand your short coded messages even in combat noise."
+      ],
+      [
+        "Grudge-Bearer",
+        "Choose heretics, mutants, daemons, xenos, gangers or traitor soldiers. Once per long rest, when you hit that category, add 1d6 damage."
+      ],
+      [
+        "Hard to Kill",
+        "Maximum HP increases by 2; advantage on death saves while an ally is within 5 ft."
+      ],
+      [
+        "Knife in the Boot",
+        "You count as having a concealed knife or improvised shiv unless fully searched. Gain proficiency with knives."
+      ],
+      [
+        "Field Chirurgeon",
+        "Gain proficiency in Medicine. Once per short rest, stabilise a creature as a bonus action rather than an action."
+      ],
+      [
+        "Black-Market Eye",
+        "Gain proficiency in Investigation or Insight. Advantage on checks to assess the value, legality or likely source of weapons, relics, chems and contraband."
+      ],
+      [
+        "Litany-Marked",
+        "Once per long rest, as a bonus action, you and one ally within 30 ft gain advantage on saves against fear until the start of your next turn."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 31,
+    "printedPage": 18,
+    "top": 227.3,
+    "rows": [
+      [
+        "Common Action",
+        "Use"
+      ],
+      [
+        "Attack",
+        "Make weapon attacks allowed by your class features and equipment."
+      ],
+      [
+        "Dash",
+        "Move up to your Speed again."
+      ],
+      [
+        "Disengage",
+        "Your movement does not provoke opportunity attacks this turn."
+      ],
+      [
+        "Dodge",
+        "Until your next turn, attacks you can see have disadvantage against you, and you have advantage on Dexterity saves."
+      ],
+      [
+        "Help",
+        "Give an adjacent or plausibly assisted ally advantage on one appropriate check or attack."
+      ],
+      [
+        "Hide",
+        "Attempt to become hidden when terrain, darkness or concealment allows it."
+      ],
+      [
+        "Ready",
+        "Choose a perceivable trigger and an action or movement to resolve with your reaction."
+      ],
+      [
+        "Reload",
+        "Reload a weapon when its Reload property requires it."
+      ],
+      [
+        "Use Mission Gear",
+        "Operate a med-pack, auspex, demolition tool or other item whose rule requires an action."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 31,
+    "printedPage": 18,
+    "top": 488.3,
+    "rows": [
+      [
+        "Cover",
+        "Effect"
+      ],
+      [
+        "Light Cover",
+        "+2 AC against attacks that pass through the cover."
+      ],
+      [
+        "Heavy Cover",
+        "+5 AC against attacks that pass through the cover."
+      ],
+      [
+        "Full Cover",
+        "Cannot be directly targeted through the obstruction."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 32,
+    "printedPage": 19,
+    "top": 174.1,
+    "rows": [
+      [
+        "Maneuver",
+        "Procedure"
+      ],
+      [
+        "Grapple",
+        "Choose a creature within your reach that is no more than one size larger than you. Make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics). On a success, the target is grappled."
+      ],
+      [
+        "Escape",
+        "A grappled creature may use its action to repeat the contest. On a success, the grapple ends. The grapple also ends if the grappler is incapacitated or the creatures are moved beyond the grappler's reach."
+      ],
+      [
+        "Move a Grappled Target",
+        "When you move, you may drag or carry a grappled target, but your Speed is halved unless the target is at least two sizes smaller than you."
+      ],
+      [
+        "Shove",
+        "Choose a creature within your reach that is no more than one size larger than you. Make the same contested check as a grapple. On a success, either push the target 5 ft or knock it Prone."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 32,
+    "printedPage": 19,
+    "top": 427.7,
+    "rows": [
+      [
+        "Rest",
+        "Duration",
+        "Effect"
+      ],
+      [
+        "Short Rest",
+        "At least 1 hour",
+        "A period of relative safety with no strenuous activity. You may spend Hit Dice; for each die spent, roll it and regain HP equal to the result + your Constitution modifier. Recover features that say they return on a short rest. Warp Pressure is reduced to 0 as described in Chapter 15."
+      ],
+      [
+        "Long Rest",
+        "At least 8 hours",
+        "At least 6 hours should be sleep or an equivalent species-appropriate rest unless the GM rules otherwise. Restore all lost HP, recover long-rest features and regain spent Hit Dice up to half your total Hit Dice, minimum one. Warp Pressure is reduced to 0. A character can normally benefit from only one long rest in 24 hours."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 32,
+    "printedPage": 19,
+    "top": 588.1,
+    "rows": [
+      [
+        "Condition / State",
+        "Effect"
+      ],
+      [
+        "Blinded",
+        "You cannot see and automatically fail checks that require sight. Your attacks have disadvantage; attacks against you have advantage."
+      ],
+      [
+        "Bloodied",
+        "You are Bloodied while at or below half your maximum HP. Bloodied is a state, not a condition, and has no effect by itself unless a rule refers to it."
+      ],
+      [
+        "Charmed",
+        "You cannot attack or deliberately harm the creature that charmed you. That creature has advantage on social checks made against you."
+      ],
+      [
+        "Frightened",
+        "While you can see the source of your fear, you have disadvantage on ability checks and attack rolls and cannot willingly move closer to it. A \"fear save\" is a save made to avoid or end this condition."
+      ],
+      [
+        "Grappled",
+        "Your Speed becomes 0 and cannot benefit from bonuses to Speed. The condition ends if the grappler is incapacitated or you are moved beyond its reach."
+      ],
+      [
+        "Hidden",
+        "You are unseen and unheard by a creature that has not located you. Attacks against a creature you are hidden from normally have advantage. Making an attack normally reveals your position after the attack resolves unless a feature says otherwise."
+      ],
+      [
+        "Incapacitated",
+        "You cannot take actions, bonus actions or reactions."
+      ],
+      [
+        "Invisible",
+        "You cannot be seen without a special sense or effect. Your attacks normally have advantage, and attacks against you normally have disadvantage. You can still be detected by sound, tracks or other evidence."
+      ],
+      [
+        "Poisoned",
+        "You have disadvantage on attack rolls and ability checks."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 33,
+    "printedPage": 20,
+    "top": 46.8,
+    "rows": [
+      [
+        "Condition / State",
+        "Effect"
+      ],
+      [
+        "Prone",
+        "Your only movement option is to crawl unless you spend half your Speed to stand. Your attacks have disadvantage. Attacks against you have advantage from within 5 ft and disadvantage from farther away."
+      ],
+      [
+        "Restrained",
+        "Your Speed becomes 0. Your attacks have disadvantage, attacks against you have advantage, and you have disadvantage on Dexterity saving throws."
+      ],
+      [
+        "Stunned",
+        "You are Incapacitated, cannot move and can speak only falteringly. You automatically fail Strength and Dexterity saving throws, and attacks against you have advantage."
+      ],
+      [
+        "Suppressed",
+        "Disadvantage on ranged weapon attacks; cannot willingly move closer to the source of Suppression; cannot take reactions. Full Cover may end Suppression as described in 6.3."
+      ],
+      [
+        "Surprised",
+        "If the GM determines you were unaware of danger when combat began, you are Surprised until the end of your first turn. While Surprised, you cannot move or take actions or bonus actions, and you cannot take reactions until that turn ends."
+      ],
+      [
+        "Unconscious",
+        "You are Incapacitated, cannot move or speak, are unaware of your surroundings, drop held items and fall Prone. You automatically fail Strength and Dexterity saves. Attacks against you have advantage, and a hit from within 5 ft is a critical hit."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 33,
+    "printedPage": 20,
+    "top": 246.1,
+    "rows": [
+      [
+        "Level",
+        "Effect"
+      ],
+      [
+        "1",
+        "Disadvantage on ability checks."
+      ],
+      [
+        "2",
+        "Speed halved."
+      ],
+      [
+        "3",
+        "Disadvantage on attack rolls and saving throws."
+      ],
+      [
+        "4",
+        "Maximum HP halved."
+      ],
+      [
+        "5",
+        "Speed becomes 0."
+      ],
+      [
+        "6",
+        "Death."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 35,
+    "printedPage": 22,
+    "top": 111.0,
+    "rows": [
+      [
+        "Property",
+        "Effect"
+      ],
+      [
+        "Accurate",
+        "If you do not move this turn, gain +1 to hit with this weapon."
+      ],
+      [
+        "Armour-Breaking",
+        "Ignores half cover from armour plating or vehicle plating at GM discretion."
+      ],
+      [
+        "Beam",
+        "Choose a line 5 ft wide up to normal range. Creatures in the line make a Dexterity save, taking weapon damage on a failure or half on a success. Cannot be used for opportunity attacks."
+      ],
+      [
+        "Blast",
+        "Explosive or impact burst. Nearby creatures or objects may also be affected, usually with a Dexterity save for half damage."
+      ],
+      [
+        "Brutal",
+        "On a critical hit, roll one extra weapon damage die."
+      ],
+      [
+        "Burst",
+        "Take -2 to hit. On a hit, add one extra weapon damage die. Uses extra ammunition."
+      ],
+      [
+        "Chain",
+        "On a critical hit, roll one extra weapon damage die."
+      ],
+      [
+        "Close-Quarters",
+        "Does not suffer disadvantage when fired within 5 ft of an enemy."
+      ],
+      [
+        "Emplaced",
+        "Normally vehicle-, tripod- or brace-mounted. Normal infantry cannot move and fire it unless a feature, rig or GM-approved setup allows it."
+      ],
+      [
+        "Entangling",
+        "A creature hit must make a Dexterity save or have its speed reduced by 10 ft until the end of its next turn."
+      ],
+      [
+        "Finesse",
+        "Use Strength or Dexterity for attack and damage rolls."
+      ],
+      [
+        "Focus",
+        "Can be used as a psychic focus for powers or class features that require one."
+      ],
+      [
+        "Heavy",
+        "Requires Strength 15 or relevant training. Moving before firing may impose disadvantage."
+      ],
+      [
+        "Industrial",
+        "Also functions as a tool; advantage on appropriate cutting, breaching, mining, dismantling or salvage checks outside combat."
+      ],
+      [
+        "Light",
+        "Can be dual-wielded if appropriate."
+      ],
+      [
+        "Mechanicus",
+        "Requires Mechanicus training, augmetic interface or GM approval to use without penalty."
+      ],
+      [
+        "Monomolecular",
+        "On a critical hit, add one extra damage die. The GM may allow it to ignore improvised armour on lightly armoured targets."
+      ],
+      [
+        "Ogryn",
+        "Can only be used by Ogryns or specially modified users."
+      ],
+      [
+        "Overheat",
+        "On a natural 1, the wielder takes damage, and the weapon cannot be fired again until the end of their next turn."
+      ],
+      [
+        "Power Field",
+        "Counts as powered for overcoming resistance."
+      ],
+      [
+        "Psyker",
+        "Requires psychic training or a class feature that allows psyker weapons."
+      ],
+      [
+        "Reload X",
+        "Must reload after X shots or uses."
+      ],
+      [
+        "Shield",
+        "Can be used with shield features and may provide defensive benefits listed in its equipment entry."
+      ],
+      [
+        "Shock",
+        "Target must make a Constitution save or lose reactions until its next turn."
+      ],
+      [
+        "Silent",
+        "Does not automatically reveal the attacker's exact position when fired from hiding."
+      ],
+      [
+        "Spray",
+        "Uses an area saving throw instead of a normal attack roll."
+      ],
+      [
+        "Spirit Weapon",
+        "A Psyker may use their psychic ability modifier instead of Strength or Dexterity for attack and damage rolls."
+      ],
+      [
+        "Suppression",
+        "Can force Suppression saves."
+      ],
+      [
+        "Thrown",
+        "Can be thrown using its listed range or a GM-approved improvised range."
+      ],
+      [
+        "Twin-Linked",
+        "When you miss, once per turn you may reroll one damage die from the next successful hit scored with it before the end of your next turn."
+      ],
+      [
+        "Versatile X",
+        "Can be wielded in one or two hands; use the listed versatile die when wielded in two hands."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 37,
+    "printedPage": 24,
+    "top": 302.3,
+    "rows": [
+      [
+        "Weapon",
+        "Damage",
+        "Range",
+        "Properties",
+        "Availability"
+      ],
+      [
+        "Stub Pistol",
+        "1d6 piercing",
+        "40/120",
+        "Light, Reload 6",
+        "Issued"
+      ],
+      [
+        "Laspistol",
+        "1d6 radiant",
+        "50/150",
+        "Light, Reload 12",
+        "Issued"
+      ],
+      [
+        "Autopistol",
+        "1d6 piercing",
+        "40/120",
+        "Light, Burst, Reload 12",
+        "Issued"
+      ],
+      [
+        "Hand Cannon",
+        "1d8 piercing",
+        "30/90",
+        "Reload 6",
+        "Controlled"
+      ],
+      [
+        "Bolt Pistol",
+        "1d10 piercing",
+        "40/120",
+        "Brutal, Reload 8",
+        "Scarce"
+      ],
+      [
+        "Plasma Pistol",
+        "2d8 radiant/fire",
+        "30/90",
+        "Overheat, Reload 4",
+        "Rare"
+      ],
+      [
+        "Melta Pistol",
+        "2d10 fire",
+        "15/45",
+        "Armour-Breaking, Reload 2",
+        "Rare"
+      ],
+      [
+        "Stub Rifle",
+        "1d8 piercing",
+        "70/210",
+        "Reload 10",
+        "Issued"
+      ],
+      [
+        "Lascarbine",
+        "1d8 radiant",
+        "60/180",
+        "Reload 24",
+        "Issued"
+      ],
+      [
+        "Lasgun",
+        "1d8 radiant",
+        "80/240",
+        "Reload 30",
+        "Issued"
+      ],
+      [
+        "Hot-Shot Lasgun",
+        "1d10 radiant",
+        "70/210",
+        "Armour-Breaking, Reload 18",
+        "Scarce"
+      ],
+      [
+        "Autogun",
+        "1d8 piercing",
+        "60/180",
+        "Burst, Suppression, Reload 30",
+        "Issued"
+      ],
+      [
+        "Shotgun",
+        "1d10 piercing",
+        "30/90",
+        "Close-Quarters, Reload 8",
+        "Issued"
+      ],
+      [
+        "Combat Shotgun",
+        "1d10 piercing",
+        "40/120",
+        "Close-Quarters, Suppression, Reload 8",
+        "Controlled"
+      ],
+      [
+        "Long-Las",
+        "1d10 radiant",
+        "150/600",
+        "Accurate, Reload 10",
+        "Controlled"
+      ],
+      [
+        "Needle Rifle",
+        "1d8 poison/piercing",
+        "80/240",
+        "Accurate, Silent, Reload 6",
+        "Scarce"
+      ],
+      [
+        "Bolter",
+        "1d10 piercing + 1d4 thunder",
+        "80/240",
+        "Burst, Brutal, Reload 12",
+        "Scarce"
+      ],
+      [
+        "Combi-Bolter",
+        "1d10 piercing + 1d4 thunder",
+        "60/180",
+        "Burst, Brutal, Twin-Linked, Reload 16",
+        "Rare"
+      ],
+      [
+        "Flamer",
+        "3d6 fire",
+        "15-ft cone",
+        "Spray, Reload 4",
+        "Controlled"
+      ],
+      [
+        "Plasma Gun",
+        "2d10 radiant/fire",
+        "80/240",
+        "Overheat, Reload 6",
+        "Rare"
+      ],
+      [
+        "Meltagun",
+        "3d10 fire",
+        "30/90",
+        "Armour-Breaking, Reload 4",
+        "Rare"
+      ],
+      [
+        "Grenade Launcher",
+        "By grenade",
+        "80/240",
+        "Heavy, Reload 1",
+        "Controlled"
+      ],
+      [
+        "Heavy Stubber",
+        "1d12 piercing",
+        "120/360",
+        "Heavy, Burst, Suppression, Emplaced, Reload 40",
+        "Controlled"
+      ],
+      [
+        "Heavy Bolter",
+        "1d12 piercing + 1d6 thunder",
+        "100/300",
+        "Heavy, Burst, Brutal, Suppression, Reload 30",
+        "Scarce"
+      ],
+      [
+        "Multi-Laser",
+        "2d8 radiant",
+        "120/360",
+        "Heavy, Burst, Emplaced, Reload 40",
+        "Scarce"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 38,
+    "printedPage": 25,
+    "top": 71.8,
+    "rows": [
+      [
+        "Weapon",
+        "Damage",
+        "Properties",
+        "Availability"
+      ],
+      [
+        "Knife",
+        "1d4 piercing",
+        "Finesse, Light, Thrown",
+        "Issued"
+      ],
+      [
+        "Combat Blade",
+        "1d6 piercing",
+        "Finesse, Light",
+        "Issued"
+      ],
+      [
+        "Trench Club",
+        "1d6 bludgeoning",
+        "Light",
+        "Issued"
+      ],
+      [
+        "Maul",
+        "1d8 bludgeoning",
+        "Versatile 1d10",
+        "Issued"
+      ],
+      [
+        "Shock Maul",
+        "1d8 bludgeoning",
+        "Shock",
+        "Controlled"
+      ],
+      [
+        "Chain Knife",
+        "1d6 slashing",
+        "Light, Chain",
+        "Controlled"
+      ],
+      [
+        "Chainsword",
+        "1d8 slashing",
+        "Chain",
+        "Controlled"
+      ],
+      [
+        "Heavy Chainsword",
+        "1d10 slashing",
+        "Heavy, Chain",
+        "Scarce"
+      ],
+      [
+        "Power Sword",
+        "1d8 slashing",
+        "Finesse, Power Field",
+        "Rare"
+      ],
+      [
+        "Power Axe",
+        "1d10 slashing",
+        "Power Field, Heavy",
+        "Rare"
+      ],
+      [
+        "Power Maul",
+        "1d10 bludgeoning",
+        "Power Field, Shock",
+        "Rare"
+      ],
+      [
+        "Thunder Hammer",
+        "2d6 bludgeoning",
+        "Heavy, Power Field, Shock",
+        "Exceptional"
+      ],
+      [
+        "Force Sword",
+        "1d8 slashing",
+        "Psyker, Power Field",
+        "Rare"
+      ],
+      [
+        "Force Staff",
+        "1d6 bludgeoning",
+        "Psyker, Focus",
+        "Rare"
+      ],
+      [
+        "Omnissian Axe",
+        "1d10 slashing",
+        "Mechanicus, Power Field, Heavy",
+        "Rare"
+      ],
+      [
+        "Relic Blade",
+        "1d10 slashing",
+        "Power Field, Brutal, Heavy",
+        "Exceptional"
+      ],
+      [
+        "Heavy Axe",
+        "1d10 slashing",
+        "Heavy",
+        "Controlled"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 38,
+    "printedPage": 25,
+    "top": 275.9,
+    "rows": [
+      [
+        "Weapon",
+        "Damage",
+        "Range",
+        "Properties",
+        "Availability"
+      ],
+      [
+        "Ripper Gun",
+        "1d12 piercing",
+        "40/120",
+        "Ogryn, Burst, Suppression, Reload 20",
+        "Controlled"
+      ],
+      [
+        "Kickback Shotgun",
+        "2d8 piercing",
+        "25/75",
+        "Ogryn, Close-Quarters, Brutal, Reload 4",
+        "Scarce"
+      ],
+      [
+        "Grenadier Gauntlet",
+        "2d6 force/fire",
+        "40/120",
+        "Ogryn, Blast, Reload 1",
+        "Scarce"
+      ],
+      [
+        "Twin-Linked Heavy Stubber",
+        "2d10 piercing",
+        "100/300",
+        "Ogryn, Heavy, Burst, Suppression, Reload 40",
+        "Scarce"
+      ],
+      [
+        "Ogryn Club",
+        "1d12 bludgeoning",
+        "Melee",
+        "Ogryn, Heavy",
+        "Issued"
+      ],
+      [
+        "Big Friendly Rock",
+        "1d10 bludgeoning",
+        "30/90",
+        "Ogryn, Thrown. Uses Strength. Large or smaller target hit: Strength save or be pushed 5 ft. Carry 2; replenish from suitable debris or after a short rest.",
+        "Improvised"
+      ],
+      [
+        "Brute Shield Bash",
+        "1d8 bludgeoning",
+        "Melee",
+        "Ogryn, Shield",
+        "Controlled"
+      ],
+      [
+        "Power Maul, Ogryn Pattern",
+        "2d6 bludgeoning",
+        "Melee",
+        "Ogryn, Power Field, Shock",
+        "Rare"
+      ],
+      [
+        "Industrial Cutter",
+        "2d6 slashing",
+        "Melee",
+        "Ogryn, Heavy, Chain",
+        "Controlled"
+      ],
+      [
+        "Slab Hammer",
+        "2d8 bludgeoning",
+        "Melee",
+        "Ogryn, Heavy, Brutal",
+        "Controlled"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 40,
+    "printedPage": 27,
+    "top": 75.8,
+    "rows": [
+      [
+        "Weapon",
+        "Damage",
+        "Range",
+        "Properties",
+        "Availability"
+      ],
+      [
+        "Autoch-Pattern Pistol",
+        "1d8 piercing",
+        "40/120",
+        "Light, Reload 8",
+        "Issued"
+      ],
+      [
+        "Bolt Revolver",
+        "1d8 piercing + 1d4 thunder",
+        "40/120",
+        "Brutal, Reload 6",
+        "Controlled"
+      ],
+      [
+        "Ion Pistol",
+        "1d8 radiant",
+        "40/120",
+        "Armour-Breaking, Reload 6",
+        "Scarce"
+      ],
+      [
+        "Autoch-Pattern Bolter",
+        "1d10 piercing + 1d4 thunder",
+        "70/210",
+        "Brutal, Reload 12",
+        "Controlled"
+      ],
+      [
+        "Ion Blaster",
+        "1d10 radiant",
+        "70/210",
+        "Armour-Breaking, Reload 12",
+        "Scarce"
+      ],
+      [
+        "Magna-Rail Rifle",
+        "2d10 force",
+        "120/360",
+        "Accurate, Heavy, Armour- Breaking, Reload 2",
+        "Rare"
+      ],
+      [
+        "Plasma Beamer",
+        "2d8 radiant/fire",
+        "60/180",
+        "Beam, Overheat, Reload 6",
+        "Rare"
+      ],
+      [
+        "EtaCarn Mining Tool",
+        "1d10 slashing/fire",
+        "Melee",
+        "Heavy, Industrial, Armour- Breaking",
+        "Issued"
+      ],
+      [
+        "Concussion Hammer",
+        "1d10 bludgeoning",
+        "Melee",
+        "Shock, Heavy",
+        "Controlled"
+      ],
+      [
+        "Kin Power Axe",
+        "1d10 slashing",
+        "Melee",
+        "Power Field, Heavy",
+        "Rare"
+      ],
+      [
+        "Plasma Axe",
+        "1d10 slashing/radiant",
+        "Melee",
+        "Power Field, Armour-Breaking",
+        "Rare"
+      ],
+      [
+        "Concussion Gauntlet",
+        "1d8 bludgeoning",
+        "Melee",
+        "Shock, Light",
+        "Scarce"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 40,
+    "printedPage": 27,
+    "top": 249.8,
+    "rows": [
+      [
+        "Weapon",
+        "Damage",
+        "Range",
+        "Properties",
+        "Availability"
+      ],
+      [
+        "Shuriken Pistol",
+        "1d6 slashing",
+        "50/150",
+        "Light, Monomolecular, Reload 12",
+        "Issued"
+      ],
+      [
+        "Shuriken Catapult",
+        "1d8 slashing",
+        "60/180",
+        "Burst, Monomolecular, Reload 24",
+        "Issued"
+      ],
+      [
+        "Ranger Long Rifle",
+        "1d10 piercing",
+        "160/640",
+        "Accurate, Silent, Reload 6",
+        "Controlled"
+      ],
+      [
+        "Aeldari Lasblaster",
+        "1d8 radiant",
+        "90/270",
+        "Burst, Reload 30",
+        "Controlled"
+      ],
+      [
+        "Fusion Gun",
+        "3d10 fire",
+        "30/90",
+        "Armour-Breaking, Reload 4",
+        "Rare"
+      ],
+      [
+        "Death Spinner",
+        "2d6 slashing",
+        "40/120",
+        "Entangling, Reload 8",
+        "Rare"
+      ],
+      [
+        "Witchblade",
+        "1d8 slashing/psychic",
+        "Melee",
+        "Finesse, Psyker, Spirit Weapon",
+        "Rare"
+      ],
+      [
+        "Singing Spear",
+        "1d8 piercing/psychic",
+        "30/90",
+        "Thrown, Psyker, Spirit Weapon",
+        "Rare"
+      ],
+      [
+        "Aeldari Power Sword",
+        "1d8 slashing",
+        "Melee",
+        "Finesse, Power Field",
+        "Rare"
+      ],
+      [
+        "Monomolecular Blade",
+        "1d6 slashing",
+        "Melee",
+        "Finesse, Light, Monomolecular",
+        "Issued"
+      ],
+      [
+        "Corsair Sabre",
+        "1d6 slashing",
+        "Melee",
+        "Finesse, Light, Monomolecular",
+        "Controlled"
+      ],
+      [
+        "Star Glaive",
+        "1d10 slashing",
+        "Melee",
+        "Finesse, Power Field, Heavy",
+        "Rare"
+      ],
+      [
+        "Ghostsword",
+        "1d8 slashing/psychic",
+        "Melee",
+        "Finesse, Spirit Weapon, Power Field",
+        "Exceptional"
+      ],
+      [
+        "Biting Blade",
+        "1d10 slashing",
+        "Melee",
+        "Heavy, Chain, Monomolecular",
+        "Rare"
+      ],
+      [
+        "Executioner Blade",
+        "2d6 slashing",
+        "Melee",
+        "Heavy, Power Field",
+        "Exceptional"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 40,
+    "printedPage": 27,
+    "top": 473.0,
+    "rows": [
+      [
+        "Weapon",
+        "Damage",
+        "Range",
+        "Properties",
+        "Availability"
+      ],
+      [
+        "Galvanic Rifle",
+        "1d10 piercing/radiant",
+        "100/300",
+        "Accurate, Mechanicus, Reload 12",
+        "Controlled"
+      ],
+      [
+        "Radium Carbine",
+        "1d8 piercing/radiation",
+        "60/180",
+        "Burst, Mechanicus, Reload 24",
+        "Controlled"
+      ],
+      [
+        "Arc Pistol",
+        "1d8 lightning",
+        "40/120",
+        "Shock, Mechanicus, Reload 6",
+        "Scarce"
+      ],
+      [
+        "Arc Rifle",
+        "1d10 lightning",
+        "70/210",
+        "Shock, Mechanicus, Reload 10",
+        "Scarce"
+      ],
+      [
+        "Taser Goad",
+        "1d8 lightning",
+        "Melee",
+        "Shock, Mechanicus",
+        "Controlled"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 42,
+    "printedPage": 29,
+    "top": 170.1,
+    "rows": [
+      [
+        "Armour",
+        "AC",
+        "Notes",
+        "Availability"
+      ],
+      [
+        "Heavy Clothing",
+        "11 + Dex modifier",
+        "Civilian gear, robes, gang leathers.",
+        "Issued"
+      ],
+      [
+        "Armoured Bodyglove",
+        "11 + Dex modifier",
+        "May be worn under coats or robes; concealable.",
+        "Controlled"
+      ],
+      [
+        "Flak Vest",
+        "12 + Dex modifier",
+        "Light military protection; torso-focused.",
+        "Issued"
+      ],
+      [
+        "Flak Armour",
+        "12 + Dex modifier",
+        "Standard military protection.",
+        "Issued"
+      ],
+      [
+        "Flak Greatcoat",
+        "13 + Dex modifier, max +2",
+        "Bulky guard coat or reinforced trench gear.",
+        "Issued"
+      ],
+      [
+        "Mesh Armour",
+        "13 + Dex modifier",
+        "Flexible advanced armour.",
+        "Controlled"
+      ],
+      [
+        "Scout Carapace",
+        "14 + Dex modifier, max +3",
+        "Lighter carapace plates for scouts and infiltrators.",
+        "Controlled"
+      ],
+      [
+        "Carapace Armour",
+        "15 + Dex modifier, max +2",
+        "Heavy tactical armour.",
+        "Controlled"
+      ],
+      [
+        "Riot Armour",
+        "16 + Dex modifier, max +2",
+        "Arbites-style protection.",
+        "Controlled"
+      ],
+      [
+        "Void Suit, Armoured",
+        "13 + Dex modifier",
+        "Sealed suit; advantage against vacuum exposure, gas and airborne toxins.",
+        "Controlled"
+      ],
+      [
+        "Hazard Plate",
+        "14 + Dex modifier, max +1",
+        "Industrial protection; resistance to environmental fire or acid at GM discretion.",
+        "Controlled"
+      ],
+      [
+        "Powered Carapace",
+        "17, max Dex +1",
+        "Rare; power-cell maintenance. Strength checks to carry, lift or shove gain +1d4.",
+        "Rare"
+      ],
+      [
+        "Shield",
+        "+2 AC",
+        "Requires one hand.",
+        "Issued"
+      ],
+      [
+        "Refractor Field",
+        "Special",
+        "Reaction: reduce damage by 1d10 + level once per short rest.",
+        "Rare"
+      ],
+      [
+        "Conversion Field",
+        "Special",
+        "Reaction: reduce radiant, fire, force or thunder damage by 2d8 once per short rest; maximum roll emits bright light until your next turn.",
+        "Exceptional"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 42,
+    "printedPage": 29,
+    "top": 410.0,
+    "rows": [
+      [
+        "Armour",
+        "AC",
+        "Notes",
+        "Availability"
+      ],
+      [
+        "Ogryn Leathers",
+        "12",
+        "Heavy straps, plates and reinforced hide.",
+        "Issued"
+      ],
+      [
+        "Ogryn Flak Plate",
+        "14",
+        "Crude abhuman flak armour; does not limit Dexterity.",
+        "Controlled"
+      ],
+      [
+        "Ogryn Plate",
+        "16",
+        "Standard modified abhuman armour.",
+        "Controlled"
+      ],
+      [
+        "Bullgryn Plate",
+        "17",
+        "Speed reduced by 5 ft unless Strength is 18 or higher.",
+        "Scarce"
+      ],
+      [
+        "Slab Shield",
+        "+2 AC",
+        "Ogryn only; speed reduced by 5 ft while carried.",
+        "Controlled"
+      ],
+      [
+        "Brute Shield Harness",
+        "+2 AC",
+        "Leaves both hands partly usable; disadvantage on Stealth and delicate tool use.",
+        "Controlled"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 42,
+    "printedPage": 29,
+    "top": 516.6,
+    "rows": [
+      [
+        "Armour",
+        "AC",
+        "Notes",
+        "Availability"
+      ],
+      [
+        "Kin Void Suit",
+        "13 + Dex modifier, max +2",
+        "Sealed suit; advantage against vacuum, gas and airborne toxins.",
+        "Controlled"
+      ],
+      [
+        "Kin Mesh",
+        "14 + Dex modifier, max +2",
+        "Dense compact armour weave.",
+        "Controlled"
+      ],
+      [
+        "Hearthkyn Plate",
+        "15 + Dex modifier, max +2",
+        "Advantage against being shoved while braced.",
+        "Controlled"
+      ],
+      [
+        "Exo-Frame Plate",
+        "17, max Dex +1",
+        "Strength checks for lifting, carrying or breaching gain +1d4; speed -5 ft unless Strength 15+.",
+        "Rare"
+      ],
+      [
+        "Prospector Rig",
+        "14 + Dex modifier, max +2",
+        "Climbing anchors, void seals and harness points; advantage on climbing, anchoring or forced-movement checks in low gravity.",
+        "Controlled"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 42,
+    "printedPage": 29,
+    "top": 641.1,
+    "rows": [
+      [
+        "Armour",
+        "AC",
+        "Notes",
+        "Availability"
+      ],
+      [
+        "Aeldari Mesh",
+        "12 + Dex modifier",
+        "Light xenos mesh; no Stealth disadvantage.",
+        "Controlled"
+      ],
+      [
+        "Ranger Weave",
+        "13 + Dex modifier",
+        "Advantage on Stealth in ruins, wilderness, ash wastes or shadowed terrain.",
+        "Controlled"
+      ],
+      [
+        "Rune Armour",
+        "13 + Dex modifier",
+        "Once per short rest, reduce psychic, force or radiant damage by 1d8 + Wisdom modifier.",
+        "Rare"
+      ],
+      [
+        "Aspect-Pattern Armour",
+        "15 + Dex modifier, max +3",
+        "Rare and path-bound; usually GM approval.",
+        "Rare"
+      ],
+      [
+        "Holo-Field Cloak",
+        "Special",
+        "Once per short rest, impose disadvantage on one ranged attack against you if you moved at least 10 ft since the start of your last turn.",
+        "Rare"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 44,
+    "printedPage": 31,
+    "top": 111.5,
+    "rows": [
+      [
+        "Modification",
+        "Typical Availability",
+        "Effect"
+      ],
+      [
+        "Reinforced Plates",
+        "Controlled",
+        "Once per short rest, reduce damage from one non-critical weapon hit by your proficiency bonus."
+      ],
+      [
+        "Sealed System",
+        "Controlled",
+        "Advantage on saves against gas, smoke and airborne toxins; a suitable sealed suit also protects against brief vacuum exposure."
+      ],
+      [
+        "Camo Weave",
+        "Scarce",
+        "Advantage on one Stealth check per short rest when you have cover or concealment."
+      ],
+      [
+        "Shock Insulation",
+        "Scarce",
+        "Resistance to the first instance of lightning or electrical damage you take after each short rest."
+      ],
+      [
+        "Mag Boots / Anchor Rig",
+        "Controlled",
+        "Advantage on checks and saves against forced movement in low gravity, high winds or unstable surfaces."
+      ],
+      [
+        "Medicae Harness",
+        "Scarce",
+        "Once per short rest, use a Med-Stim on yourself as a bonus action."
+      ],
+      [
+        "Servo Assist",
+        "Rare",
+        "Add +1d4 to one Strength check per short rest involving lifting, forcing or breaching."
+      ],
+      [
+        "Hexagrammic Lining",
+        "Rare",
+        "Advantage on the first saving throw against a psychic or daemonic effect after each long rest."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 44,
+    "printedPage": 31,
+    "top": 367.4,
+    "rows": [
+      [
+        "Modification",
+        "Availability",
+        "Effect"
+      ],
+      [
+        "Reinforced Harness",
+        "Controlled",
+        "Ogryn armour only. Once per short rest, reduce damage from one non- critical bludgeoning, piercing, or slashing hit by 1d6 + your Constitution modifier."
+      ],
+      [
+        "Slab-Lock Bracing",
+        "Controlled",
+        "Slab Shield only. If your Strength is 18 or higher, the shield no longer reduces your speed. While braced, you have advantage on saves against being moved."
+      ],
+      [
+        "Recoil Yoke",
+        "Scarce",
+        "When using an Ogryn or Heavy ranged weapon, ignore the first movement- based penalty from the Heavy property each turn."
+      ],
+      [
+        "Blast Baffles",
+        "Scarce",
+        "Gain advantage on Dexterity saves against Blast and Spray effects while wearing Ogryn Plate or Bullgryn Plate."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 44,
+    "printedPage": 31,
+    "top": 525.4,
+    "rows": [
+      [
+        "Modification",
+        "Availability",
+        "Effect"
+      ],
+      [
+        "Ablative Ceramite",
+        "Scarce",
+        "Once per short rest, when a weapon attack scores a critical hit against you, treat it as a normal hit instead. Other critical effects still apply if the attack explicitly says they cannot be negated."
+      ],
+      [
+        "Rad-Seal Shrouds",
+        "Controlled",
+        "Advantage on saves against radiation and contaminated atmospheres. The first time you take radiation damage after a short rest, reduce it by your proficiency bonus."
+      ],
+      [
+        "Servo-Bracing",
+        "Scarce",
+        "When firing a Heavy or Mechanicus weapon, you may count as stationary if you moved no more than 10 ft this turn."
+      ],
+      [
+        "Noospheric Armour Link",
+        "Rare",
+        "Once per short rest, after you or an ally within 30 ft rolls a ranged attack, add +1d4 to the roll before the result is declared. Requires a functioning auspex or noospheric link."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 45,
+    "printedPage": 32,
+    "top": 89.7,
+    "rows": [
+      [
+        "Modification",
+        "Availability",
+        "Effect"
+      ],
+      [
+        "Void-Seal Redundancy",
+        "Controlled",
+        "A sealed Kin suit remains functional after one breach each mission; the breach is sealed automatically at the end of the current turn unless the armour is Ruined."
+      ],
+      [
+        "Grav-Anchor Spurs",
+        "Controlled",
+        "When you move no more than half your speed, add +1d4 to saves against being shoved, knocked prone, or moved against your will."
+      ],
+      [
+        "Ancestor-Wrought Plating",
+        "Rare",
+        "Once per short rest, reduce the extra damage dice of a critical hit against you by one die, minimum the weapon’s normal damage."
+      ],
+      [
+        "Exo-Servo Overdrive",
+        "Rare",
+        "Exo-Frame Plate only. Ignore its speed penalty and gain advantage on one Strength check per short rest involving breaching, lifting, or carrying."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 45,
+    "printedPage": 32,
+    "top": 238.5,
+    "rows": [
+      [
+        "Modification",
+        "Availability",
+        "Effect"
+      ],
+      [
+        "Holo-Weave Matrix",
+        "Rare",
+        "Once per short rest, after moving at least 10 ft, impose disadvantage on the next ranged attack made against you before your next turn."
+      ],
+      [
+        "Spirit-Stone Lattice",
+        "Rare",
+        "Once per short rest, add +1d4 to a saving throw against a psychic or daemonic effect after seeing the roll but before the result is declared."
+      ],
+      [
+        "Adaptive Weave",
+        "Scarce",
+        "You do not suffer Stealth disadvantage from the armour, and you ignore difficult terrain caused by rubble, foliage, loose debris, or similar ground during the first 10 ft you move each turn."
+      ],
+      [
+        "Ghostplate Flexors",
+        "Rare",
+        "Aspect-Pattern Armour or Rune Armour only. Once per short rest, when an attack misses you, move 5 ft without provoking opportunity attacks."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 47,
+    "printedPage": 34,
+    "top": 235.7,
+    "rows": [
+      [
+        "Grenade",
+        "Effect",
+        "Availability"
+      ],
+      [
+        "Frag Grenade",
+        "15-ft radius; Dexterity save; 3d6 piercing damage.",
+        "Controlled"
+      ],
+      [
+        "Frag Bomb",
+        "Ogryn only. 20-ft radius; Dexterity save; 4d6 piercing damage and knocked prone on a failure; half damage and not knocked prone on a success.",
+        "Controlled"
+      ],
+      [
+        "Krak Grenade",
+        "Single-target ranged attack; 3d10 force/fire damage.",
+        "Controlled"
+      ],
+      [
+        "Smoke Grenade",
+        "20-ft radius heavily obscured area for 1 minute.",
+        "Controlled"
+      ],
+      [
+        "Stun Grenade",
+        "10-ft radius; Constitution save or stunned until the end of the next turn.",
+        "Controlled"
+      ],
+      [
+        "Firebomb",
+        "10-ft radius; Dexterity save; 2d6 fire damage and burning ground.",
+        "Controlled"
+      ],
+      [
+        "Rad Grenade",
+        "10-ft radius; Constitution save or poisoned for 1 minute.",
+        "Scarce"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 50,
+    "printedPage": 37,
+    "top": 261.4,
+    "rows": [
+      [
+        "Level",
+        "Features"
+      ],
+      [
+        "1",
+        "Guardsman Training, Tactical Aim"
+      ],
+      [
+        "2",
+        "Suppressing Fire"
+      ],
+      [
+        "3",
+        "Regimental Doctrine"
+      ],
+      [
+        "4",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "5",
+        "Extra Attack"
+      ],
+      [
+        "6",
+        "Fire Team Veteran"
+      ],
+      [
+        "7",
+        "Doctrine Feature"
+      ],
+      [
+        "8",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "9",
+        "Hold the Line"
+      ],
+      [
+        "10",
+        "Killing Zone"
+      ],
+      [
+        "11",
+        "Veteran’s Accuracy"
+      ],
+      [
+        "12",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "13",
+        "Battlefield Instinct"
+      ],
+      [
+        "14",
+        "Improved Doctrine"
+      ],
+      [
+        "15",
+        "Kill Confirmed"
+      ],
+      [
+        "16",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "17",
+        "Veteran's Command"
+      ],
+      [
+        "18",
+        "Dug-In Kill Team"
+      ],
+      [
+        "19",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "20",
+        "Lord Castellan's Moment"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 50,
+    "printedPage": 37,
+    "top": 594.2,
+    "rows": [
+      [
+        "Doctrine",
+        "Feature"
+      ],
+      [
+        "Shock Trooper",
+        "Once per short rest, reroll one damage die for a lasgun, autogun, shotgun, or bolter."
+      ],
+      [
+        "Marksman",
+        "Accurate weapons gain +1 damage when you did not move."
+      ],
+      [
+        "Sergeant",
+        "When an ally within 30 ft fails a fear or Suppression save, use your reaction to let them reroll it."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 50,
+    "printedPage": 37,
+    "top": 698.7,
+    "rows": [
+      [
+        "Doctrine",
+        "Benefit"
+      ],
+      [
+        "Shock Trooper",
+        "Once per turn, when you hit with a lasgun, autogun, shotgun, or bolter, deal +1d6 damage."
+      ],
+      [
+        "Marksman",
+        "If you did not move this turn, your first ranged attack gains +2 to hit."
+      ],
+      [
+        "Sergeant",
+        "Allies within 30 ft who can hear you gain +1 to initiative and fear saves."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 51,
+    "printedPage": 38,
+    "top": 237.1,
+    "rows": [
+      [
+        "Doctrine",
+        "Improved Feature"
+      ],
+      [
+        "Shock Trooper",
+        "Your Shock Trooper bonus becomes +1d8."
+      ],
+      [
+        "Marksman",
+        "Your first ranged attack each turn ignores light cover."
+      ],
+      [
+        "Sergeant",
+        "Allies benefiting from your Sergeant doctrine add +1d4 to their first failed fear or Suppression save each combat."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 53,
+    "printedPage": 40,
+    "top": 170.6,
+    "rows": [
+      [
+        "Level",
+        "Features"
+      ],
+      [
+        "1",
+        "Fury of Faith, Martyr’s Endurance, Martyr’s Mercy"
+      ],
+      [
+        "2",
+        "Charge of Conviction"
+      ],
+      [
+        "3",
+        "Sacred Path"
+      ],
+      [
+        "4",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "5",
+        "Extra Attack"
+      ],
+      [
+        "6",
+        "Blood and Benediction"
+      ],
+      [
+        "7",
+        "Sacred Path Feature"
+      ],
+      [
+        "8",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "9",
+        "Refuse the Dark"
+      ],
+      [
+        "10",
+        "Sainted Fury"
+      ],
+      [
+        "11",
+        "Martyr’s Renewal"
+      ],
+      [
+        "12",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "13",
+        "Unbroken Creed"
+      ],
+      [
+        "14",
+        "Sacred Path Feature"
+      ],
+      [
+        "15",
+        "Living Saint’s Shadow"
+      ],
+      [
+        "16",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "17",
+        "Martyrdom Unending"
+      ],
+      [
+        "18",
+        "Sacred Path Ascendant"
+      ],
+      [
+        "19",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "20",
+        "Living Icon of Wrath"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 53,
+    "printedPage": 40,
+    "top": 443.7,
+    "rows": [
+      [
+        "Sacred Path",
+        "Feature"
+      ],
+      [
+        "Preacher",
+        "When you use Martyr’s Mercy, the target also gains advantage on its next saving throw against fear."
+      ],
+      [
+        "Flagellant",
+        "When you take damage, gain temporary HP equal to your proficiency bonus."
+      ],
+      [
+        "Purifier",
+        "Your flamer and firebomb damage increases by +1 per damage die against daemons, heretics, mutants, and corrupted creatures."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 53,
+    "printedPage": 40,
+    "top": 649.2,
+    "rows": [
+      [
+        "Path",
+        "Benefit"
+      ],
+      [
+        "Preacher",
+        "Allies within 30 ft gain advantage on fear saves while you are conscious."
+      ],
+      [
+        "Flagellant",
+        "Once per round, when you take damage, your next melee attack deals +1d6 bonus damage."
+      ],
+      [
+        "Purifier",
+        "You gain proficiency with flamers. Once per turn, fire damage you deal ignores resistance."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 54,
+    "printedPage": 41,
+    "top": 91.3,
+    "rows": [
+      [
+        "Sacred Path",
+        "Feature"
+      ],
+      [
+        "Preacher",
+        "Once per long rest, as an action, up to three allies within 30 ft regain hit points equal to 2d6 + your Wisdom or Charisma modifier."
+      ],
+      [
+        "Flagellant",
+        "Once per turn, when you are below half hit points, your melee attacks deal +1d8 radiant or fire damage."
+      ],
+      [
+        "Purifier",
+        "Your fire damage ignores resistance, and daemons/corrupted creatures cannot regain hit points until the start of your next turn after taking your fire damage."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 54,
+    "printedPage": 41,
+    "top": 154.4,
+    "rows": [
+      [
+        "Sacred Path",
+        "Ascendant Feature"
+      ],
+      [
+        "Preacher",
+        "Allies within 30 ft also gain +1d4 to fear saves."
+      ],
+      [
+        "Flagellant",
+        "The first time each round you take damage, gain temporary HP equal to twice your proficiency bonus."
+      ],
+      [
+        "Purifier",
+        "When you deal fire damage, one affected creature cannot benefit from cover against your next attack before your next turn."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 56,
+    "printedPage": 43,
+    "top": 185.8,
+    "rows": [
+      [
+        "Level",
+        "Features"
+      ],
+      [
+        "1",
+        "Psychic Discipline, Warp Pressure"
+      ],
+      [
+        "2",
+        "Psychic Ward"
+      ],
+      [
+        "3",
+        "Discipline Feature"
+      ],
+      [
+        "4",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "5",
+        "Empowered Manifestation"
+      ],
+      [
+        "6",
+        "Disciplined Channel"
+      ],
+      [
+        "7",
+        "Discipline Feature"
+      ],
+      [
+        "8",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "9",
+        "Warp Anchor"
+      ],
+      [
+        "10",
+        "Mastered Manifestation"
+      ],
+      [
+        "11",
+        "Major Power Access"
+      ],
+      [
+        "12",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "13",
+        "Sanctioned Focus"
+      ],
+      [
+        "14",
+        "Discipline Feature"
+      ],
+      [
+        "15",
+        "Alpha-Level Risk"
+      ],
+      [
+        "16",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "17",
+        "Soul-Bound Discipline"
+      ],
+      [
+        "18",
+        "Warp-Crowned Focus"
+      ],
+      [
+        "19",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "20",
+        "Sanctioned Apex"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 56,
+    "printedPage": 43,
+    "top": 365.9,
+    "rows": [
+      [
+        "Discipline",
+        "Allowed Power Tags",
+        "Theme"
+      ],
+      [
+        "Biomancer",
+        "Universal, Biomancy",
+        "Healing, endurance, flesh control, toxins, and forced growth."
+      ],
+      [
+        "Telekine",
+        "Universal, Telekinesis",
+        "Force shields, kinetic movement, crushing pressure, battlefield control."
+      ],
+      [
+        "Diviner",
+        "Universal, Divination",
+        "Foresight, danger sense, accuracy, fate manipulation, and reading echoes."
+      ],
+      [
+        "Pyromancer",
+        "Universal, Pyromancy",
+        "Fire, soul-burning, area denial, purging flame."
+      ],
+      [
+        "Malefic- Touched",
+        "Universal, Malefic",
+        "High-risk damage, fear, possession pressure, daemonic resonance. Using Malefic powers should attract harsher narrative consequences."
+      ],
+      [
+        "Blank / Null- Bound",
+        "Universal, Null",
+        "Anti-psychic pressure, witch- hunting, null aura, Warp denial. This rare path should require GM approval because true blanks are not normal psykers."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 56,
+    "printedPage": 43,
+    "top": 379.9,
+    "rows": [
+      [
+        "Level",
+        "Minor",
+        "Standard",
+        "Major"
+      ],
+      [
+        "1",
+        "2",
+        "2",
+        "0"
+      ],
+      [
+        "2",
+        "2",
+        "3",
+        "0"
+      ],
+      [
+        "3",
+        "3",
+        "3",
+        "0"
+      ],
+      [
+        "4",
+        "3",
+        "4",
+        "0"
+      ],
+      [
+        "5",
+        "3",
+        "4",
+        "0"
+      ],
+      [
+        "6",
+        "4",
+        "4",
+        "0"
+      ],
+      [
+        "7",
+        "4",
+        "5",
+        "0"
+      ],
+      [
+        "8",
+        "4",
+        "5",
+        "0"
+      ],
+      [
+        "9",
+        "5",
+        "5",
+        "0"
+      ],
+      [
+        "10",
+        "5",
+        "6",
+        "0"
+      ],
+      [
+        "11",
+        "5",
+        "6",
+        "1"
+      ],
+      [
+        "12",
+        "6",
+        "6",
+        "1"
+      ],
+      [
+        "13",
+        "6",
+        "7",
+        "1"
+      ],
+      [
+        "14",
+        "6",
+        "7",
+        "2"
+      ],
+      [
+        "15",
+        "7",
+        "7",
+        "2"
+      ],
+      [
+        "16",
+        "7",
+        "8",
+        "2"
+      ],
+      [
+        "17",
+        "8",
+        "8",
+        "2"
+      ],
+      [
+        "18",
+        "8",
+        "8",
+        "3"
+      ],
+      [
+        "19",
+        "8",
+        "9",
+        "3"
+      ],
+      [
+        "20",
+        "9",
+        "9",
+        "3"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 56,
+    "printedPage": 43,
+    "top": 664.1,
+    "rows": [
+      [
+        "Discipline",
+        "Feature"
+      ],
+      [
+        "Biomancer",
+        "When you heal a creature, it gains temporary hit points equal to your proficiency bonus."
+      ],
+      [
+        "Telekine",
+        "When you cast a force power, you may push the target 10 ft on a failed save."
+      ],
+      [
+        "Diviner",
+        "Once per short rest, add or subtract 1d4 from a d20 roll made by a creature you can see."
+      ],
+      [
+        "Pyromancer",
+        "Fire powers deal +1 damage per damage die."
+      ],
+      [
+        "Malefic-Touched",
+        "When you trigger Perils, your next psychic power deals +1d8 damage."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 57,
+    "printedPage": 44,
+    "top": 46.8,
+    "rows": [
+      [
+        "Discipline",
+        "Feature"
+      ],
+      [
+        "Blank / Null-Bound",
+        "You have advantage on saving throws against psychic powers and Perils effects. When a creature you can see within 30 ft gains Warp Pressure, you may use your reaction to reduce psychic damage dealt to one ally by your proficiency bonus."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 57,
+    "printedPage": 44,
+    "top": 132.8,
+    "rows": [
+      [
+        "Discipline",
+        "Feature"
+      ],
+      [
+        "Biomancer",
+        "Once per long rest, when a creature you can touch drops to 0 hit points, it drops to 1 hit point instead."
+      ],
+      [
+        "Telekine",
+        "Once per short rest, when you use Psychic Ward, you may also push the attacker 10 ft."
+      ],
+      [
+        "Diviner",
+        "Once per long rest, replace a d20 roll made by a creature you can see with a 10 before modifiers."
+      ],
+      [
+        "Pyromancer",
+        "Once per short rest, your Pyromancy power ignores fire resistance."
+      ],
+      [
+        "Malefic-Touched",
+        "Once per long rest, after triggering Perils, you may choose to gain 1 Corruption to treat the Perils result as Warp Static."
+      ],
+      [
+        "Blank / Null- Bound",
+        "Once per long rest, when a creature within 60 ft triggers Perils, you may force it to reroll the Perils severity roll and use the lower result if it is an ally, or the higher result if it is hostile."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 57,
+    "printedPage": 44,
+    "top": 258.3,
+    "rows": [
+      [
+        "Discipline",
+        "Feature"
+      ],
+      [
+        "Biomancer",
+        "Your healing powers also end one minor bleeding or poison effect."
+      ],
+      [
+        "Telekine",
+        "Your forced movement increases by 5 ft."
+      ],
+      [
+        "Diviner",
+        "When you use a reaction power, you may move 5 ft without provoking opportunity attacks."
+      ],
+      [
+        "Pyromancer",
+        "Creatures damaged by your Pyromancy powers cannot benefit from invisibility until your next turn."
+      ],
+      [
+        "Malefic-Touched",
+        "When you frighten a creature with a Malefic power, you gain temporary HP equal to your proficiency bonus."
+      ],
+      [
+        "Blank / Null-Bound",
+        "When you reduce psychic damage or resist a psychic effect, one hostile psyker or daemon within 30 ft has disadvantage on its next Wisdom or Charisma saving throw before the end of your next turn."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 59,
+    "printedPage": 46,
+    "top": 170.6,
+    "rows": [
+      [
+        "Level",
+        "Features"
+      ],
+      [
+        "1",
+        "Big Lad, Loyal Protector"
+      ],
+      [
+        "2",
+        "Brutal Impact"
+      ],
+      [
+        "3",
+        "Ogryn Role"
+      ],
+      [
+        "4",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "5",
+        "Extra Attack"
+      ],
+      [
+        "6",
+        "Too Stubborn to Drop"
+      ],
+      [
+        "7",
+        "Role Feature"
+      ],
+      [
+        "8",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "9",
+        "Living Barricade"
+      ],
+      [
+        "10",
+        "Thunderous Violence"
+      ],
+      [
+        "11",
+        "Bigger and Meaner"
+      ],
+      [
+        "12",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "13",
+        "Can’t Keep Him Down"
+      ],
+      [
+        "14",
+        "Role Feature"
+      ],
+      [
+        "15",
+        "Walking Fortress"
+      ],
+      [
+        "16",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "17",
+        "Mountain of Muscle"
+      ],
+      [
+        "18",
+        "Role Feature"
+      ],
+      [
+        "19",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "20",
+        "Unkillable Big Lad"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 59,
+    "printedPage": 46,
+    "top": 477.0,
+    "rows": [
+      [
+        "Ogryn Role",
+        "Feature"
+      ],
+      [
+        "Bulwark",
+        "While using a shield, you also gain advantage on saves against being shoved."
+      ],
+      [
+        "Gun Lugger",
+        "Your first ranged Ogryn weapon attack each turn deals +1d6 damage."
+      ],
+      [
+        "Bone ’ead",
+        "Once per short rest, when you or an ally within 10 ft fails a Wisdom or Intelligence saving throw against fear, psychic manipulation, confusion, or Suppression, you may use your reaction to let that creature reroll the save."
+      ],
+      [
+        "Brute",
+        "Your Brute damage becomes +1d8."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 59,
+    "printedPage": 46,
+    "top": 671.9,
+    "rows": [
+      [
+        "Role",
+        "Benefit"
+      ],
+      [
+        "Bulwark",
+        "While using a shield, allies behind you gain light cover."
+      ],
+      [
+        "Gun Lugger",
+        "You can use heavy weapons without the normal movement penalty."
+      ],
+      [
+        "Bone ’ead",
+        "You gain proficiency in Wisdom saves and one additional skill."
+      ],
+      [
+        "Brute",
+        "Once per turn, when you hit with a melee weapon, deal +1d6 damage."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 60,
+    "printedPage": 47,
+    "top": 151.0,
+    "rows": [
+      [
+        "Ogryn Role",
+        "Feature"
+      ],
+      [
+        "Bulwark",
+        "Allies benefiting from cover provided by your slab shield have advantage on Dexterity saving throws against Blast and Spray effects, and ignore the first 5 ft of forced movement they would suffer each round."
+      ],
+      [
+        "Gun Lugger",
+        "You ignore disadvantage from firing Heavy or Ogryn weapons after moving."
+      ],
+      [
+        "Bone ’ead",
+        "Once per long rest, treat a failed Wisdom or Intelligence saving throw as a success."
+      ],
+      [
+        "Brute",
+        "Once per turn, when you push or knock a creature prone, deal bludgeoning damage equal to your Strength modifier."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 60,
+    "printedPage": 47,
+    "top": 162.2,
+    "rows": [
+      [
+        "Ogryn Role",
+        "Feature"
+      ],
+      [
+        "Bulwark",
+        "While using a slab shield, adjacent allies also gain resistance to damage from opportunity attacks."
+      ],
+      [
+        "Gun Lugger",
+        "Once per turn, your heavy ranged weapon hit deals +1d8 damage."
+      ],
+      [
+        "Bone ’ead",
+        "Allies within 10 ft gain +1 to Wisdom saves while you are conscious."
+      ],
+      [
+        "Brute",
+        "Your melee critical hits knock targets prone if they fail a Strength save."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 62,
+    "printedPage": 49,
+    "top": 170.6,
+    "rows": [
+      [
+        "Level",
+        "Features"
+      ],
+      [
+        "1",
+        "Enforcer Training, Authority"
+      ],
+      [
+        "2",
+        "Breach and Clear"
+      ],
+      [
+        "3",
+        "Enforcement Doctrine"
+      ],
+      [
+        "4",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "5",
+        "Extra Attack"
+      ],
+      [
+        "6",
+        "Lockdown Order"
+      ],
+      [
+        "7",
+        "Doctrine Feature"
+      ],
+      [
+        "8",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "9",
+        "No Escape"
+      ],
+      [
+        "10",
+        "Judgement Protocol"
+      ],
+      [
+        "11",
+        "Riot Control"
+      ],
+      [
+        "12",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "13",
+        "Legal Terror"
+      ],
+      [
+        "14",
+        "Doctrine Feature"
+      ],
+      [
+        "15",
+        "Sentence Executed"
+      ],
+      [
+        "16",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "17",
+        "Absolute Jurisdiction"
+      ],
+      [
+        "18",
+        "Doctrine Feature"
+      ],
+      [
+        "19",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "20",
+        "Final Sentence"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 62,
+    "printedPage": 49,
+    "top": 458.9,
+    "rows": [
+      [
+        "Enforcement Doctrine",
+        "Feature"
+      ],
+      [
+        "Riot Shield",
+        "When you take the Dodge action with a shield, one adjacent ally also gains +2 AC."
+      ],
+      [
+        "Executioner",
+        "Your Executioner damage becomes +1d8."
+      ],
+      [
+        "Investigator",
+        "When you hit a creature you have studied or identified, add your Wisdom modifier to the damage once per turn."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 62,
+    "printedPage": 49,
+    "top": 604.7,
+    "rows": [
+      [
+        "Doctrine",
+        "Benefit"
+      ],
+      [
+        "Riot Shield",
+        "While using a shield, you gain +1 AC and advantage against being shoved."
+      ],
+      [
+        "Executioner",
+        "Your attacks against frightened, prone, or restrained creatures deal +1d6 damage."
+      ],
+      [
+        "Investigator",
+        "Gain expertise in Investigation or Insight. As a bonus action, study one creature, device, or scene you can see within 60 ft; until the end of your next turn, it counts as studied for your Investigator features. Uses: proficiency bonus per long rest."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 63,
+    "printedPage": 50,
+    "top": 80.1,
+    "rows": [
+      [
+        "Enforcement Doctrine",
+        "Feature"
+      ],
+      [
+        "Riot Shield",
+        "While using a shield, you gain resistance to damage from opportunity attacks."
+      ],
+      [
+        "Executioner",
+        "Once per turn, when you reduce a hostile creature to 0 hit points, another hostile creature within 30 ft must make a Wisdom save or become frightened until your next turn."
+      ],
+      [
+        "Investigator",
+        "Once per short rest, ask the GM one tactical question about a creature, device, crime scene, or battlefield; the GM answers truthfully but briefly."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 63,
+    "printedPage": 50,
+    "top": 91.3,
+    "rows": [
+      [
+        "Enforcement Doctrine",
+        "Feature"
+      ],
+      [
+        "Riot Shield",
+        "While using a shield, you and one adjacent ally gain +1 to Dexterity saves."
+      ],
+      [
+        "Executioner",
+        "Judgement Protocol deals an extra +2d6 damage."
+      ],
+      [
+        "Investigator",
+        "When you ask a tactical question, you may also learn one useful weakness, route, or leverage point."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 65,
+    "printedPage": 52,
+    "top": 170.6,
+    "rows": [
+      [
+        "Level",
+        "Features"
+      ],
+      [
+        "1",
+        "Dirty Fighter, Streetwise"
+      ],
+      [
+        "2",
+        "Cunning Action"
+      ],
+      [
+        "3",
+        "Gang Style"
+      ],
+      [
+        "4",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "5",
+        "Backstabber +3d6"
+      ],
+      [
+        "6",
+        "Low Cunning"
+      ],
+      [
+        "7",
+        "Gang Style Feature"
+      ],
+      [
+        "8",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "9",
+        "Vanish into Trouble"
+      ],
+      [
+        "10",
+        "Knife-Edge Survivor"
+      ],
+      [
+        "11",
+        "Backstabber +4d6"
+      ],
+      [
+        "12",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "13",
+        "Underhive Reputation"
+      ],
+      [
+        "14",
+        "Gang Style Feature"
+      ],
+      [
+        "15",
+        "Backstabber +5d6"
+      ],
+      [
+        "16",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "17",
+        "No Honour, No Problem"
+      ],
+      [
+        "18",
+        "Backstabber +6d6"
+      ],
+      [
+        "19",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "20",
+        "King of the Underhive"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 65,
+    "printedPage": 52,
+    "top": 372.8,
+    "rows": [
+      [
+        "Gang Style",
+        "Feature"
+      ],
+      [
+        "Gunslinger",
+        "Once per short rest, make one pistol attack as a bonus action after taking the Attack action."
+      ],
+      [
+        "Knife Rat",
+        "Your light melee attacks deal +1 damage."
+      ],
+      [
+        "Chem-User",
+        "You gain advantage on saving throws against poison and combat drugs."
+      ],
+      [
+        "Sump Ghost",
+        "You may hide when lightly obscured by smoke, steam, crowds, or machinery."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 65,
+    "printedPage": 52,
+    "top": 536.7,
+    "rows": [
+      [
+        "Style",
+        "Benefit"
+      ],
+      [
+        "Gunslinger",
+        "Once per turn, you can reload a pistol without using an action."
+      ],
+      [
+        "Knife Rat",
+        "Your melee attacks with light weapons score a critical hit on 19- 20."
+      ],
+      [
+        "Chem-User",
+        "Once per long rest, inject combat chems as a bonus action. Gain +10 ft speed and advantage on Strength and Dexterity checks for 1 minute. Afterwards, make a Constitution saving throw or gain one level of exhaustion."
+      ],
+      [
+        "Sump Ghost",
+        "You gain expertise in Stealth when in urban ruins, sewers, vents, tunnels, or industrial terrain."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 65,
+    "printedPage": 52,
+    "top": 696.0,
+    "rows": [
+      [
+        "Gang Style",
+        "Feature"
+      ],
+      [
+        "Gunslinger",
+        "Your first pistol hit each turn deals +1d6 damage if the target is within 30 ft."
+      ],
+      [
+        "Knife Rat",
+        "When you score a critical hit with a light melee weapon, the target cannot take reactions until its next turn."
+      ],
+      [
+        "Chem-User",
+        "Once per long rest, ignore the exhaustion risk from your combat chems."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 66,
+    "printedPage": 53,
+    "top": 46.8,
+    "rows": [
+      [
+        "Gang Style",
+        "Feature"
+      ],
+      [
+        "Sump Ghost",
+        "Once per short rest, become hidden from one creature even if it can see you, provided there is cover, smoke, steam, machinery, darkness, or a crowd within 10 ft."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 68,
+    "printedPage": 55,
+    "top": 185.8,
+    "rows": [
+      [
+        "Level",
+        "Features"
+      ],
+      [
+        "1",
+        "Small Target, Deadeye"
+      ],
+      [
+        "2",
+        "Scamper"
+      ],
+      [
+        "3",
+        "Ratling Trick"
+      ],
+      [
+        "4",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "5",
+        "Killshot"
+      ],
+      [
+        "6",
+        "Cameleoline Habits"
+      ],
+      [
+        "7",
+        "Ratling Trick Feature"
+      ],
+      [
+        "8",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "9",
+        "Impossible Angle"
+      ],
+      [
+        "10",
+        "Perfect Shot"
+      ],
+      [
+        "11",
+        "Deadeye +3d6"
+      ],
+      [
+        "12",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "13",
+        "Gone Before the Shot"
+      ],
+      [
+        "14",
+        "Ratling Trick Feature"
+      ],
+      [
+        "15",
+        "Ghost Marksman"
+      ],
+      [
+        "16",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "17",
+        "Deadeye +4d6"
+      ],
+      [
+        "18",
+        "Ratling Trick Feature"
+      ],
+      [
+        "19",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "20",
+        "Impossible Little Legend"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 68,
+    "printedPage": 55,
+    "top": 477.1,
+    "rows": [
+      [
+        "Ratling Trick",
+        "Feature"
+      ],
+      [
+        "Long-Las Sniper",
+        "Your first Accurate weapon hit each combat adds +1d6 damage."
+      ],
+      [
+        "Underhive Rat",
+        "Climbing, crawling, squeezing, and moving through tight spaces costs you no extra movement."
+      ],
+      [
+        "Spotter",
+        "Your mark also adds +1 damage."
+      ],
+      [
+        "Black-Market Gremlin",
+        "Once per session, produce one plausible piece of minor contraband or ammunition."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 68,
+    "printedPage": 55,
+    "top": 578.3,
+    "rows": [
+      [
+        "Trick",
+        "Benefit"
+      ],
+      [
+        "Long-Las Sniper",
+        "If you do not move this turn, your first ranged attack gains +2 to hit."
+      ],
+      [
+        "Underhive Rat",
+        "Gain expertise in Stealth or Sleight of Hand. You have advantage on checks to hide in urban ruins, crowds, vents, pipes, and debris."
+      ],
+      [
+        "Spotter",
+        "As a bonus action, mark one enemy you can see within 120 ft. The next ally to attack that target gains +1d4 to hit. This benefit affects allies only and does not apply to your own attack unless a later feature says otherwise."
+      ],
+      [
+        "Black-Market Gremlin",
+        "You can usually acquire illegal ammo, fake papers, ration packs, or minor contraband in settlements. You gain proficiency with thieves’ tools."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 68,
+    "printedPage": 55,
+    "top": 746.6,
+    "rows": [
+      [
+        "Ratling Trick",
+        "Feature"
+      ],
+      [
+        "Long-Las Sniper",
+        "When you use Killshot, the attack ignores light and heavy cover and ignores resistance from non- powered armour."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 69,
+    "printedPage": 56,
+    "top": 46.8,
+    "rows": [
+      [
+        "Ratling Trick",
+        "Feature"
+      ],
+      [
+        "Underhive Rat",
+        "Once per short rest, when an attack misses you while you are in cover, you may Hide as a reaction."
+      ],
+      [
+        "Spotter",
+        "Your marked target grants +1d4 to the next two allied attacks instead of one."
+      ],
+      [
+        "Black-Market Gremlin",
+        "When you spend downtime in a settlement, reduce the cost or difficulty of acquiring illegal ammunition or forged papers."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 69,
+    "printedPage": 56,
+    "top": 61.9,
+    "rows": [
+      [
+        "Ratling Trick",
+        "Feature"
+      ],
+      [
+        "Long-Las Sniper",
+        "Your first Accurate weapon hit each round ignores heavy cover."
+      ],
+      [
+        "Underhive Rat",
+        "When you Hide as a reaction, you may also move 5 ft."
+      ],
+      [
+        "Spotter",
+        "Your mark grants +1d4 to the next three allied attacks instead of two."
+      ],
+      [
+        "Black-Market Gremlin",
+        "Once per session, produce one rare ammunition, forged credential, or compact tool with GM approval."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 71,
+    "printedPage": 58,
+    "top": 185.8,
+    "rows": [
+      [
+        "Level",
+        "Features"
+      ],
+      [
+        "1",
+        "Machine Focus, Targeting Protocol"
+      ],
+      [
+        "2",
+        "Augmetic Reflexes"
+      ],
+      [
+        "3",
+        "Combat Protocol"
+      ],
+      [
+        "4",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "5",
+        "Extra Attack"
+      ],
+      [
+        "6",
+        "Doctrinal Subroutine"
+      ],
+      [
+        "7",
+        "Protocol Feature"
+      ],
+      [
+        "8",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "9",
+        "Blessed Autosenses"
+      ],
+      [
+        "10",
+        "Omnissian Execution"
+      ],
+      [
+        "11",
+        "Calculated Volley"
+      ],
+      [
+        "12",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "13",
+        "Redundant Systems"
+      ],
+      [
+        "14",
+        "Protocol Feature"
+      ],
+      [
+        "15",
+        "Will of the Omnissiah"
+      ],
+      [
+        "16",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "17",
+        "Perfect Targeting Logic"
+      ],
+      [
+        "18",
+        "Protocol Feature"
+      ],
+      [
+        "19",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "20",
+        "Living Instrument of the Omnissiah"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 71,
+    "printedPage": 58,
+    "top": 372.9,
+    "rows": [
+      [
+        "Protocol",
+        "Benefit"
+      ],
+      [
+        "Ruststalker Protocol",
+        "Gain proficiency with blades. Your melee attacks deal +1d6 damage against targets below half their hit points."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 71,
+    "printedPage": 58,
+    "top": 552.1,
+    "rows": [
+      [
+        "Combat Protocol",
+        "Level 7 Feature"
+      ],
+      [
+        "Ranger",
+        "Your Ranger Protocol damage becomes +1d6."
+      ],
+      [
+        "Vanguard",
+        "A creature affected by Vanguard Protocol also takes +1d4 rad or poison damage when you hit it."
+      ],
+      [
+        "Protector",
+        "If the protected attack misses, the ally gains temporary HP equal to your Intelligence modifier."
+      ],
+      [
+        "Data-Hunter",
+        "The next ally to damage the identified enemy adds +1d6 damage."
+      ],
+      [
+        "Infiltrator",
+        "You may move 10 ft as part of the bonus action used to activate Infiltrator Protocol."
+      ],
+      [
+        "Ruststalker",
+        "Your melee attacks ignore resistance from non-powered armour."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 71,
+    "printedPage": 58,
+    "top": 563.1,
+    "rows": [
+      [
+        "Protocol",
+        "Benefit"
+      ],
+      [
+        "Ranger Protocol",
+        "If you do not move, your first ranged attack this turn deals +1d4 damage."
+      ],
+      [
+        "Vanguard Protocol",
+        "Once per turn, when you hit a creature within 30 ft, it has disadvantage on its next Constitution saving throw before your next turn."
+      ],
+      [
+        "Protector Protocol",
+        "When an ally within 30 ft is targeted by an attack, you may use your reaction before the roll is resolved to give that ally +2 AC against the attack if you can see the attacker."
+      ],
+      [
+        "Data-Hunter Protocol",
+        "Gain expertise in Investigation or Technology. Once per short rest, identify one weakness, resistance, or tactical feature of an enemy you can observe."
+      ],
+      [
+        "Infiltrator Protocol",
+        "Gain proficiency in Stealth. Once per short rest, as a bonus action, become hidden from creatures relying on standard vision or auspex until the end of your turn, provided you have cover or concealment."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 72,
+    "printedPage": 59,
+    "top": 46.8,
+    "rows": [
+      [
+        "Combat Protocol",
+        "Feature"
+      ],
+      [
+        "Ruststalker",
+        "Your melee critical hits disable reactions until the target’s next turn."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 72,
+    "printedPage": 59,
+    "top": 259.6,
+    "rows": [
+      [
+        "Combat Protocol",
+        "Feature"
+      ],
+      [
+        "Ranger",
+        "Your accurate weapons also ignore heavy cover once per round."
+      ],
+      [
+        "Vanguard",
+        "Your rad or poison effects impose disadvantage on the target’s next Strength or Constitution save."
+      ],
+      [
+        "Protector",
+        "Your protection reaction may target two allies within 30 ft."
+      ],
+      [
+        "Data-Hunter",
+        "Your identified target grants +1 to allied attack rolls until your next turn."
+      ],
+      [
+        "Infiltrator",
+        "You may remain hidden after a miss."
+      ],
+      [
+        "Ruststalker",
+        "Your melee hits against bloodied targets deal +1d8 damage."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 72,
+    "printedPage": 59,
+    "top": 305.0,
+    "rows": [
+      [
+        "Combat Protocol",
+        "Feature"
+      ],
+      [
+        "Ranger",
+        "Your first ranged hit each combat deals +2d6 damage if you did not move."
+      ],
+      [
+        "Vanguard",
+        "Creatures damaged by your rad or poison effects cannot regain hit points until your next turn."
+      ],
+      [
+        "Protector",
+        "When you use your reaction to protect an ally, reduce damage by your Intelligence modifier if the attack still hits."
+      ],
+      [
+        "Data-Hunter",
+        "Your identified target loses one resistance of the GM’s choice against the next damage it takes."
+      ],
+      [
+        "Infiltrator",
+        "When hidden from auspex or standard vision, your next hit deals +1d8 damage."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 74,
+    "printedPage": 61,
+    "top": 170.6,
+    "rows": [
+      [
+        "Level",
+        "Features"
+      ],
+      [
+        "1",
+        "Kin Training, Oath-Mark"
+      ],
+      [
+        "2",
+        "Steady Advance"
+      ],
+      [
+        "3",
+        "Hold Doctrine"
+      ],
+      [
+        "4",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "5",
+        "Extra Attack"
+      ],
+      [
+        "6",
+        "Grudge Settled"
+      ],
+      [
+        "7",
+        "Doctrine Feature"
+      ],
+      [
+        "8",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "9",
+        "Void-Hardened Line"
+      ],
+      [
+        "10",
+        "Ancestral Wrath"
+      ],
+      [
+        "11",
+        "Kinfire Drill"
+      ],
+      [
+        "12",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "13",
+        "Iron Compact"
+      ],
+      [
+        "14",
+        "Doctrine Feature"
+      ],
+      [
+        "15",
+        "Holdfast Champion"
+      ],
+      [
+        "16",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "17",
+        "Grudge-Bound Advance"
+      ],
+      [
+        "18",
+        "Doctrine Feature"
+      ],
+      [
+        "19",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "20",
+        "Ancestor-Core Champion"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 74,
+    "printedPage": 61,
+    "top": 432.5,
+    "rows": [
+      [
+        "Hold Doctrine",
+        "Feature"
+      ],
+      [
+        "Hearthguard",
+        "Your damage reduction becomes 2."
+      ],
+      [
+        "Ironhead",
+        "Your attacks against objects, vehicles, and machines deal +1d8 damage."
+      ],
+      [
+        "Guild-Militant",
+        "When an ally hits your Oath-Mark target, you may use your reaction to let that ally add +1d6 damage."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 74,
+    "printedPage": 61,
+    "top": 627.1,
+    "rows": [
+      [
+        "Doctrine",
+        "Benefit"
+      ],
+      [
+        "Hearthguard",
+        "While wearing medium or heavy Kin armour, reduce non-critical weapon damage by 1."
+      ],
+      [
+        "Ironhead",
+        "You gain advantage on checks to mine, breach, salvage, demolish, or repair machinery and structures."
+      ],
+      [
+        "Guild-Militant",
+        "When you hit a creature marked by Oath-Mark, one ally within 30 ft gains +1 to hit that creature before your next turn."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 75,
+    "printedPage": 62,
+    "top": 80.1,
+    "rows": [
+      [
+        "Hold Doctrine",
+        "Feature"
+      ],
+      [
+        "Hearthguard",
+        "While you are below half hit points, your armour damage reduction increases by 1."
+      ],
+      [
+        "Ironhead",
+        "Once per short rest, when you damage an object, vehicle, or machine, treat the hit as a critical hit."
+      ],
+      [
+        "Guild-Militant",
+        "When you mark a target with Oath-Mark, allies gain +1 to damage against it until your next turn."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 75,
+    "printedPage": 62,
+    "top": 132.8,
+    "rows": [
+      [
+        "Hold Doctrine",
+        "Feature"
+      ],
+      [
+        "Hearthguard",
+        "Your armour damage reduction applies to critical hits, but only for 1 damage."
+      ],
+      [
+        "Ironhead",
+        "Your attacks against machines, vehicles, and structures ignore resistance once per turn."
+      ],
+      [
+        "Guild-Militant",
+        "When an ally hits your Oath-Mark target, they may move 5 ft without provoking opportunity attacks."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 77,
+    "printedPage": 64,
+    "top": 185.8,
+    "rows": [
+      [
+        "Level",
+        "Features"
+      ],
+      [
+        "1",
+        "Prospector Training, Claim Sight"
+      ],
+      [
+        "2",
+        "Surveyor’s Step"
+      ],
+      [
+        "3",
+        "Expedition Role"
+      ],
+      [
+        "4",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "5",
+        "Extra Attack"
+      ],
+      [
+        "6",
+        "Mark the Seam"
+      ],
+      [
+        "7",
+        "Expedition Feature"
+      ],
+      [
+        "8",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "9",
+        "Outrider’s Escape"
+      ],
+      [
+        "10",
+        "Perfect Claim"
+      ],
+      [
+        "11",
+        "Deep Scan"
+      ],
+      [
+        "12",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "13",
+        "No Stone Unturned"
+      ],
+      [
+        "14",
+        "Expedition Feature"
+      ],
+      [
+        "15",
+        "Master Prospector"
+      ],
+      [
+        "16",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "17",
+        "Legendary Claim-Staker"
+      ],
+      [
+        "18",
+        "Expedition Feature"
+      ],
+      [
+        "19",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "20",
+        "Claim the Horizon"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 77,
+    "printedPage": 64,
+    "top": 447.7,
+    "rows": [
+      [
+        "Expedition Role",
+        "Feature"
+      ],
+      [
+        "Outrider",
+        "When you move at least 15 ft, your next attack this turn deals +1d6 damage."
+      ],
+      [
+        "Claim-Staker",
+        "Your Claim Sight die becomes +1d6 for ability checks."
+      ],
+      [
+        "Trail Gunner",
+        "Your Trail Gunner damage becomes +1d6."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 77,
+    "printedPage": 64,
+    "top": 631.1,
+    "rows": [
+      [
+        "Role",
+        "Benefit"
+      ],
+      [
+        "Outrider",
+        "Your speed increases by 5 ft. When you Dash, opportunity attacks against you have disadvantage."
+      ],
+      [
+        "Claim-Staker",
+        "You gain expertise in Investigation or Survival. You can identify valuable materials, salvage, ore, or structural weaknesses."
+      ],
+      [
+        "Trail Gunner",
+        "Your first ranged hit on each of your turns deals +1d4 damage while no hostile creature is adjacent to you."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 78,
+    "printedPage": 65,
+    "top": 61.9,
+    "rows": [
+      [
+        "Expedition Role",
+        "Feature"
+      ],
+      [
+        "Outrider",
+        "Once per short rest, take the Dash or Disengage action as a free action on your turn."
+      ],
+      [
+        "Claim-Staker",
+        "Allies within 30 ft add +1 to checks involving your Claim Sight target."
+      ],
+      [
+        "Trail Gunner",
+        "When you score a critical hit with a ranged attack, the target is Suppressed until your next turn."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 78,
+    "printedPage": 65,
+    "top": 80.1,
+    "rows": [
+      [
+        "Expedition Role",
+        "Feature"
+      ],
+      [
+        "Outrider",
+        "After you use Outrider’s Escape, your next attack before your next turn has advantage."
+      ],
+      [
+        "Claim-Staker",
+        "Deep Scan reveals two useful facts instead of one."
+      ],
+      [
+        "Trail Gunner",
+        "Your Trail Gunner damage becomes +1d8, and that hit ignores light cover."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 80,
+    "printedPage": 67,
+    "top": 170.6,
+    "rows": [
+      [
+        "Level",
+        "Features"
+      ],
+      [
+        "1",
+        "Ranger Training, Shuriken Grace"
+      ],
+      [
+        "2",
+        "Ghostwalk"
+      ],
+      [
+        "3",
+        "Outcast Path"
+      ],
+      [
+        "4",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "5",
+        "Extra Attack"
+      ],
+      [
+        "6",
+        "Unseen Shot"
+      ],
+      [
+        "7",
+        "Path Feature"
+      ],
+      [
+        "8",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "9",
+        "Webway Instinct"
+      ],
+      [
+        "10",
+        "Death from Elsewhere"
+      ],
+      [
+        "11",
+        "Perfect Motion"
+      ],
+      [
+        "12",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "13",
+        "Vanish Beyond Sight"
+      ],
+      [
+        "14",
+        "Path Feature"
+      ],
+      [
+        "15",
+        "Mythic Outcast"
+      ],
+      [
+        "16",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "17",
+        "Pathless Perfection"
+      ],
+      [
+        "18",
+        "Path Feature"
+      ],
+      [
+        "19",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "20",
+        "Legend of the Wandering Path"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 80,
+    "printedPage": 67,
+    "top": 357.7,
+    "rows": [
+      [
+        "Outcast Path",
+        "Feature"
+      ],
+      [
+        "Shadow Guide",
+        "Allies within 10 ft of you ignore non-magical difficult terrain while travelling carefully."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 80,
+    "printedPage": 67,
+    "top": 517.5,
+    "rows": [
+      [
+        "Path",
+        "Benefit"
+      ],
+      [
+        "Ranger",
+        "If you do not move before attacking with a ranger long rifle, your first ranged attack this turn gains +2 to hit."
+      ],
+      [
+        "Corsair",
+        "You gain proficiency with pistols and blades. After making a weapon attack, move 5 ft without provoking opportunity attacks."
+      ],
+      [
+        "Shadow Guide",
+        "Gain expertise in Stealth or Survival. You have advantage on checks to navigate ruins, wilderness, alien structures, and webway-adjacent places."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 80,
+    "printedPage": 67,
+    "top": 647.5,
+    "rows": [
+      [
+        "Outcast Path",
+        "Feature"
+      ],
+      [
+        "Ranger",
+        "Your Death from Elsewhere feature recharges when you roll initiative if you have no uses remaining."
+      ],
+      [
+        "Corsair",
+        "After scoring a critical hit, you may make one pistol or blade attack as a bonus action."
+      ],
+      [
+        "Shadow Guide",
+        "Once per short rest, you and up to two allies within 30 ft may move 10 ft without provoking opportunity attacks."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 80,
+    "printedPage": 67,
+    "top": 743.8,
+    "rows": [
+      [
+        "Outcast Path",
+        "Feature"
+      ],
+      [
+        "Ranger",
+        "Your attacks with Accurate Aeldari weapons ignore light cover."
+      ],
+      [
+        "Corsair",
+        "Your Shuriken Grace damage applies to pistol attacks."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 81,
+    "printedPage": 68,
+    "top": 46.8,
+    "rows": [
+      [
+        "Outcast Path",
+        "Feature"
+      ],
+      [
+        "Corsair",
+        "After you move 5 ft from your Corsair feature, your next attack before your next turn gains +1d6 damage."
+      ],
+      [
+        "Shadow Guide",
+        "Allies moved by your Path Feature may also ignore difficult terrain until your next turn."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 81,
+    "printedPage": 68,
+    "top": 151.0,
+    "rows": [
+      [
+        "Outcast Path",
+        "Feature"
+      ],
+      [
+        "Ranger",
+        "Your attacks from hiding score a critical hit on 19-20."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 83,
+    "printedPage": 70,
+    "top": 201.0,
+    "rows": [
+      [
+        "Level",
+        "Features"
+      ],
+      [
+        "1",
+        "Runes of Battle, Witchblade Training"
+      ],
+      [
+        "2",
+        "Rune Ward"
+      ],
+      [
+        "3",
+        "Warlock Path"
+      ],
+      [
+        "4",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "5",
+        "Empowered Rune"
+      ],
+      [
+        "6",
+        "Battle-Seer"
+      ],
+      [
+        "7",
+        "Path Feature"
+      ],
+      [
+        "8",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "9",
+        "Ghosthelm Discipline"
+      ],
+      [
+        "10",
+        "War-Rune Mastery"
+      ],
+      [
+        "11",
+        "Major Rune Access"
+      ],
+      [
+        "12",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "13",
+        "Fate Splitter"
+      ],
+      [
+        "14",
+        "Path Feature"
+      ],
+      [
+        "15",
+        "Storm of Runes"
+      ],
+      [
+        "16",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "17",
+        "Spirit-Rune Focus"
+      ],
+      [
+        "18",
+        "Path Feature"
+      ],
+      [
+        "19",
+        "Ability Score Improvement / Talent"
+      ],
+      [
+        "20",
+        "Farseer's Echo"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 83,
+    "printedPage": 70,
+    "top": 395.1,
+    "rows": [
+      [
+        "Level",
+        "Minor",
+        "Standard",
+        "Major"
+      ],
+      [
+        "1",
+        "2",
+        "2",
+        "0"
+      ],
+      [
+        "2",
+        "2",
+        "3",
+        "0"
+      ],
+      [
+        "3",
+        "3",
+        "3",
+        "0"
+      ],
+      [
+        "4",
+        "3",
+        "4",
+        "0"
+      ],
+      [
+        "5",
+        "3",
+        "4",
+        "0"
+      ],
+      [
+        "6",
+        "4",
+        "4",
+        "0"
+      ],
+      [
+        "7",
+        "4",
+        "5",
+        "0"
+      ],
+      [
+        "8",
+        "4",
+        "5",
+        "0"
+      ],
+      [
+        "9",
+        "5",
+        "5",
+        "0"
+      ],
+      [
+        "10",
+        "5",
+        "6",
+        "0"
+      ],
+      [
+        "11",
+        "5",
+        "6",
+        "1"
+      ],
+      [
+        "12",
+        "6",
+        "6",
+        "1"
+      ],
+      [
+        "13",
+        "6",
+        "7",
+        "1"
+      ],
+      [
+        "14",
+        "6",
+        "7",
+        "2"
+      ],
+      [
+        "15",
+        "7",
+        "7",
+        "2"
+      ],
+      [
+        "16",
+        "7",
+        "8",
+        "2"
+      ],
+      [
+        "17",
+        "8",
+        "8",
+        "2"
+      ],
+      [
+        "18",
+        "8",
+        "8",
+        "3"
+      ],
+      [
+        "19",
+        "8",
+        "9",
+        "3"
+      ],
+      [
+        "20",
+        "9",
+        "9",
+        "3"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 83,
+    "printedPage": 70,
+    "top": 467.1,
+    "rows": [
+      [
+        "Path",
+        "Benefit"
+      ],
+      [
+        "Seer of Battle",
+        "Once per short rest, add or subtract 1d4 from a d20 roll made by a creature you can see."
+      ],
+      [
+        "Storm Warlock",
+        "When you deal force, lightning, fire, or radiant damage with a psychic power, add +1 damage per die."
+      ],
+      [
+        "Spirit Guardian",
+        "Allies within 10 ft of you gain advantage on saving throws against fear while you are conscious."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 83,
+    "printedPage": 70,
+    "top": 718.9,
+    "rows": [
+      [
+        "Warlock Path",
+        "Feature"
+      ],
+      [
+        "Seer of Battle",
+        "Your d4 becomes a d6 for your Warlock Path feature."
+      ],
+      [
+        "Storm Warlock",
+        "Once per turn, when a psychic power damages a creature, push it 5 ft."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 84,
+    "printedPage": 71,
+    "top": 269.1,
+    "rows": [
+      [
+        "Warlock Path",
+        "Feature"
+      ],
+      [
+        "Seer of Battle",
+        "Your reaction advantage may be used after the d20 is rolled but before the result is declared."
+      ],
+      [
+        "Storm Warlock",
+        "Your Storm Warlock push increases to 10 ft."
+      ],
+      [
+        "Spirit Guardian",
+        "When Rune Ward protects an ally, one hostile creature within 30 ft has disadvantage on its next psychic saving throw."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 84,
+    "printedPage": 71,
+    "top": 412.7,
+    "rows": [
+      [
+        "Warlock Path",
+        "Feature"
+      ],
+      [
+        "Seer of Battle",
+        "Once per short rest, give one ally advantage on an attack, save, or check as a reaction."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 86,
+    "printedPage": 73,
+    "top": 128.6,
+    "rows": [
+      [
+        "Talent",
+        "Benefit"
+      ],
+      [
+        "Rapid Reload",
+        "Reload basic weapons as a bonus action instead of an action."
+      ],
+      [
+        "Hip Fire",
+        "After moving at least 10 ft, make one pistol attack as a bonus action."
+      ],
+      [
+        "Close-Quarters Killer",
+        "You do not suffer disadvantage when making ranged attacks within 5 ft."
+      ],
+      [
+        "Heavy Weapon Training",
+        "You ignore the movement penalty from Heavy weapons."
+      ],
+      [
+        "Iron Discipline",
+        "Advantage on saving throws against fear and Suppression."
+      ],
+      [
+        "Combat Medic",
+        "As an action, restore 1d6 + proficiency bonus HP to an adjacent creature. Uses equal to your proficiency bonus per long rest."
+      ],
+      [
+        "Grenadier",
+        "Grenade save DCs increase by +1. You can throw grenades 20 ft farther."
+      ],
+      [
+        "Brawler",
+        "Your unarmed strikes deal 1d6 damage, or 1d8 if both hands are free."
+      ],
+      [
+        "Cybernetic Implant",
+        "Gain one minor augmetic upgrade."
+      ],
+      [
+        "Point Blank Execution",
+        "Once per short rest, when you hit a target within 5 ft with a pistol or shotgun, add 1d6 damage."
+      ],
+      [
+        "Suppressive Discipline",
+        "When you force a Suppression save, increase the DC by 1."
+      ],
+      [
+        "Field Armourer",
+        "During a short rest, repair one damaged weapon or restore one use of a shield, field, or armour feature at the GM's discretion."
+      ],
+      [
+        "Bayonet Fighter",
+        "When wielding a basic firearm in two hands, you may make a 1d6 piercing melee attack with it."
+      ],
+      [
+        "Breacher",
+        "You have advantage on checks to force doors, smash barricades, and breach weak bulkheads. Your first attack against an object deals +1d8 damage."
+      ],
+      [
+        "Crisis Runner",
+        "When you Dash, difficult terrain caused by rubble, crowds, gantries, wreckage, or industrial clutter costs no extra movement."
+      ],
+      [
+        "Dead Calm",
+        "Once per short rest, ignore disadvantage on one ranged attack caused by Suppression, fear, smoke, darkness, or battlefield chaos."
+      ],
+      [
+        "Tactical Reposition",
+        "When you take the Disengage action, one ally within 5 ft may move 5 ft without provoking opportunity attacks."
+      ],
+      [
+        "Weapon Specialist",
+        "Choose one weapon group: pistols, basic firearms, sniper weapons, shotguns, chain weapons, shock weapons, plasma, melta, or heavy weapons. Gain +1 damage with that group."
+      ],
+      [
+        "Armour Familiarity",
+        "While wearing armour you are proficient with, reduce incoming damage from non-critical weapon attacks by 1."
+      ],
+      [
+        "Relic-Bearer",
+        "You carry a minor relic, oath-token, saint bone, engraved casing, or machine charm. Once per long rest, add 1d4 to a saving throw after seeing the roll."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 87,
+    "printedPage": 74,
+    "top": 75.8,
+    "rows": [
+      [
+        "Talent",
+        "Requirement",
+        "Benefit"
+      ],
+      [
+        "Ogryn Wall",
+        "Ogryn",
+        "Allies behind you gain light cover while you are not incapacitated."
+      ],
+      [
+        "Bigger Gun",
+        "Ogryn",
+        "You can wield one Heavy weapon without disadvantage from moving."
+      ],
+      [
+        "Loyal as Stone",
+        "Ogryn",
+        "When an ally within 5 ft fails a death save, you may use your reaction to let them reroll it."
+      ],
+      [
+        "Bone ’ead Implant",
+        "Ogryn",
+        "Increase Intelligence by 1, maximum 12. You gain proficiency in Wisdom saves or one skill."
+      ],
+      [
+        "Too Angry to Notice",
+        "Ogryn",
+        "Once per short rest, reduce psychic, poison, or necrotic damage by 1d12 + Constitution modifier."
+      ],
+      [
+        "Ratling Vanish",
+        "Ratling",
+        "When you take damage, use your reaction to move 10 ft without provoking opportunity attacks."
+      ],
+      [
+        "Impossible Shot",
+        "Ratling",
+        "Once per short rest, ignore cover on one ranged attack."
+      ],
+      [
+        "Pocket Marksman",
+        "Ratling",
+        "When prone or behind cover, your first ranged attack each turn deals +1 damage."
+      ],
+      [
+        "Scavver’s Luck",
+        "Ratling",
+        "Once per long rest, declare that you packed a small mundane item worth 25 throne gelt or less."
+      ],
+      [
+        "Cook’s Morale",
+        "Ratling",
+        "During a short rest, cook or brew something edible. Up to five allies regain +1 extra hit point per Hit Die spent."
+      ],
+      [
+        "Machine Precision",
+        "Skitarii",
+        "Once per short rest, add your Intelligence modifier to a weapon damage roll."
+      ],
+      [
+        "Sacred Augmetics",
+        "Skitarii",
+        "When you regain hit points during a short rest, regain additional HP equal to your proficiency bonus."
+      ],
+      [
+        "Rad-Hardened",
+        "Skitarii",
+        "Resistance to poison or radiation damage. Advantage on saves against radiation, toxins, and disease."
+      ],
+      [
+        "Noospheric Burst",
+        "Skitarii",
+        "Once per short rest, as a bonus action, choose one ally within 60 ft. Their next attack gains +1d4 to hit."
+      ],
+      [
+        "Cold Logic",
+        "Skitarii",
+        "Once per long rest, treat a failed Wisdom saving throw against fear, charm, or psychic manipulation as a success."
+      ],
+      [
+        "Witch-Sight",
+        "Human Psyker",
+        "You can sense active psychic effects, daemonic influence, and Warp residue within 30 ft."
+      ],
+      [
+        "Imperial Flexibility",
+        "Human",
+        "Gain proficiency in one skill, tool, or weapon group."
+      ],
+      [
+        "Last Order Standing",
+        "Human",
+        "Once per long rest, when an ally within 30 ft drops to 0 hit points, you gain temporary HP equal to your level + proficiency bonus."
+      ],
+      [
+        "Sanctioning Scars",
+        "Human Psyker",
+        "When you trigger Perils, reduce the psychic damage you take from that Peril’s result by your proficiency bonus."
+      ],
+      [
+        "Hive-Blooded",
+        "Human or Ratling",
+        "You have advantage on checks to navigate hive districts, underhive markets, vents, hab-blocks, sump routes, and gang territory."
+      ],
+      [
+        "Ancestor’s Grudge",
+        "Squat/Kin",
+        "Once per short rest, when a creature damages you, mark it. Your next hit against it deals +1d6 damage."
+      ],
+      [
+        "Hold-Born Engineer",
+        "Squat/Kin",
+        "Gain proficiency in Technology or an engineering tool. You have advantage on checks to repair, breach, mine, or salvage machinery."
+      ],
+      [
+        "Void Stock",
+        "Squat/Kin",
+        "Advantage on saves against vacuum exposure, suffocation, toxic atmosphere, and exhaustion from poor conditions."
+      ],
+      [
+        "Iron Stance",
+        "Squat/Kin",
+        "If you move no more than half your speed on your turn, you gain +1 AC until your next turn."
+      ],
+      [
+        "Kin Weapon Master",
+        "Squat/Kin",
+        "Gain +1 damage with Kin weapons."
+      ],
+      [
+        "Aeldari Grace",
+        "Aeldari",
+        "Your speed increases by 5 ft while wearing light or Aeldari armour."
+      ],
+      [
+        "Path Discipline",
+        "Aeldari",
+        "Once per long rest, reroll a failed Wisdom or Dexterity saving throw."
+      ],
+      [
+        "Ranger’s Cloak",
+        "Aeldari Outcast",
+        "You may hide when lightly obscured by ruins, foliage, smoke, shadow, or battlefield debris."
+      ],
+      [
+        "Witchblade Adept",
+        "Aeldari Warlock",
+        "Add +1 damage with witchblades and singing spears; these weapons count as psychic for overcoming resistance."
+      ],
+      [
+        "Alien Reflexes",
+        "Aeldari",
+        "Once per short rest, when an enemy misses you with an attack, move 5 ft without provoking opportunity attacks."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 89,
+    "printedPage": 76,
+    "top": 124.4,
+    "rows": [
+      [
+        "Upgrade",
+        "Effect",
+        "Availability"
+      ],
+      [
+        "Optical Implant",
+        "Gain darkvision 60 ft, or add +1d4 to a Perception check once per short rest.",
+        "Controlled"
+      ],
+      [
+        "Bionic Arm",
+        "Gain +1 to Athletics checks and melee damage rolls using that arm.",
+        "Scarce"
+      ],
+      [
+        "Bionic Legs",
+        "Gain +5 ft movement speed and advantage on saves against being knocked prone.",
+        "Scarce"
+      ],
+      [
+        "Subdermal Plating",
+        "Gain +1 AC while not wearing heavy armour.",
+        "Rare"
+      ],
+      [
+        "Respirator Implant",
+        "Advantage on saves against gas, smoke, poison, and airborne disease.",
+        "Controlled"
+      ],
+      [
+        "Data-Jack",
+        "Advantage on checks to interface with cogitators, terminals, locks, and security systems.",
+        "Controlled"
+      ],
+      [
+        "Vox Implant",
+        "Communicate silently with allies within 120 ft who have compatible vox systems.",
+        "Controlled"
+      ],
+      [
+        "Pain Editor",
+        "Once per long rest, when reduced below half HP, gain temporary HP equal to level + Constitution modifier.",
+        "Rare"
+      ],
+      [
+        "Recoil Bracing",
+        "Ignore disadvantage from firing a Heavy weapon after moving once per short rest.",
+        "Scarce"
+      ],
+      [
+        "Targeting Lens",
+        "Once per short rest, add +1d4 to a ranged attack roll after seeing the d20 roll.",
+        "Scarce"
+      ],
+      [
+        "Mag-Lock Palm",
+        "You cannot be disarmed of one held weapon unless incapacitated, restrained, or unconscious.",
+        "Controlled"
+      ],
+      [
+        "Skeletal Reinforcement",
+        "Gain advantage on saves against being shoved, knocked prone, or crushed.",
+        "Scarce"
+      ],
+      [
+        "Dermal Insulation",
+        "Resistance to environmental cold and heat. Advantage on saves against exposure.",
+        "Controlled"
+      ],
+      [
+        "Chem Injector",
+        "As a bonus action once per long rest, gain temporary HP equal to 1d6 + Constitution modifier.",
+        "Scarce"
+      ],
+      [
+        "Internal Chrono",
+        "You always know mission time, elapsed time, and basic direction underground or aboard ships unless affected by Warp distortion.",
+        "Controlled"
+      ],
+      [
+        "Mechadendrite, Utility",
+        "You can manipulate unattended Tiny objects, hold a tool, or perform basic maintenance within 5 ft. It cannot attack.",
+        "Controlled"
+      ],
+      [
+        "Mechadendrite, Medicae",
+        "Gain proficiency in Medicine. Once per long rest, stabilise a creature and restore 1 HP as an action.",
+        "Scarce"
+      ],
+      [
+        "Mechadendrite, Combat",
+        "Once per short rest, make a 1d4 bludgeoning or piercing attack as a bonus action.",
+        "Scarce"
+      ],
+      [
+        "Cranial Cogitator",
+        "Gain proficiency in Investigation or Technology. Once per long rest, reroll a failed Intelligence check.",
+        "Scarce"
+      ],
+      [
+        "Augmetic Heart",
+        "Advantage on saves against exhaustion from forced marches, blood loss, poison, or shock.",
+        "Rare"
+      ],
+      [
+        "Black-Iron Jaw",
+        "Advantage on Intimidation checks when visible. Disadvantage on Persuasion checks in refined Imperial society.",
+        "Controlled"
+      ],
+      [
+        "Vocal Coder",
+        "You can mimic machine tones, vox distortion, and binharic fragments. Gain advantage on checks to communicate with Mechanicus systems if proficient in Technology.",
+        "Controlled"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 91,
+    "printedPage": 78,
+    "top": 417.8,
+    "rows": [
+      [
+        "Power Type",
+        "Warp Pressure Cost"
+      ],
+      [
+        "Minor Power",
+        "+1 Warp Pressure"
+      ],
+      [
+        "Standard Power",
+        "+2 Warp Pressure"
+      ],
+      [
+        "Major Power",
+        "+3 Warp Pressure"
+      ],
+      [
+        "Empowered Power",
+        "+1 additional Warp Pressure, plus one Empowered effect below"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 91,
+    "printedPage": 78,
+    "top": 466.3,
+    "rows": [
+      [
+        "Empowered Option",
+        "Effect"
+      ],
+      [
+        "Overcharged Damage",
+        "If the power deals damage, add one additional damage die of the same type."
+      ],
+      [
+        "Brutal Manifestation",
+        "If the power requires a saving throw, increase the Psychic Save DC by +1 for that casting."
+      ],
+      [
+        "Extended Reach",
+        "Increase the range by 30 ft, or increase a cone/area radius by 5 ft."
+      ],
+      [
+        "Sustained Focus",
+        "If the power grants temporary hit points, healing, protection, or a bonus, increase the value by your proficiency bonus."
+      ],
+      [
+        "Split Manifestation",
+        "If the power targets one creature and does not already affect multiple targets, target one additional creature within 10 ft of the original target. The second target takes half damage or receives half the non-damage effect, GM adjudication."
+      ],
+      [
+        "Discipline Mastery",
+        "If the power belongs to your chosen discipline, you may reroll one damage die or healing die from the power."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 91,
+    "printedPage": 78,
+    "top": 680.7,
+    "rows": [
+      [
+        "Power",
+        "Tag",
+        "Rule"
+      ],
+      [
+        "Warp Spark",
+        "Universal",
+        "Action. Range 60 ft. Psychic attack. On hit, 1d8 force damage."
+      ],
+      [
+        "Kinetic Push",
+        "Telekinesis, Universal",
+        "Action. Range 30 ft. Strength save. Failure: pushed 10 ft and takes 1d6 force damage."
+      ],
+      [
+        "Mind Lumen",
+        "Divination, Universal",
+        "Bonus Action. Self. 10 minutes. See psychic traces, Warp residue, emotional impressions, and unnatural disturbances within 30 ft."
+      ],
+      [
+        "Static Veil",
+        "Telekinesis, Universal",
+        "Reaction. Trigger: targeted by a ranged attack. Add +2 AC against that attack."
+      ],
+      [
+        "Flesh Knit",
+        "Biomancy",
+        "Action. Touch. A creature regains 1d6 + psychic ability modifier HP."
+      ],
+      [
+        "Pain Spike",
+        "Biomancy",
+        "Action. Range 60 ft. Constitution save. Failure: 1d8 psychic damage, and the target cannot take reactions."
+      ],
+      [
+        "Ember Flicker",
+        "Pyromancy",
+        "Bonus Action. Range 30 ft. Ignite or extinguish a small flame; one creature takes 1 fire damage if holding a flammable object."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 92,
+    "printedPage": 79,
+    "top": 46.8,
+    "rows": [
+      [
+        "Power",
+        "Tag",
+        "Rule"
+      ],
+      [
+        "Ashen Brand",
+        "Pyromancy",
+        "Action. Range: 60 ft. Psychic attack. On hit, 1d8 fire/radiant damage, and the target sheds dim light until your next turn."
+      ],
+      [
+        "Danger Sense",
+        "Divination",
+        "Reaction. When you roll initiative, add 1d4 to your initiative roll."
+      ],
+      [
+        "Echo Read",
+        "Divination",
+        "Action. Touch an object or corpse. Learn one recent strong emotion, danger, or image attached to it."
+      ],
+      [
+        "Whisper from Below",
+        "Malefic",
+        "Bonus Action. Range 30 ft. One creature makes a Wisdom save. Failure: disadvantage on the next Wisdom saving throw before your next turn."
+      ],
+      [
+        "Warp Bite",
+        "Malefic",
+        "Action. Range 60 ft. Psychic attack. On hit, 1d10 psychic damage. If you roll a natural 1, immediately add +1 Warp Pressure."
+      ],
+      [
+        "Null Glare",
+        "Null",
+        "Action. Range 30 ft. One creature makes a Charisma save. Failure: it has disadvantage on the next psychic attack roll it makes, or the next saving throw it forces, before your next turn."
+      ],
+      [
+        "Blank Sense",
+        "Null",
+        "Bonus Action. Self. 10 minutes. Sense active psychic effects, daemonic influence, blanks, and Warp residue within 30 ft."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 92,
+    "printedPage": 79,
+    "top": 210.1,
+    "rows": [
+      [
+        "Power",
+        "Tag",
+        "Rule"
+      ],
+      [
+        "Focused Rupture",
+        "Universal",
+        "Action. Range 90 ft. Intelligence save. Failure: 3d8 force damage; success: half. If this kills the target, reduce Warp Pressure by 1."
+      ],
+      [
+        "Assail",
+        "Telekinesis, Universal",
+        "Action. Range 60 ft. Choose up to three creatures. Psychic attack against each target. Hit: 1d6 force damage."
+      ],
+      [
+        "Psychic Shield",
+        "Telekinesis, Universal",
+        "Action. Range 30 ft. One creature gains temporary HP equal to 1d8 + psychic ability modifier + proficiency bonus and advantage on fear saves while they remain."
+      ],
+      [
+        "Soulfire",
+        "Pyromancy, Universal",
+        "Action. Range 60 ft. Dexterity save. Failure: 2d6 fire/radiant damage and burns for 1d6 at the start of the next turn; success: half and no burn."
+      ],
+      [
+        "Dominate Nerve",
+        "Biomancy, Universal",
+        "Action. Range 60 ft. Wisdom save. Failure: no reactions and disadvantage on next attack roll."
+      ],
+      [
+        "Warp Step",
+        "Universal",
+        "Bonus Action. Teleport 30 ft to a visible unoccupied space. Immediately roll for Perils even if Warp Pressure would not normally trigger it."
+      ],
+      [
+        "Blood Surge",
+        "Biomancy",
+        "Bonus Action. Range 30 ft. One ally gains +10 ft speed and advantage on Strength checks for 1 minute."
+      ],
+      [
+        "Toxic Bloom",
+        "Biomancy",
+        "Action. 10-ft radius within 60 ft. Constitution save. Failure: 2d8 poison/necrotic damage and poisoned until next turn; success: half and no poison."
+      ],
+      [
+        "Kinetic Bulwark",
+        "Telekinesis",
+        "Reaction. When an ally within 30 ft is hit, reduce damage by 2d8 + psychic ability modifier."
+      ],
+      [
+        "Crush Grip",
+        "Telekinesis",
+        "Action. Range 60 ft. Strength save. Failure: 2d8 force damage, and speed becomes 0 until the end of the next turn."
+      ],
+      [
+        "Fate’s Nudge",
+        "Divination",
+        "Reaction. Add or subtract 1d4 from a d20 roll made by a creature you can see within 60 ft."
+      ],
+      [
+        "Prescient Aim",
+        "Divination",
+        "Bonus Action. Range 60 ft. One ally gains advantage on their next ranged attack before your next turn."
+      ],
+      [
+        "Cleansing Wave",
+        "Pyromancy",
+        "Action. 15-ft cone. Dexterity save. Failure: 3d6 fire/radiant damage; success: half. Daemons and corrupted creatures take +1d6."
+      ],
+      [
+        "Burning Halo",
+        "Pyromancy",
+        "Bonus Action. Self. 1 minute. Creatures that hit you with melee attacks take fire damage equal to your proficiency bonus."
+      ],
+      [
+        "Terror Echo",
+        "Malefic",
+        "Action. Range 60 ft. Wisdom save. Failure: frightened until the end of the next turn and takes 2d6 psychic damage."
+      ],
+      [
+        "Baleful Rupture",
+        "Malefic",
+        "Action. Range 90 ft. Intelligence save. Failure: 4d8 psychic damage; success: half. Add +1 extra Warp Pressure after resolving."
+      ],
+      [
+        "Null Field",
+        "Null",
+        "Action. Self, 10-ft aura until the start of your next turn. Allies in the aura have advantage on saving throws against psychic powers. Hostile psykers inside the aura increase Warp Pressure by +1 when using a power."
+      ],
+      [
+        "Silence the Witch",
+        "Null",
+        "Reaction. When a creature within 60 ft uses a psychic power, force it to make a Charisma save. On a failure, it adds +1d4 to any Perils severity roll caused by that power."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 93,
+    "printedPage": 80,
+    "top": 75.8,
+    "rows": [
+      [
+        "Power",
+        "Tag",
+        "Rule"
+      ],
+      [
+        "Telekinetic Crush",
+        "Telekinesis",
+        "Action. Range 60 ft. Strength save. Failure: 4d8 force damage and restrained until the end of the next turn; success: half and not restrained."
+      ],
+      [
+        "Inferno Bloom",
+        "Pyromancy",
+        "Action. Point within 90 ft. 15-ft radius Dexterity save. Failure: 5d6 fire/radiant damage; success:s half."
+      ],
+      [
+        "Prescient Execution",
+        "Divination",
+        "Bonus Action. Range 30 ft. Concentration up to 1 minute. Once per turn, add 1d4 to an attack roll, saving throw, or ability check by yourself or an ally within range."
+      ],
+      [
+        "Biomantic Surge",
+        "Biomancy",
+        "Action. Touch. A creature regains 4d8 + your psychic ability modifier HP and gains advantage on Strength and Constitution saves for 1 minute."
+      ],
+      [
+        "Flesh Reforged",
+        "Biomancy",
+        "Action. Range 30 ft. One creature regains 3d8 HP and ends one poisoned, diseased, bleeding, or crippled condition at the GM's discretion."
+      ],
+      [
+        "Hemorrhage",
+        "Biomancy",
+        "Action. Range 60 ft. Constitution save. Failure: 5d8 necrotic damage, and the target has disadvantage on Constitution saves until next turn; success: half."
+      ],
+      [
+        "Force Dome",
+        "Telekinesis",
+        "Action. 10-ft radius centred on a point within 60 ft. Allies inside gain +3 AC against ranged attacks until the start of your next turn."
+      ],
+      [
+        "Foresight Cascade",
+        "Divination",
+        "Action. Range 60 ft. Up to three allies may immediately move 10 ft without provoking opportunity attacks and add 1d4 to their next d20 roll."
+      ],
+      [
+        "Soulstorm",
+        "Pyromancy",
+        "Action. 20-ft radius within 90 ft. Dexterity save. Failure: 4d6 fire/radiant damage and burning ground for 1 minute; success:s half."
+      ],
+      [
+        "Malefic Door",
+        "Malefic",
+        "Action. Range 60 ft. Open a screaming tear. One creature makes a Wisdom save. Failure: 6d8 psychic damage and frightened for 1 minute; repeat save at the end of each turn. Immediately add +2 extra Warp Pressure after resolving."
+      ],
+      [
+        "Possession Spike",
+        "Malefic",
+        "Action. Range 30 ft. Charisma save. Failure: target is incapacitated until the end of the next turn and takes 4d8 psychic damage. If this triggers Perils, roll Perils severity with advantage and use the higher result."
+      ],
+      [
+        "Pariah Zone",
+        "Null",
+        "Action. 15-ft radius centred on you for 1 minute, concentration. Psychic powers cast inside the area cost +1 Warp Pressure, and allies inside the area have advantage on saving throws against psychic powers."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 93,
+    "printedPage": 80,
+    "top": 362.0,
+    "rows": [
+      [
+        "Power",
+        "Level",
+        "Tag",
+        "Rule"
+      ],
+      [
+        "Conceal",
+        "Minor",
+        "Warlock, Divination",
+        "Bonus Action. Range 30 ft. One creature gains +1 AC against ranged attacks until your next turn if it has moved or is in cover."
+      ],
+      [
+        "Reveal",
+        "Minor",
+        "Warlock, Divination",
+        "Bonus Action. Range 60 ft. One hidden or obscured creature makes a Wisdom save. On failure, it cannot benefit from invisibility or being hidden until your next turn."
+      ],
+      [
+        "Protect",
+        "Standard",
+        "Warlock, Telekinesis",
+        "Action. Range 30 ft. One ally gains +2 AC until the start of your next turn."
+      ],
+      [
+        "Jinx",
+        "Standard",
+        "Warlock, Divination",
+        "Action. Range 60 ft. Wisdom save. On failure, the target suffers -2 AC until the start of your next turn."
+      ],
+      [
+        "Quicken",
+        "Standard",
+        "Warlock, Biomancy",
+        "Bonus Action. Range 30 ft. One ally gains +10 ft speed and may move through allied spaces until your next turn."
+      ],
+      [
+        "Restrain Fate",
+        "Standard",
+        "Warlock, Divination",
+        "Reaction. When a creature within 60 ft makes an attack roll, subtract 1d4 from the roll."
+      ],
+      [
+        "Destructor Rune",
+        "Major",
+        "Warlock, Pyromancy",
+        "Action. 15-ft cone. Dexterity save. Failure: 5d6 fire/radiant damage; success: half. Corrupted creatures take +1d6."
+      ],
+      [
+        "Fortune Thread",
+        "Major",
+        "Warlock, Divination",
+        "Bonus Action. Range 30 ft. For 1 minute, once per round, the target may reroll one attack roll, saving throw, or ability check. Concentration."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 95,
+    "printedPage": 82,
+    "top": 340.9,
+    "rows": [
+      [
+        "Method",
+        "Effect"
+      ],
+      [
+        "Short rest",
+        "Reduce Warp Pressure to 0."
+      ],
+      [
+        "Long rest",
+        "Reduce Warp Pressure to 0."
+      ],
+      [
+        "Vent as an action",
+        "Make a DC 12 Wisdom save. On success, reduce Warp Pressure by 1d4 + proficiency bonus. On failure, reduce it by 1 and take 1d6 psychic damage."
+      ],
+      [
+        "Kill with Focused Rupture",
+        "Reduce Warp Pressure by 1."
+      ],
+      [
+        "Stabilising Focus",
+        "Reduce Warp Pressure by 1 once per short rest."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 95,
+    "printedPage": 82,
+    "top": 525.5,
+    "rows": [
+      [
+        "Result",
+        "Peril"
+      ],
+      [
+        "2-6",
+        "Warp Static"
+      ],
+      [
+        "7-10",
+        "Bleeding Eyes"
+      ],
+      [
+        "11-14",
+        "Soul Echo"
+      ],
+      [
+        "15-18",
+        "Warp Scream"
+      ],
+      [
+        "19-22",
+        "Possession Pressure"
+      ],
+      [
+        "23-26",
+        "Uncontrolled Manifestation"
+      ],
+      [
+        "27-30",
+        "Reality Tear"
+      ],
+      [
+        "31+",
+        "Catastrophic Perils"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 96,
+    "printedPage": 83,
+    "top": 110.5,
+    "rows": [
+      [
+        "Severity",
+        "Aeldari Peril",
+        "Result"
+      ],
+      [
+        "2-6",
+        "Rune Static",
+        "You take 1d6 psychic damage and cannot use Rune Ward until the start of your next turn."
+      ],
+      [
+        "7-10",
+        "Ghosthelm Pain",
+        "You take 2d6 psychic damage and have disadvantage on your next psychic attack roll or psychic saving throw before the end of your next turn."
+      ],
+      [
+        "11-14",
+        "Ancestral Echo",
+        "Every creature within 10 ft hears dead voices through your mind. Each creature, including you, takes 1d6 psychic damage and cannot take reactions until its next turn."
+      ],
+      [
+        "15-18",
+        "Fate Snarl",
+        "Until the end of your next turn, the first d20 roll made by you or an ally within 30 ft is reduced by 1d4."
+      ],
+      [
+        "19-22",
+        "Spirit-Stone Cry",
+        "You are incapacitated until the end of your next turn. One ally within 30 ft takes 1d6 psychic damage unless they succeed on a Wisdom save against your Psychic Save DC."
+      ],
+      [
+        "23-26",
+        "Rune Miscast",
+        "The GM chooses a Warlock, Divination, or Telekinesis power you know. It immediately targets a random valid creature or location."
+      ],
+      [
+        "27-30",
+        "Webway Shear",
+        "A 10-ft radius area within 30 ft becomes distorted terrain for 1 minute. A creature entering it for the first time on a turn or starting there takes 2d6 force damage."
+      ],
+      [
+        "31+",
+        "Doom of the Seer",
+        "You drop to 0 hit points. Every creature within 30 ft takes 4d6 psychic damage. You gain 1 Corruption or a GM-approved Doom Mark tied to Aeldari fate, spirit-stones, or daemonic pursuit."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 96,
+    "printedPage": 83,
+    "top": 289.1,
+    "rows": [
+      [
+        "Severity",
+        "Malefic Peril",
+        "Result"
+      ],
+      [
+        "2-6",
+        "Malignant Static",
+        "You take 1d6 psychic damage and have disadvantage on your next saving throw against fear, charm, or corruption."
+      ],
+      [
+        "7-10",
+        "Blooded Eyes",
+        "You take 2d6 psychic damage and a nearby Warp entity, cult icon, or daemon-touched creature becomes aware of your presence."
+      ],
+      [
+        "11-14",
+        "Predatory Echo",
+        "Every creature within 10 ft, including you, takes 2d6 psychic damage. The GM may describe a hostile voice, omen, or watching presence."
+      ],
+      [
+        "15-18",
+        "Daemon Scream",
+        "Creatures of your choice within 30 ft must make a Wisdom save or become frightened until the end of their next turn. After Perils is reduced, your Warp Pressure increases by 1."
+      ],
+      [
+        "19-22",
+        "Possession Pressure",
+        "You are incapacitated until the end of your next turn. Make a Charisma save against your Psychic Save DC; on a failure, gain 1 Corruption."
+      ],
+      [
+        "23-26",
+        "Unbidden Manifestation",
+        "The GM chooses a random Malefic power you know. If you know no valid Malefic power, Terror Echo manifests instead. The target is random."
+      ],
+      [
+        "27-30",
+        "Reality Wound",
+        "A 10-ft radius area within 30 ft becomes corrupted terrain for 1 minute. Creatures entering or starting there take 2d6 psychic damage. Daemons and corrupted creatures have advantage on their next attack made from inside it."
+      ],
+      [
+        "31+",
+        "Catastrophic Breach",
+        "You drop to 0 hit points. Every creature within 30 ft takes 4d6 psychic damage. A hostile Warp entity, possession threat, or daemon sign enters the scene, and you gain 2 Corruption instead of 1."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 98,
+    "printedPage": 85,
+    "top": 218.6,
+    "rows": [
+      [
+        "Corruption",
+        "Effect"
+      ],
+      [
+        "0",
+        "Uncorrupted. No effect."
+      ],
+      [
+        "1",
+        "Omen. Nightmares, whispers, marks or momentary sensory distortions."
+      ],
+      [
+        "2",
+        "Tainted. The signs become repeatable; appropriate psychic or religious investigation can detect them."
+      ],
+      [
+        "3",
+        "Scarred. Choose or gain a minor corruption scar. It should create a narrow complication, not disable the character."
+      ],
+      [
+        "4",
+        "Marked. Warp entities and sensitive psykers may notice you. Forbidden artefacts react more strongly to your presence."
+      ],
+      [
+        "5",
+        "Critical. You are a major liability to the warband. The GM must make the danger and possible remedies explicit."
+      ],
+      [
+        "6",
+        "Crisis. The character faces possession, mutation, damnation, martyrdom or transformation. This is a story decision involving the player and GM, not automatic immediate NPC conversion."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 100,
+    "printedPage": 87,
+    "top": 136.5,
+    "rows": [
+      [
+        "Class",
+        "Starting Equipment"
+      ],
+      [
+        "Veteran",
+        "Lasgun or autogun; laspistol; combat blade; flak armour; 2 frag grenades; medkit or auspex."
+      ],
+      [
+        "Zealot",
+        "Chainsword or heavy axe; laspistol or autopistol; flak armour; symbol of faith; 1 firebomb; 1 frag grenade."
+      ],
+      [
+        "Psyker",
+        "Force sword or force staff; laspistol; heavy clothing or light armour; sanctioning brands/restraints; psychic focus; 2 Minor and 2 Standard Psychic Powers."
+      ],
+      [
+        "Ogryn Skullbreaker",
+        "Ripper gun or Ogryn club; Ogryn plate; 1 frag bomb; rations; lucky charm; optional slab shield."
+      ],
+      [
+        "Arbites Enforcer",
+        "Combat shotgun; shock maul; riot shield; carapace or riot armour; manacles; 1 stun grenade; 1 smoke grenade."
+      ],
+      [
+        "Hive Scum",
+        "Autopistol or stub pistol; knife; shotgun or autogun; heavy clothing or flak armour; 1 frag grenade; black-market contact."
+      ],
+      [
+        "Ratling Sharpshooter",
+        "Long-las or lasgun; stub pistol or laspistol; knife; heavy clothing or flak armour; camo cloak; cook's utensils or thieves' tools."
+      ],
+      [
+        "Skitarii Veteran",
+        "Galvanic rifle, radium carbine, or lasgun; laspistol; taser goad or combat blade; flak or carapace armour; auspex; data-jack or maintenance tools; 2 frag grenades."
+      ],
+      [
+        "Kin Armsman",
+        "Autoch-pattern bolter or ion blaster; bolt revolver or autoch-pattern pistol; Kin mesh or Hearthkyn plate; Kin power axe or concussion hammer; 2 frag grenades; oath-token."
+      ],
+      [
+        "Hernkyn Prospector",
+        "Autoch-pattern pistol or bolt revolver; ion blaster or magna-rail rifle with GM approval; prospector rig; knife or EtaCarn mining tool; survey auspex; climbing kit; claim marker."
+      ],
+      [
+        "Aeldari Outcast",
+        "Shuriken catapult or ranger long rifle; shuriken pistol; monomolecular blade; Aeldari mesh or ranger weave; spirit-token; camo cloak."
+      ],
+      [
+        "Aeldari Warlock",
+        "Witchblade or singing spear; shuriken pistol; rune armour; psychic focus/rune stones; 2 Minor and 2 Standard powers; spirit charm."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 101,
+    "printedPage": 88,
+    "top": 100.6,
+    "rows": [
+      [
+        "Item",
+        "Use",
+        "Rule",
+        "Availability"
+      ],
+      [
+        "Med-Stim",
+        "Bonus action",
+        "A creature you touch regains 1d6 + proficiency bonus HP; a creature can benefit from only one Med-Stim per short rest.",
+        "Issued"
+      ],
+      [
+        "Med-Pack",
+        "Action",
+        "DC 12 Medicine on a creature within 5 ft. Success: regain 2d6 + proficiency bonus HP, or stabilise and restore to 1 HP. Consumed.",
+        "Issued"
+      ],
+      [
+        "Field Dressing",
+        "Action",
+        "Stabilise a dying creature. With a successful DC 10 Medicine check, the target may immediately spend one Hit Die.",
+        "Issued"
+      ],
+      [
+        "Ammo Pack",
+        "Action or downtime",
+        "When ammunition is being tracked, or a mission effect has exhausted a routine reload supply, restore one Reload cycle for a pistol, basic or heavy weapon. In standard play, ordinary spare ammunition is otherwise abstracted.",
+        "Issued"
+      ],
+      [
+        "Specialist Ammo Pack",
+        "Action or downtime",
+        "Restore one expended Reload cycle for plasma, melta, bolt, needle, Kin, Aeldari or other advanced ammunition when that ammunition is limited. The pack must match the weapon or ammunition type.",
+        "Controlled"
+      ],
+      [
+        "Grenade Bandolier",
+        "Passive",
+        "Carry up to four grenades ready for quick use; drawing one does not require an item interaction once per turn.",
+        "Issued"
+      ],
+      [
+        "Weapon Maintenance Kit",
+        "Short rest",
+        "DC 12 Technology or appropriate tool check to repair one jammed, damaged, overheated or fouled weapon.",
+        "Issued"
+      ],
+      [
+        "Auspex Battery",
+        "Action",
+        "Restore one expended use of an auspex/scanner or power it for one scene.",
+        "Issued"
+      ],
+      [
+        "Rebreather Filter",
+        "Passive",
+        "For one mission scene, advantage on saves against gas, smoke, airborne toxins or foul atmosphere.",
+        "Issued"
+      ],
+      [
+        "Void Patch Kit",
+        "Action",
+        "Seal a breached suit, cracked visor, pressure leak or small hull gap; usually DC 10 Technology or Survival under pressure.",
+        "Controlled"
+      ],
+      [
+        "Stimm Slug",
+        "Bonus action",
+        "For 1 minute, gain +10 ft speed and temporary HP equal to your proficiency bonus; then make a DC 12 Constitution saving throw or gain one level of exhaustion.",
+        "Controlled"
+      ],
+      [
+        "Purity Seal Charm",
+        "Reaction",
+        "Once, when you fail a save against fear, corruption or psychic horror, add 1d4 to the roll; consumed or ritually spent.",
+        "Controlled"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 103,
+    "printedPage": 90,
+    "top": 150.4,
+    "rows": [
+      [
+        "Availability",
+        "Base DC",
+        "Typical Examples"
+      ],
+      [
+        "Issued",
+        "8",
+        "Routine class gear, common ammunition and ordinary tools."
+      ],
+      [
+        "Controlled",
+        "11",
+        "Grenades, specialist ammunition, carapace components and surveillance gear."
+      ],
+      [
+        "Scarce",
+        "14",
+        "Plasma fuel, advanced auspexes, quality bionics and specialist transport."
+      ],
+      [
+        "Rare",
+        "17",
+        "Power weapons, refractor fields, advanced implants and sealed archives."
+      ],
+      [
+        "Exceptional",
+        "20",
+        "Master-crafted wargear, conversion fields, elite vehicles and major relic access."
+      ],
+      [
+        "Near-Unique",
+        "24",
+        "Named archeotech, irreplaceable prototypes and singular institutional assets."
+      ],
+      [
+        "Unique",
+        "No ordinary test",
+        "Requires a mission, inheritance, political intervention or equivalent story event."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 103,
+    "printedPage": 90,
+    "top": 294.4,
+    "rows": [
+      [
+        "Approach",
+        "Typical Skill"
+      ],
+      [
+        "Formal Request",
+        "Persuasion"
+      ],
+      [
+        "Locate Supply",
+        "Investigation"
+      ],
+      [
+        "Mechanicus Petition",
+        "Technology"
+      ],
+      [
+        "Religious Petition",
+        "Religion"
+      ],
+      [
+        "Black Market",
+        "Deception or Investigation"
+      ],
+      [
+        "Personal Leverage",
+        "Any appropriate skill approved by the GM"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 103,
+    "printedPage": 90,
+    "top": 406.3,
+    "rows": [
+      [
+        "Result",
+        "Outcome"
+      ],
+      [
+        "Failure by 5+",
+        "Refusal or a dangerous source; the attempt may create Heat, debt or misinformation."
+      ],
+      [
+        "Failure by 1-4",
+        "Available with a complication such as delay, substitute, debt, limited charges or damaged condition."
+      ],
+      [
+        "Success",
+        "Available as requested for the mission or agreed period."
+      ],
+      [
+        "Success by 5+",
+        "Improved condition, extra supplies, faster delivery or discreet paperwork."
+      ],
+      [
+        "Natural 20",
+        "No automatic miracle; add favourable provenance, a useful introduction or future access."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 103,
+    "printedPage": 90,
+    "top": 716.9,
+    "rows": [
+      [
+        "Provenance",
+        "Normal Access",
+        "Typical Complication"
+      ],
+      [
+        "Imperial General",
+        "Militarum, Arbites, Inquisition, sanctioned institutions and ordinary Imperial markets.",
+        "Rank, paperwork, mission need, local shortages or questions about ownership."
+      ],
+      [
+        "Mechanicus",
+        "Forge worlds, tech-priests, Skitarii supply and approved workshops.",
+        "Ritual restrictions, machine-cult authority, data access or maintenance dependency."
+      ],
+      [
+        "Kin",
+        "Kin holds, guilds, prospectors and trusted trade contacts.",
+        "Cultural ownership, ammunition compatibility and reluctance to arm outsiders."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 104,
+    "printedPage": 91,
+    "top": 46.8,
+    "rows": [
+      [
+        "Provenance",
+        "Normal Access",
+        "Typical Complication"
+      ],
+      [
+        "Aeldari",
+        "Craftworld, ranger, corsair or outcast networks.",
+        "Imperial illegality, alien maintenance, hidden obligations and suspicion from both sides."
+      ],
+      [
+        "Proscribed / Heretical",
+        "No routine lawful source.",
+        "Confiscation, corruption, Heat, investigation, spiritual danger or outright execution if exposed."
+      ],
+      [
+        "Black Market",
+        "Brokers, smugglers, gangers, scavengers and corrupt officials.",
+        "Fraud, debt, damaged goods, traceable serials, betrayal or the wrong provenance."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 104,
+    "printedPage": 91,
+    "top": 251.3,
+    "rows": [
+      [
+        "Tier",
+        "Levels",
+        "Normal Access",
+        "Typical Exceptional Reward"
+      ],
+      [
+        "Tier 1",
+        "1-4",
+        "Issued and Controlled gear. Scarce items appear as specialist mission assets.",
+        "One Scarce item, unusual modification, or limited- use specialist ammunition."
+      ],
+      [
+        "Tier 2",
+        "5-10",
+        "Issued, Controlled and Scarce gear. Rare items become plausible rewards or difficult requisitions.",
+        "A Rare weapon, advanced augmetic, field or power weapon, or first master-crafted item."
+      ],
+      [
+        "Tier 3",
+        "11-16",
+        "Scarce gear is routine for established warbands; Rare equipment is attainable through strong faction access.",
+        "Exceptional armoury access, advanced master- crafted gear, archeotech fragments or major faction-specific wargear."
+      ],
+      [
+        "Tier 4",
+        "17-20",
+        "Rare equipment can be expected around elite operatives. Exceptional gear remains politically and narratively important.",
+        "Exceptional or Near-Unique relic access tied to major obligations, patrons or campaign events."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 104,
+    "printedPage": 91,
+    "top": 420.2,
+    "rows": [
+      [
+        "Modification",
+        "Availability",
+        "Effect"
+      ],
+      [
+        "Bayonet / Breaching Lug",
+        "Issued",
+        "A suitable ranged weapon can be used as a 1d6 piercing melee weapon without drawing another weapon. It is not Finesse unless the base weapon is Light."
+      ],
+      [
+        "Extended Magazine / Charge Pack",
+        "Controlled",
+        "Increase the weapon's Reload value by 25%, rounded up. Does not apply to Reload 1 weapons or single-use launchers."
+      ],
+      [
+        "Reflex Sight",
+        "Controlled",
+        "Once per short rest, after you roll a ranged attack but before the result is declared, add +1d4 to the roll."
+      ],
+      [
+        "Camo Wrap / Low-Signature Furniture",
+        "Controlled",
+        "Advantage on one check per short rest to conceal, hide or disguise the weapon."
+      ],
+      [
+        "Recoil Compensation",
+        "Scarce",
+        "Once per short rest, ignore disadvantage or another penalty caused specifically by moving before firing a Heavy weapon."
+      ],
+      [
+        "Targeting Optic",
+        "Scarce",
+        "When you Aim and do not move before the attack, ignore Light Cover on one ranged attack."
+      ],
+      [
+        "Reinforced Action",
+        "Scarce",
+        "The first time each mission the weapon would become Damaged because of a malfunction, harsh environment or failed maintenance check, it remains Serviceable instead."
+      ],
+      [
+        "Sanctified Fittings",
+        "Rare",
+        "Once per turn when the weapon damages a daemon, Warp-Born creature or explicitly corrupted target, add +1 radiant damage per weapon damage die."
+      ],
+      [
+        "Archeotech Interface",
+        "Exceptional",
+        "Choose one compatible advanced modification that normally could not be fitted to this pattern. Installation requires exceptional facilities and GM approval."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 104,
+    "printedPage": 91,
+    "top": 712.9,
+    "rows": [
+      [
+        "Masterwork Trait",
+        "Eligible Item",
+        "Effect"
+      ],
+      [
+        "Perfect Balance",
+        "Melee or ranged weapon",
+        "Gain +1 to attack rolls made with the item."
+      ],
+      [
+        "Artificer Edge",
+        "Melee weapon",
+        "Once per turn when you roll weapon damage, reroll one damage die and use the new result."
+      ],
+      [
+        "Precision Barrel / Focusing Array",
+        "Ranged weapon",
+        "Increase normal range by 25%. This does not increase maximum range beyond double the new normal range."
+      ],
+      [
+        "Rapid Feed",
+        "Reload weapon",
+        "Increase Reload by 50%, rounded up. Does not stack with Extended Magazine."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 105,
+    "printedPage": 92,
+    "top": 46.8,
+    "rows": [
+      [
+        "Masterwork Trait",
+        "Eligible Item",
+        "Effect"
+      ],
+      [
+        "Recoil Compensation",
+        "Heavy ranged weapon",
+        "Moving before firing no longer imposes a penalty from the Heavy property, though other Heavy restrictions still apply."
+      ],
+      [
+        "Compact Pattern",
+        "Pistol, basic firearm or compact melee weapon",
+        "Advantage on checks to conceal the item; it can be readied from concealment without an item interaction once per turn."
+      ],
+      [
+        "Artificer Armour",
+        "Armour",
+        "Increase the armour's AC by +1. A shield or field cannot gain this trait."
+      ],
+      [
+        "Responsive Plating",
+        "Armour",
+        "Once per short rest, reduce damage from one non-critical weapon hit by your proficiency bonus."
+      ],
+      [
+        "Sealed Systems",
+        "Armour",
+        "Gain advantage on saves against gas, smoke and airborne toxins. If the armour is already sealed, it also tolerates brief vacuum exposure without a separate suit breach test."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 105,
+    "printedPage": 92,
+    "top": 238.0,
+    "rows": [
+      [
+        "Ammunition",
+        "Availability",
+        "Effect"
+      ],
+      [
+        "Tracer / Target-Marking",
+        "Controlled",
+        "The first creature hit during the Reload cycle is easier to track; the next allied ranged attack against it before your next turn ignores Light Cover."
+      ],
+      [
+        "Manstopper",
+        "Controlled",
+        "Projectile weapons only. Once per turn, add +1 damage against a target wearing armour of AC 13 or lower before Dexterity."
+      ],
+      [
+        "Armour-Piercing",
+        "Scarce",
+        "Projectile or bolt weapons only. Once during the Reload cycle, one attack gains Armour-Breaking. Declare before the attack roll."
+      ],
+      [
+        "Incendiary",
+        "Scarce",
+        "Suitable projectile, bolt or flamer weapons. Once per turn on a hit, deal +1d4 fire damage. The ammunition is conspicuous and rarely appropriate for stealth."
+      ],
+      [
+        "Hot-Shot Charge Pack",
+        "Scarce",
+        "Las weapons only. Once per turn, add +1d4 radiant damage, but the weapon gains Overheat for that Reload cycle."
+      ],
+      [
+        "Sanctified Ammunition",
+        "Rare",
+        "On a hit against a daemon, Warp-Born creature or explicitly corrupted target, add +1d4 radiant damage."
+      ],
+      [
+        "Xenos / Exotic Magazine",
+        "Rare",
+        "Restores one Reload cycle for a matching xenos or otherwise exotic weapon. It does not grant a new property by itself."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 105,
+    "printedPage": 92,
+    "top": 454.4,
+    "rows": [
+      [
+        "Step",
+        "Player Procedure"
+      ],
+      [
+        "1. Secure",
+        "The item must actually be recovered from the scene. A retreat, collapsing site or hostile reinforcements can make this impossible."
+      ],
+      [
+        "2. Assess",
+        "Use Investigation, Technology or an appropriate tool proficiency when the item's condition, traps, corruption or unfamiliar technology is uncertain."
+      ],
+      [
+        "3. Restore",
+        "Damaged or Worn gear may require parts, a maintenance kit, workshop time or a project before it can be trusted."
+      ],
+      [
+        "4. Integrate",
+        "Unfamiliar, species-pattern, Mechanicus, xenos or proscribed gear may require training, an interface, ammunition or a specialist before use."
+      ],
+      [
+        "5. Explain",
+        "If authorities care about ownership or legality, the warband needs a believable provenance, permit, patron or very convincing lie."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 105,
+    "printedPage": 92,
+    "top": 739.3,
+    "rows": [
+      [
+        "Condition",
+        "Effect"
+      ],
+      [
+        "Pristine",
+        "Exceptionally maintained. Ignore the first event each mission that would reduce the item's Condition."
+      ],
+      [
+        "Serviceable",
+        "Normal function with no penalty."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 106,
+    "printedPage": 93,
+    "top": 46.8,
+    "rows": [
+      [
+        "Condition",
+        "Effect"
+      ],
+      [
+        "Worn",
+        "On a natural 1 during demanding use, the item becomes Damaged after resolving the action."
+      ],
+      [
+        "Damaged",
+        "One property or benefit chosen by the GM is unavailable until repaired. A natural 1 during demanding use can cause complete failure."
+      ],
+      [
+        "Ruined",
+        "The item cannot function until rebuilt or replaced with appropriate facilities and parts."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 106,
+    "printedPage": 93,
+    "top": 192.1,
+    "rows": [
+      [
+        "Equipment Grade",
+        "Typical Replacement"
+      ],
+      [
+        "Issued",
+        "If the character still has an appropriate patron or institution, ordinary class equipment and common ammunition are normally replaced between authorised missions without a roll."
+      ],
+      [
+        "Controlled",
+        "Usually replaced with a routine Requisition test, paperwork or a short downtime action."
+      ],
+      [
+        "Scarce",
+        "Requires a Requisition test and a plausible supply source. Replacement may be delayed, substituted or issued only for a mission."
+      ],
+      [
+        "Rare",
+        "Requires strong access, Standing, a specialist source or a specific reward. Loss should matter."
+      ],
+      [
+        "Exceptional",
+        "Normally a campaign objective, patron decision, inheritance, major favour or difficult project rather than a routine request."
+      ],
+      [
+        "Near-Unique / Unique",
+        "Cannot be assumed replaceable. Recovery, reconstruction or replacement should be a story in its own right."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 106,
+    "printedPage": 93,
+    "top": 738.6,
+    "rows": [
+      [
+        "Item",
+        "Availability",
+        "Effect"
+      ],
+      [
+        "Inferno Pistol",
+        "Exceptional",
+        "2d10 fire; 20/60 ft; Light, Armour-Breaking, Reload 2. Aeldari-pattern cells and maintenance are normally required."
+      ],
+      [
+        "Grav-Pistol",
+        "Rare",
+        "1d10 force; 40/120 ft; Armour-Breaking, Reload 6. Once per turn against AC 17+, a vehicle or a structure, deal +1d6 force damage."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 107,
+    "printedPage": 94,
+    "top": 46.8,
+    "rows": [
+      [
+        "Item",
+        "Availability",
+        "Effect"
+      ],
+      [
+        "Grav-Gun",
+        "Exceptional",
+        "2d8 force; 60/180 ft; Heavy, Armour-Breaking, Reload 6. On a hit against AC 17+, a vehicle or a Large or larger creature, it must pass a Strength saving throw or lose 10 ft Speed until your next turn."
+      ],
+      [
+        "Digital Weapon",
+        "Rare",
+        "Concealed accessory. Once per short rest, after you hit a creature within 10 ft, deal +1d6 radiant or fire damage. It is not found without a deliberate search or suitable auspex."
+      ],
+      [
+        "Null Rod",
+        "Exceptional",
+        "While held, gain advantage on saves against psychic and daemonic effects. Once per short rest, use your reaction to reduce psychic or force damage to you by 2d8; a Warp-using source also gains +1 Warp Pressure."
+      ],
+      [
+        "Rosarius",
+        "Exceptional",
+        "Force-field icon. Once per short rest, use your reaction to reduce damage to yourself by 2d8 + proficiency bonus. If this reduces the damage to 0, gain advantage on your next fear or Corruption save before the end of your next turn."
+      ],
+      [
+        "Displacer Field",
+        "Near-Unique",
+        "Once per short rest, when an attack hits you, use your reaction to teleport up to 10 ft to an unoccupied space you can see and halve the triggering damage. If no safe space exists, the reaction cannot be used."
+      ],
+      [
+        "Conversion Beamer",
+        "Exceptional",
+        "2d10 force; 120/360 ft; Heavy, Beam, Emplaced, Reload 2. If the primary target is at least 60 ft away, add +1d10 force damage."
+      ],
+      [
+        "Teleport Homer",
+        "Rare",
+        "Action to deploy. Once per long rest, a friendly teleport, drop or extraction that can lock onto the homer may arrive within 10 ft of it without scatter or positional error, subject to campaign access."
+      ],
+      [
+        "Stasis Grenade",
+        "Exceptional",
+        "Consumable. 10-ft radius; Constitution save. Failure: Restrained and Incapacitated until the start of the thrower's next turn. Success: Speed halved and no reactions for the same duration."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 107,
+    "printedPage": 94,
+    "top": 328.7,
+    "rows": [
+      [
+        "Item",
+        "Availability",
+        "Effect"
+      ],
+      [
+        "Volkite Serpenta",
+        "Exceptional",
+        "1d10 radiant/fire; 50/150 ft; Light, Reload 8. Once per turn when you hit a Bloodied target, deal +1d6 fire damage."
+      ],
+      [
+        "Volkite Charger",
+        "Near-Unique",
+        "2d8 radiant/fire; 80/240 ft; Burst, Reload 12. Once per turn, if the target has already taken damage this round, deal +1d8 fire damage."
+      ],
+      [
+        "Suspensor Harness",
+        "Exceptional",
+        "Choose one Heavy weapon you carry. You ignore its movement-based Heavy penalty. If it is Emplaced, you may fire it as though it were merely Heavy while the harness is functioning. Requires Strength 13+ or an appropriate interface."
+      ],
+      [
+        "Archeotech Logic Engine",
+        "Exceptional",
+        "Advantage on Technology checks to identify or operate ancient machinery. Once per short rest, after rolling an Intelligence or Technology check, add 1d8 before the result is declared."
+      ],
+      [
+        "Phase-Shunt Field",
+        "Near-Unique",
+        "Once per long rest when damage would reduce you to 0 HP but not kill you outright, remain at 1 HP and teleport up to 15 ft to a visible unoccupied space. The field becomes Damaged after use until properly repaired."
+      ],
+      [
+        "Medicae Crucible",
+        "Exceptional",
+        "Once per long rest as an action, a creature you touch regains 4d8 + proficiency bonus HP and ends Poisoned or one disease. It may suppress one lasting-injury penalty until its next long rest, but does not cure the injury."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 107,
+    "printedPage": 94,
+    "top": 554.4,
+    "rows": [
+      [
+        "Relic",
+        "Availability",
+        "Effect"
+      ],
+      [
+        "The Last Light - Imperial",
+        "Near-Unique",
+        "Lasgun: 1d10 radiant; 100/300 ft; Accurate, Armour-Breaking, Reload 30. Once per short rest on a hit, choose a second creature directly behind the target within 30 ft; if the original attack roll would hit it, it takes 1d10 radiant damage."
+      ],
+      [
+        "Bulwark of Saint Drusus - Imperial",
+        "Near-Unique",
+        "Refractor relic. Once per short rest, reaction to reduce damage to you by 2d8 + proficiency bonus; allies within 5 ft reduce the same instance of area damage by your proficiency bonus. Burden: Ecclesiarchal or Inquisitorial ownership is likely."
+      ],
+      [
+        "Martyr's Censer - Imperial",
+        "Exceptional",
+        "Once per long rest as an action, for 1 minute, allies within 15 ft have advantage on fear and Corruption saves. Daemons and explicitly corrupted creatures that start their turn in the aura take radiant damage equal to your proficiency bonus."
+      ],
+      [
+        "Arc of the Reductor - Mechanicus",
+        "Near-Unique",
+        "Arc rifle: 2d8 lightning; 80/240 ft; Shock, Armour-Breaking, Mechanicus, Reload 8. Once per short rest, a hit against a machine, vehicle or structure becomes a critical hit."
+      ],
+      [
+        "Omnissian Data-Relic - Mechanicus",
+        "Near-Unique",
+        "While interfaced, gain +1 to Technology checks and advantage to identify Mechanicus systems. Once per short rest, reroll a failed Technology check. Burden: the Cult Mechanicus regards the device as institutional property."
+      ],
+      [
+        "Big Lug's Door - Ogryn",
+        "Near-Unique",
+        "+2 AC; Ogryn only; counts as a Slab Shield. If you did not move this turn, one Small or Medium ally directly behind you has Full Cover. Once per short rest when a ranged attack misses you, move 5 ft toward the attacker without provoking opportunity attacks."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 108,
+    "printedPage": 95,
+    "top": 46.8,
+    "rows": [
+      [
+        "Relic",
+        "Availability",
+        "Effect"
+      ],
+      [
+        "Grutt's Lucky Club - Ogryn",
+        "Exceptional",
+        "2d6 bludgeoning; Melee; Ogryn, Heavy, Brutal. Once per short rest when you miss with it, reroll the attack. If the reroll hits a Large or smaller target, it must pass a Strength save or be pushed 10 ft."
+      ],
+      [
+        "Ancestor-Wrought Rail Rifle - Kin",
+        "Near-Unique",
+        "2d10 force; 150/450 ft; Accurate, Heavy, Armour-Breaking, Reload 2. Once per short rest, one attack ignores Light and Heavy Cover and one source of resistance to its weapon damage."
+      ],
+      [
+        "Oathplate of the First Claim - Kin",
+        "Near-Unique",
+        "AC 17, max Dex +1; Kin only; no Speed penalty. Once per short rest, ignore one effect that would shove, knock you prone, or reduce your Speed. Allies within 5 ft gain +1 to saves against forced movement while you are conscious."
+      ],
+      [
+        "Ghosthelm of the Wandering Seer - Aeldari",
+        "Near-Unique",
+        "Aeldari Warlock or GM-approved Psyker. Once per long rest when Perils trigger, treat the severity result as Warp Static. After resolving it, reduce your Warp Pressure by your proficiency bonus, minimum 0."
+      ],
+      [
+        "Starfall Long Rifle - Aeldari",
+        "Near-Unique",
+        "1d10 piercing; 180/720 ft; Accurate, Silent, Monomolecular, Reload 6. If you are Hidden and did not move this turn, attacks with it score a critical hit on 19-20. Once per short rest, ignore Heavy Cover on one attack."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 108,
+    "printedPage": 95,
+    "top": 264.5,
+    "rows": [
+      [
+        "Unique Item",
+        "Availability",
+        "Effect and Burden"
+      ],
+      [
+        "Halo of Saint Varro",
+        "Unique",
+        "Once per long rest as a bonus action, for 1 minute, you and allies within 15 ft have advantage on fear and Corruption saves; you gain resistance to psychic and force damage. Burden: visible possession attracts Ecclesiarchal attention and expectations."
+      ],
+      [
+        "Heart-Key of the Red Vault",
+        "Unique",
+        "Mechanicus interface. Once per long rest, treat one Technology check to unlock, disable or command a machine, security system or vehicle of DC 20 or lower as a success. Against harder systems, make the check with advantage and add 1d10. Burden: multiple forge worlds claim it."
+      ],
+      [
+        "The First Oathstone",
+        "Unique",
+        "Kin relic. Once per long rest, when a creature harms you or an ally within 30 ft, name it oath-bound for 1 minute. Once each round when an ally hits that creature, that ally adds your proficiency bonus to the damage. Burden: abandoning the oath has serious cultural consequences."
+      ],
+      [
+        "The Veiled Eye",
+        "Unique",
+        "Aeldari spirit-lens. Once per long rest as a bonus action, for 1 minute, you can see Invisible and Hidden creatures within 60 ft, cannot be Surprised, and your ranged attacks ignore Light Cover. Burden: The item carries a psychic echo noticeable to Aeldari and Warp-sensitive beings."
+      ],
+      [
+        "The Door That Would Not Break",
+        "Unique",
+        "+2 AC; Ogryn only; counts as a Slab Shield and has no Speed penalty. If you do not move, up to two Small or Medium allies directly behind you have Full Cover. Once per long rest, when a weapon attack hits you, reduce that attack's damage to 0. Burden: it is enormous and impossible to conceal."
+      ],
+      [
+        "The Ghost's Coin",
+        "Unique",
+        "Black-market data-sigil. Once per long rest, produce a convincing identity, access token or ownership record appropriate to the current settlement or institution; for one scene, gain advantage on Deception and Investigation checks that rely on it. Burden: every use risks attracting whoever originally issued the stolen credentials."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 110,
+    "printedPage": 97,
+    "top": 233.8,
+    "rows": [
+      [
+        "d8",
+        "Injury",
+        "Until Treated"
+      ],
+      [
+        "1",
+        "Concussion",
+        "Disadvantage on the first Intelligence or Wisdom test after each rest."
+      ],
+      [
+        "2",
+        "Damaged Arm",
+        "Cannot use Heavy or two-handed weapons; disadvantage on tasks requiring both hands."
+      ],
+      [
+        "3",
+        "Damaged Leg",
+        "Speed reduced by 10 ft; disadvantage on saves against being knocked prone."
+      ],
+      [
+        "4",
+        "Internal Trauma",
+        "Maximum HP reduced by your character level."
+      ],
+      [
+        "5",
+        "Eye Injury",
+        "Disadvantage on sight-based Perception and ranged attacks beyond normal range."
+      ],
+      [
+        "6",
+        "Respiratory Damage",
+        "Environmental smoke, gas and exertion cause Exposure one step faster when that system is in use."
+      ],
+      [
+        "7",
+        "Nerve Damage",
+        "Cannot take reactions during the first round of combat."
+      ],
+      [
+        "8",
+        "Severe Scarring",
+        "No universal combat penalty; choose one social context in which the scar changes reactions."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 110,
+    "printedPage": 97,
+    "top": 370.1,
+    "rows": [
+      [
+        "Care",
+        "Capabilities"
+      ],
+      [
+        "Improvised",
+        "Stabilisation, basic wound care, common med-stims and splints; no major surgery."
+      ],
+      [
+        "Field Medicae",
+        "Treat combat wounds, infection, poison and uncomplicated surgery."
+      ],
+      [
+        "Hospital / Regimental",
+        "Major surgery, rehabilitation, organ support and standard bionic replacement."
+      ],
+      [
+        "Specialist",
+        "Advanced augmetics, rare disease treatment, psychic care or xenobiological expertise."
+      ],
+      [
+        "Exceptional",
+        "Archeotech intervention, elite Mechanicus reconstruction or unique institutional resources."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 112,
+    "printedPage": 99,
+    "top": 113.5,
+    "rows": [
+      [
+        "Tier",
+        "Suggested Pace"
+      ],
+      [
+        "Tier 1: Levels 1-4",
+        "One level every 2-4 sessions."
+      ],
+      [
+        "Tier 2: Levels 5-10",
+        "One level every 3-5 sessions."
+      ],
+      [
+        "Tier 3: Levels 11-16",
+        "One level every 4-6 sessions."
+      ],
+      [
+        "Tier 4: Levels 17-20",
+        "Advance at major campaign turning points."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 114,
+    "printedPage": 101,
+    "top": 455.8,
+    "rows": [
+      [
+        "Difficulty",
+        "Example",
+        "DC"
+      ],
+      [
+        "Routine",
+        "Clear road, ordinary turn, controlled stop",
+        "None"
+      ],
+      [
+        "Demanding",
+        "Sharp turn, loose surface, narrow opening",
+        "10"
+      ],
+      [
+        "Dangerous",
+        "Dense wreckage, unstable bridge, hard evasive turn",
+        "13"
+      ],
+      [
+        "Extreme",
+        "Broken causeway jump or collapsing route",
+        "16"
+      ],
+      [
+        "Exceptional",
+        "A barely possible stunt under severe pressure",
+        "20"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 115,
+    "printedPage": 102,
+    "top": 97.7,
+    "rows": [
+      [
+        "Action",
+        "Effect"
+      ],
+      [
+        "Drive Hard",
+        "Driver: move up to the vehicle’s Speed again. Once per vehicle per round. Until the driver’s next turn, attacks from it have disadvantage and targets have advantage on saves against its mounted area weapons."
+      ],
+      [
+        "Evasive Driving",
+        "Driver: declare before vehicle movement; cap that movement at half Speed. Until the driver’s next turn, attacks against the hull have disadvantage and it has advantage on Dexterity saves. Attacks from it have disadvantage; targets have advantage on saves against its mounted area weapons. Cannot combine with Drive Hard."
+      ],
+      [
+        "Fire a Mount",
+        "At its station, make one mounted attack or use one mounted area weapon. Extra Attack does not add shots. Each mount can fire only once per round, including reactions."
+      ],
+      [
+        "Reload a Mount",
+        "At its station or loader position, reload one mount. Each mount can be reloaded only once per round."
+      ],
+      [
+        "Spot or Assist",
+        "Use Help to give one ally advantage on their next driving check or mounted attack before your next turn. A useful view, communication and plausible assistance are required."
+      ],
+      [
+        "Damage Control",
+        "At the affected system: action and DC 13 Intelligence (Technology) check to clear one weapon jam, engine stall or vehicle fire. Restores no HP."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 116,
+    "printedPage": 103,
+    "top": 255.4,
+    "rows": [
+      [
+        "d6",
+        "Breakdown",
+        "Effect"
+      ],
+      [
+        "1",
+        "Running gear",
+        "Speed is halved until repaired; minimum 5 ft unless already 0."
+      ],
+      [
+        "2",
+        "Steering",
+        "Disadvantage on driving checks and vehicle Dexterity saves until repaired."
+      ],
+      [
+        "3",
+        "Weapon jam",
+        "One random fitted mount cannot fire until Damage Control succeeds. With no mount, use result 2."
+      ],
+      [
+        "4",
+        "Hull breach",
+        "Lose Sealed. One random enclosed occupant position provides only Heavy Cover until repaired."
+      ],
+      [
+        "5",
+        "Engine stall",
+        "Speed becomes 0 and remaining movement is lost until Damage Control succeeds."
+      ],
+      [
+        "6",
+        "Vehicle fire",
+        "At the end of the driver’s turn, hull takes 2d6 fire damage ignoring DT. If uncontrolled, use the former driver’s initiative. Damage Control extinguishes it."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 117,
+    "printedPage": 104,
+    "top": 134.4,
+    "rows": [
+      [
+        "Band",
+        "Separation",
+        "Range"
+      ],
+      [
+        "0 — Contact",
+        "Alongside or immediately behind",
+        "10 ft"
+      ],
+      [
+        "1 — Close",
+        "A short stretch of road",
+        "60 ft"
+      ],
+      [
+        "2 — Near",
+        "A clear firing lane",
+        "120 ft"
+      ],
+      [
+        "3 — Far",
+        "Terrain or traffic intervenes",
+        "240 ft"
+      ],
+      [
+        "4 — Distant",
+        "Almost lost from sight",
+        "480 ft"
+      ],
+      [
+        "5 — Lost",
+        "Beyond immediate pursuit",
+        "Out of sight"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 117,
+    "printedPage": 104,
+    "top": 423.0,
+    "rows": [
+      [
+        "Work",
+        "Requirements",
+        "Result"
+      ],
+      [
+        "Damage Control",
+        "Action; DC 13 Technology",
+        "Clear one jam, stall or fire; no HP or parts."
+      ],
+      [
+        "Field repair",
+        "10 minutes, tools, one repair kit; DC 13 Technology",
+        "Restore 2d6 + Intelligence HP (minimum 1), OR clear one persistent breakdown. One attempt per vehicle between long rests. Failure spends the kit. Cannot repair a wreck."
+      ],
+      [
+        "Workshop repair",
+        "One hour, workshop, one kit or equivalent parts",
+        "Restore one quarter maximum HP, rounded up, and clear one breakdown. Repeat with more time and parts; no check for routine work."
+      ],
+      [
+        "Rebuild a wreck",
+        "Eight hours, workshop, major replacement parts; DC 15 Technology",
+        "Restore one quarter maximum HP and clear all breakdowns. One attempt per day. Failure spends time but does not destroy the parts."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 118,
+    "printedPage": 105,
+    "top": 218.7,
+    "rows": [
+      [
+        "Upgrade",
+        "Availability",
+        "Effect"
+      ],
+      [
+        "Reinforced plating",
+        "Rare",
+        "Add 20 maximum and current HP when fitted. Speed −10 ft, minimum 10 ft. Removal removes 20 current HP, minimum 1. No AC or DT increase."
+      ],
+      [
+        "Smoke launchers",
+        "Controlled",
+        "iTnwcor euassees. per mission. Driver or gunner action creates stationary smoke in a 20-ft radius centred on the vehicle until the start of that operator’s next turn. Attacks through it have disadvantage; no protection against area effects."
+      ],
+      [
+        "Auspex survey suite",
+        "Scarce",
+        "A crew member scanning as an action gains advantage on one Perception or Survival check for routes, obstacles or ambushes within 300 ft. Does not see through solid barriers."
+      ],
+      [
+        "Recovery winch",
+        "Controlled",
+        "At rest, an operator’s action pulls an unsecured or willing object up to cargo capacity by 10 ft. With a sound anchor, ten minutes frees the vehicle from ordinary mud or a shallow ditch."
+      ],
+      [
+        "All-terrain running gear",
+        "Scarce",
+        "Wheeled or tracked chassis ignores difficult terrain from mud, loose rubble and shallow debris; not walls, deep water or impassable slopes."
+      ],
+      [
+        "Sealed compartment",
+        "Rare",
+        "Enclosed chassis gains Sealed and one hour of internal air. Cannot fit to exposed bikes or open-topped vehicles."
+      ],
+      [
+        "Ogryn accommodation",
+        "Controlled",
+        "Convert one suitable crew station for an Ogryn OR reinforce suitable passenger space so an Ogryn uses two spaces instead of three. Choose one version; no duplicates. Chassis must have enough physical room."
+      ],
+      [
+        "Spare-parts locker",
+        "Scarce",
+        "Includes two repair kits. Once per mission reroll one failed field-repair check, using the new result. Expended kits need replacement; locker remains reusable."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 121,
+    "printedPage": 108,
+    "top": 134.4,
+    "rows": [
+      [
+        "Weapon",
+        "Damage",
+        "Range",
+        "Properties",
+        "Availability"
+      ],
+      [
+        "Heavy stubber",
+        "1d12 piercing",
+        "120/360",
+        "Burst, Suppression; Reload 40",
+        "Controlled"
+      ],
+      [
+        "Heavy bolter",
+        "1d12 piercing + 1d6 thunder",
+        "100/300",
+        "Burst, Brutal, Suppression; Reload 30",
+        "Scarce"
+      ],
+      [
+        "Multi-laser",
+        "2d8 radiant",
+        "120/360",
+        "Burst; Reload 40",
+        "Scarce"
+      ],
+      [
+        "Autocannon",
+        "2d10 piercing",
+        "160/480",
+        "Armour-Breaking; Reload 10",
+        "Rare"
+      ],
+      [
+        "Lascannon",
+        "4d10 radiant",
+        "200/600",
+        "Armour-Breaking; Reload 5",
+        "Rare"
+      ],
+      [
+        "Battle cannon",
+        "3d10 piercing + 3d10 thunder",
+        "240",
+        "15-ft radius; Armour-Breaking; Reload 1",
+        "Exceptional"
+      ],
+      [
+        "Bolt cannon",
+        "3d8 piercing",
+        "120/360",
+        "Burst, Brutal; Reload 12",
+        "Rare"
+      ],
+      [
+        "HYLas rotary cannon",
+        "3d8 radiant",
+        "120/360",
+        "Burst; Reload 20",
+        "Rare"
+      ],
+      [
+        "Magna-coil autocannon",
+        "3d10 piercing",
+        "160/480",
+        "Armour-Breaking; Reload 8",
+        "Rare"
+      ],
+      [
+        "Scatter laser",
+        "3d8 radiant",
+        "160/480",
+        "Burst; Reload 24",
+        "Rare"
+      ],
+      [
+        "Shuriken cannon",
+        "2d10 slashing",
+        "120/360",
+        "Burst, Monomolecular; Reload 18",
+        "Rare"
+      ],
+      [
+        "Twin shuriken catapults",
+        "1d8 slashing",
+        "60/180",
+        "Burst, Monomolecular, Twin-Linked; Reload 24",
+        "Scarce"
+      ],
+      [
+        "Pulse laser",
+        "4d10 radiant",
+        "200/600",
+        "Armour-Breaking; Reload 6",
+        "Exceptional"
+      ]
+    ]
+  },
+  {
+    "pdfPage": 123,
+    "printedPage": 110,
+    "top": 74.7,
+    "rows": [
+      [
+        "Rule",
+        "Reference"
+      ],
+      [
+        "Attack roll",
+        "d20 + proficiency bonus (if proficient) + relevant ability modifier."
+      ],
+      [
+        "Ability/skill check",
+        "d20 + relevant ability modifier + proficiency bonus if proficient in the applicable skill or tool."
+      ],
+      [
+        "Saving throw",
+        "d20 + relevant ability modifier + proficiency bonus if proficient in that saving throw."
+      ],
+      [
+        "Weapon save DC",
+        "8 + proficiency bonus + ability modifier used for the weapon."
+      ],
+      [
+        "Psychic save DC",
+        "8 + proficiency bonus + Intelligence or Wisdom modifier."
+      ],
+      [
+        "Psychic attack",
+        "d20 + proficiency bonus + Intelligence or Wisdom modifier."
+      ],
+      [
+        "Grenade save DC",
+        "8 + proficiency bonus + Dexterity modifier unless a feature says otherwise."
+      ],
+      [
+        "Initiative",
+        "d20 + Dexterity modifier unless a feature says otherwise."
+      ],
+      [
+        "Proficiency bonus",
+        "Levels 1-4: +2; 5-8: +3; 9-12: +4; 13-16: +5; 17-20: +6."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 123,
+    "printedPage": 110,
+    "top": 202.4,
+    "rows": [
+      [
+        "On Your Turn",
+        "Reference"
+      ],
+      [
+        "Movement",
+        "Move up to your Speed. You may split movement before and after your action if the movement is otherwise legal."
+      ],
+      [
+        "Action",
+        "Usually Attack, Dash, Disengage, Dodge, Help, Hide, Ready, Reload, Use Mission Gear, grapple, shove or another action granted by a rule."
+      ],
+      [
+        "Bonus Action",
+        "You have one only when a feature, Talent, item or other rule grants a use for it."
+      ],
+      [
+        "Reaction",
+        "One between the start of your turn and the start of your next turn. Opportunity attacks and many class features use it."
+      ],
+      [
+        "Object Interaction",
+        "One simple interaction such as opening an unlocked door, drawing a readily accessible item or pressing a control, when the GM considers it reasonable."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 123,
+    "printedPage": 110,
+    "top": 328.0,
+    "rows": [
+      [
+        "Rule",
+        "Reference"
+      ],
+      [
+        "Normal/maximum range",
+        "At or within normal range: no penalty. Beyond normal and up to maximum: disadvantage. Beyond maximum: cannot attack."
+      ],
+      [
+        "Close-quarters shooting",
+        "Ranged attacks while a hostile creature is within 5 ft have disadvantage unless the weapon or feature ignores it."
+      ],
+      [
+        "Opportunity attack",
+        "Reaction; one melee attack when a visible hostile creature leaves your reach using its own movement. Disengage prevents it."
+      ],
+      [
+        "Grapple",
+        "Replace one attack; Strength (Athletics) contested by target's Athletics or Acrobatics. Success: target grappled."
+      ],
+      [
+        "Shove",
+        "Replace one attack; same contest as grapple. Success: push 5 ft or knock Prone."
+      ],
+      [
+        "Light / Heavy / Full Cover",
+        "+2 AC / +5 AC / cannot be directly targeted through the obstruction."
+      ],
+      [
+        "Suppressed",
+        "Disadvantage on ranged attacks; cannot willingly move closer to source; no reactions."
+      ],
+      [
+        "Critical hit",
+        "Natural 20 unless a rule expands the range; roll attack damage dice twice and add modifiers once."
+      ],
+      [
+        "Reload X",
+        "The weapon can normally make X attacks before an action is required to reload."
+      ],
+      [
+        "Two-weapon fighting",
+        "After attacking with a one-handed Light melee weapon, bonus action attack with a different Light melee weapon; no positive ability modifier to bonus damage unless a feature says otherwise."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 123,
+    "printedPage": 110,
+    "top": 520.6,
+    "rows": [
+      [
+        "Condition / State",
+        "Quick Effect"
+      ],
+      [
+        "Blinded",
+        "Cannot see; own attacks have disadvantage; attacks against you have advantage."
+      ],
+      [
+        "Bloodied",
+        "At or below half maximum HP; no effect by itself."
+      ],
+      [
+        "Frightened",
+        "While the source is visible: disadvantage on attacks/checks; cannot willingly move closer."
+      ],
+      [
+        "Grappled",
+        "Speed 0."
+      ],
+      [
+        "Hidden",
+        "Unseen and unheard by that creature; attacks from hiding normally have advantage and reveal you after resolving."
+      ],
+      [
+        "Incapacitated",
+        "No actions, bonus actions or reactions."
+      ],
+      [
+        "Invisible",
+        "Normally, advantage on your attacks and disadvantage on attacks against you."
+      ],
+      [
+        "Poisoned",
+        "Disadvantage on attacks and ability checks."
+      ],
+      [
+        "Prone",
+        "Crawl or spend half Speed to stand; your own attacks have disadvantage; attacks within 5 ft have advantage, farther away have disadvantage."
+      ],
+      [
+        "Restrained",
+        "Speed 0; your own attacks have disadvantage; attacks against you have advantage; disadvantage on Dexterity saves."
+      ],
+      [
+        "Stunned",
+        "Incapacitated; cannot move; fail Strength/Dexterity saves; attacks against you have advantage."
+      ],
+      [
+        "Suppressed",
+        "Disadvantage on ranged attacks; cannot move closer to source; no reactions."
+      ],
+      [
+        "Unconscious",
+        "Incapacitated, Prone, unaware; fail Strength/Dexterity saves; attacks against you have advantage; hits within 5 ft are critical."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 123,
+    "printedPage": 110,
+    "top": 723.8,
+    "rows": [
+      [
+        "Property",
+        "Reminder"
+      ],
+      [
+        "Accurate",
+        "If you do not move this turn, +1 to hit."
+      ],
+      [
+        "Armour-Breaking",
+        "Ignores half cover from armour or vehicle plating at GM discretion."
+      ],
+      [
+        "Blast",
+        "Explosive/impact burst; nearby creatures or objects may also be affected."
+      ],
+      [
+        "Brutal",
+        "On a critical hit, roll one extra weapon damage die."
+      ],
+      [
+        "Burst",
+        "-2 to hit; on a hit, add one extra weapon damage die; uses extra ammunition."
+      ],
+      [
+        "Close-Quarters",
+        "No disadvantage for firing within 5 ft of an enemy."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 124,
+    "printedPage": 111,
+    "top": 46.8,
+    "rows": [
+      [
+        "Property",
+        "Reminder"
+      ],
+      [
+        "Heavy",
+        "Strength 15 or training; moving before firing may impose disadvantage."
+      ],
+      [
+        "Overheat",
+        "Natural 1: wielder takes damage and weapon cannot fire again until the end of next turn."
+      ],
+      [
+        "Reload X",
+        "Must reload after X shots or uses."
+      ],
+      [
+        "Shock",
+        "Target makes a Constitution save or loses reactions until its next turn."
+      ],
+      [
+        "Spray",
+        "Uses an area saving throw instead of a normal attack roll."
+      ],
+      [
+        "Suppression",
+        "Can force Suppression saves."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 124,
+    "printedPage": 111,
+    "top": 145.4,
+    "rows": [
+      [
+        "Rule / Item",
+        "Reference"
+      ],
+      [
+        "Short rest",
+        "At least 1 hour. Spend Hit Dice to heal; recover short-rest features; Warp Pressure becomes 0."
+      ],
+      [
+        "Long rest",
+        "At least 8 hours. Restore all HP; recover long-rest features; regain up to half total Hit Dice; Warp Pressure becomes 0."
+      ],
+      [
+        "Death saves",
+        "At 0 HP: 10+ success, 9 or lower failure; 3 successes stabilise, 3 failures kill; natural 20 restores 1 HP, natural 1 causes two failures."
+      ],
+      [
+        "Stabilise",
+        "Action within reach; DC 10 Medicine. Success: target is stable."
+      ],
+      [
+        "Med-Stim",
+        "Bonus action; touched creature regains 1d6 + proficiency bonus HP; one benefit per short rest."
+      ],
+      [
+        "Med-Pack",
+        "Action; DC 12 Medicine check within 5 ft. Success: 2d6 + proficiency bonus HP, or stabilise and restore target to 1 HP. Consumed."
+      ],
+      [
+        "Field Dressing",
+        "Action; stabilise a dying creature. DC 10 Medicine lets the target immediately spend one Hit Die."
+      ],
+      [
+        "Exhaustion",
+        "Six cumulative levels: checks -> Speed -> attacks/saves -> max HP -> Speed 0 -> death. See 6.14."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 124,
+    "printedPage": 111,
+    "top": 300.1,
+    "rows": [
+      [
+        "Rule",
+        "Reference"
+      ],
+      [
+        "Minor power",
+        "+1 Warp Pressure."
+      ],
+      [
+        "Standard power",
+        "+2 Warp Pressure."
+      ],
+      [
+        "Major power",
+        "+3 Warp Pressure."
+      ],
+      [
+        "Empowered power",
+        "+1 additional Warp Pressure and choose one allowed Empowered effect from Chapter 14."
+      ],
+      [
+        "Perils check",
+        "After resolving a psychic power, roll d20. If the result is equal to or lower than current Warp Pressure, Perils trigger."
+      ],
+      [
+        "Perils severity",
+        "When Perils trigger, roll 1d20 + current Warp Pressure and consult Chapter 15."
+      ],
+      [
+        "Vent",
+        "Action; DC 12 Wisdom save. Success: reduce Warp Pressure by 1d4 + proficiency. Failure: reduce by 1 and take 1d6 psychic damage."
+      ],
+      [
+        "Short/long rest",
+        "Reduce Warp Pressure to 0."
+      ],
+      [
+        "Corruption",
+        "Track separately from HP and Warp Pressure. Ordinary rests do not remove Corruption."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 124,
+    "printedPage": 111,
+    "top": 446.2,
+    "rows": [
+      [
+        "Rule",
+        "Reference"
+      ],
+      [
+        "Issued / Controlled / Scarce",
+        "Base Requisition DC 8 / 11 / 14."
+      ],
+      [
+        "Rare / Exceptional / Near-Unique",
+        "Base Requisition DC 17 / 20 / 24."
+      ],
+      [
+        "Unique",
+        "No ordinary Requisition test; requires a mission, inheritance, political intervention or equivalent story event."
+      ],
+      [
+        "Requisition test",
+        "d20 + proficiency bonus + relevant ability modifier + GM-supplied Standing or circumstance modifier."
+      ],
+      [
+        "Standard ammunition",
+        "Normally abstracted. Reload X tracks the current magazine/cell, not total mission ammunition."
+      ],
+      [
+        "Specialist ammunition",
+        "May require a matching Specialist Ammo Pack when supply is limited."
+      ],
+      [
+        "Item Condition",
+        "Pristine -> Serviceable -> Worn -> Damaged -> Ruined. Use only when a rule, hazard, neglect or narrative event threatens the item."
+      ],
+      [
+        "Signature Wargear",
+        "Near-Unique and Unique items are Signature Wargear. Benefit from no more than three at once; exchange active items during a long rest or suitable downtime."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 125,
+    "printedPage": 112,
+    "top": 80.7,
+    "rows": [
+      [
+        "Rule",
+        "Reference"
+      ],
+      [
+        "Normal driving",
+        "Spend the driver’s personal movement allowance; move up to vehicle Speed once per round. No action."
+      ],
+      [
+        "Drive Hard / Evade",
+        "Driver action. Drive Hard adds Speed; Evade caps movement at half Speed and protects the hull. Both penalise attacks from the vehicle."
+      ],
+      [
+        "Fire a Mount",
+        "One attack or area use per action; each mount once per round. Extra Attack adds no mounted shots."
+      ],
+      [
+        "Mounted attack / DC",
+        "Attack: d20 + Dexterity + proficiency if trained. Save DC: 8 + Dexterity + proficiency if trained. Add Dexterity only to attack-roll damage."
+      ],
+      [
+        "Damage Threshold",
+        "Whole hit after resistance: below DT = no damage; at least DT = full damage. Armour-Breaking halves DT, rounded down."
+      ],
+      [
+        "Breakdown",
+        "Damaging critical hit or first half-HP trigger of encounter. Maximum one roll per vehicle per round."
+      ],
+      [
+        "Wrecked at 0 HP",
+        "Stop, mounts fail. Occupants: DC 13 Dexterity save; 2d6 bludgeoning, half on success. Conscious occupants may exit immediately."
+      ],
+      [
+        "Damage Control",
+        "Action; DC 13 Technology: clear one jam, stall or fire. No HP recovery."
+      ],
+      [
+        "Field repair",
+        "10 minutes, tools, kit, DC 13 Technology. Restore 2d6 + Intelligence HP (minimum 1) OR clear one persistent breakdown. One attempt between long rests."
+      ],
+      [
+        "Chase contest",
+        "Pursuing uses driver action. Opposed Dexterity (Vehicles) + Handling; faster current Speed adds +2. Winner changes gap 1 band; margin 5+ changes 2."
+      ],
+      [
+        "Passenger protection",
+        "Closed hull: Full Cover. Exposed: situational Light Cover. Firing port: Heavy Cover until occupant’s next turn."
+      ]
+    ]
+  }
+]

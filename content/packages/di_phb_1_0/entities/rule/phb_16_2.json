@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_16_2",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Corruption Track",
+  "summary": "Corruption Effect 0 Uncorrupted. No effect. 1 Omen. Nightmares, whispers, marks or momentary sensory distortions. 2 Tainted. The signs become repeatable; appropriate psychic or religious investigation can detect them. 3 Scarred. Choose or gain a minor corruption scar. It should create a narrow complication, not disable the character. 4 Marked. Warp entities and sensitive psykers may notice you. Forbidden artefacts react more strongly to your presence. 5 Critical. You are a major liability to ...",
+  "descriptionMarkdown": "Corruption Effect\n0 Uncorrupted. No effect.\n1 Omen. Nightmares, whispers, marks or \nmomentary sensory distortions.\n2\nTainted. The signs become repeatable; \nappropriate psychic or religious \ninvestigation can detect them.\n3\nScarred. Choose or gain a minor \ncorruption scar. It should create a narrow \ncomplication, not disable the character.\n4\nMarked. Warp entities and sensitive \npsykers may notice you. Forbidden \nartefacts react more strongly to your \npresence.\n5\nCritical. You are a major liability to the \nwarband. The GM must make the danger \nand possible remedies explicit.\n6\nCrisis. The character faces possession, \nmutation, damnation, martyrdom or \ntransformation. This is a story decision \ninvolving the player and GM, not \nautomatic immediate NPC conversion.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "16.2",
+        "heading": "Corruption Track",
+        "pdfPage": 98,
+        "printedPage": 85
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Corruption Effect\n0 Uncorrupted. No effect.\n1 Omen. Nightmares, whispers, marks or \nmomentary sensory distortions.\n2\nTainted. The signs become repeatable; \nappropriate psychic or religious \ninvestigation can detect them.\n3\nScarred. Choose or gain a minor \ncorruption scar. It should create a narrow \ncomplication, not disable the character.\n4\nMarked. Warp entities and sensitive \npsykers may notice you. Forbidden \nartefacts react more strongly to your \npresence.\n5\nCritical. You are a major liability to the \nwarband. The GM must make the danger \nand possible remedies explicit.\n6\nCrisis. The character faces possession, \nmutation, damnation, martyrdom or \ntransformation. This is a story decision \ninvolving the player and GM, not \nautomatic immediate NPC conversion.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

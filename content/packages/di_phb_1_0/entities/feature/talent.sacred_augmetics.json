@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.sacred_augmetics",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Sacred Augmetics",
+  "summary": "Talent: Sacred Augmetics Requirement: Skitarii Benefit: When you regain hit points during a short rest, regain additional HP equal to your proficiency bonus.",
+  "descriptionMarkdown": "Talent: Sacred Augmetics\nRequirement: Skitarii\nBenefit: When you regain hit points during a short rest, regain additional HP equal to your proficiency bonus.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Sacred Augmetics",
+        "pdfPage": 87,
+        "printedPage": 74
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Sacred Augmetics\nRequirement: Skitarii\nBenefit: When you regain hit points during a short rest, regain additional HP equal to your proficiency bonus.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

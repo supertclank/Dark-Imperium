@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.system.weapon.reinforced_action",
+  "kind": "system",
+  "name": "Reinforced Action",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Modification: Reinforced Action; Availability: Scarce; Effect: The first time each mission the weapon would become Damaged because of a malfunction, harsh environment or failed maintenance check, it remains Serviceable instead.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Reinforced Action",
+          "pdfPage": 104,
+          "printedPage": 91
+        }
+      }
+    }
+  ]
+}

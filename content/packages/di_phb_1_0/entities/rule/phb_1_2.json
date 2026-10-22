@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_1_2",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Core System",
+  "summary": "Dark Imperium uses a familiar d20 rules chassis for ability checks, attack rolls, saving throws, Armour Class, initiative, actions and reactions. The Player's Handbook defines the player-facing procedures most often needed during play, including range, cover, suppression, opportunity attacks, grappling, rests and conditions. When an edge case is not covered here, the GM makes a ruling using the closest existing procedure, with additional campaign and encounter guidance in the Game Master's Gu...",
+  "descriptionMarkdown": "Dark Imperium uses a familiar d20 rules chassis for ability checks, attack rolls, saving throws, Armour Class, initiative, \nactions and reactions. The Player's Handbook defines the player-facing procedures most often needed during play, \nincluding range, cover, suppression, opportunity attacks, grappling, rests and conditions. When an edge case is not \ncovered here, the GM makes a ruling using the closest existing procedure, with additional campaign and encounter \nguidance in the Game Master's Guide.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "1.2",
+        "heading": "Core System",
+        "pdfPage": 15,
+        "printedPage": 2
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Dark Imperium uses a familiar d20 rules chassis for ability checks, attack rolls, saving throws, Armour Class, initiative, \nactions and reactions. The Player's Handbook defines the player-facing procedures most often needed during play, \nincluding range, cover, suppression, opportunity attacks, grappling, rests and conditions. When an edge case is not \ncovered here, the GM makes a ruling using the closest existing procedure, with additional campaign and encounter \nguidance in the Game Master's Guide.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

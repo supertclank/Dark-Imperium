@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.augmetic.bionic_arm",
+  "kind": "augmetic",
+  "name": "Bionic Arm",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Upgrade: Bionic Arm; Effect: Gain +1 to Athletics checks and melee damage rolls using that arm.; Availability: Scarce",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "13",
+          "heading": "Bionic Arm",
+          "pdfPage": 89,
+          "printedPage": 76
+        }
+      }
+    }
+  ]
+}

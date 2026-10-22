@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_6_3",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Suppression",
+  "summary": "Some weapons and class features can Suppress a target. When a creature is required to make a Suppression save, use the attacker's weapon save DC: 8 + proficiency bonus + the ability modifier used for the attack. A creature that fails is Suppressed until the start of the source's next turn unless a rule gives a different duration. ● Disadvantage on ranged weapon attacks. ● Cannot willingly move closer to the source of Suppression. ● Cannot take reactions. A creature behind Full Cover from the ...",
+  "descriptionMarkdown": "Some weapons and class features can Suppress a \ntarget. When a creature is required to make a \nSuppression save, use the attacker's weapon save DC: 8 \n+ proficiency bonus + the ability modifier used for the \nattack. A creature that fails is Suppressed until the start \nof the source's next turn unless a rule gives a different \nduration.\n● Disadvantage on ranged weapon attacks.\n● Cannot willingly move closer to the source of \nSuppression.\n● Cannot take reactions.\nA creature behind Full Cover from the source \nautomatically ends Suppression if the source can no \nlonger threaten its position, at the GM's discretion.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "6.3",
+        "heading": "Suppression",
+        "pdfPage": 31,
+        "printedPage": 18
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Some weapons and class features can Suppress a \ntarget. When a creature is required to make a \nSuppression save, use the attacker's weapon save DC: 8 \n+ proficiency bonus + the ability modifier used for the \nattack. A creature that fails is Suppressed until the start \nof the source's next turn unless a rule gives a different \nduration.\n● Disadvantage on ranged weapon attacks.\n● Cannot willingly move closer to the source of \nSuppression.\n● Cannot take reactions.\nA creature behind Full Cover from the source \nautomatically ends Suppression if the source can no \nlonger threaten its position, at the GM's discretion.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

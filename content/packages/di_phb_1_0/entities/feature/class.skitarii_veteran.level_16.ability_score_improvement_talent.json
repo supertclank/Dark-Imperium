@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.skitarii_veteran.level_16.ability_score_improvement_talent",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Ability Score Improvement / Talent",
+  "summary": "Progression table entry: Ability Score Improvement / Talent. Full clause mapping requires review; do not infer effects.",
+  "descriptionMarkdown": "Progression table entry: Ability Score Improvement / Talent. Full clause mapping requires review; do not infer effects.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.8",
+        "heading": "Ability Score Improvement / Talent",
+        "pdfPage": 71,
+        "printedPage": 58
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Progression table entry: Ability Score Improvement / Talent. Full clause mapping requires review; do not infer effects.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

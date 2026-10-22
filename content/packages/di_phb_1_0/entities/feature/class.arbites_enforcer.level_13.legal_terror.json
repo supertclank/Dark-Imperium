@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.arbites_enforcer.level_13.legal_terror",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Legal Terror",
+  "summary": "Creatures that fail a saving throw against your Authority are also Suppressed until the start of your next turn.",
+  "descriptionMarkdown": "Creatures that fail a saving throw against your Authority \nare also Suppressed until the start of your next\nturn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.5.13",
+        "heading": "Legal Terror",
+        "pdfPage": 62,
+        "printedPage": 49
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Creatures that fail a saving throw against your Authority \nare also Suppressed until the start of your next\nturn.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

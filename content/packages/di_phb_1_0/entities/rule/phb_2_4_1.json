@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_2_4_1",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Ogryns",
+  "summary": "Ogryns may only take the Ogryn Skullbreaker class. They cannot be Veterans, Zealots, Psykers, Arbites, Hive Scum, Skitarii, or Ratling Sharpshooters. Ogryn variety comes from Ogryn subclasses, not from normal class choice.",
+  "descriptionMarkdown": "Ogryns may only take the Ogryn Skullbreaker class.\nThey cannot be Veterans, Zealots, Psykers, Arbites, Hive \nScum, Skitarii, or Ratling Sharpshooters. Ogryn\nvariety comes from Ogryn subclasses, not from normal \nclass choice.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "2.4.1",
+        "heading": "Ogryns",
+        "pdfPage": 17,
+        "printedPage": 4
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Ogryns may only take the Ogryn Skullbreaker class.\nThey cannot be Veterans, Zealots, Psykers, Arbites, Hive \nScum, Skitarii, or Ratling Sharpshooters. Ogryn\nvariety comes from Ogryn subclasses, not from normal \nclass choice.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

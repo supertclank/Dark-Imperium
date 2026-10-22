@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.zealot.level_2.charge_of_conviction",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Charge of Conviction",
+  "summary": "As a bonus action, move up to your speed toward a hostile creature you can see. If you end this movement within melee range, your next melee attack this turn deals +1d6 damage. Uses: proficiency bonus per long rest.",
+  "descriptionMarkdown": "As a bonus action, move up to your speed toward a \nhostile creature you can see. If you end this\nmovement within melee range, your next melee attack \nthis turn deals +1d6 damage. Uses: proficiency\nbonus per long rest.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.2.4",
+        "heading": "Charge of Conviction",
+        "pdfPage": 53,
+        "printedPage": 40
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "As a bonus action, move up to your speed toward a \nhostile creature you can see. If you end this\nmovement within melee range, your next melee attack \nthis turn deals +1d6 damage. Uses: proficiency\nbonus per long rest.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

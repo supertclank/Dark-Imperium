@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.aeldari_outcast.level_11.perfect_motion",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Perfect Motion",
+  "summary": "When you move at least 20 ft on your turn, opportunity attacks against you have disadvantage, and your next weapon hit before the end of the turn deals +1d6 damage.",
+  "descriptionMarkdown": "When you move at least 20 ft on your turn, opportunity \nattacks against you have disadvantage, and your next \nweapon hit before the end of the turn deals +1d6 \ndamage.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.11.11",
+        "heading": "Perfect Motion",
+        "pdfPage": 80,
+        "printedPage": 67
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When you move at least 20 ft on your turn, opportunity \nattacks against you have disadvantage, and your next \nweapon hit before the end of the turn deals +1d6 \ndamage.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

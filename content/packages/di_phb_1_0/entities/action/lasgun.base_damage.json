@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "id": "di.action.lasgun.base_damage",
+  "kind": "action",
+  "revision": 1,
+  "name": "Lasgun base damage",
+  "summary": "Source base damage: 1d8 radiant. This is an isolated base-dice template, not a complete attack, damage application or resource transaction.",
+  "descriptionMarkdown": "Source base damage: 1d8 radiant. This is an isolated base-dice template, not a complete attack, damage application or resource transaction.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "8.1",
+        "heading": "Lasgun base damage",
+        "pdfPage": 37,
+        "printedPage": 24
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "economy": "manual",
+    "target": {
+      "kind": "single",
+      "scope": "actor"
+    },
+    "costs": [],
+    "outcomes": [
+      {
+        "id": "adjudicate",
+        "on": "always",
+        "effects": [],
+        "manualRules": [
+          {
+            "id": "source_rule",
+            "automation": "manual",
+            "text": "Source base damage: 1d8 radiant. This is an isolated base-dice template, not a complete attack, damage application or resource transaction.",
+            "adjudicator": "gm",
+            "context": "source-defined procedure",
+            "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+          }
+        ]
+      }
+    ],
+    "rolls": [
+      {
+        "id": "base_damage",
+        "category": "damage",
+        "label": "Lasgun base damage only",
+        "groups": [
+          {
+            "id": "base",
+            "count": 1,
+            "sides": 8
+          }
+        ],
+        "modifiers": []
+      }
+    ]
+  }
+}

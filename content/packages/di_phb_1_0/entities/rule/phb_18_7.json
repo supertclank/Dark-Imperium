@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_18_7",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Weapon Modifications",
+  "summary": "Most non-relic weapons have one modification slot. A master-crafted weapon may have two. A weapon cannot take the same modification twice, and a modification must make physical and fictional sense for the weapon. The GM may rename an upgrade to match its culture or technology without changing the rule. Modification Availability Effect Bayonet / Breaching Lug Issued A suitable ranged weapon can be used as a 1d6 piercing melee weapon without drawing another weapon. It is not Finesse unless the ...",
+  "descriptionMarkdown": "Most non-relic weapons have one modification slot. A master-crafted weapon may have two. A weapon cannot take the \nsame modification twice, and a modification must make physical and fictional sense for the weapon. The GM may \nrename an upgrade to match its culture or technology without changing the rule.\nModification Availability Effect\nBayonet / Breaching Lug Issued\nA suitable ranged weapon can be used as a 1d6 piercing melee weapon \nwithout drawing another weapon. It is not Finesse unless the base weapon \nis Light.\nExtended Magazine / Charge Pack Controlled Increase the weapon's Reload value by 25%, rounded up. Does not apply \nto Reload 1 weapons or single-use launchers.\nReflex Sight Controlled Once per short rest, after you roll a ranged attack but before the result is \ndeclared, add +1d4 to the roll.\nCamo Wrap / Low-Signature \nFurniture Controlled Advantage on one check per short rest to conceal, hide or disguise the \nweapon.\nRecoil Compensation Scarce Once per short rest, ignore disadvantage or another penalty caused \nspecifically by moving before firing a Heavy weapon.\nTargeting Optic Scarce When you Aim and do not move before the attack, ignore Light Cover on \none ranged attack.\nReinforced Action Scarce\nThe first time each mission the weapon would become Damaged because \nof a malfunction, harsh environment or failed maintenance check, it remains \nServiceable instead.\nSanctified Fittings Rare\nOnce per turn when the weapon damages a daemon, Warp-Born creature \nor explicitly corrupted target, add +1 radiant damage per weapon damage \ndie.\nArcheotech Interface Exceptional\nChoose one compatible advanced modification that normally could not be \nfitted to this pattern. Installation requires exceptional facilities and GM \napproval.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "18.7",
+        "heading": "Weapon Modifications",
+        "pdfPage": 104,
+        "printedPage": 91
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Most non-relic weapons have one modification slot. A master-crafted weapon may have two. A weapon cannot take the \nsame modification twice, and a modification must make physical and fictional sense for the weapon. The GM may \nrename an upgrade to match its culture or technology without changing the rule.\nModification Availability Effect\nBayonet / Breaching Lug Issued\nA suitable ranged weapon can be used as a 1d6 piercing melee weapon \nwithout drawing another weapon. It is not Finesse unless the base weapon \nis Light.\nExtended Magazine / Charge Pack Controlled Increase the weapon's Reload value by 25%, rounded up. Does not apply \nto Reload 1 weapons or single-use launchers.\nReflex Sight Controlled Once per short rest, after you roll a ranged attack but before the result is \ndeclared, add +1d4 to the roll.\nCamo Wrap / Low-Signature \nFurniture Controlled Advantage on one check per short rest to conceal, hide or disguise the \nweapon.\nRecoil Compensation Scarce Once per short rest, ignore disadvantage or another penalty caused \nspecifically by moving before firing a Heavy weapon.\nTargeting Optic Scarce When you Aim and do not move before the attack, ignore Light Cover on \none ranged attack.\nReinforced Action Scarce\nThe first time each mission the weapon would become Damaged because \nof a malfunction, harsh environment or failed maintenance check, it remains \nServiceable instead.\nSanctified Fittings Rare\nOnce per turn when the weapon damages a daemon, Warp-Born creature \nor explicitly corrupted target, add +1 radiant damage per weapon damage \ndie.\nArcheotech Interface Exceptional\nChoose one compatible advanced modification that normally could not be \nfitted to this pattern. Installation requires exceptional facilities and GM \napproval.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

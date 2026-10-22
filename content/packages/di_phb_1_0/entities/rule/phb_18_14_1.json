@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_18_14_1",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Signature Wargear",
+  "summary": "Any Near-Unique or Unique item is Signature Wargear. A character may benefit from no more than three Signature items at the same time. Additional Signature items may be carried, stored or entrusted to allies, but provide no mechanical benefit until exchanged during a long rest or suitable downtime. Rare and Exceptional items do not count unless their entry specifically says otherwise. Relic and archeotech effects do not stack with another copy of the same named item. Relic weapons and armour ...",
+  "descriptionMarkdown": "Any Near-Unique or Unique item is Signature Wargear. A character may benefit from no more than three Signature \nitems at the same time. Additional Signature items may be carried, stored or entrusted to allies, but provide no \nmechanical benefit until exchanged during a long rest or suitable downtime. Rare and Exceptional items do not count \nunless their entry specifically says otherwise.\nRelic and archeotech effects do not stack with another copy of the same named item. Relic weapons and armour are \nalready exceptional objects and cannot receive additional weapon or armour modifications unless their entry explicitly \nallows it. Masterwork Traits may be part of a relic profile, but are not added automatically.\nBurden is part of the item. A Burden can represent maintenance, legal ownership, factional obligation, dangerous \nprovenance, rare ammunition or unwanted attention. The GM should use a Burden to create decisions and \nconsequences, not to remove a hard-won reward without warning.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "18.14.1",
+        "heading": "Signature Wargear",
+        "pdfPage": 106,
+        "printedPage": 93
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Any Near-Unique or Unique item is Signature Wargear. A character may benefit from no more than three Signature \nitems at the same time. Additional Signature items may be carried, stored or entrusted to allies, but provide no \nmechanical benefit until exchanged during a long rest or suitable downtime. Rare and Exceptional items do not count \nunless their entry specifically says otherwise.\nRelic and archeotech effects do not stack with another copy of the same named item. Relic weapons and armour are \nalready exceptional objects and cannot receive additional weapon or armour modifications unless their entry explicitly \nallows it. Masterwork Traits may be part of a relic profile, but are not added automatically.\nBurden is part of the item. A Burden can represent maintenance, legal ownership, factional obligation, dangerous \nprovenance, rare ammunition or unwanted attention. The GM should use a Burden to create decisions and \nconsequences, not to remove a hard-won reward without warning.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

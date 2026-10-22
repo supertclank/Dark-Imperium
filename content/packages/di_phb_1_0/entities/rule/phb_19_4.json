@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_19_4",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Augmetic Replacement",
+  "summary": "When an injury destroys or permanently impairs a body part, an appropriate augmetic can remove the injury penalty once installed and recovered from. Standard replacements restore normal function. Advanced replacements may also grant an Augmetic Upgrade from Chapter 13, subject to Availability, facilities and GM approval. An augmetic obtained as treatment does not automatically consume a Talent choice. If it grants a significant mechanical upgrade beyond restored function, use the normal Augme...",
+  "descriptionMarkdown": "When an injury destroys or permanently impairs a body \npart, an appropriate augmetic can remove the injury \npenalty once installed and recovered from. Standard \nreplacements restore \nnormal function. Advanced replacements may also \ngrant an Augmetic Upgrade from Chapter 13, subject \nto Availability, facilities and GM approval.\nAn augmetic obtained as treatment does not \nautomatically consume a Talent choice. If it grants a \nsignificant mechanical upgrade beyond restored \nfunction, use the normal Augmetic Upgrade rules or \ntreat the extra capability as a campaign reward.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "19.4",
+        "heading": "Augmetic Replacement",
+        "pdfPage": 110,
+        "printedPage": 97
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When an injury destroys or permanently impairs a body \npart, an appropriate augmetic can remove the injury \npenalty once installed and recovered from. Standard \nreplacements restore \nnormal function. Advanced replacements may also \ngrant an Augmetic Upgrade from Chapter 13, subject \nto Availability, facilities and GM approval.\nAn augmetic obtained as treatment does not \nautomatically consume a Talent choice. If it grants a \nsignificant mechanical upgrade beyond restored \nfunction, use the normal Augmetic Upgrade rules or \ntreat the extra capability as a campaign reward.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_21_8",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Repairs and Resupply",
+  "summary": "Work Requirements Result Damage Control Action; DC 13 Technology Clear one jam, stall or fire; no HP or parts. Field repair 10 minutes, tools, one repair kit; DC 13 Technology Restore 2d6 + Intelligence HP (minimum 1), OR clear one persistent breakdown. One attempt per vehicle between long rests. Failure spends the kit. Cannot repair a wreck. Workshop repair One hour, workshop, one kit or equivalent parts Restore one quarter maximum HP, rounded up, and clear one breakdown. Repeat with more ti...",
+  "descriptionMarkdown": "Work Requirements Result\nDamage Control Action; DC 13 Technology Clear one jam, stall or fire; no HP or parts.\nField repair 10 minutes, tools, one repair kit; DC 13 \nTechnology\nRestore 2d6 + Intelligence HP (minimum 1), OR clear one \npersistent breakdown. One attempt per vehicle between long \nrests. Failure spends the kit. Cannot repair a wreck.\nWorkshop repair One hour, workshop, one kit or \nequivalent parts\nRestore one quarter maximum HP, rounded up, and clear \none breakdown. Repeat with more time and parts; no check \nfor routine work.\nRebuild a wreck Eight hours, workshop, major \nreplacement parts; DC 15 Technology\nRestore one quarter maximum HP and clear all breakdowns. \nOne attempt per day. Failure spends time but does not \ndestroy the parts.\nRepair kits are Scarce; each supplies one repair. Major parts use the vehicle’s Availability. Alien systems require \ncompatible parts and expertise. One helper may provide Help on a repair check. Do not also apply Chapter 18’s item-\ncondition penalties to the same vehicle damage.\nFuel, power and ordinary ammunition suffice for the agreed mission unless the GM states limits before departure. \nRequisition supplies through Chapter 18. Personal Ammo Packs do not refill vehicle magazines unless compatible. \nBattle cannon shells are always tracked: eight per supplied vehicle, including a loaded shell.\nVehicle Access and Upgrades",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "21.8",
+        "heading": "Repairs and Resupply",
+        "pdfPage": 117,
+        "printedPage": 104
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Work Requirements Result\nDamage Control Action; DC 13 Technology Clear one jam, stall or fire; no HP or parts.\nField repair 10 minutes, tools, one repair kit; DC 13 \nTechnology\nRestore 2d6 + Intelligence HP (minimum 1), OR clear one \npersistent breakdown. One attempt per vehicle between long \nrests. Failure spends the kit. Cannot repair a wreck.\nWorkshop repair One hour, workshop, one kit or \nequivalent parts\nRestore one quarter maximum HP, rounded up, and clear \none breakdown. Repeat with more time and parts; no check \nfor routine work.\nRebuild a wreck Eight hours, workshop, major \nreplacement parts; DC 15 Technology\nRestore one quarter maximum HP and clear all breakdowns. \nOne attempt per day. Failure spends time but does not \ndestroy the parts.\nRepair kits are Scarce; each supplies one repair. Major parts use the vehicle’s Availability. Alien systems require \ncompatible parts and expertise. One helper may provide Help on a repair check. Do not also apply Chapter 18’s item-\ncondition penalties to the same vehicle damage.\nFuel, power and ordinary ammunition suffice for the agreed mission unless the GM states limits before departure. \nRequisition supplies through Chapter 18. Personal Ammo Packs do not refill vehicle magazines unless compatible. \nBattle cannon shells are always tracked: eight per supplied vehicle, including a loaded shell.\nVehicle Access and Upgrades",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

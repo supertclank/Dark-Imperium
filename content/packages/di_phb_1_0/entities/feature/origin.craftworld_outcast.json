@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.origin.craftworld_outcast",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Craftworld / Outcast benefits",
+  "summary": "4.9 Craftworld / Outcast Raised among Aeldari ways, then sent away, exiled, self- exiled, ranger-bound, corsair-adjacent, or drawn into a dangerous path beyond normal craftworld protection. Allowed Species: Aeldari. Skill Proficiency: Choose two from Acrobatics, Insight, Perception, Stealth, Survival, and Technology. Path Discipline: Once per long rest, when you fail a Wisdom or Intelligence saving throw, you may reroll it. You must use the new result. Alien Poise: You have advantage on check...",
+  "descriptionMarkdown": "4.9 Craftworld / Outcast\nRaised among Aeldari ways, then sent away, exiled, self-\nexiled, ranger-bound, corsair-adjacent, or\ndrawn into a dangerous path beyond normal craftworld \nprotection.\nAllowed Species: Aeldari.\nSkill Proficiency: Choose two from Acrobatics, Insight, \nPerception, Stealth, Survival, and Technology.\nPath Discipline: Once per long rest, when you fail a \nWisdom or Intelligence saving throw, you may\nreroll it. You must use the new result.\nAlien Poise: You have advantage on checks to move \nsilently through ruins, forests, webway structures,\nwraithbone architecture, or abandoned alien sites.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "4.9",
+        "heading": "Craftworld / Outcast benefits",
+        "pdfPage": 27,
+        "printedPage": 14
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "background_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "4.9 Craftworld / Outcast\nRaised among Aeldari ways, then sent away, exiled, self-\nexiled, ranger-bound, corsair-adjacent, or\ndrawn into a dangerous path beyond normal craftworld \nprotection.\nAllowed Species: Aeldari.\n\nPath Discipline: Once per long rest, when you fail a \nWisdom or Intelligence saving throw, you may\nreroll it. You must use the new result.\nAlien Poise: You have advantage on checks to move \nsilently through ruins, forests, webway structures,\nwraithbone architecture, or abandoned alien sites.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

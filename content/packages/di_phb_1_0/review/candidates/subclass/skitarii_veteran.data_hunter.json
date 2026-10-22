@@ -1,0 +1,30 @@
+{
+  "proposedId": "di.subclass.skitarii_veteran.data_hunter",
+  "kind": "subclass",
+  "name": "Data-Hunter Protocol",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-012"
+  ],
+  "proposedData": {
+    "parentClass": {
+      "id": "di.class.skitarii_veteran"
+    }
+  },
+  "evidence": [
+    {
+      "text": "Data-Hunter Protocol; Gain expertise in Investigation or Technology. Once per short rest, identify one weakness, resistance, or tactical feature of an enemy you can observe.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "11.8",
+          "heading": "Data-Hunter Protocol",
+          "pdfPage": 71,
+          "printedPage": 58
+        }
+      }
+    }
+  ]
+}

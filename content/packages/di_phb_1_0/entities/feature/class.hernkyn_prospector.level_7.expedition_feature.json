@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.hernkyn_prospector.level_7.expedition_feature",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Expedition Feature",
+  "summary": "Expedition Role Feature Outrider When you move at least 15 ft, your next attack this turn deals +1d6 damage. Claim-Staker Your Claim Sight die becomes +1d6 for ability checks. Trail Gunner Your Trail Gunner damage becomes +1d6.",
+  "descriptionMarkdown": "Expedition Role Feature\nOutrider\nWhen you move at least 15 ft, your \nnext attack this turn deals +1d6 \ndamage.\nClaim-Staker Your Claim Sight die becomes \n+1d6 for ability checks.\nTrail Gunner Your Trail Gunner damage \nbecomes +1d6.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.10.7",
+        "heading": "Expedition Feature",
+        "pdfPage": 77,
+        "printedPage": 64
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Expedition Role Feature\nOutrider\nWhen you move at least 15 ft, your \nnext attack this turn deals +1d6 \ndamage.\nClaim-Staker Your Claim Sight die becomes \n+1d6 for ability checks.\nTrail Gunner Your Trail Gunner damage \nbecomes +1d6.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

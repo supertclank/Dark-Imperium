@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.skitarii_veteran.level_6.doctrinal_subroutine",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Doctrinal Subroutine",
+  "summary": "At the start of combat, choose Accuracy, Endurance, or Pursuit. Accuracy: +1 to your first attack roll. Endurance: temporary HP equal to your proficiency bonus. Pursuit: +10 ft speed on your first turn.",
+  "descriptionMarkdown": "At the start of combat, choose Accuracy, Endurance, or \nPursuit. Accuracy: +1 to your first attack roll.\nEndurance: temporary HP equal to your proficiency \nbonus. Pursuit: +10 ft speed on your first turn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.8.6",
+        "heading": "Doctrinal Subroutine",
+        "pdfPage": 71,
+        "printedPage": 58
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "At the start of combat, choose Accuracy, Endurance, or \nPursuit. Accuracy: +1 to your first attack roll.\nEndurance: temporary HP equal to your proficiency \nbonus. Pursuit: +10 ft speed on your first turn.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

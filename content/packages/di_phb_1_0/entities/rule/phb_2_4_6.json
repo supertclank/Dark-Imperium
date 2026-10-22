@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_2_4_6",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Aeldari / Eldar",
+  "summary": "Aeldari are xenos and should not be treated as normal Imperial citizens. They are included for campaigns where the GM wants uneasy alliances, temporary warband cooperation, corsair contact, ranger intervention, or a story built around a greater threat. Aeldari may be Aeldari Outcasts or Aeldari Warlocks. They cannot take Imperial classes, Ogryn classes, Ratling classes, Squat/Kin classes, or Skitarii classes. An Aeldari Warlock should normally be a former Seer who has walked the Path of the W...",
+  "descriptionMarkdown": "Aeldari are xenos and should not be treated as normal \nImperial citizens. They are included for\ncampaigns where the GM wants uneasy alliances, \ntemporary warband cooperation, corsair contact,\nranger intervention, or a story built around a greater \nthreat.\nAeldari may be Aeldari Outcasts or Aeldari Warlocks. \nThey cannot take Imperial classes, Ogryn classes,\nRatling classes, Squat/Kin classes, or Skitarii classes.\nAn Aeldari Warlock should normally be a former Seer \nwho has walked the Path of the Warrior. A lone\nWarlock travelling with an Imperial warband needs a \nstrong narrative hook, such as a Farseer\ncommand, a hidden webway objective, a daemon threat, \nor a necessary but temporary alliance.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "2.4.6",
+        "heading": "Aeldari / Eldar",
+        "pdfPage": 18,
+        "printedPage": 5
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Aeldari are xenos and should not be treated as normal \nImperial citizens. They are included for\ncampaigns where the GM wants uneasy alliances, \ntemporary warband cooperation, corsair contact,\nranger intervention, or a story built around a greater \nthreat.\nAeldari may be Aeldari Outcasts or Aeldari Warlocks. \nThey cannot take Imperial classes, Ogryn classes,\nRatling classes, Squat/Kin classes, or Skitarii classes.\nAn Aeldari Warlock should normally be a former Seer \nwho has walked the Path of the Warrior. A lone\nWarlock travelling with an Imperial warband needs a \nstrong narrative hook, such as a Farseer\ncommand, a hidden webway objective, a daemon threat, \nor a necessary but temporary alliance.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

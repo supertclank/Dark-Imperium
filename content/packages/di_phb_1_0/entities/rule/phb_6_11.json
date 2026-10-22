@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_6_11",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Grappling and Shoving",
+  "summary": "If you can make more than one attack with the Attack action, a grapple or shove may replace one of those attacks. You must have at least one free hand to grapple a creature. Maneuver Procedure Grapple Choose a creature within your reach that is no more than one size larger than you. Make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics). On a success, the target is grappled. Escape A grappled creature may use its action to repeat the contest...",
+  "descriptionMarkdown": "If you can make more than one attack with the Attack action, a grapple or shove may replace one of those attacks. You \nmust have at least one free hand to grapple a creature.\nManeuver Procedure\nGrapple\nChoose a creature within your reach that is no more than one size larger than you. Make a \nStrength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics). \nOn a success, the target is grappled.\nEscape\nA grappled creature may use its action to repeat the contest. On a success, the grapple ends. \nThe grapple also ends if the grappler is incapacitated or the creatures are moved beyond the \ngrappler's reach.\nMove a Grappled Target When you move, you may drag or carry a grappled target, but your Speed is halved unless the \ntarget is at least two sizes smaller than you.\nShove Choose a creature within your reach that is no more than one size larger than you. Make the \nsame contested check as a grapple. On a success, either push the target 5 ft or knock it Prone.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "6.11",
+        "heading": "Grappling and Shoving",
+        "pdfPage": 32,
+        "printedPage": 19
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "If you can make more than one attack with the Attack action, a grapple or shove may replace one of those attacks. You \nmust have at least one free hand to grapple a creature.\nManeuver Procedure\nGrapple\nChoose a creature within your reach that is no more than one size larger than you. Make a \nStrength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics). \nOn a success, the target is grappled.\nEscape\nA grappled creature may use its action to repeat the contest. On a success, the grapple ends. \nThe grapple also ends if the grappler is incapacitated or the creatures are moved beyond the \ngrappler's reach.\nMove a Grappled Target When you move, you may drag or carry a grappled target, but your Speed is halved unless the \ntarget is at least two sizes smaller than you.\nShove Choose a creature within your reach that is no more than one size larger than you. Make the \nsame contested check as a grapple. On a success, either push the target 5 ft or knock it Prone.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

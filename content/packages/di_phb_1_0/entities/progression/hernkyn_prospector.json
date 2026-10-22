@@ -1,0 +1,282 @@
+{
+  "schemaVersion": 1,
+  "id": "di.progression.hernkyn_prospector",
+  "kind": "progression",
+  "revision": 1,
+  "name": "Hernkyn Prospector progression",
+  "summary": "Exact level labels from the class table; feature automation is separately classified.",
+  "descriptionMarkdown": "Exact level labels from the class table; feature automation is separately classified.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.10",
+        "heading": "Hernkyn Prospector progression",
+        "pdfPage": 77,
+        "printedPage": 64
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "axis": {
+      "kind": "class_level",
+      "class": {
+        "id": "di.class.hernkyn_prospector"
+      }
+    },
+    "maxLevel": 20,
+    "entries": [
+      {
+        "level": 1,
+        "grants": [
+          {
+            "id": "level_1_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hernkyn_prospector.level_1.prospector_training"
+            }
+          },
+          {
+            "id": "level_1_2",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hernkyn_prospector.level_1.claim_sight"
+            }
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "grants": [
+          {
+            "id": "level_2_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hernkyn_prospector.level_2.surveyors_step"
+            }
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "grants": [
+          {
+            "id": "level_3_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hernkyn_prospector.level_3.expedition_role"
+            }
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "grants": [
+          {
+            "id": "level_4_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hernkyn_prospector.level_4.ability_score_improvement_talent"
+            }
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "grants": [
+          {
+            "id": "level_5_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hernkyn_prospector.level_5.extra_attack"
+            }
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "grants": [
+          {
+            "id": "level_6_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hernkyn_prospector.level_6.mark_the_seam"
+            }
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "grants": [
+          {
+            "id": "level_7_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hernkyn_prospector.level_7.expedition_feature"
+            }
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "grants": [
+          {
+            "id": "level_8_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hernkyn_prospector.level_8.ability_score_improvement_talent"
+            }
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "grants": [
+          {
+            "id": "level_9_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hernkyn_prospector.level_9.outriders_escape"
+            }
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "grants": [
+          {
+            "id": "level_10_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hernkyn_prospector.level_10.perfect_claim"
+            }
+          }
+        ]
+      },
+      {
+        "level": 11,
+        "grants": [
+          {
+            "id": "level_11_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hernkyn_prospector.level_11.deep_scan"
+            }
+          }
+        ]
+      },
+      {
+        "level": 12,
+        "grants": [
+          {
+            "id": "level_12_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hernkyn_prospector.level_12.ability_score_improvement_talent"
+            }
+          }
+        ]
+      },
+      {
+        "level": 13,
+        "grants": [
+          {
+            "id": "level_13_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hernkyn_prospector.level_13.no_stone_unturned"
+            }
+          }
+        ]
+      },
+      {
+        "level": 14,
+        "grants": [
+          {
+            "id": "level_14_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hernkyn_prospector.level_14.expedition_feature"
+            }
+          }
+        ]
+      },
+      {
+        "level": 15,
+        "grants": [
+          {
+            "id": "level_15_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hernkyn_prospector.level_15.master_prospector"
+            }
+          }
+        ]
+      },
+      {
+        "level": 16,
+        "grants": [
+          {
+            "id": "level_16_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hernkyn_prospector.level_16.ability_score_improvement_talent"
+            }
+          }
+        ]
+      },
+      {
+        "level": 17,
+        "grants": [
+          {
+            "id": "level_17_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hernkyn_prospector.level_17.legendary_claim_staker"
+            }
+          }
+        ]
+      },
+      {
+        "level": 18,
+        "grants": [
+          {
+            "id": "level_18_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hernkyn_prospector.level_18.expedition_feature"
+            }
+          }
+        ]
+      },
+      {
+        "level": 19,
+        "grants": [
+          {
+            "id": "level_19_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hernkyn_prospector.level_19.ability_score_improvement_talent"
+            }
+          }
+        ]
+      },
+      {
+        "level": 20,
+        "grants": [
+          {
+            "id": "level_20_1",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.class.hernkyn_prospector.level_20.claim_the_horizon"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

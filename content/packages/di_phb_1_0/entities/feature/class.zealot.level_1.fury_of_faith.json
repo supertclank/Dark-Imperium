@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.zealot.level_1.fury_of_faith",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Fury of Faith",
+  "summary": "Once per turn, when you hit with a melee weapon attack, you may deal extra radiant or fire damage equal to your proficiency bonus.",
+  "descriptionMarkdown": "Once per turn, when you hit with a melee weapon attack, \nyou may deal extra radiant or fire damage\nequal to your proficiency bonus.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.2.1",
+        "heading": "Fury of Faith",
+        "pdfPage": 53,
+        "printedPage": 40
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per turn, when you hit with a melee weapon attack, \nyou may deal extra radiant or fire damage\nequal to your proficiency bonus.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

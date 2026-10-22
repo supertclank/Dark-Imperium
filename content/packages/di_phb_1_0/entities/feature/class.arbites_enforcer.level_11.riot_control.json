@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.arbites_enforcer.level_11.riot_control",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Riot Control",
+  "summary": "When you force a creature to make a save against Authority, Lockdown Order, or No Escape, you may also choose one ally within 30 ft. That ally may move 5 ft without provoking opportunity attacks.",
+  "descriptionMarkdown": "When you force a creature to make a save against \nAuthority, Lockdown Order, or No Escape, you may\nalso choose one ally within 30 ft. That ally may move 5 ft \nwithout provoking opportunity attacks.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.5.11",
+        "heading": "Riot Control",
+        "pdfPage": 62,
+        "printedPage": 49
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When you force a creature to make a save against \nAuthority, Lockdown Order, or No Escape, you may\nalso choose one ally within 30 ft. That ally may move 5 ft \nwithout provoking opportunity attacks.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

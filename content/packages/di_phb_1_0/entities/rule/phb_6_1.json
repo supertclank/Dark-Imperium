@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_6_1",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Turns and Actions",
+  "summary": "On your turn, you may move up to your Speed and take one action. A feature may also grant a bonus action. You have one reaction between the start of your turn and the start of your next turn. Common Action Use Attack Make weapon attacks allowed by your class features and equipment. Dash Move up to your Speed again. Disengage Your movement does not provoke opportunity attacks this turn. Dodge Until your next turn, attacks you can see have disadvantage against you, and you have advantage on Dex...",
+  "descriptionMarkdown": "On your turn, you may move up to your Speed and take \none action. A feature may also grant a bonus action. You \nhave one reaction between the start of your turn and the \nstart of your next turn.\nCommon \nAction Use\nAttack Make weapon attacks allowed by your \nclass features and equipment.\nDash Move up to your Speed again.\nDisengage Your movement does not provoke \nopportunity attacks this turn.\nDodge\nUntil your next turn, attacks you can see \nhave disadvantage against you, and you \nhave advantage on Dexterity saves.\nHelp\nGive an adjacent or plausibly assisted ally \nadvantage on one appropriate check or \nattack.\nHide Attempt to become hidden when terrain, \ndarkness or concealment allows it.\nReady\nChoose a perceivable trigger and an \naction or movement to resolve with your \nreaction.\nReload Reload a weapon when its Reload \nproperty requires it.\nUse Mission \nGear\nOperate a med-pack, auspex, demolition \ntool or other item whose rule requires an \naction.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "6.1",
+        "heading": "Turns and Actions",
+        "pdfPage": 31,
+        "printedPage": 18
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "On your turn, you may move up to your Speed and take \none action. A feature may also grant a bonus action. You \nhave one reaction between the start of your turn and the \nstart of your next turn.\nCommon \nAction Use\nAttack Make weapon attacks allowed by your \nclass features and equipment.\nDash Move up to your Speed again.\nDisengage Your movement does not provoke \nopportunity attacks this turn.\nDodge\nUntil your next turn, attacks you can see \nhave disadvantage against you, and you \nhave advantage on Dexterity saves.\nHelp\nGive an adjacent or plausibly assisted ally \nadvantage on one appropriate check or \nattack.\nHide Attempt to become hidden when terrain, \ndarkness or concealment allows it.\nReady\nChoose a perceivable trigger and an \naction or movement to resolve with your \nreaction.\nReload Reload a weapon when its Reload \nproperty requires it.\nUse Mission \nGear\nOperate a med-pack, auspex, demolition \ntool or other item whose rule requires an \naction.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

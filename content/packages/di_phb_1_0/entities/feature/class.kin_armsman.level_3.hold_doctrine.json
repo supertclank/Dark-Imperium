@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.kin_armsman.level_3.hold_doctrine",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Hold Doctrine",
+  "summary": "Doctrine Benefit Hearthguard While wearing medium or heavy Kin armour, reduce non-critical weapon damage by 1. Ironhead You gain advantage on checks to mine, breach, salvage, demolish, or repair machinery and structures. Guild-Militant When you hit a creature marked by Oath-Mark, one ally within 30 ft gains +1 to hit that creature before your next turn.",
+  "descriptionMarkdown": "Doctrine Benefit\nHearthguard\nWhile wearing medium or heavy \nKin armour, reduce non-critical \nweapon damage by 1.\nIronhead\nYou gain advantage on checks to \nmine, breach, salvage, demolish, \nor repair machinery and \nstructures.\nGuild-Militant\nWhen you hit a creature marked \nby Oath-Mark, one ally within 30 ft \ngains +1 to hit that creature before \nyour next turn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.9.4",
+        "heading": "Hold Doctrine",
+        "pdfPage": 74,
+        "printedPage": 61
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Doctrine Benefit\nHearthguard\nWhile wearing medium or heavy \nKin armour, reduce non-critical \nweapon damage by 1.\nIronhead\nYou gain advantage on checks to \nmine, breach, salvage, demolish, \nor repair machinery and \nstructures.\nGuild-Militant\nWhen you hit a creature marked \nby Oath-Mark, one ally within 30 ft \ngains +1 to hit that creature before \nyour next turn.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

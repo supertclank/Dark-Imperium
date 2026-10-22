@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.suppressive_discipline",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Suppressive Discipline",
+  "summary": "Talent: Suppressive Discipline Benefit: When you force a Suppression save, increase the DC by 1.",
+  "descriptionMarkdown": "Talent: Suppressive Discipline\nBenefit: When you force a Suppression save, increase the DC by 1.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Suppressive Discipline",
+        "pdfPage": 86,
+        "printedPage": 73
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Suppressive Discipline\nBenefit: When you force a Suppression save, increase the DC by 1.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

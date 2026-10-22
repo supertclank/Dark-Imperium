@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.aeldari_warlock.level_14.path_feature",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Path Feature",
+  "summary": "Warlock Path Feature Seer of Battle Once per short rest, give one ally advantage on an attack, save, or check as a reaction. Warlock Path Feature Storm Warlock Your first damaging psychic power each combat deals +1d8 damage. Spirit Guardian Allies protected by your Rune Ward also gain advantage on the next fear or psychic saving throw they make before your next turn.",
+  "descriptionMarkdown": "Warlock Path Feature\nSeer of Battle\nOnce per short rest, give one ally \nadvantage on an attack, save, or \ncheck as a reaction.\nWarlock Path Feature\nStorm Warlock Your first damaging psychic power \neach combat deals +1d8 damage.\nSpirit Guardian\nAllies protected by your Rune \nWard also gain advantage on the \nnext fear or psychic saving throw \nthey make before your next turn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.12.14",
+        "heading": "Path Feature",
+        "pdfPage": 84,
+        "printedPage": 71
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Warlock Path Feature\nSeer of Battle\nOnce per short rest, give one ally \nadvantage on an attack, save, or \ncheck as a reaction.\nWarlock Path Feature\nStorm Warlock Your first damaging psychic power \neach combat deals +1d8 damage.\nSpirit Guardian\nAllies protected by your Rune \nWard also gain advantage on the \nnext fear or psychic saving throw \nthey make before your next turn.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

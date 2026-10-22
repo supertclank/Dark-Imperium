@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "di.class.veteran",
+  "kind": "class",
+  "revision": 1,
+  "name": "Veteran",
+  "summary": "11.1 Veteran Professional soldier, marksman, squad leader, or hardened guardsman. Allowed Species: Human, Ratling. Hit Die: d10. Primary Abilities: Dexterity, Wisdom. Saving Throws: Dexterity, Wisdom. Armour: Light, medium, flak, carapace. Weapons: Simple weapons, martial melee weapons, pistols, basic firearms, grenades.",
+  "descriptionMarkdown": "11.1 Veteran\nProfessional soldier, marksman, squad leader, or hardened guardsman.\nAllowed Species: Human, Ratling.\nHit Die: d10.\nPrimary Abilities: Dexterity, Wisdom.\nSaving Throws: Dexterity, Wisdom.\nArmour: Light, medium, flak, carapace.\nWeapons: Simple weapons, martial melee weapons, pistols, basic firearms, grenades.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.1",
+        "heading": "Veteran",
+        "pdfPage": 50,
+        "printedPage": 37
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "features": [
+      {
+        "id": "di.feature.class.veteran.training"
+      }
+    ],
+    "progression": {
+      "id": "di.progression.veteran"
+    },
+    "requirements": {
+      "kind": "any",
+      "predicates": [
+        {
+          "kind": "selected",
+          "content": {
+            "id": "di.species.human"
+          }
+        },
+        {
+          "kind": "selected",
+          "content": {
+            "id": "di.species.ratling"
+          }
+        }
+      ]
+    },
+    "allowedSubclasses": [
+      {
+        "id": "di.subclass.veteran.shock_trooper"
+      },
+      {
+        "id": "di.subclass.veteran.marksman"
+      },
+      {
+        "id": "di.subclass.veteran.sergeant"
+      }
+    ]
+  }
+}

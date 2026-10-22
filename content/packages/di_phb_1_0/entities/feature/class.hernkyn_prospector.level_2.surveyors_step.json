@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.hernkyn_prospector.level_2.surveyors_step",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Surveyor’s Step",
+  "summary": "You ignore difficult terrain caused by rubble, loose rock, mine workings, industrial debris, ash wastes, or unstable ground. You have advantage on checks to avoid natural hazards, cave-ins, weak floors, and environmental collapse.",
+  "descriptionMarkdown": "You ignore difficult terrain caused by rubble, loose rock, \nmine workings, industrial debris, ash wastes, or\nunstable ground. You have advantage on checks to \navoid natural hazards, cave-ins, weak floors, and\nenvironmental collapse.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.10.3",
+        "heading": "Surveyor’s Step",
+        "pdfPage": 77,
+        "printedPage": 64
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "You ignore difficult terrain caused by rubble, loose rock, \nmine workings, industrial debris, ash wastes, or\nunstable ground. You have advantage on checks to \navoid natural hazards, cave-ins, weak floors, and\nenvironmental collapse.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

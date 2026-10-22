@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.wargear.suspensor_harness",
+  "kind": "equipment",
+  "name": "Suspensor Harness",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Item: Suspensor Harness; Availability: Exceptional; Effect: Choose one Heavy weapon you carry. You ignore its movement-based Heavy penalty. If it is Emplaced, you may fire it as though it were merely Heavy while the harness is functioning. Requires Strength 13+ or an appropriate interface.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Suspensor Harness",
+          "pdfPage": 107,
+          "printedPage": 94
+        }
+      }
+    }
+  ]
+}

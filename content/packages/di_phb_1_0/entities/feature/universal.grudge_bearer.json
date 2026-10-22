@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.universal.grudge_bearer",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Grudge-Bearer",
+  "summary": "Trait: Grudge-Bearer Effect: Choose heretics, mutants, daemons, xenos, gangers or traitor soldiers. Once per long rest, when you hit that category, add 1d6 damage.",
+  "descriptionMarkdown": "Trait: Grudge-Bearer\nEffect: Choose heretics, mutants, daemons, xenos, gangers or traitor soldiers. Once per long rest, when you hit that category, add 1d6 damage.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "5",
+        "heading": "Grudge-Bearer",
+        "pdfPage": 29,
+        "printedPage": 16
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "general",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Trait: Grudge-Bearer\nEffect: Choose heretics, mutants, daemons, xenos, gangers or traitor soldiers. Once per long rest, when you hit that category, add 1d6 damage.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

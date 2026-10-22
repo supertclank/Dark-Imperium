@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.veteran.training",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Veteran training and hit die",
+  "summary": "11.1 Veteran Professional soldier, marksman, squad leader, or hardened guardsman. Allowed Species: Human, Ratling. Hit Die: d10. Primary Abilities: Dexterity, Wisdom. Saving Throws: Dexterity, Wisdom. Armour: Light, medium, flak, carapace. Weapons: Simple weapons, martial melee weapons, pistols, basic firearms, grenades.",
+  "descriptionMarkdown": "11.1 Veteran\nProfessional soldier, marksman, squad leader, or hardened guardsman.\nAllowed Species: Human, Ratling.\nHit Die: d10.\nPrimary Abilities: Dexterity, Wisdom.\nSaving Throws: Dexterity, Wisdom.\nArmour: Light, medium, flak, carapace.\nWeapons: Simple weapons, martial melee weapons, pistols, basic firearms, grenades.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.1",
+        "heading": "Veteran training and hit die",
+        "pdfPage": 50,
+        "printedPage": 37
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "11.1 Veteran\nProfessional soldier, marksman, squad leader, or hardened guardsman.\nAllowed Species: Human, Ratling.\nHit Die: d10.\nPrimary Abilities: Dexterity, Wisdom.\nSaving Throws: Dexterity, Wisdom.\nArmour: Light, medium, flak, carapace.\nWeapons: Simple weapons, martial melee weapons, pistols, basic firearms, grenades.\n",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.arbites_enforcer.level_2.breach_and_clear",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Breach and Clear",
+  "summary": "During the first round of combat, you gain +10 ft movement and advantage on your first attack against a creature that has not acted yet.",
+  "descriptionMarkdown": "During the first round of combat, you gain +10 ft \nmovement and advantage on your first attack against a\ncreature that has not acted yet.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.5.3",
+        "heading": "Breach and Clear",
+        "pdfPage": 62,
+        "printedPage": 49
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "During the first round of combat, you gain +10 ft \nmovement and advantage on your first attack against a\ncreature that has not acted yet.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

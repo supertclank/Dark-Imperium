@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_18_14_2",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Exotic Wargear",
+  "summary": "Exotic wargear is unusual but reproducible. It may appear through elite armouries, xenos contacts, Mechanicus vaults, black markets or specialist patrons. Item Availability Effect Inferno Pistol Exceptional 2d10 fire; 20/60 ft; Light, Armour-Breaking, Reload 2. Aeldari-pattern cells and maintenance are normally required. Grav-Pistol Rare 1d10 force; 40/120 ft; Armour-Breaking, Reload 6. Once per turn against AC 17+, a vehicle or a structure, deal +1d6 force damage. Item Availability Effect Gr...",
+  "descriptionMarkdown": "Exotic wargear is unusual but reproducible. It may appear through elite armouries, xenos contacts, Mechanicus vaults, \nblack markets or specialist patrons.\nItem Availability Effect\nInferno Pistol Exceptional 2d10 fire; 20/60 ft; Light, Armour-Breaking, Reload 2. Aeldari-pattern cells \nand maintenance are normally required.\nGrav-Pistol Rare 1d10 force; 40/120 ft; Armour-Breaking, Reload 6. Once per turn against \nAC 17+, a vehicle or a structure, deal +1d6 force damage.\nItem Availability Effect\nGrav-Gun Exceptional\n2d8 force; 60/180 ft; Heavy, Armour-Breaking, Reload 6. On a hit against \nAC 17+, a vehicle or a Large or larger creature, it must pass a Strength \nsaving throw or lose 10 ft Speed until your next turn.\nDigital Weapon Rare\nConcealed accessory. Once per short rest, after you hit a creature within 10 \nft, deal +1d6 radiant or fire damage. It is not found without a deliberate \nsearch or suitable auspex.\nNull Rod Exceptional\nWhile held, gain advantage on saves against psychic and daemonic effects. \nOnce per short rest, use your reaction to reduce psychic or force damage to \nyou by 2d8; a Warp-using source also gains +1 Warp Pressure.\nRosarius Exceptional\nForce-field icon. Once per short rest, use your reaction to reduce damage \nto yourself by 2d8 + proficiency bonus. If this reduces the damage to 0, gain \nadvantage on your next fear or Corruption save before the end of your next \nturn.\nDisplacer Field Near-Unique\nOnce per short rest, when an attack hits you, use your reaction to teleport \nup to 10 ft to an unoccupied space you can see and halve the triggering \ndamage. If no safe space exists, the reaction cannot be used.\nConversion Beamer Exceptional 2d10 force; 120/360 ft; Heavy, Beam, Emplaced, Reload 2. If the primary \ntarget is at least 60 ft away, add +1d10 force damage.\nTeleport Homer Rare\nAction to deploy. Once per long rest, a friendly teleport, drop or extraction \nthat can lock onto the homer may arrive within 10 ft of it without scatter or \npositional error, subject to campaign access.\nStasis Grenade Exceptional\nConsumable. 10-ft radius; Constitution save. Failure: Restrained and \nIncapacitated until the start of the thrower's next turn. Success: Speed \nhalved and no reactions for the same duration.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "18.14.2",
+        "heading": "Exotic Wargear",
+        "pdfPage": 106,
+        "printedPage": 93
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Exotic wargear is unusual but reproducible. It may appear through elite armouries, xenos contacts, Mechanicus vaults, \nblack markets or specialist patrons.\nItem Availability Effect\nInferno Pistol Exceptional 2d10 fire; 20/60 ft; Light, Armour-Breaking, Reload 2. Aeldari-pattern cells \nand maintenance are normally required.\nGrav-Pistol Rare 1d10 force; 40/120 ft; Armour-Breaking, Reload 6. Once per turn against \nAC 17+, a vehicle or a structure, deal +1d6 force damage.\nItem Availability Effect\nGrav-Gun Exceptional\n2d8 force; 60/180 ft; Heavy, Armour-Breaking, Reload 6. On a hit against \nAC 17+, a vehicle or a Large or larger creature, it must pass a Strength \nsaving throw or lose 10 ft Speed until your next turn.\nDigital Weapon Rare\nConcealed accessory. Once per short rest, after you hit a creature within 10 \nft, deal +1d6 radiant or fire damage. It is not found without a deliberate \nsearch or suitable auspex.\nNull Rod Exceptional\nWhile held, gain advantage on saves against psychic and daemonic effects. \nOnce per short rest, use your reaction to reduce psychic or force damage to \nyou by 2d8; a Warp-using source also gains +1 Warp Pressure.\nRosarius Exceptional\nForce-field icon. Once per short rest, use your reaction to reduce damage \nto yourself by 2d8 + proficiency bonus. If this reduces the damage to 0, gain \nadvantage on your next fear or Corruption save before the end of your next \nturn.\nDisplacer Field Near-Unique\nOnce per short rest, when an attack hits you, use your reaction to teleport \nup to 10 ft to an unoccupied space you can see and halve the triggering \ndamage. If no safe space exists, the reaction cannot be used.\nConversion Beamer Exceptional 2d10 force; 120/360 ft; Heavy, Beam, Emplaced, Reload 2. If the primary \ntarget is at least 60 ft away, add +1d10 force damage.\nTeleport Homer Rare\nAction to deploy. Once per long rest, a friendly teleport, drop or extraction \nthat can lock onto the homer may arrive within 10 ft of it without scatter or \npositional error, subject to campaign access.\nStasis Grenade Exceptional\nConsumable. 10-ft radius; Constitution save. Failure: Restrained and \nIncapacitated until the start of the thrower's next turn. Success: Speed \nhalved and no reactions for the same duration.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "proposedId": "di.vehicle.armoured_utility_truck",
+  "kind": "vehicle",
+  "name": "Armoured Utility Truck",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-010"
+  ],
+  "proposedData": {
+    "size": "huge",
+    "defence": {
+      "kind": "constant",
+      "value": 15
+    },
+    "hull": {
+      "kind": "constant",
+      "value": 90
+    },
+    "movement": [
+      {
+        "mode": "ground",
+        "speed": {
+          "value": 50,
+          "unit": "ft"
+        }
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "text": "Armoured Utility Truck\nHuge wheeled vehicle\nAC 15 | HP 90 | DT 5 | Speed 50 ft | Handling 0\nCrew 1 D, 1 G | Passengers 8 | Cargo 1 tonne | Scarce\nWeapons: turret heavy stubber (G). Enclosed; two firing ports. Reinforced bay accommodates Ogryns at three spaces \neach. Use for prison vans, militia carriers and hardened convoy trucks.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "21.10",
+          "heading": "Armoured Utility Truck",
+          "pdfPage": 119,
+          "printedPage": 106
+        }
+      }
+    }
+  ]
+}

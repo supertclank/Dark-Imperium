@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.armour.ranger_weave",
+  "kind": "armour",
+  "name": "Ranger Weave",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-007"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "AC: 13 + Dex modifier; Advantage on Stealth in ruins, wilderness, ash wastes or shadowed terrain.; Availability: Controlled",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "9",
+          "heading": "Ranger Weave",
+          "pdfPage": 42,
+          "printedPage": 29
+        }
+      }
+    }
+  ]
+}

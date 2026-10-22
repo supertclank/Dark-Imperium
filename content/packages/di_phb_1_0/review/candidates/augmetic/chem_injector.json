@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.augmetic.chem_injector",
+  "kind": "augmetic",
+  "name": "Chem Injector",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Upgrade: Chem Injector; Effect: As a bonus action once per long rest, gain temporary HP equal to 1d6 + Constitution modifier.; Availability: Scarce",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "13",
+          "heading": "Chem Injector",
+          "pdfPage": 89,
+          "printedPage": 76
+        }
+      }
+    }
+  ]
+}

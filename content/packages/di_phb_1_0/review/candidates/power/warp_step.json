@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.warp_step",
+  "kind": "power",
+  "name": "Warp Step",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Warp Step; Tag: Universal; Rule: Bonus Action. Teleport 30 ft to a visible unoccupied space. Immediately roll for Perils even if Warp Pressure would not normally trigger it.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Warp Step",
+          "pdfPage": 92,
+          "printedPage": 79
+        }
+      }
+    }
+  ]
+}

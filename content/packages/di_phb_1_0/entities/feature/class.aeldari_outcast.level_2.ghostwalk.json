@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.aeldari_outcast.level_2.ghostwalk",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Ghostwalk",
+  "summary": "You may Dash, Disengage, or Hide as a bonus action if you are wearing light or Aeldari armour.",
+  "descriptionMarkdown": "You may Dash, Disengage, or Hide as a bonus action if \nyou are wearing light or Aeldari armour.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.11.3",
+        "heading": "Ghostwalk",
+        "pdfPage": 80,
+        "printedPage": 67
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "You may Dash, Disengage, or Hide as a bonus action if \nyou are wearing light or Aeldari armour.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

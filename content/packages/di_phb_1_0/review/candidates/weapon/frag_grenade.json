@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.weapon.frag_grenade",
+  "kind": "weapon",
+  "name": "Frag Grenade",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-005"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Grenade: Frag Grenade; Effect: 15-ft radius; Dexterity save; 3d6 piercing damage.; Availability: Controlled",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "10",
+          "heading": "Frag Grenade",
+          "pdfPage": 47,
+          "printedPage": 34
+        }
+      }
+    }
+  ]
+}

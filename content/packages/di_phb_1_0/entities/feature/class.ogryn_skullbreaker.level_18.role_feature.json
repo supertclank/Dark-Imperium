@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.ogryn_skullbreaker.level_18.role_feature",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Role Feature",
+  "summary": "Ogryn Role Feature Bulwark While using a slab shield, adjacent allies also gain resistance to damage from opportunity attacks. Gun Lugger Once per turn, your heavy ranged weapon hit deals +1d8 damage. Bone ’ead Allies within 10 ft gain +1 to Wisdom saves while you are conscious. Brute Your melee critical hits knock targets prone if they fail a Strength save.",
+  "descriptionMarkdown": "Ogryn Role Feature\nBulwark\nWhile using a slab shield, adjacent \nallies also gain resistance to \ndamage from opportunity attacks.\nGun Lugger Once per turn, your heavy ranged \nweapon hit deals +1d8 damage.\nBone ’ead\nAllies within 10 ft gain +1 to \nWisdom saves while you are \nconscious.\nBrute\nYour melee critical hits knock \ntargets prone if they fail a Strength \nsave.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.4.18",
+        "heading": "Role Feature",
+        "pdfPage": 60,
+        "printedPage": 47
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Ogryn Role Feature\nBulwark\nWhile using a slab shield, adjacent \nallies also gain resistance to \ndamage from opportunity attacks.\nGun Lugger Once per turn, your heavy ranged \nweapon hit deals +1d8 damage.\nBone ’ead\nAllies within 10 ft gain +1 to \nWisdom saves while you are \nconscious.\nBrute\nYour melee critical hits knock \ntargets prone if they fail a Strength \nsave.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

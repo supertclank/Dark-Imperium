@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.condition.charmed",
+  "kind": "condition",
+  "name": "Charmed",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-013"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Condition / State: Charmed; Effect: You cannot attack or deliberately harm the creature that charmed you. That creature has advantage on social checks made against you.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "6",
+          "heading": "Charmed",
+          "pdfPage": 32,
+          "printedPage": 19
+        }
+      }
+    }
+  ]
+}

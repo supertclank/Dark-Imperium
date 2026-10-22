@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.zealot.level_6.blood_and_benediction",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Blood and Benediction",
+  "summary": "When you damage a hostile creature with Fury of Faith, choose one ally within 30 ft who can hear you. That ally regains hit points equal to your proficiency bonus. You can trigger this healing once per round.",
+  "descriptionMarkdown": "When you damage a hostile creature with Fury of Faith, \nchoose one ally within 30 ft who can hear you.\nThat ally regains hit points equal to your proficiency \nbonus. You can trigger this healing once per round.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.2.7",
+        "heading": "Blood and Benediction",
+        "pdfPage": 53,
+        "printedPage": 40
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When you damage a hostile creature with Fury of Faith, \nchoose one ally within 30 ft who can hear you.\nThat ally regains hit points equal to your proficiency \nbonus. You can trigger this healing once per round.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

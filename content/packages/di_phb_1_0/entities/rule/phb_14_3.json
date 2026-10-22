@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_14_3",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Known Powers",
+  "summary": "Known power progression is now merged into the Psyker and Aeldari Warlock class level tables in sections 11.3 and 11.12. Use those tables for Minor, Standard, and Major powers known. Characters with Touched by the Warp still know one Minor Universal power only, unless a class feature, relic, corruption event, or GM reward says otherwise.",
+  "descriptionMarkdown": "Known power progression is now merged into the Psyker and Aeldari Warlock class level tables\nin sections 11.3 and 11.12. Use those tables for Minor, Standard, and Major powers known.\nCharacters with Touched by the Warp still know one Minor Universal power only, unless a\nclass feature, relic, corruption event, or GM reward says otherwise.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "14.3",
+        "heading": "Known Powers",
+        "pdfPage": 91,
+        "printedPage": 78
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "psyker",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Known power progression is now merged into the Psyker and Aeldari Warlock class level tables\nin sections 11.3 and 11.12. Use those tables for Minor, Standard, and Major powers known.\nCharacters with Touched by the Warp still know one Minor Universal power only, unless a\nclass feature, relic, corruption event, or GM reward says otherwise.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

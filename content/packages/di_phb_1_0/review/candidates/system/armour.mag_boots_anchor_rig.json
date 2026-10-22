@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.system.armour.mag_boots_anchor_rig",
+  "kind": "system",
+  "name": "Mag Boots / Anchor Rig",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Modification: Mag Boots / Anchor Rig; Typical Availability: Controlled; Effect: Advantage on checks and saves against forced movement in low gravity, high winds or unstable surfaces.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "9",
+          "heading": "Mag Boots / Anchor Rig",
+          "pdfPage": 44,
+          "printedPage": 31
+        }
+      }
+    }
+  ]
+}

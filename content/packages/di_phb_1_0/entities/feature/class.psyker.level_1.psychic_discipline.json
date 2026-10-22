@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.psyker.level_1.psychic_discipline",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Psychic Discipline",
+  "summary": "Blank / Null-Bound is a GM-permission discipline. It represents a sanctioned blank, null-scarred operative, or anti-psyker weapon rather than a conventional Warp- channelling psyker. Blank / Null-Bound characters may learn Universal and Null powers, cannot learn Malefic powers, and should be rare in the same way as Aeldari player characters. When a Psyker chooses a Psychic Discipline, that choice determines which non-universal powers they can learn. A Psyker may always learn Universal powers....",
+  "descriptionMarkdown": "Blank / Null-Bound is a GM-permission discipline. It \nrepresents a sanctioned blank, null-scarred operative, or \nanti-psyker weapon rather than a conventional Warp-\nchannelling psyker.\nBlank / Null-Bound characters may learn Universal and \nNull powers, cannot learn Malefic\npowers, and should be rare in the same way as Aeldari \nplayer characters.\nWhen a Psyker chooses a Psychic Discipline, that choice \ndetermines which non-universal powers they\ncan learn. A Psyker may always learn Universal powers. \nThey may only learn discipline-locked powers\nfrom their chosen discipline unless the GM grants an \nexception through a relic, corruption event,\nmentor, sanctioning scar, or major campaign reward.\nDiscipline Allowed Power \nTags Theme\nBiomancer Universal, \nBiomancy\nHealing, endurance, flesh \ncontrol, toxins, and forced \ngrowth.\nTelekine Universal, \nTelekinesis\nForce shields, kinetic \nmovement, crushing pressure, \nbattlefield control.\nDiviner Universal, \nDivination\nForesight, danger sense, \naccuracy, fate manipulation, \nand reading echoes.\nPyromancer Universal, \nPyromancy\nFire, soul-burning, area denial, \npurging flame.\nMalefic-\nTouched Universal, Malefic\nHigh-risk damage, fear, \npossession pressure, \ndaemonic resonance. Using \nMalefic powers should attract \nharsher narrative \nconsequences.\nBlank / Null-\nBound Universal, Null\nAnti-psychic pressure, witch-\nhunting, null aura, Warp \ndenial. This rare path should \nrequire GM approval because \ntrue blanks are not normal \npsykers.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.3.1",
+        "heading": "Psychic Discipline",
+        "pdfPage": 56,
+        "printedPage": 43
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Blank / Null-Bound is a GM-permission discipline. It \nrepresents a sanctioned blank, null-scarred operative, or \nanti-psyker weapon rather than a conventional Warp-\nchannelling psyker.\nBlank / Null-Bound characters may learn Universal and \nNull powers, cannot learn Malefic\npowers, and should be rare in the same way as Aeldari \nplayer characters.\nWhen a Psyker chooses a Psychic Discipline, that choice \ndetermines which non-universal powers they\ncan learn. A Psyker may always learn Universal powers. \nThey may only learn discipline-locked powers\nfrom their chosen discipline unless the GM grants an \nexception through a relic, corruption event,\nmentor, sanctioning scar, or major campaign reward.\nDiscipline Allowed Power \nTags Theme\nBiomancer Universal, \nBiomancy\nHealing, endurance, flesh \ncontrol, toxins, and forced \ngrowth.\nTelekine Universal, \nTelekinesis\nForce shields, kinetic \nmovement, crushing pressure, \nbattlefield control.\nDiviner Universal, \nDivination\nForesight, danger sense, \naccuracy, fate manipulation, \nand reading echoes.\nPyromancer Universal, \nPyromancy\nFire, soul-burning, area denial, \npurging flame.\nMalefic-\nTouched Universal, Malefic\nHigh-risk damage, fear, \npossession pressure, \ndaemonic resonance. Using \nMalefic powers should attract \nharsher narrative \nconsequences.\nBlank / Null-\nBound Universal, Null\nAnti-psychic pressure, witch-\nhunting, null aura, Warp \ndenial. This rare path should \nrequire GM approval because \ntrue blanks are not normal \npsykers.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

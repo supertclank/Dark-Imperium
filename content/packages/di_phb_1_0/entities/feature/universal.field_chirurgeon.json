@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.universal.field_chirurgeon",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Field Chirurgeon",
+  "summary": "Trait: Field Chirurgeon Effect: Gain proficiency in Medicine. Once per short rest, stabilise a creature as a bonus action rather than an action.",
+  "descriptionMarkdown": "Trait: Field Chirurgeon\nEffect: Gain proficiency in Medicine. Once per short rest, stabilise a creature as a bonus action rather than an action.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "5",
+        "heading": "Field Chirurgeon",
+        "pdfPage": 29,
+        "printedPage": 16
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "general",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Trait: Field Chirurgeon\nEffect: Gain proficiency in Medicine. Once per short rest, stabilise a creature as a bonus action rather than an action.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

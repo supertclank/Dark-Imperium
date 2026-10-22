@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.hip_fire",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Hip Fire",
+  "summary": "Talent: Hip Fire Benefit: After moving at least 10 ft, make one pistol attack as a bonus action.",
+  "descriptionMarkdown": "Talent: Hip Fire\nBenefit: After moving at least 10 ft, make one pistol attack as a bonus action.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Hip Fire",
+        "pdfPage": 86,
+        "printedPage": 73
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Hip Fire\nBenefit: After moving at least 10 ft, make one pistol attack as a bonus action.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

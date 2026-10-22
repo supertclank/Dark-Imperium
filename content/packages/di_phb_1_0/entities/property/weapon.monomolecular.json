@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "di.property.weapon.monomolecular",
+  "kind": "property",
+  "revision": 1,
+  "name": "Monomolecular",
+  "summary": "On a critical hit, add one extra damage die. The GM may allow it to ignore improvised armour on lightly armoured targets.",
+  "descriptionMarkdown": "On a critical hit, add one extra damage die. The GM may allow it to ignore improvised armour on lightly armoured targets.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "7",
+        "heading": "Monomolecular",
+        "pdfPage": 35,
+        "printedPage": 22
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "appliesToKinds": [
+      "weapon"
+    ],
+    "parameters": [],
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "On a critical hit, add one extra damage die. The GM may allow it to ignore improvised armour on lightly armoured targets.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.universal.hive_survivor",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Hive Survivor",
+  "summary": "Trait: Hive Survivor Effect: Gain proficiency in Survival or Stealth. Advantage on checks to find shelter, water, food or safe routes in hive, ruin, sump or industrial terrain.",
+  "descriptionMarkdown": "Trait: Hive Survivor\nEffect: Gain proficiency in Survival or Stealth. Advantage on checks to find shelter, water, food or safe routes in hive, ruin, sump or industrial terrain.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "5",
+        "heading": "Hive Survivor",
+        "pdfPage": 29,
+        "printedPage": 16
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "general",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Trait: Hive Survivor\nEffect: Gain proficiency in Survival or Stealth. Advantage on checks to find shelter, water, food or safe routes in hive, ruin, sump or industrial terrain.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.origin.voidborn",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Voidborn benefits",
+  "summary": "4.4 Voidborn Born aboard a voidship, orbital station, warship, pilgrim vessel, or ancient wreck. Allowed Species: Human, Ratling, rare Ogryn. Skill Proficiency: Choose one from Acrobatics, Perception, Investigation, or Technology. Void Legs: You have advantage on checks and saving throws to avoid being knocked prone or moved against your will. Shipwise: You are proficient with basic voidship procedures, airlocks, auspex consoles, pressure doors, and shipboard emergency systems.",
+  "descriptionMarkdown": "4.4 Voidborn\nBorn aboard a voidship, orbital station, warship, pilgrim \nvessel, or ancient wreck.\nAllowed Species: Human, Ratling, rare Ogryn.\nSkill Proficiency: Choose one from Acrobatics, \nPerception, Investigation, or Technology.\nVoid Legs: You have advantage on checks and saving \nthrows to avoid being knocked prone or moved\nagainst your will.\nShipwise: You are proficient with basic voidship \nprocedures, airlocks, auspex consoles, pressure doors,\nand shipboard emergency systems.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "4.4",
+        "heading": "Voidborn benefits",
+        "pdfPage": 26,
+        "printedPage": 13
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "background_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "4.4 Voidborn\nBorn aboard a voidship, orbital station, warship, pilgrim \nvessel, or ancient wreck.\nAllowed Species: Human, Ratling, rare Ogryn.\n\nVoid Legs: You have advantage on checks and saving \nthrows to avoid being knocked prone or moved\nagainst your will.\nShipwise: You are proficient with basic voidship \nprocedures, airlocks, auspex consoles, pressure doors,\nand shipboard emergency systems.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

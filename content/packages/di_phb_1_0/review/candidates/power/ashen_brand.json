@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.ashen_brand",
+  "kind": "power",
+  "name": "Ashen Brand",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Ashen Brand; Tag: Pyromancy; Rule: Action. Range: 60 ft. Psychic attack. On hit, 1d8 fire/radiant damage, and the target sheds dim light until your next turn.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Ashen Brand",
+          "pdfPage": 92,
+          "printedPage": 79
+        }
+      }
+    }
+  ]
+}

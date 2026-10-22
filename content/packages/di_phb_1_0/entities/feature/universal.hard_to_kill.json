@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.universal.hard_to_kill",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Hard to Kill",
+  "summary": "Trait: Hard to Kill Effect: Maximum HP increases by 2; advantage on death saves while an ally is within 5 ft.",
+  "descriptionMarkdown": "Trait: Hard to Kill\nEffect: Maximum HP increases by 2; advantage on death saves while an ally is within 5 ft.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "5",
+        "heading": "Hard to Kill",
+        "pdfPage": 29,
+        "printedPage": 16
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "general",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Trait: Hard to Kill\nEffect: Maximum HP increases by 2; advantage on death saves while an ally is within 5 ft.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

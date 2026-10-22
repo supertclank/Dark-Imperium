@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.system.vehicle.auspex_survey_suite",
+  "kind": "system",
+  "name": "Auspex survey suite",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-010"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Upgrade: Auspex survey suite; Availability: Scarce; Effect: A crew member scanning as an action gains advantage on one Perception or Survival check for routes, obstacles or ambushes within 300 ft. Does not see through solid barriers.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "21",
+          "heading": "Auspex survey suite",
+          "pdfPage": 118,
+          "printedPage": 105
+        }
+      }
+    }
+  ]
+}

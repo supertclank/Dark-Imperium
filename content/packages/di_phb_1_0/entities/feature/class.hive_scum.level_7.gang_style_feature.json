@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.hive_scum.level_7.gang_style_feature",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Gang Style Feature",
+  "summary": "Gang Style Feature Gunslinger Once per short rest, make one pistol attack as a bonus action after taking the Attack action. Knife Rat Your light melee attacks deal +1 damage. Chem-User You gain advantage on saving throws against poison and combat drugs. Sump Ghost You may hide when lightly obscured by smoke, steam, crowds, or machinery.",
+  "descriptionMarkdown": "Gang Style Feature\nGunslinger\nOnce per short rest, make one \npistol attack as a bonus action \nafter taking the Attack action.\nKnife Rat Your light melee attacks deal +1 \ndamage.\nChem-User\nYou gain advantage on saving \nthrows against poison and combat \ndrugs.\nSump Ghost\nYou may hide when lightly \nobscured by smoke, steam, \ncrowds, or machinery.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.6.7",
+        "heading": "Gang Style Feature",
+        "pdfPage": 65,
+        "printedPage": 52
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Gang Style Feature\nGunslinger\nOnce per short rest, make one \npistol attack as a bonus action \nafter taking the Attack action.\nKnife Rat Your light melee attacks deal +1 \ndamage.\nChem-User\nYou gain advantage on saving \nthrows against poison and combat \ndrugs.\nSump Ghost\nYou may hide when lightly \nobscured by smoke, steam, \ncrowds, or machinery.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

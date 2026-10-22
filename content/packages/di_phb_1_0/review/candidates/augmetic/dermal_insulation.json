@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.augmetic.dermal_insulation",
+  "kind": "augmetic",
+  "name": "Dermal Insulation",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Upgrade: Dermal Insulation; Effect: Resistance to environmental cold and heat. Advantage on saves against exposure.; Availability: Controlled",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "13",
+          "heading": "Dermal Insulation",
+          "pdfPage": 89,
+          "printedPage": 76
+        }
+      }
+    }
+  ]
+}

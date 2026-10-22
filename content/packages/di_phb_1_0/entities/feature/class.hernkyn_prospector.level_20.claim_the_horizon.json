@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.hernkyn_prospector.level_20.claim_the_horizon",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Claim the Horizon",
+  "summary": "Once per long rest, for 1 minute, whenever you or an ally benefits from Claim Sight, the benefiting character may also move 10 ft without provoking opportunity attacks or ignore heavy cover on one attack.",
+  "descriptionMarkdown": "Once per long rest, for 1 minute, whenever you or an ally \nbenefits from Claim Sight, the\nbenefiting character may also move 10 ft without \nprovoking opportunity attacks or ignore\nheavy cover on one attack.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.10.20",
+        "heading": "Claim the Horizon",
+        "pdfPage": 78,
+        "printedPage": 65
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per long rest, for 1 minute, whenever you or an ally \nbenefits from Claim Sight, the\nbenefiting character may also move 10 ft without \nprovoking opportunity attacks or ignore\nheavy cover on one attack.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "proposedId": "di.subclass.skitarii_veteran.vanguard",
+  "kind": "subclass",
+  "name": "Vanguard Protocol",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-012"
+  ],
+  "proposedData": {
+    "parentClass": {
+      "id": "di.class.skitarii_veteran"
+    }
+  },
+  "evidence": [
+    {
+      "text": "Vanguard Protocol; Once per turn, when you hit a creature within 30 ft, it has disadvantage on its next Constitution saving throw before your next turn.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "11.8",
+          "heading": "Vanguard Protocol",
+          "pdfPage": 71,
+          "printedPage": 58
+        }
+      }
+    }
+  ]
+}

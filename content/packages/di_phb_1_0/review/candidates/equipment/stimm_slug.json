@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.stimm_slug",
+  "kind": "equipment",
+  "name": "Stimm Slug",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Item: Stimm Slug; Use: Bonus action; Rule: For 1 minute, gain +10 ft speed and temporary HP equal to your proficiency bonus; then make a DC 12 Constitution saving throw or gain one level of exhaustion.; Availability: Controlled",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "17",
+          "heading": "Stimm Slug",
+          "pdfPage": 101,
+          "printedPage": 88
+        }
+      }
+    }
+  ]
+}

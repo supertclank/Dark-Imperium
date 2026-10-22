@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.psychic_shield",
+  "kind": "power",
+  "name": "Psychic Shield",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Psychic Shield; Tag: Telekinesis, Universal; Rule: Action. Range 30 ft. One creature gains temporary HP equal to 1d8 + psychic ability modifier + proficiency bonus and advantage on fear saves while they remain.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Psychic Shield",
+          "pdfPage": 92,
+          "printedPage": 79
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.shield.brute_shield_harness",
+  "kind": "shield",
+  "name": "Brute Shield Harness",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-007"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "AC: +2 AC; Leaves both hands partly usable; disadvantage on Stealth and delicate tool use.; Availability: Controlled",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "9",
+          "heading": "Brute Shield Harness",
+          "pdfPage": 42,
+          "printedPage": 29
+        }
+      }
+    }
+  ]
+}

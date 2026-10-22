@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_18_9",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Specialist Ammunition and Charges",
+  "summary": "Specialist ammunition is normally issued or acquired by magazine, charge, belt or mission allotment. Unless a rule says otherwise, one specialist ammunition unit modifies one Reload cycle. A weapon can use only ammunition appropriate to its pattern. Ammunition Availability Effect Tracer / Target-Marking Controlled The first creature hit during the Reload cycle is easier to track; the next allied ranged attack against it before your next turn ignores Light Cover. Manstopper Controlled Projecti...",
+  "descriptionMarkdown": "Specialist ammunition is normally issued or acquired by magazine, charge, belt or mission allotment. Unless a rule \nsays otherwise, one specialist ammunition unit modifies one Reload cycle. A weapon can use only ammunition \nappropriate to its pattern.\nAmmunition Availability Effect\nTracer / Target-Marking Controlled The first creature hit during the Reload cycle is easier to track; the next \nallied ranged attack against it before your next turn ignores Light Cover.\nManstopper Controlled Projectile weapons only. Once per turn, add +1 damage against a target \nwearing armour of AC 13 or lower before Dexterity.\nArmour-Piercing Scarce Projectile or bolt weapons only. Once during the Reload cycle, one attack \ngains Armour-Breaking. Declare before the attack roll.\nIncendiary Scarce\nSuitable projectile, bolt or flamer weapons. Once per turn on a hit, deal \n+1d4 fire damage. The ammunition is conspicuous and rarely appropriate \nfor stealth.\nHot-Shot Charge Pack Scarce Las weapons only. Once per turn, add +1d4 radiant damage, but the \nweapon gains Overheat for that Reload cycle.\nSanctified Ammunition Rare On a hit against a daemon, Warp-Born creature or explicitly corrupted \ntarget, add +1d4 radiant damage.\nXenos / Exotic Magazine Rare Restores one Reload cycle for a matching xenos or otherwise exotic \nweapon. It does not grant a new property by itself.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "18.9",
+        "heading": "Specialist Ammunition and Charges",
+        "pdfPage": 105,
+        "printedPage": 92
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Specialist ammunition is normally issued or acquired by magazine, charge, belt or mission allotment. Unless a rule \nsays otherwise, one specialist ammunition unit modifies one Reload cycle. A weapon can use only ammunition \nappropriate to its pattern.\nAmmunition Availability Effect\nTracer / Target-Marking Controlled The first creature hit during the Reload cycle is easier to track; the next \nallied ranged attack against it before your next turn ignores Light Cover.\nManstopper Controlled Projectile weapons only. Once per turn, add +1 damage against a target \nwearing armour of AC 13 or lower before Dexterity.\nArmour-Piercing Scarce Projectile or bolt weapons only. Once during the Reload cycle, one attack \ngains Armour-Breaking. Declare before the attack roll.\nIncendiary Scarce\nSuitable projectile, bolt or flamer weapons. Once per turn on a hit, deal \n+1d4 fire damage. The ammunition is conspicuous and rarely appropriate \nfor stealth.\nHot-Shot Charge Pack Scarce Las weapons only. Once per turn, add +1d4 radiant damage, but the \nweapon gains Overheat for that Reload cycle.\nSanctified Ammunition Rare On a hit against a daemon, Warp-Born creature or explicitly corrupted \ntarget, add +1d4 radiant damage.\nXenos / Exotic Magazine Rare Restores one Reload cycle for a matching xenos or otherwise exotic \nweapon. It does not grant a new property by itself.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

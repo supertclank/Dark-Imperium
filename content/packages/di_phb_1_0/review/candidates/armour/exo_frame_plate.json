@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.armour.exo_frame_plate",
+  "kind": "armour",
+  "name": "Exo-Frame Plate",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-007"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "AC: 17, max Dex +1; Strength checks for lifting, carrying or breaching gain +1d4; speed -5 ft unless Strength 15+.; Availability: Rare",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "9",
+          "heading": "Exo-Frame Plate",
+          "pdfPage": 42,
+          "printedPage": 29
+        }
+      }
+    }
+  ]
+}

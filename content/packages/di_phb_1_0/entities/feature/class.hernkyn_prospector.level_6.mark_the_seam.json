@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.hernkyn_prospector.level_6.mark_the_seam",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Mark the Seam",
+  "summary": "When you hit a creature, object, or vehicle with a ranged weapon attack, the next attack against that target before your next turn ignores light cover.",
+  "descriptionMarkdown": "When you hit a creature, object, or vehicle with a ranged \nweapon attack, the next attack against that\ntarget before your next turn ignores light cover.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.10.6",
+        "heading": "Mark the Seam",
+        "pdfPage": 77,
+        "printedPage": 64
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When you hit a creature, object, or vehicle with a ranged \nweapon attack, the next attack against that\ntarget before your next turn ignores light cover.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

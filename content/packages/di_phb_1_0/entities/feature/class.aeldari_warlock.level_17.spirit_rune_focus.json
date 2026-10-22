@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.aeldari_warlock.level_17.spirit_rune_focus",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Spirit-Rune Focus",
+  "summary": "Choose one Warlock, Divination, or Telekinesis power you know. Once per short rest, you may cast it with its Warp Pressure cost reduced by 1, minimum 1.",
+  "descriptionMarkdown": "Choose one Warlock, Divination, or Telekinesis power \nyou know. Once per short rest, you may\ncast it with its Warp Pressure cost reduced by 1, \nminimum 1.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.12.17",
+        "heading": "Spirit-Rune Focus",
+        "pdfPage": 84,
+        "printedPage": 71
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Choose one Warlock, Divination, or Telekinesis power \nyou know. Once per short rest, you may\ncast it with its Warp Pressure cost reduced by 1, \nminimum 1.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

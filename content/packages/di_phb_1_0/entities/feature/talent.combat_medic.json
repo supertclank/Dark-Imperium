@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.combat_medic",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Combat Medic",
+  "summary": "Talent: Combat Medic Benefit: As an action, restore 1d6 + proficiency bonus HP to an adjacent creature. Uses equal to your proficiency bonus per long rest.",
+  "descriptionMarkdown": "Talent: Combat Medic\nBenefit: As an action, restore 1d6 + proficiency bonus HP to an adjacent creature. Uses equal to your proficiency bonus per long rest.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Combat Medic",
+        "pdfPage": 86,
+        "printedPage": 73
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Combat Medic\nBenefit: As an action, restore 1d6 + proficiency bonus HP to an adjacent creature. Uses equal to your proficiency bonus per long rest.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

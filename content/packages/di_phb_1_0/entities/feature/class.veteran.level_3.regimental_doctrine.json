@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.veteran.level_3.regimental_doctrine",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Regimental Doctrine",
+  "summary": "Doctrine Benefit Shock Trooper Once per turn, when you hit with a lasgun, autogun, shotgun, or bolter, deal +1d6 damage. Marksman If you did not move this turn, your first ranged attack gains +2 to hit. Sergeant Allies within 30 ft who can hear you gain +1 to initiative and fear saves.",
+  "descriptionMarkdown": "Doctrine Benefit\nShock Trooper\nOnce per turn, when you hit with a \nlasgun, autogun, shotgun, or \nbolter, deal +1d6 damage.\nMarksman If you did not move this turn, your \nfirst ranged attack gains +2 to hit.\nSergeant\nAllies within 30 ft who can hear \nyou gain +1 to initiative and fear \nsaves.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.1.4",
+        "heading": "Regimental Doctrine",
+        "pdfPage": 50,
+        "printedPage": 37
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Doctrine Benefit\nShock Trooper\nOnce per turn, when you hit with a \nlasgun, autogun, shotgun, or \nbolter, deal +1d6 damage.\nMarksman If you did not move this turn, your \nfirst ranged attack gains +2 to hit.\nSergeant\nAllies within 30 ft who can hear \nyou gain +1 to initiative and fear \nsaves.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

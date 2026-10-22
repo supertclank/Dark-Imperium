@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.weapon.wargear.ancestor_wrought_rail_rifle_kin",
+  "kind": "weapon",
+  "name": "Ancestor-Wrought Rail Rifle - Kin",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Relic: Ancestor-Wrought Rail Rifle - Kin; Availability: Near-Unique; Effect: 2d10 force; 150/450 ft; Accurate, Heavy, Armour-Breaking, Reload 2. Once per short rest, one attack ignores Light and Heavy Cover and one source of resistance to its weapon damage.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Ancestor-Wrought Rail Rifle - Kin",
+          "pdfPage": 108,
+          "printedPage": 95
+        }
+      }
+    }
+  ]
+}

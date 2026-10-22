@@ -86,3 +86,7 @@ Flyway applies `database/migrations/V*.sql` in version order at API startup and 
 The frontend production build and real-PostgreSQL backend tests have been exercised locally. **Docker Compose startup remains unverified on the delivery machine because its Docker engine was unavailable; the owner explicitly accepted that verification limit.** See the verification report for exact checks. This is a tested foundation, not a completed implementation of the full RPG.
 
 Recommended next milestone: formalize the initial game rules, add content validation/version pinning and calculated-value explanations, then implement a focused wounds/attributes editing flow with regression tests. Campaigns, encounters, combat tracking and advanced GM tools remain out of scope.
+
+## PHB import status — 22 October 2026
+
+The supplied Version 1.0 handbook is now registered and partially transcribed. See [PHB import report](docs/import/PHB_IMPORT_REPORT.md). The original example records remain historical placeholders and are not PHB data. Canonical drafts and incomplete candidates are separate; publication and full builder readiness remain blocked pending source review and mapping.

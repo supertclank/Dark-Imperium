@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.augmetic.internal_chrono",
+  "kind": "augmetic",
+  "name": "Internal Chrono",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Upgrade: Internal Chrono; Effect: You always know mission time, elapsed time, and basic direction underground or aboard ships unless affected by Warp distortion.; Availability: Controlled",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "13",
+          "heading": "Internal Chrono",
+          "pdfPage": 89,
+          "printedPage": 76
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.reveal",
+  "kind": "power",
+  "name": "Reveal",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Reveal; Level: Minor; Tag: Warlock, Divination; Rule: Bonus Action. Range 60 ft. One hidden or obscured creature makes a Wisdom save. On failure, it cannot benefit from invisibility or being hidden until your next turn.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Reveal",
+          "pdfPage": 93,
+          "printedPage": 80
+        }
+      }
+    }
+  ]
+}

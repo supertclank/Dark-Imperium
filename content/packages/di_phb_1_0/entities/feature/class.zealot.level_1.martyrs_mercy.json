@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.zealot.level_1.martyrs_mercy",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Martyr’s Mercy",
+  "summary": "As an action, touch yourself or one willing creature. The target regains hit points equal to 1d6 + your Wisdom or Charisma modifier. Uses: proficiency bonus per long rest.",
+  "descriptionMarkdown": "As an action, touch yourself or one willing creature. The \ntarget regains hit points equal to 1d6 + your\nWisdom or Charisma modifier. Uses: proficiency \nbonus per long rest.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.2.3",
+        "heading": "Martyr’s Mercy",
+        "pdfPage": 53,
+        "printedPage": 40
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "As an action, touch yourself or one willing creature. The \ntarget regains hit points equal to 1d6 + your\nWisdom or Charisma modifier. Uses: proficiency \nbonus per long rest.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

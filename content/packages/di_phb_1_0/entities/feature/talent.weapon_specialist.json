@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.weapon_specialist",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Weapon Specialist",
+  "summary": "Talent: Weapon Specialist Benefit: Choose one weapon group: pistols, basic firearms, sniper weapons, shotguns, chain weapons, shock weapons, plasma, melta, or heavy weapons. Gain +1 damage with that group.",
+  "descriptionMarkdown": "Talent: Weapon Specialist\nBenefit: Choose one weapon group: pistols, basic firearms, sniper weapons, shotguns, chain weapons, shock weapons, plasma, melta, or heavy weapons. Gain +1 damage with that group.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Weapon Specialist",
+        "pdfPage": 86,
+        "printedPage": 73
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Weapon Specialist\nBenefit: Choose one weapon group: pistols, basic firearms, sniper weapons, shotguns, chain weapons, shock weapons, plasma, melta, or heavy weapons. Gain +1 damage with that group.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

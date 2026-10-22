@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.aeldari_warlock.level_9.ghosthelm_discipline",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Ghosthelm Discipline",
+  "summary": "When Perils trigger, reduce the psychic damage you take from the Perils result by your proficiency bonus. Once per long rest, you may reroll the Perils severity roll, but must use the new result.",
+  "descriptionMarkdown": "When Perils trigger, reduce the psychic damage you take \nfrom the Perils result by your proficiency\nbonus. Once per long rest, you may reroll the Perils \nseverity roll, but must use the new result.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.12.9",
+        "heading": "Ghosthelm Discipline",
+        "pdfPage": 84,
+        "printedPage": 71
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When Perils trigger, reduce the psychic damage you take \nfrom the Perils result by your proficiency\nbonus. Once per long rest, you may reroll the Perils \nseverity roll, but must use the new result.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

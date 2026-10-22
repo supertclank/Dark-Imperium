@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.condition.bloodied",
+  "kind": "condition",
+  "name": "Bloodied",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-013"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Condition / State: Bloodied; Effect: You are Bloodied while at or below half your maximum HP. Bloodied is a state, not a condition, and has no effect by itself unless a rule refers to it.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "6",
+          "heading": "Bloodied",
+          "pdfPage": 32,
+          "printedPage": 19
+        }
+      }
+    }
+  ]
+}

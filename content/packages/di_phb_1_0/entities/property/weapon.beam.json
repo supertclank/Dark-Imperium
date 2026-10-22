@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "di.property.weapon.beam",
+  "kind": "property",
+  "revision": 1,
+  "name": "Beam",
+  "summary": "Choose a line 5 ft wide up to normal range. Creatures in the line make a Dexterity save, taking weapon damage on a failure or half on a success. Cannot be used for opportunity attacks.",
+  "descriptionMarkdown": "Choose a line 5 ft wide up to normal range. Creatures in the line make a Dexterity save, taking weapon damage on a failure or half on a success. Cannot be used for opportunity attacks.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "7",
+        "heading": "Beam",
+        "pdfPage": 35,
+        "printedPage": 22
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "appliesToKinds": [
+      "weapon"
+    ],
+    "parameters": [],
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Choose a line 5 ft wide up to normal range. Creatures in the line make a Dexterity save, taking weapon damage on a failure or half on a success. Cannot be used for opportunity attacks.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

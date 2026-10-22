@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.psyker.level_9.warp_anchor",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Warp Anchor",
+  "summary": "When Perils triggers, roll twice on the Perils severity roll and use the lower result. Once you use this feature, you cannot use it again until a long rest.",
+  "descriptionMarkdown": "When Perils triggers, roll twice on the Perils severity roll \nand use the lower result. Once you use this\nfeature, you cannot use it again until a long rest.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.3.9",
+        "heading": "Warp Anchor",
+        "pdfPage": 57,
+        "printedPage": 44
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When Perils triggers, roll twice on the Perils severity roll \nand use the lower result. Once you use this\nfeature, you cannot use it again until a long rest.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.condition.suppressed",
+  "kind": "condition",
+  "name": "Suppressed",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-013"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Condition / State: Suppressed; Effect: Disadvantage on ranged weapon attacks; cannot willingly move closer to the source of Suppression; cannot take reactions. Full Cover may end Suppression as described in 6.3.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "6",
+          "heading": "Suppressed",
+          "pdfPage": 33,
+          "printedPage": 20
+        }
+      }
+    }
+  ]
+}

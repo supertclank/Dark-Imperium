@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.weapon.wargear.grav_pistol",
+  "kind": "weapon",
+  "name": "Grav-Pistol",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Item: Grav-Pistol; Availability: Rare; Effect: 1d10 force; 40/120 ft; Armour-Breaking, Reload 6. Once per turn against AC 17+, a vehicle or a structure, deal +1d6 force damage.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Grav-Pistol",
+          "pdfPage": 106,
+          "printedPage": 93
+        }
+      }
+    }
+  ]
+}

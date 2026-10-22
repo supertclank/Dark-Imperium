@@ -1,0 +1,45 @@
+{
+  "proposedId": "di.vehicle.hernkyn_pioneer_bike",
+  "kind": "vehicle",
+  "name": "Hernkyn Pioneer Bike",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-010"
+  ],
+  "proposedData": {
+    "size": "large",
+    "defence": {
+      "kind": "constant",
+      "value": 15
+    },
+    "hull": {
+      "kind": "constant",
+      "value": 45
+    },
+    "movement": [
+      {
+        "mode": "ground",
+        "speed": {
+          "value": 80,
+          "unit": "ft"
+        }
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "text": "Hernkyn Pioneer Bike\nLarge Kin skimmer\nAC 15 | HP 45 | DT 5 | Speed 80 ft | Handling +2\nCrew 1 D | Passengers 0 | Cargo 100 kg | Rare\nWeapons: forward magna-coil autocannon (D). Exposed. Low skimmer: ignores ground-level difficult terrain and \ncrosses calm water while its grav drive works. Kin controls need familiarisation or refitting for others; no Ogryn \naccommodation.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "21.10",
+          "heading": "Hernkyn Pioneer Bike",
+          "pdfPage": 120,
+          "printedPage": 107
+        }
+      }
+    }
+  ]
+}

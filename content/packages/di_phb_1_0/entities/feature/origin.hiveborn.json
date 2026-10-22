@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.origin.hiveborn",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Hiveborn benefits",
+  "summary": "4.1 Hiveborn Raised in the brutal density of a hive city. Allowed Species: Human, Ratling, rare Ogryn. Skill Proficiency: Choose one from Deception, Insight, Intimidation, Sleight of Hand, or Stealth. Crowd Rat: You ignore difficult terrain caused by crowds, rubble, cramped spaces, pipes, gantries, and dense urban clutter. Seen Worse: You have advantage on saving throws against fear caused by gore, violence, intimidation, or battlefield horror.",
+  "descriptionMarkdown": "4.1 Hiveborn\nRaised in the brutal density of a hive city.\nAllowed Species: Human, Ratling, rare Ogryn.\nSkill Proficiency: Choose one from Deception, Insight, \nIntimidation, Sleight of Hand, or Stealth.\nCrowd Rat: You ignore difficult terrain caused by \ncrowds, rubble, cramped spaces, pipes, gantries, and\ndense urban clutter.\nSeen Worse: You have advantage on saving throws \nagainst fear caused by gore, violence, intimidation,\nor battlefield horror.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "4.1",
+        "heading": "Hiveborn benefits",
+        "pdfPage": 26,
+        "printedPage": 13
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "background_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "4.1 Hiveborn\nRaised in the brutal density of a hive city.\nAllowed Species: Human, Ratling, rare Ogryn.\n\nCrowd Rat: You ignore difficult terrain caused by \ncrowds, rubble, cramped spaces, pipes, gantries, and\ndense urban clutter.\nSeen Worse: You have advantage on saving throws \nagainst fear caused by gore, violence, intimidation,\nor battlefield horror.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

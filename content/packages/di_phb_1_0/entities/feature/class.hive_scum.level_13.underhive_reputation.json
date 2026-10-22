@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.hive_scum.level_13.underhive_reputation",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Underhive Reputation",
+  "summary": "Choose a reputation: feared, connected, slippery, or useful. Once per session, you can leverage that reputation to gain a minor favour, a rumour, a hiding place, illegal ammunition, a guide, or a black-market introduction, subject to GM approval.",
+  "descriptionMarkdown": "Choose a reputation: feared, connected, slippery, or \nuseful. Once per session, you can leverage that\nreputation to gain a minor favour, a rumour, a hiding \nplace, illegal ammunition, a guide, or a black-market \nintroduction, subject to GM approval.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.6.13",
+        "heading": "Underhive Reputation",
+        "pdfPage": 65,
+        "printedPage": 52
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Choose a reputation: feared, connected, slippery, or \nuseful. Once per session, you can leverage that\nreputation to gain a minor favour, a rumour, a hiding \nplace, illegal ammunition, a guide, or a black-market \nintroduction, subject to GM approval.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

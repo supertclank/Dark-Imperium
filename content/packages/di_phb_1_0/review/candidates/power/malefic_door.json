@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.malefic_door",
+  "kind": "power",
+  "name": "Malefic Door",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Malefic Door; Tag: Malefic; Rule: Action. Range 60 ft. Open a screaming tear. One creature makes a Wisdom save. Failure: 6d8 psychic damage and frightened for 1 minute; repeat save at the end of each turn. Immediately add +2 extra Warp Pressure after resolving.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Malefic Door",
+          "pdfPage": 93,
+          "printedPage": 80
+        }
+      }
+    }
+  ]
+}

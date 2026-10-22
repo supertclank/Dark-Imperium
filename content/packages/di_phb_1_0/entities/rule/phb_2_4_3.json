@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_2_4_3",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Psykers",
+  "summary": "Psykers are Human-only in the core player rules. No Ogryn Psykers, Ratling Psykers, or Skitarii Psykers are available to player characters. Rare exceptions may exist as NPCs, mutants, villains, or campaign-specific threats.",
+  "descriptionMarkdown": "Psykers are Human-only in the core player rules.\nNo Ogryn Psykers, Ratling Psykers, or Skitarii Psykers \nare available to player characters. Rare\nexceptions may exist as NPCs, mutants, villains, or \ncampaign-specific threats.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "2.4.3",
+        "heading": "Psykers",
+        "pdfPage": 17,
+        "printedPage": 4
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Psykers are Human-only in the core player rules.\nNo Ogryn Psykers, Ratling Psykers, or Skitarii Psykers \nare available to player characters. Rare\nexceptions may exist as NPCs, mutants, villains, or \ncampaign-specific threats.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

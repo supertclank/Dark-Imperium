@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.feature.masterwork.compact_pattern",
+  "kind": "feature",
+  "name": "Compact Pattern",
+  "status": "MANUAL_RULE",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-011"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Masterwork Trait: Compact Pattern; Eligible Item: Pistol, basic firearm or compact melee weapon; Effect: Advantage on checks to conceal the item; it can be readied from concealment without an item interaction once per turn.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Compact Pattern",
+          "pdfPage": 105,
+          "printedPage": 92
+        }
+      }
+    }
+  ]
+}

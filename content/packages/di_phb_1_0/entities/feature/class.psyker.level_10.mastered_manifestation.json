@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.psyker.level_10.mastered_manifestation",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Mastered Manifestation",
+  "summary": "Once per short rest, you may use one Standard power from your chosen discipline as if Empowered without paying the additional Empowered Warp Pressure cost. Mastered Manifestation and Empowered Manifestation cannot both reduce the cost of the same power.",
+  "descriptionMarkdown": "Once per short rest, you may use one Standard power \nfrom your chosen discipline as if Empowered without \npaying the additional Empowered Warp Pressure cost. \nMastered Manifestation and Empowered Manifestation \ncannot both reduce the cost of the same power.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.3.10",
+        "heading": "Mastered Manifestation",
+        "pdfPage": 57,
+        "printedPage": 44
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per short rest, you may use one Standard power \nfrom your chosen discipline as if Empowered without \npaying the additional Empowered Warp Pressure cost. \nMastered Manifestation and Empowered Manifestation \ncannot both reduce the cost of the same power.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

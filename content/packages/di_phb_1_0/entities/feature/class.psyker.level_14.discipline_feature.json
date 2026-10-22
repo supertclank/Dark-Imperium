@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.psyker.level_14.discipline_feature",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Discipline Feature",
+  "summary": "Discipline Feature Biomancer Once per long rest, when a creature you can touch drops to 0 hit points, it drops to 1 hit point instead. Telekine Once per short rest, when you use Psychic Ward, you may also push the attacker 10 ft. Diviner Once per long rest, replace a d20 roll made by a creature you can see with a 10 before modifiers. Pyromancer Once per short rest, your Pyromancy power ignores fire resistance. Malefic-Touched Once per long rest, after triggering Perils, you may choose to gain...",
+  "descriptionMarkdown": "Discipline Feature\nBiomancer Once per long rest, when a creature you can touch \ndrops to 0 hit points, it drops to 1 hit point instead.\nTelekine Once per short rest, when you use Psychic Ward, \nyou may also push the attacker 10 ft.\nDiviner Once per long rest, replace a d20 roll made by a \ncreature you can see with a 10 before modifiers.\nPyromancer Once per short rest, your Pyromancy power \nignores fire resistance.\nMalefic-Touched\nOnce per long rest, after triggering Perils, you may \nchoose to gain 1 Corruption to treat the Perils result \nas Warp Static.\nBlank / Null-\nBound\nOnce per long rest, when a creature within 60 ft \ntriggers Perils, you may force it to reroll the Perils \nseverity roll and use the lower result if it is an ally, \nor the higher result if it is hostile.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.3.14",
+        "heading": "Discipline Feature",
+        "pdfPage": 57,
+        "printedPage": 44
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Discipline Feature\nBiomancer Once per long rest, when a creature you can touch \ndrops to 0 hit points, it drops to 1 hit point instead.\nTelekine Once per short rest, when you use Psychic Ward, \nyou may also push the attacker 10 ft.\nDiviner Once per long rest, replace a d20 roll made by a \ncreature you can see with a 10 before modifiers.\nPyromancer Once per short rest, your Pyromancy power \nignores fire resistance.\nMalefic-Touched\nOnce per long rest, after triggering Perils, you may \nchoose to gain 1 Corruption to treat the Perils result \nas Warp Static.\nBlank / Null-\nBound\nOnce per long rest, when a creature within 60 ft \ntriggers Perils, you may force it to reroll the Perils \nseverity roll and use the lower result if it is an ally, \nor the higher result if it is hostile.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

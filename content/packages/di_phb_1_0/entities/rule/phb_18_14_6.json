@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_18_14_6",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Creating Additional Relics",
+  "summary": "When the GM creates another relic, start with an existing weapon, armour or item rather than inventing a new numerical scale. Add one memorable capability, one limited high-impact ability, or one rule-changing interaction. If an item simply grants a permanent +1 attack, +1 AC or a reroll, use the Master-Crafted rules instead. Relics should create choices, tactics or story consequences rather than mandatory arithmetic upgrades.",
+  "descriptionMarkdown": "When the GM creates another relic, start with an existing weapon, armour or item rather than inventing a new \nnumerical scale. Add one memorable capability, one limited high-impact ability, or one rule-changing interaction. If an \nitem simply grants a permanent +1 attack, +1 AC or a reroll, use the Master-Crafted rules instead. Relics should create \nchoices, tactics or story consequences rather than mandatory arithmetic upgrades.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "18.14.6",
+        "heading": "Creating Additional Relics",
+        "pdfPage": 108,
+        "printedPage": 95
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When the GM creates another relic, start with an existing weapon, armour or item rather than inventing a new \nnumerical scale. Add one memorable capability, one limited high-impact ability, or one rule-changing interaction. If an \nitem simply grants a permanent +1 attack, +1 AC or a reroll, use the Master-Crafted rules instead. Relics should create \nchoices, tactics or story consequences rather than mandatory arithmetic upgrades.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

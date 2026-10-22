@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_18_14_5",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Unique Wargear",
+  "summary": "Unique items have no ordinary Requisition test. Each should be tied to a mission, inheritance, patron, theft, recovered vault, political bargain or equivalent campaign event. The examples below are templates for campaign-defining rewards rather than assumptions about what every high-level character owns. Unique Item Availability Effect and Burden Halo of Saint Varro Unique Once per long rest as a bonus action, for 1 minute, you and allies within 15 ft have advantage on fear and Corruption sav...",
+  "descriptionMarkdown": "Unique items have no ordinary Requisition test. Each should be tied to a mission, inheritance, patron, theft, recovered \nvault, political bargain or equivalent campaign event. The examples below are templates for campaign-defining rewards \nrather than assumptions about what every high-level character owns.\nUnique Item Availability Effect and Burden\nHalo of Saint Varro Unique\nOnce per long rest as a bonus action, for 1 minute, you and allies within 15 \nft have advantage on fear and Corruption saves; you gain resistance to \npsychic and force damage. Burden: visible possession attracts \nEcclesiarchal attention and expectations.\nHeart-Key of the Red Vault Unique\nMechanicus interface. Once per long rest, treat one Technology check to \nunlock, disable or command a machine, security system or vehicle of DC 20 \nor lower as a success. Against harder systems, make the check with \nadvantage and add 1d10. Burden: multiple forge worlds claim it.\nThe First Oathstone Unique\nKin relic. Once per long rest, when a creature harms you or an ally within 30 \nft, name it oath-bound for 1 minute. Once each round when an ally hits that \ncreature, that ally adds your proficiency bonus to the damage. Burden: \nabandoning the oath has serious cultural consequences.\nThe Veiled Eye Unique\nAeldari spirit-lens. Once per long rest as a bonus action, for 1 minute, you \ncan see Invisible and Hidden creatures within 60 ft, cannot be Surprised, \nand your ranged attacks ignore Light Cover. Burden: The item carries a \npsychic echo noticeable to Aeldari and Warp-sensitive beings.\nThe Door That Would Not Break Unique\n+2 AC; Ogryn only; counts as a Slab Shield and has no Speed penalty. If \nyou do not move, up to two Small or Medium allies directly behind you have \nFull Cover. Once per long rest, when a weapon attack hits you, reduce that \nattack's damage to 0. Burden: it is enormous and impossible to conceal.\nThe Ghost's Coin Unique\nBlack-market data-sigil. Once per long rest, produce a convincing identity, \naccess token or ownership record appropriate to the current settlement or \ninstitution; for one scene, gain advantage on Deception and Investigation \nchecks that rely on it. Burden: every use risks attracting whoever originally \nissued the stolen credentials.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "18.14.5",
+        "heading": "Unique Wargear",
+        "pdfPage": 108,
+        "printedPage": 95
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Unique items have no ordinary Requisition test. Each should be tied to a mission, inheritance, patron, theft, recovered \nvault, political bargain or equivalent campaign event. The examples below are templates for campaign-defining rewards \nrather than assumptions about what every high-level character owns.\nUnique Item Availability Effect and Burden\nHalo of Saint Varro Unique\nOnce per long rest as a bonus action, for 1 minute, you and allies within 15 \nft have advantage on fear and Corruption saves; you gain resistance to \npsychic and force damage. Burden: visible possession attracts \nEcclesiarchal attention and expectations.\nHeart-Key of the Red Vault Unique\nMechanicus interface. Once per long rest, treat one Technology check to \nunlock, disable or command a machine, security system or vehicle of DC 20 \nor lower as a success. Against harder systems, make the check with \nadvantage and add 1d10. Burden: multiple forge worlds claim it.\nThe First Oathstone Unique\nKin relic. Once per long rest, when a creature harms you or an ally within 30 \nft, name it oath-bound for 1 minute. Once each round when an ally hits that \ncreature, that ally adds your proficiency bonus to the damage. Burden: \nabandoning the oath has serious cultural consequences.\nThe Veiled Eye Unique\nAeldari spirit-lens. Once per long rest as a bonus action, for 1 minute, you \ncan see Invisible and Hidden creatures within 60 ft, cannot be Surprised, \nand your ranged attacks ignore Light Cover. Burden: The item carries a \npsychic echo noticeable to Aeldari and Warp-sensitive beings.\nThe Door That Would Not Break Unique\n+2 AC; Ogryn only; counts as a Slab Shield and has no Speed penalty. If \nyou do not move, up to two Small or Medium allies directly behind you have \nFull Cover. Once per long rest, when a weapon attack hits you, reduce that \nattack's damage to 0. Burden: it is enormous and impossible to conceal.\nThe Ghost's Coin Unique\nBlack-market data-sigil. Once per long rest, produce a convincing identity, \naccess token or ownership record appropriate to the current settlement or \ninstitution; for one scene, gain advantage on Deception and Investigation \nchecks that rely on it. Burden: every use risks attracting whoever originally \nissued the stolen credentials.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

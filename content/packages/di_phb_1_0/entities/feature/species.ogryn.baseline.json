@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.species.ogryn.baseline",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Ogryn Abhuman fixed baseline",
+  "summary": "Fixed ability adjustments and speed from species entry.",
+  "descriptionMarkdown": "Fixed ability adjustments and speed from species entry.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "3.2",
+        "heading": "Ogryn Abhuman fixed baseline",
+        "pdfPage": 23,
+        "printedPage": 10
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "species_trait",
+    "effects": [
+      {
+        "id": "speed",
+        "automation": "automatic",
+        "activation": "continuous",
+        "target": {
+          "kind": "stat",
+          "key": "movement.walk",
+          "scope": "self"
+        },
+        "operation": "base",
+        "value": {
+          "kind": "constant",
+          "value": 30
+        },
+        "duration": {
+          "kind": "while_source"
+        },
+        "stacking": {
+          "group": "di.movement.walk",
+          "mode": "replace"
+        },
+        "priority": 0
+      },
+      {
+        "id": "ability_strength",
+        "automation": "automatic",
+        "activation": "continuous",
+        "target": {
+          "kind": "stat",
+          "key": "attribute.strength.score",
+          "scope": "self"
+        },
+        "operation": "add",
+        "value": {
+          "kind": "constant",
+          "value": 2
+        },
+        "duration": {
+          "kind": "while_source"
+        },
+        "stacking": {
+          "group": "di.attribute.strength.score",
+          "mode": "sum"
+        },
+        "priority": 0
+      },
+      {
+        "id": "ability_constitution",
+        "automation": "automatic",
+        "activation": "continuous",
+        "target": {
+          "kind": "stat",
+          "key": "attribute.constitution.score",
+          "scope": "self"
+        },
+        "operation": "add",
+        "value": {
+          "kind": "constant",
+          "value": 1
+        },
+        "duration": {
+          "kind": "while_source"
+        },
+        "stacking": {
+          "group": "di.attribute.constitution.score",
+          "mode": "sum"
+        },
+        "priority": 0
+      }
+    ],
+    "grants": [],
+    "manualRules": []
+  }
+}

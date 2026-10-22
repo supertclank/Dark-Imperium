@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.armour.rune_armour",
+  "kind": "armour",
+  "name": "Rune Armour",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-007"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "AC: 13 + Dex modifier; Once per short rest, reduce psychic, force or radiant damage by 1d8 + Wisdom modifier.; Availability: Rare",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "9",
+          "heading": "Rune Armour",
+          "pdfPage": 42,
+          "printedPage": 29
+        }
+      }
+    }
+  ]
+}

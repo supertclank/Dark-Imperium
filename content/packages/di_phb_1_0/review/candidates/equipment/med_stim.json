@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.med_stim",
+  "kind": "equipment",
+  "name": "Med-Stim",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Item: Med-Stim; Use: Bonus action; Rule: A creature you touch regains 1d6 + proficiency bonus HP; a creature can benefit from only one Med-Stim per short rest.; Availability: Issued",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "17",
+          "heading": "Med-Stim",
+          "pdfPage": 101,
+          "printedPage": 88
+        }
+      }
+    }
+  ]
+}

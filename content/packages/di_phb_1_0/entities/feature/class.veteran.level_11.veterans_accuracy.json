@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.veteran.level_11.veterans_accuracy",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Veteran’s Accuracy",
+  "summary": "Once per turn, when you hit with a ranged weapon attack, add +1d6 damage if you had cover, did not move, or were benefiting from an ally’s mark or order.",
+  "descriptionMarkdown": "Once per turn, when you hit with a ranged weapon \nattack, add +1d6 damage if you had cover, did not\nmove, or were benefiting from an ally’s mark or order.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.1.11",
+        "heading": "Veteran’s Accuracy",
+        "pdfPage": 51,
+        "printedPage": 38
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per turn, when you hit with a ranged weapon \nattack, add +1d6 damage if you had cover, did not\nmove, or were benefiting from an ally’s mark or order.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

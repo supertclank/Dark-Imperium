@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.prescient_aim",
+  "kind": "power",
+  "name": "Prescient Aim",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Prescient Aim; Tag: Divination; Rule: Bonus Action. Range 60 ft. One ally gains advantage on their next ranged attack before your next turn.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Prescient Aim",
+          "pdfPage": 92,
+          "printedPage": 79
+        }
+      }
+    }
+  ]
+}

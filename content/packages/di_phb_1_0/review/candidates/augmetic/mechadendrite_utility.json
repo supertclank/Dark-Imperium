@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.augmetic.mechadendrite_utility",
+  "kind": "augmetic",
+  "name": "Mechadendrite, Utility",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Upgrade: Mechadendrite, Utility; Effect: You can manipulate unattended Tiny objects, hold a tool, or perform basic maintenance within 5 ft. It cannot attack.; Availability: Controlled",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "13",
+          "heading": "Mechadendrite, Utility",
+          "pdfPage": 89,
+          "printedPage": 76
+        }
+      }
+    }
+  ]
+}

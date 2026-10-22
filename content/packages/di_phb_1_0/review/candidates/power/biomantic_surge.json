@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.biomantic_surge",
+  "kind": "power",
+  "name": "Biomantic Surge",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Biomantic Surge; Tag: Biomancy; Rule: Action. Touch. A creature regains 4d8 + your psychic ability modifier HP and gains advantage on Strength and Constitution saves for 1 minute.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Biomantic Surge",
+          "pdfPage": 93,
+          "printedPage": 80
+        }
+      }
+    }
+  ]
+}

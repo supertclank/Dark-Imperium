@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_15_4_4",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Warp Scream",
+  "summary": "Creatures of your choice within 30 ft must make a Wisdom saving throw. On a failure, they become frightened until the end of their next turn. You are not automatically exempt from this effect.",
+  "descriptionMarkdown": "Creatures of your choice within 30 ft must make a \nWisdom saving throw. On a failure, they become\nfrightened until the end of their next turn.\nYou are not automatically exempt from this effect.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "15.4.4",
+        "heading": "Warp Scream",
+        "pdfPage": 95,
+        "printedPage": 82
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "perils",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Creatures of your choice within 30 ft must make a \nWisdom saving throw. On a failure, they become\nfrightened until the end of their next turn.\nYou are not automatically exempt from this effect.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

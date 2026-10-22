@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.condition.prone",
+  "kind": "condition",
+  "name": "Prone",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-013"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Condition / State: Prone; Effect: Your only movement option is to crawl unless you spend half your Speed to stand. Your attacks have disadvantage. Attacks against you have advantage from within 5 ft and disadvantage from farther away.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "6",
+          "heading": "Prone",
+          "pdfPage": 33,
+          "printedPage": 20
+        }
+      }
+    }
+  ]
+}

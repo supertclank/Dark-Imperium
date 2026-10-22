@@ -1,0 +1,45 @@
+{
+  "proposedId": "di.vehicle.taurox",
+  "kind": "vehicle",
+  "name": "Taurox",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-010"
+  ],
+  "proposedData": {
+    "size": "huge",
+    "defence": {
+      "kind": "constant",
+      "value": 16
+    },
+    "hull": {
+      "kind": "constant",
+      "value": 95
+    },
+    "movement": [
+      {
+        "mode": "ground",
+        "speed": {
+          "value": 60,
+          "unit": "ft"
+        }
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "text": "Taurox\nHuge tracked carrier\nAC 16 | HP 95 | DT 10 | Speed 60 ft | Handling 0\nCrew 1 D, 1 G | Passengers 10 | Cargo 500 kg | Rare\nWeapons: turret autocannon with Twin-Linked (G). Enclosed; two firing ports. Ignores difficult terrain from rubble and \nshallow mud. Ogryns use three passenger spaces; normal crew stations are human-sized.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "21.10",
+          "heading": "Taurox",
+          "pdfPage": 119,
+          "printedPage": 106
+        }
+      }
+    }
+  ]
+}

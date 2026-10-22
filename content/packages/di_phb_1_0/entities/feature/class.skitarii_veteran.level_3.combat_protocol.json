@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.skitarii_veteran.level_3.combat_protocol",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Combat Protocol",
+  "summary": "Protocol Benefit Ranger Protocol If you do not move, your first ranged attack this turn deals +1d4 damage. Vanguard Protocol Once per turn, when you hit a creature within 30 ft, it has disadvantage on its next Constitution saving throw before your next turn. Protector Protocol When an ally within 30 ft is targeted by an attack, you may use your reaction before the roll is resolved to give that ally +2 AC against the attack if you can see the attacker. Data-Hunter Protocol Gain expertise in In...",
+  "descriptionMarkdown": "Protocol Benefit\nRanger Protocol\nIf you do not move, your first \nranged attack this turn deals +1d4 \ndamage.\nVanguard Protocol\nOnce per turn, when you hit a \ncreature within 30 ft, it has \ndisadvantage on its next \nConstitution saving throw before \nyour next turn.\nProtector Protocol\nWhen an ally within 30 ft is \ntargeted by an attack, you may \nuse your reaction before the roll is \nresolved to give that ally +2 AC \nagainst the attack if you can see \nthe attacker.\nData-Hunter Protocol\nGain expertise in Investigation or \nTechnology. Once per short rest, \nidentify one weakness, resistance, \nor tactical feature of an enemy you \ncan observe.\nInfiltrator Protocol\nGain proficiency in Stealth. Once \nper short rest, as a bonus action, \nbecome hidden from creatures \nrelying on standard vision or \nauspex until the end of your turn, \nprovided you have cover or \nconcealment.\nProtocol Benefit\nRuststalker Protocol\nGain proficiency with blades. Your \nmelee attacks deal +1d6 damage \nagainst targets below half their hit \npoints.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.8.4",
+        "heading": "Combat Protocol",
+        "pdfPage": 71,
+        "printedPage": 58
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Protocol Benefit\nRanger Protocol\nIf you do not move, your first \nranged attack this turn deals +1d4 \ndamage.\nVanguard Protocol\nOnce per turn, when you hit a \ncreature within 30 ft, it has \ndisadvantage on its next \nConstitution saving throw before \nyour next turn.\nProtector Protocol\nWhen an ally within 30 ft is \ntargeted by an attack, you may \nuse your reaction before the roll is \nresolved to give that ally +2 AC \nagainst the attack if you can see \nthe attacker.\nData-Hunter Protocol\nGain expertise in Investigation or \nTechnology. Once per short rest, \nidentify one weakness, resistance, \nor tactical feature of an enemy you \ncan observe.\nInfiltrator Protocol\nGain proficiency in Stealth. Once \nper short rest, as a bonus action, \nbecome hidden from creatures \nrelying on standard vision or \nauspex until the end of your turn, \nprovided you have cover or \nconcealment.\nProtocol Benefit\nRuststalker Protocol\nGain proficiency with blades. Your \nmelee attacks deal +1d6 damage \nagainst targets below half their hit \npoints.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

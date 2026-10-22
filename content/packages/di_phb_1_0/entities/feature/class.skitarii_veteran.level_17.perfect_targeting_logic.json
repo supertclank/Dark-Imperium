@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.skitarii_veteran.level_17.perfect_targeting_logic",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Perfect Targeting Logic",
+  "summary": "When you roll initiative, you may immediately use Targeting Protocol without expending a use. If you hit that target before the end of your first turn, add your Intelligence modifier to the damage.",
+  "descriptionMarkdown": "When you roll initiative, you may immediately use \nTargeting Protocol without expending a use.\nIf you hit that target before the end of your first turn, add \nyour Intelligence modifier to the\ndamage.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.8.17",
+        "heading": "Perfect Targeting Logic",
+        "pdfPage": 72,
+        "printedPage": 59
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When you roll initiative, you may immediately use \nTargeting Protocol without expending a use.\nIf you hit that target before the end of your first turn, add \nyour Intelligence modifier to the\ndamage.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

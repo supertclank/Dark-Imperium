@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.talent.void_stock",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Void Stock",
+  "summary": "Talent: Void Stock Requirement: Squat/Kin Benefit: Advantage on saves against vacuum exposure, suffocation, toxic atmosphere, and exhaustion from poor conditions.",
+  "descriptionMarkdown": "Talent: Void Stock\nRequirement: Squat/Kin\nBenefit: Advantage on saves against vacuum exposure, suffocation, toxic atmosphere, and exhaustion from poor conditions.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "12",
+        "heading": "Void Stock",
+        "pdfPage": 87,
+        "printedPage": 74
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "feat",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Talent: Void Stock\nRequirement: Squat/Kin\nBenefit: Advantage on saves against vacuum exposure, suffocation, toxic atmosphere, and exhaustion from poor conditions.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

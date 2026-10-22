@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.ogryn_skullbreaker.level_6.too_stubborn_to_drop",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Too Stubborn to Drop",
+  "summary": "Once per long rest, when you are reduced to 0 hit points but not killed outright, you drop to 1 hit point instead.",
+  "descriptionMarkdown": "Once per long rest, when you are reduced to 0 hit points \nbut not killed outright, you drop to 1 hit point\ninstead.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.4.6",
+        "heading": "Too Stubborn to Drop",
+        "pdfPage": 59,
+        "printedPage": 46
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per long rest, when you are reduced to 0 hit points \nbut not killed outright, you drop to 1 hit point\ninstead.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

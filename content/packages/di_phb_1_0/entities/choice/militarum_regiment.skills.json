@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "di.choice.militarum_regiment.skills",
+  "kind": "choice",
+  "revision": 1,
+  "name": "Choose 1 skill proficiency",
+  "summary": "Choose 1 skill proficiency",
+  "descriptionMarkdown": "Choose 1 skill proficiency",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "4.7",
+        "heading": "Choose 1 skill proficiency",
+        "pdfPage": 27,
+        "printedPage": 14
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "purpose": "skill",
+    "selectionMode": "options",
+    "cardinality": {
+      "min": 1,
+      "max": 1,
+      "unique": true
+    },
+    "repeatScope": "once_per_actor",
+    "options": [
+      {
+        "id": "athletics",
+        "label": "Athletics",
+        "grants": [
+          {
+            "id": "proficiency",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.athletics"
+            }
+          }
+        ]
+      },
+      {
+        "id": "survival",
+        "label": "Survival",
+        "grants": [
+          {
+            "id": "proficiency",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.survival"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

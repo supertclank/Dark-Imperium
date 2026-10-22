@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.augmetic.mechadendrite_medicae",
+  "kind": "augmetic",
+  "name": "Mechadendrite, Medicae",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Upgrade: Mechadendrite, Medicae; Effect: Gain proficiency in Medicine. Once per long rest, stabilise a creature and restore 1 HP as an action.; Availability: Scarce",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "13",
+          "heading": "Mechadendrite, Medicae",
+          "pdfPage": 89,
+          "printedPage": 76
+        }
+      }
+    }
+  ]
+}

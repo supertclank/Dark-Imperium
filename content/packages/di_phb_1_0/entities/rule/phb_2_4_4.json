@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_2_4_4",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Ratlings",
+  "summary": "Ratlings are not just small humans. They are best suited to sniping, scouting, stealth, infiltration, smuggling, spotting targets, and surviving through luck and cowardice. Ratlings may be Ratling Sharpshooters, Veterans, or Hive Scum. They cannot normally be Psykers, Arbites, Skitarii, Ogryns, or standard Zealots. A rare Ratling Zealot can exist with GM approval, but should use modified ranged faith features rather than heavy melee features.",
+  "descriptionMarkdown": "Ratlings are not just small humans. They are best suited \nto sniping, scouting, stealth, infiltration,\nsmuggling, spotting targets, and surviving through luck \nand cowardice.\nRatlings may be Ratling Sharpshooters, Veterans, or \nHive Scum. They cannot normally be Psykers,\nArbites, Skitarii, Ogryns, or standard Zealots.\nA rare Ratling Zealot can exist with GM approval, but \nshould use modified ranged faith features rather\nthan heavy melee features.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "2.4.4",
+        "heading": "Ratlings",
+        "pdfPage": 17,
+        "printedPage": 4
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Ratlings are not just small humans. They are best suited \nto sniping, scouting, stealth, infiltration,\nsmuggling, spotting targets, and surviving through luck \nand cowardice.\nRatlings may be Ratling Sharpshooters, Veterans, or \nHive Scum. They cannot normally be Psykers,\nArbites, Skitarii, Ogryns, or standard Zealots.\nA rare Ratling Zealot can exist with GM approval, but \nshould use modified ranged faith features rather\nthan heavy melee features.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

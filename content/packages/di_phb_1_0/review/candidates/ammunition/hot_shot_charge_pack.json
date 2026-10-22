@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.ammunition.hot_shot_charge_pack",
+  "kind": "ammunition",
+  "name": "Hot-Shot Charge Pack",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Ammunition: Hot-Shot Charge Pack; Availability: Scarce; Effect: Las weapons only. Once per turn, add +1d4 radiant damage, but the weapon gains Overheat for that Reload cycle.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Hot-Shot Charge Pack",
+          "pdfPage": 105,
+          "printedPage": 92
+        }
+      }
+    }
+  ]
+}

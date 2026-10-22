@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_18_1",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Availability",
+  "summary": "Availability Base DC Typical Examples Issued 8 Routine class gear, common ammunition and ordinary tools. Controlled 11 Grenades, specialist ammunition, carapace components and surveillance gear. Scarce 14 Plasma fuel, advanced auspexes, quality bionics and specialist transport. Rare 17 Power weapons, refractor fields, advanced implants and sealed archives. Exceptional 20 Master-crafted wargear, conversion fields, elite vehicles and major relic access. Near-Unique 24 Named archeotech, irreplac...",
+  "descriptionMarkdown": "Availability Base DC Typical Examples\nIssued 8 Routine class gear, common ammunition and ordinary tools.\nControlled 11 Grenades, specialist ammunition, carapace components and surveillance gear.\nScarce 14 Plasma fuel, advanced auspexes, quality bionics and specialist transport.\nRare 17 Power weapons, refractor fields, advanced implants and sealed archives.\nExceptional 20 Master-crafted wargear, conversion fields, elite vehicles and major relic access.\nNear-Unique 24 Named archeotech, irreplaceable prototypes and singular institutional assets.\nUnique No ordinary test Requires a mission, inheritance, political intervention or equivalent story event.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "18.1",
+        "heading": "Availability",
+        "pdfPage": 103,
+        "printedPage": 90
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Availability Base DC Typical Examples\nIssued 8 Routine class gear, common ammunition and ordinary tools.\nControlled 11 Grenades, specialist ammunition, carapace components and surveillance gear.\nScarce 14 Plasma fuel, advanced auspexes, quality bionics and specialist transport.\nRare 17 Power weapons, refractor fields, advanced implants and sealed archives.\nExceptional 20 Master-crafted wargear, conversion fields, elite vehicles and major relic access.\nNear-Unique 24 Named archeotech, irreplaceable prototypes and singular institutional assets.\nUnique No ordinary test Requires a mission, inheritance, political intervention or equivalent story event.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

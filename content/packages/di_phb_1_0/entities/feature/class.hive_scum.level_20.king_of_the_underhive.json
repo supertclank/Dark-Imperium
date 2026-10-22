@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.hive_scum.level_20.king_of_the_underhive",
+  "kind": "feature",
+  "revision": 1,
+  "name": "King of the Underhive",
+  "summary": "Once per long rest, for 1 minute, you may take two bonus actions on each of your turns. Each bonus action must be used for Cunning Action, a Gang Style feature, reloading, drawing a weapon, interacting with the battlefield, or making one attack with a pistol or light melee weapon. You can make only one such bonus-action attack per turn, and Dirty Fighter still triggers only once per turn unless another feature explicitly says otherwise.",
+  "descriptionMarkdown": "Once per long rest, for 1 minute, you may take two bonus \nactions on each of your turns. Each bonus action must be \nused for Cunning Action, a Gang Style feature, reloading, \ndrawing a weapon, interacting with the battlefield, or \nmaking one attack with a pistol or light melee weapon. \nYou can make only one such bonus-action attack per \nturn, and Dirty Fighter still triggers only once per turn \nunless another feature explicitly says otherwise.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.6.20",
+        "heading": "King of the Underhive",
+        "pdfPage": 66,
+        "printedPage": 53
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per long rest, for 1 minute, you may take two bonus \nactions on each of your turns. Each bonus action must be \nused for Cunning Action, a Gang Style feature, reloading, \ndrawing a weapon, interacting with the battlefield, or \nmaking one attack with a pistol or light melee weapon. \nYou can make only one such bonus-action attack per \nturn, and Dirty Fighter still triggers only once per turn \nunless another feature explicitly says otherwise.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

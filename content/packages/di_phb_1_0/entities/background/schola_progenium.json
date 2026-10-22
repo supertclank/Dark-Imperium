@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.background.schola_progenium",
+  "kind": "background",
+  "revision": 1,
+  "name": "Schola Progenium",
+  "summary": "4.6 Schola Progenium Raised in harsh Imperial institutions to become a soldier, judge, officer, priest, or specialist. Allowed Species: Human. Skill Proficiency: Choose one from History or Religion, and one from Intimidation or Persuasion. Drilled Obedience: You have advantage on saving throws against fear while following a direct order, holding formation, or protecting an Imperial objective. Imperial Education: You can identify major Imperial organisations, ranks, symbols, rites, and procedu...",
+  "descriptionMarkdown": "4.6 Schola Progenium\nRaised in harsh Imperial institutions to become a soldier, \njudge, officer, priest, or specialist.\nAllowed Species: Human.\nSkill Proficiency: Choose one from History or Religion, \nand one from Intimidation or Persuasion.\nDrilled Obedience: You have advantage on saving \nthrows against fear while following a direct order,\nholding formation, or protecting an Imperial objective.\nImperial Education: You can identify major Imperial \norganisations, ranks, symbols, rites, and\nprocedures.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "4.6",
+        "heading": "Schola Progenium",
+        "pdfPage": 26,
+        "printedPage": 13
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "features": [
+      {
+        "id": "di.feature.origin.schola_progenium"
+      }
+    ],
+    "choices": [
+      {
+        "id": "di.choice.schola_progenium.skills"
+      },
+      {
+        "id": "di.choice.schola_progenium.skills_2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_2_3",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Species and Class Restrictions",
+  "summary": "Species Available Classes Notes Human Veteran, Zealot, Psyker, Arbites Enforcer, Hive Scum Most flexible Imperial species. Ogryn Ogryn Skullbreaker Class-locked; variety comes from Ogryn roles and talents. Ratling Ratling Sharpshooter, Veteran, Hive Scum Sniper, scout, thief, cook and rogue-style specialist. Skitarii Skitarii Veteran Mechanicus-only; no psychic access. Squat / Kin Kin Armsman, Hernkyn Prospector Tough, technically capable specialist; rare in Imperial warbands. Aeldari / Eldar...",
+  "descriptionMarkdown": "Species Available Classes Notes\nHuman Veteran, Zealot, Psyker, Arbites \nEnforcer, Hive Scum Most flexible Imperial species.\nOgryn Ogryn Skullbreaker Class-locked; variety comes from Ogryn \nroles and talents.\nRatling Ratling Sharpshooter, Veteran, Hive \nScum\nSniper, scout, thief, cook and rogue-style \nspecialist.\nSkitarii Skitarii Veteran Mechanicus-only; no psychic access.\nSquat / Kin Kin Armsman, Hernkyn Prospector Tough, technically capable specialist; \nrare in Imperial warbands.\nAeldari / Eldar Aeldari Outcast, Aeldari Warlock Xenos option for unusual campaigns; \nshould require a strong narrative reason.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "2.3",
+        "heading": "Species and Class Restrictions",
+        "pdfPage": 17,
+        "printedPage": 4
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Species Available Classes Notes\nHuman Veteran, Zealot, Psyker, Arbites \nEnforcer, Hive Scum Most flexible Imperial species.\nOgryn Ogryn Skullbreaker Class-locked; variety comes from Ogryn \nroles and talents.\nRatling Ratling Sharpshooter, Veteran, Hive \nScum\nSniper, scout, thief, cook and rogue-style \nspecialist.\nSkitarii Skitarii Veteran Mechanicus-only; no psychic access.\nSquat / Kin Kin Armsman, Hernkyn Prospector Tough, technically capable specialist; \nrare in Imperial warbands.\nAeldari / Eldar Aeldari Outcast, Aeldari Warlock Xenos option for unusual campaigns; \nshould require a strong narrative reason.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

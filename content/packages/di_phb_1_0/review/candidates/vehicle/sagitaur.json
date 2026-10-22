@@ -1,0 +1,45 @@
+{
+  "proposedId": "di.vehicle.sagitaur",
+  "kind": "vehicle",
+  "name": "Sagitaur",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-010"
+  ],
+  "proposedData": {
+    "size": "large",
+    "defence": {
+      "kind": "constant",
+      "value": 17
+    },
+    "hull": {
+      "kind": "constant",
+      "value": 90
+    },
+    "movement": [
+      {
+        "mode": "ground",
+        "speed": {
+          "value": 60,
+          "unit": "ft"
+        }
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "text": "Sagitaur\nLarge wheeled Kin vehicle\nAC 17 | HP 90 | DT 10 | Speed 60 ft | Handling +1\nCrew 1 D, 1 G | Passengers 6 | Cargo 300 kg | Exceptional\nWeapons: forward bolt cannon and turret HYLas rotary cannon (same G; choose one per action). Enclosed; Sealed; \nno firing ports. Ignores rubble and shallow mud. Kin-sized spaces need refitting for other species; no Ogryn \naccommodation.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "21.10",
+          "heading": "Sagitaur",
+          "pdfPage": 120,
+          "printedPage": 107
+        }
+      }
+    }
+  ]
+}

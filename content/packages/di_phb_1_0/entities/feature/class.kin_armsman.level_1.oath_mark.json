@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.kin_armsman.level_1.oath_mark",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Oath-Mark",
+  "summary": "As a bonus action, mark one creature you can see within 90 ft as the subject of your oath. Until the end of your next turn, your first weapon hit against that creature deals bonus damage equal to your proficiency bonus. Uses: proficiency bonus per long rest.",
+  "descriptionMarkdown": "As a bonus action, mark one creature you can see within \n90 ft as the subject of your oath. Until the end\nof your next turn, your first weapon hit against that \ncreature deals bonus damage equal to your\nproficiency bonus. Uses: proficiency bonus per long \nrest.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.9.2",
+        "heading": "Oath-Mark",
+        "pdfPage": 74,
+        "printedPage": 61
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "As a bonus action, mark one creature you can see within \n90 ft as the subject of your oath. Until the end\nof your next turn, your first weapon hit against that \ncreature deals bonus damage equal to your\nproficiency bonus. Uses: proficiency bonus per long \nrest.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

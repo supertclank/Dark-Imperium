@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.ratling_sharpshooter.level_17.deadeye_4d6",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Deadeye +4d6",
+  "summary": "Your Deadeye damage increases to +4d6.",
+  "descriptionMarkdown": "Your Deadeye damage increases to +4d6.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.7.17",
+        "heading": "Deadeye +4d6",
+        "pdfPage": 69,
+        "printedPage": 56
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Your Deadeye damage increases to +4d6.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

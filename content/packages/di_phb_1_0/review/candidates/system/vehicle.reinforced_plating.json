@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.system.vehicle.reinforced_plating",
+  "kind": "system",
+  "name": "Reinforced plating",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-010"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Upgrade: Reinforced plating; Availability: Rare; Effect: Add 20 maximum and current HP when fitted. Speed −10 ft, minimum 10 ft. Removal removes 20 current HP, minimum 1. No AC or DT increase.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "21",
+          "heading": "Reinforced plating",
+          "pdfPage": 118,
+          "printedPage": 105
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_18_3",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Requisition Outcomes",
+  "summary": "Result Outcome Failure by 5+ Refusal or a dangerous source; the attempt may create Heat, debt or misinformation. Failure by 1-4 Available with a complication such as delay, substitute, debt, limited charges or damaged condition. Success Available as requested for the mission or agreed period. Success by 5+ Improved condition, extra supplies, faster delivery or discreet paperwork. Natural 20 No automatic miracle; add favourable provenance, a useful introduction or future access.",
+  "descriptionMarkdown": "Result Outcome\nFailure by 5+\nRefusal or a dangerous \nsource; the attempt may \ncreate Heat, debt or \nmisinformation.\nFailure by 1-4\nAvailable with a complication \nsuch as delay, substitute, \ndebt, limited charges or \ndamaged condition.\nSuccess Available as requested for the \nmission or agreed period.\nSuccess by 5+\nImproved condition, extra \nsupplies, faster delivery or \ndiscreet paperwork.\nNatural 20\nNo automatic miracle; add \nfavourable provenance, a \nuseful introduction or future \naccess.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "18.3",
+        "heading": "Requisition Outcomes",
+        "pdfPage": 103,
+        "printedPage": 90
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Result Outcome\nFailure by 5+\nRefusal or a dangerous \nsource; the attempt may \ncreate Heat, debt or \nmisinformation.\nFailure by 1-4\nAvailable with a complication \nsuch as delay, substitute, \ndebt, limited charges or \ndamaged condition.\nSuccess Available as requested for the \nmission or agreed period.\nSuccess by 5+\nImproved condition, extra \nsupplies, faster delivery or \ndiscreet paperwork.\nNatural 20\nNo automatic miracle; add \nfavourable provenance, a \nuseful introduction or future \naccess.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

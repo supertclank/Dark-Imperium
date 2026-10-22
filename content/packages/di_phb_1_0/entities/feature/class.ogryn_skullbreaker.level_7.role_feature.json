@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.ogryn_skullbreaker.level_7.role_feature",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Role Feature",
+  "summary": "Ogryn Role Feature Bulwark While using a shield, you also gain advantage on saves against being shoved. Gun Lugger Your first ranged Ogryn weapon attack each turn deals +1d6 damage. Bone ’ead Once per short rest, when you or an ally within 10 ft fails a Wisdom or Intelligence saving throw against fear, psychic manipulation, confusion, or Suppression, you may use your reaction to let that creature reroll the save. Brute Your Brute damage becomes +1d8.",
+  "descriptionMarkdown": "Ogryn Role Feature\nBulwark\nWhile using a shield, you also gain \nadvantage on saves against being \nshoved.\nGun Lugger\nYour first ranged Ogryn weapon \nattack each turn deals +1d6 \ndamage.\nBone ’ead\nOnce per short rest, when you or \nan ally within 10 ft fails a Wisdom \nor Intelligence saving throw \nagainst fear, psychic manipulation, \nconfusion, or Suppression, you \nmay use your reaction to let that \ncreature reroll the save.\nBrute Your Brute damage becomes \n+1d8.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.4.7",
+        "heading": "Role Feature",
+        "pdfPage": 59,
+        "printedPage": 46
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Ogryn Role Feature\nBulwark\nWhile using a shield, you also gain \nadvantage on saves against being \nshoved.\nGun Lugger\nYour first ranged Ogryn weapon \nattack each turn deals +1d6 \ndamage.\nBone ’ead\nOnce per short rest, when you or \nan ally within 10 ft fails a Wisdom \nor Intelligence saving throw \nagainst fear, psychic manipulation, \nconfusion, or Suppression, you \nmay use your reaction to let that \ncreature reroll the save.\nBrute Your Brute damage becomes \n+1d8.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

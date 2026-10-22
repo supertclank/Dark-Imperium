@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.prescient_execution",
+  "kind": "power",
+  "name": "Prescient Execution",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Prescient Execution; Tag: Divination; Rule: Bonus Action. Range 30 ft. Concentration up to 1 minute. Once per turn, add 1d4 to an attack roll, saving throw, or ability check by yourself or an ally within range.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Prescient Execution",
+          "pdfPage": 93,
+          "printedPage": 80
+        }
+      }
+    }
+  ]
+}

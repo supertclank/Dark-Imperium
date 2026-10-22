@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.force_dome",
+  "kind": "power",
+  "name": "Force Dome",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Force Dome; Tag: Telekinesis; Rule: Action. 10-ft radius centred on a point within 60 ft. Allies inside gain +3 AC against ranged attacks until the start of your next turn.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Force Dome",
+          "pdfPage": 93,
+          "printedPage": 80
+        }
+      }
+    }
+  ]
+}

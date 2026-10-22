@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.blood_surge",
+  "kind": "power",
+  "name": "Blood Surge",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Blood Surge; Tag: Biomancy; Rule: Bonus Action. Range 30 ft. One ally gains +10 ft speed and advantage on Strength checks for 1 minute.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Blood Surge",
+          "pdfPage": 92,
+          "printedPage": 79
+        }
+      }
+    }
+  ]
+}

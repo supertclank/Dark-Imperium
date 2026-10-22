@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_18_2",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Requisition Test",
+  "summary": "When the GM calls for a Requisition test, roll: d20 + proficiency bonus + relevant ability modifier + any Standing or circumstance modifier supplied by the GM. Success grants access according to the stated terms; it does not automatically mean permanent personal ownership. Approach Typical Skill Formal Request Persuasion Locate Supply Investigation Mechanicus Petition Technology Religious Petition Religion Black Market Deception or Investigation Personal Leverage Any appropriate skill approve...",
+  "descriptionMarkdown": "When the GM calls for a Requisition test, roll: d20 + proficiency bonus + relevant ability modifier + any Standing or \ncircumstance modifier supplied by the GM. Success grants access according to the stated terms; it does not \nautomatically mean permanent personal ownership.\nApproach Typical Skill\nFormal Request Persuasion\nLocate Supply Investigation\nMechanicus Petition Technology\nReligious Petition Religion\nBlack Market Deception or Investigation\nPersonal Leverage Any appropriate skill \napproved by the GM",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "18.2",
+        "heading": "Requisition Test",
+        "pdfPage": 103,
+        "printedPage": 90
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When the GM calls for a Requisition test, roll: d20 + proficiency bonus + relevant ability modifier + any Standing or \ncircumstance modifier supplied by the GM. Success grants access according to the stated terms; it does not \nautomatically mean permanent personal ownership.\nApproach Typical Skill\nFormal Request Persuasion\nLocate Supply Investigation\nMechanicus Petition Technology\nReligious Petition Religion\nBlack Market Deception or Investigation\nPersonal Leverage Any appropriate skill \napproved by the GM",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

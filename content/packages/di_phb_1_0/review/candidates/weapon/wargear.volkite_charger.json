@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.weapon.wargear.volkite_charger",
+  "kind": "weapon",
+  "name": "Volkite Charger",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Item: Volkite Charger; Availability: Near-Unique; Effect: 2d8 radiant/fire; 80/240 ft; Burst, Reload 12. Once per turn, if the target has already taken damage this round, deal +1d8 fire damage.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Volkite Charger",
+          "pdfPage": 107,
+          "printedPage": 94
+        }
+      }
+    }
+  ]
+}

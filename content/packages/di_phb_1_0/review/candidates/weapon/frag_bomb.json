@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.weapon.frag_bomb",
+  "kind": "weapon",
+  "name": "Frag Bomb",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-005"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Grenade: Frag Bomb; Effect: Ogryn only. 20-ft radius; Dexterity save; 4d6 piercing damage and knocked prone on a failure; half damage and not knocked prone on a success.; Availability: Controlled",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "10",
+          "heading": "Frag Bomb",
+          "pdfPage": 47,
+          "printedPage": 34
+        }
+      }
+    }
+  ]
+}

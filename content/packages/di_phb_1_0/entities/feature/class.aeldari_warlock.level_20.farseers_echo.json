@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.aeldari_warlock.level_20.farseers_echo",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Farseer's Echo",
+  "summary": "Once per long rest, for 1 minute, whenever you cast a Warlock, Divination, or Telekinesis power, choose one ally within 30 ft. That ally may move 5 ft or add +1d4 to their next attack roll, saving throw, or ability check before your next turn.",
+  "descriptionMarkdown": "Once per long rest, for 1 minute, whenever you cast a \nWarlock, Divination, or Telekinesis power,\nchoose one ally within 30 ft. That ally may move 5 ft or \nadd +1d4 to their next attack roll, saving\nthrow, or ability check before your next turn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.12.20",
+        "heading": "Farseer's Echo",
+        "pdfPage": 84,
+        "printedPage": 71
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per long rest, for 1 minute, whenever you cast a \nWarlock, Divination, or Telekinesis power,\nchoose one ally within 30 ft. That ally may move 5 ft or \nadd +1d4 to their next attack roll, saving\nthrow, or ability check before your next turn.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

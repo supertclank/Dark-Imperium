@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.psyker.level_5.empowered_manifestation",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Empowered Manifestation",
+  "summary": "At level 5, once per short rest, you may cast a psychic power as Empowered without increasing its warp pressure cost.",
+  "descriptionMarkdown": "At level 5, once per short rest, you may cast a psychic \npower as Empowered without increasing its warp \npressure cost.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.3.5",
+        "heading": "Empowered Manifestation",
+        "pdfPage": 57,
+        "printedPage": 44
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "At level 5, once per short rest, you may cast a psychic \npower as Empowered without increasing its warp \npressure cost.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

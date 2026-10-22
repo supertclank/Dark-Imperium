@@ -1,0 +1,30 @@
+{
+  "proposedId": "di.subclass.hernkyn_prospector.trail_gunner",
+  "kind": "subclass",
+  "name": "Trail Gunner",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-012"
+  ],
+  "proposedData": {
+    "parentClass": {
+      "id": "di.class.hernkyn_prospector"
+    }
+  },
+  "evidence": [
+    {
+      "text": "Trail Gunner; Your first ranged hit on each of your turns deals +1d4 damage while no hostile creature is adjacent to you.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "11.10",
+          "heading": "Trail Gunner",
+          "pdfPage": 77,
+          "printedPage": 64
+        }
+      }
+    }
+  ]
+}

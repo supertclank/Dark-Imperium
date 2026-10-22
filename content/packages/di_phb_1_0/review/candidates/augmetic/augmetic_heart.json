@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.augmetic.augmetic_heart",
+  "kind": "augmetic",
+  "name": "Augmetic Heart",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Upgrade: Augmetic Heart; Effect: Advantage on saves against exhaustion from forced marches, blood loss, poison, or shock.; Availability: Rare",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "13",
+          "heading": "Augmetic Heart",
+          "pdfPage": 89,
+          "printedPage": 76
+        }
+      }
+    }
+  ]
+}

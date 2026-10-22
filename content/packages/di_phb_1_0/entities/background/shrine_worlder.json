@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "di.background.shrine_worlder",
+  "kind": "background",
+  "revision": 1,
+  "name": "Shrine Worlder",
+  "summary": "4.2 Shrine Worlder Raised in devotion, ritual, sacrifice, and Imperial worship. Allowed Species: Human, rare Ratling. Skill Proficiency: Religion and either Persuasion or Intimidation. Litany of Resolve: Once per long rest, you can give yourself or one ally within 30 ft. advantage on a Wisdom saving throw. Sacred Hatred: Once per turn, when you damage a heretic, daemon, mutant, witch, traitor, or xenos with a weapon attack or class feature, you deal an additional 1d4 + 1 radiant damage. This ...",
+  "descriptionMarkdown": "4.2 Shrine Worlder\nRaised in devotion, ritual, sacrifice, and Imperial worship.\nAllowed Species: Human, rare Ratling.\nSkill Proficiency: Religion and either Persuasion or \nIntimidation.\nLitany of Resolve: Once per long rest, you can give \nyourself or one ally within 30 ft. advantage on a Wisdom \nsaving throw.\nSacred Hatred: Once per turn, when you damage a \nheretic, daemon, mutant, witch, traitor, or xenos with\na weapon attack or class feature, you deal an additional \n1d4 + 1 radiant damage.\nThis damage represents zeal, ritual fury, and trained \nhatred rather than true divine magic.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "4.2",
+        "heading": "Shrine Worlder",
+        "pdfPage": 26,
+        "printedPage": 13
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "features": [
+      {
+        "id": "di.feature.origin.shrine_worlder"
+      }
+    ],
+    "choices": [
+      {
+        "id": "di.choice.shrine_worlder.skills"
+      }
+    ]
+  }
+}

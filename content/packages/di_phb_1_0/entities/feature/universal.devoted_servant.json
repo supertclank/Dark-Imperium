@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.universal.devoted_servant",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Devoted Servant",
+  "summary": "Trait: Devoted Servant Effect: Once per long rest, when you fail a death saving throw, treat it as a success instead.",
+  "descriptionMarkdown": "Trait: Devoted Servant\nEffect: Once per long rest, when you fail a death saving throw, treat it as a success instead.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "5",
+        "heading": "Devoted Servant",
+        "pdfPage": 29,
+        "printedPage": 16
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "general",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Trait: Devoted Servant\nEffect: Once per long rest, when you fail a death saving throw, treat it as a success instead.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

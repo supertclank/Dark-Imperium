@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.skitarii_veteran.level_10.omnissian_execution",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Omnissian Execution",
+  "summary": "Once per short rest, when Targeting Protocol causes an attack to hit, add 2d8 damage. If the target is a daemon, heretek, machine, vehicle, or heavily augmented creature, add 3d8 instead.",
+  "descriptionMarkdown": "Once per short rest, when Targeting Protocol causes an \nattack to hit, add 2d8 damage. If the target is a\ndaemon, heretek, machine, vehicle, or heavily \naugmented creature, add 3d8 instead.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.8.10",
+        "heading": "Omnissian Execution",
+        "pdfPage": 72,
+        "printedPage": 59
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per short rest, when Targeting Protocol causes an \nattack to hit, add 2d8 damage. If the target is a\ndaemon, heretek, machine, vehicle, or heavily \naugmented creature, add 3d8 instead.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

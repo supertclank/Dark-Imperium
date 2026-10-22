@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.species.kin.traits",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Squat / Kin traits",
+  "summary": "3.5 Squat / Kin Squats, often known as Kin in modern Imperial records, are hardy void-adapted abhumans associated with holds, guilds, oath-bands, mining fleets, mercenary contracts, and ancient grudges. They are shorter than humans but dense, resilient, technically minded, and extremely difficult to intimidate. Ability Scores: +2 Constitution, +1 Intelligence or Wisdom. Size: Medium, but your height is usually between 4 and 5 ft. Speed: 25 ft. Available Classes: Kin Armsman, Hernkyn Prospecto...",
+  "descriptionMarkdown": "3.5 Squat / Kin\nSquats, often known as Kin in modern Imperial records, \nare hardy void-adapted abhumans associated\nwith holds, guilds, oath-bands, mining fleets, mercenary \ncontracts, and ancient grudges. They are\nshorter than humans but dense, resilient, technically \nminded, and extremely difficult to intimidate.\nAbility Scores: +2 Constitution, +1 Intelligence or \nWisdom.\nSize: Medium, but your height is usually between 4 and 5 \nft.\nSpeed: 25 ft.\nAvailable Classes: Kin Armsman, Hernkyn Prospector.\n3.5.1 Squat / Kin Traits\nDarkvision: You have darkvision to a range of 60 ft (see \nthe rules at the start of this chapter).\nDense Build: You have advantage on saving throws \nagainst being shoved, knocked prone, or moved\nagainst your will.\nVoid-Hardened: You have advantage on saving throws \nagainst exhaustion caused by poor atmosphere,\nbad rations, forced marches, cramped voidship \nconditions, mining hazards, or environmental hardship.\nGuild-Craft: Gain proficiency in Technology, \nInvestigation, or one artisan/tool proficiency related to\nengineering, mining, weapons, armour, or voidcraft.\nGrudge Memory: Once per long rest, when a creature \ndamages you or an ally within 30 ft, mark that\ncreature as the subject of a grudge. The first time you hit \nthat creature before the end of the encounter,\nadd your proficiency bonus to the damage.\nStubborn Kin: You have advantage on saving throws \nagainst being frightened.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "3.5",
+        "heading": "Squat / Kin traits",
+        "pdfPage": 24,
+        "printedPage": 11
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "species_trait",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "3.5 Squat / Kin\nSquats, often known as Kin in modern Imperial records, \nare hardy void-adapted abhumans associated\nwith holds, guilds, oath-bands, mining fleets, mercenary \ncontracts, and ancient grudges. They are\nshorter than humans but dense, resilient, technically \nminded, and extremely difficult to intimidate.\nSize: Medium, but your height is usually between 4 and 5 \nft.\n\nAvailable Classes: Kin Armsman, Hernkyn Prospector.\n3.5.1 Squat / Kin Traits\nDarkvision: You have darkvision to a range of 60 ft (see \nthe rules at the start of this chapter).\nDense Build: You have advantage on saving throws \nagainst being shoved, knocked prone, or moved\nagainst your will.\nVoid-Hardened: You have advantage on saving throws \nagainst exhaustion caused by poor atmosphere,\nbad rations, forced marches, cramped voidship \nconditions, mining hazards, or environmental hardship.\nGuild-Craft: Gain proficiency in Technology, \nInvestigation, or one artisan/tool proficiency related to\nengineering, mining, weapons, armour, or voidcraft.\nGrudge Memory: Once per long rest, when a creature \ndamages you or an ally within 30 ft, mark that\ncreature as the subject of a grudge. The first time you hit \nthat creature before the end of the encounter,\nadd your proficiency bonus to the damage.\nStubborn Kin: You have advantage on saving throws \nagainst being frightened.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.origin.penal_worlder",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Penal Worlder benefits",
+  "summary": "4.3 Penal Worlder A convict, survivor, conscript, or former prisoner. Allowed Species: Human, Ogryn, Ratling. Skill Proficiency: Survival and one of Athletics, Deception, or Intimidation. Hard Time: You have advantage on saving throws against exhaustion caused by forced marches, starvation, poor conditions, or sleep deprivation. Dirty Survival: Once per long rest, when you are reduced to 0 hit points but not killed outright, you may drop to 1 hit point instead.",
+  "descriptionMarkdown": "4.3 Penal Worlder\nA convict, survivor, conscript, or former prisoner.\nAllowed Species: Human, Ogryn, Ratling.\nSkill Proficiency: Survival and one of Athletics, \nDeception, or Intimidation.\nHard Time: You have advantage on saving throws \nagainst exhaustion caused by forced marches,\nstarvation, poor conditions, or sleep deprivation.\nDirty Survival: Once per long rest, when you are \nreduced to 0 hit points but not killed outright, you\nmay drop to 1 hit point instead.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "4.3",
+        "heading": "Penal Worlder benefits",
+        "pdfPage": 26,
+        "printedPage": 13
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "background_feature",
+    "effects": [],
+    "grants": [
+      {
+        "id": "survival",
+        "kind": "proficiency",
+        "proficiency": {
+          "id": "di.proficiency.skill.survival"
+        }
+      }
+    ],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "4.3 Penal Worlder\nA convict, survivor, conscript, or former prisoner.\nAllowed Species: Human, Ogryn, Ratling.\n\nHard Time: You have advantage on saving throws \nagainst exhaustion caused by forced marches,\nstarvation, poor conditions, or sleep deprivation.\nDirty Survival: Once per long rest, when you are \nreduced to 0 hit points but not killed outright, you\nmay drop to 1 hit point instead.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

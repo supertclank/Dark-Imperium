@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.zealot.level_10.sainted_fury",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Sainted Fury",
+  "summary": "As a bonus action once per long rest, enter a sainted fury for 1 minute. Your Fury of Faith damage becomes 1d8 + your proficiency bonus. During this time, you have advantage on saving throws against fear and corruption effects.",
+  "descriptionMarkdown": "As a bonus action once per long rest, enter a sainted fury \nfor 1 minute. Your Fury of Faith damage becomes 1d8 + \nyour proficiency bonus. During this time, you have \nadvantage on saving throws against fear and corruption \neffects.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.2.10",
+        "heading": "Sainted Fury",
+        "pdfPage": 53,
+        "printedPage": 40
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "As a bonus action once per long rest, enter a sainted fury \nfor 1 minute. Your Fury of Faith damage becomes 1d8 + \nyour proficiency bonus. During this time, you have \nadvantage on saving throws against fear and corruption \neffects.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

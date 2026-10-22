@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_15_3",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Perils Severity",
+  "summary": "When Perils trigger, roll: 1d20 + current Warp Pressure Then consult the table. Result Peril 2-6 Warp Static 7-10 Bleeding Eyes 11-14 Soul Echo 15-18 Warp Scream 19-22 Possession Pressure 23-26 Uncontrolled Manifestation 27-30 Reality Tear 31+ Catastrophic Perils",
+  "descriptionMarkdown": "When Perils trigger, roll:\n1d20 + current Warp Pressure\nThen consult the table.\nResult Peril\n2-6 Warp Static\n7-10 Bleeding Eyes\n11-14 Soul Echo\n15-18 Warp Scream\n19-22 Possession Pressure\n23-26 Uncontrolled Manifestation\n27-30 Reality Tear\n31+ Catastrophic Perils",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "15.3",
+        "heading": "Perils Severity",
+        "pdfPage": 95,
+        "printedPage": 82
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "perils",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When Perils trigger, roll:\n1d20 + current Warp Pressure\nThen consult the table.\nResult Peril\n2-6 Warp Static\n7-10 Bleeding Eyes\n11-14 Soul Echo\n15-18 Warp Scream\n19-22 Possession Pressure\n23-26 Uncontrolled Manifestation\n27-30 Reality Tear\n31+ Catastrophic Perils",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

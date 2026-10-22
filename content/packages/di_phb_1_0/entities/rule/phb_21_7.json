@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_21_7",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Chases",
+  "summary": "Use chase bands when routes and obstacles matter more than squares. Choose pursuer and quarry, then set a starting band. Bands replace tactical movement between those vehicles: do not also add Speed or Drive Hard to the gap. Actions and damage still use normal rounds. Band Separation Range 0 — Contact Alongside or immediately behind 10 ft 1 — Close A short stretch of road 60 ft 2 — Near A clear firing lane 120 ft 3 — Far Terrain or traffic intervenes 240 ft 4 — Distant Almost lost from sight ...",
+  "descriptionMarkdown": "Use chase bands when routes and obstacles matter more than squares. Choose pursuer and quarry, then set a \nstarting band. Bands replace tactical movement between those vehicles: do not also add Speed or Drive Hard to the \ngap. Actions and damage still use normal rounds.\nBand Separation Range\n0 — Contact Alongside or immediately behind 10 ft\n1 — Close A short stretch of road 60 ft\n2 — Near A clear firing lane 120 ft\n3 — Far Terrain or traffic intervenes 240 ft\n4 — Distant Almost lost from sight 480 ft\n5 — Lost Beyond immediate pursuit Out of sight\nAt round’s end, each driver who spent their action Pursuing rolls Dexterity (Vehicles) + Handling. The vehicle with the \nfaster current Speed grants +2 in that contest; equal Speed grants neither side a bonus. A quarry win increases the \ngap one band; a pursuer win decreases it one. A margin of 5 or more changes it two bands. Ties leave it unchanged. \nClamp gaps between 0 and 5.\nPursuing uses the driver’s action instead of firing, ramming, Drive Hard or Evasive Driving. If only one driver Pursues, \nthat driver wins by one band without a contest; if neither does, the gap stays unchanged. A stopped quarry is caught; a \nstopped pursuer loses. At band 5 the quarry escapes after staying there through the next contest; the pursuer can still \nclose on that contest but cannot attack an unseen target.\nThe GM may introduce one route hazard per vehicle per round, with a DC 10, 13 or 16 driving check. Failure gives \ndisadvantage on that round’s chase contest; failure by 5 also causes a collision. Announce consequences first. A \nnavigator may Help with either a hazard or contest, not both. Other crew can attack, reload or repair using the band’s \nrange. There is no extra firing penalty just for Pursuing.\nAt Contact, use an action to ram or board instead of another action. With several vehicles, roll once per driver and \nreuse the base roll in each contest, applying the faster-vehicle +2 separately. Example: a Taurox pursues a hauler at \nNear. Final totals of 18 and 14 favour the Taurox by 4, closing to Close. An attack earlier that round still used Near’s \n120-ft distance.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "21.7",
+        "heading": "Chases",
+        "pdfPage": 117,
+        "printedPage": 104
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Use chase bands when routes and obstacles matter more than squares. Choose pursuer and quarry, then set a \nstarting band. Bands replace tactical movement between those vehicles: do not also add Speed or Drive Hard to the \ngap. Actions and damage still use normal rounds.\nBand Separation Range\n0 — Contact Alongside or immediately behind 10 ft\n1 — Close A short stretch of road 60 ft\n2 — Near A clear firing lane 120 ft\n3 — Far Terrain or traffic intervenes 240 ft\n4 — Distant Almost lost from sight 480 ft\n5 — Lost Beyond immediate pursuit Out of sight\nAt round’s end, each driver who spent their action Pursuing rolls Dexterity (Vehicles) + Handling. The vehicle with the \nfaster current Speed grants +2 in that contest; equal Speed grants neither side a bonus. A quarry win increases the \ngap one band; a pursuer win decreases it one. A margin of 5 or more changes it two bands. Ties leave it unchanged. \nClamp gaps between 0 and 5.\nPursuing uses the driver’s action instead of firing, ramming, Drive Hard or Evasive Driving. If only one driver Pursues, \nthat driver wins by one band without a contest; if neither does, the gap stays unchanged. A stopped quarry is caught; a \nstopped pursuer loses. At band 5 the quarry escapes after staying there through the next contest; the pursuer can still \nclose on that contest but cannot attack an unseen target.\nThe GM may introduce one route hazard per vehicle per round, with a DC 10, 13 or 16 driving check. Failure gives \ndisadvantage on that round’s chase contest; failure by 5 also causes a collision. Announce consequences first. A \nnavigator may Help with either a hazard or contest, not both. Other crew can attack, reload or repair using the band’s \nrange. There is no extra firing penalty just for Pursuing.\nAt Contact, use an action to ram or board instead of another action. With several vehicles, roll once per driver and \nreuse the base roll in each contest, applying the faster-vehicle +2 separately. Example: a Taurox pursues a hauler at \nNear. Final totals of 18 and 14 favour the Taurox by 4, closing to Close. An attack earlier that round still used Near’s \n120-ft distance.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

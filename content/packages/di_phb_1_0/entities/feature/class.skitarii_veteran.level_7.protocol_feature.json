@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.skitarii_veteran.level_7.protocol_feature",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Protocol Feature",
+  "summary": "Combat Protocol Level 7 Feature Ranger Your Ranger Protocol damage becomes +1d6. Vanguard A creature affected by Vanguard Protocol also takes +1d4 rad or poison damage when you hit it. Protector If the protected attack misses, the ally gains temporary HP equal to your Intelligence modifier. Data-Hunter The next ally to damage the identified enemy adds +1d6 damage. Infiltrator You may move 10 ft as part of the bonus action used to activate Infiltrator Protocol. Ruststalker Your melee attacks i...",
+  "descriptionMarkdown": "Combat Protocol Level 7 Feature\nRanger Your Ranger Protocol damage \nbecomes +1d6.\nVanguard\nA creature affected by Vanguard \nProtocol also takes +1d4 rad or \npoison damage when you hit it.\nProtector\nIf the protected attack misses, the \nally gains temporary HP equal to \nyour Intelligence modifier.\nData-Hunter\nThe next ally to damage the \nidentified enemy adds +1d6 \ndamage.\nInfiltrator\nYou may move 10 ft as part of the \nbonus action used to activate \nInfiltrator Protocol.\nRuststalker\nYour melee attacks ignore \nresistance from non-powered \narmour.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.8.7",
+        "heading": "Protocol Feature",
+        "pdfPage": 71,
+        "printedPage": 58
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Combat Protocol Level 7 Feature\nRanger Your Ranger Protocol damage \nbecomes +1d6.\nVanguard\nA creature affected by Vanguard \nProtocol also takes +1d4 rad or \npoison damage when you hit it.\nProtector\nIf the protected attack misses, the \nally gains temporary HP equal to \nyour Intelligence modifier.\nData-Hunter\nThe next ally to damage the \nidentified enemy adds +1d6 \ndamage.\nInfiltrator\nYou may move 10 ft as part of the \nbonus action used to activate \nInfiltrator Protocol.\nRuststalker\nYour melee attacks ignore \nresistance from non-powered \narmour.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

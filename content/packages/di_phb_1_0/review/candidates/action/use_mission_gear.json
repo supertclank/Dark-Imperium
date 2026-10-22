@@ -1,0 +1,28 @@
+{
+  "proposedId": "di.action.use_mission_gear",
+  "kind": "action",
+  "name": "Use Mission Gear",
+  "status": "MANUAL_RULE",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-011"
+  ],
+  "proposedData": {
+    "economy": "action"
+  },
+  "evidence": [
+    {
+      "text": "Operate a med-pack, auspex, demolition tool or other item whose rule requires an action.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "6.1",
+          "heading": "Use Mission Gear",
+          "pdfPage": 31,
+          "printedPage": 18
+        }
+      }
+    }
+  ]
+}

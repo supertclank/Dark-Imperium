@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.arbites_enforcer.level_18.doctrine_feature",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Doctrine Feature",
+  "summary": "Enforcement Doctrine Feature Riot Shield While using a shield, you and one adjacent ally gain +1 to Dexterity saves. Executioner Judgement Protocol deals an extra +2d6 damage. Investigator When you ask a tactical question, you may also learn one useful weakness, route, or leverage point.",
+  "descriptionMarkdown": "Enforcement Doctrine Feature\nRiot Shield\nWhile using a shield, you and one \nadjacent ally gain +1 to Dexterity \nsaves.\nExecutioner Judgement Protocol deals an extra \n+2d6 damage.\nInvestigator\nWhen you ask a tactical question, \nyou may also learn one useful \nweakness, route, or leverage \npoint.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.5.18",
+        "heading": "Doctrine Feature",
+        "pdfPage": 63,
+        "printedPage": 50
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Enforcement Doctrine Feature\nRiot Shield\nWhile using a shield, you and one \nadjacent ally gain +1 to Dexterity \nsaves.\nExecutioner Judgement Protocol deals an extra \n+2d6 damage.\nInvestigator\nWhen you ask a tactical question, \nyou may also learn one useful \nweakness, route, or leverage \npoint.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

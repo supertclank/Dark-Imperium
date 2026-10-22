@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.armour.hearthkyn_plate",
+  "kind": "armour",
+  "name": "Hearthkyn Plate",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-007"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "AC: 15 + Dex modifier, max +2; Advantage against being shoved while braced.; Availability: Controlled",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "9",
+          "heading": "Hearthkyn Plate",
+          "pdfPage": 42,
+          "printedPage": 29
+        }
+      }
+    }
+  ]
+}

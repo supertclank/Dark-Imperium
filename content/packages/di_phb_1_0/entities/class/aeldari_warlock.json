@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "di.class.aeldari_warlock",
+  "kind": "class",
+  "revision": 1,
+  "name": "Aeldari Warlock",
+  "summary": "11.12 Aeldari Warlock An Aeldari battle-seer, a former Seer who has walked the Path of the Warrior, or rune-armoured psyker operating under a hidden command. This is not a normal Imperial psyker and should be used carefully. Allowed Species: Aeldari only. Hit Die: d6. Primary Abilities: Wisdom or Intelligence, Dexterity. Saving Throws: Wisdom, Intelligence. Armour: Aeldari mesh, rune armour. Weapons: Aeldari weapons, witchblades, singing spears, pistols. Special: Uses Runes of Battle and Warp...",
+  "descriptionMarkdown": "11.12 Aeldari Warlock\nAn Aeldari battle-seer, a former Seer who has walked the Path of the Warrior, or rune-armoured psyker\noperating under a hidden command. This is not a normal Imperial psyker and should be used carefully.\nAllowed Species: Aeldari only.\nHit Die: d6.\nPrimary Abilities: Wisdom or Intelligence, Dexterity.\nSaving Throws: Wisdom, Intelligence.\nArmour: Aeldari mesh, rune armour.\nWeapons: Aeldari weapons, witchblades, singing spears, pistols.\nSpecial: Uses Runes of Battle and Warp Pressure. Aeldari Warlocks do not learn Malefic powers.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.12",
+        "heading": "Aeldari Warlock",
+        "pdfPage": 83,
+        "printedPage": 70
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "features": [
+      {
+        "id": "di.feature.class.aeldari_warlock.training"
+      }
+    ],
+    "progression": {
+      "id": "di.progression.aeldari_warlock"
+    },
+    "requirements": {
+      "kind": "selected",
+      "content": {
+        "id": "di.species.aeldari"
+      }
+    }
+  }
+}

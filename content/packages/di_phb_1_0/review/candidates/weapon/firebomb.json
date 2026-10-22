@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.weapon.firebomb",
+  "kind": "weapon",
+  "name": "Firebomb",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-005"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Grenade: Firebomb; Effect: 10-ft radius; Dexterity save; 2d6 fire damage and burning ground.; Availability: Controlled",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "10",
+          "heading": "Firebomb",
+          "pdfPage": 47,
+          "printedPage": 34
+        }
+      }
+    }
+  ]
+}

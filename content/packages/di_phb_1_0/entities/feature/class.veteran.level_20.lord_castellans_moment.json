@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.veteran.level_20.lord_castellans_moment",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Lord Castellan's Moment",
+  "summary": "Once per long rest, for 1 minute, you may use Tactical Aim at the start of each of your turns without spending a bonus action. Once per round when you hit the aimed target, choose one ally within 30 ft who can see or hear you. That ally may reload one weapon without using an action, move 10 ft without provoking opportunity attacks, or add +1d6 damage to its next hit against that target before your next turn.",
+  "descriptionMarkdown": "Once per long rest, for 1 minute, you may use Tactical \nAim at the start of each of your turns without spending a \nbonus action. Once per round when you hit the aimed \ntarget, choose one ally within 30 ft who can see or hear \nyou. That ally may reload one weapon without using an \naction, move 10 ft without provoking opportunity attacks, \nor add +1d6 damage to its next hit against that target \nbefore your next turn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.1.20",
+        "heading": "Lord Castellan's Moment",
+        "pdfPage": 51,
+        "printedPage": 38
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per long rest, for 1 minute, you may use Tactical \nAim at the start of each of your turns without spending a \nbonus action. Once per round when you hit the aimed \ntarget, choose one ally within 30 ft who can see or hear \nyou. That ally may reload one weapon without using an \naction, move 10 ft without provoking opportunity attacks, \nor add +1d6 damage to its next hit against that target \nbefore your next turn.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

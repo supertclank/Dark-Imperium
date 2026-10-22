@@ -1,0 +1,48 @@
+{
+  "proposedId": "di.weapon.plasma_axe",
+  "kind": "weapon",
+  "name": "Plasma Axe",
+  "status": "AMBIGUOUS",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-005",
+    "PHB-006"
+  ],
+  "proposedData": {
+    "properties": [
+      {
+        "property": {
+          "id": "di.property.weapon.power_field"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.armour_breaking"
+        },
+        "arguments": {}
+      }
+    ],
+    "modes": [
+      {
+        "id": "base",
+        "name": "Base profile"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "text": "Weapon: Plasma Axe; Damage: 1d10 slashing/radiant; Range: Melee; Properties: Power Field, Armour-Breaking; Availability: Rare",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "8",
+          "heading": "Plasma Axe",
+          "pdfPage": 40,
+          "printedPage": 27
+        }
+      }
+    }
+  ]
+}

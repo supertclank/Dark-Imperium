@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.hernkyn_prospector.level_18.expedition_feature",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Expedition Feature",
+  "summary": "Expedition Role Feature Outrider After you use Outrider’s Escape, your next attack before your next turn has advantage. Claim-Staker Deep Scan reveals two useful facts instead of one. Trail Gunner Your Trail Gunner damage becomes +1d8, and that hit ignores light cover.",
+  "descriptionMarkdown": "Expedition Role Feature\nOutrider\nAfter you use Outrider’s Escape, \nyour next attack before your next \nturn has advantage.\nClaim-Staker Deep Scan reveals two useful \nfacts instead of one.\nTrail Gunner\nYour Trail Gunner damage \nbecomes +1d8, and that hit \nignores light cover.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.10.18",
+        "heading": "Expedition Feature",
+        "pdfPage": 78,
+        "printedPage": 65
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Expedition Role Feature\nOutrider\nAfter you use Outrider’s Escape, \nyour next attack before your next \nturn has advantage.\nClaim-Staker Deep Scan reveals two useful \nfacts instead of one.\nTrail Gunner\nYour Trail Gunner damage \nbecomes +1d8, and that hit \nignores light cover.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

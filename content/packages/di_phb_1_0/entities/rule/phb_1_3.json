@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_1_3",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Character Tiers",
+  "summary": "Tier Levels Typical Scope Tier 1 1-4 Districts, facilities, local threats and small warband operations. Tier 2 5-10 Planetary operations, elite enemies and major institutional conflict. Tier 3 11-16 System or subsector crises, powerful relics and strategic enemies. Tier 4 17-20 Sector-changing operations, armies, catastrophic Warp threats and legendary characters.",
+  "descriptionMarkdown": "Tier Levels Typical Scope\nTier 1 1-4 Districts, facilities, local threats and small warband operations.\nTier 2 5-10 Planetary operations, elite enemies and major institutional conflict.\nTier 3 11-16 System or subsector crises, powerful relics and strategic enemies.\nTier 4 17-20 Sector-changing operations, armies, catastrophic Warp threats and legendary \ncharacters.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "1.3",
+        "heading": "Character Tiers",
+        "pdfPage": 15,
+        "printedPage": 2
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Tier Levels Typical Scope\nTier 1 1-4 Districts, facilities, local threats and small warband operations.\nTier 2 5-10 Planetary operations, elite enemies and major institutional conflict.\nTier 3 11-16 System or subsector crises, powerful relics and strategic enemies.\nTier 4 17-20 Sector-changing operations, armies, catastrophic Warp threats and legendary \ncharacters.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

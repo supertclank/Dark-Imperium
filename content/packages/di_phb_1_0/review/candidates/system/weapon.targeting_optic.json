@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.system.weapon.targeting_optic",
+  "kind": "system",
+  "name": "Targeting Optic",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Modification: Targeting Optic; Availability: Scarce; Effect: When you Aim and do not move before the attack, ignore Light Cover on one ranged attack.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Targeting Optic",
+          "pdfPage": 104,
+          "printedPage": 91
+        }
+      }
+    }
+  ]
+}

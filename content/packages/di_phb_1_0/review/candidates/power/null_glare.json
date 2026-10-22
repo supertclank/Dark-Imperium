@@ -1,0 +1,27 @@
+{
+  "proposedId": "di.power.null_glare",
+  "kind": "power",
+  "name": "Null Glare",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-008",
+    "PHB-009"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Power: Null Glare; Tag: Null; Rule: Action. Range 30 ft. One creature makes a Charisma save. Failure: it has disadvantage on the next psychic attack roll it makes, or the next saving throw it forces, before your next turn.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "14",
+          "heading": "Null Glare",
+          "pdfPage": 92,
+          "printedPage": 79
+        }
+      }
+    }
+  ]
+}

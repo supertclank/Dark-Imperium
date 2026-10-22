@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.rule.phb_6_5",
+  "kind": "rule",
+  "revision": 1,
+  "name": "Close-Quarters Shooting",
+  "summary": "Making a ranged weapon attack while a hostile creature is within 5 ft normally imposes disadvantage. A weapon with the Close-Quarters property ignores this disadvantage. Pistols may be drawn and fired in melee unless another rule prevents it.",
+  "descriptionMarkdown": "Making a ranged weapon attack while a hostile creature \nis within 5 ft normally imposes disadvantage. A weapon \nwith the Close-Quarters property ignores this \ndisadvantage. Pistols may be drawn and fired in melee \nunless another rule prevents it.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "6.5",
+        "heading": "Close-Quarters Shooting",
+        "pdfPage": 31,
+        "printedPage": 18
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "role": "general",
+    "automation": "manual",
+    "effects": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Making a ranged weapon attack while a hostile creature \nis within 5 ft normally imposes disadvantage. A weapon \nwith the Close-Quarters property ignores this \ndisadvantage. Pistols may be drawn and fired in melee \nunless another rule prevents it.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

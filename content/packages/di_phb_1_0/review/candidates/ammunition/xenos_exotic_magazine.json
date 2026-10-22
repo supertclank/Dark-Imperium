@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.ammunition.xenos_exotic_magazine",
+  "kind": "ammunition",
+  "name": "Xenos / Exotic Magazine",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Ammunition: Xenos / Exotic Magazine; Availability: Rare; Effect: Restores one Reload cycle for a matching xenos or otherwise exotic weapon. It does not grant a new property by itself.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "Xenos / Exotic Magazine",
+          "pdfPage": 105,
+          "printedPage": 92
+        }
+      }
+    }
+  ]
+}

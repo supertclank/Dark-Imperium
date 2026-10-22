@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.condition.unconscious",
+  "kind": "condition",
+  "name": "Unconscious",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-013"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Condition / State: Unconscious; Effect: You are Incapacitated, cannot move or speak, are unaware of your surroundings, drop held items and fall Prone. You automatically fail Strength and Dexterity saves. Attacks against you have advantage, and a hit from within 5 ft is a critical hit.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "6",
+          "heading": "Unconscious",
+          "pdfPage": 33,
+          "printedPage": 20
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.field_dressing",
+  "kind": "equipment",
+  "name": "Field Dressing",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Item: Field Dressing; Use: Action; Rule: Stabilise a dying creature. With a successful DC 10 Medicine check, the target may immediately spend one Hit Die.; Availability: Issued",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "17",
+          "heading": "Field Dressing",
+          "pdfPage": 101,
+          "printedPage": 88
+        }
+      }
+    }
+  ]
+}

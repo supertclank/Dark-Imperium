@@ -1,0 +1,45 @@
+{
+  "proposedId": "di.vehicle.leman_russ_battle_tank",
+  "kind": "vehicle",
+  "name": "Leman Russ Battle Tank",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-010"
+  ],
+  "proposedData": {
+    "size": "huge",
+    "defence": {
+      "kind": "constant",
+      "value": 19
+    },
+    "hull": {
+      "kind": "constant",
+      "value": 160
+    },
+    "movement": [
+      {
+        "mode": "ground",
+        "speed": {
+          "value": 30,
+          "unit": "ft"
+        }
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "text": "Leman Russ Battle Tank\nHuge tracked tank\nAC 19 | HP 160 | DT 15 | Speed 30 ft | Handling −2\nCrew 1 D, 2 G, 1 L | Passengers 0 | Cargo 200 kg | Exceptional\nWeapons: turret battle cannon (one G); forward heavy bolter (other G). Enclosed; Sealed; no firing ports. Loader \nreloads either mount. No sponsons in this loadout. Unsuitable for weak bridges and hab corridors.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "21.10",
+          "heading": "Leman Russ Battle Tank",
+          "pdfPage": 120,
+          "printedPage": 107
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "proposedId": "di.subclass.hive_scum.gunslinger",
+  "kind": "subclass",
+  "name": "Gunslinger",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-012"
+  ],
+  "proposedData": {
+    "parentClass": {
+      "id": "di.class.hive_scum"
+    }
+  },
+  "evidence": [
+    {
+      "text": "Gunslinger; Once per turn, you can reload a pistol without using an action.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "11.6",
+          "heading": "Gunslinger",
+          "pdfPage": 65,
+          "printedPage": 52
+        }
+      }
+    }
+  ]
+}

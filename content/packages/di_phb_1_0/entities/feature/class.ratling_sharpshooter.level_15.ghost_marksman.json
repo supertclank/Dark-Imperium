@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.ratling_sharpshooter.level_15.ghost_marksman",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Ghost Marksman",
+  "summary": "Once per long rest, for 1 minute, you remain hidden after making a ranged attack if you are in heavy cover or heavily obscured. The attack still reveals the direction of the shot, but not your exact position.",
+  "descriptionMarkdown": "Once per long rest, for 1 minute, you remain hidden after \nmaking a ranged attack if you are in heavy\ncover or heavily obscured. The attack still reveals the \ndirection of the shot, but not your exact position.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.7.15",
+        "heading": "Ghost Marksman",
+        "pdfPage": 69,
+        "printedPage": 56
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per long rest, for 1 minute, you remain hidden after \nmaking a ranged attack if you are in heavy\ncover or heavily obscured. The attack still reveals the \ndirection of the shot, but not your exact position.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

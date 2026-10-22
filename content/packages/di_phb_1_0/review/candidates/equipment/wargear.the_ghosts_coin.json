@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.wargear.the_ghosts_coin",
+  "kind": "equipment",
+  "name": "The Ghost's Coin",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Unique Item: The Ghost's Coin; Availability: Unique; Effect and Burden: Black-market data-sigil. Once per long rest, produce a convincing identity, access token or ownership record appropriate to the current settlement or institution; for one scene, gain advantage on Deception and Investigation checks that rely on it. Burden: every use risks attracting whoever originally issued the stolen credentials.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "The Ghost's Coin",
+          "pdfPage": 108,
+          "printedPage": 95
+        }
+      }
+    }
+  ]
+}

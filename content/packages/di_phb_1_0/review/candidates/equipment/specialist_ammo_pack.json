@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.specialist_ammo_pack",
+  "kind": "equipment",
+  "name": "Specialist Ammo Pack",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Item: Specialist Ammo Pack; Use: Action or downtime; Rule: Restore one expended Reload cycle for plasma, melta, bolt, needle, Kin, Aeldari or other advanced ammunition when that ammunition is limited. The pack must match the weapon or ammunition type.; Availability: Controlled",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "17",
+          "heading": "Specialist Ammo Pack",
+          "pdfPage": 101,
+          "printedPage": 88
+        }
+      }
+    }
+  ]
+}

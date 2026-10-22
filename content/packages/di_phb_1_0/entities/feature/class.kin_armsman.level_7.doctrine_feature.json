@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.kin_armsman.level_7.doctrine_feature",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Doctrine Feature",
+  "summary": "Hold Doctrine Feature Hearthguard Your damage reduction becomes 2. Ironhead Your attacks against objects, vehicles, and machines deal +1d8 damage. Guild-Militant When an ally hits your Oath-Mark target, you may use your reaction to let that ally add +1d6 damage.",
+  "descriptionMarkdown": "Hold Doctrine Feature\nHearthguard Your damage reduction becomes \n2.\nIronhead\nYour attacks against objects, \nvehicles, and machines deal +1d8 \ndamage.\nGuild-Militant\nWhen an ally hits your Oath-Mark \ntarget, you may use your reaction \nto let that ally add +1d6 damage.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.9.7",
+        "heading": "Doctrine Feature",
+        "pdfPage": 74,
+        "printedPage": 61
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Hold Doctrine Feature\nHearthguard Your damage reduction becomes \n2.\nIronhead\nYour attacks against objects, \nvehicles, and machines deal +1d8 \ndamage.\nGuild-Militant\nWhen an ally hits your Oath-Mark \ntarget, you may use your reaction \nto let that ally add +1d6 damage.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

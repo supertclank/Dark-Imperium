@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.arbites_enforcer.level_17.absolute_jurisdiction",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Absolute Jurisdiction",
+  "summary": "When a creature fails a save against Authority, Lockdown Order, or No Escape, it also has disadvantage on the next attack roll it makes before the end of its next turn.",
+  "descriptionMarkdown": "When a creature fails a save against Authority, \nLockdown Order, or No Escape, it also has\ndisadvantage on the next attack roll it makes before the \nend of its next turn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.5.17",
+        "heading": "Absolute Jurisdiction",
+        "pdfPage": 63,
+        "printedPage": 50
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "When a creature fails a save against Authority, \nLockdown Order, or No Escape, it also has\ndisadvantage on the next attack roll it makes before the \nend of its next turn.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

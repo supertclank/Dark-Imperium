@@ -1,0 +1,26 @@
+{
+  "proposedId": "di.equipment.wargear.the_veiled_eye",
+  "kind": "equipment",
+  "name": "The Veiled Eye",
+  "status": "SPEC_EXTENSION_REQUIRED",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-014"
+  ],
+  "proposedData": {},
+  "evidence": [
+    {
+      "text": "Unique Item: The Veiled Eye; Availability: Unique; Effect and Burden: Aeldari spirit-lens. Once per long rest as a bonus action, for 1 minute, you can see Invisible and Hidden creatures within 60 ft, cannot be Surprised, and your ranged attacks ignore Light Cover. Burden: The item carries a psychic echo noticeable to Aeldari and Warp-sensitive beings.",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "18",
+          "heading": "The Veiled Eye",
+          "pdfPage": 108,
+          "printedPage": 95
+        }
+      }
+    }
+  ]
+}

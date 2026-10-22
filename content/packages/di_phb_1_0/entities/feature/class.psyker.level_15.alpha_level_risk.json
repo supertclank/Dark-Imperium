@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.class.psyker.level_15.alpha_level_risk",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Alpha-Level Risk",
+  "summary": "Once per long rest, you may cast one Major Power as Empowered without the additional Empowered Warp Pressure cost. After resolving the power, roll for Perils twice if Perils triggers and use the higher severity result. This feature should feel powerful, frightening, and narratively dangerous.",
+  "descriptionMarkdown": "Once per long rest, you may cast one Major Power as \nEmpowered without the additional Empowered\nWarp Pressure cost. After resolving the power, roll for \nPerils twice if Perils triggers and use the higher\nseverity result. This feature should feel powerful, \nfrightening, and narratively dangerous.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.3.15",
+        "heading": "Alpha-Level Risk",
+        "pdfPage": 57,
+        "printedPage": 44
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "class_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Once per long rest, you may cast one Major Power as \nEmpowered without the additional Empowered\nWarp Pressure cost. After resolving the power, roll for \nPerils twice if Perils triggers and use the higher\nseverity result. This feature should feel powerful, \nfrightening, and narratively dangerous.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

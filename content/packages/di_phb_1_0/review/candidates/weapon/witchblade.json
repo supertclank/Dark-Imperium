@@ -1,0 +1,54 @@
+{
+  "proposedId": "di.weapon.witchblade",
+  "kind": "weapon",
+  "name": "Witchblade",
+  "status": "AMBIGUOUS",
+  "coverage": "PARTIALLY_STRUCTURED",
+  "issues": [
+    "PHB-005",
+    "PHB-006"
+  ],
+  "proposedData": {
+    "properties": [
+      {
+        "property": {
+          "id": "di.property.weapon.finesse"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.psyker"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.spirit_weapon"
+        },
+        "arguments": {}
+      }
+    ],
+    "modes": [
+      {
+        "id": "base",
+        "name": "Base profile"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "text": "Weapon: Witchblade; Damage: 1d8 slashing/psychic; Range: Melee; Properties: Finesse, Psyker, Spirit Weapon; Availability: Rare",
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "8",
+          "heading": "Witchblade",
+          "pdfPage": 40,
+          "printedPage": 27
+        }
+      }
+    }
+  ]
+}
