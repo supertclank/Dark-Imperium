@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { api, ApiError } from "@/lib/api";
 import { SavedCharacter, signed } from "@/lib/builder";
 import { RollHistory, RollOption, RollOptions, RollRequest, RollResult } from "@/lib/rolls";
+import { DicePresentation, type PresentationEvent } from "./DicePresentation";
 import { DiceResult } from "./DiceResult";
 
 type Props={character:SavedCharacter;onRefresh:()=>Promise<void>};
@@ -14,6 +15,9 @@ export function RollPanel({character,onRefresh}:Props) {
   const [confirmation,setConfirmation]=useState<RollOption|null>(null);
   const [busy,setBusy]=useState(false),[error,setError]=useState("");
   const [lastRequest,setLastRequest]=useState<RollRequest|null>(null),[uncertain,setUncertain]=useState(false);
+  const [presentation,setPresentation]=useState<PresentationEvent|null>(null);
+  const seenResults=useRef(new Set<string>());
+  function present(result:RollResult,replay=false){setPresentation(p=>({result,serial:(p?.serial??0)+1,replay}));}
   const inFlight=useRef(false);
   const base=`/characters/${character.id}/rolls`;
   useEffect(()=>{
@@ -27,6 +31,7 @@ export function RollPanel({character,onRefresh}:Props) {
     inFlight.current=true;setBusy(true);setError("");setLastRequest(request);setConfirmation(null);
     try {
       const result=await api<RollResult>(base,{method:"POST",body:JSON.stringify(request)});
+      present(result,seenResults.current.has(result.id));seenResults.current.add(result.id);
       setLatest(result);setUncertain(false);
       setHistory(h=>({...h,items:[result,...h.items.filter(r=>r.id!==result.id)].slice(0,25)}));
       try {await refresh();} catch {setError("Roll saved. Refresh the sheet to load current inventory and history.");setOptions(null);}
@@ -47,12 +52,14 @@ export function RollPanel({character,onRefresh}:Props) {
       ...(ability?{ability}:{}),...(parent?{parentResultId:parent.id}:{})});
   }
   const grouped=options?.options.reduce<Record<string,RollOption[]>>((groups,o)=>{const key=o.itemId || o.category;(groups[key]??=[]).push(o);return groups;},{}) || {};
+  const again=latest?options?.options.find(o=>o.id===latest.requestedRollId && !o.consumes):undefined;
   const linkedDamage=latest?.rollType==="attack"?options?.options.find(o=>o.actionId===latest.actionId && o.category==="damage"):undefined;
   return <section className="panel roll-panel" aria-labelledby="rolling-heading">
     <h2 id="rolling-heading">Roll dice</h2>
     <p>Private, server-resolved rolls. Checks and weapon rolls do not spend ammunition. Frag Grenade use consumes one grenade after confirmation.</p>
     <p className="small muted">Resolve targets, hits, critical damage and conditional features manually. No target HP is changed.</p>
     {!options && !error && <p role="status">Loading supported rolls…</p>}
+    <DicePresentation event={presentation}/>
     <div className="roll-controls">{Object.entries(grouped).map(([key,items])=>{
       const weapon=!!items[0].itemId;
       const label=weapon?character.calculated.actions.find(a=>a.itemId===key)?.name || items[0].label:({attribute:"Ability checks",skill:"Skill checks",save:"Saving throws",ability:"Initiative"}[key] || key);
@@ -72,11 +79,11 @@ export function RollPanel({character,onRefresh}:Props) {
     {busy && <p role="status">Resolving roll on the server…</p>}
     {error && <p role="alert">{error}</p>}
     {uncertain && <p>The outcome is uncertain. Retry this same request to recover the original result without duplicate consumption.</p>}
-    {lastRequest && <button type="button" className="secondary" disabled={busy} onClick={()=>void submit(lastRequest)}>{uncertain?"Retry same request":"Replay last request (no new roll)"}</button>}
+    {lastRequest && uncertain && <button type="button" className="secondary" disabled={busy} onClick={()=>void submit(lastRequest)}>Retry same request</button>}
     <button type="button" className="secondary" disabled={busy} onClick={()=>{setError("");void refresh().catch(e=>setError(e.message));}}>Refresh rolls and character</button>
-    <div aria-live="polite" aria-atomic="true">{latest && <><h3>Latest result</h3><DiceResult result={latest} mode="TEXT_ONLY"/>{linkedDamage && <button type="button" disabled={busy||uncertain||!linkedDamage.available} onClick={()=>requestRoll(linkedDamage,latest)}>Roll linked damage after manually confirming hit</button>}</>}</div>
+    <div aria-live="polite" aria-atomic="true">{latest && <><h3>Latest result</h3><DiceResult result={latest} mode="TEXT_ONLY"/><div className="roll-result-actions"><button type="button" className="secondary" onClick={()=>present(latest,true)}>Replay animation</button>{again&&<button type="button" disabled={busy||uncertain||!again.available} onClick={()=>{if(!options)return;const request:RollRequest={requestId:crypto.randomUUID(),rollId:again.id,profileId:options.profileId,profileDigest:options.profileDigest,expectedStateVersion:options.stateVersion,visibility:"PRIVATE",confirmConsumption:false,...(latest.context.ability&&again.abilities.length?{ability:latest.context.ability}:{})};void submit(request);}}>Roll Again</button>}</div>{linkedDamage && <button type="button" disabled={busy||uncertain||!linkedDamage.available} onClick={()=>requestRoll(linkedDamage,latest)}>Roll linked damage after manually confirming hit</button>}</>}</div>
     <h3>Recent rolls</h3>
-    {!history.items.length?<p>No rolls recorded yet.</p>:<ol className="roll-history">{history.items.map(result=><li key={result.id}><details><summary><time dateTime={result.timestamp}>{new Date(result.timestamp).toLocaleTimeString()}</time> · {result.label} · {result.total}{result.damageType?` ${result.damageType.name}`:""}</summary><DiceResult result={result} mode="TEXT_ONLY"/>{result.request && <button type="button" disabled={busy||uncertain} onClick={()=>void submit(result.request!)}>Replay this recorded request (no new roll)</button>}</details></li>)}</ol>}
+    {!history.items.length?<p>No rolls recorded yet.</p>:<ol className="roll-history">{history.items.map(result=><li key={result.id}><details><summary><time dateTime={result.timestamp}>{new Date(result.timestamp).toLocaleTimeString()}</time> · {result.label} · {result.total}{result.damageType?` ${result.damageType.name}`:""}</summary><DiceResult result={result} mode="TEXT_ONLY"/><button type="button" className="secondary" onClick={()=>present(result,true)}>Replay Dice</button></details></li>)}</ol>}
     {history.hasMore && <p>Showing the latest {history.limit} rolls. Older results remain stored.</p>}
   </section>;
 }

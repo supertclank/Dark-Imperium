@@ -15,7 +15,7 @@ vi.mock("../src/lib/api",async(importOriginal)=>({...await importOriginal<typeof
 const posts=()=>state.api.mock.calls.filter(c=>c[1]?.method==="POST");
 const display=()=>render(<RollPanel character={character as SavedCharacter} onRefresh={state.refresh}/>);
 beforeEach(()=>{
- vi.clearAllMocks();state.refresh.mockResolvedValue(undefined);
+ vi.clearAllMocks();localStorage.setItem("dark-imperium.dice-presentation.v1",JSON.stringify({mode:"TEXT_ONLY",sound:false}));state.refresh.mockResolvedValue(undefined);
  state.api.mockImplementation((path:string,init?:RequestInit)=>Promise.resolve(init?.method==="POST"?attack:path.endsWith("/options")?options:{items:[],limit:25,hasMore:false}));
 });
 it("loads labelled roll controls without implicitly rolling",async()=>{display();expect(await screen.findByRole("button",{name:"Roll Lasgun attack"})).toHaveAttribute("type","button");fireEvent.click(screen.getByText("Ability checks",{exact:true}));expect(screen.getByRole("button",{name:"Roll strength check"})).toBeEnabled();expect(posts()).toHaveLength(0);});
@@ -46,10 +46,13 @@ it("history uses stored totals and survives a fresh mount without rolling",async
 it("links damage to its attack while leaving hit adjudication explicit",async()=>{display();fireEvent.click(await screen.findByRole("button",{name:"Roll Lasgun attack"}));fireEvent.click(await screen.findByRole("button",{name:"Roll linked damage after manually confirming hit"}));await waitFor(()=>expect(posts()).toHaveLength(2));expect(JSON.parse(posts()[1][1].body).parentResultId).toBe(attack.id);});
 it("native button handles keyboard-generated activation and supplies live result text",async()=>{display();const button=await screen.findByRole("button",{name:"Roll Initiative"});button.focus();expect(button).toHaveFocus();fireEvent.click(button,{detail:0});await waitFor(()=>expect(posts()).toHaveLength(1));expect(await screen.findByText("Latest result")).toBeInTheDocument();});
 it("text presenter exposes individual kept discarded dice and grenade outcomes",()=>{render(<DiceResult result={{...grenade,dice:{...grenade.dice,groups:[{sides:6,dice:[4,3,5],kept:[4,5],discarded:[3],keptIndices:[0,2],discardedIndices:[1],keep:"HIGHEST"}]}} as RollResult} mode="3D"/>);expect(screen.getByText(/Discarded: 3/)).toBeInTheDocument();expect(screen.getByText(/Target-by-target application/)).toBeInTheDocument();expect(screen.getByText(/Successful save:/)).toBeInTheDocument();});
-it("replays a persisted grenade request after a fresh mount without changing its identity",async()=>{
+it("replays persisted grenade presentation after a fresh mount without any backend mutation",async()=>{
  const request={requestId:grenade.requestId,rollId:options.options.find(o=>o.consumes)!.id,profileId:options.profileId,profileDigest:options.profileDigest,expectedStateVersion:0,confirmConsumption:true};
  const recorded={...grenade,request};
  state.api.mockImplementation((path:string,init?:RequestInit)=>Promise.resolve(init?.method==="POST"?recorded:path.endsWith("/options")?{...options,stateVersion:1}:{items:[recorded],limit:25,hasMore:false}));
- display();fireEvent.click(await screen.findByRole("button",{name:"Replay this recorded request (no new roll)"}));
- await waitFor(()=>expect(posts()).toHaveLength(1));expect(JSON.parse(posts()[0][1].body)).toEqual(request);expect(await screen.findByText("Latest result")).toBeInTheDocument();
+ display();fireEvent.click(await screen.findByRole("button",{name:"Replay Dice"}));
+ expect(posts()).toHaveLength(0);expect(await screen.findByText("REPLAY ANIMATION · STORED RESULT")).toBeInTheDocument();
 });
+
+it("Roll Again submits a fresh UUID and replay animation does not submit",async()=>{display();fireEvent.click(await screen.findByRole("button",{name:"Roll Lasgun attack"}));fireEvent.click(await screen.findByRole("button",{name:"Replay animation"}));expect(posts()).toHaveLength(1);fireEvent.click(screen.getByRole("button",{name:"Roll Again"}));await waitFor(()=>expect(posts()).toHaveLength(2));expect(JSON.parse(posts()[0][1].body).requestId).not.toBe(JSON.parse(posts()[1][1].body).requestId);});
+it("grenade success offers replay but never casual Roll Again",async()=>{state.api.mockImplementation((path:string,init?:RequestInit)=>Promise.resolve(init?.method==="POST"?grenade:path.endsWith("/options")?options:{items:[],limit:25,hasMore:false}));display();fireEvent.click(await screen.findByRole("button",{name:"Use Frag Grenade and roll damage"}));fireEvent.click(screen.getByRole("button",{name:"Confirm use of one Frag Grenade"}));fireEvent.click(await screen.findByRole("button",{name:"Replay animation"}));expect(posts()).toHaveLength(1);expect(screen.queryByRole("button",{name:"Roll Again"})).not.toBeInTheDocument();});

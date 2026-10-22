@@ -22,3 +22,7 @@ Completed 2026-10-22 for `di-phb-1.0-narrow-v1`. The narrow character is playabl
 18. **Next task:** optional 3D browser presentation for authoritative DiceRollResults, retaining reduced-motion/text fallbacks and making no changes to resolution logic. Resolve the local production-packaging/Docker environment before deployment validation.
 
 ![Grenade replay retains quantity one and the original result](verification/production-dice-replay.png)
+
+## Subsequent presentation milestone
+
+[3D dice presentation](THREE_D_DICE_PRESENTATION.md) adds optional visuals without changing the API or server rules. Player-facing history replay is now presentation-only; uncertain-request recovery still uses the original idempotent server request.

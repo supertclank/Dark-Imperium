@@ -42,3 +42,7 @@ Agree the authoritative initial rules and introduce validated, immutable content
 ## Production dice verification
 
 See [production dice rolling](PRODUCTION_DICE_ROLLING.md) for the latest counts, fresh V1–V5 and V4→V5 migration checks, browser grenade replay acceptance, and production-build/Docker environment limits.
+
+## 3D dice verification
+
+See [3D dice presentation](THREE_D_DICE_PRESENTATION.md) for the latest 46 frontend / 43 backend / 95 content test results, actual browser acceptance, and explicit production-packaging/mobile/audio limits.

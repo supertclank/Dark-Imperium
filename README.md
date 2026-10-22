@@ -110,3 +110,7 @@ Current result: [Character creation readiness report](docs/import/CHARACTER_CREA
 ## Production dice rolling — 2026-10-22
 
 The validated narrow sheet now supports server-authoritative checks, saves, initiative, weapon rolls, transactional Frag Grenade use and private persisted history. See [production dice completion report](docs/PRODUCTION_DICE_ROLLING.md) for API design, 43 backend / 28 frontend / 95 content passing tests, browser acceptance and explicit production-build/Docker verification limits. Earlier milestone sections above are historical.
+
+## 3D dice presentation — 2026-10-22
+
+Optional Three.js dice now present completed server results, with persistent reduced-motion/text-only preferences, optional sound, local-only animation replay and fresh-request Roll Again for non-consumables. See [3D dice completion report](docs/THREE_D_DICE_PRESENTATION.md) for 46 frontend / 43 backend / 95 content passing tests, browser evidence and remaining build/device verification limits.

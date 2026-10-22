@@ -1,7 +1,7 @@
 import { DicePresentationProps } from "@/lib/rolls";
 import { signed } from "@/lib/builder";
 
-/** Future visual presenters take this same immutable result; text remains the fallback. */
+/** Authoritative text remains available independently of the optional visual tray. */
 export function DiceResult({result:r}:DicePresentationProps) {
   return <article className="roll-result" aria-label={`${r.label} result`}>
     <h3>{r.label}</h3>

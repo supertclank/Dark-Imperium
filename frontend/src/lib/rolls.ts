@@ -18,5 +18,5 @@ export type RollResult = {
 };
 export type RollHistory={items:RollResult[];limit:number;hasMore:boolean};
 // Presentation consumes a completed server result; it can never determine a result.
-export type DicePresentationMode="TEXT_ONLY"|"2D"|"3D";
+export type DicePresentationMode="TEXT_ONLY"|"REDUCED_MOTION"|"3D";
 export type DicePresentationProps={result:RollResult;mode?:DicePresentationMode};
