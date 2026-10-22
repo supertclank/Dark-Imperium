@@ -114,3 +114,7 @@ The validated narrow sheet now supports server-authoritative checks, saves, init
 ## 3D dice presentation — 2026-10-22
 
 Optional Three.js dice now present completed server results, with persistent reduced-motion/text-only preferences, optional sound, local-only animation replay and fresh-request Roll Again for non-consumables. See [3D dice completion report](docs/THREE_D_DICE_PRESENTATION.md) for 46 frontend / 43 backend / 95 content passing tests, browser evidence and remaining build/device verification limits.
+
+## Level 1–3 independent catalogue audit — 2026-10-22
+
+See the [catalogue readiness report](docs/import/LEVEL_1_3_CATALOGUE_REPORT.md), [full publication matrix](docs/import/LEVEL_1_3_PUBLICATION_MATRIX.md) and [Origin scenarios](docs/import/LEVEL_1_3_ORIGIN_SCENARIOS.md). PHB-RULE-001–007 remain unresolved. The 4,140-row inventory, calculation proofs and blocked-family fixtures prepare expansion; they publish no new paths. The existing narrow production profile is unchanged.

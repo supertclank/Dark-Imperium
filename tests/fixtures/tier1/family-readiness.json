@@ -1,0 +1,660 @@
+[
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.aeldari",
+      "origin": "di.background.craftworld_outcast",
+      "class": "di.class.aeldari_outcast",
+      "level": 1,
+      "subclass": null
+    },
+    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "rulingIds": [],
+    "gapIds": [
+      "PHB-CAT-004",
+      "PHB-CAT-005",
+      "PHB-CAT-001",
+      "PHB-CAT-002"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.aeldari",
+      "origin": "di.background.craftworld_outcast",
+      "class": "di.class.aeldari_outcast",
+      "level": 2,
+      "subclass": null
+    },
+    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "rulingIds": [],
+    "gapIds": [
+      "PHB-CAT-004",
+      "PHB-CAT-005",
+      "PHB-CAT-001",
+      "PHB-CAT-002"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.aeldari",
+      "origin": "di.background.craftworld_outcast",
+      "class": "di.class.aeldari_outcast",
+      "level": 3,
+      "subclass": "di.subclass.aeldari_outcast.corsair"
+    },
+    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "rulingIds": [],
+    "gapIds": [
+      "PHB-CAT-004",
+      "PHB-CAT-005",
+      "PHB-CAT-001",
+      "PHB-CAT-002"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.aeldari",
+      "origin": "di.background.craftworld_outcast",
+      "class": "di.class.aeldari_warlock",
+      "level": 1,
+      "subclass": null
+    },
+    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "rulingIds": [],
+    "gapIds": [
+      "PHB-CAT-004",
+      "PHB-CAT-005",
+      "PHB-CAT-001",
+      "PHB-CAT-002",
+      "PHB-CAT-003"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.aeldari",
+      "origin": "di.background.craftworld_outcast",
+      "class": "di.class.aeldari_warlock",
+      "level": 2,
+      "subclass": null
+    },
+    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "rulingIds": [],
+    "gapIds": [
+      "PHB-CAT-004",
+      "PHB-CAT-005",
+      "PHB-CAT-001",
+      "PHB-CAT-002",
+      "PHB-CAT-003"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.aeldari",
+      "origin": "di.background.craftworld_outcast",
+      "class": "di.class.aeldari_warlock",
+      "level": 3,
+      "subclass": "di.subclass.aeldari_warlock.seer_of_battle"
+    },
+    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "rulingIds": [],
+    "gapIds": [
+      "PHB-CAT-004",
+      "PHB-CAT-005",
+      "PHB-CAT-001",
+      "PHB-CAT-002",
+      "PHB-CAT-003"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.human",
+      "origin": "di.background.schola_progenium",
+      "class": "di.class.arbites_enforcer",
+      "level": 1,
+      "subclass": null
+    },
+    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "rulingIds": [],
+    "gapIds": [
+      "PHB-CAT-004",
+      "PHB-CAT-001",
+      "PHB-CAT-002"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.human",
+      "origin": "di.background.schola_progenium",
+      "class": "di.class.arbites_enforcer",
+      "level": 2,
+      "subclass": null
+    },
+    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "rulingIds": [],
+    "gapIds": [
+      "PHB-CAT-004",
+      "PHB-CAT-001",
+      "PHB-CAT-002"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.human",
+      "origin": "di.background.schola_progenium",
+      "class": "di.class.arbites_enforcer",
+      "level": 3,
+      "subclass": "di.subclass.arbites_enforcer.executioner"
+    },
+    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "rulingIds": [],
+    "gapIds": [
+      "PHB-CAT-004",
+      "PHB-CAT-001",
+      "PHB-CAT-002"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.kin",
+      "origin": "di.background.mining_hold_guild",
+      "class": "di.class.hernkyn_prospector",
+      "level": 1,
+      "subclass": null
+    },
+    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "rulingIds": [],
+    "gapIds": [
+      "PHB-CAT-004",
+      "PHB-CAT-005",
+      "PHB-CAT-001",
+      "PHB-CAT-002"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.kin",
+      "origin": "di.background.mining_hold_guild",
+      "class": "di.class.hernkyn_prospector",
+      "level": 2,
+      "subclass": null
+    },
+    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "rulingIds": [],
+    "gapIds": [
+      "PHB-CAT-004",
+      "PHB-CAT-005",
+      "PHB-CAT-001",
+      "PHB-CAT-002"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.kin",
+      "origin": "di.background.mining_hold_guild",
+      "class": "di.class.hernkyn_prospector",
+      "level": 3,
+      "subclass": "di.subclass.hernkyn_prospector.claim_staker"
+    },
+    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "rulingIds": [],
+    "gapIds": [
+      "PHB-CAT-004",
+      "PHB-CAT-005",
+      "PHB-CAT-001",
+      "PHB-CAT-002"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.human",
+      "origin": "di.background.schola_progenium",
+      "class": "di.class.hive_scum",
+      "level": 1,
+      "subclass": null
+    },
+    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "rulingIds": [],
+    "gapIds": [
+      "PHB-CAT-004",
+      "PHB-CAT-001",
+      "PHB-CAT-002"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.human",
+      "origin": "di.background.schola_progenium",
+      "class": "di.class.hive_scum",
+      "level": 2,
+      "subclass": null
+    },
+    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "rulingIds": [],
+    "gapIds": [
+      "PHB-CAT-004",
+      "PHB-CAT-001",
+      "PHB-CAT-002"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.human",
+      "origin": "di.background.schola_progenium",
+      "class": "di.class.hive_scum",
+      "level": 3,
+      "subclass": "di.subclass.hive_scum.chem_user"
+    },
+    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "rulingIds": [],
+    "gapIds": [
+      "PHB-CAT-004",
+      "PHB-CAT-001",
+      "PHB-CAT-002"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.kin",
+      "origin": "di.background.mining_hold_guild",
+      "class": "di.class.kin_armsman",
+      "level": 1,
+      "subclass": null
+    },
+    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "rulingIds": [],
+    "gapIds": [
+      "PHB-CAT-004",
+      "PHB-CAT-005",
+      "PHB-CAT-001",
+      "PHB-CAT-002"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.kin",
+      "origin": "di.background.mining_hold_guild",
+      "class": "di.class.kin_armsman",
+      "level": 2,
+      "subclass": null
+    },
+    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "rulingIds": [],
+    "gapIds": [
+      "PHB-CAT-004",
+      "PHB-CAT-005",
+      "PHB-CAT-001",
+      "PHB-CAT-002"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.kin",
+      "origin": "di.background.mining_hold_guild",
+      "class": "di.class.kin_armsman",
+      "level": 3,
+      "subclass": "di.subclass.kin_armsman.guild_militant"
+    },
+    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "rulingIds": [],
+    "gapIds": [
+      "PHB-CAT-004",
+      "PHB-CAT-005",
+      "PHB-CAT-001",
+      "PHB-CAT-002"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.ogryn",
+      "origin": "di.background.militarum_regiment",
+      "class": "di.class.ogryn_skullbreaker",
+      "level": 1,
+      "subclass": null
+    },
+    "expectedStatus": "BLOCKED_BY_RULING",
+    "rulingIds": [
+      "PHB-RULE-005",
+      "PHB-RULE-007"
+    ],
+    "gapIds": [
+      "PHB-CAT-004",
+      "PHB-CAT-005",
+      "PHB-CAT-001",
+      "PHB-CAT-002"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.ogryn",
+      "origin": "di.background.militarum_regiment",
+      "class": "di.class.ogryn_skullbreaker",
+      "level": 2,
+      "subclass": null
+    },
+    "expectedStatus": "BLOCKED_BY_RULING",
+    "rulingIds": [
+      "PHB-RULE-005",
+      "PHB-RULE-007"
+    ],
+    "gapIds": [
+      "PHB-CAT-004",
+      "PHB-CAT-005",
+      "PHB-CAT-001",
+      "PHB-CAT-002"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.ogryn",
+      "origin": "di.background.militarum_regiment",
+      "class": "di.class.ogryn_skullbreaker",
+      "level": 3,
+      "subclass": "di.subclass.ogryn_skullbreaker.bone_ead"
+    },
+    "expectedStatus": "BLOCKED_BY_RULING",
+    "rulingIds": [
+      "PHB-RULE-005",
+      "PHB-RULE-007"
+    ],
+    "gapIds": [
+      "PHB-CAT-004",
+      "PHB-CAT-005",
+      "PHB-CAT-001",
+      "PHB-CAT-002"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.human",
+      "origin": "di.background.schola_progenium",
+      "class": "di.class.psyker",
+      "level": 1,
+      "subclass": null
+    },
+    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "rulingIds": [],
+    "gapIds": [
+      "PHB-CAT-004",
+      "PHB-CAT-001",
+      "PHB-CAT-002",
+      "PHB-CAT-003"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.human",
+      "origin": "di.background.schola_progenium",
+      "class": "di.class.psyker",
+      "level": 2,
+      "subclass": null
+    },
+    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "rulingIds": [],
+    "gapIds": [
+      "PHB-CAT-004",
+      "PHB-CAT-001",
+      "PHB-CAT-002",
+      "PHB-CAT-003"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.human",
+      "origin": "di.background.schola_progenium",
+      "class": "di.class.psyker",
+      "level": 3,
+      "subclass": "di.subclass.psyker.biomancer"
+    },
+    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "rulingIds": [],
+    "gapIds": [
+      "PHB-CAT-004",
+      "PHB-CAT-001",
+      "PHB-CAT-002",
+      "PHB-CAT-003"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.ratling",
+      "origin": "di.background.hiveborn",
+      "class": "di.class.ratling_sharpshooter",
+      "level": 1,
+      "subclass": null
+    },
+    "expectedStatus": "BLOCKED_BY_RULING",
+    "rulingIds": [
+      "PHB-RULE-001",
+      "PHB-RULE-007"
+    ],
+    "gapIds": [
+      "PHB-CAT-004",
+      "PHB-CAT-005",
+      "PHB-CAT-001",
+      "PHB-CAT-002"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.ratling",
+      "origin": "di.background.hiveborn",
+      "class": "di.class.ratling_sharpshooter",
+      "level": 2,
+      "subclass": null
+    },
+    "expectedStatus": "BLOCKED_BY_RULING",
+    "rulingIds": [
+      "PHB-RULE-001",
+      "PHB-RULE-007"
+    ],
+    "gapIds": [
+      "PHB-CAT-004",
+      "PHB-CAT-005",
+      "PHB-CAT-001",
+      "PHB-CAT-002"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.ratling",
+      "origin": "di.background.hiveborn",
+      "class": "di.class.ratling_sharpshooter",
+      "level": 3,
+      "subclass": "di.subclass.ratling_sharpshooter.black_market_gremlin"
+    },
+    "expectedStatus": "BLOCKED_BY_RULING",
+    "rulingIds": [
+      "PHB-RULE-001",
+      "PHB-RULE-007"
+    ],
+    "gapIds": [
+      "PHB-CAT-004",
+      "PHB-CAT-005",
+      "PHB-CAT-001",
+      "PHB-CAT-002"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.skitarii",
+      "origin": "di.background.forge_world",
+      "class": "di.class.skitarii_veteran",
+      "level": 1,
+      "subclass": null
+    },
+    "expectedStatus": "BLOCKED_BY_RULING",
+    "rulingIds": [
+      "PHB-RULE-004",
+      "PHB-RULE-007"
+    ],
+    "gapIds": [
+      "PHB-CAT-004",
+      "PHB-CAT-005",
+      "PHB-CAT-001",
+      "PHB-CAT-002"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.skitarii",
+      "origin": "di.background.forge_world",
+      "class": "di.class.skitarii_veteran",
+      "level": 2,
+      "subclass": null
+    },
+    "expectedStatus": "BLOCKED_BY_RULING",
+    "rulingIds": [
+      "PHB-RULE-004",
+      "PHB-RULE-007"
+    ],
+    "gapIds": [
+      "PHB-CAT-004",
+      "PHB-CAT-005",
+      "PHB-CAT-001",
+      "PHB-CAT-002"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.skitarii",
+      "origin": "di.background.forge_world",
+      "class": "di.class.skitarii_veteran",
+      "level": 3,
+      "subclass": "di.subclass.skitarii_veteran.data_hunter"
+    },
+    "expectedStatus": "BLOCKED_BY_RULING",
+    "rulingIds": [
+      "PHB-RULE-004",
+      "PHB-RULE-007"
+    ],
+    "gapIds": [
+      "PHB-CAT-004",
+      "PHB-CAT-005",
+      "PHB-CAT-001",
+      "PHB-CAT-002"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.human",
+      "origin": "di.background.schola_progenium",
+      "class": "di.class.veteran",
+      "level": 1,
+      "subclass": null
+    },
+    "expectedStatus": "READY_WITH_MANUAL_RULES",
+    "rulingIds": [],
+    "gapIds": []
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.human",
+      "origin": "di.background.schola_progenium",
+      "class": "di.class.veteran",
+      "level": 2,
+      "subclass": null
+    },
+    "expectedStatus": "BLOCKED_BY_ENGINE",
+    "rulingIds": [],
+    "gapIds": [
+      "PHB-CAT-004"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.human",
+      "origin": "di.background.schola_progenium",
+      "class": "di.class.veteran",
+      "level": 3,
+      "subclass": "di.subclass.veteran.shock_trooper"
+    },
+    "expectedStatus": "BLOCKED_BY_ENGINE",
+    "rulingIds": [],
+    "gapIds": [
+      "PHB-CAT-004"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.human",
+      "origin": "di.background.schola_progenium",
+      "class": "di.class.zealot",
+      "level": 1,
+      "subclass": null
+    },
+    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "rulingIds": [],
+    "gapIds": [
+      "PHB-CAT-004",
+      "PHB-CAT-001",
+      "PHB-CAT-002"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.human",
+      "origin": "di.background.schola_progenium",
+      "class": "di.class.zealot",
+      "level": 2,
+      "subclass": null
+    },
+    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "rulingIds": [],
+    "gapIds": [
+      "PHB-CAT-004",
+      "PHB-CAT-001",
+      "PHB-CAT-002"
+    ]
+  },
+  {
+    "scope": "FAMILY_READINESS_NOT_VALID_CHARACTER",
+    "tuple": {
+      "species": "di.species.human",
+      "origin": "di.background.schola_progenium",
+      "class": "di.class.zealot",
+      "level": 3,
+      "subclass": "di.subclass.zealot.flagellant"
+    },
+    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "rulingIds": [],
+    "gapIds": [
+      "PHB-CAT-004",
+      "PHB-CAT-001",
+      "PHB-CAT-002"
+    ]
+  }
+]
