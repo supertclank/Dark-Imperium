@@ -1,3 +1,5 @@
+> **Current release:** [Human tier-1 v2 completion report](docs/import/HUMAN_TIER1_V2_REPORT.md). Eight NORMAL Human Origins; Veteran levels 1–3 (Shock Trooper, Marksman, Sergeant at level 3), Hive Scum level 1. Authoritative rolls/history/3D presentation; unresolved procedures explicitly manual or unavailable. Prior reports below are historical.
+
 > **Production narrow builder:** [Implementation and verification](docs/PRODUCTION_CHARACTER_BUILDER.md). Human / Schola Progenium / Veteran, level 1, with Twitchy. Server validation, pinned ruleset, PostgreSQL persistence and sheet are implemented. Full catalogue and authoritative dice execution remain unavailable.
 
 > **Current Frag gate pass:** [Results](docs/import/PHB_FRAG_GATE_REPORT.md). Narrow profile PLAYABLE_WITH_MANUAL_RULES; narrow builder data READY_WITH_MANUAL_RULES. 93 tests; 948 drafts; 310 candidates. Generic Blast and 31 original rulings remain unresolved. Earlier pass statements below are historical.
@@ -32,7 +34,7 @@ Prerequisites: Docker Engine/Desktop running with Linux containers and Docker Co
    ```
 
 4. Open <http://localhost:3000>, register using a 12–128 character password, then log in.
-5. Select **Create character**, complete the Human / Schola Progenium / Veteran level-1 steps, choose ability increases and proficiencies, review the starting kit and calculated sheet, then save. Return to **Characters** to reopen the sheet.
+5. Select **Create character**, select a supported Human Origin, Veteran level 1–3 or Hive Scum level 1, and complete the steps, choose ability increases and proficiencies, review the starting kit and calculated sheet, then save. Return to **Characters** to reopen the sheet.
 
 Compose builds both applications, waits for database readiness, runs Flyway at API startup, then starts the frontend after API readiness. PostgreSQL uses a named persistent volume. The default host binding is loopback-only. The API and database are not published to the host.
 

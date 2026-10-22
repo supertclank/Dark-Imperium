@@ -5,8 +5,8 @@ import java.util.UUID
 import kotlinx.serialization.json.*
 
 /** Selections and owned state are persisted separately; derived values are never stored. */
-class ProductionCharacters(private val db: Database, val rules: NarrowRules = NarrowRules.tier1()) {
-    private val profiles=listOf(NarrowRules.bundled(),rules).associateBy { it.id }
+class ProductionCharacters(private val db: Database, val rules: NarrowRules = NarrowRules.tier2()) {
+    private val profiles=listOf(NarrowRules.bundled(),NarrowRules.tier1(),rules).associateBy { it.id }
     fun rulesFor(profileId:String)=profiles[profileId] ?: rules
     init { db.transaction { connection ->
       for(rules in profiles.values) {
@@ -32,7 +32,7 @@ class ProductionCharacters(private val db: Database, val rules: NarrowRules = Na
             }
             for((choice,options) in draft.answers) con.execute("INSERT INTO player_character_choices(character_id,choice_id,option_ids) VALUES (?,?,?::jsonb)",id,choice,json(options).toString())
             for(item in draft.inventory) con.execute("INSERT INTO player_character_inventory(id,character_id,definition_id,initial_quantity,quantity,equipped) VALUES (?,?,?,?,?,?)",UUID.randomUUID(),id,item.definitionId,item.quantity,item.quantity,item.equipped)
-            val resources=rules.spec.objects("runtimeResources").associate { it.text("key") to obj("sourceId" to it.text("sourceId"),"remaining" to it.num("maximum"),"maximum" to it.num("maximum"),"recovery" to it.text("recovery"),"automation" to it.text("automation")) }
+            val resources=(if(rules.expanded) validation.calculated!!.objects("resources") else rules.spec.objects("runtimeResources")).associate { it.text("key") to obj("sourceId" to it.text("sourceId"),"remaining" to it.num("maximum"),"maximum" to it.num("maximum"),"recovery" to it.text("recovery"),"automation" to it.text("automation")) }
             con.execute("INSERT INTO player_character_runtime(character_id,current_hp,resources) VALUES (?,?,?::jsonb)",id,validation.calculated!!.num("maximumWounds"),json(resources).toString())
             get(con,owner,id)
         }

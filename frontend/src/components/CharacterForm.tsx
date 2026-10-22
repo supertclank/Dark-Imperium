@@ -3,16 +3,16 @@ import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { api } from "@/lib/api";
 import { useResource, ResourceState } from "./Resource";
-import { Profile, Draft, Choice, Issue, Validation, SavedCharacter, initialDraft, startingInventory, signed } from "@/lib/builder";
+import { Profile, Draft, Choice, Issue, Validation, SavedCharacter, initialDraft, startingInventory, signed, pathProfile, changePath } from "@/lib/builder";
 import { CalculatedSummary } from "./CalculatedSummary";
 
 const steps = ["Identity", "Species", "Origin", "Ability Scores", "Class", "Universal Trait", "Proficiencies & Skills", "Equipment", "Review"];
 export function CharacterForm() {
-  const {data:profile,error,retry}=useResource<Profile>("/character-builder/profile");
+  const {data:baseProfile,error,retry}=useResource<Profile>("/character-builder/profile");
   const [draft,setDraft]=useState<Draft|null>(null),[step,setStep]=useState(0),[busy,setBusy]=useState(false),[failure,setFailure]=useState("");
   const [issues,setIssues]=useState<Issue[]>([]),[validation,setValidation]=useState<Validation|null>(null);
   const router=useRouter(),heading=useRef<HTMLHeadingElement>(null);
-  useEffect(()=>{ if(profile) { setDraft(initialDraft(profile,crypto.randomUUID()));setStep(0);setValidation(null); } },[profile]);
+  useEffect(()=>{ if(baseProfile) { setDraft(initialDraft(baseProfile,crypto.randomUUID()));setStep(0);setValidation(null); } },[baseProfile]);
   useEffect(()=>{heading.current?.focus();},[step]);
   // Ability previews come from the backend; React never implements a game formula.
   useEffect(()=>{
@@ -21,8 +21,9 @@ export function CharacterForm() {
     const timer=setTimeout(()=>{api<Validation>("/characters/validate",{method:"POST",body:JSON.stringify(draft)}).then(v=>{if(current)setValidation(v);}).catch(()=>{});},250);
     return ()=>{current=false;clearTimeout(timer);};
   },[draft,step]);
-  if(!profile || !draft)return <ResourceState error={error} retry={retry}/>;
-  const update=(next:Partial<Draft>)=>{setDraft({...draft,...next});setIssues([]);setFailure("");setValidation(null);};
+  if(!baseProfile || !draft)return <ResourceState error={error} retry={retry}/>;
+  const profile=pathProfile(baseProfile,draft);
+  const update=(next:Partial<Draft>)=>{setDraft(("originId" in next || "classId" in next || "speciesId" in next || "level" in next)?changePath(baseProfile,draft,next):{...draft,...next});setIssues([]);setFailure("");setValidation(null);};
   const answer=(choice:Choice,option:string,checked=true)=>{
     const old=draft.answers[choice.id] || [];
     const selected=choice.cardinality.max===1 ? (option?[option]:[]) : checked?[...old,option]:old.filter(x=>x!==option);
@@ -34,7 +35,7 @@ export function CharacterForm() {
   </fieldset>;
   const selector=(group:"species"|"origins"|"classes"|"traits",field:"speciesId"|"originId"|"classId"|"traitId")=><div className="choice-grid">{profile[group].map(item=><label className={`choice ${draft[field]===item.id?"selected":""}`} key={item.id}><input type="radio" name={field} checked={draft[field]===item.id} onChange={()=>update({[field]:item.id})}/><span><strong>{item.name}</strong><span className="choice-description source-text">{item.description}</span></span></label>)}</div>;
   const relevant=(issue:Issue)=>{
-    const fields=[["name"],["speciesId"],["originId"],["attributes",...profile.choices.filter(c=>c.purpose==="attribute").map(c=>`answers.${c.id}`)],["classId","level"],["traitId"],profile.choices.filter(c=>c.purpose!=="attribute").map(c=>`answers.${c.id}`),["inventory","packageChoices"], [""]][step];
+    const fields=[["name"],["speciesId"],["originId"],["attributes",...profile.choices.filter(c=>c.purpose==="attribute").map(c=>`answers.${c.id}`)],["classId","level",...profile.choices.filter(c=>c.purpose==="subclass").map(c=>`answers.${c.id}`)],["traitId"],profile.choices.filter(c=>c.purpose!=="attribute").map(c=>`answers.${c.id}`),["inventory","packageChoices"], [""]][step];
     return issue.field.startsWith("profile") || fields.some(f=>issue.field.startsWith(f));
   };
   async function next() {
@@ -57,9 +58,9 @@ export function CharacterForm() {
       {step===1 && selector("species","speciesId")}
       {step===2 && selector("origins","originId")}
       {step===3 && <><section className="panel"><p>Assign each score once: {profile.standardArray.join(", ")}.</p><div className="ability-inputs">{profile.attributes.map(key=><div key={key}><label htmlFor={`base-${key}`}>{key}</label><select id={`base-${key}`} value={draft.attributes[key]??""} onChange={e=>update({attributes:{...draft.attributes,[key]:Number(e.target.value)}})}>{profile.standardArray.map(value=><option key={value} value={value}>{value}</option>)}</select>{validation?.abilityPreview && <p>Final {validation.abilityPreview.scores[key]} · {signed(validation.abilityPreview.modifiers[key])}</p>}</div>)}</div></section>{profile.choices.filter(c=>c.purpose==="attribute").map(choiceControl)}</>}
-      {step===4 && <>{selector("classes","classId")}<section className="panel"><p>Level {draft.level} · Hit Die d{profile.training.hitDie}</p><p>Saving throw proficiencies: {profile.training.savingThrows.join(", ")}</p><h3>Level 1 features</h3>{profile.levelFeatures.map(f=><details key={f.id}><summary>{f.name}</summary><p className="source-text">{f.description}</p></details>)}</section></>}
+      {step===4 && <>{selector("classes","classId")}<section className="panel"><label htmlFor="character-level">Level</label><select id="character-level" value={draft.level} onChange={e=>update({level:Number(e.target.value)})}>{profile.levels.map(level=><option key={level} value={level}>{level}</option>)}</select><p>Hit Die d{profile.training.hitDie}</p>{profile.choices.filter(c=>c.purpose==="subclass").map(choiceControl)}<p>Saving throw proficiencies: {profile.training.savingThrows.join(", ")}</p><h3>Features through level {draft.level}</h3>{profile.levelFeatures.map(f=><details key={f.id}><summary>{f.name}</summary><p className="source-text">{f.description}</p></details>)}</section></>}
       {step===5 && selector("traits","traitId")}
-      {step===6 && profile.choices.filter(c=>c.purpose!=="attribute").map(choiceControl)}
+      {step===6 && profile.choices.filter(c=>c.purpose!=="attribute" && c.purpose!=="subclass").map(choiceControl)}
       {step===7 && <section className="panel">{profile.package.choices.map(choice=><div key={choice.id}><label htmlFor={`package-${choice.id}`}>{choice.id} equipment</label><select id={`package-${choice.id}`} value={draft.packageChoices[choice.id]||""} onChange={e=>{const choices={...draft.packageChoices,[choice.id]:e.target.value};update({packageChoices:choices,inventory:startingInventory(profile,choices)});}}><option value="">Choose equipment</option>{choice.options.map(o=><option key={o.id} value={o.id}>{profile.equipment.find(x=>x.id===o.id)?.name}</option>)}</select></div>)}<h3>Starting inventory</h3><ul>{draft.inventory.map(i=><li key={i.definitionId}>{profile.equipment.find(x=>x.id===i.definitionId)?.name} × {i.quantity}{i.equipped?" · equipped":""}</li>)}</ul><p className="muted">Only reviewed equipment is available. Other package alternatives are unavailable in this release.</p></section>}
       {step===8 && <><section className="panel"><h3>{draft.name}</h3><p>{profile.species.find(x=>x.id===draft.speciesId)?.name} · {profile.origins.find(x=>x.id===draft.originId)?.name} · {profile.classes.find(x=>x.id===draft.classId)?.name} · Level {draft.level}</p><p>{profile.traits.find(x=>x.id===draft.traitId)?.name}</p></section>{validation?.calculated ? <CalculatedSummary calculated={validation.calculated}/> : <p role="status">Validate the complete draft before saving.</p>}</>}
       </fieldset>

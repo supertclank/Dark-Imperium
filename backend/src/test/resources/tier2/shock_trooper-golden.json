@@ -1,0 +1,248 @@
+{
+  "level": 1,
+  "attributes": {
+    "strength": 17,
+    "dexterity": 15,
+    "constitution": 13,
+    "intelligence": 12,
+    "wisdom": 10,
+    "charisma": 8
+  },
+  "proficiencyBonus": 2,
+  "movement": {
+    "baseWalk": {
+      "value": 30,
+      "unit": "ft"
+    }
+  },
+  "attributeModifiers": {
+    "strength": 3,
+    "dexterity": 2,
+    "constitution": 1,
+    "intelligence": 1,
+    "wisdom": 0,
+    "charisma": -1
+  },
+  "maximumWounds": 25,
+  "defence": 14,
+  "initiative": 4,
+  "skills": {
+    "di.skill.acrobatics": {
+      "attribute": "dexterity",
+      "proficient": true,
+      "modifier": 4
+    },
+    "di.skill.athletics": {
+      "attribute": "strength",
+      "proficient": true,
+      "modifier": 5
+    },
+    "di.skill.deception": {
+      "attribute": "charisma",
+      "proficient": false,
+      "modifier": -1
+    },
+    "di.skill.history": {
+      "attribute": "intelligence",
+      "proficient": false,
+      "modifier": 1
+    },
+    "di.skill.insight": {
+      "attribute": "wisdom",
+      "proficient": true,
+      "modifier": 2
+    },
+    "di.skill.intimidation": {
+      "attribute": "charisma",
+      "proficient": false,
+      "modifier": -1
+    },
+    "di.skill.investigation": {
+      "attribute": "intelligence",
+      "proficient": false,
+      "modifier": 1
+    },
+    "di.skill.medicine": {
+      "attribute": "wisdom",
+      "proficient": false,
+      "modifier": 0
+    },
+    "di.skill.perception": {
+      "attribute": "wisdom",
+      "proficient": false,
+      "modifier": 0
+    },
+    "di.skill.persuasion": {
+      "attribute": "charisma",
+      "proficient": false,
+      "modifier": -1
+    },
+    "di.skill.religion": {
+      "attribute": "intelligence",
+      "proficient": false,
+      "modifier": 1
+    },
+    "di.skill.sleight_of_hand": {
+      "attribute": "dexterity",
+      "proficient": false,
+      "modifier": 2
+    },
+    "di.skill.stealth": {
+      "attribute": "dexterity",
+      "proficient": true,
+      "modifier": 4
+    },
+    "di.skill.survival": {
+      "attribute": "wisdom",
+      "proficient": false,
+      "modifier": 0
+    },
+    "di.skill.technology": {
+      "attribute": "intelligence",
+      "proficient": false,
+      "modifier": 1
+    }
+  },
+  "saves": {
+    "strength": {
+      "modifier": 3,
+      "proficient": false
+    },
+    "dexterity": {
+      "modifier": 4,
+      "proficient": true
+    },
+    "constitution": {
+      "modifier": 1,
+      "proficient": false
+    },
+    "intelligence": {
+      "modifier": 1,
+      "proficient": false
+    },
+    "wisdom": {
+      "modifier": 2,
+      "proficient": true
+    },
+    "charisma": {
+      "modifier": -1,
+      "proficient": false
+    }
+  },
+  "expectedInventory": [
+    {
+      "definitionId": "di.weapon.laspistol",
+      "quantity": 1,
+      "equipped": false
+    },
+    {
+      "definitionId": "di.weapon.combat_blade",
+      "quantity": 1,
+      "equipped": false
+    },
+    {
+      "definitionId": "di.armour.flak_armour",
+      "quantity": 1,
+      "equipped": true
+    },
+    {
+      "definitionId": "di.weapon.frag_grenade",
+      "quantity": 2,
+      "equipped": false
+    },
+    {
+      "definitionId": "di.weapon.lasgun",
+      "quantity": 1,
+      "equipped": false
+    },
+    {
+      "definitionId": "di.equipment.med_pack",
+      "quantity": 1,
+      "equipped": false
+    }
+  ],
+  "expectedActions": {
+    "di.weapon.lasgun": {
+      "attackBonus": 4,
+      "damageExpression": "1d8 + 2"
+    },
+    "di.weapon.laspistol": {
+      "attackBonus": 4,
+      "damageExpression": "1d6 + 2"
+    },
+    "di.weapon.combat_blade": {
+      "attackBonus": 5,
+      "damageExpression": "1d6 + 3"
+    },
+    "di.weapon.frag_grenade": {
+      "attackBonus": null,
+      "damageExpression": "3d6"
+    }
+  },
+  "expectedBaselineRolls": [
+    {
+      "label": "strength check",
+      "category": "attribute",
+      "count": 1,
+      "sides": 20,
+      "modifier": 3
+    },
+    {
+      "label": "Stealth",
+      "category": "skill",
+      "count": 1,
+      "sides": 20,
+      "modifier": 4
+    },
+    {
+      "label": "dexterity save",
+      "category": "save",
+      "count": 1,
+      "sides": 20,
+      "modifier": 4
+    },
+    {
+      "label": "Initiative",
+      "category": "ability",
+      "count": 1,
+      "sides": 20,
+      "modifier": 4
+    }
+  ],
+  "expectedFeatures": [
+    "di.feature.class.veteran.level_1.guardsman_training",
+    "di.feature.class.veteran.level_1.tactical_aim",
+    "di.feature.class.veteran.level_2.suppressing_fire",
+    "di.feature.class.veteran.training",
+    "di.feature.origin.hiveborn",
+    "di.feature.species.human.baseline",
+    "di.feature.species.human.traits",
+    "di.feature.subclass.veteran.shock_trooper.level_3",
+    "di.feature.universal.twitchy"
+  ],
+  "expectedManualAnnotations": {
+    "di.feature.class.veteran.level_2.suppressing_fire": {
+      "classification": "BLOCKED",
+      "playerNote": "Unavailable: the Suppression procedure is awaiting a ruling. No save DC, condition or automatic roll is supplied. Other character actions remain available.",
+      "resources": [],
+      "rulingIds": [
+        "PHB-RULE-022"
+      ]
+    },
+    "di.feature.origin.hiveborn": {
+      "classification": "PARTIAL",
+      "playerNote": "Skill training is included. Apply conditional benefits manually; baseline rolls do not apply them.",
+      "resources": [],
+      "rulingIds": []
+    },
+    "di.feature.subclass.veteran.shock_trooper.level_3": {
+      "classification": "MANUAL",
+      "playerNote": "Apply this feature only when its stated condition occurs. It is not included in baseline rolls. Combined-source stacking requires adjudication; no stacking policy is assumed.",
+      "resources": [],
+      "rulingIds": [
+        "PHB-RULE-058"
+      ]
+    }
+  },
+  "expectedRollDefinitionCount": 35
+}

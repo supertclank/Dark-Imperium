@@ -3965,8 +3965,8 @@
   {
     "id": "di.weapon.chainsword",
     "kind": "weapon",
-    "category": "MISSING_SOURCE_DATA",
-    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "category": "HUMAN_RULING_PROMOTED",
+    "reason": "PHB-RULE-024 defaults plus complete source baseline; conditional properties remain manual.",
     "issues": [
       "PHB-005"
     ],
@@ -3997,8 +3997,8 @@
   {
     "id": "di.weapon.combat_shotgun",
     "kind": "weapon",
-    "category": "MISSING_SOURCE_DATA",
-    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "category": "HUMAN_RULING_PROMOTED",
+    "reason": "PHB-RULE-024 defaults plus complete source baseline; conditional properties remain manual.",
     "issues": [
       "PHB-005"
     ],
@@ -4267,8 +4267,8 @@
   {
     "id": "di.weapon.heavy_axe",
     "kind": "weapon",
-    "category": "MISSING_SOURCE_DATA",
-    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "category": "HUMAN_RULING_PROMOTED",
+    "reason": "PHB-RULE-024 defaults plus complete source baseline; conditional properties remain manual.",
     "issues": [
       "PHB-005"
     ],
@@ -4412,8 +4412,8 @@
   {
     "id": "di.weapon.knife",
     "kind": "weapon",
-    "category": "MISSING_SOURCE_DATA",
-    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "category": "HUMAN_RULING_PROMOTED",
+    "reason": "PHB-RULE-024 defaults plus complete source baseline; conditional properties remain manual.",
     "issues": [
       "PHB-005"
     ],
@@ -4847,8 +4847,8 @@
   {
     "id": "di.weapon.shock_maul",
     "kind": "weapon",
-    "category": "MISSING_SOURCE_DATA",
-    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "category": "HUMAN_RULING_PROMOTED",
+    "reason": "PHB-RULE-024 defaults plus complete source baseline; conditional properties remain manual.",
     "issues": [
       "PHB-005"
     ],

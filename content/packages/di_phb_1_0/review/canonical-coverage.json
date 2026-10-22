@@ -5690,5 +5690,71 @@
     "coverage": "STRUCTURED_SUBSET",
     "publicationReady": false,
     "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.weapon.knife": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 1,
+    "publicationReady": false,
+    "reason": "Source-backed baseline mapping; release certification is separate."
+  },
+  "di.action.knife.attack": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-backed baseline mapping; release certification is separate."
+  },
+  "di.weapon.chainsword": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-backed baseline mapping; release certification is separate."
+  },
+  "di.action.chainsword.attack": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-backed baseline mapping; release certification is separate."
+  },
+  "di.weapon.heavy_axe": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-backed baseline mapping; release certification is separate."
+  },
+  "di.action.heavy_axe.attack": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-backed baseline mapping; release certification is separate."
+  },
+  "di.weapon.combat_shotgun": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-backed baseline mapping; release certification is separate."
+  },
+  "di.action.combat_shotgun.attack": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-backed baseline mapping; release certification is separate."
+  },
+  "di.weapon.shock_maul": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-backed baseline mapping; release certification is separate."
+  },
+  "di.action.shock_maul.attack": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-backed baseline mapping; release certification is separate."
+  },
+  "di.choice.hive_scum.streetwise": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-backed baseline mapping; release certification is separate."
   }
 }

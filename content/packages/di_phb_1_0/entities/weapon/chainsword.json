@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "id": "di.weapon.chainsword",
+  "kind": "weapon",
+  "revision": 1,
+  "name": "Chainsword",
+  "summary": "Weapon: Chainsword; Damage: 1d8 slashing; Properties: Chain; Availability: Controlled",
+  "descriptionMarkdown": "Weapon: Chainsword; Damage: 1d8 slashing; Properties: Chain; Availability: Controlled",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "8",
+        "heading": "Chainsword",
+        "pdfPage": 38,
+        "printedPage": 25
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "properties": [
+      {
+        "property": {
+          "id": "di.property.weapon.chain"
+        },
+        "arguments": {}
+      }
+    ],
+    "modes": [
+      {
+        "id": "base",
+        "name": "Base profile",
+        "damage": [
+          {
+            "id": "component_1",
+            "dice": {
+              "count": 1,
+              "sides": 8,
+              "bonus": 0
+            },
+            "bonus": {
+              "kind": "constant",
+              "value": 0
+            },
+            "damageType": {
+              "id": "di.damage_type.slashing"
+            }
+          }
+        ],
+        "attackKind": "melee",
+        "delivery": "attack_roll",
+        "costs": [],
+        "action": {
+          "id": "di.action.chainsword.attack"
+        },
+        "range": {
+          "kind": "reach",
+          "distance": {
+            "value": 5,
+            "unit": "ft"
+          }
+        }
+      }
+    ],
+    "category": "melee",
+    "subcategory": "melee",
+    "hands": 1,
+    "features": [],
+    "proficiencyGroups": [
+      "martial_melee",
+      "chain"
+    ],
+    "availability": "Controlled",
+    "abilityBinding": {
+      "attack": "strength",
+      "damage": "strength"
+    }
+  }
+}

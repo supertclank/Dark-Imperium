@@ -1,0 +1,23 @@
+{
+  "promotedWeapons": [
+    "di.weapon.knife",
+    "di.weapon.chainsword",
+    "di.weapon.heavy_axe",
+    "di.weapon.combat_shotgun",
+    "di.weapon.shock_maul"
+  ],
+  "addedRecords": [
+    "di.weapon.knife",
+    "di.action.knife.attack",
+    "di.weapon.chainsword",
+    "di.action.chainsword.attack",
+    "di.weapon.heavy_axe",
+    "di.action.heavy_axe.attack",
+    "di.weapon.combat_shotgun",
+    "di.action.combat_shotgun.attack",
+    "di.weapon.shock_maul",
+    "di.action.shock_maul.attack",
+    "di.choice.hive_scum.streetwise"
+  ],
+  "basis": "PHB source profiles, PHB-RULE-024 hands/reach/ability/proficiency defaults; Knife thrown range remains GM adjudicated under PHB PDF 35."
+}

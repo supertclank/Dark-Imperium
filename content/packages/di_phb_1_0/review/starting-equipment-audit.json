@@ -51,7 +51,7 @@
       },
       {
         "id": "di.weapon.chainsword",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
@@ -66,7 +66,7 @@
       },
       {
         "id": "di.weapon.heavy_axe",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
@@ -166,7 +166,7 @@
       },
       {
         "id": "di.weapon.combat_shotgun",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
@@ -176,7 +176,7 @@
       },
       {
         "id": "di.weapon.shock_maul",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
@@ -231,7 +231,7 @@
       },
       {
         "id": "di.weapon.knife",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
@@ -266,7 +266,7 @@
       },
       {
         "id": "di.weapon.knife",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
@@ -436,7 +436,7 @@
       },
       {
         "id": "di.weapon.knife",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {

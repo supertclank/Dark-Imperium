@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "di.weapon.combat_shotgun",
+  "kind": "weapon",
+  "revision": 1,
+  "name": "Combat Shotgun",
+  "summary": "Weapon: Combat Shotgun; Damage: 1d10 piercing; Range: 40/120; Properties: Close-Quarters, Suppression, Reload 8; Availability: Controlled",
+  "descriptionMarkdown": "Weapon: Combat Shotgun; Damage: 1d10 piercing; Range: 40/120; Properties: Close-Quarters, Suppression, Reload 8; Availability: Controlled",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "8",
+        "heading": "Combat Shotgun",
+        "pdfPage": 37,
+        "printedPage": 24
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "properties": [
+      {
+        "property": {
+          "id": "di.property.weapon.close_quarters"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.suppression"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.reload"
+        },
+        "arguments": {
+          "capacity": 8
+        }
+      }
+    ],
+    "modes": [
+      {
+        "id": "base",
+        "name": "Base profile",
+        "damage": [
+          {
+            "id": "component_1",
+            "dice": {
+              "count": 1,
+              "sides": 10,
+              "bonus": 0
+            },
+            "bonus": {
+              "kind": "constant",
+              "value": 0
+            },
+            "damageType": {
+              "id": "di.damage_type.piercing"
+            }
+          }
+        ],
+        "range": {
+          "kind": "distance",
+          "normal": {
+            "value": 40,
+            "unit": "ft"
+          },
+          "long": {
+            "value": 120,
+            "unit": "ft"
+          }
+        },
+        "attackKind": "ranged",
+        "delivery": "attack_roll",
+        "costs": [],
+        "action": {
+          "id": "di.action.combat_shotgun.attack"
+        }
+      }
+    ],
+    "category": "ranged",
+    "subcategory": "shotgun",
+    "hands": 2,
+    "features": [],
+    "proficiencyGroups": [
+      "shotgun"
+    ],
+    "availability": "Controlled",
+    "abilityBinding": {
+      "attack": "dexterity",
+      "damage": "dexterity"
+    }
+  }
+}

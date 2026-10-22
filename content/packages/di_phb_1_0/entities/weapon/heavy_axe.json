@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "di.weapon.heavy_axe",
+  "kind": "weapon",
+  "revision": 1,
+  "name": "Heavy Axe",
+  "summary": "Weapon: Heavy Axe; Damage: 1d10 slashing; Properties: Heavy; Availability: Controlled",
+  "descriptionMarkdown": "Weapon: Heavy Axe; Damage: 1d10 slashing; Properties: Heavy; Availability: Controlled",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "8",
+        "heading": "Heavy Axe",
+        "pdfPage": 38,
+        "printedPage": 25
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "properties": [
+      {
+        "property": {
+          "id": "di.property.weapon.heavy"
+        },
+        "arguments": {}
+      }
+    ],
+    "modes": [
+      {
+        "id": "base",
+        "name": "Base profile",
+        "damage": [
+          {
+            "id": "component_1",
+            "dice": {
+              "count": 1,
+              "sides": 10,
+              "bonus": 0
+            },
+            "bonus": {
+              "kind": "constant",
+              "value": 0
+            },
+            "damageType": {
+              "id": "di.damage_type.slashing"
+            }
+          }
+        ],
+        "attackKind": "melee",
+        "delivery": "attack_roll",
+        "costs": [],
+        "action": {
+          "id": "di.action.heavy_axe.attack"
+        },
+        "range": {
+          "kind": "reach",
+          "distance": {
+            "value": 5,
+            "unit": "ft"
+          }
+        }
+      }
+    ],
+    "category": "melee",
+    "subcategory": "heavy_melee",
+    "hands": 2,
+    "features": [],
+    "proficiencyGroups": [
+      "martial_melee"
+    ],
+    "availability": "Controlled",
+    "abilityBinding": {
+      "attack": "strength",
+      "damage": "strength"
+    }
+  }
+}

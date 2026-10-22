@@ -2,12 +2,12 @@ package imperium
 
 import kotlinx.serialization.json.*
 
-data class CompiledPackage(val inventory: List<InventorySelection>, val proficiencies: Set<String>, val narratives: List<String>)
+data class CompiledPackage(val inventory: List<InventorySelection>, val proficiencies: Set<String>, val narratives: List<String>, val contacts: List<JsonObject> = emptyList())
 
 /** Structured grants only: no display-text parsing and no candidate promotion. */
 object StartingPackages {
     fun compile(definition: JsonObject, answers: Map<String,List<String>>, records: JsonObject, allowedItems: Set<String>): CompiledPackage {
-        val quantities=linkedMapOf<String,Int>();val equipped=mutableSetOf<String>();val profs=linkedSetOf<String>();val notes=mutableListOf<String>();val consumed=mutableSetOf<String>()
+        val quantities=linkedMapOf<String,Int>();val equipped=mutableSetOf<String>();val profs=linkedSetOf<String>();val notes=mutableListOf<String>();val consumed=mutableSetOf<String>();val contacts=linkedMapOf<String,JsonObject>()
         fun item(id:String) {
             require(id in allowedItems && id in records) { "UNSUPPORTED_PACKAGE_ITEM" }
             require(records.getValue(id).jsonObject.text("kind") in setOf("weapon","armour","shield","equipment","tool","ammunition","consumable","augmetic")) { "PACKAGE_ITEM_KIND" }
@@ -18,6 +18,7 @@ object StartingPackages {
                 "item" -> { val id=step.text("itemId");item(id);val n=step.num("quantity");require(n in 1..1000) { "INVALID_PACKAGE_QUANTITY" };quantities[id]=Math.addExact(quantities[id]?:0,n) }
                 "equip" -> { val id=step.text("itemId");item(id);require(records.getValue(id).jsonObject.text("kind") in setOf("armour","shield")) { "PACKAGE_EQUIP_KIND" };equipped+=id }
                 "proficiency" -> { val id=step.text("proficiencyId");require(records[id]?.jsonObject?.text("kind")=="proficiency") { "UNKNOWN_PACKAGE_PROFICIENCY" };profs+=id }
+                "contact" -> { val id=step.text("id");val text=step.text("text");require(id.isNotBlank() && text.isNotBlank() && text.length<=4000 && id !in contacts) { "INVALID_PACKAGE_CONTACT" };contacts[id]=obj("id" to id,"text" to text,"source" to definition["source"]) }
                 "narrative" -> { val text=step.text("text");require(text.isNotBlank() && text.length<=4000);notes+=text }
                 "choice" -> {
                     val id=step.text("id");require(consumed.add(id)) { "DUPLICATE_PACKAGE_CHOICE" }
@@ -32,7 +33,7 @@ object StartingPackages {
         visit(definition.objects("steps"),0)
         require(answers.keys.all { it in consumed }) { "UNEXPECTED_PACKAGE_CHOICE" }
         require(equipped.all { it in quantities }) { "EQUIP_REQUIRES_GRANT" }
-        return CompiledPackage(quantities.map { InventorySelection(it.key,it.value,it.key in equipped) },profs,notes)
+        return CompiledPackage(quantities.map { InventorySelection(it.key,it.value,it.key in equipped) },profs,notes,contacts.values.toList())
     }
 }
 

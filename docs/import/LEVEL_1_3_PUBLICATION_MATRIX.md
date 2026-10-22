@@ -789,7 +789,7 @@ Machine-readable detail: `content/packages/di_phb_1_0/review/level-1-3-catalogue
 | human | forge_world | hernkyn_prospector | 3 | hernkyn_prospector.claim_staker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | forge_world | hernkyn_prospector | 3 | hernkyn_prospector.outrider | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | forge_world | hernkyn_prospector | 3 | hernkyn_prospector.trail_gunner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
-| human | forge_world | hive_scum | 1 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| human | forge_world | hive_scum | 1 | - | READY_WITH_MANUAL_RULES | - | - | - |
 | human | forge_world | hive_scum | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | forge_world | hive_scum | 3 | hive_scum.chem_user | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | forge_world | hive_scum | 3 | hive_scum.gunslinger | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
@@ -828,11 +828,11 @@ Machine-readable detail: `content/packages/di_phb_1_0/review/level-1-3-catalogue
 | human | forge_world | skitarii_veteran | 3 | skitarii_veteran.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | forge_world | skitarii_veteran | 3 | skitarii_veteran.ruststalker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | forge_world | skitarii_veteran | 3 | skitarii_veteran.vanguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
-| human | forge_world | veteran | 1 | - | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
-| human | forge_world | veteran | 2 | - | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
-| human | forge_world | veteran | 3 | veteran.shock_trooper | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
-| human | forge_world | veteran | 3 | veteran.marksman | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
-| human | forge_world | veteran | 3 | veteran.sergeant | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
+| human | forge_world | veteran | 1 | - | READY_WITH_MANUAL_RULES | - | - | - |
+| human | forge_world | veteran | 2 | - | READY_WITH_MANUAL_RULES | - | - | - |
+| human | forge_world | veteran | 3 | veteran.shock_trooper | READY_WITH_MANUAL_RULES | - | - | - |
+| human | forge_world | veteran | 3 | veteran.marksman | READY_WITH_MANUAL_RULES | - | - | - |
+| human | forge_world | veteran | 3 | veteran.sergeant | READY_WITH_MANUAL_RULES | - | - | - |
 | human | forge_world | zealot | 1 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | forge_world | zealot | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | forge_world | zealot | 3 | zealot.flagellant | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
@@ -858,7 +858,7 @@ Machine-readable detail: `content/packages/di_phb_1_0/review/level-1-3-catalogue
 | human | hiveborn | hernkyn_prospector | 3 | hernkyn_prospector.claim_staker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | hiveborn | hernkyn_prospector | 3 | hernkyn_prospector.outrider | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | hiveborn | hernkyn_prospector | 3 | hernkyn_prospector.trail_gunner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
-| human | hiveborn | hive_scum | 1 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| human | hiveborn | hive_scum | 1 | - | READY_WITH_MANUAL_RULES | - | - | - |
 | human | hiveborn | hive_scum | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | hiveborn | hive_scum | 3 | hive_scum.chem_user | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | hiveborn | hive_scum | 3 | hive_scum.gunslinger | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
@@ -898,10 +898,10 @@ Machine-readable detail: `content/packages/di_phb_1_0/review/level-1-3-catalogue
 | human | hiveborn | skitarii_veteran | 3 | skitarii_veteran.ruststalker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | hiveborn | skitarii_veteran | 3 | skitarii_veteran.vanguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | hiveborn | veteran | 1 | - | READY_WITH_MANUAL_RULES | - | - | - |
-| human | hiveborn | veteran | 2 | - | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
-| human | hiveborn | veteran | 3 | veteran.shock_trooper | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
-| human | hiveborn | veteran | 3 | veteran.marksman | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
-| human | hiveborn | veteran | 3 | veteran.sergeant | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
+| human | hiveborn | veteran | 2 | - | READY_WITH_MANUAL_RULES | - | - | - |
+| human | hiveborn | veteran | 3 | veteran.shock_trooper | READY_WITH_MANUAL_RULES | - | - | - |
+| human | hiveborn | veteran | 3 | veteran.marksman | READY_WITH_MANUAL_RULES | - | - | - |
+| human | hiveborn | veteran | 3 | veteran.sergeant | READY_WITH_MANUAL_RULES | - | - | - |
 | human | hiveborn | zealot | 1 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | hiveborn | zealot | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | hiveborn | zealot | 3 | zealot.flagellant | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
@@ -927,7 +927,7 @@ Machine-readable detail: `content/packages/di_phb_1_0/review/level-1-3-catalogue
 | human | militarum_regiment | hernkyn_prospector | 3 | hernkyn_prospector.claim_staker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | militarum_regiment | hernkyn_prospector | 3 | hernkyn_prospector.outrider | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | militarum_regiment | hernkyn_prospector | 3 | hernkyn_prospector.trail_gunner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
-| human | militarum_regiment | hive_scum | 1 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| human | militarum_regiment | hive_scum | 1 | - | READY_WITH_MANUAL_RULES | - | - | - |
 | human | militarum_regiment | hive_scum | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | militarum_regiment | hive_scum | 3 | hive_scum.chem_user | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | militarum_regiment | hive_scum | 3 | hive_scum.gunslinger | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
@@ -966,11 +966,11 @@ Machine-readable detail: `content/packages/di_phb_1_0/review/level-1-3-catalogue
 | human | militarum_regiment | skitarii_veteran | 3 | skitarii_veteran.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | militarum_regiment | skitarii_veteran | 3 | skitarii_veteran.ruststalker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | militarum_regiment | skitarii_veteran | 3 | skitarii_veteran.vanguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
-| human | militarum_regiment | veteran | 1 | - | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
-| human | militarum_regiment | veteran | 2 | - | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
-| human | militarum_regiment | veteran | 3 | veteran.shock_trooper | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
-| human | militarum_regiment | veteran | 3 | veteran.marksman | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
-| human | militarum_regiment | veteran | 3 | veteran.sergeant | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
+| human | militarum_regiment | veteran | 1 | - | READY_WITH_MANUAL_RULES | - | - | - |
+| human | militarum_regiment | veteran | 2 | - | READY_WITH_MANUAL_RULES | - | - | - |
+| human | militarum_regiment | veteran | 3 | veteran.shock_trooper | READY_WITH_MANUAL_RULES | - | - | - |
+| human | militarum_regiment | veteran | 3 | veteran.marksman | READY_WITH_MANUAL_RULES | - | - | - |
+| human | militarum_regiment | veteran | 3 | veteran.sergeant | READY_WITH_MANUAL_RULES | - | - | - |
 | human | militarum_regiment | zealot | 1 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | militarum_regiment | zealot | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | militarum_regiment | zealot | 3 | zealot.flagellant | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
@@ -1065,7 +1065,7 @@ Machine-readable detail: `content/packages/di_phb_1_0/review/level-1-3-catalogue
 | human | penal_worlder | hernkyn_prospector | 3 | hernkyn_prospector.claim_staker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | penal_worlder | hernkyn_prospector | 3 | hernkyn_prospector.outrider | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | penal_worlder | hernkyn_prospector | 3 | hernkyn_prospector.trail_gunner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
-| human | penal_worlder | hive_scum | 1 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| human | penal_worlder | hive_scum | 1 | - | READY_WITH_MANUAL_RULES | - | - | - |
 | human | penal_worlder | hive_scum | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | penal_worlder | hive_scum | 3 | hive_scum.chem_user | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | penal_worlder | hive_scum | 3 | hive_scum.gunslinger | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
@@ -1104,11 +1104,11 @@ Machine-readable detail: `content/packages/di_phb_1_0/review/level-1-3-catalogue
 | human | penal_worlder | skitarii_veteran | 3 | skitarii_veteran.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | penal_worlder | skitarii_veteran | 3 | skitarii_veteran.ruststalker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | penal_worlder | skitarii_veteran | 3 | skitarii_veteran.vanguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
-| human | penal_worlder | veteran | 1 | - | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
-| human | penal_worlder | veteran | 2 | - | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
-| human | penal_worlder | veteran | 3 | veteran.shock_trooper | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
-| human | penal_worlder | veteran | 3 | veteran.marksman | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
-| human | penal_worlder | veteran | 3 | veteran.sergeant | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
+| human | penal_worlder | veteran | 1 | - | READY_WITH_MANUAL_RULES | - | - | - |
+| human | penal_worlder | veteran | 2 | - | READY_WITH_MANUAL_RULES | - | - | - |
+| human | penal_worlder | veteran | 3 | veteran.shock_trooper | READY_WITH_MANUAL_RULES | - | - | - |
+| human | penal_worlder | veteran | 3 | veteran.marksman | READY_WITH_MANUAL_RULES | - | - | - |
+| human | penal_worlder | veteran | 3 | veteran.sergeant | READY_WITH_MANUAL_RULES | - | - | - |
 | human | penal_worlder | zealot | 1 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | penal_worlder | zealot | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | penal_worlder | zealot | 3 | zealot.flagellant | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
@@ -1134,7 +1134,7 @@ Machine-readable detail: `content/packages/di_phb_1_0/review/level-1-3-catalogue
 | human | schola_progenium | hernkyn_prospector | 3 | hernkyn_prospector.claim_staker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | schola_progenium | hernkyn_prospector | 3 | hernkyn_prospector.outrider | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | schola_progenium | hernkyn_prospector | 3 | hernkyn_prospector.trail_gunner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
-| human | schola_progenium | hive_scum | 1 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| human | schola_progenium | hive_scum | 1 | - | READY_WITH_MANUAL_RULES | - | - | - |
 | human | schola_progenium | hive_scum | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | schola_progenium | hive_scum | 3 | hive_scum.chem_user | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | schola_progenium | hive_scum | 3 | hive_scum.gunslinger | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
@@ -1174,10 +1174,10 @@ Machine-readable detail: `content/packages/di_phb_1_0/review/level-1-3-catalogue
 | human | schola_progenium | skitarii_veteran | 3 | skitarii_veteran.ruststalker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | schola_progenium | skitarii_veteran | 3 | skitarii_veteran.vanguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | schola_progenium | veteran | 1 | - | READY_WITH_MANUAL_RULES | - | - | - |
-| human | schola_progenium | veteran | 2 | - | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
-| human | schola_progenium | veteran | 3 | veteran.shock_trooper | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
-| human | schola_progenium | veteran | 3 | veteran.marksman | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
-| human | schola_progenium | veteran | 3 | veteran.sergeant | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
+| human | schola_progenium | veteran | 2 | - | READY_WITH_MANUAL_RULES | - | - | - |
+| human | schola_progenium | veteran | 3 | veteran.shock_trooper | READY_WITH_MANUAL_RULES | - | - | - |
+| human | schola_progenium | veteran | 3 | veteran.marksman | READY_WITH_MANUAL_RULES | - | - | - |
+| human | schola_progenium | veteran | 3 | veteran.sergeant | READY_WITH_MANUAL_RULES | - | - | - |
 | human | schola_progenium | zealot | 1 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | schola_progenium | zealot | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | schola_progenium | zealot | 3 | zealot.flagellant | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
@@ -1203,7 +1203,7 @@ Machine-readable detail: `content/packages/di_phb_1_0/review/level-1-3-catalogue
 | human | shrine_worlder | hernkyn_prospector | 3 | hernkyn_prospector.claim_staker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | shrine_worlder | hernkyn_prospector | 3 | hernkyn_prospector.outrider | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | shrine_worlder | hernkyn_prospector | 3 | hernkyn_prospector.trail_gunner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
-| human | shrine_worlder | hive_scum | 1 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| human | shrine_worlder | hive_scum | 1 | - | READY_WITH_MANUAL_RULES | - | - | - |
 | human | shrine_worlder | hive_scum | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | shrine_worlder | hive_scum | 3 | hive_scum.chem_user | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | shrine_worlder | hive_scum | 3 | hive_scum.gunslinger | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
@@ -1242,11 +1242,11 @@ Machine-readable detail: `content/packages/di_phb_1_0/review/level-1-3-catalogue
 | human | shrine_worlder | skitarii_veteran | 3 | skitarii_veteran.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | shrine_worlder | skitarii_veteran | 3 | skitarii_veteran.ruststalker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | shrine_worlder | skitarii_veteran | 3 | skitarii_veteran.vanguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
-| human | shrine_worlder | veteran | 1 | - | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
-| human | shrine_worlder | veteran | 2 | - | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
-| human | shrine_worlder | veteran | 3 | veteran.shock_trooper | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
-| human | shrine_worlder | veteran | 3 | veteran.marksman | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
-| human | shrine_worlder | veteran | 3 | veteran.sergeant | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
+| human | shrine_worlder | veteran | 1 | - | READY_WITH_MANUAL_RULES | - | - | - |
+| human | shrine_worlder | veteran | 2 | - | READY_WITH_MANUAL_RULES | - | - | - |
+| human | shrine_worlder | veteran | 3 | veteran.shock_trooper | READY_WITH_MANUAL_RULES | - | - | - |
+| human | shrine_worlder | veteran | 3 | veteran.marksman | READY_WITH_MANUAL_RULES | - | - | - |
+| human | shrine_worlder | veteran | 3 | veteran.sergeant | READY_WITH_MANUAL_RULES | - | - | - |
 | human | shrine_worlder | zealot | 1 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | shrine_worlder | zealot | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | shrine_worlder | zealot | 3 | zealot.flagellant | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
@@ -1272,7 +1272,7 @@ Machine-readable detail: `content/packages/di_phb_1_0/review/level-1-3-catalogue
 | human | underhive | hernkyn_prospector | 3 | hernkyn_prospector.claim_staker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | underhive | hernkyn_prospector | 3 | hernkyn_prospector.outrider | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | underhive | hernkyn_prospector | 3 | hernkyn_prospector.trail_gunner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
-| human | underhive | hive_scum | 1 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| human | underhive | hive_scum | 1 | - | READY_WITH_MANUAL_RULES | - | - | - |
 | human | underhive | hive_scum | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | underhive | hive_scum | 3 | hive_scum.chem_user | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | underhive | hive_scum | 3 | hive_scum.gunslinger | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
@@ -1311,11 +1311,11 @@ Machine-readable detail: `content/packages/di_phb_1_0/review/level-1-3-catalogue
 | human | underhive | skitarii_veteran | 3 | skitarii_veteran.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | underhive | skitarii_veteran | 3 | skitarii_veteran.ruststalker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | underhive | skitarii_veteran | 3 | skitarii_veteran.vanguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
-| human | underhive | veteran | 1 | - | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
-| human | underhive | veteran | 2 | - | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
-| human | underhive | veteran | 3 | veteran.shock_trooper | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
-| human | underhive | veteran | 3 | veteran.marksman | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
-| human | underhive | veteran | 3 | veteran.sergeant | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
+| human | underhive | veteran | 1 | - | READY_WITH_MANUAL_RULES | - | - | - |
+| human | underhive | veteran | 2 | - | READY_WITH_MANUAL_RULES | - | - | - |
+| human | underhive | veteran | 3 | veteran.shock_trooper | READY_WITH_MANUAL_RULES | - | - | - |
+| human | underhive | veteran | 3 | veteran.marksman | READY_WITH_MANUAL_RULES | - | - | - |
+| human | underhive | veteran | 3 | veteran.sergeant | READY_WITH_MANUAL_RULES | - | - | - |
 | human | underhive | zealot | 1 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | underhive | zealot | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | underhive | zealot | 3 | zealot.flagellant | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
@@ -1341,7 +1341,7 @@ Machine-readable detail: `content/packages/di_phb_1_0/review/level-1-3-catalogue
 | human | voidborn | hernkyn_prospector | 3 | hernkyn_prospector.claim_staker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | voidborn | hernkyn_prospector | 3 | hernkyn_prospector.outrider | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | voidborn | hernkyn_prospector | 3 | hernkyn_prospector.trail_gunner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
-| human | voidborn | hive_scum | 1 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| human | voidborn | hive_scum | 1 | - | READY_WITH_MANUAL_RULES | - | - | - |
 | human | voidborn | hive_scum | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | voidborn | hive_scum | 3 | hive_scum.chem_user | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | voidborn | hive_scum | 3 | hive_scum.gunslinger | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
@@ -1380,11 +1380,11 @@ Machine-readable detail: `content/packages/di_phb_1_0/review/level-1-3-catalogue
 | human | voidborn | skitarii_veteran | 3 | skitarii_veteran.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | voidborn | skitarii_veteran | 3 | skitarii_veteran.ruststalker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | voidborn | skitarii_veteran | 3 | skitarii_veteran.vanguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
-| human | voidborn | veteran | 1 | - | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
-| human | voidborn | veteran | 2 | - | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
-| human | voidborn | veteran | 3 | veteran.shock_trooper | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
-| human | voidborn | veteran | 3 | veteran.marksman | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
-| human | voidborn | veteran | 3 | veteran.sergeant | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
+| human | voidborn | veteran | 1 | - | READY_WITH_MANUAL_RULES | - | - | - |
+| human | voidborn | veteran | 2 | - | READY_WITH_MANUAL_RULES | - | - | - |
+| human | voidborn | veteran | 3 | veteran.shock_trooper | READY_WITH_MANUAL_RULES | - | - | - |
+| human | voidborn | veteran | 3 | veteran.marksman | READY_WITH_MANUAL_RULES | - | - | - |
+| human | voidborn | veteran | 3 | veteran.sergeant | READY_WITH_MANUAL_RULES | - | - | - |
 | human | voidborn | zealot | 1 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | voidborn | zealot | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | human | voidborn | zealot | 3 | zealot.flagellant | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |

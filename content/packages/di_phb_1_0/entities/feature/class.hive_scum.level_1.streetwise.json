@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.feature.class.hive_scum.level_1.streetwise",
   "kind": "feature",
-  "revision": 1,
+  "revision": 2,
   "name": "Streetwise",
   "summary": "Gain proficiency in two skills from Deception, Insight, Intimidation, Sleight of Hand, Stealth, and Survival. You also know how to find black-market contacts in urban settlements.",
   "descriptionMarkdown": "Gain proficiency in two skills from Deception, Insight, \nIntimidation, Sleight of Hand, Stealth, and\nSurvival. You also know how to find black-market \ncontacts in urban settlements.",
@@ -24,12 +24,20 @@
   "data": {
     "flavor": "class_feature",
     "effects": [],
-    "grants": [],
+    "grants": [
+      {
+        "id": "streetwise_skills",
+        "kind": "choice",
+        "choice": {
+          "id": "di.choice.hive_scum.streetwise"
+        }
+      }
+    ],
     "manualRules": [
       {
         "id": "source_rule",
         "automation": "manual",
-        "text": "Gain proficiency in two skills from Deception, Insight, \nIntimidation, Sleight of Hand, Stealth, and\nSurvival. You also know how to find black-market \ncontacts in urban settlements.",
+        "text": "You know how to find black-market contacts in urban settlements.",
         "adjudicator": "gm",
         "context": "source-defined procedure",
         "reason": "Source transcribed; automatic mapping has not been validated for this import slice."

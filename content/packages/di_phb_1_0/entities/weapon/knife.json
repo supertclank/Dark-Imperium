@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "di.weapon.knife",
+  "kind": "weapon",
+  "revision": 1,
+  "name": "Knife",
+  "summary": "Weapon: Knife; Damage: 1d4 piercing; Properties: Finesse, Light, Thrown; Availability: Issued",
+  "descriptionMarkdown": "Weapon: Knife; Damage: 1d4 piercing; Properties: Finesse, Light, Thrown; Availability: Issued\nMelee profile: 5-ft reach. Throwing requires a GM-approved improvised range (Thrown, PHB PDF 35).",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "8",
+        "heading": "Knife",
+        "pdfPage": 38,
+        "printedPage": 25
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "7",
+        "heading": "Thrown",
+        "pdfPage": 35,
+        "printedPage": 22
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "properties": [
+      {
+        "property": {
+          "id": "di.property.weapon.finesse"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.light"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.thrown"
+        },
+        "arguments": {}
+      }
+    ],
+    "modes": [
+      {
+        "id": "base",
+        "name": "Base profile",
+        "damage": [
+          {
+            "id": "component_1",
+            "dice": {
+              "count": 1,
+              "sides": 4,
+              "bonus": 0
+            },
+            "bonus": {
+              "kind": "constant",
+              "value": 0
+            },
+            "damageType": {
+              "id": "di.damage_type.piercing"
+            }
+          }
+        ],
+        "attackKind": "melee",
+        "delivery": "attack_roll",
+        "costs": [],
+        "action": {
+          "id": "di.action.knife.attack"
+        },
+        "range": {
+          "kind": "reach",
+          "distance": {
+            "value": 5,
+            "unit": "ft"
+          }
+        }
+      }
+    ],
+    "category": "melee",
+    "subcategory": "light_melee",
+    "hands": 1,
+    "features": [],
+    "proficiencyGroups": [
+      "simple_melee"
+    ],
+    "availability": "Issued",
+    "abilityBinding": {
+      "attack": "finesse",
+      "damage": "finesse"
+    },
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Thrown: use a GM-approved improvised range. No automatic thrown mode or fixed throwing range is supplied.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ]
+  }
+}

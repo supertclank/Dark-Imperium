@@ -50,6 +50,7 @@ class NarrowRules(val bundle: JsonObject) {
     val kit = payload.getValue("package").jsonObject
     val attributes = spec.strings("attributes")
     private val tier1 = spec.text("engineVersion")=="phb-tier1-kotlin-v1"
+    val expanded = spec["compositionVersion"]?.jsonPrimitive?.int == 2
     private val policy = spec.getValue("calculations").jsonObject
     init {
         require(sha(canonicalJson(payload)) == digest) { "Profile digest mismatch" }
@@ -66,7 +67,19 @@ class NarrowRules(val bundle: JsonObject) {
         "choices" to spec.strings("choices").map { key -> val d=data(key);obj("id" to key,"name" to label(key),"purpose" to d.text("purpose"),"cardinality" to d.getValue("cardinality"),"options" to d.objects("options").map { obj("id" to it.text("id"),"label" to it.text("label")) }) },
         "levelFeatures" to spec.strings("classes").flatMap { classId -> data(ref(data(classId),"progression")).objects("entries").filter { it.num("level") == 1 }.flatMap { it.objects("grants") }.filter { it.text("kind")=="feature" }.map { view(ref(it,"feature")) } },
         "package" to kit,"equipment" to spec.strings("equipment").map(::view),"armour" to spec.arr("armour"),"training" to payload.getValue("training"),"availability" to spec.arr("availability")
-    )
+    ).let { base -> if(!expanded) base else JsonObject(base+mapOf("pathConfigurations" to spec.getValue("pathConfigurations"),"packages" to JsonObject(payload.getValue("packages").jsonObject.mapValues { it.value.jsonObject.getValue("display") }),"classTraining" to payload.getValue("classTraining"),"featureCatalogue" to json(records.keys.filter { record(it).text("kind")=="feature" }.map(::view)))) }
+    private fun configuration(d: NarrowDraft) = spec.objects("pathConfigurations").singleOrNull { it.text("speciesId")==d.speciesId && it.text("originId")==d.originId && it.text("classId")==d.classId && it.num("level")==d.level }
+    private fun choicesFor(d: NarrowDraft) = if(expanded) configuration(d)?.strings("choices").orEmpty() else spec.strings("choices")
+    private fun packageFor(d: NarrowDraft) = (payload["packages"] as? JsonObject)?.get(d.classId)?.jsonObject
+    private fun kitFor(d: NarrowDraft) = if(expanded) packageFor(d)?.get("display")?.jsonObject ?: obj() else kit
+    private fun executableFor(d: NarrowDraft) = if(expanded) packageFor(d)?.get("executable")?.jsonObject ?: obj("steps" to emptyList<String>()) else payload.getValue("executablePackage").jsonObject
+    private fun subclassFor(d: NarrowDraft): String? = choicesFor(d).filter { data(it).text("purpose")=="subclass" }.flatMap { key -> data(key).objects("options").filter { it.text("id") in d.answers[key].orEmpty() }.flatMap { it.objects("grants") }.filter { it.text("kind")=="select" }.map { ref(it,"content") } }.singleOrNull()
+    private fun featureView(key: String): JsonObject {
+        val basic=obj("id" to key,"name" to label(key),"text" to record(key).text("descriptionMarkdown"),"sources" to record(key).arr("sources"),"manual" to data(key).objects("manualRules").isNotEmpty())
+        if(!expanded) return basic
+        val support=(payload["featureSupport"] as? JsonObject)?.get(key)?.jsonObject
+        return JsonObject(basic + (support ?: obj("classification" to if(data(key).objects("manualRules").isNotEmpty()) "MANUAL" else "AUTOMATED")))
+    }
     private fun eligible(predicate: JsonObject, selected: Set<String>): Boolean = when(predicate.text("kind")) {
         "selected" -> ref(predicate,"content") in selected
         "all" -> predicate.objects("predicates").all { eligible(it,selected) }
@@ -75,7 +88,7 @@ class NarrowRules(val bundle: JsonObject) {
     }
     private fun scores(draft: NarrowDraft): Map<String,Int> {
         val result=attributes.associateWith { draft.attributes.getValue(it) }.toMutableMap()
-        for ((choice,options) in draft.answers.filterKeys { it in spec.strings("choices") && data(it).text("purpose")=="attribute" }) for(option in data(choice).objects("options").filter { it.text("id") in options }) {
+        for ((choice,options) in draft.answers.filterKeys { it in choicesFor(draft) && data(it).text("purpose")=="attribute" }) for(option in data(choice).objects("options").filter { it.text("id") in options }) {
             for(g in option.objects("grants")) if(g.text("kind")=="attribute_increase") result[g.text("attributeKey")]=result.getValue(g.text("attributeKey"))+g.num("amount")
         }
         return result
@@ -95,7 +108,7 @@ class NarrowRules(val bundle: JsonObject) {
             val origin=(records[draft.originId] as? JsonObject)?.get("data") as? JsonObject
             val state=origin?.objects("originAvailability")?.singleOrNull { ref(it,"species")==draft.speciesId }?.text("state")
             if(state in setOf("RARE","LIMITED")) issue("APPROVAL_REQUIRED","originId","$state Origin requires trusted GM/campaign approval; self-service approval is unavailable.")
-            if(spec.objects("certifiedPaths").none { it.text("speciesId")==draft.speciesId && it.text("originId")==draft.originId && it.text("classId")==draft.classId && it.num("level")==draft.level && it.text("traitId")==draft.traitId }) issue("PATH_NOT_CERTIFIED","level","This complete path has not been certified.")
+            if(spec.objects("certifiedPaths").none { it.text("speciesId")==draft.speciesId && it.text("originId")==draft.originId && it.text("classId")==draft.classId && it.num("level")==draft.level && it.text("traitId")==draft.traitId && (!expanded || (it["subclassId"]?.jsonPrimitive?.contentOrNull == subclassFor(draft))) }) issue("PATH_NOT_CERTIFIED","level","This complete path has not been certified.")
         }
         val selected=setOf(draft.speciesId,draft.originId,draft.classId,draft.traitId)
         for((field,key) in listOf("originId" to draft.originId,"classId" to draft.classId)) if(key in records) {
@@ -104,7 +117,12 @@ class NarrowRules(val bundle: JsonObject) {
         }
         val baseValid=draft.attributes.keys==attributes.toSet() && draft.attributes.values.sorted()==spec.arr("standardArray").map { it.jsonPrimitive.int }.sorted()
         if(!baseValid) issue("INVALID_ABILITY_ALLOCATION","attributes","Assign every standard-array score exactly once.")
-        val allowed=spec.strings("choices")
+        val allowed=choicesFor(draft)
+        val kit=kitFor(draft)
+        if(expanded) subclassFor(draft)?.let { sub ->
+            val d=data(sub);val req=d.getValue("requirements").jsonObject
+            if(record(sub).text("kind")!="subclass" || ref(d,"parentClass")!=draft.classId || req.text("kind")!="level" || req.text("operator")!="gte" || req.getValue("axis").jsonObject.text("kind")!="class_level" || ref(req.getValue("axis").jsonObject,"class")!=draft.classId || draft.level<req.num("value")) issue("INVALID_SUBCLASS","answers","Subclass is not available for this class and level.")
+        }
         for(key in draft.answers.keys-allowed.toSet()) issue("CONTENT_NOT_SUPPORTED","answers.$key","This choice is not in the supported profile.")
         for(key in allowed) {
             val answer=draft.answers[key].orEmpty();val d=data(key);val card=d.getValue("cardinality").jsonObject
@@ -128,7 +146,7 @@ class NarrowRules(val bundle: JsonObject) {
         }
         if(tier1) {
             try {
-                val compiled=StartingPackages.compile(payload.getValue("executablePackage").jsonObject,draft.packageChoices.mapValues { listOf(it.value) },records,spec.strings("equipment").toSet())
+                val compiled=StartingPackages.compile(executableFor(draft),draft.packageChoices.mapValues { listOf(it.value) },records,spec.strings("equipment").toSet())
                 if(compiled.inventory.sortedBy { it.definitionId }!=draft.inventory.sortedBy { it.definitionId }) issue("INVALID_EQUIPMENT_SELECTION","inventory","Inventory must equal the compiled canonical package.")
             } catch(e:IllegalArgumentException) { issue("INVALID_EQUIPMENT_SELECTION","packageChoices",e.message ?: "Invalid package") }
         }
@@ -151,11 +169,16 @@ class NarrowRules(val bundle: JsonObject) {
         val progression=data(ref(data(draft.classId),"progression"))
         progression.objects("entries").filter { it.num("level")<=draft.level }.forEach { row -> row.objects("grants").forEach { if(it.text("kind")=="feature") visit(ref(it,"feature")) else applyGrant(it) } }
         draft.answers.forEach { (key,options) -> data(key).objects("options").filter { it.text("id") in options }.forEach { it.objects("grants").forEach(::applyGrant) } }
-        if(tier1) profs+=StartingPackages.compile(payload.getValue("executablePackage").jsonObject,draft.packageChoices.mapValues { listOf(it.value) },records,spec.strings("equipment").toSet()).proficiencies
+        val subclass=if(expanded) subclassFor(draft) else null
+        if(subclass!=null) {
+            visit(subclass)
+            data(ref(data(subclass),"progression")).objects("entries").filter { it.num("level")<=draft.level }.flatMap { it.objects("grants") }.forEach { if(it.text("kind")=="feature") visit(ref(it,"feature")) else applyGrant(it) }
+        }
+        if(tier1) profs+=StartingPackages.compile(executableFor(draft),draft.packageChoices.mapValues { listOf(it.value) },records,spec.strings("equipment").toSet()).proficiencies
         val effects=features.flatMap { data(it).objects("effects") }.filter { it.text("automation")=="automatic" }
         fun effectSum(key:String)=effects.filter { it.getValue("target").jsonObject.text("key")==key }.sumOf { it.getValue("value").jsonObject.num("value") }
         val pb=payload.objects("proficiencyBands").first { draft.level<=it.num("maximumLevel") }.num("bonus")
-        val training=payload.getValue("training").jsonObject
+        val training=if(expanded) payload.getValue("classTraining").jsonObject.getValue(draft.classId).jsonObject else payload.getValue("training").jsonObject
         val hp=if(tier1) Tier1Calculations.hp(training.num("hitDie"),draft.level,mods.getValue("constitution")) else training.num("hitDie")+mods.getValue("constitution")
         val armour=draft.inventory.single { it.equipped };val armourData=data(armour.definitionId)
         val baseAc=armourData.getValue("defence").jsonObject.getValue("value").jsonObject.num("value")
@@ -195,9 +218,16 @@ class NarrowRules(val bundle: JsonObject) {
             val expression="${dice.num("count")}d${dice.num("sides")}"+(if(damageBonus==0) "" else if(damageBonus>0) " + $damageBonus" else " - ${-damageBonus}")
             actions+=obj("id" to actionId,"itemId" to item,"name" to label(item),"attackBonus" to attack,"ability" to ability,"damageExpression" to expression,"damageType" to label(ref(component,"damageType")),"range" to mode.getValue("range"),"properties" to d.objects("properties").map { property -> label(ref(property,"property")) + ((property["arguments"] as? JsonObject)?.entries?.takeIf { it.isNotEmpty() }?.joinToString(", ", " (", ")") { (key,value) -> "$key: ${value.jsonPrimitive.content}" } ?: "") },"save" to mode["save"],"saveDc" to if(mode.containsKey("save")) policy.num("grenadeDcBase")+pb+mods.getValue("dexterity") else null,"area" to mode["area"],"consumption" to mode["consumption"],"damageRollId" to damageRoll.text("id"),"manual" to true)
         }
-        return obj("attributes" to final,"attributeModifiers" to mods,"proficiencyBonus" to pb,"maximumWounds" to hp,"defence" to ac,"movement" to effectSum("movement.walk"),"initiative" to initiative,"saves" to saves,"skills" to skills,"proficiencies" to profs.map(::view),"weaponProficiencies" to obj("groups" to groups.sorted(),"specificWeapons" to direct.sorted(),"startingPackageWeapons" to starting),"features" to features.map { key->obj("id" to key,"name" to label(key),"text" to record(key).text("descriptionMarkdown"),"sources" to record(key).arr("sources"),"manual" to data(key).objects("manualRules").isNotEmpty()) },"inventory" to inventory,"actions" to actions,"rollDefinitions" to rolls,"readiness" to "PLAYABLE_WITH_MANUAL_RULES","rollAuthority" to "DISPLAY_ONLY_NOT_AUTHORIZATION","profileDigest" to digest)
+        return obj("attributes" to final,"attributeModifiers" to mods,"proficiencyBonus" to pb,"maximumWounds" to hp,"defence" to ac,"movement" to effectSum("movement.walk"),"initiative" to initiative,"saves" to saves,"skills" to skills,"proficiencies" to profs.map(::view),"weaponProficiencies" to obj("groups" to groups.sorted(),"specificWeapons" to direct.sorted(),"startingPackageWeapons" to starting),"features" to features.map(::featureView),"inventory" to inventory,"actions" to actions,"rollDefinitions" to rolls,"readiness" to "PLAYABLE_WITH_MANUAL_RULES","rollAuthority" to "DISPLAY_ONLY_NOT_AUTHORIZATION","profileDigest" to digest).let { base ->
+            if(!expanded) base else {
+                val supports=features.map(::featureView)
+                val resources=spec.objects("runtimeResources")+supports.flatMap { f -> f.objects("resources").map { JsonObject(it+mapOf("sourceId" to JsonPrimitive(f.text("id")))) } }
+                JsonObject(base+mapOf("subclass" to (subclass?.let(::view) ?: JsonNull),"resources" to json(resources),"contacts" to json(StartingPackages.compile(executableFor(draft),draft.packageChoices.mapValues { listOf(it.value) },records,spec.strings("equipment").toSet()).contacts),"proceduralProficiencies" to json(supports.flatMap { (it["proceduralProficiencies"] as? JsonArray)?.toList().orEmpty() }),"equipmentNotes" to JsonObject(payload.getValue("equipmentSupport").jsonObject.filterKeys { it in starting })))
+            }
+        }
     }
     companion object {
+        fun tier2(): NarrowRules = NarrowRules(Json.parseToJsonElement(requireNotNull(NarrowRules::class.java.getResource("/profiles/di-phb-1.0-tier1-v2.json")).readText()).jsonObject)
         fun tier1(): NarrowRules = NarrowRules(Json.parseToJsonElement(requireNotNull(NarrowRules::class.java.getResource("/profiles/di-phb-1.0-tier1-v1.json")).readText()).jsonObject)
         fun bundled(): NarrowRules = NarrowRules(Json.parseToJsonElement(requireNotNull(NarrowRules::class.java.getResource("/profiles/di-phb-1.0-narrow-v1.json")).readText()).jsonObject)
     }

@@ -1,0 +1,3672 @@
+[
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 0",
+    "speciesId": "di.species.human",
+    "originId": "di.background.hiveborn",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 1,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.hiveborn.skills": [
+        "stealth"
+      ],
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 1",
+    "speciesId": "di.species.human",
+    "originId": "di.background.hiveborn",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 2,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.hiveborn.skills": [
+        "stealth"
+      ],
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 2",
+    "speciesId": "di.species.human",
+    "originId": "di.background.hiveborn",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 3,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.hiveborn.skills": [
+        "stealth"
+      ],
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ],
+      "di.choice.veteran.subclass": [
+        "shock_trooper"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 3",
+    "speciesId": "di.species.human",
+    "originId": "di.background.hiveborn",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 3,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.hiveborn.skills": [
+        "stealth"
+      ],
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ],
+      "di.choice.veteran.subclass": [
+        "marksman"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 4",
+    "speciesId": "di.species.human",
+    "originId": "di.background.hiveborn",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 3,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.hiveborn.skills": [
+        "stealth"
+      ],
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ],
+      "di.choice.veteran.subclass": [
+        "sergeant"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 5",
+    "speciesId": "di.species.human",
+    "originId": "di.background.hiveborn",
+    "classId": "di.class.hive_scum",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 1,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.hive_scum.streetwise": [
+        "deception",
+        "insight"
+      ],
+      "di.choice.hiveborn.skills": [
+        "stealth"
+      ],
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ]
+    },
+    "packageChoices": {
+      "pistol": "di.weapon.autopistol",
+      "primary": "di.weapon.autogun",
+      "armour": "di.armour.flak_armour"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.knife",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.autopistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.autogun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 6",
+    "speciesId": "di.species.human",
+    "originId": "di.background.shrine_worlder",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 1,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.shrine_worlder.skills": [
+        "persuasion"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 7",
+    "speciesId": "di.species.human",
+    "originId": "di.background.shrine_worlder",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 2,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.shrine_worlder.skills": [
+        "persuasion"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 8",
+    "speciesId": "di.species.human",
+    "originId": "di.background.shrine_worlder",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 3,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.shrine_worlder.skills": [
+        "persuasion"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ],
+      "di.choice.veteran.subclass": [
+        "shock_trooper"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 9",
+    "speciesId": "di.species.human",
+    "originId": "di.background.shrine_worlder",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 3,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.shrine_worlder.skills": [
+        "persuasion"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ],
+      "di.choice.veteran.subclass": [
+        "marksman"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 10",
+    "speciesId": "di.species.human",
+    "originId": "di.background.shrine_worlder",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 3,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.shrine_worlder.skills": [
+        "persuasion"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ],
+      "di.choice.veteran.subclass": [
+        "sergeant"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 11",
+    "speciesId": "di.species.human",
+    "originId": "di.background.shrine_worlder",
+    "classId": "di.class.hive_scum",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 1,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.hive_scum.streetwise": [
+        "deception",
+        "insight"
+      ],
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.shrine_worlder.skills": [
+        "persuasion"
+      ]
+    },
+    "packageChoices": {
+      "pistol": "di.weapon.autopistol",
+      "primary": "di.weapon.autogun",
+      "armour": "di.armour.flak_armour"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.knife",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.autopistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.autogun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 12",
+    "speciesId": "di.species.human",
+    "originId": "di.background.penal_worlder",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 1,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.penal_worlder.skills": [
+        "athletics"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 13",
+    "speciesId": "di.species.human",
+    "originId": "di.background.penal_worlder",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 2,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.penal_worlder.skills": [
+        "athletics"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 14",
+    "speciesId": "di.species.human",
+    "originId": "di.background.penal_worlder",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 3,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.penal_worlder.skills": [
+        "athletics"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ],
+      "di.choice.veteran.subclass": [
+        "shock_trooper"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 15",
+    "speciesId": "di.species.human",
+    "originId": "di.background.penal_worlder",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 3,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.penal_worlder.skills": [
+        "athletics"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ],
+      "di.choice.veteran.subclass": [
+        "marksman"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 16",
+    "speciesId": "di.species.human",
+    "originId": "di.background.penal_worlder",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 3,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.penal_worlder.skills": [
+        "athletics"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ],
+      "di.choice.veteran.subclass": [
+        "sergeant"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 17",
+    "speciesId": "di.species.human",
+    "originId": "di.background.penal_worlder",
+    "classId": "di.class.hive_scum",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 1,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.hive_scum.streetwise": [
+        "deception",
+        "insight"
+      ],
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.penal_worlder.skills": [
+        "athletics"
+      ]
+    },
+    "packageChoices": {
+      "pistol": "di.weapon.autopistol",
+      "primary": "di.weapon.autogun",
+      "armour": "di.armour.flak_armour"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.knife",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.autopistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.autogun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 18",
+    "speciesId": "di.species.human",
+    "originId": "di.background.voidborn",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 1,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ],
+      "di.choice.voidborn.skills": [
+        "acrobatics"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 19",
+    "speciesId": "di.species.human",
+    "originId": "di.background.voidborn",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 2,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ],
+      "di.choice.voidborn.skills": [
+        "acrobatics"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 20",
+    "speciesId": "di.species.human",
+    "originId": "di.background.voidborn",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 3,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ],
+      "di.choice.veteran.subclass": [
+        "shock_trooper"
+      ],
+      "di.choice.voidborn.skills": [
+        "acrobatics"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 21",
+    "speciesId": "di.species.human",
+    "originId": "di.background.voidborn",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 3,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ],
+      "di.choice.veteran.subclass": [
+        "marksman"
+      ],
+      "di.choice.voidborn.skills": [
+        "acrobatics"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 22",
+    "speciesId": "di.species.human",
+    "originId": "di.background.voidborn",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 3,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ],
+      "di.choice.veteran.subclass": [
+        "sergeant"
+      ],
+      "di.choice.voidborn.skills": [
+        "acrobatics"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 23",
+    "speciesId": "di.species.human",
+    "originId": "di.background.voidborn",
+    "classId": "di.class.hive_scum",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 1,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.hive_scum.streetwise": [
+        "deception",
+        "insight"
+      ],
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.voidborn.skills": [
+        "acrobatics"
+      ]
+    },
+    "packageChoices": {
+      "pistol": "di.weapon.autopistol",
+      "primary": "di.weapon.autogun",
+      "armour": "di.armour.flak_armour"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.knife",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.autopistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.autogun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 24",
+    "speciesId": "di.species.human",
+    "originId": "di.background.forge_world",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 1,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 25",
+    "speciesId": "di.species.human",
+    "originId": "di.background.forge_world",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 2,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 26",
+    "speciesId": "di.species.human",
+    "originId": "di.background.forge_world",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 3,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ],
+      "di.choice.veteran.subclass": [
+        "shock_trooper"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 27",
+    "speciesId": "di.species.human",
+    "originId": "di.background.forge_world",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 3,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ],
+      "di.choice.veteran.subclass": [
+        "marksman"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 28",
+    "speciesId": "di.species.human",
+    "originId": "di.background.forge_world",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 3,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ],
+      "di.choice.veteran.subclass": [
+        "sergeant"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 29",
+    "speciesId": "di.species.human",
+    "originId": "di.background.forge_world",
+    "classId": "di.class.hive_scum",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 1,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.hive_scum.streetwise": [
+        "deception",
+        "insight"
+      ],
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ]
+    },
+    "packageChoices": {
+      "pistol": "di.weapon.autopistol",
+      "primary": "di.weapon.autogun",
+      "armour": "di.armour.flak_armour"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.knife",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.autopistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.autogun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 30",
+    "speciesId": "di.species.human",
+    "originId": "di.background.schola_progenium",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 1,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.schola_progenium.skills": [
+        "history"
+      ],
+      "di.choice.schola_progenium.skills_2": [
+        "intimidation"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 31",
+    "speciesId": "di.species.human",
+    "originId": "di.background.schola_progenium",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 2,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.schola_progenium.skills": [
+        "history"
+      ],
+      "di.choice.schola_progenium.skills_2": [
+        "intimidation"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 32",
+    "speciesId": "di.species.human",
+    "originId": "di.background.schola_progenium",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 3,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.schola_progenium.skills": [
+        "history"
+      ],
+      "di.choice.schola_progenium.skills_2": [
+        "intimidation"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ],
+      "di.choice.veteran.subclass": [
+        "shock_trooper"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 33",
+    "speciesId": "di.species.human",
+    "originId": "di.background.schola_progenium",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 3,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.schola_progenium.skills": [
+        "history"
+      ],
+      "di.choice.schola_progenium.skills_2": [
+        "intimidation"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ],
+      "di.choice.veteran.subclass": [
+        "marksman"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 34",
+    "speciesId": "di.species.human",
+    "originId": "di.background.schola_progenium",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 3,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.schola_progenium.skills": [
+        "history"
+      ],
+      "di.choice.schola_progenium.skills_2": [
+        "intimidation"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ],
+      "di.choice.veteran.subclass": [
+        "sergeant"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 35",
+    "speciesId": "di.species.human",
+    "originId": "di.background.schola_progenium",
+    "classId": "di.class.hive_scum",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 1,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.hive_scum.streetwise": [
+        "deception",
+        "insight"
+      ],
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.schola_progenium.skills": [
+        "history"
+      ],
+      "di.choice.schola_progenium.skills_2": [
+        "intimidation"
+      ]
+    },
+    "packageChoices": {
+      "pistol": "di.weapon.autopistol",
+      "primary": "di.weapon.autogun",
+      "armour": "di.armour.flak_armour"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.knife",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.autopistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.autogun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 36",
+    "speciesId": "di.species.human",
+    "originId": "di.background.militarum_regiment",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 1,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.militarum_regiment.skills": [
+        "athletics"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 37",
+    "speciesId": "di.species.human",
+    "originId": "di.background.militarum_regiment",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 2,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.militarum_regiment.skills": [
+        "athletics"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 38",
+    "speciesId": "di.species.human",
+    "originId": "di.background.militarum_regiment",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 3,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.militarum_regiment.skills": [
+        "athletics"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ],
+      "di.choice.veteran.subclass": [
+        "shock_trooper"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 39",
+    "speciesId": "di.species.human",
+    "originId": "di.background.militarum_regiment",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 3,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.militarum_regiment.skills": [
+        "athletics"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ],
+      "di.choice.veteran.subclass": [
+        "marksman"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 40",
+    "speciesId": "di.species.human",
+    "originId": "di.background.militarum_regiment",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 3,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.militarum_regiment.skills": [
+        "athletics"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ],
+      "di.choice.veteran.subclass": [
+        "sergeant"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 41",
+    "speciesId": "di.species.human",
+    "originId": "di.background.militarum_regiment",
+    "classId": "di.class.hive_scum",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 1,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.hive_scum.streetwise": [
+        "deception",
+        "insight"
+      ],
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.militarum_regiment.skills": [
+        "athletics"
+      ]
+    },
+    "packageChoices": {
+      "pistol": "di.weapon.autopistol",
+      "primary": "di.weapon.autogun",
+      "armour": "di.armour.flak_armour"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.knife",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.autopistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.autogun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 42",
+    "speciesId": "di.species.human",
+    "originId": "di.background.underhive",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 1,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.underhive.skills": [
+        "deception",
+        "intimidation"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 43",
+    "speciesId": "di.species.human",
+    "originId": "di.background.underhive",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 2,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.underhive.skills": [
+        "deception",
+        "intimidation"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 44",
+    "speciesId": "di.species.human",
+    "originId": "di.background.underhive",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 3,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.underhive.skills": [
+        "deception",
+        "intimidation"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ],
+      "di.choice.veteran.subclass": [
+        "shock_trooper"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 45",
+    "speciesId": "di.species.human",
+    "originId": "di.background.underhive",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 3,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.underhive.skills": [
+        "deception",
+        "intimidation"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ],
+      "di.choice.veteran.subclass": [
+        "marksman"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 46",
+    "speciesId": "di.species.human",
+    "originId": "di.background.underhive",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 3,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.underhive.skills": [
+        "deception",
+        "intimidation"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ],
+      "di.choice.veteran.subclass": [
+        "sergeant"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v2",
+    "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+    "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+    "name": "V2 47",
+    "speciesId": "di.species.human",
+    "originId": "di.background.underhive",
+    "classId": "di.class.hive_scum",
+    "traitId": "di.feature.universal.twitchy",
+    "level": 1,
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.hive_scum.streetwise": [
+        "deception",
+        "insight"
+      ],
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.underhive.skills": [
+        "deception",
+        "intimidation"
+      ]
+    },
+    "packageChoices": {
+      "pistol": "di.weapon.autopistol",
+      "primary": "di.weapon.autogun",
+      "armour": "di.armour.flak_armour"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.knife",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.autopistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.autogun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      }
+    ]
+  }
+]

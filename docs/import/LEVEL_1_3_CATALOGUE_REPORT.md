@@ -1,3 +1,5 @@
+> Historical v1 release report. Current scope and verification: [Human tier-1 v2 completion report](HUMAN_TIER1_V2_REPORT.md).
+
 # Origin approvals and first tier-1 publication
 
 Completed 22 October 2026. This report supersedes the previous audit-only readiness state. The full catalogue remains PARTIAL; one additional path is certified and registered locally. No hosted deployment is claimed.

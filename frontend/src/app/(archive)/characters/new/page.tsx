@@ -14,7 +14,7 @@ export default function NewCharacter() {
             Choose an origin. Take up arms. Begin your story.
           </p>
         </div>
-        <span className="edition-tag">LEVEL 01</span>
+        <span className="edition-tag">CHARACTER CREATION</span>
       </div>
       <CharacterForm />
     </>

@@ -1,0 +1,163 @@
+{
+  "display": {
+    "fixed": [
+      {
+        "item": {
+          "id": "di.armour.flak_armour"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "id": "di.equipment.symbol_of_faith"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "id": "di.weapon.firebomb"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "id": "di.weapon.frag_grenade"
+        },
+        "quantity": 1
+      }
+    ],
+    "choices": [
+      {
+        "id": "melee",
+        "options": [
+          {
+            "id": "di.weapon.chainsword"
+          },
+          {
+            "id": "di.weapon.heavy_axe"
+          }
+        ],
+        "quantity": 1
+      },
+      {
+        "id": "pistol",
+        "options": [
+          {
+            "id": "di.weapon.laspistol"
+          },
+          {
+            "id": "di.weapon.autopistol"
+          }
+        ],
+        "quantity": 1
+      }
+    ],
+    "source": {
+      "locator": {
+        "heading": "Starting packages PHB PDF 100",
+        "pdfPage": 100,
+        "printedPage": 87,
+        "sectionKey": "17"
+      },
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a"
+    }
+  },
+  "executable": {
+    "schemaVersion": 1,
+    "source": {
+      "locator": {
+        "heading": "Starting packages PHB PDF 100",
+        "pdfPage": 100,
+        "printedPage": 87,
+        "sectionKey": "17"
+      },
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a"
+    },
+    "steps": [
+      {
+        "kind": "item",
+        "itemId": "di.armour.flak_armour",
+        "quantity": 1
+      },
+      {
+        "kind": "item",
+        "itemId": "di.equipment.symbol_of_faith",
+        "quantity": 1
+      },
+      {
+        "kind": "item",
+        "itemId": "di.weapon.firebomb",
+        "quantity": 1
+      },
+      {
+        "kind": "item",
+        "itemId": "di.weapon.frag_grenade",
+        "quantity": 1
+      },
+      {
+        "kind": "choice",
+        "id": "melee",
+        "min": 1,
+        "max": 1,
+        "options": [
+          {
+            "id": "di.weapon.chainsword",
+            "steps": [
+              {
+                "kind": "item",
+                "itemId": "di.weapon.chainsword",
+                "quantity": 1
+              }
+            ]
+          },
+          {
+            "id": "di.weapon.heavy_axe",
+            "steps": [
+              {
+                "kind": "item",
+                "itemId": "di.weapon.heavy_axe",
+                "quantity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "choice",
+        "id": "pistol",
+        "min": 1,
+        "max": 1,
+        "options": [
+          {
+            "id": "di.weapon.laspistol",
+            "steps": [
+              {
+                "kind": "item",
+                "itemId": "di.weapon.laspistol",
+                "quantity": 1
+              }
+            ]
+          },
+          {
+            "id": "di.weapon.autopistol",
+            "steps": [
+              {
+                "kind": "item",
+                "itemId": "di.weapon.autopistol",
+                "quantity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "equip",
+        "itemId": "di.armour.flak_armour"
+      }
+    ]
+  },
+  "quantityBasis": "One instance of each singular named kit entry; explicit grenade counts retained. No runtime quantity default.",
+  "status": "BLOCKED_NOT_PUBLISHED"
+}

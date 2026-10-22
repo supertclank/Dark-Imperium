@@ -22,10 +22,22 @@
       "path": "packages/di_phb_1_0/entities/action/autopistol.attack.json"
     },
     {
+      "id": "di.action.chainsword.attack",
+      "name": "Chainsword attack",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/action/chainsword.attack.json"
+    },
+    {
       "id": "di.action.combat_blade.attack",
       "name": "Combat Blade attack",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/action/combat_blade.attack.json"
+    },
+    {
+      "id": "di.action.combat_shotgun.attack",
+      "name": "Combat Shotgun attack",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/action/combat_shotgun.attack.json"
     },
     {
       "id": "di.action.dash",
@@ -52,6 +64,12 @@
       "path": "packages/di_phb_1_0/entities/action/frag_grenade.throw.json"
     },
     {
+      "id": "di.action.heavy_axe.attack",
+      "name": "Heavy Axe attack",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/action/heavy_axe.attack.json"
+    },
+    {
       "id": "di.action.help",
       "name": "Help",
       "state": "incomplete_candidate",
@@ -62,6 +80,12 @@
       "name": "Hide",
       "state": "incomplete_candidate",
       "path": "packages/di_phb_1_0/review/candidates/action/hide.json"
+    },
+    {
+      "id": "di.action.knife.attack",
+      "name": "Knife attack",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/action/knife.attack.json"
     },
     {
       "id": "di.action.lasgun.attack",
@@ -92,6 +116,12 @@
       "name": "Reload",
       "state": "incomplete_candidate",
       "path": "packages/di_phb_1_0/review/candidates/action/reload.json"
+    },
+    {
+      "id": "di.action.shock_maul.attack",
+      "name": "Shock Maul attack",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/action/shock_maul.attack.json"
     },
     {
       "id": "di.action.stub_pistol.attack",
@@ -566,6 +596,12 @@
       "name": "Hernkyn Prospector subclass",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/choice/hernkyn_prospector.subclass.json"
+    },
+    {
+      "id": "di.choice.hive_scum.streetwise",
+      "name": "Streetwise skills",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/hive_scum.streetwise.json"
     },
     {
       "id": "di.choice.hive_scum.subclass",
@@ -7002,8 +7038,8 @@
     {
       "id": "di.weapon.chainsword",
       "name": "Chainsword",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/weapon/chainsword.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/weapon/chainsword.json"
     },
     {
       "id": "di.weapon.combat_blade",
@@ -7014,8 +7050,8 @@
     {
       "id": "di.weapon.combat_shotgun",
       "name": "Combat Shotgun",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/weapon/combat_shotgun.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/weapon/combat_shotgun.json"
     },
     {
       "id": "di.weapon.combi_bolter",
@@ -7134,8 +7170,8 @@
     {
       "id": "di.weapon.heavy_axe",
       "name": "Heavy Axe",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/weapon/heavy_axe.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/weapon/heavy_axe.json"
     },
     {
       "id": "di.weapon.heavy_bolter",
@@ -7200,8 +7236,8 @@
     {
       "id": "di.weapon.knife",
       "name": "Knife",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/weapon/knife.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/weapon/knife.json"
     },
     {
       "id": "di.weapon.krak_grenade",
@@ -7392,8 +7428,8 @@
     {
       "id": "di.weapon.shock_maul",
       "name": "Shock Maul",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/weapon/shock_maul.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/weapon/shock_maul.json"
     },
     {
       "id": "di.weapon.shotgun",

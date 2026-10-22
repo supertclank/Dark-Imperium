@@ -1,0 +1,79 @@
+{
+  "profileId": "di-phb-1.0-tier1-v2",
+  "profileDigest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8",
+  "requestId": "92304064-b898-4faa-9ce2-6f1ed3bedc24",
+  "name": "V2 3",
+  "speciesId": "di.species.human",
+  "originId": "di.background.hiveborn",
+  "classId": "di.class.veteran",
+  "traitId": "di.feature.universal.twitchy",
+  "level": 3,
+  "attributes": {
+    "strength": 15,
+    "dexterity": 14,
+    "constitution": 13,
+    "intelligence": 12,
+    "wisdom": 10,
+    "charisma": 8
+  },
+  "answers": {
+    "di.choice.hiveborn.skills": [
+      "stealth"
+    ],
+    "di.choice.human.ability_scores": [
+      "strength_dexterity"
+    ],
+    "di.choice.human.broad_training_proof": [
+      "trench_club"
+    ],
+    "di.choice.human.imperial_adaptability": [
+      "acrobatics"
+    ],
+    "di.choice.veteran.specialist_group": [
+      "sniper"
+    ],
+    "di.choice.veteran.starting_skills": [
+      "athletics",
+      "insight"
+    ],
+    "di.choice.veteran.subclass": [
+      "marksman"
+    ]
+  },
+  "packageChoices": {
+    "primary": "di.weapon.lasgun",
+    "utility": "di.equipment.med_pack"
+  },
+  "inventory": [
+    {
+      "definitionId": "di.weapon.laspistol",
+      "quantity": 1,
+      "equipped": false
+    },
+    {
+      "definitionId": "di.weapon.combat_blade",
+      "quantity": 1,
+      "equipped": false
+    },
+    {
+      "definitionId": "di.armour.flak_armour",
+      "quantity": 1,
+      "equipped": true
+    },
+    {
+      "definitionId": "di.weapon.frag_grenade",
+      "quantity": 2,
+      "equipped": false
+    },
+    {
+      "definitionId": "di.weapon.lasgun",
+      "quantity": 1,
+      "equipped": false
+    },
+    {
+      "definitionId": "di.equipment.med_pack",
+      "quantity": 1,
+      "equipped": false
+    }
+  ]
+}

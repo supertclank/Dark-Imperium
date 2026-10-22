@@ -1,0 +1,824 @@
+[
+  {
+    "speciesId": "di.species.ratling",
+    "status": "PREPARATION_NOT_CERTIFIED",
+    "productionAllowed": false,
+    "mapping": {
+      "size": "Small",
+      "movementFeet": 25,
+      "visionFeet": 60,
+      "mandatoryProficiencies": [
+        "Stealth canonical"
+      ],
+      "remaining": [
+        "Small Target light-to-heavy cover",
+        "Accurate-property long-range exception",
+        "Lucky Shot once/short rest",
+        "Larger-target shove/grapple Strength disadvantage",
+        "Armour and starting weapon compatibility certification"
+      ]
+    },
+    "sources": [
+      {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "3.3",
+          "heading": "Ratling Abhuman",
+          "pdfPage": 23,
+          "printedPage": 10
+        }
+      }
+    ],
+    "sourceFeatures": [
+      {
+        "id": "di.feature.species.ratling.baseline",
+        "sources": [
+          {
+            "sourceId": "di.source.phb",
+            "sourceVersion": "1.0@a58335b1264a",
+            "locator": {
+              "sectionKey": "3.3",
+              "heading": "Ratling Abhuman fixed baseline",
+              "pdfPage": 23,
+              "printedPage": 10
+            }
+          }
+        ],
+        "data": {
+          "flavor": "species_trait",
+          "effects": [
+            {
+              "id": "speed",
+              "automation": "automatic",
+              "activation": "continuous",
+              "target": {
+                "kind": "stat",
+                "key": "movement.walk",
+                "scope": "self"
+              },
+              "operation": "base",
+              "value": {
+                "kind": "constant",
+                "value": 25
+              },
+              "duration": {
+                "kind": "while_source"
+              },
+              "stacking": {
+                "group": "di.movement.walk",
+                "mode": "replace"
+              },
+              "priority": 0
+            },
+            {
+              "id": "ability_dexterity",
+              "automation": "automatic",
+              "activation": "continuous",
+              "target": {
+                "kind": "stat",
+                "key": "attribute.dexterity.score",
+                "scope": "self"
+              },
+              "operation": "add",
+              "value": {
+                "kind": "constant",
+                "value": 2
+              },
+              "duration": {
+                "kind": "while_source"
+              },
+              "stacking": {
+                "group": "di.attribute.dexterity.score",
+                "mode": "sum"
+              },
+              "priority": 0
+            },
+            {
+              "id": "ability_wisdom",
+              "automation": "automatic",
+              "activation": "continuous",
+              "target": {
+                "kind": "stat",
+                "key": "attribute.wisdom.score",
+                "scope": "self"
+              },
+              "operation": "add",
+              "value": {
+                "kind": "constant",
+                "value": 1
+              },
+              "duration": {
+                "kind": "while_source"
+              },
+              "stacking": {
+                "group": "di.attribute.wisdom.score",
+                "mode": "sum"
+              },
+              "priority": 0
+            }
+          ],
+          "grants": [],
+          "manualRules": []
+        },
+        "description": "Fixed ability adjustments and speed from species entry."
+      },
+      {
+        "id": "di.feature.species.ratling.traits",
+        "sources": [
+          {
+            "sourceId": "di.source.phb",
+            "sourceVersion": "1.0@a58335b1264a",
+            "locator": {
+              "sectionKey": "3.3",
+              "heading": "Ratling Abhuman traits",
+              "pdfPage": 23,
+              "printedPage": 10
+            }
+          }
+        ],
+        "data": {
+          "flavor": "species_trait",
+          "effects": [],
+          "grants": [
+            {
+              "id": "naturally_sneaky",
+              "kind": "proficiency",
+              "proficiency": {
+                "id": "di.proficiency.skill.stealth"
+              }
+            }
+          ],
+          "manualRules": [
+            {
+              "id": "source_rule",
+              "automation": "manual",
+              "text": "3.3 Ratling Abhuman\nRatlings are small abhumans known for stealth, \nmarksmanship, scavenging, cooking, black-market\ndealings, and improbable survival.\nSize: Small.\n\nAvailable Classes: Ratling Sharpshooter, Veteran, Hive \nScum.\n3.3.1 Ratling Traits\nDarkvision: You have darkvision to a range of 60 ft (see \nthe rules at the start of this chapter).\nSmall Target: When you have light cover, you may treat \nit as heavy cover.\nSniper\u2019s Eye: You ignore disadvantage from attacking at \nlong range with weapons that have the\nAccurate property.\nLucky Shot: Once per short rest, when you miss with a \nranged weapon attack, you may reroll the\nattack.\nBad in a Straight Fight: You have disadvantage on \nStrength checks made to shove or grapple creatures\nlarger than you.",
+              "adjudicator": "gm",
+              "context": "source-defined procedure",
+              "reason": "Stealth proficiency is structured. Remaining contextual species procedures require explicit runtime support; species is not published."
+            }
+          ]
+        },
+        "description": "3.3 Ratling Abhuman\nRatlings are small abhumans known for stealth, \nmarksmanship, scavenging, cooking, black-market\ndealings, and improbable survival.\nAbility Scores: +2 Dexterity, +1 Wisdom.\nSize: Small.\nSpeed: 25 ft.\nAvailable Classes: Ratling Sharpshooter, Veteran, Hive \nScum.\n3.3.1 Ratling Traits\nDarkvision: You have darkvision to a range of 60 ft (see \nthe rules at the start of this chapter).\nSmall Target: When you have light cover, you may treat \nit as heavy cover.\nSniper\u2019s Eye: You ignore disadvantage from attacking at \nlong range with weapons that have the\nAccurate property.\nNaturally Sneaky: You gain proficiency in Stealth.\nLucky Shot: Once per short rest, when you miss with a \nranged weapon attack, you may reroll the\nattack.\nBad in a Straight Fight: You have disadvantage on \nStrength checks made to shove or grapple creatures\nlarger than you."
+      }
+    ]
+  },
+  {
+    "speciesId": "di.species.ogryn",
+    "status": "PREPARATION_NOT_CERTIFIED",
+    "productionAllowed": false,
+    "mapping": {
+      "size": "Medium; one larger only for specified activities",
+      "movementFeet": 30,
+      "mandatoryProficiencies": [
+        "Big Lad Athletics needs structured class grant"
+      ],
+      "hp": "Massive Build +3 maximum HP per character level, separate from d12 class HP",
+      "abilityOrder": "Species adjustments, then Big Lad Dexterity -2 minimum 6",
+      "equipment": "Normal-human frame kit requires modification; Ogryn Flak Plate blocked PHB-RULE-030",
+      "weaponGroups": [
+        "Ogryn weapons",
+        "simple melee",
+        "heavy blunt",
+        "ripper guns"
+      ],
+      "remaining": [
+        "Compose one-size-larger clauses without assuming additive size stacking",
+        "Unarmed 1d6+Strength bludgeoning",
+        "Armour compatibility and shield support",
+        "Loyal Protector reaction/damage transfer manual boundary"
+      ]
+    },
+    "sources": [
+      {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "3.2",
+          "heading": "Ogryn Abhuman",
+          "pdfPage": 23,
+          "printedPage": 10
+        }
+      }
+    ],
+    "sourceFeatures": [
+      {
+        "id": "di.feature.class.ogryn_skullbreaker.level_1.big_lad",
+        "sources": [
+          {
+            "sourceId": "di.source.phb",
+            "sourceVersion": "1.0@a58335b1264a",
+            "locator": {
+              "sectionKey": "11.4.1",
+              "heading": "Big Lad",
+              "pdfPage": 59,
+              "printedPage": 46
+            }
+          }
+        ],
+        "data": {
+          "flavor": "class_feature",
+          "effects": [],
+          "grants": [],
+          "manualRules": [
+            {
+              "id": "source_rule",
+              "automation": "manual",
+              "text": "You count as one size larger for grappling, shoving, \ncarrying, lifting, dragging, and breaking objects. You\ngain proficiency in Athletics. Due to your enormous bulk \nand slow reactions in cramped spaces, your\nDexterity score is reduced by 2, to a minimum of 6. This \npenalty is applied after the species ability score\nincreases. You cannot benefit from armour, stealth gear, \nor weapons that require a normal human\nframe unless they are modified for Ogryn use.",
+              "adjudicator": "gm",
+              "context": "source-defined procedure",
+              "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+            }
+          ]
+        },
+        "description": "You count as one size larger for grappling, shoving, \ncarrying, lifting, dragging, and breaking objects. You\ngain proficiency in Athletics. Due to your enormous bulk \nand slow reactions in cramped spaces, your\nDexterity score is reduced by 2, to a minimum of 6. This \npenalty is applied after the species ability score\nincreases. You cannot benefit from armour, stealth gear, \nor weapons that require a normal human\nframe unless they are modified for Ogryn use."
+      },
+      {
+        "id": "di.feature.class.ogryn_skullbreaker.level_1.loyal_protector",
+        "sources": [
+          {
+            "sourceId": "di.source.phb",
+            "sourceVersion": "1.0@a58335b1264a",
+            "locator": {
+              "sectionKey": "11.4.2",
+              "heading": "Loyal Protector",
+              "pdfPage": 59,
+              "printedPage": 46
+            }
+          }
+        ],
+        "data": {
+          "flavor": "class_feature",
+          "effects": [],
+          "grants": [],
+          "manualRules": [
+            {
+              "id": "source_rule",
+              "automation": "manual",
+              "text": "When an ally within 5 ft is targeted by an attack, and you \ncan see the attacker, you may use your reaction before \nthe attack roll is resolved to impose disadvantage on that \nroll. If the attack still hits, you may choose to take half of \nthe damage dealt to the ally; that transferred damage \ncannot be reduced again by Loyal Protector.",
+              "adjudicator": "gm",
+              "context": "source-defined procedure",
+              "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+            }
+          ]
+        },
+        "description": "When an ally within 5 ft is targeted by an attack, and you \ncan see the attacker, you may use your reaction before \nthe attack roll is resolved to impose disadvantage on that \nroll. If the attack still hits, you may choose to take half of \nthe damage dealt to the ally; that transferred damage \ncannot be reduced again by Loyal Protector."
+      },
+      {
+        "id": "di.feature.class.ogryn_skullbreaker.training",
+        "sources": [
+          {
+            "sourceId": "di.source.phb",
+            "sourceVersion": "1.0@a58335b1264a",
+            "locator": {
+              "sectionKey": "11.4",
+              "heading": "Ogryn Skullbreaker training and hit die",
+              "pdfPage": 59,
+              "printedPage": 46
+            }
+          }
+        ],
+        "data": {
+          "flavor": "class_feature",
+          "effects": [],
+          "grants": [],
+          "manualRules": [
+            {
+              "id": "source_rule",
+              "automation": "manual",
+              "text": "11.4 Ogryn Skullbreaker\nA walking wall of muscle, loyalty, and violence.\nAllowed Species: Ogryn only.\nHit Die: d12.\nPrimary Abilities: Strength, Constitution.\nSaving Throws: Strength, Constitution.\nArmour: Modified heavy armour, Ogryn armour, Ogryn plate.\nWeapons: Ogryn weapons, simple melee weapons, heavy blunt weapons, ripper guns.\n",
+              "adjudicator": "gm",
+              "context": "source-defined procedure",
+              "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+            }
+          ]
+        },
+        "description": "11.4 Ogryn Skullbreaker\nA walking wall of muscle, loyalty, and violence.\nAllowed Species: Ogryn only.\nHit Die: d12.\nPrimary Abilities: Strength, Constitution.\nSaving Throws: Strength, Constitution.\nArmour: Modified heavy armour, Ogryn armour, Ogryn plate.\nWeapons: Ogryn weapons, simple melee weapons, heavy blunt weapons, ripper guns."
+      },
+      {
+        "id": "di.feature.species.ogryn.baseline",
+        "sources": [
+          {
+            "sourceId": "di.source.phb",
+            "sourceVersion": "1.0@a58335b1264a",
+            "locator": {
+              "sectionKey": "3.2",
+              "heading": "Ogryn Abhuman fixed baseline",
+              "pdfPage": 23,
+              "printedPage": 10
+            }
+          }
+        ],
+        "data": {
+          "flavor": "species_trait",
+          "effects": [
+            {
+              "id": "speed",
+              "automation": "automatic",
+              "activation": "continuous",
+              "target": {
+                "kind": "stat",
+                "key": "movement.walk",
+                "scope": "self"
+              },
+              "operation": "base",
+              "value": {
+                "kind": "constant",
+                "value": 30
+              },
+              "duration": {
+                "kind": "while_source"
+              },
+              "stacking": {
+                "group": "di.movement.walk",
+                "mode": "replace"
+              },
+              "priority": 0
+            },
+            {
+              "id": "ability_strength",
+              "automation": "automatic",
+              "activation": "continuous",
+              "target": {
+                "kind": "stat",
+                "key": "attribute.strength.score",
+                "scope": "self"
+              },
+              "operation": "add",
+              "value": {
+                "kind": "constant",
+                "value": 2
+              },
+              "duration": {
+                "kind": "while_source"
+              },
+              "stacking": {
+                "group": "di.attribute.strength.score",
+                "mode": "sum"
+              },
+              "priority": 0
+            },
+            {
+              "id": "ability_constitution",
+              "automation": "automatic",
+              "activation": "continuous",
+              "target": {
+                "kind": "stat",
+                "key": "attribute.constitution.score",
+                "scope": "self"
+              },
+              "operation": "add",
+              "value": {
+                "kind": "constant",
+                "value": 1
+              },
+              "duration": {
+                "kind": "while_source"
+              },
+              "stacking": {
+                "group": "di.attribute.constitution.score",
+                "mode": "sum"
+              },
+              "priority": 0
+            }
+          ],
+          "grants": [],
+          "manualRules": []
+        },
+        "description": "Fixed ability adjustments and speed from species entry."
+      },
+      {
+        "id": "di.feature.species.ogryn.traits",
+        "sources": [
+          {
+            "sourceId": "di.source.phb",
+            "sourceVersion": "1.0@a58335b1264a",
+            "locator": {
+              "sectionKey": "3.2",
+              "heading": "Ogryn Abhuman traits",
+              "pdfPage": 23,
+              "printedPage": 10
+            }
+          }
+        ],
+        "data": {
+          "flavor": "species_trait",
+          "effects": [],
+          "grants": [],
+          "manualRules": [
+            {
+              "id": "source_rule",
+              "automation": "manual",
+              "text": "3.2 Ogryn Abhuman\nOgryns are massive abhumans used by the Imperium as \nshock troops, bodyguards, line-breakers, and\nliving siege weapons. They are loyal and terrifyingly \ndurable, but they are not subtle and struggle with\nequipment designed for normal human frames.\nSize: Medium, but you count as one size larger for \ncarrying, lifting, pushing, dragging, grappling, and\nshoving.\n\nAvailable Classes: Ogryn Skullbreaker only.\n3.2.1 Ogryn Traits\nMassive Build: Your maximum hit points increase by 3 \nper character level. You also count as one size\nlarger for carrying, lifting, pushing, dragging, grappling, \nand shoving.\nThick Skull: You have advantage on saving throws \nagainst being frightened.\nBrute Strength: Your unarmed strikes deal 1d6 + your \nStrength modifier bludgeoning damage.\nToo Big for Standard Kit: You cannot use most \nstandard armour, delicate weapons, compact firearms,\nor subtle tools unless they have been modified for Ogryn \nuse.\nSimple Solutions: You are not automatically stupid, but \nyou struggle with delicate logic, subtle\ninterfaces, encrypted systems, and advanced technology. \nYou have disadvantage on Intelligence checks\ninvolving advanced technology, forbidden lore, cogitators, \nsecurity systems, encrypted data, or complex\nmachinery unless you are proficient in a relevant skill or \ntool. However, once per short rest, when a\nproblem could plausibly be solved through brute force, \nintimidation, endurance, or direct action, you\nmay add your proficiency bonus to the check even if you \nwould not normally be proficient.",
+              "adjudicator": "gm",
+              "context": "source-defined procedure",
+              "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+            }
+          ]
+        },
+        "description": "3.2 Ogryn Abhuman\nOgryns are massive abhumans used by the Imperium as \nshock troops, bodyguards, line-breakers, and\nliving siege weapons. They are loyal and terrifyingly \ndurable, but they are not subtle and struggle with\nequipment designed for normal human frames.\nAbility Scores: +2 Strength, +1 Constitution.\nSize: Medium, but you count as one size larger for \ncarrying, lifting, pushing, dragging, grappling, and\nshoving.\nSpeed: 30 ft.\nAvailable Classes: Ogryn Skullbreaker only.\n3.2.1 Ogryn Traits\nMassive Build: Your maximum hit points increase by 3 \nper character level. You also count as one size\nlarger for carrying, lifting, pushing, dragging, grappling, \nand shoving.\nThick Skull: You have advantage on saving throws \nagainst being frightened.\nBrute Strength: Your unarmed strikes deal 1d6 + your \nStrength modifier bludgeoning damage.\nToo Big for Standard Kit: You cannot use most \nstandard armour, delicate weapons, compact firearms,\nor subtle tools unless they have been modified for Ogryn \nuse.\nSimple Solutions: You are not automatically stupid, but \nyou struggle with delicate logic, subtle\ninterfaces, encrypted systems, and advanced technology. \nYou have disadvantage on Intelligence checks\ninvolving advanced technology, forbidden lore, cogitators, \nsecurity systems, encrypted data, or complex\nmachinery unless you are proficient in a relevant skill or \ntool. However, once per short rest, when a\nproblem could plausibly be solved through brute force, \nintimidation, endurance, or direct action, you\nmay add your proficiency bonus to the check even if you \nwould not normally be proficient."
+      }
+    ]
+  },
+  {
+    "speciesId": "di.species.skitarii",
+    "status": "PREPARATION_NOT_CERTIFIED",
+    "productionAllowed": false,
+    "mapping": {
+      "size": "Medium",
+      "movementFeet": 30,
+      "mandatoryProficiencies": [
+        "Noospheric Focus: Investigation OR Perception OR Technology requires structured choice"
+      ],
+      "remaining": [
+        "Poison resistance and disease/charm advantage boundaries",
+        "Integrated Auspex once/short rest +1d4 conditional attack",
+        "Maintenance healing conditional on tools",
+        "Psychic trait prohibition",
+        "Augmetic and armour compatibility"
+      ]
+    },
+    "sources": [
+      {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "3.4",
+          "heading": "Skitarii Augmented Human",
+          "pdfPage": 23,
+          "printedPage": 10
+        }
+      }
+    ],
+    "sourceFeatures": [
+      {
+        "id": "di.feature.species.skitarii.baseline",
+        "sources": [
+          {
+            "sourceId": "di.source.phb",
+            "sourceVersion": "1.0@a58335b1264a",
+            "locator": {
+              "sectionKey": "3.4",
+              "heading": "Skitarii Augmented Human fixed baseline",
+              "pdfPage": 23,
+              "printedPage": 10
+            }
+          }
+        ],
+        "data": {
+          "flavor": "species_trait",
+          "effects": [
+            {
+              "id": "speed",
+              "automation": "automatic",
+              "activation": "continuous",
+              "target": {
+                "kind": "stat",
+                "key": "movement.walk",
+                "scope": "self"
+              },
+              "operation": "base",
+              "value": {
+                "kind": "constant",
+                "value": 30
+              },
+              "duration": {
+                "kind": "while_source"
+              },
+              "stacking": {
+                "group": "di.movement.walk",
+                "mode": "replace"
+              },
+              "priority": 0
+            },
+            {
+              "id": "ability_constitution",
+              "automation": "automatic",
+              "activation": "continuous",
+              "target": {
+                "kind": "stat",
+                "key": "attribute.constitution.score",
+                "scope": "self"
+              },
+              "operation": "add",
+              "value": {
+                "kind": "constant",
+                "value": 1
+              },
+              "duration": {
+                "kind": "while_source"
+              },
+              "stacking": {
+                "group": "di.attribute.constitution.score",
+                "mode": "sum"
+              },
+              "priority": 0
+            }
+          ],
+          "grants": [],
+          "manualRules": []
+        },
+        "description": "Fixed ability adjustments and speed from species entry."
+      },
+      {
+        "id": "di.feature.species.skitarii.traits",
+        "sources": [
+          {
+            "sourceId": "di.source.phb",
+            "sourceVersion": "1.0@a58335b1264a",
+            "locator": {
+              "sectionKey": "3.4",
+              "heading": "Skitarii Augmented Human traits",
+              "pdfPage": 23,
+              "printedPage": 10
+            }
+          }
+        ],
+        "data": {
+          "flavor": "species_trait",
+          "effects": [],
+          "grants": [],
+          "manualRules": [
+            {
+              "id": "source_rule",
+              "automation": "manual",
+              "text": "3.4 Skitarii Augmented Human\nSkitarii are cybernetically enhanced soldiers of the \nAdeptus Mechanicus. They are machine-disciplined,\nsensor-linked, and doctrinally conditioned beyond normal \nhuman limits.\nSize: Medium.\n\nAvailable Classes: Skitarii Veteran.\n3.4.1 Skitarii Traits\nAugmetic Body: You have resistance to poison damage \nand advantage on saving throws against\ndisease.\nMachine Discipline: You have advantage on saving \nthrows against being charmed.\nNoospheric Focus: Gain proficiency in Investigation, \nPerception, or Technology.\nIntegrated Auspex: Once per short rest, as a bonus \naction, choose one creature within 60 ft that you\ncan see. Your next attack against that creature before \nthe end of your turn gains +1d4 to hit.\nCybernetic Maintenance: During a short rest, if you or \nan ally has tinker\u2019s tools or Mechanicus tools,\nyou may regain additional hit points equal to your \nproficiency bonus.\nNo Psychic Potential: You cannot choose the Psyker \nclass or any trait that grants psychic powers.",
+              "adjudicator": "gm",
+              "context": "source-defined procedure",
+              "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+            }
+          ]
+        },
+        "description": "3.4 Skitarii Augmented Human\nSkitarii are cybernetically enhanced soldiers of the \nAdeptus Mechanicus. They are machine-disciplined,\nsensor-linked, and doctrinally conditioned beyond normal \nhuman limits.\nAbility Scores: +2 Dexterity or Intelligence, +1 \nConstitution.\nSize: Medium.\nSpeed: 30 ft.\nAvailable Classes: Skitarii Veteran.\n3.4.1 Skitarii Traits\nAugmetic Body: You have resistance to poison damage \nand advantage on saving throws against\ndisease.\nMachine Discipline: You have advantage on saving \nthrows against being charmed.\nNoospheric Focus: Gain proficiency in Investigation, \nPerception, or Technology.\nIntegrated Auspex: Once per short rest, as a bonus \naction, choose one creature within 60 ft that you\ncan see. Your next attack against that creature before \nthe end of your turn gains +1d4 to hit.\nCybernetic Maintenance: During a short rest, if you or \nan ally has tinker\u2019s tools or Mechanicus tools,\nyou may regain additional hit points equal to your \nproficiency bonus.\nNo Psychic Potential: You cannot choose the Psyker \nclass or any trait that grants psychic powers."
+      }
+    ]
+  },
+  {
+    "speciesId": "di.species.kin",
+    "status": "PREPARATION_NOT_CERTIFIED",
+    "productionAllowed": false,
+    "mapping": {
+      "size": "Medium",
+      "movementFeet": 25,
+      "visionFeet": 60,
+      "mandatoryProficiencies": [
+        "Guild-Craft: Technology OR Investigation OR appropriate artisan/tool choice requires bounded pool"
+      ],
+      "remaining": [
+        "Grudge Memory conditional PB damage once/long rest",
+        "Dense Build/Void-Hardened/Stubborn Kin manual conditions",
+        "Starting gear and armour compatibility"
+      ]
+    },
+    "sources": [
+      {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "3.5",
+          "heading": "Squat / Kin",
+          "pdfPage": 24,
+          "printedPage": 11
+        }
+      }
+    ],
+    "sourceFeatures": [
+      {
+        "id": "di.feature.species.kin.baseline",
+        "sources": [
+          {
+            "sourceId": "di.source.phb",
+            "sourceVersion": "1.0@a58335b1264a",
+            "locator": {
+              "sectionKey": "3.5",
+              "heading": "Squat / Kin fixed baseline",
+              "pdfPage": 24,
+              "printedPage": 11
+            }
+          }
+        ],
+        "data": {
+          "flavor": "species_trait",
+          "effects": [
+            {
+              "id": "speed",
+              "automation": "automatic",
+              "activation": "continuous",
+              "target": {
+                "kind": "stat",
+                "key": "movement.walk",
+                "scope": "self"
+              },
+              "operation": "base",
+              "value": {
+                "kind": "constant",
+                "value": 25
+              },
+              "duration": {
+                "kind": "while_source"
+              },
+              "stacking": {
+                "group": "di.movement.walk",
+                "mode": "replace"
+              },
+              "priority": 0
+            },
+            {
+              "id": "ability_constitution",
+              "automation": "automatic",
+              "activation": "continuous",
+              "target": {
+                "kind": "stat",
+                "key": "attribute.constitution.score",
+                "scope": "self"
+              },
+              "operation": "add",
+              "value": {
+                "kind": "constant",
+                "value": 2
+              },
+              "duration": {
+                "kind": "while_source"
+              },
+              "stacking": {
+                "group": "di.attribute.constitution.score",
+                "mode": "sum"
+              },
+              "priority": 0
+            }
+          ],
+          "grants": [],
+          "manualRules": []
+        },
+        "description": "Fixed ability adjustments and speed from species entry."
+      },
+      {
+        "id": "di.feature.species.kin.traits",
+        "sources": [
+          {
+            "sourceId": "di.source.phb",
+            "sourceVersion": "1.0@a58335b1264a",
+            "locator": {
+              "sectionKey": "3.5",
+              "heading": "Squat / Kin traits",
+              "pdfPage": 24,
+              "printedPage": 11
+            }
+          }
+        ],
+        "data": {
+          "flavor": "species_trait",
+          "effects": [],
+          "grants": [],
+          "manualRules": [
+            {
+              "id": "source_rule",
+              "automation": "manual",
+              "text": "3.5 Squat / Kin\nSquats, often known as Kin in modern Imperial records, \nare hardy void-adapted abhumans associated\nwith holds, guilds, oath-bands, mining fleets, mercenary \ncontracts, and ancient grudges. They are\nshorter than humans but dense, resilient, technically \nminded, and extremely difficult to intimidate.\nSize: Medium, but your height is usually between 4 and 5 \nft.\n\nAvailable Classes: Kin Armsman, Hernkyn Prospector.\n3.5.1 Squat / Kin Traits\nDarkvision: You have darkvision to a range of 60 ft (see \nthe rules at the start of this chapter).\nDense Build: You have advantage on saving throws \nagainst being shoved, knocked prone, or moved\nagainst your will.\nVoid-Hardened: You have advantage on saving throws \nagainst exhaustion caused by poor atmosphere,\nbad rations, forced marches, cramped voidship \nconditions, mining hazards, or environmental hardship.\nGuild-Craft: Gain proficiency in Technology, \nInvestigation, or one artisan/tool proficiency related to\nengineering, mining, weapons, armour, or voidcraft.\nGrudge Memory: Once per long rest, when a creature \ndamages you or an ally within 30 ft, mark that\ncreature as the subject of a grudge. The first time you hit \nthat creature before the end of the encounter,\nadd your proficiency bonus to the damage.\nStubborn Kin: You have advantage on saving throws \nagainst being frightened.",
+              "adjudicator": "gm",
+              "context": "source-defined procedure",
+              "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+            }
+          ]
+        },
+        "description": "3.5 Squat / Kin\nSquats, often known as Kin in modern Imperial records, \nare hardy void-adapted abhumans associated\nwith holds, guilds, oath-bands, mining fleets, mercenary \ncontracts, and ancient grudges. They are\nshorter than humans but dense, resilient, technically \nminded, and extremely difficult to intimidate.\nAbility Scores: +2 Constitution, +1 Intelligence or \nWisdom.\nSize: Medium, but your height is usually between 4 and 5 \nft.\nSpeed: 25 ft.\nAvailable Classes: Kin Armsman, Hernkyn Prospector.\n3.5.1 Squat / Kin Traits\nDarkvision: You have darkvision to a range of 60 ft (see \nthe rules at the start of this chapter).\nDense Build: You have advantage on saving throws \nagainst being shoved, knocked prone, or moved\nagainst your will.\nVoid-Hardened: You have advantage on saving throws \nagainst exhaustion caused by poor atmosphere,\nbad rations, forced marches, cramped voidship \nconditions, mining hazards, or environmental hardship.\nGuild-Craft: Gain proficiency in Technology, \nInvestigation, or one artisan/tool proficiency related to\nengineering, mining, weapons, armour, or voidcraft.\nGrudge Memory: Once per long rest, when a creature \ndamages you or an ally within 30 ft, mark that\ncreature as the subject of a grudge. The first time you hit \nthat creature before the end of the encounter,\nadd your proficiency bonus to the damage.\nStubborn Kin: You have advantage on saving throws \nagainst being frightened."
+      }
+    ]
+  },
+  {
+    "speciesId": "di.species.aeldari",
+    "status": "PREPARATION_NOT_CERTIFIED",
+    "productionAllowed": false,
+    "mapping": {
+      "size": "Medium",
+      "movementFeet": 35,
+      "visionFeet": 90,
+      "mandatoryProficiencies": [
+        "Inhuman Grace Acrobatics OR Stealth",
+        "Keen Senses Perception, or source-specific +1 if already proficient"
+      ],
+      "remaining": [
+        "Do not replace source-specific Perception duplicate rule with generic expertise",
+        "Battle Trance conditional movement/+1d4 once/short rest",
+        "Ancient Mind and Xenos Distrust context",
+        "Weapon/armour compatibility",
+        "Warlock canonical powers absent"
+      ]
+    },
+    "sources": [
+      {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "3.6",
+          "heading": "Aeldari / Eldar",
+          "pdfPage": 24,
+          "printedPage": 11
+        }
+      }
+    ],
+    "sourceFeatures": [
+      {
+        "id": "di.feature.species.aeldari.baseline",
+        "sources": [
+          {
+            "sourceId": "di.source.phb",
+            "sourceVersion": "1.0@a58335b1264a",
+            "locator": {
+              "sectionKey": "3.6",
+              "heading": "Aeldari / Eldar fixed baseline",
+              "pdfPage": 24,
+              "printedPage": 11
+            }
+          }
+        ],
+        "data": {
+          "flavor": "species_trait",
+          "effects": [
+            {
+              "id": "speed",
+              "automation": "automatic",
+              "activation": "continuous",
+              "target": {
+                "kind": "stat",
+                "key": "movement.walk",
+                "scope": "self"
+              },
+              "operation": "base",
+              "value": {
+                "kind": "constant",
+                "value": 35
+              },
+              "duration": {
+                "kind": "while_source"
+              },
+              "stacking": {
+                "group": "di.movement.walk",
+                "mode": "replace"
+              },
+              "priority": 0
+            },
+            {
+              "id": "ability_dexterity",
+              "automation": "automatic",
+              "activation": "continuous",
+              "target": {
+                "kind": "stat",
+                "key": "attribute.dexterity.score",
+                "scope": "self"
+              },
+              "operation": "add",
+              "value": {
+                "kind": "constant",
+                "value": 2
+              },
+              "duration": {
+                "kind": "while_source"
+              },
+              "stacking": {
+                "group": "di.attribute.dexterity.score",
+                "mode": "sum"
+              },
+              "priority": 0
+            }
+          ],
+          "grants": [],
+          "manualRules": []
+        },
+        "description": "Fixed ability adjustments and speed from species entry."
+      },
+      {
+        "id": "di.feature.species.aeldari.traits",
+        "sources": [
+          {
+            "sourceId": "di.source.phb",
+            "sourceVersion": "1.0@a58335b1264a",
+            "locator": {
+              "sectionKey": "3.6",
+              "heading": "Aeldari / Eldar traits",
+              "pdfPage": 24,
+              "printedPage": 11
+            }
+          }
+        ],
+        "data": {
+          "flavor": "species_trait",
+          "effects": [],
+          "grants": [],
+          "manualRules": [
+            {
+              "id": "source_rule",
+              "automation": "manual",
+              "text": "3.6 Aeldari / Eldar\nAeldari are ancient xenos whose reflexes, senses, and \npsychic presence far exceed human norms. Player\nAeldari should represent rare outcasts, rangers, corsair-\nadjacent wanderers, or warlocks operating\nunder a specific hidden purpose.\nSize: Medium.\n\nAvailable Classes: Aeldari Outcast, Aeldari Warlock.\n3.6.1 Aeldari Traits\nDarkvision: You have darkvision to a range of 90 ft (see \nthe rules at the start of this chapter).\nInhuman Grace: Gain proficiency in Acrobatics or \nStealth.\nKeen Senses: Gain proficiency in Perception. If you \nalready have Perception proficiency, add +1 to\nPerception checks instead.\nBattle Trance: You may move through the space of \nallied creatures without treating it as difficult\nterrain. Once per short rest, when you move at least 10 ft \nbefore making a weapon attack, add +1d4 to\nthe attack roll.\nAncient Mind: You have advantage on saving throws \nagainst being charmed or frightened by non-psychic \neffects.\nXenos Distrust: You have disadvantage on Persuasion \nchecks with most Imperial authorities unless\ndisguised, vouched for, or operating under an established \ntruce.",
+              "adjudicator": "gm",
+              "context": "source-defined procedure",
+              "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+            }
+          ]
+        },
+        "description": "3.6 Aeldari / Eldar\nAeldari are ancient xenos whose reflexes, senses, and \npsychic presence far exceed human norms. Player\nAeldari should represent rare outcasts, rangers, corsair-\nadjacent wanderers, or warlocks operating\nunder a specific hidden purpose.\nAbility Scores: +2 Dexterity, +1 Intelligence or Wisdom.\nSize: Medium.\nSpeed: 35 ft.\nAvailable Classes: Aeldari Outcast, Aeldari Warlock.\n3.6.1 Aeldari Traits\nDarkvision: You have darkvision to a range of 90 ft (see \nthe rules at the start of this chapter).\nInhuman Grace: Gain proficiency in Acrobatics or \nStealth.\nKeen Senses: Gain proficiency in Perception. If you \nalready have Perception proficiency, add +1 to\nPerception checks instead.\nBattle Trance: You may move through the space of \nallied creatures without treating it as difficult\nterrain. Once per short rest, when you move at least 10 ft \nbefore making a weapon attack, add +1d4 to\nthe attack roll.\nAncient Mind: You have advantage on saving throws \nagainst being charmed or frightened by non-psychic \neffects.\nXenos Distrust: You have disadvantage on Persuasion \nchecks with most Imperial authorities unless\ndisguised, vouched for, or operating under an established \ntruce."
+      }
+    ]
+  }
+]

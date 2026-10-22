@@ -224,7 +224,7 @@
       "level": 1,
       "subclass": null
     },
-    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "expectedStatus": "READY_WITH_MANUAL_RULES",
     "rulingIds": [],
     "gapIds": [
       "PHB-CAT-004",
@@ -558,7 +558,7 @@
       "level": 2,
       "subclass": null
     },
-    "expectedStatus": "BLOCKED_BY_ENGINE",
+    "expectedStatus": "READY_WITH_MANUAL_RULES",
     "rulingIds": [],
     "gapIds": [
       "PHB-CAT-004"
@@ -573,7 +573,7 @@
       "level": 3,
       "subclass": "di.subclass.veteran.shock_trooper"
     },
-    "expectedStatus": "BLOCKED_BY_ENGINE",
+    "expectedStatus": "READY_WITH_MANUAL_RULES",
     "rulingIds": [],
     "gapIds": [
       "PHB-CAT-004"

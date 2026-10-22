@@ -1,0 +1,149 @@
+{
+  "display": {
+    "fixed": [
+      {
+        "item": {
+          "id": "di.weapon.combat_shotgun"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "id": "di.weapon.shock_maul"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "id": "di.shield.shield"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "id": "di.equipment.manacles"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "id": "di.weapon.stun_grenade"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "id": "di.weapon.smoke_grenade"
+        },
+        "quantity": 1
+      }
+    ],
+    "choices": [
+      {
+        "id": "armour",
+        "options": [
+          {
+            "id": "di.armour.carapace_armour"
+          },
+          {
+            "id": "di.armour.riot_armour"
+          }
+        ],
+        "quantity": 1
+      }
+    ],
+    "source": {
+      "locator": {
+        "heading": "Starting packages PHB PDF 100",
+        "pdfPage": 100,
+        "printedPage": 87,
+        "sectionKey": "17"
+      },
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a"
+    }
+  },
+  "executable": {
+    "schemaVersion": 1,
+    "source": {
+      "locator": {
+        "heading": "Starting packages PHB PDF 100",
+        "pdfPage": 100,
+        "printedPage": 87,
+        "sectionKey": "17"
+      },
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a"
+    },
+    "steps": [
+      {
+        "kind": "item",
+        "itemId": "di.weapon.combat_shotgun",
+        "quantity": 1
+      },
+      {
+        "kind": "item",
+        "itemId": "di.weapon.shock_maul",
+        "quantity": 1
+      },
+      {
+        "kind": "item",
+        "itemId": "di.shield.shield",
+        "quantity": 1
+      },
+      {
+        "kind": "item",
+        "itemId": "di.equipment.manacles",
+        "quantity": 1
+      },
+      {
+        "kind": "item",
+        "itemId": "di.weapon.stun_grenade",
+        "quantity": 1
+      },
+      {
+        "kind": "item",
+        "itemId": "di.weapon.smoke_grenade",
+        "quantity": 1
+      },
+      {
+        "kind": "choice",
+        "id": "armour",
+        "min": 1,
+        "max": 1,
+        "options": [
+          {
+            "id": "di.armour.carapace_armour",
+            "steps": [
+              {
+                "kind": "item",
+                "itemId": "di.armour.carapace_armour",
+                "quantity": 1
+              },
+              {
+                "kind": "equip",
+                "itemId": "di.armour.carapace_armour"
+              }
+            ]
+          },
+          {
+            "id": "di.armour.riot_armour",
+            "steps": [
+              {
+                "kind": "item",
+                "itemId": "di.armour.riot_armour",
+                "quantity": 1
+              },
+              {
+                "kind": "equip",
+                "itemId": "di.armour.riot_armour"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "quantityBasis": "One instance of each singular named kit entry; explicit grenade counts retained. No runtime quantity default.",
+  "status": "BLOCKED_NOT_PUBLISHED"
+}

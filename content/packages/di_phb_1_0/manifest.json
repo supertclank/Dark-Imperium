@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "packageId": "di_phb",
-  "packageVersion": "1.0-origin-approvals.1",
+  "packageVersion": "1.0-human-tier1.2",
   "lifecycle": "draft",
   "dependencies": [],
   "sources": [
@@ -35,16 +35,40 @@
       "sha256": "ccb513292f4842ffeb51500907af4a62a1b4eb3150cd19534ce10d73a23b194c"
     },
     {
+      "id": "di.action.chainsword.attack",
+      "revision": 1,
+      "path": "entities/action/chainsword.attack.json",
+      "sha256": "0563f2695fb7f710a14e16e624ab075640f448da7be530217b9a824caad6d38d"
+    },
+    {
       "id": "di.action.combat_blade.attack",
       "revision": 1,
       "path": "entities/action/combat_blade.attack.json",
       "sha256": "9d95710b24af80f261da0341fca767f959cd43c9aa81b214eaf8da91346b67c3"
     },
     {
+      "id": "di.action.combat_shotgun.attack",
+      "revision": 1,
+      "path": "entities/action/combat_shotgun.attack.json",
+      "sha256": "f69e5eadaf8a5d9be2975e78c411c459ff483d91ec09122722bbbe1ead8284dc"
+    },
+    {
       "id": "di.action.frag_grenade.throw",
       "revision": 2,
       "path": "entities/action/frag_grenade.throw.json",
       "sha256": "6698774df7064d94abc9d40ef0ef66764ee302a386b8f132d8cff4a7b61a0d02"
+    },
+    {
+      "id": "di.action.heavy_axe.attack",
+      "revision": 1,
+      "path": "entities/action/heavy_axe.attack.json",
+      "sha256": "4ef9ffc7b98c6ff4c19f5e8d716cfe263d4dc3abee3dea6a53299a104a578664"
+    },
+    {
+      "id": "di.action.knife.attack",
+      "revision": 1,
+      "path": "entities/action/knife.attack.json",
+      "sha256": "8a25f4404373f624d9c9440e8245c9a59daffb36ae9be9f1e5901dbc2224cf11"
     },
     {
       "id": "di.action.lasgun.attack",
@@ -63,6 +87,12 @@
       "revision": 1,
       "path": "entities/action/laspistol.attack.json",
       "sha256": "255c8566d64326d197672e46c4136c8d187b24ca71e9b8d1693760ef35078569"
+    },
+    {
+      "id": "di.action.shock_maul.attack",
+      "revision": 1,
+      "path": "entities/action/shock_maul.attack.json",
+      "sha256": "d3fd2f007d675d8cf2f2cd2c7f8e290e8844a543469a98a437e7af7b23f48805"
     },
     {
       "id": "di.action.stub_pistol.attack",
@@ -297,6 +327,12 @@
       "revision": 1,
       "path": "entities/choice/hernkyn_prospector.subclass.json",
       "sha256": "383ff7699f425602d330ff357544b1d434e9d6c9206d66bc006d2ef99c1a2a13"
+    },
+    {
+      "id": "di.choice.hive_scum.streetwise",
+      "revision": 1,
+      "path": "entities/choice/hive_scum.streetwise.json",
+      "sha256": "bb000f016cd47673db2e47ec4b09cac7cc7219d6503402304e9acf6219844466"
     },
     {
       "id": "di.choice.hive_scum.subclass",
@@ -1224,9 +1260,9 @@
     },
     {
       "id": "di.feature.class.hive_scum.level_1.streetwise",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/class.hive_scum.level_1.streetwise.json",
-      "sha256": "ca363ac1dded8fc46323d97958fdbcdb01504649b675753ab456e4de0cdb9a4c"
+      "sha256": "cfd0a1c7563fe05454c6e36ee9e8ddc1deb54686a8a16587d8c9bd502032c681"
     },
     {
       "id": "di.feature.class.hive_scum.level_10.knife_edge_survivor",
@@ -1350,9 +1386,9 @@
     },
     {
       "id": "di.feature.class.hive_scum.training",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/class.hive_scum.training.json",
-      "sha256": "61e1dc72b018ca6af6c45aab807951703345d1089c8e35be75e30c8fb5df66b0"
+      "sha256": "ca3c6d364f12095c02a229ae90aeb0f0529ccf1c507fe827708c80b99e51b16e"
     },
     {
       "id": "di.feature.class.kin_armsman.level_1.kin_training",
@@ -5675,16 +5711,40 @@
       "sha256": "7feba882884c36cb9be34b23c85e22d76b32a1521c480f661e5ab1de6671dea9"
     },
     {
+      "id": "di.weapon.chainsword",
+      "revision": 1,
+      "path": "entities/weapon/chainsword.json",
+      "sha256": "3a923a4509ae4bba8f3d37415a3cdc3469a3daeecb1816706af70bbec1f0c612"
+    },
+    {
       "id": "di.weapon.combat_blade",
       "revision": 1,
       "path": "entities/weapon/combat_blade.json",
       "sha256": "4eed91319354aabac4086bc6b1bda058357d721cd24201223c09696b2b3056df"
     },
     {
+      "id": "di.weapon.combat_shotgun",
+      "revision": 1,
+      "path": "entities/weapon/combat_shotgun.json",
+      "sha256": "a56909db2222c847c317d3dfc486e09386962bf99e518420799cce7943518449"
+    },
+    {
       "id": "di.weapon.frag_grenade",
       "revision": 2,
       "path": "entities/weapon/frag_grenade.json",
       "sha256": "a19e4e479a659cb36a653640c7e339dae1a1b332aff95ba6d2f8123e33faad0c"
+    },
+    {
+      "id": "di.weapon.heavy_axe",
+      "revision": 1,
+      "path": "entities/weapon/heavy_axe.json",
+      "sha256": "4b6b672d2ad9c96ce24f9ae7be8a6752aca93f18548fd4d342e3d62dc4ce57ee"
+    },
+    {
+      "id": "di.weapon.knife",
+      "revision": 1,
+      "path": "entities/weapon/knife.json",
+      "sha256": "a19743b5d5ed65ebaefacd777ef3f5d63e03a68f1bbfa677682a193db82200f3"
     },
     {
       "id": "di.weapon.lasgun",
@@ -5697,6 +5757,12 @@
       "revision": 1,
       "path": "entities/weapon/laspistol.json",
       "sha256": "e2c0dc8b4e9cfa553be13a0a72a626ef822b70e5c7f39fb559f13f73f924afb9"
+    },
+    {
+      "id": "di.weapon.shock_maul",
+      "revision": 1,
+      "path": "entities/weapon/shock_maul.json",
+      "sha256": "d90485c524d4ce08005170ce34f2d55181c5f53976818630b9cedcc25cffd018"
     },
     {
       "id": "di.weapon.stub_pistol",

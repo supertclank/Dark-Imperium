@@ -128,7 +128,7 @@ class ApiIntegrationTest {
         assertEquals(HttpStatusCode.Unauthorized,client.get("/api/character-builder/profile").status)
         val cookie=client.account()
         val profile=client.get("/api/character-builder/profile"){header(HttpHeaders.Cookie,cookie)}.json()
-        assertEquals("di-phb-1.0-tier1-v1",profile.text("id"))
+        assertEquals("di-phb-1.0-tier1-v2",profile.text("id"))
         assertFalse(profile.containsKey("records"))
         val invalid=productionFixture().copy(speciesId="di.species.ogryn",answers=emptyMap())
         val body=Json.encodeToString(NarrowDraft.serializer(),invalid)
@@ -213,4 +213,22 @@ class ApiIntegrationTest {
         val invalid=draft.copy(requestId=UUID.randomUUID().toString(),speciesId="di.species.ogryn")
         assertEquals(HttpStatusCode.UnprocessableEntity,client.postJson("/api/characters",Json.encodeToString(NarrowDraft.serializer(),invalid),cookie).status)
     }
+    @Test fun `v2 classes and doctrines persist reopen roll and retain history`() = runApi {
+        val cookie=client.account()
+        for(name in listOf("veteran-1","veteran-2","shock_trooper","marksman","sergeant","hive_scum-1")) {
+            val draft=tier2Fixture(name).copy(requestId=UUID.randomUUID().toString())
+            val response=client.postJson("/api/characters",Json.encodeToString(NarrowDraft.serializer(),draft),cookie)
+            assertEquals(HttpStatusCode.Created,response.status,response.bodyAsText())
+            val created=response.json();val id=created.text("id")
+            val reopened=client.get("/api/characters/$id") { header(HttpHeaders.Cookie,cookie) }.json()
+            assertEquals(created,reopened);assertEquals(draft.level,reopened.num("level"))
+            val options=client.get("/api/characters/$id/rolls/options") { header(HttpHeaders.Cookie,cookie) }.json()
+            val option=options.objects("options").first()
+            val request=RollRequest(UUID.randomUUID().toString(),option.text("id"),draft.profileId,draft.profileDigest,0)
+            assertEquals(HttpStatusCode.OK,client.postJson("/api/characters/$id/rolls",Json.encodeToString(RollRequest.serializer(),request),cookie).status)
+            val history=client.get("/api/characters/$id/rolls") { header(HttpHeaders.Cookie,cookie) }
+            assertEquals(HttpStatusCode.OK,history.status);assertTrue(history.bodyAsText().contains(draft.profileDigest))
+        }
+    }
+
 }
