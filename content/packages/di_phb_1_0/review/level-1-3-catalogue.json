@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "scope": "CERTIFIED_PROFILE_AND_REMAINING_READINESS",
   "sourceProfile": {
-    "id": "di-phb-1.0-tier1-v2",
-    "digest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8"
+    "id": "di-phb-1.0-tier1-v3",
+    "digest": "5c4d81d1cf9a55be138d5e73a58acfccd96fb2dcb0eeadb157fbcfde08b2a795"
   },
   "approvalGate": {
     "originalTotal": 36,
@@ -20,9 +20,9 @@
     "combinations": 4140,
     "statuses": {
       "READY": 0,
-      "READY_WITH_MANUAL_RULES": 48,
-      "BLOCKED_BY_CONTENT": 284,
-      "BLOCKED_BY_ENGINE": 25,
+      "READY_WITH_MANUAL_RULES": 58,
+      "BLOCKED_BY_CONTENT": 279,
+      "BLOCKED_BY_ENGINE": 20,
       "BLOCKED_BY_RULING": 0,
       "BLOCKED_BY_APPROVAL": 37,
       "UNSUPPORTED": 3746
@@ -1115,8 +1115,8 @@
       ],
       "choices": [],
       "missing": [],
-      "published": false,
-      "status": "BLOCKED_BY_ENGINE",
+      "published": true,
+      "status": "READY_WITH_MANUAL_RULES",
       "mechanicalEffects": [
         {
           "id": "speed",
@@ -1186,6 +1186,29 @@
             "mode": "sum"
           },
           "priority": 0
+        },
+        {
+          "id": "darkvision",
+          "automation": "automatic",
+          "activation": "continuous",
+          "target": {
+            "kind": "stat",
+            "key": "sense.darkvision",
+            "scope": "self"
+          },
+          "operation": "base",
+          "value": {
+            "kind": "constant",
+            "value": 60
+          },
+          "duration": {
+            "kind": "while_source"
+          },
+          "stacking": {
+            "group": "di.sense.darkvision",
+            "mode": "max"
+          },
+          "priority": 0
         }
       ],
       "manualCoreReview": [
@@ -1198,7 +1221,7 @@
               "text": "3.3 Ratling Abhuman\nRatlings are small abhumans known for stealth, \nmarksmanship, scavenging, cooking, black-market\ndealings, and improbable survival.\nSize: Small.\n\nAvailable Classes: Ratling Sharpshooter, Veteran, Hive \nScum.\n3.3.1 Ratling Traits\nDarkvision: You have darkvision to a range of 60 ft (see \nthe rules at the start of this chapter).\nSmall Target: When you have light cover, you may treat \nit as heavy cover.\nSniper’s Eye: You ignore disadvantage from attacking at \nlong range with weapons that have the\nAccurate property.\nLucky Shot: Once per short rest, when you miss with a \nranged weapon attack, you may reroll the\nattack.\nBad in a Straight Fight: You have disadvantage on \nStrength checks made to shove or grapple creatures\nlarger than you.",
               "adjudicator": "gm",
               "context": "source-defined procedure",
-              "reason": "Stealth proficiency is structured. Remaining contextual species procedures require explicit runtime support; species is not published."
+              "reason": "Stealth and darkvision range are structured. Contextual traits remain manual; no generic Small weapon penalty is inferred."
             }
           ]
         }
@@ -1208,9 +1231,7 @@
         "di.class.ratling_sharpshooter",
         "di.class.veteran"
       ],
-      "gapIds": [
-        "PHB-CAT-005"
-      ]
+      "gapIds": []
     },
     {
       "id": "di.species.skitarii",
@@ -9817,7 +9838,7 @@
       "id": "di.feature.species.ratling.baseline",
       "execution": "AUTOMATED",
       "conditionalRulingReview": [],
-      "published": false,
+      "published": true,
       "sources": [
         {
           "sourceId": "di.source.phb",
@@ -9835,7 +9856,7 @@
       "id": "di.feature.species.ratling.traits",
       "execution": "PARTIALLY_AUTOMATED",
       "conditionalRulingReview": [],
-      "published": false,
+      "published": true,
       "sources": [
         {
           "sourceId": "di.source.phb",
@@ -76815,7 +76836,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -76838,7 +76858,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -76861,7 +76880,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -76884,7 +76902,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -76909,7 +76926,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -76932,7 +76948,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -76956,7 +76971,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -76980,7 +76994,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -77004,7 +77017,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -77028,7 +77040,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -77052,7 +77063,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -77075,7 +77085,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -77098,7 +77107,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -77123,7 +77131,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -77146,7 +77153,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -77169,7 +77175,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -77192,7 +77197,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -77217,7 +77221,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -77240,7 +77243,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -77263,7 +77265,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -77289,7 +77290,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -77315,7 +77315,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -77341,7 +77340,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -77367,7 +77365,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -77393,7 +77390,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -77420,7 +77416,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -77443,7 +77438,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -77466,7 +77460,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -77489,7 +77482,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -77512,7 +77504,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -77535,7 +77526,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -77558,7 +77548,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -77581,7 +77570,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -77604,7 +77592,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -77627,7 +77614,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -77650,7 +77636,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -77673,7 +77658,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -77696,7 +77680,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -77720,7 +77703,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -77744,7 +77726,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -77768,7 +77749,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -77792,7 +77772,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -77816,7 +77795,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -77840,7 +77818,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -77864,7 +77841,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -77888,7 +77864,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -77911,7 +77886,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -77934,7 +77908,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -77957,7 +77930,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -77980,7 +77952,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -78005,7 +77976,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -78028,7 +77998,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -78051,7 +78020,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -78076,7 +78044,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -78099,7 +78066,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -78122,7 +78088,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -78145,7 +78110,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -78168,7 +78132,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -78191,7 +78154,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -78213,8 +78175,7 @@
       "eligibility": "INVALID",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": null,
@@ -78236,8 +78197,7 @@
       "eligibility": "INVALID",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": null,
@@ -78260,8 +78220,7 @@
       "eligibility": "INVALID",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": null,
@@ -78284,8 +78243,7 @@
       "eligibility": "INVALID",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": null,
@@ -78308,8 +78266,7 @@
       "eligibility": "INVALID",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": null,
@@ -78330,7 +78287,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -78353,7 +78309,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -78376,7 +78331,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -78399,7 +78353,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -78422,7 +78375,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -78445,7 +78397,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -78468,7 +78419,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -78491,7 +78441,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -78514,7 +78463,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -78539,7 +78487,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -78562,7 +78509,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -78586,7 +78532,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -78610,7 +78555,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -78634,7 +78578,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -78658,7 +78601,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -78682,7 +78624,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -78705,7 +78646,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -78728,7 +78668,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -78753,7 +78692,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -78776,7 +78714,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -78799,7 +78736,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -78822,7 +78758,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -78847,7 +78782,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -78870,7 +78804,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -78893,7 +78826,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -78919,7 +78851,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -78945,7 +78876,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -78971,7 +78901,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -78997,7 +78926,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -79023,7 +78951,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -79050,7 +78977,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -79073,7 +78999,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -79096,7 +79021,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -79119,7 +79043,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -79142,7 +79065,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -79165,7 +79087,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -79188,7 +79109,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -79211,7 +79131,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -79234,7 +79153,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -79257,7 +79175,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -79280,7 +79197,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -79303,7 +79219,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -79326,7 +79241,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -79350,7 +79264,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -79374,7 +79287,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -79398,7 +79310,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -79422,7 +79333,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -79446,7 +79356,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -79470,7 +79379,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -79494,7 +79402,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -79518,7 +79425,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -79541,7 +79447,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -79564,7 +79469,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -79587,7 +79491,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -79610,7 +79513,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -79635,7 +79537,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -79658,7 +79559,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -79681,7 +79581,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -79706,7 +79605,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -79729,7 +79627,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -79752,7 +79649,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -79775,7 +79671,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -79798,7 +79693,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -79821,7 +79715,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -79843,8 +79736,7 @@
       "eligibility": "INVALID",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": null,
@@ -79866,8 +79758,7 @@
       "eligibility": "INVALID",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": null,
@@ -79890,8 +79781,7 @@
       "eligibility": "INVALID",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": null,
@@ -79914,8 +79804,7 @@
       "eligibility": "INVALID",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": null,
@@ -79938,8 +79827,7 @@
       "eligibility": "INVALID",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": null,
@@ -79960,7 +79848,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -79983,7 +79870,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80006,7 +79892,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80029,7 +79914,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80052,7 +79936,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80075,7 +79958,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80098,7 +79980,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80121,7 +80002,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80144,7 +80024,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80169,7 +80048,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80192,7 +80070,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -80216,7 +80093,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -80240,7 +80116,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -80264,7 +80139,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -80288,7 +80162,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -80312,7 +80185,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80335,7 +80207,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80358,7 +80229,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80383,7 +80253,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80406,7 +80275,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80429,7 +80297,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80452,7 +80319,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80477,7 +80343,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80500,7 +80365,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80523,7 +80387,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80544,19 +80407,23 @@
       "class": "di.class.hive_scum",
       "level": 1,
       "subclass": null,
-      "status": "BLOCKED_BY_CONTENT",
+      "status": "READY_WITH_MANUAL_RULES",
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
-      "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005",
-        "PHB-CAT-001",
-        "PHB-CAT-002"
-      ],
-      "productionAllowed": false,
+      "gapIds": [],
+      "productionAllowed": true,
       "originAvailability": "NORMAL",
-      "traitScope": [],
-      "equipmentScope": [],
+      "traitScope": [
+        "di.feature.universal.twitchy"
+      ],
+      "equipmentScope": [
+        "di.armour.flak_armour",
+        "di.weapon.autogun",
+        "di.weapon.autopistol",
+        "di.weapon.frag_grenade",
+        "di.weapon.knife",
+        "di.weapon.stub_pistol"
+      ],
       "ifOriginExplicitlyPermittedAndAvailabilitySatisfied": null
     },
     {
@@ -80575,7 +80442,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80601,7 +80467,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80627,7 +80492,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80653,7 +80517,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80680,7 +80543,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80703,7 +80565,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80726,7 +80587,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80749,7 +80609,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80772,7 +80631,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80795,7 +80653,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80818,7 +80675,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80841,7 +80697,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80864,7 +80719,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80887,7 +80741,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80910,7 +80763,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80933,7 +80785,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -80956,7 +80807,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -80980,7 +80830,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -81004,7 +80853,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -81028,7 +80876,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -81052,7 +80899,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -81076,7 +80922,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -81100,7 +80945,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -81124,7 +80968,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -81148,7 +80991,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -81171,7 +81013,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -81194,7 +81035,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -81217,7 +81057,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -81240,7 +81079,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -81265,7 +81103,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -81288,7 +81125,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -81311,7 +81147,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -81336,7 +81171,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -81359,7 +81193,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -81382,7 +81215,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -81405,7 +81237,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -81428,7 +81259,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -81451,7 +81281,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -81469,17 +81298,24 @@
       "class": "di.class.veteran",
       "level": 1,
       "subclass": null,
-      "status": "BLOCKED_BY_ENGINE",
+      "status": "READY_WITH_MANUAL_RULES",
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
-      "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
-      ],
-      "productionAllowed": false,
+      "gapIds": [],
+      "productionAllowed": true,
       "originAvailability": "NORMAL",
-      "traitScope": [],
-      "equipmentScope": [],
+      "traitScope": [
+        "di.feature.universal.twitchy"
+      ],
+      "equipmentScope": [
+        "di.armour.flak_armour",
+        "di.class.veteran",
+        "di.equipment.med_pack",
+        "di.weapon.combat_blade",
+        "di.weapon.frag_grenade",
+        "di.weapon.lasgun",
+        "di.weapon.laspistol"
+      ],
       "ifOriginExplicitlyPermittedAndAvailabilitySatisfied": null
     },
     {
@@ -81496,8 +81332,7 @@
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": "NORMAL",
@@ -81520,8 +81355,7 @@
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": "NORMAL",
@@ -81544,8 +81378,7 @@
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": "NORMAL",
@@ -81568,8 +81401,7 @@
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": "NORMAL",
@@ -81590,7 +81422,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -81613,7 +81444,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -81636,7 +81466,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -81659,7 +81488,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -81682,7 +81510,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -81707,7 +81534,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -81732,7 +81558,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -81757,7 +81582,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -81782,7 +81606,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -81808,7 +81631,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -81833,7 +81655,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -81859,7 +81680,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -81885,7 +81705,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -81911,7 +81730,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -81937,7 +81755,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -81963,7 +81780,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -81988,7 +81804,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -82013,7 +81828,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -82039,7 +81853,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -82064,7 +81877,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -82089,7 +81901,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -82114,7 +81925,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -82140,7 +81950,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -82165,7 +81974,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -82190,7 +81998,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -82212,19 +82019,23 @@
       "class": "di.class.hive_scum",
       "level": 1,
       "subclass": null,
-      "status": "BLOCKED_BY_CONTENT",
+      "status": "READY_WITH_MANUAL_RULES",
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
-      "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005",
-        "PHB-CAT-001",
-        "PHB-CAT-002"
-      ],
-      "productionAllowed": false,
+      "gapIds": [],
+      "productionAllowed": true,
       "originAvailability": "NORMAL",
-      "traitScope": [],
-      "equipmentScope": [],
+      "traitScope": [
+        "di.feature.universal.twitchy"
+      ],
+      "equipmentScope": [
+        "di.armour.flak_armour",
+        "di.weapon.autogun",
+        "di.weapon.autopistol",
+        "di.weapon.frag_grenade",
+        "di.weapon.knife",
+        "di.weapon.stub_pistol"
+      ],
       "ifOriginExplicitlyPermittedAndAvailabilitySatisfied": null
     },
     {
@@ -82244,7 +82055,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -82271,7 +82081,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -82298,7 +82107,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -82325,7 +82133,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -82353,7 +82160,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -82378,7 +82184,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -82403,7 +82208,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -82428,7 +82232,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -82453,7 +82256,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -82478,7 +82280,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -82503,7 +82304,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -82528,7 +82328,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -82553,7 +82352,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -82578,7 +82376,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -82603,7 +82400,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -82628,7 +82424,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -82653,7 +82448,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -82679,7 +82473,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -82705,7 +82498,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -82731,7 +82523,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -82757,7 +82548,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -82783,7 +82573,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -82809,7 +82598,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -82835,7 +82623,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -82861,7 +82648,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -82886,7 +82672,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -82911,7 +82696,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -82936,7 +82720,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -82961,7 +82744,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -82987,7 +82769,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -83012,7 +82793,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -83037,7 +82817,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -83063,7 +82842,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -83088,7 +82866,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -83113,7 +82890,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -83138,7 +82914,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -83163,7 +82938,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -83188,7 +82962,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -83208,17 +82981,24 @@
       "class": "di.class.veteran",
       "level": 1,
       "subclass": null,
-      "status": "BLOCKED_BY_ENGINE",
+      "status": "READY_WITH_MANUAL_RULES",
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
-      "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
-      ],
-      "productionAllowed": false,
+      "gapIds": [],
+      "productionAllowed": true,
       "originAvailability": "NORMAL",
-      "traitScope": [],
-      "equipmentScope": [],
+      "traitScope": [
+        "di.feature.universal.twitchy"
+      ],
+      "equipmentScope": [
+        "di.armour.flak_armour",
+        "di.class.veteran",
+        "di.equipment.med_pack",
+        "di.weapon.combat_blade",
+        "di.weapon.frag_grenade",
+        "di.weapon.lasgun",
+        "di.weapon.laspistol"
+      ],
       "ifOriginExplicitlyPermittedAndAvailabilitySatisfied": null
     },
     {
@@ -83235,8 +83015,7 @@
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": "NORMAL",
@@ -83259,8 +83038,7 @@
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": "NORMAL",
@@ -83283,8 +83061,7 @@
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": "NORMAL",
@@ -83307,8 +83084,7 @@
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": "NORMAL",
@@ -83331,7 +83107,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -83356,7 +83131,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -83381,7 +83155,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -83406,7 +83179,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -83431,7 +83203,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -83454,7 +83225,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -83477,7 +83247,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -83500,7 +83269,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -83523,7 +83291,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -83548,7 +83315,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -83571,7 +83337,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -83595,7 +83360,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -83619,7 +83383,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -83643,7 +83406,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -83667,7 +83429,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -83691,7 +83452,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -83714,7 +83474,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -83737,7 +83496,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -83762,7 +83520,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -83785,7 +83542,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -83808,7 +83564,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -83831,7 +83586,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -83856,7 +83610,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -83879,7 +83632,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -83902,7 +83654,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -83928,7 +83679,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -83954,7 +83704,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -83980,7 +83729,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -84006,7 +83754,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -84032,7 +83779,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -84059,7 +83805,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -84082,7 +83827,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -84105,7 +83849,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -84128,7 +83871,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -84151,7 +83893,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -84174,7 +83915,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -84197,7 +83937,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -84220,7 +83959,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -84243,7 +83981,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -84266,7 +84003,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -84289,7 +84025,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -84312,7 +84047,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -84335,7 +84069,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -84359,7 +84092,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -84383,7 +84115,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -84407,7 +84138,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -84431,7 +84161,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -84455,7 +84184,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -84479,7 +84207,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -84503,7 +84230,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -84527,7 +84253,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -84550,7 +84275,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -84573,7 +84297,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -84596,7 +84319,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -84619,7 +84341,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -84644,7 +84365,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -84667,7 +84387,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -84690,7 +84409,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -84715,7 +84433,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -84738,7 +84455,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -84761,7 +84477,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -84784,7 +84499,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -84807,7 +84521,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -84830,7 +84543,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -84852,8 +84564,7 @@
       "eligibility": "INVALID",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": null,
@@ -84875,8 +84586,7 @@
       "eligibility": "INVALID",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": null,
@@ -84899,8 +84609,7 @@
       "eligibility": "INVALID",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": null,
@@ -84923,8 +84632,7 @@
       "eligibility": "INVALID",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": null,
@@ -84947,8 +84655,7 @@
       "eligibility": "INVALID",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": null,
@@ -84969,7 +84676,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -84992,7 +84698,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85015,7 +84720,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85038,7 +84742,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85061,7 +84764,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85084,7 +84786,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85107,7 +84808,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85130,7 +84830,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85153,7 +84852,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85178,7 +84876,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85201,7 +84898,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -85225,7 +84921,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -85249,7 +84944,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -85273,7 +84967,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -85297,7 +84990,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -85321,7 +85013,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85344,7 +85035,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85367,7 +85057,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85392,7 +85081,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85415,7 +85103,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85438,7 +85125,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85461,7 +85147,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85486,7 +85171,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85509,7 +85193,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85532,7 +85215,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85553,19 +85235,23 @@
       "class": "di.class.hive_scum",
       "level": 1,
       "subclass": null,
-      "status": "BLOCKED_BY_CONTENT",
+      "status": "READY_WITH_MANUAL_RULES",
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
-      "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005",
-        "PHB-CAT-001",
-        "PHB-CAT-002"
-      ],
-      "productionAllowed": false,
+      "gapIds": [],
+      "productionAllowed": true,
       "originAvailability": "NORMAL",
-      "traitScope": [],
-      "equipmentScope": [],
+      "traitScope": [
+        "di.feature.universal.twitchy"
+      ],
+      "equipmentScope": [
+        "di.armour.flak_armour",
+        "di.weapon.autogun",
+        "di.weapon.autopistol",
+        "di.weapon.frag_grenade",
+        "di.weapon.knife",
+        "di.weapon.stub_pistol"
+      ],
       "ifOriginExplicitlyPermittedAndAvailabilitySatisfied": null
     },
     {
@@ -85584,7 +85270,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85610,7 +85295,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85636,7 +85320,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85662,7 +85345,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85689,7 +85371,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85712,7 +85393,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85735,7 +85415,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85758,7 +85437,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85781,7 +85459,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85804,7 +85481,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85827,7 +85503,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85850,7 +85525,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85873,7 +85547,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85896,7 +85569,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85919,7 +85591,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85942,7 +85613,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -85965,7 +85635,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -85989,7 +85658,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -86013,7 +85681,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -86037,7 +85704,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -86061,7 +85727,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -86085,7 +85750,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -86109,7 +85773,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -86133,7 +85796,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -86157,7 +85819,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -86180,7 +85841,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -86203,7 +85863,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -86226,7 +85885,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -86249,7 +85907,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -86274,7 +85931,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -86297,7 +85953,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -86320,7 +85975,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -86345,7 +85999,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -86368,7 +86021,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -86391,7 +86043,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -86414,7 +86065,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -86437,7 +86087,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -86460,7 +86109,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -86478,17 +86126,24 @@
       "class": "di.class.veteran",
       "level": 1,
       "subclass": null,
-      "status": "BLOCKED_BY_ENGINE",
+      "status": "READY_WITH_MANUAL_RULES",
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
-      "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
-      ],
-      "productionAllowed": false,
+      "gapIds": [],
+      "productionAllowed": true,
       "originAvailability": "NORMAL",
-      "traitScope": [],
-      "equipmentScope": [],
+      "traitScope": [
+        "di.feature.universal.twitchy"
+      ],
+      "equipmentScope": [
+        "di.armour.flak_armour",
+        "di.class.veteran",
+        "di.equipment.med_pack",
+        "di.weapon.combat_blade",
+        "di.weapon.frag_grenade",
+        "di.weapon.lasgun",
+        "di.weapon.laspistol"
+      ],
       "ifOriginExplicitlyPermittedAndAvailabilitySatisfied": null
     },
     {
@@ -86505,8 +86160,7 @@
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": "NORMAL",
@@ -86529,8 +86183,7 @@
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": "NORMAL",
@@ -86553,8 +86206,7 @@
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": "NORMAL",
@@ -86577,8 +86229,7 @@
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": "NORMAL",
@@ -86599,7 +86250,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -86622,7 +86272,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -86645,7 +86294,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -86668,7 +86316,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -86691,7 +86338,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -86714,7 +86360,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -86737,7 +86382,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -86760,7 +86404,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -86783,7 +86426,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -86808,7 +86450,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -86831,7 +86472,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -86855,7 +86495,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -86879,7 +86518,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -86903,7 +86541,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -86927,7 +86564,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -86951,7 +86587,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -86974,7 +86609,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -86997,7 +86631,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87022,7 +86655,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87045,7 +86677,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87068,7 +86699,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87091,7 +86721,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87116,7 +86745,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87139,7 +86767,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87162,7 +86789,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87188,7 +86814,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87214,7 +86839,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87240,7 +86864,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87266,7 +86889,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87292,7 +86914,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87319,7 +86940,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87342,7 +86962,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87365,7 +86984,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87388,7 +87006,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87411,7 +87028,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87434,7 +87050,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87457,7 +87072,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87480,7 +87094,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87503,7 +87116,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87526,7 +87138,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87549,7 +87160,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87572,7 +87182,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87595,7 +87204,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -87619,7 +87227,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -87643,7 +87250,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -87667,7 +87273,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -87691,7 +87296,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -87715,7 +87319,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -87739,7 +87342,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -87763,7 +87365,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -87787,7 +87388,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87810,7 +87410,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87833,7 +87432,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87856,7 +87454,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87879,7 +87476,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87904,7 +87500,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87927,7 +87522,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87950,7 +87544,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87975,7 +87568,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -87998,7 +87590,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -88021,7 +87612,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -88044,7 +87634,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -88067,7 +87656,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -88090,7 +87678,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -88112,8 +87699,7 @@
       "eligibility": "INVALID",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": null,
@@ -88135,8 +87721,7 @@
       "eligibility": "INVALID",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": null,
@@ -88159,8 +87744,7 @@
       "eligibility": "INVALID",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": null,
@@ -88183,8 +87767,7 @@
       "eligibility": "INVALID",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": null,
@@ -88207,8 +87790,7 @@
       "eligibility": "INVALID",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": null,
@@ -88229,7 +87811,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -88252,7 +87833,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -88275,7 +87855,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -88298,7 +87877,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -88321,7 +87899,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -88344,7 +87921,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -88367,7 +87943,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -88390,7 +87965,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -88413,7 +87987,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -88438,7 +88011,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -88461,7 +88033,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -88485,7 +88056,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -88509,7 +88079,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -88533,7 +88102,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -88557,7 +88125,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -88581,7 +88148,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -88604,7 +88170,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -88627,7 +88192,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -88652,7 +88216,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -88675,7 +88238,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -88698,7 +88260,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -88721,7 +88282,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -88746,7 +88306,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -88769,7 +88328,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -88792,7 +88350,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -88818,7 +88375,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -88844,7 +88400,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -88870,7 +88425,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -88896,7 +88450,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -88922,7 +88475,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -88949,7 +88501,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -88972,7 +88523,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -88995,7 +88545,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -89018,7 +88567,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -89041,7 +88589,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -89064,7 +88611,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -89087,7 +88633,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -89110,7 +88655,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -89133,7 +88677,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -89156,7 +88699,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -89179,7 +88721,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -89202,7 +88743,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -89225,7 +88765,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -89249,7 +88788,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -89273,7 +88811,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -89297,7 +88834,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -89321,7 +88857,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -89345,7 +88880,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -89369,7 +88903,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -89393,7 +88926,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -89417,7 +88949,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -89440,7 +88971,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -89463,7 +88993,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -89486,7 +89015,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -89509,7 +89037,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -89534,7 +89061,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -89557,7 +89083,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -89580,7 +89105,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -89605,7 +89129,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -89628,7 +89151,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -89651,7 +89173,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -89674,7 +89195,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -89697,7 +89217,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -89720,7 +89239,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -89742,8 +89260,7 @@
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": "RARE",
@@ -89765,8 +89282,7 @@
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": "RARE",
@@ -89789,8 +89305,7 @@
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": "RARE",
@@ -89813,8 +89328,7 @@
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": "RARE",
@@ -89837,8 +89351,7 @@
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": "RARE",
@@ -89859,7 +89372,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -89882,7 +89394,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -89905,7 +89416,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -89928,7 +89438,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -89951,7 +89460,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -89974,7 +89482,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -89997,7 +89504,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -90020,7 +89526,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -90043,7 +89548,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -90068,7 +89572,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -90091,7 +89594,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -90115,7 +89617,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -90139,7 +89640,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -90163,7 +89663,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -90187,7 +89686,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -90211,7 +89709,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -90234,7 +89731,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -90257,7 +89753,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -90282,7 +89777,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -90305,7 +89799,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -90328,7 +89821,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -90351,7 +89843,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -90376,7 +89867,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -90399,7 +89889,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -90422,7 +89911,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -90443,19 +89931,23 @@
       "class": "di.class.hive_scum",
       "level": 1,
       "subclass": null,
-      "status": "BLOCKED_BY_CONTENT",
+      "status": "READY_WITH_MANUAL_RULES",
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
-      "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005",
-        "PHB-CAT-001",
-        "PHB-CAT-002"
-      ],
-      "productionAllowed": false,
+      "gapIds": [],
+      "productionAllowed": true,
       "originAvailability": "NORMAL",
-      "traitScope": [],
-      "equipmentScope": [],
+      "traitScope": [
+        "di.feature.universal.twitchy"
+      ],
+      "equipmentScope": [
+        "di.armour.flak_armour",
+        "di.weapon.autogun",
+        "di.weapon.autopistol",
+        "di.weapon.frag_grenade",
+        "di.weapon.knife",
+        "di.weapon.stub_pistol"
+      ],
       "ifOriginExplicitlyPermittedAndAvailabilitySatisfied": null
     },
     {
@@ -90474,7 +89966,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -90500,7 +89991,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -90526,7 +90016,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -90552,7 +90041,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -90579,7 +90067,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -90602,7 +90089,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -90625,7 +90111,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -90648,7 +90133,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -90671,7 +90155,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -90694,7 +90177,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -90717,7 +90199,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -90740,7 +90221,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -90763,7 +90243,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -90786,7 +90265,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -90809,7 +90287,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -90832,7 +90309,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -90855,7 +90331,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -90879,7 +90354,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -90903,7 +90377,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -90927,7 +90400,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -90951,7 +90423,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -90975,7 +90446,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -90999,7 +90469,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -91023,7 +90492,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -91047,7 +90515,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -91070,7 +90537,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -91093,7 +90559,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -91116,7 +90581,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -91139,7 +90603,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -91164,7 +90627,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -91187,7 +90649,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -91210,7 +90671,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -91235,7 +90695,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -91258,7 +90717,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -91281,7 +90739,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -91304,7 +90761,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -91327,7 +90783,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -91350,7 +90805,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -91368,17 +90822,24 @@
       "class": "di.class.veteran",
       "level": 1,
       "subclass": null,
-      "status": "BLOCKED_BY_ENGINE",
+      "status": "READY_WITH_MANUAL_RULES",
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
-      "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
-      ],
-      "productionAllowed": false,
+      "gapIds": [],
+      "productionAllowed": true,
       "originAvailability": "NORMAL",
-      "traitScope": [],
-      "equipmentScope": [],
+      "traitScope": [
+        "di.feature.universal.twitchy"
+      ],
+      "equipmentScope": [
+        "di.armour.flak_armour",
+        "di.class.veteran",
+        "di.equipment.med_pack",
+        "di.weapon.combat_blade",
+        "di.weapon.frag_grenade",
+        "di.weapon.lasgun",
+        "di.weapon.laspistol"
+      ],
       "ifOriginExplicitlyPermittedAndAvailabilitySatisfied": null
     },
     {
@@ -91395,8 +90856,7 @@
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": "NORMAL",
@@ -91419,8 +90879,7 @@
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": "NORMAL",
@@ -91443,8 +90902,7 @@
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": "NORMAL",
@@ -91467,8 +90925,7 @@
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": "NORMAL",
@@ -91489,7 +90946,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -91512,7 +90968,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -91535,7 +90990,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -91558,7 +91012,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -91581,7 +91034,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -91604,7 +91056,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -91627,7 +91078,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -91650,7 +91100,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -91673,7 +91122,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -91698,7 +91146,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -91721,7 +91168,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -91745,7 +91191,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -91769,7 +91214,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -91793,7 +91237,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -91817,7 +91260,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -91841,7 +91283,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -91864,7 +91305,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -91887,7 +91327,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -91912,7 +91351,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -91935,7 +91373,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -91958,7 +91395,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -91981,7 +91417,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92006,7 +91441,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92029,7 +91463,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92052,7 +91485,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92073,19 +91505,23 @@
       "class": "di.class.hive_scum",
       "level": 1,
       "subclass": null,
-      "status": "BLOCKED_BY_CONTENT",
+      "status": "READY_WITH_MANUAL_RULES",
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
-      "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005",
-        "PHB-CAT-001",
-        "PHB-CAT-002"
-      ],
-      "productionAllowed": false,
+      "gapIds": [],
+      "productionAllowed": true,
       "originAvailability": "NORMAL",
-      "traitScope": [],
-      "equipmentScope": [],
+      "traitScope": [
+        "di.feature.universal.twitchy"
+      ],
+      "equipmentScope": [
+        "di.armour.flak_armour",
+        "di.weapon.autogun",
+        "di.weapon.autopistol",
+        "di.weapon.frag_grenade",
+        "di.weapon.knife",
+        "di.weapon.stub_pistol"
+      ],
       "ifOriginExplicitlyPermittedAndAvailabilitySatisfied": null
     },
     {
@@ -92104,7 +91540,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92130,7 +91565,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92156,7 +91590,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92182,7 +91615,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92209,7 +91641,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92232,7 +91663,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92255,7 +91685,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92278,7 +91707,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92301,7 +91729,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92324,7 +91751,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92347,7 +91773,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92370,7 +91795,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92393,7 +91817,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92416,7 +91839,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92439,7 +91861,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92462,7 +91883,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92485,7 +91905,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -92509,7 +91928,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -92533,7 +91951,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -92557,7 +91974,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -92581,7 +91997,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -92605,7 +92020,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -92629,7 +92043,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -92653,7 +92066,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002",
         "PHB-CAT-003"
@@ -92677,7 +92089,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92700,7 +92111,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92723,7 +92133,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92746,7 +92155,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92769,7 +92177,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92794,7 +92201,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92817,7 +92223,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92840,7 +92245,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92865,7 +92269,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92888,7 +92291,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92911,7 +92313,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92934,7 +92335,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92957,7 +92357,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92980,7 +92379,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -92998,17 +92396,24 @@
       "class": "di.class.veteran",
       "level": 1,
       "subclass": null,
-      "status": "BLOCKED_BY_ENGINE",
+      "status": "READY_WITH_MANUAL_RULES",
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
-      "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
-      ],
-      "productionAllowed": false,
+      "gapIds": [],
+      "productionAllowed": true,
       "originAvailability": "NORMAL",
-      "traitScope": [],
-      "equipmentScope": [],
+      "traitScope": [
+        "di.feature.universal.twitchy"
+      ],
+      "equipmentScope": [
+        "di.armour.flak_armour",
+        "di.class.veteran",
+        "di.equipment.med_pack",
+        "di.weapon.combat_blade",
+        "di.weapon.frag_grenade",
+        "di.weapon.lasgun",
+        "di.weapon.laspistol"
+      ],
       "ifOriginExplicitlyPermittedAndAvailabilitySatisfied": null
     },
     {
@@ -93025,8 +92430,7 @@
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": "NORMAL",
@@ -93049,8 +92453,7 @@
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": "NORMAL",
@@ -93073,8 +92476,7 @@
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": "NORMAL",
@@ -93097,8 +92499,7 @@
       "eligibility": "KNOWN_BASE_ELIGIBLE",
       "rulingIds": [],
       "gapIds": [
-        "PHB-CAT-004",
-        "PHB-CAT-005"
+        "PHB-CAT-004"
       ],
       "productionAllowed": false,
       "originAvailability": "NORMAL",
@@ -93119,7 +92520,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -93142,7 +92542,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -93165,7 +92564,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -93188,7 +92586,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],
@@ -93211,7 +92608,6 @@
       "rulingIds": [],
       "gapIds": [
         "PHB-CAT-004",
-        "PHB-CAT-005",
         "PHB-CAT-001",
         "PHB-CAT-002"
       ],

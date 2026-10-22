@@ -5,6 +5,7 @@ import Characters from "../src/app/(archive)/characters/page";
 import { CharacterSheet } from "../src/components/CharacterSheet";
 import saved from "./fixtures/character.json";
 const state=vi.hoisted(()=>({data:null as unknown,push:vi.fn(),api:vi.fn()}));
+vi.mock("../src/components/AdvancementPanel",()=>({AdvancementPanel:()=>null}));
 vi.mock("../src/components/RollPanel",()=>({RollPanel:()=>null}));
 vi.mock("next/navigation",()=>({useRouter:()=>({push:state.push})}));
 vi.mock("../src/lib/api",()=>({api:state.api}));

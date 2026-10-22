@@ -34,10 +34,10 @@ class CharacterRollsTest {
         fun execute(label:String)=rolls.execute(owner,id,request(label))
         fun quantity()=sheet().objects("inventory").single { it.text("definitionId")=="di.weapon.frag_grenade" }.num("quantity")
     }
-    private fun rig(source:DieSource=DieSource { 1 }):Rig {
+    private fun rig(source:DieSource=DieSource { 1 }, draft:NarrowDraft=productionFixture()):Rig {
         val user=AuthService(db).register(Credentials("${UUID.randomUUID()}@example.com","roll test passphrase"))
         val characters=ProductionCharacters(db);val owner=uuid(user.id)
-        val sheet=characters.create(owner,productionFixture().copy(requestId=UUID.randomUUID().toString()))
+        val sheet=characters.create(owner,draft.copy(requestId=UUID.randomUUID().toString()))
         return Rig(owner,uuid(sheet.text("id")),characters,CharacterRolls(db,characters,DiceEngine(source)))
     }
     private fun error(code:String,block:()->Unit) { assertEquals(code,assertFailsWith<ApiException>(block=block).code) }
@@ -154,4 +154,23 @@ class CharacterRollsTest {
         val forged=JsonObject(Json.encodeToJsonElement(RollRequest.serializer(),r.request("Athletics")).jsonObject+mapOf("modifier" to JsonPrimitive(999)))
         assertEquals(HttpStatusCode.BadRequest,client.post("/api/characters/${r.id}/rolls") { header(HttpHeaders.Cookie,cookie);header(HttpHeaders.Origin,"http://localhost:3000");contentType(ContentType.Application.Json);setBody(forged.toString()) }.status)
     }
+    @Test fun `advancement keeps history immutable and old attacks cannot authorize new level damage`() {
+        val r=rig(draft=tier2Fixture("veteran-1"));val old=r.execute("Lasgun attack");val history=r.rolls.history(r.owner,r.id)
+        val advance=CharacterAdvancement(db,r.characters)
+        advance.advance(r.owner,r.id,AdvanceRequest(UUID.randomUUID().toString(),0,2))
+        assertEquals(history,r.rolls.history(r.owner,r.id));assertEquals(1,old.getValue("context").jsonObject.num("characterLevel"))
+        error("INVALID_CONTEXT") { r.rolls.execute(r.owner,r.id,r.request("Lasgun damage").copy(parentResultId=old.text("id"))) }
+        val fresh=r.execute("Lasgun attack");assertEquals(2,fresh.getValue("context").jsonObject.num("characterLevel"));assertNotEquals(old["requestedRollId"],fresh["requestedRollId"])
+    }
+    @Test fun `old profiles scum illegal transitions and respec inputs are rejected`() {
+        for(d in listOf(productionFixture(),tier2Fixture())) {
+            val r=rig(draft=d);val service=CharacterAdvancement(db,r.characters)
+            assertFalse(service.readiness(r.owner,r.id).getValue("available").jsonPrimitive.boolean)
+            error("PATH_NOT_CERTIFIED") { service.advance(r.owner,r.id,AdvanceRequest(UUID.randomUUID().toString(),0,2)) }
+        }
+        val r=rig(draft=tier2Fixture("veteran-1"));val service=CharacterAdvancement(db,r.characters)
+        for(level in listOf(0,1,3,4)) error("INVALID_TRANSITION") { service.advance(r.owner,r.id,AdvanceRequest(UUID.randomUUID().toString(),0,level)) }
+        error("INVALID_ADVANCEMENT_CHOICE") { service.advance(r.owner,r.id,AdvanceRequest(UUID.randomUUID().toString(),0,2,mapOf("di.choice.veteran.subclass" to listOf("marksman")))) }
+    }
+
 }

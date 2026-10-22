@@ -6,6 +6,7 @@ import io.ktor.client.statement.*
 import io.ktor.http.*
 import io.ktor.server.testing.*
 import kotlinx.serialization.json.*
+import kotlinx.coroutines.*
 import org.testcontainers.containers.PostgreSQLContainer
 import java.util.UUID
 import kotlin.test.*
@@ -128,7 +129,7 @@ class ApiIntegrationTest {
         assertEquals(HttpStatusCode.Unauthorized,client.get("/api/character-builder/profile").status)
         val cookie=client.account()
         val profile=client.get("/api/character-builder/profile"){header(HttpHeaders.Cookie,cookie)}.json()
-        assertEquals("di-phb-1.0-tier1-v2",profile.text("id"))
+        assertEquals("di-phb-1.0-tier1-v3",profile.text("id"))
         assertFalse(profile.containsKey("records"))
         val invalid=productionFixture().copy(speciesId="di.species.ogryn",answers=emptyMap())
         val body=Json.encodeToString(NarrowDraft.serializer(),invalid)
@@ -229,6 +230,66 @@ class ApiIntegrationTest {
             val history=client.get("/api/characters/$id/rolls") { header(HttpHeaders.Cookie,cookie) }
             assertEquals(HttpStatusCode.OK,history.status);assertTrue(history.bodyAsText().contains(draft.profileDigest))
         }
+    }
+
+    @Test fun `advancement preserves owned state and original retry response through level three`() = runApi {
+        val cookie=client.account();val stranger=client.account()
+        val d=tier2Fixture("veteran-1").copy(requestId=UUID.randomUUID().toString())
+        val created=client.postJson("/api/characters",Json.encodeToString(NarrowDraft.serializer(),d),cookie).json();val id=created.text("id")
+        database.transaction { con ->
+            con.execute("UPDATE player_character_runtime SET current_hp=4,resources=(SELECT jsonb_object_agg(key,value || jsonb_build_object('remaining',0)) FROM jsonb_each(resources)),conditions='[\"manual-condition\"]'::jsonb,temporary_effects='[\"manual-effect\"]'::jsonb WHERE character_id=?",uuid(id))
+            con.execute("UPDATE player_character_inventory SET ammunition=jsonb_build_object('remaining',3) WHERE character_id=? AND definition_id='di.weapon.lasgun'",uuid(id))
+            con.execute("UPDATE player_character_inventory SET quantity=0 WHERE character_id=? AND definition_id='di.weapon.frag_grenade'",uuid(id))
+        }
+        suspend fun sheet()=client.get("/api/characters/$id"){header(HttpHeaders.Cookie,cookie)}.json()
+        val before=sheet();val version=before.getValue("runtime").jsonObject.getValue("stateVersion").jsonPrimitive.long
+        val request=AdvanceRequest(UUID.randomUUID().toString(),version,2)
+        fun body(r:AdvanceRequest)=Json.encodeToString(AdvanceRequest.serializer(),r)
+        assertEquals(HttpStatusCode.NotFound,client.postJson("/api/characters/$id/advance",body(request),stranger).status)
+        assertEquals(HttpStatusCode.UnprocessableEntity,client.postJson("/api/characters/$id/advance",body(request.copy(destinationLevel=3)),cookie).status)
+        assertEquals(HttpStatusCode.OK,client.postJson("/api/characters/$id/advancement/preview",body(request),cookie).status)
+        assertEquals(before,sheet())
+        val response=client.postJson("/api/characters/$id/advance",body(request),cookie)
+        assertEquals(HttpStatusCode.OK,response.status,response.bodyAsText());val result=response.json();val second=result.getValue("character").jsonObject
+        assertEquals(2,second.num("level"));assertEquals(18,second.getValue("calculated").jsonObject.num("maximumWounds"))
+        assertEquals(before["inventory"],second["inventory"]);assertEquals(4,second.getValue("runtime").jsonObject.num("currentHp"))
+        assertEquals(before.getValue("runtime").jsonObject.filterKeys { it!="stateVersion" },second.getValue("runtime").jsonObject.filterKeys { it!="stateVersion" })
+        assertEquals(result,client.postJson("/api/characters/$id/advance",body(request),cookie).json())
+        assertEquals(HttpStatusCode.Conflict,client.postJson("/api/characters/$id/advance",body(request.copy(destinationLevel=3)),cookie).status)
+        val third=AdvanceRequest(UUID.randomUUID().toString(),version+1,3,mapOf("di.choice.veteran.subclass" to listOf("marksman")))
+        assertEquals(HttpStatusCode.Conflict,client.postJson("/api/characters/$id/advance",body(third.copy(expectedStateVersion=version)),cookie).status)
+        assertEquals(HttpStatusCode.UnprocessableEntity,client.postJson("/api/characters/$id/advance",body(third.copy(choices=emptyMap())),cookie).status)
+        val end=client.postJson("/api/characters/$id/advance",body(third),cookie)
+        assertEquals(HttpStatusCode.OK,end.status,end.bodyAsText())
+        val saved=end.json().getValue("character").jsonObject
+        assertEquals(3,saved.num("level"));assertEquals(25,saved.getValue("calculated").jsonObject.num("maximumWounds"));assertEquals(before["inventory"],saved["inventory"])
+        assertEquals(result,client.postJson("/api/characters/$id/advance",body(request),cookie).json());assertEquals(created["rulesetDigest"],saved["rulesetDigest"])
+    }
+
+    @Test fun `concurrent advancement serializes duplicates and rejects stale competing requests`() = runApi {
+        val cookie=client.account();val d=tier2Fixture("veteran-1").copy(requestId=UUID.randomUUID().toString())
+        val sheet=client.postJson("/api/characters",Json.encodeToString(NarrowDraft.serializer(),d),cookie).json();val id=uuid(sheet.text("id"))
+        val owner=database.read { it.query("SELECT user_id FROM player_characters WHERE id=?",id){r->r.getObject(1,UUID::class.java)}.single() }
+        val service=CharacterAdvancement(database,ProductionCharacters(database));val r=AdvanceRequest(UUID.randomUUID().toString(),sheet.getValue("runtime").jsonObject.getValue("stateVersion").jsonPrimitive.long,2)
+        val duplicates=coroutineScope { (1..2).map { async(Dispatchers.IO) { service.advance(owner,id,r) } }.awaitAll() }
+        assertEquals(duplicates[0],duplicates[1])
+        val next=r.copy(requestId=UUID.randomUUID().toString(),expectedStateVersion=r.expectedStateVersion+1,destinationLevel=3,choices=mapOf("di.choice.veteran.subclass" to listOf("sergeant")))
+        val competing=coroutineScope { (1..2).map { async(Dispatchers.IO) { runCatching { service.advance(owner,id,next.copy(requestId=UUID.randomUUID().toString())) } } }.awaitAll() }
+        assertEquals(1,competing.count { it.isSuccess });assertTrue(competing.single { it.isFailure }.exceptionOrNull() is ApiException)
+        assertEquals(2,database.read { it.query("SELECT count(*) FROM character_advancements WHERE character_id=?",id){r->r.getInt(1)}.single() })
+    }
+    @Test fun `failed advancement final insert rolls back level choices and state`() = runApi {
+        val cookie=client.account();val d=tier2Fixture("veteran-2").copy(requestId=UUID.randomUUID().toString())
+        val sheet=client.postJson("/api/characters",Json.encodeToString(NarrowDraft.serializer(),d),cookie).json();val id=sheet.text("id")
+        val r=AdvanceRequest(UUID.randomUUID().toString(),sheet.getValue("runtime").jsonObject.getValue("stateVersion").jsonPrimitive.long,3,mapOf("di.choice.veteran.subclass" to listOf("shock_trooper")))
+        database.transaction { con ->
+            con.execute("CREATE OR REPLACE FUNCTION test_fail_advance() RETURNS trigger LANGUAGE plpgsql AS 'BEGIN RAISE EXCEPTION ''forced advancement rollback''; END'")
+            con.execute("CREATE TRIGGER test_fail_advance BEFORE INSERT ON character_advancements FOR EACH ROW EXECUTE FUNCTION test_fail_advance()")
+        }
+        try {
+            assertEquals(HttpStatusCode.InternalServerError,client.postJson("/api/characters/$id/advance",Json.encodeToString(AdvanceRequest.serializer(),r),cookie).status)
+            assertEquals(sheet,client.get("/api/characters/$id"){header(HttpHeaders.Cookie,cookie)}.json())
+        } finally { database.transaction { con -> con.execute("DROP TRIGGER test_fail_advance ON character_advancements");con.execute("DROP FUNCTION test_fail_advance()") } }
     }
 
 }

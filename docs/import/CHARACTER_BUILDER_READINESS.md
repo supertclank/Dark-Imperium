@@ -1,3 +1,5 @@
+> **Current release:** [Advancement and Ratling v3 report](ADVANCEMENT_RATLING_V3_REPORT.md). 58 certified families, transactional Human Veteran advancement through level 3, ten Ratling level-one families and authoritative persisted dice are implemented. The earlier narrow-only status below is historical. Full catalogue remains blocked.
+
 # Character Builder readiness
 
 | Scope | Status |

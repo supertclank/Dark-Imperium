@@ -6,6 +6,7 @@ export type PathConfiguration = { speciesId:string; originId:string; classId:str
 export type Profile = { pathConfigurations?:PathConfiguration[]; packages?:Record<string,Profile["package"]>; classTraining?:Record<string,Profile["training"]>; featureCatalogue?:OptionRecord[]; id: string; digest: string; name: string; attributes: string[]; standardArray: number[]; levels: number[]; species: OptionRecord[]; origins: OptionRecord[]; classes: OptionRecord[]; traits: OptionRecord[]; choices: Choice[]; levelFeatures: OptionRecord[]; equipment: OptionRecord[]; armour: string[]; training: { hitDie: number; savingThrows: string[] }; package: { fixed: { item: { id: string }; quantity: number }[]; choices: { id: string; options: { id: string }[]; quantity: number }[] }; availability: { status: string; message: string }[] };
 export type Issue = { code: string; field: string; message: string };
 export type Calculation = {
+  size?:string; darkvisionFeet?:number;
   subclass?:OptionRecord|null; contacts?:{id:string;text:string}[]; proceduralProficiencies?:string[]; equipmentNotes?:Record<string,string>;
   attributes: Record<string, number>; attributeModifiers: Record<string, number>; proficiencyBonus: number; maximumWounds: number; defence: number; movement: number; initiative: number;
   saves: Record<string, { modifier: number; proficient: boolean }>;
@@ -35,11 +36,14 @@ export function pathProfile(base:Profile,draft:Pick<Draft,"speciesId"|"originId"
   if(!base.pathConfigurations)return base;
   const family=base.pathConfigurations.filter(p=>p.speciesId===draft.speciesId && p.originId===draft.originId && p.classId===draft.classId);
   const current=family.find(p=>p.level===draft.level);
-  return {...base,levels:family.map(p=>p.level),choices:base.choices.filter(c=>current?.choices.includes(c.id)),package:base.packages?.[draft.classId]||base.package,training:base.classTraining?.[draft.classId]||base.training,levelFeatures:(base.featureCatalogue||[]).filter(f=>current?.features.includes(f.id))};
+  return {...base,origins:base.origins.filter(o=>base.pathConfigurations!.some(p=>p.speciesId===draft.speciesId && p.originId===o.id)),classes:base.classes.filter(c=>base.pathConfigurations!.some(p=>p.speciesId===draft.speciesId && p.originId===draft.originId && p.classId===c.id)),levels:family.map(p=>p.level),choices:base.choices.filter(c=>current?.choices.includes(c.id)),package:base.packages?.[draft.classId]||base.package,training:base.classTraining?.[draft.classId]||base.training,levelFeatures:(base.featureCatalogue||[]).filter(f=>current?.features.includes(f.id))};
 }
 export function changePath(base:Profile,draft:Draft,next:Partial<Draft>):Draft {
   let result={...draft,...next};
   if(!base.pathConfigurations)return result;
+  const eligible=base.pathConfigurations.filter(p=>p.speciesId===result.speciesId);
+  if(!eligible.some(p=>p.originId===result.originId))result={...result,originId:eligible[0]?.originId||""};
+  if(!eligible.some(p=>p.originId===result.originId && p.classId===result.classId))result={...result,classId:eligible.find(p=>p.originId===result.originId)?.classId||""};
   let profile=pathProfile(base,result);
   if(!profile.levels.includes(result.level)) {result={...result,level:profile.levels[0]||1};profile=pathProfile(base,result);}
   const answers=Object.fromEntries(profile.choices.map(c=>[c.id,result.answers[c.id] || (c.options.length===1 && c.cardinality.max===1?[c.options[0].id]:[])]));

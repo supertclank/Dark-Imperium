@@ -29,7 +29,7 @@ class CharacterRolls(
         val sheet = characters.get(con,owner,character)
         val snapshot = con.query("SELECT snapshot FROM ruleset_profiles WHERE id=? AND digest=?",sheet.text("rulesetProfileId"),sheet.text("rulesetDigest")) { Json.parseToJsonElement(it.getString(1)).jsonObject }.single()
         val rules = NarrowRules(snapshot)
-        if(mapOf("di-phb-1.0-narrow-v1" to "narrow-kotlin-v1", "di-phb-1.0-tier1-v1" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v2" to "phb-tier1-kotlin-v1")[rules.id] != rules.spec.text("engineVersion"))
+        if(mapOf("di-phb-1.0-narrow-v1" to "narrow-kotlin-v1", "di-phb-1.0-tier1-v1" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v2" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v3" to "phb-tier1-kotlin-v1")[rules.id] != rules.spec.text("engineVersion"))
             fail("RULESET_MISMATCH","Runtime rolling is not supported for this ruleset.",409)
         return sheet to rules
     }
@@ -108,6 +108,8 @@ class CharacterRolls(
             }
             if(parent != null && (parent.text("rollType") != "attack" || parent.text("rulesetDigest") != rules.digest || parent["actionId"] != json(action) || parent.getValue("context").jsonObject["ability"] != json(ability)))
                 fail("INVALID_CONTEXT","Damage must use the same weapon and ability as its parent attack.")
+            if(parent != null && calculation.objects("rollDefinitions").none { it.text("category")=="attack" && it.text("id")==parent.text("requestedRollId") })
+                fail("INVALID_CONTEXT","The parent attack belongs to an earlier character level; roll a new attack.")
             val baseComponent = baseline.objects("components").single()
             val baseModifier = baseComponent.objects("modifiers").sumOf { it.num("value") }
             val modifiers = calculation.getValue("attributeModifiers").jsonObject
@@ -117,7 +119,7 @@ class CharacterRolls(
             val natural = if(category != "damage") resolved.groups.single().kept.single() else null
             val resultId = UUID.randomUUID()
             val after = before + if(mutates) 1 else 0
-            val context = obj("ability" to ability,"parentResultId" to request.parentResultId,"mode" to "baseline",
+            val context = obj("characterLevel" to sheet.num("level"),"ability" to ability,"parentResultId" to request.parentResultId,"mode" to "baseline",
                 "targetResolution" to "MANUAL","criticalDamage" to "NOT_APPLIED","consumptionConfirmed" to request.confirmConsumption)
             val definitionId = UUID.nameUUIDFromBytes("${baseline.text("id")}:$before:${canonicalJson(context)}".toByteArray()).toString()
             val component = JsonObject(baseComponent + mapOf("modifiers" to json(listOf(obj("id" to "resolved","value" to modifier,

@@ -51,6 +51,7 @@ class NarrowRules(val bundle: JsonObject) {
     val attributes = spec.strings("attributes")
     private val tier1 = spec.text("engineVersion")=="phb-tier1-kotlin-v1"
     val expanded = spec["compositionVersion"]?.jsonPrimitive?.int == 2
+    private val speciesComposition = spec["speciesComposition"]?.jsonPrimitive?.boolean == true
     private val policy = spec.getValue("calculations").jsonObject
     init {
         require(sha(canonicalJson(payload)) == digest) { "Profile digest mismatch" }
@@ -90,6 +91,13 @@ class NarrowRules(val bundle: JsonObject) {
         val result=attributes.associateWith { draft.attributes.getValue(it) }.toMutableMap()
         for ((choice,options) in draft.answers.filterKeys { it in choicesFor(draft) && data(it).text("purpose")=="attribute" }) for(option in data(choice).objects("options").filter { it.text("id") in options }) {
             for(g in option.objects("grants")) if(g.text("kind")=="attribute_increase") result[g.text("attributeKey")]=result.getValue(g.text("attributeKey"))+g.num("amount")
+        }
+        if(speciesComposition) for(key in configuration(draft)?.strings("features").orEmpty()) for(e in data(key).objects("effects")) {
+            val target=e.getValue("target").jsonObject.text("key")
+            if(e.text("automation")=="automatic" && e.text("operation")=="add" && target.startsWith("attribute.") && target.endsWith(".score")) {
+                val attribute=target.removePrefix("attribute.").removeSuffix(".score")
+                result[attribute]=result.getValue(attribute)+e.getValue("value").jsonObject.num("value")
+            }
         }
         return result
     }
@@ -221,12 +229,13 @@ class NarrowRules(val bundle: JsonObject) {
         return obj("attributes" to final,"attributeModifiers" to mods,"proficiencyBonus" to pb,"maximumWounds" to hp,"defence" to ac,"movement" to effectSum("movement.walk"),"initiative" to initiative,"saves" to saves,"skills" to skills,"proficiencies" to profs.map(::view),"weaponProficiencies" to obj("groups" to groups.sorted(),"specificWeapons" to direct.sorted(),"startingPackageWeapons" to starting),"features" to features.map(::featureView),"inventory" to inventory,"actions" to actions,"rollDefinitions" to rolls,"readiness" to "PLAYABLE_WITH_MANUAL_RULES","rollAuthority" to "DISPLAY_ONLY_NOT_AUTHORIZATION","profileDigest" to digest).let { base ->
             if(!expanded) base else {
                 val supports=features.map(::featureView)
-                val resources=spec.objects("runtimeResources")+supports.flatMap { f -> f.objects("resources").map { JsonObject(it+mapOf("sourceId" to JsonPrimitive(f.text("id")))) } }
-                JsonObject(base+mapOf("subclass" to (subclass?.let(::view) ?: JsonNull),"resources" to json(resources),"contacts" to json(StartingPackages.compile(executableFor(draft),draft.packageChoices.mapValues { listOf(it.value) },records,spec.strings("equipment").toSet()).contacts),"proceduralProficiencies" to json(supports.flatMap { (it["proceduralProficiencies"] as? JsonArray)?.toList().orEmpty() }),"equipmentNotes" to JsonObject(payload.getValue("equipmentSupport").jsonObject.filterKeys { it in starting })))
+                val resources=spec.objects("runtimeResources").filter { !speciesComposition || it.text("sourceId") in features }+supports.flatMap { f -> f.objects("resources").map { JsonObject(it+mapOf("sourceId" to JsonPrimitive(f.text("id")))) } }
+                JsonObject(base+(if(speciesComposition) mapOf("size" to data(draft.speciesId).getValue("size"),"darkvisionFeet" to json(effects.filter { it.getValue("target").jsonObject.text("key")=="sense.darkvision" }.maxOfOrNull { it.getValue("value").jsonObject.num("value") } ?: 0)) else emptyMap())+mapOf("subclass" to (subclass?.let(::view) ?: JsonNull),"resources" to json(resources),"contacts" to json(StartingPackages.compile(executableFor(draft),draft.packageChoices.mapValues { listOf(it.value) },records,spec.strings("equipment").toSet()).contacts),"proceduralProficiencies" to json(supports.flatMap { (it["proceduralProficiencies"] as? JsonArray)?.toList().orEmpty() }),"equipmentNotes" to JsonObject(payload.getValue("equipmentSupport").jsonObject.filterKeys { it in starting })))
             }
         }
     }
     companion object {
+        fun tier3(): NarrowRules = NarrowRules(Json.parseToJsonElement(requireNotNull(NarrowRules::class.java.getResource("/profiles/di-phb-1.0-tier1-v3.json")).readText()).jsonObject)
         fun tier2(): NarrowRules = NarrowRules(Json.parseToJsonElement(requireNotNull(NarrowRules::class.java.getResource("/profiles/di-phb-1.0-tier1-v2.json")).readText()).jsonObject)
         fun tier1(): NarrowRules = NarrowRules(Json.parseToJsonElement(requireNotNull(NarrowRules::class.java.getResource("/profiles/di-phb-1.0-tier1-v1.json")).readText()).jsonObject)
         fun bundled(): NarrowRules = NarrowRules(Json.parseToJsonElement(requireNotNull(NarrowRules::class.java.getResource("/profiles/di-phb-1.0-narrow-v1.json")).readText()).jsonObject)

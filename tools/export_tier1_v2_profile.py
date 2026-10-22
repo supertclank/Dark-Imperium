@@ -15,7 +15,7 @@ def package(fixed,choices,armour,source,contacts=()):
     steps += [{'kind':'contact','id':'black_market_contact','text':text} for text in contacts]
     return {'display':display,'executable':{'schemaVersion':1,'source':source,'steps':steps},'quantityBasis':'One instance of each singular named kit entry; explicit grenade counts retained. No runtime quantity default.'}
 
-def build():
+def compose_historical_v2():
     _,records=c.load();c.validate_records(records);old=previous.build()['payload'];spec=copy.deepcopy(old['spec'])
     spec.update(id='di-phb-1.0-tier1-v2',name='PHB 1.0 · Human Veterans and Hive Scum',compositionVersion=2,levels=[1,2,3],origins=['di.background.'+o for o in ORIGINS],classes=['di.class.veteran','di.class.hive_scum'])
     spec['equipment']=sorted(set(spec['equipment']+['di.weapon.knife','di.weapon.autogun','di.weapon.autopistol','di.weapon.stub_pistol']))
@@ -58,6 +58,13 @@ def build():
     payload={**copy.deepcopy(old),'spec':spec,'records':records,'packages':{'di.class.veteran':vet,'di.class.hive_scum':scum},'classTraining':training,'featureSupport':support}
     payload['equipmentSupport']={'di.weapon.knife':'Melee mode only. Throwing requires a GM-approved improvised range.','di.weapon.autogun':'Baseline single attack/damage only. Burst and Suppression procedures remain unavailable pending PHB-RULE-020/022.','di.weapon.autopistol':'Baseline single attack/damage only. Burst procedure remains unavailable pending PHB-RULE-020.'}
     return {'digest':c.digest(payload),'payload':payload}
+
+def build():
+    result=c.read(c.ROOT/'backend/src/main/resources/profiles/di-phb-1.0-tier1-v2.json')
+    assert result['digest']=='2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8'
+    assert c.digest(result['payload'])==result['digest']
+    assert result['payload']['spec']==c.read(c.ROOT/'content/profiles/di-phb-1.0-tier1-v2.json')
+    return result
 
 if __name__=='__main__':
     result=build()

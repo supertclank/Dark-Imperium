@@ -35,6 +35,7 @@ fun Application.module(db: Database, config: AppConfig, dice: DiceEngine = DiceE
     val content = ContentRepository(db)
     val characters = ProductionCharacters(db)
     val rolls = CharacterRolls(db,characters,dice)
+    val advancements = CharacterAdvancement(db,characters)
     val logger = LoggerFactory.getLogger("imperium.api")
     install(ContentNegotiation) { json(Json { ignoreUnknownKeys = false }) }
     install(StatusPages) {
@@ -98,6 +99,18 @@ fun Application.module(db: Database, config: AppConfig, dice: DiceEngine = DiceE
             get("/characters/{id}") {
                 val owner = call.owner(); val id = uuid(call.parameters["id"]!!)
                 call.respond(withContext(Dispatchers.IO) { characters.get(owner, id) })
+            }
+            get("/characters/{id}/advancement") {
+                val owner=call.owner();val id=uuid(call.parameters["id"]!!)
+                call.respond(withContext(Dispatchers.IO) { advancements.readiness(owner,id) })
+            }
+            post("/characters/{id}/advancement/preview") {
+                val owner=call.owner();val id=uuid(call.parameters["id"]!!);val input=call.receive<AdvanceRequest>()
+                call.respond(withContext(Dispatchers.IO) { advancements.preview(owner,id,input) })
+            }
+            post("/characters/{id}/advance") {
+                val owner=call.owner();val id=uuid(call.parameters["id"]!!);val input=call.receive<AdvanceRequest>()
+                call.respond(withContext(Dispatchers.IO) { advancements.advance(owner,id,input) })
             }
             get("/characters/{id}/rolls/options") {
                 val owner=call.owner();val id=uuid(call.parameters["id"]!!)

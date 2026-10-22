@@ -2770,696 +2770,696 @@ Machine-readable detail: `content/packages/di_phb_1_0/review/level-1-3-catalogue
 | ogryn | voidborn | zealot | 3 | zealot.flagellant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
 | ogryn | voidborn | zealot | 3 | zealot.preacher | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
 | ogryn | voidborn | zealot | 3 | zealot.purifier | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | aeldari_outcast | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | aeldari_outcast | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | aeldari_outcast | 3 | aeldari_outcast.corsair | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | aeldari_outcast | 3 | aeldari_outcast.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | aeldari_outcast | 3 | aeldari_outcast.shadow_guide | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | aeldari_warlock | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | craftworld_outcast | aeldari_warlock | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | craftworld_outcast | aeldari_warlock | 3 | aeldari_warlock.seer_of_battle | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | craftworld_outcast | aeldari_warlock | 3 | aeldari_warlock.spirit_guardian | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | craftworld_outcast | aeldari_warlock | 3 | aeldari_warlock.storm_warlock | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | craftworld_outcast | arbites_enforcer | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | arbites_enforcer | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | arbites_enforcer | 3 | arbites_enforcer.executioner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | arbites_enforcer | 3 | arbites_enforcer.investigator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | arbites_enforcer | 3 | arbites_enforcer.riot_shield | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | hernkyn_prospector | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | hernkyn_prospector | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | hernkyn_prospector | 3 | hernkyn_prospector.claim_staker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | hernkyn_prospector | 3 | hernkyn_prospector.outrider | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | hernkyn_prospector | 3 | hernkyn_prospector.trail_gunner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | hive_scum | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | hive_scum | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | hive_scum | 3 | hive_scum.chem_user | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | hive_scum | 3 | hive_scum.gunslinger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | hive_scum | 3 | hive_scum.knife_rat | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | hive_scum | 3 | hive_scum.sump_ghost | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | kin_armsman | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | kin_armsman | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | kin_armsman | 3 | kin_armsman.guild_militant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | kin_armsman | 3 | kin_armsman.hearthguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | kin_armsman | 3 | kin_armsman.ironhead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | ogryn_skullbreaker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | ogryn_skullbreaker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bone_ead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | ogryn_skullbreaker | 3 | ogryn_skullbreaker.brute | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bulwark | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | ogryn_skullbreaker | 3 | ogryn_skullbreaker.gun_lugger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | psyker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | craftworld_outcast | psyker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | craftworld_outcast | psyker | 3 | psyker.biomancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | craftworld_outcast | psyker | 3 | psyker.blank_null_bound | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | craftworld_outcast | psyker | 3 | psyker.diviner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | craftworld_outcast | psyker | 3 | psyker.malefic_touched | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | craftworld_outcast | psyker | 3 | psyker.pyromancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | craftworld_outcast | psyker | 3 | psyker.telekine | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | craftworld_outcast | ratling_sharpshooter | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | ratling_sharpshooter | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | ratling_sharpshooter | 3 | ratling_sharpshooter.black_market_gremlin | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | ratling_sharpshooter | 3 | ratling_sharpshooter.long_las_sniper | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | ratling_sharpshooter | 3 | ratling_sharpshooter.spotter | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | ratling_sharpshooter | 3 | ratling_sharpshooter.underhive_rat | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | skitarii_veteran | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | skitarii_veteran | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | skitarii_veteran | 3 | skitarii_veteran.data_hunter | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | skitarii_veteran | 3 | skitarii_veteran.infiltrator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | skitarii_veteran | 3 | skitarii_veteran.protector | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | skitarii_veteran | 3 | skitarii_veteran.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | skitarii_veteran | 3 | skitarii_veteran.ruststalker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | skitarii_veteran | 3 | skitarii_veteran.vanguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | veteran | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | craftworld_outcast | veteran | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | craftworld_outcast | veteran | 3 | veteran.shock_trooper | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | craftworld_outcast | veteran | 3 | veteran.marksman | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | craftworld_outcast | veteran | 3 | veteran.sergeant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | craftworld_outcast | zealot | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | zealot | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | zealot | 3 | zealot.flagellant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | zealot | 3 | zealot.preacher | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | craftworld_outcast | zealot | 3 | zealot.purifier | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | aeldari_outcast | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | aeldari_outcast | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | aeldari_outcast | 3 | aeldari_outcast.corsair | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | aeldari_outcast | 3 | aeldari_outcast.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | aeldari_outcast | 3 | aeldari_outcast.shadow_guide | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | aeldari_warlock | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | forge_world | aeldari_warlock | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | forge_world | aeldari_warlock | 3 | aeldari_warlock.seer_of_battle | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | forge_world | aeldari_warlock | 3 | aeldari_warlock.spirit_guardian | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | forge_world | aeldari_warlock | 3 | aeldari_warlock.storm_warlock | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | forge_world | arbites_enforcer | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | arbites_enforcer | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | arbites_enforcer | 3 | arbites_enforcer.executioner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | arbites_enforcer | 3 | arbites_enforcer.investigator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | arbites_enforcer | 3 | arbites_enforcer.riot_shield | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | hernkyn_prospector | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | hernkyn_prospector | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | hernkyn_prospector | 3 | hernkyn_prospector.claim_staker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | hernkyn_prospector | 3 | hernkyn_prospector.outrider | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | hernkyn_prospector | 3 | hernkyn_prospector.trail_gunner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | hive_scum | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | hive_scum | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | hive_scum | 3 | hive_scum.chem_user | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | hive_scum | 3 | hive_scum.gunslinger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | hive_scum | 3 | hive_scum.knife_rat | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | hive_scum | 3 | hive_scum.sump_ghost | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | kin_armsman | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | kin_armsman | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | kin_armsman | 3 | kin_armsman.guild_militant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | kin_armsman | 3 | kin_armsman.hearthguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | kin_armsman | 3 | kin_armsman.ironhead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | ogryn_skullbreaker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | ogryn_skullbreaker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bone_ead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | ogryn_skullbreaker | 3 | ogryn_skullbreaker.brute | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bulwark | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | ogryn_skullbreaker | 3 | ogryn_skullbreaker.gun_lugger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | psyker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | forge_world | psyker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | forge_world | psyker | 3 | psyker.biomancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | forge_world | psyker | 3 | psyker.blank_null_bound | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | forge_world | psyker | 3 | psyker.diviner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | forge_world | psyker | 3 | psyker.malefic_touched | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | forge_world | psyker | 3 | psyker.pyromancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | forge_world | psyker | 3 | psyker.telekine | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | forge_world | ratling_sharpshooter | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | ratling_sharpshooter | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | ratling_sharpshooter | 3 | ratling_sharpshooter.black_market_gremlin | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | ratling_sharpshooter | 3 | ratling_sharpshooter.long_las_sniper | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | ratling_sharpshooter | 3 | ratling_sharpshooter.spotter | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | ratling_sharpshooter | 3 | ratling_sharpshooter.underhive_rat | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | skitarii_veteran | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | skitarii_veteran | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | skitarii_veteran | 3 | skitarii_veteran.data_hunter | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | skitarii_veteran | 3 | skitarii_veteran.infiltrator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | skitarii_veteran | 3 | skitarii_veteran.protector | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | skitarii_veteran | 3 | skitarii_veteran.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | skitarii_veteran | 3 | skitarii_veteran.ruststalker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | skitarii_veteran | 3 | skitarii_veteran.vanguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | veteran | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | forge_world | veteran | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | forge_world | veteran | 3 | veteran.shock_trooper | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | forge_world | veteran | 3 | veteran.marksman | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | forge_world | veteran | 3 | veteran.sergeant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | forge_world | zealot | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | zealot | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | zealot | 3 | zealot.flagellant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | zealot | 3 | zealot.preacher | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | forge_world | zealot | 3 | zealot.purifier | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | aeldari_outcast | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | aeldari_outcast | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | aeldari_outcast | 3 | aeldari_outcast.corsair | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | aeldari_outcast | 3 | aeldari_outcast.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | aeldari_outcast | 3 | aeldari_outcast.shadow_guide | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | aeldari_warlock | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | hiveborn | aeldari_warlock | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | hiveborn | aeldari_warlock | 3 | aeldari_warlock.seer_of_battle | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | hiveborn | aeldari_warlock | 3 | aeldari_warlock.spirit_guardian | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | hiveborn | aeldari_warlock | 3 | aeldari_warlock.storm_warlock | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | hiveborn | arbites_enforcer | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | arbites_enforcer | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | arbites_enforcer | 3 | arbites_enforcer.executioner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | arbites_enforcer | 3 | arbites_enforcer.investigator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | arbites_enforcer | 3 | arbites_enforcer.riot_shield | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | hernkyn_prospector | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | hernkyn_prospector | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | hernkyn_prospector | 3 | hernkyn_prospector.claim_staker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | hernkyn_prospector | 3 | hernkyn_prospector.outrider | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | hernkyn_prospector | 3 | hernkyn_prospector.trail_gunner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | hive_scum | 1 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | hive_scum | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | hive_scum | 3 | hive_scum.chem_user | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | hive_scum | 3 | hive_scum.gunslinger | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | hive_scum | 3 | hive_scum.knife_rat | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | hive_scum | 3 | hive_scum.sump_ghost | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | kin_armsman | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | kin_armsman | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | kin_armsman | 3 | kin_armsman.guild_militant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | kin_armsman | 3 | kin_armsman.hearthguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | kin_armsman | 3 | kin_armsman.ironhead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | ogryn_skullbreaker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | ogryn_skullbreaker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bone_ead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | ogryn_skullbreaker | 3 | ogryn_skullbreaker.brute | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bulwark | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | ogryn_skullbreaker | 3 | ogryn_skullbreaker.gun_lugger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | psyker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | hiveborn | psyker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | hiveborn | psyker | 3 | psyker.biomancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | hiveborn | psyker | 3 | psyker.blank_null_bound | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | hiveborn | psyker | 3 | psyker.diviner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | hiveborn | psyker | 3 | psyker.malefic_touched | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | hiveborn | psyker | 3 | psyker.pyromancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | hiveborn | psyker | 3 | psyker.telekine | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | hiveborn | ratling_sharpshooter | 1 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | ratling_sharpshooter | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | ratling_sharpshooter | 3 | ratling_sharpshooter.black_market_gremlin | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | ratling_sharpshooter | 3 | ratling_sharpshooter.long_las_sniper | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | ratling_sharpshooter | 3 | ratling_sharpshooter.spotter | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | ratling_sharpshooter | 3 | ratling_sharpshooter.underhive_rat | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | skitarii_veteran | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | skitarii_veteran | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | skitarii_veteran | 3 | skitarii_veteran.data_hunter | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | skitarii_veteran | 3 | skitarii_veteran.infiltrator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | skitarii_veteran | 3 | skitarii_veteran.protector | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | skitarii_veteran | 3 | skitarii_veteran.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | skitarii_veteran | 3 | skitarii_veteran.ruststalker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | skitarii_veteran | 3 | skitarii_veteran.vanguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | veteran | 1 | - | BLOCKED_BY_ENGINE | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | hiveborn | veteran | 2 | - | BLOCKED_BY_ENGINE | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | hiveborn | veteran | 3 | veteran.shock_trooper | BLOCKED_BY_ENGINE | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | hiveborn | veteran | 3 | veteran.marksman | BLOCKED_BY_ENGINE | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | hiveborn | veteran | 3 | veteran.sergeant | BLOCKED_BY_ENGINE | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | hiveborn | zealot | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | zealot | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | zealot | 3 | zealot.flagellant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | zealot | 3 | zealot.preacher | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | hiveborn | zealot | 3 | zealot.purifier | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | aeldari_outcast | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | aeldari_outcast | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | aeldari_outcast | 3 | aeldari_outcast.corsair | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | aeldari_outcast | 3 | aeldari_outcast.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | aeldari_outcast | 3 | aeldari_outcast.shadow_guide | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | aeldari_warlock | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | militarum_regiment | aeldari_warlock | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | militarum_regiment | aeldari_warlock | 3 | aeldari_warlock.seer_of_battle | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | militarum_regiment | aeldari_warlock | 3 | aeldari_warlock.spirit_guardian | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | militarum_regiment | aeldari_warlock | 3 | aeldari_warlock.storm_warlock | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | militarum_regiment | arbites_enforcer | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | arbites_enforcer | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | arbites_enforcer | 3 | arbites_enforcer.executioner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | arbites_enforcer | 3 | arbites_enforcer.investigator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | arbites_enforcer | 3 | arbites_enforcer.riot_shield | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | hernkyn_prospector | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | hernkyn_prospector | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | hernkyn_prospector | 3 | hernkyn_prospector.claim_staker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | hernkyn_prospector | 3 | hernkyn_prospector.outrider | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | hernkyn_prospector | 3 | hernkyn_prospector.trail_gunner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | hive_scum | 1 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | hive_scum | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | hive_scum | 3 | hive_scum.chem_user | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | hive_scum | 3 | hive_scum.gunslinger | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | hive_scum | 3 | hive_scum.knife_rat | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | hive_scum | 3 | hive_scum.sump_ghost | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | kin_armsman | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | kin_armsman | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | kin_armsman | 3 | kin_armsman.guild_militant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | kin_armsman | 3 | kin_armsman.hearthguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | kin_armsman | 3 | kin_armsman.ironhead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | ogryn_skullbreaker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | ogryn_skullbreaker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bone_ead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | ogryn_skullbreaker | 3 | ogryn_skullbreaker.brute | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bulwark | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | ogryn_skullbreaker | 3 | ogryn_skullbreaker.gun_lugger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | psyker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | militarum_regiment | psyker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | militarum_regiment | psyker | 3 | psyker.biomancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | militarum_regiment | psyker | 3 | psyker.blank_null_bound | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | militarum_regiment | psyker | 3 | psyker.diviner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | militarum_regiment | psyker | 3 | psyker.malefic_touched | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | militarum_regiment | psyker | 3 | psyker.pyromancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | militarum_regiment | psyker | 3 | psyker.telekine | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | militarum_regiment | ratling_sharpshooter | 1 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | ratling_sharpshooter | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | ratling_sharpshooter | 3 | ratling_sharpshooter.black_market_gremlin | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | ratling_sharpshooter | 3 | ratling_sharpshooter.long_las_sniper | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | ratling_sharpshooter | 3 | ratling_sharpshooter.spotter | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | ratling_sharpshooter | 3 | ratling_sharpshooter.underhive_rat | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | skitarii_veteran | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | skitarii_veteran | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | skitarii_veteran | 3 | skitarii_veteran.data_hunter | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | skitarii_veteran | 3 | skitarii_veteran.infiltrator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | skitarii_veteran | 3 | skitarii_veteran.protector | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | skitarii_veteran | 3 | skitarii_veteran.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | skitarii_veteran | 3 | skitarii_veteran.ruststalker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | skitarii_veteran | 3 | skitarii_veteran.vanguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | veteran | 1 | - | BLOCKED_BY_ENGINE | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | militarum_regiment | veteran | 2 | - | BLOCKED_BY_ENGINE | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | militarum_regiment | veteran | 3 | veteran.shock_trooper | BLOCKED_BY_ENGINE | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | militarum_regiment | veteran | 3 | veteran.marksman | BLOCKED_BY_ENGINE | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | militarum_regiment | veteran | 3 | veteran.sergeant | BLOCKED_BY_ENGINE | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | militarum_regiment | zealot | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | zealot | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | zealot | 3 | zealot.flagellant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | zealot | 3 | zealot.preacher | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | militarum_regiment | zealot | 3 | zealot.purifier | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | aeldari_outcast | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | aeldari_outcast | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | aeldari_outcast | 3 | aeldari_outcast.corsair | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | aeldari_outcast | 3 | aeldari_outcast.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | aeldari_outcast | 3 | aeldari_outcast.shadow_guide | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | aeldari_warlock | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | mining_hold_guild | aeldari_warlock | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | mining_hold_guild | aeldari_warlock | 3 | aeldari_warlock.seer_of_battle | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | mining_hold_guild | aeldari_warlock | 3 | aeldari_warlock.spirit_guardian | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | mining_hold_guild | aeldari_warlock | 3 | aeldari_warlock.storm_warlock | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | mining_hold_guild | arbites_enforcer | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | arbites_enforcer | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | arbites_enforcer | 3 | arbites_enforcer.executioner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | arbites_enforcer | 3 | arbites_enforcer.investigator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | arbites_enforcer | 3 | arbites_enforcer.riot_shield | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | hernkyn_prospector | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | hernkyn_prospector | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | hernkyn_prospector | 3 | hernkyn_prospector.claim_staker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | hernkyn_prospector | 3 | hernkyn_prospector.outrider | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | hernkyn_prospector | 3 | hernkyn_prospector.trail_gunner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | hive_scum | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | hive_scum | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | hive_scum | 3 | hive_scum.chem_user | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | hive_scum | 3 | hive_scum.gunslinger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | hive_scum | 3 | hive_scum.knife_rat | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | hive_scum | 3 | hive_scum.sump_ghost | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | kin_armsman | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | kin_armsman | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | kin_armsman | 3 | kin_armsman.guild_militant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | kin_armsman | 3 | kin_armsman.hearthguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | kin_armsman | 3 | kin_armsman.ironhead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | ogryn_skullbreaker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | ogryn_skullbreaker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bone_ead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | ogryn_skullbreaker | 3 | ogryn_skullbreaker.brute | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bulwark | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | ogryn_skullbreaker | 3 | ogryn_skullbreaker.gun_lugger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | psyker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | mining_hold_guild | psyker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | mining_hold_guild | psyker | 3 | psyker.biomancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | mining_hold_guild | psyker | 3 | psyker.blank_null_bound | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | mining_hold_guild | psyker | 3 | psyker.diviner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | mining_hold_guild | psyker | 3 | psyker.malefic_touched | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | mining_hold_guild | psyker | 3 | psyker.pyromancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | mining_hold_guild | psyker | 3 | psyker.telekine | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | mining_hold_guild | ratling_sharpshooter | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | ratling_sharpshooter | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | ratling_sharpshooter | 3 | ratling_sharpshooter.black_market_gremlin | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | ratling_sharpshooter | 3 | ratling_sharpshooter.long_las_sniper | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | ratling_sharpshooter | 3 | ratling_sharpshooter.spotter | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | ratling_sharpshooter | 3 | ratling_sharpshooter.underhive_rat | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | skitarii_veteran | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | skitarii_veteran | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | skitarii_veteran | 3 | skitarii_veteran.data_hunter | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | skitarii_veteran | 3 | skitarii_veteran.infiltrator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | skitarii_veteran | 3 | skitarii_veteran.protector | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | skitarii_veteran | 3 | skitarii_veteran.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | skitarii_veteran | 3 | skitarii_veteran.ruststalker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | skitarii_veteran | 3 | skitarii_veteran.vanguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | veteran | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | mining_hold_guild | veteran | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | mining_hold_guild | veteran | 3 | veteran.shock_trooper | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | mining_hold_guild | veteran | 3 | veteran.marksman | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | mining_hold_guild | veteran | 3 | veteran.sergeant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | mining_hold_guild | zealot | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | zealot | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | zealot | 3 | zealot.flagellant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | zealot | 3 | zealot.preacher | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | mining_hold_guild | zealot | 3 | zealot.purifier | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | aeldari_outcast | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | aeldari_outcast | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | aeldari_outcast | 3 | aeldari_outcast.corsair | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | aeldari_outcast | 3 | aeldari_outcast.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | aeldari_outcast | 3 | aeldari_outcast.shadow_guide | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | aeldari_warlock | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | penal_worlder | aeldari_warlock | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | penal_worlder | aeldari_warlock | 3 | aeldari_warlock.seer_of_battle | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | penal_worlder | aeldari_warlock | 3 | aeldari_warlock.spirit_guardian | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | penal_worlder | aeldari_warlock | 3 | aeldari_warlock.storm_warlock | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | penal_worlder | arbites_enforcer | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | arbites_enforcer | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | arbites_enforcer | 3 | arbites_enforcer.executioner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | arbites_enforcer | 3 | arbites_enforcer.investigator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | arbites_enforcer | 3 | arbites_enforcer.riot_shield | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | hernkyn_prospector | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | hernkyn_prospector | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | hernkyn_prospector | 3 | hernkyn_prospector.claim_staker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | hernkyn_prospector | 3 | hernkyn_prospector.outrider | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | hernkyn_prospector | 3 | hernkyn_prospector.trail_gunner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | hive_scum | 1 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | hive_scum | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | hive_scum | 3 | hive_scum.chem_user | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | hive_scum | 3 | hive_scum.gunslinger | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | hive_scum | 3 | hive_scum.knife_rat | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | hive_scum | 3 | hive_scum.sump_ghost | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | kin_armsman | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | kin_armsman | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | kin_armsman | 3 | kin_armsman.guild_militant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | kin_armsman | 3 | kin_armsman.hearthguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | kin_armsman | 3 | kin_armsman.ironhead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | ogryn_skullbreaker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | ogryn_skullbreaker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bone_ead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | ogryn_skullbreaker | 3 | ogryn_skullbreaker.brute | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bulwark | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | ogryn_skullbreaker | 3 | ogryn_skullbreaker.gun_lugger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | psyker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | penal_worlder | psyker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | penal_worlder | psyker | 3 | psyker.biomancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | penal_worlder | psyker | 3 | psyker.blank_null_bound | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | penal_worlder | psyker | 3 | psyker.diviner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | penal_worlder | psyker | 3 | psyker.malefic_touched | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | penal_worlder | psyker | 3 | psyker.pyromancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | penal_worlder | psyker | 3 | psyker.telekine | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | penal_worlder | ratling_sharpshooter | 1 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | ratling_sharpshooter | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | ratling_sharpshooter | 3 | ratling_sharpshooter.black_market_gremlin | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | ratling_sharpshooter | 3 | ratling_sharpshooter.long_las_sniper | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | ratling_sharpshooter | 3 | ratling_sharpshooter.spotter | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | ratling_sharpshooter | 3 | ratling_sharpshooter.underhive_rat | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | skitarii_veteran | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | skitarii_veteran | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | skitarii_veteran | 3 | skitarii_veteran.data_hunter | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | skitarii_veteran | 3 | skitarii_veteran.infiltrator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | skitarii_veteran | 3 | skitarii_veteran.protector | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | skitarii_veteran | 3 | skitarii_veteran.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | skitarii_veteran | 3 | skitarii_veteran.ruststalker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | skitarii_veteran | 3 | skitarii_veteran.vanguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | veteran | 1 | - | BLOCKED_BY_ENGINE | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | penal_worlder | veteran | 2 | - | BLOCKED_BY_ENGINE | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | penal_worlder | veteran | 3 | veteran.shock_trooper | BLOCKED_BY_ENGINE | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | penal_worlder | veteran | 3 | veteran.marksman | BLOCKED_BY_ENGINE | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | penal_worlder | veteran | 3 | veteran.sergeant | BLOCKED_BY_ENGINE | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | penal_worlder | zealot | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | zealot | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | zealot | 3 | zealot.flagellant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | zealot | 3 | zealot.preacher | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | penal_worlder | zealot | 3 | zealot.purifier | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | aeldari_outcast | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | aeldari_outcast | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | aeldari_outcast | 3 | aeldari_outcast.corsair | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | aeldari_outcast | 3 | aeldari_outcast.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | aeldari_outcast | 3 | aeldari_outcast.shadow_guide | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | aeldari_warlock | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | schola_progenium | aeldari_warlock | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | schola_progenium | aeldari_warlock | 3 | aeldari_warlock.seer_of_battle | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | schola_progenium | aeldari_warlock | 3 | aeldari_warlock.spirit_guardian | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | schola_progenium | aeldari_warlock | 3 | aeldari_warlock.storm_warlock | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | schola_progenium | arbites_enforcer | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | arbites_enforcer | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | arbites_enforcer | 3 | arbites_enforcer.executioner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | arbites_enforcer | 3 | arbites_enforcer.investigator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | arbites_enforcer | 3 | arbites_enforcer.riot_shield | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | hernkyn_prospector | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | hernkyn_prospector | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | hernkyn_prospector | 3 | hernkyn_prospector.claim_staker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | hernkyn_prospector | 3 | hernkyn_prospector.outrider | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | hernkyn_prospector | 3 | hernkyn_prospector.trail_gunner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | hive_scum | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | hive_scum | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | hive_scum | 3 | hive_scum.chem_user | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | hive_scum | 3 | hive_scum.gunslinger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | hive_scum | 3 | hive_scum.knife_rat | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | hive_scum | 3 | hive_scum.sump_ghost | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | kin_armsman | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | kin_armsman | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | kin_armsman | 3 | kin_armsman.guild_militant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | kin_armsman | 3 | kin_armsman.hearthguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | kin_armsman | 3 | kin_armsman.ironhead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | ogryn_skullbreaker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | ogryn_skullbreaker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bone_ead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | ogryn_skullbreaker | 3 | ogryn_skullbreaker.brute | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bulwark | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | ogryn_skullbreaker | 3 | ogryn_skullbreaker.gun_lugger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | psyker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | schola_progenium | psyker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | schola_progenium | psyker | 3 | psyker.biomancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | schola_progenium | psyker | 3 | psyker.blank_null_bound | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | schola_progenium | psyker | 3 | psyker.diviner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | schola_progenium | psyker | 3 | psyker.malefic_touched | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | schola_progenium | psyker | 3 | psyker.pyromancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | schola_progenium | psyker | 3 | psyker.telekine | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | schola_progenium | ratling_sharpshooter | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | ratling_sharpshooter | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | ratling_sharpshooter | 3 | ratling_sharpshooter.black_market_gremlin | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | ratling_sharpshooter | 3 | ratling_sharpshooter.long_las_sniper | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | ratling_sharpshooter | 3 | ratling_sharpshooter.spotter | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | ratling_sharpshooter | 3 | ratling_sharpshooter.underhive_rat | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | skitarii_veteran | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | skitarii_veteran | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | skitarii_veteran | 3 | skitarii_veteran.data_hunter | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | skitarii_veteran | 3 | skitarii_veteran.infiltrator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | skitarii_veteran | 3 | skitarii_veteran.protector | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | skitarii_veteran | 3 | skitarii_veteran.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | skitarii_veteran | 3 | skitarii_veteran.ruststalker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | skitarii_veteran | 3 | skitarii_veteran.vanguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | veteran | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | schola_progenium | veteran | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | schola_progenium | veteran | 3 | veteran.shock_trooper | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | schola_progenium | veteran | 3 | veteran.marksman | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | schola_progenium | veteran | 3 | veteran.sergeant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | schola_progenium | zealot | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | zealot | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | zealot | 3 | zealot.flagellant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | zealot | 3 | zealot.preacher | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | schola_progenium | zealot | 3 | zealot.purifier | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | aeldari_outcast | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | aeldari_outcast | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | aeldari_outcast | 3 | aeldari_outcast.corsair | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | aeldari_outcast | 3 | aeldari_outcast.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | aeldari_outcast | 3 | aeldari_outcast.shadow_guide | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | aeldari_warlock | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | shrine_worlder | aeldari_warlock | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | shrine_worlder | aeldari_warlock | 3 | aeldari_warlock.seer_of_battle | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | shrine_worlder | aeldari_warlock | 3 | aeldari_warlock.spirit_guardian | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | shrine_worlder | aeldari_warlock | 3 | aeldari_warlock.storm_warlock | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | shrine_worlder | arbites_enforcer | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | arbites_enforcer | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | arbites_enforcer | 3 | arbites_enforcer.executioner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | arbites_enforcer | 3 | arbites_enforcer.investigator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | arbites_enforcer | 3 | arbites_enforcer.riot_shield | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | hernkyn_prospector | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | hernkyn_prospector | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | hernkyn_prospector | 3 | hernkyn_prospector.claim_staker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | hernkyn_prospector | 3 | hernkyn_prospector.outrider | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | hernkyn_prospector | 3 | hernkyn_prospector.trail_gunner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | hive_scum | 1 | - | BLOCKED_BY_APPROVAL | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | BLOCKED_BY_CONTENT |
-| ratling | shrine_worlder | hive_scum | 2 | - | BLOCKED_BY_APPROVAL | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | BLOCKED_BY_CONTENT |
-| ratling | shrine_worlder | hive_scum | 3 | hive_scum.chem_user | BLOCKED_BY_APPROVAL | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | BLOCKED_BY_CONTENT |
-| ratling | shrine_worlder | hive_scum | 3 | hive_scum.gunslinger | BLOCKED_BY_APPROVAL | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | BLOCKED_BY_CONTENT |
-| ratling | shrine_worlder | hive_scum | 3 | hive_scum.knife_rat | BLOCKED_BY_APPROVAL | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | BLOCKED_BY_CONTENT |
-| ratling | shrine_worlder | hive_scum | 3 | hive_scum.sump_ghost | BLOCKED_BY_APPROVAL | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | BLOCKED_BY_CONTENT |
-| ratling | shrine_worlder | kin_armsman | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | kin_armsman | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | kin_armsman | 3 | kin_armsman.guild_militant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | kin_armsman | 3 | kin_armsman.hearthguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | kin_armsman | 3 | kin_armsman.ironhead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | ogryn_skullbreaker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | ogryn_skullbreaker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bone_ead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | ogryn_skullbreaker | 3 | ogryn_skullbreaker.brute | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bulwark | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | ogryn_skullbreaker | 3 | ogryn_skullbreaker.gun_lugger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | psyker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | shrine_worlder | psyker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | shrine_worlder | psyker | 3 | psyker.biomancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | shrine_worlder | psyker | 3 | psyker.blank_null_bound | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | shrine_worlder | psyker | 3 | psyker.diviner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | shrine_worlder | psyker | 3 | psyker.malefic_touched | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | shrine_worlder | psyker | 3 | psyker.pyromancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | shrine_worlder | psyker | 3 | psyker.telekine | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | shrine_worlder | ratling_sharpshooter | 1 | - | BLOCKED_BY_APPROVAL | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | BLOCKED_BY_CONTENT |
-| ratling | shrine_worlder | ratling_sharpshooter | 2 | - | BLOCKED_BY_APPROVAL | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | BLOCKED_BY_CONTENT |
-| ratling | shrine_worlder | ratling_sharpshooter | 3 | ratling_sharpshooter.black_market_gremlin | BLOCKED_BY_APPROVAL | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | BLOCKED_BY_CONTENT |
-| ratling | shrine_worlder | ratling_sharpshooter | 3 | ratling_sharpshooter.long_las_sniper | BLOCKED_BY_APPROVAL | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | BLOCKED_BY_CONTENT |
-| ratling | shrine_worlder | ratling_sharpshooter | 3 | ratling_sharpshooter.spotter | BLOCKED_BY_APPROVAL | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | BLOCKED_BY_CONTENT |
-| ratling | shrine_worlder | ratling_sharpshooter | 3 | ratling_sharpshooter.underhive_rat | BLOCKED_BY_APPROVAL | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | BLOCKED_BY_CONTENT |
-| ratling | shrine_worlder | skitarii_veteran | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | skitarii_veteran | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | skitarii_veteran | 3 | skitarii_veteran.data_hunter | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | skitarii_veteran | 3 | skitarii_veteran.infiltrator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | skitarii_veteran | 3 | skitarii_veteran.protector | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | skitarii_veteran | 3 | skitarii_veteran.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | skitarii_veteran | 3 | skitarii_veteran.ruststalker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | skitarii_veteran | 3 | skitarii_veteran.vanguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | veteran | 1 | - | BLOCKED_BY_APPROVAL | - | PHB-CAT-004, PHB-CAT-005 | BLOCKED_BY_ENGINE |
-| ratling | shrine_worlder | veteran | 2 | - | BLOCKED_BY_APPROVAL | - | PHB-CAT-004, PHB-CAT-005 | BLOCKED_BY_ENGINE |
-| ratling | shrine_worlder | veteran | 3 | veteran.shock_trooper | BLOCKED_BY_APPROVAL | - | PHB-CAT-004, PHB-CAT-005 | BLOCKED_BY_ENGINE |
-| ratling | shrine_worlder | veteran | 3 | veteran.marksman | BLOCKED_BY_APPROVAL | - | PHB-CAT-004, PHB-CAT-005 | BLOCKED_BY_ENGINE |
-| ratling | shrine_worlder | veteran | 3 | veteran.sergeant | BLOCKED_BY_APPROVAL | - | PHB-CAT-004, PHB-CAT-005 | BLOCKED_BY_ENGINE |
-| ratling | shrine_worlder | zealot | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | zealot | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | zealot | 3 | zealot.flagellant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | zealot | 3 | zealot.preacher | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | shrine_worlder | zealot | 3 | zealot.purifier | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | aeldari_outcast | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | aeldari_outcast | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | aeldari_outcast | 3 | aeldari_outcast.corsair | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | aeldari_outcast | 3 | aeldari_outcast.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | aeldari_outcast | 3 | aeldari_outcast.shadow_guide | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | aeldari_warlock | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | underhive | aeldari_warlock | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | underhive | aeldari_warlock | 3 | aeldari_warlock.seer_of_battle | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | underhive | aeldari_warlock | 3 | aeldari_warlock.spirit_guardian | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | underhive | aeldari_warlock | 3 | aeldari_warlock.storm_warlock | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | underhive | arbites_enforcer | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | arbites_enforcer | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | arbites_enforcer | 3 | arbites_enforcer.executioner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | arbites_enforcer | 3 | arbites_enforcer.investigator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | arbites_enforcer | 3 | arbites_enforcer.riot_shield | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | hernkyn_prospector | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | hernkyn_prospector | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | hernkyn_prospector | 3 | hernkyn_prospector.claim_staker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | hernkyn_prospector | 3 | hernkyn_prospector.outrider | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | hernkyn_prospector | 3 | hernkyn_prospector.trail_gunner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | hive_scum | 1 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | hive_scum | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | hive_scum | 3 | hive_scum.chem_user | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | hive_scum | 3 | hive_scum.gunslinger | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | hive_scum | 3 | hive_scum.knife_rat | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | hive_scum | 3 | hive_scum.sump_ghost | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | kin_armsman | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | kin_armsman | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | kin_armsman | 3 | kin_armsman.guild_militant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | kin_armsman | 3 | kin_armsman.hearthguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | kin_armsman | 3 | kin_armsman.ironhead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | ogryn_skullbreaker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | ogryn_skullbreaker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bone_ead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | ogryn_skullbreaker | 3 | ogryn_skullbreaker.brute | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bulwark | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | ogryn_skullbreaker | 3 | ogryn_skullbreaker.gun_lugger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | psyker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | underhive | psyker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | underhive | psyker | 3 | psyker.biomancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | underhive | psyker | 3 | psyker.blank_null_bound | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | underhive | psyker | 3 | psyker.diviner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | underhive | psyker | 3 | psyker.malefic_touched | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | underhive | psyker | 3 | psyker.pyromancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | underhive | psyker | 3 | psyker.telekine | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | underhive | ratling_sharpshooter | 1 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | ratling_sharpshooter | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | ratling_sharpshooter | 3 | ratling_sharpshooter.black_market_gremlin | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | ratling_sharpshooter | 3 | ratling_sharpshooter.long_las_sniper | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | ratling_sharpshooter | 3 | ratling_sharpshooter.spotter | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | ratling_sharpshooter | 3 | ratling_sharpshooter.underhive_rat | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | skitarii_veteran | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | skitarii_veteran | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | skitarii_veteran | 3 | skitarii_veteran.data_hunter | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | skitarii_veteran | 3 | skitarii_veteran.infiltrator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | skitarii_veteran | 3 | skitarii_veteran.protector | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | skitarii_veteran | 3 | skitarii_veteran.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | skitarii_veteran | 3 | skitarii_veteran.ruststalker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | skitarii_veteran | 3 | skitarii_veteran.vanguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | veteran | 1 | - | BLOCKED_BY_ENGINE | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | underhive | veteran | 2 | - | BLOCKED_BY_ENGINE | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | underhive | veteran | 3 | veteran.shock_trooper | BLOCKED_BY_ENGINE | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | underhive | veteran | 3 | veteran.marksman | BLOCKED_BY_ENGINE | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | underhive | veteran | 3 | veteran.sergeant | BLOCKED_BY_ENGINE | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | underhive | zealot | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | zealot | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | zealot | 3 | zealot.flagellant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | zealot | 3 | zealot.preacher | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | underhive | zealot | 3 | zealot.purifier | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | aeldari_outcast | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | aeldari_outcast | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | aeldari_outcast | 3 | aeldari_outcast.corsair | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | aeldari_outcast | 3 | aeldari_outcast.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | aeldari_outcast | 3 | aeldari_outcast.shadow_guide | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | aeldari_warlock | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | voidborn | aeldari_warlock | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | voidborn | aeldari_warlock | 3 | aeldari_warlock.seer_of_battle | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | voidborn | aeldari_warlock | 3 | aeldari_warlock.spirit_guardian | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | voidborn | aeldari_warlock | 3 | aeldari_warlock.storm_warlock | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | voidborn | arbites_enforcer | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | arbites_enforcer | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | arbites_enforcer | 3 | arbites_enforcer.executioner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | arbites_enforcer | 3 | arbites_enforcer.investigator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | arbites_enforcer | 3 | arbites_enforcer.riot_shield | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | hernkyn_prospector | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | hernkyn_prospector | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | hernkyn_prospector | 3 | hernkyn_prospector.claim_staker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | hernkyn_prospector | 3 | hernkyn_prospector.outrider | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | hernkyn_prospector | 3 | hernkyn_prospector.trail_gunner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | hive_scum | 1 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | hive_scum | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | hive_scum | 3 | hive_scum.chem_user | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | hive_scum | 3 | hive_scum.gunslinger | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | hive_scum | 3 | hive_scum.knife_rat | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | hive_scum | 3 | hive_scum.sump_ghost | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | kin_armsman | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | kin_armsman | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | kin_armsman | 3 | kin_armsman.guild_militant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | kin_armsman | 3 | kin_armsman.hearthguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | kin_armsman | 3 | kin_armsman.ironhead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | ogryn_skullbreaker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | ogryn_skullbreaker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bone_ead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | ogryn_skullbreaker | 3 | ogryn_skullbreaker.brute | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bulwark | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | ogryn_skullbreaker | 3 | ogryn_skullbreaker.gun_lugger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | psyker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | voidborn | psyker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | voidborn | psyker | 3 | psyker.biomancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | voidborn | psyker | 3 | psyker.blank_null_bound | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | voidborn | psyker | 3 | psyker.diviner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | voidborn | psyker | 3 | psyker.malefic_touched | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | voidborn | psyker | 3 | psyker.pyromancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | voidborn | psyker | 3 | psyker.telekine | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
-| ratling | voidborn | ratling_sharpshooter | 1 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | ratling_sharpshooter | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | ratling_sharpshooter | 3 | ratling_sharpshooter.black_market_gremlin | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | ratling_sharpshooter | 3 | ratling_sharpshooter.long_las_sniper | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | ratling_sharpshooter | 3 | ratling_sharpshooter.spotter | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | ratling_sharpshooter | 3 | ratling_sharpshooter.underhive_rat | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | skitarii_veteran | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | skitarii_veteran | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | skitarii_veteran | 3 | skitarii_veteran.data_hunter | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | skitarii_veteran | 3 | skitarii_veteran.infiltrator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | skitarii_veteran | 3 | skitarii_veteran.protector | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | skitarii_veteran | 3 | skitarii_veteran.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | skitarii_veteran | 3 | skitarii_veteran.ruststalker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | skitarii_veteran | 3 | skitarii_veteran.vanguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | veteran | 1 | - | BLOCKED_BY_ENGINE | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | voidborn | veteran | 2 | - | BLOCKED_BY_ENGINE | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | voidborn | veteran | 3 | veteran.shock_trooper | BLOCKED_BY_ENGINE | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | voidborn | veteran | 3 | veteran.marksman | BLOCKED_BY_ENGINE | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | voidborn | veteran | 3 | veteran.sergeant | BLOCKED_BY_ENGINE | - | PHB-CAT-004, PHB-CAT-005 | - |
-| ratling | voidborn | zealot | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | zealot | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | zealot | 3 | zealot.flagellant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | zealot | 3 | zealot.preacher | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
-| ratling | voidborn | zealot | 3 | zealot.purifier | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | aeldari_outcast | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | aeldari_outcast | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | aeldari_outcast | 3 | aeldari_outcast.corsair | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | aeldari_outcast | 3 | aeldari_outcast.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | aeldari_outcast | 3 | aeldari_outcast.shadow_guide | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | aeldari_warlock | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | craftworld_outcast | aeldari_warlock | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | craftworld_outcast | aeldari_warlock | 3 | aeldari_warlock.seer_of_battle | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | craftworld_outcast | aeldari_warlock | 3 | aeldari_warlock.spirit_guardian | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | craftworld_outcast | aeldari_warlock | 3 | aeldari_warlock.storm_warlock | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | craftworld_outcast | arbites_enforcer | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | arbites_enforcer | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | arbites_enforcer | 3 | arbites_enforcer.executioner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | arbites_enforcer | 3 | arbites_enforcer.investigator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | arbites_enforcer | 3 | arbites_enforcer.riot_shield | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | hernkyn_prospector | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | hernkyn_prospector | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | hernkyn_prospector | 3 | hernkyn_prospector.claim_staker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | hernkyn_prospector | 3 | hernkyn_prospector.outrider | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | hernkyn_prospector | 3 | hernkyn_prospector.trail_gunner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | hive_scum | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | hive_scum | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | hive_scum | 3 | hive_scum.chem_user | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | hive_scum | 3 | hive_scum.gunslinger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | hive_scum | 3 | hive_scum.knife_rat | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | hive_scum | 3 | hive_scum.sump_ghost | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | kin_armsman | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | kin_armsman | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | kin_armsman | 3 | kin_armsman.guild_militant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | kin_armsman | 3 | kin_armsman.hearthguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | kin_armsman | 3 | kin_armsman.ironhead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | ogryn_skullbreaker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | ogryn_skullbreaker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bone_ead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | ogryn_skullbreaker | 3 | ogryn_skullbreaker.brute | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bulwark | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | ogryn_skullbreaker | 3 | ogryn_skullbreaker.gun_lugger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | psyker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | craftworld_outcast | psyker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | craftworld_outcast | psyker | 3 | psyker.biomancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | craftworld_outcast | psyker | 3 | psyker.blank_null_bound | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | craftworld_outcast | psyker | 3 | psyker.diviner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | craftworld_outcast | psyker | 3 | psyker.malefic_touched | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | craftworld_outcast | psyker | 3 | psyker.pyromancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | craftworld_outcast | psyker | 3 | psyker.telekine | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | craftworld_outcast | ratling_sharpshooter | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | ratling_sharpshooter | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | ratling_sharpshooter | 3 | ratling_sharpshooter.black_market_gremlin | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | ratling_sharpshooter | 3 | ratling_sharpshooter.long_las_sniper | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | ratling_sharpshooter | 3 | ratling_sharpshooter.spotter | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | ratling_sharpshooter | 3 | ratling_sharpshooter.underhive_rat | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | skitarii_veteran | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | skitarii_veteran | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | skitarii_veteran | 3 | skitarii_veteran.data_hunter | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | skitarii_veteran | 3 | skitarii_veteran.infiltrator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | skitarii_veteran | 3 | skitarii_veteran.protector | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | skitarii_veteran | 3 | skitarii_veteran.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | skitarii_veteran | 3 | skitarii_veteran.ruststalker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | skitarii_veteran | 3 | skitarii_veteran.vanguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | veteran | 1 | - | UNSUPPORTED | - | PHB-CAT-004 | - |
+| ratling | craftworld_outcast | veteran | 2 | - | UNSUPPORTED | - | PHB-CAT-004 | - |
+| ratling | craftworld_outcast | veteran | 3 | veteran.shock_trooper | UNSUPPORTED | - | PHB-CAT-004 | - |
+| ratling | craftworld_outcast | veteran | 3 | veteran.marksman | UNSUPPORTED | - | PHB-CAT-004 | - |
+| ratling | craftworld_outcast | veteran | 3 | veteran.sergeant | UNSUPPORTED | - | PHB-CAT-004 | - |
+| ratling | craftworld_outcast | zealot | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | zealot | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | zealot | 3 | zealot.flagellant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | zealot | 3 | zealot.preacher | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | craftworld_outcast | zealot | 3 | zealot.purifier | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | aeldari_outcast | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | aeldari_outcast | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | aeldari_outcast | 3 | aeldari_outcast.corsair | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | aeldari_outcast | 3 | aeldari_outcast.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | aeldari_outcast | 3 | aeldari_outcast.shadow_guide | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | aeldari_warlock | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | forge_world | aeldari_warlock | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | forge_world | aeldari_warlock | 3 | aeldari_warlock.seer_of_battle | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | forge_world | aeldari_warlock | 3 | aeldari_warlock.spirit_guardian | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | forge_world | aeldari_warlock | 3 | aeldari_warlock.storm_warlock | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | forge_world | arbites_enforcer | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | arbites_enforcer | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | arbites_enforcer | 3 | arbites_enforcer.executioner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | arbites_enforcer | 3 | arbites_enforcer.investigator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | arbites_enforcer | 3 | arbites_enforcer.riot_shield | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | hernkyn_prospector | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | hernkyn_prospector | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | hernkyn_prospector | 3 | hernkyn_prospector.claim_staker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | hernkyn_prospector | 3 | hernkyn_prospector.outrider | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | hernkyn_prospector | 3 | hernkyn_prospector.trail_gunner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | hive_scum | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | hive_scum | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | hive_scum | 3 | hive_scum.chem_user | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | hive_scum | 3 | hive_scum.gunslinger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | hive_scum | 3 | hive_scum.knife_rat | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | hive_scum | 3 | hive_scum.sump_ghost | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | kin_armsman | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | kin_armsman | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | kin_armsman | 3 | kin_armsman.guild_militant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | kin_armsman | 3 | kin_armsman.hearthguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | kin_armsman | 3 | kin_armsman.ironhead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | ogryn_skullbreaker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | ogryn_skullbreaker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bone_ead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | ogryn_skullbreaker | 3 | ogryn_skullbreaker.brute | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bulwark | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | ogryn_skullbreaker | 3 | ogryn_skullbreaker.gun_lugger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | psyker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | forge_world | psyker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | forge_world | psyker | 3 | psyker.biomancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | forge_world | psyker | 3 | psyker.blank_null_bound | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | forge_world | psyker | 3 | psyker.diviner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | forge_world | psyker | 3 | psyker.malefic_touched | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | forge_world | psyker | 3 | psyker.pyromancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | forge_world | psyker | 3 | psyker.telekine | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | forge_world | ratling_sharpshooter | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | ratling_sharpshooter | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | ratling_sharpshooter | 3 | ratling_sharpshooter.black_market_gremlin | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | ratling_sharpshooter | 3 | ratling_sharpshooter.long_las_sniper | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | ratling_sharpshooter | 3 | ratling_sharpshooter.spotter | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | ratling_sharpshooter | 3 | ratling_sharpshooter.underhive_rat | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | skitarii_veteran | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | skitarii_veteran | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | skitarii_veteran | 3 | skitarii_veteran.data_hunter | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | skitarii_veteran | 3 | skitarii_veteran.infiltrator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | skitarii_veteran | 3 | skitarii_veteran.protector | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | skitarii_veteran | 3 | skitarii_veteran.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | skitarii_veteran | 3 | skitarii_veteran.ruststalker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | skitarii_veteran | 3 | skitarii_veteran.vanguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | veteran | 1 | - | UNSUPPORTED | - | PHB-CAT-004 | - |
+| ratling | forge_world | veteran | 2 | - | UNSUPPORTED | - | PHB-CAT-004 | - |
+| ratling | forge_world | veteran | 3 | veteran.shock_trooper | UNSUPPORTED | - | PHB-CAT-004 | - |
+| ratling | forge_world | veteran | 3 | veteran.marksman | UNSUPPORTED | - | PHB-CAT-004 | - |
+| ratling | forge_world | veteran | 3 | veteran.sergeant | UNSUPPORTED | - | PHB-CAT-004 | - |
+| ratling | forge_world | zealot | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | zealot | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | zealot | 3 | zealot.flagellant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | zealot | 3 | zealot.preacher | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | forge_world | zealot | 3 | zealot.purifier | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | aeldari_outcast | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | aeldari_outcast | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | aeldari_outcast | 3 | aeldari_outcast.corsair | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | aeldari_outcast | 3 | aeldari_outcast.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | aeldari_outcast | 3 | aeldari_outcast.shadow_guide | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | aeldari_warlock | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | hiveborn | aeldari_warlock | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | hiveborn | aeldari_warlock | 3 | aeldari_warlock.seer_of_battle | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | hiveborn | aeldari_warlock | 3 | aeldari_warlock.spirit_guardian | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | hiveborn | aeldari_warlock | 3 | aeldari_warlock.storm_warlock | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | hiveborn | arbites_enforcer | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | arbites_enforcer | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | arbites_enforcer | 3 | arbites_enforcer.executioner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | arbites_enforcer | 3 | arbites_enforcer.investigator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | arbites_enforcer | 3 | arbites_enforcer.riot_shield | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | hernkyn_prospector | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | hernkyn_prospector | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | hernkyn_prospector | 3 | hernkyn_prospector.claim_staker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | hernkyn_prospector | 3 | hernkyn_prospector.outrider | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | hernkyn_prospector | 3 | hernkyn_prospector.trail_gunner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | hive_scum | 1 | - | READY_WITH_MANUAL_RULES | - | - | - |
+| ratling | hiveborn | hive_scum | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | hive_scum | 3 | hive_scum.chem_user | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | hive_scum | 3 | hive_scum.gunslinger | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | hive_scum | 3 | hive_scum.knife_rat | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | hive_scum | 3 | hive_scum.sump_ghost | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | kin_armsman | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | kin_armsman | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | kin_armsman | 3 | kin_armsman.guild_militant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | kin_armsman | 3 | kin_armsman.hearthguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | kin_armsman | 3 | kin_armsman.ironhead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | ogryn_skullbreaker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | ogryn_skullbreaker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bone_ead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | ogryn_skullbreaker | 3 | ogryn_skullbreaker.brute | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bulwark | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | ogryn_skullbreaker | 3 | ogryn_skullbreaker.gun_lugger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | psyker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | hiveborn | psyker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | hiveborn | psyker | 3 | psyker.biomancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | hiveborn | psyker | 3 | psyker.blank_null_bound | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | hiveborn | psyker | 3 | psyker.diviner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | hiveborn | psyker | 3 | psyker.malefic_touched | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | hiveborn | psyker | 3 | psyker.pyromancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | hiveborn | psyker | 3 | psyker.telekine | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | hiveborn | ratling_sharpshooter | 1 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | ratling_sharpshooter | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | ratling_sharpshooter | 3 | ratling_sharpshooter.black_market_gremlin | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | ratling_sharpshooter | 3 | ratling_sharpshooter.long_las_sniper | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | ratling_sharpshooter | 3 | ratling_sharpshooter.spotter | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | ratling_sharpshooter | 3 | ratling_sharpshooter.underhive_rat | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | skitarii_veteran | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | skitarii_veteran | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | skitarii_veteran | 3 | skitarii_veteran.data_hunter | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | skitarii_veteran | 3 | skitarii_veteran.infiltrator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | skitarii_veteran | 3 | skitarii_veteran.protector | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | skitarii_veteran | 3 | skitarii_veteran.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | skitarii_veteran | 3 | skitarii_veteran.ruststalker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | skitarii_veteran | 3 | skitarii_veteran.vanguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | veteran | 1 | - | READY_WITH_MANUAL_RULES | - | - | - |
+| ratling | hiveborn | veteran | 2 | - | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
+| ratling | hiveborn | veteran | 3 | veteran.shock_trooper | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
+| ratling | hiveborn | veteran | 3 | veteran.marksman | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
+| ratling | hiveborn | veteran | 3 | veteran.sergeant | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
+| ratling | hiveborn | zealot | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | zealot | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | zealot | 3 | zealot.flagellant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | zealot | 3 | zealot.preacher | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | hiveborn | zealot | 3 | zealot.purifier | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | aeldari_outcast | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | aeldari_outcast | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | aeldari_outcast | 3 | aeldari_outcast.corsair | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | aeldari_outcast | 3 | aeldari_outcast.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | aeldari_outcast | 3 | aeldari_outcast.shadow_guide | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | aeldari_warlock | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | militarum_regiment | aeldari_warlock | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | militarum_regiment | aeldari_warlock | 3 | aeldari_warlock.seer_of_battle | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | militarum_regiment | aeldari_warlock | 3 | aeldari_warlock.spirit_guardian | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | militarum_regiment | aeldari_warlock | 3 | aeldari_warlock.storm_warlock | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | militarum_regiment | arbites_enforcer | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | arbites_enforcer | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | arbites_enforcer | 3 | arbites_enforcer.executioner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | arbites_enforcer | 3 | arbites_enforcer.investigator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | arbites_enforcer | 3 | arbites_enforcer.riot_shield | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | hernkyn_prospector | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | hernkyn_prospector | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | hernkyn_prospector | 3 | hernkyn_prospector.claim_staker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | hernkyn_prospector | 3 | hernkyn_prospector.outrider | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | hernkyn_prospector | 3 | hernkyn_prospector.trail_gunner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | hive_scum | 1 | - | READY_WITH_MANUAL_RULES | - | - | - |
+| ratling | militarum_regiment | hive_scum | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | hive_scum | 3 | hive_scum.chem_user | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | hive_scum | 3 | hive_scum.gunslinger | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | hive_scum | 3 | hive_scum.knife_rat | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | hive_scum | 3 | hive_scum.sump_ghost | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | kin_armsman | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | kin_armsman | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | kin_armsman | 3 | kin_armsman.guild_militant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | kin_armsman | 3 | kin_armsman.hearthguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | kin_armsman | 3 | kin_armsman.ironhead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | ogryn_skullbreaker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | ogryn_skullbreaker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bone_ead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | ogryn_skullbreaker | 3 | ogryn_skullbreaker.brute | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bulwark | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | ogryn_skullbreaker | 3 | ogryn_skullbreaker.gun_lugger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | psyker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | militarum_regiment | psyker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | militarum_regiment | psyker | 3 | psyker.biomancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | militarum_regiment | psyker | 3 | psyker.blank_null_bound | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | militarum_regiment | psyker | 3 | psyker.diviner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | militarum_regiment | psyker | 3 | psyker.malefic_touched | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | militarum_regiment | psyker | 3 | psyker.pyromancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | militarum_regiment | psyker | 3 | psyker.telekine | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | militarum_regiment | ratling_sharpshooter | 1 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | ratling_sharpshooter | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | ratling_sharpshooter | 3 | ratling_sharpshooter.black_market_gremlin | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | ratling_sharpshooter | 3 | ratling_sharpshooter.long_las_sniper | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | ratling_sharpshooter | 3 | ratling_sharpshooter.spotter | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | ratling_sharpshooter | 3 | ratling_sharpshooter.underhive_rat | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | skitarii_veteran | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | skitarii_veteran | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | skitarii_veteran | 3 | skitarii_veteran.data_hunter | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | skitarii_veteran | 3 | skitarii_veteran.infiltrator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | skitarii_veteran | 3 | skitarii_veteran.protector | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | skitarii_veteran | 3 | skitarii_veteran.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | skitarii_veteran | 3 | skitarii_veteran.ruststalker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | skitarii_veteran | 3 | skitarii_veteran.vanguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | veteran | 1 | - | READY_WITH_MANUAL_RULES | - | - | - |
+| ratling | militarum_regiment | veteran | 2 | - | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
+| ratling | militarum_regiment | veteran | 3 | veteran.shock_trooper | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
+| ratling | militarum_regiment | veteran | 3 | veteran.marksman | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
+| ratling | militarum_regiment | veteran | 3 | veteran.sergeant | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
+| ratling | militarum_regiment | zealot | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | zealot | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | zealot | 3 | zealot.flagellant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | zealot | 3 | zealot.preacher | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | militarum_regiment | zealot | 3 | zealot.purifier | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | aeldari_outcast | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | aeldari_outcast | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | aeldari_outcast | 3 | aeldari_outcast.corsair | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | aeldari_outcast | 3 | aeldari_outcast.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | aeldari_outcast | 3 | aeldari_outcast.shadow_guide | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | aeldari_warlock | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | mining_hold_guild | aeldari_warlock | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | mining_hold_guild | aeldari_warlock | 3 | aeldari_warlock.seer_of_battle | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | mining_hold_guild | aeldari_warlock | 3 | aeldari_warlock.spirit_guardian | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | mining_hold_guild | aeldari_warlock | 3 | aeldari_warlock.storm_warlock | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | mining_hold_guild | arbites_enforcer | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | arbites_enforcer | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | arbites_enforcer | 3 | arbites_enforcer.executioner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | arbites_enforcer | 3 | arbites_enforcer.investigator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | arbites_enforcer | 3 | arbites_enforcer.riot_shield | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | hernkyn_prospector | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | hernkyn_prospector | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | hernkyn_prospector | 3 | hernkyn_prospector.claim_staker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | hernkyn_prospector | 3 | hernkyn_prospector.outrider | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | hernkyn_prospector | 3 | hernkyn_prospector.trail_gunner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | hive_scum | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | hive_scum | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | hive_scum | 3 | hive_scum.chem_user | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | hive_scum | 3 | hive_scum.gunslinger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | hive_scum | 3 | hive_scum.knife_rat | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | hive_scum | 3 | hive_scum.sump_ghost | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | kin_armsman | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | kin_armsman | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | kin_armsman | 3 | kin_armsman.guild_militant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | kin_armsman | 3 | kin_armsman.hearthguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | kin_armsman | 3 | kin_armsman.ironhead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | ogryn_skullbreaker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | ogryn_skullbreaker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bone_ead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | ogryn_skullbreaker | 3 | ogryn_skullbreaker.brute | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bulwark | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | ogryn_skullbreaker | 3 | ogryn_skullbreaker.gun_lugger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | psyker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | mining_hold_guild | psyker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | mining_hold_guild | psyker | 3 | psyker.biomancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | mining_hold_guild | psyker | 3 | psyker.blank_null_bound | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | mining_hold_guild | psyker | 3 | psyker.diviner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | mining_hold_guild | psyker | 3 | psyker.malefic_touched | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | mining_hold_guild | psyker | 3 | psyker.pyromancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | mining_hold_guild | psyker | 3 | psyker.telekine | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | mining_hold_guild | ratling_sharpshooter | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | ratling_sharpshooter | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | ratling_sharpshooter | 3 | ratling_sharpshooter.black_market_gremlin | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | ratling_sharpshooter | 3 | ratling_sharpshooter.long_las_sniper | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | ratling_sharpshooter | 3 | ratling_sharpshooter.spotter | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | ratling_sharpshooter | 3 | ratling_sharpshooter.underhive_rat | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | skitarii_veteran | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | skitarii_veteran | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | skitarii_veteran | 3 | skitarii_veteran.data_hunter | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | skitarii_veteran | 3 | skitarii_veteran.infiltrator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | skitarii_veteran | 3 | skitarii_veteran.protector | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | skitarii_veteran | 3 | skitarii_veteran.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | skitarii_veteran | 3 | skitarii_veteran.ruststalker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | skitarii_veteran | 3 | skitarii_veteran.vanguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | veteran | 1 | - | UNSUPPORTED | - | PHB-CAT-004 | - |
+| ratling | mining_hold_guild | veteran | 2 | - | UNSUPPORTED | - | PHB-CAT-004 | - |
+| ratling | mining_hold_guild | veteran | 3 | veteran.shock_trooper | UNSUPPORTED | - | PHB-CAT-004 | - |
+| ratling | mining_hold_guild | veteran | 3 | veteran.marksman | UNSUPPORTED | - | PHB-CAT-004 | - |
+| ratling | mining_hold_guild | veteran | 3 | veteran.sergeant | UNSUPPORTED | - | PHB-CAT-004 | - |
+| ratling | mining_hold_guild | zealot | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | zealot | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | zealot | 3 | zealot.flagellant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | zealot | 3 | zealot.preacher | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | mining_hold_guild | zealot | 3 | zealot.purifier | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | aeldari_outcast | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | aeldari_outcast | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | aeldari_outcast | 3 | aeldari_outcast.corsair | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | aeldari_outcast | 3 | aeldari_outcast.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | aeldari_outcast | 3 | aeldari_outcast.shadow_guide | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | aeldari_warlock | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | penal_worlder | aeldari_warlock | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | penal_worlder | aeldari_warlock | 3 | aeldari_warlock.seer_of_battle | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | penal_worlder | aeldari_warlock | 3 | aeldari_warlock.spirit_guardian | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | penal_worlder | aeldari_warlock | 3 | aeldari_warlock.storm_warlock | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | penal_worlder | arbites_enforcer | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | arbites_enforcer | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | arbites_enforcer | 3 | arbites_enforcer.executioner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | arbites_enforcer | 3 | arbites_enforcer.investigator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | arbites_enforcer | 3 | arbites_enforcer.riot_shield | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | hernkyn_prospector | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | hernkyn_prospector | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | hernkyn_prospector | 3 | hernkyn_prospector.claim_staker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | hernkyn_prospector | 3 | hernkyn_prospector.outrider | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | hernkyn_prospector | 3 | hernkyn_prospector.trail_gunner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | hive_scum | 1 | - | READY_WITH_MANUAL_RULES | - | - | - |
+| ratling | penal_worlder | hive_scum | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | hive_scum | 3 | hive_scum.chem_user | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | hive_scum | 3 | hive_scum.gunslinger | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | hive_scum | 3 | hive_scum.knife_rat | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | hive_scum | 3 | hive_scum.sump_ghost | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | kin_armsman | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | kin_armsman | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | kin_armsman | 3 | kin_armsman.guild_militant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | kin_armsman | 3 | kin_armsman.hearthguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | kin_armsman | 3 | kin_armsman.ironhead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | ogryn_skullbreaker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | ogryn_skullbreaker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bone_ead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | ogryn_skullbreaker | 3 | ogryn_skullbreaker.brute | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bulwark | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | ogryn_skullbreaker | 3 | ogryn_skullbreaker.gun_lugger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | psyker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | penal_worlder | psyker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | penal_worlder | psyker | 3 | psyker.biomancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | penal_worlder | psyker | 3 | psyker.blank_null_bound | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | penal_worlder | psyker | 3 | psyker.diviner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | penal_worlder | psyker | 3 | psyker.malefic_touched | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | penal_worlder | psyker | 3 | psyker.pyromancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | penal_worlder | psyker | 3 | psyker.telekine | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | penal_worlder | ratling_sharpshooter | 1 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | ratling_sharpshooter | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | ratling_sharpshooter | 3 | ratling_sharpshooter.black_market_gremlin | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | ratling_sharpshooter | 3 | ratling_sharpshooter.long_las_sniper | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | ratling_sharpshooter | 3 | ratling_sharpshooter.spotter | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | ratling_sharpshooter | 3 | ratling_sharpshooter.underhive_rat | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | skitarii_veteran | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | skitarii_veteran | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | skitarii_veteran | 3 | skitarii_veteran.data_hunter | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | skitarii_veteran | 3 | skitarii_veteran.infiltrator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | skitarii_veteran | 3 | skitarii_veteran.protector | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | skitarii_veteran | 3 | skitarii_veteran.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | skitarii_veteran | 3 | skitarii_veteran.ruststalker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | skitarii_veteran | 3 | skitarii_veteran.vanguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | veteran | 1 | - | READY_WITH_MANUAL_RULES | - | - | - |
+| ratling | penal_worlder | veteran | 2 | - | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
+| ratling | penal_worlder | veteran | 3 | veteran.shock_trooper | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
+| ratling | penal_worlder | veteran | 3 | veteran.marksman | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
+| ratling | penal_worlder | veteran | 3 | veteran.sergeant | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
+| ratling | penal_worlder | zealot | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | zealot | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | zealot | 3 | zealot.flagellant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | zealot | 3 | zealot.preacher | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | penal_worlder | zealot | 3 | zealot.purifier | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | aeldari_outcast | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | aeldari_outcast | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | aeldari_outcast | 3 | aeldari_outcast.corsair | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | aeldari_outcast | 3 | aeldari_outcast.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | aeldari_outcast | 3 | aeldari_outcast.shadow_guide | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | aeldari_warlock | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | schola_progenium | aeldari_warlock | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | schola_progenium | aeldari_warlock | 3 | aeldari_warlock.seer_of_battle | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | schola_progenium | aeldari_warlock | 3 | aeldari_warlock.spirit_guardian | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | schola_progenium | aeldari_warlock | 3 | aeldari_warlock.storm_warlock | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | schola_progenium | arbites_enforcer | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | arbites_enforcer | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | arbites_enforcer | 3 | arbites_enforcer.executioner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | arbites_enforcer | 3 | arbites_enforcer.investigator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | arbites_enforcer | 3 | arbites_enforcer.riot_shield | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | hernkyn_prospector | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | hernkyn_prospector | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | hernkyn_prospector | 3 | hernkyn_prospector.claim_staker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | hernkyn_prospector | 3 | hernkyn_prospector.outrider | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | hernkyn_prospector | 3 | hernkyn_prospector.trail_gunner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | hive_scum | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | hive_scum | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | hive_scum | 3 | hive_scum.chem_user | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | hive_scum | 3 | hive_scum.gunslinger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | hive_scum | 3 | hive_scum.knife_rat | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | hive_scum | 3 | hive_scum.sump_ghost | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | kin_armsman | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | kin_armsman | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | kin_armsman | 3 | kin_armsman.guild_militant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | kin_armsman | 3 | kin_armsman.hearthguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | kin_armsman | 3 | kin_armsman.ironhead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | ogryn_skullbreaker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | ogryn_skullbreaker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bone_ead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | ogryn_skullbreaker | 3 | ogryn_skullbreaker.brute | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bulwark | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | ogryn_skullbreaker | 3 | ogryn_skullbreaker.gun_lugger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | psyker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | schola_progenium | psyker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | schola_progenium | psyker | 3 | psyker.biomancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | schola_progenium | psyker | 3 | psyker.blank_null_bound | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | schola_progenium | psyker | 3 | psyker.diviner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | schola_progenium | psyker | 3 | psyker.malefic_touched | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | schola_progenium | psyker | 3 | psyker.pyromancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | schola_progenium | psyker | 3 | psyker.telekine | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | schola_progenium | ratling_sharpshooter | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | ratling_sharpshooter | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | ratling_sharpshooter | 3 | ratling_sharpshooter.black_market_gremlin | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | ratling_sharpshooter | 3 | ratling_sharpshooter.long_las_sniper | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | ratling_sharpshooter | 3 | ratling_sharpshooter.spotter | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | ratling_sharpshooter | 3 | ratling_sharpshooter.underhive_rat | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | skitarii_veteran | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | skitarii_veteran | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | skitarii_veteran | 3 | skitarii_veteran.data_hunter | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | skitarii_veteran | 3 | skitarii_veteran.infiltrator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | skitarii_veteran | 3 | skitarii_veteran.protector | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | skitarii_veteran | 3 | skitarii_veteran.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | skitarii_veteran | 3 | skitarii_veteran.ruststalker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | skitarii_veteran | 3 | skitarii_veteran.vanguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | veteran | 1 | - | UNSUPPORTED | - | PHB-CAT-004 | - |
+| ratling | schola_progenium | veteran | 2 | - | UNSUPPORTED | - | PHB-CAT-004 | - |
+| ratling | schola_progenium | veteran | 3 | veteran.shock_trooper | UNSUPPORTED | - | PHB-CAT-004 | - |
+| ratling | schola_progenium | veteran | 3 | veteran.marksman | UNSUPPORTED | - | PHB-CAT-004 | - |
+| ratling | schola_progenium | veteran | 3 | veteran.sergeant | UNSUPPORTED | - | PHB-CAT-004 | - |
+| ratling | schola_progenium | zealot | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | zealot | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | zealot | 3 | zealot.flagellant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | zealot | 3 | zealot.preacher | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | schola_progenium | zealot | 3 | zealot.purifier | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | aeldari_outcast | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | aeldari_outcast | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | aeldari_outcast | 3 | aeldari_outcast.corsair | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | aeldari_outcast | 3 | aeldari_outcast.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | aeldari_outcast | 3 | aeldari_outcast.shadow_guide | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | aeldari_warlock | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | shrine_worlder | aeldari_warlock | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | shrine_worlder | aeldari_warlock | 3 | aeldari_warlock.seer_of_battle | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | shrine_worlder | aeldari_warlock | 3 | aeldari_warlock.spirit_guardian | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | shrine_worlder | aeldari_warlock | 3 | aeldari_warlock.storm_warlock | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | shrine_worlder | arbites_enforcer | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | arbites_enforcer | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | arbites_enforcer | 3 | arbites_enforcer.executioner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | arbites_enforcer | 3 | arbites_enforcer.investigator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | arbites_enforcer | 3 | arbites_enforcer.riot_shield | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | hernkyn_prospector | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | hernkyn_prospector | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | hernkyn_prospector | 3 | hernkyn_prospector.claim_staker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | hernkyn_prospector | 3 | hernkyn_prospector.outrider | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | hernkyn_prospector | 3 | hernkyn_prospector.trail_gunner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | hive_scum | 1 | - | BLOCKED_BY_APPROVAL | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | BLOCKED_BY_CONTENT |
+| ratling | shrine_worlder | hive_scum | 2 | - | BLOCKED_BY_APPROVAL | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | BLOCKED_BY_CONTENT |
+| ratling | shrine_worlder | hive_scum | 3 | hive_scum.chem_user | BLOCKED_BY_APPROVAL | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | BLOCKED_BY_CONTENT |
+| ratling | shrine_worlder | hive_scum | 3 | hive_scum.gunslinger | BLOCKED_BY_APPROVAL | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | BLOCKED_BY_CONTENT |
+| ratling | shrine_worlder | hive_scum | 3 | hive_scum.knife_rat | BLOCKED_BY_APPROVAL | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | BLOCKED_BY_CONTENT |
+| ratling | shrine_worlder | hive_scum | 3 | hive_scum.sump_ghost | BLOCKED_BY_APPROVAL | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | BLOCKED_BY_CONTENT |
+| ratling | shrine_worlder | kin_armsman | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | kin_armsman | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | kin_armsman | 3 | kin_armsman.guild_militant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | kin_armsman | 3 | kin_armsman.hearthguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | kin_armsman | 3 | kin_armsman.ironhead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | ogryn_skullbreaker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | ogryn_skullbreaker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bone_ead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | ogryn_skullbreaker | 3 | ogryn_skullbreaker.brute | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bulwark | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | ogryn_skullbreaker | 3 | ogryn_skullbreaker.gun_lugger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | psyker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | shrine_worlder | psyker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | shrine_worlder | psyker | 3 | psyker.biomancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | shrine_worlder | psyker | 3 | psyker.blank_null_bound | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | shrine_worlder | psyker | 3 | psyker.diviner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | shrine_worlder | psyker | 3 | psyker.malefic_touched | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | shrine_worlder | psyker | 3 | psyker.pyromancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | shrine_worlder | psyker | 3 | psyker.telekine | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | shrine_worlder | ratling_sharpshooter | 1 | - | BLOCKED_BY_APPROVAL | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | BLOCKED_BY_CONTENT |
+| ratling | shrine_worlder | ratling_sharpshooter | 2 | - | BLOCKED_BY_APPROVAL | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | BLOCKED_BY_CONTENT |
+| ratling | shrine_worlder | ratling_sharpshooter | 3 | ratling_sharpshooter.black_market_gremlin | BLOCKED_BY_APPROVAL | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | BLOCKED_BY_CONTENT |
+| ratling | shrine_worlder | ratling_sharpshooter | 3 | ratling_sharpshooter.long_las_sniper | BLOCKED_BY_APPROVAL | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | BLOCKED_BY_CONTENT |
+| ratling | shrine_worlder | ratling_sharpshooter | 3 | ratling_sharpshooter.spotter | BLOCKED_BY_APPROVAL | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | BLOCKED_BY_CONTENT |
+| ratling | shrine_worlder | ratling_sharpshooter | 3 | ratling_sharpshooter.underhive_rat | BLOCKED_BY_APPROVAL | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | BLOCKED_BY_CONTENT |
+| ratling | shrine_worlder | skitarii_veteran | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | skitarii_veteran | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | skitarii_veteran | 3 | skitarii_veteran.data_hunter | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | skitarii_veteran | 3 | skitarii_veteran.infiltrator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | skitarii_veteran | 3 | skitarii_veteran.protector | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | skitarii_veteran | 3 | skitarii_veteran.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | skitarii_veteran | 3 | skitarii_veteran.ruststalker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | skitarii_veteran | 3 | skitarii_veteran.vanguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | veteran | 1 | - | BLOCKED_BY_APPROVAL | - | PHB-CAT-004 | BLOCKED_BY_ENGINE |
+| ratling | shrine_worlder | veteran | 2 | - | BLOCKED_BY_APPROVAL | - | PHB-CAT-004 | BLOCKED_BY_ENGINE |
+| ratling | shrine_worlder | veteran | 3 | veteran.shock_trooper | BLOCKED_BY_APPROVAL | - | PHB-CAT-004 | BLOCKED_BY_ENGINE |
+| ratling | shrine_worlder | veteran | 3 | veteran.marksman | BLOCKED_BY_APPROVAL | - | PHB-CAT-004 | BLOCKED_BY_ENGINE |
+| ratling | shrine_worlder | veteran | 3 | veteran.sergeant | BLOCKED_BY_APPROVAL | - | PHB-CAT-004 | BLOCKED_BY_ENGINE |
+| ratling | shrine_worlder | zealot | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | zealot | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | zealot | 3 | zealot.flagellant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | zealot | 3 | zealot.preacher | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | shrine_worlder | zealot | 3 | zealot.purifier | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | aeldari_outcast | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | aeldari_outcast | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | aeldari_outcast | 3 | aeldari_outcast.corsair | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | aeldari_outcast | 3 | aeldari_outcast.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | aeldari_outcast | 3 | aeldari_outcast.shadow_guide | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | aeldari_warlock | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | underhive | aeldari_warlock | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | underhive | aeldari_warlock | 3 | aeldari_warlock.seer_of_battle | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | underhive | aeldari_warlock | 3 | aeldari_warlock.spirit_guardian | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | underhive | aeldari_warlock | 3 | aeldari_warlock.storm_warlock | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | underhive | arbites_enforcer | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | arbites_enforcer | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | arbites_enforcer | 3 | arbites_enforcer.executioner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | arbites_enforcer | 3 | arbites_enforcer.investigator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | arbites_enforcer | 3 | arbites_enforcer.riot_shield | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | hernkyn_prospector | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | hernkyn_prospector | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | hernkyn_prospector | 3 | hernkyn_prospector.claim_staker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | hernkyn_prospector | 3 | hernkyn_prospector.outrider | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | hernkyn_prospector | 3 | hernkyn_prospector.trail_gunner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | hive_scum | 1 | - | READY_WITH_MANUAL_RULES | - | - | - |
+| ratling | underhive | hive_scum | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | hive_scum | 3 | hive_scum.chem_user | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | hive_scum | 3 | hive_scum.gunslinger | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | hive_scum | 3 | hive_scum.knife_rat | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | hive_scum | 3 | hive_scum.sump_ghost | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | kin_armsman | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | kin_armsman | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | kin_armsman | 3 | kin_armsman.guild_militant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | kin_armsman | 3 | kin_armsman.hearthguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | kin_armsman | 3 | kin_armsman.ironhead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | ogryn_skullbreaker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | ogryn_skullbreaker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bone_ead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | ogryn_skullbreaker | 3 | ogryn_skullbreaker.brute | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bulwark | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | ogryn_skullbreaker | 3 | ogryn_skullbreaker.gun_lugger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | psyker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | underhive | psyker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | underhive | psyker | 3 | psyker.biomancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | underhive | psyker | 3 | psyker.blank_null_bound | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | underhive | psyker | 3 | psyker.diviner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | underhive | psyker | 3 | psyker.malefic_touched | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | underhive | psyker | 3 | psyker.pyromancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | underhive | psyker | 3 | psyker.telekine | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | underhive | ratling_sharpshooter | 1 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | ratling_sharpshooter | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | ratling_sharpshooter | 3 | ratling_sharpshooter.black_market_gremlin | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | ratling_sharpshooter | 3 | ratling_sharpshooter.long_las_sniper | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | ratling_sharpshooter | 3 | ratling_sharpshooter.spotter | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | ratling_sharpshooter | 3 | ratling_sharpshooter.underhive_rat | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | skitarii_veteran | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | skitarii_veteran | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | skitarii_veteran | 3 | skitarii_veteran.data_hunter | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | skitarii_veteran | 3 | skitarii_veteran.infiltrator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | skitarii_veteran | 3 | skitarii_veteran.protector | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | skitarii_veteran | 3 | skitarii_veteran.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | skitarii_veteran | 3 | skitarii_veteran.ruststalker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | skitarii_veteran | 3 | skitarii_veteran.vanguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | veteran | 1 | - | READY_WITH_MANUAL_RULES | - | - | - |
+| ratling | underhive | veteran | 2 | - | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
+| ratling | underhive | veteran | 3 | veteran.shock_trooper | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
+| ratling | underhive | veteran | 3 | veteran.marksman | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
+| ratling | underhive | veteran | 3 | veteran.sergeant | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
+| ratling | underhive | zealot | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | zealot | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | zealot | 3 | zealot.flagellant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | zealot | 3 | zealot.preacher | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | underhive | zealot | 3 | zealot.purifier | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | aeldari_outcast | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | aeldari_outcast | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | aeldari_outcast | 3 | aeldari_outcast.corsair | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | aeldari_outcast | 3 | aeldari_outcast.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | aeldari_outcast | 3 | aeldari_outcast.shadow_guide | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | aeldari_warlock | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | voidborn | aeldari_warlock | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | voidborn | aeldari_warlock | 3 | aeldari_warlock.seer_of_battle | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | voidborn | aeldari_warlock | 3 | aeldari_warlock.spirit_guardian | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | voidborn | aeldari_warlock | 3 | aeldari_warlock.storm_warlock | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | voidborn | arbites_enforcer | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | arbites_enforcer | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | arbites_enforcer | 3 | arbites_enforcer.executioner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | arbites_enforcer | 3 | arbites_enforcer.investigator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | arbites_enforcer | 3 | arbites_enforcer.riot_shield | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | hernkyn_prospector | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | hernkyn_prospector | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | hernkyn_prospector | 3 | hernkyn_prospector.claim_staker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | hernkyn_prospector | 3 | hernkyn_prospector.outrider | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | hernkyn_prospector | 3 | hernkyn_prospector.trail_gunner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | hive_scum | 1 | - | READY_WITH_MANUAL_RULES | - | - | - |
+| ratling | voidborn | hive_scum | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | hive_scum | 3 | hive_scum.chem_user | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | hive_scum | 3 | hive_scum.gunslinger | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | hive_scum | 3 | hive_scum.knife_rat | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | hive_scum | 3 | hive_scum.sump_ghost | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | kin_armsman | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | kin_armsman | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | kin_armsman | 3 | kin_armsman.guild_militant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | kin_armsman | 3 | kin_armsman.hearthguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | kin_armsman | 3 | kin_armsman.ironhead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | ogryn_skullbreaker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | ogryn_skullbreaker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bone_ead | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | ogryn_skullbreaker | 3 | ogryn_skullbreaker.brute | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | ogryn_skullbreaker | 3 | ogryn_skullbreaker.bulwark | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | ogryn_skullbreaker | 3 | ogryn_skullbreaker.gun_lugger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | psyker | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | voidborn | psyker | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | voidborn | psyker | 3 | psyker.biomancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | voidborn | psyker | 3 | psyker.blank_null_bound | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | voidborn | psyker | 3 | psyker.diviner | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | voidborn | psyker | 3 | psyker.malefic_touched | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | voidborn | psyker | 3 | psyker.pyromancer | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | voidborn | psyker | 3 | psyker.telekine | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002, PHB-CAT-003 | - |
+| ratling | voidborn | ratling_sharpshooter | 1 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | ratling_sharpshooter | 2 | - | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | ratling_sharpshooter | 3 | ratling_sharpshooter.black_market_gremlin | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | ratling_sharpshooter | 3 | ratling_sharpshooter.long_las_sniper | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | ratling_sharpshooter | 3 | ratling_sharpshooter.spotter | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | ratling_sharpshooter | 3 | ratling_sharpshooter.underhive_rat | BLOCKED_BY_CONTENT | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | skitarii_veteran | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | skitarii_veteran | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | skitarii_veteran | 3 | skitarii_veteran.data_hunter | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | skitarii_veteran | 3 | skitarii_veteran.infiltrator | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | skitarii_veteran | 3 | skitarii_veteran.protector | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | skitarii_veteran | 3 | skitarii_veteran.ranger | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | skitarii_veteran | 3 | skitarii_veteran.ruststalker | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | skitarii_veteran | 3 | skitarii_veteran.vanguard | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | veteran | 1 | - | READY_WITH_MANUAL_RULES | - | - | - |
+| ratling | voidborn | veteran | 2 | - | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
+| ratling | voidborn | veteran | 3 | veteran.shock_trooper | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
+| ratling | voidborn | veteran | 3 | veteran.marksman | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
+| ratling | voidborn | veteran | 3 | veteran.sergeant | BLOCKED_BY_ENGINE | - | PHB-CAT-004 | - |
+| ratling | voidborn | zealot | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | zealot | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | zealot | 3 | zealot.flagellant | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | zealot | 3 | zealot.preacher | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
+| ratling | voidborn | zealot | 3 | zealot.purifier | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-001, PHB-CAT-002 | - |
 | skitarii | craftworld_outcast | aeldari_outcast | 1 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
 | skitarii | craftworld_outcast | aeldari_outcast | 2 | - | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |
 | skitarii | craftworld_outcast | aeldari_outcast | 3 | aeldari_outcast.corsair | UNSUPPORTED | - | PHB-CAT-004, PHB-CAT-005, PHB-CAT-001, PHB-CAT-002 | - |

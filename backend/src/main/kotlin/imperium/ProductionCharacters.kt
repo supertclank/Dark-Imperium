@@ -5,8 +5,8 @@ import java.util.UUID
 import kotlinx.serialization.json.*
 
 /** Selections and owned state are persisted separately; derived values are never stored. */
-class ProductionCharacters(private val db: Database, val rules: NarrowRules = NarrowRules.tier2()) {
-    private val profiles=listOf(NarrowRules.bundled(),NarrowRules.tier1(),rules).associateBy { it.id }
+class ProductionCharacters(private val db: Database, val rules: NarrowRules = NarrowRules.tier3()) {
+    private val profiles=listOf(NarrowRules.bundled(),NarrowRules.tier1(),NarrowRules.tier2(),rules).associateBy { it.id }
     fun rulesFor(profileId:String)=profiles[profileId] ?: rules
     init { db.transaction { connection ->
       for(rules in profiles.values) {
@@ -61,6 +61,7 @@ class ProductionCharacters(private val db: Database, val rules: NarrowRules = Na
     fun rename(owner:UUID,id:UUID,name:String):JsonObject = db.transaction { con ->
         if(name.trim().isEmpty() || name.length>80 || name.any(Char::isISOControl)) throw InvalidDraft(listOf(DraftIssue("INVALID_NAME","name","Use 1 to 80 printable characters.")))
         if(con.execute("UPDATE player_characters SET name=?,updated_at=now() WHERE id=? AND user_id=?",name.trim(),id,owner)==0) throw ApiException(404,"NOT_FOUND","Character not found.")
+        con.execute("UPDATE player_character_runtime SET state_version=state_version+1 WHERE character_id=?",id)
         get(con,owner,id)
     }
     fun delete(owner:UUID,id:UUID) { db.transaction { con ->

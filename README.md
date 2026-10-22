@@ -1,3 +1,5 @@
+> **Current release:** [Advancement and Ratling v3 report](docs/import/ADVANCEMENT_RATLING_V3_REPORT.md). Transactional Human Veteran advancement through level 3 and ten Ratling level-one families; 58 certified families total. Older profiles remain pinned. Prior release reports below are historical.
+
 > **Current release:** [Human tier-1 v2 completion report](docs/import/HUMAN_TIER1_V2_REPORT.md). Eight NORMAL Human Origins; Veteran levels 1–3 (Shock Trooper, Marksman, Sergeant at level 3), Hive Scum level 1. Authoritative rolls/history/3D presentation; unresolved procedures explicitly manual or unavailable. Prior reports below are historical.
 
 > **Production narrow builder:** [Implementation and verification](docs/PRODUCTION_CHARACTER_BUILDER.md). Human / Schola Progenium / Veteran, level 1, with Twitchy. Server validation, pinned ruleset, PostgreSQL persistence and sheet are implemented. Full catalogue and authoritative dice execution remain unavailable.

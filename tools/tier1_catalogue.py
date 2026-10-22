@@ -83,9 +83,9 @@ def build():
     approved=[x for x in original if validate_approval(x)]
     origins_approved=[x for x in ledger['humanRulings'] if x['id'] in {f'PHB-RULE-{n:03}' for n in range(1,8)} and validate_approval(x,origin=True)]
     assert len(origins_approved)==7,'All seven Origin approvals require verified provenance'
-    tier_path=ROOT/'content/profiles/di-phb-1.0-tier1-v2.json'
+    tier_path=ROOT/'content/profiles/di-phb-1.0-tier1-v3.json'
     tier=c.read(tier_path) if tier_path.exists() else {'certifiedPaths':[]}
-    tier_bundle=c.read(ROOT/'backend/src/main/resources/profiles/di-phb-1.0-tier1-v2.json')['payload']
+    tier_bundle=c.read(ROOT/'backend/src/main/resources/profiles/di-phb-1.0-tier1-v3.json')['payload']
     certified_features=set().union(*(set(selected_features(records,[x['speciesId'],x['originId'],x['classId'],x['traitId']],x['level'],x.get('subclassId'))['features']) for x in tier['certifiedPaths']))
     groups={kind:sorted((e for e in records.values() if e['kind']==kind),key=lambda e:e['id']) for kind in ['species','background','class','subclass']}
     candidates={e['proposedId']:e for p in sorted((c.PACKAGE/'review/candidates').rglob('*.json')) if isinstance((e:=c.read(p)),dict) and 'proposedId' in e}
@@ -146,11 +146,11 @@ def build():
     for e in groups['species']:
         dep=selected_features(records,[e['id']],1)
         species.append({'id':e['id'],'name':e['name'],'size':e['data']['size'],'sources':e['sources'],**dep,
-          'published':e['id'] in spec['species'],'status':'READY_WITH_MANUAL_RULES' if e['id'] in spec['species'] else 'BLOCKED_BY_ENGINE',
+          'published':e['id'] in tier['species'],'status':'READY_WITH_MANUAL_RULES' if e['id'] in tier['species'] else 'BLOCKED_BY_ENGINE',
           'mechanicalEffects':[effect for key in dep['features'] for effect in records[key]['data'].get('effects',[])],
           'manualCoreReview':[{'id':key,'text':records[key]['data'].get('manualRules',[])} for key in dep['features'] if records[key]['data'].get('manualRules')],
           'classAccess':[k['id'] for k in groups['class'] if eligible(k,e['id']) is True],
-          'gapIds':[] if e['id'] in spec['species'] else ['PHB-CAT-005']})
+          'gapIds':[] if e['id'] in tier['species'] else ['PHB-CAT-005']})
     feature_ruling_refs={key:['PHB-RULE-011'] for key,e in records.items() if e['kind']=='feature' and 'expertise' in str(e['data'].get('manualRules',[])).casefold()}
     for key,support in tier_bundle['featureSupport'].items():
         feature_ruling_refs[key]=support['rulingIds']
@@ -169,7 +169,7 @@ def build():
             gaps=[]
             if not published:
                 gaps.append('PHB-CAT-004')
-                if s['id'] not in spec['species']:gaps.append('PHB-CAT-005')
+                if s['id'] not in tier['species']:gaps.append('PHB-CAT-005')
                 if k['id']!='di.class.veteran':gaps.append('PHB-CAT-001')
                 if 'PHB-CAT-002' in kit_by_class[k['id']]['gaps']:gaps.append('PHB-CAT-002')
                 if k['id'] in ['di.class.psyker','di.class.aeldari_warlock']:gaps.append('PHB-CAT-003')
@@ -189,7 +189,7 @@ def build():
     dispositions={x['id']:x for x in c.read(c.PACKAGE/'review/creation-candidate-dispositions.json')}
     powers=[{'requiredForTier1Pool':dispositions.get(key,{}).get('status')=='BLOCKS_CHARACTER_CREATION','id':key,'status':'BLOCKED','kind':e['kind'],'evidence':e['evidence'],'reason':'No canonical power record or validated choice pool'} for key,e in sorted(candidates.items()) if e['kind']=='power']
     conditional=[{'id':x['id'],'question':x['question'],'impact':x['creationImpact'],'scope':'Apply only when the selected configuration actually exercises this unresolved mechanic; broad historical affectedIds are not a dependency graph.'} for x in original if x['status']=='UNRESOLVED' and x['id'] not in {f'PHB-RULE-{n:03}' for n in range(1,8)}]
-    return {'schemaVersion':1,'scope':'CERTIFIED_PROFILE_AND_REMAINING_READINESS','sourceProfile':{'id':tier['id'],'digest':c.read(ROOT/'backend/src/main/resources/profiles/di-phb-1.0-tier1-v2.json')['digest']},
+    return {'schemaVersion':1,'scope':'CERTIFIED_PROFILE_AND_REMAINING_READINESS','sourceProfile':{'id':tier['id'],'digest':c.read(ROOT/'backend/src/main/resources/profiles/di-phb-1.0-tier1-v3.json')['digest']},
      'approvalGate':{'originalTotal':36,'originalResolved':len(approved),'originalUnresolved':36-len(approved),'originNewlyResolved':7,'originBlocked':[]},
      'counts':{'species':len(species),'origins':len(origins),'classes':len(classes),'subclasses':len(subclasses),'combinations':len(rows),'statuses':{k:sum(x['status']==k for x in rows) for k in ['READY','READY_WITH_MANUAL_RULES','BLOCKED_BY_CONTENT','BLOCKED_BY_ENGINE','BLOCKED_BY_RULING','BLOCKED_BY_APPROVAL','UNSUPPORTED']},
       'equipmentIdentified':len(equipment),'equipmentStatuses':dict(sorted(Counter(x['status'] for x in equipment).items())), 'powerCandidates':len(powers),'powerRequiredTier1':sum(x['requiredForTier1Pool'] for x in powers),'traits':len(traits)},
@@ -202,7 +202,7 @@ GAPS={
  'PHB-CAT-001':'Starting-package certification incomplete outside Veteran and Hive Scum: source tokens/approved aliases are not executable quantity, choice, proficiency and inventory grants.',
  'PHB-CAT-002':'At least one identified starting option remains an incomplete candidate; source alternatives must be independently certified.',
  'PHB-CAT-003':'Psychic power candidates lack canonical power schema/choice pools and production execution boundaries; no manual shortcut can validate unknown creation choices.',
- 'PHB-CAT-004':'Tier-1 adapter certifies eight NORMAL Human Origins for Veteran levels 1–3 and Hive Scum level 1. Other selected-level choice/resource/projection/roll paths require mapping and golden certification.',
+ 'PHB-CAT-004':'Tier-1 adapter certifies Human Veteran levels 1–3 and Hive Scum level 1, plus Ratling Veteran/Hive Scum level 1 across five NORMAL Origins. Other selected-level choice/resource/projection/roll paths require mapping and golden certification.',
  'PHB-CAT-005':'Non-Human species traits include unmapped core calculations/proficiencies/restrictions. Manual prose cannot substitute for those calculations.'}
 
 def render(data):
@@ -216,8 +216,8 @@ def render(data):
     return '\n'.join(lines)+'\n'
 
 def write(check=False):
-    data=build();plan={'id':'di-phb-1.0-tier1-v2','status':'HUMAN_VETERAN_AND_HIVE_SCUM','engineVersion':'phb-tier1-kotlin-v1','levels':[1,2,3],'publishedLevels':[1,2,3],
-      'productionAllowed':True,'allowlist':c.read(ROOT/'content/profiles/di-phb-1.0-tier1-v2.json')['certifiedPaths'],'blockingOriginRulings':data['approvalGate']['originBlocked'],'sourceProfile':data['sourceProfile'],
+    data=build();plan={'id':'di-phb-1.0-tier1-v3','status':'HUMAN_AND_RATLING','engineVersion':'phb-tier1-kotlin-v1','levels':[1,2,3],'publishedLevels':[1,2,3],
+      'productionAllowed':True,'allowlist':c.read(ROOT/'content/profiles/di-phb-1.0-tier1-v3.json')['certifiedPaths'],'blockingOriginRulings':data['approvalGate']['originBlocked'],'sourceProfile':data['sourceProfile'],
       'activationRequirements':['Approved Origin ledger entries with exact decision, hash, user provenance, timestamp, source relationship and affected IDs','Explicit eligible tuple allowlist, selected-choice dependency certification and golden fixtures','New adapter registration and immutable export; old snapshots retain their adapter','Server filtering, authoritative validation, creation/retrieval/rolling/browser regression'],
       'gapDefinitions':GAPS,'auditDigest':c.digest(data)}
     outputs={OUT:json.dumps(data,ensure_ascii=False,indent=2)+'\n',c.PACKAGE/'review/tier1-publication-plan.json':json.dumps(plan,ensure_ascii=False,indent=2)+'\n',ROOT/'docs/import/LEVEL_1_3_PUBLICATION_MATRIX.md':render(data)}

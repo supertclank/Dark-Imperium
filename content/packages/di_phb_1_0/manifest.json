@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "packageId": "di_phb",
-  "packageVersion": "1.0-human-tier1.2",
+  "packageVersion": "1.0-ratling-tier1.3",
   "lifecycle": "draft",
   "dependencies": [],
   "sources": [
@@ -2490,9 +2490,9 @@
     },
     {
       "id": "di.feature.species.ratling.traits",
-      "revision": 2,
+      "revision": 3,
       "path": "entities/feature/species.ratling.traits.json",
-      "sha256": "d2dbbc41c141d429ee3217ec13bdc0a7b05f19e75f60480bf952d87b8c77caf8"
+      "sha256": "09af703a6e477eec3f2ea34f3eb6d8a4994e912b99ce7a5008e97393e8b65237"
     },
     {
       "id": "di.feature.species.skitarii.baseline",
