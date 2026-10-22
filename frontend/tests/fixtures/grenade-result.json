@@ -1,0 +1,172 @@
+{
+  "id": "ce6c564e-0e7d-40ed-8d6f-ff48b57d9843",
+  "requestId": "0a09961f-fe68-4c49-a634-7dfde828375f",
+  "userId": "20f8fd50-2267-4aec-aae5-3d622f37375a",
+  "characterId": "4ffd8ea8-5ba2-4c39-b50b-8739f1031b7e",
+  "characterName": "Dice fixture soldier",
+  "rulesetProfileId": "di-phb-1.0-narrow-v1",
+  "rulesetDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+  "engineVersion": "production-dice-v1",
+  "actionId": "di.action.frag_grenade.throw",
+  "requestedRollId": "5561dcf6-0748-3d3e-83c5-04b900b26b58",
+  "rollDefinitionId": "e11c0caa-6e28-3178-8efe-d90edc3389bc",
+  "definition": {
+    "schemaVersion": 1,
+    "id": "e11c0caa-6e28-3178-8efe-d90edc3389bc",
+    "category": "damage",
+    "label": "Frag Grenade damage",
+    "source": {
+      "kind": "content",
+      "ref": {
+        "id": "di.weapon.frag_grenade"
+      }
+    },
+    "actor": {
+      "kind": "character",
+      "instanceId": "4ffd8ea8-5ba2-4c39-b50b-8739f1031b7e"
+    },
+    "snapshot": {
+      "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+      "engineVersion": "narrow-kotlin-v1",
+      "stateVersion": 0,
+      "contextDigest": "502d071c8cf07df9b09a4a6113eae1a2d45965e0ca30f86ec695404ec73968c7"
+    },
+    "components": [
+      {
+        "id": "base",
+        "groups": [
+          {
+            "id": "base",
+            "count": 3,
+            "sides": 6
+          }
+        ],
+        "modifiers": [
+          {
+            "id": "resolved",
+            "value": 0,
+            "source": {
+              "kind": "content",
+              "ref": {
+                "id": "di.weapon.frag_grenade"
+              }
+            },
+            "label": "Server-calculated modifier",
+            "contextual": false
+          }
+        ],
+        "damageType": {
+          "id": "di.damage_type.piercing"
+        }
+      }
+    ],
+    "advantage": {
+      "state": "normal",
+      "policyId": "phb.advantage.v1",
+      "appliedGroupIds": []
+    },
+    "critical": {
+      "policyId": "phb.critical.v1",
+      "status": "disabled"
+    },
+    "action": {
+      "ref": {
+        "id": "di.action.frag_grenade.throw"
+      },
+      "executionId": "b41493ec-1e15-3bad-bc3c-180664ac5af6",
+      "stageId": "damage",
+      "modeId": "base"
+    }
+  },
+  "label": "Frag Grenade damage",
+  "rollType": "damage",
+  "dice": {
+    "groups": [
+      {
+        "sides": 6,
+        "dice": [
+          4,
+          6,
+          3
+        ],
+        "keptIndices": [
+          0,
+          1,
+          2
+        ],
+        "discardedIndices": [],
+        "kept": [
+          4,
+          6,
+          3
+        ],
+        "discarded": [],
+        "keep": "ALL"
+      }
+    ],
+    "modifier": 0,
+    "total": 13
+  },
+  "total": 13,
+  "naturalResult": null,
+  "criticalCandidate": false,
+  "naturalOne": false,
+  "damageType": {
+    "id": "di.damage_type.piercing",
+    "name": "Piercing"
+  },
+  "visibility": "PRIVATE",
+  "timestamp": "2026-10-22T19:44:05.732496800Z",
+  "parentResultId": null,
+  "context": {
+    "ability": null,
+    "parentResultId": null,
+    "mode": "baseline",
+    "targetResolution": "MANUAL",
+    "criticalDamage": "NOT_APPLIED",
+    "consumptionConfirmed": true
+  },
+  "stateVersionBefore": 0,
+  "stateVersionAfter": 1,
+  "grenade": {
+    "saveAttribute": "dexterity",
+    "saveDc": 12,
+    "area": {
+      "shape": "sphere",
+      "radius": {
+        "unit": "ft",
+        "value": 15
+      }
+    },
+    "outcomes": {
+      "failure": 13,
+      "success": 6
+    },
+    "rule": {
+      "dcPolicy": "phb.grenade_dc.v1",
+      "outcomes": {
+        "failure": {
+          "rounding": "floor",
+          "damageMultiplier": {
+            "numerator": 1,
+            "denominator": 1
+          }
+        },
+        "success": {
+          "rounding": "floor",
+          "damageMultiplier": {
+            "numerator": 1,
+            "denominator": 2
+          }
+        }
+      },
+      "attribute": "dexterity"
+    },
+    "application": "Target-by-target application currently requires manual adjudication."
+  },
+  "consumption": {
+    "itemId": "di.weapon.frag_grenade",
+    "quantity": 1,
+    "remaining": 1
+  }
+}

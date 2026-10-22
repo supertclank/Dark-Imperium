@@ -1140,3 +1140,15 @@ summary { cursor:pointer; line-height:1.8; }
 .calculated-summary .attribute small { display:block; padding:5px; line-height:1.6; }
 .calculated-summary .weapon-stats { flex-wrap:wrap; }
 @media (max-width:600px) { .ability-inputs { grid-template-columns:repeat(2,minmax(0,1fr)); } .core-stat-grid,.skills-grid { grid-template-columns:1fr; } .builder-steps { gap:12px; } }
+
+.roll-controls details { border-top:1px solid var(--line); padding:1rem 0; }
+.roll-controls summary { cursor:pointer; font-weight:600; margin-bottom:.8rem; }
+.roll-button-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:.75rem; }
+.roll-button-grid button { width:100%; text-align:left; }
+.roll-panel button { margin:.2rem .5rem .2rem 0; }
+.roll-result { padding:1rem; border:1px solid var(--line); margin:1rem 0; }
+.roll-total { font-size:1.25rem; }
+.roll-history { padding-left:1.25rem; }
+.roll-history li { margin:.7rem 0; }
+.consumption-confirm { border:2px solid var(--brass); padding:1rem; margin:1rem 0; }
+@media (prefers-reduced-motion: reduce) { .roll-panel * { animation:none!important; transition:none!important; } }

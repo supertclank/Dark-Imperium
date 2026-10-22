@@ -106,3 +106,7 @@ The supplied Version 1.0 handbook is now registered and partially transcribed. S
 ## Human rulings integration pass — 2026-10-22
 
 Current result: [Character creation readiness report](docs/import/CHARACTER_CREATION_READINESS_REPORT.md).874 canonical drafts; 333 candidates; 61 passing content tests. Human rulings 0 integrated/36 unresolved. Builder BLOCKED; rules/dice PARTIAL. Docker and native application test execution remain environment-blocked.
+
+## Production dice rolling — 2026-10-22
+
+The validated narrow sheet now supports server-authoritative checks, saves, initiative, weapon rolls, transactional Frag Grenade use and private persisted history. See [production dice completion report](docs/PRODUCTION_DICE_ROLLING.md) for API design, 43 backend / 28 frontend / 95 content passing tests, browser acceptance and explicit production-build/Docker verification limits. Earlier milestone sections above are historical.

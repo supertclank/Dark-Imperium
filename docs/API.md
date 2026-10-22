@@ -36,3 +36,11 @@ Character responses contain identity, `rulesetProfileId`, `rulesetDigest`, `sele
 Character validation errors use `{ "status": "INVALID", "errors": [{ "code": "MISSING_CHOICE", "field": "answers.choiceId", "message": "Choose a listed option." }] }`. Validation returns 200; invalid creation returns 422. Other route errors retain the envelope above.
 
 See [production builder](PRODUCTION_CHARACTER_BUILDER.md) for the complete profile, request shape, idempotency semantics and runtime boundary. Legacy `/species`, `/classes` and `/weapons` are development reference endpoints, not production builder inputs.
+
+## Production rolls
+
+- `GET /api/characters/{id}/rolls/options`: supported canonical choices, availability, current version and profile pin.
+- `POST /api/characters/{id}/rolls`: required `requestId` (UUID), `rollId` (issued option ID), `profileId`, `profileDigest`, `expectedStateVersion`; optional `ability`, `parentResultId`, `visibility` (PRIVATE only), `confirmConsumption` (required true for grenade use). Dice, totals, modifiers, actions and user IDs are not accepted as inputs.
+- `GET /api/characters/{id}/rolls?limit=25`: `{items,limit,hasMore}`, newest first, bounded 1–50. Results are persisted snapshots, not recomputed projections.
+
+All routes require character ownership and use existing session/origin protections. POST returns 200 for both first execution and identical replay. A changed owner/request-key payload or stale state returns 409. Replay returns the original result even after its state version becomes stale. Invalid contexts/actions are rejected with structured error codes. Missing or unowned characters return 404. See [dice completion report](PRODUCTION_DICE_ROLLING.md).

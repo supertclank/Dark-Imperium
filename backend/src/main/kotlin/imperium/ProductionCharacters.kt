@@ -33,7 +33,7 @@ class ProductionCharacters(private val db: Database, val rules: NarrowRules = Na
         }
     }
     fun get(owner:UUID,id:UUID):JsonObject=db.read { get(it,owner,id) }
-    private fun get(con:Connection,owner:UUID,id:UUID):JsonObject {
+    internal fun get(con:Connection,owner:UUID,id:UUID):JsonObject {
         val base=con.query("SELECT c.*,p.snapshot FROM player_characters c JOIN ruleset_profiles p ON p.id=c.profile_id AND p.digest=c.profile_digest WHERE c.id=? AND c.user_id=?",id,owner) { row ->
             Triple(obj("id" to id.toString(),"name" to row.getString("name"),"createdAt" to row.getTimestamp("created_at").toInstant().toString(),"updatedAt" to row.getTimestamp("updated_at").toInstant().toString()),
                 NarrowDraft(profileId=row.getString("profile_id"),profileDigest=row.getString("profile_digest"),requestId=row.getString("request_id"),name=row.getString("name"),speciesId=row.getString("species_id"),originId=row.getString("origin_id"),classId=row.getString("class_id"),traitId=row.getString("trait_id"),level=row.getInt("level"),attributes=Json.decodeFromString(row.getString("base_attributes")),packageChoices=Json.decodeFromString(row.getString("package_choices"))),
@@ -45,7 +45,7 @@ class ProductionCharacters(private val db: Database, val rules: NarrowRules = Na
         val calculation=base.third.validate(draft,id.toString())
         check(calculation.errors.isEmpty()) { "Persisted selections violate their pinned profile" }
         val runtime=con.query("SELECT * FROM player_character_runtime WHERE character_id=?",id) { row -> obj("currentHp" to row.getInt("current_hp"),"stateVersion" to row.getLong("state_version"),"resources" to Json.parseToJsonElement(row.getString("resources")),"conditions" to Json.parseToJsonElement(row.getString("conditions")),"temporaryEffects" to Json.parseToJsonElement(row.getString("temporary_effects"))) }.single()
-        return JsonObject(base.first+mapOf("rulesetProfileId" to JsonPrimitive(draft.profileId),"rulesetDigest" to JsonPrimitive(draft.profileDigest),"selections" to Json.encodeToJsonElement(NarrowDraft.serializer(),draft),"species" to obj("id" to draft.speciesId,"name" to base.third.label(draft.speciesId)),"origin" to obj("id" to draft.originId,"name" to base.third.label(draft.originId)),"characterClass" to obj("id" to draft.classId,"name" to base.third.label(draft.classId)),"trait" to obj("id" to draft.traitId,"name" to base.third.label(draft.traitId)),"level" to JsonPrimitive(draft.level),"calculated" to calculation.calculated!!,"runtime" to runtime,"inventory" to json(inventory)))
+        return JsonObject(base.first+mapOf("rulesetProfileId" to JsonPrimitive(draft.profileId),"rulesetDigest" to JsonPrimitive(draft.profileDigest),"selections" to Json { encodeDefaults = true }.encodeToJsonElement(NarrowDraft.serializer(),draft),"species" to obj("id" to draft.speciesId,"name" to base.third.label(draft.speciesId)),"origin" to obj("id" to draft.originId,"name" to base.third.label(draft.originId)),"characterClass" to obj("id" to draft.classId,"name" to base.third.label(draft.classId)),"trait" to obj("id" to draft.traitId,"name" to base.third.label(draft.traitId)),"level" to JsonPrimitive(draft.level),"calculated" to calculation.calculated!!,"runtime" to runtime,"inventory" to json(inventory)))
     }
     fun list(owner:UUID):List<JsonObject> = db.read { con ->
         con.query("SELECT id FROM player_characters WHERE user_id=? ORDER BY created_at DESC",owner) { it.getObject(1,UUID::class.java) }.map { id ->

@@ -88,3 +88,7 @@ Cached dependency files were recovered locally because this environment rejects 
 This release has no full catalogue, level-up/respec, campaign/encounter management, runtime combat mutation, authoritative dice rolling, 3D dice or persisted builder drafts. The 31 original unanswered rulings remain blocked. Manual feature prose is visible with its source; display does not imply automation. The separate legacy reference catalogue is not a production eligibility source.
 
 Recommended next task: implement production browser dice rolling for the validated sheet, with server-authoritative roll execution, current-state/action validation, idempotent consumption and roll results/history. Keep 3D presentation as a later layer.
+
+## Subsequent dice milestone
+
+The later [production dice report](PRODUCTION_DICE_ROLLING.md) supersedes this milestone's no-rolling limitation and next-task recommendation. The builder/profile scope and unresolved game-rule boundaries remain unchanged.

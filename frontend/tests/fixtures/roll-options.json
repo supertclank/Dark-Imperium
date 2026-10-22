@@ -1,0 +1,713 @@
+{
+  "profileId": "di-phb-1.0-narrow-v1",
+  "profileDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+  "stateVersion": 0,
+  "options": [
+    {
+      "id": "501d4a22-01e1-33a8-8807-e5ac14f099f4",
+      "label": "strength check",
+      "category": "attribute",
+      "actionId": null,
+      "itemId": null,
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": null,
+      "abilities": [],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 20
+        }
+      ],
+      "modifier": 3
+    },
+    {
+      "id": "9b6d1080-92fa-391d-805e-3061d9b44748",
+      "label": "dexterity check",
+      "category": "attribute",
+      "actionId": null,
+      "itemId": null,
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": null,
+      "abilities": [],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 20
+        }
+      ],
+      "modifier": 2
+    },
+    {
+      "id": "56411f85-aa1e-3012-baf3-1b60de628753",
+      "label": "constitution check",
+      "category": "attribute",
+      "actionId": null,
+      "itemId": null,
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": null,
+      "abilities": [],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 20
+        }
+      ],
+      "modifier": 1
+    },
+    {
+      "id": "4686f106-0020-3400-a4e3-edb565c61d6c",
+      "label": "intelligence check",
+      "category": "attribute",
+      "actionId": null,
+      "itemId": null,
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": null,
+      "abilities": [],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 20
+        }
+      ],
+      "modifier": 1
+    },
+    {
+      "id": "12acb6ba-47d0-34f1-b178-5a0640faa925",
+      "label": "wisdom check",
+      "category": "attribute",
+      "actionId": null,
+      "itemId": null,
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": null,
+      "abilities": [],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 20
+        }
+      ],
+      "modifier": 0
+    },
+    {
+      "id": "434d8230-469e-321f-9f32-8179acca964a",
+      "label": "charisma check",
+      "category": "attribute",
+      "actionId": null,
+      "itemId": null,
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": null,
+      "abilities": [],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 20
+        }
+      ],
+      "modifier": -1
+    },
+    {
+      "id": "39a0dccd-7f69-3e2b-bff8-738e2e903ed1",
+      "label": "Acrobatics",
+      "category": "skill",
+      "actionId": null,
+      "itemId": null,
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": null,
+      "abilities": [],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 20
+        }
+      ],
+      "modifier": 4
+    },
+    {
+      "id": "5a2e7c5e-eb7d-3435-93e2-f8071d165518",
+      "label": "Athletics",
+      "category": "skill",
+      "actionId": null,
+      "itemId": null,
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": null,
+      "abilities": [],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 20
+        }
+      ],
+      "modifier": 5
+    },
+    {
+      "id": "34b94942-ebd4-3faf-986e-efbc627de96f",
+      "label": "Deception",
+      "category": "skill",
+      "actionId": null,
+      "itemId": null,
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": null,
+      "abilities": [],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 20
+        }
+      ],
+      "modifier": -1
+    },
+    {
+      "id": "6fc4b187-a867-37d9-8232-8f7da1657e9f",
+      "label": "History",
+      "category": "skill",
+      "actionId": null,
+      "itemId": null,
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": null,
+      "abilities": [],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 20
+        }
+      ],
+      "modifier": 3
+    },
+    {
+      "id": "6eab515e-91d3-3e54-8646-f5216eb7fa41",
+      "label": "Insight",
+      "category": "skill",
+      "actionId": null,
+      "itemId": null,
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": null,
+      "abilities": [],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 20
+        }
+      ],
+      "modifier": 2
+    },
+    {
+      "id": "d78d94ca-3dbb-3923-8eac-8d72600df36a",
+      "label": "Intimidation",
+      "category": "skill",
+      "actionId": null,
+      "itemId": null,
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": null,
+      "abilities": [],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 20
+        }
+      ],
+      "modifier": 1
+    },
+    {
+      "id": "80c1ac90-b466-3d96-ade2-038f1540a462",
+      "label": "Investigation",
+      "category": "skill",
+      "actionId": null,
+      "itemId": null,
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": null,
+      "abilities": [],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 20
+        }
+      ],
+      "modifier": 1
+    },
+    {
+      "id": "1576c130-1165-3971-9882-1f20b3c79a74",
+      "label": "Medicine",
+      "category": "skill",
+      "actionId": null,
+      "itemId": null,
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": null,
+      "abilities": [],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 20
+        }
+      ],
+      "modifier": 0
+    },
+    {
+      "id": "1a45aced-4cfd-361c-9217-1cfbdf6dd4d2",
+      "label": "Perception",
+      "category": "skill",
+      "actionId": null,
+      "itemId": null,
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": null,
+      "abilities": [],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 20
+        }
+      ],
+      "modifier": 0
+    },
+    {
+      "id": "6b55e4de-34b2-35fb-bdf7-cb062180537a",
+      "label": "Persuasion",
+      "category": "skill",
+      "actionId": null,
+      "itemId": null,
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": null,
+      "abilities": [],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 20
+        }
+      ],
+      "modifier": -1
+    },
+    {
+      "id": "a29812ed-b1ac-349a-920d-fdd1e2b8cdb1",
+      "label": "Religion",
+      "category": "skill",
+      "actionId": null,
+      "itemId": null,
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": null,
+      "abilities": [],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 20
+        }
+      ],
+      "modifier": 1
+    },
+    {
+      "id": "e149161f-6e80-38ec-baab-025677567d76",
+      "label": "Sleight of Hand",
+      "category": "skill",
+      "actionId": null,
+      "itemId": null,
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": null,
+      "abilities": [],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 20
+        }
+      ],
+      "modifier": 2
+    },
+    {
+      "id": "da9946df-2e7b-3321-9da8-e5ce82a02d59",
+      "label": "Stealth",
+      "category": "skill",
+      "actionId": null,
+      "itemId": null,
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": null,
+      "abilities": [],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 20
+        }
+      ],
+      "modifier": 2
+    },
+    {
+      "id": "0a57873e-45ed-31b4-af2f-a60fb0ea848d",
+      "label": "Survival",
+      "category": "skill",
+      "actionId": null,
+      "itemId": null,
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": null,
+      "abilities": [],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 20
+        }
+      ],
+      "modifier": 0
+    },
+    {
+      "id": "7d0c1cf5-b460-3af7-9396-cfd8dd85556d",
+      "label": "Technology",
+      "category": "skill",
+      "actionId": null,
+      "itemId": null,
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": null,
+      "abilities": [],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 20
+        }
+      ],
+      "modifier": 1
+    },
+    {
+      "id": "1eee7675-bd60-3df4-9991-fc7e28b20b63",
+      "label": "strength save",
+      "category": "save",
+      "actionId": null,
+      "itemId": null,
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": null,
+      "abilities": [],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 20
+        }
+      ],
+      "modifier": 3
+    },
+    {
+      "id": "6ecd29fe-1689-3fe3-af04-b07ca2567443",
+      "label": "dexterity save",
+      "category": "save",
+      "actionId": null,
+      "itemId": null,
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": null,
+      "abilities": [],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 20
+        }
+      ],
+      "modifier": 4
+    },
+    {
+      "id": "4c1ea9ff-e35d-3997-9da1-056e0987685b",
+      "label": "constitution save",
+      "category": "save",
+      "actionId": null,
+      "itemId": null,
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": null,
+      "abilities": [],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 20
+        }
+      ],
+      "modifier": 1
+    },
+    {
+      "id": "40266f08-0b2a-3a13-91ca-ce2c0b23eb34",
+      "label": "intelligence save",
+      "category": "save",
+      "actionId": null,
+      "itemId": null,
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": null,
+      "abilities": [],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 20
+        }
+      ],
+      "modifier": 1
+    },
+    {
+      "id": "1bfb400e-39a2-3ae3-86ee-e43c32120d0a",
+      "label": "wisdom save",
+      "category": "save",
+      "actionId": null,
+      "itemId": null,
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": null,
+      "abilities": [],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 20
+        }
+      ],
+      "modifier": 2
+    },
+    {
+      "id": "6025e108-e147-3335-9514-787873426ffe",
+      "label": "charisma save",
+      "category": "save",
+      "actionId": null,
+      "itemId": null,
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": null,
+      "abilities": [],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 20
+        }
+      ],
+      "modifier": -1
+    },
+    {
+      "id": "9b726fbf-3653-384e-94f3-ea3d3ae9cf25",
+      "label": "Initiative",
+      "category": "ability",
+      "actionId": null,
+      "itemId": null,
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": null,
+      "abilities": [],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 20
+        }
+      ],
+      "modifier": 4
+    },
+    {
+      "id": "9e135f58-d7d9-39f1-8d98-067a69f2b90e",
+      "label": "Combat Blade attack",
+      "category": "attack",
+      "actionId": "di.action.combat_blade.attack",
+      "itemId": "di.weapon.combat_blade",
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": 1,
+      "abilities": [
+        "strength",
+        "dexterity"
+      ],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 20
+        }
+      ],
+      "modifier": 5
+    },
+    {
+      "id": "bc5ad047-e7d9-3134-a827-9886358e2f84",
+      "label": "Combat Blade damage",
+      "category": "damage",
+      "actionId": "di.action.combat_blade.attack",
+      "itemId": "di.weapon.combat_blade",
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": 1,
+      "abilities": [
+        "strength",
+        "dexterity"
+      ],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 6
+        }
+      ],
+      "modifier": 3
+    },
+    {
+      "id": "5561dcf6-0748-3d3e-83c5-04b900b26b58",
+      "label": "Frag Grenade damage",
+      "category": "damage",
+      "actionId": "di.action.frag_grenade.throw",
+      "itemId": "di.weapon.frag_grenade",
+      "available": true,
+      "reason": null,
+      "consumes": true,
+      "quantity": 2,
+      "abilities": [],
+      "groups": [
+        {
+          "id": "base",
+          "count": 3,
+          "sides": 6
+        }
+      ],
+      "modifier": 0
+    },
+    {
+      "id": "339e20a7-4663-3e28-9a5d-0ffae3c286e6",
+      "label": "Lasgun attack",
+      "category": "attack",
+      "actionId": "di.action.lasgun.attack",
+      "itemId": "di.weapon.lasgun",
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": 1,
+      "abilities": [],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 20
+        }
+      ],
+      "modifier": 4
+    },
+    {
+      "id": "eea968bb-10ef-3725-bec7-e0523448112d",
+      "label": "Lasgun damage",
+      "category": "damage",
+      "actionId": "di.action.lasgun.attack",
+      "itemId": "di.weapon.lasgun",
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": 1,
+      "abilities": [],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 8
+        }
+      ],
+      "modifier": 2
+    },
+    {
+      "id": "aeba831b-9410-3ec1-9915-d94a638cd0ca",
+      "label": "Laspistol attack",
+      "category": "attack",
+      "actionId": "di.action.laspistol.attack",
+      "itemId": "di.weapon.laspistol",
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": 1,
+      "abilities": [],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 20
+        }
+      ],
+      "modifier": 4
+    },
+    {
+      "id": "8ea10860-3677-3894-a03b-0a1a4bd686eb",
+      "label": "Laspistol damage",
+      "category": "damage",
+      "actionId": "di.action.laspistol.attack",
+      "itemId": "di.weapon.laspistol",
+      "available": true,
+      "reason": null,
+      "consumes": false,
+      "quantity": 1,
+      "abilities": [],
+      "groups": [
+        {
+          "id": "base",
+          "count": 1,
+          "sides": 6
+        }
+      ],
+      "modifier": 2
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "1be02b9c-8047-4427-a7dc-69e905f23fd5",
+  "requestId": "49abaf21-2634-4b6a-a112-22dcaef33adf",
+  "userId": "20f8fd50-2267-4aec-aae5-3d622f37375a",
+  "characterId": "4ffd8ea8-5ba2-4c39-b50b-8739f1031b7e",
+  "characterName": "Dice fixture soldier",
+  "rulesetProfileId": "di-phb-1.0-narrow-v1",
+  "rulesetDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+  "engineVersion": "production-dice-v1",
+  "actionId": "di.action.lasgun.attack",
+  "requestedRollId": "339e20a7-4663-3e28-9a5d-0ffae3c286e6",
+  "rollDefinitionId": "9ca214d3-46df-3877-9731-cb929bf50600",
+  "definition": {
+    "schemaVersion": 1,
+    "id": "9ca214d3-46df-3877-9731-cb929bf50600",
+    "category": "attack",
+    "label": "Lasgun attack",
+    "source": {
+      "kind": "content",
+      "ref": {
+        "id": "di.weapon.lasgun"
+      }
+    },
+    "actor": {
+      "kind": "character",
+      "instanceId": "4ffd8ea8-5ba2-4c39-b50b-8739f1031b7e"
+    },
+    "snapshot": {
+      "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+      "engineVersion": "narrow-kotlin-v1",
+      "stateVersion": 0,
+      "contextDigest": "34ccdb1f3752c43ff64b01dc593a57f4718e2be150a438b8bf75ffdf3e396b22"
+    },
+    "components": [
+      {
+        "id": "base",
+        "groups": [
+          {
+            "id": "base",
+            "count": 1,
+            "sides": 20
+          }
+        ],
+        "modifiers": [
+          {
+            "id": "resolved",
+            "value": 4,
+            "source": {
+              "kind": "content",
+              "ref": {
+                "id": "di.weapon.lasgun"
+              }
+            },
+            "label": "Server-calculated modifier",
+            "contextual": false
+          }
+        ]
+      }
+    ],
+    "advantage": {
+      "state": "normal",
+      "policyId": "phb.advantage.v1",
+      "appliedGroupIds": []
+    },
+    "critical": {
+      "policyId": "phb.critical.v1",
+      "status": "enabled",
+      "threshold": 20,
+      "comparison": "at_least"
+    },
+    "natural": {
+      "componentId": "base",
+      "groupId": "base"
+    },
+    "action": {
+      "ref": {
+        "id": "di.action.lasgun.attack"
+      },
+      "executionId": "e75ab461-b037-3c66-8f1a-2cb60da2f56d",
+      "stageId": "attack",
+      "modeId": "base"
+    }
+  },
+  "label": "Lasgun attack",
+  "rollType": "attack",
+  "dice": {
+    "groups": [
+      {
+        "sides": 20,
+        "dice": [
+          13
+        ],
+        "keptIndices": [
+          0
+        ],
+        "discardedIndices": [],
+        "kept": [
+          13
+        ],
+        "discarded": [],
+        "keep": "ALL"
+      }
+    ],
+    "modifier": 4,
+    "total": 17
+  },
+  "total": 17,
+  "naturalResult": 13,
+  "criticalCandidate": false,
+  "naturalOne": false,
+  "damageType": null,
+  "visibility": "PRIVATE",
+  "timestamp": "2026-10-22T19:44:05.466383800Z",
+  "parentResultId": null,
+  "context": {
+    "ability": "dexterity",
+    "parentResultId": null,
+    "mode": "baseline",
+    "targetResolution": "MANUAL",
+    "criticalDamage": "NOT_APPLIED",
+    "consumptionConfirmed": false
+  },
+  "stateVersionBefore": 0,
+  "stateVersionAfter": 0,
+  "grenade": null,
+  "consumption": null
+}

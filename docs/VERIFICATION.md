@@ -38,3 +38,7 @@ Mobile/tablet media rules and keyboard-accessible native controls are implemente
 ## Next milestone
 
 Agree the authoritative initial rules and introduce validated, immutable content revisions with calculated-value explanations. Then add a small, fully tested character-state editing flow for wounds/attributes. Keep advanced systems deferred until those foundations are stable.
+
+## Production dice verification
+
+See [production dice rolling](PRODUCTION_DICE_ROLLING.md) for the latest counts, fresh V1–V5 and V4→V5 migration checks, browser grenade replay acceptance, and production-build/Docker environment limits.

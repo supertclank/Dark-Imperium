@@ -30,10 +30,11 @@ fun main() {
         module(db, config)
     }.start(wait = true)
 }
-fun Application.module(db: Database, config: AppConfig) {
+fun Application.module(db: Database, config: AppConfig, dice: DiceEngine = DiceEngine()) {
     val auth = AuthService(db)
     val content = ContentRepository(db)
     val characters = ProductionCharacters(db)
+    val rolls = CharacterRolls(db,characters,dice)
     val logger = LoggerFactory.getLogger("imperium.api")
     install(ContentNegotiation) { json(Json { ignoreUnknownKeys = false }) }
     install(StatusPages) {
@@ -97,6 +98,19 @@ fun Application.module(db: Database, config: AppConfig) {
             get("/characters/{id}") {
                 val owner = call.owner(); val id = uuid(call.parameters["id"]!!)
                 call.respond(withContext(Dispatchers.IO) { characters.get(owner, id) })
+            }
+            get("/characters/{id}/rolls/options") {
+                val owner=call.owner();val id=uuid(call.parameters["id"]!!)
+                call.respond(withContext(Dispatchers.IO) { rolls.options(owner,id) })
+            }
+            post("/characters/{id}/rolls") {
+                val owner=call.owner();val id=uuid(call.parameters["id"]!!);val input=call.receive<RollRequest>()
+                call.respond(HttpStatusCode.OK,withContext(Dispatchers.IO) { rolls.execute(owner,id,input) })
+            }
+            get("/characters/{id}/rolls") {
+                val owner=call.owner();val id=uuid(call.parameters["id"]!!)
+                val limit=call.request.queryParameters["limit"]?.let { it.toIntOrNull() ?: throw ApiException(400,"INVALID_CONTEXT","History limit must be an integer.") } ?: 25
+                call.respond(withContext(Dispatchers.IO) { rolls.history(owner,id,limit) })
             }
             patch("/characters/{id}") {
                 val owner = call.owner(); val id = uuid(call.parameters["id"]!!); val input = call.receive<RenameCharacter>()
