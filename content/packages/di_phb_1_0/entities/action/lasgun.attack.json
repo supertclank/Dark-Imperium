@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "di.action.lasgun.attack",
+  "kind": "action",
+  "revision": 1,
+  "name": "Lasgun attack",
+  "summary": "Lasgun attack",
+  "descriptionMarkdown": "Lasgun attack",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "17",
+        "heading": "Lasgun attack",
+        "pdfPage": 37,
+        "printedPage": 24
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "economy": "manual",
+    "target": {
+      "kind": "single",
+      "scope": "actor"
+    },
+    "costs": [],
+    "outcomes": [
+      {
+        "id": "hit",
+        "on": "always",
+        "effects": [],
+        "manualRules": [
+          {
+            "id": "source_rule",
+            "automation": "manual",
+            "text": "Use the source attack and damage procedure. Resolve ammunition, target context and hit outcome before applying damage.",
+            "adjudicator": "gm",
+            "context": "source-defined procedure",
+            "reason": "Source-defined manual procedure; no automatic bonus inferred."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -19,7 +19,7 @@ class CanonicalisationTests(unittest.TestCase):
         self.assertEqual(len(self.triage),385)
         self.assertEqual(len({x['id'] for x in self.triage}),385)
         for x in self.triage:
-            if x['category']=='AUTO_COMPLETABLE':self.assertIn(x['id'],self.records)
+            if x['category'] in ['AUTO_COMPLETABLE','HUMAN_RULING_PROMOTED']:self.assertIn(x['id'],self.records)
             else:self.assertNotIn(x['id'],self.records)
         self.assertEqual(sum(x['category']=='AUTO_COMPLETABLE' for x in self.triage),52)
 
@@ -176,7 +176,8 @@ class CanonicalisationTests(unittest.TestCase):
         self.assertEqual(pp.severity_band(6,1),'bleeding_eyes')
 
     def test_unresolved_calculations_do_not_inherit_other_games(self):
-        for name in ['attribute_modifier','resistance','expertise','asi','post_perils_rounding']:
+        self.assertEqual(pp.ability_modifier(9),-1)
+        for name in ['resistance','expertise','asi','post_perils_rounding']:
             with self.assertRaisesRegex(ci.InvalidContent,'HUMAN_RULING_REQUIRED'):pp.unsupported(name)
 
     def test_dependency_graph_rejects_cycles(self):

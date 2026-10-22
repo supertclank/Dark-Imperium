@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "di.choice.starting.minor_augmetic",
+  "kind": "choice",
+  "revision": 1,
+  "name": "Minor augmetic",
+  "summary": "Minor augmetic",
+  "descriptionMarkdown": "Minor augmetic",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "17",
+        "heading": "Minor augmetic",
+        "pdfPage": 89,
+        "printedPage": 76
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "purpose": "equipment",
+    "selectionMode": "options",
+    "cardinality": {
+      "min": 1,
+      "max": 1,
+      "unique": true
+    },
+    "repeatScope": "once_per_actor",
+    "options": [
+      {
+        "id": "optical_implant",
+        "label": "Optical Implant",
+        "grants": [
+          {
+            "id": "item",
+            "kind": "select",
+            "content": {
+              "id": "di.augmetic.optical_implant"
+            }
+          }
+        ]
+      },
+      {
+        "id": "respirator_implant",
+        "label": "Respirator Implant",
+        "grants": [
+          {
+            "id": "item",
+            "kind": "select",
+            "content": {
+              "id": "di.augmetic.respirator_implant"
+            }
+          }
+        ]
+      },
+      {
+        "id": "data_jack",
+        "label": "Data-Jack",
+        "grants": [
+          {
+            "id": "item",
+            "kind": "select",
+            "content": {
+              "id": "di.augmetic.data_jack"
+            }
+          }
+        ]
+      },
+      {
+        "id": "vox_implant",
+        "label": "Vox Implant",
+        "grants": [
+          {
+            "id": "item",
+            "kind": "select",
+            "content": {
+              "id": "di.augmetic.vox_implant"
+            }
+          }
+        ]
+      },
+      {
+        "id": "mag_lock_palm",
+        "label": "Mag-Lock Palm",
+        "grants": [
+          {
+            "id": "item",
+            "kind": "select",
+            "content": {
+              "id": "di.augmetic.mag_lock_palm"
+            }
+          }
+        ]
+      },
+      {
+        "id": "dermal_insulation",
+        "label": "Dermal Insulation",
+        "grants": [
+          {
+            "id": "item",
+            "kind": "select",
+            "content": {
+              "id": "di.augmetic.dermal_insulation"
+            }
+          }
+        ]
+      },
+      {
+        "id": "internal_chrono",
+        "label": "Internal Chrono",
+        "grants": [
+          {
+            "id": "item",
+            "kind": "select",
+            "content": {
+              "id": "di.augmetic.internal_chrono"
+            }
+          }
+        ]
+      },
+      {
+        "id": "mechadendrite_utility",
+        "label": "Mechadendrite, Utility",
+        "grants": [
+          {
+            "id": "item",
+            "kind": "select",
+            "content": {
+              "id": "di.augmetic.mechadendrite_utility"
+            }
+          }
+        ]
+      },
+      {
+        "id": "black_iron_jaw",
+        "label": "Black-Iron Jaw",
+        "grants": [
+          {
+            "id": "item",
+            "kind": "select",
+            "content": {
+              "id": "di.augmetic.black_iron_jaw"
+            }
+          }
+        ]
+      },
+      {
+        "id": "vocal_coder",
+        "label": "Vocal Coder",
+        "grants": [
+          {
+            "id": "item",
+            "kind": "select",
+            "content": {
+              "id": "di.augmetic.vocal_coder"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

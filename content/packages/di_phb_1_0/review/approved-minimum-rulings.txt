@@ -1,0 +1,542 @@
+# Dark Imperium Web – Apply Minimum PHB Rulings & Validate Narrow Character Path
+
+You are working on **Dark Imperium Web**.
+
+The previous validation pass deliberately left all human rulings unresolved.
+
+Five human rulings are now approved and authoritative:
+
+- PHB-RULE-009
+- PHB-RULE-024
+- PHB-RULE-049
+- PHB-RULE-050
+- PHB-RULE-051
+
+Apply ONLY the rulings explicitly defined below.
+
+All other human rulings remain unresolved and must remain blocked unless they are independently irrelevant to the selected narrow proof character.
+
+The primary objective of this task is to integrate these rulings and demonstrate one fully calculated, legal, level 1–3 character path without falsely claiming the complete character catalogue is ready.
+
+---
+
+# Approved Ruling: PHB-RULE-009
+
+Ability modifier:
+
+`floor((abilityScore - 10) / 2)`
+
+Rules:
+
+- Use mathematical floor.
+- Ability scores must be positive integers.
+- Do not impose a generic maximum score of 20.
+- Explicit feature-specific maximums or minimums take precedence.
+- Species modifiers are applied according to existing character-creation rules.
+- The engine must support legitimate scores above 20.
+
+Update calculation policies, validation and tests.
+
+Mark PHB-RULE-009 RESOLVED.
+
+---
+
+# Approved Ruling: PHB-RULE-024
+
+## Default Weapon Ability Binding
+
+Normal melee weapon:
+
+- Attack ability: Strength
+- Damage ability: Strength
+
+Normal ranged weapon:
+
+- Attack ability: Dexterity
+- Damage ability: Dexterity
+
+Finesse:
+
+- Strength or Dexterity
+- The same selected ability is used for attack and damage
+
+Thrown:
+
+- Uses the ability the weapon would normally use for its melee attack unless an explicit rule overrides it
+
+Spirit Weapon:
+
+- May substitute the user's psychic ability for Strength/Dexterity for attack and damage
+
+Explicit weapon-specific rules override all defaults.
+
+## Save-Based Weapons
+
+Save-based weapon effects do not automatically add an ability modifier to their listed damage.
+
+Only add an ability modifier when a rule explicitly says to do so.
+
+Grenades and similar fixed-damage save effects therefore use their listed damage dice.
+
+## Hands
+
+Defaults:
+
+- Pistol: 1
+- Light melee weapon: 1
+- Shield: 1
+- Normal melee weapon: 1
+- Heavy melee weapon: 2
+- Versatile: 1 or 2
+- Basic firearm: 2
+- Shotgun: 2
+- Sniper weapon: 2
+- Heavy ranged weapon: 2
+
+Add explicit overrides where required.
+
+Force Staff is explicitly 2-handed.
+
+## Reach
+
+- Default melee reach: 5 ft
+- Ranged weapons have no melee reach unless a rule gives them one
+- Thrown melee weapons retain normal melee reach as well as their throwing range
+
+## Proficiency Groups
+
+Canonical weapon entities must have explicit `proficiencyGroups`.
+
+Support groups including at minimum:
+
+- simple_melee
+- martial_melee
+- pistol
+- basic_firearm
+- shotgun
+- sniper
+- heavy
+- grenade
+- flamer
+- chain
+- shock
+- plasma
+- melta
+- force
+- shield
+- ogryn
+- kin
+- aeldari
+- mechanicus
+- rad_weapon
+- advanced_firearm
+- improvised
+- mining_tool
+
+Weapons may belong to more than one group.
+
+Properties may help derive initial group membership, but canonical records must store membership explicitly.
+
+## Starting Equipment Proficiency
+
+A class is proficient with every weapon or shield granted directly by its own level-1 starting-equipment package.
+
+For a package choice, this applies to the selected option.
+
+Do not use this rule to grant unrelated weapon-group proficiency.
+
+## Emplaced Weapons
+
+Emplaced is a deployment restriction, not a proficiency.
+
+Represent conceptually as:
+
+- deployment: emplaced
+- requires mount, brace, rig, feature or GM-approved setup
+
+Do not create an `emplaced proficiency`.
+
+Mark PHB-RULE-024 RESOLVED.
+
+---
+
+# Approved Ruling: PHB-RULE-051
+
+## Generic Starting Light Armour Pool
+
+The starting-equipment option `light armour` contains:
+
+- Armoured Bodyglove
+- Mesh Armour
+
+Do not include:
+
+- Heavy Clothing
+- Flak armour
+- Species-pattern armour
+
+Heavy Clothing remains a separately selectable item where explicitly offered.
+
+## Minor Augmetic Pool
+
+`minor augmetic` means a Controlled-Availability Augmetic Upgrade.
+
+The current approved pool is:
+
+- Optical Implant
+- Respirator Implant
+- Data-Jack
+- Vox Implant
+- Mag-Lock Palm
+- Dermal Insulation
+- Internal Chrono
+- Mechadendrite, Utility
+- Black-Iron Jaw
+- Vocal Coder
+
+Scarce and Rare augmetics do not belong to the generic Minor Augmetic pool.
+
+## Narrative / Utility Starting Items
+
+Canonicalise the following without inventing automatic mechanical bonuses:
+
+- Symbol of Faith: narrative item
+- Sanctioning brands/restraints: narrative item
+- Psychic Focus: tagged functional item `psychic_focus`, no inherent numerical bonus
+- Rations: general/narrative supply
+- Lucky Charm: narrative trinket
+- Manacles: utility/manual adjudication
+- Black-market contact: character contact, not inventory
+- Camo cloak: equipment; manual effect until explicitly defined
+- Maintenance tools: utility/tool item
+- Oath-token: narrative item; does not grant Relic-Bearer
+- Survey auspex: scanner/auspex variant with manual utility
+- Climbing kit: utility/tool item
+- Claim marker: narrative/feature prop
+- Spirit-token: narrative item
+- Rune stones: Psychic Focus variant
+- Spirit charm: narrative item
+
+A canonical inventory item may legitimately have no automated combat mechanics.
+
+Mark PHB-RULE-051 RESOLVED.
+
+---
+
+# Approved Ruling: PHB-RULE-049
+
+`medkit` in starting equipment is an alias for the canonical Med-Pack.
+
+Do not create a separate Medkit entity.
+
+Update all starting-package references to use the canonical Med-Pack entity while retaining "medkit" as a recognised display/source alias if useful.
+
+Mark PHB-RULE-049 RESOLVED.
+
+---
+
+# Approved Ruling: PHB-RULE-050
+
+Riot Shield uses the generic Shield profile:
+
+- +2 AC
+- requires one hand
+
+Add appropriate tags such as:
+
+- shield
+- riot
+- arbites
+
+It qualifies for features that require or reference using a shield.
+
+Do not duplicate the full Shield rules in a separate incompatible entity.
+
+Mark PHB-RULE-050 RESOLVED.
+
+---
+
+# Phase 1 – Integrate the Rulings
+
+For each of the five rulings:
+
+1. Update the human-rulings documents.
+2. Mark it RESOLVED.
+3. Update affected canonical entities.
+4. Update calculation policies.
+5. Update prerequisite or equipment structures where necessary.
+6. Add regression tests.
+7. Remove duplicate/incomplete candidates made obsolete by the ruling.
+
+Do not resolve any other human ruling by implication.
+
+---
+
+# Phase 2 – Weapon Canonicalisation
+
+Apply PHB-RULE-024 to weapons needed for character creation.
+
+At minimum ensure complete structured profiles for the narrow proof path and common level-1 starting weapons.
+
+Each relevant weapon must expose:
+
+- ID
+- proficiencyGroups
+- hands
+- reach where applicable
+- attack ability rule
+- damage ability rule
+- damage components
+- damage types
+- properties
+- range
+- availability
+- Actions
+- RollDefinitions where safe
+
+Do not automatically complete exotic or ambiguous weapons solely to increase coverage.
+
+---
+
+# Phase 3 – Starting Equipment Canonicalisation
+
+Resolve all starting-package references affected by rulings 049–051.
+
+Ensure:
+
+- Medkit references Med-Pack
+- Riot Shield references Shield mechanics
+- Generic light armour resolves to its approved choice pool
+- Minor augmetic resolves to its approved choice pool
+- Narrative items can exist without automatic effects
+- Black-market contact is not treated as physical inventory
+- Psychic focus variants share a common functional tag
+
+Run dangling-reference validation afterwards.
+
+---
+
+# Phase 4 – Narrow Proof Character
+
+Construct one known-legal narrow character path using:
+
+- Species: Human
+- Origin: Schola Progenium
+- Level: 1–3
+- A class whose selected options do not rely on another unresolved ruling
+
+Prefer Veteran if its chosen configuration is fully supported after these rulings.
+
+Use the default standard-array character-creation method.
+
+Avoid unresolved optional mechanics.
+
+The narrow proof character must proceed through:
+
+1. Species
+2. Origin
+3. Ability scores
+4. Species ability increases
+5. Class
+6. Universal Trait
+7. Proficiencies
+8. Starting equipment
+9. Core calculations
+10. Final validation
+
+Do not mark the character playable if any selected dependency remains blocked.
+
+---
+
+# Phase 5 – Calculated Character Projection
+
+For the proof character, produce a deterministic calculated profile containing at minimum:
+
+- Final ability scores
+- Ability modifiers
+- Proficiency bonus
+- Maximum HP
+- Armour Class
+- Speed
+- Saving throws
+- Skill proficiencies
+- Weapon proficiencies
+- Inventory
+- Features
+- Available actions
+- Attack RollDefinitions
+- Damage RollDefinitions
+
+Where selected content is manual-by-design, preserve it as visible manual content without blocking unrelated calculations.
+
+---
+
+# Phase 6 – Dice Readiness
+
+Generate safe structured RollDefinitions for the proof character.
+
+At minimum test:
+
+- One ability check
+- One proficient skill check
+- One saving throw
+- Initiative
+- One ranged weapon attack
+- Its damage roll
+- One melee weapon attack
+- Its damage roll
+
+If Veteran/Lasgun is used, explicitly verify:
+
+- Lasgun is a basic firearm
+- Lasgun requires two hands
+- Lasgun attack uses Dexterity
+- Lasgun damage uses Dexterity
+- Proficiency bonus is included when proficient
+- Weapon damage type remains canonical
+- Attack and damage are separate RollDefinitions
+
+Do not implement animated dice yet.
+
+---
+
+# Phase 7 – Save-Based Damage Test
+
+Add at least one test proving that a fixed save-based weapon or grenade:
+
+- Uses the correct save/DC rules
+- Does not incorrectly add the user's attack ability modifier to listed damage
+
+This protects PHB-RULE-024 from later regression.
+
+---
+
+# Phase 8 – Proficiency Tests
+
+Add tests proving:
+
+- Class weapon-group proficiency works
+- Starting-package weapon proficiency works
+- A weapon outside both remains non-proficient
+- Multi-group weapons resolve correctly
+- Shield proficiency works for Riot Shield
+- Emplaced is not treated as a proficiency
+
+---
+
+# Phase 9 – Ruling Status
+
+Update the human-rulings checklist.
+
+Expected state if no other decision has been made:
+
+- 009 RESOLVED
+- 024 RESOLVED
+- 049 RESOLVED
+- 050 RESOLVED
+- 051 RESOLVED
+
+All other previous human rulings remain UNRESOLVED or DEFERRED exactly as appropriate.
+
+Do not reduce the unresolved count by silently treating unrelated questions as answered.
+
+---
+
+# Phase 10 – Character Builder Readiness Reassessment
+
+Re-run the readiness assessment.
+
+Clearly distinguish:
+
+## Narrow Creation Path
+
+Report:
+
+- READY
+- READY_WITH_MANUAL_RULES
+- BLOCKED
+
+## Full Level 1–3 Catalogue
+
+Report separately:
+
+- READY
+- PARTIAL
+- BLOCKED
+
+Do not claim the complete catalogue is ready merely because the proof Human/Schola character works.
+
+The unresolved Origin rulings 001–007 and other catalogue-specific rulings remain relevant.
+
+---
+
+# Phase 11 – Docker Verification
+
+Attempt to verify:
+
+`docker compose build`
+
+and:
+
+`docker compose up`
+
+If environment limitations still prevent this:
+
+- capture the command
+- capture the error
+- document the environmental blocker
+- do not claim Docker verification
+
+Do not redesign the application merely because the execution environment cannot provide Docker.
+
+---
+
+# Phase 12 – Tests
+
+All existing tests must continue to pass.
+
+Add tests for:
+
+- Ability modifier formula including odd, even and negative modifiers
+- Explicit feature score caps
+- Weapon ability binding
+- Finesse
+- Spirit Weapon
+- Hands
+- Reach
+- Weapon groups
+- Starting-package proficiency
+- Save-based damage
+- Medkit alias
+- Riot Shield alias/profile
+- Light armour pool
+- Minor augmetic pool
+- Narrative inventory entries
+- Narrow Human/Schola proof character
+- Invalid character rejection
+
+---
+
+# Completion Report
+
+Create/update the relevant readiness report and provide:
+
+1. Rulings integrated
+2. Remaining unresolved ruling count
+3. Canonical content count
+4. Candidate count
+5. Records promoted by these rulings
+6. Tests passing
+7. Narrow proof-character result
+8. Calculated profile result
+9. RollDefinition result
+10. Narrow Character Builder readiness
+11. Full catalogue readiness
+12. Rules Engine readiness
+13. Dice Engine readiness
+14. Docker verification status
+15. Exact remaining blockers
+
+Do NOT build the visual character-builder UI during this pass.
+
+If the narrow creation path is READY and its calculated character/RollDefinitions validate correctly, recommend implementing the first real data-driven character-builder UI as the next task.

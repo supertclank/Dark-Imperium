@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "di.proficiency.weapon_group.force",
+  "kind": "proficiency",
+  "revision": 1,
+  "name": "Force",
+  "summary": "Force",
+  "descriptionMarkdown": "Force",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "17",
+        "heading": "Force",
+        "pdfPage": 50,
+        "printedPage": 37
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "category": "weapon_group",
+    "appliesTo": {
+      "groups": [
+        "force"
+      ]
+    }
+  }
+}

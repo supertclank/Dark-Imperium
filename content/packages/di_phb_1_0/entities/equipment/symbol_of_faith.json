@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "di.equipment.symbol_of_faith",
+  "kind": "equipment",
+  "revision": 1,
+  "name": "Symbol of Faith",
+  "summary": "Symbol of Faith",
+  "descriptionMarkdown": "Symbol of Faith",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "17",
+        "heading": "Symbol of Faith",
+        "pdfPage": 100,
+        "printedPage": 87
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "features": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "PHB-RULE-051: Symbol of Faith is narrative; no inherent numerical bonus.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source-defined manual procedure; no automatic bonus inferred."
+      }
+    ],
+    "functionalTags": [
+      "narrative"
+    ]
+  }
+}

@@ -1,0 +1,1088 @@
+{
+  "status": "INCOMPLETE",
+  "eligibilityStatus": "VALID",
+  "eligibilityScope": "species/origin/class/subclass prerequisites only",
+  "errors": [],
+  "unresolved": [
+    {
+      "code": "FRAG_SUCCESS_OUTCOME_UNSPECIFIED",
+      "field": "inventory.di.weapon.frag_grenade",
+      "message": "PHB page 47 gives Dexterity save and 3d6 piercing but no successful-save consequence. Do not import generic half-damage rules.",
+      "rulingIds": []
+    }
+  ],
+  "projection": {
+    "actorId": "0605c094-ab37-5967-8eee-0fb61de6b010",
+    "engineVersion": "phb-narrow-proof.1",
+    "lockDigest": "dc8cafc3275f27a7ebad1df9da40df7036dbcc2df5ee66228c28273eda96bac5",
+    "classTraining": {
+      "hitDie": 10,
+      "savingThrowAttributes": [
+        "dexterity",
+        "wisdom"
+      ],
+      "source": {
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a",
+        "locator": {
+          "sectionKey": "11",
+          "heading": "Class training",
+          "pdfPage": 50,
+          "printedPage": 37
+        }
+      }
+    },
+    "knownPowerCounts": null,
+    "values": {
+      "level": 1,
+      "attributes": {
+        "strength": 17,
+        "dexterity": 15,
+        "constitution": 13,
+        "intelligence": 12,
+        "wisdom": 10,
+        "charisma": 8
+      },
+      "proficiencyBonus": 2,
+      "movement": {
+        "baseWalk": {
+          "value": 30,
+          "unit": "ft"
+        }
+      },
+      "attributeModifiers": {
+        "strength": 3,
+        "dexterity": 2,
+        "constitution": 1,
+        "intelligence": 1,
+        "wisdom": 0,
+        "charisma": -1
+      },
+      "maximumWounds": 11,
+      "defence": 14,
+      "initiative": 4,
+      "skills": {
+        "di.skill.acrobatics": {
+          "attribute": "dexterity",
+          "proficient": true,
+          "modifier": 4
+        },
+        "di.skill.athletics": {
+          "attribute": "strength",
+          "proficient": true,
+          "modifier": 5
+        },
+        "di.skill.deception": {
+          "attribute": "charisma",
+          "proficient": false,
+          "modifier": -1
+        },
+        "di.skill.history": {
+          "attribute": "intelligence",
+          "proficient": true,
+          "modifier": 3
+        },
+        "di.skill.insight": {
+          "attribute": "wisdom",
+          "proficient": true,
+          "modifier": 2
+        },
+        "di.skill.intimidation": {
+          "attribute": "charisma",
+          "proficient": true,
+          "modifier": 1
+        },
+        "di.skill.investigation": {
+          "attribute": "intelligence",
+          "proficient": false,
+          "modifier": 1
+        },
+        "di.skill.medicine": {
+          "attribute": "wisdom",
+          "proficient": false,
+          "modifier": 0
+        },
+        "di.skill.perception": {
+          "attribute": "wisdom",
+          "proficient": false,
+          "modifier": 0
+        },
+        "di.skill.persuasion": {
+          "attribute": "charisma",
+          "proficient": false,
+          "modifier": -1
+        },
+        "di.skill.religion": {
+          "attribute": "intelligence",
+          "proficient": false,
+          "modifier": 1
+        },
+        "di.skill.sleight_of_hand": {
+          "attribute": "dexterity",
+          "proficient": false,
+          "modifier": 2
+        },
+        "di.skill.stealth": {
+          "attribute": "dexterity",
+          "proficient": false,
+          "modifier": 2
+        },
+        "di.skill.survival": {
+          "attribute": "wisdom",
+          "proficient": false,
+          "modifier": 0
+        },
+        "di.skill.technology": {
+          "attribute": "intelligence",
+          "proficient": false,
+          "modifier": 1
+        }
+      },
+      "saves": {
+        "strength": {
+          "modifier": 3,
+          "proficient": false
+        },
+        "dexterity": {
+          "modifier": 4,
+          "proficient": true
+        },
+        "constitution": {
+          "modifier": 1,
+          "proficient": false
+        },
+        "intelligence": {
+          "modifier": 1,
+          "proficient": false
+        },
+        "wisdom": {
+          "modifier": 2,
+          "proficient": true
+        },
+        "charisma": {
+          "modifier": -1,
+          "proficient": false
+        }
+      }
+    },
+    "features": [
+      {
+        "id": "di.feature.class.veteran.level_1.guardsman_training"
+      },
+      {
+        "id": "di.feature.class.veteran.level_1.tactical_aim"
+      },
+      {
+        "id": "di.feature.class.veteran.training"
+      },
+      {
+        "id": "di.feature.origin.schola_progenium"
+      },
+      {
+        "id": "di.feature.species.human.baseline"
+      },
+      {
+        "id": "di.feature.species.human.traits"
+      },
+      {
+        "id": "di.feature.universal.twitchy"
+      }
+    ],
+    "proficiencies": [
+      {
+        "id": "di.proficiency.skill.acrobatics"
+      },
+      {
+        "id": "di.proficiency.skill.athletics"
+      },
+      {
+        "id": "di.proficiency.skill.history"
+      },
+      {
+        "id": "di.proficiency.skill.insight"
+      },
+      {
+        "id": "di.proficiency.skill.intimidation"
+      },
+      {
+        "id": "di.proficiency.weapon.trench_club"
+      },
+      {
+        "id": "di.proficiency.weapon_group.basic_firearm"
+      },
+      {
+        "id": "di.proficiency.weapon_group.grenade"
+      },
+      {
+        "id": "di.proficiency.weapon_group.martial_melee"
+      },
+      {
+        "id": "di.proficiency.weapon_group.pistol"
+      },
+      {
+        "id": "di.proficiency.weapon_group.simple_melee"
+      },
+      {
+        "id": "di.proficiency.weapon_group.sniper"
+      }
+    ],
+    "manualRules": [
+      {
+        "source": {
+          "id": "di.feature.species.human.traits"
+        },
+        "localId": "source_rule",
+        "text": "3.1 Human\nHumans are the baseline of the Imperium: adaptable, \nambitious, fragile, and dangerously determined.\nSize: Medium.\n\nAvailable Classes: Veteran, Zealot, Psyker, Arbites \nEnforcer, Hive Scum.\n3.1.1 Human Traits\nBroad Training: Gain one additional weapon, tool, or \nlanguage proficiency.\nFaith, Fear, or Discipline: Once per long rest, when you \nfail a saving throw, you may reroll it. You must\nuse the new result.",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      },
+      {
+        "source": {
+          "id": "di.feature.origin.schola_progenium"
+        },
+        "localId": "source_rule",
+        "text": "4.6 Schola Progenium\nRaised in harsh Imperial institutions to become a soldier, \njudge, officer, priest, or specialist.\nAllowed Species: Human.\n\nDrilled Obedience: You have advantage on saving \nthrows against fear while following a direct order,\nholding formation, or protecting an Imperial objective.\nImperial Education: You can identify major Imperial \norganisations, ranks, symbols, rites, and\nprocedures.",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      },
+      {
+        "source": {
+          "id": "di.feature.class.veteran.training"
+        },
+        "localId": "source_rule",
+        "text": "11.1 Veteran\nProfessional soldier, marksman, squad leader, or hardened guardsman.\nAllowed Species: Human, Ratling.\nHit Die: d10.\nPrimary Abilities: Dexterity, Wisdom.\nSaving Throws: Dexterity, Wisdom.\nArmour: Light, medium, flak, carapace.\nWeapons: Simple weapons, martial melee weapons, pistols, basic firearms, grenades.\n",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      },
+      {
+        "source": {
+          "id": "di.feature.class.veteran.level_1.tactical_aim"
+        },
+        "localId": "source_rule",
+        "text": "As a bonus action, choose one creature you can see \nwithin weapon range. Until the end of your turn,\nyour next ranged weapon attack against that creature \ndeals bonus damage equal to your proficiency\nbonus.",
+        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ],
+    "pendingChoices": [
+      {
+        "choice": {
+          "id": "di.choice.human.broad_training_proof"
+        },
+        "status": "VALID"
+      },
+      {
+        "choice": {
+          "id": "di.choice.human.ability_scores"
+        },
+        "status": "VALID"
+      },
+      {
+        "choice": {
+          "id": "di.choice.human.imperial_adaptability"
+        },
+        "status": "VALID"
+      },
+      {
+        "choice": {
+          "id": "di.choice.schola_progenium.skills"
+        },
+        "status": "VALID"
+      },
+      {
+        "choice": {
+          "id": "di.choice.schola_progenium.skills_2"
+        },
+        "status": "VALID"
+      },
+      {
+        "choice": {
+          "id": "di.choice.veteran.starting_skills"
+        },
+        "status": "VALID"
+      },
+      {
+        "choice": {
+          "id": "di.choice.veteran.specialist_group"
+        },
+        "status": "VALID"
+      },
+      {
+        "choice": {
+          "id": "di.choice.creation.universal_trait"
+        },
+        "status": "VALID"
+      }
+    ],
+    "actions": [
+      {
+        "ref": {
+          "id": "di.action.combat_blade.attack"
+        },
+        "item": {
+          "id": "di.weapon.combat_blade"
+        },
+        "modeId": "base",
+        "resolution": "context_required"
+      },
+      {
+        "ref": {
+          "id": "di.action.frag_grenade.throw"
+        },
+        "item": {
+          "id": "di.weapon.frag_grenade"
+        },
+        "modeId": "base",
+        "resolution": "manual_save_outcome"
+      },
+      {
+        "ref": {
+          "id": "di.action.lasgun.attack"
+        },
+        "item": {
+          "id": "di.weapon.lasgun"
+        },
+        "modeId": "base",
+        "resolution": "context_required"
+      },
+      {
+        "ref": {
+          "id": "di.action.laspistol.attack"
+        },
+        "item": {
+          "id": "di.weapon.laspistol"
+        },
+        "modeId": "base",
+        "resolution": "context_required"
+      },
+      {
+        "feature": {
+          "id": "di.feature.class.veteran.level_1.tactical_aim"
+        },
+        "label": "Tactical Aim",
+        "resolution": "manual_context",
+        "economy": "bonus_action",
+        "effect": "Next ranged weapon attack against the chosen visible target this turn deals proficiency bonus extra damage."
+      },
+      {
+        "label": "Faith, Fear, or Discipline",
+        "resolution": "manual",
+        "source": {
+          "id": "di.feature.species.human.traits"
+        },
+        "uses": "Once per long rest; reroll failed save; must use new result."
+      },
+      {
+        "label": "Use Med-Pack",
+        "resolution": "manual",
+        "source": {
+          "id": "di.equipment.med_pack"
+        }
+      }
+    ],
+    "rollDefinitions": [
+      {
+        "schemaVersion": 1,
+        "id": "1ee88898-8575-5aeb-a915-1d8de0c6f53d",
+        "category": "attribute",
+        "label": "Strength check",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.class.veteran"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "0605c094-ab37-5967-8eee-0fb61de6b010"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "dc8cafc3275f27a7ebad1df9da40df7036dbcc2df5ee66228c28273eda96bac5",
+          "engineVersion": "phb-narrow-proof.1",
+          "stateVersion": 0,
+          "contextDigest": "fb08848b9976764ce00bfa6ea35e7cca9e37532238c5d19d2dc836f2efc21883"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "ability",
+                "value": 3,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.class.veteran"
+                  }
+                },
+                "label": "Strength",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "e855ed05-2b63-50f7-a770-4159c46fe61e",
+        "category": "skill",
+        "label": "Athletics",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.class.veteran"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "0605c094-ab37-5967-8eee-0fb61de6b010"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "dc8cafc3275f27a7ebad1df9da40df7036dbcc2df5ee66228c28273eda96bac5",
+          "engineVersion": "phb-narrow-proof.1",
+          "stateVersion": 0,
+          "contextDigest": "fb08848b9976764ce00bfa6ea35e7cca9e37532238c5d19d2dc836f2efc21883"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "ability",
+                "value": 3,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.class.veteran"
+                  }
+                },
+                "label": "Strength",
+                "contextual": false
+              },
+              {
+                "id": "proficiency",
+                "value": 2,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.skill.athletics"
+                  }
+                },
+                "label": "Proficiency",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "3dd7d167-8ea9-5d48-9ab3-63ba9639243f",
+        "category": "save",
+        "label": "Dexterity save",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.class.veteran"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "0605c094-ab37-5967-8eee-0fb61de6b010"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "dc8cafc3275f27a7ebad1df9da40df7036dbcc2df5ee66228c28273eda96bac5",
+          "engineVersion": "phb-narrow-proof.1",
+          "stateVersion": 0,
+          "contextDigest": "fb08848b9976764ce00bfa6ea35e7cca9e37532238c5d19d2dc836f2efc21883"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "ability",
+                "value": 2,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.class.veteran"
+                  }
+                },
+                "label": "Dexterity",
+                "contextual": false
+              },
+              {
+                "id": "proficiency",
+                "value": 2,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.class.veteran"
+                  }
+                },
+                "label": "Save proficiency",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "f72f04a7-6adc-5c26-9421-34c61c11ecd3",
+        "category": "ability",
+        "label": "Initiative",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.class.veteran"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "0605c094-ab37-5967-8eee-0fb61de6b010"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "dc8cafc3275f27a7ebad1df9da40df7036dbcc2df5ee66228c28273eda96bac5",
+          "engineVersion": "phb-narrow-proof.1",
+          "stateVersion": 0,
+          "contextDigest": "fb08848b9976764ce00bfa6ea35e7cca9e37532238c5d19d2dc836f2efc21883"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "ability",
+                "value": 2,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.class.veteran"
+                  }
+                },
+                "label": "Dexterity",
+                "contextual": false
+              },
+              {
+                "id": "twitchy",
+                "value": 2,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.feature.universal.twitchy"
+                  }
+                },
+                "label": "Twitchy",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "d6b5822b-971c-5118-bbb8-44b089dd14e9",
+        "category": "attack",
+        "label": "Lasgun attack",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.weapon.lasgun"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "0605c094-ab37-5967-8eee-0fb61de6b010"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "dc8cafc3275f27a7ebad1df9da40df7036dbcc2df5ee66228c28273eda96bac5",
+          "engineVersion": "phb-narrow-proof.1",
+          "stateVersion": 0,
+          "contextDigest": "fb08848b9976764ce00bfa6ea35e7cca9e37532238c5d19d2dc836f2efc21883"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "ability",
+                "value": 2,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.weapon.lasgun"
+                  }
+                },
+                "label": "Dexterity",
+                "contextual": false
+              },
+              {
+                "id": "proficiency",
+                "value": 2,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.class.veteran"
+                  }
+                },
+                "label": "Weapon proficiency",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "enabled",
+          "threshold": 20,
+          "comparison": "at_least"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        },
+        "action": {
+          "ref": {
+            "id": "di.action.lasgun.attack"
+          },
+          "executionId": "051509ae-fee2-5132-afbc-29d6d8ac92a3",
+          "stageId": "attack",
+          "modeId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "08770d91-336b-58b8-bf6c-4e904084f2f0",
+        "category": "damage",
+        "label": "Lasgun damage",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.weapon.lasgun"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "0605c094-ab37-5967-8eee-0fb61de6b010"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "dc8cafc3275f27a7ebad1df9da40df7036dbcc2df5ee66228c28273eda96bac5",
+          "engineVersion": "phb-narrow-proof.1",
+          "stateVersion": 0,
+          "contextDigest": "fb08848b9976764ce00bfa6ea35e7cca9e37532238c5d19d2dc836f2efc21883"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 8
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "ability",
+                "value": 2,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.weapon.lasgun"
+                  }
+                },
+                "label": "Dexterity",
+                "contextual": false
+              },
+              {
+                "id": "printed",
+                "value": 0,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.weapon.lasgun"
+                  }
+                },
+                "label": "Printed bonus",
+                "contextual": false
+              }
+            ],
+            "damageType": {
+              "id": "di.damage_type.radiant"
+            }
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "action": {
+          "ref": {
+            "id": "di.action.lasgun.attack"
+          },
+          "executionId": "051509ae-fee2-5132-afbc-29d6d8ac92a3",
+          "stageId": "damage",
+          "modeId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "5715f89e-dcb8-514c-87c3-5aca865765d4",
+        "category": "attack",
+        "label": "Combat Blade attack",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.weapon.combat_blade"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "0605c094-ab37-5967-8eee-0fb61de6b010"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "dc8cafc3275f27a7ebad1df9da40df7036dbcc2df5ee66228c28273eda96bac5",
+          "engineVersion": "phb-narrow-proof.1",
+          "stateVersion": 0,
+          "contextDigest": "fb08848b9976764ce00bfa6ea35e7cca9e37532238c5d19d2dc836f2efc21883"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "ability",
+                "value": 3,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.weapon.combat_blade"
+                  }
+                },
+                "label": "Strength",
+                "contextual": false
+              },
+              {
+                "id": "proficiency",
+                "value": 2,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.class.veteran"
+                  }
+                },
+                "label": "Weapon proficiency",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "enabled",
+          "threshold": 20,
+          "comparison": "at_least"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        },
+        "action": {
+          "ref": {
+            "id": "di.action.combat_blade.attack"
+          },
+          "executionId": "81443806-a7b0-54f1-bb60-b354a592724e",
+          "stageId": "attack",
+          "modeId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "9dc8310e-0825-5e74-b8c4-d4aa0f6b4560",
+        "category": "damage",
+        "label": "Combat Blade damage",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.weapon.combat_blade"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "0605c094-ab37-5967-8eee-0fb61de6b010"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "dc8cafc3275f27a7ebad1df9da40df7036dbcc2df5ee66228c28273eda96bac5",
+          "engineVersion": "phb-narrow-proof.1",
+          "stateVersion": 0,
+          "contextDigest": "fb08848b9976764ce00bfa6ea35e7cca9e37532238c5d19d2dc836f2efc21883"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 6
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "ability",
+                "value": 3,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.weapon.combat_blade"
+                  }
+                },
+                "label": "Strength",
+                "contextual": false
+              },
+              {
+                "id": "printed",
+                "value": 0,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.weapon.combat_blade"
+                  }
+                },
+                "label": "Printed bonus",
+                "contextual": false
+              }
+            ],
+            "damageType": {
+              "id": "di.damage_type.piercing"
+            }
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "action": {
+          "ref": {
+            "id": "di.action.combat_blade.attack"
+          },
+          "executionId": "81443806-a7b0-54f1-bb60-b354a592724e",
+          "stageId": "damage",
+          "modeId": "base"
+        }
+      }
+    ],
+    "resources": null,
+    "resistances": null,
+    "unresolvedFields": [
+      "fragGrenade.successfulSaveOutcome",
+      "runtimeActionTransactions"
+    ],
+    "readiness": "BLOCKED",
+    "note": "Core calculated profile complete for this scope. Required Frag Grenade outcome remains unspecified; not certified playable.",
+    "weaponProficiencies": {
+      "groups": [
+        "basic_firearm",
+        "grenade",
+        "martial_melee",
+        "pistol",
+        "simple_melee",
+        "sniper"
+      ],
+      "specificWeapons": [
+        "di.weapon.trench_club"
+      ],
+      "startingPackageWeapons": [
+        "di.weapon.combat_blade",
+        "di.weapon.frag_grenade",
+        "di.weapon.lasgun",
+        "di.weapon.laspistol"
+      ]
+    },
+    "inventory": [
+      {
+        "definition": {
+          "id": "di.weapon.laspistol"
+        },
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definition": {
+          "id": "di.weapon.combat_blade"
+        },
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definition": {
+          "id": "di.armour.flak_armour"
+        },
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definition": {
+          "id": "di.weapon.frag_grenade"
+        },
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definition": {
+          "id": "di.weapon.lasgun"
+        },
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definition": {
+          "id": "di.equipment.med_pack"
+        },
+        "quantity": 1,
+        "equipped": false
+      }
+    ],
+    "grenadeSaveIntent": {
+      "item": {
+        "id": "di.weapon.frag_grenade"
+      },
+      "saveAttribute": "dexterity",
+      "dc": 12,
+      "radiusFt": 15,
+      "damage": [
+        {
+          "id": "base",
+          "dice": {
+            "count": 3,
+            "sides": 6,
+            "bonus": 0
+          },
+          "bonus": {
+            "kind": "constant",
+            "value": 0
+          },
+          "damageType": {
+            "id": "di.damage_type.piercing"
+          }
+        }
+      ],
+      "abilityDamageBonus": 0,
+      "successOutcome": "unresolved",
+      "resolution": "BLOCKED"
+    },
+    "snapshotScope": "Offline content proof pin; not a published ruleset lock or runtime authorization."
+  }
+}

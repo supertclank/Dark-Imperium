@@ -5,6 +5,61 @@ falls back to another game. See docs/content/CALCULATION_POLICIES.md.
 """
 from content_import import InvalidContent, require, integer
 
+WEAPON_GROUPS = frozenset('simple_melee martial_melee pistol basic_firearm shotgun sniper heavy grenade flamer chain shock plasma melta force shield ogryn kin aeldari mechanicus rad_weapon advanced_firearm improvised mining_tool'.split())
+
+def ability_modifier(score):
+    require(type(score) is int and score > 0, 'POSITIVE_INTEGER_SCORE_REQUIRED')
+    return (score - 10) // 2
+
+def increase_score(score, amount, minimum=None, maximum=None):
+    ability_modifier(score)
+    require(type(amount) is int, 'INTEGER_INCREASE_REQUIRED')
+    for bound in (minimum, maximum):
+        if bound is not None: ability_modifier(bound)
+    require(minimum is None or maximum is None or minimum <= maximum, 'SCORE_BOUND_ORDER')
+    result = score + amount
+    if minimum is not None: result = max(result, minimum)
+    if maximum is not None: result = min(result, maximum)
+    ability_modifier(result)
+    return result
+
+def weapon_ability(kind, finesse=False, selected=None, spirit=False, psychic=None, override=None):
+    require(kind in ('melee','ranged','thrown'), 'WEAPON_KIND')
+    if override is not None:
+        require(override in ('strength','dexterity','constitution','intelligence','wisdom','charisma'), 'ABILITY_OVERRIDE')
+        return override
+    if spirit and selected == 'psychic':
+        require(psychic in ('intelligence','wisdom','charisma'), 'PSYCHIC_ABILITY_REQUIRED')
+        return psychic
+    if finesse:
+        require(selected in ('strength','dexterity'), 'FINESSE_SELECTION_REQUIRED')
+        return selected
+    return 'dexterity' if kind == 'ranged' else 'strength'
+
+def weapon_hands(category, heavy=False, versatile=False, chosen=None, override=None):
+    if override is not None:
+        integer(override,1,2); return override
+    if versatile:
+        require(chosen in (1,2) and type(chosen) is int, 'VERSATILE_HANDS_REQUIRED'); return chosen
+    require(category in ('melee','pistol','shield','basic_firearm','shotgun','sniper','heavy'), 'HANDS_CATEGORY')
+    return 2 if category in ('basic_firearm','shotgun','sniper','heavy') or heavy else 1
+
+def weapon_reach(kind):
+    require(kind in ('melee','ranged','thrown'), 'WEAPON_KIND')
+    return 5 if kind in ('melee','thrown') else None
+
+def weapon_proficient(weapon_id, groups, trained_groups=(), direct_weapons=(), starting_weapons=()):
+    require(set(groups) <= WEAPON_GROUPS and set(trained_groups) <= WEAPON_GROUPS, 'WEAPON_GROUP')
+    return bool(set(groups) & set(trained_groups) or weapon_id in set(direct_weapons) | set(starting_weapons))
+
+def save_weapon_damage_bonus(ability, explicitly_add=False):
+    require(type(ability) is int and type(explicitly_add) is bool, 'DAMAGE_BINDING_INPUT')
+    return ability if explicitly_add else 0
+
+def grenade_dc(level, dexterity_modifier):
+    require(type(dexterity_modifier) is int, 'DEXTERITY_MODIFIER')
+    return 8 + proficiency(level) + dexterity_modifier
+
 def compare(a, op, b):
     require(op in ('eq','lt','lte','gt','gte'), 'COMPARISON')
     return {'eq':a==b,'lt':a<b,'lte':a<=b,'gt':a>b,'gte':a>=b}[op]

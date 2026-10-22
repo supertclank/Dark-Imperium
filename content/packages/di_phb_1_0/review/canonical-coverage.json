@@ -5246,5 +5246,449 @@
     "manualEntries": 0,
     "publicationReady": false,
     "reason": "Creation selection pool; referenced eligibility remains binding."
+  },
+  "di.action.combat_blade.attack": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.augmetic.vocal_coder": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.proficiency.weapon_group.improvised": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.proficiency.weapon_group.sniper": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.tool.maintenance_tools": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.proficiency.weapon_group.plasma": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.armour.armoured_bodyglove": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.proficiency.weapon_group.martial_melee": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.weapon.trench_club": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.tool.climbing_kit": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.armour.mesh_armour": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.choice.human.broad_training_proof": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.proficiency.weapon_group.aeldari": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.augmetic.mag_lock_palm": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.action.lasgun.attack": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.proficiency.weapon_group.mechanicus": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.action.laspistol.attack": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.equipment.manacles": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.equipment.rune_stones": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.armour.flak_vest": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.equipment.med_pack": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.action.trench_club.attack": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.armour.flak_armour": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.proficiency.weapon_group.ogryn": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.equipment.psychic_focus": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.proficiency.weapon_group.grenade": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.equipment.rations": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.choice.starting.light_armour": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.proficiency.weapon_group.mining_tool": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.proficiency.weapon_group.pistol": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.proficiency.weapon_group.heavy": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.equipment.symbol_of_faith": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.action.autopistol.attack": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.proficiency.weapon_group.flamer": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.proficiency.weapon_group.kin": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.action.frag_grenade.throw": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.proficiency.weapon_group.chain": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.proficiency.weapon_group.rad_weapon": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.weapon.combat_blade": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.proficiency.weapon_group.melta": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.weapon.lasgun": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.proficiency.weapon_group.basic_firearm": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.equipment.camo_cloak": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.proficiency.weapon_group.force": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.equipment.oath_token": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.proficiency.weapon_group.shotgun": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.augmetic.optical_implant": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.augmetic.mechadendrite_utility": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.weapon.autopistol": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.equipment.claim_marker": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.weapon.laspistol": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.equipment.lucky_charm": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.equipment.spirit_charm": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.equipment.spirit_token": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.weapon.stub_pistol": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.proficiency.weapon_group.simple_melee": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.choice.veteran.specialist_group": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.proficiency.weapon_group.advanced_firearm": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.augmetic.respirator_implant": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.action.autogun.attack": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.equipment.sanctioning_brands_restraints": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.choice.starting.minor_augmetic": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.augmetic.data_jack": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.augmetic.vox_implant": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.augmetic.internal_chrono": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.augmetic.dermal_insulation": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.augmetic.black_iron_jaw": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.weapon.frag_grenade": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.action.stub_pistol.attack": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.equipment.survey_auspex": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.proficiency.weapon.trench_club": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.weapon.autogun": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.proficiency.weapon_group.shock": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
+  },
+  "di.proficiency.weapon_group.shield": {
+    "status": "DRAFT_VALIDATED",
+    "coverage": "STRUCTURED_SUBSET",
+    "publicationReady": false,
+    "reason": "Minimum approved rulings; manual/context gaps retained."
   }
 }

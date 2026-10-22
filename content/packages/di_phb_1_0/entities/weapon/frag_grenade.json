@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "id": "di.weapon.frag_grenade",
+  "kind": "weapon",
+  "revision": 1,
+  "name": "Frag Grenade",
+  "summary": "Grenade: Frag Grenade; Effect: 15-ft radius; Dexterity save; 3d6 piercing damage.; Availability: Controlled",
+  "descriptionMarkdown": "Grenade: Frag Grenade; Effect: 15-ft radius; Dexterity save; 3d6 piercing damage.; Availability: Controlled",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "10",
+        "heading": "Frag Grenade",
+        "pdfPage": 47,
+        "printedPage": 34
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "category": "grenade",
+    "subcategory": "grenade",
+    "hands": 1,
+    "properties": [],
+    "features": [],
+    "availability": "Controlled",
+    "proficiencyGroups": [
+      "grenade"
+    ],
+    "abilityBinding": {
+      "attack": "none",
+      "damage": "none"
+    },
+    "modes": [
+      {
+        "id": "base",
+        "name": "Throw to point",
+        "attackKind": "area",
+        "delivery": "target_test",
+        "range": {
+          "kind": "distance",
+          "normal": {
+            "value": 30,
+            "unit": "ft"
+          },
+          "long": {
+            "value": 90,
+            "unit": "ft"
+          }
+        },
+        "costs": [],
+        "action": {
+          "id": "di.action.frag_grenade.throw"
+        },
+        "save": {
+          "attribute": "dexterity",
+          "dcPolicy": "phb.grenade_dc.v1",
+          "successOutcome": "unresolved"
+        },
+        "damage": [
+          {
+            "id": "base",
+            "dice": {
+              "count": 3,
+              "sides": 6,
+              "bonus": 0
+            },
+            "bonus": {
+              "kind": "constant",
+              "value": 0
+            },
+            "damageType": {
+              "id": "di.damage_type.piercing"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -153,15 +153,6 @@
     ]
   },
   {
-    "id": "di.armour.armoured_bodyglove",
-    "kind": "armour",
-    "status": "DEFERRED",
-    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
-    "originalIssues": [
-      "PHB-007"
-    ]
-  },
-  {
     "id": "di.armour.aspect_pattern_armour",
     "kind": "armour",
     "status": "DEFERRED",
@@ -198,25 +189,7 @@
     ]
   },
   {
-    "id": "di.armour.flak_armour",
-    "kind": "armour",
-    "status": "BLOCKS_CHARACTER_CREATION",
-    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
-    "originalIssues": [
-      "PHB-007"
-    ]
-  },
-  {
     "id": "di.armour.flak_greatcoat",
-    "kind": "armour",
-    "status": "DEFERRED",
-    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
-    "originalIssues": [
-      "PHB-007"
-    ]
-  },
-  {
-    "id": "di.armour.flak_vest",
     "kind": "armour",
     "status": "DEFERRED",
     "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
@@ -262,15 +235,6 @@
   },
   {
     "id": "di.armour.kin_void_suit",
-    "kind": "armour",
-    "status": "DEFERRED",
-    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
-    "originalIssues": [
-      "PHB-007"
-    ]
-  },
-  {
-    "id": "di.armour.mesh_armour",
     "kind": "armour",
     "status": "DEFERRED",
     "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
@@ -387,15 +351,6 @@
     ]
   },
   {
-    "id": "di.augmetic.black_iron_jaw",
-    "kind": "augmetic",
-    "status": "DEFERRED",
-    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
-    "originalIssues": [
-      "PHB-014"
-    ]
-  },
-  {
     "id": "di.augmetic.chem_injector",
     "kind": "augmetic",
     "status": "DEFERRED",
@@ -406,42 +361,6 @@
   },
   {
     "id": "di.augmetic.cranial_cogitator",
-    "kind": "augmetic",
-    "status": "DEFERRED",
-    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
-    "originalIssues": [
-      "PHB-014"
-    ]
-  },
-  {
-    "id": "di.augmetic.data_jack",
-    "kind": "augmetic",
-    "status": "BLOCKS_CHARACTER_CREATION",
-    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
-    "originalIssues": [
-      "PHB-014"
-    ]
-  },
-  {
-    "id": "di.augmetic.dermal_insulation",
-    "kind": "augmetic",
-    "status": "DEFERRED",
-    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
-    "originalIssues": [
-      "PHB-014"
-    ]
-  },
-  {
-    "id": "di.augmetic.internal_chrono",
-    "kind": "augmetic",
-    "status": "DEFERRED",
-    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
-    "originalIssues": [
-      "PHB-014"
-    ]
-  },
-  {
-    "id": "di.augmetic.mag_lock_palm",
     "kind": "augmetic",
     "status": "DEFERRED",
     "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
@@ -468,24 +387,6 @@
     ]
   },
   {
-    "id": "di.augmetic.mechadendrite_utility",
-    "kind": "augmetic",
-    "status": "DEFERRED",
-    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
-    "originalIssues": [
-      "PHB-014"
-    ]
-  },
-  {
-    "id": "di.augmetic.optical_implant",
-    "kind": "augmetic",
-    "status": "DEFERRED",
-    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
-    "originalIssues": [
-      "PHB-014"
-    ]
-  },
-  {
     "id": "di.augmetic.pain_editor",
     "kind": "augmetic",
     "status": "DEFERRED",
@@ -496,15 +397,6 @@
   },
   {
     "id": "di.augmetic.recoil_bracing",
-    "kind": "augmetic",
-    "status": "DEFERRED",
-    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
-    "originalIssues": [
-      "PHB-014"
-    ]
-  },
-  {
-    "id": "di.augmetic.respirator_implant",
     "kind": "augmetic",
     "status": "DEFERRED",
     "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
@@ -532,24 +424,6 @@
   },
   {
     "id": "di.augmetic.targeting_lens",
-    "kind": "augmetic",
-    "status": "DEFERRED",
-    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
-    "originalIssues": [
-      "PHB-014"
-    ]
-  },
-  {
-    "id": "di.augmetic.vocal_coder",
-    "kind": "augmetic",
-    "status": "DEFERRED",
-    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
-    "originalIssues": [
-      "PHB-014"
-    ]
-  },
-  {
-    "id": "di.augmetic.vox_implant",
     "kind": "augmetic",
     "status": "DEFERRED",
     "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
@@ -762,15 +636,6 @@
     "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
     "originalIssues": [
       "PHB-007"
-    ]
-  },
-  {
-    "id": "di.equipment.med_pack",
-    "kind": "equipment",
-    "status": "NON_BLOCKING",
-    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
-    "originalIssues": [
-      "PHB-014"
     ]
   },
   {
@@ -2122,24 +1987,6 @@
     ]
   },
   {
-    "id": "di.weapon.autogun",
-    "kind": "weapon",
-    "status": "BLOCKS_CHARACTER_CREATION",
-    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
-    "originalIssues": [
-      "PHB-005"
-    ]
-  },
-  {
-    "id": "di.weapon.autopistol",
-    "kind": "weapon",
-    "status": "BLOCKS_CHARACTER_CREATION",
-    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
-    "originalIssues": [
-      "PHB-005"
-    ]
-  },
-  {
     "id": "di.weapon.battle_cannon",
     "kind": "weapon",
     "status": "DEFERRED",
@@ -2222,15 +2069,6 @@
   },
   {
     "id": "di.weapon.chainsword",
-    "kind": "weapon",
-    "status": "BLOCKS_CHARACTER_CREATION",
-    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
-    "originalIssues": [
-      "PHB-005"
-    ]
-  },
-  {
-    "id": "di.weapon.combat_blade",
     "kind": "weapon",
     "status": "BLOCKS_CHARACTER_CREATION",
     "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
@@ -2349,15 +2187,6 @@
   },
   {
     "id": "di.weapon.frag_bomb",
-    "kind": "weapon",
-    "status": "BLOCKS_CHARACTER_CREATION",
-    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
-    "originalIssues": [
-      "PHB-005"
-    ]
-  },
-  {
-    "id": "di.weapon.frag_grenade",
     "kind": "weapon",
     "status": "BLOCKS_CHARACTER_CREATION",
     "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
@@ -2553,24 +2382,6 @@
     "kind": "weapon",
     "status": "DEFERRED",
     "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
-    "originalIssues": [
-      "PHB-005"
-    ]
-  },
-  {
-    "id": "di.weapon.lasgun",
-    "kind": "weapon",
-    "status": "BLOCKS_CHARACTER_CREATION",
-    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
-    "originalIssues": [
-      "PHB-005"
-    ]
-  },
-  {
-    "id": "di.weapon.laspistol",
-    "kind": "weapon",
-    "status": "BLOCKS_CHARACTER_CREATION",
-    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
     "originalIssues": [
       "PHB-005"
     ]
@@ -2898,15 +2709,6 @@
     ]
   },
   {
-    "id": "di.weapon.stub_pistol",
-    "kind": "weapon",
-    "status": "BLOCKS_CHARACTER_CREATION",
-    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
-    "originalIssues": [
-      "PHB-005"
-    ]
-  },
-  {
     "id": "di.weapon.stub_rifle",
     "kind": "weapon",
     "status": "DEFERRED",
@@ -2935,15 +2737,6 @@
   },
   {
     "id": "di.weapon.thunder_hammer",
-    "kind": "weapon",
-    "status": "DEFERRED",
-    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
-    "originalIssues": [
-      "PHB-005"
-    ]
-  },
-  {
-    "id": "di.weapon.trench_club",
     "kind": "weapon",
     "status": "DEFERRED",
     "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",

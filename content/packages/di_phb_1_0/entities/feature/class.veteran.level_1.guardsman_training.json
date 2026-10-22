@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.feature.class.veteran.level_1.guardsman_training",
   "kind": "feature",
-  "revision": 1,
+  "revision": 2,
   "name": "Guardsman Training",
   "summary": "Gain proficiency in two skills from Athletics, Insight, Intimidation, Medicine, Perception, Stealth, and Survival. You also gain proficiency with one specialist weapon group: sniper weapons, plasma weapons, melta weapons, or heavy weapons.",
   "descriptionMarkdown": "Gain proficiency in two skills from Athletics, Insight, \nIntimidation, Medicine, Perception, Stealth, and Survival. \nYou also gain proficiency with one specialist weapon \ngroup: sniper weapons, plasma weapons, melta \nweapons, or heavy weapons.",
@@ -25,19 +25,13 @@
     "flavor": "class_feature",
     "effects": [],
     "grants": [],
-    "manualRules": [
-      {
-        "id": "source_rule",
-        "automation": "manual",
-        "text": "You also gain proficiency with one specialist weapon group: sniper weapons, plasma weapons, melta weapons, or heavy weapons. Exact group membership needs review.",
-        "adjudicator": "gm",
-        "context": "source-defined procedure",
-        "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
-      }
-    ],
+    "manualRules": [],
     "choices": [
       {
         "id": "di.choice.veteran.starting_skills"
+      },
+      {
+        "id": "di.choice.veteran.specialist_group"
       }
     ]
   }

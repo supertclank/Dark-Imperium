@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "di.weapon.stub_pistol",
+  "kind": "weapon",
+  "revision": 1,
+  "name": "Stub Pistol",
+  "summary": "Weapon: Stub Pistol; Damage: 1d6 piercing; Range: 40/120; Properties: Light, Reload 6; Availability: Issued",
+  "descriptionMarkdown": "Weapon: Stub Pistol; Damage: 1d6 piercing; Range: 40/120; Properties: Light, Reload 6; Availability: Issued",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "8",
+        "heading": "Stub Pistol",
+        "pdfPage": 37,
+        "printedPage": 24
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "properties": [
+      {
+        "property": {
+          "id": "di.property.weapon.light"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.reload"
+        },
+        "arguments": {
+          "capacity": 6
+        }
+      }
+    ],
+    "modes": [
+      {
+        "id": "base",
+        "name": "Base profile",
+        "damage": [
+          {
+            "id": "component_1",
+            "dice": {
+              "count": 1,
+              "sides": 6,
+              "bonus": 0
+            },
+            "bonus": {
+              "kind": "constant",
+              "value": 0
+            },
+            "damageType": {
+              "id": "di.damage_type.piercing"
+            }
+          }
+        ],
+        "range": {
+          "kind": "distance",
+          "normal": {
+            "value": 40,
+            "unit": "ft"
+          },
+          "long": {
+            "value": 120,
+            "unit": "ft"
+          }
+        },
+        "attackKind": "ranged",
+        "delivery": "attack_roll",
+        "costs": [],
+        "action": {
+          "id": "di.action.stub_pistol.attack"
+        }
+      }
+    ],
+    "category": "ranged",
+    "subcategory": "pistol",
+    "hands": 1,
+    "features": [],
+    "proficiencyGroups": [
+      "pistol"
+    ],
+    "availability": "Issued",
+    "abilityBinding": {
+      "attack": "dexterity",
+      "damage": "dexterity"
+    }
+  }
+}

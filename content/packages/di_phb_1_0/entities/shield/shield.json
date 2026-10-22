@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "id": "di.shield.shield",
   "kind": "shield",
-  "revision": 1,
+  "revision": 2,
   "name": "Shield",
   "summary": "+2 AC. Requires one hand. Issued.",
-  "descriptionMarkdown": "+2 AC. Requires one hand. Issued.",
+  "descriptionMarkdown": "+2 AC. Requires one hand. Issued.\nPHB-RULE-050: Riot Shield is this same +2 AC, one-hand profile; display tags shield, riot, arbites.",
   "lifecycle": "draft",
   "verification": "transcribed",
   "sources": [
@@ -37,6 +37,12 @@
       },
       "mode": "add",
       "stackGroup": "di.defence.shield"
-    }
+    },
+    "proficiencyGroups": [
+      "shield"
+    ],
+    "aliases": [
+      "Riot Shield"
+    ]
   }
 }

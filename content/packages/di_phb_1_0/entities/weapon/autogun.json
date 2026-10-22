@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "di.weapon.autogun",
+  "kind": "weapon",
+  "revision": 1,
+  "name": "Autogun",
+  "summary": "Weapon: Autogun; Damage: 1d8 piercing; Range: 60/180; Properties: Burst, Suppression, Reload 30; Availability: Issued",
+  "descriptionMarkdown": "Weapon: Autogun; Damage: 1d8 piercing; Range: 60/180; Properties: Burst, Suppression, Reload 30; Availability: Issued",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "8",
+        "heading": "Autogun",
+        "pdfPage": 37,
+        "printedPage": 24
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "properties": [
+      {
+        "property": {
+          "id": "di.property.weapon.burst"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.suppression"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.reload"
+        },
+        "arguments": {
+          "capacity": 30
+        }
+      }
+    ],
+    "modes": [
+      {
+        "id": "base",
+        "name": "Base profile",
+        "damage": [
+          {
+            "id": "component_1",
+            "dice": {
+              "count": 1,
+              "sides": 8,
+              "bonus": 0
+            },
+            "bonus": {
+              "kind": "constant",
+              "value": 0
+            },
+            "damageType": {
+              "id": "di.damage_type.piercing"
+            }
+          }
+        ],
+        "range": {
+          "kind": "distance",
+          "normal": {
+            "value": 60,
+            "unit": "ft"
+          },
+          "long": {
+            "value": 180,
+            "unit": "ft"
+          }
+        },
+        "attackKind": "ranged",
+        "delivery": "attack_roll",
+        "costs": [],
+        "action": {
+          "id": "di.action.autogun.attack"
+        }
+      }
+    ],
+    "category": "ranged",
+    "subcategory": "basic_firearm",
+    "hands": 2,
+    "features": [],
+    "proficiencyGroups": [
+      "basic_firearm"
+    ],
+    "availability": "Issued",
+    "abilityBinding": {
+      "attack": "dexterity",
+      "damage": "dexterity"
+    }
+  }
+}

@@ -10,6 +10,24 @@
       "path": "packages/di_phb_1_0/review/candidates/action/attack.json"
     },
     {
+      "id": "di.action.autogun.attack",
+      "name": "Autogun attack",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/action/autogun.attack.json"
+    },
+    {
+      "id": "di.action.autopistol.attack",
+      "name": "Autopistol attack",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/action/autopistol.attack.json"
+    },
+    {
+      "id": "di.action.combat_blade.attack",
+      "name": "Combat Blade attack",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/action/combat_blade.attack.json"
+    },
+    {
       "id": "di.action.dash",
       "name": "Dash",
       "state": "incomplete_candidate",
@@ -28,6 +46,12 @@
       "path": "packages/di_phb_1_0/review/candidates/action/dodge.json"
     },
     {
+      "id": "di.action.frag_grenade.throw",
+      "name": "Throw Frag Grenade",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/action/frag_grenade.throw.json"
+    },
+    {
       "id": "di.action.help",
       "name": "Help",
       "state": "incomplete_candidate",
@@ -40,10 +64,22 @@
       "path": "packages/di_phb_1_0/review/candidates/action/hide.json"
     },
     {
+      "id": "di.action.lasgun.attack",
+      "name": "Lasgun attack",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/action/lasgun.attack.json"
+    },
+    {
       "id": "di.action.lasgun.base_damage",
       "name": "Lasgun base damage",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/action/lasgun.base_damage.json"
+    },
+    {
+      "id": "di.action.laspistol.attack",
+      "name": "Laspistol attack",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/action/laspistol.attack.json"
     },
     {
       "id": "di.action.ready",
@@ -56,6 +92,18 @@
       "name": "Reload",
       "state": "incomplete_candidate",
       "path": "packages/di_phb_1_0/review/candidates/action/reload.json"
+    },
+    {
+      "id": "di.action.stub_pistol.attack",
+      "name": "Stub Pistol attack",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/action/stub_pistol.attack.json"
+    },
+    {
+      "id": "di.action.trench_club.attack",
+      "name": "Trench Club attack",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/action/trench_club.attack.json"
     },
     {
       "id": "di.action.use_mission_gear",
@@ -120,8 +168,8 @@
     {
       "id": "di.armour.armoured_bodyglove",
       "name": "Armoured Bodyglove",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/armour/armoured_bodyglove.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/armour/armoured_bodyglove.json"
     },
     {
       "id": "di.armour.aspect_pattern_armour",
@@ -150,8 +198,8 @@
     {
       "id": "di.armour.flak_armour",
       "name": "Flak Armour",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/armour/flak_armour.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/armour/flak_armour.json"
     },
     {
       "id": "di.armour.flak_greatcoat",
@@ -162,8 +210,8 @@
     {
       "id": "di.armour.flak_vest",
       "name": "Flak Vest",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/armour/flak_vest.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/armour/flak_vest.json"
     },
     {
       "id": "di.armour.hazard_plate",
@@ -198,8 +246,8 @@
     {
       "id": "di.armour.mesh_armour",
       "name": "Mesh Armour",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/armour/mesh_armour.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/armour/mesh_armour.json"
     },
     {
       "id": "di.armour.ogryn_flak_plate",
@@ -288,8 +336,8 @@
     {
       "id": "di.augmetic.black_iron_jaw",
       "name": "Black-Iron Jaw",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/augmetic/black_iron_jaw.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/augmetic/black_iron_jaw.json"
     },
     {
       "id": "di.augmetic.chem_injector",
@@ -306,26 +354,26 @@
     {
       "id": "di.augmetic.data_jack",
       "name": "Data-Jack",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/augmetic/data_jack.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/augmetic/data_jack.json"
     },
     {
       "id": "di.augmetic.dermal_insulation",
       "name": "Dermal Insulation",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/augmetic/dermal_insulation.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/augmetic/dermal_insulation.json"
     },
     {
       "id": "di.augmetic.internal_chrono",
       "name": "Internal Chrono",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/augmetic/internal_chrono.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/augmetic/internal_chrono.json"
     },
     {
       "id": "di.augmetic.mag_lock_palm",
       "name": "Mag-Lock Palm",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/augmetic/mag_lock_palm.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/augmetic/mag_lock_palm.json"
     },
     {
       "id": "di.augmetic.mechadendrite_combat",
@@ -342,14 +390,14 @@
     {
       "id": "di.augmetic.mechadendrite_utility",
       "name": "Mechadendrite, Utility",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/augmetic/mechadendrite_utility.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/augmetic/mechadendrite_utility.json"
     },
     {
       "id": "di.augmetic.optical_implant",
       "name": "Optical Implant",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/augmetic/optical_implant.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/augmetic/optical_implant.json"
     },
     {
       "id": "di.augmetic.pain_editor",
@@ -366,8 +414,8 @@
     {
       "id": "di.augmetic.respirator_implant",
       "name": "Respirator Implant",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/augmetic/respirator_implant.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/augmetic/respirator_implant.json"
     },
     {
       "id": "di.augmetic.skeletal_reinforcement",
@@ -390,14 +438,14 @@
     {
       "id": "di.augmetic.vocal_coder",
       "name": "Vocal Coder",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/augmetic/vocal_coder.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/augmetic/vocal_coder.json"
     },
     {
       "id": "di.augmetic.vox_implant",
       "name": "Vox Implant",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/augmetic/vox_implant.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/augmetic/vox_implant.json"
     },
     {
       "id": "di.background.craftworld_outcast",
@@ -538,6 +586,12 @@
       "path": "packages/di_phb_1_0/entities/choice/human.ability_scores.json"
     },
     {
+      "id": "di.choice.human.broad_training_proof",
+      "name": "Broad Training — reviewed weapon option",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/human.broad_training_proof.json"
+    },
+    {
       "id": "di.choice.human.imperial_adaptability",
       "name": "Choose 1 skill proficiency",
       "state": "draft_entity",
@@ -622,10 +676,28 @@
       "path": "packages/di_phb_1_0/entities/choice/skitarii_veteran.subclass.json"
     },
     {
+      "id": "di.choice.starting.light_armour",
+      "name": "Starting light armour",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/starting.light_armour.json"
+    },
+    {
+      "id": "di.choice.starting.minor_augmetic",
+      "name": "Minor augmetic",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/starting.minor_augmetic.json"
+    },
+    {
       "id": "di.choice.underhive.skills",
       "name": "Choose 2 skill proficiency",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/choice/underhive.skills.json"
+    },
+    {
+      "id": "di.choice.veteran.specialist_group",
+      "name": "Veteran specialist weapon group",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/veteran.specialist_group.json"
     },
     {
       "id": "di.choice.veteran.starting_skills",
@@ -916,6 +988,18 @@
       "path": "packages/di_phb_1_0/review/candidates/equipment/auspex_battery.json"
     },
     {
+      "id": "di.equipment.camo_cloak",
+      "name": "Camo cloak",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/equipment/camo_cloak.json"
+    },
+    {
+      "id": "di.equipment.claim_marker",
+      "name": "Claim marker",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/equipment/claim_marker.json"
+    },
+    {
       "id": "di.equipment.conversion_field",
       "name": "Conversion Field",
       "state": "incomplete_candidate",
@@ -940,10 +1024,22 @@
       "path": "packages/di_phb_1_0/review/candidates/equipment/holo_field_cloak.json"
     },
     {
+      "id": "di.equipment.lucky_charm",
+      "name": "Lucky Charm",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/equipment/lucky_charm.json"
+    },
+    {
+      "id": "di.equipment.manacles",
+      "name": "Manacles",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/equipment/manacles.json"
+    },
+    {
       "id": "di.equipment.med_pack",
       "name": "Med-Pack",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/equipment/med_pack.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/equipment/med_pack.json"
     },
     {
       "id": "di.equipment.med_stim",
@@ -952,10 +1048,28 @@
       "path": "packages/di_phb_1_0/review/candidates/equipment/med_stim.json"
     },
     {
+      "id": "di.equipment.oath_token",
+      "name": "Oath-token",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/equipment/oath_token.json"
+    },
+    {
+      "id": "di.equipment.psychic_focus",
+      "name": "Psychic Focus",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/equipment/psychic_focus.json"
+    },
+    {
       "id": "di.equipment.purity_seal_charm",
       "name": "Purity Seal Charm",
       "state": "incomplete_candidate",
       "path": "packages/di_phb_1_0/review/candidates/equipment/purity_seal_charm.json"
+    },
+    {
+      "id": "di.equipment.rations",
+      "name": "Rations",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/equipment/rations.json"
     },
     {
       "id": "di.equipment.rebreather_filter",
@@ -970,16 +1084,52 @@
       "path": "packages/di_phb_1_0/review/candidates/equipment/refractor_field.json"
     },
     {
+      "id": "di.equipment.rune_stones",
+      "name": "Rune stones",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/equipment/rune_stones.json"
+    },
+    {
+      "id": "di.equipment.sanctioning_brands_restraints",
+      "name": "Sanctioning brands/restraints",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/equipment/sanctioning_brands_restraints.json"
+    },
+    {
       "id": "di.equipment.specialist_ammo_pack",
       "name": "Specialist Ammo Pack",
       "state": "incomplete_candidate",
       "path": "packages/di_phb_1_0/review/candidates/equipment/specialist_ammo_pack.json"
     },
     {
+      "id": "di.equipment.spirit_charm",
+      "name": "Spirit charm",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/equipment/spirit_charm.json"
+    },
+    {
+      "id": "di.equipment.spirit_token",
+      "name": "Spirit-token",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/equipment/spirit_token.json"
+    },
+    {
       "id": "di.equipment.stimm_slug",
       "name": "Stimm Slug",
       "state": "incomplete_candidate",
       "path": "packages/di_phb_1_0/review/candidates/equipment/stimm_slug.json"
+    },
+    {
+      "id": "di.equipment.survey_auspex",
+      "name": "Survey auspex",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/equipment/survey_auspex.json"
+    },
+    {
+      "id": "di.equipment.symbol_of_faith",
+      "name": "Symbol of Faith",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/equipment/symbol_of_faith.json"
     },
     {
       "id": "di.equipment.void_patch_kit",
@@ -4768,6 +4918,150 @@
       "path": "packages/di_phb_1_0/entities/proficiency/skill.technology.json"
     },
     {
+      "id": "di.proficiency.weapon.trench_club",
+      "name": "Weapon: Trench Club",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/weapon.trench_club.json"
+    },
+    {
+      "id": "di.proficiency.weapon_group.advanced_firearm",
+      "name": "Advanced Firearm",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/weapon_group.advanced_firearm.json"
+    },
+    {
+      "id": "di.proficiency.weapon_group.aeldari",
+      "name": "Aeldari",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/weapon_group.aeldari.json"
+    },
+    {
+      "id": "di.proficiency.weapon_group.basic_firearm",
+      "name": "Basic Firearm",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/weapon_group.basic_firearm.json"
+    },
+    {
+      "id": "di.proficiency.weapon_group.chain",
+      "name": "Chain",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/weapon_group.chain.json"
+    },
+    {
+      "id": "di.proficiency.weapon_group.flamer",
+      "name": "Flamer",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/weapon_group.flamer.json"
+    },
+    {
+      "id": "di.proficiency.weapon_group.force",
+      "name": "Force",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/weapon_group.force.json"
+    },
+    {
+      "id": "di.proficiency.weapon_group.grenade",
+      "name": "Grenade",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/weapon_group.grenade.json"
+    },
+    {
+      "id": "di.proficiency.weapon_group.heavy",
+      "name": "Heavy",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/weapon_group.heavy.json"
+    },
+    {
+      "id": "di.proficiency.weapon_group.improvised",
+      "name": "Improvised",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/weapon_group.improvised.json"
+    },
+    {
+      "id": "di.proficiency.weapon_group.kin",
+      "name": "Kin",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/weapon_group.kin.json"
+    },
+    {
+      "id": "di.proficiency.weapon_group.martial_melee",
+      "name": "Martial Melee",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/weapon_group.martial_melee.json"
+    },
+    {
+      "id": "di.proficiency.weapon_group.mechanicus",
+      "name": "Mechanicus",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/weapon_group.mechanicus.json"
+    },
+    {
+      "id": "di.proficiency.weapon_group.melta",
+      "name": "Melta",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/weapon_group.melta.json"
+    },
+    {
+      "id": "di.proficiency.weapon_group.mining_tool",
+      "name": "Mining Tool",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/weapon_group.mining_tool.json"
+    },
+    {
+      "id": "di.proficiency.weapon_group.ogryn",
+      "name": "Ogryn",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/weapon_group.ogryn.json"
+    },
+    {
+      "id": "di.proficiency.weapon_group.pistol",
+      "name": "Pistol",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/weapon_group.pistol.json"
+    },
+    {
+      "id": "di.proficiency.weapon_group.plasma",
+      "name": "Plasma",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/weapon_group.plasma.json"
+    },
+    {
+      "id": "di.proficiency.weapon_group.rad_weapon",
+      "name": "Rad Weapon",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/weapon_group.rad_weapon.json"
+    },
+    {
+      "id": "di.proficiency.weapon_group.shield",
+      "name": "Shield",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/weapon_group.shield.json"
+    },
+    {
+      "id": "di.proficiency.weapon_group.shock",
+      "name": "Shock",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/weapon_group.shock.json"
+    },
+    {
+      "id": "di.proficiency.weapon_group.shotgun",
+      "name": "Shotgun",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/weapon_group.shotgun.json"
+    },
+    {
+      "id": "di.proficiency.weapon_group.simple_melee",
+      "name": "Simple Melee",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/weapon_group.simple_melee.json"
+    },
+    {
+      "id": "di.proficiency.weapon_group.sniper",
+      "name": "Sniper",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/weapon_group.sniper.json"
+    },
+    {
       "id": "di.progression.aeldari_outcast",
       "name": "Aeldari Outcast progression",
       "state": "draft_entity",
@@ -6514,6 +6808,18 @@
       "path": "packages/di_phb_1_0/review/candidates/system/weapon.targeting_optic.json"
     },
     {
+      "id": "di.tool.climbing_kit",
+      "name": "Climbing kit",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/tool/climbing_kit.json"
+    },
+    {
+      "id": "di.tool.maintenance_tools",
+      "name": "Maintenance tools",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/tool/maintenance_tools.json"
+    },
+    {
       "id": "di.vehicle.aeldari_vyper",
       "name": "Aeldari Vyper",
       "state": "incomplete_candidate",
@@ -6630,14 +6936,14 @@
     {
       "id": "di.weapon.autogun",
       "name": "Autogun",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/weapon/autogun.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/weapon/autogun.json"
     },
     {
       "id": "di.weapon.autopistol",
       "name": "Autopistol",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/weapon/autopistol.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/weapon/autopistol.json"
     },
     {
       "id": "di.weapon.battle_cannon",
@@ -6702,8 +7008,8 @@
     {
       "id": "di.weapon.combat_blade",
       "name": "Combat Blade",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/weapon/combat_blade.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/weapon/combat_blade.json"
     },
     {
       "id": "di.weapon.combat_shotgun",
@@ -6786,8 +7092,8 @@
     {
       "id": "di.weapon.frag_grenade",
       "name": "Frag Grenade",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/weapon/frag_grenade.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/weapon/frag_grenade.json"
     },
     {
       "id": "di.weapon.fusion_gun",
@@ -6918,14 +7224,14 @@
     {
       "id": "di.weapon.lasgun",
       "name": "Lasgun",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/weapon/lasgun.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/weapon/lasgun.json"
     },
     {
       "id": "di.weapon.laspistol",
       "name": "Laspistol",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/weapon/laspistol.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/weapon/laspistol.json"
     },
     {
       "id": "di.weapon.long_las",
@@ -7140,8 +7446,8 @@
     {
       "id": "di.weapon.stub_pistol",
       "name": "Stub Pistol",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/weapon/stub_pistol.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/weapon/stub_pistol.json"
     },
     {
       "id": "di.weapon.stub_rifle",
@@ -7170,8 +7476,8 @@
     {
       "id": "di.weapon.trench_club",
       "name": "Trench Club",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/weapon/trench_club.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/weapon/trench_club.json"
     },
     {
       "id": "di.weapon.twin_linked_heavy_stubber",

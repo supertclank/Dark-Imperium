@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "di.armour.flak_armour",
+  "kind": "armour",
+  "revision": 1,
+  "name": "Flak Armour",
+  "summary": "AC: 12 + Dex modifier; Standard military protection.; Availability: Issued",
+  "descriptionMarkdown": "AC: 12 + Dex modifier; Standard military protection.; Availability: Issued",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "9",
+        "heading": "Flak Armour",
+        "pdfPage": 42,
+        "printedPage": 29
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "category": "flak",
+    "equip": {
+      "slots": [
+        "body"
+      ],
+      "hands": 0
+    },
+    "properties": [],
+    "features": [],
+    "defence": {
+      "value": {
+        "kind": "constant",
+        "value": 12
+      },
+      "mode": "base",
+      "stackGroup": "di.defence.armour"
+    },
+    "dexterityBonus": {
+      "enabled": true
+    },
+    "availability": "Issued"
+  }
+}

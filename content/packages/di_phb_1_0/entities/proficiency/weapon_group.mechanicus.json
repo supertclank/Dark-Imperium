@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "di.proficiency.weapon_group.mechanicus",
+  "kind": "proficiency",
+  "revision": 1,
+  "name": "Mechanicus",
+  "summary": "Mechanicus",
+  "descriptionMarkdown": "Mechanicus",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "17",
+        "heading": "Mechanicus",
+        "pdfPage": 50,
+        "printedPage": 37
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "category": "weapon_group",
+    "appliesTo": {
+      "groups": [
+        "mechanicus"
+      ]
+    }
+  }
+}

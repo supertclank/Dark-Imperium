@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "packageId": "di_phb",
-  "packageVersion": "1.0-creation-readiness.1",
+  "packageVersion": "1.0-minimum-rulings.1",
   "lifecycle": "draft",
   "dependencies": [],
   "sources": [
@@ -11,7 +11,8 @@
     }
   ],
   "requiredCapabilities": [
-    "phb.roll_bindings.v1"
+    "phb.roll_bindings.v1",
+    "phb.equipment.minimum_rulings.v1"
   ],
   "publicationBlocked": true,
   "publicationBlockers": [
@@ -21,16 +22,88 @@
   ],
   "entities": [
     {
+      "id": "di.action.autogun.attack",
+      "revision": 1,
+      "path": "entities/action/autogun.attack.json",
+      "sha256": "e7a03920595a412a8f7653c35a1e1ac029c57871885f96477eeca67170f57c30"
+    },
+    {
+      "id": "di.action.autopistol.attack",
+      "revision": 1,
+      "path": "entities/action/autopistol.attack.json",
+      "sha256": "ccb513292f4842ffeb51500907af4a62a1b4eb3150cd19534ce10d73a23b194c"
+    },
+    {
+      "id": "di.action.combat_blade.attack",
+      "revision": 1,
+      "path": "entities/action/combat_blade.attack.json",
+      "sha256": "9d95710b24af80f261da0341fca767f959cd43c9aa81b214eaf8da91346b67c3"
+    },
+    {
+      "id": "di.action.frag_grenade.throw",
+      "revision": 1,
+      "path": "entities/action/frag_grenade.throw.json",
+      "sha256": "e1f6096ec02e67e91bcb77833a19a069e074e2192df894b73a5a36abb0ec046e"
+    },
+    {
+      "id": "di.action.lasgun.attack",
+      "revision": 1,
+      "path": "entities/action/lasgun.attack.json",
+      "sha256": "4fd33227dfcfa7df94a80b7faaabeeba4eeaf5a91da288a2127af4323b5b76cb"
+    },
+    {
       "id": "di.action.lasgun.base_damage",
       "revision": 2,
       "path": "entities/action/lasgun.base_damage.json",
       "sha256": "c7c5fca10645c41e3e8f753c031db51307cee8d5981a58c7393afcd5930c4240"
     },
     {
+      "id": "di.action.laspistol.attack",
+      "revision": 1,
+      "path": "entities/action/laspistol.attack.json",
+      "sha256": "255c8566d64326d197672e46c4136c8d187b24ca71e9b8d1693760ef35078569"
+    },
+    {
+      "id": "di.action.stub_pistol.attack",
+      "revision": 1,
+      "path": "entities/action/stub_pistol.attack.json",
+      "sha256": "a49f024b83fcd8f9b0d7e0802c8cd37387730f94627c910d88795d422e6e8aab"
+    },
+    {
+      "id": "di.action.trench_club.attack",
+      "revision": 1,
+      "path": "entities/action/trench_club.attack.json",
+      "sha256": "5001553b938f59caa1b44bd28e867ed07f6ab391ae9b1b2e2bb8e7f08a700bda"
+    },
+    {
       "id": "di.action.warp_spark.base_damage",
       "revision": 2,
       "path": "entities/action/warp_spark.base_damage.json",
       "sha256": "ece5542d57145ea0317ca2dccfae5cb7b0f4e80d2c35f7f312071b0b11e2654c"
+    },
+    {
+      "id": "di.armour.armoured_bodyglove",
+      "revision": 1,
+      "path": "entities/armour/armoured_bodyglove.json",
+      "sha256": "071b5fbeca6f442fe046902f7938d5665c2934f06f65fdd8276ccb0798cd8e37"
+    },
+    {
+      "id": "di.armour.flak_armour",
+      "revision": 1,
+      "path": "entities/armour/flak_armour.json",
+      "sha256": "be549b3138363daa1d4de139c7c6cdb82527f8d6a54ebab13fce813ec81f9e5e"
+    },
+    {
+      "id": "di.armour.flak_vest",
+      "revision": 1,
+      "path": "entities/armour/flak_vest.json",
+      "sha256": "e529758e7b67db1fcc7f776272d7bfad367553a4995466aa2b018b6d53c61098"
+    },
+    {
+      "id": "di.armour.mesh_armour",
+      "revision": 1,
+      "path": "entities/armour/mesh_armour.json",
+      "sha256": "bf5ed24ef68d9c240fc16037b7cb02b2508e296cef753e7f2c0e59f847e0a4ab"
     },
     {
       "id": "di.armour.ogryn_leathers",
@@ -43,6 +116,66 @@
       "revision": 1,
       "path": "entities/armour/ogryn_plate.json",
       "sha256": "9f68ecacbe79c6669d63b3d7f3f243391060890a0ed4df579f398e5b70cb82c6"
+    },
+    {
+      "id": "di.augmetic.black_iron_jaw",
+      "revision": 1,
+      "path": "entities/augmetic/black_iron_jaw.json",
+      "sha256": "0dd14af57c2444fda6a80162df17f4cb5e418f6f5d3d56c736c657d9e520d0de"
+    },
+    {
+      "id": "di.augmetic.data_jack",
+      "revision": 1,
+      "path": "entities/augmetic/data_jack.json",
+      "sha256": "21fb2cfbbfc01f179675b680f58834062bc5397487c1b910424640f65d52e2e5"
+    },
+    {
+      "id": "di.augmetic.dermal_insulation",
+      "revision": 1,
+      "path": "entities/augmetic/dermal_insulation.json",
+      "sha256": "0978f00a3631181587792b7f2bc5f4dd5e0d15580c2e771e0bf34e158ff1ce4c"
+    },
+    {
+      "id": "di.augmetic.internal_chrono",
+      "revision": 1,
+      "path": "entities/augmetic/internal_chrono.json",
+      "sha256": "e943fde191e3ea183bf092c67dab28793201f5a28271789ebe494fffa7b0a972"
+    },
+    {
+      "id": "di.augmetic.mag_lock_palm",
+      "revision": 1,
+      "path": "entities/augmetic/mag_lock_palm.json",
+      "sha256": "bceab0e70471afd295707fa16fa554dc16d9ef088ca8807b213007520768b7b0"
+    },
+    {
+      "id": "di.augmetic.mechadendrite_utility",
+      "revision": 1,
+      "path": "entities/augmetic/mechadendrite_utility.json",
+      "sha256": "32b26bb16f5cb7a5011af0de5b8d78a5b0cbfc9c1e4e45e92379d9d0616aa004"
+    },
+    {
+      "id": "di.augmetic.optical_implant",
+      "revision": 1,
+      "path": "entities/augmetic/optical_implant.json",
+      "sha256": "7056d25a1294943f4a41b29108445a1f640e6cc24d6c0f37b324b346c73afccf"
+    },
+    {
+      "id": "di.augmetic.respirator_implant",
+      "revision": 1,
+      "path": "entities/augmetic/respirator_implant.json",
+      "sha256": "46026b42f2f542555ad626b875b27f9ed4116a01f3a474016e75aa74d92eaa2d"
+    },
+    {
+      "id": "di.augmetic.vocal_coder",
+      "revision": 1,
+      "path": "entities/augmetic/vocal_coder.json",
+      "sha256": "14e6b85f44c329d64b3589e99bb10d4f5a76caa66d1ffae7a8a49cbe549cc42b"
+    },
+    {
+      "id": "di.augmetic.vox_implant",
+      "revision": 1,
+      "path": "entities/augmetic/vox_implant.json",
+      "sha256": "7778d0e0d8cee0c926e930c06d0ccda6006d9a5efba4199dea509b9ba442e2d8"
     },
     {
       "id": "di.background.craftworld_outcast",
@@ -183,6 +316,12 @@
       "sha256": "5c9dcda3b6e3a3d51c55990faa172c8ead9941af31b4eda05863a99714427f13"
     },
     {
+      "id": "di.choice.human.broad_training_proof",
+      "revision": 1,
+      "path": "entities/choice/human.broad_training_proof.json",
+      "sha256": "3b6f4343aa4f79a9fb33d795d3046d42a62f7bf4437a33c90c35697e4fc17a84"
+    },
+    {
       "id": "di.choice.human.imperial_adaptability",
       "revision": 1,
       "path": "entities/choice/human.imperial_adaptability.json",
@@ -267,10 +406,28 @@
       "sha256": "a552f2d26da7a3ea3a898c8fbaa784a030fb037867d62b459d880f6abe46da03"
     },
     {
+      "id": "di.choice.starting.light_armour",
+      "revision": 1,
+      "path": "entities/choice/starting.light_armour.json",
+      "sha256": "7bea18b8b1f44d3552e19d5b0fa3f25234f3b5581825f3ff9a00b56af5705f13"
+    },
+    {
+      "id": "di.choice.starting.minor_augmetic",
+      "revision": 1,
+      "path": "entities/choice/starting.minor_augmetic.json",
+      "sha256": "00b4f8ca5059d0aad68a9f7362c3c4e75c2eee5b3966e8b6059e29dc4b8edf6b"
+    },
+    {
       "id": "di.choice.underhive.skills",
       "revision": 1,
       "path": "entities/choice/underhive.skills.json",
       "sha256": "ac19a5e8080080279055a1994d05243581786c2352f7a21c9222e4a5bf51418b"
+    },
+    {
+      "id": "di.choice.veteran.specialist_group",
+      "revision": 1,
+      "path": "entities/choice/veteran.specialist_group.json",
+      "sha256": "95b94637cee78b52a2f809fa0c7971db0c3ed9f6c746750b143e6fda7379a147"
     },
     {
       "id": "di.choice.veteran.starting_skills",
@@ -445,6 +602,90 @@
       "revision": 1,
       "path": "entities/damage_type/thunder.json",
       "sha256": "bf0ddef4c54b769abd6d082979e84a60ff20172a3126ddea5f598efc9eacc430"
+    },
+    {
+      "id": "di.equipment.camo_cloak",
+      "revision": 1,
+      "path": "entities/equipment/camo_cloak.json",
+      "sha256": "82c9806a49842cf73a4d58b7184d8222faa15adc3a61a7c42f417f3bc5ca2591"
+    },
+    {
+      "id": "di.equipment.claim_marker",
+      "revision": 1,
+      "path": "entities/equipment/claim_marker.json",
+      "sha256": "216217f14554c8fd2b636b7f67ca5369043f2413fc84d3bcc2a3f65a3d28cb72"
+    },
+    {
+      "id": "di.equipment.lucky_charm",
+      "revision": 1,
+      "path": "entities/equipment/lucky_charm.json",
+      "sha256": "eaf82ef0a18292b7cfe3d69f8d766a8986ce7d7b16523d57e3a281699c251614"
+    },
+    {
+      "id": "di.equipment.manacles",
+      "revision": 1,
+      "path": "entities/equipment/manacles.json",
+      "sha256": "0bbef5fbc86ef5ac485bc08f9b28f9bc6967808f2df22dc4c0ea31c5fc6e91d2"
+    },
+    {
+      "id": "di.equipment.med_pack",
+      "revision": 1,
+      "path": "entities/equipment/med_pack.json",
+      "sha256": "7b1a81ea4d17af9d0b500a266052b487311f66f6f557e8587b1bf5ddc8843e2b"
+    },
+    {
+      "id": "di.equipment.oath_token",
+      "revision": 1,
+      "path": "entities/equipment/oath_token.json",
+      "sha256": "e2e9cc7d80bbb2332aa82f0991a51f9525a3f7a3d869a52f22d7126d9d8f072d"
+    },
+    {
+      "id": "di.equipment.psychic_focus",
+      "revision": 1,
+      "path": "entities/equipment/psychic_focus.json",
+      "sha256": "6dfa7a09f2eba42aaa53aa46cab6e15df3ce60834b0e2d25861ad7931360c81c"
+    },
+    {
+      "id": "di.equipment.rations",
+      "revision": 1,
+      "path": "entities/equipment/rations.json",
+      "sha256": "bda07c3e55fe1ad358bc3c96412ed2547935b2b2f73e391abd3757c0df101c70"
+    },
+    {
+      "id": "di.equipment.rune_stones",
+      "revision": 1,
+      "path": "entities/equipment/rune_stones.json",
+      "sha256": "1bc6dace9a80280e2a7b5f3280d084a209fba70ca0443f94a83faf3adb9593ed"
+    },
+    {
+      "id": "di.equipment.sanctioning_brands_restraints",
+      "revision": 1,
+      "path": "entities/equipment/sanctioning_brands_restraints.json",
+      "sha256": "b40d4ab34c4defcfae2ec9fdbb345463d67cbc09b7cd0b89568cf07b43f4ab72"
+    },
+    {
+      "id": "di.equipment.spirit_charm",
+      "revision": 1,
+      "path": "entities/equipment/spirit_charm.json",
+      "sha256": "a85253356f510f7bb8f1ad3c04c7970fee1bbc743da763573b4029afd333a6dd"
+    },
+    {
+      "id": "di.equipment.spirit_token",
+      "revision": 1,
+      "path": "entities/equipment/spirit_token.json",
+      "sha256": "4476fc18b7f7acda33cf04a99d88d25110686a8b99554ffb5c6d006ffd356085"
+    },
+    {
+      "id": "di.equipment.survey_auspex",
+      "revision": 1,
+      "path": "entities/equipment/survey_auspex.json",
+      "sha256": "ad92a45aeca0b9583f1f07563bf29f03ec9725939048dd793c9b6115819a5599"
+    },
+    {
+      "id": "di.equipment.symbol_of_faith",
+      "revision": 1,
+      "path": "entities/equipment/symbol_of_faith.json",
+      "sha256": "0b0786b2b20381d5934a1e8969a611d8624549190bafba371ed395db4a65e2b3"
     },
     {
       "id": "di.feature.class.aeldari_outcast.level_1.ranger_training",
@@ -1774,9 +2015,9 @@
     },
     {
       "id": "di.feature.class.veteran.level_1.guardsman_training",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/class.veteran.level_1.guardsman_training.json",
-      "sha256": "3918973814c6d57e8fd14f2758ca78ef47eff88f645a60e7b6fd9389da2e7f9a"
+      "sha256": "24bcc40f30859710eede55b8499138bc05bedebbdc6ebce9288137a290a6aae2"
     },
     {
       "id": "di.feature.class.veteran.level_1.tactical_aim",
@@ -1900,9 +2141,9 @@
     },
     {
       "id": "di.feature.class.veteran.training",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/class.veteran.training.json",
-      "sha256": "08484bc3c1fabdb53d1b8e2af43cb98d650a204da444a2979d0299ae0328182e"
+      "sha256": "a6e50d0ca354875c63cd321d5cfbc431ee5bffae3d0c2bfe8f1af07bbce28b50"
     },
     {
       "id": "di.feature.class.zealot.level_1.fury_of_faith",
@@ -2176,9 +2417,9 @@
     },
     {
       "id": "di.feature.species.human.traits",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/species.human.traits.json",
-      "sha256": "24a7543d0fdd9a32f3bc2c57d1aed3f31834686ac65a2c17ffc8a00e7474d671"
+      "sha256": "5bfca0a14667ad5268c8c90f02767ec610947c8eb79b7f89f66133dfbdc5ed2e"
     },
     {
       "id": "di.feature.species.kin.baseline",
@@ -3777,6 +4018,150 @@
       "sha256": "c5c2cabc85bb5d13172f0f9f52d9f7c56dca9c325bc6dbbe68091405cdc5cea8"
     },
     {
+      "id": "di.proficiency.weapon.trench_club",
+      "revision": 1,
+      "path": "entities/proficiency/weapon.trench_club.json",
+      "sha256": "2872bd0db42e2ceab239063cf85849028d750772373823e7d9253bcacb48dc0f"
+    },
+    {
+      "id": "di.proficiency.weapon_group.advanced_firearm",
+      "revision": 1,
+      "path": "entities/proficiency/weapon_group.advanced_firearm.json",
+      "sha256": "04e4d80f7f23393c97a94a0f2bef772abe7137f88c17a4beb113a959b55805c9"
+    },
+    {
+      "id": "di.proficiency.weapon_group.aeldari",
+      "revision": 1,
+      "path": "entities/proficiency/weapon_group.aeldari.json",
+      "sha256": "41318882e7378ca236c409b798982a28c5b7d10b65b96f120e42730f4042e11a"
+    },
+    {
+      "id": "di.proficiency.weapon_group.basic_firearm",
+      "revision": 1,
+      "path": "entities/proficiency/weapon_group.basic_firearm.json",
+      "sha256": "76f789afb678dcd9e28c784954f0bb2af8bfe2f7f4a19f24fcfd9495ad3213a8"
+    },
+    {
+      "id": "di.proficiency.weapon_group.chain",
+      "revision": 1,
+      "path": "entities/proficiency/weapon_group.chain.json",
+      "sha256": "e77a56479a0d712a82bafdcbb574d0e92300ac552baaf102736410e06b70ba8d"
+    },
+    {
+      "id": "di.proficiency.weapon_group.flamer",
+      "revision": 1,
+      "path": "entities/proficiency/weapon_group.flamer.json",
+      "sha256": "b4586bba7ed3358cf5917ec7ff1f866e4226bdfa702c53dc47ec6c0384dd3c1b"
+    },
+    {
+      "id": "di.proficiency.weapon_group.force",
+      "revision": 1,
+      "path": "entities/proficiency/weapon_group.force.json",
+      "sha256": "4f3fd4d3998fc95a725cdfc2c514c857c0c4a34ae264a881dd58b565dacb637e"
+    },
+    {
+      "id": "di.proficiency.weapon_group.grenade",
+      "revision": 1,
+      "path": "entities/proficiency/weapon_group.grenade.json",
+      "sha256": "be2dd9c6642f87aec3fe8359f56a5d47ff79563ade913906c517e8265e53e071"
+    },
+    {
+      "id": "di.proficiency.weapon_group.heavy",
+      "revision": 1,
+      "path": "entities/proficiency/weapon_group.heavy.json",
+      "sha256": "d9b7bbf715cf96381ed3c5a9d571c2b104698d9c997a02ff7240cb2f39aca32b"
+    },
+    {
+      "id": "di.proficiency.weapon_group.improvised",
+      "revision": 1,
+      "path": "entities/proficiency/weapon_group.improvised.json",
+      "sha256": "32ddfa342fafd8ea91565eb83d0bd5bfbfc0e48535780099dcc35314d2433b95"
+    },
+    {
+      "id": "di.proficiency.weapon_group.kin",
+      "revision": 1,
+      "path": "entities/proficiency/weapon_group.kin.json",
+      "sha256": "d25d422926b7be397fd35595ab80e39f6a06a6dc8876f4379591866d422391e8"
+    },
+    {
+      "id": "di.proficiency.weapon_group.martial_melee",
+      "revision": 1,
+      "path": "entities/proficiency/weapon_group.martial_melee.json",
+      "sha256": "8feddea09b06e682d2c624fe4f8aa632c207a506310bb0c8d39ce866bc3896ad"
+    },
+    {
+      "id": "di.proficiency.weapon_group.mechanicus",
+      "revision": 1,
+      "path": "entities/proficiency/weapon_group.mechanicus.json",
+      "sha256": "385b0cc0daf7ee9486a59c598a734127d2c55aebe4809718b01593ef42523acf"
+    },
+    {
+      "id": "di.proficiency.weapon_group.melta",
+      "revision": 1,
+      "path": "entities/proficiency/weapon_group.melta.json",
+      "sha256": "f71b405cb9d5730800aa0ce6141efa9bb770df6502195a9e83a4116829daec53"
+    },
+    {
+      "id": "di.proficiency.weapon_group.mining_tool",
+      "revision": 1,
+      "path": "entities/proficiency/weapon_group.mining_tool.json",
+      "sha256": "8cbd0493316e993dada2a03177499eabd77362be47eaf3f48a2a1c147cf6c38b"
+    },
+    {
+      "id": "di.proficiency.weapon_group.ogryn",
+      "revision": 1,
+      "path": "entities/proficiency/weapon_group.ogryn.json",
+      "sha256": "7e769029de6ebb3d87bfa595a1f44db3c72df57dadfeda30a20636b5cfc54faa"
+    },
+    {
+      "id": "di.proficiency.weapon_group.pistol",
+      "revision": 1,
+      "path": "entities/proficiency/weapon_group.pistol.json",
+      "sha256": "e3a15626fb086d8233027e29d7a7912a98630fcee824eb0fe8e7c1de1d74c699"
+    },
+    {
+      "id": "di.proficiency.weapon_group.plasma",
+      "revision": 1,
+      "path": "entities/proficiency/weapon_group.plasma.json",
+      "sha256": "12191ff1d38f36439f97d1cce0c5d5426a829915ebf1983f77da03255352e4e3"
+    },
+    {
+      "id": "di.proficiency.weapon_group.rad_weapon",
+      "revision": 1,
+      "path": "entities/proficiency/weapon_group.rad_weapon.json",
+      "sha256": "868a9163a4c5d8f747c9d7993cdebba6d9b097d039fb73b406ad342ddae79355"
+    },
+    {
+      "id": "di.proficiency.weapon_group.shield",
+      "revision": 1,
+      "path": "entities/proficiency/weapon_group.shield.json",
+      "sha256": "80190e398da7cfb4a125f359979600726351a382b69e8ed642a88cf5ac18713d"
+    },
+    {
+      "id": "di.proficiency.weapon_group.shock",
+      "revision": 1,
+      "path": "entities/proficiency/weapon_group.shock.json",
+      "sha256": "d312114bf1e37a14e1d130b96c2cb14d00e6c7a6dc8496a4d13908140df547c9"
+    },
+    {
+      "id": "di.proficiency.weapon_group.shotgun",
+      "revision": 1,
+      "path": "entities/proficiency/weapon_group.shotgun.json",
+      "sha256": "63f2f00c14da079bd9ef93cdca9633c0dfde27d70b479f4ad9ff118206b2d667"
+    },
+    {
+      "id": "di.proficiency.weapon_group.simple_melee",
+      "revision": 1,
+      "path": "entities/proficiency/weapon_group.simple_melee.json",
+      "sha256": "b685b04ed34ca1e13f7028fd73c4e3f7206eda5a2a4abec8119cf6164c64170d"
+    },
+    {
+      "id": "di.proficiency.weapon_group.sniper",
+      "revision": 1,
+      "path": "entities/proficiency/weapon_group.sniper.json",
+      "sha256": "63fcd0ce5952583d859bb1fcfcaa5ea0ba78d4a36bb29c3cba7fba6366cb81c4"
+    },
+    {
       "id": "di.progression.aeldari_outcast",
       "revision": 2,
       "path": "entities/progression/aeldari_outcast.json",
@@ -4864,9 +5249,9 @@
     },
     {
       "id": "di.shield.shield",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/shield/shield.json",
-      "sha256": "992a62c223cbd9af30af14a07c335c6fabdea557138156806ea37eb0d73e3822"
+      "sha256": "e11b390be8c8e889904adb01412c17a53d0743419a5850232c4a866c6767040b"
     },
     {
       "id": "di.skill.acrobatics",
@@ -5263,6 +5648,66 @@
       "revision": 1,
       "path": "entities/subclass/zealot.purifier.json",
       "sha256": "aa7122220b0dc9f6d1f12b3f88c4c2f4db9d6a23ee67dfe87cc018ff784569e8"
+    },
+    {
+      "id": "di.tool.climbing_kit",
+      "revision": 1,
+      "path": "entities/tool/climbing_kit.json",
+      "sha256": "01fafa76788ec9d739b4bb78b5d58118be3f3f0764db8b131253bf1e9ca3ea05"
+    },
+    {
+      "id": "di.tool.maintenance_tools",
+      "revision": 1,
+      "path": "entities/tool/maintenance_tools.json",
+      "sha256": "cb9e358806fbdfa01ba4936fe5a9972f094518bd6e533539cd3fa5d935b07bf4"
+    },
+    {
+      "id": "di.weapon.autogun",
+      "revision": 1,
+      "path": "entities/weapon/autogun.json",
+      "sha256": "bafff13d5ec522bf19f92983b89e33e200028f2d3d3c3c313356ee8e1236cb76"
+    },
+    {
+      "id": "di.weapon.autopistol",
+      "revision": 1,
+      "path": "entities/weapon/autopistol.json",
+      "sha256": "7feba882884c36cb9be34b23c85e22d76b32a1521c480f661e5ab1de6671dea9"
+    },
+    {
+      "id": "di.weapon.combat_blade",
+      "revision": 1,
+      "path": "entities/weapon/combat_blade.json",
+      "sha256": "4eed91319354aabac4086bc6b1bda058357d721cd24201223c09696b2b3056df"
+    },
+    {
+      "id": "di.weapon.frag_grenade",
+      "revision": 1,
+      "path": "entities/weapon/frag_grenade.json",
+      "sha256": "eb8a9bc3ddf010a09974ae6f79d49281eed78076f72ab28a87d82c8688fd7345"
+    },
+    {
+      "id": "di.weapon.lasgun",
+      "revision": 1,
+      "path": "entities/weapon/lasgun.json",
+      "sha256": "8276e2607c7267d0558e5f58ff6862caee7439f3fe9ef924c74d1d5bba00fceb"
+    },
+    {
+      "id": "di.weapon.laspistol",
+      "revision": 1,
+      "path": "entities/weapon/laspistol.json",
+      "sha256": "e2c0dc8b4e9cfa553be13a0a72a626ef822b70e5c7f39fb559f13f73f924afb9"
+    },
+    {
+      "id": "di.weapon.stub_pistol",
+      "revision": 1,
+      "path": "entities/weapon/stub_pistol.json",
+      "sha256": "42f22fd428d5229f9045a44486d6372f3c049823b9dd7335e5f1266ffbe65eb5"
+    },
+    {
+      "id": "di.weapon.trench_club",
+      "revision": 1,
+      "path": "entities/weapon/trench_club.json",
+      "sha256": "c91bf5d91f8f0cc8318995d2517f1fab9a112b78e22b0ea588f9b8f1ece9989c"
     }
   ]
 }

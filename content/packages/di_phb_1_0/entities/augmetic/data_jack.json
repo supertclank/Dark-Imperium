@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "di.augmetic.data_jack",
+  "kind": "augmetic",
+  "revision": 1,
+  "name": "Data-Jack",
+  "summary": "Upgrade: Data-Jack; Effect: Advantage on checks to interface with cogitators, terminals, locks, and security systems.; Availability: Controlled",
+  "descriptionMarkdown": "Upgrade: Data-Jack; Effect: Advantage on checks to interface with cogitators, terminals, locks, and security systems.; Availability: Controlled",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "13",
+        "heading": "Data-Jack",
+        "pdfPage": 89,
+        "printedPage": 76
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "features": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Upgrade: Data-Jack; Effect: Advantage on checks to interface with cogitators, terminals, locks, and security systems.; Availability: Controlled",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Canonical manual utility; context/option choice must be adjudicated before application."
+      }
+    ],
+    "functionalTags": [
+      "minor_augmetic"
+    ],
+    "availability": "Controlled"
+  }
+}

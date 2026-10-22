@@ -1,101 +1,30 @@
-[
-  {
-    "category": "Species",
-    "total": 6,
-    "ready": 0,
-    "manual": 0,
-    "blocked": 6,
-    "deferred": 0,
-    "scope": "Full projection dependencies; baselines valid"
+{
+  "supersedes": "Previous category readiness counts",
+  "canonical": 948,
+  "candidates": 310,
+  "manualEntries": 692,
+  "kinds": {
+    "action": 10,
+    "armour": 6,
+    "augmetic": 10,
+    "background": 10,
+    "choice": 36,
+    "class": 12,
+    "damage_type": 13,
+    "equipment": 14,
+    "feature": 540,
+    "proficiency": 39,
+    "progression": 57,
+    "property": 31,
+    "rule": 93,
+    "shield": 1,
+    "skill": 15,
+    "species": 6,
+    "subclass": 45,
+    "tool": 2,
+    "weapon": 8
   },
-  {
-    "category": "Origins",
-    "total": 10,
-    "ready": 0,
-    "manual": 3,
-    "blocked": 7,
-    "deferred": 0,
-    "scope": "Local prerequisite/skill/manual-feature scope; global calculation gate separate"
-  },
-  {
-    "category": "Classes",
-    "total": 12,
-    "ready": 0,
-    "manual": 0,
-    "blocked": 12,
-    "deferred": 0,
-    "scope": "Full training/resources/starting-choice closure"
-  },
-  {
-    "category": "Subclasses",
-    "total": 45,
-    "ready": 0,
-    "manual": 45,
-    "blocked": 0,
-    "deferred": 0,
-    "scope": "Local parent/level/visible manual-feature skeleton only"
-  },
-  {
-    "category": "Skills",
-    "total": 15,
-    "ready": 15,
-    "manual": 0,
-    "blocked": 0,
-    "deferred": 0,
-    "scope": "Definitions only; calculated bonuses still blocked"
-  },
-  {
-    "category": "Talents",
-    "total": 50,
-    "ready": 0,
-    "manual": 0,
-    "blocked": 50,
-    "deferred": 0,
-    "scope": "Selection at4+ and repeat/pool requirements"
-  },
-  {
-    "category": "Universal Traits",
-    "total": 20,
-    "ready": 0,
-    "manual": 20,
-    "blocked": 0,
-    "deferred": 0,
-    "scope": "Selectable source text/known requirements; numerical mapping remains partial"
-  },
-  {
-    "category": "Starting item identities matched",
-    "total": 56,
-    "ready": 2,
-    "manual": 0,
-    "blocked": 54,
-    "deferred": 0,
-    "scope": "Exact names only, excludes unresolved aliases/categories"
-  },
-  {
-    "category": "Powers",
-    "total": 52,
-    "ready": 0,
-    "manual": 0,
-    "blocked": 38,
-    "deferred": 14,
-    "scope": "Initial Minor/Standard pool versus later Major"
-  },
-  {
-    "category": "Choices",
-    "total": 32,
-    "ready": 32,
-    "manual": 0,
-    "blocked": 0,
-    "deferred": 0,
-    "scope": "Structural option/reference validity; not proof every option is eligible"
-  },
-  {
-    "category": "Human-ruling dependencies",
-    "total": 36,
-    "ready": 0,
-    "manual": 0,
-    "blocked": 12,
-    "deferred": 24,
-    "scope": "All36 unresolved human questions:12 catalog blockers,24 conditional/later; none resolved"
-  }
-]
+  "narrowCore": "PASS",
+  "narrowPlayable": "BLOCKED",
+  "fullCatalogue": "BLOCKED"
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "di.action.frag_grenade.throw",
+  "kind": "action",
+  "revision": 1,
+  "name": "Throw Frag Grenade",
+  "summary": "Throw Frag Grenade",
+  "descriptionMarkdown": "Throw Frag Grenade",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "17",
+        "heading": "Throw Frag Grenade",
+        "pdfPage": 47,
+        "printedPage": 34
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "economy": "manual",
+    "target": {
+      "kind": "single",
+      "scope": "actor"
+    },
+    "costs": [],
+    "outcomes": [
+      {
+        "id": "manual",
+        "on": "always",
+        "effects": [],
+        "manualRules": [
+          {
+            "id": "source_rule",
+            "automation": "manual",
+            "text": "Action; range 30/90 ft. Point within 30 ft requires no attack. Beyond 30 ft: DC 10 Dexterity check; failure lands 10 ft short. Expend grenade. 15-ft radius; Dexterity save; 3d6 piercing. Successful-save consequence is not specified in the Frag row.",
+            "adjudicator": "gm",
+            "context": "source-defined procedure",
+            "reason": "Partial source procedure; successful-save consequence remains unresolved, not assumed half damage."
+          }
+        ]
+      }
+    ]
+  }
+}

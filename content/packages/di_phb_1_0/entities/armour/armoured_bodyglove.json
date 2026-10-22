@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "di.armour.armoured_bodyglove",
+  "kind": "armour",
+  "revision": 1,
+  "name": "Armoured Bodyglove",
+  "summary": "AC: 11 + Dex modifier; May be worn under coats or robes; concealable.; Availability: Controlled",
+  "descriptionMarkdown": "AC: 11 + Dex modifier; May be worn under coats or robes; concealable.; Availability: Controlled",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "9",
+        "heading": "Armoured Bodyglove",
+        "pdfPage": 42,
+        "printedPage": 29
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "category": "light",
+    "equip": {
+      "slots": [
+        "body"
+      ],
+      "hands": 0
+    },
+    "properties": [],
+    "features": [],
+    "defence": {
+      "value": {
+        "kind": "constant",
+        "value": 11
+      },
+      "mode": "base",
+      "stackGroup": "di.defence.armour"
+    },
+    "dexterityBonus": {
+      "enabled": true
+    },
+    "availability": "Controlled"
+  }
+}

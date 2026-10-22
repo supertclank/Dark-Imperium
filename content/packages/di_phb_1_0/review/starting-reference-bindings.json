@@ -1,0 +1,82 @@
+{
+  "approval": {
+    "path": "review/approved-minimum-rulings.txt",
+    "sha256": "dc5f34452786e00e86d53dbfd3ebbff0ef39a10ccc99eef50bacb4112ca53077",
+    "approvedBy": "user",
+    "date": "2026-10-22"
+  },
+  "bindings": {
+    "medkit": {
+      "id": "di.equipment.med_pack"
+    },
+    "riot shield": {
+      "id": "di.shield.shield"
+    },
+    "light armour": {
+      "id": "di.choice.starting.light_armour"
+    },
+    "minor augmetic": {
+      "id": "di.choice.starting.minor_augmetic"
+    },
+    "black-market contact": {
+      "kind": "character_contact",
+      "inventory": false
+    },
+    "symbol of faith": {
+      "id": "di.equipment.symbol_of_faith"
+    },
+    "sanctioning brands/restraints": {
+      "id": "di.equipment.sanctioning_brands_restraints"
+    },
+    "psychic focus": {
+      "id": "di.equipment.psychic_focus"
+    },
+    "rations": {
+      "id": "di.equipment.rations"
+    },
+    "lucky charm": {
+      "id": "di.equipment.lucky_charm"
+    },
+    "manacles": {
+      "id": "di.equipment.manacles"
+    },
+    "camo cloak": {
+      "id": "di.equipment.camo_cloak"
+    },
+    "maintenance tools": {
+      "id": "di.tool.maintenance_tools"
+    },
+    "oath-token": {
+      "id": "di.equipment.oath_token"
+    },
+    "survey auspex": {
+      "id": "di.equipment.survey_auspex"
+    },
+    "climbing kit": {
+      "id": "di.tool.climbing_kit"
+    },
+    "claim marker": {
+      "id": "di.equipment.claim_marker"
+    },
+    "spirit-token": {
+      "id": "di.equipment.spirit_token"
+    },
+    "rune stones": {
+      "id": "di.equipment.rune_stones"
+    },
+    "spirit charm": {
+      "id": "di.equipment.spirit_charm"
+    },
+    "psychic focus/rune stones": {
+      "options": [
+        {
+          "id": "di.equipment.psychic_focus"
+        },
+        {
+          "id": "di.equipment.rune_stones"
+        }
+      ]
+    }
+  },
+  "scope": "Token aliases and pools; not approval of other package choices or missing definitions."
+}

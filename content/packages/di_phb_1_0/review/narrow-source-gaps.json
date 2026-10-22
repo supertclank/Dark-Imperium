@@ -1,0 +1,14 @@
+[
+  {
+    "id": "PHB-GAP-FRAG-SAVE-SUCCESS",
+    "status": "UNRESOLVED",
+    "sourcePdfPage": 47,
+    "sourceText": "Frag Grenade: 15-ft radius; Dexterity save; 3d6 piercing damage.",
+    "question": "What damage or other consequence does a successful save against a Frag Grenade produce?",
+    "affected": [
+      "di.weapon.frag_grenade",
+      "di.class.veteran"
+    ],
+    "note": "Additional source gap, not a silently approved decision or one of the previous 36 ruling IDs."
+  }
+]

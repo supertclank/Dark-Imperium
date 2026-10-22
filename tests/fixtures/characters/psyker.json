@@ -99,6 +99,20 @@
             "universal_twitchy"
           ],
           "status": "valid"
+        },
+        {
+          "occurrenceId": "0486cd2d-033e-536b-ae06-a0c2205cecce",
+          "origin": {
+            "kind": "creation_step",
+            "stepId": "pending_choices"
+          },
+          "choice": {
+            "id": "di.choice.human.broad_training_proof"
+          },
+          "optionIds": [
+            "trench_club"
+          ],
+          "status": "valid"
         }
       ]
     },
@@ -111,12 +125,10 @@
     "proficiencyBonus": 2,
     "errorCodes": [],
     "requiredUnresolvedCodes": [
-      "ATTRIBUTE_MODIFIER_POLICY_BLOCKED",
       "STARTING_EQUIPMENT_CONTENT_BLOCKED",
       "PLAYABLE_PROFILE_MISSING"
     ],
     "mustNotGenerate": [
-      "attributeModifiers",
       "maximumWounds",
       "defence",
       "initiative",

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "di.tool.maintenance_tools",
+  "kind": "tool",
+  "revision": 1,
+  "name": "Maintenance tools",
+  "summary": "Maintenance tools",
+  "descriptionMarkdown": "Maintenance tools",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "17",
+        "heading": "Maintenance tools",
+        "pdfPage": 100,
+        "printedPage": 87
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "features": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "PHB-RULE-051: Maintenance tools is tool; no inherent numerical bonus.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source-defined manual procedure; no automatic bonus inferred."
+      }
+    ],
+    "functionalTags": [
+      "tool"
+    ]
+  }
+}

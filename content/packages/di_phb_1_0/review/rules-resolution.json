@@ -410,14 +410,14 @@
     "group": "PHB-002",
     "title": "Attribute modifier derivation",
     "category": "MISSING_INFORMATION",
-    "status": "OPEN",
+    "status": "RESOLVED",
     "sourcePages": [
       17,
       18,
       123
     ],
     "evidence": "The source uses modifiers but supplies no located score-to-modifier formula/table.",
-    "decision": "Unknown modifier blocks dependent calculation.",
+    "decision": "Ability modifier:\r\n\r\n`floor((abilityScore - 10) / 2)`\r\n\r\nRules:\r\n\r\n- Use mathematical floor.\r\n- Ability scores must be positive integers.\r\n- Do not impose a generic maximum score of 20.\r\n- Explicit feature-specific maximums or minimums take precedence.\r\n- Species modifiers are applied according to existing character-creation rules.\r\n- The engine must support legitimate scores above 20.\r\n\r\nUpdate calculation policies, validation and tests.\r\n\r\nMark PHB-RULE-009 RESOLVED.",
     "humanQuestion": "Supply the exact score-to-modifier table or formula, with rounding and bounds.",
     "affectedIds": [
       "di.proficiency.skill.acrobatics",
@@ -466,7 +466,13 @@
       "Obtain an authoritative definition/erratum.",
       "Record a separate campaign ruling, never mislabel it PHB transcription.",
       "Keep dependent calculation unresolved."
-    ]
+    ],
+    "approval": {
+      "path": "review/approved-minimum-rulings.txt",
+      "sha256": "dc5f34452786e00e86d53dbfd3ebbff0ef39a10ccc99eef50bacb4112ca53077",
+      "approvedBy": "user",
+      "date": "2026-10-22"
+    }
   },
   {
     "id": "PHB-RULE-010",
@@ -1386,7 +1392,7 @@
     "group": "PHB-005",
     "title": "Weapon hands, reach and proficiency taxonomy",
     "category": "MISSING_INFORMATION",
-    "status": "OPEN",
+    "status": "RESOLVED",
     "sourcePages": [
       35,
       37,
@@ -1395,7 +1401,7 @@
       47
     ],
     "evidence": "Many rows lack mandatory hands/reach; proficiency labels differ from weapon table families.",
-    "decision": "Keep weapon candidates. Names do not imply hands, reach or proficiency membership.",
+    "decision": "## Default Weapon Ability Binding\r\n\r\nNormal melee weapon:\r\n\r\n- Attack ability: Strength\r\n- Damage ability: Strength\r\n\r\nNormal ranged weapon:\r\n\r\n- Attack ability: Dexterity\r\n- Damage ability: Dexterity\r\n\r\nFinesse:\r\n\r\n- Strength or Dexterity\r\n- The same selected ability is used for attack and damage\r\n\r\nThrown:\r\n\r\n- Uses the ability the weapon would normally use for its melee attack unless an explicit rule overrides it\r\n\r\nSpirit Weapon:\r\n\r\n- May substitute the user's psychic ability for Strength/Dexterity for attack and damage\r\n\r\nExplicit weapon-specific rules override all defaults.\r\n\r\n## Save-Based Weapons\r\n\r\nSave-based weapon effects do not automatically add an ability modifier to their listed damage.\r\n\r\nOnly add an ability modifier when a rule explicitly says to do so.\r\n\r\nGrenades and similar fixed-damage save effects therefore use their listed damage dice.\r\n\r\n## Hands\r\n\r\nDefaults:\r\n\r\n- Pistol: 1\r\n- Light melee weapon: 1\r\n- Shield: 1\r\n- Normal melee weapon: 1\r\n- Heavy melee weapon: 2\r\n- Versatile: 1 or 2\r\n- Basic firearm: 2\r\n- Shotgun: 2\r\n- Sniper weapon: 2\r\n- Heavy ranged weapon: 2\r\n\r\nAdd explicit overrides where required.\r\n\r\nForce Staff is explicitly 2-handed.\r\n\r\n## Reach\r\n\r\n- Default melee reach: 5 ft\r\n- Ranged weapons have no melee reach unless a rule gives them one\r\n- Thrown melee weapons retain normal melee reach as well as their throwing range\r\n\r\n## Proficiency Groups\r\n\r\nCanonical weapon entities must have explicit `proficiencyGroups`.\r\n\r\nSupport groups including at minimum:\r\n\r\n- simple_melee\r\n- martial_melee\r\n- pistol\r\n- basic_firearm\r\n- shotgun\r\n- sniper\r\n- heavy\r\n- grenade\r\n- flamer\r\n- chain\r\n- shock\r\n- plasma\r\n- melta\r\n- force\r\n- shield\r\n- ogryn\r\n- kin\r\n- aeldari\r\n- mechanicus\r\n- rad_weapon\r\n- advanced_firearm\r\n- improvised\r\n- mining_tool\r\n\r\nWeapons may belong to more than one group.\r\n\r\nProperties may help derive initial group membership, but canonical records must store membership explicitly.\r\n\r\n## Starting Equipment Proficiency\r\n\r\nA class is proficient with every weapon or shield granted directly by its own level-1 starting-equipment package.\r\n\r\nFor a package choice, this applies to the selected option.\r\n\r\nDo not use this rule to grant unrelated weapon-group proficiency.\r\n\r\n## Emplaced Weapons\r\n\r\nEmplaced is a deployment restriction, not a proficiency.\r\n\r\nRepresent conceptually as:\r\n\r\n- deployment: emplaced\r\n- requires mount, brace, rig, feature or GM-approved setup\r\n\r\nDo not create an `emplaced proficiency`.\r\n\r\nMark PHB-RULE-024 RESOLVED.",
     "humanQuestion": "Supply missing hands/reach and explicit weapon-family/proficiency membership; confirm mounted-only schema treatment.",
     "affectedIds": [
       "di.action.lasgun.base_damage",
@@ -1546,7 +1552,13 @@
       "Obtain an authoritative definition/erratum.",
       "Record a separate campaign ruling, never mislabel it PHB transcription.",
       "Keep dependent calculation unresolved."
-    ]
+    ],
+    "approval": {
+      "path": "review/approved-minimum-rulings.txt",
+      "sha256": "dc5f34452786e00e86d53dbfd3ebbff0ef39a10ccc99eef50bacb4112ca53077",
+      "approvedBy": "user",
+      "date": "2026-10-22"
+    }
   },
   {
     "id": "PHB-RULE-025",
@@ -4318,13 +4330,13 @@
     "group": "PHB-014",
     "title": "Medkit alias",
     "category": "MISSING_INFORMATION",
-    "status": "OPEN",
+    "status": "RESOLVED",
     "sourcePages": [
       100,
       101
     ],
     "evidence": "Starting list medkit and dedicated Med-Pack are not declared synonyms.",
-    "decision": "No automatic item alias.",
+    "decision": "`medkit` in starting equipment is an alias for the canonical Med-Pack.\r\n\r\nDo not create a separate Medkit entity.\r\n\r\nUpdate all starting-package references to use the canonical Med-Pack entity while retaining \"medkit\" as a recognised display/source alias if useful.\r\n\r\nMark PHB-RULE-049 RESOLVED.",
     "humanQuestion": "Is medkit the Med-Pack, another item, or a narrative kit? Provide definition/alias.",
     "affectedIds": [
       "di.ammunition.armour_piercing",
@@ -4439,20 +4451,26 @@
       "Obtain an authoritative definition/erratum.",
       "Record a separate campaign ruling, never mislabel it PHB transcription.",
       "Keep dependent calculation unresolved."
-    ]
+    ],
+    "approval": {
+      "path": "review/approved-minimum-rulings.txt",
+      "sha256": "dc5f34452786e00e86d53dbfd3ebbff0ef39a10ccc99eef50bacb4112ca53077",
+      "approvedBy": "user",
+      "date": "2026-10-22"
+    }
   },
   {
     "id": "PHB-RULE-050",
     "group": "PHB-014",
     "title": "Riot shield alias",
     "category": "MISSING_INFORMATION",
-    "status": "OPEN",
+    "status": "RESOLVED",
     "sourcePages": [
       100,
       42
     ],
     "evidence": "Starting kit says riot shield; armour table says Shield.",
-    "decision": "No silent alias, especially for shield-based features.",
+    "decision": "Riot Shield uses the generic Shield profile:\r\n\r\n- +2 AC\r\n- requires one hand\r\n\r\nAdd appropriate tags such as:\r\n\r\n- shield\r\n- riot\r\n- arbites\r\n\r\nIt qualifies for features that require or reference using a shield.\r\n\r\nDo not duplicate the full Shield rules in a separate incompatible entity.\r\n\r\nMark PHB-RULE-050 RESOLVED.",
     "humanQuestion": "Does riot shield use Shield statistics? If not, supply its profile.",
     "affectedIds": [
       "di.ammunition.armour_piercing",
@@ -4571,21 +4589,27 @@
       "Obtain an authoritative definition/erratum.",
       "Record a separate campaign ruling, never mislabel it PHB transcription.",
       "Keep dependent calculation unresolved."
-    ]
+    ],
+    "approval": {
+      "path": "review/approved-minimum-rulings.txt",
+      "sha256": "dc5f34452786e00e86d53dbfd3ebbff0ef39a10ccc99eef50bacb4112ca53077",
+      "approvedBy": "user",
+      "date": "2026-10-22"
+    }
   },
   {
     "id": "PHB-RULE-051",
     "group": "PHB-014",
     "title": "Other starting gear and minor augmetics",
     "category": "MISSING_INFORMATION",
-    "status": "OPEN",
+    "status": "RESOLVED",
     "sourcePages": [
       89,
       100,
       101
     ],
     "evidence": "Light armour is a category; focus, survey auspex, tools/tokens and minor augmetic pool are not fully enumerated.",
-    "decision": "Keep unresolved starting loadouts, retain narrative belongings explicitly.",
+    "decision": "## Generic Starting Light Armour Pool\r\n\r\nThe starting-equipment option `light armour` contains:\r\n\r\n- Armoured Bodyglove\r\n- Mesh Armour\r\n\r\nDo not include:\r\n\r\n- Heavy Clothing\r\n- Flak armour\r\n- Species-pattern armour\r\n\r\nHeavy Clothing remains a separately selectable item where explicitly offered.\r\n\r\n## Minor Augmetic Pool\r\n\r\n`minor augmetic` means a Controlled-Availability Augmetic Upgrade.\r\n\r\nThe current approved pool is:\r\n\r\n- Optical Implant\r\n- Respirator Implant\r\n- Data-Jack\r\n- Vox Implant\r\n- Mag-Lock Palm\r\n- Dermal Insulation\r\n- Internal Chrono\r\n- Mechadendrite, Utility\r\n- Black-Iron Jaw\r\n- Vocal Coder\r\n\r\nScarce and Rare augmetics do not belong to the generic Minor Augmetic pool.\r\n\r\n## Narrative / Utility Starting Items\r\n\r\nCanonicalise the following without inventing automatic mechanical bonuses:\r\n\r\n- Symbol of Faith: narrative item\r\n- Sanctioning brands/restraints: narrative item\r\n- Psychic Focus: tagged functional item `psychic_focus`, no inherent numerical bonus\r\n- Rations: general/narrative supply\r\n- Lucky Charm: narrative trinket\r\n- Manacles: utility/manual adjudication\r\n- Black-market contact: character contact, not inventory\r\n- Camo cloak: equipment; manual effect until explicitly defined\r\n- Maintenance tools: utility/tool item\r\n- Oath-token: narrative item; does not grant Relic-Bearer\r\n- Survey auspex: scanner/auspex variant with manual utility\r\n- Climbing kit: utility/tool item\r\n- Claim marker: narrative/feature prop\r\n- Spirit-token: narrative item\r\n- Rune stones: Psychic Focus variant\r\n- Spirit charm: narrative item\r\n\r\nA canonical inventory item may legitimately have no automated combat mechanics.\r\n\r\nMark PHB-RULE-051 RESOLVED.",
     "humanQuestion": "Define the allowed light armour/minor augmetic pools and missing starting-item entries or approved narrative-only classifications.",
     "affectedIds": [
       "di.ammunition.armour_piercing",
@@ -4700,7 +4724,13 @@
       "Obtain an authoritative definition/erratum.",
       "Record a separate campaign ruling, never mislabel it PHB transcription.",
       "Keep dependent calculation unresolved."
-    ]
+    ],
+    "approval": {
+      "path": "review/approved-minimum-rulings.txt",
+      "sha256": "dc5f34452786e00e86d53dbfd3ebbff0ef39a10ccc99eef50bacb4112ca53077",
+      "approvedBy": "user",
+      "date": "2026-10-22"
+    }
   },
   {
     "id": "PHB-RULE-052",

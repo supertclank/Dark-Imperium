@@ -1,3 +1,5 @@
+> **Historical pass; superseded by [Minimum rulings report](PHB_MINIMUM_RULINGS_REPORT.md).** Current: five approved, 31 unanswered; 948 drafts, 310 candidates, 81 tests. Narrow and full playable gates remain BLOCKED.
+
 # Character creation dataset manifest
 
 874 canonical drafts; 333 candidates; 659 manual entries. Counts below use explicit local scopes. READY on a skill or choice definition does not imply a READY calculated character. MANUAL means retained visible content for that local assessment, not a claim every mechanic is narrative by design. The readiness gate remains authoritative.

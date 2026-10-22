@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "di.augmetic.black_iron_jaw",
+  "kind": "augmetic",
+  "revision": 1,
+  "name": "Black-Iron Jaw",
+  "summary": "Upgrade: Black-Iron Jaw; Effect: Advantage on Intimidation checks when visible. Disadvantage on Persuasion checks in refined Imperial society.; Availability: Controlled",
+  "descriptionMarkdown": "Upgrade: Black-Iron Jaw; Effect: Advantage on Intimidation checks when visible. Disadvantage on Persuasion checks in refined Imperial society.; Availability: Controlled",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "13",
+        "heading": "Black-Iron Jaw",
+        "pdfPage": 89,
+        "printedPage": 76
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "features": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Upgrade: Black-Iron Jaw; Effect: Advantage on Intimidation checks when visible. Disadvantage on Persuasion checks in refined Imperial society.; Availability: Controlled",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Canonical manual utility; context/option choice must be adjudicated before application."
+      }
+    ],
+    "functionalTags": [
+      "minor_augmetic"
+    ],
+    "availability": "Controlled"
+  }
+}

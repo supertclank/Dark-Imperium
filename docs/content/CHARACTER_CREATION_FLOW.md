@@ -1,3 +1,5 @@
+> **Current pass:** [Minimum rulings and narrow proof](../import/PHB_MINIMUM_RULINGS_REPORT.md). Five rulings approved, 31 unresolved. 948 canonical drafts; 310 candidates; 81 content tests pass. The narrow core calculates, but a mandatory Frag Grenade save outcome keeps playable readiness BLOCKED. Earlier sections below describe historical scope.
+
 # Character creation flow and partial projection
 
 Source order: PHB v1.0 §2, printed 4/PDF 17: species → Origin → ability scores → class → one Universal Trait → record proficiencies/saves/features → starting equipment → calculate AC/HP/attack/DC → identity/warband role. Campaigns usually start at level 3; the source supports1–20. This pass does not choose a campaign level or approve alternative attribute generation.

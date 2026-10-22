@@ -111,6 +111,34 @@
             "universal_twitchy"
           ],
           "status": "valid"
+        },
+        {
+          "occurrenceId": "941ff0fb-648e-55a7-8775-23822708d4b2",
+          "origin": {
+            "kind": "creation_step",
+            "stepId": "pending_choices"
+          },
+          "choice": {
+            "id": "di.choice.human.broad_training_proof"
+          },
+          "optionIds": [
+            "trench_club"
+          ],
+          "status": "valid"
+        },
+        {
+          "occurrenceId": "0cf0804d-be30-55a8-9d08-a2be4895b3c6",
+          "origin": {
+            "kind": "creation_step",
+            "stepId": "pending_choices"
+          },
+          "choice": {
+            "id": "di.choice.veteran.specialist_group"
+          },
+          "optionIds": [
+            "sniper"
+          ],
+          "status": "valid"
         }
       ]
     },
@@ -123,12 +151,10 @@
     "proficiencyBonus": 2,
     "errorCodes": [],
     "requiredUnresolvedCodes": [
-      "ATTRIBUTE_MODIFIER_POLICY_BLOCKED",
       "STARTING_EQUIPMENT_CONTENT_BLOCKED",
       "PLAYABLE_PROFILE_MISSING"
     ],
     "mustNotGenerate": [
-      "attributeModifiers",
       "maximumWounds",
       "defence",
       "initiative",

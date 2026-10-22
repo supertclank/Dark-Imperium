@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "di.equipment.lucky_charm",
+  "kind": "equipment",
+  "revision": 1,
+  "name": "Lucky Charm",
+  "summary": "Lucky Charm",
+  "descriptionMarkdown": "Lucky Charm",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "17",
+        "heading": "Lucky Charm",
+        "pdfPage": 100,
+        "printedPage": 87
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "features": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "PHB-RULE-051: Lucky Charm is narrative; no inherent numerical bonus.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source-defined manual procedure; no automatic bonus inferred."
+      }
+    ],
+    "functionalTags": [
+      "narrative"
+    ]
+  }
+}

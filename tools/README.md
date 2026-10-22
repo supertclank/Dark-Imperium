@@ -1,3 +1,5 @@
+> **Current pass:** [Minimum rulings and narrow proof](../docs/import/PHB_MINIMUM_RULINGS_REPORT.md). Five rulings approved, 31 unresolved. 948 canonical drafts; 310 candidates; 81 content tests pass. The narrow core calculates, but a mandatory Frag Grenade save outcome keeps playable readiness BLOCKED. Earlier sections below describe historical scope.
+
 # PHB content tools
 
 ## Character creation readiness adapter

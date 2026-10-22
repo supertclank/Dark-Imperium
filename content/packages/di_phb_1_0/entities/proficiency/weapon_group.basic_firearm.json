@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "di.proficiency.weapon_group.basic_firearm",
+  "kind": "proficiency",
+  "revision": 1,
+  "name": "Basic Firearm",
+  "summary": "Basic Firearm",
+  "descriptionMarkdown": "Basic Firearm",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "17",
+        "heading": "Basic Firearm",
+        "pdfPage": 50,
+        "printedPage": 37
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "category": "weapon_group",
+    "appliesTo": {
+      "groups": [
+        "basic_firearm"
+      ]
+    }
+  }
+}

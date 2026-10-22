@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "di.augmetic.optical_implant",
+  "kind": "augmetic",
+  "revision": 1,
+  "name": "Optical Implant",
+  "summary": "Upgrade: Optical Implant; Effect: Gain darkvision 60 ft, or add +1d4 to a Perception check once per short rest.; Availability: Controlled",
+  "descriptionMarkdown": "Upgrade: Optical Implant; Effect: Gain darkvision 60 ft, or add +1d4 to a Perception check once per short rest.; Availability: Controlled",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "13",
+        "heading": "Optical Implant",
+        "pdfPage": 89,
+        "printedPage": 76
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "features": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Upgrade: Optical Implant; Effect: Gain darkvision 60 ft, or add +1d4 to a Perception check once per short rest.; Availability: Controlled",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Canonical manual utility; context/option choice must be adjudicated before application."
+      }
+    ],
+    "functionalTags": [
+      "minor_augmetic"
+    ],
+    "availability": "Controlled"
+  }
+}

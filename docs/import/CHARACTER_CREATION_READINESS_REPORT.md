@@ -1,3 +1,5 @@
+> **Historical pass; superseded by [Minimum rulings report](PHB_MINIMUM_RULINGS_REPORT.md).** Current: five approved, 31 unanswered; 948 drafts, 310 candidates, 81 tests. Narrow and full playable gates remain BLOCKED.
+
 # Human rulings integration and character creation readiness
 
 The user confirmed that **no approved human rulings exist**. This pass integrated **0**, preserved all 36 as UNRESOLVED and made independent progress only. The full builder UI was not implemented.

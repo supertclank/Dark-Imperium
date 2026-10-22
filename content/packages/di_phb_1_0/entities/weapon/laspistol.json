@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "di.weapon.laspistol",
+  "kind": "weapon",
+  "revision": 1,
+  "name": "Laspistol",
+  "summary": "Weapon: Laspistol; Damage: 1d6 radiant; Range: 50/150; Properties: Light, Reload 12; Availability: Issued",
+  "descriptionMarkdown": "Weapon: Laspistol; Damage: 1d6 radiant; Range: 50/150; Properties: Light, Reload 12; Availability: Issued",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "8",
+        "heading": "Laspistol",
+        "pdfPage": 37,
+        "printedPage": 24
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "properties": [
+      {
+        "property": {
+          "id": "di.property.weapon.light"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.reload"
+        },
+        "arguments": {
+          "capacity": 12
+        }
+      }
+    ],
+    "modes": [
+      {
+        "id": "base",
+        "name": "Base profile",
+        "damage": [
+          {
+            "id": "component_1",
+            "dice": {
+              "count": 1,
+              "sides": 6,
+              "bonus": 0
+            },
+            "bonus": {
+              "kind": "constant",
+              "value": 0
+            },
+            "damageType": {
+              "id": "di.damage_type.radiant"
+            }
+          }
+        ],
+        "range": {
+          "kind": "distance",
+          "normal": {
+            "value": 50,
+            "unit": "ft"
+          },
+          "long": {
+            "value": 150,
+            "unit": "ft"
+          }
+        },
+        "attackKind": "ranged",
+        "delivery": "attack_roll",
+        "costs": [],
+        "action": {
+          "id": "di.action.laspistol.attack"
+        }
+      }
+    ],
+    "category": "ranged",
+    "subcategory": "pistol",
+    "hands": 1,
+    "features": [],
+    "proficiencyGroups": [
+      "pistol"
+    ],
+    "availability": "Issued",
+    "abilityBinding": {
+      "attack": "dexterity",
+      "damage": "dexterity"
+    }
+  }
+}

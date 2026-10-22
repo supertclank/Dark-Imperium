@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "di.augmetic.mechadendrite_utility",
+  "kind": "augmetic",
+  "revision": 1,
+  "name": "Mechadendrite, Utility",
+  "summary": "Upgrade: Mechadendrite, Utility; Effect: You can manipulate unattended Tiny objects, hold a tool, or perform basic maintenance within 5 ft. It cannot attack.; Availability: Controlled",
+  "descriptionMarkdown": "Upgrade: Mechadendrite, Utility; Effect: You can manipulate unattended Tiny objects, hold a tool, or perform basic maintenance within 5 ft. It cannot attack.; Availability: Controlled",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "13",
+        "heading": "Mechadendrite, Utility",
+        "pdfPage": 89,
+        "printedPage": 76
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "features": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Upgrade: Mechadendrite, Utility; Effect: You can manipulate unattended Tiny objects, hold a tool, or perform basic maintenance within 5 ft. It cannot attack.; Availability: Controlled",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Canonical manual utility; context/option choice must be adjudicated before application."
+      }
+    ],
+    "functionalTags": [
+      "minor_augmetic"
+    ],
+    "availability": "Controlled"
+  }
+}

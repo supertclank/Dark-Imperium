@@ -223,7 +223,7 @@
   {
     "id": "di.armour.armoured_bodyglove",
     "kind": "armour",
-    "category": "NEEDS_GLOBAL_POLICY",
+    "category": "HUMAN_RULING_PROMOTED",
     "reason": "Defence derivation and species-pattern access/slot/category mapping must be completed.",
     "issues": [
       "PHB-007"
@@ -231,7 +231,13 @@
     "sourcePages": [
       42
     ],
-    "outcome": "retained_candidate"
+    "outcome": "retained_candidate",
+    "approval": {
+      "path": "review/approved-minimum-rulings.txt",
+      "sha256": "dc5f34452786e00e86d53dbfd3ebbff0ef39a10ccc99eef50bacb4112ca53077",
+      "approvedBy": "user",
+      "date": "2026-10-22"
+    }
   },
   {
     "id": "di.armour.aspect_pattern_armour",
@@ -288,7 +294,7 @@
   {
     "id": "di.armour.flak_armour",
     "kind": "armour",
-    "category": "NEEDS_GLOBAL_POLICY",
+    "category": "HUMAN_RULING_PROMOTED",
     "reason": "Defence derivation and species-pattern access/slot/category mapping must be completed.",
     "issues": [
       "PHB-007"
@@ -296,7 +302,13 @@
     "sourcePages": [
       42
     ],
-    "outcome": "retained_candidate"
+    "outcome": "retained_candidate",
+    "approval": {
+      "path": "review/approved-minimum-rulings.txt",
+      "sha256": "dc5f34452786e00e86d53dbfd3ebbff0ef39a10ccc99eef50bacb4112ca53077",
+      "approvedBy": "user",
+      "date": "2026-10-22"
+    }
   },
   {
     "id": "di.armour.flak_greatcoat",
@@ -314,7 +326,7 @@
   {
     "id": "di.armour.flak_vest",
     "kind": "armour",
-    "category": "NEEDS_GLOBAL_POLICY",
+    "category": "HUMAN_RULING_PROMOTED",
     "reason": "Defence derivation and species-pattern access/slot/category mapping must be completed.",
     "issues": [
       "PHB-007"
@@ -322,7 +334,13 @@
     "sourcePages": [
       42
     ],
-    "outcome": "retained_candidate"
+    "outcome": "retained_candidate",
+    "approval": {
+      "path": "review/approved-minimum-rulings.txt",
+      "sha256": "dc5f34452786e00e86d53dbfd3ebbff0ef39a10ccc99eef50bacb4112ca53077",
+      "approvedBy": "user",
+      "date": "2026-10-22"
+    }
   },
   {
     "id": "di.armour.hazard_plate",
@@ -392,7 +410,7 @@
   {
     "id": "di.armour.mesh_armour",
     "kind": "armour",
-    "category": "NEEDS_GLOBAL_POLICY",
+    "category": "HUMAN_RULING_PROMOTED",
     "reason": "Defence derivation and species-pattern access/slot/category mapping must be completed.",
     "issues": [
       "PHB-007"
@@ -400,7 +418,13 @@
     "sourcePages": [
       42
     ],
-    "outcome": "retained_candidate"
+    "outcome": "retained_candidate",
+    "approval": {
+      "path": "review/approved-minimum-rulings.txt",
+      "sha256": "dc5f34452786e00e86d53dbfd3ebbff0ef39a10ccc99eef50bacb4112ca53077",
+      "approvedBy": "user",
+      "date": "2026-10-22"
+    }
   },
   {
     "id": "di.armour.ogryn_flak_plate",
@@ -574,7 +598,7 @@
   {
     "id": "di.augmetic.black_iron_jaw",
     "kind": "augmetic",
-    "category": "MISSING_SOURCE_DATA",
+    "category": "HUMAN_RULING_PROMOTED",
     "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
     "issues": [
       "PHB-014"
@@ -582,7 +606,13 @@
     "sourcePages": [
       89
     ],
-    "outcome": "retained_candidate"
+    "outcome": "retained_candidate",
+    "approval": {
+      "path": "review/approved-minimum-rulings.txt",
+      "sha256": "dc5f34452786e00e86d53dbfd3ebbff0ef39a10ccc99eef50bacb4112ca53077",
+      "approvedBy": "user",
+      "date": "2026-10-22"
+    }
   },
   {
     "id": "di.augmetic.chem_injector",
@@ -613,7 +643,7 @@
   {
     "id": "di.augmetic.data_jack",
     "kind": "augmetic",
-    "category": "MISSING_SOURCE_DATA",
+    "category": "HUMAN_RULING_PROMOTED",
     "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
     "issues": [
       "PHB-014"
@@ -621,12 +651,18 @@
     "sourcePages": [
       89
     ],
-    "outcome": "retained_candidate"
+    "outcome": "retained_candidate",
+    "approval": {
+      "path": "review/approved-minimum-rulings.txt",
+      "sha256": "dc5f34452786e00e86d53dbfd3ebbff0ef39a10ccc99eef50bacb4112ca53077",
+      "approvedBy": "user",
+      "date": "2026-10-22"
+    }
   },
   {
     "id": "di.augmetic.dermal_insulation",
     "kind": "augmetic",
-    "category": "MISSING_SOURCE_DATA",
+    "category": "HUMAN_RULING_PROMOTED",
     "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
     "issues": [
       "PHB-014"
@@ -634,12 +670,18 @@
     "sourcePages": [
       89
     ],
-    "outcome": "retained_candidate"
+    "outcome": "retained_candidate",
+    "approval": {
+      "path": "review/approved-minimum-rulings.txt",
+      "sha256": "dc5f34452786e00e86d53dbfd3ebbff0ef39a10ccc99eef50bacb4112ca53077",
+      "approvedBy": "user",
+      "date": "2026-10-22"
+    }
   },
   {
     "id": "di.augmetic.internal_chrono",
     "kind": "augmetic",
-    "category": "MISSING_SOURCE_DATA",
+    "category": "HUMAN_RULING_PROMOTED",
     "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
     "issues": [
       "PHB-014"
@@ -647,12 +689,18 @@
     "sourcePages": [
       89
     ],
-    "outcome": "retained_candidate"
+    "outcome": "retained_candidate",
+    "approval": {
+      "path": "review/approved-minimum-rulings.txt",
+      "sha256": "dc5f34452786e00e86d53dbfd3ebbff0ef39a10ccc99eef50bacb4112ca53077",
+      "approvedBy": "user",
+      "date": "2026-10-22"
+    }
   },
   {
     "id": "di.augmetic.mag_lock_palm",
     "kind": "augmetic",
-    "category": "MISSING_SOURCE_DATA",
+    "category": "HUMAN_RULING_PROMOTED",
     "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
     "issues": [
       "PHB-014"
@@ -660,7 +708,13 @@
     "sourcePages": [
       89
     ],
-    "outcome": "retained_candidate"
+    "outcome": "retained_candidate",
+    "approval": {
+      "path": "review/approved-minimum-rulings.txt",
+      "sha256": "dc5f34452786e00e86d53dbfd3ebbff0ef39a10ccc99eef50bacb4112ca53077",
+      "approvedBy": "user",
+      "date": "2026-10-22"
+    }
   },
   {
     "id": "di.augmetic.mechadendrite_combat",
@@ -691,7 +745,7 @@
   {
     "id": "di.augmetic.mechadendrite_utility",
     "kind": "augmetic",
-    "category": "MISSING_SOURCE_DATA",
+    "category": "HUMAN_RULING_PROMOTED",
     "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
     "issues": [
       "PHB-014"
@@ -699,12 +753,18 @@
     "sourcePages": [
       89
     ],
-    "outcome": "retained_candidate"
+    "outcome": "retained_candidate",
+    "approval": {
+      "path": "review/approved-minimum-rulings.txt",
+      "sha256": "dc5f34452786e00e86d53dbfd3ebbff0ef39a10ccc99eef50bacb4112ca53077",
+      "approvedBy": "user",
+      "date": "2026-10-22"
+    }
   },
   {
     "id": "di.augmetic.optical_implant",
     "kind": "augmetic",
-    "category": "MISSING_SOURCE_DATA",
+    "category": "HUMAN_RULING_PROMOTED",
     "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
     "issues": [
       "PHB-014"
@@ -712,7 +772,13 @@
     "sourcePages": [
       89
     ],
-    "outcome": "retained_candidate"
+    "outcome": "retained_candidate",
+    "approval": {
+      "path": "review/approved-minimum-rulings.txt",
+      "sha256": "dc5f34452786e00e86d53dbfd3ebbff0ef39a10ccc99eef50bacb4112ca53077",
+      "approvedBy": "user",
+      "date": "2026-10-22"
+    }
   },
   {
     "id": "di.augmetic.pain_editor",
@@ -743,7 +809,7 @@
   {
     "id": "di.augmetic.respirator_implant",
     "kind": "augmetic",
-    "category": "MISSING_SOURCE_DATA",
+    "category": "HUMAN_RULING_PROMOTED",
     "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
     "issues": [
       "PHB-014"
@@ -751,7 +817,13 @@
     "sourcePages": [
       89
     ],
-    "outcome": "retained_candidate"
+    "outcome": "retained_candidate",
+    "approval": {
+      "path": "review/approved-minimum-rulings.txt",
+      "sha256": "dc5f34452786e00e86d53dbfd3ebbff0ef39a10ccc99eef50bacb4112ca53077",
+      "approvedBy": "user",
+      "date": "2026-10-22"
+    }
   },
   {
     "id": "di.augmetic.skeletal_reinforcement",
@@ -795,7 +867,7 @@
   {
     "id": "di.augmetic.vocal_coder",
     "kind": "augmetic",
-    "category": "MISSING_SOURCE_DATA",
+    "category": "HUMAN_RULING_PROMOTED",
     "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
     "issues": [
       "PHB-014"
@@ -803,12 +875,18 @@
     "sourcePages": [
       89
     ],
-    "outcome": "retained_candidate"
+    "outcome": "retained_candidate",
+    "approval": {
+      "path": "review/approved-minimum-rulings.txt",
+      "sha256": "dc5f34452786e00e86d53dbfd3ebbff0ef39a10ccc99eef50bacb4112ca53077",
+      "approvedBy": "user",
+      "date": "2026-10-22"
+    }
   },
   {
     "id": "di.augmetic.vox_implant",
     "kind": "augmetic",
-    "category": "MISSING_SOURCE_DATA",
+    "category": "HUMAN_RULING_PROMOTED",
     "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
     "issues": [
       "PHB-014"
@@ -816,7 +894,13 @@
     "sourcePages": [
       89
     ],
-    "outcome": "retained_candidate"
+    "outcome": "retained_candidate",
+    "approval": {
+      "path": "review/approved-minimum-rulings.txt",
+      "sha256": "dc5f34452786e00e86d53dbfd3ebbff0ef39a10ccc99eef50bacb4112ca53077",
+      "approvedBy": "user",
+      "date": "2026-10-22"
+    }
   },
   {
     "id": "di.condition.blinded",
@@ -1120,7 +1204,7 @@
   {
     "id": "di.equipment.med_pack",
     "kind": "equipment",
-    "category": "DEFERRED",
+    "category": "HUMAN_RULING_PROMOTED",
     "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
     "issues": [
       "PHB-014"
@@ -1128,7 +1212,13 @@
     "sourcePages": [
       101
     ],
-    "outcome": "retained_candidate"
+    "outcome": "retained_candidate",
+    "approval": {
+      "path": "review/approved-minimum-rulings.txt",
+      "sha256": "dc5f34452786e00e86d53dbfd3ebbff0ef39a10ccc99eef50bacb4112ca53077",
+      "approvedBy": "user",
+      "date": "2026-10-22"
+    }
   },
   {
     "id": "di.equipment.med_stim",
@@ -3720,7 +3810,7 @@
   {
     "id": "di.weapon.autogun",
     "kind": "weapon",
-    "category": "MISSING_SOURCE_DATA",
+    "category": "HUMAN_RULING_PROMOTED",
     "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
     "issues": [
       "PHB-005"
@@ -3728,12 +3818,18 @@
     "sourcePages": [
       37
     ],
-    "outcome": "retained_candidate"
+    "outcome": "retained_candidate",
+    "approval": {
+      "path": "review/approved-minimum-rulings.txt",
+      "sha256": "dc5f34452786e00e86d53dbfd3ebbff0ef39a10ccc99eef50bacb4112ca53077",
+      "approvedBy": "user",
+      "date": "2026-10-22"
+    }
   },
   {
     "id": "di.weapon.autopistol",
     "kind": "weapon",
-    "category": "MISSING_SOURCE_DATA",
+    "category": "HUMAN_RULING_PROMOTED",
     "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
     "issues": [
       "PHB-005"
@@ -3741,7 +3837,13 @@
     "sourcePages": [
       37
     ],
-    "outcome": "retained_candidate"
+    "outcome": "retained_candidate",
+    "approval": {
+      "path": "review/approved-minimum-rulings.txt",
+      "sha256": "dc5f34452786e00e86d53dbfd3ebbff0ef39a10ccc99eef50bacb4112ca53077",
+      "approvedBy": "user",
+      "date": "2026-10-22"
+    }
   },
   {
     "id": "di.weapon.battle_cannon",
@@ -3876,7 +3978,7 @@
   {
     "id": "di.weapon.combat_blade",
     "kind": "weapon",
-    "category": "MISSING_SOURCE_DATA",
+    "category": "HUMAN_RULING_PROMOTED",
     "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
     "issues": [
       "PHB-005"
@@ -3884,7 +3986,13 @@
     "sourcePages": [
       38
     ],
-    "outcome": "retained_candidate"
+    "outcome": "retained_candidate",
+    "approval": {
+      "path": "review/approved-minimum-rulings.txt",
+      "sha256": "dc5f34452786e00e86d53dbfd3ebbff0ef39a10ccc99eef50bacb4112ca53077",
+      "approvedBy": "user",
+      "date": "2026-10-22"
+    }
   },
   {
     "id": "di.weapon.combat_shotgun",
@@ -4059,7 +4167,7 @@
   {
     "id": "di.weapon.frag_grenade",
     "kind": "weapon",
-    "category": "MISSING_SOURCE_DATA",
+    "category": "HUMAN_RULING_PROMOTED",
     "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
     "issues": [
       "PHB-005"
@@ -4067,7 +4175,13 @@
     "sourcePages": [
       47
     ],
-    "outcome": "retained_candidate"
+    "outcome": "retained_candidate",
+    "approval": {
+      "path": "review/approved-minimum-rulings.txt",
+      "sha256": "dc5f34452786e00e86d53dbfd3ebbff0ef39a10ccc99eef50bacb4112ca53077",
+      "approvedBy": "user",
+      "date": "2026-10-22"
+    }
   },
   {
     "id": "di.weapon.fusion_gun",
@@ -4350,7 +4464,7 @@
   {
     "id": "di.weapon.lasgun",
     "kind": "weapon",
-    "category": "MISSING_SOURCE_DATA",
+    "category": "HUMAN_RULING_PROMOTED",
     "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
     "issues": [
       "PHB-005"
@@ -4358,12 +4472,18 @@
     "sourcePages": [
       37
     ],
-    "outcome": "retained_candidate"
+    "outcome": "retained_candidate",
+    "approval": {
+      "path": "review/approved-minimum-rulings.txt",
+      "sha256": "dc5f34452786e00e86d53dbfd3ebbff0ef39a10ccc99eef50bacb4112ca53077",
+      "approvedBy": "user",
+      "date": "2026-10-22"
+    }
   },
   {
     "id": "di.weapon.laspistol",
     "kind": "weapon",
-    "category": "MISSING_SOURCE_DATA",
+    "category": "HUMAN_RULING_PROMOTED",
     "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
     "issues": [
       "PHB-005"
@@ -4371,7 +4491,13 @@
     "sourcePages": [
       37
     ],
-    "outcome": "retained_candidate"
+    "outcome": "retained_candidate",
+    "approval": {
+      "path": "review/approved-minimum-rulings.txt",
+      "sha256": "dc5f34452786e00e86d53dbfd3ebbff0ef39a10ccc99eef50bacb4112ca53077",
+      "approvedBy": "user",
+      "date": "2026-10-22"
+    }
   },
   {
     "id": "di.weapon.long_las",
@@ -4839,7 +4965,7 @@
   {
     "id": "di.weapon.stub_pistol",
     "kind": "weapon",
-    "category": "MISSING_SOURCE_DATA",
+    "category": "HUMAN_RULING_PROMOTED",
     "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
     "issues": [
       "PHB-005"
@@ -4847,7 +4973,13 @@
     "sourcePages": [
       37
     ],
-    "outcome": "retained_candidate"
+    "outcome": "retained_candidate",
+    "approval": {
+      "path": "review/approved-minimum-rulings.txt",
+      "sha256": "dc5f34452786e00e86d53dbfd3ebbff0ef39a10ccc99eef50bacb4112ca53077",
+      "approvedBy": "user",
+      "date": "2026-10-22"
+    }
   },
   {
     "id": "di.weapon.stub_rifle",
@@ -4904,7 +5036,7 @@
   {
     "id": "di.weapon.trench_club",
     "kind": "weapon",
-    "category": "MISSING_SOURCE_DATA",
+    "category": "HUMAN_RULING_PROMOTED",
     "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
     "issues": [
       "PHB-005"
@@ -4912,7 +5044,13 @@
     "sourcePages": [
       38
     ],
-    "outcome": "retained_candidate"
+    "outcome": "retained_candidate",
+    "approval": {
+      "path": "review/approved-minimum-rulings.txt",
+      "sha256": "dc5f34452786e00e86d53dbfd3ebbff0ef39a10ccc99eef50bacb4112ca53077",
+      "approvedBy": "user",
+      "date": "2026-10-22"
+    }
   },
   {
     "id": "di.weapon.twin_linked_heavy_stubber",

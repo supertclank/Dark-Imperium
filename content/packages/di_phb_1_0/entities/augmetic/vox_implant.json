@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "di.augmetic.vox_implant",
+  "kind": "augmetic",
+  "revision": 1,
+  "name": "Vox Implant",
+  "summary": "Upgrade: Vox Implant; Effect: Communicate silently with allies within 120 ft who have compatible vox systems.; Availability: Controlled",
+  "descriptionMarkdown": "Upgrade: Vox Implant; Effect: Communicate silently with allies within 120 ft who have compatible vox systems.; Availability: Controlled",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "13",
+        "heading": "Vox Implant",
+        "pdfPage": 89,
+        "printedPage": 76
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "features": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Upgrade: Vox Implant; Effect: Communicate silently with allies within 120 ft who have compatible vox systems.; Availability: Controlled",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Canonical manual utility; context/option choice must be adjudicated before application."
+      }
+    ],
+    "functionalTags": [
+      "minor_augmetic"
+    ],
+    "availability": "Controlled"
+  }
+}

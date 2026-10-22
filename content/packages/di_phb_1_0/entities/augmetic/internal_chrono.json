@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "di.augmetic.internal_chrono",
+  "kind": "augmetic",
+  "revision": 1,
+  "name": "Internal Chrono",
+  "summary": "Upgrade: Internal Chrono; Effect: You always know mission time, elapsed time, and basic direction underground or aboard ships unless affected by Warp distortion.; Availability: Controlled",
+  "descriptionMarkdown": "Upgrade: Internal Chrono; Effect: You always know mission time, elapsed time, and basic direction underground or aboard ships unless affected by Warp distortion.; Availability: Controlled",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "13",
+        "heading": "Internal Chrono",
+        "pdfPage": 89,
+        "printedPage": 76
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "features": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Upgrade: Internal Chrono; Effect: You always know mission time, elapsed time, and basic direction underground or aboard ships unless affected by Warp distortion.; Availability: Controlled",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Canonical manual utility; context/option choice must be adjudicated before application."
+      }
+    ],
+    "functionalTags": [
+      "minor_augmetic"
+    ],
+    "availability": "Controlled"
+  }
+}

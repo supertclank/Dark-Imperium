@@ -34,10 +34,11 @@ class CreationReadinessTests(unittest.TestCase):
         a=cc.validate_character_selection(self.draft('ogryn'),self.records)['projection']['values']['attributes']
         self.assertEqual(a['strength'],17);self.assertEqual(a['constitution'],14)
 
-    def test_unapproved_modifiers_and_rolls_not_fabricated(self):
+    def test_approved_modifiers_and_unresolved_rolls(self):
         out=cc.validate_character_selection(self.draft(),self.records)
         self.assertEqual(out['status'],'INCOMPLETE')
-        for key in ['attributeModifiers','maximumWounds','defence','initiative','skills','saves']:self.assertIsNone(out['projection']['values'][key])
+        self.assertEqual(out['projection']['values']['attributeModifiers']['strength'],3)
+        for key in ['maximumWounds','defence','initiative','skills','saves']:self.assertIsNone(out['projection']['values'][key])
         self.assertEqual(out['projection']['rollDefinitions'],[])
         self.assertIn('rollDefinitions',out['projection']['unresolvedFields'])
 
@@ -88,7 +89,7 @@ class CreationReadinessTests(unittest.TestCase):
         d=self.draft();d['inventory']=[{'definition':{'id':'di.armour.ogryn_plate'},'quantity':0,'equipped':True}]
         codes={x['code'] for x in cc.validate_character_selection(d,self.records)['errors']}
         self.assertTrue({'ITEM_QUANTITY','ITEM_NOT_ELIGIBLE'}<=codes)
-        d['inventory']=[{'definition':{'id':'di.weapon.lasgun'},'quantity':1,'equipped':True}]
+        d['inventory']=[{'definition':{'id':'di.weapon.plasma_gun'},'quantity':1,'equipped':True}]
         self.assertIn('ITEM_CONTENT_BLOCKED',{x['code'] for x in cc.validate_character_selection(d,self.records)['unresolved']})
 
     def test_manual_text_visible_and_non_executable(self):
@@ -103,11 +104,13 @@ class CreationReadinessTests(unittest.TestCase):
         for value in [None,[],{'selections':[]},{'selections':{'classes':['bad']}},{'selections':{'answers':[{'choice':{'id':[]}}]}},{'inventory':[{'definition':{'id':[]},'quantity':1}]}]:
             self.assertEqual(cc.validate_character_selection(value,self.records)['status'],'INVALID')
 
-    def test_all_rulings_remain_unresolved(self):
+    def test_only_five_approved_rulings_resolved(self):
         ledger=ci.read(ci.PACKAGE/'review/human-rulings-integration.json')
         self.assertEqual(len(ledger),36)
-        self.assertTrue(all(x['status']=='UNRESOLVED' and x['decision'] is None for x in ledger))
-        self.assertEqual(ci.read(ci.PACKAGE/'review/decisions.json')['humanRulings'],[])
+        approved={f'PHB-RULE-{n:03}' for n in [9,24,49,50,51]}
+        self.assertEqual({x['id'] for x in ledger if x['status']=='RESOLVED'},approved)
+        self.assertTrue(all(x['status']=='UNRESOLVED' and x['decision'] is None for x in ledger if x['id'] not in approved))
+        self.assertEqual({x['id'] for x in ci.read(ci.PACKAGE/'review/decisions.json')['humanRulings']},approved)
 
     def test_creation_choices_reference_canonical_content(self):
         for key,count in [('species',6),('origin',10),('class',12),('universal_trait',20)]:
@@ -129,7 +132,8 @@ class CreationReadinessTests(unittest.TestCase):
 
     def test_all_candidates_and_starting_kits_audited(self):
         candidates=ci.read(ci.PACKAGE/'review/creation-candidate-dispositions.json')
-        self.assertEqual(len(candidates),333);self.assertEqual(len({x['id'] for x in candidates}),333)
+        pending={ci.read(p)['proposedId'] for p in (ci.PACKAGE/'review/candidates').rglob('*.json')}
+        self.assertEqual({x['id'] for x in candidates},pending);self.assertEqual(len(candidates),len(pending))
         rows=ci.read(ci.PACKAGE/'review/starting-equipment-audit.json');self.assertEqual(len(rows),12)
         self.assertTrue(all(x['status']=='BLOCKED' for x in rows))
         for row in rows:

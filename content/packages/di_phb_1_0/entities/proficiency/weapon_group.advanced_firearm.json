@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "di.proficiency.weapon_group.advanced_firearm",
+  "kind": "proficiency",
+  "revision": 1,
+  "name": "Advanced Firearm",
+  "summary": "Advanced Firearm",
+  "descriptionMarkdown": "Advanced Firearm",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "17",
+        "heading": "Advanced Firearm",
+        "pdfPage": 50,
+        "printedPage": 37
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "category": "weapon_group",
+    "appliesTo": {
+      "groups": [
+        "advanced_firearm"
+      ]
+    }
+  }
+}

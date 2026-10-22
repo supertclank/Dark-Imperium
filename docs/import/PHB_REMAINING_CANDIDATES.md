@@ -1,3 +1,5 @@
+> **Historical pass; superseded by [Minimum rulings report](PHB_MINIMUM_RULINGS_REPORT.md).** Current: five approved, 31 unanswered; 948 drafts, 310 candidates, 81 tests. Narrow and full playable gates remain BLOCKED.
+
 # Creation-focused candidate review
 
 All 333 remaining candidates are classified, with identity-level rows in `review/creation-candidate-dispositions.json`.

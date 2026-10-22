@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "di.augmetic.respirator_implant",
+  "kind": "augmetic",
+  "revision": 1,
+  "name": "Respirator Implant",
+  "summary": "Upgrade: Respirator Implant; Effect: Advantage on saves against gas, smoke, poison, and airborne disease.; Availability: Controlled",
+  "descriptionMarkdown": "Upgrade: Respirator Implant; Effect: Advantage on saves against gas, smoke, poison, and airborne disease.; Availability: Controlled",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "13",
+        "heading": "Respirator Implant",
+        "pdfPage": 89,
+        "printedPage": 76
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "features": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Upgrade: Respirator Implant; Effect: Advantage on saves against gas, smoke, poison, and airborne disease.; Availability: Controlled",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Canonical manual utility; context/option choice must be adjudicated before application."
+      }
+    ],
+    "functionalTags": [
+      "minor_augmetic"
+    ],
+    "availability": "Controlled"
+  }
+}

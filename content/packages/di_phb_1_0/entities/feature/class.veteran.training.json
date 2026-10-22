@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.feature.class.veteran.training",
   "kind": "feature",
-  "revision": 1,
+  "revision": 2,
   "name": "Veteran training and hit die",
   "summary": "11.1 Veteran Professional soldier, marksman, squad leader, or hardened guardsman. Allowed Species: Human, Ratling. Hit Die: d10. Primary Abilities: Dexterity, Wisdom. Saving Throws: Dexterity, Wisdom. Armour: Light, medium, flak, carapace. Weapons: Simple weapons, martial melee weapons, pistols, basic firearms, grenades.",
   "descriptionMarkdown": "11.1 Veteran\nProfessional soldier, marksman, squad leader, or hardened guardsman.\nAllowed Species: Human, Ratling.\nHit Die: d10.\nPrimary Abilities: Dexterity, Wisdom.\nSaving Throws: Dexterity, Wisdom.\nArmour: Light, medium, flak, carapace.\nWeapons: Simple weapons, martial melee weapons, pistols, basic firearms, grenades.",
@@ -24,7 +24,43 @@
   "data": {
     "flavor": "class_feature",
     "effects": [],
-    "grants": [],
+    "grants": [
+      {
+        "id": "simple_melee",
+        "kind": "proficiency",
+        "proficiency": {
+          "id": "di.proficiency.weapon_group.simple_melee"
+        }
+      },
+      {
+        "id": "martial_melee",
+        "kind": "proficiency",
+        "proficiency": {
+          "id": "di.proficiency.weapon_group.martial_melee"
+        }
+      },
+      {
+        "id": "pistol",
+        "kind": "proficiency",
+        "proficiency": {
+          "id": "di.proficiency.weapon_group.pistol"
+        }
+      },
+      {
+        "id": "basic_firearm",
+        "kind": "proficiency",
+        "proficiency": {
+          "id": "di.proficiency.weapon_group.basic_firearm"
+        }
+      },
+      {
+        "id": "grenade",
+        "kind": "proficiency",
+        "proficiency": {
+          "id": "di.proficiency.weapon_group.grenade"
+        }
+      }
+    ],
     "manualRules": [
       {
         "id": "source_rule",

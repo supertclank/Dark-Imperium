@@ -66,13 +66,13 @@ class PHBImportTests(unittest.TestCase):
         # Equipment names with unresolved stat entries are not silently minted as valid item grants.
         self.assertNotIn('di.equipment.medkit',self.records)
 
-    def test_weapon_candidate_damage_range_and_missing_hands(self):
-        w=self.candidates['di.weapon.lasgun']
-        self.assertEqual(w['proposedData']['modes'][0]['damage'][0]['dice'],{'count':1,'sides':8,'bonus':0})
-        self.assertEqual(w['proposedData']['modes'][0]['damage'][0]['damageType']['id'],'di.damage_type.radiant')
-        self.assertEqual(w['proposedData']['modes'][0]['range']['normal'],{'value':80,'unit':'ft'})
-        self.assertNotIn('hands',w['proposedData'])
-        self.assertNotIn('di.weapon.lasgun',self.records)
+    def test_promoted_weapon_preserves_damage_range_and_approved_hands(self):
+        w=self.records['di.weapon.lasgun']['data']
+        self.assertEqual(w['modes'][0]['damage'][0]['dice'],{'count':1,'sides':8,'bonus':0})
+        self.assertEqual(w['modes'][0]['damage'][0]['damageType']['id'],'di.damage_type.radiant')
+        self.assertEqual(w['modes'][0]['range']['normal'],{'value':80,'unit':'ft'})
+        self.assertEqual(w['hands'],2)
+        self.assertNotIn('di.weapon.lasgun',self.candidates)
         self.assertEqual(self.candidates['di.weapon.plasma_gun']['status'],'AMBIGUOUS')
 
     def test_armour_and_shield(self):

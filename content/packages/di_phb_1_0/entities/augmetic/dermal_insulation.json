@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "di.augmetic.dermal_insulation",
+  "kind": "augmetic",
+  "revision": 1,
+  "name": "Dermal Insulation",
+  "summary": "Upgrade: Dermal Insulation; Effect: Resistance to environmental cold and heat. Advantage on saves against exposure.; Availability: Controlled",
+  "descriptionMarkdown": "Upgrade: Dermal Insulation; Effect: Resistance to environmental cold and heat. Advantage on saves against exposure.; Availability: Controlled",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "13",
+        "heading": "Dermal Insulation",
+        "pdfPage": 89,
+        "printedPage": 76
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "features": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Upgrade: Dermal Insulation; Effect: Resistance to environmental cold and heat. Advantage on saves against exposure.; Availability: Controlled",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Canonical manual utility; context/option choice must be adjudicated before application."
+      }
+    ],
+    "functionalTags": [
+      "minor_augmetic"
+    ],
+    "availability": "Controlled"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "di.weapon.combat_blade",
+  "kind": "weapon",
+  "revision": 1,
+  "name": "Combat Blade",
+  "summary": "Weapon: Combat Blade; Damage: 1d6 piercing; Properties: Finesse, Light; Availability: Issued",
+  "descriptionMarkdown": "Weapon: Combat Blade; Damage: 1d6 piercing; Properties: Finesse, Light; Availability: Issued",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "8",
+        "heading": "Combat Blade",
+        "pdfPage": 38,
+        "printedPage": 25
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "properties": [
+      {
+        "property": {
+          "id": "di.property.weapon.finesse"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.light"
+        },
+        "arguments": {}
+      }
+    ],
+    "modes": [
+      {
+        "id": "base",
+        "name": "Base profile",
+        "damage": [
+          {
+            "id": "component_1",
+            "dice": {
+              "count": 1,
+              "sides": 6,
+              "bonus": 0
+            },
+            "bonus": {
+              "kind": "constant",
+              "value": 0
+            },
+            "damageType": {
+              "id": "di.damage_type.piercing"
+            }
+          }
+        ],
+        "attackKind": "melee",
+        "delivery": "attack_roll",
+        "costs": [],
+        "action": {
+          "id": "di.action.combat_blade.attack"
+        },
+        "range": {
+          "kind": "reach",
+          "distance": {
+            "value": 5,
+            "unit": "ft"
+          }
+        }
+      }
+    ],
+    "category": "melee",
+    "subcategory": "light_melee",
+    "hands": 1,
+    "features": [],
+    "proficiencyGroups": [
+      "simple_melee"
+    ],
+    "availability": "Issued",
+    "abilityBinding": {
+      "attack": "finesse",
+      "damage": "finesse"
+    }
+  }
+}

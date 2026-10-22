@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "di.augmetic.vocal_coder",
+  "kind": "augmetic",
+  "revision": 1,
+  "name": "Vocal Coder",
+  "summary": "Upgrade: Vocal Coder; Effect: You can mimic machine tones, vox distortion, and binharic fragments. Gain advantage on checks to communicate with Mechanicus systems if proficient in Technology.; Availability: Controlled",
+  "descriptionMarkdown": "Upgrade: Vocal Coder; Effect: You can mimic machine tones, vox distortion, and binharic fragments. Gain advantage on checks to communicate with Mechanicus systems if proficient in Technology.; Availability: Controlled",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "13",
+        "heading": "Vocal Coder",
+        "pdfPage": 89,
+        "printedPage": 76
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "features": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Upgrade: Vocal Coder; Effect: You can mimic machine tones, vox distortion, and binharic fragments. Gain advantage on checks to communicate with Mechanicus systems if proficient in Technology.; Availability: Controlled",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Canonical manual utility; context/option choice must be adjudicated before application."
+      }
+    ],
+    "functionalTags": [
+      "minor_augmetic"
+    ],
+    "availability": "Controlled"
+  }
+}

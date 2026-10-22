@@ -1,0 +1,204 @@
+{
+  "draft": {
+    "id": "0605c094-ab37-5967-8eee-0fb61de6b010",
+    "name": "Human Schola Veteran — level 1 proof",
+    "selections": {
+      "species": {
+        "id": "di.species.human"
+      },
+      "background": {
+        "id": "di.background.schola_progenium"
+      },
+      "classes": [
+        {
+          "class": {
+            "id": "di.class.veteran"
+          },
+          "level": 1
+        }
+      ],
+      "attributes": {
+        "strength": 15,
+        "dexterity": 14,
+        "constitution": 13,
+        "intelligence": 12,
+        "wisdom": 10,
+        "charisma": 8
+      },
+      "answers": [
+        {
+          "occurrenceId": "1846d16c-c510-51e7-9318-1b6a415f3d1d",
+          "origin": {
+            "kind": "creation_step",
+            "stepId": "pending_choices"
+          },
+          "choice": {
+            "id": "di.choice.human.ability_scores"
+          },
+          "optionIds": [
+            "strength_dexterity"
+          ],
+          "status": "valid"
+        },
+        {
+          "occurrenceId": "def6c752-4e52-50e5-98b8-bfff9d07dd72",
+          "origin": {
+            "kind": "creation_step",
+            "stepId": "pending_choices"
+          },
+          "choice": {
+            "id": "di.choice.human.imperial_adaptability"
+          },
+          "optionIds": [
+            "acrobatics"
+          ],
+          "status": "valid"
+        },
+        {
+          "occurrenceId": "6bc6cd72-243b-5b76-b655-53cefac3870b",
+          "origin": {
+            "kind": "creation_step",
+            "stepId": "pending_choices"
+          },
+          "choice": {
+            "id": "di.choice.schola_progenium.skills"
+          },
+          "optionIds": [
+            "history"
+          ],
+          "status": "valid"
+        },
+        {
+          "occurrenceId": "f87afe87-1dc6-570b-a0c2-0c1166bd5836",
+          "origin": {
+            "kind": "creation_step",
+            "stepId": "pending_choices"
+          },
+          "choice": {
+            "id": "di.choice.schola_progenium.skills_2"
+          },
+          "optionIds": [
+            "intimidation"
+          ],
+          "status": "valid"
+        },
+        {
+          "occurrenceId": "ea66c48f-1bf5-5fea-bf7c-8d29916b76f5",
+          "origin": {
+            "kind": "creation_step",
+            "stepId": "pending_choices"
+          },
+          "choice": {
+            "id": "di.choice.veteran.starting_skills"
+          },
+          "optionIds": [
+            "athletics",
+            "insight"
+          ],
+          "status": "valid"
+        },
+        {
+          "occurrenceId": "cca87afc-40df-5307-bf02-65a2c8080e9c",
+          "origin": {
+            "kind": "creation_step",
+            "stepId": "pending_choices"
+          },
+          "choice": {
+            "id": "di.choice.creation.universal_trait"
+          },
+          "optionIds": [
+            "universal_twitchy"
+          ],
+          "status": "valid"
+        },
+        {
+          "occurrenceId": "941ff0fb-648e-55a7-8775-23822708d4b2",
+          "origin": {
+            "kind": "creation_step",
+            "stepId": "pending_choices"
+          },
+          "choice": {
+            "id": "di.choice.human.broad_training_proof"
+          },
+          "optionIds": [
+            "trench_club"
+          ],
+          "status": "valid"
+        },
+        {
+          "occurrenceId": "0cf0804d-be30-55a8-9d08-a2be4895b3c6",
+          "origin": {
+            "kind": "creation_step",
+            "stepId": "pending_choices"
+          },
+          "choice": {
+            "id": "di.choice.veteran.specialist_group"
+          },
+          "optionIds": [
+            "sniper"
+          ],
+          "status": "valid"
+        }
+      ]
+    },
+    "inventory": [
+      {
+        "definition": {
+          "id": "di.weapon.laspistol"
+        },
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definition": {
+          "id": "di.weapon.combat_blade"
+        },
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definition": {
+          "id": "di.armour.flak_armour"
+        },
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definition": {
+          "id": "di.weapon.frag_grenade"
+        },
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definition": {
+          "id": "di.weapon.lasgun"
+        },
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definition": {
+          "id": "di.equipment.med_pack"
+        },
+        "quantity": 1,
+        "equipped": false
+      }
+    ],
+    "startingPackageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    }
+  },
+  "context": {
+    "stateVersion": 0,
+    "mode": "baseline_conformance",
+    "rangeBand": "normal",
+    "advantage": "normal",
+    "targetId": "proof-target",
+    "executionNonce": "regression-1",
+    "finesseAbility": "strength",
+    "tacticalAim": false,
+    "critical": false
+  }
+}

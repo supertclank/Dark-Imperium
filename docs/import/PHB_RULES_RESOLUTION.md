@@ -1,3 +1,5 @@
+> **Historical pass; superseded by [Minimum rulings report](PHB_MINIMUM_RULINGS_REPORT.md).** Current: five approved, 31 unanswered; 948 drafts, 310 candidates, 81 tests. Narrow and full playable gates remain BLOCKED.
+
 # PHB rules resolution
 
 PHB v1.0 only. Printed page = PDF page − 13. See `review/rules-resolution.json` for full affected-ID sets. The affected sets conservatively include source-page neighbours for impact review, not a claim that every neighbouring entity has the defect.

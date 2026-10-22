@@ -6,32 +6,33 @@
     "exactNameMatches": [
       {
         "id": "di.armour.flak_armour",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
         "id": "di.weapon.autogun",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
         "id": "di.weapon.combat_blade",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
         "id": "di.weapon.lasgun",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
         "id": "di.weapon.laspistol",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       }
     ],
     "status": "BLOCKED",
-    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one."
+    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one.",
+    "approvedReferenceBindings": "review/starting-reference-bindings.json"
   },
   {
     "className": "Zealot",
@@ -40,12 +41,12 @@
     "exactNameMatches": [
       {
         "id": "di.armour.flak_armour",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
         "id": "di.weapon.autopistol",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
@@ -60,7 +61,7 @@
       },
       {
         "id": "di.weapon.frag_grenade",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
@@ -70,12 +71,13 @@
       },
       {
         "id": "di.weapon.laspistol",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       }
     ],
     "status": "BLOCKED",
-    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one."
+    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one.",
+    "approvedReferenceBindings": "review/starting-reference-bindings.json"
   },
   {
     "className": "Psyker",
@@ -99,12 +101,13 @@
       },
       {
         "id": "di.weapon.laspistol",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       }
     ],
     "status": "BLOCKED",
-    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one."
+    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one.",
+    "approvedReferenceBindings": "review/starting-reference-bindings.json"
   },
   {
     "className": "Ogryn Skullbreaker",
@@ -143,7 +146,8 @@
       }
     ],
     "status": "BLOCKED",
-    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one."
+    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one.",
+    "approvedReferenceBindings": "review/starting-reference-bindings.json"
   },
   {
     "className": "Arbites Enforcer",
@@ -192,7 +196,8 @@
       }
     ],
     "status": "BLOCKED",
-    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one."
+    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one.",
+    "approvedReferenceBindings": "review/starting-reference-bindings.json"
   },
   {
     "className": "Hive Scum",
@@ -201,7 +206,7 @@
     "exactNameMatches": [
       {
         "id": "di.armour.flak_armour",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
@@ -211,17 +216,17 @@
       },
       {
         "id": "di.weapon.autogun",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
         "id": "di.weapon.autopistol",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
         "id": "di.weapon.frag_grenade",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
@@ -236,12 +241,13 @@
       },
       {
         "id": "di.weapon.stub_pistol",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       }
     ],
     "status": "BLOCKED",
-    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one."
+    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one.",
+    "approvedReferenceBindings": "review/starting-reference-bindings.json"
   },
   {
     "className": "Ratling Sharpshooter",
@@ -250,7 +256,7 @@
     "exactNameMatches": [
       {
         "id": "di.armour.flak_armour",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
@@ -265,12 +271,12 @@
       },
       {
         "id": "di.weapon.lasgun",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
         "id": "di.weapon.laspistol",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
@@ -280,12 +286,13 @@
       },
       {
         "id": "di.weapon.stub_pistol",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       }
     ],
     "status": "BLOCKED",
-    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one."
+    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one.",
+    "approvedReferenceBindings": "review/starting-reference-bindings.json"
   },
   {
     "className": "Skitarii Veteran",
@@ -299,12 +306,12 @@
       },
       {
         "id": "di.augmetic.data_jack",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
         "id": "di.weapon.combat_blade",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
@@ -314,12 +321,12 @@
       },
       {
         "id": "di.weapon.lasgun",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
         "id": "di.weapon.laspistol",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
@@ -334,7 +341,8 @@
       }
     ],
     "status": "BLOCKED",
-    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one."
+    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one.",
+    "approvedReferenceBindings": "review/starting-reference-bindings.json"
   },
   {
     "className": "Kin Armsman",
@@ -393,7 +401,8 @@
       }
     ],
     "status": "BLOCKED",
-    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one."
+    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one.",
+    "approvedReferenceBindings": "review/starting-reference-bindings.json"
   },
   {
     "className": "Hernkyn Prospector",
@@ -437,7 +446,8 @@
       }
     ],
     "status": "BLOCKED",
-    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one."
+    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one.",
+    "approvedReferenceBindings": "review/starting-reference-bindings.json"
   },
   {
     "className": "Aeldari Outcast",
@@ -476,7 +486,8 @@
       }
     ],
     "status": "BLOCKED",
-    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one."
+    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one.",
+    "approvedReferenceBindings": "review/starting-reference-bindings.json"
   },
   {
     "className": "Aeldari Warlock",
@@ -505,6 +516,7 @@
       }
     ],
     "status": "BLOCKED",
-    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one."
+    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one.",
+    "approvedReferenceBindings": "review/starting-reference-bindings.json"
   }
 ]

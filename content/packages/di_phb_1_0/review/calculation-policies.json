@@ -2,12 +2,18 @@
   {
     "id": "PHB-CALC-001",
     "name": "Attribute modifiers",
-    "automation": "BLOCKED",
+    "automation": "AUTOMATIC",
     "inputs": "score",
     "output": "modifier",
-    "order": "No formula located; do not evaluate a guessed floor((score-10)/2).",
+    "order": "Mathematical floor((score-10)/2); positive integer scores; no generic maximum. Explicit feature bounds apply.",
     "sourcePdfPages": "17,18,123",
-    "stackingCapsFloors": "None defined"
+    "stackingCapsFloors": "PHB-RULE-009; feature-specific bounds only",
+    "approval": {
+      "path": "review/approved-minimum-rulings.txt",
+      "sha256": "dc5f34452786e00e86d53dbfd3ebbff0ef39a10ccc99eef50bacb4112ca53077",
+      "approvedBy": "user",
+      "date": "2026-10-22"
+    }
   },
   {
     "id": "PHB-CALC-002",
@@ -67,7 +73,8 @@
     "output": "attack modifier",
     "order": "Ability + proficiency once if proficient, then only applicable approved modifiers. Finesse permits Str/Dex; no universal weapon ability guessed.",
     "sourcePdfPages": "35,123",
-    "stackingCapsFloors": "No cap specified"
+    "stackingCapsFloors": "No cap specified",
+    "approvedBinding": "PHB-RULE-024; attack and damage share selected ability; save damage adds no ability by default."
   },
   {
     "id": "PHB-CALC-008",

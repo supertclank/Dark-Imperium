@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "di.augmetic.mag_lock_palm",
+  "kind": "augmetic",
+  "revision": 1,
+  "name": "Mag-Lock Palm",
+  "summary": "Upgrade: Mag-Lock Palm; Effect: You cannot be disarmed of one held weapon unless incapacitated, restrained, or unconscious.; Availability: Controlled",
+  "descriptionMarkdown": "Upgrade: Mag-Lock Palm; Effect: You cannot be disarmed of one held weapon unless incapacitated, restrained, or unconscious.; Availability: Controlled",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "13",
+        "heading": "Mag-Lock Palm",
+        "pdfPage": 89,
+        "printedPage": 76
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "features": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Upgrade: Mag-Lock Palm; Effect: You cannot be disarmed of one held weapon unless incapacitated, restrained, or unconscious.; Availability: Controlled",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Canonical manual utility; context/option choice must be adjudicated before application."
+      }
+    ],
+    "functionalTags": [
+      "minor_augmetic"
+    ],
+    "availability": "Controlled"
+  }
+}

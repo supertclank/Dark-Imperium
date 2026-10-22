@@ -1,15 +1,5 @@
-# Dice readiness after creation pass
+# Dice Engine readiness
 
-**PARTIAL**, not READY_FOR_ROLL_DEFINITIONS. Two canonical base-damage templates retain validated type bindings. There are **zero complete actor-resolved PHB RollDefinitions** from the representative drafts.
+**PARTIAL.** Eight deterministic, structured baseline RollDefinitions now validate for the narrow proof: ability, skill, save, initiative and separate Lasgun/Combat Blade attack and damage. Snapshots bind canonical content, approvals, package, actor, state and explicit baseline context. They are offline conformance artifacts, not server-authorized executions.
 
-| Intent | Status | Dependency |
-| --- | --- | --- |
-| Attribute checks |BLOCKED|009 modifier policy and profile binding|
-| Skill checks |PARTIAL|Known formula; modifier/entitlement/context missing|
-| Saving throws |PARTIAL|Known class save attributes/formula; final modifiers missing|
-| Initiative |PARTIAL|Dex formula explicit; 009 and source modifiers missing|
-| Weapon attacks |BLOCKED|Weapon/taxonomy/ability/context closure|
-| Weapon damage |PARTIAL|Raw typed base templates exist; complete actor damage and critical context absent|
-| Psychic tests |PARTIAL|Known formulas/counts/Perils bands; power/action/resource bindings absent|
-
-The draft adapter returns empty action/roll arrays alongside explicit unresolvedFields, not a statement that the character has no actions. It never substitutes0 for an unknown modifier or calls a raw template a RollDefinition. Future compiler requirements remain those in DICE_ROLLING: immutable actor/action/item/mode/snapshot, resolved modifiers with provenance, complete typed components, policy and context. Neither3D dice nor a production compiler was implemented.
+The grenade save/DC and listed damage are structured, but its successful-save outcome remains blocked. Context evaluation, ownership, ammo/action transactions, parent hit results and general compiler coverage still need implementation. No animated dice added. See [full result](PHB_MINIMUM_RULINGS_REPORT.md).

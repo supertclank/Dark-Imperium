@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "di.equipment.rune_stones",
+  "kind": "equipment",
+  "revision": 1,
+  "name": "Rune stones",
+  "summary": "Rune stones",
+  "descriptionMarkdown": "Rune stones",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "17",
+        "heading": "Rune stones",
+        "pdfPage": 100,
+        "printedPage": 87
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "features": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "PHB-RULE-051: Rune stones is psychic focus; no inherent numerical bonus.",
+        "adjudicator": "gm",
+        "context": "source-defined procedure",
+        "reason": "Source-defined manual procedure; no automatic bonus inferred."
+      }
+    ],
+    "functionalTags": [
+      "psychic_focus"
+    ]
+  }
+}

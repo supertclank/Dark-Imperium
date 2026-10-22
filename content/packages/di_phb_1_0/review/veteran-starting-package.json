@@ -1,0 +1,68 @@
+{
+  "class": {
+    "id": "di.class.veteran"
+  },
+  "level": 1,
+  "source": {
+    "sourceId": "di.source.phb",
+    "sourceVersion": "1.0@a58335b1264a",
+    "locator": {
+      "sectionKey": "17",
+      "heading": "Veteran starting kit",
+      "pdfPage": 100,
+      "printedPage": 87
+    }
+  },
+  "fixed": [
+    {
+      "item": {
+        "id": "di.weapon.laspistol"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "id": "di.weapon.combat_blade"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "id": "di.armour.flak_armour"
+      },
+      "quantity": 1
+    },
+    {
+      "item": {
+        "id": "di.weapon.frag_grenade"
+      },
+      "quantity": 2
+    }
+  ],
+  "choices": [
+    {
+      "id": "primary",
+      "options": [
+        {
+          "id": "di.weapon.lasgun"
+        },
+        {
+          "id": "di.weapon.autogun"
+        }
+      ],
+      "quantity": 1
+    },
+    {
+      "id": "utility",
+      "options": [
+        {
+          "id": "di.equipment.med_pack"
+        }
+      ],
+      "quantity": 1,
+      "blockedSourceAlternative": "auspex"
+    }
+  ],
+  "proficiency": "Exact granted weapons/shields only; selected package options only.",
+  "scope": "Reviewed narrow branch; auspex alternative remains unavailable."
+}

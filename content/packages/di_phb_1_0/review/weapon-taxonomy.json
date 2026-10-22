@@ -1,0 +1,38 @@
+{
+  "groups": [
+    "advanced_firearm",
+    "aeldari",
+    "basic_firearm",
+    "chain",
+    "flamer",
+    "force",
+    "grenade",
+    "heavy",
+    "improvised",
+    "kin",
+    "martial_melee",
+    "mechanicus",
+    "melta",
+    "mining_tool",
+    "ogryn",
+    "pistol",
+    "plasma",
+    "rad_weapon",
+    "shield",
+    "shock",
+    "shotgun",
+    "simple_melee",
+    "sniper"
+  ],
+  "approval": {
+    "path": "review/approved-minimum-rulings.txt",
+    "sha256": "dc5f34452786e00e86d53dbfd3ebbff0ef39a10ccc99eef50bacb4112ca53077",
+    "approvedBy": "user",
+    "date": "2026-10-22"
+  },
+  "emplaced": {
+    "deployment": "emplaced",
+    "requires": "mount, brace, rig, feature or GM-approved setup"
+  },
+  "forceStaffHands": 2
+}

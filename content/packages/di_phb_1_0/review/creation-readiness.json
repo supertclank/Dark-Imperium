@@ -1,6 +1,6 @@
 {
   "status": "BLOCKED",
-  "approvedHumanRulings": 0,
+  "approvedHumanRulings": 5,
   "originRulings": {
     "di.background.hiveborn": [
       "PHB-RULE-001",
@@ -38,7 +38,6 @@
     "PHB-RULE-005",
     "PHB-RULE-006",
     "PHB-RULE-007",
-    "PHB-RULE-009",
     "PHB-RULE-010",
     "PHB-RULE-011",
     "PHB-RULE-012",
@@ -49,7 +48,6 @@
     "PHB-RULE-018",
     "PHB-RULE-020",
     "PHB-RULE-022",
-    "PHB-RULE-024",
     "PHB-RULE-026",
     "PHB-RULE-028",
     "PHB-RULE-029",
@@ -60,19 +58,12 @@
     "PHB-RULE-038",
     "PHB-RULE-046",
     "PHB-RULE-047",
-    "PHB-RULE-049",
-    "PHB-RULE-050",
-    "PHB-RULE-051",
     "PHB-RULE-055",
     "PHB-RULE-056",
     "PHB-RULE-057",
     "PHB-RULE-058"
   ],
-  "coreProfileRulings": [
-    "PHB-RULE-009",
-    "PHB-RULE-024",
-    "PHB-RULE-051"
-  ],
+  "coreProfileRulings": [],
   "fullCatalogRulings": [
     "PHB-RULE-001",
     "PHB-RULE-002",
@@ -80,12 +71,7 @@
     "PHB-RULE-004",
     "PHB-RULE-005",
     "PHB-RULE-006",
-    "PHB-RULE-007",
-    "PHB-RULE-009",
-    "PHB-RULE-024",
-    "PHB-RULE-049",
-    "PHB-RULE-050",
-    "PHB-RULE-051"
+    "PHB-RULE-007"
   ],
   "scope": "Full requested PHB creation catalog. A narrow proof fixture does not waive any blocked option."
 }

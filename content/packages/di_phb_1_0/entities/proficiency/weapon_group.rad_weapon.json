@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "di.proficiency.weapon_group.rad_weapon",
+  "kind": "proficiency",
+  "revision": 1,
+  "name": "Rad Weapon",
+  "summary": "Rad Weapon",
+  "descriptionMarkdown": "Rad Weapon",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "17",
+        "heading": "Rad Weapon",
+        "pdfPage": 50,
+        "printedPage": 37
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "category": "weapon_group",
+    "appliesTo": {
+      "groups": [
+        "rad_weapon"
+      ]
+    }
+  }
+}

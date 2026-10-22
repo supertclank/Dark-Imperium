@@ -1,219 +1,353 @@
-# Exact human decisions still required
+# Human ruling checklist
 
-These 36 questions are isolated from implementation work. No approval is assumed. Answer by PHB-RULE ID; source locators and competing evidence are in [PHB_RULES_RESOLUTION](PHB_RULES_RESOLUTION.md). A campaign-specific ruling must retain its authority separately from PHB transcription.
+Five approved decisions are integrated; **31 of the original 36 remain unresolved**. The separate Frag Grenade save-success gap is recorded in the [current report](PHB_MINIMUM_RULINGS_REPORT.md).
 
-## PHB-RULE-001 — Hiveborn Origin eligibility
+## PHB-RULE-001 — UNRESOLVED
 
 For Hiveborn, does the eligibility matrix or the Allowed Species list govern? State permitted species.
 
-Source PDF pages: 26, 27.
-
-## PHB-RULE-002 — Penal Worlder Origin eligibility
+## PHB-RULE-002 — UNRESOLVED
 
 For Penal Worlder, does the eligibility matrix or the Allowed Species list govern? State permitted species.
 
-Source PDF pages: 26, 27.
-
-## PHB-RULE-003 — Voidborn Origin eligibility
+## PHB-RULE-003 — UNRESOLVED
 
 For Voidborn, does the eligibility matrix or the Allowed Species list govern? State permitted species.
 
-Source PDF pages: 26, 27.
-
-## PHB-RULE-004 — Forge World Origin eligibility
+## PHB-RULE-004 — UNRESOLVED
 
 For Forge World, does the eligibility matrix or the Allowed Species list govern? State permitted species.
 
-Source PDF pages: 26, 27.
-
-## PHB-RULE-005 — Militarum Regiment Origin eligibility
+## PHB-RULE-005 — UNRESOLVED
 
 For Militarum Regiment, does the eligibility matrix or the Allowed Species list govern? State permitted species.
 
-Source PDF pages: 26, 27.
-
-## PHB-RULE-006 — Underhive Origin eligibility
+## PHB-RULE-006 — UNRESOLVED
 
 For Underhive, does the eligibility matrix or the Allowed Species list govern? State permitted species.
 
-Source PDF pages: 26, 27.
-
-## PHB-RULE-007 — Rare and Limited Origin entries
+## PHB-RULE-007 — UNRESOLVED
 
 What approval or prerequisite makes a Rare/Limited Origin selectable?
 
-Source PDF pages: 26, 27.
+## PHB-RULE-009 — RESOLVED
 
-## PHB-RULE-009 — Attribute modifier derivation
+Ability modifier:
+
+`floor((abilityScore - 10) / 2)`
+
+Rules:
+
+- Use mathematical floor.
+- Ability scores must be positive integers.
+- Do not impose a generic maximum score of 20.
+- Explicit feature-specific maximums or minimums take precedence.
+- Species modifiers are applied according to existing character-creation rules.
+- The engine must support legitimate scores above 20.
+
+Update calculation policies, validation and tests.
+
+Mark PHB-RULE-009 RESOLVED.
 
-Supply the exact score-to-modifier table or formula, with rounding and bounds.
-
-Source PDF pages: 17, 18, 123.
-
-## PHB-RULE-010 — Resistance and vulnerability arithmetic
+## PHB-RULE-010 — UNRESOLVED
 
 Define resistance/vulnerability arithmetic, rounding, duplicate stacking, bypasses and their order with reductions, saves and immunity.
 
-Source PDF pages: 35, 42, 116.
-
-## PHB-RULE-011 — Expertise
+## PHB-RULE-011 — UNRESOLVED
 
 Define expertise contribution and interaction with proficiency or repeated grants.
 
-Source PDF pages: 62, 65, 68, 71, 77, 80.
-
-## PHB-RULE-012 — Alternative ability generation
+## PHB-RULE-012 — UNRESOLVED
 
 If alternate methods are required, supply point costs/budget or dice/reroll procedure.
 
-Source PDF pages: 17.
-
-## PHB-RULE-014 — HP acquisition and changing Constitution
+## PHB-RULE-014 — UNRESOLVED
 
 How do Constitution changes affect prior HP gains, and is there a minimum per-level gain? How does a max-HP change affect current HP?
 
-Source PDF pages: 17, 32.
-
-## PHB-RULE-015 — Ability Score Improvement
+## PHB-RULE-015 — UNRESOLVED
 
 Specify ASI amount, allocation, score cap and exceptions.
 
-Source PDF pages: 50, 86, 112.
-
-## PHB-RULE-016 — Talent repeatability
+## PHB-RULE-016 — UNRESOLVED
 
 Can a Talent be selected repeatedly, and which selections/benefits stack?
 
-Source PDF pages: 86, 87.
-
-## PHB-RULE-017 — Overheat self-damage
+## PHB-RULE-017 — UNRESOLVED
 
 Specify Overheat damage amount/type and any weapon-specific exceptions.
 
-Source PDF pages: 35, 124.
-
-## PHB-RULE-018 — Generic Blast area
+## PHB-RULE-018 — UNRESOLVED
 
 For each Blast weapon lacking an area, supply shape/range/size/save procedure or explicitly keep it GM-adjudicated.
 
-Source PDF pages: 35, 47, 121.
-
-## PHB-RULE-020 — Personal Burst ammunition
+## PHB-RULE-020 — UNRESOLVED
 
 How much ammunition does personal Burst consume and which mixed-damage die is added?
 
-Source PDF pages: 35, 121.
-
-## PHB-RULE-022 — Personal Suppression trigger
+## PHB-RULE-022 — UNRESOLVED
 
 Specify trigger, chosen target, save ability and frequency for personal Suppression.
 
-Source PDF pages: 31, 35.
+## PHB-RULE-024 — RESOLVED
 
-## PHB-RULE-024 — Weapon hands, reach and proficiency taxonomy
+## Default Weapon Ability Binding
+
+Normal melee weapon:
+
+- Attack ability: Strength
+- Damage ability: Strength
+
+Normal ranged weapon:
+
+- Attack ability: Dexterity
+- Damage ability: Dexterity
+
+Finesse:
+
+- Strength or Dexterity
+- The same selected ability is used for attack and damage
+
+Thrown:
+
+- Uses the ability the weapon would normally use for its melee attack unless an explicit rule overrides it
+
+Spirit Weapon:
+
+- May substitute the user's psychic ability for Strength/Dexterity for attack and damage
+
+Explicit weapon-specific rules override all defaults.
+
+## Save-Based Weapons
+
+Save-based weapon effects do not automatically add an ability modifier to their listed damage.
+
+Only add an ability modifier when a rule explicitly says to do so.
+
+Grenades and similar fixed-damage save effects therefore use their listed damage dice.
+
+## Hands
+
+Defaults:
+
+- Pistol: 1
+- Light melee weapon: 1
+- Shield: 1
+- Normal melee weapon: 1
+- Heavy melee weapon: 2
+- Versatile: 1 or 2
+- Basic firearm: 2
+- Shotgun: 2
+- Sniper weapon: 2
+- Heavy ranged weapon: 2
+
+Add explicit overrides where required.
+
+Force Staff is explicitly 2-handed.
+
+## Reach
+
+- Default melee reach: 5 ft
+- Ranged weapons have no melee reach unless a rule gives them one
+- Thrown melee weapons retain normal melee reach as well as their throwing range
+
+## Proficiency Groups
+
+Canonical weapon entities must have explicit `proficiencyGroups`.
+
+Support groups including at minimum:
+
+- simple_melee
+- martial_melee
+- pistol
+- basic_firearm
+- shotgun
+- sniper
+- heavy
+- grenade
+- flamer
+- chain
+- shock
+- plasma
+- melta
+- force
+- shield
+- ogryn
+- kin
+- aeldari
+- mechanicus
+- rad_weapon
+- advanced_firearm
+- improvised
+- mining_tool
+
+Weapons may belong to more than one group.
+
+Properties may help derive initial group membership, but canonical records must store membership explicitly.
+
+## Starting Equipment Proficiency
+
+A class is proficient with every weapon or shield granted directly by its own level-1 starting-equipment package.
+
+For a package choice, this applies to the selected option.
+
+Do not use this rule to grant unrelated weapon-group proficiency.
+
+## Emplaced Weapons
+
+Emplaced is a deployment restriction, not a proficiency.
+
+Represent conceptually as:
+
+- deployment: emplaced
+- requires mount, brace, rig, feature or GM-approved setup
+
+Do not create an `emplaced proficiency`.
+
+Mark PHB-RULE-024 RESOLVED.
 
-Supply missing hands/reach and explicit weapon-family/proficiency membership; confirm mounted-only schema treatment.
-
-Source PDF pages: 35, 37, 38, 40, 47.
-
-## PHB-RULE-026 — Slash-separated types
+## PHB-RULE-026 — UNRESOLVED
 
 Does slash mean choice, split damage or simultaneous types? Specify amounts and mitigation handling for each affected profile.
 
-Source PDF pages: 37, 40, 47, 92, 93.
-
-## PHB-RULE-028 — Powered Carapace defence expression
+## PHB-RULE-028 — UNRESOLVED
 
 Specify the exact AC formula for Powered Carapace.
 
-Source PDF pages: 42.
-
-## PHB-RULE-029 — Exo-Frame Plate defence expression
+## PHB-RULE-029 — UNRESOLVED
 
 Specify the exact AC formula for Exo-Frame Plate.
 
-Source PDF pages: 42.
-
-## PHB-RULE-030 — Ogryn Flak Plate defence expression
+## PHB-RULE-030 — UNRESOLVED
 
 Specify the exact AC formula for Ogryn Flak Plate.
 
-Source PDF pages: 42.
-
-## PHB-RULE-032 — Unarmoured and competing protection
+## PHB-RULE-032 — UNRESOLVED
 
 Define unarmoured AC, legal protection combinations and stacking of shields/fields/base armour.
 
-Source PDF pages: 42.
-
-## PHB-RULE-035 — Minutes and concentration
+## PHB-RULE-035 — UNRESOLVED
 
 Specify concentration maintenance, interruption, limits and check procedure before automating it.
 
-Source PDF pages: 91, 92, 93.
-
-## PHB-RULE-037 — After-Perils rounding and pressure floor
+## PHB-RULE-037 — UNRESOLVED
 
 For odd pressure, what remains after Perils? Is pressure floored at zero after all reductions?
 
-Source PDF pages: 95.
-
-## PHB-RULE-038 — Warp Step extra check
+## PHB-RULE-038 — UNRESOLVED
 
 Does Warp Step require one ordinary Perils check, an additional check, or another trigger override?
 
-Source PDF pages: 92, 95.
-
-## PHB-RULE-046 — Condition stacking and application durations
+## PHB-RULE-046 — UNRESOLVED
 
 Specify generic stack/removal rules only where needed, or approve manual per-application handling.
 
-Source PDF pages: 31, 32, 33.
-
-## PHB-RULE-047 — Undefined injury terms
+## PHB-RULE-047 — UNRESOLVED
 
 Define these statuses or explicitly designate them narrative injury labels with GM adjudication.
 
-Source PDF pages: 57, 93, 110.
+## PHB-RULE-049 — RESOLVED
 
-## PHB-RULE-049 — Medkit alias
+`medkit` in starting equipment is an alias for the canonical Med-Pack.
+
+Do not create a separate Medkit entity.
+
+Update all starting-package references to use the canonical Med-Pack entity while retaining "medkit" as a recognised display/source alias if useful.
+
+Mark PHB-RULE-049 RESOLVED.
 
-Is medkit the Med-Pack, another item, or a narrative kit? Provide definition/alias.
+## PHB-RULE-050 — RESOLVED
 
-Source PDF pages: 100, 101.
+Riot Shield uses the generic Shield profile:
+
+- +2 AC
+- requires one hand
+
+Add appropriate tags such as:
+
+- shield
+- riot
+- arbites
+
+It qualifies for features that require or reference using a shield.
+
+Do not duplicate the full Shield rules in a separate incompatible entity.
+
+Mark PHB-RULE-050 RESOLVED.
 
-## PHB-RULE-050 — Riot shield alias
+## PHB-RULE-051 — RESOLVED
 
-Does riot shield use Shield statistics? If not, supply its profile.
+## Generic Starting Light Armour Pool
+
+The starting-equipment option `light armour` contains:
+
+- Armoured Bodyglove
+- Mesh Armour
+
+Do not include:
+
+- Heavy Clothing
+- Flak armour
+- Species-pattern armour
+
+Heavy Clothing remains a separately selectable item where explicitly offered.
+
+## Minor Augmetic Pool
+
+`minor augmetic` means a Controlled-Availability Augmetic Upgrade.
+
+The current approved pool is:
+
+- Optical Implant
+- Respirator Implant
+- Data-Jack
+- Vox Implant
+- Mag-Lock Palm
+- Dermal Insulation
+- Internal Chrono
+- Mechadendrite, Utility
+- Black-Iron Jaw
+- Vocal Coder
+
+Scarce and Rare augmetics do not belong to the generic Minor Augmetic pool.
+
+## Narrative / Utility Starting Items
+
+Canonicalise the following without inventing automatic mechanical bonuses:
+
+- Symbol of Faith: narrative item
+- Sanctioning brands/restraints: narrative item
+- Psychic Focus: tagged functional item `psychic_focus`, no inherent numerical bonus
+- Rations: general/narrative supply
+- Lucky Charm: narrative trinket
+- Manacles: utility/manual adjudication
+- Black-market contact: character contact, not inventory
+- Camo cloak: equipment; manual effect until explicitly defined
+- Maintenance tools: utility/tool item
+- Oath-token: narrative item; does not grant Relic-Bearer
+- Survey auspex: scanner/auspex variant with manual utility
+- Climbing kit: utility/tool item
+- Claim marker: narrative/feature prop
+- Spirit-token: narrative item
+- Rune stones: Psychic Focus variant
+- Spirit charm: narrative item
+
+A canonical inventory item may legitimately have no automated combat mechanics.
+
+Mark PHB-RULE-051 RESOLVED.
 
-Source PDF pages: 100, 42.
-
-## PHB-RULE-051 — Other starting gear and minor augmetics
-
-Define the allowed light armour/minor augmetic pools and missing starting-item entries or approved narrative-only classifications.
-
-Source PDF pages: 89, 100, 101.
-
-## PHB-RULE-055 — Generic Aim
+## PHB-RULE-055 — UNRESOLVED
 
 Specify generic Aim action/effect or confirm Optic is restricted to Tactical Aim.
 
-Source PDF pages: 35, 50, 104.
-
-## PHB-RULE-056 — Half-cover terminology
+## PHB-RULE-056 — UNRESOLVED
 
 Which cover category does half cover mean for personal Armour-Breaking?
 
-Source PDF pages: 31, 35, 116.
-
-## PHB-RULE-057 — Long-rest Hit Dice rounding
+## PHB-RULE-057 — UNRESOLVED
 
 For odd total Hit Dice, round long-rest recovery up or down?
 
-Source PDF pages: 32.
-
-## PHB-RULE-058 — General modifier stacking
+## PHB-RULE-058 — UNRESOLVED
 
 Define same/different-source flat bonus, multiplier, temporary effect and duplicate equipment stacking where the PHB is silent.
-
-Source PDF pages: 18, 42, 116.

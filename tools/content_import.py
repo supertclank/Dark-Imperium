@@ -152,8 +152,12 @@ FIELDS={
  'class':(['features','progression'],['requirements','allowedSubclasses']),
  'subclass':(['parentClass','features','progression'],['requirements']),
  'damage_type':(['category'],[]),
- 'armour':(['category','equip','properties','features','defence'],['requirements']),
- 'shield':(['equip','properties','features','defence'],[]),
+ 'armour':(['category','equip','properties','features','defence'],['requirements','availability','dexterityBonus']),
+ 'shield':(['equip','properties','features','defence'],['proficiencyGroups','aliases']),
+ 'weapon':(['category','subcategory','hands','properties','features','modes','proficiencyGroups','availability','abilityBinding'],['deployment','manualRules']),
+ 'equipment':(['features','manualRules','functionalTags'],['availability','aliases']),
+ 'tool':(['features','manualRules','functionalTags'],['availability']),
+ 'augmetic':(['features','manualRules','functionalTags','availability'],[]),
  'action':(['economy','target','costs','outcomes'],['rolls'])}
 
 def validate_records(records):
@@ -177,14 +181,21 @@ def validate_records(records):
         if 'effects' in d:effects(d['effects'],records)
         if 'manualRules' in d:manuals(d['manualRules'])
         if 'requirements' in d and k not in ['armour','shield']:predicate(d['requirements'],records)
+        if k in ['weapon','equipment','tool','augmetic','armour','shield']:
+            from phb_equipment import validate_equipment
+            validate_equipment(e,records)
         if k=='feature':
             require(d['flavor'] in ['general','feat','species_trait','background_feature','class_feature','subclass_feature'],'FLAVOR');grants(d['grants'],records)
         elif k=='proficiency':
-            require(d['category']=='skill','PROFICIENCY_CATEGORY');shape(d['appliesTo'],['ids']);refs(d['appliesTo']['ids'],records,'skill')
+            require(d['category'] in ['skill','weapon','weapon_group'],'PROFICIENCY_CATEGORY')
+            if d['category']=='weapon_group':
+                from phb_policies import WEAPON_GROUPS
+                shape(d['appliesTo'],['groups']);require(bool(d['appliesTo']['groups']) and set(d['appliesTo']['groups'])<=WEAPON_GROUPS,'WEAPON_GROUP')
+            else:shape(d['appliesTo'],['ids']);refs(d['appliesTo']['ids'],records,'skill' if d['category']=='skill' else 'weapon')
         elif k=='skill':require(d['attributeKey'] in ['strength','dexterity','constitution','intelligence','wisdom','charisma'],'ATTRIBUTE_KEY')
         elif k=='species':require(d['size'] in ['small','medium'],'SIZE_KEY')
         elif k=='choice':
-            require(d['purpose'] in ['skill','attribute','subclass','species','background','class','feature'],'CHOICE_PURPOSE')
+            require(d['purpose'] in ['skill','attribute','subclass','species','background','class','feature','equipment','proficiency'],'CHOICE_PURPOSE')
             require(d['selectionMode']=='options' and d['repeatScope']=='once_per_actor','CHOICE_MODE')
             c=d['cardinality'];shape(c,['min','max','unique']);integer(c['min'],0,500);integer(c['max'],c['min'],500)
             require(c['unique'] is True and len(d['options'])>=c['max'],'CHOICE_UNSATISFIABLE')

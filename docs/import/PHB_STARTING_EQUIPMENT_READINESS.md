@@ -1,3 +1,5 @@
+> **Historical pass; superseded by [Minimum rulings report](PHB_MINIMUM_RULINGS_REPORT.md).** Current: five approved, 31 unanswered; 948 drafts, 310 candidates, 81 tests. Narrow and full playable gates remain BLOCKED.
+
 # Starting equipment reference audit
 
 All 12 printed class starting-kit rows (PDF 100) are preserved verbatim in `review/starting-equipment-audit.json`. Literal-name matches distinguish canonical items from candidates. This is a reference audit, not an inferred executable package: aliases, category choices, omitted quantities and ambiguous bundle grammar have not been approved. The audit cannot certify that a missing literal match is absent from every source passage.

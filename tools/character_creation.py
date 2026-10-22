@@ -133,8 +133,7 @@ def validate_character_selection(draft, records=None):
         for rule in e['data']['manualRules']:manual.append({'source':{'id':e['id']},'localId':rule['id'],'text':rule['text'],'reason':rule['reason']})
     for key,amount in increases.items():
         if type(attributes.get(key)) is int:attributes[key]+=amount
-    problem('ATTRIBUTE_MODIFIER_POLICY_BLOCKED','calculated.attributeModifiers','No approved score-to-modifier rule.',['PHB-RULE-009'])
-    problem('STARTING_EQUIPMENT_CONTENT_BLOCKED','inventory','Complete class loadout cannot yet be validated.',['PHB-RULE-024','PHB-RULE-051'])
+    problem('STARTING_EQUIPMENT_CONTENT_BLOCKED','inventory','Complete class loadout needs the scoped package validator; general catalog remains incomplete.')
     problem('PLAYABLE_PROFILE_MISSING','rulesetLock','No source-reviewed playable PHB profile/lock is available.')
     if level and level>=4:problem('ADVANCEMENT_POLICY_BLOCKED','selections.answers','ASI/Talent validation needs rulings.',['PHB-RULE-015','PHB-RULE-016'])
     if not isinstance(draft.get('inventory',[]),list):problem('INVENTORY_ARRAY','inventory','Inventory must be an array.',invalid=True)
@@ -158,10 +157,10 @@ def validate_character_selection(draft, records=None):
         'actorId':draft.get('id'),'engineVersion':'phb-readiness-offline.1','lockDigest':None,
         'classTraining':{'hitDie':training['hitDie'],'savingThrowAttributes':training['savingThrows'],'source':training['source']} if training else None,
         'knownPowerCounts':known_powers,
-        'values':{'level':level,'attributes':attributes,'proficiencyBonus':policy.proficiency(level) if level else None,'movement':{'baseWalk':{'value':speed,'unit':'ft'}} if speed is not None else {},'attributeModifiers':None,'maximumWounds':None,'defence':None,'initiative':None,'skills':None,'saves':None},
+        'values':{'level':level,'attributes':attributes,'proficiencyBonus':policy.proficiency(level) if level else None,'movement':{'baseWalk':{'value':speed,'unit':'ft'}} if speed is not None else {},'attributeModifiers':{k:policy.ability_modifier(v) for k,v in attributes.items() if k in ATTRIBUTES and type(v) is int and v>0},'maximumWounds':None,'defence':None,'initiative':None,'skills':None,'saves':None},
         'features':[{'id':i} for i in sorted(features)],'proficiencies':[{'id':i} for i in sorted(proficiencies)],'manualRules':manual,'pendingChoices':list(pending.values()),
         'actions':[],'rollDefinitions':[],'resources':None,'resistances':None,
-        'unresolvedFields':['attributeModifiers','maximumWounds','defence','initiative','skills','saves','actions','rollDefinitions','resources','resistances'],
+        'unresolvedFields':['maximumWounds','defence','initiative','skills','saves','actions','rollDefinitions','resources','resistances'],
         'readiness':'INCOMPLETE','note':'Draft projection; not a published CalculatedCharacter or playable character. Base movement may have unresolved feature/condition adjustments.'}}
 
 def validateCharacterSelection(characterDraft):
