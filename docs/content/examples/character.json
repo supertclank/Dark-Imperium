@@ -1,0 +1,164 @@
+{
+  "id": "40000000-0000-0000-0000-000000000001",
+  "ownerId": "50000000-0000-0000-0000-000000000001",
+  "stateVersion": 1,
+  "name": "Example Cassian",
+  "rulesetLock": {
+    "id": "example.ruleset.foundation",
+    "revision": 1,
+    "sha256": "1e12c364538ffe53ebc79ff77cb117989d9d4d1b8752ceda3f0094c887551b7e"
+  },
+  "selections": {
+    "species": {
+      "id": "example.species.human"
+    },
+    "background": {
+      "id": "example.background.frontier"
+    },
+    "classes": [
+      {
+        "class": {
+          "id": "example.class.guardsman"
+        },
+        "level": 1
+      }
+    ],
+    "attributes": {
+      "strength": 30,
+      "agility": 30,
+      "toughness": 30,
+      "intellect": 30,
+      "willpower": 30,
+      "presence": 30
+    },
+    "answers": [
+      {
+        "occurrenceId": "60000000-0000-0000-0000-000000000003",
+        "origin": {
+          "kind": "creation_step",
+          "stepId": "species"
+        },
+        "choice": {
+          "id": "example.choice.creation.species"
+        },
+        "optionIds": [
+          "human"
+        ],
+        "status": "valid"
+      },
+      {
+        "occurrenceId": "60000000-0000-0000-0000-000000000004",
+        "origin": {
+          "kind": "creation_step",
+          "stepId": "background"
+        },
+        "choice": {
+          "id": "example.choice.creation.background"
+        },
+        "optionIds": [
+          "frontier"
+        ],
+        "status": "valid"
+      },
+      {
+        "occurrenceId": "60000000-0000-0000-0000-000000000005",
+        "origin": {
+          "kind": "creation_step",
+          "stepId": "class"
+        },
+        "choice": {
+          "id": "example.choice.creation.class"
+        },
+        "optionIds": [
+          "guardsman"
+        ],
+        "status": "valid"
+      },
+      {
+        "occurrenceId": "60000000-0000-0000-0000-000000000001",
+        "origin": {
+          "kind": "progression_grant",
+          "progression": {
+            "id": "example.progression.guardsman"
+          },
+          "grantId": "kit",
+          "advancementOccurrenceId": "60000000-0000-0000-0000-000000000002"
+        },
+        "choice": {
+          "id": "example.choice.starting_loadout"
+        },
+        "optionIds": [
+          "line_kit"
+        ],
+        "status": "valid"
+      }
+    ],
+    "advancement": [
+      {
+        "occurrenceId": "60000000-0000-0000-0000-000000000002",
+        "class": {
+          "id": "example.class.guardsman"
+        },
+        "fromLevel": 0,
+        "toLevel": 1,
+        "answerOccurrences": [
+          "60000000-0000-0000-0000-000000000001"
+        ],
+        "grantOccurrences": [
+          {
+            "grantId": "kit",
+            "choiceOccurrenceId": "60000000-0000-0000-0000-000000000001"
+          }
+        ]
+      }
+    ]
+  },
+  "inventory": [
+    {
+      "instanceId": "70000000-0000-0000-0000-000000000001",
+      "definition": {
+        "id": "example.weapon.lasgun"
+      },
+      "quantity": 1,
+      "equipped": true,
+      "slots": [
+        "hands"
+      ],
+      "stateVersion": 1,
+      "resources": [
+        {
+          "resource": {
+            "id": "example.resource.magazine"
+          },
+          "current": 0
+        }
+      ],
+      "provenance": {
+        "grantOccurrence": "60000000-0000-0000-0000-000000000001",
+        "grantId": "primary"
+      }
+    },
+    {
+      "instanceId": "70000000-0000-0000-0000-000000000002",
+      "definition": {
+        "id": "example.weapon.combat_knife"
+      },
+      "quantity": 1,
+      "equipped": false,
+      "slots": [],
+      "stateVersion": 1,
+      "provenance": {
+        "grantOccurrence": "60000000-0000-0000-0000-000000000001",
+        "grantId": "backup"
+      }
+    }
+  ],
+  "currentWounds": 10,
+  "resources": [],
+  "conditions": [],
+  "temporaryEffects": [],
+  "currency": [],
+  "notes": [],
+  "createdAt": "2026-10-22T00:00:00Z",
+  "updatedAt": "2026-10-22T00:00:00Z"
+}

@@ -1,0 +1,4874 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "example.source.design",
+      "version": "proposal-1",
+      "title": "Dark Imperium content specification examples",
+      "language": "en",
+      "origin": "Repository design fixture, not a rulebook",
+      "rightsNote": "Original illustrative data; no copyrighted rulebook text imported."
+    }
+  ],
+  "entities": [
+    {
+      "schemaVersion": 1,
+      "id": "example.action.aim",
+      "kind": "action",
+      "revision": 1,
+      "name": "Aim",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Aim is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.aim",
+            "heading": "Aim"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "economy": "action",
+        "target": {
+          "kind": "self",
+          "scope": "actor"
+        },
+        "costs": [
+          {
+            "resource": {
+              "id": "example.resource.focus"
+            },
+            "amount": {
+              "kind": "constant",
+              "value": 1
+            },
+            "timing": "attempt",
+            "source": "actor",
+            "refundOnCancel": true
+          }
+        ],
+        "outcomes": [
+          {
+            "id": "resolve",
+            "on": "always",
+            "effects": [],
+            "manualRules": [
+              {
+                "id": "resolution",
+                "automation": "manual",
+                "text": "Resolve the named action using the approved table rules.",
+                "adjudicator": "gm",
+                "context": "scene",
+                "reason": "Narrative context or unverified rules require human adjudication."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.action.brace_reaction",
+      "kind": "action",
+      "revision": 1,
+      "name": "Brace",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Brace is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.brace_reaction",
+            "heading": "Brace"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "economy": "reaction",
+        "target": {
+          "kind": "self",
+          "scope": "actor"
+        },
+        "costs": [],
+        "outcomes": [
+          {
+            "id": "resolve",
+            "on": "always",
+            "effects": [],
+            "manualRules": [
+              {
+                "id": "resolution",
+                "automation": "manual",
+                "text": "Resolve the named action using the approved table rules.",
+                "adjudicator": "gm",
+                "context": "scene",
+                "reason": "Narrative context or unverified rules require human adjudication."
+              }
+            ]
+          }
+        ],
+        "trigger": {
+          "event": "damage_received",
+          "timing": "before"
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.action.command_special",
+      "kind": "action",
+      "revision": 1,
+      "name": "Command",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Command is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.command_special",
+            "heading": "Command"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "economy": "special",
+        "target": {
+          "kind": "self",
+          "scope": "actor"
+        },
+        "costs": [
+          {
+            "resource": {
+              "id": "example.resource.special_budget"
+            },
+            "amount": {
+              "kind": "constant",
+              "value": 1
+            },
+            "timing": "attempt",
+            "source": "actor",
+            "refundOnCancel": true
+          }
+        ],
+        "outcomes": [
+          {
+            "id": "resolve",
+            "on": "always",
+            "effects": [],
+            "manualRules": [
+              {
+                "id": "resolution",
+                "automation": "manual",
+                "text": "Resolve the named action using the approved table rules.",
+                "adjudicator": "gm",
+                "context": "scene",
+                "reason": "Narrative context or unverified rules require human adjudication."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.action.psychic_activation",
+      "kind": "action",
+      "revision": 1,
+      "name": "Psychic activation",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Psychic activation is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.psychic_activation",
+            "heading": "Psychic activation"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "economy": "action",
+        "target": {
+          "kind": "self",
+          "scope": "actor"
+        },
+        "costs": [
+          {
+            "resource": {
+              "id": "example.resource.warp"
+            },
+            "amount": {
+              "kind": "constant",
+              "value": 1
+            },
+            "timing": "attempt",
+            "source": "actor",
+            "refundOnCancel": true
+          }
+        ],
+        "outcomes": [
+          {
+            "id": "resolve",
+            "on": "success",
+            "effects": [],
+            "manualRules": []
+          }
+        ],
+        "test": {
+          "rule": {
+            "id": "example.rule.test"
+          },
+          "actor": "source",
+          "attributeKey": "willpower"
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.action.reload",
+      "kind": "action",
+      "revision": 1,
+      "name": "Reload",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Reload is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.reload",
+            "heading": "Reload"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "economy": "action",
+        "target": {
+          "kind": "self",
+          "scope": "actor"
+        },
+        "costs": [],
+        "outcomes": [
+          {
+            "id": "resolve",
+            "on": "always",
+            "effects": [],
+            "manualRules": [
+              {
+                "id": "resolution",
+                "automation": "manual",
+                "text": "Resolve the named action using the approved table rules.",
+                "adjudicator": "gm",
+                "context": "scene",
+                "reason": "Narrative context or unverified rules require human adjudication."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.action.use_medicae",
+      "kind": "action",
+      "revision": 1,
+      "name": "Use medicae",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Use medicae is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.use_medicae",
+            "heading": "Use medicae"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "economy": "action",
+        "target": {
+          "kind": "self",
+          "scope": "actor"
+        },
+        "costs": [
+          {
+            "resource": {
+              "id": "example.resource.item_use"
+            },
+            "amount": {
+              "kind": "constant",
+              "value": 1
+            },
+            "timing": "attempt",
+            "source": "item",
+            "refundOnCancel": true
+          }
+        ],
+        "outcomes": [
+          {
+            "id": "resolve",
+            "on": "always",
+            "effects": [],
+            "manualRules": [
+              {
+                "id": "resolution",
+                "automation": "manual",
+                "text": "Resolve the named action using the approved table rules.",
+                "adjudicator": "gm",
+                "context": "scene",
+                "reason": "Narrative context or unverified rules require human adjudication."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.adventure.patrol",
+      "kind": "adventure",
+      "revision": 1,
+      "name": "Example patrol",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Example patrol is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.patrol",
+            "heading": "Example patrol"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "sections": [
+          {
+            "id": "briefing",
+            "title": "Briefing",
+            "bodyMarkdown": "Use the orders handout."
+          }
+        ],
+        "encounters": [
+          {
+            "id": "example.encounter.checkpoint"
+          }
+        ],
+        "locations": [
+          {
+            "id": "example.location.outpost"
+          }
+        ],
+        "handouts": [
+          {
+            "id": "example.handout.orders"
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.affiliation.chapter",
+      "kind": "affiliation",
+      "revision": 1,
+      "name": "Example Chapter",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Example Chapter is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.chapter",
+            "heading": "Example Chapter"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "category": "chapter",
+        "faction": {
+          "id": "example.faction.imperium"
+        },
+        "features": [
+          {
+            "id": "example.feature.chapter_resolve"
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.affiliation.deathwatch",
+      "kind": "affiliation",
+      "revision": 1,
+      "name": "Deathwatch example",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Deathwatch example is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.deathwatch",
+            "heading": "Deathwatch example"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "category": "service",
+        "features": [],
+        "requirements": {
+          "kind": "selected",
+          "content": {
+            "id": "example.class.astartes"
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.affiliation.unknown_founding",
+      "kind": "affiliation",
+      "revision": 1,
+      "name": "Unknown Founding example",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Unknown Founding example is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.unknown_founding",
+            "heading": "Unknown Founding example"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "category": "chapter_origin",
+        "features": [],
+        "choices": [
+          {
+            "id": "example.choice.chapter_traits"
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.ammunition.charge_pack",
+      "kind": "ammunition",
+      "revision": 1,
+      "name": "Charge pack",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Charge pack is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.charge_pack",
+            "heading": "Charge pack"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "category": "energy",
+        "compatibleWeaponTags": [
+          {
+            "id": "example.tag.las"
+          }
+        ],
+        "unitsPerItem": 30,
+        "features": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.armour.flak",
+      "kind": "armour",
+      "revision": 1,
+      "name": "Example flak armour",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Example flak armour is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.flak",
+            "heading": "Example flak armour"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "category": "light",
+        "equip": {
+          "slots": [
+            "body"
+          ],
+          "hands": 0
+        },
+        "properties": [],
+        "features": [],
+        "defence": {
+          "value": {
+            "kind": "constant",
+            "value": 12
+          },
+          "mode": "base",
+          "stackGroup": "example.worn_defence"
+        },
+        "shieldCompatibility": "allowed",
+        "weight": {
+          "value": 5,
+          "unit": "kg"
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.armour.power_armour",
+      "kind": "armour",
+      "revision": 1,
+      "name": "Example powered armour",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Example powered armour is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.power_armour",
+            "heading": "Example powered armour"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [
+        {
+          "id": "example.tag.heavy_armour"
+        }
+      ],
+      "data": {
+        "category": "heavy",
+        "equip": {
+          "slots": [
+            "body"
+          ],
+          "hands": 0
+        },
+        "properties": [
+          {
+            "property": {
+              "id": "example.property.heavy_armour"
+            },
+            "arguments": {}
+          }
+        ],
+        "features": [],
+        "defence": {
+          "value": {
+            "kind": "constant",
+            "value": 16
+          },
+          "mode": "base",
+          "stackGroup": "example.worn_defence"
+        },
+        "shieldCompatibility": "allowed",
+        "systems": [
+          {
+            "system": {
+              "id": "example.system.autosenses"
+            },
+            "quantity": 1,
+            "slot": "system"
+          }
+        ],
+        "requirements": {
+          "equip": {
+            "kind": "selected",
+            "content": {
+              "id": "example.class.astartes"
+            }
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.augmetic.ocular",
+      "kind": "augmetic",
+      "revision": 1,
+      "name": "Ocular augmetic",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Ocular augmetic is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.ocular",
+            "heading": "Ocular augmetic"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "installationSlots": [
+          "eyes"
+        ],
+        "features": [
+          {
+            "id": "example.feature.autosenses"
+          }
+        ],
+        "compatibility": {
+          "hostKinds": [
+            "character"
+          ],
+          "excludedTags": []
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.background.frontier",
+      "kind": "background",
+      "revision": 1,
+      "name": "Frontier upbringing",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Frontier upbringing is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.frontier",
+            "heading": "Frontier upbringing"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "features": [
+          {
+            "id": "example.feature.local_contacts"
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.choice.chapter",
+      "kind": "choice",
+      "revision": 1,
+      "name": "Choose chapter origin",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Choose chapter origin is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.chapter",
+            "heading": "Choose chapter origin"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "purpose": "affiliation",
+        "selectionMode": "options",
+        "cardinality": {
+          "min": 1,
+          "max": 1,
+          "unique": true
+        },
+        "repeatScope": "once_per_grant",
+        "options": [
+          {
+            "id": "chapter",
+            "label": "Example Chapter",
+            "grants": [
+              {
+                "id": "grant",
+                "kind": "select",
+                "content": {
+                  "id": "example.affiliation.chapter"
+                }
+              }
+            ]
+          },
+          {
+            "id": "unknown",
+            "label": "Unknown Founding",
+            "grants": [
+              {
+                "id": "grant",
+                "kind": "select",
+                "content": {
+                  "id": "example.affiliation.unknown_founding"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.choice.chapter_traits",
+      "kind": "choice",
+      "revision": 1,
+      "name": "Choose two chapter traits",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Choose two chapter traits is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.chapter_traits",
+            "heading": "Choose two chapter traits"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "purpose": "feature",
+        "selectionMode": "options",
+        "cardinality": {
+          "min": 2,
+          "max": 2,
+          "unique": true
+        },
+        "repeatScope": "once_per_grant",
+        "options": [
+          {
+            "id": "resolve",
+            "label": "Resolve",
+            "grants": [
+              {
+                "id": "grant",
+                "kind": "feature",
+                "feature": {
+                  "id": "example.feature.chapter_resolve"
+                }
+              }
+            ]
+          },
+          {
+            "id": "vigilance",
+            "label": "Vigilance",
+            "grants": [
+              {
+                "id": "grant",
+                "kind": "feature",
+                "feature": {
+                  "id": "example.feature.chapter_vigilance"
+                }
+              }
+            ]
+          },
+          {
+            "id": "endurance",
+            "label": "Endurance",
+            "grants": [
+              {
+                "id": "grant",
+                "kind": "feature",
+                "feature": {
+                  "id": "example.feature.chapter_endurance"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.choice.creation.background",
+      "kind": "choice",
+      "revision": 1,
+      "name": "Choose background",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Choose background is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.creation.background",
+            "heading": "Choose background"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "purpose": "background",
+        "selectionMode": "options",
+        "cardinality": {
+          "min": 1,
+          "max": 1,
+          "unique": true
+        },
+        "repeatScope": "once_per_grant",
+        "options": [
+          {
+            "id": "frontier",
+            "label": "Frontier",
+            "grants": [
+              {
+                "id": "grant",
+                "kind": "select",
+                "content": {
+                  "id": "example.background.frontier"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.choice.creation.class",
+      "kind": "choice",
+      "revision": 1,
+      "name": "Choose class",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Choose class is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.creation.class",
+            "heading": "Choose class"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "purpose": "class",
+        "selectionMode": "options",
+        "cardinality": {
+          "min": 1,
+          "max": 1,
+          "unique": true
+        },
+        "repeatScope": "once_per_grant",
+        "options": [
+          {
+            "id": "guardsman",
+            "label": "Guardsman",
+            "grants": [
+              {
+                "id": "grant",
+                "kind": "select",
+                "content": {
+                  "id": "example.class.guardsman"
+                }
+              }
+            ]
+          },
+          {
+            "id": "astartes",
+            "label": "Astartes",
+            "grants": [
+              {
+                "id": "grant",
+                "kind": "select",
+                "content": {
+                  "id": "example.class.astartes"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.choice.creation.species",
+      "kind": "choice",
+      "revision": 1,
+      "name": "Choose species",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Choose species is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.creation.species",
+            "heading": "Choose species"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "purpose": "species",
+        "selectionMode": "options",
+        "cardinality": {
+          "min": 1,
+          "max": 1,
+          "unique": true
+        },
+        "repeatScope": "once_per_grant",
+        "options": [
+          {
+            "id": "human",
+            "label": "Human",
+            "grants": [
+              {
+                "id": "grant",
+                "kind": "select",
+                "content": {
+                  "id": "example.species.human"
+                }
+              }
+            ]
+          },
+          {
+            "id": "ogryn",
+            "label": "Ogryn",
+            "grants": [
+              {
+                "id": "grant",
+                "kind": "select",
+                "content": {
+                  "id": "example.species.ogryn"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.choice.improvement",
+      "kind": "choice",
+      "revision": 1,
+      "name": "Feat or attribute increase",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Feat or attribute increase is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.improvement",
+            "heading": "Feat or attribute increase"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "purpose": "feat",
+        "selectionMode": "options",
+        "cardinality": {
+          "min": 1,
+          "max": 1,
+          "unique": true
+        },
+        "repeatScope": "once_per_grant",
+        "options": [
+          {
+            "id": "feat",
+            "label": "Field training",
+            "grants": [
+              {
+                "id": "grant",
+                "kind": "feature",
+                "feature": {
+                  "id": "example.feature.field_training"
+                }
+              }
+            ]
+          },
+          {
+            "id": "strength",
+            "label": "Strength increase",
+            "grants": [
+              {
+                "id": "increase",
+                "kind": "attribute_increase",
+                "attributeKey": "strength",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.choice.powers",
+      "kind": "choice",
+      "revision": 1,
+      "name": "Choose a power",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Choose a power is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.powers",
+            "heading": "Choose a power"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "purpose": "power",
+        "selectionMode": "options",
+        "cardinality": {
+          "min": 1,
+          "max": 1,
+          "unique": true
+        },
+        "repeatScope": "once_per_grant",
+        "options": [
+          {
+            "id": "ward",
+            "label": "Ward",
+            "grants": [
+              {
+                "id": "grant",
+                "kind": "power",
+                "power": {
+                  "id": "example.power.ward"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.choice.starting_loadout",
+      "kind": "choice",
+      "revision": 1,
+      "name": "Starting loadout",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Starting loadout is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.starting_loadout",
+            "heading": "Starting loadout"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "purpose": "equipment",
+        "selectionMode": "options",
+        "cardinality": {
+          "min": 1,
+          "max": 1,
+          "unique": true
+        },
+        "repeatScope": "once_per_grant",
+        "options": [
+          {
+            "id": "line_kit",
+            "label": "Lasgun and combat knife",
+            "grants": [
+              {
+                "id": "primary",
+                "kind": "item",
+                "item": {
+                  "id": "example.weapon.lasgun"
+                },
+                "quantity": 1
+              },
+              {
+                "id": "backup",
+                "kind": "item",
+                "item": {
+                  "id": "example.weapon.combat_knife"
+                },
+                "quantity": 1
+              }
+            ]
+          },
+          {
+            "id": "close_kit",
+            "label": "Shotgun and sidearm",
+            "grants": [
+              {
+                "id": "primary",
+                "kind": "item",
+                "item": {
+                  "id": "example.weapon.shotgun"
+                },
+                "quantity": 1
+              },
+              {
+                "id": "backup",
+                "kind": "item",
+                "item": {
+                  "id": "example.weapon.sidearm"
+                },
+                "quantity": 1
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.choice.subclass",
+      "kind": "choice",
+      "revision": 1,
+      "name": "Choose a specialization",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Choose a specialization is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.subclass",
+            "heading": "Choose a specialization"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "purpose": "subclass",
+        "selectionMode": "options",
+        "cardinality": {
+          "min": 1,
+          "max": 1,
+          "unique": true
+        },
+        "repeatScope": "once_per_grant",
+        "options": [
+          {
+            "id": "line_veteran",
+            "label": "Line veteran",
+            "grants": [
+              {
+                "id": "grant",
+                "kind": "select",
+                "content": {
+                  "id": "example.subclass.line_veteran"
+                }
+              }
+            ]
+          }
+        ],
+        "requirements": {
+          "kind": "level",
+          "axis": {
+            "kind": "class_level",
+            "class": {
+              "id": "example.class.guardsman"
+            }
+          },
+          "operator": "gte",
+          "value": 3
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.choice.training",
+      "kind": "choice",
+      "revision": 1,
+      "name": "Choose one skill",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Choose one skill is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.training",
+            "heading": "Choose one skill"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "purpose": "skill",
+        "selectionMode": "options",
+        "cardinality": {
+          "min": 1,
+          "max": 1,
+          "unique": true
+        },
+        "repeatScope": "once_per_grant",
+        "options": [
+          {
+            "id": "awareness",
+            "label": "Awareness",
+            "grants": [
+              {
+                "id": "grant",
+                "kind": "proficiency",
+                "proficiency": {
+                  "id": "example.proficiency.awareness"
+                }
+              }
+            ]
+          },
+          {
+            "id": "athletics",
+            "label": "Athletics",
+            "grants": [
+              {
+                "id": "grant",
+                "kind": "proficiency",
+                "proficiency": {
+                  "id": "example.proficiency.athletics"
+                }
+              }
+            ]
+          },
+          {
+            "id": "stealth",
+            "label": "Stealth",
+            "grants": [
+              {
+                "id": "grant",
+                "kind": "proficiency",
+                "proficiency": {
+                  "id": "example.proficiency.stealth"
+                }
+              }
+            ]
+          },
+          {
+            "id": "survival",
+            "label": "Survival",
+            "grants": [
+              {
+                "id": "grant",
+                "kind": "proficiency",
+                "proficiency": {
+                  "id": "example.proficiency.survival"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.class.astartes",
+      "kind": "class",
+      "revision": 1,
+      "name": "Example Astartes class",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Example Astartes class is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.astartes",
+            "heading": "Example Astartes class"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "features": [],
+        "progression": {
+          "id": "example.progression.astartes"
+        },
+        "choices": [
+          {
+            "id": "example.choice.chapter"
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.class.guardsman",
+      "kind": "class",
+      "revision": 1,
+      "name": "Guardsman",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Guardsman is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.guardsman",
+            "heading": "Guardsman"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "features": [
+          {
+            "id": "example.feature.guardsman_wounds"
+          }
+        ],
+        "progression": {
+          "id": "example.progression.guardsman"
+        },
+        "allowedSubclasses": [
+          {
+            "id": "example.subclass.line_veteran"
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.condition.suppressed",
+      "kind": "condition",
+      "revision": 1,
+      "name": "Suppressed",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Suppressed is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.suppressed",
+            "heading": "Suppressed"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "effects": [
+          {
+            "id": "suppression_movement",
+            "automation": "automatic",
+            "activation": "continuous",
+            "target": {
+              "kind": "stat",
+              "scope": "self",
+              "key": "movement"
+            },
+            "operation": "add",
+            "value": {
+              "kind": "constant",
+              "value": -1
+            },
+            "duration": {
+              "kind": "while_source"
+            },
+            "stacking": {
+              "group": "example.suppression_movement",
+              "mode": "unique_source"
+            },
+            "priority": 0
+          }
+        ],
+        "manualRules": [],
+        "stackPolicy": {
+          "mode": "unique"
+        },
+        "defaultDuration": {
+          "kind": "until_rest",
+          "rest": {
+            "id": "example.rule.rest"
+          }
+        },
+        "removalRule": {
+          "id": "example.rule.rest"
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.consumable.medicae",
+      "kind": "consumable",
+      "revision": 1,
+      "name": "Medicae supply",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Medicae supply is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.medicae",
+            "heading": "Medicae supply"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "category": "medical",
+        "uses": 1,
+        "useResource": {
+          "id": "example.resource.item_use"
+        },
+        "useAction": {
+          "id": "example.action.use_medicae"
+        },
+        "features": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.creature.renegade",
+      "kind": "creature",
+      "revision": 1,
+      "name": "Example renegade trooper",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Example renegade trooper is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.renegade",
+            "heading": "Example renegade trooper"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "actorKind": "npc",
+        "creatureType": "humanoid",
+        "size": "medium",
+        "movement": [
+          {
+            "mode": "walk",
+            "speed": {
+              "value": 6,
+              "unit": "m"
+            }
+          }
+        ],
+        "defence": {
+          "kind": "constant",
+          "value": 12
+        },
+        "wounds": {
+          "kind": "constant",
+          "value": 10
+        },
+        "attributes": {
+          "strength": 30,
+          "agility": 30,
+          "toughness": 30,
+          "intellect": 30,
+          "willpower": 30,
+          "presence": 30
+        },
+        "skills": [
+          {
+            "skill": {
+              "id": "example.skill.awareness"
+            },
+            "bonus": {
+              "kind": "constant",
+              "value": 2
+            }
+          }
+        ],
+        "saves": [
+          {
+            "attributeKey": "willpower",
+            "bonus": {
+              "kind": "constant",
+              "value": 1
+            }
+          }
+        ],
+        "mitigations": [
+          {
+            "id": "example.mitigation.energy_resistance"
+          }
+        ],
+        "features": [
+          {
+            "id": "example.feature.creature_watchful"
+          }
+        ],
+        "actions": [
+          {
+            "id": "example.action.brace_reaction"
+          },
+          {
+            "id": "example.action.command_special"
+          }
+        ],
+        "resources": [
+          {
+            "id": "example.resource.special_budget"
+          }
+        ],
+        "equipment": [
+          {
+            "id": "primary",
+            "item": {
+              "id": "example.weapon.lasgun"
+            },
+            "quantity": 1,
+            "equipped": true,
+            "overrides": {
+              "modeId": "standard",
+              "name": "Worn lasgun",
+              "range": {
+                "kind": "distance",
+                "normal": {
+                  "value": 80,
+                  "unit": "m"
+                },
+                "long": {
+                  "value": 200,
+                  "unit": "m"
+                }
+              }
+            }
+          }
+        ],
+        "factions": [
+          {
+            "id": "example.faction.imperium"
+          }
+        ],
+        "threat": {
+          "scale": "example_threat",
+          "value": 1,
+          "label": "Placeholder"
+        },
+        "lore": {
+          "id": "example.lore.frontier"
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.crew_role.gunner",
+      "kind": "crew_role",
+      "revision": 1,
+      "name": "Gunner",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Gunner is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.gunner",
+            "heading": "Gunner"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "minOccupants": 1,
+        "maxOccupants": 1,
+        "actions": [
+          {
+            "id": "example.action.aim"
+          }
+        ],
+        "controls": [
+          "primary"
+        ],
+        "features": [
+          {
+            "id": "example.feature.steady_hands"
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.currency.scrip",
+      "kind": "currency",
+      "revision": 1,
+      "name": "Example scrip",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Example scrip is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.scrip",
+            "heading": "Example scrip"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "minorUnitName": "unit",
+        "minorUnitsPerMajor": 100,
+        "symbol": "s"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.damage_type.energy",
+      "kind": "damage_type",
+      "revision": 1,
+      "name": "Energy",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Energy is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.energy",
+            "heading": "Energy"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "category": "energy"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.damage_type.physical",
+      "kind": "damage_type",
+      "revision": 1,
+      "name": "Physical",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Physical is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.physical",
+            "heading": "Physical"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "category": "physical"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.discipline.warding",
+      "kind": "discipline",
+      "revision": 1,
+      "name": "Example Warding discipline",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Example Warding discipline is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.warding",
+            "heading": "Example Warding discipline"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "features": [],
+        "powerPool": {
+          "kind": "power",
+          "ids": [
+            {
+              "id": "example.power.ward"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.encounter.checkpoint",
+      "kind": "encounter",
+      "revision": 1,
+      "name": "Checkpoint template",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Checkpoint template is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.checkpoint",
+            "heading": "Checkpoint template"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "participants": [
+          {
+            "id": "guards",
+            "template": {
+              "id": "example.creature.renegade"
+            },
+            "quantity": 2
+          }
+        ],
+        "environment": {},
+        "objectives": [
+          "Negotiate passage; outcome determined by the group."
+        ],
+        "location": {
+          "id": "example.location.outpost"
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.equipment.field_pack",
+      "kind": "equipment",
+      "revision": 1,
+      "name": "Field pack",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Field pack is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.field_pack",
+            "heading": "Field pack"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "category": "carried",
+        "features": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.faction.imperium",
+      "kind": "faction",
+      "revision": 1,
+      "name": "Imperium",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Imperium is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.imperium",
+            "heading": "Imperium"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "relationships": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.feature.autosenses",
+      "kind": "feature",
+      "revision": 1,
+      "name": "Autosenses",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Autosenses is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.autosenses",
+            "heading": "Autosenses"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "flavor": "passive",
+        "effects": [],
+        "grants": [],
+        "manualRules": [
+          {
+            "id": "senses",
+            "automation": "manual",
+            "text": "Sensor ranges and interactions await reviewed rules.",
+            "adjudicator": "gm",
+            "context": "scene",
+            "reason": "Narrative context or unverified rules require human adjudication."
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.feature.chapter_endurance",
+      "kind": "feature",
+      "revision": 1,
+      "name": "Chapter endurance",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Chapter endurance is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.chapter_endurance",
+            "heading": "Chapter endurance"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [
+        {
+          "id": "example.tag.chapter_trait"
+        }
+      ],
+      "data": {
+        "flavor": "chapter_trait",
+        "effects": [],
+        "grants": [],
+        "manualRules": [
+          {
+            "id": "benefit",
+            "automation": "manual",
+            "text": "Illustrative chapter-trait benefit; replace with reviewed text.",
+            "adjudicator": "gm",
+            "context": "scene",
+            "reason": "Narrative context or unverified rules require human adjudication."
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.feature.chapter_resolve",
+      "kind": "feature",
+      "revision": 1,
+      "name": "Chapter resolve",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Chapter resolve is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.chapter_resolve",
+            "heading": "Chapter resolve"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [
+        {
+          "id": "example.tag.chapter_trait"
+        }
+      ],
+      "data": {
+        "flavor": "chapter_trait",
+        "effects": [],
+        "grants": [],
+        "manualRules": [
+          {
+            "id": "benefit",
+            "automation": "manual",
+            "text": "Illustrative chapter-trait benefit; replace with reviewed text.",
+            "adjudicator": "gm",
+            "context": "scene",
+            "reason": "Narrative context or unverified rules require human adjudication."
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.feature.chapter_vigilance",
+      "kind": "feature",
+      "revision": 1,
+      "name": "Chapter vigilance",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Chapter vigilance is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.chapter_vigilance",
+            "heading": "Chapter vigilance"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [
+        {
+          "id": "example.tag.chapter_trait"
+        }
+      ],
+      "data": {
+        "flavor": "chapter_trait",
+        "effects": [],
+        "grants": [],
+        "manualRules": [
+          {
+            "id": "benefit",
+            "automation": "manual",
+            "text": "Illustrative chapter-trait benefit; replace with reviewed text.",
+            "adjudicator": "gm",
+            "context": "scene",
+            "reason": "Narrative context or unverified rules require human adjudication."
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.feature.creature_watchful",
+      "kind": "feature",
+      "revision": 1,
+      "name": "Watchful",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Watchful is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.creature_watchful",
+            "heading": "Watchful"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "flavor": "creature_trait",
+        "effects": [],
+        "grants": [
+          {
+            "id": "weapon_training",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "example.proficiency.las_weapons"
+            }
+          }
+        ],
+        "manualRules": [
+          {
+            "id": "watchful",
+            "automation": "manual",
+            "text": "GM may account for alertness when resolving the scene.",
+            "adjudicator": "gm",
+            "context": "scene",
+            "reason": "Narrative context or unverified rules require human adjudication."
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.feature.field_training",
+      "kind": "feature",
+      "revision": 1,
+      "name": "Field training",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Field training is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.field_training",
+            "heading": "Field training"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "flavor": "feat",
+        "effects": [
+          {
+            "id": "field_movement",
+            "automation": "automatic",
+            "activation": "continuous",
+            "target": {
+              "kind": "stat",
+              "scope": "self",
+              "key": "movement"
+            },
+            "operation": "add",
+            "value": {
+              "kind": "constant",
+              "value": 1
+            },
+            "duration": {
+              "kind": "while_source"
+            },
+            "stacking": {
+              "group": "example.field_movement",
+              "mode": "unique_source"
+            },
+            "priority": 0
+          }
+        ],
+        "grants": [],
+        "manualRules": [],
+        "requirements": {
+          "kind": "level",
+          "axis": {
+            "kind": "total_level"
+          },
+          "operator": "gte",
+          "value": 1
+        },
+        "repeatable": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.feature.guardsman_wounds",
+      "kind": "feature",
+      "revision": 1,
+      "name": "Guardsman starting wounds",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Guardsman starting wounds is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.guardsman_wounds",
+            "heading": "Guardsman starting wounds"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "flavor": "class_feature",
+        "effects": [
+          {
+            "id": "guardsman_wounds",
+            "automation": "automatic",
+            "activation": "continuous",
+            "target": {
+              "kind": "stat",
+              "scope": "self",
+              "key": "max_wounds"
+            },
+            "operation": "base",
+            "value": {
+              "kind": "constant",
+              "value": 10
+            },
+            "duration": {
+              "kind": "while_source"
+            },
+            "stacking": {
+              "group": "example.guardsman_wounds",
+              "mode": "unique_source"
+            },
+            "priority": 0
+          }
+        ],
+        "grants": [],
+        "manualRules": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.feature.human_movement",
+      "kind": "feature",
+      "revision": 1,
+      "name": "Human movement",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Human movement is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.human_movement",
+            "heading": "Human movement"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "flavor": "species_trait",
+        "effects": [
+          {
+            "id": "human_movement",
+            "automation": "automatic",
+            "activation": "continuous",
+            "target": {
+              "kind": "stat",
+              "scope": "self",
+              "key": "movement"
+            },
+            "operation": "add",
+            "value": {
+              "kind": "constant",
+              "value": 6
+            },
+            "duration": {
+              "kind": "while_source"
+            },
+            "stacking": {
+              "group": "example.human_movement",
+              "mode": "unique_source"
+            },
+            "priority": 0
+          }
+        ],
+        "grants": [],
+        "manualRules": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.feature.line_veteran",
+      "kind": "feature",
+      "revision": 1,
+      "name": "Line veteran discipline",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Line veteran discipline is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.line_veteran",
+            "heading": "Line veteran discipline"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "flavor": "subclass_feature",
+        "effects": [],
+        "grants": [],
+        "manualRules": [
+          {
+            "id": "discipline",
+            "automation": "manual",
+            "text": "Placeholder specialization benefit requiring the actual class text.",
+            "adjudicator": "gm",
+            "context": "scene",
+            "reason": "Narrative context or unverified rules require human adjudication."
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.feature.local_contacts",
+      "kind": "feature",
+      "revision": 1,
+      "name": "Local contacts",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Local contacts is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.local_contacts",
+            "heading": "Local contacts"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "flavor": "background_feature",
+        "effects": [],
+        "grants": [],
+        "manualRules": [
+          {
+            "id": "information",
+            "automation": "manual",
+            "text": "Once in a qualifying scene, ask the GM for local information; no automatic success is granted.",
+            "adjudicator": "gm",
+            "context": "scene",
+            "reason": "Narrative context or unverified rules require human adjudication."
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.feature.ogryn_frame",
+      "kind": "feature",
+      "revision": 1,
+      "name": "Ogryn frame",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Ogryn frame is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.ogryn_frame",
+            "heading": "Ogryn frame"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "flavor": "species_trait",
+        "effects": [
+          {
+            "id": "ogryn_movement",
+            "automation": "automatic",
+            "activation": "continuous",
+            "target": {
+              "kind": "stat",
+              "scope": "self",
+              "key": "movement"
+            },
+            "operation": "add",
+            "value": {
+              "kind": "constant",
+              "value": 5
+            },
+            "duration": {
+              "kind": "while_source"
+            },
+            "stacking": {
+              "group": "example.ogryn_movement",
+              "mode": "unique_source"
+            },
+            "priority": 0
+          },
+          {
+            "id": "ogryn_wounds",
+            "automation": "automatic",
+            "activation": "continuous",
+            "target": {
+              "kind": "stat",
+              "scope": "self",
+              "key": "max_wounds"
+            },
+            "operation": "add",
+            "value": {
+              "kind": "constant",
+              "value": 4
+            },
+            "duration": {
+              "kind": "while_source"
+            },
+            "stacking": {
+              "group": "example.ogryn_wounds",
+              "mode": "unique_source"
+            },
+            "priority": 0
+          }
+        ],
+        "grants": [],
+        "manualRules": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.feature.steady_hands",
+      "kind": "feature",
+      "revision": 1,
+      "name": "Steady hands",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Steady hands is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.steady_hands",
+            "heading": "Steady hands"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "flavor": "class_feature",
+        "effects": [],
+        "grants": [
+          {
+            "id": "weapon_training",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "example.proficiency.las_weapons"
+            }
+          }
+        ],
+        "manualRules": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.feature.steady_hands_veteran",
+      "kind": "feature",
+      "revision": 1,
+      "name": "Veteran steady hands",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Veteran steady hands is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.steady_hands_veteran",
+            "heading": "Veteran steady hands"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "flavor": "class_feature",
+        "effects": [],
+        "grants": [
+          {
+            "id": "weapon_training",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "example.proficiency.las_weapons"
+            }
+          }
+        ],
+        "manualRules": [
+          {
+            "id": "veteran",
+            "automation": "manual",
+            "text": "Placeholder upgrade benefit awaiting source review.",
+            "adjudicator": "gm",
+            "context": "scene",
+            "reason": "Narrative context or unverified rules require human adjudication."
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.feature.two_handed_focus",
+      "kind": "feature",
+      "revision": 1,
+      "name": "Two-handed focus",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Two-handed focus is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.two_handed_focus",
+            "heading": "Two-handed focus"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "flavor": "class_feature",
+        "effects": [
+          {
+            "id": "two_handed_damage",
+            "automation": "conditional",
+            "activation": "continuous",
+            "target": {
+              "kind": "damage",
+              "scope": "attack_weapon"
+            },
+            "operation": "add",
+            "value": {
+              "kind": "constant",
+              "value": 2
+            },
+            "duration": {
+              "kind": "while_source"
+            },
+            "stacking": {
+              "group": "example.two_handed_damage",
+              "mode": "unique_source"
+            },
+            "priority": 0,
+            "when": {
+              "kind": "attack_property",
+              "property": {
+                "id": "example.property.two_handed"
+              }
+            }
+          }
+        ],
+        "grants": [],
+        "manualRules": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.feature.vehicle_rugged",
+      "kind": "feature",
+      "revision": 1,
+      "name": "Rugged chassis",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Rugged chassis is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.vehicle_rugged",
+            "heading": "Rugged chassis"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "flavor": "vehicle_trait",
+        "effects": [],
+        "grants": [],
+        "manualRules": [
+          {
+            "id": "rugged",
+            "automation": "manual",
+            "text": "Placeholder vehicle trait, not an automatic damage reduction.",
+            "adjudicator": "gm",
+            "context": "scene",
+            "reason": "Narrative context or unverified rules require human adjudication."
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.handout.orders",
+      "kind": "handout",
+      "revision": 1,
+      "name": "Patrol orders",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Patrol orders is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.orders",
+            "heading": "Patrol orders"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "audience": "player",
+        "bodyMarkdown": "Report to the outpost. This is a schema fixture, not adventure text.",
+        "relatedContent": [
+          {
+            "id": "example.location.outpost"
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.location.outpost",
+      "kind": "location",
+      "revision": 1,
+      "name": "Example outpost",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Example outpost is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.outpost",
+            "heading": "Example outpost"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "locationType": "settlement",
+        "factions": [
+          {
+            "id": "example.faction.imperium"
+          }
+        ],
+        "lore": {
+          "id": "example.lore.frontier"
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.lore.frontier",
+      "kind": "lore",
+      "revision": 1,
+      "name": "Frontier lore",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Frontier lore is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.frontier",
+            "heading": "Frontier lore"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "audience": "player",
+        "bodyMarkdown": "Illustrative frontier background; replace with approved source prose.",
+        "relatedContent": [
+          {
+            "id": "example.faction.imperium"
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.mitigation.energy_resistance",
+      "kind": "mitigation",
+      "revision": 1,
+      "name": "Example Energy resistance",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Example Energy resistance is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.energy_resistance",
+            "heading": "Example Energy resistance"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "mode": "resistance",
+        "damageTypes": [
+          {
+            "id": "example.damage_type.energy"
+          }
+        ],
+        "policyGroup": "example.energy_protection",
+        "factor": {
+          "numerator": 1,
+          "denominator": 2
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.power.ward",
+      "kind": "power",
+      "revision": 1,
+      "name": "Example ward",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Example ward is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.ward",
+            "heading": "Example ward"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "discipline": {
+          "id": "example.discipline.warding"
+        },
+        "action": {
+          "id": "example.action.psychic_activation"
+        },
+        "duration": {
+          "kind": "rounds",
+          "count": 1,
+          "anchor": "source_turn_end"
+        },
+        "outcomes": [
+          {
+            "id": "warded",
+            "on": "success",
+            "effects": [
+              {
+                "id": "ward_defence",
+                "automation": "conditional",
+                "activation": "action",
+                "target": {
+                  "kind": "stat",
+                  "scope": "self",
+                  "key": "defence"
+                },
+                "operation": "add",
+                "value": {
+                  "kind": "constant",
+                  "value": 1
+                },
+                "duration": {
+                  "kind": "rounds",
+                  "count": 1,
+                  "anchor": "source_turn_end"
+                },
+                "stacking": {
+                  "group": "example.ward_defence",
+                  "mode": "unique_source"
+                },
+                "priority": 0
+              }
+            ],
+            "manualRules": []
+          },
+          {
+            "id": "failed",
+            "on": "failure",
+            "effects": [],
+            "manualRules": [],
+            "rule": {
+              "id": "example.rule.psyker"
+            }
+          }
+        ],
+        "perilsRule": {
+          "id": "example.rule.perils"
+        },
+        "requirements": {
+          "kind": "selected",
+          "content": {
+            "id": "example.discipline.warding"
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.proficiency.athletics",
+      "kind": "proficiency",
+      "revision": 1,
+      "name": "Athletics training",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Athletics training is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.athletics",
+            "heading": "Athletics training"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "category": "skill",
+        "appliesTo": {
+          "ids": [
+            {
+              "id": "example.skill.athletics"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.proficiency.awareness",
+      "kind": "proficiency",
+      "revision": 1,
+      "name": "Awareness training",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Awareness training is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.awareness",
+            "heading": "Awareness training"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "category": "skill",
+        "appliesTo": {
+          "ids": [
+            {
+              "id": "example.skill.awareness"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.proficiency.las_weapons",
+      "kind": "proficiency",
+      "revision": 1,
+      "name": "Las weapon training",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Las weapon training is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.las_weapons",
+            "heading": "Las weapon training"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "category": "weapon",
+        "appliesTo": {
+          "kind": "weapon",
+          "tags": [
+            {
+              "id": "example.tag.las"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.proficiency.stealth",
+      "kind": "proficiency",
+      "revision": 1,
+      "name": "Stealth training",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Stealth training is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.stealth",
+            "heading": "Stealth training"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "category": "skill",
+        "appliesTo": {
+          "ids": [
+            {
+              "id": "example.skill.stealth"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.proficiency.survival",
+      "kind": "proficiency",
+      "revision": 1,
+      "name": "Survival training",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Survival training is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.survival",
+            "heading": "Survival training"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "category": "skill",
+        "appliesTo": {
+          "ids": [
+            {
+              "id": "example.skill.survival"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.profile.demo",
+      "kind": "profile",
+      "revision": 1,
+      "name": "Demonstration rules profile",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Demonstration rules profile is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.demo",
+            "heading": "Demonstration rules profile"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "attributeKeys": [
+          "strength",
+          "agility",
+          "toughness",
+          "intellect",
+          "willpower",
+          "presence"
+        ],
+        "stats": [
+          {
+            "key": "movement",
+            "unit": "m",
+            "base": 0,
+            "rounding": "floor",
+            "minimum": 0
+          },
+          {
+            "key": "max_wounds",
+            "unit": "count",
+            "base": 1,
+            "rounding": "floor",
+            "minimum": 1
+          },
+          {
+            "key": "defence",
+            "unit": "score",
+            "base": 0,
+            "rounding": "floor"
+          },
+          {
+            "key": "attribute.strength.modifier",
+            "unit": "score",
+            "base": 0,
+            "rounding": "floor"
+          },
+          {
+            "key": "attribute.agility.modifier",
+            "unit": "score",
+            "base": 0,
+            "rounding": "floor"
+          },
+          {
+            "key": "attribute.toughness.modifier",
+            "unit": "score",
+            "base": 0,
+            "rounding": "floor"
+          },
+          {
+            "key": "attribute.intellect.modifier",
+            "unit": "score",
+            "base": 0,
+            "rounding": "floor"
+          },
+          {
+            "key": "attribute.willpower.modifier",
+            "unit": "score",
+            "base": 0,
+            "rounding": "floor"
+          },
+          {
+            "key": "attribute.presence.modifier",
+            "unit": "score",
+            "base": 0,
+            "rounding": "floor"
+          }
+        ],
+        "units": {
+          "distance": "m",
+          "weight": "kg"
+        },
+        "sizes": [
+          "medium",
+          "large",
+          "huge"
+        ],
+        "slots": {
+          "hands": 2,
+          "body": 1,
+          "eyes": 2,
+          "system": 4,
+          "turret": 1,
+          "engine": 1
+        },
+        "actionEconomy": [
+          "action",
+          "reaction",
+          "special"
+        ],
+        "capabilities": [
+          "core.effects.v1",
+          "core.choices.v1",
+          "core.progression.v1",
+          "core.actions.v1"
+        ],
+        "policies": {
+          "advantage": "cancel_opposites_one_remaining",
+          "mitigationOrder": [
+            "immunity",
+            "resistance",
+            "vulnerability"
+          ],
+          "rounding": "floor",
+          "statblockBases": "explicit_replace",
+          "movementModes": [
+            "walk",
+            "drive"
+          ],
+          "weaponCategories": [
+            "ranged",
+            "melee"
+          ],
+          "weaponSubcategories": [
+            "las",
+            "blade",
+            "solid_projectile"
+          ],
+          "availabilityScales": [
+            "example_supply"
+          ],
+          "arcs": [
+            "front"
+          ]
+        },
+        "creationPlan": [
+          {
+            "id": "identity",
+            "input": "name"
+          },
+          {
+            "id": "species",
+            "choice": {
+              "id": "example.choice.creation.species"
+            }
+          },
+          {
+            "id": "background",
+            "choice": {
+              "id": "example.choice.creation.background"
+            }
+          },
+          {
+            "id": "class",
+            "choice": {
+              "id": "example.choice.creation.class"
+            }
+          },
+          {
+            "id": "attributes",
+            "input": "attributes"
+          },
+          {
+            "id": "granted_choices",
+            "input": "pending_choices"
+          },
+          {
+            "id": "review",
+            "input": "review"
+          }
+        ],
+        "levelBounds": {
+          "min": 1,
+          "max": 5
+        },
+        "multiclassing": false
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.progression.astartes",
+      "kind": "progression",
+      "revision": 1,
+      "name": "Example Astartes progression",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Example Astartes progression is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.astartes",
+            "heading": "Example Astartes progression"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "axis": {
+          "kind": "class_level",
+          "class": {
+            "id": "example.class.astartes"
+          }
+        },
+        "maxLevel": 5,
+        "entries": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.progression.guardsman",
+      "kind": "progression",
+      "revision": 1,
+      "name": "Guardsman progression",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Guardsman progression is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.guardsman",
+            "heading": "Guardsman progression"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "axis": {
+          "kind": "class_level",
+          "class": {
+            "id": "example.class.guardsman"
+          }
+        },
+        "maxLevel": 5,
+        "entries": [
+          {
+            "level": 1,
+            "grants": [
+              {
+                "id": "steady_hands",
+                "kind": "feature",
+                "feature": {
+                  "id": "example.feature.steady_hands"
+                }
+              },
+              {
+                "id": "kit",
+                "kind": "choice",
+                "choice": {
+                  "id": "example.choice.starting_loadout"
+                }
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "grants": [
+              {
+                "id": "training",
+                "kind": "choice",
+                "choice": {
+                  "id": "example.choice.training"
+                }
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "grants": [
+              {
+                "id": "specialization",
+                "kind": "choice",
+                "choice": {
+                  "id": "example.choice.subclass"
+                }
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "grants": [
+              {
+                "id": "improvement",
+                "kind": "choice",
+                "choice": {
+                  "id": "example.choice.improvement"
+                }
+              }
+            ]
+          },
+          {
+            "level": 5,
+            "grants": [
+              {
+                "id": "steady_hands_veteran",
+                "kind": "feature",
+                "feature": {
+                  "id": "example.feature.steady_hands_veteran"
+                },
+                "replaces": [
+                  "steady_hands"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.progression.line_veteran",
+      "kind": "progression",
+      "revision": 1,
+      "name": "Line veteran progression",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Line veteran progression is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.line_veteran",
+            "heading": "Line veteran progression"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "axis": {
+          "kind": "class_level",
+          "class": {
+            "id": "example.class.guardsman"
+          }
+        },
+        "maxLevel": 5,
+        "entries": [
+          {
+            "level": 3,
+            "grants": [
+              {
+                "id": "discipline",
+                "kind": "feature",
+                "feature": {
+                  "id": "example.feature.line_veteran"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.property.heavy_armour",
+      "kind": "property",
+      "revision": 1,
+      "name": "Heavy armour",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Heavy armour is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.heavy_armour",
+            "heading": "Heavy armour"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "appliesToKinds": [
+          "armour"
+        ],
+        "parameters": [],
+        "effects": [
+          {
+            "id": "heavy_movement",
+            "automation": "automatic",
+            "activation": "continuous",
+            "target": {
+              "kind": "stat",
+              "scope": "self",
+              "key": "movement"
+            },
+            "operation": "add",
+            "value": {
+              "kind": "constant",
+              "value": -1
+            },
+            "duration": {
+              "kind": "while_source"
+            },
+            "stacking": {
+              "group": "example.heavy_movement",
+              "mode": "unique_source"
+            },
+            "priority": 0
+          }
+        ],
+        "manualRules": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.property.reliable",
+      "kind": "property",
+      "revision": 1,
+      "name": "Reliable",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Reliable is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.reliable",
+            "heading": "Reliable"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "appliesToKinds": [
+          "weapon"
+        ],
+        "parameters": [],
+        "effects": [],
+        "manualRules": [
+          {
+            "id": "reliable",
+            "automation": "manual",
+            "text": "Reliability mechanics are pending source confirmation.",
+            "adjudicator": "gm",
+            "context": "scene",
+            "reason": "Narrative context or unverified rules require human adjudication."
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.property.two_handed",
+      "kind": "property",
+      "revision": 1,
+      "name": "Two-handed",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Two-handed is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.two_handed",
+            "heading": "Two-handed"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "appliesToKinds": [
+          "weapon"
+        ],
+        "parameters": [
+          {
+            "name": "hands",
+            "type": "integer",
+            "required": true,
+            "min": 1,
+            "max": 8
+          }
+        ],
+        "effects": [],
+        "manualRules": [
+          {
+            "id": "grip",
+            "automation": "manual",
+            "text": "Hands are enforced by the weapon equip contract; this property labels the rule without adding a second hand cost.",
+            "adjudicator": "gm",
+            "context": "scene",
+            "reason": "Narrative context or unverified rules require human adjudication."
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.resource.focus",
+      "kind": "resource",
+      "revision": 1,
+      "name": "Focus",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Focus is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.focus",
+            "heading": "Focus"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "scope": "actor",
+        "max": {
+          "kind": "constant",
+          "value": 1
+        },
+        "initial": "maximum",
+        "recharge": [
+          {
+            "rule": {
+              "id": "example.rule.rest"
+            },
+            "mode": "maximum"
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.resource.item_use",
+      "kind": "resource",
+      "revision": 1,
+      "name": "Item Use",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Item Use is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.item_use",
+            "heading": "Item Use"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "scope": "item",
+        "max": {
+          "kind": "constant",
+          "value": 1
+        },
+        "initial": "maximum",
+        "recharge": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.resource.magazine",
+      "kind": "resource",
+      "revision": 1,
+      "name": "Magazine",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Magazine is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.magazine",
+            "heading": "Magazine"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "scope": "item",
+        "max": {
+          "kind": "constant",
+          "value": 30
+        },
+        "initial": {
+          "kind": "constant",
+          "value": 0
+        },
+        "recharge": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.resource.special_budget",
+      "kind": "resource",
+      "revision": 1,
+      "name": "Special Budget",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Special Budget is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.special_budget",
+            "heading": "Special Budget"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "scope": "actor",
+        "max": {
+          "kind": "constant",
+          "value": 1
+        },
+        "initial": "maximum",
+        "recharge": [
+          {
+            "rule": {
+              "id": "example.rule.rest"
+            },
+            "mode": "maximum"
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.resource.warp",
+      "kind": "resource",
+      "revision": 1,
+      "name": "Warp",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Warp is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.warp",
+            "heading": "Warp"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "scope": "actor",
+        "max": {
+          "kind": "constant",
+          "value": 3
+        },
+        "initial": "maximum",
+        "recharge": [
+          {
+            "rule": {
+              "id": "example.rule.rest"
+            },
+            "mode": "maximum"
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.rule.perils",
+      "kind": "rule",
+      "revision": 1,
+      "name": "Example Perils procedure",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Example Perils procedure is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.perils",
+            "heading": "Example Perils procedure"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "role": "perils",
+        "automation": "manual",
+        "effects": [],
+        "manualRules": [
+          {
+            "id": "perils",
+            "automation": "manual",
+            "text": "GM resolves the appropriate Perils outcome from the approved source.",
+            "adjudicator": "gm",
+            "context": "scene",
+            "reason": "Narrative context or unverified rules require human adjudication."
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.rule.psyker",
+      "kind": "rule",
+      "revision": 1,
+      "name": "Example psychic failure procedure",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Example psychic failure procedure is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.psyker",
+            "heading": "Example psychic failure procedure"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "role": "psyker",
+        "automation": "manual",
+        "effects": [],
+        "manualRules": [
+          {
+            "id": "failure",
+            "automation": "manual",
+            "text": "Record failure and ask the GM whether Perils or another consequence applies.",
+            "adjudicator": "gm",
+            "context": "scene",
+            "reason": "Narrative context or unverified rules require human adjudication."
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.rule.rest",
+      "kind": "rule",
+      "revision": 1,
+      "name": "Example field rest",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Example field rest is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.rest",
+            "heading": "Example field rest"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "role": "rest",
+        "automation": "manual",
+        "effects": [],
+        "manualRules": [
+          {
+            "id": "qualifying_rest",
+            "automation": "manual",
+            "text": "GM confirms a qualifying rest; duration and requirements are not yet verified.",
+            "adjudicator": "gm",
+            "context": "scene",
+            "reason": "Narrative context or unverified rules require human adjudication."
+          }
+        ],
+        "recharge": {
+          "event": "rest_completed",
+          "confirmation": "gm"
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.rule.test",
+      "kind": "rule",
+      "revision": 1,
+      "name": "Example test procedure",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Example test procedure is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.test",
+            "heading": "Example test procedure"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "role": "test",
+        "automation": "manual",
+        "effects": [],
+        "manualRules": [
+          {
+            "id": "resolve_test",
+            "automation": "manual",
+            "text": "Use the agreed table procedure; the real dice and success rules need source confirmation.",
+            "adjudicator": "gm",
+            "context": "scene",
+            "reason": "Narrative context or unverified rules require human adjudication."
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.rule.vehicle_damage",
+      "kind": "rule",
+      "revision": 1,
+      "name": "Example vehicle damage procedure",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Example vehicle damage procedure is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.vehicle_damage",
+            "heading": "Example vehicle damage procedure"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "role": "damage",
+        "automation": "manual",
+        "effects": [],
+        "manualRules": [
+          {
+            "id": "damage",
+            "automation": "manual",
+            "text": "Resolve subsystem damage using the agreed vehicle rules.",
+            "adjudicator": "gm",
+            "context": "scene",
+            "reason": "Narrative context or unverified rules require human adjudication."
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.shield.field",
+      "kind": "shield",
+      "revision": 1,
+      "name": "Example shield",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Example shield is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.field",
+            "heading": "Example shield"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "equip": {
+          "slots": [
+            "hands"
+          ],
+          "hands": 1
+        },
+        "properties": [],
+        "features": [],
+        "defence": {
+          "value": {
+            "kind": "constant",
+            "value": 1
+          },
+          "mode": "add",
+          "stackGroup": "example.shield_defence"
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.skill.athletics",
+      "kind": "skill",
+      "revision": 1,
+      "name": "Athletics",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Athletics is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.athletics",
+            "heading": "Athletics"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "attributeKey": "strength",
+        "testRule": {
+          "id": "example.rule.test"
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.skill.awareness",
+      "kind": "skill",
+      "revision": 1,
+      "name": "Awareness",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Awareness is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.awareness",
+            "heading": "Awareness"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "attributeKey": "intellect",
+        "testRule": {
+          "id": "example.rule.test"
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.skill.stealth",
+      "kind": "skill",
+      "revision": 1,
+      "name": "Stealth",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Stealth is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.stealth",
+            "heading": "Stealth"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "attributeKey": "agility",
+        "testRule": {
+          "id": "example.rule.test"
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.skill.survival",
+      "kind": "skill",
+      "revision": 1,
+      "name": "Survival",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Survival is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.survival",
+            "heading": "Survival"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "attributeKey": "willpower",
+        "testRule": {
+          "id": "example.rule.test"
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.species.human",
+      "kind": "species",
+      "revision": 1,
+      "name": "Human",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Human is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.human",
+            "heading": "Human"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "size": "medium",
+        "features": [
+          {
+            "id": "example.feature.human_movement"
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.species.ogryn",
+      "kind": "species",
+      "revision": 1,
+      "name": "Ogryn",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Ogryn is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.ogryn",
+            "heading": "Ogryn"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "size": "large",
+        "features": [
+          {
+            "id": "example.feature.ogryn_frame"
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.subclass.line_veteran",
+      "kind": "subclass",
+      "revision": 1,
+      "name": "Example Line Veteran",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Example Line Veteran is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.line_veteran",
+            "heading": "Example Line Veteran"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "parentClass": {
+          "id": "example.class.guardsman"
+        },
+        "features": [],
+        "progression": {
+          "id": "example.progression.line_veteran"
+        },
+        "requirements": {
+          "kind": "level",
+          "axis": {
+            "kind": "class_level",
+            "class": {
+              "id": "example.class.guardsman"
+            }
+          },
+          "operator": "gte",
+          "value": 3
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.system.autosenses",
+      "kind": "system",
+      "revision": 1,
+      "name": "Armour autosenses",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Armour autosenses is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.autosenses",
+            "heading": "Armour autosenses"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "hostKinds": [
+          "armour"
+        ],
+        "slot": "system",
+        "features": [
+          {
+            "id": "example.feature.autosenses"
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.system.drive",
+      "kind": "system",
+      "revision": 1,
+      "name": "Vehicle drive",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Vehicle drive is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.drive",
+            "heading": "Vehicle drive"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "hostKinds": [
+          "vehicle"
+        ],
+        "slot": "engine",
+        "features": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.tag.chapter_trait",
+      "kind": "tag",
+      "revision": 1,
+      "name": "Chapter Trait",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Chapter Trait is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.chapter_trait",
+            "heading": "Chapter Trait"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "category": "feature_pool"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.tag.heavy_armour",
+      "kind": "tag",
+      "revision": 1,
+      "name": "Heavy Armour",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Heavy Armour is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.heavy_armour",
+            "heading": "Heavy Armour"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "category": "armour_category"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.tag.imperium",
+      "kind": "tag",
+      "revision": 1,
+      "name": "Imperium",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Imperium is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.imperium",
+            "heading": "Imperium"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "category": "faction"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.tag.las",
+      "kind": "tag",
+      "revision": 1,
+      "name": "Las",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Las is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.las",
+            "heading": "Las"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "category": "weapon_family"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.tool.repair_kit",
+      "kind": "tool",
+      "revision": 1,
+      "name": "Repair kit",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Repair kit is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.repair_kit",
+            "heading": "Repair kit"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "category": "technical",
+        "features": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.vehicle.scout_carrier",
+      "kind": "vehicle",
+      "revision": 1,
+      "name": "Example scout carrier",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Example scout carrier is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.scout_carrier",
+            "heading": "Example scout carrier"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "vehicleType": "ground",
+        "size": "huge",
+        "movement": [
+          {
+            "mode": "drive",
+            "speed": {
+              "value": 20,
+              "unit": "m"
+            }
+          }
+        ],
+        "defence": {
+          "kind": "constant",
+          "value": 15
+        },
+        "hull": {
+          "kind": "constant",
+          "value": 30
+        },
+        "crew": [
+          {
+            "role": {
+              "id": "example.crew_role.gunner"
+            },
+            "count": 1
+          }
+        ],
+        "mounts": [
+          {
+            "id": "primary",
+            "weapon": {
+              "id": "example.weapon.lasgun"
+            },
+            "quantity": 1,
+            "slot": "turret",
+            "crewRole": {
+              "id": "example.crew_role.gunner"
+            },
+            "arc": "front"
+          }
+        ],
+        "systems": [
+          {
+            "id": "drive",
+            "system": {
+              "id": "example.system.drive"
+            },
+            "slot": "engine",
+            "quantity": 1
+          }
+        ],
+        "features": [
+          {
+            "id": "example.feature.vehicle_rugged"
+          }
+        ],
+        "transportCapacity": {
+          "occupants": 4,
+          "cargo": {
+            "value": 100,
+            "unit": "kg"
+          }
+        },
+        "damageRule": {
+          "id": "example.rule.vehicle_damage"
+        },
+        "factions": [
+          {
+            "id": "example.faction.imperium"
+          }
+        ],
+        "resources": [
+          {
+            "id": "example.resource.focus"
+          }
+        ]
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.weapon.combat_knife",
+      "kind": "weapon",
+      "revision": 1,
+      "name": "Combat knife",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Combat knife is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.combat_knife",
+            "heading": "Combat knife"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "category": "melee",
+        "subcategory": "blade",
+        "hands": 1,
+        "properties": [],
+        "features": [],
+        "modes": [
+          {
+            "id": "standard",
+            "name": "Standard",
+            "attackKind": "melee",
+            "delivery": "manual",
+            "damage": [
+              {
+                "id": "primary",
+                "dice": {
+                  "count": 1,
+                  "sides": 6,
+                  "bonus": 0
+                },
+                "bonus": {
+                  "kind": "constant",
+                  "value": 0
+                },
+                "damageType": {
+                  "id": "example.damage_type.physical"
+                }
+              }
+            ],
+            "range": {
+              "kind": "reach",
+              "distance": {
+                "value": 1,
+                "unit": "m"
+              }
+            },
+            "costs": []
+          }
+        ],
+        "cost": {
+          "currency": {
+            "id": "example.currency.scrip"
+          },
+          "units": 100
+        },
+        "weight": {
+          "value": 1,
+          "unit": "kg"
+        },
+        "availability": {
+          "scale": "example_supply",
+          "rating": 1,
+          "label": "Illustrative"
+        },
+        "equip": {
+          "slots": [
+            "hands"
+          ],
+          "hands": 1
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.weapon.lasgun",
+      "kind": "weapon",
+      "revision": 1,
+      "name": "Lasgun",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Lasgun is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.lasgun",
+            "heading": "Lasgun"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [
+        {
+          "id": "example.tag.las"
+        }
+      ],
+      "data": {
+        "category": "ranged",
+        "subcategory": "las",
+        "hands": 2,
+        "properties": [
+          {
+            "property": {
+              "id": "example.property.two_handed"
+            },
+            "arguments": {
+              "hands": 2
+            }
+          },
+          {
+            "property": {
+              "id": "example.property.reliable"
+            },
+            "arguments": {}
+          }
+        ],
+        "features": [],
+        "modes": [
+          {
+            "id": "standard",
+            "name": "Standard",
+            "attackKind": "ranged",
+            "delivery": "manual",
+            "damage": [
+              {
+                "id": "primary",
+                "dice": {
+                  "count": 1,
+                  "sides": 10,
+                  "bonus": 0
+                },
+                "bonus": {
+                  "kind": "constant",
+                  "value": 0
+                },
+                "damageType": {
+                  "id": "example.damage_type.energy"
+                }
+              }
+            ],
+            "range": {
+              "kind": "distance",
+              "normal": {
+                "value": 100,
+                "unit": "m"
+              },
+              "long": {
+                "value": 300,
+                "unit": "m"
+              }
+            },
+            "costs": [
+              {
+                "resource": {
+                  "id": "example.resource.magazine"
+                },
+                "amount": {
+                  "kind": "constant",
+                  "value": 1
+                },
+                "timing": "attempt",
+                "source": "item",
+                "refundOnCancel": true
+              }
+            ],
+            "rate": {
+              "shotsPerUse": 1
+            }
+          }
+        ],
+        "cost": {
+          "currency": {
+            "id": "example.currency.scrip"
+          },
+          "units": 100
+        },
+        "weight": {
+          "value": 4,
+          "unit": "kg"
+        },
+        "availability": {
+          "scale": "example_supply",
+          "rating": 1,
+          "label": "Illustrative"
+        },
+        "equip": {
+          "slots": [
+            "hands"
+          ],
+          "hands": 2
+        },
+        "proficiencies": [
+          {
+            "id": "example.proficiency.las_weapons"
+          }
+        ],
+        "requirements": {
+          "use": {
+            "kind": "proficient",
+            "proficiency": {
+              "id": "example.proficiency.las_weapons"
+            }
+          }
+        },
+        "ammunition": {
+          "accepted": [
+            {
+              "id": "example.ammunition.charge_pack"
+            }
+          ],
+          "capacity": 30,
+          "resource": {
+            "id": "example.resource.magazine"
+          }
+        },
+        "reload": {
+          "action": {
+            "id": "example.action.reload"
+          },
+          "amount": "full",
+          "source": "inventory"
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.weapon.shotgun",
+      "kind": "weapon",
+      "revision": 1,
+      "name": "Shotgun",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Shotgun is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.shotgun",
+            "heading": "Shotgun"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "category": "ranged",
+        "subcategory": "solid_projectile",
+        "hands": 2,
+        "properties": [],
+        "features": [],
+        "modes": [
+          {
+            "id": "standard",
+            "name": "Standard",
+            "attackKind": "ranged",
+            "delivery": "manual",
+            "damage": [
+              {
+                "id": "primary",
+                "dice": {
+                  "count": 1,
+                  "sides": 8,
+                  "bonus": 0
+                },
+                "bonus": {
+                  "kind": "constant",
+                  "value": 0
+                },
+                "damageType": {
+                  "id": "example.damage_type.physical"
+                }
+              }
+            ],
+            "range": {
+              "kind": "distance",
+              "normal": {
+                "value": 100,
+                "unit": "m"
+              },
+              "long": {
+                "value": 300,
+                "unit": "m"
+              }
+            },
+            "costs": []
+          }
+        ],
+        "cost": {
+          "currency": {
+            "id": "example.currency.scrip"
+          },
+          "units": 100
+        },
+        "weight": {
+          "value": 4,
+          "unit": "kg"
+        },
+        "availability": {
+          "scale": "example_supply",
+          "rating": 1,
+          "label": "Illustrative"
+        },
+        "equip": {
+          "slots": [
+            "hands"
+          ],
+          "hands": 2
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "example.weapon.sidearm",
+      "kind": "weapon",
+      "revision": 1,
+      "name": "Sidearm",
+      "summary": "Non-authoritative schema example; values require rules-owner review.",
+      "descriptionMarkdown": "Sidearm is an illustrative fixture, not a transcription of an approved rulebook.",
+      "lifecycle": "draft",
+      "verification": "placeholder",
+      "sources": [
+        {
+          "sourceId": "example.source.design",
+          "sourceVersion": "proposal-1",
+          "locator": {
+            "sectionKey": "examples.sidearm",
+            "heading": "Sidearm"
+          },
+          "verificationNote": "No authoritative source book was available."
+        }
+      ],
+      "tags": [],
+      "data": {
+        "category": "ranged",
+        "subcategory": "solid_projectile",
+        "hands": 1,
+        "properties": [],
+        "features": [],
+        "modes": [
+          {
+            "id": "standard",
+            "name": "Standard",
+            "attackKind": "ranged",
+            "delivery": "manual",
+            "damage": [
+              {
+                "id": "primary",
+                "dice": {
+                  "count": 1,
+                  "sides": 6,
+                  "bonus": 0
+                },
+                "bonus": {
+                  "kind": "constant",
+                  "value": 0
+                },
+                "damageType": {
+                  "id": "example.damage_type.physical"
+                }
+              }
+            ],
+            "range": {
+              "kind": "distance",
+              "normal": {
+                "value": 100,
+                "unit": "m"
+              },
+              "long": {
+                "value": 300,
+                "unit": "m"
+              }
+            },
+            "costs": []
+          }
+        ],
+        "cost": {
+          "currency": {
+            "id": "example.currency.scrip"
+          },
+          "units": 100
+        },
+        "weight": {
+          "value": 4,
+          "unit": "kg"
+        },
+        "availability": {
+          "scale": "example_supply",
+          "rating": 1,
+          "label": "Illustrative"
+        },
+        "equip": {
+          "slots": [
+            "hands"
+          ],
+          "hands": 1
+        }
+      }
+    }
+  ]
+}

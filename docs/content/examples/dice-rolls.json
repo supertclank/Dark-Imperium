@@ -1,0 +1,313 @@
+{
+  "verification": "placeholder",
+  "description": "Reducer test vectors, not complete RollDefinition records or actual Dark Imperium mechanics. Synthetic d20 threshold=20 at_least; one-kept d20 group is natural.",
+  "cases": [
+    {
+      "id": "attack",
+      "group": {
+        "id": "base",
+        "count": 1,
+        "sides": 20
+      },
+      "faces": [
+        17
+      ],
+      "modifier": 6,
+      "expected": {
+        "keptIndices": [
+          0
+        ],
+        "discardedIndices": [],
+        "total": 23,
+        "critical": "none",
+        "natural": 17
+      }
+    },
+    {
+      "id": "negative",
+      "group": {
+        "id": "base",
+        "count": 3,
+        "sides": 10
+      },
+      "faces": [
+        1,
+        2,
+        3
+      ],
+      "modifier": -2,
+      "expected": {
+        "keptIndices": [
+          0,
+          1,
+          2
+        ],
+        "discardedIndices": [],
+        "total": 4,
+        "critical": "not_applicable"
+      }
+    },
+    {
+      "id": "two_d6",
+      "group": {
+        "id": "base",
+        "count": 2,
+        "sides": 6
+      },
+      "faces": [
+        3,
+        5
+      ],
+      "modifier": 0,
+      "expected": {
+        "keptIndices": [
+          0,
+          1
+        ],
+        "discardedIndices": [],
+        "total": 8,
+        "critical": "not_applicable"
+      }
+    },
+    {
+      "id": "d8_bonus",
+      "group": {
+        "id": "base",
+        "count": 1,
+        "sides": 8
+      },
+      "faces": [
+        4
+      ],
+      "modifier": 4,
+      "expected": {
+        "keptIndices": [
+          0
+        ],
+        "discardedIndices": [],
+        "total": 8,
+        "critical": "not_applicable"
+      }
+    },
+    {
+      "id": "d4",
+      "group": {
+        "id": "base",
+        "count": 1,
+        "sides": 4
+      },
+      "faces": [
+        4
+      ],
+      "modifier": 0,
+      "expected": {
+        "keptIndices": [
+          0
+        ],
+        "discardedIndices": [],
+        "total": 4,
+        "critical": "not_applicable"
+      }
+    },
+    {
+      "id": "d12",
+      "group": {
+        "id": "base",
+        "count": 1,
+        "sides": 12
+      },
+      "faces": [
+        12
+      ],
+      "modifier": 0,
+      "expected": {
+        "keptIndices": [
+          0
+        ],
+        "discardedIndices": [],
+        "total": 12,
+        "critical": "not_applicable"
+      }
+    },
+    {
+      "id": "high_tie",
+      "group": {
+        "id": "base",
+        "count": 2,
+        "sides": 20,
+        "keep": {
+          "mode": "highest",
+          "count": 1
+        }
+      },
+      "faces": [
+        17,
+        17
+      ],
+      "modifier": 0,
+      "expected": {
+        "keptIndices": [
+          0
+        ],
+        "discardedIndices": [
+          1
+        ],
+        "total": 17,
+        "critical": "none",
+        "natural": 17
+      }
+    },
+    {
+      "id": "low",
+      "group": {
+        "id": "base",
+        "count": 2,
+        "sides": 20,
+        "keep": {
+          "mode": "lowest",
+          "count": 1
+        }
+      },
+      "faces": [
+        18,
+        3
+      ],
+      "modifier": 0,
+      "expected": {
+        "keptIndices": [
+          1
+        ],
+        "discardedIndices": [
+          0
+        ],
+        "total": 3,
+        "critical": "none",
+        "natural": 3
+      }
+    },
+    {
+      "id": "modified_not_critical",
+      "group": {
+        "id": "base",
+        "count": 1,
+        "sides": 20
+      },
+      "faces": [
+        19
+      ],
+      "modifier": 6,
+      "expected": {
+        "keptIndices": [
+          0
+        ],
+        "discardedIndices": [],
+        "total": 25,
+        "critical": "none",
+        "natural": 19
+      }
+    },
+    {
+      "id": "natural_critical",
+      "group": {
+        "id": "base",
+        "count": 1,
+        "sides": 20
+      },
+      "faces": [
+        20
+      ],
+      "modifier": -2,
+      "expected": {
+        "keptIndices": [
+          0
+        ],
+        "discardedIndices": [],
+        "total": 18,
+        "critical": "critical",
+        "natural": 20
+      }
+    },
+    {
+      "id": "percentile_min",
+      "group": {
+        "id": "base",
+        "count": 1,
+        "sides": 100
+      },
+      "faces": [
+        1
+      ],
+      "modifier": 0,
+      "expected": {
+        "keptIndices": [
+          0
+        ],
+        "discardedIndices": [],
+        "total": 1,
+        "critical": "not_applicable"
+      }
+    },
+    {
+      "id": "percentile_max",
+      "group": {
+        "id": "base",
+        "count": 1,
+        "sides": 100
+      },
+      "faces": [
+        100
+      ],
+      "modifier": 0,
+      "expected": {
+        "keptIndices": [
+          0
+        ],
+        "discardedIndices": [],
+        "total": 100,
+        "critical": "not_applicable"
+      }
+    }
+  ],
+  "typedDamage": [
+    {
+      "id": "main",
+      "damageType": "example.damage_type.energy",
+      "faces": [
+        8
+      ],
+      "modifier": 2,
+      "total": 10
+    },
+    {
+      "id": "extra",
+      "damageType": "example.damage_type.energy",
+      "faces": [
+        3
+      ],
+      "modifier": 0,
+      "total": 3
+    }
+  ],
+  "percentile": [
+    {
+      "value": 1,
+      "tens": "00",
+      "ones": 1
+    },
+    {
+      "value": 10,
+      "tens": "10",
+      "ones": 0
+    },
+    {
+      "value": 99,
+      "tens": "90",
+      "ones": 9
+    },
+    {
+      "value": 100,
+      "tens": "00",
+      "ones": 0
+    }
+  ]
+}

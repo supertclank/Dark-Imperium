@@ -1,0 +1,56 @@
+services:
+  database:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-dark_imperium}
+      POSTGRES_USER: ${POSTGRES_USER:-imperium}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test:
+        [CMD-SHELL, 'pg_isready -U "$${POSTGRES_USER}" -d "$${POSTGRES_DB}"']
+      interval: 5s
+      timeout: 5s
+      retries: 20
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    environment:
+      DATABASE_URL: jdbc:postgresql://database:5432/${POSTGRES_DB:-dark_imperium}
+      DATABASE_USER: ${POSTGRES_USER:-imperium}
+      DATABASE_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+      APP_ORIGIN: ${APP_ORIGIN:-http://localhost:3000}
+      COOKIE_SECURE: ${COOKIE_SECURE:-false}
+    depends_on:
+      database:
+        condition: service_healthy
+    healthcheck:
+      test: [CMD, curl, -fsS, "http://localhost:8080/api/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+  frontend:
+    build: ./frontend
+    environment:
+      BACKEND_URL: http://backend:8080
+      HOSTNAME: 0.0.0.0
+    ports:
+      - "127.0.0.1:${FRONTEND_PORT:-3000}:3000"
+    depends_on:
+      backend:
+        condition: service_healthy
+    healthcheck:
+      test:
+        [
+          CMD,
+          node,
+          -e,
+          "fetch('http://127.0.0.1:3000/api/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))",
+        ]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+volumes:
+  postgres_data:

@@ -1,0 +1,10 @@
+.env
+node_modules/
+.next/
+build/
+.gradle/
+coverage/
+test-results/
+.idea/
+*.log
+*.tsbuildinfo

@@ -1,0 +1,534 @@
+{
+  "schemaVersion": 1,
+  "id": "example.ruleset.foundation",
+  "revision": 1,
+  "lifecycle": "draft",
+  "profile": {
+    "id": "example.profile.demo"
+  },
+  "packages": [
+    {
+      "id": "example.package.design",
+      "version": "proposal-1"
+    }
+  ],
+  "sources": [
+    {
+      "id": "example.source.design",
+      "version": "proposal-1"
+    }
+  ],
+  "requiredCapabilities": [
+    "core.effects.v1",
+    "core.choices.v1",
+    "core.progression.v1",
+    "core.actions.v1"
+  ],
+  "policy": {
+    "allowDraft": true,
+    "allowPlaceholders": true,
+    "audience": "editorial_preview_only"
+  },
+  "entries": [
+    {
+      "id": "example.action.aim",
+      "revision": 1,
+      "sha256": "f6a0a17b08f3678ef196e4e80a4bd69e51f23cc52e53595bd9b3f47c01967ed2"
+    },
+    {
+      "id": "example.action.brace_reaction",
+      "revision": 1,
+      "sha256": "bd69b6c2962adbacdd224e716886dfcd6428ae76d4c1c8321cad3a1c8dec5f21"
+    },
+    {
+      "id": "example.action.command_special",
+      "revision": 1,
+      "sha256": "4ec237d9b67fc4b26e8f89e5b91a0aee590bb3c1d3630a94aed66b5a8ec5c010"
+    },
+    {
+      "id": "example.action.psychic_activation",
+      "revision": 1,
+      "sha256": "4883b7e2ebedf4d514a1b3e400c0efbbc642b561c8361391fd83cec19ecc7356"
+    },
+    {
+      "id": "example.action.reload",
+      "revision": 1,
+      "sha256": "acb71d2b824cfbdcd18923c9f7629de6a233627b9a8c823cff5ebd77bd0dab4c"
+    },
+    {
+      "id": "example.action.use_medicae",
+      "revision": 1,
+      "sha256": "4ca0b92a901cc0ea2c41376773bdff0630fc047c93acfdd32a37aed5971c7da9"
+    },
+    {
+      "id": "example.adventure.patrol",
+      "revision": 1,
+      "sha256": "a3d8dee7650804346e14b7ee1660601ea67ef199b217d6618a0c720d2dbfb52a"
+    },
+    {
+      "id": "example.affiliation.chapter",
+      "revision": 1,
+      "sha256": "156a19675ac24b6a04976125fa3bb43fb203a225e33372ebb7dd4746d72ba9dc"
+    },
+    {
+      "id": "example.affiliation.deathwatch",
+      "revision": 1,
+      "sha256": "cdb115b1992cc004c9bcedd6a0a4e7b9d07ed980784460e58d8413fd9bbea10a"
+    },
+    {
+      "id": "example.affiliation.unknown_founding",
+      "revision": 1,
+      "sha256": "f1d572d959a0547f85fa56791110d4831ce0d6be25e69ca44649c8814d4bed52"
+    },
+    {
+      "id": "example.ammunition.charge_pack",
+      "revision": 1,
+      "sha256": "a75ee2333ba3cf0b4cfd7bdb13fccfe091c9e5d72a959eae75578922fbbc82a1"
+    },
+    {
+      "id": "example.armour.flak",
+      "revision": 1,
+      "sha256": "76759dc78f530867d70bb2fa07b3e5c0e54a2ab96c548cd13214edbf9b0ef366"
+    },
+    {
+      "id": "example.armour.power_armour",
+      "revision": 1,
+      "sha256": "fdc7c6c42bab11b89792e08dc462a1c4c70c1aeea1d12d3a078a36d2a077aa56"
+    },
+    {
+      "id": "example.augmetic.ocular",
+      "revision": 1,
+      "sha256": "91a1686579d6bc1c60d78a8d1468f2e5b697500778c007decc16f35dc849e0c7"
+    },
+    {
+      "id": "example.background.frontier",
+      "revision": 1,
+      "sha256": "c89cb29dc26f0837c943aa981ee4b9bfaed94d4432efb7301af59e5d7e74474e"
+    },
+    {
+      "id": "example.choice.chapter",
+      "revision": 1,
+      "sha256": "814a07295c89579402f803a51efd0ac123305b543014ec4c1c4a192eec85b1a6"
+    },
+    {
+      "id": "example.choice.chapter_traits",
+      "revision": 1,
+      "sha256": "82d08a3562e11f57741bfb7f2055d249fcc5626846ef2eeb96bbc8edcdb2ca88"
+    },
+    {
+      "id": "example.choice.creation.background",
+      "revision": 1,
+      "sha256": "37199b42cd162e511aae657cebafce23d7f6fd5eca6febf84608939d2359d931"
+    },
+    {
+      "id": "example.choice.creation.class",
+      "revision": 1,
+      "sha256": "a874fc6991233d2c3328d2575b624bbc7bba781264e06bc8b34a99a36c2edb93"
+    },
+    {
+      "id": "example.choice.creation.species",
+      "revision": 1,
+      "sha256": "17ce6ebf337b2ad952780ea8066bdb91f40903bb437971c5ced7b617ab85c914"
+    },
+    {
+      "id": "example.choice.improvement",
+      "revision": 1,
+      "sha256": "4aa57dad1330b85a7c2ae84dcf6a3af86cb51ca1a2993b38fc464fdd5cbf677c"
+    },
+    {
+      "id": "example.choice.powers",
+      "revision": 1,
+      "sha256": "cb37f55e5e4a752a113d236dce81c465aea3c0ff2da1ce8814566b58a5384a3e"
+    },
+    {
+      "id": "example.choice.starting_loadout",
+      "revision": 1,
+      "sha256": "c0811cf2a168cd94fb655755887bd45b9dac8cba49625eca743d67b77325e0b7"
+    },
+    {
+      "id": "example.choice.subclass",
+      "revision": 1,
+      "sha256": "277e1720053d4b51f8154b069252dfa6bd8f9dc35bb73847aadc9cdf8221c911"
+    },
+    {
+      "id": "example.choice.training",
+      "revision": 1,
+      "sha256": "711a15e8bd56669f7ebbd25c0582ce04f903ef123ff0aa0c7e2e57f8499fd654"
+    },
+    {
+      "id": "example.class.astartes",
+      "revision": 1,
+      "sha256": "bc6c185d3336582ae22015d59da291fc45607037e19df10e1cacce07e88b49dd"
+    },
+    {
+      "id": "example.class.guardsman",
+      "revision": 1,
+      "sha256": "7532aa09cb1fde0ec14e572b76ba64411e01cd210e1466dcbc7be25ea7d63598"
+    },
+    {
+      "id": "example.condition.suppressed",
+      "revision": 1,
+      "sha256": "8e160770d452d32f0449ffe1594d171d406d97f159843cd0d1fa2589e44b43c7"
+    },
+    {
+      "id": "example.consumable.medicae",
+      "revision": 1,
+      "sha256": "2a4487900871dcf15a2fa494e09d8dfc1b7fe74f4c1dfc014c7b974b31e471b1"
+    },
+    {
+      "id": "example.creature.renegade",
+      "revision": 1,
+      "sha256": "051d96c48a2ab213f4f391c3ec8881bdb8f89e1b7eb8fd4451fdc7d27f15ecb3"
+    },
+    {
+      "id": "example.crew_role.gunner",
+      "revision": 1,
+      "sha256": "34e1102c661f8da6c98d77aa440a8b999bb0a2dc955713d8c585cf100311ef15"
+    },
+    {
+      "id": "example.currency.scrip",
+      "revision": 1,
+      "sha256": "939ace6d954866b4514f6c9057d258b8bdbddd5fdb32de1d4aba65cff1179793"
+    },
+    {
+      "id": "example.damage_type.energy",
+      "revision": 1,
+      "sha256": "2e18eb1a5b588d15ef9b9ef375e97c657978b84c1229899e7b963824fa68e4ee"
+    },
+    {
+      "id": "example.damage_type.physical",
+      "revision": 1,
+      "sha256": "6f70485f9dc4099643a36bd0227bd4a41a6bcc3b285e15bcd9a613d68596a57f"
+    },
+    {
+      "id": "example.discipline.warding",
+      "revision": 1,
+      "sha256": "932fc2ace61cc5dd99297c7683b37e4f9c495a10e9683387e3d8a01853570311"
+    },
+    {
+      "id": "example.encounter.checkpoint",
+      "revision": 1,
+      "sha256": "5cf3a23543aabce77db4cf32ee02d0656433f707ecda4f36de421c41b9555100"
+    },
+    {
+      "id": "example.equipment.field_pack",
+      "revision": 1,
+      "sha256": "f4f6e8f03f991ee9856157335dea1a26dc394e328957da63e9d0c640b093e304"
+    },
+    {
+      "id": "example.faction.imperium",
+      "revision": 1,
+      "sha256": "c0898cbe6d609b6133f151fb2bb0395b521f44849334b9bed9ca7a253f2b3275"
+    },
+    {
+      "id": "example.feature.autosenses",
+      "revision": 1,
+      "sha256": "89068dd5fa06cff03570180e9ba234d836a7c04563495807018666a5e57238bc"
+    },
+    {
+      "id": "example.feature.chapter_endurance",
+      "revision": 1,
+      "sha256": "9b2fc41d1abb59726a2a474e13850b0291f765c58bae7259c1e4d942be53a406"
+    },
+    {
+      "id": "example.feature.chapter_resolve",
+      "revision": 1,
+      "sha256": "dfc429c6b2e75bdf85a4dc745f2e18fba9fefb81f062363d089ef1e11a03aadb"
+    },
+    {
+      "id": "example.feature.chapter_vigilance",
+      "revision": 1,
+      "sha256": "ce4a2135e3098bba9ac85abf1465b7c3daa6058cb86303da82991155c0a6ef5a"
+    },
+    {
+      "id": "example.feature.creature_watchful",
+      "revision": 1,
+      "sha256": "401bd3249a813db3b92bbbb81afceedcc9b93b654e5265ca5008071aeb958782"
+    },
+    {
+      "id": "example.feature.field_training",
+      "revision": 1,
+      "sha256": "673d2419809b13d9ef52c4f3ea643bf13216bea79b0aabc0c4b284c09eb3a7ce"
+    },
+    {
+      "id": "example.feature.guardsman_wounds",
+      "revision": 1,
+      "sha256": "c9384faef2925c58a74e5d4e7247d7afd986a1d8861df266785e3399f017ab06"
+    },
+    {
+      "id": "example.feature.human_movement",
+      "revision": 1,
+      "sha256": "9abb42e87d433abab13f69b0e74accbb55db59970c7126f6a3acdb3a2001504c"
+    },
+    {
+      "id": "example.feature.line_veteran",
+      "revision": 1,
+      "sha256": "27191fa1c1cc177bcbcca123d7d3be2d3fc60236d6f8ea8261c7767e2ffa75b2"
+    },
+    {
+      "id": "example.feature.local_contacts",
+      "revision": 1,
+      "sha256": "483b35a8f65c1268811d9b9e983ed4b9d0c185da71958f091d0fecff071d731c"
+    },
+    {
+      "id": "example.feature.ogryn_frame",
+      "revision": 1,
+      "sha256": "97337b98374792b9e0902db0c29b1aea77894ef7455b2f2c90e47f082f79afa4"
+    },
+    {
+      "id": "example.feature.steady_hands",
+      "revision": 1,
+      "sha256": "d0c943cfae8c27fcd63ef15915fe7e84c2d5d82e8dd2b7558a74ed2fa312dc75"
+    },
+    {
+      "id": "example.feature.steady_hands_veteran",
+      "revision": 1,
+      "sha256": "c16c7ca711611647bdd77772aa86f4d0e0caeeadc4e5b1c7b6e3271214ff8b07"
+    },
+    {
+      "id": "example.feature.two_handed_focus",
+      "revision": 1,
+      "sha256": "9d0101770f10b523a62f47fbfee5856b8dfa62c4fbbebb91fa1bb8be682c3145"
+    },
+    {
+      "id": "example.feature.vehicle_rugged",
+      "revision": 1,
+      "sha256": "01a40880eb2bc2ee4ee5bf0e01006ef5956d5b0d6433d23074a8d7d69a9364ad"
+    },
+    {
+      "id": "example.handout.orders",
+      "revision": 1,
+      "sha256": "753e05bc86be35741a5215ba6739a53d51d66fa60c2dcf56e98a86a7a03218a8"
+    },
+    {
+      "id": "example.location.outpost",
+      "revision": 1,
+      "sha256": "cbb175fdf4a5a5acee09d00106c6510c47eb9ec3f8de2fc578c05787b899b76c"
+    },
+    {
+      "id": "example.lore.frontier",
+      "revision": 1,
+      "sha256": "e5f49507cd88786ff93c73a2ac3376202c9f0868b303e0c3000b09dabab9f96a"
+    },
+    {
+      "id": "example.mitigation.energy_resistance",
+      "revision": 1,
+      "sha256": "74f3ed4171d9ae1775adf747c336f64aa3d11a08aae76b284f6fb438aded63c4"
+    },
+    {
+      "id": "example.power.ward",
+      "revision": 1,
+      "sha256": "6f1c04d9edbdff73a58009e3b7abe173079777e20b114f7a5c1704d6314631f1"
+    },
+    {
+      "id": "example.proficiency.athletics",
+      "revision": 1,
+      "sha256": "717ad1bcd87a9d6de992811e08096ca97d78b78248b19b784edb36e813afff54"
+    },
+    {
+      "id": "example.proficiency.awareness",
+      "revision": 1,
+      "sha256": "491f518c47211c2025efa68076a2252af4a0f913efd6918da7e4346b139877bd"
+    },
+    {
+      "id": "example.proficiency.las_weapons",
+      "revision": 1,
+      "sha256": "77aa8665ec0ae4eda8cb3b0808a3be6a1b0cb7197e10fdf2df3191960d91661b"
+    },
+    {
+      "id": "example.proficiency.stealth",
+      "revision": 1,
+      "sha256": "5e1b958becfb5793b149e6c9bf1ac18d94ef80fc7042b4d76d78f0ad0088e982"
+    },
+    {
+      "id": "example.proficiency.survival",
+      "revision": 1,
+      "sha256": "6cdfd403b0c95b7e6d9f93974428227f448700b9e67a93a436b9772952e56f73"
+    },
+    {
+      "id": "example.profile.demo",
+      "revision": 1,
+      "sha256": "aa5fb8e558f93498cd04830bb4db2023e548c8ce58f4cac3450bc05590e421ba"
+    },
+    {
+      "id": "example.progression.astartes",
+      "revision": 1,
+      "sha256": "e6bd992155f62ad85ad00d1ea5f76ea3b71d9e4fe9e66562108f18607f136bcf"
+    },
+    {
+      "id": "example.progression.guardsman",
+      "revision": 1,
+      "sha256": "59c00ad17010923b1d2ebb40f1620c80039736f97dacdae04833b24f691589e8"
+    },
+    {
+      "id": "example.progression.line_veteran",
+      "revision": 1,
+      "sha256": "15ef915d30c44b860729973b06d4ba69095efb6a6dd068da186453080fae6a55"
+    },
+    {
+      "id": "example.property.heavy_armour",
+      "revision": 1,
+      "sha256": "180de5f8276d6321df554d67b997c4095bf7c75b344507d62bb59b1578cfd79d"
+    },
+    {
+      "id": "example.property.reliable",
+      "revision": 1,
+      "sha256": "841e0ab35e7cd30cd1cd7c5bd7b5c7acfca257905d3b8c42626130030ad55241"
+    },
+    {
+      "id": "example.property.two_handed",
+      "revision": 1,
+      "sha256": "59aeecb431d375599037878ca33d6eb038c00e8d94fba156c202c0f761077a83"
+    },
+    {
+      "id": "example.resource.focus",
+      "revision": 1,
+      "sha256": "82fe9001ce67ca50d52cf5e885be7746bc1d109a5165935d62d31e111f9ef1e9"
+    },
+    {
+      "id": "example.resource.item_use",
+      "revision": 1,
+      "sha256": "daa36d372dece504ddd4936476f50051dd0e5b5bb605b415259d759da6c7affb"
+    },
+    {
+      "id": "example.resource.magazine",
+      "revision": 1,
+      "sha256": "5c83ac261024dcfea417e90884a3614c8fd6ddd4ea47ae1d584f6f8850daa41f"
+    },
+    {
+      "id": "example.resource.special_budget",
+      "revision": 1,
+      "sha256": "d126ddaa118d6ad6a693c6f02c3e1ec99908c07130c4dd9d44621151e47ae057"
+    },
+    {
+      "id": "example.resource.warp",
+      "revision": 1,
+      "sha256": "2ed67fcf63193d65fcf862a40355d6df24851462a156d09e43d6f3aae80cb113"
+    },
+    {
+      "id": "example.rule.perils",
+      "revision": 1,
+      "sha256": "babf9ee5ae46a8dcd9013e52ba0b7706cd1380312bd12a70f75f23e2b2b56da5"
+    },
+    {
+      "id": "example.rule.psyker",
+      "revision": 1,
+      "sha256": "e26a305c95a098e63bd96c9dd56243783c66517f845222fc755d948ada634b4b"
+    },
+    {
+      "id": "example.rule.rest",
+      "revision": 1,
+      "sha256": "da8a9127f79065dc07fd43f78baad98280c84d36a4ce9ae74cbbac4d7f03668f"
+    },
+    {
+      "id": "example.rule.test",
+      "revision": 1,
+      "sha256": "d4c4338e34e9c42909741be24f950e93f9686dc2aff571060b0c264970c9b3e1"
+    },
+    {
+      "id": "example.rule.vehicle_damage",
+      "revision": 1,
+      "sha256": "dca1ea4d5b71068c30b33bf6ee04583b5ffd4a77c5aee95da2ff5670bca334dc"
+    },
+    {
+      "id": "example.shield.field",
+      "revision": 1,
+      "sha256": "2f6c74fce96cf2ca4f417d92a39f68e417bb57e32f4a70664393894ae80676a8"
+    },
+    {
+      "id": "example.skill.athletics",
+      "revision": 1,
+      "sha256": "fe11d76811b5b6139788ee26baae7612f4525f524b9220579c15d5f7a57b96a8"
+    },
+    {
+      "id": "example.skill.awareness",
+      "revision": 1,
+      "sha256": "5d0c3e6d258e1046a65a94819078b5b5b662cb7c3a3cf1270840a9581db6ad62"
+    },
+    {
+      "id": "example.skill.stealth",
+      "revision": 1,
+      "sha256": "5a3ab91892c35ad1ba8d65389cc2d73bd0ac7f3ede21e820ab5bf94306058fc3"
+    },
+    {
+      "id": "example.skill.survival",
+      "revision": 1,
+      "sha256": "873d5c350fdaff29ca29f74b067fb92820c5b5c8a1544314b2a40a3d1e6464b4"
+    },
+    {
+      "id": "example.species.human",
+      "revision": 1,
+      "sha256": "762bb4152039a97e4108153885f715b1affd24bfb65b9a32253bf42b85277b52"
+    },
+    {
+      "id": "example.species.ogryn",
+      "revision": 1,
+      "sha256": "cccc3eeaa9e49a6aeb7d9637758b6d34e68366d3457a39a20692cfd37e861871"
+    },
+    {
+      "id": "example.subclass.line_veteran",
+      "revision": 1,
+      "sha256": "ee9cd1c99c8bb1f276ca94ac753e7d0355f0ffb4ef154e1d03df1aa695456d7f"
+    },
+    {
+      "id": "example.system.autosenses",
+      "revision": 1,
+      "sha256": "02f7d2c67b5ee9d555d08e17908b6168535571f3d986ce21b47c2fd64b90b597"
+    },
+    {
+      "id": "example.system.drive",
+      "revision": 1,
+      "sha256": "24f74fa52c6b4de5d1f2d0e2941e2250e50e8e7f82b643bbd0ed4b374f086595"
+    },
+    {
+      "id": "example.tag.chapter_trait",
+      "revision": 1,
+      "sha256": "14a9302d51eef7853907c739f4c013d12cf02199931ae716e3b1a9703b884100"
+    },
+    {
+      "id": "example.tag.heavy_armour",
+      "revision": 1,
+      "sha256": "8ca96f2aad2d6c9ae08acba56557d2d8aec06e50f9cf58c4229d83d325c4c811"
+    },
+    {
+      "id": "example.tag.imperium",
+      "revision": 1,
+      "sha256": "fc93d65dc707a8442b9c539d0a2ef362347ba11d81ede1bebe48f8ddf3840ca8"
+    },
+    {
+      "id": "example.tag.las",
+      "revision": 1,
+      "sha256": "7fd33ed622672b597d75697a280089d6aab322e2c8a112cd4c197ff220d3a631"
+    },
+    {
+      "id": "example.tool.repair_kit",
+      "revision": 1,
+      "sha256": "b48af3cb033347903813f484398fa591bdd385382356cd444691f5828631d7ca"
+    },
+    {
+      "id": "example.vehicle.scout_carrier",
+      "revision": 1,
+      "sha256": "900d4da47d6a94a975e6be78fc3616e0a982eac94e784360590b69ab255cfc64"
+    },
+    {
+      "id": "example.weapon.combat_knife",
+      "revision": 1,
+      "sha256": "78bd14aa70505d6186c4f500ab2414e9aad4b8e562ab11917cd6a869a8a1694e"
+    },
+    {
+      "id": "example.weapon.lasgun",
+      "revision": 1,
+      "sha256": "f137316ecdc7e916d84e9e0464e5109601d24d8ff1c727ece2030e6632ab729a"
+    },
+    {
+      "id": "example.weapon.shotgun",
+      "revision": 1,
+      "sha256": "8b3cf1af1fdbe0467df38923be64abf5c355fd9a0806eba4d6a719a7dd782e83"
+    },
+    {
+      "id": "example.weapon.sidearm",
+      "revision": 1,
+      "sha256": "a9513dbacbea6edca66843753c3fe0f1422c8939f39a597d689ce6538b66c0b0"
+    }
+  ]
+}
