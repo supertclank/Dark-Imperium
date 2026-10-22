@@ -33,10 +33,11 @@ fun main() {
 fun Application.module(db: Database, config: AppConfig) {
     val auth = AuthService(db)
     val content = ContentRepository(db)
-    val characters = CharacterService(db, content)
+    val characters = ProductionCharacters(db)
     val logger = LoggerFactory.getLogger("imperium.api")
     install(ContentNegotiation) { json(Json { ignoreUnknownKeys = false }) }
     install(StatusPages) {
+        exception<InvalidDraft> { call, e -> call.respond(HttpStatusCode.UnprocessableEntity, DraftValidation("INVALID", e.issues)) }
         exception<ApiException> { call, e -> call.respond(HttpStatusCode.fromValue(e.status), ApiError(ErrorDetail(e.code, e.message))) }
         exception<BadRequestException> { call, _ -> call.respond(HttpStatusCode.BadRequest, ApiError(ErrorDetail("INVALID_REQUEST", "The request body is invalid."))) }
         exception<SerializationException> { call, _ -> call.respond(HttpStatusCode.BadRequest, ApiError(ErrorDetail("INVALID_REQUEST", "The request body is invalid."))) }
@@ -81,11 +82,16 @@ fun Application.module(db: Database, config: AppConfig) {
             get("/species") { call.owner(); call.respond(withContext(Dispatchers.IO) { content.list(ContentKind.SPECIES) }) }
             get("/classes") { call.owner(); call.respond(withContext(Dispatchers.IO) { content.list(ContentKind.CLASS) }) }
             get("/weapons") { call.owner(); call.respond(withContext(Dispatchers.IO) { content.weapons() }) }
+            get("/character-builder/profile") { call.owner(); call.respond(characters.rules.profile()) }
+            post("/characters/validate") {
+                call.owner(); val input=call.receive<NarrowDraft>()
+                call.respond(withContext(Dispatchers.Default) { characters.rules.validate(input) })
+            }
             get("/characters") { val owner = call.owner(); call.respond(withContext(Dispatchers.IO) { characters.list(owner) }) }
             post("/characters") {
-                val owner = call.owner(); val input = call.receive<CreateCharacter>()
+                val owner = call.owner(); val input = call.receive<NarrowDraft>()
                 val sheet = withContext(Dispatchers.IO) { characters.create(owner, input) }
-                call.response.header(HttpHeaders.Location, "/api/characters/${sheet.id}")
+                call.response.header(HttpHeaders.Location, "/api/characters/${sheet.text("id")}")
                 call.respond(HttpStatusCode.Created, sheet)
             }
             get("/characters/{id}") {
@@ -94,7 +100,7 @@ fun Application.module(db: Database, config: AppConfig) {
             }
             patch("/characters/{id}") {
                 val owner = call.owner(); val id = uuid(call.parameters["id"]!!); val input = call.receive<RenameCharacter>()
-                call.respond(withContext(Dispatchers.IO) { characters.rename(owner, id, input) })
+                call.respond(withContext(Dispatchers.IO) { characters.rename(owner, id, input.name) })
             }
             delete("/characters/{id}") {
                 val owner = call.owner(); val id = uuid(call.parameters["id"]!!)

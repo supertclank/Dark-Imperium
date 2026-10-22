@@ -54,15 +54,15 @@ export default function Home() {
             The compendium <span>↗</span>
           </h2>
           <p>
-            Explore the species, classes, and weapons available to your group.
+            Browse the legacy reference catalogue. Production choices are listed in the character builder.
           </p>
         </Link>
         <div className="feature note">
           <span className="eyebrow">FIELD NOTE</span>
           <h2>A foundation for play</h2>
           <p>
-            Rules and statistics in this edition are development placeholders.
-            Your group’s rulebook remains the authority.
+            Create a validated Human / Schola Progenium / Veteran character.
+            Some features require manual tracking; additional paths are coming later.
           </p>
         </div>
       </section>

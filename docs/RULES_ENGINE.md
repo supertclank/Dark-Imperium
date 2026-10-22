@@ -1,3 +1,5 @@
+> **Current production pass:** [Narrow character builder](PRODUCTION_CHARACTER_BUILDER.md) describes the V4 schema, pinned calculation adapter, API and current verification. Foundation details below are historical where superseded.
+
 # Content and rules
 
 For the proposed broader canonical content contract, see [docs/content](content/README.md). This document describes the **currently implemented foundation**; the proposal is not yet supported by the application and does not change existing behavior.

@@ -1,0 +1,2898 @@
+{
+  "id": "6f63917a-ef21-47af-820d-23116cde52cc",
+  "name": "Test soldier",
+  "createdAt": "2026-10-22T19:01:22.321845Z",
+  "updatedAt": "2026-10-22T19:01:22.321845Z",
+  "rulesetProfileId": "di-phb-1.0-narrow-v1",
+  "rulesetDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+  "selections": {
+    "profileId": "di-phb-1.0-narrow-v1",
+    "profileDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+    "requestId": "9f1318e5-be7e-405e-a5af-8a7d0b6d9be6",
+    "name": "Test soldier",
+    "speciesId": "di.species.human",
+    "originId": "di.background.schola_progenium",
+    "classId": "di.class.veteran",
+    "traitId": "di.feature.universal.twitchy",
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 8,
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12
+    },
+    "answers": {
+      "di.choice.human.ability_scores": [
+        "strength_dexterity"
+      ],
+      "di.choice.human.broad_training_proof": [
+        "trench_club"
+      ],
+      "di.choice.human.imperial_adaptability": [
+        "acrobatics"
+      ],
+      "di.choice.schola_progenium.skills": [
+        "history"
+      ],
+      "di.choice.schola_progenium.skills_2": [
+        "intimidation"
+      ],
+      "di.choice.veteran.specialist_group": [
+        "sniper"
+      ],
+      "di.choice.veteran.starting_skills": [
+        "athletics",
+        "insight"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "utility": "di.equipment.med_pack"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "quantity": 1
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "quantity": 1
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1
+      },
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1
+      }
+    ]
+  },
+  "species": {
+    "id": "di.species.human",
+    "name": "Human"
+  },
+  "origin": {
+    "id": "di.background.schola_progenium",
+    "name": "Schola Progenium"
+  },
+  "characterClass": {
+    "id": "di.class.veteran",
+    "name": "Veteran"
+  },
+  "trait": {
+    "id": "di.feature.universal.twitchy",
+    "name": "Twitchy"
+  },
+  "level": 1,
+  "calculated": {
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 8,
+      "strength": 17,
+      "dexterity": 15,
+      "constitution": 13,
+      "intelligence": 12
+    },
+    "attributeModifiers": {
+      "wisdom": 0,
+      "charisma": -1,
+      "strength": 3,
+      "dexterity": 2,
+      "constitution": 1,
+      "intelligence": 1
+    },
+    "proficiencyBonus": 2,
+    "maximumWounds": 11,
+    "defence": 14,
+    "movement": 30,
+    "initiative": 4,
+    "saves": {
+      "strength": {
+        "modifier": 3,
+        "proficient": false
+      },
+      "dexterity": {
+        "modifier": 4,
+        "proficient": true
+      },
+      "constitution": {
+        "modifier": 1,
+        "proficient": false
+      },
+      "intelligence": {
+        "modifier": 1,
+        "proficient": false
+      },
+      "wisdom": {
+        "modifier": 2,
+        "proficient": true
+      },
+      "charisma": {
+        "modifier": -1,
+        "proficient": false
+      }
+    },
+    "skills": {
+      "di.skill.history": {
+        "name": "History",
+        "attribute": "intelligence",
+        "proficient": true,
+        "modifier": 3
+      },
+      "di.skill.insight": {
+        "name": "Insight",
+        "attribute": "wisdom",
+        "proficient": true,
+        "modifier": 2
+      },
+      "di.skill.stealth": {
+        "name": "Stealth",
+        "attribute": "dexterity",
+        "proficient": false,
+        "modifier": 2
+      },
+      "di.skill.medicine": {
+        "name": "Medicine",
+        "attribute": "wisdom",
+        "proficient": false,
+        "modifier": 0
+      },
+      "di.skill.religion": {
+        "name": "Religion",
+        "attribute": "intelligence",
+        "proficient": false,
+        "modifier": 1
+      },
+      "di.skill.survival": {
+        "name": "Survival",
+        "attribute": "wisdom",
+        "proficient": false,
+        "modifier": 0
+      },
+      "di.skill.athletics": {
+        "name": "Athletics",
+        "attribute": "strength",
+        "proficient": true,
+        "modifier": 5
+      },
+      "di.skill.deception": {
+        "name": "Deception",
+        "attribute": "charisma",
+        "proficient": false,
+        "modifier": -1
+      },
+      "di.skill.acrobatics": {
+        "name": "Acrobatics",
+        "attribute": "dexterity",
+        "proficient": true,
+        "modifier": 4
+      },
+      "di.skill.perception": {
+        "name": "Perception",
+        "attribute": "wisdom",
+        "proficient": false,
+        "modifier": 0
+      },
+      "di.skill.persuasion": {
+        "name": "Persuasion",
+        "attribute": "charisma",
+        "proficient": false,
+        "modifier": -1
+      },
+      "di.skill.technology": {
+        "name": "Technology",
+        "attribute": "intelligence",
+        "proficient": false,
+        "modifier": 1
+      },
+      "di.skill.intimidation": {
+        "name": "Intimidation",
+        "attribute": "charisma",
+        "proficient": true,
+        "modifier": 1
+      },
+      "di.skill.investigation": {
+        "name": "Investigation",
+        "attribute": "intelligence",
+        "proficient": false,
+        "modifier": 1
+      },
+      "di.skill.sleight_of_hand": {
+        "name": "Sleight of Hand",
+        "attribute": "dexterity",
+        "proficient": false,
+        "modifier": 2
+      }
+    },
+    "proficiencies": [
+      {
+        "id": "di.proficiency.weapon_group.simple_melee",
+        "name": "Simple Melee",
+        "description": "Simple Melee"
+      },
+      {
+        "id": "di.proficiency.weapon_group.martial_melee",
+        "name": "Martial Melee",
+        "description": "Martial Melee"
+      },
+      {
+        "id": "di.proficiency.weapon_group.pistol",
+        "name": "Pistol",
+        "description": "Pistol"
+      },
+      {
+        "id": "di.proficiency.weapon_group.basic_firearm",
+        "name": "Basic Firearm",
+        "description": "Basic Firearm"
+      },
+      {
+        "id": "di.proficiency.weapon_group.grenade",
+        "name": "Grenade",
+        "description": "Grenade"
+      },
+      {
+        "id": "di.proficiency.weapon.trench_club",
+        "name": "Weapon: Trench Club",
+        "description": "Weapon: Trench Club"
+      },
+      {
+        "id": "di.proficiency.skill.acrobatics",
+        "name": "Acrobatics proficiency",
+        "description": "Add proficiency when this skill applies, once."
+      },
+      {
+        "id": "di.proficiency.skill.history",
+        "name": "History proficiency",
+        "description": "Add proficiency when this skill applies, once."
+      },
+      {
+        "id": "di.proficiency.skill.intimidation",
+        "name": "Intimidation proficiency",
+        "description": "Add proficiency when this skill applies, once."
+      },
+      {
+        "id": "di.proficiency.weapon_group.sniper",
+        "name": "Sniper",
+        "description": "Sniper"
+      },
+      {
+        "id": "di.proficiency.skill.athletics",
+        "name": "Athletics proficiency",
+        "description": "Add proficiency when this skill applies, once."
+      },
+      {
+        "id": "di.proficiency.skill.insight",
+        "name": "Insight proficiency",
+        "description": "Add proficiency when this skill applies, once."
+      }
+    ],
+    "weaponProficiencies": {
+      "groups": [
+        "basic_firearm",
+        "grenade",
+        "martial_melee",
+        "pistol",
+        "simple_melee",
+        "sniper"
+      ],
+      "specificWeapons": [
+        "di.weapon.trench_club"
+      ],
+      "startingPackageWeapons": [
+        "di.weapon.combat_blade",
+        "di.weapon.frag_grenade",
+        "di.weapon.lasgun",
+        "di.weapon.laspistol"
+      ]
+    },
+    "features": [
+      {
+        "id": "di.feature.species.human.baseline",
+        "name": "Human fixed baseline",
+        "text": "Fixed ability adjustments and speed from species entry.",
+        "sources": [
+          {
+            "locator": {
+              "heading": "Human fixed baseline",
+              "pdfPage": 23,
+              "sectionKey": "3.1",
+              "printedPage": 10
+            },
+            "sourceId": "di.source.phb",
+            "sourceVersion": "1.0@a58335b1264a"
+          }
+        ],
+        "manual": false
+      },
+      {
+        "id": "di.feature.species.human.traits",
+        "name": "Human traits",
+        "text": "3.1 Human\nHumans are the baseline of the Imperium: adaptable, \nambitious, fragile, and dangerously determined.\nAbility Scores: +2 to one ability score and +1 to \nanother.\nSize: Medium.\nSpeed: 30 ft.\nAvailable Classes: Veteran, Zealot, Psyker, Arbites \nEnforcer, Hive Scum.\n3.1.1 Human Traits\nImperial Adaptability: Gain proficiency in one skill of \nyour choice.\nBroad Training: Gain one additional weapon, tool, or \nlanguage proficiency.\nFaith, Fear, or Discipline: Once per long rest, when you \nfail a saving throw, you may reroll it. You must\nuse the new result.",
+        "sources": [
+          {
+            "locator": {
+              "heading": "Human traits",
+              "pdfPage": 23,
+              "sectionKey": "3.1",
+              "printedPage": 10
+            },
+            "sourceId": "di.source.phb",
+            "sourceVersion": "1.0@a58335b1264a"
+          }
+        ],
+        "manual": true
+      },
+      {
+        "id": "di.feature.origin.schola_progenium",
+        "name": "Schola Progenium benefits",
+        "text": "4.6 Schola Progenium\nRaised in harsh Imperial institutions to become a soldier, \njudge, officer, priest, or specialist.\nAllowed Species: Human.\nSkill Proficiency: Choose one from History or Religion, \nand one from Intimidation or Persuasion.\nDrilled Obedience: You have advantage on saving \nthrows against fear while following a direct order,\nholding formation, or protecting an Imperial objective.\nImperial Education: You can identify major Imperial \norganisations, ranks, symbols, rites, and\nprocedures.",
+        "sources": [
+          {
+            "locator": {
+              "heading": "Schola Progenium benefits",
+              "pdfPage": 26,
+              "sectionKey": "4.6",
+              "printedPage": 13
+            },
+            "sourceId": "di.source.phb",
+            "sourceVersion": "1.0@a58335b1264a"
+          }
+        ],
+        "manual": true
+      },
+      {
+        "id": "di.feature.class.veteran.training",
+        "name": "Veteran training and hit die",
+        "text": "11.1 Veteran\nProfessional soldier, marksman, squad leader, or hardened guardsman.\nAllowed Species: Human, Ratling.\nHit Die: d10.\nPrimary Abilities: Dexterity, Wisdom.\nSaving Throws: Dexterity, Wisdom.\nArmour: Light, medium, flak, carapace.\nWeapons: Simple weapons, martial melee weapons, pistols, basic firearms, grenades.",
+        "sources": [
+          {
+            "locator": {
+              "heading": "Veteran training and hit die",
+              "pdfPage": 50,
+              "sectionKey": "11.1",
+              "printedPage": 37
+            },
+            "sourceId": "di.source.phb",
+            "sourceVersion": "1.0@a58335b1264a"
+          }
+        ],
+        "manual": true
+      },
+      {
+        "id": "di.feature.universal.twitchy",
+        "name": "Twitchy",
+        "text": "Trait: Twitchy\nEffect: Gain +2 to initiative.",
+        "sources": [
+          {
+            "locator": {
+              "heading": "Twitchy",
+              "pdfPage": 29,
+              "sectionKey": "5",
+              "printedPage": 16
+            },
+            "sourceId": "di.source.phb",
+            "sourceVersion": "1.0@a58335b1264a"
+          }
+        ],
+        "manual": false
+      },
+      {
+        "id": "di.feature.class.veteran.level_1.guardsman_training",
+        "name": "Guardsman Training",
+        "text": "Gain proficiency in two skills from Athletics, Insight, \nIntimidation, Medicine, Perception, Stealth, and Survival. \nYou also gain proficiency with one specialist weapon \ngroup: sniper weapons, plasma weapons, melta \nweapons, or heavy weapons.",
+        "sources": [
+          {
+            "locator": {
+              "heading": "Guardsman Training",
+              "pdfPage": 50,
+              "sectionKey": "11.1.1",
+              "printedPage": 37
+            },
+            "sourceId": "di.source.phb",
+            "sourceVersion": "1.0@a58335b1264a"
+          }
+        ],
+        "manual": false
+      },
+      {
+        "id": "di.feature.class.veteran.level_1.tactical_aim",
+        "name": "Tactical Aim",
+        "text": "As a bonus action, choose one creature you can see \nwithin weapon range. Until the end of your turn,\nyour next ranged weapon attack against that creature \ndeals bonus damage equal to your proficiency\nbonus.",
+        "sources": [
+          {
+            "locator": {
+              "heading": "Tactical Aim",
+              "pdfPage": 50,
+              "sectionKey": "11.1.2",
+              "printedPage": 37
+            },
+            "sourceId": "di.source.phb",
+            "sourceVersion": "1.0@a58335b1264a"
+          }
+        ],
+        "manual": true
+      }
+    ],
+    "inventory": [
+      {
+        "definitionId": "di.armour.flak_armour",
+        "name": "Flak Armour",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.equipment.med_pack",
+        "name": "Med-Pack",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.combat_blade",
+        "name": "Combat Blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "name": "Frag Grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "name": "Lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.laspistol",
+        "name": "Laspistol",
+        "quantity": 1,
+        "equipped": false
+      }
+    ],
+    "actions": [
+      {
+        "id": "di.action.combat_blade.attack",
+        "itemId": "di.weapon.combat_blade",
+        "name": "Combat Blade",
+        "attackBonus": 5,
+        "ability": "strength",
+        "damageExpression": "1d6 + 3",
+        "damageType": "Piercing",
+        "range": {
+          "kind": "reach",
+          "distance": {
+            "unit": "ft",
+            "value": 5
+          }
+        },
+        "properties": [
+          "Finesse",
+          "Light"
+        ],
+        "save": null,
+        "saveDc": null,
+        "area": null,
+        "consumption": null,
+        "damageRollId": "e36e5a5e-636a-3328-a5b2-838293bce086",
+        "manual": true
+      },
+      {
+        "id": "di.action.frag_grenade.throw",
+        "itemId": "di.weapon.frag_grenade",
+        "name": "Frag Grenade",
+        "attackBonus": null,
+        "ability": null,
+        "damageExpression": "3d6",
+        "damageType": "Piercing",
+        "range": {
+          "kind": "distance",
+          "long": {
+            "unit": "ft",
+            "value": 90
+          },
+          "normal": {
+            "unit": "ft",
+            "value": 30
+          }
+        },
+        "properties": [],
+        "save": {
+          "dcPolicy": "phb.grenade_dc.v1",
+          "outcomes": {
+            "failure": {
+              "rounding": "floor",
+              "damageMultiplier": {
+                "numerator": 1,
+                "denominator": 1
+              }
+            },
+            "success": {
+              "rounding": "floor",
+              "damageMultiplier": {
+                "numerator": 1,
+                "denominator": 2
+              }
+            }
+          },
+          "attribute": "dexterity"
+        },
+        "saveDc": 12,
+        "area": {
+          "shape": "sphere",
+          "radius": {
+            "unit": "ft",
+            "value": 15
+          }
+        },
+        "consumption": {
+          "on": "committed_use",
+          "quantity": 1,
+          "resource": "item_quantity"
+        },
+        "damageRollId": "e43ec1d4-9a94-3e75-b3c3-29e52bcf68fa",
+        "manual": true
+      },
+      {
+        "id": "di.action.lasgun.attack",
+        "itemId": "di.weapon.lasgun",
+        "name": "Lasgun",
+        "attackBonus": 4,
+        "ability": "dexterity",
+        "damageExpression": "1d8 + 2",
+        "damageType": "Radiant",
+        "range": {
+          "kind": "distance",
+          "long": {
+            "unit": "ft",
+            "value": 240
+          },
+          "normal": {
+            "unit": "ft",
+            "value": 80
+          }
+        },
+        "properties": [
+          "Reload X"
+        ],
+        "save": null,
+        "saveDc": null,
+        "area": null,
+        "consumption": null,
+        "damageRollId": "565b921c-27b2-39c4-bf3e-40d6aca74922",
+        "manual": true
+      },
+      {
+        "id": "di.action.laspistol.attack",
+        "itemId": "di.weapon.laspistol",
+        "name": "Laspistol",
+        "attackBonus": 4,
+        "ability": "dexterity",
+        "damageExpression": "1d6 + 2",
+        "damageType": "Radiant",
+        "range": {
+          "kind": "distance",
+          "long": {
+            "unit": "ft",
+            "value": 150
+          },
+          "normal": {
+            "unit": "ft",
+            "value": 50
+          }
+        },
+        "properties": [
+          "Light",
+          "Reload X"
+        ],
+        "save": null,
+        "saveDc": null,
+        "area": null,
+        "consumption": null,
+        "damageRollId": "5eb4253c-50b0-3a5b-b707-701cc542aef5",
+        "manual": true
+      }
+    ],
+    "rollDefinitions": [
+      {
+        "schemaVersion": 1,
+        "id": "d5f89f16-0755-3ffa-973b-18ce73fdd387",
+        "category": "attribute",
+        "label": "strength check",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.species.human"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": 3,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.species.human"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "60c2fb03-9645-362c-8863-6e5a9cd7d263",
+        "category": "attribute",
+        "label": "dexterity check",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.species.human"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": 2,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.species.human"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "c25b2b02-15f8-39b6-8667-60893b9d38f2",
+        "category": "attribute",
+        "label": "constitution check",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.species.human"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": 1,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.species.human"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "880f7391-b433-32a5-86a9-97e6234896da",
+        "category": "attribute",
+        "label": "intelligence check",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.species.human"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": 1,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.species.human"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "d25a2b7e-8b4e-37e2-b791-45879de4ecba",
+        "category": "attribute",
+        "label": "wisdom check",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.species.human"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": 0,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.species.human"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "a296b59e-908a-3637-9764-95488082b748",
+        "category": "attribute",
+        "label": "charisma check",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.species.human"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": -1,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.species.human"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "7905c081-9e97-3316-a9b7-2d90b8cabf96",
+        "category": "skill",
+        "label": "History",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.skill.history"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": 3,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.skill.history"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "5482a943-0b4b-36d3-ad1b-b3b38bdb9600",
+        "category": "skill",
+        "label": "Insight",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.skill.insight"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": 2,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.skill.insight"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "9c271b70-c01a-3c24-bb38-87e05c44e268",
+        "category": "skill",
+        "label": "Stealth",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.skill.stealth"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": 2,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.skill.stealth"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "958778e6-be7d-3ecc-ac6f-d8a94f8777a9",
+        "category": "skill",
+        "label": "Medicine",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.skill.medicine"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": 0,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.skill.medicine"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "a69a1f67-275d-3ef3-95ab-be146c3d036a",
+        "category": "skill",
+        "label": "Religion",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.skill.religion"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": 1,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.skill.religion"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "c0eeecb5-b2c1-3f69-bd83-3c7c2d1b334b",
+        "category": "skill",
+        "label": "Survival",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.skill.survival"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": 0,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.skill.survival"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "8c88e4ec-d5e6-3a69-b979-51129007d883",
+        "category": "skill",
+        "label": "Athletics",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.skill.athletics"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": 5,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.skill.athletics"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "c8373dd9-4689-38c9-812d-d5003aa6ba73",
+        "category": "skill",
+        "label": "Deception",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.skill.deception"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": -1,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.skill.deception"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "8a7be506-c9da-3c0a-bcc2-2807c05fab9c",
+        "category": "skill",
+        "label": "Acrobatics",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.skill.acrobatics"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": 4,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.skill.acrobatics"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "0299dcfe-77c8-37a4-ab02-ce3143a44b1e",
+        "category": "skill",
+        "label": "Perception",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.skill.perception"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": 0,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.skill.perception"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "c86139ea-87b2-3321-94a0-1af7f82a1406",
+        "category": "skill",
+        "label": "Persuasion",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.skill.persuasion"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": -1,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.skill.persuasion"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "42682d8d-9b42-3559-9ddc-30ab358dea54",
+        "category": "skill",
+        "label": "Technology",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.skill.technology"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": 1,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.skill.technology"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "a0107b8a-cad9-35e6-82f5-9dd5ca4d51dc",
+        "category": "skill",
+        "label": "Intimidation",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.skill.intimidation"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": 1,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.skill.intimidation"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "2b5b8c1d-93e6-3b5e-b111-7857b42b4cef",
+        "category": "skill",
+        "label": "Investigation",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.skill.investigation"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": 1,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.skill.investigation"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "3daa1a17-ac80-39e8-ad62-898e403ee926",
+        "category": "skill",
+        "label": "Sleight of Hand",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.skill.sleight_of_hand"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": 2,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.skill.sleight_of_hand"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "317d1591-0673-3e27-bbfe-29cf57fa4c76",
+        "category": "save",
+        "label": "strength save",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.class.veteran"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": 3,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.class.veteran"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "8149d55f-6a10-3989-8ce4-eb2dff9c7cff",
+        "category": "save",
+        "label": "dexterity save",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.class.veteran"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": 4,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.class.veteran"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "92532ab3-da69-3337-9a1b-9968b765429d",
+        "category": "save",
+        "label": "constitution save",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.class.veteran"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": 1,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.class.veteran"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "d4bb536e-40ea-387d-b97a-f30463fe8e9a",
+        "category": "save",
+        "label": "intelligence save",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.class.veteran"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": 1,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.class.veteran"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "0bba0c6b-93ba-3bf2-95ce-1ebccc54767d",
+        "category": "save",
+        "label": "wisdom save",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.class.veteran"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": 2,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.class.veteran"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "2c06ccc1-9e67-3047-9578-8143e0394d54",
+        "category": "save",
+        "label": "charisma save",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.class.veteran"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": -1,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.class.veteran"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "f6888a45-2679-3fc9-bac4-7b4d8cd70a9f",
+        "category": "ability",
+        "label": "Initiative",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.feature.universal.twitchy"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": 4,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.feature.universal.twitchy"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "ee394ed9-f7da-3a04-a2c0-33c6d39a6178",
+        "category": "attack",
+        "label": "Combat Blade attack",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.weapon.combat_blade"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": 5,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.weapon.combat_blade"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "enabled",
+          "threshold": 20,
+          "comparison": "at_least"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        },
+        "action": {
+          "ref": {
+            "id": "di.action.combat_blade.attack"
+          },
+          "executionId": "59c818ac-5aab-328c-9ba0-66b529f3c0f2",
+          "stageId": "attack",
+          "modeId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "e36e5a5e-636a-3328-a5b2-838293bce086",
+        "category": "damage",
+        "label": "Combat Blade damage",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.weapon.combat_blade"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 6
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": 3,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.weapon.combat_blade"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ],
+            "damageType": {
+              "id": "di.damage_type.piercing"
+            }
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "action": {
+          "ref": {
+            "id": "di.action.combat_blade.attack"
+          },
+          "executionId": "59c818ac-5aab-328c-9ba0-66b529f3c0f2",
+          "stageId": "damage",
+          "modeId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "e43ec1d4-9a94-3e75-b3c3-29e52bcf68fa",
+        "category": "damage",
+        "label": "Frag Grenade damage",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.weapon.frag_grenade"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 3,
+                "sides": 6
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": 0,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.weapon.frag_grenade"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ],
+            "damageType": {
+              "id": "di.damage_type.piercing"
+            }
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "action": {
+          "ref": {
+            "id": "di.action.frag_grenade.throw"
+          },
+          "executionId": "6d1f0816-4bad-30fe-862b-b1a51eeac672",
+          "stageId": "damage",
+          "modeId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "f5eb89fe-df27-34b0-a2f1-f4a10253f0a8",
+        "category": "attack",
+        "label": "Lasgun attack",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.weapon.lasgun"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": 4,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.weapon.lasgun"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "enabled",
+          "threshold": 20,
+          "comparison": "at_least"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        },
+        "action": {
+          "ref": {
+            "id": "di.action.lasgun.attack"
+          },
+          "executionId": "946153f7-6206-39a0-bece-11fc41198b72",
+          "stageId": "attack",
+          "modeId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "565b921c-27b2-39c4-bf3e-40d6aca74922",
+        "category": "damage",
+        "label": "Lasgun damage",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.weapon.lasgun"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 8
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": 2,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.weapon.lasgun"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ],
+            "damageType": {
+              "id": "di.damage_type.radiant"
+            }
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "action": {
+          "ref": {
+            "id": "di.action.lasgun.attack"
+          },
+          "executionId": "946153f7-6206-39a0-bece-11fc41198b72",
+          "stageId": "damage",
+          "modeId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "92441381-817d-3b30-b212-387b80919f91",
+        "category": "attack",
+        "label": "Laspistol attack",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.weapon.laspistol"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 20
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": 4,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.weapon.laspistol"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ]
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "enabled",
+          "threshold": 20,
+          "comparison": "at_least"
+        },
+        "natural": {
+          "componentId": "base",
+          "groupId": "base"
+        },
+        "action": {
+          "ref": {
+            "id": "di.action.laspistol.attack"
+          },
+          "executionId": "2ea455da-7013-3059-a8a1-d9c66099c7b8",
+          "stageId": "attack",
+          "modeId": "base"
+        }
+      },
+      {
+        "schemaVersion": 1,
+        "id": "5eb4253c-50b0-3a5b-b707-701cc542aef5",
+        "category": "damage",
+        "label": "Laspistol damage",
+        "source": {
+          "kind": "content",
+          "ref": {
+            "id": "di.weapon.laspistol"
+          }
+        },
+        "actor": {
+          "kind": "character",
+          "instanceId": "6f63917a-ef21-47af-820d-23116cde52cc"
+        },
+        "snapshot": {
+          "rulesetLockDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+          "engineVersion": "narrow-kotlin-v1",
+          "stateVersion": 0,
+          "contextDigest": "1052aa81e6b0ab0ee9fedcacbb0e393042f6760e0f63c21bb74f08954de1d43d"
+        },
+        "components": [
+          {
+            "id": "base",
+            "groups": [
+              {
+                "id": "base",
+                "count": 1,
+                "sides": 6
+              }
+            ],
+            "modifiers": [
+              {
+                "id": "resolved",
+                "value": 2,
+                "source": {
+                  "kind": "content",
+                  "ref": {
+                    "id": "di.weapon.laspistol"
+                  }
+                },
+                "label": "Resolved baseline modifier",
+                "contextual": false
+              }
+            ],
+            "damageType": {
+              "id": "di.damage_type.radiant"
+            }
+          }
+        ],
+        "advantage": {
+          "state": "normal",
+          "policyId": "phb.advantage.v1",
+          "appliedGroupIds": []
+        },
+        "critical": {
+          "policyId": "phb.critical.v1",
+          "status": "disabled"
+        },
+        "action": {
+          "ref": {
+            "id": "di.action.laspistol.attack"
+          },
+          "executionId": "2ea455da-7013-3059-a8a1-d9c66099c7b8",
+          "stageId": "damage",
+          "modeId": "base"
+        }
+      }
+    ],
+    "readiness": "PLAYABLE_WITH_MANUAL_RULES",
+    "rollAuthority": "DISPLAY_ONLY_NOT_AUTHORIZATION",
+    "profileDigest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af"
+  },
+  "runtime": {
+    "currentHp": 11,
+    "stateVersion": 0,
+    "resources": {
+      "failed_save_reroll": {
+        "maximum": 1,
+        "recovery": "long_rest",
+        "sourceId": "di.feature.species.human.traits",
+        "remaining": 1,
+        "automation": "manual"
+      }
+    },
+    "conditions": [],
+    "temporaryEffects": []
+  },
+  "inventory": [
+    {
+      "id": "c4a9af1a-0033-48b4-b829-21cd845a0ff6",
+      "definitionId": "di.armour.flak_armour",
+      "name": "Flak Armour",
+      "initialQuantity": 1,
+      "quantity": 1,
+      "equipped": true,
+      "ammunition": null
+    },
+    {
+      "id": "db6d7050-ff02-4b76-ae85-ef23ba6e8491",
+      "definitionId": "di.equipment.med_pack",
+      "name": "Med-Pack",
+      "initialQuantity": 1,
+      "quantity": 1,
+      "equipped": false,
+      "ammunition": null
+    },
+    {
+      "id": "f9cd3c14-44ca-45df-9b52-54aa053594af",
+      "definitionId": "di.weapon.combat_blade",
+      "name": "Combat Blade",
+      "initialQuantity": 1,
+      "quantity": 1,
+      "equipped": false,
+      "ammunition": null
+    },
+    {
+      "id": "60cac1f1-6036-45a3-bf9b-787b19e3cd80",
+      "definitionId": "di.weapon.frag_grenade",
+      "name": "Frag Grenade",
+      "initialQuantity": 2,
+      "quantity": 2,
+      "equipped": false,
+      "ammunition": null
+    },
+    {
+      "id": "ebf30593-8f4f-4d0e-856e-67f5ca29565e",
+      "definitionId": "di.weapon.lasgun",
+      "name": "Lasgun",
+      "initialQuantity": 1,
+      "quantity": 1,
+      "equipped": false,
+      "ammunition": null
+    },
+    {
+      "id": "1f6df4b2-7c39-467d-b93f-0d248f939c23",
+      "definitionId": "di.weapon.laspistol",
+      "name": "Laspistol",
+      "initialQuantity": 1,
+      "quantity": 1,
+      "equipped": false,
+      "ammunition": null
+    }
+  ]
+}

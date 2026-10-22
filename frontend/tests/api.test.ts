@@ -36,3 +36,9 @@ describe("API client", () => {
     await expect(api("/characters")).rejects.toBeInstanceOf(ApiError);
   });
 });
+
+it("preserves field-level creation validation errors", async () => {
+  const issues=[{code:"STALE_PROFILE",field:"profileDigest",message:"Reload the builder."}];
+  vi.stubGlobal("fetch",vi.fn().mockResolvedValue(new Response(JSON.stringify({status:"INVALID",errors:issues}),{status:422})));
+  await expect(api("/characters",{method:"POST",body:"{}"})).rejects.toMatchObject({status:422,issues});
+});

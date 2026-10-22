@@ -1,3 +1,5 @@
+> **Current production pass:** [Narrow character builder](PRODUCTION_CHARACTER_BUILDER.md) describes the V4 schema, pinned calculation adapter, API and current verification. Foundation details below are historical where superseded.
+
 # Architecture
 
 ## Boundaries

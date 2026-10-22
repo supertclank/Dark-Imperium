@@ -45,7 +45,10 @@ class ApiIntegrationTest {
         assertTrue(cookie.contains("SameSite=Lax",ignoreCase=true))
         return cookie.substringBefore(';')
     }
-    private suspend fun HttpClient.create(cookie:String, name:String="Test soldier"): HttpResponse = postJson("/api/characters", """{"name":"$name","speciesId":"10000000-0000-0000-0000-000000000001","classId":"20000000-0000-0000-0000-000000000001","weaponId":"30000000-0000-0000-0000-000000000001"}""", cookie)
+    private suspend fun HttpClient.create(cookie:String, name:String="Test soldier"): HttpResponse {
+        val draft=productionFixture().copy(name=name,requestId=UUID.randomUUID().toString())
+        return postJson("/api/characters",Json.encodeToString(NarrowDraft.serializer(),draft),cookie)
+    }
     private suspend fun HttpResponse.json() = Json.parseToJsonElement(bodyAsText()).jsonObject
 
     @Test fun `registration login creation and persistent sheet retrieval`() = runApi {
@@ -54,12 +57,12 @@ class ApiIntegrationTest {
         assertEquals(HttpStatusCode.Created,response.status)
         val created=response.json(); val id=created.getValue("id").jsonPrimitive.content
         assertEquals("Test soldier",created.getValue("name").jsonPrimitive.content)
-        assertEquals(10,created.getValue("calculated").jsonObject.getValue("maxWounds").jsonPrimitive.int)
-        assertEquals("Lasgun",created.getValue("equipment").jsonArray[0].jsonObject.getValue("name").jsonPrimitive.content)
+        assertEquals(11,created.getValue("calculated").jsonObject.getValue("maximumWounds").jsonPrimitive.int)
+        assertTrue(created.getValue("inventory").jsonArray.any { it.jsonObject.getValue("name").jsonPrimitive.content=="Lasgun" })
         // A fresh HTTP request and repository connection must see the committed row.
         val fetched=client.get("/api/characters/$id") {header(HttpHeaders.Cookie,cookie)}
         assertEquals(HttpStatusCode.OK,fetched.status); assertEquals(created,fetched.json())
-        val stored=database.read {it.query("SELECT count(*) FROM characters WHERE id=?",uuid(id)){r->r.getInt(1)}.single()}
+        val stored=database.read {it.query("SELECT count(*) FROM player_characters WHERE id=?",uuid(id)){r->r.getInt(1)}.single()}
         assertEquals(1,stored)
         val list=client.get("/api/characters"){header(HttpHeaders.Cookie,cookie)}
         assertEquals(1,Json.parseToJsonElement(list.bodyAsText()).jsonArray.size)
@@ -106,7 +109,7 @@ class ApiIntegrationTest {
         val response=client.postJson("/api/characters","""{"name":"Invalid","speciesId":"10000000-0000-0000-0000-000000000001","classId":"20000000-0000-0000-0000-000000000001","weaponId":"${UUID.randomUUID()}"}""",cookie)
         assertEquals(HttpStatusCode.BadRequest,response.status)
         assertEquals("[]",client.get("/api/characters"){header(HttpHeaders.Cookie,cookie)}.bodyAsText())
-        assertEquals(HttpStatusCode.BadRequest,client.create(cookie," ").status)
+        assertEquals(HttpStatusCode.UnprocessableEntity,client.create(cookie," ").status)
     }
     @Test fun `owner can rename and delete and equipment is removed`() = runApi {
         val cookie=client.account();val id=client.create(cookie).json().getValue("id").jsonPrimitive.content
@@ -119,6 +122,76 @@ class ApiIntegrationTest {
             header(HttpHeaders.Cookie,cookie);header(HttpHeaders.Origin,"http://localhost:3000")
         }.status)
         assertEquals(HttpStatusCode.NotFound,client.get("/api/characters/$id"){header(HttpHeaders.Cookie,cookie)}.status)
-        assertEquals(0,database.read{it.query("SELECT count(*) FROM character_equipment WHERE character_id=?",uuid(id)){r->r.getInt(1)}.single()})
+        assertEquals(0,database.read{it.query("SELECT count(*) FROM player_character_inventory WHERE character_id=?",uuid(id)){r->r.getInt(1)}.single()})
     }
+    @Test fun `validation is structured authenticated and has no persistence side effects`() = runApi {
+        assertEquals(HttpStatusCode.Unauthorized,client.get("/api/character-builder/profile").status)
+        val cookie=client.account()
+        val profile=client.get("/api/character-builder/profile"){header(HttpHeaders.Cookie,cookie)}.json()
+        assertEquals("di-phb-1.0-narrow-v1",profile.text("id"))
+        assertFalse(profile.containsKey("records"))
+        val invalid=productionFixture().copy(speciesId="di.species.ogryn",answers=emptyMap())
+        val body=Json.encodeToString(NarrowDraft.serializer(),invalid)
+        val validation=client.postJson("/api/characters/validate",body,cookie).json()
+        assertEquals("INVALID",validation.text("status"))
+        assertTrue(validation.objects("errors").any { it.text("code")=="CONTENT_NOT_SUPPORTED" && it.text("field")=="speciesId" })
+        assertEquals(HttpStatusCode.UnprocessableEntity,client.postJson("/api/characters",body,cookie).status)
+        val forged=JsonObject(Json.encodeToJsonElement(NarrowDraft.serializer(),productionFixture()).jsonObject+mapOf("ownerId" to JsonPrimitive(UUID.randomUUID().toString())))
+        assertEquals(HttpStatusCode.BadRequest,client.postJson("/api/characters",forged.toString(),cookie).status)
+        assertEquals("[]",client.get("/api/characters"){header(HttpHeaders.Cookie,cookie)}.bodyAsText())
+    }
+    @Test fun `creation retries are owner scoped and cannot duplicate inventory`() = runApi {
+        val cookie=client.account();val body=Json.encodeToString(NarrowDraft.serializer(),productionFixture().copy(requestId=UUID.randomUUID().toString()))
+        val first=client.postJson("/api/characters",body,cookie).json()
+        val second=client.postJson("/api/characters",body,cookie).json()
+        assertEquals(first,second)
+        val id=uuid(first.text("id"))
+        assertEquals(6,database.read { it.query("SELECT count(*) FROM player_character_inventory WHERE character_id=?",id){r->r.getInt(1)}.single() })
+        val changed=JsonObject(Json.parseToJsonElement(body).jsonObject+mapOf("name" to JsonPrimitive("Different draft")))
+        assertEquals(HttpStatusCode.Conflict,client.postJson("/api/characters",changed.toString(),cookie).status)
+        val stranger=client.account()
+        assertNotEquals(first.text("id"),client.postJson("/api/characters",body,stranger).json().text("id"))
+    }
+    @Test fun `failed child insert rolls back character choices and inventory`() = runApi {
+        val cookie=client.account();val draft=productionFixture().copy(requestId=UUID.randomUUID().toString())
+        // A test-only trigger fails the final insert after character, choices and kit were written.
+        database.transaction { con ->
+            con.execute("CREATE OR REPLACE FUNCTION test_fail_runtime() RETURNS trigger LANGUAGE plpgsql AS 'BEGIN RAISE EXCEPTION ''forced rollback verification''; END'")
+            con.execute("CREATE TRIGGER test_fail_runtime BEFORE INSERT ON player_character_runtime FOR EACH ROW EXECUTE FUNCTION test_fail_runtime()")
+        }
+        try {
+            assertEquals(HttpStatusCode.InternalServerError,client.postJson("/api/characters",Json.encodeToString(NarrowDraft.serializer(),draft),cookie).status)
+            assertEquals(0,database.read { it.query("SELECT count(*) FROM player_characters WHERE request_id=?",uuid(draft.requestId)){r->r.getInt(1)}.single() })
+            assertEquals("[]",client.get("/api/characters"){header(HttpHeaders.Cookie,cookie)}.bodyAsText())
+        } finally {
+            database.transaction { it.execute("DROP TRIGGER test_fail_runtime ON player_character_runtime");it.execute("DROP FUNCTION test_fail_runtime()") }
+        }
+        assertEquals(HttpStatusCode.Created,client.postJson("/api/characters",Json.encodeToString(NarrowDraft.serializer(),draft),cookie).status)
+    }
+    @Test fun `saved ruleset snapshot remains locked when a new release is registered`() = runApi {
+        val cookie=client.account();val saved=client.create(cookie).json()
+        val rules=NarrowRules.bundled()
+        val spec=JsonObject(rules.spec+mapOf("id" to JsonPrimitive("test-release-${UUID.randomUUID()}")))
+        val payload=JsonObject(rules.payload+mapOf("spec" to spec))
+        ProductionCharacters(database,NarrowRules(obj("digest" to sha(canonicalJson(payload)),"payload" to payload)))
+        val fetched=client.get("/api/characters/${saved.text("id")}"){header(HttpHeaders.Cookie,cookie)}.json()
+        assertEquals(saved,fetched);assertEquals(rules.digest,fetched.text("rulesetDigest"))
+        val altered=JsonObject(rules.payload+mapOf("testChange" to JsonPrimitive(true)))
+        assertFailsWith<IllegalStateException> { ProductionCharacters(database,NarrowRules(obj("digest" to sha(canonicalJson(altered)),"payload" to altered))) }
+    }
+
+    @Test fun `sheet retrieval never resets HP or consumes inventory`() = runApi {
+        val cookie=client.account();val saved=client.create(cookie).json();val id=uuid(saved.text("id"))
+        database.transaction { con ->
+            con.execute("UPDATE player_character_runtime SET current_hp=4,state_version=1 WHERE character_id=?",id)
+            con.execute("UPDATE player_character_inventory SET quantity=1 WHERE character_id=? AND definition_id='di.weapon.frag_grenade'",id)
+        }
+        repeat(2) {
+            val sheet=client.get("/api/characters/$id"){header(HttpHeaders.Cookie,cookie)}.json()
+            assertEquals(4,sheet.getValue("runtime").jsonObject.num("currentHp"))
+            assertEquals(11,sheet.getValue("calculated").jsonObject.num("maximumWounds"))
+            assertEquals(1,sheet.objects("inventory").single { row->row.text("definitionId")=="di.weapon.frag_grenade" }.num("quantity"))
+        }
+    }
+
 }

@@ -1,139 +1,70 @@
 "use client";
-import { useState, type FormEvent } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { api, Character, Content, Weapon } from "@/lib/api";
+import { api } from "@/lib/api";
 import { useResource, ResourceState } from "./Resource";
+import { Profile, Draft, Choice, Issue, Validation, SavedCharacter, initialDraft, startingInventory, signed } from "@/lib/builder";
+import { CalculatedSummary } from "./CalculatedSummary";
 
+const steps = ["Identity", "Species", "Origin", "Ability Scores", "Class", "Universal Trait", "Proficiencies & Skills", "Equipment", "Review"];
 export function CharacterForm() {
-  const species = useResource<Content[]>("/species");
-  const classes = useResource<Content[]>("/classes");
-  const weapons = useResource<Weapon[]>("/weapons");
-  const [error, setError] = useState("");
-  const [busy, setBusy] = useState(false);
-  const router = useRouter();
-  const [selection, setSelection] = useState({
-    speciesId: "",
-    classId: "",
-    weaponId: "",
-  });
-  async function submit(event: FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-    setBusy(true);
-    setError("");
-    const form = new FormData(event.currentTarget);
-    try {
-      const character = await api<Character>("/characters", {
-        method: "POST",
-        body: JSON.stringify({ name: form.get("name"), ...selection }),
-      });
-      router.push(`/characters/${character.id}`);
-    } catch (e) {
-      setError((e as Error).message);
-      setBusy(false);
-    }
+  const {data:profile,error,retry}=useResource<Profile>("/character-builder/profile");
+  const [draft,setDraft]=useState<Draft|null>(null),[step,setStep]=useState(0),[busy,setBusy]=useState(false),[failure,setFailure]=useState("");
+  const [issues,setIssues]=useState<Issue[]>([]),[validation,setValidation]=useState<Validation|null>(null);
+  const router=useRouter(),heading=useRef<HTMLHeadingElement>(null);
+  useEffect(()=>{ if(profile) { setDraft(initialDraft(profile,crypto.randomUUID()));setStep(0);setValidation(null); } },[profile]);
+  useEffect(()=>{heading.current?.focus();},[step]);
+  // Ability previews come from the backend; React never implements a game formula.
+  useEffect(()=>{
+    if(!draft || step!==3)return;
+    let current=true;
+    const timer=setTimeout(()=>{api<Validation>("/characters/validate",{method:"POST",body:JSON.stringify(draft)}).then(v=>{if(current)setValidation(v);}).catch(()=>{});},250);
+    return ()=>{current=false;clearTimeout(timer);};
+  },[draft,step]);
+  if(!profile || !draft)return <ResourceState error={error} retry={retry}/>;
+  const update=(next:Partial<Draft>)=>{setDraft({...draft,...next});setIssues([]);setFailure("");setValidation(null);};
+  const answer=(choice:Choice,option:string,checked=true)=>{
+    const old=draft.answers[choice.id] || [];
+    const selected=choice.cardinality.max===1 ? (option?[option]:[]) : checked?[...old,option]:old.filter(x=>x!==option);
+    update({answers:{...draft.answers,[choice.id]:selected}});
+  };
+  const choiceControl=(choice:Choice)=><fieldset className="panel" key={choice.id} aria-describedby={`${choice.id}-help`}>
+    <legend>{choice.name}</legend><p id={`${choice.id}-help`} className="muted">Choose {choice.cardinality.min}{choice.cardinality.max!==choice.cardinality.min?`–${choice.cardinality.max}`:""}.</p>
+    {choice.cardinality.max===1 ? <><label htmlFor={choice.id}>{choice.name}</label><select id={choice.id} value={draft.answers[choice.id]?.[0] || ""} onChange={e=>answer(choice,e.target.value)}><option value="">Choose an option</option>{choice.options.map(o=><option key={o.id} value={o.id}>{o.label}</option>)}</select></> : <div className="choice-grid">{choice.options.map(o=><label className="choice compact-choice" key={o.id}><input type="checkbox" checked={draft.answers[choice.id]?.includes(o.id)||false} disabled={busy || (!draft.answers[choice.id]?.includes(o.id) && (draft.answers[choice.id]?.length||0)>=choice.cardinality.max)} onChange={e=>answer(choice,o.id,e.target.checked)}/><span>{o.label}</span></label>)}</div>}
+  </fieldset>;
+  const selector=(group:"species"|"origins"|"classes"|"traits",field:"speciesId"|"originId"|"classId"|"traitId")=><div className="choice-grid">{profile[group].map(item=><label className={`choice ${draft[field]===item.id?"selected":""}`} key={item.id}><input type="radio" name={field} checked={draft[field]===item.id} onChange={()=>update({[field]:item.id})}/><span><strong>{item.name}</strong><span className="choice-description source-text">{item.description}</span></span></label>)}</div>;
+  const relevant=(issue:Issue)=>{
+    const fields=[["name"],["speciesId"],["originId"],["attributes",...profile.choices.filter(c=>c.purpose==="attribute").map(c=>`answers.${c.id}`)],["classId","level"],["traitId"],profile.choices.filter(c=>c.purpose!=="attribute").map(c=>`answers.${c.id}`),["inventory","packageChoices"], [""]][step];
+    return issue.field.startsWith("profile") || fields.some(f=>issue.field.startsWith(f));
+  };
+  async function next() {
+    if(!draft)return;setBusy(true);setFailure("");
+    try {const result=await api<Validation>("/characters/validate",{method:"POST",body:JSON.stringify(draft)});setValidation(result);const selected=step===7?result.errors:result.errors.filter(relevant);setIssues(selected);if(!selected.length)setStep(i=>Math.min(i+1,8));}
+    catch(e){setFailure((e as Error).message);}finally{setBusy(false);}
   }
-  const errorResource = [species, classes, weapons].find((r) => r.error);
-  if (errorResource)
-    return (
-      <ResourceState error={errorResource.error} retry={errorResource.retry} />
-    );
-  if (!species.data || !classes.data || !weapons.data)
-    return <p role="status">Loading character options…</p>;
-  const groups = [
-    { key: "speciesId" as const, label: "Species", items: species.data },
-    { key: "classId" as const, label: "Class", items: classes.data },
-    {
-      key: "weaponId" as const,
-      label: "Starting equipment",
-      items: weapons.data,
-    },
-  ];
-  return (
-    <form onSubmit={submit} className="builder">
-      <div className="builder-fields">
-        <section className="panel">
-          <span className="eyebrow">01 / IDENTITY</span>
-          <h2>Give them a name.</h2>
-          <label htmlFor="character-name">Character name</label>
-          <input
-            id="character-name"
-            name="name"
-            required
-            maxLength={80}
-            placeholder="Enter a name for the record"
-            autoComplete="off"
-          />
-        </section>
-        {groups.map((group, index) => (
-          <fieldset className="panel" key={group.key}>
-            <legend>
-              {String(index + 2).padStart(2, "0")} / {group.label}
-            </legend>
-            <div className="choice-grid">
-              {group.items.map((item) => (
-                <label
-                  className={`choice ${selection[group.key] === item.id ? "selected" : ""}`}
-                  key={item.id}
-                >
-                  <input
-                    type="radio"
-                    name={group.key}
-                    required
-                    value={item.id}
-                    checked={selection[group.key] === item.id}
-                    onChange={() =>
-                      setSelection((s) => ({ ...s, [group.key]: item.id }))
-                    }
-                  />
-                  <span>
-                    <strong>{item.name}</strong>
-                    <span className="choice-description">
-                      {item.description}
-                    </span>
-                    {"damageDice" in item && (
-                      <span className="weapon-inline">
-                        {String(item.damageDice)} {String(item.damageType)} ·{" "}
-                        {String(item.normalRange)} m
-                      </span>
-                    )}
-                  </span>
-                </label>
-              ))}
-            </div>
-          </fieldset>
-        ))}
-      </div>
-      <aside className="builder-summary panel">
-        <p className="eyebrow">SERVICE RECORD</p>
-        <h2>Ready for the line.</h2>
-        <dl>
-          {groups.map((g) => (
-            <div key={g.key}>
-              <dt>{g.label}</dt>
-              <dd>
-                {g.items.find((i) => i.id === selection[g.key])?.name ||
-                  "Not selected"}
-              </dd>
-            </div>
-          ))}
-          <div>
-            <dt>Starting level</dt>
-            <dd>1</dd>
-          </div>
-        </dl>
-        <p className="small muted">
-          Attributes and wounds use placeholder rules. You can reopen your saved
-          sheet at any time.
-        </p>
-        {error && (
-          <p role="alert" className="error">
-            {error}
-          </p>
-        )}
-        <button disabled={busy} className="primary">
-          {busy ? "Saving record…" : "Save character →"}
-        </button>
-      </aside>
+  async function save() {
+    if(!draft)return;setBusy(true);setFailure("");
+    try {const saved=await api<SavedCharacter>("/characters",{method:"POST",body:JSON.stringify(draft)});router.push(`/characters/${saved.id}`);}
+    catch(e){setFailure((e as Error).message);if(e && typeof e==="object" && "issues" in e)setIssues(e.issues as Issue[]);setBusy(false);}
+  }
+  return <div className="production-builder">
+    <div className="field-note"><strong>Supported creation path</strong><p>{profile.availability.find(a=>a.status==="SUPPORTED")?.message}</p><details><summary>Catalogue availability</summary>{profile.availability.filter(a=>a.status!=="SUPPORTED").map(a=><p key={a.status}><strong>{a.status.replaceAll("_"," ")}</strong> — {a.message}</p>)}</details></div>
+    <nav aria-label="Character creation progress"><ol className="builder-steps">{steps.map((title,index)=><li key={title} aria-current={step===index?"step":undefined}><span>{index+1}</span> {title}</li>)}</ol></nav>
+    <h2 ref={heading} tabIndex={-1}>{step+1}. {steps[step]}</h2>
+    <form onSubmit={e=>{e.preventDefault();if(step===8)void save();else void next();}}>
+      <fieldset disabled={busy} className="builder-stage">
+      {step===0 && <div className="panel"><label htmlFor="character-name">Character name</label><input id="character-name" maxLength={80} value={draft.name} onChange={e=>update({name:e.target.value})} autoComplete="off"/><p className="muted">A name is all you need to begin. Biography and portraits can wait.</p></div>}
+      {step===1 && selector("species","speciesId")}
+      {step===2 && selector("origins","originId")}
+      {step===3 && <><section className="panel"><p>Assign each score once: {profile.standardArray.join(", ")}.</p><div className="ability-inputs">{profile.attributes.map(key=><div key={key}><label htmlFor={`base-${key}`}>{key}</label><select id={`base-${key}`} value={draft.attributes[key]??""} onChange={e=>update({attributes:{...draft.attributes,[key]:Number(e.target.value)}})}>{profile.standardArray.map(value=><option key={value} value={value}>{value}</option>)}</select>{validation?.abilityPreview && <p>Final {validation.abilityPreview.scores[key]} · {signed(validation.abilityPreview.modifiers[key])}</p>}</div>)}</div></section>{profile.choices.filter(c=>c.purpose==="attribute").map(choiceControl)}</>}
+      {step===4 && <>{selector("classes","classId")}<section className="panel"><p>Level {draft.level} · Hit Die d{profile.training.hitDie}</p><p>Saving throw proficiencies: {profile.training.savingThrows.join(", ")}</p><h3>Level 1 features</h3>{profile.levelFeatures.map(f=><details key={f.id}><summary>{f.name}</summary><p className="source-text">{f.description}</p></details>)}</section></>}
+      {step===5 && selector("traits","traitId")}
+      {step===6 && profile.choices.filter(c=>c.purpose!=="attribute").map(choiceControl)}
+      {step===7 && <section className="panel">{profile.package.choices.map(choice=><div key={choice.id}><label htmlFor={`package-${choice.id}`}>{choice.id} equipment</label><select id={`package-${choice.id}`} value={draft.packageChoices[choice.id]||""} onChange={e=>{const choices={...draft.packageChoices,[choice.id]:e.target.value};update({packageChoices:choices,inventory:startingInventory(profile,choices)});}}><option value="">Choose equipment</option>{choice.options.map(o=><option key={o.id} value={o.id}>{profile.equipment.find(x=>x.id===o.id)?.name}</option>)}</select></div>)}<h3>Starting inventory</h3><ul>{draft.inventory.map(i=><li key={i.definitionId}>{profile.equipment.find(x=>x.id===i.definitionId)?.name} × {i.quantity}{i.equipped?" · equipped":""}</li>)}</ul><p className="muted">Only reviewed equipment is available. Other package alternatives are unavailable in this release.</p></section>}
+      {step===8 && <><section className="panel"><h3>{draft.name}</h3><p>{profile.species.find(x=>x.id===draft.speciesId)?.name} · {profile.origins.find(x=>x.id===draft.originId)?.name} · {profile.classes.find(x=>x.id===draft.classId)?.name} · Level {draft.level}</p><p>{profile.traits.find(x=>x.id===draft.traitId)?.name}</p></section>{validation?.calculated ? <CalculatedSummary calculated={validation.calculated}/> : <p role="status">Validate the complete draft before saving.</p>}</>}
+      </fieldset>
+      {(issues.length>0 || failure) && <div className="error panel" role="alert">{failure && <p>{failure}</p>}<ul>{issues.map((issue,i)=><li key={`${issue.field}-${i}`}><strong>{issue.field}</strong>: {issue.message}</li>)}</ul></div>}
+      <div className="builder-navigation">{step>0 && <button type="button" className="secondary" disabled={busy} onClick={()=>{setStep(i=>i-1);setIssues([]);}}>Back</button>}{step===8 ? <button className="primary" disabled={busy || !validation?.calculated}>{busy?"Saving character…":"Create character"}</button> : <button className="primary" disabled={busy}>{busy?"Validating…":"Continue"}</button>}</div>
     </form>
-  );
+  </div>;
 }

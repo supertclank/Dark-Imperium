@@ -1,0 +1,24 @@
+{
+  "id": "di-phb-1.0-narrow-v1",
+  "engineVersion": "narrow-kotlin-v1",
+  "name": "PHB 1.0 · Validated Veteran",
+  "species": ["di.species.human"],
+  "origins": ["di.background.schola_progenium"],
+  "classes": ["di.class.veteran"],
+  "traits": ["di.feature.universal.twitchy"],
+  "levels": [1],
+  "attributes": ["strength", "dexterity", "constitution", "intelligence", "wisdom", "charisma"],
+  "standardArray": [15, 14, 13, 12, 10, 8],
+  "equipment": ["di.weapon.lasgun", "di.weapon.laspistol", "di.weapon.combat_blade", "di.armour.flak_armour", "di.weapon.frag_grenade", "di.equipment.med_pack"],
+  "armour": ["di.armour.flak_armour"],
+  "choices": ["di.choice.human.ability_scores", "di.choice.human.imperial_adaptability", "di.choice.schola_progenium.skills", "di.choice.schola_progenium.skills_2", "di.choice.veteran.starting_skills", "di.choice.veteran.specialist_group", "di.choice.human.broad_training_proof"],
+  "calculations": {"abilityOffset": 10, "abilityDivisor": 2, "rounding": "floor", "firstLevelHp": "hit_die_maximum_plus_constitution", "grenadeDcBase": 8},
+  "sources": {"standardArray": "PHB PDF 17", "abilityModifiers": "PHB-RULE-009", "hp": "PHB PDF 17", "grenadeDc": "PHB PDF 47", "saveOutcome": "PHB-RULE-059"},
+  "runtimeResources": [{"sourceId":"di.feature.species.human.traits","key":"failed_save_reroll","maximum":1,"recovery":"long_rest","automation":"manual"}],
+  "availability": [
+    {"status":"SUPPORTED","message":"Human / Schola Progenium / Veteran, level 1, with Twitchy and the reviewed starting kit."},
+    {"status":"BLOCKED","message":"Origins and mechanics awaiting human rulings remain unavailable."},
+    {"status":"UNSUPPORTED","message":"Other species, classes, levels and equipment are outside this release."},
+    {"status":"COMING LATER","message":"More validated paths and browser dice rolling will follow."}
+  ]
+}

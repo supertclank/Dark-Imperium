@@ -1,0 +1,532 @@
+{
+  "id": "di-phb-1.0-narrow-v1",
+  "digest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af",
+  "name": "PHB 1.0 · Validated Veteran",
+  "attributes": [
+    "strength",
+    "dexterity",
+    "constitution",
+    "intelligence",
+    "wisdom",
+    "charisma"
+  ],
+  "standardArray": [
+    15,
+    14,
+    13,
+    12,
+    10,
+    8
+  ],
+  "levels": [
+    1
+  ],
+  "species": [
+    {
+      "id": "di.species.human",
+      "name": "Human",
+      "description": "3.1 Human\nHumans are the baseline of the Imperium: adaptable, \nambitious, fragile, and dangerously determined.\nAbility Scores: +2 to one ability score and +1 to \nanother.\nSize: Medium.\nSpeed: 30 ft.\nAvailable Classes: Veteran, Zealot, Psyker, Arbites \nEnforcer, Hive Scum.\n3.1.1 Human Traits\nImperial Adaptability: Gain proficiency in one skill of \nyour choice.\nBroad Training: Gain one additional weapon, tool, or \nlanguage proficiency.\nFaith, Fear, or Discipline: Once per long rest, when you \nfail a saving throw, you may reroll it. You must\nuse the new result."
+    }
+  ],
+  "origins": [
+    {
+      "id": "di.background.schola_progenium",
+      "name": "Schola Progenium",
+      "description": "4.6 Schola Progenium\nRaised in harsh Imperial institutions to become a soldier, \njudge, officer, priest, or specialist.\nAllowed Species: Human.\nSkill Proficiency: Choose one from History or Religion, \nand one from Intimidation or Persuasion.\nDrilled Obedience: You have advantage on saving \nthrows against fear while following a direct order,\nholding formation, or protecting an Imperial objective.\nImperial Education: You can identify major Imperial \norganisations, ranks, symbols, rites, and\nprocedures."
+    }
+  ],
+  "classes": [
+    {
+      "id": "di.class.veteran",
+      "name": "Veteran",
+      "description": "11.1 Veteran\nProfessional soldier, marksman, squad leader, or hardened guardsman.\nAllowed Species: Human, Ratling.\nHit Die: d10.\nPrimary Abilities: Dexterity, Wisdom.\nSaving Throws: Dexterity, Wisdom.\nArmour: Light, medium, flak, carapace.\nWeapons: Simple weapons, martial melee weapons, pistols, basic firearms, grenades."
+    }
+  ],
+  "traits": [
+    {
+      "id": "di.feature.universal.twitchy",
+      "name": "Twitchy",
+      "description": "Trait: Twitchy\nEffect: Gain +2 to initiative."
+    }
+  ],
+  "choices": [
+    {
+      "id": "di.choice.human.ability_scores",
+      "name": "Human ability score increases",
+      "purpose": "attribute",
+      "cardinality": {
+        "max": 1,
+        "min": 1,
+        "unique": true
+      },
+      "options": [
+        {
+          "id": "strength_dexterity",
+          "label": "strength +2; dexterity +1"
+        },
+        {
+          "id": "strength_constitution",
+          "label": "strength +2; constitution +1"
+        },
+        {
+          "id": "strength_intelligence",
+          "label": "strength +2; intelligence +1"
+        },
+        {
+          "id": "strength_wisdom",
+          "label": "strength +2; wisdom +1"
+        },
+        {
+          "id": "strength_charisma",
+          "label": "strength +2; charisma +1"
+        },
+        {
+          "id": "dexterity_strength",
+          "label": "dexterity +2; strength +1"
+        },
+        {
+          "id": "dexterity_constitution",
+          "label": "dexterity +2; constitution +1"
+        },
+        {
+          "id": "dexterity_intelligence",
+          "label": "dexterity +2; intelligence +1"
+        },
+        {
+          "id": "dexterity_wisdom",
+          "label": "dexterity +2; wisdom +1"
+        },
+        {
+          "id": "dexterity_charisma",
+          "label": "dexterity +2; charisma +1"
+        },
+        {
+          "id": "constitution_strength",
+          "label": "constitution +2; strength +1"
+        },
+        {
+          "id": "constitution_dexterity",
+          "label": "constitution +2; dexterity +1"
+        },
+        {
+          "id": "constitution_intelligence",
+          "label": "constitution +2; intelligence +1"
+        },
+        {
+          "id": "constitution_wisdom",
+          "label": "constitution +2; wisdom +1"
+        },
+        {
+          "id": "constitution_charisma",
+          "label": "constitution +2; charisma +1"
+        },
+        {
+          "id": "intelligence_strength",
+          "label": "intelligence +2; strength +1"
+        },
+        {
+          "id": "intelligence_dexterity",
+          "label": "intelligence +2; dexterity +1"
+        },
+        {
+          "id": "intelligence_constitution",
+          "label": "intelligence +2; constitution +1"
+        },
+        {
+          "id": "intelligence_wisdom",
+          "label": "intelligence +2; wisdom +1"
+        },
+        {
+          "id": "intelligence_charisma",
+          "label": "intelligence +2; charisma +1"
+        },
+        {
+          "id": "wisdom_strength",
+          "label": "wisdom +2; strength +1"
+        },
+        {
+          "id": "wisdom_dexterity",
+          "label": "wisdom +2; dexterity +1"
+        },
+        {
+          "id": "wisdom_constitution",
+          "label": "wisdom +2; constitution +1"
+        },
+        {
+          "id": "wisdom_intelligence",
+          "label": "wisdom +2; intelligence +1"
+        },
+        {
+          "id": "wisdom_charisma",
+          "label": "wisdom +2; charisma +1"
+        },
+        {
+          "id": "charisma_strength",
+          "label": "charisma +2; strength +1"
+        },
+        {
+          "id": "charisma_dexterity",
+          "label": "charisma +2; dexterity +1"
+        },
+        {
+          "id": "charisma_constitution",
+          "label": "charisma +2; constitution +1"
+        },
+        {
+          "id": "charisma_intelligence",
+          "label": "charisma +2; intelligence +1"
+        },
+        {
+          "id": "charisma_wisdom",
+          "label": "charisma +2; wisdom +1"
+        }
+      ]
+    },
+    {
+      "id": "di.choice.human.imperial_adaptability",
+      "name": "Choose 1 skill proficiency",
+      "purpose": "skill",
+      "cardinality": {
+        "max": 1,
+        "min": 1,
+        "unique": true
+      },
+      "options": [
+        {
+          "id": "acrobatics",
+          "label": "Acrobatics"
+        },
+        {
+          "id": "athletics",
+          "label": "Athletics"
+        },
+        {
+          "id": "investigation",
+          "label": "Investigation"
+        },
+        {
+          "id": "medicine",
+          "label": "Medicine"
+        },
+        {
+          "id": "perception",
+          "label": "Perception"
+        },
+        {
+          "id": "stealth",
+          "label": "Stealth"
+        },
+        {
+          "id": "survival",
+          "label": "Survival"
+        },
+        {
+          "id": "technology",
+          "label": "Technology"
+        },
+        {
+          "id": "deception",
+          "label": "Deception"
+        },
+        {
+          "id": "intimidation",
+          "label": "Intimidation"
+        },
+        {
+          "id": "persuasion",
+          "label": "Persuasion"
+        },
+        {
+          "id": "insight",
+          "label": "Insight"
+        },
+        {
+          "id": "history",
+          "label": "History"
+        },
+        {
+          "id": "religion",
+          "label": "Religion"
+        },
+        {
+          "id": "sleight_of_hand",
+          "label": "Sleight of Hand"
+        }
+      ]
+    },
+    {
+      "id": "di.choice.schola_progenium.skills",
+      "name": "Choose 1 skill proficiency",
+      "purpose": "skill",
+      "cardinality": {
+        "max": 1,
+        "min": 1,
+        "unique": true
+      },
+      "options": [
+        {
+          "id": "history",
+          "label": "History"
+        },
+        {
+          "id": "religion",
+          "label": "Religion"
+        }
+      ]
+    },
+    {
+      "id": "di.choice.schola_progenium.skills_2",
+      "name": "Choose 1 skill proficiency",
+      "purpose": "skill",
+      "cardinality": {
+        "max": 1,
+        "min": 1,
+        "unique": true
+      },
+      "options": [
+        {
+          "id": "intimidation",
+          "label": "Intimidation"
+        },
+        {
+          "id": "persuasion",
+          "label": "Persuasion"
+        }
+      ]
+    },
+    {
+      "id": "di.choice.veteran.starting_skills",
+      "name": "Choose 2 skill proficiency",
+      "purpose": "skill",
+      "cardinality": {
+        "max": 2,
+        "min": 2,
+        "unique": true
+      },
+      "options": [
+        {
+          "id": "athletics",
+          "label": "Athletics"
+        },
+        {
+          "id": "insight",
+          "label": "Insight"
+        },
+        {
+          "id": "intimidation",
+          "label": "Intimidation"
+        },
+        {
+          "id": "medicine",
+          "label": "Medicine"
+        },
+        {
+          "id": "perception",
+          "label": "Perception"
+        },
+        {
+          "id": "stealth",
+          "label": "Stealth"
+        },
+        {
+          "id": "survival",
+          "label": "Survival"
+        }
+      ]
+    },
+    {
+      "id": "di.choice.veteran.specialist_group",
+      "name": "Veteran specialist weapon group",
+      "purpose": "proficiency",
+      "cardinality": {
+        "max": 1,
+        "min": 1,
+        "unique": true
+      },
+      "options": [
+        {
+          "id": "sniper",
+          "label": "Sniper"
+        },
+        {
+          "id": "plasma",
+          "label": "Plasma"
+        },
+        {
+          "id": "melta",
+          "label": "Melta"
+        },
+        {
+          "id": "heavy",
+          "label": "Heavy"
+        }
+      ]
+    },
+    {
+      "id": "di.choice.human.broad_training_proof",
+      "name": "Broad Training — reviewed weapon option",
+      "purpose": "proficiency",
+      "cardinality": {
+        "max": 1,
+        "min": 1,
+        "unique": true
+      },
+      "options": [
+        {
+          "id": "trench_club",
+          "label": "Trench Club"
+        }
+      ]
+    }
+  ],
+  "levelFeatures": [
+    {
+      "id": "di.feature.class.veteran.level_1.guardsman_training",
+      "name": "Guardsman Training",
+      "description": "Gain proficiency in two skills from Athletics, Insight, \nIntimidation, Medicine, Perception, Stealth, and Survival. \nYou also gain proficiency with one specialist weapon \ngroup: sniper weapons, plasma weapons, melta \nweapons, or heavy weapons."
+    },
+    {
+      "id": "di.feature.class.veteran.level_1.tactical_aim",
+      "name": "Tactical Aim",
+      "description": "As a bonus action, choose one creature you can see \nwithin weapon range. Until the end of your turn,\nyour next ranged weapon attack against that creature \ndeals bonus damage equal to your proficiency\nbonus."
+    }
+  ],
+  "package": {
+    "choices": [
+      {
+        "id": "primary",
+        "options": [
+          {
+            "id": "di.weapon.lasgun"
+          }
+        ],
+        "quantity": 1
+      },
+      {
+        "blockedSourceAlternative": "auspex",
+        "id": "utility",
+        "options": [
+          {
+            "id": "di.equipment.med_pack"
+          }
+        ],
+        "quantity": 1
+      }
+    ],
+    "class": {
+      "id": "di.class.veteran"
+    },
+    "fixed": [
+      {
+        "item": {
+          "id": "di.weapon.laspistol"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "id": "di.weapon.combat_blade"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "id": "di.armour.flak_armour"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "id": "di.weapon.frag_grenade"
+        },
+        "quantity": 2
+      }
+    ],
+    "level": 1,
+    "proficiency": "Exact granted weapons/shields only; selected package options only.",
+    "scope": "Reviewed narrow branch; auspex alternative remains unavailable.",
+    "source": {
+      "locator": {
+        "heading": "Veteran starting kit",
+        "pdfPage": 100,
+        "printedPage": 87,
+        "sectionKey": "17"
+      },
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a"
+    }
+  },
+  "equipment": [
+    {
+      "id": "di.weapon.lasgun",
+      "name": "Lasgun",
+      "description": "Weapon: Lasgun; Damage: 1d8 radiant; Range: 80/240; Properties: Reload 30; Availability: Issued"
+    },
+    {
+      "id": "di.weapon.laspistol",
+      "name": "Laspistol",
+      "description": "Weapon: Laspistol; Damage: 1d6 radiant; Range: 50/150; Properties: Light, Reload 12; Availability: Issued"
+    },
+    {
+      "id": "di.weapon.combat_blade",
+      "name": "Combat Blade",
+      "description": "Weapon: Combat Blade; Damage: 1d6 piercing; Properties: Finesse, Light; Availability: Issued"
+    },
+    {
+      "id": "di.armour.flak_armour",
+      "name": "Flak Armour",
+      "description": "AC: 12 + Dex modifier; Standard military protection.; Availability: Issued"
+    },
+    {
+      "id": "di.weapon.frag_grenade",
+      "name": "Frag Grenade",
+      "description": "Grenade: Frag Grenade; Effect: 15-ft radius; Dexterity save; 3d6 piercing damage.; Availability: Controlled\nApproved PHB-RULE-059: failed Dexterity save takes full rolled 3d6 piercing; successful save takes half that rolled damage, rounded down. No ability modifier. Expend one grenade after use. Applies only to Frag Grenade."
+    },
+    {
+      "id": "di.equipment.med_pack",
+      "name": "Med-Pack",
+      "description": "Item: Med-Pack; Use: Action; Rule: DC 12 Medicine on a creature within 5 ft. Success: regain 2d6 + proficiency bonus HP, or stabilise and restore to 1 HP. Consumed.; Availability: Issued"
+    }
+  ],
+  "armour": [
+    "di.armour.flak_armour"
+  ],
+  "training": {
+    "class": {
+      "id": "di.class.veteran"
+    },
+    "hitDie": 10,
+    "savingThrows": [
+      "dexterity",
+      "wisdom"
+    ],
+    "source": {
+      "locator": {
+        "heading": "Class training",
+        "pdfPage": 50,
+        "printedPage": 37,
+        "sectionKey": "11"
+      },
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a"
+    }
+  },
+  "availability": [
+    {
+      "message": "Human / Schola Progenium / Veteran, level 1, with Twitchy and the reviewed starting kit.",
+      "status": "SUPPORTED"
+    },
+    {
+      "message": "Origins and mechanics awaiting human rulings remain unavailable.",
+      "status": "BLOCKED"
+    },
+    {
+      "message": "Other species, classes, levels and equipment are outside this release.",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "message": "More validated paths and browser dice rolling will follow.",
+      "status": "COMING LATER"
+    }
+  ]
+}

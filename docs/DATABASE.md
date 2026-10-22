@@ -1,3 +1,5 @@
+> **Current production pass:** [Narrow character builder](PRODUCTION_CHARACTER_BUILDER.md) describes the V4 schema, pinned calculation adapter, API and current verification. Foundation details below are historical where superseded.
+
 # Database
 
 PostgreSQL 17, UUID primary keys, UTC-aware `timestamptz` audit fields and explicit Flyway migrations. JDBC prepared statements bind user input; the only interpolated table name comes from a closed Kotlin enum.

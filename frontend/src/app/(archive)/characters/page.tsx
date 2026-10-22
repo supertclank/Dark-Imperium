@@ -1,9 +1,9 @@
 "use client";
 import Link from "next/link";
 import { useResource, ResourceState } from "@/components/Resource";
-import { Character } from "@/lib/api";
+import { CharacterSummary } from "@/lib/builder";
 export default function Characters() {
-  const { data, error, retry } = useResource<Character[]>("/characters");
+  const { data, error, retry } = useResource<CharacterSummary[]>("/characters");
   return (
     <>
       <div className="page-heading">
@@ -55,11 +55,11 @@ export default function Characters() {
                 </div>
                 <h2>{character.name}</h2>
                 <p>
-                  {character.species.name} · {character.characterClass.name}
+                  {character.species.name} · {character.origin.name} · {character.characterClass.name}
                 </p>
                 <div className="card-bottom">
                   <span>
-                    {character.equipment.map((w) => w.name).join(", ")}
+                    Updated {new Date(character.updatedAt).toLocaleDateString()}
                   </span>
                   <span>Open record ↗</span>
                 </div>

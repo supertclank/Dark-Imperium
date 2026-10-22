@@ -1,0 +1,132 @@
+{
+  "level": 1,
+  "attributes": {
+    "strength": 17,
+    "dexterity": 15,
+    "constitution": 13,
+    "intelligence": 12,
+    "wisdom": 10,
+    "charisma": 8
+  },
+  "proficiencyBonus": 2,
+  "movement": {
+    "baseWalk": {
+      "value": 30,
+      "unit": "ft"
+    }
+  },
+  "attributeModifiers": {
+    "strength": 3,
+    "dexterity": 2,
+    "constitution": 1,
+    "intelligence": 1,
+    "wisdom": 0,
+    "charisma": -1
+  },
+  "maximumWounds": 11,
+  "defence": 14,
+  "initiative": 4,
+  "skills": {
+    "di.skill.acrobatics": {
+      "attribute": "dexterity",
+      "proficient": true,
+      "modifier": 4
+    },
+    "di.skill.athletics": {
+      "attribute": "strength",
+      "proficient": true,
+      "modifier": 5
+    },
+    "di.skill.deception": {
+      "attribute": "charisma",
+      "proficient": false,
+      "modifier": -1
+    },
+    "di.skill.history": {
+      "attribute": "intelligence",
+      "proficient": true,
+      "modifier": 3
+    },
+    "di.skill.insight": {
+      "attribute": "wisdom",
+      "proficient": true,
+      "modifier": 2
+    },
+    "di.skill.intimidation": {
+      "attribute": "charisma",
+      "proficient": true,
+      "modifier": 1
+    },
+    "di.skill.investigation": {
+      "attribute": "intelligence",
+      "proficient": false,
+      "modifier": 1
+    },
+    "di.skill.medicine": {
+      "attribute": "wisdom",
+      "proficient": false,
+      "modifier": 0
+    },
+    "di.skill.perception": {
+      "attribute": "wisdom",
+      "proficient": false,
+      "modifier": 0
+    },
+    "di.skill.persuasion": {
+      "attribute": "charisma",
+      "proficient": false,
+      "modifier": -1
+    },
+    "di.skill.religion": {
+      "attribute": "intelligence",
+      "proficient": false,
+      "modifier": 1
+    },
+    "di.skill.sleight_of_hand": {
+      "attribute": "dexterity",
+      "proficient": false,
+      "modifier": 2
+    },
+    "di.skill.stealth": {
+      "attribute": "dexterity",
+      "proficient": false,
+      "modifier": 2
+    },
+    "di.skill.survival": {
+      "attribute": "wisdom",
+      "proficient": false,
+      "modifier": 0
+    },
+    "di.skill.technology": {
+      "attribute": "intelligence",
+      "proficient": false,
+      "modifier": 1
+    }
+  },
+  "saves": {
+    "strength": {
+      "modifier": 3,
+      "proficient": false
+    },
+    "dexterity": {
+      "modifier": 4,
+      "proficient": true
+    },
+    "constitution": {
+      "modifier": 1,
+      "proficient": false
+    },
+    "intelligence": {
+      "modifier": 1,
+      "proficient": false
+    },
+    "wisdom": {
+      "modifier": 2,
+      "proficient": true
+    },
+    "charisma": {
+      "modifier": -1,
+      "proficient": false
+    }
+  }
+}

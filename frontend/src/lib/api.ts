@@ -2,6 +2,7 @@ export class ApiError extends Error {
   constructor(
     public status: number,
     message: string,
+    public issues: { code: string; field: string; message: string }[] = [],
   ) {
     super(message);
   }
@@ -22,7 +23,8 @@ export async function api<T>(path: string, init: RequestInit = {}): Promise<T> {
     const payload = await response.json().catch(() => null);
     throw new ApiError(
       response.status,
-      payload?.error?.message || "The request could not be completed.",
+      payload?.error?.message || (payload?.errors?.length ? "Please review the highlighted choices." : "The request could not be completed."),
+      payload?.errors || [],
     );
   }
   return response.status === 204 ? (undefined as T) : response.json();
@@ -35,16 +37,5 @@ export type Weapon = Content & {
   normalRange: number;
   longRange: number;
   properties: { key: string; label: string }[];
-};
-export type Character = {
-  id: string;
-  name: string;
-  species: Content;
-  characterClass: Content;
-  level: number;
-  attributes: Record<string, number>;
-  currentWounds: number;
-  calculated: { movement: number; maxWounds: number };
-  equipment: Weapon[];
 };
 export type User = { id: string; email: string };

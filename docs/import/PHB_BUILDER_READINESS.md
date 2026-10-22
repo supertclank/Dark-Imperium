@@ -1,3 +1,5 @@
+> **Production update:** [Narrow builder implementation](../PRODUCTION_CHARACTER_BUILDER.md). Narrow creation/list/sheet and persistence are implemented; full catalogue remains BLOCKED and authoritative dice execution remains PARTIAL. The report below is historical.
+
 > Historical intake report. Current counts, dispositions and readiness are in [PHB_CANONICALISATION_REPORT](PHB_CANONICALISATION_REPORT.md); machine-readable review ledgers have been updated.
 
 # Builder and sheet readiness

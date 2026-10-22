@@ -159,13 +159,13 @@ def compile_grenade_intent(projection, context, records=None):
     intent['application']='Apply the explicit outcome to an accepted base roll separately for each accepted target save; target mitigation/HP application is outside this function.'
     return intent
 
-def validate_roll(roll,records):
+def validate_roll(roll,records,engine_version=ENGINE):
     c.shape(roll,['schemaVersion','id','category','label','source','actor','snapshot','components','advantage','critical'],['natural','action'])
     c.require(roll['schemaVersion']==1 and roll['category'] in ['attribute','skill','save','attack','damage','ability'],'ROLL_CATEGORY')
     uuid.UUID(roll['id']);c.shape(roll['source'],['kind','ref']);c.require(roll['source']['kind']=='content','ROLL_SOURCE');c.ref(roll['source']['ref'],records)
     c.shape(roll['actor'],['kind','instanceId']);c.require(roll['actor']['kind']=='character','ROLL_ACTOR');uuid.UUID(roll['actor']['instanceId'])
     s=roll['snapshot'];c.shape(s,['rulesetLockDigest','engineVersion','stateVersion','contextDigest'])
-    c.require(s['engineVersion']==ENGINE and all(isinstance(s[k],str) and len(s[k])==64 for k in ['rulesetLockDigest','contextDigest']),'ROLL_SNAPSHOT');c.integer(s['stateVersion'],0,2147483647)
+    c.require(s['engineVersion']==engine_version and all(isinstance(s[k],str) and len(s[k])==64 for k in ['rulesetLockDigest','contextDigest']),'ROLL_SNAPSHOT');c.integer(s['stateVersion'],0,2147483647)
     c.require(roll['components'] and len(roll['components'])<=16,'ROLL_COMPONENTS')
     c.require(roll['advantage']=={'state':'normal','policyId':'phb.advantage.v1','appliedGroupIds':[]},'ROLL_ADVANTAGE_SUBSET')
     expectedcritical={'policyId':'phb.critical.v1','status':'disabled'}

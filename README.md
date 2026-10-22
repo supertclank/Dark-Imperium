@@ -1,3 +1,5 @@
+> **Production narrow builder:** [Implementation and verification](docs/PRODUCTION_CHARACTER_BUILDER.md). Human / Schola Progenium / Veteran, level 1, with Twitchy. Server validation, pinned ruleset, PostgreSQL persistence and sheet are implemented. Full catalogue and authoritative dice execution remain unavailable.
+
 > **Current Frag gate pass:** [Results](docs/import/PHB_FRAG_GATE_REPORT.md). Narrow profile PLAYABLE_WITH_MANUAL_RULES; narrow builder data READY_WITH_MANUAL_RULES. 93 tests; 948 drafts; 310 candidates. Generic Blast and 31 original rulings remain unresolved. Earlier pass statements below are historical.
 
 > **Current pass:** [Minimum rulings and narrow proof](docs/import/PHB_MINIMUM_RULINGS_REPORT.md). Five rulings approved, 31 unresolved. 948 canonical drafts; 310 candidates; 81 content tests pass. The narrow core calculates, but a mandatory Frag Grenade save outcome keeps playable readiness BLOCKED. Earlier sections below describe historical scope.
@@ -6,7 +8,7 @@
 
 The proposed [canonical content and rules-data specification](docs/content/README.md) documents future content imports, choices, progression, versioning and expansions. It is separate from the currently implemented foundation and contains explicitly non-authoritative examples.
 
-A private tabletop companion with one complete vertical slice: create an account, log in, create a Human Guardsman with a Lasgun, save the character, and reopen their character sheet. Includes a searchable seed compendium and owner-only rename/delete. Rules and statistics are explicitly provisional.
+A private tabletop companion: register, log in, complete the supported nine-step character builder, review server-calculated statistics, save and reopen your character. The production path uses canonical PHB content and an immutable ruleset snapshot. The separate seed compendium remains legacy development reference data.
 
 ## Stack and layout
 
@@ -30,7 +32,7 @@ Prerequisites: Docker Engine/Desktop running with Linux containers and Docker Co
    ```
 
 4. Open <http://localhost:3000>, register using a 12–128 character password, then log in.
-5. Select **Create character**, enter a name, select Human, Guardsman and Lasgun, and save. Return to **Characters** to reopen the sheet.
+5. Select **Create character**, complete the Human / Schola Progenium / Veteran level-1 steps, choose ability increases and proficiencies, review the starting kit and calculated sheet, then save. Return to **Characters** to reopen the sheet.
 
 Compose builds both applications, waits for database readiness, runs Flyway at API startup, then starts the frontend after API readiness. PostgreSQL uses a named persistent volume. The default host binding is loopback-only. The API and database are not published to the host.
 
