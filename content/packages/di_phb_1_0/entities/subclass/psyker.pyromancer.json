@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.psyker.pyromancer",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Pyromancer",
+  "summary": "Pyromancer; Universal, Pyromancy; Fire, soul-burning, area denial, purging flame.  Pyromancer; Fire powers deal +1 damage per damage die.  Pyromancer; Creatures damaged by your Pyromancy powers cannot benefit from invisibility until your next turn.  Pyromancer; Once per short rest, your Pyromancy power ignores fire resistance.",
+  "descriptionMarkdown": "Pyromancer; Universal, Pyromancy; Fire, soul-burning, area denial, purging flame.\n\nPyromancer; Fire powers deal +1 damage per damage die.\n\nPyromancer; Creatures damaged by your Pyromancy powers cannot benefit from invisibility until your next turn.\n\nPyromancer; Once per short rest, your Pyromancy power ignores fire resistance.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Pyromancer",
+        "pdfPage": 56,
+        "printedPage": 43
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Pyromancer",
+        "pdfPage": 57,
+        "printedPage": 44
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.psyker"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.psyker.pyromancer"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.psyker"
+        }
+      },
+      "operator": "gte",
+      "value": 1
+    }
+  }
+}

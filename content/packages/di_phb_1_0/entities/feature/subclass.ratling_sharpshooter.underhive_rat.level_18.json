@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.ratling_sharpshooter.underhive_rat.level_18",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Underhive Rat level 18",
+  "summary": "Underhive Rat; When you Hide as a reaction, you may also move 5 ft.",
+  "descriptionMarkdown": "Underhive Rat; When you Hide as a reaction, you may also move 5 ft.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Underhive Rat level 18",
+        "pdfPage": 69,
+        "printedPage": 56
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Underhive Rat; When you Hide as a reaction, you may also move 5 ft.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

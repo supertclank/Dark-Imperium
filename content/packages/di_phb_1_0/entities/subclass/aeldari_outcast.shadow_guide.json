@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.aeldari_outcast.shadow_guide",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Shadow Guide",
+  "summary": "Shadow Guide; Gain expertise in Stealth or Survival. You have advantage on checks to navigate ruins, wilderness, alien structures, and webway-adjacent places.  Shadow Guide; Allies within 10 ft of you ignore non-magical difficult terrain while travelling carefully.  Shadow Guide; Once per short rest, you and up to two allies within 30 ft may move 10 ft without provoking opportunity attacks.  Shadow Guide; Allies moved by your Path Feature may also ignore difficult terrain until your next turn.",
+  "descriptionMarkdown": "Shadow Guide; Gain expertise in Stealth or Survival. You have advantage on checks to navigate ruins, wilderness, alien structures, and webway-adjacent places.\n\nShadow Guide; Allies within 10 ft of you ignore non-magical difficult terrain while travelling carefully.\n\nShadow Guide; Once per short rest, you and up to two allies within 30 ft may move 10 ft without provoking opportunity attacks.\n\nShadow Guide; Allies moved by your Path Feature may also ignore difficult terrain until your next turn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Shadow Guide",
+        "pdfPage": 80,
+        "printedPage": 67
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Shadow Guide",
+        "pdfPage": 81,
+        "printedPage": 68
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.aeldari_outcast"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.aeldari_outcast.shadow_guide"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.aeldari_outcast"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}

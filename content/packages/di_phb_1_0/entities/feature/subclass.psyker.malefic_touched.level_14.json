@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.psyker.malefic_touched.level_14",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Malefic-Touched level 14",
+  "summary": "Malefic-Touched; Once per long rest, after triggering Perils, you may choose to gain 1 Corruption to treat the Perils result as Warp Static.",
+  "descriptionMarkdown": "Malefic-Touched; Once per long rest, after triggering Perils, you may choose to gain 1 Corruption to treat the Perils result as Warp Static.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Malefic-Touched level 14",
+        "pdfPage": 57,
+        "printedPage": 44
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Malefic-Touched; Once per long rest, after triggering Perils, you may choose to gain 1 Corruption to treat the Perils result as Warp Static.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

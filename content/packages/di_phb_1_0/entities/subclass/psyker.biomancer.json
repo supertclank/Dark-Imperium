@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.psyker.biomancer",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Biomancer",
+  "summary": "Biomancer; Universal, Biomancy; Healing, endurance, flesh control, toxins, and forced growth.  Biomancer; When you heal a creature, it gains temporary hit points equal to your proficiency bonus.  Biomancer; Your healing powers also end one minor bleeding or poison effect.  Biomancer; Once per long rest, when a creature you can touch drops to 0 hit points, it drops to 1 hit point instead.",
+  "descriptionMarkdown": "Biomancer; Universal, Biomancy; Healing, endurance, flesh control, toxins, and forced growth.\n\nBiomancer; When you heal a creature, it gains temporary hit points equal to your proficiency bonus.\n\nBiomancer; Your healing powers also end one minor bleeding or poison effect.\n\nBiomancer; Once per long rest, when a creature you can touch drops to 0 hit points, it drops to 1 hit point instead.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Biomancer",
+        "pdfPage": 56,
+        "printedPage": 43
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Biomancer",
+        "pdfPage": 57,
+        "printedPage": 44
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.psyker"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.psyker.biomancer"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.psyker"
+        }
+      },
+      "operator": "gte",
+      "value": 1
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.aeldari_warlock.spirit_guardian.level_7",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Spirit Guardian level 7",
+  "summary": "Spirit Guardian; When you reduce damage with Rune Ward, the target also gains temporary HP equal to your proficiency bonus.",
+  "descriptionMarkdown": "Spirit Guardian; When you reduce damage with Rune Ward, the target also gains temporary HP equal to your proficiency bonus.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Spirit Guardian level 7",
+        "pdfPage": 84,
+        "printedPage": 71
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Spirit Guardian; When you reduce damage with Rune Ward, the target also gains temporary HP equal to your proficiency bonus.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

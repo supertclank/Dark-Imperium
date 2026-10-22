@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.hernkyn_prospector.trail_gunner.level_7",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Trail Gunner level 7",
+  "summary": "Trail Gunner; Your Trail Gunner damage becomes +1d6.",
+  "descriptionMarkdown": "Trail Gunner; Your Trail Gunner damage becomes +1d6.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Trail Gunner level 7",
+        "pdfPage": 77,
+        "printedPage": 64
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Trail Gunner; Your Trail Gunner damage becomes +1d6.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

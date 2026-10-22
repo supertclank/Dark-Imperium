@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.arbites_enforcer.investigator.level_18",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Investigator level 18",
+  "summary": "Investigator; When you ask a tactical question, you may also learn one useful weakness, route, or leverage point.",
+  "descriptionMarkdown": "Investigator; When you ask a tactical question, you may also learn one useful weakness, route, or leverage point.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Investigator level 18",
+        "pdfPage": 63,
+        "printedPage": 50
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Investigator; When you ask a tactical question, you may also learn one useful weakness, route, or leverage point.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

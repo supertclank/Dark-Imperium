@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.arbites_enforcer.investigator.level_3",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Investigator level 3",
+  "summary": "Investigator; Gain expertise in Investigation or Insight. As a bonus action, study one creature, device, or scene you can see within 60 ft; until the end of your next turn, it counts as studied for your Investigator features. Uses: proficiency bonus per long rest.",
+  "descriptionMarkdown": "Investigator; Gain expertise in Investigation or Insight. As a bonus action, study one creature, device, or scene you can see within 60 ft; until the end of your next turn, it counts as studied for your Investigator features. Uses: proficiency bonus per long rest.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Investigator level 3",
+        "pdfPage": 62,
+        "printedPage": 49
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Investigator; Gain expertise in Investigation or Insight. As a bonus action, study one creature, device, or scene you can see within 60 ft; until the end of your next turn, it counts as studied for your Investigator features. Uses: proficiency bonus per long rest.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

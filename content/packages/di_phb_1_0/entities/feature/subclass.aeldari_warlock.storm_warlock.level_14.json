@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.aeldari_warlock.storm_warlock.level_14",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Storm Warlock level 14",
+  "summary": "Storm Warlock; Your first damaging psychic power each combat deals +1d8 damage.",
+  "descriptionMarkdown": "Storm Warlock; Your first damaging psychic power each combat deals +1d8 damage.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Storm Warlock level 14",
+        "pdfPage": 84,
+        "printedPage": 71
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Storm Warlock; Your first damaging psychic power each combat deals +1d8 damage.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

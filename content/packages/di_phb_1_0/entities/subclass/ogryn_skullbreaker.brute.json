@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.ogryn_skullbreaker.brute",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Brute",
+  "summary": "Brute; Once per turn, when you hit with a melee weapon, deal +1d6 damage.  Brute; Your Brute damage becomes +1d8.  Brute; Once per turn, when you push or knock a creature prone, deal bludgeoning damage equal to your Strength modifier.  Brute; Your melee critical hits knock targets prone if they fail a Strength save.",
+  "descriptionMarkdown": "Brute; Once per turn, when you hit with a melee weapon, deal +1d6 damage.\n\nBrute; Your Brute damage becomes +1d8.\n\nBrute; Once per turn, when you push or knock a creature prone, deal bludgeoning damage equal to your Strength modifier.\n\nBrute; Your melee critical hits knock targets prone if they fail a Strength save.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Brute",
+        "pdfPage": 59,
+        "printedPage": 46
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Brute",
+        "pdfPage": 60,
+        "printedPage": 47
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.ogryn_skullbreaker"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.ogryn_skullbreaker.brute"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.ogryn_skullbreaker"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}

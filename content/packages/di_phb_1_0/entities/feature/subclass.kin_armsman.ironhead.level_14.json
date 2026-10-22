@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.kin_armsman.ironhead.level_14",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Ironhead level 14",
+  "summary": "Ironhead; Once per short rest, when you damage an object, vehicle, or machine, treat the hit as a critical hit.",
+  "descriptionMarkdown": "Ironhead; Once per short rest, when you damage an object, vehicle, or machine, treat the hit as a critical hit.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Ironhead level 14",
+        "pdfPage": 75,
+        "printedPage": 62
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Ironhead; Once per short rest, when you damage an object, vehicle, or machine, treat the hit as a critical hit.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.skitarii_veteran.vanguard",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Vanguard Protocol",
+  "summary": "Vanguard Protocol; Once per turn, when you hit a creature within 30 ft, it has disadvantage on its next Constitution saving throw before your next turn.  Vanguard; A creature affected by Vanguard Protocol also takes +1d4 rad or poison damage when you hit it.  Vanguard; Creatures damaged by your rad or poison effects cannot regain hit points until your next turn.  Vanguard; Your rad or poison effects impose disadvantage on the target’s next Strength or Constitution save.",
+  "descriptionMarkdown": "Vanguard Protocol; Once per turn, when you hit a creature within 30 ft, it has disadvantage on its next Constitution saving throw before your next turn.\n\nVanguard; A creature affected by Vanguard Protocol also takes +1d4 rad or poison damage when you hit it.\n\nVanguard; Creatures damaged by your rad or poison effects cannot regain hit points until your next turn.\n\nVanguard; Your rad or poison effects impose disadvantage on the target’s next Strength or Constitution save.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Vanguard Protocol",
+        "pdfPage": 71,
+        "printedPage": 58
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Vanguard Protocol",
+        "pdfPage": 72,
+        "printedPage": 59
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.skitarii_veteran"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.skitarii_veteran.vanguard"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.skitarii_veteran"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}

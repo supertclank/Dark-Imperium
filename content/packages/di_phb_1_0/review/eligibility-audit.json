@@ -1,0 +1,288 @@
+[
+  {
+    "id": "ELIG-001",
+    "status": "CONFLICTING_RULES",
+    "affected": [
+      "di.background.hiveborn"
+    ],
+    "sourcePages": [
+      26,
+      27
+    ],
+    "finding": "Matrix/prose differ; corresponding PHB-001 child question remains open."
+  },
+  {
+    "id": "ELIG-002",
+    "status": "CONFLICTING_RULES",
+    "affected": [
+      "di.background.penal_worlder"
+    ],
+    "sourcePages": [
+      26,
+      27
+    ],
+    "finding": "Matrix/prose differ; corresponding PHB-001 child question remains open."
+  },
+  {
+    "id": "ELIG-003",
+    "status": "CONFLICTING_RULES",
+    "affected": [
+      "di.background.voidborn"
+    ],
+    "sourcePages": [
+      26,
+      27
+    ],
+    "finding": "Matrix/prose differ; corresponding PHB-001 child question remains open."
+  },
+  {
+    "id": "ELIG-004",
+    "status": "CONFLICTING_RULES",
+    "affected": [
+      "di.background.forge_world"
+    ],
+    "sourcePages": [
+      26,
+      27
+    ],
+    "finding": "Matrix/prose differ; corresponding PHB-001 child question remains open."
+  },
+  {
+    "id": "ELIG-005",
+    "status": "CONFLICTING_RULES",
+    "affected": [
+      "di.background.militarum_regiment"
+    ],
+    "sourcePages": [
+      26,
+      27
+    ],
+    "finding": "Matrix/prose differ; corresponding PHB-001 child question remains open."
+  },
+  {
+    "id": "ELIG-006",
+    "status": "CONFLICTING_RULES",
+    "affected": [
+      "di.background.underhive"
+    ],
+    "sourcePages": [
+      26,
+      27
+    ],
+    "finding": "Matrix/prose differ; corresponding PHB-001 child question remains open."
+  },
+  {
+    "id": "ELIG-007",
+    "status": "RESOLVED",
+    "affected": [
+      "di.class.aeldari_warlock"
+    ],
+    "sourcePages": [
+      15,
+      83,
+      91
+    ],
+    "finding": "Specific Runes of Battle overrides general psychic access clause; Malefic remains forbidden."
+  },
+  {
+    "id": "ELIG-008",
+    "status": "RESOLVED",
+    "affected": [
+      "di.feature.talent.aeldari_grace",
+      "di.feature.talent.alien_reflexes",
+      "di.feature.talent.ancestors_grudge",
+      "di.feature.talent.bigger_gun",
+      "di.feature.talent.bone_ead_implant",
+      "di.feature.talent.cold_logic",
+      "di.feature.talent.cooks_morale",
+      "di.feature.talent.hive_blooded",
+      "di.feature.talent.hold_born_engineer",
+      "di.feature.talent.imperial_flexibility",
+      "di.feature.talent.impossible_shot",
+      "di.feature.talent.iron_stance",
+      "di.feature.talent.kin_weapon_master",
+      "di.feature.talent.last_order_standing",
+      "di.feature.talent.loyal_as_stone",
+      "di.feature.talent.machine_precision",
+      "di.feature.talent.noospheric_burst",
+      "di.feature.talent.ogryn_wall",
+      "di.feature.talent.path_discipline",
+      "di.feature.talent.pocket_marksman",
+      "di.feature.talent.rad_hardened",
+      "di.feature.talent.rangers_cloak",
+      "di.feature.talent.ratling_vanish",
+      "di.feature.talent.sacred_augmetics",
+      "di.feature.talent.sanctioning_scars",
+      "di.feature.talent.scavvers_luck",
+      "di.feature.talent.too_angry_to_notice",
+      "di.feature.talent.void_stock",
+      "di.feature.talent.witch_sight",
+      "di.feature.talent.witchblade_adept"
+    ],
+    "sourcePages": [
+      87
+    ],
+    "finding": "All30 printed species/class Talent requirements structured; no additional inferred prerequisites."
+  },
+  {
+    "id": "ELIG-009",
+    "status": "MISSING_INFORMATION",
+    "affected": [
+      "di.class.arbites_enforcer",
+      "di.class.veteran"
+    ],
+    "sourcePages": [
+      50,
+      62,
+      100,
+      101
+    ],
+    "finding": "Starting equipment names/proficiency families cannot be fully joined until aliases and weapon/armour taxonomy resolve; no proven starting-kit prohibition silently corrected."
+  },
+  {
+    "id": "ELIG-010",
+    "status": "RESOLVED",
+    "affected": [
+      "di.species.ogryn",
+      "di.species.skitarii"
+    ],
+    "sourcePages": [
+      17,
+      18
+    ],
+    "finding": "Core class locks retained; generic trait choices cannot override explicit psychic prohibition. Campaign exceptions need separate reviewed content."
+  },
+  {
+    "id": "ELIG-011",
+    "status": "PARTIAL",
+    "affected": [
+      "di.subclass.aeldari_outcast.corsair",
+      "di.subclass.aeldari_outcast.ranger",
+      "di.subclass.aeldari_outcast.shadow_guide",
+      "di.subclass.aeldari_warlock.seer_of_battle",
+      "di.subclass.aeldari_warlock.spirit_guardian",
+      "di.subclass.aeldari_warlock.storm_warlock",
+      "di.subclass.arbites_enforcer.executioner",
+      "di.subclass.arbites_enforcer.investigator",
+      "di.subclass.arbites_enforcer.riot_shield",
+      "di.subclass.hernkyn_prospector.claim_staker",
+      "di.subclass.hernkyn_prospector.outrider",
+      "di.subclass.hernkyn_prospector.trail_gunner",
+      "di.subclass.hive_scum.chem_user",
+      "di.subclass.hive_scum.gunslinger",
+      "di.subclass.hive_scum.knife_rat",
+      "di.subclass.hive_scum.sump_ghost",
+      "di.subclass.kin_armsman.guild_militant",
+      "di.subclass.kin_armsman.hearthguard",
+      "di.subclass.kin_armsman.ironhead",
+      "di.subclass.ogryn_skullbreaker.bone_ead",
+      "di.subclass.ogryn_skullbreaker.brute",
+      "di.subclass.ogryn_skullbreaker.bulwark",
+      "di.subclass.ogryn_skullbreaker.gun_lugger",
+      "di.subclass.psyker.biomancer",
+      "di.subclass.psyker.blank_null_bound",
+      "di.subclass.psyker.diviner",
+      "di.subclass.psyker.malefic_touched",
+      "di.subclass.psyker.pyromancer",
+      "di.subclass.psyker.telekine",
+      "di.subclass.ratling_sharpshooter.black_market_gremlin",
+      "di.subclass.ratling_sharpshooter.long_las_sniper",
+      "di.subclass.ratling_sharpshooter.spotter",
+      "di.subclass.ratling_sharpshooter.underhive_rat",
+      "di.subclass.skitarii_veteran.data_hunter",
+      "di.subclass.skitarii_veteran.infiltrator",
+      "di.subclass.skitarii_veteran.protector",
+      "di.subclass.skitarii_veteran.ranger",
+      "di.subclass.skitarii_veteran.ruststalker",
+      "di.subclass.skitarii_veteran.vanguard",
+      "di.subclass.veteran.marksman",
+      "di.subclass.veteran.sergeant",
+      "di.subclass.veteran.shock_trooper",
+      "di.subclass.zealot.flagellant",
+      "di.subclass.zealot.preacher",
+      "di.subclass.zealot.purifier"
+    ],
+    "sourcePages": [
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84
+    ],
+    "finding": "All45 parent/level mappings valid. No parent-species contradiction found in the mapped lists. Null-Bound approval explicit; feature-level prerequisites/resources still need compiler mapping."
+  },
+  {
+    "id": "ELIG-012",
+    "status": "GLOBAL_POLICY_REQUIRED",
+    "affected": [
+      "di.background.forge_world",
+      "di.background.hiveborn",
+      "di.background.militarum_regiment",
+      "di.background.penal_worlder",
+      "di.background.shrine_worlder",
+      "di.background.underhive",
+      "di.background.voidborn"
+    ],
+    "sourcePages": [
+      26,
+      27
+    ],
+    "finding": "Rare/Limited cannot become unconditional permission; seven Origin gates remain unresolved."
+  },
+  {
+    "id": "ELIG-013",
+    "status": "PARTIAL",
+    "affected": [
+      "di.class.psyker",
+      "di.class.aeldari_warlock"
+    ],
+    "sourcePages": [
+      56,
+      83,
+      91
+    ],
+    "finding": "Power-tier counts and lists are explicit, but multilist membership/choices not yet canonical; known progression must not expose Major before11."
+  },
+  {
+    "id": "ELIG-014",
+    "status": "MISSING_INFORMATION",
+    "affected": [
+      "di.feature.talent.cybernetic_implant"
+    ],
+    "sourcePages": [
+      86,
+      89
+    ],
+    "finding": "Minor augmetic option pool is not enumerated; cannot certify satisfiable Talent choice."
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.masterwork.perfect_balance",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Perfect Balance",
+  "summary": "Masterwork Trait: Perfect Balance; Eligible Item: Melee or ranged weapon; Effect: Gain +1 to attack rolls made with the item.",
+  "descriptionMarkdown": "Masterwork Trait: Perfect Balance; Eligible Item: Melee or ranged weapon; Effect: Gain +1 to attack rolls made with the item.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "18",
+        "heading": "Perfect Balance",
+        "pdfPage": 104,
+        "printedPage": 91
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "general",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Masterwork Trait: Perfect Balance; Eligible Item: Melee or ranged weapon; Effect: Gain +1 to attack rolls made with the item.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Item-bound procedure retained manually, including host eligibility; no automatic actor-wide bonus."
+      }
+    ]
+  }
+}

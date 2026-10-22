@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.hive_scum.sump_ghost",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Sump Ghost",
+  "summary": "Sump Ghost; You gain expertise in Stealth when in urban ruins, sewers, vents, tunnels, or industrial terrain.  Sump Ghost; You may hide when lightly obscured by smoke, steam, crowds, or machinery.  Sump Ghost; Once per short rest, become hidden from one creature even if it can see you, provided there is cover, smoke, steam, machinery, darkness, or a crowd within 10 ft.",
+  "descriptionMarkdown": "Sump Ghost; You gain expertise in Stealth when in urban ruins, sewers, vents, tunnels, or industrial terrain.\n\nSump Ghost; You may hide when lightly obscured by smoke, steam, crowds, or machinery.\n\nSump Ghost; Once per short rest, become hidden from one creature even if it can see you, provided there is cover, smoke, steam, machinery, darkness, or a crowd within 10 ft.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Sump Ghost",
+        "pdfPage": 65,
+        "printedPage": 52
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Sump Ghost",
+        "pdfPage": 66,
+        "printedPage": 53
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.hive_scum"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.hive_scum.sump_ghost"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.hive_scum"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}

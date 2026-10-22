@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.zealot.purifier.level_7",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Purifier level 7",
+  "summary": "Purifier; Your flamer and firebomb damage increases by +1 per damage die against daemons, heretics, mutants, and corrupted creatures.",
+  "descriptionMarkdown": "Purifier; Your flamer and firebomb damage increases by +1 per damage die against daemons, heretics, mutants, and corrupted creatures.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Purifier level 7",
+        "pdfPage": 53,
+        "printedPage": 40
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Purifier; Your flamer and firebomb damage increases by +1 per damage die against daemons, heretics, mutants, and corrupted creatures.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

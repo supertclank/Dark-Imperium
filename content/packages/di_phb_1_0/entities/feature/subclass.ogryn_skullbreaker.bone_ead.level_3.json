@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.ogryn_skullbreaker.bone_ead.level_3",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Bone ’ead level 3",
+  "summary": "Bone ’ead; You gain proficiency in Wisdom saves and one additional skill.",
+  "descriptionMarkdown": "Bone ’ead; You gain proficiency in Wisdom saves and one additional skill.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Bone ’ead level 3",
+        "pdfPage": 59,
+        "printedPage": 46
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Bone ’ead; You gain proficiency in Wisdom saves and one additional skill.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

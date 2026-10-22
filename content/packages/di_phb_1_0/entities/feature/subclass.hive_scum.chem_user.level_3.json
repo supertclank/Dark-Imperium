@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.hive_scum.chem_user.level_3",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Chem-User level 3",
+  "summary": "Chem-User; Once per long rest, inject combat chems as a bonus action. Gain +10 ft speed and advantage on Strength and Dexterity checks for 1 minute. Afterwards, make a Constitution saving throw or gain one level of exhaustion.",
+  "descriptionMarkdown": "Chem-User; Once per long rest, inject combat chems as a bonus action. Gain +10 ft speed and advantage on Strength and Dexterity checks for 1 minute. Afterwards, make a Constitution saving throw or gain one level of exhaustion.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Chem-User level 3",
+        "pdfPage": 65,
+        "printedPage": 52
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Chem-User; Once per long rest, inject combat chems as a bonus action. Gain +10 ft speed and advantage on Strength and Dexterity checks for 1 minute. Afterwards, make a Constitution saving throw or gain one level of exhaustion.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

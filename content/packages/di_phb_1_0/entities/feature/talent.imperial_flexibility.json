@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.feature.talent.imperial_flexibility",
   "kind": "feature",
-  "revision": 1,
+  "revision": 2,
   "name": "Imperial Flexibility",
   "summary": "Talent: Imperial Flexibility Requirement: Human Benefit: Gain proficiency in one skill, tool, or weapon group.",
   "descriptionMarkdown": "Talent: Imperial Flexibility\nRequirement: Human\nBenefit: Gain proficiency in one skill, tool, or weapon group.",
@@ -34,6 +34,12 @@
         "context": "source-defined procedure",
         "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
       }
-    ]
+    ],
+    "requirements": {
+      "kind": "selected",
+      "content": {
+        "id": "di.species.human"
+      }
+    }
   }
 }

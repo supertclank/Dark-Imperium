@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.skitarii_veteran.vanguard.level_3",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Vanguard Protocol level 3",
+  "summary": "Vanguard Protocol; Once per turn, when you hit a creature within 30 ft, it has disadvantage on its next Constitution saving throw before your next turn.",
+  "descriptionMarkdown": "Vanguard Protocol; Once per turn, when you hit a creature within 30 ft, it has disadvantage on its next Constitution saving throw before your next turn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Vanguard Protocol level 3",
+        "pdfPage": 71,
+        "printedPage": 58
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Vanguard Protocol; Once per turn, when you hit a creature within 30 ft, it has disadvantage on its next Constitution saving throw before your next turn.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

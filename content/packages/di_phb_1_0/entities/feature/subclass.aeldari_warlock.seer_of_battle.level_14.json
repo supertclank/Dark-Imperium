@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.aeldari_warlock.seer_of_battle.level_14",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Seer of Battle level 14",
+  "summary": "Seer of Battle; Once per short rest, give one ally advantage on an attack, save, or check as a reaction.",
+  "descriptionMarkdown": "Seer of Battle; Once per short rest, give one ally advantage on an attack, save, or check as a reaction.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Seer of Battle level 14",
+        "pdfPage": 84,
+        "printedPage": 71
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Seer of Battle; Once per short rest, give one ally advantage on an attack, save, or check as a reaction.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

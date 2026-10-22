@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.ratling_sharpshooter.long_las_sniper",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Long-Las Sniper",
+  "summary": "Long-Las Sniper; If you do not move this turn, your first ranged attack gains +2 to hit.  Long-Las Sniper; Your first Accurate weapon hit each combat adds +1d6 damage.  Long-Las Sniper; When you use Killshot, the attack ignores light and heavy cover and ignores resistance from non- powered armour.  Long-Las Sniper; Your first Accurate weapon hit each round ignores heavy cover.",
+  "descriptionMarkdown": "Long-Las Sniper; If you do not move this turn, your first ranged attack gains +2 to hit.\n\nLong-Las Sniper; Your first Accurate weapon hit each combat adds +1d6 damage.\n\nLong-Las Sniper; When you use Killshot, the attack ignores light and heavy cover and ignores resistance from non- powered armour.\n\nLong-Las Sniper; Your first Accurate weapon hit each round ignores heavy cover.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Long-Las Sniper",
+        "pdfPage": 68,
+        "printedPage": 55
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Long-Las Sniper",
+        "pdfPage": 69,
+        "printedPage": 56
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.ratling_sharpshooter"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.ratling_sharpshooter.long_las_sniper"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.ratling_sharpshooter"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}

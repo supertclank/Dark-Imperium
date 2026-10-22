@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.zealot.preacher.level_18",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Preacher level 18",
+  "summary": "Preacher; Allies within 30 ft also gain +1d4 to fear saves.",
+  "descriptionMarkdown": "Preacher; Allies within 30 ft also gain +1d4 to fear saves.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Preacher level 18",
+        "pdfPage": 54,
+        "printedPage": 41
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Preacher; Allies within 30 ft also gain +1d4 to fear saves.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

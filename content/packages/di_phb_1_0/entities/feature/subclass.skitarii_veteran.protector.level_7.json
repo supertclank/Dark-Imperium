@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.skitarii_veteran.protector.level_7",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Protector Protocol level 7",
+  "summary": "Protector; If the protected attack misses, the ally gains temporary HP equal to your Intelligence modifier.",
+  "descriptionMarkdown": "Protector; If the protected attack misses, the ally gains temporary HP equal to your Intelligence modifier.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Protector Protocol level 7",
+        "pdfPage": 71,
+        "printedPage": 58
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Protector; If the protected attack misses, the ally gains temporary HP equal to your Intelligence modifier.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

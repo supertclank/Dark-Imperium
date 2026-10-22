@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.hernkyn_prospector.outrider.level_14",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Outrider level 14",
+  "summary": "Outrider; Once per short rest, take the Dash or Disengage action as a free action on your turn.",
+  "descriptionMarkdown": "Outrider; Once per short rest, take the Dash or Disengage action as a free action on your turn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Outrider level 14",
+        "pdfPage": 78,
+        "printedPage": 65
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Outrider; Once per short rest, take the Dash or Disengage action as a free action on your turn.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

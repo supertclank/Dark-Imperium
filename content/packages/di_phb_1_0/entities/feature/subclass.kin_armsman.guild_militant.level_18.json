@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.kin_armsman.guild_militant.level_18",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Guild-Militant level 18",
+  "summary": "Guild-Militant; When an ally hits your Oath-Mark target, they may move 5 ft without provoking opportunity attacks.",
+  "descriptionMarkdown": "Guild-Militant; When an ally hits your Oath-Mark target, they may move 5 ft without provoking opportunity attacks.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Guild-Militant level 18",
+        "pdfPage": 75,
+        "printedPage": 62
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Guild-Militant; When an ally hits your Oath-Mark target, they may move 5 ft without provoking opportunity attacks.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

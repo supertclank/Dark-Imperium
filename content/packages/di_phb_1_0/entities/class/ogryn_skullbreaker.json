@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.class.ogryn_skullbreaker",
   "kind": "class",
-  "revision": 1,
+  "revision": 2,
   "name": "Ogryn Skullbreaker",
   "summary": "11.4 Ogryn Skullbreaker A walking wall of muscle, loyalty, and violence. Allowed Species: Ogryn only. Hit Die: d12. Primary Abilities: Strength, Constitution. Saving Throws: Strength, Constitution. Armour: Modified heavy armour, Ogryn armour, Ogryn plate. Weapons: Ogryn weapons, simple melee weapons, heavy blunt weapons, ripper guns.",
   "descriptionMarkdown": "11.4 Ogryn Skullbreaker\nA walking wall of muscle, loyalty, and violence.\nAllowed Species: Ogryn only.\nHit Die: d12.\nPrimary Abilities: Strength, Constitution.\nSaving Throws: Strength, Constitution.\nArmour: Modified heavy armour, Ogryn armour, Ogryn plate.\nWeapons: Ogryn weapons, simple melee weapons, heavy blunt weapons, ripper guns.",
@@ -35,6 +35,20 @@
       "content": {
         "id": "di.species.ogryn"
       }
-    }
+    },
+    "allowedSubclasses": [
+      {
+        "id": "di.subclass.ogryn_skullbreaker.bone_ead"
+      },
+      {
+        "id": "di.subclass.ogryn_skullbreaker.brute"
+      },
+      {
+        "id": "di.subclass.ogryn_skullbreaker.bulwark"
+      },
+      {
+        "id": "di.subclass.ogryn_skullbreaker.gun_lugger"
+      }
+    ]
   }
 }

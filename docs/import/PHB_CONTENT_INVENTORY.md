@@ -1,3 +1,5 @@
+> Historical intake report. Current counts, dispositions and readiness are in [PHB_CANONICALISATION_REPORT](PHB_CANONICALISATION_REPORT.md); machine-readable review ledgers have been updated.
+
 # PHB content inventory
 
 This is the first full-book inventory pass for the selected **Version 1.0** PDF, not a certified line-by-line source review or a claim that all rules are executable. All 22 chapters were included in text/table extraction. Front matter and TOC are evidence, not duplicate entities. Section and table occurrences intentionally overlap; their count is not a count of unique game entities. Per-page text and all extracted table cells are retained privately with the original PDF.

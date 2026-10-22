@@ -3,6 +3,7 @@
     "pdfPage": 15,
     "printedPage": 2,
     "top": 376.6,
+    "x0": 48.2,
     "rows": [
       [
         "Tier",
@@ -35,6 +36,7 @@
     "pdfPage": 15,
     "printedPage": 2,
     "top": 470.7,
+    "x0": 41.4,
     "rows": [
       [
         "Levels",
@@ -66,6 +68,7 @@
     "pdfPage": 17,
     "printedPage": 4,
     "top": 283.4,
+    "x0": 48.2,
     "rows": [
       [
         "Species",
@@ -108,6 +111,7 @@
     "pdfPage": 17,
     "printedPage": 4,
     "top": 427.7,
+    "x0": 48.2,
     "rows": [
       [
         "Class",
@@ -206,6 +210,7 @@
     "pdfPage": 18,
     "printedPage": 5,
     "top": 46.8,
+    "x0": 308.6,
     "rows": [
       [
         "Skill",
@@ -228,6 +233,7 @@
     "pdfPage": 18,
     "printedPage": 5,
     "top": 639.7,
+    "x0": 48.7,
     "rows": [
       [
         "Skill",
@@ -270,6 +276,7 @@
     "pdfPage": 26,
     "printedPage": 13,
     "top": 140.3,
+    "x0": 48.3,
     "rows": [
       [
         "Origin",
@@ -376,6 +383,7 @@
     "pdfPage": 29,
     "printedPage": 16,
     "top": 113.5,
+    "x0": 48.2,
     "rows": [
       [
         "Trait",
@@ -467,6 +475,7 @@
     "pdfPage": 31,
     "printedPage": 18,
     "top": 227.3,
+    "x0": 41.4,
     "rows": [
       [
         "Common Action",
@@ -514,6 +523,7 @@
     "pdfPage": 31,
     "printedPage": 18,
     "top": 488.3,
+    "x0": 41.4,
     "rows": [
       [
         "Cover",
@@ -537,6 +547,7 @@
     "pdfPage": 32,
     "printedPage": 19,
     "top": 174.1,
+    "x0": 48.2,
     "rows": [
       [
         "Maneuver",
@@ -564,6 +575,7 @@
     "pdfPage": 32,
     "printedPage": 19,
     "top": 427.7,
+    "x0": 48.2,
     "rows": [
       [
         "Rest",
@@ -586,6 +598,7 @@
     "pdfPage": 32,
     "printedPage": 19,
     "top": 588.1,
+    "x0": 48.2,
     "rows": [
       [
         "Condition / State",
@@ -633,6 +646,7 @@
     "pdfPage": 33,
     "printedPage": 20,
     "top": 46.8,
+    "x0": 48.2,
     "rows": [
       [
         "Condition / State",
@@ -668,6 +682,7 @@
     "pdfPage": 33,
     "printedPage": 20,
     "top": 246.1,
+    "x0": 48.2,
     "rows": [
       [
         "Level",
@@ -703,6 +718,7 @@
     "pdfPage": 35,
     "printedPage": 22,
     "top": 111.0,
+    "x0": 48.2,
     "rows": [
       [
         "Property",
@@ -838,6 +854,7 @@
     "pdfPage": 37,
     "printedPage": 24,
     "top": 302.3,
+    "x0": 17.1,
     "rows": [
       [
         "Weapon",
@@ -1027,6 +1044,7 @@
     "pdfPage": 38,
     "printedPage": 25,
     "top": 71.8,
+    "x0": 17.1,
     "rows": [
       [
         "Weapon",
@@ -1142,6 +1160,7 @@
     "pdfPage": 38,
     "printedPage": 25,
     "top": 275.9,
+    "x0": 17.1,
     "rows": [
       [
         "Weapon",
@@ -1226,6 +1245,7 @@
     "pdfPage": 40,
     "printedPage": 27,
     "top": 75.8,
+    "x0": 17.1,
     "rows": [
       [
         "Weapon",
@@ -1324,6 +1344,7 @@
     "pdfPage": 40,
     "printedPage": 27,
     "top": 249.8,
+    "x0": 17.1,
     "rows": [
       [
         "Weapon",
@@ -1443,6 +1464,7 @@
     "pdfPage": 40,
     "printedPage": 27,
     "top": 473.0,
+    "x0": 46.8,
     "rows": [
       [
         "Weapon",
@@ -1492,6 +1514,7 @@
     "pdfPage": 42,
     "printedPage": 29,
     "top": 170.1,
+    "x0": 17.1,
     "rows": [
       [
         "Armour",
@@ -1595,6 +1618,7 @@
     "pdfPage": 42,
     "printedPage": 29,
     "top": 410.0,
+    "x0": 17.1,
     "rows": [
       [
         "Armour",
@@ -1644,6 +1668,7 @@
     "pdfPage": 42,
     "printedPage": 29,
     "top": 516.6,
+    "x0": 17.1,
     "rows": [
       [
         "Armour",
@@ -1687,6 +1712,7 @@
     "pdfPage": 42,
     "printedPage": 29,
     "top": 641.1,
+    "x0": 17.1,
     "rows": [
       [
         "Armour",
@@ -1730,6 +1756,7 @@
     "pdfPage": 44,
     "printedPage": 31,
     "top": 111.5,
+    "x0": 48.2,
     "rows": [
       [
         "Modification",
@@ -1782,6 +1809,7 @@
     "pdfPage": 44,
     "printedPage": 31,
     "top": 367.4,
+    "x0": 46.7,
     "rows": [
       [
         "Modification",
@@ -1814,6 +1842,7 @@
     "pdfPage": 44,
     "printedPage": 31,
     "top": 525.4,
+    "x0": 46.7,
     "rows": [
       [
         "Modification",
@@ -1846,6 +1875,7 @@
     "pdfPage": 45,
     "printedPage": 32,
     "top": 89.7,
+    "x0": 46.7,
     "rows": [
       [
         "Modification",
@@ -1878,6 +1908,7 @@
     "pdfPage": 45,
     "printedPage": 32,
     "top": 238.5,
+    "x0": 46.7,
     "rows": [
       [
         "Modification",
@@ -1910,6 +1941,7 @@
     "pdfPage": 47,
     "printedPage": 34,
     "top": 235.7,
+    "x0": 17.1,
     "rows": [
       [
         "Grenade",
@@ -1957,6 +1989,7 @@
     "pdfPage": 50,
     "printedPage": 37,
     "top": 261.4,
+    "x0": 48.2,
     "rows": [
       [
         "Level",
@@ -2048,6 +2081,7 @@
     "pdfPage": 50,
     "printedPage": 37,
     "top": 594.2,
+    "x0": 301.2,
     "rows": [
       [
         "Doctrine",
@@ -2071,6 +2105,7 @@
     "pdfPage": 50,
     "printedPage": 37,
     "top": 698.7,
+    "x0": 41.4,
     "rows": [
       [
         "Doctrine",
@@ -2094,6 +2129,7 @@
     "pdfPage": 51,
     "printedPage": 38,
     "top": 237.1,
+    "x0": 41.4,
     "rows": [
       [
         "Doctrine",
@@ -2117,6 +2153,7 @@
     "pdfPage": 53,
     "printedPage": 40,
     "top": 170.6,
+    "x0": 48.2,
     "rows": [
       [
         "Level",
@@ -2208,6 +2245,7 @@
     "pdfPage": 53,
     "printedPage": 40,
     "top": 443.7,
+    "x0": 301.2,
     "rows": [
       [
         "Sacred Path",
@@ -2231,6 +2269,7 @@
     "pdfPage": 53,
     "printedPage": 40,
     "top": 649.2,
+    "x0": 41.4,
     "rows": [
       [
         "Path",
@@ -2254,6 +2293,7 @@
     "pdfPage": 54,
     "printedPage": 41,
     "top": 91.3,
+    "x0": 41.4,
     "rows": [
       [
         "Sacred Path",
@@ -2277,6 +2317,7 @@
     "pdfPage": 54,
     "printedPage": 41,
     "top": 154.4,
+    "x0": 301.2,
     "rows": [
       [
         "Sacred Path",
@@ -2300,6 +2341,7 @@
     "pdfPage": 56,
     "printedPage": 43,
     "top": 185.8,
+    "x0": 46.8,
     "rows": [
       [
         "Level",
@@ -2391,6 +2433,7 @@
     "pdfPage": 56,
     "printedPage": 43,
     "top": 365.9,
+    "x0": 308.7,
     "rows": [
       [
         "Discipline",
@@ -2433,6 +2476,7 @@
     "pdfPage": 56,
     "printedPage": 43,
     "top": 379.9,
+    "x0": 48.7,
     "rows": [
       [
         "Level",
@@ -2566,6 +2610,7 @@
     "pdfPage": 56,
     "printedPage": 43,
     "top": 664.1,
+    "x0": 301.2,
     "rows": [
       [
         "Discipline",
@@ -2597,6 +2642,7 @@
     "pdfPage": 57,
     "printedPage": 44,
     "top": 46.8,
+    "x0": 41.4,
     "rows": [
       [
         "Discipline",
@@ -2612,6 +2658,7 @@
     "pdfPage": 57,
     "printedPage": 44,
     "top": 132.8,
+    "x0": 301.2,
     "rows": [
       [
         "Discipline",
@@ -2647,6 +2694,7 @@
     "pdfPage": 57,
     "printedPage": 44,
     "top": 258.3,
+    "x0": 41.4,
     "rows": [
       [
         "Discipline",
@@ -2682,6 +2730,7 @@
     "pdfPage": 59,
     "printedPage": 46,
     "top": 170.6,
+    "x0": 48.2,
     "rows": [
       [
         "Level",
@@ -2773,6 +2822,7 @@
     "pdfPage": 59,
     "printedPage": 46,
     "top": 477.0,
+    "x0": 301.2,
     "rows": [
       [
         "Ogryn Role",
@@ -2800,6 +2850,7 @@
     "pdfPage": 59,
     "printedPage": 46,
     "top": 671.9,
+    "x0": 41.4,
     "rows": [
       [
         "Role",
@@ -2827,6 +2878,7 @@
     "pdfPage": 60,
     "printedPage": 47,
     "top": 151.0,
+    "x0": 41.4,
     "rows": [
       [
         "Ogryn Role",
@@ -2854,6 +2906,7 @@
     "pdfPage": 60,
     "printedPage": 47,
     "top": 162.2,
+    "x0": 301.2,
     "rows": [
       [
         "Ogryn Role",
@@ -2881,6 +2934,7 @@
     "pdfPage": 62,
     "printedPage": 49,
     "top": 170.6,
+    "x0": 48.2,
     "rows": [
       [
         "Level",
@@ -2972,6 +3026,7 @@
     "pdfPage": 62,
     "printedPage": 49,
     "top": 458.9,
+    "x0": 301.2,
     "rows": [
       [
         "Enforcement Doctrine",
@@ -2995,6 +3050,7 @@
     "pdfPage": 62,
     "printedPage": 49,
     "top": 604.7,
+    "x0": 41.4,
     "rows": [
       [
         "Doctrine",
@@ -3018,6 +3074,7 @@
     "pdfPage": 63,
     "printedPage": 50,
     "top": 80.1,
+    "x0": 41.4,
     "rows": [
       [
         "Enforcement Doctrine",
@@ -3041,6 +3098,7 @@
     "pdfPage": 63,
     "printedPage": 50,
     "top": 91.3,
+    "x0": 301.2,
     "rows": [
       [
         "Enforcement Doctrine",
@@ -3064,6 +3122,7 @@
     "pdfPage": 65,
     "printedPage": 52,
     "top": 170.6,
+    "x0": 48.2,
     "rows": [
       [
         "Level",
@@ -3155,6 +3214,7 @@
     "pdfPage": 65,
     "printedPage": 52,
     "top": 372.8,
+    "x0": 301.2,
     "rows": [
       [
         "Gang Style",
@@ -3182,6 +3242,7 @@
     "pdfPage": 65,
     "printedPage": 52,
     "top": 536.7,
+    "x0": 41.4,
     "rows": [
       [
         "Style",
@@ -3209,6 +3270,7 @@
     "pdfPage": 65,
     "printedPage": 52,
     "top": 696.0,
+    "x0": 301.2,
     "rows": [
       [
         "Gang Style",
@@ -3232,6 +3294,7 @@
     "pdfPage": 66,
     "printedPage": 53,
     "top": 46.8,
+    "x0": 41.4,
     "rows": [
       [
         "Gang Style",
@@ -3247,6 +3310,7 @@
     "pdfPage": 68,
     "printedPage": 55,
     "top": 185.8,
+    "x0": 48.2,
     "rows": [
       [
         "Level",
@@ -3338,6 +3402,7 @@
     "pdfPage": 68,
     "printedPage": 55,
     "top": 477.1,
+    "x0": 301.2,
     "rows": [
       [
         "Ratling Trick",
@@ -3365,6 +3430,7 @@
     "pdfPage": 68,
     "printedPage": 55,
     "top": 578.3,
+    "x0": 41.4,
     "rows": [
       [
         "Trick",
@@ -3392,6 +3458,7 @@
     "pdfPage": 68,
     "printedPage": 55,
     "top": 746.6,
+    "x0": 301.2,
     "rows": [
       [
         "Ratling Trick",
@@ -3407,6 +3474,7 @@
     "pdfPage": 69,
     "printedPage": 56,
     "top": 46.8,
+    "x0": 41.4,
     "rows": [
       [
         "Ratling Trick",
@@ -3430,6 +3498,7 @@
     "pdfPage": 69,
     "printedPage": 56,
     "top": 61.9,
+    "x0": 301.2,
     "rows": [
       [
         "Ratling Trick",
@@ -3457,6 +3526,7 @@
     "pdfPage": 71,
     "printedPage": 58,
     "top": 185.8,
+    "x0": 48.2,
     "rows": [
       [
         "Level",
@@ -3548,6 +3618,7 @@
     "pdfPage": 71,
     "printedPage": 58,
     "top": 372.9,
+    "x0": 301.2,
     "rows": [
       [
         "Protocol",
@@ -3563,6 +3634,7 @@
     "pdfPage": 71,
     "printedPage": 58,
     "top": 552.1,
+    "x0": 301.2,
     "rows": [
       [
         "Combat Protocol",
@@ -3598,6 +3670,7 @@
     "pdfPage": 71,
     "printedPage": 58,
     "top": 563.1,
+    "x0": 41.4,
     "rows": [
       [
         "Protocol",
@@ -3629,6 +3702,7 @@
     "pdfPage": 72,
     "printedPage": 59,
     "top": 46.8,
+    "x0": 301.2,
     "rows": [
       [
         "Combat Protocol",
@@ -3644,6 +3718,7 @@
     "pdfPage": 72,
     "printedPage": 59,
     "top": 259.6,
+    "x0": 301.2,
     "rows": [
       [
         "Combat Protocol",
@@ -3679,6 +3754,7 @@
     "pdfPage": 72,
     "printedPage": 59,
     "top": 305.0,
+    "x0": 41.4,
     "rows": [
       [
         "Combat Protocol",
@@ -3710,6 +3786,7 @@
     "pdfPage": 74,
     "printedPage": 61,
     "top": 170.6,
+    "x0": 48.2,
     "rows": [
       [
         "Level",
@@ -3801,6 +3878,7 @@
     "pdfPage": 74,
     "printedPage": 61,
     "top": 432.5,
+    "x0": 301.2,
     "rows": [
       [
         "Hold Doctrine",
@@ -3824,6 +3902,7 @@
     "pdfPage": 74,
     "printedPage": 61,
     "top": 627.1,
+    "x0": 41.4,
     "rows": [
       [
         "Doctrine",
@@ -3847,6 +3926,7 @@
     "pdfPage": 75,
     "printedPage": 62,
     "top": 80.1,
+    "x0": 41.4,
     "rows": [
       [
         "Hold Doctrine",
@@ -3870,6 +3950,7 @@
     "pdfPage": 75,
     "printedPage": 62,
     "top": 132.8,
+    "x0": 301.2,
     "rows": [
       [
         "Hold Doctrine",
@@ -3893,6 +3974,7 @@
     "pdfPage": 77,
     "printedPage": 64,
     "top": 185.8,
+    "x0": 48.2,
     "rows": [
       [
         "Level",
@@ -3984,6 +4066,7 @@
     "pdfPage": 77,
     "printedPage": 64,
     "top": 447.7,
+    "x0": 301.2,
     "rows": [
       [
         "Expedition Role",
@@ -4007,6 +4090,7 @@
     "pdfPage": 77,
     "printedPage": 64,
     "top": 631.1,
+    "x0": 41.4,
     "rows": [
       [
         "Role",
@@ -4030,6 +4114,7 @@
     "pdfPage": 78,
     "printedPage": 65,
     "top": 61.9,
+    "x0": 41.4,
     "rows": [
       [
         "Expedition Role",
@@ -4053,6 +4138,7 @@
     "pdfPage": 78,
     "printedPage": 65,
     "top": 80.1,
+    "x0": 301.2,
     "rows": [
       [
         "Expedition Role",
@@ -4076,6 +4162,7 @@
     "pdfPage": 80,
     "printedPage": 67,
     "top": 170.6,
+    "x0": 48.2,
     "rows": [
       [
         "Level",
@@ -4167,6 +4254,7 @@
     "pdfPage": 80,
     "printedPage": 67,
     "top": 357.7,
+    "x0": 301.2,
     "rows": [
       [
         "Outcast Path",
@@ -4182,6 +4270,7 @@
     "pdfPage": 80,
     "printedPage": 67,
     "top": 517.5,
+    "x0": 41.4,
     "rows": [
       [
         "Path",
@@ -4205,6 +4294,7 @@
     "pdfPage": 80,
     "printedPage": 67,
     "top": 647.5,
+    "x0": 301.2,
     "rows": [
       [
         "Outcast Path",
@@ -4228,6 +4318,7 @@
     "pdfPage": 80,
     "printedPage": 67,
     "top": 743.8,
+    "x0": 41.4,
     "rows": [
       [
         "Outcast Path",
@@ -4247,6 +4338,7 @@
     "pdfPage": 81,
     "printedPage": 68,
     "top": 46.8,
+    "x0": 301.2,
     "rows": [
       [
         "Outcast Path",
@@ -4266,6 +4358,7 @@
     "pdfPage": 81,
     "printedPage": 68,
     "top": 151.0,
+    "x0": 41.4,
     "rows": [
       [
         "Outcast Path",
@@ -4281,6 +4374,7 @@
     "pdfPage": 83,
     "printedPage": 70,
     "top": 201.0,
+    "x0": 46.8,
     "rows": [
       [
         "Level",
@@ -4372,6 +4466,7 @@
     "pdfPage": 83,
     "printedPage": 70,
     "top": 395.1,
+    "x0": 48.7,
     "rows": [
       [
         "Level",
@@ -4505,6 +4600,7 @@
     "pdfPage": 83,
     "printedPage": 70,
     "top": 467.1,
+    "x0": 301.2,
     "rows": [
       [
         "Path",
@@ -4528,6 +4624,7 @@
     "pdfPage": 83,
     "printedPage": 70,
     "top": 718.9,
+    "x0": 301.2,
     "rows": [
       [
         "Warlock Path",
@@ -4546,7 +4643,44 @@
   {
     "pdfPage": 84,
     "printedPage": 71,
+    "top": 46.8,
+    "x0": 41.4,
+    "rows": [
+      [
+        "Warlock Path",
+        "Feature"
+      ],
+      [
+        "Spirit Guardian",
+        "When you reduce damage with Rune Ward, the target also gains temporary HP equal to your proficiency bonus."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 84,
+    "printedPage": 71,
+    "top": 46.8,
+    "x0": 301.2,
+    "rows": [
+      [
+        "Warlock Path",
+        "Feature"
+      ],
+      [
+        "Storm Warlock",
+        "Your first damaging psychic power each combat deals +1d8 damage."
+      ],
+      [
+        "Spirit Guardian",
+        "Allies protected by your Rune Ward also gain advantage on the next fear or psychic saving throw they make before your next turn."
+      ]
+    ]
+  },
+  {
+    "pdfPage": 84,
+    "printedPage": 71,
     "top": 269.1,
+    "x0": 301.2,
     "rows": [
       [
         "Warlock Path",
@@ -4570,6 +4704,7 @@
     "pdfPage": 84,
     "printedPage": 71,
     "top": 412.7,
+    "x0": 41.4,
     "rows": [
       [
         "Warlock Path",
@@ -4585,6 +4720,7 @@
     "pdfPage": 86,
     "printedPage": 73,
     "top": 128.6,
+    "x0": 48.2,
     "rows": [
       [
         "Talent",
@@ -4676,6 +4812,7 @@
     "pdfPage": 87,
     "printedPage": 74,
     "top": 75.8,
+    "x0": 48.2,
     "rows": [
       [
         "Talent",
@@ -4838,6 +4975,7 @@
     "pdfPage": 89,
     "printedPage": 76,
     "top": 124.4,
+    "x0": 17.1,
     "rows": [
       [
         "Upgrade",
@@ -4960,6 +5098,7 @@
     "pdfPage": 91,
     "printedPage": 78,
     "top": 417.8,
+    "x0": 48.2,
     "rows": [
       [
         "Power Type",
@@ -4987,6 +5126,7 @@
     "pdfPage": 91,
     "printedPage": 78,
     "top": 466.3,
+    "x0": 48.2,
     "rows": [
       [
         "Empowered Option",
@@ -5022,6 +5162,7 @@
     "pdfPage": 91,
     "printedPage": 78,
     "top": 680.7,
+    "x0": 48.2,
     "rows": [
       [
         "Power",
@@ -5069,6 +5210,7 @@
     "pdfPage": 92,
     "printedPage": 79,
     "top": 46.8,
+    "x0": 48.2,
     "rows": [
       [
         "Power",
@@ -5116,6 +5258,7 @@
     "pdfPage": 92,
     "printedPage": 79,
     "top": 210.1,
+    "x0": 48.2,
     "rows": [
       [
         "Power",
@@ -5218,6 +5361,7 @@
     "pdfPage": 93,
     "printedPage": 80,
     "top": 75.8,
+    "x0": 48.2,
     "rows": [
       [
         "Power",
@@ -5290,6 +5434,7 @@
     "pdfPage": 93,
     "printedPage": 80,
     "top": 362.0,
+    "x0": 48.3,
     "rows": [
       [
         "Power",
@@ -5351,6 +5496,7 @@
     "pdfPage": 95,
     "printedPage": 82,
     "top": 340.9,
+    "x0": 41.4,
     "rows": [
       [
         "Method",
@@ -5382,6 +5528,7 @@
     "pdfPage": 95,
     "printedPage": 82,
     "top": 525.5,
+    "x0": 41.4,
     "rows": [
       [
         "Result",
@@ -5425,6 +5572,7 @@
     "pdfPage": 96,
     "printedPage": 83,
     "top": 110.5,
+    "x0": 48.2,
     "rows": [
       [
         "Severity",
@@ -5477,6 +5625,7 @@
     "pdfPage": 96,
     "printedPage": 83,
     "top": 289.1,
+    "x0": 48.2,
     "rows": [
       [
         "Severity",
@@ -5529,6 +5678,7 @@
     "pdfPage": 98,
     "printedPage": 85,
     "top": 218.6,
+    "x0": 41.4,
     "rows": [
       [
         "Corruption",
@@ -5568,6 +5718,7 @@
     "pdfPage": 100,
     "printedPage": 87,
     "top": 136.5,
+    "x0": 48.2,
     "rows": [
       [
         "Class",
@@ -5627,6 +5778,7 @@
     "pdfPage": 101,
     "printedPage": 88,
     "top": 100.6,
+    "x0": 17.1,
     "rows": [
       [
         "Item",
@@ -5712,6 +5864,7 @@
     "pdfPage": 103,
     "printedPage": 90,
     "top": 150.4,
+    "x0": 48.2,
     "rows": [
       [
         "Availability",
@@ -5759,6 +5912,7 @@
     "pdfPage": 103,
     "printedPage": 90,
     "top": 294.4,
+    "x0": 41.4,
     "rows": [
       [
         "Approach",
@@ -5794,6 +5948,7 @@
     "pdfPage": 103,
     "printedPage": 90,
     "top": 406.3,
+    "x0": 41.4,
     "rows": [
       [
         "Result",
@@ -5825,6 +5980,7 @@
     "pdfPage": 103,
     "printedPage": 90,
     "top": 716.9,
+    "x0": 48.2,
     "rows": [
       [
         "Provenance",
@@ -5852,6 +6008,7 @@
     "pdfPage": 104,
     "printedPage": 91,
     "top": 46.8,
+    "x0": 48.2,
     "rows": [
       [
         "Provenance",
@@ -5879,6 +6036,7 @@
     "pdfPage": 104,
     "printedPage": 91,
     "top": 251.3,
+    "x0": 48.3,
     "rows": [
       [
         "Tier",
@@ -5916,6 +6074,7 @@
     "pdfPage": 104,
     "printedPage": 91,
     "top": 420.2,
+    "x0": 48.2,
     "rows": [
       [
         "Modification",
@@ -5973,6 +6132,7 @@
     "pdfPage": 104,
     "printedPage": 91,
     "top": 712.9,
+    "x0": 48.2,
     "rows": [
       [
         "Masterwork Trait",
@@ -6005,6 +6165,7 @@
     "pdfPage": 105,
     "printedPage": 92,
     "top": 46.8,
+    "x0": 48.2,
     "rows": [
       [
         "Masterwork Trait",
@@ -6042,6 +6203,7 @@
     "pdfPage": 105,
     "printedPage": 92,
     "top": 238.0,
+    "x0": 48.2,
     "rows": [
       [
         "Ammunition",
@@ -6089,6 +6251,7 @@
     "pdfPage": 105,
     "printedPage": 92,
     "top": 454.4,
+    "x0": 43.3,
     "rows": [
       [
         "Step",
@@ -6120,6 +6283,7 @@
     "pdfPage": 105,
     "printedPage": 92,
     "top": 739.3,
+    "x0": 43.3,
     "rows": [
       [
         "Condition",
@@ -6139,6 +6303,7 @@
     "pdfPage": 106,
     "printedPage": 93,
     "top": 46.8,
+    "x0": 43.3,
     "rows": [
       [
         "Condition",
@@ -6162,6 +6327,7 @@
     "pdfPage": 106,
     "printedPage": 93,
     "top": 192.1,
+    "x0": 43.3,
     "rows": [
       [
         "Equipment Grade",
@@ -6197,6 +6363,7 @@
     "pdfPage": 106,
     "printedPage": 93,
     "top": 738.6,
+    "x0": 48.2,
     "rows": [
       [
         "Item",
@@ -6219,6 +6386,7 @@
     "pdfPage": 107,
     "printedPage": 94,
     "top": 46.8,
+    "x0": 48.2,
     "rows": [
       [
         "Item",
@@ -6271,6 +6439,7 @@
     "pdfPage": 107,
     "printedPage": 94,
     "top": 328.7,
+    "x0": 48.2,
     "rows": [
       [
         "Item",
@@ -6313,6 +6482,7 @@
     "pdfPage": 107,
     "printedPage": 94,
     "top": 554.4,
+    "x0": 48.2,
     "rows": [
       [
         "Relic",
@@ -6355,6 +6525,7 @@
     "pdfPage": 108,
     "printedPage": 95,
     "top": 46.8,
+    "x0": 48.2,
     "rows": [
       [
         "Relic",
@@ -6392,6 +6563,7 @@
     "pdfPage": 108,
     "printedPage": 95,
     "top": 264.5,
+    "x0": 48.2,
     "rows": [
       [
         "Unique Item",
@@ -6434,6 +6606,7 @@
     "pdfPage": 110,
     "printedPage": 97,
     "top": 233.8,
+    "x0": 48.2,
     "rows": [
       [
         "d8",
@@ -6486,6 +6659,7 @@
     "pdfPage": 110,
     "printedPage": 97,
     "top": 370.1,
+    "x0": 41.4,
     "rows": [
       [
         "Care",
@@ -6517,6 +6691,7 @@
     "pdfPage": 112,
     "printedPage": 99,
     "top": 113.5,
+    "x0": 41.4,
     "rows": [
       [
         "Tier",
@@ -6544,6 +6719,7 @@
     "pdfPage": 114,
     "printedPage": 101,
     "top": 455.8,
+    "x0": 48.2,
     "rows": [
       [
         "Difficulty",
@@ -6581,6 +6757,7 @@
     "pdfPage": 115,
     "printedPage": 102,
     "top": 97.7,
+    "x0": 48.2,
     "rows": [
       [
         "Action",
@@ -6616,6 +6793,7 @@
     "pdfPage": 116,
     "printedPage": 103,
     "top": 255.4,
+    "x0": 48.2,
     "rows": [
       [
         "d6",
@@ -6658,6 +6836,7 @@
     "pdfPage": 117,
     "printedPage": 104,
     "top": 134.4,
+    "x0": 48.2,
     "rows": [
       [
         "Band",
@@ -6700,6 +6879,7 @@
     "pdfPage": 117,
     "printedPage": 104,
     "top": 423.0,
+    "x0": 48.2,
     "rows": [
       [
         "Work",
@@ -6732,6 +6912,7 @@
     "pdfPage": 118,
     "printedPage": 105,
     "top": 218.7,
+    "x0": 48.2,
     "rows": [
       [
         "Upgrade",
@@ -6784,6 +6965,7 @@
     "pdfPage": 121,
     "printedPage": 108,
     "top": 134.4,
+    "x0": 48.2,
     "rows": [
       [
         "Weapon",
@@ -6889,6 +7071,7 @@
     "pdfPage": 123,
     "printedPage": 110,
     "top": 74.7,
+    "x0": 48.2,
     "rows": [
       [
         "Rule",
@@ -6936,6 +7119,7 @@
     "pdfPage": 123,
     "printedPage": 110,
     "top": 202.4,
+    "x0": 48.2,
     "rows": [
       [
         "On Your Turn",
@@ -6967,6 +7151,7 @@
     "pdfPage": 123,
     "printedPage": 110,
     "top": 328.0,
+    "x0": 48.2,
     "rows": [
       [
         "Rule",
@@ -7018,6 +7203,7 @@
     "pdfPage": 123,
     "printedPage": 110,
     "top": 520.6,
+    "x0": 48.2,
     "rows": [
       [
         "Condition / State",
@@ -7081,6 +7267,7 @@
     "pdfPage": 123,
     "printedPage": 110,
     "top": 723.8,
+    "x0": 48.2,
     "rows": [
       [
         "Property",
@@ -7116,6 +7303,7 @@
     "pdfPage": 124,
     "printedPage": 111,
     "top": 46.8,
+    "x0": 48.2,
     "rows": [
       [
         "Property",
@@ -7151,6 +7339,7 @@
     "pdfPage": 124,
     "printedPage": 111,
     "top": 145.4,
+    "x0": 48.2,
     "rows": [
       [
         "Rule / Item",
@@ -7194,6 +7383,7 @@
     "pdfPage": 124,
     "printedPage": 111,
     "top": 300.1,
+    "x0": 48.2,
     "rows": [
       [
         "Rule",
@@ -7241,6 +7431,7 @@
     "pdfPage": 124,
     "printedPage": 111,
     "top": 446.2,
+    "x0": 48.2,
     "rows": [
       [
         "Rule",
@@ -7284,6 +7475,7 @@
     "pdfPage": 125,
     "printedPage": 112,
     "top": 80.7,
+    "x0": 48.2,
     "rows": [
       [
         "Rule",

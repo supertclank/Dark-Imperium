@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.psyker.diviner.level_14",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Diviner level 14",
+  "summary": "Diviner; Once per long rest, replace a d20 roll made by a creature you can see with a 10 before modifiers.",
+  "descriptionMarkdown": "Diviner; Once per long rest, replace a d20 roll made by a creature you can see with a 10 before modifiers.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Diviner level 14",
+        "pdfPage": 57,
+        "printedPage": 44
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Diviner; Once per long rest, replace a d20 roll made by a creature you can see with a 10 before modifiers.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

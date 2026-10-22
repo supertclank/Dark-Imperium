@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.arbites_enforcer.riot_shield.level_3",
+  "kind": "feature",
+  "revision": 2,
+  "name": "Riot Shield level 3",
+  "summary": "Riot Shield; While using a shield, you gain +1 AC and advantage against being shoved.",
+  "descriptionMarkdown": "Riot Shield; While using a shield, you gain +1 AC and advantage against being shoved.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Riot Shield level 3",
+        "pdfPage": 62,
+        "printedPage": 49
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [
+      {
+        "id": "shield_defence",
+        "automation": "conditional",
+        "activation": "continuous",
+        "target": {
+          "kind": "stat",
+          "key": "defence",
+          "scope": "self"
+        },
+        "operation": "add",
+        "value": {
+          "kind": "constant",
+          "value": 1
+        },
+        "duration": {
+          "kind": "while_source"
+        },
+        "stacking": {
+          "group": "di.riot_shield.defence",
+          "mode": "sum"
+        },
+        "priority": 0,
+        "when": {
+          "kind": "equipped",
+          "itemKind": "shield"
+        }
+      }
+    ],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "While using a shield, you gain advantage against being shoved.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

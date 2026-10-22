@@ -1,3 +1,5 @@
+> Historical intake report. Current counts, dispositions and readiness are in [PHB_CANONICALISATION_REPORT](PHB_CANONICALISATION_REPORT.md); machine-readable review ledgers have been updated.
+
 # PHB cross-reference audit
 
 This is a source-and-import audit, not a completed certification of every prose reference. All canonical draft ContentRefs resolve in the draft package; incomplete mappings stay outside it. The source-to-ID review is broader than the runtime reference validator.

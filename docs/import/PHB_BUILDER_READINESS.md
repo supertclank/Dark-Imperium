@@ -1,3 +1,5 @@
+> Historical intake report. Current counts, dispositions and readiness are in [PHB_CANONICALISATION_REPORT](PHB_CANONICALISATION_REPORT.md); machine-readable review ledgers have been updated.
+
 # Builder and sheet readiness
 
 The import is **not ready for a full playable builder**. A browser form could display draft species/classes and their source text, but must not imply their mechanical dependencies are complete.

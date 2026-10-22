@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.psyker.telekine",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Telekine",
+  "summary": "Telekine; Universal, Telekinesis; Force shields, kinetic movement, crushing pressure, battlefield control.  Telekine; When you cast a force power, you may push the target 10 ft on a failed save.  Telekine; Your forced movement increases by 5 ft.  Telekine; Once per short rest, when you use Psychic Ward, you may also push the attacker 10 ft.",
+  "descriptionMarkdown": "Telekine; Universal, Telekinesis; Force shields, kinetic movement, crushing pressure, battlefield control.\n\nTelekine; When you cast a force power, you may push the target 10 ft on a failed save.\n\nTelekine; Your forced movement increases by 5 ft.\n\nTelekine; Once per short rest, when you use Psychic Ward, you may also push the attacker 10 ft.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Telekine",
+        "pdfPage": 56,
+        "printedPage": 43
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Telekine",
+        "pdfPage": 57,
+        "printedPage": 44
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.psyker"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.psyker.telekine"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.psyker"
+        }
+      },
+      "operator": "gte",
+      "value": 1
+    }
+  }
+}

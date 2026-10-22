@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.zealot.purifier.level_14",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Purifier level 14",
+  "summary": "Purifier; Your fire damage ignores resistance, and daemons/corrupted creatures cannot regain hit points until the start of your next turn after taking your fire damage.",
+  "descriptionMarkdown": "Purifier; Your fire damage ignores resistance, and daemons/corrupted creatures cannot regain hit points until the start of your next turn after taking your fire damage.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Purifier level 14",
+        "pdfPage": 54,
+        "printedPage": 41
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Purifier; Your fire damage ignores resistance, and daemons/corrupted creatures cannot regain hit points until the start of your next turn after taking your fire damage.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

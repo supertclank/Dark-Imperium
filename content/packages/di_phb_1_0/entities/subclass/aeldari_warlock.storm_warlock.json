@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.aeldari_warlock.storm_warlock",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Storm Warlock",
+  "summary": "Storm Warlock; When you deal force, lightning, fire, or radiant damage with a psychic power, add +1 damage per die.  Storm Warlock; Once per turn, when a psychic power damages a creature, push it 5 ft.  Storm Warlock; Your first damaging psychic power each combat deals +1d8 damage.  Storm Warlock; Your Storm Warlock push increases to 10 ft.",
+  "descriptionMarkdown": "Storm Warlock; When you deal force, lightning, fire, or radiant damage with a psychic power, add +1 damage per die.\n\nStorm Warlock; Once per turn, when a psychic power damages a creature, push it 5 ft.\n\nStorm Warlock; Your first damaging psychic power each combat deals +1d8 damage.\n\nStorm Warlock; Your Storm Warlock push increases to 10 ft.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Storm Warlock",
+        "pdfPage": 83,
+        "printedPage": 70
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Storm Warlock",
+        "pdfPage": 84,
+        "printedPage": 71
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.aeldari_warlock"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.aeldari_warlock.storm_warlock"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.aeldari_warlock"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}

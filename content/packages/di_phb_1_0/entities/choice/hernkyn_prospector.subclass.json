@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "di.choice.hernkyn_prospector.subclass",
+  "kind": "choice",
+  "revision": 1,
+  "name": "Hernkyn Prospector subclass",
+  "summary": "Choose one eligible subclass; source table determines progression levels.",
+  "descriptionMarkdown": "Choose one eligible subclass; source table determines progression levels.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.10",
+        "heading": "Hernkyn Prospector",
+        "pdfPage": 77,
+        "printedPage": 64
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "purpose": "subclass",
+    "selectionMode": "options",
+    "cardinality": {
+      "min": 1,
+      "max": 1,
+      "unique": true
+    },
+    "repeatScope": "once_per_actor",
+    "options": [
+      {
+        "id": "claim_staker",
+        "label": "Claim-Staker",
+        "grants": [
+          {
+            "id": "select",
+            "kind": "select",
+            "content": {
+              "id": "di.subclass.hernkyn_prospector.claim_staker"
+            }
+          }
+        ]
+      },
+      {
+        "id": "outrider",
+        "label": "Outrider",
+        "grants": [
+          {
+            "id": "select",
+            "kind": "select",
+            "content": {
+              "id": "di.subclass.hernkyn_prospector.outrider"
+            }
+          }
+        ]
+      },
+      {
+        "id": "trail_gunner",
+        "label": "Trail Gunner",
+        "grants": [
+          {
+            "id": "select",
+            "kind": "select",
+            "content": {
+              "id": "di.subclass.hernkyn_prospector.trail_gunner"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

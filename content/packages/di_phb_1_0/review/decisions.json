@@ -1,4 +1,193 @@
 {
-  "decisions": [],
-  "note": "No human ambiguity resolutions or publication approvals have been invented."
+  "decisions": [
+    {
+      "id": "PHB-RULE-008",
+      "group": "PHB-001",
+      "basis": "PHB v1.0 source interpretation; not a human ruling",
+      "sourcePages": [
+        26,
+        27
+      ],
+      "decision": "Applied selected-species prerequisites to all three."
+    },
+    {
+      "id": "PHB-RULE-013",
+      "group": "PHB-002",
+      "basis": "PHB v1.0 source interpretation; not a human ruling",
+      "sourcePages": [
+        15,
+        18,
+        123
+      ],
+      "decision": "Added tested proficiency, check-modifier policies; initiative is d20 + Dex modifier; ability selection remains contextual."
+    },
+    {
+      "id": "PHB-RULE-019",
+      "group": "PHB-004",
+      "basis": "PHB v1.0 source interpretation; not a human ruling",
+      "sourcePages": [
+        35
+      ],
+      "decision": "Keep GM decision visible; relevant training taxonomy remains unresolved."
+    },
+    {
+      "id": "PHB-RULE-021",
+      "group": "PHB-004",
+      "basis": "PHB v1.0 source interpretation; not a human ruling",
+      "sourcePages": [
+        115,
+        121
+      ],
+      "decision": "Recorded mounted-only policy, preserving personal-versus-mounted context."
+    },
+    {
+      "id": "PHB-RULE-023",
+      "group": "PHB-004",
+      "basis": "PHB v1.0 source interpretation; not a human ruling",
+      "sourcePages": [
+        35
+      ],
+      "decision": "Preserve this exact manual sequence; no external reroll-to-hit convention."
+    },
+    {
+      "id": "PHB-RULE-027",
+      "group": "PHB-006",
+      "basis": "PHB v1.0 source interpretation; not a human ruling",
+      "sourcePages": [
+        37,
+        40,
+        42,
+        91,
+        93
+      ],
+      "decision": "Retained plus components; added Acid, making 13 types; classified families separately."
+    },
+    {
+      "id": "PHB-RULE-031",
+      "group": "PHB-007",
+      "basis": "PHB v1.0 source interpretation; not a human ruling",
+      "sourcePages": [
+        42
+      ],
+      "decision": "Tested explicit-formula arithmetic preserving negative Dex. No global multiple-armour or multiple-shield rule inferred."
+    },
+    {
+      "id": "PHB-RULE-034",
+      "group": "PHB-008",
+      "basis": "PHB v1.0 source interpretation; not a human ruling",
+      "sourcePages": [
+        15,
+        83,
+        91
+      ],
+      "decision": "Record specific exception to chapter 14 general entry rule; class eligibility remains Aeldari only."
+    },
+    {
+      "id": "PHB-RULE-039",
+      "group": "PHB-010",
+      "basis": "PHB v1.0 source interpretation; not a human ruling",
+      "sourcePages": [
+        116,
+        121,
+        125
+      ],
+      "decision": "Implemented pure conformance function with boundary and mixed-component tests."
+    },
+    {
+      "id": "PHB-RULE-040",
+      "group": "PHB-010",
+      "basis": "PHB v1.0 source interpretation; not a human ruling",
+      "sourcePages": [
+        114,
+        115,
+        116
+      ],
+      "decision": "Document object targeting/immunity before DT; no personal resistance inherited by hull."
+    },
+    {
+      "id": "PHB-RULE-043",
+      "group": "PHB-012",
+      "basis": "PHB v1.0 source interpretation; not a human ruling",
+      "sourcePages": [
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84
+      ],
+      "decision": "Promoted 42 candidates, added features/progressions/choices and removed duplicate parent progression placeholder grants."
+    },
+    {
+      "id": "PHB-RULE-045",
+      "group": "PHB-013",
+      "basis": "PHB v1.0 source interpretation; not a human ruling",
+      "sourcePages": [
+        32,
+        123
+      ],
+      "decision": "Classified old condition candidate invalid; use health_ratio lte 1/2; keep identity reserved."
+    },
+    {
+      "id": "PHB-RULE-048",
+      "group": "PHB-013",
+      "basis": "PHB v1.0 source interpretation; not a human ruling",
+      "sourcePages": [
+        33
+      ],
+      "decision": "Document cumulative level effects and recover-one rule; no independent additive condition copies."
+    },
+    {
+      "id": "PHB-RULE-052",
+      "group": "PHB-014",
+      "basis": "PHB v1.0 source interpretation; not a human ruling",
+      "sourcePages": [
+        38,
+        47,
+        100
+      ],
+      "decision": "Missing reference claim is closed; canonical weapon completeness remains separate."
+    },
+    {
+      "id": "PHB-RULE-053",
+      "group": "PHB-015",
+      "basis": "PHB v1.0 source interpretation; not a human ruling",
+      "sourcePages": [
+        37,
+        91
+      ],
+      "decision": "Added versioned damageBindings capability, validated one-to-one group/type links in both templates; not full actor RollDefinitions."
+    }
+  ],
+  "humanRulings": [],
+  "note": "No user rulings or publication approvals invented. Resolved decisions are source-supported mappings/policies."
 }

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.zealot.purifier",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Purifier",
+  "summary": "Purifier; You gain proficiency with flamers. Once per turn, fire damage you deal ignores resistance.  Purifier; Your flamer and firebomb damage increases by +1 per damage die against daemons, heretics, mutants, and corrupted creatures.  Purifier; Your fire damage ignores resistance, and daemons/corrupted creatures cannot regain hit points until the start of your next turn after taking your fire damage.  Purifier; When you deal fire damage, one affected creature cannot benefit from cover against ",
+  "descriptionMarkdown": "Purifier; You gain proficiency with flamers. Once per turn, fire damage you deal ignores resistance.\n\nPurifier; Your flamer and firebomb damage increases by +1 per damage die against daemons, heretics, mutants, and corrupted creatures.\n\nPurifier; Your fire damage ignores resistance, and daemons/corrupted creatures cannot regain hit points until the start of your next turn after taking your fire damage.\n\nPurifier; When you deal fire damage, one affected creature cannot benefit from cover against your next attack before your next turn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Purifier",
+        "pdfPage": 53,
+        "printedPage": 40
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Purifier",
+        "pdfPage": 54,
+        "printedPage": 41
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.zealot"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.zealot.purifier"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.zealot"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}

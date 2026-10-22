@@ -67,22 +67,49 @@ def number(value):
     else:
         raise InvalidContent('UNSUPPORTED_NUMBER_VALUE_IN_IMPORT_SUBSET')
 
-def predicate(value, records, depth=0):
-    require(depth <= 8, 'PREDICATE_DEPTH')
-    k = value.get('kind')
-    if k == 'selected':
-        shape(value, ['kind','content']); ref(value['content'], records)
-    elif k == 'any':
-        shape(value, ['kind','predicates']); require(0 < len(value['predicates']) <= 100, 'PREDICATE_SIZE')
-        for child in value['predicates']: predicate(child, records, depth+1)
-    elif k == 'level':
-        shape(value, ['kind','axis','operator','value']); shape(value['axis'], ['kind','class'])
-        require(value['axis']['kind']=='class_level' and value['operator']=='gte','UNSUPPORTED_LEVEL_PREDICATE')
-        ref(value['axis']['class'],records,'class'); integer(value['value'],1,20)
-    else: raise InvalidContent('UNSUPPORTED_PREDICATE_IN_IMPORT_SUBSET: '+str(k))
+def predicate(value, records, depth=0, budget=None):
+    if budget is None: budget=[0]
+    budget[0]+=1
+    require(depth<=8 and budget[0]<=100, 'PREDICATE_BOUNDS')
+    require(isinstance(value,dict),'PREDICATE_OBJECT')
+    k=value.get('kind')
+    if k in ['all','any']:
+        shape(value,['kind','predicates'])
+        require(isinstance(value['predicates'],list) and value['predicates'],'PREDICATE_SIZE')
+        for child in value['predicates']:predicate(child,records,depth+1,budget)
+    elif k=='not':
+        shape(value,['kind','predicate']);predicate(value['predicate'],records,depth+1,budget)
+    elif k=='selected':shape(value,['kind','content']);ref(value['content'],records)
+    elif k=='proficient':shape(value,['kind','proficiency']);ref(value['proficiency'],records,'proficiency')
+    elif k=='level':
+        shape(value,['kind','axis','operator','value']);a=value['axis']
+        if a.get('kind')=='class_level':shape(a,['kind','class']);ref(a['class'],records,'class')
+        else:shape(a,['kind']);require(a['kind']=='total_level','LEVEL_AXIS')
+        require(value['operator'] in ['eq','lt','lte','gt','gte'],'COMPARISON');integer(value['value'],0,20)
+    elif k=='stat':
+        shape(value,['kind','key','operator','value'])
+        require(value['key'] in ['attribute.'+a+'.score' for a in ['strength','dexterity','constitution','intelligence','wisdom','charisma']],'STAT_KEY')
+        require(value['operator'] in ['eq','lt','lte','gt','gte'],'COMPARISON');integer(value['value'],-1000000,1000000)
+    elif k=='fact':
+        shape(value,['kind','key','equals'])
+        require(value['key'] in {x['key'] for x in read(PACKAGE/'review/prerequisite-facts.json')} and type(value['equals']) is bool,'FACT_VOCABULARY')
+    elif k=='equipped':
+        shape(value,['kind'],['itemKind','property','slot']);require(len(value)>1,'EQUIPPED_SELECTOR')
+        if 'itemKind' in value:require(value['itemKind'] in ['weapon','armour','shield','equipment'],'ITEM_KIND')
+        if 'property' in value:ref(value['property'],records,'property')
+        if 'slot' in value:require(isinstance(value['slot'],str) and value['slot'],'SLOT')
+    elif k=='tagged':
+        shape(value,['kind','scope','tag']);require(value['scope'] in ['self','action_target','attack_weapon'],'SCOPE');ref(value['tag'],records,'tag')
+    elif k=='health_ratio':
+        shape(value,['kind','scope','operator','numerator','denominator'])
+        require(value['scope'] in ['self','action_target'],'SCOPE');require(value['operator'] in ['eq','lt','lte','gt','gte'],'COMPARISON')
+        integer(value['numerator'],0,1000000);integer(value['denominator'],1,1000000)
+    else:raise InvalidContent('UNSUPPORTED_PREDICATE_IN_IMPORT_SUBSET: '+str(k))
+
 
 def manuals(values):
     require(isinstance(values,list), 'MANUAL_ARRAY')
+    require(len({x['id'] for x in values})==len(values),'DUPLICATE_MANUAL_ID')
     for m in values:
         shape(m,['id','automation','text','adjudicator','context','reason'])
         local(m['id']); require(m['automation']=='manual' and m['adjudicator'] in ['gm','player'],'MANUAL_AUTOMATION')
@@ -100,22 +127,25 @@ def grants(values, records):
             field={'feature':'feature','proficiency':'proficiency','choice':'choice','select':'content'}.get(k)
             require(field is not None,'UNSUPPORTED_GRANT');shape(g,['id','kind',field]);ref(g[field],records,None if k=='select' else k)
 
-def effects(values):
+def effects(values, records=None):
     require(isinstance(values,list), 'EFFECT_ARRAY')
+    require(len({x['id'] for x in values})==len(values),'DUPLICATE_EFFECT_ID')
     for e in values:
-        shape(e,['id','automation','activation','target','operation','value','duration','stacking','priority'])
-        local(e['id']); require(e['automation']=='automatic' and e['activation']=='continuous','EFFECT_SUBSET')
+        shape(e,['id','automation','activation','target','operation','value','duration','stacking','priority'],['when'])
+        local(e['id']); require(e['automation'] in ['automatic','conditional'] and e['activation']=='continuous','EFFECT_SUBSET')
+        if e['automation']=='conditional':require('when' in e,'CONDITION_REQUIRED')
+        if 'when' in e:require(e['automation']=='conditional','CONDITIONAL_AUTOMATION');predicate(e['when'],records)
         shape(e['target'],['kind','key','scope']);require(e['target']['kind']=='stat' and e['target']['scope']=='self','TARGET_SUBSET')
-        require(e['target']['key'] in ['movement.walk','initiative']+['attribute.'+a+'.score' for a in ['strength','dexterity','constitution','intelligence','wisdom','charisma']],'STAT_KEY')
+        require(e['target']['key'] in ['movement.walk','initiative','defence']+['attribute.'+a+'.score' for a in ['strength','dexterity','constitution','intelligence','wisdom','charisma']],'STAT_KEY')
         require(e['operation'] in ['add','base'],'OPERATION');number(e['value'])
         require(e['duration']=={'kind':'while_source'},'DURATION');shape(e['stacking'],['group','mode'])
         require(e['stacking']['mode'] in ['sum','replace'],'STACK_MODE');integer(e['priority'],-1000,1000)
 
 FIELDS={
  'skill':(['attributeKey'],[]), 'proficiency':(['category','appliesTo'],[]),
- 'feature':(['flavor','effects','grants','manualRules'],['choices']),
+ 'feature':(['flavor','effects','grants','manualRules'],['choices','requirements']),
  'choice':(['purpose','selectionMode','cardinality','repeatScope','options'],[]),
- 'species':(['features','size'],['choices']), 'background':(['features'],['choices']),
+ 'species':(['features','size'],['choices']), 'background':(['features'],['choices','requirements']),
  'property':(['appliesToKinds','parameters','effects','manualRules'],[]),
  'rule':(['role','automation','effects','manualRules'],[]),
  'progression':(['axis','maxLevel','entries'],[]),
@@ -144,8 +174,9 @@ def validate_records(records):
         d=e['data'];k=e['kind'];shape(d,*FIELDS[k])
         if 'features' in d:refs(d['features'],records,'feature')
         if 'choices' in d:refs(d['choices'],records,'choice')
-        if 'effects' in d:effects(d['effects'])
+        if 'effects' in d:effects(d['effects'],records)
         if 'manualRules' in d:manuals(d['manualRules'])
+        if 'requirements' in d and k not in ['armour','shield']:predicate(d['requirements'],records)
         if k=='feature':
             require(d['flavor'] in ['general','feat','species_trait','background_feature','class_feature','subclass_feature'],'FLAVOR');grants(d['grants'],records)
         elif k=='proficiency':
@@ -185,10 +216,18 @@ def validate_records(records):
         elif k=='action':
             require(d['economy']=='manual' and d['costs']==[],'ACTION_SUBSET');require(d['target']=={'kind':'single','scope':'actor'},'ACTION_TARGET')
             for o in d['outcomes']:
-                shape(o,['id','on','effects','manualRules']);local(o['id']);require(o['on']=='always','OUTCOME');effects(o['effects']);manuals(o['manualRules'])
+                shape(o,['id','on','effects','manualRules']);local(o['id']);require(o['on']=='always','OUTCOME');effects(o['effects'],records);manuals(o['manualRules'])
             for roll in d.get('rolls',[]):
-                shape(roll,['id','category','label','groups','modifiers']);local(roll['id']);require(roll['category']=='damage' and roll['modifiers']==[],'ROLL_SUBSET')
+                shape(roll,['id','category','label','groups','modifiers'],['damageBindings']);local(roll['id']);require(roll['category']=='damage' and roll['modifiers']==[],'ROLL_SUBSET')
                 require(len(roll['groups'])>0,'DICE_REQUIRED')
+                group_ids={g['id'] for g in roll['groups']}
+                require(len(group_ids)==len(roll['groups']),'DUPLICATE_ROLL_GROUP')
+                if 'damageBindings' in roll:
+                    bindings=roll['damageBindings']
+                    require(len(bindings)==len(group_ids) and {b['groupId'] for b in bindings}==group_ids,'DAMAGE_BINDING_COVERAGE')
+                    require(len({b['componentId'] for b in bindings})==len(bindings),'DUPLICATE_DAMAGE_COMPONENT')
+                    for b in bindings:
+                        shape(b,['groupId','componentId','damageType']);local(b['componentId']);ref(b['damageType'],records,'damage_type')
                 for g in roll['groups']:shape(g,['id','count','sides']);local(g['id']);integer(g['count'],1,100);integer(g['sides'],2,1000)
         elif k=='damage_type':require(isinstance(d['category'],str) and d['category'],'DAMAGE_CATEGORY')
         def safe(v):
@@ -223,6 +262,10 @@ def validate_candidates(package,records):
         require(ID.fullmatch(c['proposedId']) and c['proposedId'].split('.')[1]==c['kind'],'CANDIDATE_ID')
         require(c['proposedId'] not in ids and c['proposedId'] not in records,'CANDIDATE_COLLISION');ids.add(c['proposedId'])
         require(c['issues'] and c['evidence'] and c['coverage']=='PARTIALLY_STRUCTURED','CANDIDATE_EVIDENCE')
+        for evidence in c['evidence']:
+            shape(evidence,['text','source']);require(isinstance(evidence['text'],str) and evidence['text'].strip(),'CANDIDATE_TEXT')
+            src=evidence['source'];require((src['sourceId'],src['sourceVersion']) in {(s['sourceId'],s['sourceVersion']) for s in read(package/'sources.json')['sources']},'CANDIDATE_SOURCE')
+            loc=src['locator'];integer(loc['pdfPage'],14,125);require(loc['printedPage']==loc['pdfPage']-13,'CANDIDATE_PAGE')
         d=c['proposedData']
         for component in [component for mode in d.get('modes',[]) for component in mode.get('damage',[])]:
             shape(component,['id','dice','bonus','damageType']);shape(component['dice'],['count','sides','bonus'])

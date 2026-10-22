@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.arbites_enforcer.riot_shield.level_7",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Riot Shield level 7",
+  "summary": "Riot Shield; When you take the Dodge action with a shield, one adjacent ally also gains +2 AC.",
+  "descriptionMarkdown": "Riot Shield; When you take the Dodge action with a shield, one adjacent ally also gains +2 AC.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Riot Shield level 7",
+        "pdfPage": 62,
+        "printedPage": 49
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Riot Shield; When you take the Dodge action with a shield, one adjacent ally also gains +2 AC.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

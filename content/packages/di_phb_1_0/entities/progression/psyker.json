@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.progression.psyker",
   "kind": "progression",
-  "revision": 1,
+  "revision": 2,
   "name": "Psyker progression",
   "summary": "Exact level labels from the class table; feature automation is separately classified.",
   "descriptionMarkdown": "Exact level labels from the class table; feature automation is separately classified.",
@@ -34,17 +34,17 @@
         "level": 1,
         "grants": [
           {
-            "id": "level_1_1",
-            "kind": "feature",
-            "feature": {
-              "id": "di.feature.class.psyker.level_1.psychic_discipline"
-            }
-          },
-          {
             "id": "level_1_2",
             "kind": "feature",
             "feature": {
               "id": "di.feature.class.psyker.level_1.warp_pressure"
+            }
+          },
+          {
+            "id": "choose_subclass",
+            "kind": "choice",
+            "choice": {
+              "id": "di.choice.psyker.subclass"
             }
           }
         ]
@@ -63,15 +63,7 @@
       },
       {
         "level": 3,
-        "grants": [
-          {
-            "id": "level_3_1",
-            "kind": "feature",
-            "feature": {
-              "id": "di.feature.class.psyker.level_3.discipline_feature"
-            }
-          }
-        ]
+        "grants": []
       },
       {
         "level": 4,
@@ -111,15 +103,7 @@
       },
       {
         "level": 7,
-        "grants": [
-          {
-            "id": "level_7_1",
-            "kind": "feature",
-            "feature": {
-              "id": "di.feature.class.psyker.level_7.discipline_feature"
-            }
-          }
-        ]
+        "grants": []
       },
       {
         "level": 8,
@@ -195,15 +179,7 @@
       },
       {
         "level": 14,
-        "grants": [
-          {
-            "id": "level_14_1",
-            "kind": "feature",
-            "feature": {
-              "id": "di.feature.class.psyker.level_14.discipline_feature"
-            }
-          }
-        ]
+        "grants": []
       },
       {
         "level": 15,

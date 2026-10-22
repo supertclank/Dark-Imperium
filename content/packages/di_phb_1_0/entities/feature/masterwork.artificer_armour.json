@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.masterwork.artificer_armour",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Artificer Armour",
+  "summary": "Masterwork Trait: Artificer Armour; Eligible Item: Armour; Effect: Increase the armour's AC by +1. A shield or field cannot gain this trait.",
+  "descriptionMarkdown": "Masterwork Trait: Artificer Armour; Eligible Item: Armour; Effect: Increase the armour's AC by +1. A shield or field cannot gain this trait.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "18",
+        "heading": "Artificer Armour",
+        "pdfPage": 105,
+        "printedPage": 92
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "general",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Masterwork Trait: Artificer Armour; Eligible Item: Armour; Effect: Increase the armour's AC by +1. A shield or field cannot gain this trait.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Item-bound procedure retained manually, including host eligibility; no automatic actor-wide bonus."
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.hernkyn_prospector.outrider",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Outrider",
+  "summary": "Outrider; Your speed increases by 5 ft. When you Dash, opportunity attacks against you have disadvantage.  Outrider; When you move at least 15 ft, your next attack this turn deals +1d6 damage.  Outrider; Once per short rest, take the Dash or Disengage action as a free action on your turn.  Outrider; After you use Outrider’s Escape, your next attack before your next turn has advantage.",
+  "descriptionMarkdown": "Outrider; Your speed increases by 5 ft. When you Dash, opportunity attacks against you have disadvantage.\n\nOutrider; When you move at least 15 ft, your next attack this turn deals +1d6 damage.\n\nOutrider; Once per short rest, take the Dash or Disengage action as a free action on your turn.\n\nOutrider; After you use Outrider’s Escape, your next attack before your next turn has advantage.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Outrider",
+        "pdfPage": 77,
+        "printedPage": 64
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Outrider",
+        "pdfPage": 78,
+        "printedPage": 65
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.hernkyn_prospector"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.hernkyn_prospector.outrider"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.hernkyn_prospector"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}

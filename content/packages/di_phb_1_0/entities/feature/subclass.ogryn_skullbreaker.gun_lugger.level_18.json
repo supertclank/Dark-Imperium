@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.ogryn_skullbreaker.gun_lugger.level_18",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Gun Lugger level 18",
+  "summary": "Gun Lugger; Once per turn, your heavy ranged weapon hit deals +1d8 damage.",
+  "descriptionMarkdown": "Gun Lugger; Once per turn, your heavy ranged weapon hit deals +1d8 damage.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Gun Lugger level 18",
+        "pdfPage": 60,
+        "printedPage": 47
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Gun Lugger; Once per turn, your heavy ranged weapon hit deals +1d8 damage.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

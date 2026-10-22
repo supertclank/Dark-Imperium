@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "di.progression.kin_armsman.hearthguard",
+  "kind": "progression",
+  "revision": 1,
+  "name": "Hearthguard progression",
+  "summary": "Level grants transcribed from class tables. Upgrade/replacement mechanics remain in the visible manual feature text.",
+  "descriptionMarkdown": "Level grants transcribed from class tables. Upgrade/replacement mechanics remain in the visible manual feature text.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Hearthguard",
+        "pdfPage": 74,
+        "printedPage": 61
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Hearthguard",
+        "pdfPage": 75,
+        "printedPage": 62
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "axis": {
+      "kind": "class_level",
+      "class": {
+        "id": "di.class.kin_armsman"
+      }
+    },
+    "maxLevel": 20,
+    "entries": [
+      {
+        "level": 3,
+        "grants": [
+          {
+            "id": "level_3",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.subclass.kin_armsman.hearthguard.level_3"
+            }
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "grants": [
+          {
+            "id": "level_7",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.subclass.kin_armsman.hearthguard.level_7"
+            }
+          }
+        ]
+      },
+      {
+        "level": 14,
+        "grants": [
+          {
+            "id": "level_14",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.subclass.kin_armsman.hearthguard.level_14"
+            }
+          }
+        ]
+      },
+      {
+        "level": 18,
+        "grants": [
+          {
+            "id": "level_18",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.subclass.kin_armsman.hearthguard.level_18"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

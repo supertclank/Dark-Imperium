@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.hive_scum.sump_ghost.level_3",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Sump Ghost level 3",
+  "summary": "Sump Ghost; You gain expertise in Stealth when in urban ruins, sewers, vents, tunnels, or industrial terrain.",
+  "descriptionMarkdown": "Sump Ghost; You gain expertise in Stealth when in urban ruins, sewers, vents, tunnels, or industrial terrain.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Sump Ghost level 3",
+        "pdfPage": 65,
+        "printedPage": 52
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Sump Ghost; You gain expertise in Stealth when in urban ruins, sewers, vents, tunnels, or industrial terrain.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

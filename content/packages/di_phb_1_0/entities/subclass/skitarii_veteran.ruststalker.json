@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.skitarii_veteran.ruststalker",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Ruststalker Protocol",
+  "summary": "Ruststalker Protocol; Gain proficiency with blades. Your melee attacks deal +1d6 damage against targets below half their hit points.  Ruststalker; Your melee attacks ignore resistance from non-powered armour.  Ruststalker; Your melee critical hits disable reactions until the target’s next turn.  Ruststalker; Your melee hits against bloodied targets deal +1d8 damage.",
+  "descriptionMarkdown": "Ruststalker Protocol; Gain proficiency with blades. Your melee attacks deal +1d6 damage against targets below half their hit points.\n\nRuststalker; Your melee attacks ignore resistance from non-powered armour.\n\nRuststalker; Your melee critical hits disable reactions until the target’s next turn.\n\nRuststalker; Your melee hits against bloodied targets deal +1d8 damage.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Ruststalker Protocol",
+        "pdfPage": 71,
+        "printedPage": 58
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Ruststalker Protocol",
+        "pdfPage": 72,
+        "printedPage": 59
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.skitarii_veteran"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.skitarii_veteran.ruststalker"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.skitarii_veteran"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}

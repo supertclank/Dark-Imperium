@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.ratling_sharpshooter.black_market_gremlin.level_3",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Black-Market Gremlin level 3",
+  "summary": "Black-Market Gremlin; You can usually acquire illegal ammo, fake papers, ration packs, or minor contraband in settlements. You gain proficiency with thieves’ tools.",
+  "descriptionMarkdown": "Black-Market Gremlin; You can usually acquire illegal ammo, fake papers, ration packs, or minor contraband in settlements. You gain proficiency with thieves’ tools.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Black-Market Gremlin level 3",
+        "pdfPage": 68,
+        "printedPage": 55
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Black-Market Gremlin; You can usually acquire illegal ammo, fake papers, ration packs, or minor contraband in settlements. You gain proficiency with thieves’ tools.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

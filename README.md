@@ -90,3 +90,8 @@ Recommended next milestone: formalize the initial game rules, add content valida
 ## PHB import status — 22 October 2026
 
 The supplied Version 1.0 handbook is now registered and partially transcribed. See [PHB import report](docs/import/PHB_IMPORT_REPORT.md). The original example records remain historical placeholders and are not PHB data. Canonical drafts and incomplete candidates are separate; publication and full builder readiness remain blocked pending source review and mapping.
+
+
+## Rules resolution pass — 2026-10-22
+
+870 canonical drafts,333 remaining candidates,45 mapped subclasses and44 passing content tests.15 concrete issues resolved;36 human questions remain. Builder NOT_READY; rules/dice PARTIAL. See the [canonicalisation report](docs/import/PHB_CANONICALISATION_REPORT.md) and its exact-rulings checklist. Application behaviour remains unchanged.

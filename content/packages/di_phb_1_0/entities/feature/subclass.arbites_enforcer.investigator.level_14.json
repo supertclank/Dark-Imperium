@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.arbites_enforcer.investigator.level_14",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Investigator level 14",
+  "summary": "Investigator; Once per short rest, ask the GM one tactical question about a creature, device, crime scene, or battlefield; the GM answers truthfully but briefly.",
+  "descriptionMarkdown": "Investigator; Once per short rest, ask the GM one tactical question about a creature, device, crime scene, or battlefield; the GM answers truthfully but briefly.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Investigator level 14",
+        "pdfPage": 63,
+        "printedPage": 50
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Investigator; Once per short rest, ask the GM one tactical question about a creature, device, crime scene, or battlefield; the GM answers truthfully but briefly.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

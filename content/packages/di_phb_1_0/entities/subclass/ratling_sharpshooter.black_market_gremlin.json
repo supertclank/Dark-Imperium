@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.ratling_sharpshooter.black_market_gremlin",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Black-Market Gremlin",
+  "summary": "Black-Market Gremlin; You can usually acquire illegal ammo, fake papers, ration packs, or minor contraband in settlements. You gain proficiency with thieves’ tools.  Black-Market Gremlin; Once per session, produce one plausible piece of minor contraband or ammunition.  Black-Market Gremlin; When you spend downtime in a settlement, reduce the cost or difficulty of acquiring illegal ammunition or forged papers.  Black-Market Gremlin; Once per session, produce one rare ammunition, forged credential",
+  "descriptionMarkdown": "Black-Market Gremlin; You can usually acquire illegal ammo, fake papers, ration packs, or minor contraband in settlements. You gain proficiency with thieves’ tools.\n\nBlack-Market Gremlin; Once per session, produce one plausible piece of minor contraband or ammunition.\n\nBlack-Market Gremlin; When you spend downtime in a settlement, reduce the cost or difficulty of acquiring illegal ammunition or forged papers.\n\nBlack-Market Gremlin; Once per session, produce one rare ammunition, forged credential, or compact tool with GM approval.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Black-Market Gremlin",
+        "pdfPage": 68,
+        "printedPage": 55
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Black-Market Gremlin",
+        "pdfPage": 69,
+        "printedPage": 56
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.ratling_sharpshooter"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.ratling_sharpshooter.black_market_gremlin"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.ratling_sharpshooter"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}

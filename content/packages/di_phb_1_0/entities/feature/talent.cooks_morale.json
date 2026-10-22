@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.feature.talent.cooks_morale",
   "kind": "feature",
-  "revision": 1,
+  "revision": 2,
   "name": "Cook’s Morale",
   "summary": "Talent: Cook’s Morale Requirement: Ratling Benefit: During a short rest, cook or brew something edible. Up to five allies regain +1 extra hit point per Hit Die spent.",
   "descriptionMarkdown": "Talent: Cook’s Morale\nRequirement: Ratling\nBenefit: During a short rest, cook or brew something edible. Up to five allies regain +1 extra hit point per Hit Die spent.",
@@ -34,6 +34,12 @@
         "context": "source-defined procedure",
         "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
       }
-    ]
+    ],
+    "requirements": {
+      "kind": "selected",
+      "content": {
+        "id": "di.species.ratling"
+      }
+    }
   }
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.feature.talent.path_discipline",
   "kind": "feature",
-  "revision": 1,
+  "revision": 2,
   "name": "Path Discipline",
   "summary": "Talent: Path Discipline Requirement: Aeldari Benefit: Once per long rest, reroll a failed Wisdom or Dexterity saving throw.",
   "descriptionMarkdown": "Talent: Path Discipline\nRequirement: Aeldari\nBenefit: Once per long rest, reroll a failed Wisdom or Dexterity saving throw.",
@@ -34,6 +34,12 @@
         "context": "source-defined procedure",
         "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
       }
-    ]
+    ],
+    "requirements": {
+      "kind": "selected",
+      "content": {
+        "id": "di.species.aeldari"
+      }
+    }
   }
 }

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.psyker.biomancer.level_3",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Biomancer level 3",
+  "summary": "Biomancer; When you heal a creature, it gains temporary hit points equal to your proficiency bonus.",
+  "descriptionMarkdown": "Biomancer; When you heal a creature, it gains temporary hit points equal to your proficiency bonus.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Biomancer level 3",
+        "pdfPage": 56,
+        "printedPage": 43
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Biomancer; When you heal a creature, it gains temporary hit points equal to your proficiency bonus.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

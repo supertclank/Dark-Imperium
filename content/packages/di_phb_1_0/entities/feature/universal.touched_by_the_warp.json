@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.feature.universal.touched_by_the_warp",
   "kind": "feature",
-  "revision": 1,
+  "revision": 2,
   "name": "Touched by the Warp",
   "summary": "Trait: Touched by the Warp Effect: Human only. Know one Minor Universal Psychic Power. Using it increases Warp Pressure by 1 and risks Perils. Skitarii cannot take this trait.",
   "descriptionMarkdown": "Trait: Touched by the Warp\nEffect: Human only. Know one Minor Universal Psychic Power. Using it increases Warp Pressure by 1 and risks Perils. Skitarii cannot take this trait.",
@@ -34,6 +34,12 @@
         "context": "source-defined procedure",
         "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
       }
-    ]
+    ],
+    "requirements": {
+      "kind": "selected",
+      "content": {
+        "id": "di.species.human"
+      }
+    }
   }
 }

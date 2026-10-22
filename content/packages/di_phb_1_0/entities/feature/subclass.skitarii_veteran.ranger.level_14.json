@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.skitarii_veteran.ranger.level_14",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Ranger Protocol level 14",
+  "summary": "Ranger; Your first ranged hit each combat deals +2d6 damage if you did not move.",
+  "descriptionMarkdown": "Ranger; Your first ranged hit each combat deals +2d6 damage if you did not move.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Ranger Protocol level 14",
+        "pdfPage": 72,
+        "printedPage": 59
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Ranger; Your first ranged hit each combat deals +2d6 damage if you did not move.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

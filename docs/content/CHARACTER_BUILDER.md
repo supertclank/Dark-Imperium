@@ -1,3 +1,5 @@
+> The introductory no-source statements below describe the original architecture proposal. PHB v1.0 has since been staged; current source-specific readiness is in [the canonicalisation report](../import/PHB_CANONICALISATION_REPORT.md). Example records remain deliberately non-authoritative.
+
 # Data-driven builder and progression
 
 No rulebook is available, so the proposed order is a configurable example, **not the verified Dark Imperium creation sequence**. A locked profile defines steps with stable IDs, display labels and references to reusable choice/input definitions. The client renders those definitions; the server computes eligibility and validates the completed draft.

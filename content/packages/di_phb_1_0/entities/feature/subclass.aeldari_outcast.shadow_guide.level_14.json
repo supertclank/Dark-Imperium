@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.aeldari_outcast.shadow_guide.level_14",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Shadow Guide level 14",
+  "summary": "Shadow Guide; Once per short rest, you and up to two allies within 30 ft may move 10 ft without provoking opportunity attacks.",
+  "descriptionMarkdown": "Shadow Guide; Once per short rest, you and up to two allies within 30 ft may move 10 ft without provoking opportunity attacks.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Shadow Guide level 14",
+        "pdfPage": 80,
+        "printedPage": 67
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Shadow Guide; Once per short rest, you and up to two allies within 30 ft may move 10 ft without provoking opportunity attacks.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

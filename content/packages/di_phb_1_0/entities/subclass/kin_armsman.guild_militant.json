@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.kin_armsman.guild_militant",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Guild-Militant",
+  "summary": "Guild-Militant; When you hit a creature marked by Oath-Mark, one ally within 30 ft gains +1 to hit that creature before your next turn.  Guild-Militant; When an ally hits your Oath-Mark target, you may use your reaction to let that ally add +1d6 damage.  Guild-Militant; When you mark a target with Oath-Mark, allies gain +1 to damage against it until your next turn.  Guild-Militant; When an ally hits your Oath-Mark target, they may move 5 ft without provoking opportunity attacks.",
+  "descriptionMarkdown": "Guild-Militant; When you hit a creature marked by Oath-Mark, one ally within 30 ft gains +1 to hit that creature before your next turn.\n\nGuild-Militant; When an ally hits your Oath-Mark target, you may use your reaction to let that ally add +1d6 damage.\n\nGuild-Militant; When you mark a target with Oath-Mark, allies gain +1 to damage against it until your next turn.\n\nGuild-Militant; When an ally hits your Oath-Mark target, they may move 5 ft without provoking opportunity attacks.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Guild-Militant",
+        "pdfPage": 74,
+        "printedPage": 61
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Guild-Militant",
+        "pdfPage": 75,
+        "printedPage": 62
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.kin_armsman"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.kin_armsman.guild_militant"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.kin_armsman"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.feature.talent.cold_logic",
   "kind": "feature",
-  "revision": 1,
+  "revision": 2,
   "name": "Cold Logic",
   "summary": "Talent: Cold Logic Requirement: Skitarii Benefit: Once per long rest, treat a failed Wisdom saving throw against fear, charm, or psychic manipulation as a success.",
   "descriptionMarkdown": "Talent: Cold Logic\nRequirement: Skitarii\nBenefit: Once per long rest, treat a failed Wisdom saving throw against fear, charm, or psychic manipulation as a success.",
@@ -34,6 +34,12 @@
         "context": "source-defined procedure",
         "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
       }
-    ]
+    ],
+    "requirements": {
+      "kind": "selected",
+      "content": {
+        "id": "di.species.skitarii"
+      }
+    }
   }
 }

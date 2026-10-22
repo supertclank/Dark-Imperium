@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.arbites_enforcer.investigator",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Investigator",
+  "summary": "Investigator; Gain expertise in Investigation or Insight. As a bonus action, study one creature, device, or scene you can see within 60 ft; until the end of your next turn, it counts as studied for your Investigator features. Uses: proficiency bonus per long rest.  Investigator; When you hit a creature you have studied or identified, add your Wisdom modifier to the damage once per turn.  Investigator; Once per short rest, ask the GM one tactical question about a creature, device, crime scene, or",
+  "descriptionMarkdown": "Investigator; Gain expertise in Investigation or Insight. As a bonus action, study one creature, device, or scene you can see within 60 ft; until the end of your next turn, it counts as studied for your Investigator features. Uses: proficiency bonus per long rest.\n\nInvestigator; When you hit a creature you have studied or identified, add your Wisdom modifier to the damage once per turn.\n\nInvestigator; Once per short rest, ask the GM one tactical question about a creature, device, crime scene, or battlefield; the GM answers truthfully but briefly.\n\nInvestigator; When you ask a tactical question, you may also learn one useful weakness, route, or leverage point.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Investigator",
+        "pdfPage": 62,
+        "printedPage": 49
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Investigator",
+        "pdfPage": 63,
+        "printedPage": 50
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.arbites_enforcer"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.arbites_enforcer.investigator"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.arbites_enforcer"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}

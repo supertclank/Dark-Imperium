@@ -114,3 +114,7 @@ All intents are keyboard-operable labelled controls with predictable focus. A co
 [Synthetic roll fixtures](examples/dice-rolls.json) exercise positive/negative modifiers, keep ties, natural-versus-total critical detection, typed damage and percentile bounds. They are independent of the existing placeholder character/catalog and do not claim a calculated Lasgun attack. Implementation must additionally test malformed inputs, stale state, unauthorized visibility/history, duplicate requests, cancellation, concurrent resource use, delivery retries, physical entry and inaccessible animation environments.
 
 Source review must establish each test die/pool, modifier derivation, success rule, critical policy, advantage cancellation, target damage sharing and table ranges. Campaign policy must establish retention and acceptance of manual/client claims. Until then, generic dice can be designed independently, but automated game-specific attacks remain unresolved.
+
+## PHB canonicalisation pass
+
+The additive draft `phb.roll_bindings.v1` capability and readiness boundary are defined in [PHB_SPEC_EXTENSIONS](PHB_SPEC_EXTENSIONS.md) and [PHB dice readiness](../import/PHB_DICE_READINESS.md). No complete actor compiler is implemented.

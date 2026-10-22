@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.aeldari_outcast.corsair",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Corsair",
+  "summary": "Corsair; You gain proficiency with pistols and blades. After making a weapon attack, move 5 ft without provoking opportunity attacks.  Corsair; Your Shuriken Grace damage applies to pistol attacks.  Corsair; After scoring a critical hit, you may make one pistol or blade attack as a bonus action.  Corsair; After you move 5 ft from your Corsair feature, your next attack before your next turn gains +1d6 damage.",
+  "descriptionMarkdown": "Corsair; You gain proficiency with pistols and blades. After making a weapon attack, move 5 ft without provoking opportunity attacks.\n\nCorsair; Your Shuriken Grace damage applies to pistol attacks.\n\nCorsair; After scoring a critical hit, you may make one pistol or blade attack as a bonus action.\n\nCorsair; After you move 5 ft from your Corsair feature, your next attack before your next turn gains +1d6 damage.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Corsair",
+        "pdfPage": 80,
+        "printedPage": 67
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Corsair",
+        "pdfPage": 81,
+        "printedPage": 68
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.aeldari_outcast"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.aeldari_outcast.corsair"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.aeldari_outcast"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}

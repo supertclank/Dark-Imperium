@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.masterwork.sealed_systems",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Sealed Systems",
+  "summary": "Masterwork Trait: Sealed Systems; Eligible Item: Armour; Effect: Gain advantage on saves against gas, smoke and airborne toxins. If the armour is already sealed, it also tolerates brief vacuum exposure without a separate suit breach test.",
+  "descriptionMarkdown": "Masterwork Trait: Sealed Systems; Eligible Item: Armour; Effect: Gain advantage on saves against gas, smoke and airborne toxins. If the armour is already sealed, it also tolerates brief vacuum exposure without a separate suit breach test.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "18",
+        "heading": "Sealed Systems",
+        "pdfPage": 105,
+        "printedPage": 92
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "general",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Masterwork Trait: Sealed Systems; Eligible Item: Armour; Effect: Gain advantage on saves against gas, smoke and airborne toxins. If the armour is already sealed, it also tolerates brief vacuum exposure without a separate suit breach test.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Item-bound procedure retained manually, including host eligibility; no automatic actor-wide bonus."
+      }
+    ]
+  }
+}

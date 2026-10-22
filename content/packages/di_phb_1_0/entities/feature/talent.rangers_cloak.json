@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.feature.talent.rangers_cloak",
   "kind": "feature",
-  "revision": 1,
+  "revision": 2,
   "name": "Ranger’s Cloak",
   "summary": "Talent: Ranger’s Cloak Requirement: Aeldari Outcast Benefit: You may hide when lightly obscured by ruins, foliage, smoke, shadow, or battlefield debris.",
   "descriptionMarkdown": "Talent: Ranger’s Cloak\nRequirement: Aeldari Outcast\nBenefit: You may hide when lightly obscured by ruins, foliage, smoke, shadow, or battlefield debris.",
@@ -34,6 +34,23 @@
         "context": "source-defined procedure",
         "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
       }
-    ]
+    ],
+    "requirements": {
+      "kind": "all",
+      "predicates": [
+        {
+          "kind": "selected",
+          "content": {
+            "id": "di.species.aeldari"
+          }
+        },
+        {
+          "kind": "selected",
+          "content": {
+            "id": "di.class.aeldari_outcast"
+          }
+        }
+      ]
+    }
   }
 }

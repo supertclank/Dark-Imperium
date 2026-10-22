@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.skitarii_veteran.ranger",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Ranger Protocol",
+  "summary": "Ranger Protocol; If you do not move, your first ranged attack this turn deals +1d4 damage.  Ranger; Your Ranger Protocol damage becomes +1d6.  Ranger; Your first ranged hit each combat deals +2d6 damage if you did not move.  Ranger; Your accurate weapons also ignore heavy cover once per round.",
+  "descriptionMarkdown": "Ranger Protocol; If you do not move, your first ranged attack this turn deals +1d4 damage.\n\nRanger; Your Ranger Protocol damage becomes +1d6.\n\nRanger; Your first ranged hit each combat deals +2d6 damage if you did not move.\n\nRanger; Your accurate weapons also ignore heavy cover once per round.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Ranger Protocol",
+        "pdfPage": 71,
+        "printedPage": 58
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Ranger Protocol",
+        "pdfPage": 72,
+        "printedPage": 59
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.skitarii_veteran"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.skitarii_veteran.ranger"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.skitarii_veteran"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}

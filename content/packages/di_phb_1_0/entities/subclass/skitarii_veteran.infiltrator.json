@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.skitarii_veteran.infiltrator",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Infiltrator Protocol",
+  "summary": "Infiltrator Protocol; Gain proficiency in Stealth. Once per short rest, as a bonus action, become hidden from creatures relying on standard vision or auspex until the end of your turn, provided you have cover or concealment.  Infiltrator; You may move 10 ft as part of the bonus action used to activate Infiltrator Protocol.  Infiltrator; When hidden from auspex or standard vision, your next hit deals +1d8 damage.  Infiltrator; You may remain hidden after a miss.",
+  "descriptionMarkdown": "Infiltrator Protocol; Gain proficiency in Stealth. Once per short rest, as a bonus action, become hidden from creatures relying on standard vision or auspex until the end of your turn, provided you have cover or concealment.\n\nInfiltrator; You may move 10 ft as part of the bonus action used to activate Infiltrator Protocol.\n\nInfiltrator; When hidden from auspex or standard vision, your next hit deals +1d8 damage.\n\nInfiltrator; You may remain hidden after a miss.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Infiltrator Protocol",
+        "pdfPage": 71,
+        "printedPage": 58
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Infiltrator Protocol",
+        "pdfPage": 72,
+        "printedPage": 59
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.skitarii_veteran"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.skitarii_veteran.infiltrator"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.skitarii_veteran"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}

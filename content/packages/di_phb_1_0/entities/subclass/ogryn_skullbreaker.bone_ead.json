@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.ogryn_skullbreaker.bone_ead",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Bone ’ead",
+  "summary": "Bone ’ead; You gain proficiency in Wisdom saves and one additional skill.  Bone ’ead; Once per short rest, when you or an ally within 10 ft fails a Wisdom or Intelligence saving throw against fear, psychic manipulation, confusion, or Suppression, you may use your reaction to let that creature reroll the save.  Bone ’ead; Once per long rest, treat a failed Wisdom or Intelligence saving throw as a success.  Bone ’ead; Allies within 10 ft gain +1 to Wisdom saves while you are conscious.",
+  "descriptionMarkdown": "Bone ’ead; You gain proficiency in Wisdom saves and one additional skill.\n\nBone ’ead; Once per short rest, when you or an ally within 10 ft fails a Wisdom or Intelligence saving throw against fear, psychic manipulation, confusion, or Suppression, you may use your reaction to let that creature reroll the save.\n\nBone ’ead; Once per long rest, treat a failed Wisdom or Intelligence saving throw as a success.\n\nBone ’ead; Allies within 10 ft gain +1 to Wisdom saves while you are conscious.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Bone ’ead",
+        "pdfPage": 59,
+        "printedPage": 46
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Bone ’ead",
+        "pdfPage": 60,
+        "printedPage": 47
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.ogryn_skullbreaker"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.ogryn_skullbreaker.bone_ead"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.ogryn_skullbreaker"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}

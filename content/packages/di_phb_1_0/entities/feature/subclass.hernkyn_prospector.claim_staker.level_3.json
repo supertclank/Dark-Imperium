@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.hernkyn_prospector.claim_staker.level_3",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Claim-Staker level 3",
+  "summary": "Claim-Staker; You gain expertise in Investigation or Survival. You can identify valuable materials, salvage, ore, or structural weaknesses.",
+  "descriptionMarkdown": "Claim-Staker; You gain expertise in Investigation or Survival. You can identify valuable materials, salvage, ore, or structural weaknesses.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Claim-Staker level 3",
+        "pdfPage": 77,
+        "printedPage": 64
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Claim-Staker; You gain expertise in Investigation or Survival. You can identify valuable materials, salvage, ore, or structural weaknesses.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

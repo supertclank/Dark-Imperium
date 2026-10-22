@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.aeldari_warlock.spirit_guardian.level_14",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Spirit Guardian level 14",
+  "summary": "Spirit Guardian; Allies protected by your Rune Ward also gain advantage on the next fear or psychic saving throw they make before your next turn.",
+  "descriptionMarkdown": "Spirit Guardian; Allies protected by your Rune Ward also gain advantage on the next fear or psychic saving throw they make before your next turn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Spirit Guardian level 14",
+        "pdfPage": 84,
+        "printedPage": 71
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Spirit Guardian; Allies protected by your Rune Ward also gain advantage on the next fear or psychic saving throw they make before your next turn.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

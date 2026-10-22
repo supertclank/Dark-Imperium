@@ -1,0 +1,242 @@
+[
+  {
+    "class": {
+      "id": "di.class.veteran"
+    },
+    "hitDie": 10,
+    "savingThrows": [
+      "dexterity",
+      "wisdom"
+    ],
+    "source": {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Class training",
+        "pdfPage": 50,
+        "printedPage": 37
+      }
+    }
+  },
+  {
+    "class": {
+      "id": "di.class.zealot"
+    },
+    "hitDie": 10,
+    "savingThrows": [
+      "strength",
+      "charisma"
+    ],
+    "source": {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Class training",
+        "pdfPage": 53,
+        "printedPage": 40
+      }
+    }
+  },
+  {
+    "class": {
+      "id": "di.class.psyker"
+    },
+    "hitDie": 6,
+    "savingThrows": [
+      "intelligence",
+      "wisdom"
+    ],
+    "source": {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Class training",
+        "pdfPage": 56,
+        "printedPage": 43
+      }
+    }
+  },
+  {
+    "class": {
+      "id": "di.class.ogryn_skullbreaker"
+    },
+    "hitDie": 12,
+    "savingThrows": [
+      "strength",
+      "constitution"
+    ],
+    "source": {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Class training",
+        "pdfPage": 59,
+        "printedPage": 46
+      }
+    }
+  },
+  {
+    "class": {
+      "id": "di.class.arbites_enforcer"
+    },
+    "hitDie": 10,
+    "savingThrows": [
+      "strength",
+      "wisdom"
+    ],
+    "source": {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Class training",
+        "pdfPage": 62,
+        "printedPage": 49
+      }
+    }
+  },
+  {
+    "class": {
+      "id": "di.class.hive_scum"
+    },
+    "hitDie": 8,
+    "savingThrows": [
+      "dexterity",
+      "charisma"
+    ],
+    "source": {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Class training",
+        "pdfPage": 65,
+        "printedPage": 52
+      }
+    }
+  },
+  {
+    "class": {
+      "id": "di.class.ratling_sharpshooter"
+    },
+    "hitDie": 8,
+    "savingThrows": [
+      "dexterity",
+      "wisdom"
+    ],
+    "source": {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Class training",
+        "pdfPage": 68,
+        "printedPage": 55
+      }
+    }
+  },
+  {
+    "class": {
+      "id": "di.class.skitarii_veteran"
+    },
+    "hitDie": 10,
+    "savingThrows": [
+      "dexterity",
+      "intelligence"
+    ],
+    "source": {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Class training",
+        "pdfPage": 71,
+        "printedPage": 58
+      }
+    }
+  },
+  {
+    "class": {
+      "id": "di.class.kin_armsman"
+    },
+    "hitDie": 10,
+    "savingThrows": [
+      "constitution",
+      "wisdom"
+    ],
+    "source": {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Class training",
+        "pdfPage": 74,
+        "printedPage": 61
+      }
+    }
+  },
+  {
+    "class": {
+      "id": "di.class.hernkyn_prospector"
+    },
+    "hitDie": 8,
+    "savingThrows": [
+      "dexterity",
+      "wisdom"
+    ],
+    "source": {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Class training",
+        "pdfPage": 77,
+        "printedPage": 64
+      }
+    }
+  },
+  {
+    "class": {
+      "id": "di.class.aeldari_outcast"
+    },
+    "hitDie": 8,
+    "savingThrows": [
+      "dexterity",
+      "wisdom"
+    ],
+    "source": {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Class training",
+        "pdfPage": 80,
+        "printedPage": 67
+      }
+    }
+  },
+  {
+    "class": {
+      "id": "di.class.aeldari_warlock"
+    },
+    "hitDie": 6,
+    "savingThrows": [
+      "wisdom",
+      "intelligence"
+    ],
+    "source": {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Class training",
+        "pdfPage": 83,
+        "printedPage": 70
+      }
+    }
+  }
+]

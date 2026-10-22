@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "di.armour.ogryn_plate",
+  "kind": "armour",
+  "revision": 1,
+  "name": "Ogryn Plate",
+  "summary": "AC: 16; Standard modified abhuman armour.; Availability: Controlled",
+  "descriptionMarkdown": "AC: 16; Standard modified abhuman armour.; Availability: Controlled",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "9",
+        "heading": "Ogryn Plate",
+        "pdfPage": 42,
+        "printedPage": 29
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "equip": {
+      "slots": [
+        "body"
+      ],
+      "hands": 0
+    },
+    "properties": [],
+    "features": [],
+    "defence": {
+      "value": {
+        "kind": "constant",
+        "value": 16
+      },
+      "mode": "base",
+      "stackGroup": "di.defence.armour"
+    },
+    "category": "ogryn",
+    "requirements": {
+      "equip": {
+        "kind": "selected",
+        "content": {
+          "id": "di.species.ogryn"
+        }
+      }
+    }
+  }
+}

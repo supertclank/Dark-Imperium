@@ -1,0 +1,5074 @@
+[
+  {
+    "id": "di.action.attack",
+    "kind": "action",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-011"
+    ],
+    "sourcePages": [
+      31
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.action.dash",
+    "kind": "action",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-011"
+    ],
+    "sourcePages": [
+      31
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.action.disengage",
+    "kind": "action",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-011"
+    ],
+    "sourcePages": [
+      31
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.action.dodge",
+    "kind": "action",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-011"
+    ],
+    "sourcePages": [
+      31
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.action.help",
+    "kind": "action",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-011"
+    ],
+    "sourcePages": [
+      31
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.action.hide",
+    "kind": "action",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-011"
+    ],
+    "sourcePages": [
+      31
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.action.ready",
+    "kind": "action",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-011"
+    ],
+    "sourcePages": [
+      31
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.action.reload",
+    "kind": "action",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-011"
+    ],
+    "sourcePages": [
+      31
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.action.use_mission_gear",
+    "kind": "action",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-011"
+    ],
+    "sourcePages": [
+      31
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.ammunition.armour_piercing",
+    "kind": "ammunition",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Weapon-family compatibility and counted versus abstracted supply need typed bindings.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      105
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.ammunition.hot_shot_charge_pack",
+    "kind": "ammunition",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Weapon-family compatibility and counted versus abstracted supply need typed bindings.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      105
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.ammunition.incendiary",
+    "kind": "ammunition",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Weapon-family compatibility and counted versus abstracted supply need typed bindings.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      105
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.ammunition.manstopper",
+    "kind": "ammunition",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Weapon-family compatibility and counted versus abstracted supply need typed bindings.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      105
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.ammunition.sanctified_ammunition",
+    "kind": "ammunition",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Weapon-family compatibility and counted versus abstracted supply need typed bindings.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      105
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.ammunition.tracer_target_marking",
+    "kind": "ammunition",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Weapon-family compatibility and counted versus abstracted supply need typed bindings.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      105
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.ammunition.xenos_exotic_magazine",
+    "kind": "ammunition",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Weapon-family compatibility and counted versus abstracted supply need typed bindings.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      105
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.armour.aeldari_mesh",
+    "kind": "armour",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Defence derivation and species-pattern access/slot/category mapping must be completed.",
+    "issues": [
+      "PHB-007"
+    ],
+    "sourcePages": [
+      42
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.armour.armoured_bodyglove",
+    "kind": "armour",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Defence derivation and species-pattern access/slot/category mapping must be completed.",
+    "issues": [
+      "PHB-007"
+    ],
+    "sourcePages": [
+      42
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.armour.aspect_pattern_armour",
+    "kind": "armour",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Defence derivation and species-pattern access/slot/category mapping must be completed.",
+    "issues": [
+      "PHB-007"
+    ],
+    "sourcePages": [
+      42
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.armour.bullgryn_plate",
+    "kind": "armour",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Defence derivation and species-pattern access/slot/category mapping must be completed.",
+    "issues": [
+      "PHB-007"
+    ],
+    "sourcePages": [
+      42
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.armour.carapace_armour",
+    "kind": "armour",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Defence derivation and species-pattern access/slot/category mapping must be completed.",
+    "issues": [
+      "PHB-007"
+    ],
+    "sourcePages": [
+      42
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.armour.exo_frame_plate",
+    "kind": "armour",
+    "category": "NEEDS_CONTENT_RULING",
+    "reason": "AC formula is ambiguous; do not infer omitted +Dex.",
+    "issues": [
+      "PHB-007"
+    ],
+    "sourcePages": [
+      42
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.armour.flak_armour",
+    "kind": "armour",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Defence derivation and species-pattern access/slot/category mapping must be completed.",
+    "issues": [
+      "PHB-007"
+    ],
+    "sourcePages": [
+      42
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.armour.flak_greatcoat",
+    "kind": "armour",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Defence derivation and species-pattern access/slot/category mapping must be completed.",
+    "issues": [
+      "PHB-007"
+    ],
+    "sourcePages": [
+      42
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.armour.flak_vest",
+    "kind": "armour",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Defence derivation and species-pattern access/slot/category mapping must be completed.",
+    "issues": [
+      "PHB-007"
+    ],
+    "sourcePages": [
+      42
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.armour.hazard_plate",
+    "kind": "armour",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Defence derivation and species-pattern access/slot/category mapping must be completed.",
+    "issues": [
+      "PHB-007"
+    ],
+    "sourcePages": [
+      42
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.armour.hearthkyn_plate",
+    "kind": "armour",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Defence derivation and species-pattern access/slot/category mapping must be completed.",
+    "issues": [
+      "PHB-007"
+    ],
+    "sourcePages": [
+      42
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.armour.heavy_clothing",
+    "kind": "armour",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Defence derivation and species-pattern access/slot/category mapping must be completed.",
+    "issues": [
+      "PHB-007"
+    ],
+    "sourcePages": [
+      42
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.armour.kin_mesh",
+    "kind": "armour",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Defence derivation and species-pattern access/slot/category mapping must be completed.",
+    "issues": [
+      "PHB-007"
+    ],
+    "sourcePages": [
+      42
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.armour.kin_void_suit",
+    "kind": "armour",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Defence derivation and species-pattern access/slot/category mapping must be completed.",
+    "issues": [
+      "PHB-007"
+    ],
+    "sourcePages": [
+      42
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.armour.mesh_armour",
+    "kind": "armour",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Defence derivation and species-pattern access/slot/category mapping must be completed.",
+    "issues": [
+      "PHB-007"
+    ],
+    "sourcePages": [
+      42
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.armour.ogryn_flak_plate",
+    "kind": "armour",
+    "category": "NEEDS_CONTENT_RULING",
+    "reason": "AC formula is ambiguous; do not infer omitted +Dex.",
+    "issues": [
+      "PHB-007"
+    ],
+    "sourcePages": [
+      42
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.armour.ogryn_plate",
+    "kind": "armour",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Explicit fixed AC16; same Ogryn body-armour slot/category convention as existing Ogryn Leathers, no Dexterity term inferred.",
+    "issues": [
+      "PHB-007"
+    ],
+    "sourcePages": [
+      42
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.armour.powered_carapace",
+    "kind": "armour",
+    "category": "NEEDS_CONTENT_RULING",
+    "reason": "AC formula is ambiguous; do not infer omitted +Dex.",
+    "issues": [
+      "PHB-007"
+    ],
+    "sourcePages": [
+      42
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.armour.prospector_rig",
+    "kind": "armour",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Defence derivation and species-pattern access/slot/category mapping must be completed.",
+    "issues": [
+      "PHB-007"
+    ],
+    "sourcePages": [
+      42
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.armour.ranger_weave",
+    "kind": "armour",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Defence derivation and species-pattern access/slot/category mapping must be completed.",
+    "issues": [
+      "PHB-007"
+    ],
+    "sourcePages": [
+      42
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.armour.riot_armour",
+    "kind": "armour",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Defence derivation and species-pattern access/slot/category mapping must be completed.",
+    "issues": [
+      "PHB-007"
+    ],
+    "sourcePages": [
+      42
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.armour.rune_armour",
+    "kind": "armour",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Defence derivation and species-pattern access/slot/category mapping must be completed.",
+    "issues": [
+      "PHB-007"
+    ],
+    "sourcePages": [
+      42
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.armour.scout_carapace",
+    "kind": "armour",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Defence derivation and species-pattern access/slot/category mapping must be completed.",
+    "issues": [
+      "PHB-007"
+    ],
+    "sourcePages": [
+      42
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.armour.void_suit_armoured",
+    "kind": "armour",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Defence derivation and species-pattern access/slot/category mapping must be completed.",
+    "issues": [
+      "PHB-007"
+    ],
+    "sourcePages": [
+      42
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.armour.wargear.oathplate_of_the_first_claim_kin",
+    "kind": "armour",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Defence derivation and species-pattern access/slot/category mapping must be completed.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      108
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.augmetic.augmetic_heart",
+    "kind": "augmetic",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      89
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.augmetic.bionic_arm",
+    "kind": "augmetic",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      89
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.augmetic.bionic_legs",
+    "kind": "augmetic",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      89
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.augmetic.black_iron_jaw",
+    "kind": "augmetic",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      89
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.augmetic.chem_injector",
+    "kind": "augmetic",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      89
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.augmetic.cranial_cogitator",
+    "kind": "augmetic",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      89
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.augmetic.data_jack",
+    "kind": "augmetic",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      89
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.augmetic.dermal_insulation",
+    "kind": "augmetic",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      89
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.augmetic.internal_chrono",
+    "kind": "augmetic",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      89
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.augmetic.mag_lock_palm",
+    "kind": "augmetic",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      89
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.augmetic.mechadendrite_combat",
+    "kind": "augmetic",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      89
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.augmetic.mechadendrite_medicae",
+    "kind": "augmetic",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      89
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.augmetic.mechadendrite_utility",
+    "kind": "augmetic",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      89
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.augmetic.optical_implant",
+    "kind": "augmetic",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      89
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.augmetic.pain_editor",
+    "kind": "augmetic",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      89
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.augmetic.recoil_bracing",
+    "kind": "augmetic",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      89
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.augmetic.respirator_implant",
+    "kind": "augmetic",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      89
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.augmetic.skeletal_reinforcement",
+    "kind": "augmetic",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      89
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.augmetic.subdermal_plating",
+    "kind": "augmetic",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      89
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.augmetic.targeting_lens",
+    "kind": "augmetic",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      89
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.augmetic.vocal_coder",
+    "kind": "augmetic",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      89
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.augmetic.vox_implant",
+    "kind": "augmetic",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      89
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.condition.blinded",
+    "kind": "condition",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Default duration/stacking absent; per-source application durations must remain explicit.",
+    "issues": [
+      "PHB-013"
+    ],
+    "sourcePages": [
+      32
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.condition.bloodied",
+    "kind": "condition",
+    "category": "INVALID_CANDIDATE",
+    "reason": "Explicitly a derived state, not a condition (6.14); identity remains reserved, excluded from canonical condition publication.",
+    "issues": [
+      "PHB-013"
+    ],
+    "sourcePages": [
+      32
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.condition.charmed",
+    "kind": "condition",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Default duration/stacking absent; per-source application durations must remain explicit.",
+    "issues": [
+      "PHB-013"
+    ],
+    "sourcePages": [
+      32
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.condition.exhaustion",
+    "kind": "condition",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Default duration/stacking absent; per-source application durations must remain explicit.",
+    "issues": [
+      "PHB-013"
+    ],
+    "sourcePages": [
+      33
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.condition.frightened",
+    "kind": "condition",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Default duration/stacking absent; per-source application durations must remain explicit.",
+    "issues": [
+      "PHB-013"
+    ],
+    "sourcePages": [
+      32
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.condition.grappled",
+    "kind": "condition",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Default duration/stacking absent; per-source application durations must remain explicit.",
+    "issues": [
+      "PHB-013"
+    ],
+    "sourcePages": [
+      32
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.condition.hidden",
+    "kind": "condition",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Default duration/stacking absent; per-source application durations must remain explicit.",
+    "issues": [
+      "PHB-013"
+    ],
+    "sourcePages": [
+      32
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.condition.incapacitated",
+    "kind": "condition",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Default duration/stacking absent; per-source application durations must remain explicit.",
+    "issues": [
+      "PHB-013"
+    ],
+    "sourcePages": [
+      32
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.condition.invisible",
+    "kind": "condition",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Default duration/stacking absent; per-source application durations must remain explicit.",
+    "issues": [
+      "PHB-013"
+    ],
+    "sourcePages": [
+      32
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.condition.poisoned",
+    "kind": "condition",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Default duration/stacking absent; per-source application durations must remain explicit.",
+    "issues": [
+      "PHB-013"
+    ],
+    "sourcePages": [
+      32
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.condition.prone",
+    "kind": "condition",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Default duration/stacking absent; per-source application durations must remain explicit.",
+    "issues": [
+      "PHB-013"
+    ],
+    "sourcePages": [
+      33
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.condition.restrained",
+    "kind": "condition",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Default duration/stacking absent; per-source application durations must remain explicit.",
+    "issues": [
+      "PHB-013"
+    ],
+    "sourcePages": [
+      33
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.condition.stunned",
+    "kind": "condition",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Default duration/stacking absent; per-source application durations must remain explicit.",
+    "issues": [
+      "PHB-013"
+    ],
+    "sourcePages": [
+      33
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.condition.suppressed",
+    "kind": "condition",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Default duration/stacking absent; per-source application durations must remain explicit.",
+    "issues": [
+      "PHB-013"
+    ],
+    "sourcePages": [
+      33
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.condition.surprised",
+    "kind": "condition",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Default duration/stacking absent; per-source application durations must remain explicit.",
+    "issues": [
+      "PHB-013"
+    ],
+    "sourcePages": [
+      33
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.condition.unconscious",
+    "kind": "condition",
+    "category": "NEEDS_GLOBAL_POLICY",
+    "reason": "Default duration/stacking absent; per-source application durations must remain explicit.",
+    "issues": [
+      "PHB-013"
+    ],
+    "sourcePages": [
+      33
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.consumable.wargear.stasis_grenade",
+    "kind": "consumable",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      107
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.ammo_pack",
+    "kind": "equipment",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      101
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.auspex_battery",
+    "kind": "equipment",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      101
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.conversion_field",
+    "kind": "equipment",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-007"
+    ],
+    "sourcePages": [
+      42
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.field_dressing",
+    "kind": "equipment",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      101
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.grenade_bandolier",
+    "kind": "equipment",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      101
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.holo_field_cloak",
+    "kind": "equipment",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-007"
+    ],
+    "sourcePages": [
+      42
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.med_pack",
+    "kind": "equipment",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      101
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.med_stim",
+    "kind": "equipment",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      101
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.purity_seal_charm",
+    "kind": "equipment",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      101
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.rebreather_filter",
+    "kind": "equipment",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      101
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.refractor_field",
+    "kind": "equipment",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-007"
+    ],
+    "sourcePages": [
+      42
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.specialist_ammo_pack",
+    "kind": "equipment",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      101
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.stimm_slug",
+    "kind": "equipment",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      101
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.void_patch_kit",
+    "kind": "equipment",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      101
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.wargear.arc_of_the_reductor_mechanicus",
+    "kind": "equipment",
+    "category": "INVALID_CANDIDATE",
+    "reason": "Source describes weapon/shield mechanics; original equipment identity must not be silently repurposed. Requires reviewed identity migration.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      107
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.wargear.archeotech_logic_engine",
+    "kind": "equipment",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      107
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.wargear.big_lugs_door_ogryn",
+    "kind": "equipment",
+    "category": "INVALID_CANDIDATE",
+    "reason": "Source describes weapon/shield mechanics; original equipment identity must not be silently repurposed. Requires reviewed identity migration.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      107
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.wargear.bulwark_of_saint_drusus_imperial",
+    "kind": "equipment",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      107
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.wargear.digital_weapon",
+    "kind": "equipment",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      107
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.wargear.displacer_field",
+    "kind": "equipment",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      107
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.wargear.ghosthelm_of_the_wandering_seer_aeldari",
+    "kind": "equipment",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      108
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.wargear.halo_of_saint_varro",
+    "kind": "equipment",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      108
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.wargear.heart_key_of_the_red_vault",
+    "kind": "equipment",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      108
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.wargear.martyrs_censer_imperial",
+    "kind": "equipment",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      107
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.wargear.medicae_crucible",
+    "kind": "equipment",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      107
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.wargear.null_rod",
+    "kind": "equipment",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      107
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.wargear.omnissian_data_relic_mechanicus",
+    "kind": "equipment",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      107
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.wargear.phase_shunt_field",
+    "kind": "equipment",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      107
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.wargear.rosarius",
+    "kind": "equipment",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      107
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.wargear.suspensor_harness",
+    "kind": "equipment",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      107
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.wargear.teleport_homer",
+    "kind": "equipment",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      107
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.wargear.the_door_that_would_not_break",
+    "kind": "equipment",
+    "category": "INVALID_CANDIDATE",
+    "reason": "Source describes weapon/shield mechanics; original equipment identity must not be silently repurposed. Requires reviewed identity migration.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      108
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.wargear.the_first_oathstone",
+    "kind": "equipment",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      108
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.wargear.the_ghosts_coin",
+    "kind": "equipment",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      108
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.wargear.the_last_light_imperial",
+    "kind": "equipment",
+    "category": "INVALID_CANDIDATE",
+    "reason": "Source describes weapon/shield mechanics; original equipment identity must not be silently repurposed. Requires reviewed identity migration.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      107
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.wargear.the_veiled_eye",
+    "kind": "equipment",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      108
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.equipment.weapon_maintenance_kit",
+    "kind": "equipment",
+    "category": "DEFERRED",
+    "reason": "Source mechanic exists; mapping to typed actions, costs, targeting and outcomes remains implementation work.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      101
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.feature.masterwork.artificer_armour",
+    "kind": "feature",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-011"
+    ],
+    "sourcePages": [
+      105
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.feature.masterwork.artificer_edge",
+    "kind": "feature",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-011"
+    ],
+    "sourcePages": [
+      104
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.feature.masterwork.compact_pattern",
+    "kind": "feature",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-011"
+    ],
+    "sourcePages": [
+      105
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.feature.masterwork.perfect_balance",
+    "kind": "feature",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-011"
+    ],
+    "sourcePages": [
+      104
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.feature.masterwork.precision_barrel_focusing_array",
+    "kind": "feature",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-011"
+    ],
+    "sourcePages": [
+      104
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.feature.masterwork.rapid_feed",
+    "kind": "feature",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-011"
+    ],
+    "sourcePages": [
+      104
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.feature.masterwork.recoil_compensation",
+    "kind": "feature",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-011"
+    ],
+    "sourcePages": [
+      105
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.feature.masterwork.responsive_plating",
+    "kind": "feature",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-011"
+    ],
+    "sourcePages": [
+      105
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.feature.masterwork.sealed_systems",
+    "kind": "feature",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-011"
+    ],
+    "sourcePages": [
+      105
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.power.ashen_brand",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      92
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.assail",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      92
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.baleful_rupture",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      92
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.biomantic_surge",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      93
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.blank_sense",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      92
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.blood_surge",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      92
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.burning_halo",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      92
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.cleansing_wave",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      92
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.conceal",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      93
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.crush_grip",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      92
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.danger_sense",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      92
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.destructor_rune",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      93
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.dominate_nerve",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      92
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.echo_read",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      92
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.ember_flicker",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      91
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.fates_nudge",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      92
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.flesh_knit",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      91
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.flesh_reforged",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      93
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.focused_rupture",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      92
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.force_dome",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      93
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.foresight_cascade",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      93
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.fortune_thread",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      93
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.hemorrhage",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      93
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.inferno_bloom",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      93
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.jinx",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      93
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.kinetic_bulwark",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      92
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.kinetic_push",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      91
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.malefic_door",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      93
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.mind_lumen",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      91
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.null_field",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      92
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.null_glare",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      92
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.pain_spike",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      91
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.pariah_zone",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      93
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.possession_spike",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      93
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.prescient_aim",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      92
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.prescient_execution",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      93
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.protect",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      93
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.psychic_shield",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      92
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.quicken",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      93
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.restrain_fate",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      93
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.reveal",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      93
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.silence_the_witch",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      92
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.soulfire",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      92
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.soulstorm",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      93
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.static_veil",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      91
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.telekinetic_crush",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      93
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.terror_echo",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      92
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.toxic_bloom",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      92
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.warp_bite",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      92
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.warp_spark",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      91
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.warp_step",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      92
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.power.whisper_from_below",
+    "kind": "power",
+    "category": "DEFERRED",
+    "reason": "Requires plural power-list membership, durations and pressure gain capability; source text retained.",
+    "issues": [
+      "PHB-008",
+      "PHB-009"
+    ],
+    "sourcePages": [
+      92
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.shield.brute_shield_harness",
+    "kind": "shield",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Hand occupancy/partly-usable hands not completely specified; no guessed slots.",
+    "issues": [
+      "PHB-007"
+    ],
+    "sourcePages": [
+      42
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.shield.slab_shield",
+    "kind": "shield",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Hand occupancy/partly-usable hands not completely specified; no guessed slots.",
+    "issues": [
+      "PHB-007"
+    ],
+    "sourcePages": [
+      42
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.subclass.aeldari_outcast.corsair",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      80
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.aeldari_outcast.ranger",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      80
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.aeldari_outcast.shadow_guide",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      80
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.aeldari_warlock.seer_of_battle",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      83
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.aeldari_warlock.spirit_guardian",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      83
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.aeldari_warlock.storm_warlock",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      83
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.arbites_enforcer.executioner",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      62
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.arbites_enforcer.investigator",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      62
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.arbites_enforcer.riot_shield",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      62
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.hernkyn_prospector.claim_staker",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      77
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.hernkyn_prospector.outrider",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      77
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.hernkyn_prospector.trail_gunner",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      77
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.hive_scum.chem_user",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      65
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.hive_scum.gunslinger",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      65
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.hive_scum.knife_rat",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      65
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.hive_scum.sump_ghost",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      65
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.kin_armsman.guild_militant",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      74
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.kin_armsman.hearthguard",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      74
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.kin_armsman.ironhead",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      74
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.ogryn_skullbreaker.bone_ead",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      59
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.ogryn_skullbreaker.brute",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      59
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.ogryn_skullbreaker.bulwark",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      59
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.ogryn_skullbreaker.gun_lugger",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      59
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.psyker.biomancer",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      56
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.psyker.blank_null_bound",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      56
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.psyker.diviner",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      56
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.psyker.malefic_touched",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      56
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.psyker.pyromancer",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      56
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.psyker.telekine",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      56
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.ratling_sharpshooter.black_market_gremlin",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      68
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.ratling_sharpshooter.long_las_sniper",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      68
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.ratling_sharpshooter.spotter",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      68
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.ratling_sharpshooter.underhive_rat",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      68
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.skitarii_veteran.data_hunter",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      71
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.skitarii_veteran.infiltrator",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      71
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.skitarii_veteran.protector",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      71
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.skitarii_veteran.ranger",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      71
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.skitarii_veteran.ruststalker",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      71
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.skitarii_veteran.vanguard",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      71
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.zealot.flagellant",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      53
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.zealot.preacher",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      53
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.subclass.zealot.purifier",
+    "kind": "subclass",
+    "category": "AUTO_COMPLETABLE",
+    "reason": "Required canonical fields supported by source; converted with manual mechanical clauses explicitly visible.",
+    "issues": [
+      "PHB-012"
+    ],
+    "sourcePages": [
+      53
+    ],
+    "outcome": "canonical_draft"
+  },
+  {
+    "id": "di.system.armour.ablative_ceramite",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      44
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.armour.adaptive_weave",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      45
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.armour.ancestor_wrought_plating",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      45
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.armour.blast_baffles",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      44
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.armour.camo_weave",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      44
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.armour.exo_servo_overdrive",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      45
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.armour.ghostplate_flexors",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      45
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.armour.grav_anchor_spurs",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      45
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.armour.hexagrammic_lining",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      44
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.armour.holo_weave_matrix",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      45
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.armour.mag_boots_anchor_rig",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      44
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.armour.medicae_harness",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      44
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.armour.noospheric_armour_link",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      44
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.armour.rad_seal_shrouds",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      44
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.armour.recoil_yoke",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      44
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.armour.reinforced_harness",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      44
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.armour.reinforced_plates",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      44
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.armour.sealed_system",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      44
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.armour.servo_assist",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      44
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.armour.servo_bracing",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      44
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.armour.shock_insulation",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      44
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.armour.slab_lock_bracing",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      44
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.armour.spirit_stone_lattice",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      45
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.armour.void_seal_redundancy",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      45
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.vehicle.all_terrain_running_gear",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-010"
+    ],
+    "sourcePages": [
+      118
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.vehicle.auspex_survey_suite",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-010"
+    ],
+    "sourcePages": [
+      118
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.vehicle.ogryn_accommodation",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-010"
+    ],
+    "sourcePages": [
+      118
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.vehicle.recovery_winch",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-010"
+    ],
+    "sourcePages": [
+      118
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.vehicle.reinforced_plating",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-010"
+    ],
+    "sourcePages": [
+      118
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.vehicle.sealed_compartment",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-010"
+    ],
+    "sourcePages": [
+      118
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.vehicle.smoke_launchers",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-010"
+    ],
+    "sourcePages": [
+      118
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.vehicle.spare_parts_locker",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-010"
+    ],
+    "sourcePages": [
+      118
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.weapon.archeotech_interface",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      104
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.weapon.bayonet_breaching_lug",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      104
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.weapon.camo_wrap_low_signature_furniture",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      104
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.weapon.extended_magazine_charge_pack",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      104
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.weapon.recoil_compensation",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      104
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.weapon.reflex_sight",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      104
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.weapon.reinforced_action",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      104
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.weapon.sanctified_fittings",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      104
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.system.weapon.targeting_optic",
+    "kind": "system",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Typed installation slot/compatibility/host mapping is incomplete; preserve source restrictions.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      104
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.vehicle.aeldari_vyper",
+    "kind": "vehicle",
+    "category": "DEFERRED",
+    "reason": "DT policy resolved; crew/mount/system/profile references still require mapping.",
+    "issues": [
+      "PHB-010"
+    ],
+    "sourcePages": [
+      120
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.vehicle.armoured_utility_truck",
+    "kind": "vehicle",
+    "category": "DEFERRED",
+    "reason": "DT policy resolved; crew/mount/system/profile references still require mapping.",
+    "issues": [
+      "PHB-010"
+    ],
+    "sourcePages": [
+      119
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.vehicle.cargo_hauler",
+    "kind": "vehicle",
+    "category": "DEFERRED",
+    "reason": "DT policy resolved; crew/mount/system/profile references still require mapping.",
+    "issues": [
+      "PHB-010"
+    ],
+    "sourcePages": [
+      119
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.vehicle.chimera",
+    "kind": "vehicle",
+    "category": "DEFERRED",
+    "reason": "DT policy resolved; crew/mount/system/profile references still require mapping.",
+    "issues": [
+      "PHB-010"
+    ],
+    "sourcePages": [
+      120
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.vehicle.civilian_autocar",
+    "kind": "vehicle",
+    "category": "DEFERRED",
+    "reason": "DT policy resolved; crew/mount/system/profile references still require mapping.",
+    "issues": [
+      "PHB-010"
+    ],
+    "sourcePages": [
+      119
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.vehicle.falcon_grav_tank",
+    "kind": "vehicle",
+    "category": "DEFERRED",
+    "reason": "DT policy resolved; crew/mount/system/profile references still require mapping.",
+    "issues": [
+      "PHB-010"
+    ],
+    "sourcePages": [
+      120
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.vehicle.hernkyn_pioneer_bike",
+    "kind": "vehicle",
+    "category": "DEFERRED",
+    "reason": "DT policy resolved; crew/mount/system/profile references still require mapping.",
+    "issues": [
+      "PHB-010"
+    ],
+    "sourcePages": [
+      120
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.vehicle.hive_outrider_bike",
+    "kind": "vehicle",
+    "category": "DEFERRED",
+    "reason": "DT policy resolved; crew/mount/system/profile references still require mapping.",
+    "issues": [
+      "PHB-010"
+    ],
+    "sourcePages": [
+      119
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.vehicle.leman_russ_battle_tank",
+    "kind": "vehicle",
+    "category": "DEFERRED",
+    "reason": "DT policy resolved; crew/mount/system/profile references still require mapping.",
+    "issues": [
+      "PHB-010"
+    ],
+    "sourcePages": [
+      120
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.vehicle.sagitaur",
+    "kind": "vehicle",
+    "category": "DEFERRED",
+    "reason": "DT policy resolved; crew/mount/system/profile references still require mapping.",
+    "issues": [
+      "PHB-010"
+    ],
+    "sourcePages": [
+      120
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.vehicle.scout_sentinel",
+    "kind": "vehicle",
+    "category": "DEFERRED",
+    "reason": "DT policy resolved; crew/mount/system/profile references still require mapping.",
+    "issues": [
+      "PHB-010"
+    ],
+    "sourcePages": [
+      119
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.vehicle.taurox",
+    "kind": "vehicle",
+    "category": "DEFERRED",
+    "reason": "DT policy resolved; crew/mount/system/profile references still require mapping.",
+    "issues": [
+      "PHB-010"
+    ],
+    "sourcePages": [
+      119
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.aeldari_lasblaster",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      40
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.aeldari_power_sword",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      40
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.arc_pistol",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      40
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.arc_rifle",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      40
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.autocannon",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      121
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.autoch_pattern_bolter",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      40
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.autoch_pattern_pistol",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      40
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.autogun",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      37
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.autopistol",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      37
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.battle_cannon",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      121
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.big_friendly_rock",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      38
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.biting_blade",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      40
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.bolt_cannon",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      121
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.bolt_pistol",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      37
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.bolt_revolver",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      40
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.bolter",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      37
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.brute_shield_bash",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      38
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.chain_knife",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      38
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.chainsword",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      38
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.combat_blade",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      38
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.combat_shotgun",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      37
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.combi_bolter",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      37
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.concussion_gauntlet",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      40
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.concussion_hammer",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      40
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.corsair_sabre",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      40
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.death_spinner",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      40
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.etacarn_mining_tool",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005",
+      "PHB-006"
+    ],
+    "sourcePages": [
+      40
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.executioner_blade",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      40
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.firebomb",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      47
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.flamer",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      37
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.force_staff",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      38
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.force_sword",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      38
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.frag_bomb",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      47
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.frag_grenade",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      47
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.fusion_gun",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      40
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.galvanic_rifle",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005",
+      "PHB-006"
+    ],
+    "sourcePages": [
+      40
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.ghostsword",
+    "kind": "weapon",
+    "category": "NEEDS_CONTENT_RULING",
+    "reason": "Slash-separated damage semantics unresolved, in addition to missing required weapon fields.",
+    "issues": [
+      "PHB-005",
+      "PHB-006"
+    ],
+    "sourcePages": [
+      40
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.grenade_launcher",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      37
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.grenadier_gauntlet",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005",
+      "PHB-006"
+    ],
+    "sourcePages": [
+      38
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.hand_cannon",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      37
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.heavy_axe",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      38
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.heavy_bolter",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      37,
+      121
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.heavy_chainsword",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      38
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.heavy_stubber",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      37,
+      121
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.hot_shot_lasgun",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      37
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.hylas_rotary_cannon",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      121
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.industrial_cutter",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      38
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.ion_blaster",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      40
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.ion_pistol",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      40
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.kickback_shotgun",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      38
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.kin_power_axe",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      40
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.knife",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      38
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.krak_grenade",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      47
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.lascannon",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      121
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.lascarbine",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      37
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.lasgun",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      37
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.laspistol",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      37
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.long_las",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      37
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.magna_coil_autocannon",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      121
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.magna_rail_rifle",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      40
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.maul",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      38
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.melta_pistol",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      37
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.meltagun",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      37
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.monomolecular_blade",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      40
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.multi_laser",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      37,
+      121
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.needle_rifle",
+    "kind": "weapon",
+    "category": "NEEDS_CONTENT_RULING",
+    "reason": "Slash-separated damage semantics unresolved, in addition to missing required weapon fields.",
+    "issues": [
+      "PHB-005",
+      "PHB-006"
+    ],
+    "sourcePages": [
+      37
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.ogryn_club",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      38
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.omnissian_axe",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      38
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.plasma_axe",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005",
+      "PHB-006"
+    ],
+    "sourcePages": [
+      40
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.plasma_beamer",
+    "kind": "weapon",
+    "category": "NEEDS_CONTENT_RULING",
+    "reason": "Slash-separated damage semantics unresolved, in addition to missing required weapon fields.",
+    "issues": [
+      "PHB-005",
+      "PHB-006"
+    ],
+    "sourcePages": [
+      40
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.plasma_gun",
+    "kind": "weapon",
+    "category": "NEEDS_CONTENT_RULING",
+    "reason": "Slash-separated damage semantics unresolved, in addition to missing required weapon fields.",
+    "issues": [
+      "PHB-005",
+      "PHB-006"
+    ],
+    "sourcePages": [
+      37
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.plasma_pistol",
+    "kind": "weapon",
+    "category": "NEEDS_CONTENT_RULING",
+    "reason": "Slash-separated damage semantics unresolved, in addition to missing required weapon fields.",
+    "issues": [
+      "PHB-005",
+      "PHB-006"
+    ],
+    "sourcePages": [
+      37
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.power_axe",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      38
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.power_maul",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      38
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.power_maul_ogryn_pattern",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      38
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.power_sword",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      38
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.pulse_laser",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      121
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.rad_grenade",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      47
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.radium_carbine",
+    "kind": "weapon",
+    "category": "NEEDS_CONTENT_RULING",
+    "reason": "Slash-separated damage semantics unresolved, in addition to missing required weapon fields.",
+    "issues": [
+      "PHB-005",
+      "PHB-006"
+    ],
+    "sourcePages": [
+      40
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.ranger_long_rifle",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      40
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.relic_blade",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      38
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.ripper_gun",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      38
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.scatter_laser",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      121
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.shock_maul",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      38
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.shotgun",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      37
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.shuriken_cannon",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      121
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.shuriken_catapult",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      40
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.shuriken_pistol",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      40
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.singing_spear",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005",
+      "PHB-006"
+    ],
+    "sourcePages": [
+      40
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.slab_hammer",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      38
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.smoke_grenade",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      47
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.star_glaive",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      40
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.stub_pistol",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      37
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.stub_rifle",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      37
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.stun_grenade",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      47
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.taser_goad",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      40
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.thunder_hammer",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      38
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.trench_club",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      38
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.twin_linked_heavy_stubber",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      38
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.twin_shuriken_catapults",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-005"
+    ],
+    "sourcePages": [
+      121
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.wargear.ancestor_wrought_rail_rifle_kin",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      108
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.wargear.conversion_beamer",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      107
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.wargear.grav_gun",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      107
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.wargear.grav_pistol",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      106
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.wargear.grutts_lucky_club_ogryn",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      108
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.wargear.inferno_pistol",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      106
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.wargear.starfall_long_rifle_aeldari",
+    "kind": "weapon",
+    "category": "MISSING_SOURCE_DATA",
+    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      108
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.wargear.volkite_charger",
+    "kind": "weapon",
+    "category": "NEEDS_CONTENT_RULING",
+    "reason": "Slash-separated damage semantics unresolved, in addition to missing required weapon fields.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      107
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.wargear.volkite_serpenta",
+    "kind": "weapon",
+    "category": "NEEDS_CONTENT_RULING",
+    "reason": "Slash-separated damage semantics unresolved, in addition to missing required weapon fields.",
+    "issues": [
+      "PHB-014"
+    ],
+    "sourcePages": [
+      107
+    ],
+    "outcome": "retained_candidate"
+  },
+  {
+    "id": "di.weapon.witchblade",
+    "kind": "weapon",
+    "category": "NEEDS_CONTENT_RULING",
+    "reason": "Slash-separated damage semantics unresolved, in addition to missing required weapon fields.",
+    "issues": [
+      "PHB-005",
+      "PHB-006"
+    ],
+    "sourcePages": [
+      40
+    ],
+    "outcome": "retained_candidate"
+  }
+]

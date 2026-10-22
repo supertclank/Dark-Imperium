@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.progression.hive_scum",
   "kind": "progression",
-  "revision": 1,
+  "revision": 2,
   "name": "Hive Scum progression",
   "summary": "Exact level labels from the class table; feature automation is separately classified.",
   "descriptionMarkdown": "Exact level labels from the class table; feature automation is separately classified.",
@@ -65,10 +65,10 @@
         "level": 3,
         "grants": [
           {
-            "id": "level_3_1",
-            "kind": "feature",
-            "feature": {
-              "id": "di.feature.class.hive_scum.level_3.gang_style"
+            "id": "choose_subclass",
+            "kind": "choice",
+            "choice": {
+              "id": "di.choice.hive_scum.subclass"
             }
           }
         ]
@@ -111,15 +111,7 @@
       },
       {
         "level": 7,
-        "grants": [
-          {
-            "id": "level_7_1",
-            "kind": "feature",
-            "feature": {
-              "id": "di.feature.class.hive_scum.level_7.gang_style_feature"
-            }
-          }
-        ]
+        "grants": []
       },
       {
         "level": 8,
@@ -195,15 +187,7 @@
       },
       {
         "level": 14,
-        "grants": [
-          {
-            "id": "level_14_1",
-            "kind": "feature",
-            "feature": {
-              "id": "di.feature.class.hive_scum.level_14.gang_style_feature"
-            }
-          }
-        ]
+        "grants": []
       },
       {
         "level": 15,

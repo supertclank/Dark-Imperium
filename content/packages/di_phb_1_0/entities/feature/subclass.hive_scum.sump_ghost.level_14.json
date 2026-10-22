@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.hive_scum.sump_ghost.level_14",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Sump Ghost level 14",
+  "summary": "Sump Ghost; Once per short rest, become hidden from one creature even if it can see you, provided there is cover, smoke, steam, machinery, darkness, or a crowd within 10 ft.",
+  "descriptionMarkdown": "Sump Ghost; Once per short rest, become hidden from one creature even if it can see you, provided there is cover, smoke, steam, machinery, darkness, or a crowd within 10 ft.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Sump Ghost level 14",
+        "pdfPage": 66,
+        "printedPage": 53
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Sump Ghost; Once per short rest, become hidden from one creature even if it can see you, provided there is cover, smoke, steam, machinery, darkness, or a crowd within 10 ft.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.psyker.pyromancer.level_14",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Pyromancer level 14",
+  "summary": "Pyromancer; Once per short rest, your Pyromancy power ignores fire resistance.",
+  "descriptionMarkdown": "Pyromancer; Once per short rest, your Pyromancy power ignores fire resistance.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Pyromancer level 14",
+        "pdfPage": 57,
+        "printedPage": 44
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Pyromancer; Once per short rest, your Pyromancy power ignores fire resistance.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

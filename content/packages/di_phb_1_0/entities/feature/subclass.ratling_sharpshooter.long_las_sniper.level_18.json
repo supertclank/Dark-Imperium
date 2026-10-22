@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.ratling_sharpshooter.long_las_sniper.level_18",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Long-Las Sniper level 18",
+  "summary": "Long-Las Sniper; Your first Accurate weapon hit each round ignores heavy cover.",
+  "descriptionMarkdown": "Long-Las Sniper; Your first Accurate weapon hit each round ignores heavy cover.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Long-Las Sniper level 18",
+        "pdfPage": 69,
+        "printedPage": 56
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Long-Las Sniper; Your first Accurate weapon hit each round ignores heavy cover.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

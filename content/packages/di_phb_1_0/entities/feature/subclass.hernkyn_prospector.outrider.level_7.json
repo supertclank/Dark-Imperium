@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.hernkyn_prospector.outrider.level_7",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Outrider level 7",
+  "summary": "Outrider; When you move at least 15 ft, your next attack this turn deals +1d6 damage.",
+  "descriptionMarkdown": "Outrider; When you move at least 15 ft, your next attack this turn deals +1d6 damage.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Outrider level 7",
+        "pdfPage": 77,
+        "printedPage": 64
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Outrider; When you move at least 15 ft, your next attack this turn deals +1d6 damage.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

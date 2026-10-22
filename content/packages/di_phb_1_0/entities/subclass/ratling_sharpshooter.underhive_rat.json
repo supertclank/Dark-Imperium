@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.ratling_sharpshooter.underhive_rat",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Underhive Rat",
+  "summary": "Underhive Rat; Gain expertise in Stealth or Sleight of Hand. You have advantage on checks to hide in urban ruins, crowds, vents, pipes, and debris.  Underhive Rat; Climbing, crawling, squeezing, and moving through tight spaces costs you no extra movement.  Underhive Rat; Once per short rest, when an attack misses you while you are in cover, you may Hide as a reaction.  Underhive Rat; When you Hide as a reaction, you may also move 5 ft.",
+  "descriptionMarkdown": "Underhive Rat; Gain expertise in Stealth or Sleight of Hand. You have advantage on checks to hide in urban ruins, crowds, vents, pipes, and debris.\n\nUnderhive Rat; Climbing, crawling, squeezing, and moving through tight spaces costs you no extra movement.\n\nUnderhive Rat; Once per short rest, when an attack misses you while you are in cover, you may Hide as a reaction.\n\nUnderhive Rat; When you Hide as a reaction, you may also move 5 ft.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Underhive Rat",
+        "pdfPage": 68,
+        "printedPage": 55
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Underhive Rat",
+        "pdfPage": 69,
+        "printedPage": 56
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.ratling_sharpshooter"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.ratling_sharpshooter.underhive_rat"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.ratling_sharpshooter"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}

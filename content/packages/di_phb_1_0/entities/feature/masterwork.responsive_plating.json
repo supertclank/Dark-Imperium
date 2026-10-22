@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.masterwork.responsive_plating",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Responsive Plating",
+  "summary": "Masterwork Trait: Responsive Plating; Eligible Item: Armour; Effect: Once per short rest, reduce damage from one non-critical weapon hit by your proficiency bonus.",
+  "descriptionMarkdown": "Masterwork Trait: Responsive Plating; Eligible Item: Armour; Effect: Once per short rest, reduce damage from one non-critical weapon hit by your proficiency bonus.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "18",
+        "heading": "Responsive Plating",
+        "pdfPage": 105,
+        "printedPage": 92
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "general",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Masterwork Trait: Responsive Plating; Eligible Item: Armour; Effect: Once per short rest, reduce damage from one non-critical weapon hit by your proficiency bonus.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Item-bound procedure retained manually, including host eligibility; no automatic actor-wide bonus."
+      }
+    ]
+  }
+}

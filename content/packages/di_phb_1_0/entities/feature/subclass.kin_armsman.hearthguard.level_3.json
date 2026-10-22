@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.kin_armsman.hearthguard.level_3",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Hearthguard level 3",
+  "summary": "Hearthguard; While wearing medium or heavy Kin armour, reduce non-critical weapon damage by 1.",
+  "descriptionMarkdown": "Hearthguard; While wearing medium or heavy Kin armour, reduce non-critical weapon damage by 1.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Hearthguard level 3",
+        "pdfPage": 74,
+        "printedPage": 61
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Hearthguard; While wearing medium or heavy Kin armour, reduce non-critical weapon damage by 1.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

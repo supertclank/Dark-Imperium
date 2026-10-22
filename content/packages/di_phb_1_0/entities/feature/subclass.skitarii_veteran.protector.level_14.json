@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.skitarii_veteran.protector.level_14",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Protector Protocol level 14",
+  "summary": "Protector; When you use your reaction to protect an ally, reduce damage by your Intelligence modifier if the attack still hits.",
+  "descriptionMarkdown": "Protector; When you use your reaction to protect an ally, reduce damage by your Intelligence modifier if the attack still hits.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Protector Protocol level 14",
+        "pdfPage": 72,
+        "printedPage": 59
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Protector; When you use your reaction to protect an ally, reduce damage by your Intelligence modifier if the attack still hits.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

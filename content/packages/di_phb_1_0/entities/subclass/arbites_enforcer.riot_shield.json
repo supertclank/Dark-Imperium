@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.arbites_enforcer.riot_shield",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Riot Shield",
+  "summary": "Riot Shield; While using a shield, you gain +1 AC and advantage against being shoved.  Riot Shield; When you take the Dodge action with a shield, one adjacent ally also gains +2 AC.  Riot Shield; While using a shield, you gain resistance to damage from opportunity attacks.  Riot Shield; While using a shield, you and one adjacent ally gain +1 to Dexterity saves.",
+  "descriptionMarkdown": "Riot Shield; While using a shield, you gain +1 AC and advantage against being shoved.\n\nRiot Shield; When you take the Dodge action with a shield, one adjacent ally also gains +2 AC.\n\nRiot Shield; While using a shield, you gain resistance to damage from opportunity attacks.\n\nRiot Shield; While using a shield, you and one adjacent ally gain +1 to Dexterity saves.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Riot Shield",
+        "pdfPage": 62,
+        "printedPage": 49
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Riot Shield",
+        "pdfPage": 63,
+        "printedPage": 50
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.arbites_enforcer"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.arbites_enforcer.riot_shield"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.arbites_enforcer"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}

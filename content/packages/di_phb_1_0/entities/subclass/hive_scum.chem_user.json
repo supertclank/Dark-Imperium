@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.hive_scum.chem_user",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Chem-User",
+  "summary": "Chem-User; Once per long rest, inject combat chems as a bonus action. Gain +10 ft speed and advantage on Strength and Dexterity checks for 1 minute. Afterwards, make a Constitution saving throw or gain one level of exhaustion.  Chem-User; You gain advantage on saving throws against poison and combat drugs.  Chem-User; Once per long rest, ignore the exhaustion risk from your combat chems.",
+  "descriptionMarkdown": "Chem-User; Once per long rest, inject combat chems as a bonus action. Gain +10 ft speed and advantage on Strength and Dexterity checks for 1 minute. Afterwards, make a Constitution saving throw or gain one level of exhaustion.\n\nChem-User; You gain advantage on saving throws against poison and combat drugs.\n\nChem-User; Once per long rest, ignore the exhaustion risk from your combat chems.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Chem-User",
+        "pdfPage": 65,
+        "printedPage": 52
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.hive_scum"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.hive_scum.chem_user"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.hive_scum"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}

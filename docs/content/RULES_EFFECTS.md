@@ -138,3 +138,7 @@ Security: no eval, templates with code, arbitrary JSONPath, dynamic classes, ext
 ## Integrated dice extension
 
 Roll compilation evaluates typed modifiers and conditions using the same provenance/stacking phases. Advantage is resolved once into concrete keep groups. Critical-threshold/policy changes require registered capability operations; they are not implicitly new legal operations in the current effect whitelist. Calculation never draws randomness or spends costs. Action execution owns idempotent reservations and outcome commits across attack and damage. See [Integrated dice rolling](DICE_ROLLING.md).
+
+## PHB canonicalisation pass
+
+PHB prerequisite wire shapes and source-specific policy limits are clarified in [PREREQUISITES](PREREQUISITES.md), [CALCULATION_POLICIES](CALCULATION_POLICIES.md) and [STACKING_RULES](STACKING_RULES.md). Generic interpreter phases do not establish PHB precedence.

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.skitarii_veteran.protector.level_3",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Protector Protocol level 3",
+  "summary": "Protector Protocol; When an ally within 30 ft is targeted by an attack, you may use your reaction before the roll is resolved to give that ally +2 AC against the attack if you can see the attacker.",
+  "descriptionMarkdown": "Protector Protocol; When an ally within 30 ft is targeted by an attack, you may use your reaction before the roll is resolved to give that ally +2 AC against the attack if you can see the attacker.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Protector Protocol level 3",
+        "pdfPage": 71,
+        "printedPage": 58
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Protector Protocol; When an ally within 30 ft is targeted by an attack, you may use your reaction before the roll is resolved to give that ally +2 AC against the attack if you can see the attacker.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

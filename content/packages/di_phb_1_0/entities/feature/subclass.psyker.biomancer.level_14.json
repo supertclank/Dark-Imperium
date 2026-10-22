@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.psyker.biomancer.level_14",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Biomancer level 14",
+  "summary": "Biomancer; Once per long rest, when a creature you can touch drops to 0 hit points, it drops to 1 hit point instead.",
+  "descriptionMarkdown": "Biomancer; Once per long rest, when a creature you can touch drops to 0 hit points, it drops to 1 hit point instead.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Biomancer level 14",
+        "pdfPage": 57,
+        "printedPage": 44
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Biomancer; Once per long rest, when a creature you can touch drops to 0 hit points, it drops to 1 hit point instead.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

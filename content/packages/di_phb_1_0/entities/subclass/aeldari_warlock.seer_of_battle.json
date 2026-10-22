@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.aeldari_warlock.seer_of_battle",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Seer of Battle",
+  "summary": "Seer of Battle; Once per short rest, add or subtract 1d4 from a d20 roll made by a creature you can see.  Seer of Battle; Your d4 becomes a d6 for your Warlock Path feature.  Seer of Battle; Once per short rest, give one ally advantage on an attack, save, or check as a reaction.  Seer of Battle; Your reaction advantage may be used after the d20 is rolled but before the result is declared.",
+  "descriptionMarkdown": "Seer of Battle; Once per short rest, add or subtract 1d4 from a d20 roll made by a creature you can see.\n\nSeer of Battle; Your d4 becomes a d6 for your Warlock Path feature.\n\nSeer of Battle; Once per short rest, give one ally advantage on an attack, save, or check as a reaction.\n\nSeer of Battle; Your reaction advantage may be used after the d20 is rolled but before the result is declared.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Seer of Battle",
+        "pdfPage": 83,
+        "printedPage": 70
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Seer of Battle",
+        "pdfPage": 84,
+        "printedPage": 71
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.aeldari_warlock"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.aeldari_warlock.seer_of_battle"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.aeldari_warlock"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}

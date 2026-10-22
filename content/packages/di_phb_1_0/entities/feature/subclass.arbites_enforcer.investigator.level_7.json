@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.arbites_enforcer.investigator.level_7",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Investigator level 7",
+  "summary": "Investigator; When you hit a creature you have studied or identified, add your Wisdom modifier to the damage once per turn.",
+  "descriptionMarkdown": "Investigator; When you hit a creature you have studied or identified, add your Wisdom modifier to the damage once per turn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Investigator level 7",
+        "pdfPage": 62,
+        "printedPage": 49
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Investigator; When you hit a creature you have studied or identified, add your Wisdom modifier to the damage once per turn.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

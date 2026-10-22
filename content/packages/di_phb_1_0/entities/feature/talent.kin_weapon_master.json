@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.feature.talent.kin_weapon_master",
   "kind": "feature",
-  "revision": 1,
+  "revision": 2,
   "name": "Kin Weapon Master",
   "summary": "Talent: Kin Weapon Master Requirement: Squat/Kin Benefit: Gain +1 damage with Kin weapons.",
   "descriptionMarkdown": "Talent: Kin Weapon Master\nRequirement: Squat/Kin\nBenefit: Gain +1 damage with Kin weapons.",
@@ -34,6 +34,12 @@
         "context": "source-defined procedure",
         "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
       }
-    ]
+    ],
+    "requirements": {
+      "kind": "selected",
+      "content": {
+        "id": "di.species.kin"
+      }
+    }
   }
 }

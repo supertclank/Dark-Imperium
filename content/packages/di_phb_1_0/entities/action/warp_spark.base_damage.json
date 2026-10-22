@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.action.warp_spark.base_damage",
   "kind": "action",
-  "revision": 1,
+  "revision": 2,
   "name": "Warp Spark base damage",
   "summary": "Source base damage: 1d8 force. This is an isolated base-dice template, not a complete attack, damage application or resource transaction.",
   "descriptionMarkdown": "Source base damage: 1d8 force. This is an isolated base-dice template, not a complete attack, damage application or resource transaction.",
@@ -57,7 +57,16 @@
             "sides": 8
           }
         ],
-        "modifiers": []
+        "modifiers": [],
+        "damageBindings": [
+          {
+            "groupId": "base",
+            "componentId": "base",
+            "damageType": {
+              "id": "di.damage_type.force"
+            }
+          }
+        ]
       }
     ]
   }

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.hive_scum.gunslinger",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Gunslinger",
+  "summary": "Gunslinger; Once per turn, you can reload a pistol without using an action.  Gunslinger; Once per short rest, make one pistol attack as a bonus action after taking the Attack action.  Gunslinger; Your first pistol hit each turn deals +1d6 damage if the target is within 30 ft.",
+  "descriptionMarkdown": "Gunslinger; Once per turn, you can reload a pistol without using an action.\n\nGunslinger; Once per short rest, make one pistol attack as a bonus action after taking the Attack action.\n\nGunslinger; Your first pistol hit each turn deals +1d6 damage if the target is within 30 ft.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Gunslinger",
+        "pdfPage": 65,
+        "printedPage": 52
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.hive_scum"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.hive_scum.gunslinger"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.hive_scum"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}

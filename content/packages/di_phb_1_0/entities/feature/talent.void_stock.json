@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.feature.talent.void_stock",
   "kind": "feature",
-  "revision": 1,
+  "revision": 2,
   "name": "Void Stock",
   "summary": "Talent: Void Stock Requirement: Squat/Kin Benefit: Advantage on saves against vacuum exposure, suffocation, toxic atmosphere, and exhaustion from poor conditions.",
   "descriptionMarkdown": "Talent: Void Stock\nRequirement: Squat/Kin\nBenefit: Advantage on saves against vacuum exposure, suffocation, toxic atmosphere, and exhaustion from poor conditions.",
@@ -34,6 +34,12 @@
         "context": "source-defined procedure",
         "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
       }
-    ]
+    ],
+    "requirements": {
+      "kind": "selected",
+      "content": {
+        "id": "di.species.kin"
+      }
+    }
   }
 }

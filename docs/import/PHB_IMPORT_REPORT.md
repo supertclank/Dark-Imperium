@@ -1,3 +1,5 @@
+> Historical intake report. Current counts, dispositions and readiness are in [PHB_CANONICALISATION_REPORT](PHB_CANONICALISATION_REPORT.md); machine-readable review ledgers have been updated.
+
 # PHB import report — first staged slice
 
 Date: 22 October 2026. **Partial import; not a published ruleset and not ready for the full builder.** No gameplay, frontend, backend or database migration changes were made.

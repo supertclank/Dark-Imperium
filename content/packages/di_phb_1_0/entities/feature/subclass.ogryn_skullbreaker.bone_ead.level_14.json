@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.ogryn_skullbreaker.bone_ead.level_14",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Bone ’ead level 14",
+  "summary": "Bone ’ead; Once per long rest, treat a failed Wisdom or Intelligence saving throw as a success.",
+  "descriptionMarkdown": "Bone ’ead; Once per long rest, treat a failed Wisdom or Intelligence saving throw as a success.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Bone ’ead level 14",
+        "pdfPage": 60,
+        "printedPage": 47
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Bone ’ead; Once per long rest, treat a failed Wisdom or Intelligence saving throw as a success.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

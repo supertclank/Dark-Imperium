@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.masterwork.recoil_compensation",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Recoil Compensation",
+  "summary": "Masterwork Trait: Recoil Compensation; Eligible Item: Heavy ranged weapon; Effect: Moving before firing no longer imposes a penalty from the Heavy property, though other Heavy restrictions still apply.",
+  "descriptionMarkdown": "Masterwork Trait: Recoil Compensation; Eligible Item: Heavy ranged weapon; Effect: Moving before firing no longer imposes a penalty from the Heavy property, though other Heavy restrictions still apply.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "18",
+        "heading": "Recoil Compensation",
+        "pdfPage": 105,
+        "printedPage": 92
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "general",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Masterwork Trait: Recoil Compensation; Eligible Item: Heavy ranged weapon; Effect: Moving before firing no longer imposes a penalty from the Heavy property, though other Heavy restrictions still apply.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Item-bound procedure retained manually, including host eligibility; no automatic actor-wide bonus."
+      }
+    ]
+  }
+}

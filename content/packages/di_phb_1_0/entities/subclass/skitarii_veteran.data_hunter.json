@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.skitarii_veteran.data_hunter",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Data-Hunter Protocol",
+  "summary": "Data-Hunter Protocol; Gain expertise in Investigation or Technology. Once per short rest, identify one weakness, resistance, or tactical feature of an enemy you can observe.  Data-Hunter; The next ally to damage the identified enemy adds +1d6 damage.  Data-Hunter; Your identified target loses one resistance of the GM’s choice against the next damage it takes.  Data-Hunter; Your identified target grants +1 to allied attack rolls until your next turn.",
+  "descriptionMarkdown": "Data-Hunter Protocol; Gain expertise in Investigation or Technology. Once per short rest, identify one weakness, resistance, or tactical feature of an enemy you can observe.\n\nData-Hunter; The next ally to damage the identified enemy adds +1d6 damage.\n\nData-Hunter; Your identified target loses one resistance of the GM’s choice against the next damage it takes.\n\nData-Hunter; Your identified target grants +1 to allied attack rolls until your next turn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Data-Hunter Protocol",
+        "pdfPage": 71,
+        "printedPage": 58
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Data-Hunter Protocol",
+        "pdfPage": 72,
+        "printedPage": 59
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.skitarii_veteran"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.skitarii_veteran.data_hunter"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.skitarii_veteran"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}

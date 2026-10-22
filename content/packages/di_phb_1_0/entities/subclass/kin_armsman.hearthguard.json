@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.kin_armsman.hearthguard",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Hearthguard",
+  "summary": "Hearthguard; While wearing medium or heavy Kin armour, reduce non-critical weapon damage by 1.  Hearthguard; Your damage reduction becomes 2.  Hearthguard; While you are below half hit points, your armour damage reduction increases by 1.  Hearthguard; Your armour damage reduction applies to critical hits, but only for 1 damage.",
+  "descriptionMarkdown": "Hearthguard; While wearing medium or heavy Kin armour, reduce non-critical weapon damage by 1.\n\nHearthguard; Your damage reduction becomes 2.\n\nHearthguard; While you are below half hit points, your armour damage reduction increases by 1.\n\nHearthguard; Your armour damage reduction applies to critical hits, but only for 1 damage.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Hearthguard",
+        "pdfPage": 74,
+        "printedPage": 61
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Hearthguard",
+        "pdfPage": 75,
+        "printedPage": 62
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.kin_armsman"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.kin_armsman.hearthguard"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.kin_armsman"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}

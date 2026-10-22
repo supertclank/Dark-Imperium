@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.hernkyn_prospector.outrider.level_18",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Outrider level 18",
+  "summary": "Outrider; After you use Outrider’s Escape, your next attack before your next turn has advantage.",
+  "descriptionMarkdown": "Outrider; After you use Outrider’s Escape, your next attack before your next turn has advantage.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Outrider level 18",
+        "pdfPage": 78,
+        "printedPage": 65
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Outrider; After you use Outrider’s Escape, your next attack before your next turn has advantage.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

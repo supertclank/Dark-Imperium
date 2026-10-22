@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.psyker.telekine.level_14",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Telekine level 14",
+  "summary": "Telekine; Once per short rest, when you use Psychic Ward, you may also push the attacker 10 ft.",
+  "descriptionMarkdown": "Telekine; Once per short rest, when you use Psychic Ward, you may also push the attacker 10 ft.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Telekine level 14",
+        "pdfPage": 57,
+        "printedPage": 44
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Telekine; Once per short rest, when you use Psychic Ward, you may also push the attacker 10 ft.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

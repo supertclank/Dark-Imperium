@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.feature.talent.witchblade_adept",
   "kind": "feature",
-  "revision": 1,
+  "revision": 2,
   "name": "Witchblade Adept",
   "summary": "Talent: Witchblade Adept Requirement: Aeldari Warlock Benefit: Add +1 damage with witchblades and singing spears; these weapons count as psychic for overcoming resistance.",
   "descriptionMarkdown": "Talent: Witchblade Adept\nRequirement: Aeldari Warlock\nBenefit: Add +1 damage with witchblades and singing spears; these weapons count as psychic for overcoming resistance.",
@@ -34,6 +34,23 @@
         "context": "source-defined procedure",
         "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
       }
-    ]
+    ],
+    "requirements": {
+      "kind": "all",
+      "predicates": [
+        {
+          "kind": "selected",
+          "content": {
+            "id": "di.species.aeldari"
+          }
+        },
+        {
+          "kind": "selected",
+          "content": {
+            "id": "di.class.aeldari_warlock"
+          }
+        }
+      ]
+    }
   }
 }

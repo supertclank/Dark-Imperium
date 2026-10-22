@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.skitarii_veteran.infiltrator.level_3",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Infiltrator Protocol level 3",
+  "summary": "Infiltrator Protocol; Gain proficiency in Stealth. Once per short rest, as a bonus action, become hidden from creatures relying on standard vision or auspex until the end of your turn, provided you have cover or concealment.",
+  "descriptionMarkdown": "Infiltrator Protocol; Gain proficiency in Stealth. Once per short rest, as a bonus action, become hidden from creatures relying on standard vision or auspex until the end of your turn, provided you have cover or concealment.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Infiltrator Protocol level 3",
+        "pdfPage": 71,
+        "printedPage": 58
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Infiltrator Protocol; Gain proficiency in Stealth. Once per short rest, as a bonus action, become hidden from creatures relying on standard vision or auspex until the end of your turn, provided you have cover or concealment.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

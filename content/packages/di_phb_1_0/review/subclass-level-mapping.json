@@ -1,0 +1,1812 @@
+[
+  {
+    "subclassId": "di.subclass.zealot.preacher",
+    "level": 7,
+    "pdfPage": 53,
+    "tableTop": 443.7,
+    "tableX": 301.2,
+    "row": [
+      "Preacher",
+      "When you use Martyr’s Mercy, the target also gains advantage on its next saving throw against fear."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.zealot.flagellant",
+    "level": 7,
+    "pdfPage": 53,
+    "tableTop": 443.7,
+    "tableX": 301.2,
+    "row": [
+      "Flagellant",
+      "When you take damage, gain temporary HP equal to your proficiency bonus."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.zealot.purifier",
+    "level": 7,
+    "pdfPage": 53,
+    "tableTop": 443.7,
+    "tableX": 301.2,
+    "row": [
+      "Purifier",
+      "Your flamer and firebomb damage increases by +1 per damage die against daemons, heretics, mutants, and corrupted creatures."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.zealot.preacher",
+    "level": 3,
+    "pdfPage": 53,
+    "tableTop": 649.2,
+    "tableX": 41.4,
+    "row": [
+      "Preacher",
+      "Allies within 30 ft gain advantage on fear saves while you are conscious."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.zealot.flagellant",
+    "level": 3,
+    "pdfPage": 53,
+    "tableTop": 649.2,
+    "tableX": 41.4,
+    "row": [
+      "Flagellant",
+      "Once per round, when you take damage, your next melee attack deals +1d6 bonus damage."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.zealot.purifier",
+    "level": 3,
+    "pdfPage": 53,
+    "tableTop": 649.2,
+    "tableX": 41.4,
+    "row": [
+      "Purifier",
+      "You gain proficiency with flamers. Once per turn, fire damage you deal ignores resistance."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.zealot.preacher",
+    "level": 14,
+    "pdfPage": 54,
+    "tableTop": 91.3,
+    "tableX": 41.4,
+    "row": [
+      "Preacher",
+      "Once per long rest, as an action, up to three allies within 30 ft regain hit points equal to 2d6 + your Wisdom or Charisma modifier."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.zealot.flagellant",
+    "level": 14,
+    "pdfPage": 54,
+    "tableTop": 91.3,
+    "tableX": 41.4,
+    "row": [
+      "Flagellant",
+      "Once per turn, when you are below half hit points, your melee attacks deal +1d8 radiant or fire damage."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.zealot.purifier",
+    "level": 14,
+    "pdfPage": 54,
+    "tableTop": 91.3,
+    "tableX": 41.4,
+    "row": [
+      "Purifier",
+      "Your fire damage ignores resistance, and daemons/corrupted creatures cannot regain hit points until the start of your next turn after taking your fire damage."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.zealot.preacher",
+    "level": 18,
+    "pdfPage": 54,
+    "tableTop": 154.4,
+    "tableX": 301.2,
+    "row": [
+      "Preacher",
+      "Allies within 30 ft also gain +1d4 to fear saves."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.zealot.flagellant",
+    "level": 18,
+    "pdfPage": 54,
+    "tableTop": 154.4,
+    "tableX": 301.2,
+    "row": [
+      "Flagellant",
+      "The first time each round you take damage, gain temporary HP equal to twice your proficiency bonus."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.zealot.purifier",
+    "level": 18,
+    "pdfPage": 54,
+    "tableTop": 154.4,
+    "tableX": 301.2,
+    "row": [
+      "Purifier",
+      "When you deal fire damage, one affected creature cannot benefit from cover against your next attack before your next turn."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.psyker.biomancer",
+    "level": 1,
+    "pdfPage": 56,
+    "tableTop": 365.9,
+    "tableX": 308.7,
+    "row": [
+      "Biomancer",
+      "Universal, Biomancy",
+      "Healing, endurance, flesh control, toxins, and forced growth."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.psyker.telekine",
+    "level": 1,
+    "pdfPage": 56,
+    "tableTop": 365.9,
+    "tableX": 308.7,
+    "row": [
+      "Telekine",
+      "Universal, Telekinesis",
+      "Force shields, kinetic movement, crushing pressure, battlefield control."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.psyker.diviner",
+    "level": 1,
+    "pdfPage": 56,
+    "tableTop": 365.9,
+    "tableX": 308.7,
+    "row": [
+      "Diviner",
+      "Universal, Divination",
+      "Foresight, danger sense, accuracy, fate manipulation, and reading echoes."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.psyker.pyromancer",
+    "level": 1,
+    "pdfPage": 56,
+    "tableTop": 365.9,
+    "tableX": 308.7,
+    "row": [
+      "Pyromancer",
+      "Universal, Pyromancy",
+      "Fire, soul-burning, area denial, purging flame."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.psyker.malefic_touched",
+    "level": 1,
+    "pdfPage": 56,
+    "tableTop": 365.9,
+    "tableX": 308.7,
+    "row": [
+      "Malefic- Touched",
+      "Universal, Malefic",
+      "High-risk damage, fear, possession pressure, daemonic resonance. Using Malefic powers should attract harsher narrative consequences."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.psyker.blank_null_bound",
+    "level": 1,
+    "pdfPage": 56,
+    "tableTop": 365.9,
+    "tableX": 308.7,
+    "row": [
+      "Blank / Null- Bound",
+      "Universal, Null",
+      "Anti-psychic pressure, witch- hunting, null aura, Warp denial. This rare path should require GM approval because true blanks are not normal psykers."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.psyker.biomancer",
+    "level": 3,
+    "pdfPage": 56,
+    "tableTop": 664.1,
+    "tableX": 301.2,
+    "row": [
+      "Biomancer",
+      "When you heal a creature, it gains temporary hit points equal to your proficiency bonus."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.psyker.telekine",
+    "level": 3,
+    "pdfPage": 56,
+    "tableTop": 664.1,
+    "tableX": 301.2,
+    "row": [
+      "Telekine",
+      "When you cast a force power, you may push the target 10 ft on a failed save."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.psyker.diviner",
+    "level": 3,
+    "pdfPage": 56,
+    "tableTop": 664.1,
+    "tableX": 301.2,
+    "row": [
+      "Diviner",
+      "Once per short rest, add or subtract 1d4 from a d20 roll made by a creature you can see."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.psyker.pyromancer",
+    "level": 3,
+    "pdfPage": 56,
+    "tableTop": 664.1,
+    "tableX": 301.2,
+    "row": [
+      "Pyromancer",
+      "Fire powers deal +1 damage per damage die."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.psyker.malefic_touched",
+    "level": 3,
+    "pdfPage": 56,
+    "tableTop": 664.1,
+    "tableX": 301.2,
+    "row": [
+      "Malefic-Touched",
+      "When you trigger Perils, your next psychic power deals +1d8 damage."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.psyker.blank_null_bound",
+    "level": 3,
+    "pdfPage": 57,
+    "tableTop": 46.8,
+    "tableX": 41.4,
+    "row": [
+      "Blank / Null-Bound",
+      "You have advantage on saving throws against psychic powers and Perils effects. When a creature you can see within 30 ft gains Warp Pressure, you may use your reaction to reduce psychic damage dealt to one ally by your proficiency bonus."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.psyker.biomancer",
+    "level": 14,
+    "pdfPage": 57,
+    "tableTop": 132.8,
+    "tableX": 301.2,
+    "row": [
+      "Biomancer",
+      "Once per long rest, when a creature you can touch drops to 0 hit points, it drops to 1 hit point instead."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.psyker.telekine",
+    "level": 14,
+    "pdfPage": 57,
+    "tableTop": 132.8,
+    "tableX": 301.2,
+    "row": [
+      "Telekine",
+      "Once per short rest, when you use Psychic Ward, you may also push the attacker 10 ft."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.psyker.diviner",
+    "level": 14,
+    "pdfPage": 57,
+    "tableTop": 132.8,
+    "tableX": 301.2,
+    "row": [
+      "Diviner",
+      "Once per long rest, replace a d20 roll made by a creature you can see with a 10 before modifiers."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.psyker.pyromancer",
+    "level": 14,
+    "pdfPage": 57,
+    "tableTop": 132.8,
+    "tableX": 301.2,
+    "row": [
+      "Pyromancer",
+      "Once per short rest, your Pyromancy power ignores fire resistance."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.psyker.malefic_touched",
+    "level": 14,
+    "pdfPage": 57,
+    "tableTop": 132.8,
+    "tableX": 301.2,
+    "row": [
+      "Malefic-Touched",
+      "Once per long rest, after triggering Perils, you may choose to gain 1 Corruption to treat the Perils result as Warp Static."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.psyker.blank_null_bound",
+    "level": 14,
+    "pdfPage": 57,
+    "tableTop": 132.8,
+    "tableX": 301.2,
+    "row": [
+      "Blank / Null- Bound",
+      "Once per long rest, when a creature within 60 ft triggers Perils, you may force it to reroll the Perils severity roll and use the lower result if it is an ally, or the higher result if it is hostile."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.psyker.biomancer",
+    "level": 7,
+    "pdfPage": 57,
+    "tableTop": 258.3,
+    "tableX": 41.4,
+    "row": [
+      "Biomancer",
+      "Your healing powers also end one minor bleeding or poison effect."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.psyker.telekine",
+    "level": 7,
+    "pdfPage": 57,
+    "tableTop": 258.3,
+    "tableX": 41.4,
+    "row": [
+      "Telekine",
+      "Your forced movement increases by 5 ft."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.psyker.diviner",
+    "level": 7,
+    "pdfPage": 57,
+    "tableTop": 258.3,
+    "tableX": 41.4,
+    "row": [
+      "Diviner",
+      "When you use a reaction power, you may move 5 ft without provoking opportunity attacks."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.psyker.pyromancer",
+    "level": 7,
+    "pdfPage": 57,
+    "tableTop": 258.3,
+    "tableX": 41.4,
+    "row": [
+      "Pyromancer",
+      "Creatures damaged by your Pyromancy powers cannot benefit from invisibility until your next turn."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.psyker.malefic_touched",
+    "level": 7,
+    "pdfPage": 57,
+    "tableTop": 258.3,
+    "tableX": 41.4,
+    "row": [
+      "Malefic-Touched",
+      "When you frighten a creature with a Malefic power, you gain temporary HP equal to your proficiency bonus."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.psyker.blank_null_bound",
+    "level": 7,
+    "pdfPage": 57,
+    "tableTop": 258.3,
+    "tableX": 41.4,
+    "row": [
+      "Blank / Null-Bound",
+      "When you reduce psychic damage or resist a psychic effect, one hostile psyker or daemon within 30 ft has disadvantage on its next Wisdom or Charisma saving throw before the end of your next turn."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.ogryn_skullbreaker.bulwark",
+    "level": 7,
+    "pdfPage": 59,
+    "tableTop": 477.0,
+    "tableX": 301.2,
+    "row": [
+      "Bulwark",
+      "While using a shield, you also gain advantage on saves against being shoved."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.ogryn_skullbreaker.gun_lugger",
+    "level": 7,
+    "pdfPage": 59,
+    "tableTop": 477.0,
+    "tableX": 301.2,
+    "row": [
+      "Gun Lugger",
+      "Your first ranged Ogryn weapon attack each turn deals +1d6 damage."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.ogryn_skullbreaker.bone_ead",
+    "level": 7,
+    "pdfPage": 59,
+    "tableTop": 477.0,
+    "tableX": 301.2,
+    "row": [
+      "Bone ’ead",
+      "Once per short rest, when you or an ally within 10 ft fails a Wisdom or Intelligence saving throw against fear, psychic manipulation, confusion, or Suppression, you may use your reaction to let that creature reroll the save."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.ogryn_skullbreaker.brute",
+    "level": 7,
+    "pdfPage": 59,
+    "tableTop": 477.0,
+    "tableX": 301.2,
+    "row": [
+      "Brute",
+      "Your Brute damage becomes +1d8."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.ogryn_skullbreaker.bulwark",
+    "level": 3,
+    "pdfPage": 59,
+    "tableTop": 671.9,
+    "tableX": 41.4,
+    "row": [
+      "Bulwark",
+      "While using a shield, allies behind you gain light cover."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.ogryn_skullbreaker.gun_lugger",
+    "level": 3,
+    "pdfPage": 59,
+    "tableTop": 671.9,
+    "tableX": 41.4,
+    "row": [
+      "Gun Lugger",
+      "You can use heavy weapons without the normal movement penalty."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.ogryn_skullbreaker.bone_ead",
+    "level": 3,
+    "pdfPage": 59,
+    "tableTop": 671.9,
+    "tableX": 41.4,
+    "row": [
+      "Bone ’ead",
+      "You gain proficiency in Wisdom saves and one additional skill."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.ogryn_skullbreaker.brute",
+    "level": 3,
+    "pdfPage": 59,
+    "tableTop": 671.9,
+    "tableX": 41.4,
+    "row": [
+      "Brute",
+      "Once per turn, when you hit with a melee weapon, deal +1d6 damage."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.ogryn_skullbreaker.bulwark",
+    "level": 14,
+    "pdfPage": 60,
+    "tableTop": 151.0,
+    "tableX": 41.4,
+    "row": [
+      "Bulwark",
+      "Allies benefiting from cover provided by your slab shield have advantage on Dexterity saving throws against Blast and Spray effects, and ignore the first 5 ft of forced movement they would suffer each round."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.ogryn_skullbreaker.gun_lugger",
+    "level": 14,
+    "pdfPage": 60,
+    "tableTop": 151.0,
+    "tableX": 41.4,
+    "row": [
+      "Gun Lugger",
+      "You ignore disadvantage from firing Heavy or Ogryn weapons after moving."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.ogryn_skullbreaker.bone_ead",
+    "level": 14,
+    "pdfPage": 60,
+    "tableTop": 151.0,
+    "tableX": 41.4,
+    "row": [
+      "Bone ’ead",
+      "Once per long rest, treat a failed Wisdom or Intelligence saving throw as a success."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.ogryn_skullbreaker.brute",
+    "level": 14,
+    "pdfPage": 60,
+    "tableTop": 151.0,
+    "tableX": 41.4,
+    "row": [
+      "Brute",
+      "Once per turn, when you push or knock a creature prone, deal bludgeoning damage equal to your Strength modifier."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.ogryn_skullbreaker.bulwark",
+    "level": 18,
+    "pdfPage": 60,
+    "tableTop": 162.2,
+    "tableX": 301.2,
+    "row": [
+      "Bulwark",
+      "While using a slab shield, adjacent allies also gain resistance to damage from opportunity attacks."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.ogryn_skullbreaker.gun_lugger",
+    "level": 18,
+    "pdfPage": 60,
+    "tableTop": 162.2,
+    "tableX": 301.2,
+    "row": [
+      "Gun Lugger",
+      "Once per turn, your heavy ranged weapon hit deals +1d8 damage."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.ogryn_skullbreaker.bone_ead",
+    "level": 18,
+    "pdfPage": 60,
+    "tableTop": 162.2,
+    "tableX": 301.2,
+    "row": [
+      "Bone ’ead",
+      "Allies within 10 ft gain +1 to Wisdom saves while you are conscious."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.ogryn_skullbreaker.brute",
+    "level": 18,
+    "pdfPage": 60,
+    "tableTop": 162.2,
+    "tableX": 301.2,
+    "row": [
+      "Brute",
+      "Your melee critical hits knock targets prone if they fail a Strength save."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.arbites_enforcer.riot_shield",
+    "level": 7,
+    "pdfPage": 62,
+    "tableTop": 458.9,
+    "tableX": 301.2,
+    "row": [
+      "Riot Shield",
+      "When you take the Dodge action with a shield, one adjacent ally also gains +2 AC."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.arbites_enforcer.executioner",
+    "level": 7,
+    "pdfPage": 62,
+    "tableTop": 458.9,
+    "tableX": 301.2,
+    "row": [
+      "Executioner",
+      "Your Executioner damage becomes +1d8."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.arbites_enforcer.investigator",
+    "level": 7,
+    "pdfPage": 62,
+    "tableTop": 458.9,
+    "tableX": 301.2,
+    "row": [
+      "Investigator",
+      "When you hit a creature you have studied or identified, add your Wisdom modifier to the damage once per turn."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.arbites_enforcer.riot_shield",
+    "level": 3,
+    "pdfPage": 62,
+    "tableTop": 604.7,
+    "tableX": 41.4,
+    "row": [
+      "Riot Shield",
+      "While using a shield, you gain +1 AC and advantage against being shoved."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.arbites_enforcer.executioner",
+    "level": 3,
+    "pdfPage": 62,
+    "tableTop": 604.7,
+    "tableX": 41.4,
+    "row": [
+      "Executioner",
+      "Your attacks against frightened, prone, or restrained creatures deal +1d6 damage."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.arbites_enforcer.investigator",
+    "level": 3,
+    "pdfPage": 62,
+    "tableTop": 604.7,
+    "tableX": 41.4,
+    "row": [
+      "Investigator",
+      "Gain expertise in Investigation or Insight. As a bonus action, study one creature, device, or scene you can see within 60 ft; until the end of your next turn, it counts as studied for your Investigator features. Uses: proficiency bonus per long rest."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.arbites_enforcer.riot_shield",
+    "level": 14,
+    "pdfPage": 63,
+    "tableTop": 80.1,
+    "tableX": 41.4,
+    "row": [
+      "Riot Shield",
+      "While using a shield, you gain resistance to damage from opportunity attacks."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.arbites_enforcer.executioner",
+    "level": 14,
+    "pdfPage": 63,
+    "tableTop": 80.1,
+    "tableX": 41.4,
+    "row": [
+      "Executioner",
+      "Once per turn, when you reduce a hostile creature to 0 hit points, another hostile creature within 30 ft must make a Wisdom save or become frightened until your next turn."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.arbites_enforcer.investigator",
+    "level": 14,
+    "pdfPage": 63,
+    "tableTop": 80.1,
+    "tableX": 41.4,
+    "row": [
+      "Investigator",
+      "Once per short rest, ask the GM one tactical question about a creature, device, crime scene, or battlefield; the GM answers truthfully but briefly."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.arbites_enforcer.riot_shield",
+    "level": 18,
+    "pdfPage": 63,
+    "tableTop": 91.3,
+    "tableX": 301.2,
+    "row": [
+      "Riot Shield",
+      "While using a shield, you and one adjacent ally gain +1 to Dexterity saves."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.arbites_enforcer.executioner",
+    "level": 18,
+    "pdfPage": 63,
+    "tableTop": 91.3,
+    "tableX": 301.2,
+    "row": [
+      "Executioner",
+      "Judgement Protocol deals an extra +2d6 damage."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.arbites_enforcer.investigator",
+    "level": 18,
+    "pdfPage": 63,
+    "tableTop": 91.3,
+    "tableX": 301.2,
+    "row": [
+      "Investigator",
+      "When you ask a tactical question, you may also learn one useful weakness, route, or leverage point."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.hive_scum.gunslinger",
+    "level": 7,
+    "pdfPage": 65,
+    "tableTop": 372.8,
+    "tableX": 301.2,
+    "row": [
+      "Gunslinger",
+      "Once per short rest, make one pistol attack as a bonus action after taking the Attack action."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.hive_scum.knife_rat",
+    "level": 7,
+    "pdfPage": 65,
+    "tableTop": 372.8,
+    "tableX": 301.2,
+    "row": [
+      "Knife Rat",
+      "Your light melee attacks deal +1 damage."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.hive_scum.chem_user",
+    "level": 7,
+    "pdfPage": 65,
+    "tableTop": 372.8,
+    "tableX": 301.2,
+    "row": [
+      "Chem-User",
+      "You gain advantage on saving throws against poison and combat drugs."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.hive_scum.sump_ghost",
+    "level": 7,
+    "pdfPage": 65,
+    "tableTop": 372.8,
+    "tableX": 301.2,
+    "row": [
+      "Sump Ghost",
+      "You may hide when lightly obscured by smoke, steam, crowds, or machinery."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.hive_scum.gunslinger",
+    "level": 3,
+    "pdfPage": 65,
+    "tableTop": 536.7,
+    "tableX": 41.4,
+    "row": [
+      "Gunslinger",
+      "Once per turn, you can reload a pistol without using an action."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.hive_scum.knife_rat",
+    "level": 3,
+    "pdfPage": 65,
+    "tableTop": 536.7,
+    "tableX": 41.4,
+    "row": [
+      "Knife Rat",
+      "Your melee attacks with light weapons score a critical hit on 19- 20."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.hive_scum.chem_user",
+    "level": 3,
+    "pdfPage": 65,
+    "tableTop": 536.7,
+    "tableX": 41.4,
+    "row": [
+      "Chem-User",
+      "Once per long rest, inject combat chems as a bonus action. Gain +10 ft speed and advantage on Strength and Dexterity checks for 1 minute. Afterwards, make a Constitution saving throw or gain one level of exhaustion."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.hive_scum.sump_ghost",
+    "level": 3,
+    "pdfPage": 65,
+    "tableTop": 536.7,
+    "tableX": 41.4,
+    "row": [
+      "Sump Ghost",
+      "You gain expertise in Stealth when in urban ruins, sewers, vents, tunnels, or industrial terrain."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.hive_scum.gunslinger",
+    "level": 14,
+    "pdfPage": 65,
+    "tableTop": 696.0,
+    "tableX": 301.2,
+    "row": [
+      "Gunslinger",
+      "Your first pistol hit each turn deals +1d6 damage if the target is within 30 ft."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.hive_scum.knife_rat",
+    "level": 14,
+    "pdfPage": 65,
+    "tableTop": 696.0,
+    "tableX": 301.2,
+    "row": [
+      "Knife Rat",
+      "When you score a critical hit with a light melee weapon, the target cannot take reactions until its next turn."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.hive_scum.chem_user",
+    "level": 14,
+    "pdfPage": 65,
+    "tableTop": 696.0,
+    "tableX": 301.2,
+    "row": [
+      "Chem-User",
+      "Once per long rest, ignore the exhaustion risk from your combat chems."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.hive_scum.sump_ghost",
+    "level": 14,
+    "pdfPage": 66,
+    "tableTop": 46.8,
+    "tableX": 41.4,
+    "row": [
+      "Sump Ghost",
+      "Once per short rest, become hidden from one creature even if it can see you, provided there is cover, smoke, steam, machinery, darkness, or a crowd within 10 ft."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.ratling_sharpshooter.long_las_sniper",
+    "level": 7,
+    "pdfPage": 68,
+    "tableTop": 477.1,
+    "tableX": 301.2,
+    "row": [
+      "Long-Las Sniper",
+      "Your first Accurate weapon hit each combat adds +1d6 damage."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.ratling_sharpshooter.underhive_rat",
+    "level": 7,
+    "pdfPage": 68,
+    "tableTop": 477.1,
+    "tableX": 301.2,
+    "row": [
+      "Underhive Rat",
+      "Climbing, crawling, squeezing, and moving through tight spaces costs you no extra movement."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.ratling_sharpshooter.spotter",
+    "level": 7,
+    "pdfPage": 68,
+    "tableTop": 477.1,
+    "tableX": 301.2,
+    "row": [
+      "Spotter",
+      "Your mark also adds +1 damage."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.ratling_sharpshooter.black_market_gremlin",
+    "level": 7,
+    "pdfPage": 68,
+    "tableTop": 477.1,
+    "tableX": 301.2,
+    "row": [
+      "Black-Market Gremlin",
+      "Once per session, produce one plausible piece of minor contraband or ammunition."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.ratling_sharpshooter.long_las_sniper",
+    "level": 3,
+    "pdfPage": 68,
+    "tableTop": 578.3,
+    "tableX": 41.4,
+    "row": [
+      "Long-Las Sniper",
+      "If you do not move this turn, your first ranged attack gains +2 to hit."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.ratling_sharpshooter.underhive_rat",
+    "level": 3,
+    "pdfPage": 68,
+    "tableTop": 578.3,
+    "tableX": 41.4,
+    "row": [
+      "Underhive Rat",
+      "Gain expertise in Stealth or Sleight of Hand. You have advantage on checks to hide in urban ruins, crowds, vents, pipes, and debris."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.ratling_sharpshooter.spotter",
+    "level": 3,
+    "pdfPage": 68,
+    "tableTop": 578.3,
+    "tableX": 41.4,
+    "row": [
+      "Spotter",
+      "As a bonus action, mark one enemy you can see within 120 ft. The next ally to attack that target gains +1d4 to hit. This benefit affects allies only and does not apply to your own attack unless a later feature says otherwise."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.ratling_sharpshooter.black_market_gremlin",
+    "level": 3,
+    "pdfPage": 68,
+    "tableTop": 578.3,
+    "tableX": 41.4,
+    "row": [
+      "Black-Market Gremlin",
+      "You can usually acquire illegal ammo, fake papers, ration packs, or minor contraband in settlements. You gain proficiency with thieves’ tools."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.ratling_sharpshooter.long_las_sniper",
+    "level": 14,
+    "pdfPage": 68,
+    "tableTop": 746.6,
+    "tableX": 301.2,
+    "row": [
+      "Long-Las Sniper",
+      "When you use Killshot, the attack ignores light and heavy cover and ignores resistance from non- powered armour."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.ratling_sharpshooter.underhive_rat",
+    "level": 14,
+    "pdfPage": 69,
+    "tableTop": 46.8,
+    "tableX": 41.4,
+    "row": [
+      "Underhive Rat",
+      "Once per short rest, when an attack misses you while you are in cover, you may Hide as a reaction."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.ratling_sharpshooter.spotter",
+    "level": 14,
+    "pdfPage": 69,
+    "tableTop": 46.8,
+    "tableX": 41.4,
+    "row": [
+      "Spotter",
+      "Your marked target grants +1d4 to the next two allied attacks instead of one."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.ratling_sharpshooter.black_market_gremlin",
+    "level": 14,
+    "pdfPage": 69,
+    "tableTop": 46.8,
+    "tableX": 41.4,
+    "row": [
+      "Black-Market Gremlin",
+      "When you spend downtime in a settlement, reduce the cost or difficulty of acquiring illegal ammunition or forged papers."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.ratling_sharpshooter.long_las_sniper",
+    "level": 18,
+    "pdfPage": 69,
+    "tableTop": 61.9,
+    "tableX": 301.2,
+    "row": [
+      "Long-Las Sniper",
+      "Your first Accurate weapon hit each round ignores heavy cover."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.ratling_sharpshooter.underhive_rat",
+    "level": 18,
+    "pdfPage": 69,
+    "tableTop": 61.9,
+    "tableX": 301.2,
+    "row": [
+      "Underhive Rat",
+      "When you Hide as a reaction, you may also move 5 ft."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.ratling_sharpshooter.spotter",
+    "level": 18,
+    "pdfPage": 69,
+    "tableTop": 61.9,
+    "tableX": 301.2,
+    "row": [
+      "Spotter",
+      "Your mark grants +1d4 to the next three allied attacks instead of two."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.ratling_sharpshooter.black_market_gremlin",
+    "level": 18,
+    "pdfPage": 69,
+    "tableTop": 61.9,
+    "tableX": 301.2,
+    "row": [
+      "Black-Market Gremlin",
+      "Once per session, produce one rare ammunition, forged credential, or compact tool with GM approval."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.skitarii_veteran.ruststalker",
+    "level": 3,
+    "pdfPage": 71,
+    "tableTop": 372.9,
+    "tableX": 301.2,
+    "row": [
+      "Ruststalker Protocol",
+      "Gain proficiency with blades. Your melee attacks deal +1d6 damage against targets below half their hit points."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.skitarii_veteran.ranger",
+    "level": 7,
+    "pdfPage": 71,
+    "tableTop": 552.1,
+    "tableX": 301.2,
+    "row": [
+      "Ranger",
+      "Your Ranger Protocol damage becomes +1d6."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.skitarii_veteran.vanguard",
+    "level": 7,
+    "pdfPage": 71,
+    "tableTop": 552.1,
+    "tableX": 301.2,
+    "row": [
+      "Vanguard",
+      "A creature affected by Vanguard Protocol also takes +1d4 rad or poison damage when you hit it."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.skitarii_veteran.protector",
+    "level": 7,
+    "pdfPage": 71,
+    "tableTop": 552.1,
+    "tableX": 301.2,
+    "row": [
+      "Protector",
+      "If the protected attack misses, the ally gains temporary HP equal to your Intelligence modifier."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.skitarii_veteran.data_hunter",
+    "level": 7,
+    "pdfPage": 71,
+    "tableTop": 552.1,
+    "tableX": 301.2,
+    "row": [
+      "Data-Hunter",
+      "The next ally to damage the identified enemy adds +1d6 damage."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.skitarii_veteran.infiltrator",
+    "level": 7,
+    "pdfPage": 71,
+    "tableTop": 552.1,
+    "tableX": 301.2,
+    "row": [
+      "Infiltrator",
+      "You may move 10 ft as part of the bonus action used to activate Infiltrator Protocol."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.skitarii_veteran.ruststalker",
+    "level": 7,
+    "pdfPage": 71,
+    "tableTop": 552.1,
+    "tableX": 301.2,
+    "row": [
+      "Ruststalker",
+      "Your melee attacks ignore resistance from non-powered armour."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.skitarii_veteran.ranger",
+    "level": 3,
+    "pdfPage": 71,
+    "tableTop": 563.1,
+    "tableX": 41.4,
+    "row": [
+      "Ranger Protocol",
+      "If you do not move, your first ranged attack this turn deals +1d4 damage."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.skitarii_veteran.vanguard",
+    "level": 3,
+    "pdfPage": 71,
+    "tableTop": 563.1,
+    "tableX": 41.4,
+    "row": [
+      "Vanguard Protocol",
+      "Once per turn, when you hit a creature within 30 ft, it has disadvantage on its next Constitution saving throw before your next turn."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.skitarii_veteran.protector",
+    "level": 3,
+    "pdfPage": 71,
+    "tableTop": 563.1,
+    "tableX": 41.4,
+    "row": [
+      "Protector Protocol",
+      "When an ally within 30 ft is targeted by an attack, you may use your reaction before the roll is resolved to give that ally +2 AC against the attack if you can see the attacker."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.skitarii_veteran.data_hunter",
+    "level": 3,
+    "pdfPage": 71,
+    "tableTop": 563.1,
+    "tableX": 41.4,
+    "row": [
+      "Data-Hunter Protocol",
+      "Gain expertise in Investigation or Technology. Once per short rest, identify one weakness, resistance, or tactical feature of an enemy you can observe."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.skitarii_veteran.infiltrator",
+    "level": 3,
+    "pdfPage": 71,
+    "tableTop": 563.1,
+    "tableX": 41.4,
+    "row": [
+      "Infiltrator Protocol",
+      "Gain proficiency in Stealth. Once per short rest, as a bonus action, become hidden from creatures relying on standard vision or auspex until the end of your turn, provided you have cover or concealment."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.skitarii_veteran.ruststalker",
+    "level": 14,
+    "pdfPage": 72,
+    "tableTop": 46.8,
+    "tableX": 301.2,
+    "row": [
+      "Ruststalker",
+      "Your melee critical hits disable reactions until the target’s next turn."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.skitarii_veteran.ranger",
+    "level": 18,
+    "pdfPage": 72,
+    "tableTop": 259.6,
+    "tableX": 301.2,
+    "row": [
+      "Ranger",
+      "Your accurate weapons also ignore heavy cover once per round."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.skitarii_veteran.vanguard",
+    "level": 18,
+    "pdfPage": 72,
+    "tableTop": 259.6,
+    "tableX": 301.2,
+    "row": [
+      "Vanguard",
+      "Your rad or poison effects impose disadvantage on the target’s next Strength or Constitution save."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.skitarii_veteran.protector",
+    "level": 18,
+    "pdfPage": 72,
+    "tableTop": 259.6,
+    "tableX": 301.2,
+    "row": [
+      "Protector",
+      "Your protection reaction may target two allies within 30 ft."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.skitarii_veteran.data_hunter",
+    "level": 18,
+    "pdfPage": 72,
+    "tableTop": 259.6,
+    "tableX": 301.2,
+    "row": [
+      "Data-Hunter",
+      "Your identified target grants +1 to allied attack rolls until your next turn."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.skitarii_veteran.infiltrator",
+    "level": 18,
+    "pdfPage": 72,
+    "tableTop": 259.6,
+    "tableX": 301.2,
+    "row": [
+      "Infiltrator",
+      "You may remain hidden after a miss."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.skitarii_veteran.ruststalker",
+    "level": 18,
+    "pdfPage": 72,
+    "tableTop": 259.6,
+    "tableX": 301.2,
+    "row": [
+      "Ruststalker",
+      "Your melee hits against bloodied targets deal +1d8 damage."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.skitarii_veteran.ranger",
+    "level": 14,
+    "pdfPage": 72,
+    "tableTop": 305.0,
+    "tableX": 41.4,
+    "row": [
+      "Ranger",
+      "Your first ranged hit each combat deals +2d6 damage if you did not move."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.skitarii_veteran.vanguard",
+    "level": 14,
+    "pdfPage": 72,
+    "tableTop": 305.0,
+    "tableX": 41.4,
+    "row": [
+      "Vanguard",
+      "Creatures damaged by your rad or poison effects cannot regain hit points until your next turn."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.skitarii_veteran.protector",
+    "level": 14,
+    "pdfPage": 72,
+    "tableTop": 305.0,
+    "tableX": 41.4,
+    "row": [
+      "Protector",
+      "When you use your reaction to protect an ally, reduce damage by your Intelligence modifier if the attack still hits."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.skitarii_veteran.data_hunter",
+    "level": 14,
+    "pdfPage": 72,
+    "tableTop": 305.0,
+    "tableX": 41.4,
+    "row": [
+      "Data-Hunter",
+      "Your identified target loses one resistance of the GM’s choice against the next damage it takes."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.skitarii_veteran.infiltrator",
+    "level": 14,
+    "pdfPage": 72,
+    "tableTop": 305.0,
+    "tableX": 41.4,
+    "row": [
+      "Infiltrator",
+      "When hidden from auspex or standard vision, your next hit deals +1d8 damage."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.kin_armsman.hearthguard",
+    "level": 7,
+    "pdfPage": 74,
+    "tableTop": 432.5,
+    "tableX": 301.2,
+    "row": [
+      "Hearthguard",
+      "Your damage reduction becomes 2."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.kin_armsman.ironhead",
+    "level": 7,
+    "pdfPage": 74,
+    "tableTop": 432.5,
+    "tableX": 301.2,
+    "row": [
+      "Ironhead",
+      "Your attacks against objects, vehicles, and machines deal +1d8 damage."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.kin_armsman.guild_militant",
+    "level": 7,
+    "pdfPage": 74,
+    "tableTop": 432.5,
+    "tableX": 301.2,
+    "row": [
+      "Guild-Militant",
+      "When an ally hits your Oath-Mark target, you may use your reaction to let that ally add +1d6 damage."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.kin_armsman.hearthguard",
+    "level": 3,
+    "pdfPage": 74,
+    "tableTop": 627.1,
+    "tableX": 41.4,
+    "row": [
+      "Hearthguard",
+      "While wearing medium or heavy Kin armour, reduce non-critical weapon damage by 1."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.kin_armsman.ironhead",
+    "level": 3,
+    "pdfPage": 74,
+    "tableTop": 627.1,
+    "tableX": 41.4,
+    "row": [
+      "Ironhead",
+      "You gain advantage on checks to mine, breach, salvage, demolish, or repair machinery and structures."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.kin_armsman.guild_militant",
+    "level": 3,
+    "pdfPage": 74,
+    "tableTop": 627.1,
+    "tableX": 41.4,
+    "row": [
+      "Guild-Militant",
+      "When you hit a creature marked by Oath-Mark, one ally within 30 ft gains +1 to hit that creature before your next turn."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.kin_armsman.hearthguard",
+    "level": 14,
+    "pdfPage": 75,
+    "tableTop": 80.1,
+    "tableX": 41.4,
+    "row": [
+      "Hearthguard",
+      "While you are below half hit points, your armour damage reduction increases by 1."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.kin_armsman.ironhead",
+    "level": 14,
+    "pdfPage": 75,
+    "tableTop": 80.1,
+    "tableX": 41.4,
+    "row": [
+      "Ironhead",
+      "Once per short rest, when you damage an object, vehicle, or machine, treat the hit as a critical hit."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.kin_armsman.guild_militant",
+    "level": 14,
+    "pdfPage": 75,
+    "tableTop": 80.1,
+    "tableX": 41.4,
+    "row": [
+      "Guild-Militant",
+      "When you mark a target with Oath-Mark, allies gain +1 to damage against it until your next turn."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.kin_armsman.hearthguard",
+    "level": 18,
+    "pdfPage": 75,
+    "tableTop": 132.8,
+    "tableX": 301.2,
+    "row": [
+      "Hearthguard",
+      "Your armour damage reduction applies to critical hits, but only for 1 damage."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.kin_armsman.ironhead",
+    "level": 18,
+    "pdfPage": 75,
+    "tableTop": 132.8,
+    "tableX": 301.2,
+    "row": [
+      "Ironhead",
+      "Your attacks against machines, vehicles, and structures ignore resistance once per turn."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.kin_armsman.guild_militant",
+    "level": 18,
+    "pdfPage": 75,
+    "tableTop": 132.8,
+    "tableX": 301.2,
+    "row": [
+      "Guild-Militant",
+      "When an ally hits your Oath-Mark target, they may move 5 ft without provoking opportunity attacks."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.hernkyn_prospector.outrider",
+    "level": 7,
+    "pdfPage": 77,
+    "tableTop": 447.7,
+    "tableX": 301.2,
+    "row": [
+      "Outrider",
+      "When you move at least 15 ft, your next attack this turn deals +1d6 damage."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.hernkyn_prospector.claim_staker",
+    "level": 7,
+    "pdfPage": 77,
+    "tableTop": 447.7,
+    "tableX": 301.2,
+    "row": [
+      "Claim-Staker",
+      "Your Claim Sight die becomes +1d6 for ability checks."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.hernkyn_prospector.trail_gunner",
+    "level": 7,
+    "pdfPage": 77,
+    "tableTop": 447.7,
+    "tableX": 301.2,
+    "row": [
+      "Trail Gunner",
+      "Your Trail Gunner damage becomes +1d6."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.hernkyn_prospector.outrider",
+    "level": 3,
+    "pdfPage": 77,
+    "tableTop": 631.1,
+    "tableX": 41.4,
+    "row": [
+      "Outrider",
+      "Your speed increases by 5 ft. When you Dash, opportunity attacks against you have disadvantage."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.hernkyn_prospector.claim_staker",
+    "level": 3,
+    "pdfPage": 77,
+    "tableTop": 631.1,
+    "tableX": 41.4,
+    "row": [
+      "Claim-Staker",
+      "You gain expertise in Investigation or Survival. You can identify valuable materials, salvage, ore, or structural weaknesses."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.hernkyn_prospector.trail_gunner",
+    "level": 3,
+    "pdfPage": 77,
+    "tableTop": 631.1,
+    "tableX": 41.4,
+    "row": [
+      "Trail Gunner",
+      "Your first ranged hit on each of your turns deals +1d4 damage while no hostile creature is adjacent to you."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.hernkyn_prospector.outrider",
+    "level": 14,
+    "pdfPage": 78,
+    "tableTop": 61.9,
+    "tableX": 41.4,
+    "row": [
+      "Outrider",
+      "Once per short rest, take the Dash or Disengage action as a free action on your turn."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.hernkyn_prospector.claim_staker",
+    "level": 14,
+    "pdfPage": 78,
+    "tableTop": 61.9,
+    "tableX": 41.4,
+    "row": [
+      "Claim-Staker",
+      "Allies within 30 ft add +1 to checks involving your Claim Sight target."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.hernkyn_prospector.trail_gunner",
+    "level": 14,
+    "pdfPage": 78,
+    "tableTop": 61.9,
+    "tableX": 41.4,
+    "row": [
+      "Trail Gunner",
+      "When you score a critical hit with a ranged attack, the target is Suppressed until your next turn."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.hernkyn_prospector.outrider",
+    "level": 18,
+    "pdfPage": 78,
+    "tableTop": 80.1,
+    "tableX": 301.2,
+    "row": [
+      "Outrider",
+      "After you use Outrider’s Escape, your next attack before your next turn has advantage."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.hernkyn_prospector.claim_staker",
+    "level": 18,
+    "pdfPage": 78,
+    "tableTop": 80.1,
+    "tableX": 301.2,
+    "row": [
+      "Claim-Staker",
+      "Deep Scan reveals two useful facts instead of one."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.hernkyn_prospector.trail_gunner",
+    "level": 18,
+    "pdfPage": 78,
+    "tableTop": 80.1,
+    "tableX": 301.2,
+    "row": [
+      "Trail Gunner",
+      "Your Trail Gunner damage becomes +1d8, and that hit ignores light cover."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.aeldari_outcast.shadow_guide",
+    "level": 7,
+    "pdfPage": 80,
+    "tableTop": 357.7,
+    "tableX": 301.2,
+    "row": [
+      "Shadow Guide",
+      "Allies within 10 ft of you ignore non-magical difficult terrain while travelling carefully."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.aeldari_outcast.ranger",
+    "level": 3,
+    "pdfPage": 80,
+    "tableTop": 517.5,
+    "tableX": 41.4,
+    "row": [
+      "Ranger",
+      "If you do not move before attacking with a ranger long rifle, your first ranged attack this turn gains +2 to hit."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.aeldari_outcast.corsair",
+    "level": 3,
+    "pdfPage": 80,
+    "tableTop": 517.5,
+    "tableX": 41.4,
+    "row": [
+      "Corsair",
+      "You gain proficiency with pistols and blades. After making a weapon attack, move 5 ft without provoking opportunity attacks."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.aeldari_outcast.shadow_guide",
+    "level": 3,
+    "pdfPage": 80,
+    "tableTop": 517.5,
+    "tableX": 41.4,
+    "row": [
+      "Shadow Guide",
+      "Gain expertise in Stealth or Survival. You have advantage on checks to navigate ruins, wilderness, alien structures, and webway-adjacent places."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.aeldari_outcast.ranger",
+    "level": 14,
+    "pdfPage": 80,
+    "tableTop": 647.5,
+    "tableX": 301.2,
+    "row": [
+      "Ranger",
+      "Your Death from Elsewhere feature recharges when you roll initiative if you have no uses remaining."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.aeldari_outcast.corsair",
+    "level": 14,
+    "pdfPage": 80,
+    "tableTop": 647.5,
+    "tableX": 301.2,
+    "row": [
+      "Corsair",
+      "After scoring a critical hit, you may make one pistol or blade attack as a bonus action."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.aeldari_outcast.shadow_guide",
+    "level": 14,
+    "pdfPage": 80,
+    "tableTop": 647.5,
+    "tableX": 301.2,
+    "row": [
+      "Shadow Guide",
+      "Once per short rest, you and up to two allies within 30 ft may move 10 ft without provoking opportunity attacks."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.aeldari_outcast.ranger",
+    "level": 7,
+    "pdfPage": 80,
+    "tableTop": 743.8,
+    "tableX": 41.4,
+    "row": [
+      "Ranger",
+      "Your attacks with Accurate Aeldari weapons ignore light cover."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.aeldari_outcast.corsair",
+    "level": 7,
+    "pdfPage": 80,
+    "tableTop": 743.8,
+    "tableX": 41.4,
+    "row": [
+      "Corsair",
+      "Your Shuriken Grace damage applies to pistol attacks."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.aeldari_outcast.corsair",
+    "level": 18,
+    "pdfPage": 81,
+    "tableTop": 46.8,
+    "tableX": 301.2,
+    "row": [
+      "Corsair",
+      "After you move 5 ft from your Corsair feature, your next attack before your next turn gains +1d6 damage."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.aeldari_outcast.shadow_guide",
+    "level": 18,
+    "pdfPage": 81,
+    "tableTop": 46.8,
+    "tableX": 301.2,
+    "row": [
+      "Shadow Guide",
+      "Allies moved by your Path Feature may also ignore difficult terrain until your next turn."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.aeldari_outcast.ranger",
+    "level": 18,
+    "pdfPage": 81,
+    "tableTop": 151.0,
+    "tableX": 41.4,
+    "row": [
+      "Ranger",
+      "Your attacks from hiding score a critical hit on 19-20."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.aeldari_warlock.seer_of_battle",
+    "level": 3,
+    "pdfPage": 83,
+    "tableTop": 467.1,
+    "tableX": 301.2,
+    "row": [
+      "Seer of Battle",
+      "Once per short rest, add or subtract 1d4 from a d20 roll made by a creature you can see."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.aeldari_warlock.storm_warlock",
+    "level": 3,
+    "pdfPage": 83,
+    "tableTop": 467.1,
+    "tableX": 301.2,
+    "row": [
+      "Storm Warlock",
+      "When you deal force, lightning, fire, or radiant damage with a psychic power, add +1 damage per die."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.aeldari_warlock.spirit_guardian",
+    "level": 3,
+    "pdfPage": 83,
+    "tableTop": 467.1,
+    "tableX": 301.2,
+    "row": [
+      "Spirit Guardian",
+      "Allies within 10 ft of you gain advantage on saving throws against fear while you are conscious."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.aeldari_warlock.seer_of_battle",
+    "level": 7,
+    "pdfPage": 83,
+    "tableTop": 718.9,
+    "tableX": 301.2,
+    "row": [
+      "Seer of Battle",
+      "Your d4 becomes a d6 for your Warlock Path feature."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.aeldari_warlock.storm_warlock",
+    "level": 7,
+    "pdfPage": 83,
+    "tableTop": 718.9,
+    "tableX": 301.2,
+    "row": [
+      "Storm Warlock",
+      "Once per turn, when a psychic power damages a creature, push it 5 ft."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.aeldari_warlock.spirit_guardian",
+    "level": 7,
+    "pdfPage": 84,
+    "tableTop": 46.8,
+    "tableX": 41.4,
+    "row": [
+      "Spirit Guardian",
+      "When you reduce damage with Rune Ward, the target also gains temporary HP equal to your proficiency bonus."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.aeldari_warlock.storm_warlock",
+    "level": 14,
+    "pdfPage": 84,
+    "tableTop": 46.8,
+    "tableX": 301.2,
+    "row": [
+      "Storm Warlock",
+      "Your first damaging psychic power each combat deals +1d8 damage."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.aeldari_warlock.spirit_guardian",
+    "level": 14,
+    "pdfPage": 84,
+    "tableTop": 46.8,
+    "tableX": 301.2,
+    "row": [
+      "Spirit Guardian",
+      "Allies protected by your Rune Ward also gain advantage on the next fear or psychic saving throw they make before your next turn."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.aeldari_warlock.seer_of_battle",
+    "level": 18,
+    "pdfPage": 84,
+    "tableTop": 269.1,
+    "tableX": 301.2,
+    "row": [
+      "Seer of Battle",
+      "Your reaction advantage may be used after the d20 is rolled but before the result is declared."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.aeldari_warlock.storm_warlock",
+    "level": 18,
+    "pdfPage": 84,
+    "tableTop": 269.1,
+    "tableX": 301.2,
+    "row": [
+      "Storm Warlock",
+      "Your Storm Warlock push increases to 10 ft."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.aeldari_warlock.spirit_guardian",
+    "level": 18,
+    "pdfPage": 84,
+    "tableTop": 269.1,
+    "tableX": 301.2,
+    "row": [
+      "Spirit Guardian",
+      "When Rune Ward protects an ally, one hostile creature within 30 ft has disadvantage on its next psychic saving throw."
+    ]
+  },
+  {
+    "subclassId": "di.subclass.aeldari_warlock.seer_of_battle",
+    "level": 14,
+    "pdfPage": 84,
+    "tableTop": 412.7,
+    "tableX": 41.4,
+    "row": [
+      "Seer of Battle",
+      "Once per short rest, give one ally advantage on an attack, save, or check as a reaction."
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.skitarii_veteran.vanguard.level_7",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Vanguard Protocol level 7",
+  "summary": "Vanguard; A creature affected by Vanguard Protocol also takes +1d4 rad or poison damage when you hit it.",
+  "descriptionMarkdown": "Vanguard; A creature affected by Vanguard Protocol also takes +1d4 rad or poison damage when you hit it.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Vanguard Protocol level 7",
+        "pdfPage": 71,
+        "printedPage": 58
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Vanguard; A creature affected by Vanguard Protocol also takes +1d4 rad or poison damage when you hit it.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

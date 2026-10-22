@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.aeldari_outcast.ranger.level_14",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Ranger level 14",
+  "summary": "Ranger; Your Death from Elsewhere feature recharges when you roll initiative if you have no uses remaining.",
+  "descriptionMarkdown": "Ranger; Your Death from Elsewhere feature recharges when you roll initiative if you have no uses remaining.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Ranger level 14",
+        "pdfPage": 80,
+        "printedPage": 67
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Ranger; Your Death from Elsewhere feature recharges when you roll initiative if you have no uses remaining.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

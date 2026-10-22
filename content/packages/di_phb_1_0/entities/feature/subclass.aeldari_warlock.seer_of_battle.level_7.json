@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.aeldari_warlock.seer_of_battle.level_7",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Seer of Battle level 7",
+  "summary": "Seer of Battle; Your d4 becomes a d6 for your Warlock Path feature.",
+  "descriptionMarkdown": "Seer of Battle; Your d4 becomes a d6 for your Warlock Path feature.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Seer of Battle level 7",
+        "pdfPage": 83,
+        "printedPage": 70
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Seer of Battle; Your d4 becomes a d6 for your Warlock Path feature.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

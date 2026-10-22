@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.aeldari_warlock.spirit_guardian.level_18",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Spirit Guardian level 18",
+  "summary": "Spirit Guardian; When Rune Ward protects an ally, one hostile creature within 30 ft has disadvantage on its next psychic saving throw.",
+  "descriptionMarkdown": "Spirit Guardian; When Rune Ward protects an ally, one hostile creature within 30 ft has disadvantage on its next psychic saving throw.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Spirit Guardian level 18",
+        "pdfPage": 84,
+        "printedPage": 71
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Spirit Guardian; When Rune Ward protects an ally, one hostile creature within 30 ft has disadvantage on its next psychic saving throw.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

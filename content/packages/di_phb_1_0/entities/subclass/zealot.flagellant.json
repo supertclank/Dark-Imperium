@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.zealot.flagellant",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Flagellant",
+  "summary": "Flagellant; Once per round, when you take damage, your next melee attack deals +1d6 bonus damage.  Flagellant; When you take damage, gain temporary HP equal to your proficiency bonus.  Flagellant; Once per turn, when you are below half hit points, your melee attacks deal +1d8 radiant or fire damage.  Flagellant; The first time each round you take damage, gain temporary HP equal to twice your proficiency bonus.",
+  "descriptionMarkdown": "Flagellant; Once per round, when you take damage, your next melee attack deals +1d6 bonus damage.\n\nFlagellant; When you take damage, gain temporary HP equal to your proficiency bonus.\n\nFlagellant; Once per turn, when you are below half hit points, your melee attacks deal +1d8 radiant or fire damage.\n\nFlagellant; The first time each round you take damage, gain temporary HP equal to twice your proficiency bonus.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Flagellant",
+        "pdfPage": 53,
+        "printedPage": 40
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Flagellant",
+        "pdfPage": 54,
+        "printedPage": 41
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.zealot"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.zealot.flagellant"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.zealot"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}

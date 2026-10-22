@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.aeldari_warlock.storm_warlock.level_7",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Storm Warlock level 7",
+  "summary": "Storm Warlock; Once per turn, when a psychic power damages a creature, push it 5 ft.",
+  "descriptionMarkdown": "Storm Warlock; Once per turn, when a psychic power damages a creature, push it 5 ft.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Storm Warlock level 7",
+        "pdfPage": 83,
+        "printedPage": 70
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Storm Warlock; Once per turn, when a psychic power damages a creature, push it 5 ft.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

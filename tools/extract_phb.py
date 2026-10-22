@@ -17,11 +17,21 @@ with pdfplumber.open(source) as pdf:
    color=r.get('non_stroking_color')
    if isinstance(color,(tuple,list)) and len(color)==3 and max(color)<0.4 and r['width']>12:
     bands.setdefault(round(r['top'],1),[]).append(r)
+  separated={}
+  for y,rectangles in bands.items():
+   group=[];index=0
+   for rect in sorted(rectangles,key=lambda r:r['x0']):
+    if group and rect['x0']-group[-1]['x1']>5:
+     separated[(y,index)]=group;group=[];index+=1
+    group.append(rect)
+   separated[(y,index)]=group
+  bands=separated
   starts=sorted(bands)
-  for top in starts:
-   rects=sorted(bands[top],key=lambda r:r['x0']); x0=rects[0]['x0']; x1=rects[-1]['x1']
+  for band in starts:
+   top=band[0]
+   rects=sorted(bands[band],key=lambda r:r['x0']); x0=rects[0]['x0']; x1=rects[-1]['x1']
    xs=sorted(set(round(r['x0'],2) for r in rects)|{round(x1,2)})
-   bottom=min([y for y in starts if y>top and abs(bands[y][0]['x0']-x0)<2]+[800])
+   bottom=min([y[0] for y in starts if y[0]>top and abs(bands[y][0]['x0']-x0)<2]+[800])
    ys=sorted(set(round(l['top'],2) for l in p.lines if abs(l['x0']-x0)<1 and abs(l['x1']-x1)<1 and top-1<=l['top']<=bottom+0.5))
    if len(ys)<2: continue
    end=next((i for i in range(1,len(ys)) if ys[i]-ys[i-1]>85),len(ys));ys=ys[:end]
@@ -33,7 +43,7 @@ with pdfplumber.open(source) as pdf:
     for left,right in zip(xs,xs[1:]):
      cells.append(p.crop((left,a,right,b)).extract_text(x_tolerance=1,y_tolerance=2) or '')
     if any(cells): rows.append([' '.join(c.split()) for c in cells])
-   if rows: tables.append({'pdfPage':n,'printedPage':n-13,'top':top,'rows':rows})
+   if rows: tables.append({'pdfPage':n,'printedPage':n-13,'top':top,'x0':round(x0,2),'rows':rows})
   # Font-based headings include unnumbered vehicle/discipline names, unlike TOC-only extraction.
   lines={}
   for c in p.chars:

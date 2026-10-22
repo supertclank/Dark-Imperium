@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.aeldari_outcast.corsair.level_3",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Corsair level 3",
+  "summary": "Corsair; You gain proficiency with pistols and blades. After making a weapon attack, move 5 ft without provoking opportunity attacks.",
+  "descriptionMarkdown": "Corsair; You gain proficiency with pistols and blades. After making a weapon attack, move 5 ft without provoking opportunity attacks.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Corsair level 3",
+        "pdfPage": 80,
+        "printedPage": 67
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Corsair; You gain proficiency with pistols and blades. After making a weapon attack, move 5 ft without provoking opportunity attacks.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

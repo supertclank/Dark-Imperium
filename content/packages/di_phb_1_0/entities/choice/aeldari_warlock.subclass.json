@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "di.choice.aeldari_warlock.subclass",
+  "kind": "choice",
+  "revision": 1,
+  "name": "Aeldari Warlock subclass",
+  "summary": "Choose one eligible subclass; source table determines progression levels.",
+  "descriptionMarkdown": "Choose one eligible subclass; source table determines progression levels.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.12",
+        "heading": "Aeldari Warlock",
+        "pdfPage": 83,
+        "printedPage": 70
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "purpose": "subclass",
+    "selectionMode": "options",
+    "cardinality": {
+      "min": 1,
+      "max": 1,
+      "unique": true
+    },
+    "repeatScope": "once_per_actor",
+    "options": [
+      {
+        "id": "seer_of_battle",
+        "label": "Seer of Battle",
+        "grants": [
+          {
+            "id": "select",
+            "kind": "select",
+            "content": {
+              "id": "di.subclass.aeldari_warlock.seer_of_battle"
+            }
+          }
+        ]
+      },
+      {
+        "id": "spirit_guardian",
+        "label": "Spirit Guardian",
+        "grants": [
+          {
+            "id": "select",
+            "kind": "select",
+            "content": {
+              "id": "di.subclass.aeldari_warlock.spirit_guardian"
+            }
+          }
+        ]
+      },
+      {
+        "id": "storm_warlock",
+        "label": "Storm Warlock",
+        "grants": [
+          {
+            "id": "select",
+            "kind": "select",
+            "content": {
+              "id": "di.subclass.aeldari_warlock.storm_warlock"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

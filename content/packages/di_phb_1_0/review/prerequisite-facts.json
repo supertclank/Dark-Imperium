@@ -1,0 +1,42 @@
+[
+  {
+    "key": "phb.null_bound_approved",
+    "authority": "GM campaign approval from PHB discipline exception",
+    "default": "unresolved"
+  },
+  {
+    "key": "phb.origin_eligibility.hiveborn",
+    "authority": "Reviewed rules-resolution decision; not a client-supplied permission",
+    "default": "unresolved"
+  },
+  {
+    "key": "phb.origin_eligibility.shrine_worlder",
+    "authority": "Reviewed rules-resolution decision; not a client-supplied permission",
+    "default": "unresolved"
+  },
+  {
+    "key": "phb.origin_eligibility.penal_worlder",
+    "authority": "Reviewed rules-resolution decision; not a client-supplied permission",
+    "default": "unresolved"
+  },
+  {
+    "key": "phb.origin_eligibility.voidborn",
+    "authority": "Reviewed rules-resolution decision; not a client-supplied permission",
+    "default": "unresolved"
+  },
+  {
+    "key": "phb.origin_eligibility.forge_world",
+    "authority": "Reviewed rules-resolution decision; not a client-supplied permission",
+    "default": "unresolved"
+  },
+  {
+    "key": "phb.origin_eligibility.militarum_regiment",
+    "authority": "Reviewed rules-resolution decision; not a client-supplied permission",
+    "default": "unresolved"
+  },
+  {
+    "key": "phb.origin_eligibility.underhive",
+    "authority": "Reviewed rules-resolution decision; not a client-supplied permission",
+    "default": "unresolved"
+  }
+]

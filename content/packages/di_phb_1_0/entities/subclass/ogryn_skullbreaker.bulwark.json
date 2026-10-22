@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.ogryn_skullbreaker.bulwark",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Bulwark",
+  "summary": "Bulwark; While using a shield, allies behind you gain light cover.  Bulwark; While using a shield, you also gain advantage on saves against being shoved.  Bulwark; Allies benefiting from cover provided by your slab shield have advantage on Dexterity saving throws against Blast and Spray effects, and ignore the first 5 ft of forced movement they would suffer each round.  Bulwark; While using a slab shield, adjacent allies also gain resistance to damage from opportunity attacks.",
+  "descriptionMarkdown": "Bulwark; While using a shield, allies behind you gain light cover.\n\nBulwark; While using a shield, you also gain advantage on saves against being shoved.\n\nBulwark; Allies benefiting from cover provided by your slab shield have advantage on Dexterity saving throws against Blast and Spray effects, and ignore the first 5 ft of forced movement they would suffer each round.\n\nBulwark; While using a slab shield, adjacent allies also gain resistance to damage from opportunity attacks.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Bulwark",
+        "pdfPage": 59,
+        "printedPage": 46
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Bulwark",
+        "pdfPage": 60,
+        "printedPage": 47
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.ogryn_skullbreaker"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.ogryn_skullbreaker.bulwark"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.ogryn_skullbreaker"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}

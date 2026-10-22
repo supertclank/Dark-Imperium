@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.psyker.blank_null_bound.level_14",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Blank / Null-Bound level 14",
+  "summary": "Blank / Null- Bound; Once per long rest, when a creature within 60 ft triggers Perils, you may force it to reroll the Perils severity roll and use the lower result if it is an ally, or the higher result if it is hostile.",
+  "descriptionMarkdown": "Blank / Null- Bound; Once per long rest, when a creature within 60 ft triggers Perils, you may force it to reroll the Perils severity roll and use the lower result if it is an ally, or the higher result if it is hostile.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Blank / Null-Bound level 14",
+        "pdfPage": 57,
+        "printedPage": 44
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Blank / Null- Bound; Once per long rest, when a creature within 60 ft triggers Perils, you may force it to reroll the Perils severity roll and use the lower result if it is an ally, or the higher result if it is hostile.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

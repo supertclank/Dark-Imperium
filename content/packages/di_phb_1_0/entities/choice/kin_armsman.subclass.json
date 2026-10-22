@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "di.choice.kin_armsman.subclass",
+  "kind": "choice",
+  "revision": 1,
+  "name": "Kin Armsman subclass",
+  "summary": "Choose one eligible subclass; source table determines progression levels.",
+  "descriptionMarkdown": "Choose one eligible subclass; source table determines progression levels.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.9",
+        "heading": "Kin Armsman",
+        "pdfPage": 74,
+        "printedPage": 61
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "purpose": "subclass",
+    "selectionMode": "options",
+    "cardinality": {
+      "min": 1,
+      "max": 1,
+      "unique": true
+    },
+    "repeatScope": "once_per_actor",
+    "options": [
+      {
+        "id": "guild_militant",
+        "label": "Guild-Militant",
+        "grants": [
+          {
+            "id": "select",
+            "kind": "select",
+            "content": {
+              "id": "di.subclass.kin_armsman.guild_militant"
+            }
+          }
+        ]
+      },
+      {
+        "id": "hearthguard",
+        "label": "Hearthguard",
+        "grants": [
+          {
+            "id": "select",
+            "kind": "select",
+            "content": {
+              "id": "di.subclass.kin_armsman.hearthguard"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ironhead",
+        "label": "Ironhead",
+        "grants": [
+          {
+            "id": "select",
+            "kind": "select",
+            "content": {
+              "id": "di.subclass.kin_armsman.ironhead"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

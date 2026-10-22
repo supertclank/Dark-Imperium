@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.masterwork.compact_pattern",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Compact Pattern",
+  "summary": "Masterwork Trait: Compact Pattern; Eligible Item: Pistol, basic firearm or compact melee weapon; Effect: Advantage on checks to conceal the item; it can be readied from concealment without an item interaction once per turn.",
+  "descriptionMarkdown": "Masterwork Trait: Compact Pattern; Eligible Item: Pistol, basic firearm or compact melee weapon; Effect: Advantage on checks to conceal the item; it can be readied from concealment without an item interaction once per turn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "18",
+        "heading": "Compact Pattern",
+        "pdfPage": 105,
+        "printedPage": 92
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "general",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Masterwork Trait: Compact Pattern; Eligible Item: Pistol, basic firearm or compact melee weapon; Effect: Advantage on checks to conceal the item; it can be readied from concealment without an item interaction once per turn.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Item-bound procedure retained manually, including host eligibility; no automatic actor-wide bonus."
+      }
+    ]
+  }
+}

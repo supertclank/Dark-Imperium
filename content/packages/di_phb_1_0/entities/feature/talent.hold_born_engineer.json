@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.feature.talent.hold_born_engineer",
   "kind": "feature",
-  "revision": 1,
+  "revision": 2,
   "name": "Hold-Born Engineer",
   "summary": "Talent: Hold-Born Engineer Requirement: Squat/Kin Benefit: Gain proficiency in Technology or an engineering tool. You have advantage on checks to repair, breach, mine, or salvage machinery.",
   "descriptionMarkdown": "Talent: Hold-Born Engineer\nRequirement: Squat/Kin\nBenefit: Gain proficiency in Technology or an engineering tool. You have advantage on checks to repair, breach, mine, or salvage machinery.",
@@ -34,6 +34,12 @@
         "context": "source-defined procedure",
         "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
       }
-    ]
+    ],
+    "requirements": {
+      "kind": "selected",
+      "content": {
+        "id": "di.species.kin"
+      }
+    }
   }
 }

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.psyker.blank_null_bound",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Blank / Null-Bound",
+  "summary": "Blank / Null- Bound; Universal, Null; Anti-psychic pressure, witch- hunting, null aura, Warp denial. This rare path should require GM approval because true blanks are not normal psykers.  Blank / Null-Bound; You have advantage on saving throws against psychic powers and Perils effects. When a creature you can see within 30 ft gains Warp Pressure, you may use your reaction to reduce psychic damage dealt to one ally by your proficiency bonus.  Blank / Null-Bound; When you reduce psychic damage or ",
+  "descriptionMarkdown": "Blank / Null- Bound; Universal, Null; Anti-psychic pressure, witch- hunting, null aura, Warp denial. This rare path should require GM approval because true blanks are not normal psykers.\n\nBlank / Null-Bound; You have advantage on saving throws against psychic powers and Perils effects. When a creature you can see within 30 ft gains Warp Pressure, you may use your reaction to reduce psychic damage dealt to one ally by your proficiency bonus.\n\nBlank / Null-Bound; When you reduce psychic damage or resist a psychic effect, one hostile psyker or daemon within 30 ft has disadvantage on its next Wisdom or Charisma saving throw before the end of your next turn.\n\nBlank / Null- Bound; Once per long rest, when a creature within 60 ft triggers Perils, you may force it to reroll the Perils severity roll and use the lower result if it is an ally, or the higher result if it is hostile.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Blank / Null-Bound",
+        "pdfPage": 56,
+        "printedPage": 43
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Blank / Null-Bound",
+        "pdfPage": 57,
+        "printedPage": 44
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.psyker"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.psyker.blank_null_bound"
+    },
+    "requirements": {
+      "kind": "all",
+      "predicates": [
+        {
+          "kind": "level",
+          "axis": {
+            "kind": "class_level",
+            "class": {
+              "id": "di.class.psyker"
+            }
+          },
+          "operator": "gte",
+          "value": 1
+        },
+        {
+          "kind": "fact",
+          "key": "phb.null_bound_approved",
+          "equals": true
+        }
+      ]
+    }
+  }
+}

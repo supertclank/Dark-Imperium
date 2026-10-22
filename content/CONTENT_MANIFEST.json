@@ -4,10 +4,64 @@
   "allocationStatus": "reserved draft identities; not published",
   "identities": [
     {
+      "id": "di.action.attack",
+      "name": "Attack",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/action/attack.json"
+    },
+    {
+      "id": "di.action.dash",
+      "name": "Dash",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/action/dash.json"
+    },
+    {
+      "id": "di.action.disengage",
+      "name": "Disengage",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/action/disengage.json"
+    },
+    {
+      "id": "di.action.dodge",
+      "name": "Dodge",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/action/dodge.json"
+    },
+    {
+      "id": "di.action.help",
+      "name": "Help",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/action/help.json"
+    },
+    {
+      "id": "di.action.hide",
+      "name": "Hide",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/action/hide.json"
+    },
+    {
       "id": "di.action.lasgun.base_damage",
       "name": "Lasgun base damage",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/action/lasgun.base_damage.json"
+    },
+    {
+      "id": "di.action.ready",
+      "name": "Ready",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/action/ready.json"
+    },
+    {
+      "id": "di.action.reload",
+      "name": "Reload",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/action/reload.json"
+    },
+    {
+      "id": "di.action.use_mission_gear",
+      "name": "Use Mission Gear",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/action/use_mission_gear.json"
     },
     {
       "id": "di.action.warp_spark.base_damage",
@@ -16,10 +70,334 @@
       "path": "packages/di_phb_1_0/entities/action/warp_spark.base_damage.json"
     },
     {
+      "id": "di.ammunition.armour_piercing",
+      "name": "Armour-Piercing",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/ammunition/armour_piercing.json"
+    },
+    {
+      "id": "di.ammunition.hot_shot_charge_pack",
+      "name": "Hot-Shot Charge Pack",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/ammunition/hot_shot_charge_pack.json"
+    },
+    {
+      "id": "di.ammunition.incendiary",
+      "name": "Incendiary",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/ammunition/incendiary.json"
+    },
+    {
+      "id": "di.ammunition.manstopper",
+      "name": "Manstopper",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/ammunition/manstopper.json"
+    },
+    {
+      "id": "di.ammunition.sanctified_ammunition",
+      "name": "Sanctified Ammunition",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/ammunition/sanctified_ammunition.json"
+    },
+    {
+      "id": "di.ammunition.tracer_target_marking",
+      "name": "Tracer / Target-Marking",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/ammunition/tracer_target_marking.json"
+    },
+    {
+      "id": "di.ammunition.xenos_exotic_magazine",
+      "name": "Xenos / Exotic Magazine",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/ammunition/xenos_exotic_magazine.json"
+    },
+    {
+      "id": "di.armour.aeldari_mesh",
+      "name": "Aeldari Mesh",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/armour/aeldari_mesh.json"
+    },
+    {
+      "id": "di.armour.armoured_bodyglove",
+      "name": "Armoured Bodyglove",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/armour/armoured_bodyglove.json"
+    },
+    {
+      "id": "di.armour.aspect_pattern_armour",
+      "name": "Aspect-Pattern Armour",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/armour/aspect_pattern_armour.json"
+    },
+    {
+      "id": "di.armour.bullgryn_plate",
+      "name": "Bullgryn Plate",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/armour/bullgryn_plate.json"
+    },
+    {
+      "id": "di.armour.carapace_armour",
+      "name": "Carapace Armour",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/armour/carapace_armour.json"
+    },
+    {
+      "id": "di.armour.exo_frame_plate",
+      "name": "Exo-Frame Plate",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/armour/exo_frame_plate.json"
+    },
+    {
+      "id": "di.armour.flak_armour",
+      "name": "Flak Armour",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/armour/flak_armour.json"
+    },
+    {
+      "id": "di.armour.flak_greatcoat",
+      "name": "Flak Greatcoat",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/armour/flak_greatcoat.json"
+    },
+    {
+      "id": "di.armour.flak_vest",
+      "name": "Flak Vest",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/armour/flak_vest.json"
+    },
+    {
+      "id": "di.armour.hazard_plate",
+      "name": "Hazard Plate",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/armour/hazard_plate.json"
+    },
+    {
+      "id": "di.armour.hearthkyn_plate",
+      "name": "Hearthkyn Plate",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/armour/hearthkyn_plate.json"
+    },
+    {
+      "id": "di.armour.heavy_clothing",
+      "name": "Heavy Clothing",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/armour/heavy_clothing.json"
+    },
+    {
+      "id": "di.armour.kin_mesh",
+      "name": "Kin Mesh",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/armour/kin_mesh.json"
+    },
+    {
+      "id": "di.armour.kin_void_suit",
+      "name": "Kin Void Suit",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/armour/kin_void_suit.json"
+    },
+    {
+      "id": "di.armour.mesh_armour",
+      "name": "Mesh Armour",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/armour/mesh_armour.json"
+    },
+    {
+      "id": "di.armour.ogryn_flak_plate",
+      "name": "Ogryn Flak Plate",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/armour/ogryn_flak_plate.json"
+    },
+    {
       "id": "di.armour.ogryn_leathers",
       "name": "Ogryn Leathers",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/armour/ogryn_leathers.json"
+    },
+    {
+      "id": "di.armour.ogryn_plate",
+      "name": "Ogryn Plate",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/armour/ogryn_plate.json"
+    },
+    {
+      "id": "di.armour.powered_carapace",
+      "name": "Powered Carapace",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/armour/powered_carapace.json"
+    },
+    {
+      "id": "di.armour.prospector_rig",
+      "name": "Prospector Rig",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/armour/prospector_rig.json"
+    },
+    {
+      "id": "di.armour.ranger_weave",
+      "name": "Ranger Weave",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/armour/ranger_weave.json"
+    },
+    {
+      "id": "di.armour.riot_armour",
+      "name": "Riot Armour",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/armour/riot_armour.json"
+    },
+    {
+      "id": "di.armour.rune_armour",
+      "name": "Rune Armour",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/armour/rune_armour.json"
+    },
+    {
+      "id": "di.armour.scout_carapace",
+      "name": "Scout Carapace",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/armour/scout_carapace.json"
+    },
+    {
+      "id": "di.armour.void_suit_armoured",
+      "name": "Void Suit, Armoured",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/armour/void_suit_armoured.json"
+    },
+    {
+      "id": "di.armour.wargear.oathplate_of_the_first_claim_kin",
+      "name": "Oathplate of the First Claim - Kin",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/armour/wargear.oathplate_of_the_first_claim_kin.json"
+    },
+    {
+      "id": "di.augmetic.augmetic_heart",
+      "name": "Augmetic Heart",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/augmetic/augmetic_heart.json"
+    },
+    {
+      "id": "di.augmetic.bionic_arm",
+      "name": "Bionic Arm",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/augmetic/bionic_arm.json"
+    },
+    {
+      "id": "di.augmetic.bionic_legs",
+      "name": "Bionic Legs",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/augmetic/bionic_legs.json"
+    },
+    {
+      "id": "di.augmetic.black_iron_jaw",
+      "name": "Black-Iron Jaw",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/augmetic/black_iron_jaw.json"
+    },
+    {
+      "id": "di.augmetic.chem_injector",
+      "name": "Chem Injector",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/augmetic/chem_injector.json"
+    },
+    {
+      "id": "di.augmetic.cranial_cogitator",
+      "name": "Cranial Cogitator",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/augmetic/cranial_cogitator.json"
+    },
+    {
+      "id": "di.augmetic.data_jack",
+      "name": "Data-Jack",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/augmetic/data_jack.json"
+    },
+    {
+      "id": "di.augmetic.dermal_insulation",
+      "name": "Dermal Insulation",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/augmetic/dermal_insulation.json"
+    },
+    {
+      "id": "di.augmetic.internal_chrono",
+      "name": "Internal Chrono",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/augmetic/internal_chrono.json"
+    },
+    {
+      "id": "di.augmetic.mag_lock_palm",
+      "name": "Mag-Lock Palm",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/augmetic/mag_lock_palm.json"
+    },
+    {
+      "id": "di.augmetic.mechadendrite_combat",
+      "name": "Mechadendrite, Combat",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/augmetic/mechadendrite_combat.json"
+    },
+    {
+      "id": "di.augmetic.mechadendrite_medicae",
+      "name": "Mechadendrite, Medicae",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/augmetic/mechadendrite_medicae.json"
+    },
+    {
+      "id": "di.augmetic.mechadendrite_utility",
+      "name": "Mechadendrite, Utility",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/augmetic/mechadendrite_utility.json"
+    },
+    {
+      "id": "di.augmetic.optical_implant",
+      "name": "Optical Implant",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/augmetic/optical_implant.json"
+    },
+    {
+      "id": "di.augmetic.pain_editor",
+      "name": "Pain Editor",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/augmetic/pain_editor.json"
+    },
+    {
+      "id": "di.augmetic.recoil_bracing",
+      "name": "Recoil Bracing",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/augmetic/recoil_bracing.json"
+    },
+    {
+      "id": "di.augmetic.respirator_implant",
+      "name": "Respirator Implant",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/augmetic/respirator_implant.json"
+    },
+    {
+      "id": "di.augmetic.skeletal_reinforcement",
+      "name": "Skeletal Reinforcement",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/augmetic/skeletal_reinforcement.json"
+    },
+    {
+      "id": "di.augmetic.subdermal_plating",
+      "name": "Subdermal Plating",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/augmetic/subdermal_plating.json"
+    },
+    {
+      "id": "di.augmetic.targeting_lens",
+      "name": "Targeting Lens",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/augmetic/targeting_lens.json"
+    },
+    {
+      "id": "di.augmetic.vocal_coder",
+      "name": "Vocal Coder",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/augmetic/vocal_coder.json"
+    },
+    {
+      "id": "di.augmetic.vox_implant",
+      "name": "Vox Implant",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/augmetic/vox_implant.json"
     },
     {
       "id": "di.background.craftworld_outcast",
@@ -88,10 +466,40 @@
       "path": "packages/di_phb_1_0/entities/choice/aeldari.ability_scores.json"
     },
     {
+      "id": "di.choice.aeldari_outcast.subclass",
+      "name": "Aeldari Outcast subclass",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/aeldari_outcast.subclass.json"
+    },
+    {
+      "id": "di.choice.aeldari_warlock.subclass",
+      "name": "Aeldari Warlock subclass",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/aeldari_warlock.subclass.json"
+    },
+    {
+      "id": "di.choice.arbites_enforcer.subclass",
+      "name": "Arbites Enforcer subclass",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/arbites_enforcer.subclass.json"
+    },
+    {
       "id": "di.choice.craftworld_outcast.skills",
       "name": "Choose 2 skill proficiency",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/choice/craftworld_outcast.skills.json"
+    },
+    {
+      "id": "di.choice.hernkyn_prospector.subclass",
+      "name": "Hernkyn Prospector subclass",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/hernkyn_prospector.subclass.json"
+    },
+    {
+      "id": "di.choice.hive_scum.subclass",
+      "name": "Hive Scum subclass",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/hive_scum.subclass.json"
     },
     {
       "id": "di.choice.hiveborn.skills",
@@ -118,6 +526,12 @@
       "path": "packages/di_phb_1_0/entities/choice/kin.ability_scores.json"
     },
     {
+      "id": "di.choice.kin_armsman.subclass",
+      "name": "Kin Armsman subclass",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/kin_armsman.subclass.json"
+    },
+    {
       "id": "di.choice.militarum_regiment.skills",
       "name": "Choose 1 skill proficiency",
       "state": "draft_entity",
@@ -130,10 +544,28 @@
       "path": "packages/di_phb_1_0/entities/choice/mining_hold_guild.skills.json"
     },
     {
+      "id": "di.choice.ogryn_skullbreaker.subclass",
+      "name": "Ogryn Skullbreaker subclass",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/ogryn_skullbreaker.subclass.json"
+    },
+    {
       "id": "di.choice.penal_worlder.skills",
       "name": "Choose 1 skill proficiency",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/choice/penal_worlder.skills.json"
+    },
+    {
+      "id": "di.choice.psyker.subclass",
+      "name": "Psyker subclass",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/psyker.subclass.json"
+    },
+    {
+      "id": "di.choice.ratling_sharpshooter.subclass",
+      "name": "Ratling Sharpshooter subclass",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/ratling_sharpshooter.subclass.json"
     },
     {
       "id": "di.choice.schola_progenium.skills",
@@ -160,6 +592,12 @@
       "path": "packages/di_phb_1_0/entities/choice/skitarii.ability_scores.json"
     },
     {
+      "id": "di.choice.skitarii_veteran.subclass",
+      "name": "Skitarii Veteran subclass",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/skitarii_veteran.subclass.json"
+    },
+    {
       "id": "di.choice.underhive.skills",
       "name": "Choose 2 skill proficiency",
       "state": "draft_entity",
@@ -182,6 +620,12 @@
       "name": "Choose 1 skill proficiency",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/choice/voidborn.skills.json"
+    },
+    {
+      "id": "di.choice.zealot.subclass",
+      "name": "Zealot subclass",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/zealot.subclass.json"
     },
     {
       "id": "di.class.aeldari_outcast",
@@ -256,6 +700,114 @@
       "path": "packages/di_phb_1_0/entities/class/zealot.json"
     },
     {
+      "id": "di.condition.blinded",
+      "name": "Blinded",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/condition/blinded.json"
+    },
+    {
+      "id": "di.condition.bloodied",
+      "name": "Bloodied",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/condition/bloodied.json"
+    },
+    {
+      "id": "di.condition.charmed",
+      "name": "Charmed",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/condition/charmed.json"
+    },
+    {
+      "id": "di.condition.exhaustion",
+      "name": "Exhaustion",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/condition/exhaustion.json"
+    },
+    {
+      "id": "di.condition.frightened",
+      "name": "Frightened",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/condition/frightened.json"
+    },
+    {
+      "id": "di.condition.grappled",
+      "name": "Grappled",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/condition/grappled.json"
+    },
+    {
+      "id": "di.condition.hidden",
+      "name": "Hidden",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/condition/hidden.json"
+    },
+    {
+      "id": "di.condition.incapacitated",
+      "name": "Incapacitated",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/condition/incapacitated.json"
+    },
+    {
+      "id": "di.condition.invisible",
+      "name": "Invisible",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/condition/invisible.json"
+    },
+    {
+      "id": "di.condition.poisoned",
+      "name": "Poisoned",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/condition/poisoned.json"
+    },
+    {
+      "id": "di.condition.prone",
+      "name": "Prone",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/condition/prone.json"
+    },
+    {
+      "id": "di.condition.restrained",
+      "name": "Restrained",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/condition/restrained.json"
+    },
+    {
+      "id": "di.condition.stunned",
+      "name": "Stunned",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/condition/stunned.json"
+    },
+    {
+      "id": "di.condition.suppressed",
+      "name": "Suppressed",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/condition/suppressed.json"
+    },
+    {
+      "id": "di.condition.surprised",
+      "name": "Surprised",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/condition/surprised.json"
+    },
+    {
+      "id": "di.condition.unconscious",
+      "name": "Unconscious",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/condition/unconscious.json"
+    },
+    {
+      "id": "di.consumable.wargear.stasis_grenade",
+      "name": "Stasis Grenade",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/consumable/wargear.stasis_grenade.json"
+    },
+    {
+      "id": "di.damage_type.acid",
+      "name": "Acid",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/damage_type/acid.json"
+    },
+    {
       "id": "di.damage_type.bludgeoning",
       "name": "Bludgeoning",
       "state": "draft_entity",
@@ -326,6 +878,228 @@
       "name": "Thunder",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/damage_type/thunder.json"
+    },
+    {
+      "id": "di.equipment.ammo_pack",
+      "name": "Ammo Pack",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/ammo_pack.json"
+    },
+    {
+      "id": "di.equipment.auspex_battery",
+      "name": "Auspex Battery",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/auspex_battery.json"
+    },
+    {
+      "id": "di.equipment.conversion_field",
+      "name": "Conversion Field",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/conversion_field.json"
+    },
+    {
+      "id": "di.equipment.field_dressing",
+      "name": "Field Dressing",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/field_dressing.json"
+    },
+    {
+      "id": "di.equipment.grenade_bandolier",
+      "name": "Grenade Bandolier",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/grenade_bandolier.json"
+    },
+    {
+      "id": "di.equipment.holo_field_cloak",
+      "name": "Holo-Field Cloak",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/holo_field_cloak.json"
+    },
+    {
+      "id": "di.equipment.med_pack",
+      "name": "Med-Pack",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/med_pack.json"
+    },
+    {
+      "id": "di.equipment.med_stim",
+      "name": "Med-Stim",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/med_stim.json"
+    },
+    {
+      "id": "di.equipment.purity_seal_charm",
+      "name": "Purity Seal Charm",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/purity_seal_charm.json"
+    },
+    {
+      "id": "di.equipment.rebreather_filter",
+      "name": "Rebreather Filter",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/rebreather_filter.json"
+    },
+    {
+      "id": "di.equipment.refractor_field",
+      "name": "Refractor Field",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/refractor_field.json"
+    },
+    {
+      "id": "di.equipment.specialist_ammo_pack",
+      "name": "Specialist Ammo Pack",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/specialist_ammo_pack.json"
+    },
+    {
+      "id": "di.equipment.stimm_slug",
+      "name": "Stimm Slug",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/stimm_slug.json"
+    },
+    {
+      "id": "di.equipment.void_patch_kit",
+      "name": "Void Patch Kit",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/void_patch_kit.json"
+    },
+    {
+      "id": "di.equipment.wargear.arc_of_the_reductor_mechanicus",
+      "name": "Arc of the Reductor - Mechanicus",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/wargear.arc_of_the_reductor_mechanicus.json"
+    },
+    {
+      "id": "di.equipment.wargear.archeotech_logic_engine",
+      "name": "Archeotech Logic Engine",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/wargear.archeotech_logic_engine.json"
+    },
+    {
+      "id": "di.equipment.wargear.big_lugs_door_ogryn",
+      "name": "Big Lug's Door - Ogryn",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/wargear.big_lugs_door_ogryn.json"
+    },
+    {
+      "id": "di.equipment.wargear.bulwark_of_saint_drusus_imperial",
+      "name": "Bulwark of Saint Drusus - Imperial",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/wargear.bulwark_of_saint_drusus_imperial.json"
+    },
+    {
+      "id": "di.equipment.wargear.digital_weapon",
+      "name": "Digital Weapon",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/wargear.digital_weapon.json"
+    },
+    {
+      "id": "di.equipment.wargear.displacer_field",
+      "name": "Displacer Field",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/wargear.displacer_field.json"
+    },
+    {
+      "id": "di.equipment.wargear.ghosthelm_of_the_wandering_seer_aeldari",
+      "name": "Ghosthelm of the Wandering Seer - Aeldari",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/wargear.ghosthelm_of_the_wandering_seer_aeldari.json"
+    },
+    {
+      "id": "di.equipment.wargear.halo_of_saint_varro",
+      "name": "Halo of Saint Varro",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/wargear.halo_of_saint_varro.json"
+    },
+    {
+      "id": "di.equipment.wargear.heart_key_of_the_red_vault",
+      "name": "Heart-Key of the Red Vault",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/wargear.heart_key_of_the_red_vault.json"
+    },
+    {
+      "id": "di.equipment.wargear.martyrs_censer_imperial",
+      "name": "Martyr's Censer - Imperial",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/wargear.martyrs_censer_imperial.json"
+    },
+    {
+      "id": "di.equipment.wargear.medicae_crucible",
+      "name": "Medicae Crucible",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/wargear.medicae_crucible.json"
+    },
+    {
+      "id": "di.equipment.wargear.null_rod",
+      "name": "Null Rod",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/wargear.null_rod.json"
+    },
+    {
+      "id": "di.equipment.wargear.omnissian_data_relic_mechanicus",
+      "name": "Omnissian Data-Relic - Mechanicus",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/wargear.omnissian_data_relic_mechanicus.json"
+    },
+    {
+      "id": "di.equipment.wargear.phase_shunt_field",
+      "name": "Phase-Shunt Field",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/wargear.phase_shunt_field.json"
+    },
+    {
+      "id": "di.equipment.wargear.rosarius",
+      "name": "Rosarius",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/wargear.rosarius.json"
+    },
+    {
+      "id": "di.equipment.wargear.suspensor_harness",
+      "name": "Suspensor Harness",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/wargear.suspensor_harness.json"
+    },
+    {
+      "id": "di.equipment.wargear.teleport_homer",
+      "name": "Teleport Homer",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/wargear.teleport_homer.json"
+    },
+    {
+      "id": "di.equipment.wargear.the_door_that_would_not_break",
+      "name": "The Door That Would Not Break",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/wargear.the_door_that_would_not_break.json"
+    },
+    {
+      "id": "di.equipment.wargear.the_first_oathstone",
+      "name": "The First Oathstone",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/wargear.the_first_oathstone.json"
+    },
+    {
+      "id": "di.equipment.wargear.the_ghosts_coin",
+      "name": "The Ghost's Coin",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/wargear.the_ghosts_coin.json"
+    },
+    {
+      "id": "di.equipment.wargear.the_last_light_imperial",
+      "name": "The Last Light - Imperial",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/wargear.the_last_light_imperial.json"
+    },
+    {
+      "id": "di.equipment.wargear.the_veiled_eye",
+      "name": "The Veiled Eye",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/wargear.the_veiled_eye.json"
+    },
+    {
+      "id": "di.equipment.weapon_maintenance_kit",
+      "name": "Weapon Maintenance Kit",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/equipment/weapon_maintenance_kit.json"
     },
     {
       "id": "di.feature.class.aeldari_outcast.level_1.ranger_training",
@@ -1924,6 +2698,60 @@
       "path": "packages/di_phb_1_0/entities/feature/class.zealot.training.json"
     },
     {
+      "id": "di.feature.masterwork.artificer_armour",
+      "name": "Artificer Armour",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/masterwork.artificer_armour.json"
+    },
+    {
+      "id": "di.feature.masterwork.artificer_edge",
+      "name": "Artificer Edge",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/masterwork.artificer_edge.json"
+    },
+    {
+      "id": "di.feature.masterwork.compact_pattern",
+      "name": "Compact Pattern",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/masterwork.compact_pattern.json"
+    },
+    {
+      "id": "di.feature.masterwork.perfect_balance",
+      "name": "Perfect Balance",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/masterwork.perfect_balance.json"
+    },
+    {
+      "id": "di.feature.masterwork.precision_barrel_focusing_array",
+      "name": "Precision Barrel / Focusing Array",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/masterwork.precision_barrel_focusing_array.json"
+    },
+    {
+      "id": "di.feature.masterwork.rapid_feed",
+      "name": "Rapid Feed",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/masterwork.rapid_feed.json"
+    },
+    {
+      "id": "di.feature.masterwork.recoil_compensation",
+      "name": "Recoil Compensation",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/masterwork.recoil_compensation.json"
+    },
+    {
+      "id": "di.feature.masterwork.responsive_plating",
+      "name": "Responsive Plating",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/masterwork.responsive_plating.json"
+    },
+    {
+      "id": "di.feature.masterwork.sealed_systems",
+      "name": "Sealed Systems",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/masterwork.sealed_systems.json"
+    },
+    {
       "id": "di.feature.origin.craftworld_outcast",
       "name": "Craftworld / Outcast benefits",
       "state": "draft_entity",
@@ -2056,6 +2884,918 @@
       "path": "packages/di_phb_1_0/entities/feature/species.skitarii.traits.json"
     },
     {
+      "id": "di.feature.subclass.aeldari_outcast.corsair.level_14",
+      "name": "Corsair level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.aeldari_outcast.corsair.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_outcast.corsair.level_18",
+      "name": "Corsair level 18",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.aeldari_outcast.corsair.level_18.json"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_outcast.corsair.level_3",
+      "name": "Corsair level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.aeldari_outcast.corsair.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_outcast.corsair.level_7",
+      "name": "Corsair level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.aeldari_outcast.corsair.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_outcast.ranger.level_14",
+      "name": "Ranger level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.aeldari_outcast.ranger.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_outcast.ranger.level_18",
+      "name": "Ranger level 18",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.aeldari_outcast.ranger.level_18.json"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_outcast.ranger.level_3",
+      "name": "Ranger level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.aeldari_outcast.ranger.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_outcast.ranger.level_7",
+      "name": "Ranger level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.aeldari_outcast.ranger.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_outcast.shadow_guide.level_14",
+      "name": "Shadow Guide level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.aeldari_outcast.shadow_guide.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_outcast.shadow_guide.level_18",
+      "name": "Shadow Guide level 18",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.aeldari_outcast.shadow_guide.level_18.json"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_outcast.shadow_guide.level_3",
+      "name": "Shadow Guide level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.aeldari_outcast.shadow_guide.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_outcast.shadow_guide.level_7",
+      "name": "Shadow Guide level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.aeldari_outcast.shadow_guide.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_warlock.seer_of_battle.level_14",
+      "name": "Seer of Battle level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.aeldari_warlock.seer_of_battle.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_warlock.seer_of_battle.level_18",
+      "name": "Seer of Battle level 18",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.aeldari_warlock.seer_of_battle.level_18.json"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_warlock.seer_of_battle.level_3",
+      "name": "Seer of Battle level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.aeldari_warlock.seer_of_battle.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_warlock.seer_of_battle.level_7",
+      "name": "Seer of Battle level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.aeldari_warlock.seer_of_battle.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_warlock.spirit_guardian.level_14",
+      "name": "Spirit Guardian level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.aeldari_warlock.spirit_guardian.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_warlock.spirit_guardian.level_18",
+      "name": "Spirit Guardian level 18",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.aeldari_warlock.spirit_guardian.level_18.json"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_warlock.spirit_guardian.level_3",
+      "name": "Spirit Guardian level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.aeldari_warlock.spirit_guardian.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_warlock.spirit_guardian.level_7",
+      "name": "Spirit Guardian level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.aeldari_warlock.spirit_guardian.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_warlock.storm_warlock.level_14",
+      "name": "Storm Warlock level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.aeldari_warlock.storm_warlock.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_warlock.storm_warlock.level_18",
+      "name": "Storm Warlock level 18",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.aeldari_warlock.storm_warlock.level_18.json"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_warlock.storm_warlock.level_3",
+      "name": "Storm Warlock level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.aeldari_warlock.storm_warlock.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_warlock.storm_warlock.level_7",
+      "name": "Storm Warlock level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.aeldari_warlock.storm_warlock.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.arbites_enforcer.executioner.level_14",
+      "name": "Executioner level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.arbites_enforcer.executioner.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.arbites_enforcer.executioner.level_18",
+      "name": "Executioner level 18",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.arbites_enforcer.executioner.level_18.json"
+    },
+    {
+      "id": "di.feature.subclass.arbites_enforcer.executioner.level_3",
+      "name": "Executioner level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.arbites_enforcer.executioner.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.arbites_enforcer.executioner.level_7",
+      "name": "Executioner level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.arbites_enforcer.executioner.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.arbites_enforcer.investigator.level_14",
+      "name": "Investigator level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.arbites_enforcer.investigator.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.arbites_enforcer.investigator.level_18",
+      "name": "Investigator level 18",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.arbites_enforcer.investigator.level_18.json"
+    },
+    {
+      "id": "di.feature.subclass.arbites_enforcer.investigator.level_3",
+      "name": "Investigator level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.arbites_enforcer.investigator.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.arbites_enforcer.investigator.level_7",
+      "name": "Investigator level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.arbites_enforcer.investigator.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.arbites_enforcer.riot_shield.level_14",
+      "name": "Riot Shield level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.arbites_enforcer.riot_shield.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.arbites_enforcer.riot_shield.level_18",
+      "name": "Riot Shield level 18",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.arbites_enforcer.riot_shield.level_18.json"
+    },
+    {
+      "id": "di.feature.subclass.arbites_enforcer.riot_shield.level_3",
+      "name": "Riot Shield level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.arbites_enforcer.riot_shield.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.arbites_enforcer.riot_shield.level_7",
+      "name": "Riot Shield level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.arbites_enforcer.riot_shield.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.hernkyn_prospector.claim_staker.level_14",
+      "name": "Claim-Staker level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.hernkyn_prospector.claim_staker.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.hernkyn_prospector.claim_staker.level_18",
+      "name": "Claim-Staker level 18",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.hernkyn_prospector.claim_staker.level_18.json"
+    },
+    {
+      "id": "di.feature.subclass.hernkyn_prospector.claim_staker.level_3",
+      "name": "Claim-Staker level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.hernkyn_prospector.claim_staker.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.hernkyn_prospector.claim_staker.level_7",
+      "name": "Claim-Staker level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.hernkyn_prospector.claim_staker.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.hernkyn_prospector.outrider.level_14",
+      "name": "Outrider level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.hernkyn_prospector.outrider.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.hernkyn_prospector.outrider.level_18",
+      "name": "Outrider level 18",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.hernkyn_prospector.outrider.level_18.json"
+    },
+    {
+      "id": "di.feature.subclass.hernkyn_prospector.outrider.level_3",
+      "name": "Outrider level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.hernkyn_prospector.outrider.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.hernkyn_prospector.outrider.level_7",
+      "name": "Outrider level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.hernkyn_prospector.outrider.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.hernkyn_prospector.trail_gunner.level_14",
+      "name": "Trail Gunner level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.hernkyn_prospector.trail_gunner.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.hernkyn_prospector.trail_gunner.level_18",
+      "name": "Trail Gunner level 18",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.hernkyn_prospector.trail_gunner.level_18.json"
+    },
+    {
+      "id": "di.feature.subclass.hernkyn_prospector.trail_gunner.level_3",
+      "name": "Trail Gunner level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.hernkyn_prospector.trail_gunner.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.hernkyn_prospector.trail_gunner.level_7",
+      "name": "Trail Gunner level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.hernkyn_prospector.trail_gunner.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.hive_scum.chem_user.level_14",
+      "name": "Chem-User level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.hive_scum.chem_user.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.hive_scum.chem_user.level_3",
+      "name": "Chem-User level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.hive_scum.chem_user.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.hive_scum.chem_user.level_7",
+      "name": "Chem-User level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.hive_scum.chem_user.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.hive_scum.gunslinger.level_14",
+      "name": "Gunslinger level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.hive_scum.gunslinger.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.hive_scum.gunslinger.level_3",
+      "name": "Gunslinger level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.hive_scum.gunslinger.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.hive_scum.gunslinger.level_7",
+      "name": "Gunslinger level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.hive_scum.gunslinger.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.hive_scum.knife_rat.level_14",
+      "name": "Knife Rat level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.hive_scum.knife_rat.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.hive_scum.knife_rat.level_3",
+      "name": "Knife Rat level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.hive_scum.knife_rat.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.hive_scum.knife_rat.level_7",
+      "name": "Knife Rat level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.hive_scum.knife_rat.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.hive_scum.sump_ghost.level_14",
+      "name": "Sump Ghost level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.hive_scum.sump_ghost.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.hive_scum.sump_ghost.level_3",
+      "name": "Sump Ghost level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.hive_scum.sump_ghost.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.hive_scum.sump_ghost.level_7",
+      "name": "Sump Ghost level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.hive_scum.sump_ghost.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.kin_armsman.guild_militant.level_14",
+      "name": "Guild-Militant level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.kin_armsman.guild_militant.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.kin_armsman.guild_militant.level_18",
+      "name": "Guild-Militant level 18",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.kin_armsman.guild_militant.level_18.json"
+    },
+    {
+      "id": "di.feature.subclass.kin_armsman.guild_militant.level_3",
+      "name": "Guild-Militant level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.kin_armsman.guild_militant.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.kin_armsman.guild_militant.level_7",
+      "name": "Guild-Militant level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.kin_armsman.guild_militant.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.kin_armsman.hearthguard.level_14",
+      "name": "Hearthguard level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.kin_armsman.hearthguard.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.kin_armsman.hearthguard.level_18",
+      "name": "Hearthguard level 18",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.kin_armsman.hearthguard.level_18.json"
+    },
+    {
+      "id": "di.feature.subclass.kin_armsman.hearthguard.level_3",
+      "name": "Hearthguard level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.kin_armsman.hearthguard.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.kin_armsman.hearthguard.level_7",
+      "name": "Hearthguard level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.kin_armsman.hearthguard.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.kin_armsman.ironhead.level_14",
+      "name": "Ironhead level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.kin_armsman.ironhead.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.kin_armsman.ironhead.level_18",
+      "name": "Ironhead level 18",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.kin_armsman.ironhead.level_18.json"
+    },
+    {
+      "id": "di.feature.subclass.kin_armsman.ironhead.level_3",
+      "name": "Ironhead level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.kin_armsman.ironhead.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.kin_armsman.ironhead.level_7",
+      "name": "Ironhead level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.kin_armsman.ironhead.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.ogryn_skullbreaker.bone_ead.level_14",
+      "name": "Bone ’ead level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.ogryn_skullbreaker.bone_ead.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.ogryn_skullbreaker.bone_ead.level_18",
+      "name": "Bone ’ead level 18",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.ogryn_skullbreaker.bone_ead.level_18.json"
+    },
+    {
+      "id": "di.feature.subclass.ogryn_skullbreaker.bone_ead.level_3",
+      "name": "Bone ’ead level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.ogryn_skullbreaker.bone_ead.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.ogryn_skullbreaker.bone_ead.level_7",
+      "name": "Bone ’ead level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.ogryn_skullbreaker.bone_ead.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.ogryn_skullbreaker.brute.level_14",
+      "name": "Brute level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.ogryn_skullbreaker.brute.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.ogryn_skullbreaker.brute.level_18",
+      "name": "Brute level 18",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.ogryn_skullbreaker.brute.level_18.json"
+    },
+    {
+      "id": "di.feature.subclass.ogryn_skullbreaker.brute.level_3",
+      "name": "Brute level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.ogryn_skullbreaker.brute.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.ogryn_skullbreaker.brute.level_7",
+      "name": "Brute level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.ogryn_skullbreaker.brute.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.ogryn_skullbreaker.bulwark.level_14",
+      "name": "Bulwark level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.ogryn_skullbreaker.bulwark.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.ogryn_skullbreaker.bulwark.level_18",
+      "name": "Bulwark level 18",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.ogryn_skullbreaker.bulwark.level_18.json"
+    },
+    {
+      "id": "di.feature.subclass.ogryn_skullbreaker.bulwark.level_3",
+      "name": "Bulwark level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.ogryn_skullbreaker.bulwark.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.ogryn_skullbreaker.bulwark.level_7",
+      "name": "Bulwark level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.ogryn_skullbreaker.bulwark.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.ogryn_skullbreaker.gun_lugger.level_14",
+      "name": "Gun Lugger level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.ogryn_skullbreaker.gun_lugger.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.ogryn_skullbreaker.gun_lugger.level_18",
+      "name": "Gun Lugger level 18",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.ogryn_skullbreaker.gun_lugger.level_18.json"
+    },
+    {
+      "id": "di.feature.subclass.ogryn_skullbreaker.gun_lugger.level_3",
+      "name": "Gun Lugger level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.ogryn_skullbreaker.gun_lugger.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.ogryn_skullbreaker.gun_lugger.level_7",
+      "name": "Gun Lugger level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.ogryn_skullbreaker.gun_lugger.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.psyker.biomancer.level_1",
+      "name": "Biomancer level 1",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.psyker.biomancer.level_1.json"
+    },
+    {
+      "id": "di.feature.subclass.psyker.biomancer.level_14",
+      "name": "Biomancer level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.psyker.biomancer.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.psyker.biomancer.level_3",
+      "name": "Biomancer level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.psyker.biomancer.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.psyker.biomancer.level_7",
+      "name": "Biomancer level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.psyker.biomancer.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.psyker.blank_null_bound.level_1",
+      "name": "Blank / Null-Bound level 1",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.psyker.blank_null_bound.level_1.json"
+    },
+    {
+      "id": "di.feature.subclass.psyker.blank_null_bound.level_14",
+      "name": "Blank / Null-Bound level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.psyker.blank_null_bound.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.psyker.blank_null_bound.level_3",
+      "name": "Blank / Null-Bound level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.psyker.blank_null_bound.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.psyker.blank_null_bound.level_7",
+      "name": "Blank / Null-Bound level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.psyker.blank_null_bound.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.psyker.diviner.level_1",
+      "name": "Diviner level 1",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.psyker.diviner.level_1.json"
+    },
+    {
+      "id": "di.feature.subclass.psyker.diviner.level_14",
+      "name": "Diviner level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.psyker.diviner.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.psyker.diviner.level_3",
+      "name": "Diviner level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.psyker.diviner.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.psyker.diviner.level_7",
+      "name": "Diviner level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.psyker.diviner.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.psyker.malefic_touched.level_1",
+      "name": "Malefic-Touched level 1",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.psyker.malefic_touched.level_1.json"
+    },
+    {
+      "id": "di.feature.subclass.psyker.malefic_touched.level_14",
+      "name": "Malefic-Touched level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.psyker.malefic_touched.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.psyker.malefic_touched.level_3",
+      "name": "Malefic-Touched level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.psyker.malefic_touched.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.psyker.malefic_touched.level_7",
+      "name": "Malefic-Touched level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.psyker.malefic_touched.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.psyker.pyromancer.level_1",
+      "name": "Pyromancer level 1",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.psyker.pyromancer.level_1.json"
+    },
+    {
+      "id": "di.feature.subclass.psyker.pyromancer.level_14",
+      "name": "Pyromancer level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.psyker.pyromancer.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.psyker.pyromancer.level_3",
+      "name": "Pyromancer level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.psyker.pyromancer.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.psyker.pyromancer.level_7",
+      "name": "Pyromancer level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.psyker.pyromancer.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.psyker.telekine.level_1",
+      "name": "Telekine level 1",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.psyker.telekine.level_1.json"
+    },
+    {
+      "id": "di.feature.subclass.psyker.telekine.level_14",
+      "name": "Telekine level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.psyker.telekine.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.psyker.telekine.level_3",
+      "name": "Telekine level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.psyker.telekine.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.psyker.telekine.level_7",
+      "name": "Telekine level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.psyker.telekine.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.ratling_sharpshooter.black_market_gremlin.level_14",
+      "name": "Black-Market Gremlin level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.ratling_sharpshooter.black_market_gremlin.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.ratling_sharpshooter.black_market_gremlin.level_18",
+      "name": "Black-Market Gremlin level 18",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.ratling_sharpshooter.black_market_gremlin.level_18.json"
+    },
+    {
+      "id": "di.feature.subclass.ratling_sharpshooter.black_market_gremlin.level_3",
+      "name": "Black-Market Gremlin level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.ratling_sharpshooter.black_market_gremlin.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.ratling_sharpshooter.black_market_gremlin.level_7",
+      "name": "Black-Market Gremlin level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.ratling_sharpshooter.black_market_gremlin.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.ratling_sharpshooter.long_las_sniper.level_14",
+      "name": "Long-Las Sniper level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.ratling_sharpshooter.long_las_sniper.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.ratling_sharpshooter.long_las_sniper.level_18",
+      "name": "Long-Las Sniper level 18",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.ratling_sharpshooter.long_las_sniper.level_18.json"
+    },
+    {
+      "id": "di.feature.subclass.ratling_sharpshooter.long_las_sniper.level_3",
+      "name": "Long-Las Sniper level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.ratling_sharpshooter.long_las_sniper.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.ratling_sharpshooter.long_las_sniper.level_7",
+      "name": "Long-Las Sniper level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.ratling_sharpshooter.long_las_sniper.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.ratling_sharpshooter.spotter.level_14",
+      "name": "Spotter level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.ratling_sharpshooter.spotter.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.ratling_sharpshooter.spotter.level_18",
+      "name": "Spotter level 18",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.ratling_sharpshooter.spotter.level_18.json"
+    },
+    {
+      "id": "di.feature.subclass.ratling_sharpshooter.spotter.level_3",
+      "name": "Spotter level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.ratling_sharpshooter.spotter.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.ratling_sharpshooter.spotter.level_7",
+      "name": "Spotter level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.ratling_sharpshooter.spotter.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.ratling_sharpshooter.underhive_rat.level_14",
+      "name": "Underhive Rat level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.ratling_sharpshooter.underhive_rat.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.ratling_sharpshooter.underhive_rat.level_18",
+      "name": "Underhive Rat level 18",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.ratling_sharpshooter.underhive_rat.level_18.json"
+    },
+    {
+      "id": "di.feature.subclass.ratling_sharpshooter.underhive_rat.level_3",
+      "name": "Underhive Rat level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.ratling_sharpshooter.underhive_rat.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.ratling_sharpshooter.underhive_rat.level_7",
+      "name": "Underhive Rat level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.ratling_sharpshooter.underhive_rat.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.data_hunter.level_14",
+      "name": "Data-Hunter Protocol level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.skitarii_veteran.data_hunter.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.data_hunter.level_18",
+      "name": "Data-Hunter Protocol level 18",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.skitarii_veteran.data_hunter.level_18.json"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.data_hunter.level_3",
+      "name": "Data-Hunter Protocol level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.skitarii_veteran.data_hunter.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.data_hunter.level_7",
+      "name": "Data-Hunter Protocol level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.skitarii_veteran.data_hunter.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.infiltrator.level_14",
+      "name": "Infiltrator Protocol level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.skitarii_veteran.infiltrator.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.infiltrator.level_18",
+      "name": "Infiltrator Protocol level 18",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.skitarii_veteran.infiltrator.level_18.json"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.infiltrator.level_3",
+      "name": "Infiltrator Protocol level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.skitarii_veteran.infiltrator.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.infiltrator.level_7",
+      "name": "Infiltrator Protocol level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.skitarii_veteran.infiltrator.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.protector.level_14",
+      "name": "Protector Protocol level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.skitarii_veteran.protector.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.protector.level_18",
+      "name": "Protector Protocol level 18",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.skitarii_veteran.protector.level_18.json"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.protector.level_3",
+      "name": "Protector Protocol level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.skitarii_veteran.protector.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.protector.level_7",
+      "name": "Protector Protocol level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.skitarii_veteran.protector.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.ranger.level_14",
+      "name": "Ranger Protocol level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.skitarii_veteran.ranger.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.ranger.level_18",
+      "name": "Ranger Protocol level 18",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.skitarii_veteran.ranger.level_18.json"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.ranger.level_3",
+      "name": "Ranger Protocol level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.skitarii_veteran.ranger.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.ranger.level_7",
+      "name": "Ranger Protocol level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.skitarii_veteran.ranger.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.ruststalker.level_14",
+      "name": "Ruststalker Protocol level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.skitarii_veteran.ruststalker.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.ruststalker.level_18",
+      "name": "Ruststalker Protocol level 18",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.skitarii_veteran.ruststalker.level_18.json"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.ruststalker.level_3",
+      "name": "Ruststalker Protocol level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.skitarii_veteran.ruststalker.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.ruststalker.level_7",
+      "name": "Ruststalker Protocol level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.skitarii_veteran.ruststalker.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.vanguard.level_14",
+      "name": "Vanguard Protocol level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.skitarii_veteran.vanguard.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.vanguard.level_18",
+      "name": "Vanguard Protocol level 18",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.skitarii_veteran.vanguard.level_18.json"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.vanguard.level_3",
+      "name": "Vanguard Protocol level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.skitarii_veteran.vanguard.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.vanguard.level_7",
+      "name": "Vanguard Protocol level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.skitarii_veteran.vanguard.level_7.json"
+    },
+    {
       "id": "di.feature.subclass.veteran.marksman.level_14",
       "name": "Marksman 14",
       "state": "draft_entity",
@@ -2108,6 +3848,78 @@
       "name": "Shock Trooper 7",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/feature/subclass.veteran.shock_trooper.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.zealot.flagellant.level_14",
+      "name": "Flagellant level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.zealot.flagellant.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.zealot.flagellant.level_18",
+      "name": "Flagellant level 18",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.zealot.flagellant.level_18.json"
+    },
+    {
+      "id": "di.feature.subclass.zealot.flagellant.level_3",
+      "name": "Flagellant level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.zealot.flagellant.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.zealot.flagellant.level_7",
+      "name": "Flagellant level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.zealot.flagellant.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.zealot.preacher.level_14",
+      "name": "Preacher level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.zealot.preacher.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.zealot.preacher.level_18",
+      "name": "Preacher level 18",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.zealot.preacher.level_18.json"
+    },
+    {
+      "id": "di.feature.subclass.zealot.preacher.level_3",
+      "name": "Preacher level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.zealot.preacher.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.zealot.preacher.level_7",
+      "name": "Preacher level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.zealot.preacher.level_7.json"
+    },
+    {
+      "id": "di.feature.subclass.zealot.purifier.level_14",
+      "name": "Purifier level 14",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.zealot.purifier.level_14.json"
+    },
+    {
+      "id": "di.feature.subclass.zealot.purifier.level_18",
+      "name": "Purifier level 18",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.zealot.purifier.level_18.json"
+    },
+    {
+      "id": "di.feature.subclass.zealot.purifier.level_3",
+      "name": "Purifier level 3",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.zealot.purifier.level_3.json"
+    },
+    {
+      "id": "di.feature.subclass.zealot.purifier.level_7",
+      "name": "Purifier level 7",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/feature/subclass.zealot.purifier.level_7.json"
     },
     {
       "id": "di.feature.talent.aeldari_grace",
@@ -2530,6 +4342,318 @@
       "path": "packages/di_phb_1_0/entities/feature/universal.vox_familiar.json"
     },
     {
+      "id": "di.power.ashen_brand",
+      "name": "Ashen Brand",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/ashen_brand.json"
+    },
+    {
+      "id": "di.power.assail",
+      "name": "Assail",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/assail.json"
+    },
+    {
+      "id": "di.power.baleful_rupture",
+      "name": "Baleful Rupture",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/baleful_rupture.json"
+    },
+    {
+      "id": "di.power.biomantic_surge",
+      "name": "Biomantic Surge",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/biomantic_surge.json"
+    },
+    {
+      "id": "di.power.blank_sense",
+      "name": "Blank Sense",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/blank_sense.json"
+    },
+    {
+      "id": "di.power.blood_surge",
+      "name": "Blood Surge",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/blood_surge.json"
+    },
+    {
+      "id": "di.power.burning_halo",
+      "name": "Burning Halo",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/burning_halo.json"
+    },
+    {
+      "id": "di.power.cleansing_wave",
+      "name": "Cleansing Wave",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/cleansing_wave.json"
+    },
+    {
+      "id": "di.power.conceal",
+      "name": "Conceal",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/conceal.json"
+    },
+    {
+      "id": "di.power.crush_grip",
+      "name": "Crush Grip",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/crush_grip.json"
+    },
+    {
+      "id": "di.power.danger_sense",
+      "name": "Danger Sense",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/danger_sense.json"
+    },
+    {
+      "id": "di.power.destructor_rune",
+      "name": "Destructor Rune",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/destructor_rune.json"
+    },
+    {
+      "id": "di.power.dominate_nerve",
+      "name": "Dominate Nerve",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/dominate_nerve.json"
+    },
+    {
+      "id": "di.power.echo_read",
+      "name": "Echo Read",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/echo_read.json"
+    },
+    {
+      "id": "di.power.ember_flicker",
+      "name": "Ember Flicker",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/ember_flicker.json"
+    },
+    {
+      "id": "di.power.fates_nudge",
+      "name": "Fate’s Nudge",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/fates_nudge.json"
+    },
+    {
+      "id": "di.power.flesh_knit",
+      "name": "Flesh Knit",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/flesh_knit.json"
+    },
+    {
+      "id": "di.power.flesh_reforged",
+      "name": "Flesh Reforged",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/flesh_reforged.json"
+    },
+    {
+      "id": "di.power.focused_rupture",
+      "name": "Focused Rupture",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/focused_rupture.json"
+    },
+    {
+      "id": "di.power.force_dome",
+      "name": "Force Dome",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/force_dome.json"
+    },
+    {
+      "id": "di.power.foresight_cascade",
+      "name": "Foresight Cascade",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/foresight_cascade.json"
+    },
+    {
+      "id": "di.power.fortune_thread",
+      "name": "Fortune Thread",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/fortune_thread.json"
+    },
+    {
+      "id": "di.power.hemorrhage",
+      "name": "Hemorrhage",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/hemorrhage.json"
+    },
+    {
+      "id": "di.power.inferno_bloom",
+      "name": "Inferno Bloom",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/inferno_bloom.json"
+    },
+    {
+      "id": "di.power.jinx",
+      "name": "Jinx",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/jinx.json"
+    },
+    {
+      "id": "di.power.kinetic_bulwark",
+      "name": "Kinetic Bulwark",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/kinetic_bulwark.json"
+    },
+    {
+      "id": "di.power.kinetic_push",
+      "name": "Kinetic Push",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/kinetic_push.json"
+    },
+    {
+      "id": "di.power.malefic_door",
+      "name": "Malefic Door",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/malefic_door.json"
+    },
+    {
+      "id": "di.power.mind_lumen",
+      "name": "Mind Lumen",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/mind_lumen.json"
+    },
+    {
+      "id": "di.power.null_field",
+      "name": "Null Field",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/null_field.json"
+    },
+    {
+      "id": "di.power.null_glare",
+      "name": "Null Glare",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/null_glare.json"
+    },
+    {
+      "id": "di.power.pain_spike",
+      "name": "Pain Spike",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/pain_spike.json"
+    },
+    {
+      "id": "di.power.pariah_zone",
+      "name": "Pariah Zone",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/pariah_zone.json"
+    },
+    {
+      "id": "di.power.possession_spike",
+      "name": "Possession Spike",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/possession_spike.json"
+    },
+    {
+      "id": "di.power.prescient_aim",
+      "name": "Prescient Aim",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/prescient_aim.json"
+    },
+    {
+      "id": "di.power.prescient_execution",
+      "name": "Prescient Execution",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/prescient_execution.json"
+    },
+    {
+      "id": "di.power.protect",
+      "name": "Protect",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/protect.json"
+    },
+    {
+      "id": "di.power.psychic_shield",
+      "name": "Psychic Shield",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/psychic_shield.json"
+    },
+    {
+      "id": "di.power.quicken",
+      "name": "Quicken",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/quicken.json"
+    },
+    {
+      "id": "di.power.restrain_fate",
+      "name": "Restrain Fate",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/restrain_fate.json"
+    },
+    {
+      "id": "di.power.reveal",
+      "name": "Reveal",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/reveal.json"
+    },
+    {
+      "id": "di.power.silence_the_witch",
+      "name": "Silence the Witch",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/silence_the_witch.json"
+    },
+    {
+      "id": "di.power.soulfire",
+      "name": "Soulfire",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/soulfire.json"
+    },
+    {
+      "id": "di.power.soulstorm",
+      "name": "Soulstorm",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/soulstorm.json"
+    },
+    {
+      "id": "di.power.static_veil",
+      "name": "Static Veil",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/static_veil.json"
+    },
+    {
+      "id": "di.power.telekinetic_crush",
+      "name": "Telekinetic Crush",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/telekinetic_crush.json"
+    },
+    {
+      "id": "di.power.terror_echo",
+      "name": "Terror Echo",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/terror_echo.json"
+    },
+    {
+      "id": "di.power.toxic_bloom",
+      "name": "Toxic Bloom",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/toxic_bloom.json"
+    },
+    {
+      "id": "di.power.warp_bite",
+      "name": "Warp Bite",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/warp_bite.json"
+    },
+    {
+      "id": "di.power.warp_spark",
+      "name": "Warp Spark",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/warp_spark.json"
+    },
+    {
+      "id": "di.power.warp_step",
+      "name": "Warp Step",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/warp_step.json"
+    },
+    {
+      "id": "di.power.whisper_from_below",
+      "name": "Whisper from Below",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/power/whisper_from_below.json"
+    },
+    {
       "id": "di.proficiency.skill.acrobatics",
       "name": "Acrobatics proficiency",
       "state": "draft_entity",
@@ -2626,10 +4750,46 @@
       "path": "packages/di_phb_1_0/entities/progression/aeldari_outcast.json"
     },
     {
+      "id": "di.progression.aeldari_outcast.corsair",
+      "name": "Corsair progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/aeldari_outcast.corsair.json"
+    },
+    {
+      "id": "di.progression.aeldari_outcast.ranger",
+      "name": "Ranger progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/aeldari_outcast.ranger.json"
+    },
+    {
+      "id": "di.progression.aeldari_outcast.shadow_guide",
+      "name": "Shadow Guide progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/aeldari_outcast.shadow_guide.json"
+    },
+    {
       "id": "di.progression.aeldari_warlock",
       "name": "Aeldari Warlock progression",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/progression/aeldari_warlock.json"
+    },
+    {
+      "id": "di.progression.aeldari_warlock.seer_of_battle",
+      "name": "Seer of Battle progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/aeldari_warlock.seer_of_battle.json"
+    },
+    {
+      "id": "di.progression.aeldari_warlock.spirit_guardian",
+      "name": "Spirit Guardian progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/aeldari_warlock.spirit_guardian.json"
+    },
+    {
+      "id": "di.progression.aeldari_warlock.storm_warlock",
+      "name": "Storm Warlock progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/aeldari_warlock.storm_warlock.json"
     },
     {
       "id": "di.progression.arbites_enforcer",
@@ -2638,10 +4798,46 @@
       "path": "packages/di_phb_1_0/entities/progression/arbites_enforcer.json"
     },
     {
+      "id": "di.progression.arbites_enforcer.executioner",
+      "name": "Executioner progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/arbites_enforcer.executioner.json"
+    },
+    {
+      "id": "di.progression.arbites_enforcer.investigator",
+      "name": "Investigator progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/arbites_enforcer.investigator.json"
+    },
+    {
+      "id": "di.progression.arbites_enforcer.riot_shield",
+      "name": "Riot Shield progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/arbites_enforcer.riot_shield.json"
+    },
+    {
       "id": "di.progression.hernkyn_prospector",
       "name": "Hernkyn Prospector progression",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/progression/hernkyn_prospector.json"
+    },
+    {
+      "id": "di.progression.hernkyn_prospector.claim_staker",
+      "name": "Claim-Staker progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/hernkyn_prospector.claim_staker.json"
+    },
+    {
+      "id": "di.progression.hernkyn_prospector.outrider",
+      "name": "Outrider progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/hernkyn_prospector.outrider.json"
+    },
+    {
+      "id": "di.progression.hernkyn_prospector.trail_gunner",
+      "name": "Trail Gunner progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/hernkyn_prospector.trail_gunner.json"
     },
     {
       "id": "di.progression.hive_scum",
@@ -2650,10 +4846,52 @@
       "path": "packages/di_phb_1_0/entities/progression/hive_scum.json"
     },
     {
+      "id": "di.progression.hive_scum.chem_user",
+      "name": "Chem-User progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/hive_scum.chem_user.json"
+    },
+    {
+      "id": "di.progression.hive_scum.gunslinger",
+      "name": "Gunslinger progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/hive_scum.gunslinger.json"
+    },
+    {
+      "id": "di.progression.hive_scum.knife_rat",
+      "name": "Knife Rat progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/hive_scum.knife_rat.json"
+    },
+    {
+      "id": "di.progression.hive_scum.sump_ghost",
+      "name": "Sump Ghost progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/hive_scum.sump_ghost.json"
+    },
+    {
       "id": "di.progression.kin_armsman",
       "name": "Kin Armsman progression",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/progression/kin_armsman.json"
+    },
+    {
+      "id": "di.progression.kin_armsman.guild_militant",
+      "name": "Guild-Militant progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/kin_armsman.guild_militant.json"
+    },
+    {
+      "id": "di.progression.kin_armsman.hearthguard",
+      "name": "Hearthguard progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/kin_armsman.hearthguard.json"
+    },
+    {
+      "id": "di.progression.kin_armsman.ironhead",
+      "name": "Ironhead progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/kin_armsman.ironhead.json"
     },
     {
       "id": "di.progression.ogryn_skullbreaker",
@@ -2662,10 +4900,70 @@
       "path": "packages/di_phb_1_0/entities/progression/ogryn_skullbreaker.json"
     },
     {
+      "id": "di.progression.ogryn_skullbreaker.bone_ead",
+      "name": "Bone ’ead progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/ogryn_skullbreaker.bone_ead.json"
+    },
+    {
+      "id": "di.progression.ogryn_skullbreaker.brute",
+      "name": "Brute progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/ogryn_skullbreaker.brute.json"
+    },
+    {
+      "id": "di.progression.ogryn_skullbreaker.bulwark",
+      "name": "Bulwark progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/ogryn_skullbreaker.bulwark.json"
+    },
+    {
+      "id": "di.progression.ogryn_skullbreaker.gun_lugger",
+      "name": "Gun Lugger progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/ogryn_skullbreaker.gun_lugger.json"
+    },
+    {
       "id": "di.progression.psyker",
       "name": "Psyker progression",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/progression/psyker.json"
+    },
+    {
+      "id": "di.progression.psyker.biomancer",
+      "name": "Biomancer progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/psyker.biomancer.json"
+    },
+    {
+      "id": "di.progression.psyker.blank_null_bound",
+      "name": "Blank / Null-Bound progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/psyker.blank_null_bound.json"
+    },
+    {
+      "id": "di.progression.psyker.diviner",
+      "name": "Diviner progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/psyker.diviner.json"
+    },
+    {
+      "id": "di.progression.psyker.malefic_touched",
+      "name": "Malefic-Touched progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/psyker.malefic_touched.json"
+    },
+    {
+      "id": "di.progression.psyker.pyromancer",
+      "name": "Pyromancer progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/psyker.pyromancer.json"
+    },
+    {
+      "id": "di.progression.psyker.telekine",
+      "name": "Telekine progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/psyker.telekine.json"
     },
     {
       "id": "di.progression.ratling_sharpshooter",
@@ -2674,10 +4972,70 @@
       "path": "packages/di_phb_1_0/entities/progression/ratling_sharpshooter.json"
     },
     {
+      "id": "di.progression.ratling_sharpshooter.black_market_gremlin",
+      "name": "Black-Market Gremlin progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/ratling_sharpshooter.black_market_gremlin.json"
+    },
+    {
+      "id": "di.progression.ratling_sharpshooter.long_las_sniper",
+      "name": "Long-Las Sniper progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/ratling_sharpshooter.long_las_sniper.json"
+    },
+    {
+      "id": "di.progression.ratling_sharpshooter.spotter",
+      "name": "Spotter progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/ratling_sharpshooter.spotter.json"
+    },
+    {
+      "id": "di.progression.ratling_sharpshooter.underhive_rat",
+      "name": "Underhive Rat progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/ratling_sharpshooter.underhive_rat.json"
+    },
+    {
       "id": "di.progression.skitarii_veteran",
       "name": "Skitarii Veteran progression",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/progression/skitarii_veteran.json"
+    },
+    {
+      "id": "di.progression.skitarii_veteran.data_hunter",
+      "name": "Data-Hunter Protocol progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/skitarii_veteran.data_hunter.json"
+    },
+    {
+      "id": "di.progression.skitarii_veteran.infiltrator",
+      "name": "Infiltrator Protocol progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/skitarii_veteran.infiltrator.json"
+    },
+    {
+      "id": "di.progression.skitarii_veteran.protector",
+      "name": "Protector Protocol progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/skitarii_veteran.protector.json"
+    },
+    {
+      "id": "di.progression.skitarii_veteran.ranger",
+      "name": "Ranger Protocol progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/skitarii_veteran.ranger.json"
+    },
+    {
+      "id": "di.progression.skitarii_veteran.ruststalker",
+      "name": "Ruststalker Protocol progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/skitarii_veteran.ruststalker.json"
+    },
+    {
+      "id": "di.progression.skitarii_veteran.vanguard",
+      "name": "Vanguard Protocol progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/skitarii_veteran.vanguard.json"
     },
     {
       "id": "di.progression.subclass.veteran.marksman",
@@ -2708,6 +5066,24 @@
       "name": "Zealot progression",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/progression/zealot.json"
+    },
+    {
+      "id": "di.progression.zealot.flagellant",
+      "name": "Flagellant progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/zealot.flagellant.json"
+    },
+    {
+      "id": "di.progression.zealot.preacher",
+      "name": "Preacher progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/zealot.preacher.json"
+    },
+    {
+      "id": "di.progression.zealot.purifier",
+      "name": "Purifier progression",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/progression/zealot.purifier.json"
     },
     {
       "id": "di.property.weapon.accurate",
@@ -3454,10 +5830,22 @@
       "path": "packages/di_phb_1_0/entities/rule/phb_6_9.json"
     },
     {
+      "id": "di.shield.brute_shield_harness",
+      "name": "Brute Shield Harness",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/shield/brute_shield_harness.json"
+    },
+    {
       "id": "di.shield.shield",
       "name": "Shield",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/shield/shield.json"
+    },
+    {
+      "id": "di.shield.slab_shield",
+      "name": "Slab Shield",
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/shield/slab_shield.json"
     },
     {
       "id": "di.skill.acrobatics",
@@ -3586,6 +5974,240 @@
       "path": "packages/di_phb_1_0/entities/species/skitarii.json"
     },
     {
+      "id": "di.subclass.aeldari_outcast.corsair",
+      "name": "Corsair",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/aeldari_outcast.corsair.json"
+    },
+    {
+      "id": "di.subclass.aeldari_outcast.ranger",
+      "name": "Ranger",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/aeldari_outcast.ranger.json"
+    },
+    {
+      "id": "di.subclass.aeldari_outcast.shadow_guide",
+      "name": "Shadow Guide",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/aeldari_outcast.shadow_guide.json"
+    },
+    {
+      "id": "di.subclass.aeldari_warlock.seer_of_battle",
+      "name": "Seer of Battle",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/aeldari_warlock.seer_of_battle.json"
+    },
+    {
+      "id": "di.subclass.aeldari_warlock.spirit_guardian",
+      "name": "Spirit Guardian",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/aeldari_warlock.spirit_guardian.json"
+    },
+    {
+      "id": "di.subclass.aeldari_warlock.storm_warlock",
+      "name": "Storm Warlock",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/aeldari_warlock.storm_warlock.json"
+    },
+    {
+      "id": "di.subclass.arbites_enforcer.executioner",
+      "name": "Executioner",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/arbites_enforcer.executioner.json"
+    },
+    {
+      "id": "di.subclass.arbites_enforcer.investigator",
+      "name": "Investigator",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/arbites_enforcer.investigator.json"
+    },
+    {
+      "id": "di.subclass.arbites_enforcer.riot_shield",
+      "name": "Riot Shield",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/arbites_enforcer.riot_shield.json"
+    },
+    {
+      "id": "di.subclass.hernkyn_prospector.claim_staker",
+      "name": "Claim-Staker",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/hernkyn_prospector.claim_staker.json"
+    },
+    {
+      "id": "di.subclass.hernkyn_prospector.outrider",
+      "name": "Outrider",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/hernkyn_prospector.outrider.json"
+    },
+    {
+      "id": "di.subclass.hernkyn_prospector.trail_gunner",
+      "name": "Trail Gunner",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/hernkyn_prospector.trail_gunner.json"
+    },
+    {
+      "id": "di.subclass.hive_scum.chem_user",
+      "name": "Chem-User",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/hive_scum.chem_user.json"
+    },
+    {
+      "id": "di.subclass.hive_scum.gunslinger",
+      "name": "Gunslinger",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/hive_scum.gunslinger.json"
+    },
+    {
+      "id": "di.subclass.hive_scum.knife_rat",
+      "name": "Knife Rat",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/hive_scum.knife_rat.json"
+    },
+    {
+      "id": "di.subclass.hive_scum.sump_ghost",
+      "name": "Sump Ghost",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/hive_scum.sump_ghost.json"
+    },
+    {
+      "id": "di.subclass.kin_armsman.guild_militant",
+      "name": "Guild-Militant",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/kin_armsman.guild_militant.json"
+    },
+    {
+      "id": "di.subclass.kin_armsman.hearthguard",
+      "name": "Hearthguard",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/kin_armsman.hearthguard.json"
+    },
+    {
+      "id": "di.subclass.kin_armsman.ironhead",
+      "name": "Ironhead",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/kin_armsman.ironhead.json"
+    },
+    {
+      "id": "di.subclass.ogryn_skullbreaker.bone_ead",
+      "name": "Bone ’ead",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/ogryn_skullbreaker.bone_ead.json"
+    },
+    {
+      "id": "di.subclass.ogryn_skullbreaker.brute",
+      "name": "Brute",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/ogryn_skullbreaker.brute.json"
+    },
+    {
+      "id": "di.subclass.ogryn_skullbreaker.bulwark",
+      "name": "Bulwark",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/ogryn_skullbreaker.bulwark.json"
+    },
+    {
+      "id": "di.subclass.ogryn_skullbreaker.gun_lugger",
+      "name": "Gun Lugger",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/ogryn_skullbreaker.gun_lugger.json"
+    },
+    {
+      "id": "di.subclass.psyker.biomancer",
+      "name": "Biomancer",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/psyker.biomancer.json"
+    },
+    {
+      "id": "di.subclass.psyker.blank_null_bound",
+      "name": "Blank / Null-Bound",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/psyker.blank_null_bound.json"
+    },
+    {
+      "id": "di.subclass.psyker.diviner",
+      "name": "Diviner",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/psyker.diviner.json"
+    },
+    {
+      "id": "di.subclass.psyker.malefic_touched",
+      "name": "Malefic-Touched",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/psyker.malefic_touched.json"
+    },
+    {
+      "id": "di.subclass.psyker.pyromancer",
+      "name": "Pyromancer",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/psyker.pyromancer.json"
+    },
+    {
+      "id": "di.subclass.psyker.telekine",
+      "name": "Telekine",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/psyker.telekine.json"
+    },
+    {
+      "id": "di.subclass.ratling_sharpshooter.black_market_gremlin",
+      "name": "Black-Market Gremlin",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/ratling_sharpshooter.black_market_gremlin.json"
+    },
+    {
+      "id": "di.subclass.ratling_sharpshooter.long_las_sniper",
+      "name": "Long-Las Sniper",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/ratling_sharpshooter.long_las_sniper.json"
+    },
+    {
+      "id": "di.subclass.ratling_sharpshooter.spotter",
+      "name": "Spotter",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/ratling_sharpshooter.spotter.json"
+    },
+    {
+      "id": "di.subclass.ratling_sharpshooter.underhive_rat",
+      "name": "Underhive Rat",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/ratling_sharpshooter.underhive_rat.json"
+    },
+    {
+      "id": "di.subclass.skitarii_veteran.data_hunter",
+      "name": "Data-Hunter Protocol",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/skitarii_veteran.data_hunter.json"
+    },
+    {
+      "id": "di.subclass.skitarii_veteran.infiltrator",
+      "name": "Infiltrator Protocol",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/skitarii_veteran.infiltrator.json"
+    },
+    {
+      "id": "di.subclass.skitarii_veteran.protector",
+      "name": "Protector Protocol",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/skitarii_veteran.protector.json"
+    },
+    {
+      "id": "di.subclass.skitarii_veteran.ranger",
+      "name": "Ranger Protocol",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/skitarii_veteran.ranger.json"
+    },
+    {
+      "id": "di.subclass.skitarii_veteran.ruststalker",
+      "name": "Ruststalker Protocol",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/skitarii_veteran.ruststalker.json"
+    },
+    {
+      "id": "di.subclass.skitarii_veteran.vanguard",
+      "name": "Vanguard Protocol",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/skitarii_veteran.vanguard.json"
+    },
+    {
       "id": "di.subclass.veteran.marksman",
       "name": "Marksman",
       "state": "draft_entity",
@@ -3604,1929 +6226,1000 @@
       "path": "packages/di_phb_1_0/entities/subclass/veteran.shock_trooper.json"
     },
     {
-      "id": "di.action.attack",
-      "name": "Attack",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.action.dash",
-      "name": "Dash",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.action.disengage",
-      "name": "Disengage",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.action.dodge",
-      "name": "Dodge",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.action.help",
-      "name": "Help",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.action.hide",
-      "name": "Hide",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.action.ready",
-      "name": "Ready",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.action.reload",
-      "name": "Reload",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.action.use_mission_gear",
-      "name": "Use Mission Gear",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.ammunition.armour_piercing",
-      "name": "Armour-Piercing",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.ammunition.hot_shot_charge_pack",
-      "name": "Hot-Shot Charge Pack",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.ammunition.incendiary",
-      "name": "Incendiary",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.ammunition.manstopper",
-      "name": "Manstopper",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.ammunition.sanctified_ammunition",
-      "name": "Sanctified Ammunition",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.ammunition.tracer_target_marking",
-      "name": "Tracer / Target-Marking",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.ammunition.xenos_exotic_magazine",
-      "name": "Xenos / Exotic Magazine",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.armour.aeldari_mesh",
-      "name": "Aeldari Mesh",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.armour.armoured_bodyglove",
-      "name": "Armoured Bodyglove",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.armour.aspect_pattern_armour",
-      "name": "Aspect-Pattern Armour",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.armour.bullgryn_plate",
-      "name": "Bullgryn Plate",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.armour.carapace_armour",
-      "name": "Carapace Armour",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.armour.exo_frame_plate",
-      "name": "Exo-Frame Plate",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.armour.flak_armour",
-      "name": "Flak Armour",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.armour.flak_greatcoat",
-      "name": "Flak Greatcoat",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.armour.flak_vest",
-      "name": "Flak Vest",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.armour.hazard_plate",
-      "name": "Hazard Plate",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.armour.hearthkyn_plate",
-      "name": "Hearthkyn Plate",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.armour.heavy_clothing",
-      "name": "Heavy Clothing",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.armour.kin_mesh",
-      "name": "Kin Mesh",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.armour.kin_void_suit",
-      "name": "Kin Void Suit",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.armour.mesh_armour",
-      "name": "Mesh Armour",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.armour.ogryn_flak_plate",
-      "name": "Ogryn Flak Plate",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.armour.ogryn_plate",
-      "name": "Ogryn Plate",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.armour.powered_carapace",
-      "name": "Powered Carapace",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.armour.prospector_rig",
-      "name": "Prospector Rig",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.armour.ranger_weave",
-      "name": "Ranger Weave",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.armour.riot_armour",
-      "name": "Riot Armour",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.armour.rune_armour",
-      "name": "Rune Armour",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.armour.scout_carapace",
-      "name": "Scout Carapace",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.armour.void_suit_armoured",
-      "name": "Void Suit, Armoured",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.armour.wargear.oathplate_of_the_first_claim_kin",
-      "name": "Oathplate of the First Claim - Kin",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.augmetic.augmetic_heart",
-      "name": "Augmetic Heart",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.augmetic.bionic_arm",
-      "name": "Bionic Arm",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.augmetic.bionic_legs",
-      "name": "Bionic Legs",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.augmetic.black_iron_jaw",
-      "name": "Black-Iron Jaw",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.augmetic.chem_injector",
-      "name": "Chem Injector",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.augmetic.cranial_cogitator",
-      "name": "Cranial Cogitator",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.augmetic.data_jack",
-      "name": "Data-Jack",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.augmetic.dermal_insulation",
-      "name": "Dermal Insulation",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.augmetic.internal_chrono",
-      "name": "Internal Chrono",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.augmetic.mag_lock_palm",
-      "name": "Mag-Lock Palm",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.augmetic.mechadendrite_combat",
-      "name": "Mechadendrite, Combat",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.augmetic.mechadendrite_medicae",
-      "name": "Mechadendrite, Medicae",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.augmetic.mechadendrite_utility",
-      "name": "Mechadendrite, Utility",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.augmetic.optical_implant",
-      "name": "Optical Implant",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.augmetic.pain_editor",
-      "name": "Pain Editor",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.augmetic.recoil_bracing",
-      "name": "Recoil Bracing",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.augmetic.respirator_implant",
-      "name": "Respirator Implant",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.augmetic.skeletal_reinforcement",
-      "name": "Skeletal Reinforcement",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.augmetic.subdermal_plating",
-      "name": "Subdermal Plating",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.augmetic.targeting_lens",
-      "name": "Targeting Lens",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.augmetic.vocal_coder",
-      "name": "Vocal Coder",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.augmetic.vox_implant",
-      "name": "Vox Implant",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.condition.blinded",
-      "name": "Blinded",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.condition.bloodied",
-      "name": "Bloodied",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.condition.charmed",
-      "name": "Charmed",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.condition.exhaustion",
-      "name": "Exhaustion",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.condition.frightened",
-      "name": "Frightened",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.condition.grappled",
-      "name": "Grappled",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.condition.hidden",
-      "name": "Hidden",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.condition.incapacitated",
-      "name": "Incapacitated",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.condition.invisible",
-      "name": "Invisible",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.condition.poisoned",
-      "name": "Poisoned",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.condition.prone",
-      "name": "Prone",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.condition.restrained",
-      "name": "Restrained",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.condition.stunned",
-      "name": "Stunned",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.condition.suppressed",
-      "name": "Suppressed",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.condition.surprised",
-      "name": "Surprised",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.condition.unconscious",
-      "name": "Unconscious",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.consumable.wargear.stasis_grenade",
-      "name": "Stasis Grenade",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.ammo_pack",
-      "name": "Ammo Pack",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.auspex_battery",
-      "name": "Auspex Battery",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.conversion_field",
-      "name": "Conversion Field",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.field_dressing",
-      "name": "Field Dressing",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.grenade_bandolier",
-      "name": "Grenade Bandolier",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.holo_field_cloak",
-      "name": "Holo-Field Cloak",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.med_pack",
-      "name": "Med-Pack",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.med_stim",
-      "name": "Med-Stim",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.purity_seal_charm",
-      "name": "Purity Seal Charm",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.rebreather_filter",
-      "name": "Rebreather Filter",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.refractor_field",
-      "name": "Refractor Field",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.specialist_ammo_pack",
-      "name": "Specialist Ammo Pack",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.stimm_slug",
-      "name": "Stimm Slug",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.void_patch_kit",
-      "name": "Void Patch Kit",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.wargear.arc_of_the_reductor_mechanicus",
-      "name": "Arc of the Reductor - Mechanicus",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.wargear.archeotech_logic_engine",
-      "name": "Archeotech Logic Engine",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.wargear.big_lugs_door_ogryn",
-      "name": "Big Lug's Door - Ogryn",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.wargear.bulwark_of_saint_drusus_imperial",
-      "name": "Bulwark of Saint Drusus - Imperial",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.wargear.digital_weapon",
-      "name": "Digital Weapon",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.wargear.displacer_field",
-      "name": "Displacer Field",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.wargear.ghosthelm_of_the_wandering_seer_aeldari",
-      "name": "Ghosthelm of the Wandering Seer - Aeldari",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.wargear.halo_of_saint_varro",
-      "name": "Halo of Saint Varro",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.wargear.heart_key_of_the_red_vault",
-      "name": "Heart-Key of the Red Vault",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.wargear.martyrs_censer_imperial",
-      "name": "Martyr's Censer - Imperial",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.wargear.medicae_crucible",
-      "name": "Medicae Crucible",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.wargear.null_rod",
-      "name": "Null Rod",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.wargear.omnissian_data_relic_mechanicus",
-      "name": "Omnissian Data-Relic - Mechanicus",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.wargear.phase_shunt_field",
-      "name": "Phase-Shunt Field",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.wargear.rosarius",
-      "name": "Rosarius",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.wargear.suspensor_harness",
-      "name": "Suspensor Harness",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.wargear.teleport_homer",
-      "name": "Teleport Homer",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.wargear.the_door_that_would_not_break",
-      "name": "The Door That Would Not Break",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.wargear.the_first_oathstone",
-      "name": "The First Oathstone",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.wargear.the_ghosts_coin",
-      "name": "The Ghost's Coin",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.wargear.the_last_light_imperial",
-      "name": "The Last Light - Imperial",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.wargear.the_veiled_eye",
-      "name": "The Veiled Eye",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.equipment.weapon_maintenance_kit",
-      "name": "Weapon Maintenance Kit",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.feature.masterwork.artificer_armour",
-      "name": "Artificer Armour",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.feature.masterwork.artificer_edge",
-      "name": "Artificer Edge",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.feature.masterwork.compact_pattern",
-      "name": "Compact Pattern",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.feature.masterwork.perfect_balance",
-      "name": "Perfect Balance",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.feature.masterwork.precision_barrel_focusing_array",
-      "name": "Precision Barrel / Focusing Array",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.feature.masterwork.rapid_feed",
-      "name": "Rapid Feed",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.feature.masterwork.recoil_compensation",
-      "name": "Recoil Compensation",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.feature.masterwork.responsive_plating",
-      "name": "Responsive Plating",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.feature.masterwork.sealed_systems",
-      "name": "Sealed Systems",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.ashen_brand",
-      "name": "Ashen Brand",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.assail",
-      "name": "Assail",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.baleful_rupture",
-      "name": "Baleful Rupture",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.biomantic_surge",
-      "name": "Biomantic Surge",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.blank_sense",
-      "name": "Blank Sense",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.blood_surge",
-      "name": "Blood Surge",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.burning_halo",
-      "name": "Burning Halo",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.cleansing_wave",
-      "name": "Cleansing Wave",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.conceal",
-      "name": "Conceal",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.crush_grip",
-      "name": "Crush Grip",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.danger_sense",
-      "name": "Danger Sense",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.destructor_rune",
-      "name": "Destructor Rune",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.dominate_nerve",
-      "name": "Dominate Nerve",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.echo_read",
-      "name": "Echo Read",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.ember_flicker",
-      "name": "Ember Flicker",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.fates_nudge",
-      "name": "Fate’s Nudge",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.flesh_knit",
-      "name": "Flesh Knit",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.flesh_reforged",
-      "name": "Flesh Reforged",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.focused_rupture",
-      "name": "Focused Rupture",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.force_dome",
-      "name": "Force Dome",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.foresight_cascade",
-      "name": "Foresight Cascade",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.fortune_thread",
-      "name": "Fortune Thread",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.hemorrhage",
-      "name": "Hemorrhage",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.inferno_bloom",
-      "name": "Inferno Bloom",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.jinx",
-      "name": "Jinx",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.kinetic_bulwark",
-      "name": "Kinetic Bulwark",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.kinetic_push",
-      "name": "Kinetic Push",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.malefic_door",
-      "name": "Malefic Door",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.mind_lumen",
-      "name": "Mind Lumen",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.null_field",
-      "name": "Null Field",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.null_glare",
-      "name": "Null Glare",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.pain_spike",
-      "name": "Pain Spike",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.pariah_zone",
-      "name": "Pariah Zone",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.possession_spike",
-      "name": "Possession Spike",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.prescient_aim",
-      "name": "Prescient Aim",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.prescient_execution",
-      "name": "Prescient Execution",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.protect",
-      "name": "Protect",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.psychic_shield",
-      "name": "Psychic Shield",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.quicken",
-      "name": "Quicken",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.restrain_fate",
-      "name": "Restrain Fate",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.reveal",
-      "name": "Reveal",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.silence_the_witch",
-      "name": "Silence the Witch",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.soulfire",
-      "name": "Soulfire",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.soulstorm",
-      "name": "Soulstorm",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.static_veil",
-      "name": "Static Veil",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.telekinetic_crush",
-      "name": "Telekinetic Crush",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.terror_echo",
-      "name": "Terror Echo",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.toxic_bloom",
-      "name": "Toxic Bloom",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.warp_bite",
-      "name": "Warp Bite",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.warp_spark",
-      "name": "Warp Spark",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.warp_step",
-      "name": "Warp Step",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.power.whisper_from_below",
-      "name": "Whisper from Below",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.shield.brute_shield_harness",
-      "name": "Brute Shield Harness",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.shield.slab_shield",
-      "name": "Slab Shield",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.aeldari_outcast.corsair",
-      "name": "Corsair",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.aeldari_outcast.ranger",
-      "name": "Ranger",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.aeldari_outcast.shadow_guide",
-      "name": "Shadow Guide",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.aeldari_warlock.seer_of_battle",
-      "name": "Seer of Battle",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.aeldari_warlock.spirit_guardian",
-      "name": "Spirit Guardian",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.aeldari_warlock.storm_warlock",
-      "name": "Storm Warlock",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.arbites_enforcer.executioner",
-      "name": "Executioner",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.arbites_enforcer.investigator",
-      "name": "Investigator",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.arbites_enforcer.riot_shield",
-      "name": "Riot Shield",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.hernkyn_prospector.claim_staker",
-      "name": "Claim-Staker",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.hernkyn_prospector.outrider",
-      "name": "Outrider",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.hernkyn_prospector.trail_gunner",
-      "name": "Trail Gunner",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.hive_scum.chem_user",
-      "name": "Chem-User",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.hive_scum.gunslinger",
-      "name": "Gunslinger",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.hive_scum.knife_rat",
-      "name": "Knife Rat",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.hive_scum.sump_ghost",
-      "name": "Sump Ghost",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.kin_armsman.guild_militant",
-      "name": "Guild-Militant",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.kin_armsman.hearthguard",
-      "name": "Hearthguard",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.kin_armsman.ironhead",
-      "name": "Ironhead",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.ogryn_skullbreaker.bone_ead",
-      "name": "Bone ’ead",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.ogryn_skullbreaker.brute",
-      "name": "Brute",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.ogryn_skullbreaker.bulwark",
-      "name": "Bulwark",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.ogryn_skullbreaker.gun_lugger",
-      "name": "Gun Lugger",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.psyker.biomancer",
-      "name": "Biomancer",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.psyker.blank_null_bound",
-      "name": "Blank / Null-Bound",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.psyker.diviner",
-      "name": "Diviner",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.psyker.malefic_touched",
-      "name": "Malefic-Touched",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.psyker.pyromancer",
-      "name": "Pyromancer",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.psyker.telekine",
-      "name": "Telekine",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.ratling_sharpshooter.black_market_gremlin",
-      "name": "Black-Market Gremlin",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.ratling_sharpshooter.long_las_sniper",
-      "name": "Long-Las Sniper",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.ratling_sharpshooter.spotter",
-      "name": "Spotter",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.ratling_sharpshooter.underhive_rat",
-      "name": "Underhive Rat",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.skitarii_veteran.data_hunter",
-      "name": "Data-Hunter Protocol",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.skitarii_veteran.infiltrator",
-      "name": "Infiltrator Protocol",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.skitarii_veteran.protector",
-      "name": "Protector Protocol",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.skitarii_veteran.ranger",
-      "name": "Ranger Protocol",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.skitarii_veteran.ruststalker",
-      "name": "Ruststalker Protocol",
-      "state": "reserved_candidate"
-    },
-    {
-      "id": "di.subclass.skitarii_veteran.vanguard",
-      "name": "Vanguard Protocol",
-      "state": "reserved_candidate"
-    },
-    {
       "id": "di.subclass.zealot.flagellant",
       "name": "Flagellant",
-      "state": "reserved_candidate"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/zealot.flagellant.json"
     },
     {
       "id": "di.subclass.zealot.preacher",
       "name": "Preacher",
-      "state": "reserved_candidate"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/zealot.preacher.json"
     },
     {
       "id": "di.subclass.zealot.purifier",
       "name": "Purifier",
-      "state": "reserved_candidate"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/subclass/zealot.purifier.json"
     },
     {
       "id": "di.system.armour.ablative_ceramite",
       "name": "Ablative Ceramite",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/armour.ablative_ceramite.json"
     },
     {
       "id": "di.system.armour.adaptive_weave",
       "name": "Adaptive Weave",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/armour.adaptive_weave.json"
     },
     {
       "id": "di.system.armour.ancestor_wrought_plating",
       "name": "Ancestor-Wrought Plating",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/armour.ancestor_wrought_plating.json"
     },
     {
       "id": "di.system.armour.blast_baffles",
       "name": "Blast Baffles",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/armour.blast_baffles.json"
     },
     {
       "id": "di.system.armour.camo_weave",
       "name": "Camo Weave",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/armour.camo_weave.json"
     },
     {
       "id": "di.system.armour.exo_servo_overdrive",
       "name": "Exo-Servo Overdrive",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/armour.exo_servo_overdrive.json"
     },
     {
       "id": "di.system.armour.ghostplate_flexors",
       "name": "Ghostplate Flexors",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/armour.ghostplate_flexors.json"
     },
     {
       "id": "di.system.armour.grav_anchor_spurs",
       "name": "Grav-Anchor Spurs",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/armour.grav_anchor_spurs.json"
     },
     {
       "id": "di.system.armour.hexagrammic_lining",
       "name": "Hexagrammic Lining",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/armour.hexagrammic_lining.json"
     },
     {
       "id": "di.system.armour.holo_weave_matrix",
       "name": "Holo-Weave Matrix",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/armour.holo_weave_matrix.json"
     },
     {
       "id": "di.system.armour.mag_boots_anchor_rig",
       "name": "Mag Boots / Anchor Rig",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/armour.mag_boots_anchor_rig.json"
     },
     {
       "id": "di.system.armour.medicae_harness",
       "name": "Medicae Harness",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/armour.medicae_harness.json"
     },
     {
       "id": "di.system.armour.noospheric_armour_link",
       "name": "Noospheric Armour Link",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/armour.noospheric_armour_link.json"
     },
     {
       "id": "di.system.armour.rad_seal_shrouds",
       "name": "Rad-Seal Shrouds",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/armour.rad_seal_shrouds.json"
     },
     {
       "id": "di.system.armour.recoil_yoke",
       "name": "Recoil Yoke",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/armour.recoil_yoke.json"
     },
     {
       "id": "di.system.armour.reinforced_harness",
       "name": "Reinforced Harness",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/armour.reinforced_harness.json"
     },
     {
       "id": "di.system.armour.reinforced_plates",
       "name": "Reinforced Plates",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/armour.reinforced_plates.json"
     },
     {
       "id": "di.system.armour.sealed_system",
       "name": "Sealed System",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/armour.sealed_system.json"
     },
     {
       "id": "di.system.armour.servo_assist",
       "name": "Servo Assist",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/armour.servo_assist.json"
     },
     {
       "id": "di.system.armour.servo_bracing",
       "name": "Servo-Bracing",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/armour.servo_bracing.json"
     },
     {
       "id": "di.system.armour.shock_insulation",
       "name": "Shock Insulation",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/armour.shock_insulation.json"
     },
     {
       "id": "di.system.armour.slab_lock_bracing",
       "name": "Slab-Lock Bracing",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/armour.slab_lock_bracing.json"
     },
     {
       "id": "di.system.armour.spirit_stone_lattice",
       "name": "Spirit-Stone Lattice",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/armour.spirit_stone_lattice.json"
     },
     {
       "id": "di.system.armour.void_seal_redundancy",
       "name": "Void-Seal Redundancy",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/armour.void_seal_redundancy.json"
     },
     {
       "id": "di.system.vehicle.all_terrain_running_gear",
       "name": "All-terrain running gear",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/vehicle.all_terrain_running_gear.json"
     },
     {
       "id": "di.system.vehicle.auspex_survey_suite",
       "name": "Auspex survey suite",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/vehicle.auspex_survey_suite.json"
     },
     {
       "id": "di.system.vehicle.ogryn_accommodation",
       "name": "Ogryn accommodation",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/vehicle.ogryn_accommodation.json"
     },
     {
       "id": "di.system.vehicle.recovery_winch",
       "name": "Recovery winch",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/vehicle.recovery_winch.json"
     },
     {
       "id": "di.system.vehicle.reinforced_plating",
       "name": "Reinforced plating",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/vehicle.reinforced_plating.json"
     },
     {
       "id": "di.system.vehicle.sealed_compartment",
       "name": "Sealed compartment",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/vehicle.sealed_compartment.json"
     },
     {
       "id": "di.system.vehicle.smoke_launchers",
       "name": "Smoke launchers",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/vehicle.smoke_launchers.json"
     },
     {
       "id": "di.system.vehicle.spare_parts_locker",
       "name": "Spare-parts locker",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/vehicle.spare_parts_locker.json"
     },
     {
       "id": "di.system.weapon.archeotech_interface",
       "name": "Archeotech Interface",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/weapon.archeotech_interface.json"
     },
     {
       "id": "di.system.weapon.bayonet_breaching_lug",
       "name": "Bayonet / Breaching Lug",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/weapon.bayonet_breaching_lug.json"
     },
     {
       "id": "di.system.weapon.camo_wrap_low_signature_furniture",
       "name": "Camo Wrap / Low-Signature Furniture",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/weapon.camo_wrap_low_signature_furniture.json"
     },
     {
       "id": "di.system.weapon.extended_magazine_charge_pack",
       "name": "Extended Magazine / Charge Pack",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/weapon.extended_magazine_charge_pack.json"
     },
     {
       "id": "di.system.weapon.recoil_compensation",
       "name": "Recoil Compensation",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/weapon.recoil_compensation.json"
     },
     {
       "id": "di.system.weapon.reflex_sight",
       "name": "Reflex Sight",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/weapon.reflex_sight.json"
     },
     {
       "id": "di.system.weapon.reinforced_action",
       "name": "Reinforced Action",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/weapon.reinforced_action.json"
     },
     {
       "id": "di.system.weapon.sanctified_fittings",
       "name": "Sanctified Fittings",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/weapon.sanctified_fittings.json"
     },
     {
       "id": "di.system.weapon.targeting_optic",
       "name": "Targeting Optic",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/system/weapon.targeting_optic.json"
     },
     {
       "id": "di.vehicle.aeldari_vyper",
       "name": "Aeldari Vyper",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/vehicle/aeldari_vyper.json"
     },
     {
       "id": "di.vehicle.armoured_utility_truck",
       "name": "Armoured Utility Truck",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/vehicle/armoured_utility_truck.json"
     },
     {
       "id": "di.vehicle.cargo_hauler",
       "name": "Cargo Hauler",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/vehicle/cargo_hauler.json"
     },
     {
       "id": "di.vehicle.chimera",
       "name": "Chimera",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/vehicle/chimera.json"
     },
     {
       "id": "di.vehicle.civilian_autocar",
       "name": "Civilian Autocar",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/vehicle/civilian_autocar.json"
     },
     {
       "id": "di.vehicle.falcon_grav_tank",
       "name": "Falcon Grav-tank",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/vehicle/falcon_grav_tank.json"
     },
     {
       "id": "di.vehicle.hernkyn_pioneer_bike",
       "name": "Hernkyn Pioneer Bike",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/vehicle/hernkyn_pioneer_bike.json"
     },
     {
       "id": "di.vehicle.hive_outrider_bike",
       "name": "Hive Outrider Bike",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/vehicle/hive_outrider_bike.json"
     },
     {
       "id": "di.vehicle.leman_russ_battle_tank",
       "name": "Leman Russ Battle Tank",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/vehicle/leman_russ_battle_tank.json"
     },
     {
       "id": "di.vehicle.sagitaur",
       "name": "Sagitaur",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/vehicle/sagitaur.json"
     },
     {
       "id": "di.vehicle.scout_sentinel",
       "name": "Scout Sentinel",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/vehicle/scout_sentinel.json"
     },
     {
       "id": "di.vehicle.taurox",
       "name": "Taurox",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/vehicle/taurox.json"
     },
     {
       "id": "di.weapon.aeldari_lasblaster",
       "name": "Aeldari Lasblaster",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/aeldari_lasblaster.json"
     },
     {
       "id": "di.weapon.aeldari_power_sword",
       "name": "Aeldari Power Sword",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/aeldari_power_sword.json"
     },
     {
       "id": "di.weapon.arc_pistol",
       "name": "Arc Pistol",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/arc_pistol.json"
     },
     {
       "id": "di.weapon.arc_rifle",
       "name": "Arc Rifle",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/arc_rifle.json"
     },
     {
       "id": "di.weapon.autocannon",
       "name": "Autocannon",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/autocannon.json"
     },
     {
       "id": "di.weapon.autoch_pattern_bolter",
       "name": "Autoch-Pattern Bolter",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/autoch_pattern_bolter.json"
     },
     {
       "id": "di.weapon.autoch_pattern_pistol",
       "name": "Autoch-Pattern Pistol",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/autoch_pattern_pistol.json"
     },
     {
       "id": "di.weapon.autogun",
       "name": "Autogun",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/autogun.json"
     },
     {
       "id": "di.weapon.autopistol",
       "name": "Autopistol",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/autopistol.json"
     },
     {
       "id": "di.weapon.battle_cannon",
       "name": "Battle cannon",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/battle_cannon.json"
     },
     {
       "id": "di.weapon.big_friendly_rock",
       "name": "Big Friendly Rock",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/big_friendly_rock.json"
     },
     {
       "id": "di.weapon.biting_blade",
       "name": "Biting Blade",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/biting_blade.json"
     },
     {
       "id": "di.weapon.bolt_cannon",
       "name": "Bolt cannon",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/bolt_cannon.json"
     },
     {
       "id": "di.weapon.bolt_pistol",
       "name": "Bolt Pistol",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/bolt_pistol.json"
     },
     {
       "id": "di.weapon.bolt_revolver",
       "name": "Bolt Revolver",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/bolt_revolver.json"
     },
     {
       "id": "di.weapon.bolter",
       "name": "Bolter",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/bolter.json"
     },
     {
       "id": "di.weapon.brute_shield_bash",
       "name": "Brute Shield Bash",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/brute_shield_bash.json"
     },
     {
       "id": "di.weapon.chain_knife",
       "name": "Chain Knife",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/chain_knife.json"
     },
     {
       "id": "di.weapon.chainsword",
       "name": "Chainsword",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/chainsword.json"
     },
     {
       "id": "di.weapon.combat_blade",
       "name": "Combat Blade",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/combat_blade.json"
     },
     {
       "id": "di.weapon.combat_shotgun",
       "name": "Combat Shotgun",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/combat_shotgun.json"
     },
     {
       "id": "di.weapon.combi_bolter",
       "name": "Combi-Bolter",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/combi_bolter.json"
     },
     {
       "id": "di.weapon.concussion_gauntlet",
       "name": "Concussion Gauntlet",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/concussion_gauntlet.json"
     },
     {
       "id": "di.weapon.concussion_hammer",
       "name": "Concussion Hammer",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/concussion_hammer.json"
     },
     {
       "id": "di.weapon.corsair_sabre",
       "name": "Corsair Sabre",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/corsair_sabre.json"
     },
     {
       "id": "di.weapon.death_spinner",
       "name": "Death Spinner",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/death_spinner.json"
     },
     {
       "id": "di.weapon.etacarn_mining_tool",
       "name": "EtaCarn Mining Tool",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/etacarn_mining_tool.json"
     },
     {
       "id": "di.weapon.executioner_blade",
       "name": "Executioner Blade",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/executioner_blade.json"
     },
     {
       "id": "di.weapon.firebomb",
       "name": "Firebomb",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/firebomb.json"
     },
     {
       "id": "di.weapon.flamer",
       "name": "Flamer",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/flamer.json"
     },
     {
       "id": "di.weapon.force_staff",
       "name": "Force Staff",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/force_staff.json"
     },
     {
       "id": "di.weapon.force_sword",
       "name": "Force Sword",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/force_sword.json"
     },
     {
       "id": "di.weapon.frag_bomb",
       "name": "Frag Bomb",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/frag_bomb.json"
     },
     {
       "id": "di.weapon.frag_grenade",
       "name": "Frag Grenade",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/frag_grenade.json"
     },
     {
       "id": "di.weapon.fusion_gun",
       "name": "Fusion Gun",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/fusion_gun.json"
     },
     {
       "id": "di.weapon.galvanic_rifle",
       "name": "Galvanic Rifle",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/galvanic_rifle.json"
     },
     {
       "id": "di.weapon.ghostsword",
       "name": "Ghostsword",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/ghostsword.json"
     },
     {
       "id": "di.weapon.grenade_launcher",
       "name": "Grenade Launcher",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/grenade_launcher.json"
     },
     {
       "id": "di.weapon.grenadier_gauntlet",
       "name": "Grenadier Gauntlet",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/grenadier_gauntlet.json"
     },
     {
       "id": "di.weapon.hand_cannon",
       "name": "Hand Cannon",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/hand_cannon.json"
     },
     {
       "id": "di.weapon.heavy_axe",
       "name": "Heavy Axe",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/heavy_axe.json"
     },
     {
       "id": "di.weapon.heavy_bolter",
       "name": "Heavy Bolter",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/heavy_bolter.json"
     },
     {
       "id": "di.weapon.heavy_chainsword",
       "name": "Heavy Chainsword",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/heavy_chainsword.json"
     },
     {
       "id": "di.weapon.heavy_stubber",
       "name": "Heavy Stubber",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/heavy_stubber.json"
     },
     {
       "id": "di.weapon.hot_shot_lasgun",
       "name": "Hot-Shot Lasgun",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/hot_shot_lasgun.json"
     },
     {
       "id": "di.weapon.hylas_rotary_cannon",
       "name": "HYLas rotary cannon",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/hylas_rotary_cannon.json"
     },
     {
       "id": "di.weapon.industrial_cutter",
       "name": "Industrial Cutter",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/industrial_cutter.json"
     },
     {
       "id": "di.weapon.ion_blaster",
       "name": "Ion Blaster",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/ion_blaster.json"
     },
     {
       "id": "di.weapon.ion_pistol",
       "name": "Ion Pistol",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/ion_pistol.json"
     },
     {
       "id": "di.weapon.kickback_shotgun",
       "name": "Kickback Shotgun",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/kickback_shotgun.json"
     },
     {
       "id": "di.weapon.kin_power_axe",
       "name": "Kin Power Axe",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/kin_power_axe.json"
     },
     {
       "id": "di.weapon.knife",
       "name": "Knife",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/knife.json"
     },
     {
       "id": "di.weapon.krak_grenade",
       "name": "Krak Grenade",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/krak_grenade.json"
     },
     {
       "id": "di.weapon.lascannon",
       "name": "Lascannon",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/lascannon.json"
     },
     {
       "id": "di.weapon.lascarbine",
       "name": "Lascarbine",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/lascarbine.json"
     },
     {
       "id": "di.weapon.lasgun",
       "name": "Lasgun",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/lasgun.json"
     },
     {
       "id": "di.weapon.laspistol",
       "name": "Laspistol",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/laspistol.json"
     },
     {
       "id": "di.weapon.long_las",
       "name": "Long-Las",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/long_las.json"
     },
     {
       "id": "di.weapon.magna_coil_autocannon",
       "name": "Magna-coil autocannon",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/magna_coil_autocannon.json"
     },
     {
       "id": "di.weapon.magna_rail_rifle",
       "name": "Magna-Rail Rifle",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/magna_rail_rifle.json"
     },
     {
       "id": "di.weapon.maul",
       "name": "Maul",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/maul.json"
     },
     {
       "id": "di.weapon.melta_pistol",
       "name": "Melta Pistol",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/melta_pistol.json"
     },
     {
       "id": "di.weapon.meltagun",
       "name": "Meltagun",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/meltagun.json"
     },
     {
       "id": "di.weapon.monomolecular_blade",
       "name": "Monomolecular Blade",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/monomolecular_blade.json"
     },
     {
       "id": "di.weapon.multi_laser",
       "name": "Multi-Laser",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/multi_laser.json"
     },
     {
       "id": "di.weapon.needle_rifle",
       "name": "Needle Rifle",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/needle_rifle.json"
     },
     {
       "id": "di.weapon.ogryn_club",
       "name": "Ogryn Club",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/ogryn_club.json"
     },
     {
       "id": "di.weapon.omnissian_axe",
       "name": "Omnissian Axe",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/omnissian_axe.json"
     },
     {
       "id": "di.weapon.plasma_axe",
       "name": "Plasma Axe",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/plasma_axe.json"
     },
     {
       "id": "di.weapon.plasma_beamer",
       "name": "Plasma Beamer",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/plasma_beamer.json"
     },
     {
       "id": "di.weapon.plasma_gun",
       "name": "Plasma Gun",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/plasma_gun.json"
     },
     {
       "id": "di.weapon.plasma_pistol",
       "name": "Plasma Pistol",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/plasma_pistol.json"
     },
     {
       "id": "di.weapon.power_axe",
       "name": "Power Axe",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/power_axe.json"
     },
     {
       "id": "di.weapon.power_maul",
       "name": "Power Maul",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/power_maul.json"
     },
     {
       "id": "di.weapon.power_maul_ogryn_pattern",
       "name": "Power Maul, Ogryn Pattern",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/power_maul_ogryn_pattern.json"
     },
     {
       "id": "di.weapon.power_sword",
       "name": "Power Sword",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/power_sword.json"
     },
     {
       "id": "di.weapon.pulse_laser",
       "name": "Pulse laser",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/pulse_laser.json"
     },
     {
       "id": "di.weapon.rad_grenade",
       "name": "Rad Grenade",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/rad_grenade.json"
     },
     {
       "id": "di.weapon.radium_carbine",
       "name": "Radium Carbine",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/radium_carbine.json"
     },
     {
       "id": "di.weapon.ranger_long_rifle",
       "name": "Ranger Long Rifle",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/ranger_long_rifle.json"
     },
     {
       "id": "di.weapon.relic_blade",
       "name": "Relic Blade",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/relic_blade.json"
     },
     {
       "id": "di.weapon.ripper_gun",
       "name": "Ripper Gun",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/ripper_gun.json"
     },
     {
       "id": "di.weapon.scatter_laser",
       "name": "Scatter laser",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/scatter_laser.json"
     },
     {
       "id": "di.weapon.shock_maul",
       "name": "Shock Maul",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/shock_maul.json"
     },
     {
       "id": "di.weapon.shotgun",
       "name": "Shotgun",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/shotgun.json"
     },
     {
       "id": "di.weapon.shuriken_cannon",
       "name": "Shuriken cannon",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/shuriken_cannon.json"
     },
     {
       "id": "di.weapon.shuriken_catapult",
       "name": "Shuriken Catapult",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/shuriken_catapult.json"
     },
     {
       "id": "di.weapon.shuriken_pistol",
       "name": "Shuriken Pistol",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/shuriken_pistol.json"
     },
     {
       "id": "di.weapon.singing_spear",
       "name": "Singing Spear",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/singing_spear.json"
     },
     {
       "id": "di.weapon.slab_hammer",
       "name": "Slab Hammer",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/slab_hammer.json"
     },
     {
       "id": "di.weapon.smoke_grenade",
       "name": "Smoke Grenade",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/smoke_grenade.json"
     },
     {
       "id": "di.weapon.star_glaive",
       "name": "Star Glaive",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/star_glaive.json"
     },
     {
       "id": "di.weapon.stub_pistol",
       "name": "Stub Pistol",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/stub_pistol.json"
     },
     {
       "id": "di.weapon.stub_rifle",
       "name": "Stub Rifle",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/stub_rifle.json"
     },
     {
       "id": "di.weapon.stun_grenade",
       "name": "Stun Grenade",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/stun_grenade.json"
     },
     {
       "id": "di.weapon.taser_goad",
       "name": "Taser Goad",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/taser_goad.json"
     },
     {
       "id": "di.weapon.thunder_hammer",
       "name": "Thunder Hammer",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/thunder_hammer.json"
     },
     {
       "id": "di.weapon.trench_club",
       "name": "Trench Club",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/trench_club.json"
     },
     {
       "id": "di.weapon.twin_linked_heavy_stubber",
       "name": "Twin-Linked Heavy Stubber",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/twin_linked_heavy_stubber.json"
     },
     {
       "id": "di.weapon.twin_shuriken_catapults",
       "name": "Twin shuriken catapults",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/twin_shuriken_catapults.json"
     },
     {
       "id": "di.weapon.wargear.ancestor_wrought_rail_rifle_kin",
       "name": "Ancestor-Wrought Rail Rifle - Kin",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/wargear.ancestor_wrought_rail_rifle_kin.json"
     },
     {
       "id": "di.weapon.wargear.conversion_beamer",
       "name": "Conversion Beamer",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/wargear.conversion_beamer.json"
     },
     {
       "id": "di.weapon.wargear.grav_gun",
       "name": "Grav-Gun",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/wargear.grav_gun.json"
     },
     {
       "id": "di.weapon.wargear.grav_pistol",
       "name": "Grav-Pistol",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/wargear.grav_pistol.json"
     },
     {
       "id": "di.weapon.wargear.grutts_lucky_club_ogryn",
       "name": "Grutt's Lucky Club - Ogryn",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/wargear.grutts_lucky_club_ogryn.json"
     },
     {
       "id": "di.weapon.wargear.inferno_pistol",
       "name": "Inferno Pistol",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/wargear.inferno_pistol.json"
     },
     {
       "id": "di.weapon.wargear.starfall_long_rifle_aeldari",
       "name": "Starfall Long Rifle - Aeldari",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/wargear.starfall_long_rifle_aeldari.json"
     },
     {
       "id": "di.weapon.wargear.volkite_charger",
       "name": "Volkite Charger",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/wargear.volkite_charger.json"
     },
     {
       "id": "di.weapon.wargear.volkite_serpenta",
       "name": "Volkite Serpenta",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/wargear.volkite_serpenta.json"
     },
     {
       "id": "di.weapon.witchblade",
       "name": "Witchblade",
-      "state": "reserved_candidate"
+      "state": "incomplete_candidate",
+      "path": "packages/di_phb_1_0/review/candidates/weapon/witchblade.json"
     }
   ]
 }

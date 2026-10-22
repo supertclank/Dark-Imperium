@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.hive_scum.knife_rat",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Knife Rat",
+  "summary": "Knife Rat; Your melee attacks with light weapons score a critical hit on 19- 20.  Knife Rat; Your light melee attacks deal +1 damage.  Knife Rat; When you score a critical hit with a light melee weapon, the target cannot take reactions until its next turn.",
+  "descriptionMarkdown": "Knife Rat; Your melee attacks with light weapons score a critical hit on 19- 20.\n\nKnife Rat; Your light melee attacks deal +1 damage.\n\nKnife Rat; When you score a critical hit with a light melee weapon, the target cannot take reactions until its next turn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Knife Rat",
+        "pdfPage": 65,
+        "printedPage": 52
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.hive_scum"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.hive_scum.knife_rat"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.hive_scum"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}

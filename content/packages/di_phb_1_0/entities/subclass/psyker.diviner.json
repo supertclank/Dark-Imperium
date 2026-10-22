@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.psyker.diviner",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Diviner",
+  "summary": "Diviner; Universal, Divination; Foresight, danger sense, accuracy, fate manipulation, and reading echoes.  Diviner; Once per short rest, add or subtract 1d4 from a d20 roll made by a creature you can see.  Diviner; When you use a reaction power, you may move 5 ft without provoking opportunity attacks.  Diviner; Once per long rest, replace a d20 roll made by a creature you can see with a 10 before modifiers.",
+  "descriptionMarkdown": "Diviner; Universal, Divination; Foresight, danger sense, accuracy, fate manipulation, and reading echoes.\n\nDiviner; Once per short rest, add or subtract 1d4 from a d20 roll made by a creature you can see.\n\nDiviner; When you use a reaction power, you may move 5 ft without provoking opportunity attacks.\n\nDiviner; Once per long rest, replace a d20 roll made by a creature you can see with a 10 before modifiers.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Diviner",
+        "pdfPage": 56,
+        "printedPage": 43
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Diviner",
+        "pdfPage": 57,
+        "printedPage": 44
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.psyker"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.psyker.diviner"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.psyker"
+        }
+      },
+      "operator": "gte",
+      "value": 1
+    }
+  }
+}

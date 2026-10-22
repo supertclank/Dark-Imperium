@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.class.aeldari_outcast",
   "kind": "class",
-  "revision": 1,
+  "revision": 2,
   "name": "Aeldari Outcast",
   "summary": "11.11 Aeldari Outcast An Aeldari ranger, exile, corsair-adjacent wanderer, pathless scout, or alien marksman pursuing a hidden agenda. Allowed Species: Aeldari only. Hit Die: d8. Primary Abilities: Dexterity, Wisdom. Saving Throws: Dexterity, Wisdom. Armour: Aeldari mesh, ranger weave, light armour. Weapons: Aeldari weapons, pistols, blades, sniper weapons.",
   "descriptionMarkdown": "11.11 Aeldari Outcast\nAn Aeldari ranger, exile, corsair-adjacent wanderer, pathless scout, or alien marksman pursuing a hidden agenda.\nAllowed Species: Aeldari only.\nHit Die: d8.\nPrimary Abilities: Dexterity, Wisdom.\nSaving Throws: Dexterity, Wisdom.\nArmour: Aeldari mesh, ranger weave, light armour.\nWeapons: Aeldari weapons, pistols, blades, sniper weapons.",
@@ -35,6 +35,17 @@
       "content": {
         "id": "di.species.aeldari"
       }
-    }
+    },
+    "allowedSubclasses": [
+      {
+        "id": "di.subclass.aeldari_outcast.corsair"
+      },
+      {
+        "id": "di.subclass.aeldari_outcast.ranger"
+      },
+      {
+        "id": "di.subclass.aeldari_outcast.shadow_guide"
+      }
+    ]
   }
 }

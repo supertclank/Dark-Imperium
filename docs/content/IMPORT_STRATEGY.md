@@ -1,3 +1,5 @@
+> The introductory no-source statements below describe the original architecture proposal. PHB v1.0 has since been staged; current source-specific readiness is in [the canonicalisation report](../import/PHB_CANONICALISATION_REPORT.md). Example records remain deliberately non-authoritative.
+
 # Rulebook-to-content workflow
 
 ## Source intake

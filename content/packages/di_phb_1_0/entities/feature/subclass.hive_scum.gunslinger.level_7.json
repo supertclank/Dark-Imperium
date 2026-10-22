@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.hive_scum.gunslinger.level_7",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Gunslinger level 7",
+  "summary": "Gunslinger; Once per short rest, make one pistol attack as a bonus action after taking the Attack action.",
+  "descriptionMarkdown": "Gunslinger; Once per short rest, make one pistol attack as a bonus action after taking the Attack action.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Gunslinger level 7",
+        "pdfPage": 65,
+        "printedPage": 52
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Gunslinger; Once per short rest, make one pistol attack as a bonus action after taking the Attack action.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

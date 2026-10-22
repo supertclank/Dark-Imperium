@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.aeldari_outcast.ranger.level_3",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Ranger level 3",
+  "summary": "Ranger; If you do not move before attacking with a ranger long rifle, your first ranged attack this turn gains +2 to hit.",
+  "descriptionMarkdown": "Ranger; If you do not move before attacking with a ranger long rifle, your first ranged attack this turn gains +2 to hit.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Ranger level 3",
+        "pdfPage": 80,
+        "printedPage": 67
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Ranger; If you do not move before attacking with a ranger long rifle, your first ranged attack this turn gains +2 to hit.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

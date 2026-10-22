@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.ogryn_skullbreaker.bulwark.level_14",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Bulwark level 14",
+  "summary": "Bulwark; Allies benefiting from cover provided by your slab shield have advantage on Dexterity saving throws against Blast and Spray effects, and ignore the first 5 ft of forced movement they would suffer each round.",
+  "descriptionMarkdown": "Bulwark; Allies benefiting from cover provided by your slab shield have advantage on Dexterity saving throws against Blast and Spray effects, and ignore the first 5 ft of forced movement they would suffer each round.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Bulwark level 14",
+        "pdfPage": 60,
+        "printedPage": 47
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Bulwark; Allies benefiting from cover provided by your slab shield have advantage on Dexterity saving throws against Blast and Spray effects, and ignore the first 5 ft of forced movement they would suffer each round.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

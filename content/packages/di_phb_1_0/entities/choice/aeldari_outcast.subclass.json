@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "di.choice.aeldari_outcast.subclass",
+  "kind": "choice",
+  "revision": 1,
+  "name": "Aeldari Outcast subclass",
+  "summary": "Choose one eligible subclass; source table determines progression levels.",
+  "descriptionMarkdown": "Choose one eligible subclass; source table determines progression levels.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.11",
+        "heading": "Aeldari Outcast",
+        "pdfPage": 80,
+        "printedPage": 67
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "purpose": "subclass",
+    "selectionMode": "options",
+    "cardinality": {
+      "min": 1,
+      "max": 1,
+      "unique": true
+    },
+    "repeatScope": "once_per_actor",
+    "options": [
+      {
+        "id": "corsair",
+        "label": "Corsair",
+        "grants": [
+          {
+            "id": "select",
+            "kind": "select",
+            "content": {
+              "id": "di.subclass.aeldari_outcast.corsair"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ranger",
+        "label": "Ranger",
+        "grants": [
+          {
+            "id": "select",
+            "kind": "select",
+            "content": {
+              "id": "di.subclass.aeldari_outcast.ranger"
+            }
+          }
+        ]
+      },
+      {
+        "id": "shadow_guide",
+        "label": "Shadow Guide",
+        "grants": [
+          {
+            "id": "select",
+            "kind": "select",
+            "content": {
+              "id": "di.subclass.aeldari_outcast.shadow_guide"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

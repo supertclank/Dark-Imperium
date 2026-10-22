@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.masterwork.rapid_feed",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Rapid Feed",
+  "summary": "Masterwork Trait: Rapid Feed; Eligible Item: Reload weapon; Effect: Increase Reload by 50%, rounded up. Does not stack with Extended Magazine.",
+  "descriptionMarkdown": "Masterwork Trait: Rapid Feed; Eligible Item: Reload weapon; Effect: Increase Reload by 50%, rounded up. Does not stack with Extended Magazine.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "18",
+        "heading": "Rapid Feed",
+        "pdfPage": 104,
+        "printedPage": 91
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "general",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Masterwork Trait: Rapid Feed; Eligible Item: Reload weapon; Effect: Increase Reload by 50%, rounded up. Does not stack with Extended Magazine.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Item-bound procedure retained manually, including host eligibility; no automatic actor-wide bonus."
+      }
+    ]
+  }
+}

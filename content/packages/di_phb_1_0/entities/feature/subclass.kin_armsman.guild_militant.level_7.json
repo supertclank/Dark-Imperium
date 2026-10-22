@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.kin_armsman.guild_militant.level_7",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Guild-Militant level 7",
+  "summary": "Guild-Militant; When an ally hits your Oath-Mark target, you may use your reaction to let that ally add +1d6 damage.",
+  "descriptionMarkdown": "Guild-Militant; When an ally hits your Oath-Mark target, you may use your reaction to let that ally add +1d6 damage.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Guild-Militant level 7",
+        "pdfPage": 74,
+        "printedPage": 61
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Guild-Militant; When an ally hits your Oath-Mark target, you may use your reaction to let that ally add +1d6 damage.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.feature.talent.ratling_vanish",
   "kind": "feature",
-  "revision": 1,
+  "revision": 2,
   "name": "Ratling Vanish",
   "summary": "Talent: Ratling Vanish Requirement: Ratling Benefit: When you take damage, use your reaction to move 10 ft without provoking opportunity attacks.",
   "descriptionMarkdown": "Talent: Ratling Vanish\nRequirement: Ratling\nBenefit: When you take damage, use your reaction to move 10 ft without provoking opportunity attacks.",
@@ -34,6 +34,12 @@
         "context": "source-defined procedure",
         "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
       }
-    ]
+    ],
+    "requirements": {
+      "kind": "selected",
+      "content": {
+        "id": "di.species.ratling"
+      }
+    }
   }
 }

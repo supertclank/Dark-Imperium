@@ -1,0 +1,18 @@
+{
+  "canonicalRecords": 870,
+  "promotedCandidates": 52,
+  "remainingCandidates": 333,
+  "manualEntries": 659,
+  "manualRecords": 659,
+  "expandedIssues": 58,
+  "resolvedIssues": 15,
+  "humanDecisions": 36,
+  "policies": 30,
+  "subclasses": 45,
+  "passingTests": 44,
+  "newTests": 27,
+  "openExpandedIssues": 43,
+  "fullyResolvedOriginalGroups": 0,
+  "specificationIssues": 8,
+  "eligibilityConflictsResolved": 1
+}

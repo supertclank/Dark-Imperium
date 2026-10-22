@@ -1,3 +1,5 @@
+> Historical intake report. Current counts, dispositions and readiness are in [PHB_CANONICALISATION_REPORT](PHB_CANONICALISATION_REPORT.md); machine-readable review ledgers have been updated.
+
 # PHB review required
 
 All issues remain open. Source ambiguities, specification mappings and implementation backlog are distinguished. Stable IDs are retained for future decisions. No issue authorizes a silent rule change.

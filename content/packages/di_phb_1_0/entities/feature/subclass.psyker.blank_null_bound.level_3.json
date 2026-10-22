@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.psyker.blank_null_bound.level_3",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Blank / Null-Bound level 3",
+  "summary": "Blank / Null-Bound; You have advantage on saving throws against psychic powers and Perils effects. When a creature you can see within 30 ft gains Warp Pressure, you may use your reaction to reduce psychic damage dealt to one ally by your proficiency bonus.",
+  "descriptionMarkdown": "Blank / Null-Bound; You have advantage on saving throws against psychic powers and Perils effects. When a creature you can see within 30 ft gains Warp Pressure, you may use your reaction to reduce psychic damage dealt to one ally by your proficiency bonus.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Blank / Null-Bound level 3",
+        "pdfPage": 57,
+        "printedPage": 44
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Blank / Null-Bound; You have advantage on saving throws against psychic powers and Perils effects. When a creature you can see within 30 ft gains Warp Pressure, you may use your reaction to reduce psychic damage dealt to one ally by your proficiency bonus.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

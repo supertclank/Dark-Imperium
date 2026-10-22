@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.arbites_enforcer.executioner.level_14",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Executioner level 14",
+  "summary": "Executioner; Once per turn, when you reduce a hostile creature to 0 hit points, another hostile creature within 30 ft must make a Wisdom save or become frightened until your next turn.",
+  "descriptionMarkdown": "Executioner; Once per turn, when you reduce a hostile creature to 0 hit points, another hostile creature within 30 ft must make a Wisdom save or become frightened until your next turn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Executioner level 14",
+        "pdfPage": 63,
+        "printedPage": 50
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Executioner; Once per turn, when you reduce a hostile creature to 0 hit points, another hostile creature within 30 ft must make a Wisdom save or become frightened until your next turn.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

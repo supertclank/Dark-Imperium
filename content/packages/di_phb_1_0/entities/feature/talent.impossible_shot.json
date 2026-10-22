@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.feature.talent.impossible_shot",
   "kind": "feature",
-  "revision": 1,
+  "revision": 2,
   "name": "Impossible Shot",
   "summary": "Talent: Impossible Shot Requirement: Ratling Benefit: Once per short rest, ignore cover on one ranged attack.",
   "descriptionMarkdown": "Talent: Impossible Shot\nRequirement: Ratling\nBenefit: Once per short rest, ignore cover on one ranged attack.",
@@ -34,6 +34,12 @@
         "context": "source-defined procedure",
         "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
       }
-    ]
+    ],
+    "requirements": {
+      "kind": "selected",
+      "content": {
+        "id": "di.species.ratling"
+      }
+    }
   }
 }

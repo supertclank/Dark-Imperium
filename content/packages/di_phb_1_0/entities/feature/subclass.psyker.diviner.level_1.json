@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.psyker.diviner.level_1",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Diviner level 1",
+  "summary": "Diviner; Universal, Divination; Foresight, danger sense, accuracy, fate manipulation, and reading echoes.",
+  "descriptionMarkdown": "Diviner; Universal, Divination; Foresight, danger sense, accuracy, fate manipulation, and reading echoes.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Diviner level 1",
+        "pdfPage": 56,
+        "printedPage": 43
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Diviner; Universal, Divination; Foresight, danger sense, accuracy, fate manipulation, and reading echoes.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

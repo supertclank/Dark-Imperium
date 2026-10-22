@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.class.hive_scum",
   "kind": "class",
-  "revision": 1,
+  "revision": 2,
   "name": "Hive Scum",
   "summary": "11.6 Hive Scum Gang fighter, smuggler, knife-rat, scavver, bounty runner, or underhive survivor. Allowed Species: Human, Ratling. Hit Die: d8. Primary Abilities: Dexterity, Charisma. Saving Throws: Dexterity, Charisma. Armour: Light armour, flak armour. Weapons: Pistols, basic firearms, knives, improvised weapons, and grenades.",
   "descriptionMarkdown": "11.6 Hive Scum\nGang fighter, smuggler, knife-rat, scavver, bounty runner, or underhive survivor.\nAllowed Species: Human, Ratling.\nHit Die: d8.\nPrimary Abilities: Dexterity, Charisma.\nSaving Throws: Dexterity, Charisma.\nArmour: Light armour, flak armour.\nWeapons: Pistols, basic firearms, knives, improvised weapons, and grenades.",
@@ -46,6 +46,20 @@
           }
         }
       ]
-    }
+    },
+    "allowedSubclasses": [
+      {
+        "id": "di.subclass.hive_scum.chem_user"
+      },
+      {
+        "id": "di.subclass.hive_scum.gunslinger"
+      },
+      {
+        "id": "di.subclass.hive_scum.knife_rat"
+      },
+      {
+        "id": "di.subclass.hive_scum.sump_ghost"
+      }
+    ]
   }
 }

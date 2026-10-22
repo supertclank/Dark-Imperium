@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.arbites_enforcer.executioner",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Executioner",
+  "summary": "Executioner; Your attacks against frightened, prone, or restrained creatures deal +1d6 damage.  Executioner; Your Executioner damage becomes +1d8.  Executioner; Once per turn, when you reduce a hostile creature to 0 hit points, another hostile creature within 30 ft must make a Wisdom save or become frightened until your next turn.  Executioner; Judgement Protocol deals an extra +2d6 damage.",
+  "descriptionMarkdown": "Executioner; Your attacks against frightened, prone, or restrained creatures deal +1d6 damage.\n\nExecutioner; Your Executioner damage becomes +1d8.\n\nExecutioner; Once per turn, when you reduce a hostile creature to 0 hit points, another hostile creature within 30 ft must make a Wisdom save or become frightened until your next turn.\n\nExecutioner; Judgement Protocol deals an extra +2d6 damage.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Executioner",
+        "pdfPage": 62,
+        "printedPage": 49
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Executioner",
+        "pdfPage": 63,
+        "printedPage": 50
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.arbites_enforcer"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.arbites_enforcer.executioner"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.arbites_enforcer"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.ratling_sharpshooter.black_market_gremlin.level_18",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Black-Market Gremlin level 18",
+  "summary": "Black-Market Gremlin; Once per session, produce one rare ammunition, forged credential, or compact tool with GM approval.",
+  "descriptionMarkdown": "Black-Market Gremlin; Once per session, produce one rare ammunition, forged credential, or compact tool with GM approval.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Black-Market Gremlin level 18",
+        "pdfPage": 69,
+        "printedPage": 56
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Black-Market Gremlin; Once per session, produce one rare ammunition, forged credential, or compact tool with GM approval.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

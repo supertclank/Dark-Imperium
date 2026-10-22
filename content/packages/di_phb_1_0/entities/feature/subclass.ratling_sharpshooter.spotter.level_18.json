@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.ratling_sharpshooter.spotter.level_18",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Spotter level 18",
+  "summary": "Spotter; Your mark grants +1d4 to the next three allied attacks instead of two.",
+  "descriptionMarkdown": "Spotter; Your mark grants +1d4 to the next three allied attacks instead of two.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Spotter level 18",
+        "pdfPage": 69,
+        "printedPage": 56
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Spotter; Your mark grants +1d4 to the next three allied attacks instead of two.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

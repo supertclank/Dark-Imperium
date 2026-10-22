@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.ratling_sharpshooter.spotter",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Spotter",
+  "summary": "Spotter; As a bonus action, mark one enemy you can see within 120 ft. The next ally to attack that target gains +1d4 to hit. This benefit affects allies only and does not apply to your own attack unless a later feature says otherwise.  Spotter; Your mark also adds +1 damage.  Spotter; Your marked target grants +1d4 to the next two allied attacks instead of one.  Spotter; Your mark grants +1d4 to the next three allied attacks instead of two.",
+  "descriptionMarkdown": "Spotter; As a bonus action, mark one enemy you can see within 120 ft. The next ally to attack that target gains +1d4 to hit. This benefit affects allies only and does not apply to your own attack unless a later feature says otherwise.\n\nSpotter; Your mark also adds +1 damage.\n\nSpotter; Your marked target grants +1d4 to the next two allied attacks instead of one.\n\nSpotter; Your mark grants +1d4 to the next three allied attacks instead of two.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Spotter",
+        "pdfPage": 68,
+        "printedPage": 55
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Spotter",
+        "pdfPage": 69,
+        "printedPage": 56
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.ratling_sharpshooter"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.ratling_sharpshooter.spotter"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.ratling_sharpshooter"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}

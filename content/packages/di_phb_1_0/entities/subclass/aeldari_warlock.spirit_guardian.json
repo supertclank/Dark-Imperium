@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.aeldari_warlock.spirit_guardian",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Spirit Guardian",
+  "summary": "Spirit Guardian; Allies within 10 ft of you gain advantage on saving throws against fear while you are conscious.  Spirit Guardian; When you reduce damage with Rune Ward, the target also gains temporary HP equal to your proficiency bonus.  Spirit Guardian; Allies protected by your Rune Ward also gain advantage on the next fear or psychic saving throw they make before your next turn.  Spirit Guardian; When Rune Ward protects an ally, one hostile creature within 30 ft has disadvantage on its next ",
+  "descriptionMarkdown": "Spirit Guardian; Allies within 10 ft of you gain advantage on saving throws against fear while you are conscious.\n\nSpirit Guardian; When you reduce damage with Rune Ward, the target also gains temporary HP equal to your proficiency bonus.\n\nSpirit Guardian; Allies protected by your Rune Ward also gain advantage on the next fear or psychic saving throw they make before your next turn.\n\nSpirit Guardian; When Rune Ward protects an ally, one hostile creature within 30 ft has disadvantage on its next psychic saving throw.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Spirit Guardian",
+        "pdfPage": 83,
+        "printedPage": 70
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Spirit Guardian",
+        "pdfPage": 84,
+        "printedPage": 71
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.aeldari_warlock"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.aeldari_warlock.spirit_guardian"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.aeldari_warlock"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}

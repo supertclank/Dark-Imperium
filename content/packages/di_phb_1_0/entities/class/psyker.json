@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.class.psyker",
   "kind": "class",
-  "revision": 1,
+  "revision": 2,
   "name": "Psyker",
   "summary": "11.3 Psyker A sanctioned psychic operative walking the knife-edge between weapon and catastrophe. Allowed Species: Human only. Hit Die: d6. Primary Abilities: Intelligence or Wisdom. Saving Throws: Intelligence, Wisdom. Armour: Light armour. Weapons: Simple weapons, pistols, and force weapons. Special: Uses Psychic Powers and Perils of the Warp.",
   "descriptionMarkdown": "11.3 Psyker\nA sanctioned psychic operative walking the knife-edge between weapon and catastrophe.\nAllowed Species: Human only.\nHit Die: d6.\nPrimary Abilities: Intelligence or Wisdom.\nSaving Throws: Intelligence, Wisdom.\nArmour: Light armour.\nWeapons: Simple weapons, pistols, and force weapons.\nSpecial: Uses Psychic Powers and Perils of the Warp.",
@@ -35,6 +35,26 @@
       "content": {
         "id": "di.species.human"
       }
-    }
+    },
+    "allowedSubclasses": [
+      {
+        "id": "di.subclass.psyker.biomancer"
+      },
+      {
+        "id": "di.subclass.psyker.blank_null_bound"
+      },
+      {
+        "id": "di.subclass.psyker.diviner"
+      },
+      {
+        "id": "di.subclass.psyker.malefic_touched"
+      },
+      {
+        "id": "di.subclass.psyker.pyromancer"
+      },
+      {
+        "id": "di.subclass.psyker.telekine"
+      }
+    ]
   }
 }

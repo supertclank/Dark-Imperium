@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.skitarii_veteran.data_hunter.level_3",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Data-Hunter Protocol level 3",
+  "summary": "Data-Hunter Protocol; Gain expertise in Investigation or Technology. Once per short rest, identify one weakness, resistance, or tactical feature of an enemy you can observe.",
+  "descriptionMarkdown": "Data-Hunter Protocol; Gain expertise in Investigation or Technology. Once per short rest, identify one weakness, resistance, or tactical feature of an enemy you can observe.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Data-Hunter Protocol level 3",
+        "pdfPage": 71,
+        "printedPage": 58
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Data-Hunter Protocol; Gain expertise in Investigation or Technology. Once per short rest, identify one weakness, resistance, or tactical feature of an enemy you can observe.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

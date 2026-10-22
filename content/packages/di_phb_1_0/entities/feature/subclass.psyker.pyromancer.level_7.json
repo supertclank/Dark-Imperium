@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.psyker.pyromancer.level_7",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Pyromancer level 7",
+  "summary": "Pyromancer; Creatures damaged by your Pyromancy powers cannot benefit from invisibility until your next turn.",
+  "descriptionMarkdown": "Pyromancer; Creatures damaged by your Pyromancy powers cannot benefit from invisibility until your next turn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Pyromancer level 7",
+        "pdfPage": 57,
+        "printedPage": 44
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Pyromancer; Creatures damaged by your Pyromancy powers cannot benefit from invisibility until your next turn.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

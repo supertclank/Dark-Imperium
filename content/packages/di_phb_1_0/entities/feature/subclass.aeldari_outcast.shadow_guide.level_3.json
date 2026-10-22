@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.aeldari_outcast.shadow_guide.level_3",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Shadow Guide level 3",
+  "summary": "Shadow Guide; Gain expertise in Stealth or Survival. You have advantage on checks to navigate ruins, wilderness, alien structures, and webway-adjacent places.",
+  "descriptionMarkdown": "Shadow Guide; Gain expertise in Stealth or Survival. You have advantage on checks to navigate ruins, wilderness, alien structures, and webway-adjacent places.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Shadow Guide level 3",
+        "pdfPage": 80,
+        "printedPage": 67
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Shadow Guide; Gain expertise in Stealth or Survival. You have advantage on checks to navigate ruins, wilderness, alien structures, and webway-adjacent places.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

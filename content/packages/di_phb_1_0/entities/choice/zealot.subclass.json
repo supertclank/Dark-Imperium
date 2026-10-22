@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "di.choice.zealot.subclass",
+  "kind": "choice",
+  "revision": 1,
+  "name": "Zealot subclass",
+  "summary": "Choose one eligible subclass; source table determines progression levels.",
+  "descriptionMarkdown": "Choose one eligible subclass; source table determines progression levels.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.2",
+        "heading": "Zealot",
+        "pdfPage": 53,
+        "printedPage": 40
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "purpose": "subclass",
+    "selectionMode": "options",
+    "cardinality": {
+      "min": 1,
+      "max": 1,
+      "unique": true
+    },
+    "repeatScope": "once_per_actor",
+    "options": [
+      {
+        "id": "flagellant",
+        "label": "Flagellant",
+        "grants": [
+          {
+            "id": "select",
+            "kind": "select",
+            "content": {
+              "id": "di.subclass.zealot.flagellant"
+            }
+          }
+        ]
+      },
+      {
+        "id": "preacher",
+        "label": "Preacher",
+        "grants": [
+          {
+            "id": "select",
+            "kind": "select",
+            "content": {
+              "id": "di.subclass.zealot.preacher"
+            }
+          }
+        ]
+      },
+      {
+        "id": "purifier",
+        "label": "Purifier",
+        "grants": [
+          {
+            "id": "select",
+            "kind": "select",
+            "content": {
+              "id": "di.subclass.zealot.purifier"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

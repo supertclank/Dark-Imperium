@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.ogryn_skullbreaker.gun_lugger",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Gun Lugger",
+  "summary": "Gun Lugger; You can use heavy weapons without the normal movement penalty.  Gun Lugger; Your first ranged Ogryn weapon attack each turn deals +1d6 damage.  Gun Lugger; You ignore disadvantage from firing Heavy or Ogryn weapons after moving.  Gun Lugger; Once per turn, your heavy ranged weapon hit deals +1d8 damage.",
+  "descriptionMarkdown": "Gun Lugger; You can use heavy weapons without the normal movement penalty.\n\nGun Lugger; Your first ranged Ogryn weapon attack each turn deals +1d6 damage.\n\nGun Lugger; You ignore disadvantage from firing Heavy or Ogryn weapons after moving.\n\nGun Lugger; Once per turn, your heavy ranged weapon hit deals +1d8 damage.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Gun Lugger",
+        "pdfPage": 59,
+        "printedPage": 46
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Gun Lugger",
+        "pdfPage": 60,
+        "printedPage": 47
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.ogryn_skullbreaker"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.ogryn_skullbreaker.gun_lugger"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.ogryn_skullbreaker"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}

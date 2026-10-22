@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.masterwork.precision_barrel_focusing_array",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Precision Barrel / Focusing Array",
+  "summary": "Masterwork Trait: Precision Barrel / Focusing Array; Eligible Item: Ranged weapon; Effect: Increase normal range by 25%. This does not increase maximum range beyond double the new normal range.",
+  "descriptionMarkdown": "Masterwork Trait: Precision Barrel / Focusing Array; Eligible Item: Ranged weapon; Effect: Increase normal range by 25%. This does not increase maximum range beyond double the new normal range.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "18",
+        "heading": "Precision Barrel / Focusing Array",
+        "pdfPage": 104,
+        "printedPage": 91
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "general",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Masterwork Trait: Precision Barrel / Focusing Array; Eligible Item: Ranged weapon; Effect: Increase normal range by 25%. This does not increase maximum range beyond double the new normal range.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Item-bound procedure retained manually, including host eligibility; no automatic actor-wide bonus."
+      }
+    ]
+  }
+}

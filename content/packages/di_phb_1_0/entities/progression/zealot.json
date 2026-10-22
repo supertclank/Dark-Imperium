@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.progression.zealot",
   "kind": "progression",
-  "revision": 1,
+  "revision": 2,
   "name": "Zealot progression",
   "summary": "Exact level labels from the class table; feature automation is separately classified.",
   "descriptionMarkdown": "Exact level labels from the class table; feature automation is separately classified.",
@@ -72,10 +72,10 @@
         "level": 3,
         "grants": [
           {
-            "id": "level_3_1",
-            "kind": "feature",
-            "feature": {
-              "id": "di.feature.class.zealot.level_3.sacred_path"
+            "id": "choose_subclass",
+            "kind": "choice",
+            "choice": {
+              "id": "di.choice.zealot.subclass"
             }
           }
         ]
@@ -118,15 +118,7 @@
       },
       {
         "level": 7,
-        "grants": [
-          {
-            "id": "level_7_1",
-            "kind": "feature",
-            "feature": {
-              "id": "di.feature.class.zealot.level_7.sacred_path_feature"
-            }
-          }
-        ]
+        "grants": []
       },
       {
         "level": 8,
@@ -202,15 +194,7 @@
       },
       {
         "level": 14,
-        "grants": [
-          {
-            "id": "level_14_1",
-            "kind": "feature",
-            "feature": {
-              "id": "di.feature.class.zealot.level_14.sacred_path_feature"
-            }
-          }
-        ]
+        "grants": []
       },
       {
         "level": 15,
@@ -250,15 +234,7 @@
       },
       {
         "level": 18,
-        "grants": [
-          {
-            "id": "level_18_1",
-            "kind": "feature",
-            "feature": {
-              "id": "di.feature.class.zealot.level_18.sacred_path_ascendant"
-            }
-          }
-        ]
+        "grants": []
       },
       {
         "level": 19,

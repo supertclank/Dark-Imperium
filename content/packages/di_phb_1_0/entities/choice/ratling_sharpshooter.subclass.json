@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "di.choice.ratling_sharpshooter.subclass",
+  "kind": "choice",
+  "revision": 1,
+  "name": "Ratling Sharpshooter subclass",
+  "summary": "Choose one eligible subclass; source table determines progression levels.",
+  "descriptionMarkdown": "Choose one eligible subclass; source table determines progression levels.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.7",
+        "heading": "Ratling Sharpshooter",
+        "pdfPage": 68,
+        "printedPage": 55
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "purpose": "subclass",
+    "selectionMode": "options",
+    "cardinality": {
+      "min": 1,
+      "max": 1,
+      "unique": true
+    },
+    "repeatScope": "once_per_actor",
+    "options": [
+      {
+        "id": "black_market_gremlin",
+        "label": "Black-Market Gremlin",
+        "grants": [
+          {
+            "id": "select",
+            "kind": "select",
+            "content": {
+              "id": "di.subclass.ratling_sharpshooter.black_market_gremlin"
+            }
+          }
+        ]
+      },
+      {
+        "id": "long_las_sniper",
+        "label": "Long-Las Sniper",
+        "grants": [
+          {
+            "id": "select",
+            "kind": "select",
+            "content": {
+              "id": "di.subclass.ratling_sharpshooter.long_las_sniper"
+            }
+          }
+        ]
+      },
+      {
+        "id": "spotter",
+        "label": "Spotter",
+        "grants": [
+          {
+            "id": "select",
+            "kind": "select",
+            "content": {
+              "id": "di.subclass.ratling_sharpshooter.spotter"
+            }
+          }
+        ]
+      },
+      {
+        "id": "underhive_rat",
+        "label": "Underhive Rat",
+        "grants": [
+          {
+            "id": "select",
+            "kind": "select",
+            "content": {
+              "id": "di.subclass.ratling_sharpshooter.underhive_rat"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

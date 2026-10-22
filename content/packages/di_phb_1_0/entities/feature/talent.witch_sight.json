@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.feature.talent.witch_sight",
   "kind": "feature",
-  "revision": 1,
+  "revision": 2,
   "name": "Witch-Sight",
   "summary": "Talent: Witch-Sight Requirement: Human Psyker Benefit: You can sense active psychic effects, daemonic influence, and Warp residue within 30 ft.",
   "descriptionMarkdown": "Talent: Witch-Sight\nRequirement: Human Psyker\nBenefit: You can sense active psychic effects, daemonic influence, and Warp residue within 30 ft.",
@@ -34,6 +34,23 @@
         "context": "source-defined procedure",
         "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
       }
-    ]
+    ],
+    "requirements": {
+      "kind": "all",
+      "predicates": [
+        {
+          "kind": "selected",
+          "content": {
+            "id": "di.species.human"
+          }
+        },
+        {
+          "kind": "selected",
+          "content": {
+            "id": "di.class.psyker"
+          }
+        }
+      ]
+    }
   }
 }

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.kin_armsman.hearthguard.level_14",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Hearthguard level 14",
+  "summary": "Hearthguard; While you are below half hit points, your armour damage reduction increases by 1.",
+  "descriptionMarkdown": "Hearthguard; While you are below half hit points, your armour damage reduction increases by 1.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Hearthguard level 14",
+        "pdfPage": 75,
+        "printedPage": 62
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Hearthguard; While you are below half hit points, your armour damage reduction increases by 1.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

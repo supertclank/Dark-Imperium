@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.hernkyn_prospector.claim_staker.level_14",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Claim-Staker level 14",
+  "summary": "Claim-Staker; Allies within 30 ft add +1 to checks involving your Claim Sight target.",
+  "descriptionMarkdown": "Claim-Staker; Allies within 30 ft add +1 to checks involving your Claim Sight target.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Claim-Staker level 14",
+        "pdfPage": 78,
+        "printedPage": 65
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Claim-Staker; Allies within 30 ft add +1 to checks involving your Claim Sight target.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

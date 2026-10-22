@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.skitarii_veteran.ruststalker.level_3",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Ruststalker Protocol level 3",
+  "summary": "Ruststalker Protocol; Gain proficiency with blades. Your melee attacks deal +1d6 damage against targets below half their hit points.",
+  "descriptionMarkdown": "Ruststalker Protocol; Gain proficiency with blades. Your melee attacks deal +1d6 damage against targets below half their hit points.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Ruststalker Protocol level 3",
+        "pdfPage": 71,
+        "printedPage": 58
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Ruststalker Protocol; Gain proficiency with blades. Your melee attacks deal +1d6 damage against targets below half their hit points.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

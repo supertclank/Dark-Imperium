@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.zealot.preacher.level_7",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Preacher level 7",
+  "summary": "Preacher; When you use Martyr’s Mercy, the target also gains advantage on its next saving throw against fear.",
+  "descriptionMarkdown": "Preacher; When you use Martyr’s Mercy, the target also gains advantage on its next saving throw against fear.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Preacher level 7",
+        "pdfPage": 53,
+        "printedPage": 40
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Preacher; When you use Martyr’s Mercy, the target also gains advantage on its next saving throw against fear.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

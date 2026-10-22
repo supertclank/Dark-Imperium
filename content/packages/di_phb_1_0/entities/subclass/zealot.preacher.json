@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.zealot.preacher",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Preacher",
+  "summary": "Preacher; Allies within 30 ft gain advantage on fear saves while you are conscious.  Preacher; When you use Martyr’s Mercy, the target also gains advantage on its next saving throw against fear.  Preacher; Once per long rest, as an action, up to three allies within 30 ft regain hit points equal to 2d6 + your Wisdom or Charisma modifier.  Preacher; Allies within 30 ft also gain +1d4 to fear saves.",
+  "descriptionMarkdown": "Preacher; Allies within 30 ft gain advantage on fear saves while you are conscious.\n\nPreacher; When you use Martyr’s Mercy, the target also gains advantage on its next saving throw against fear.\n\nPreacher; Once per long rest, as an action, up to three allies within 30 ft regain hit points equal to 2d6 + your Wisdom or Charisma modifier.\n\nPreacher; Allies within 30 ft also gain +1d4 to fear saves.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Preacher",
+        "pdfPage": 53,
+        "printedPage": 40
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Preacher",
+        "pdfPage": 54,
+        "printedPage": 41
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.zealot"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.zealot.preacher"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.zealot"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}

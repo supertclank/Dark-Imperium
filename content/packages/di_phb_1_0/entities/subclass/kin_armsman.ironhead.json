@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.kin_armsman.ironhead",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Ironhead",
+  "summary": "Ironhead; You gain advantage on checks to mine, breach, salvage, demolish, or repair machinery and structures.  Ironhead; Your attacks against objects, vehicles, and machines deal +1d8 damage.  Ironhead; Once per short rest, when you damage an object, vehicle, or machine, treat the hit as a critical hit.  Ironhead; Your attacks against machines, vehicles, and structures ignore resistance once per turn.",
+  "descriptionMarkdown": "Ironhead; You gain advantage on checks to mine, breach, salvage, demolish, or repair machinery and structures.\n\nIronhead; Your attacks against objects, vehicles, and machines deal +1d8 damage.\n\nIronhead; Once per short rest, when you damage an object, vehicle, or machine, treat the hit as a critical hit.\n\nIronhead; Your attacks against machines, vehicles, and structures ignore resistance once per turn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Ironhead",
+        "pdfPage": 74,
+        "printedPage": 61
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Ironhead",
+        "pdfPage": 75,
+        "printedPage": 62
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.kin_armsman"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.kin_armsman.ironhead"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.kin_armsman"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}

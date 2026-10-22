@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.progression.aeldari_warlock",
   "kind": "progression",
-  "revision": 1,
+  "revision": 2,
   "name": "Aeldari Warlock progression",
   "summary": "Exact level labels from the class table; feature automation is separately classified.",
   "descriptionMarkdown": "Exact level labels from the class table; feature automation is separately classified.",
@@ -65,10 +65,10 @@
         "level": 3,
         "grants": [
           {
-            "id": "level_3_1",
-            "kind": "feature",
-            "feature": {
-              "id": "di.feature.class.aeldari_warlock.level_3.warlock_path"
+            "id": "choose_subclass",
+            "kind": "choice",
+            "choice": {
+              "id": "di.choice.aeldari_warlock.subclass"
             }
           }
         ]
@@ -111,15 +111,7 @@
       },
       {
         "level": 7,
-        "grants": [
-          {
-            "id": "level_7_1",
-            "kind": "feature",
-            "feature": {
-              "id": "di.feature.class.aeldari_warlock.level_7.path_feature"
-            }
-          }
-        ]
+        "grants": []
       },
       {
         "level": 8,
@@ -195,15 +187,7 @@
       },
       {
         "level": 14,
-        "grants": [
-          {
-            "id": "level_14_1",
-            "kind": "feature",
-            "feature": {
-              "id": "di.feature.class.aeldari_warlock.level_14.path_feature"
-            }
-          }
-        ]
+        "grants": []
       },
       {
         "level": 15,
@@ -243,15 +227,7 @@
       },
       {
         "level": 18,
-        "grants": [
-          {
-            "id": "level_18_1",
-            "kind": "feature",
-            "feature": {
-              "id": "di.feature.class.aeldari_warlock.level_18.path_feature"
-            }
-          }
-        ]
+        "grants": []
       },
       {
         "level": 19,

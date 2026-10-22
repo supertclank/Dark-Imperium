@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.masterwork.artificer_edge",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Artificer Edge",
+  "summary": "Masterwork Trait: Artificer Edge; Eligible Item: Melee weapon; Effect: Once per turn when you roll weapon damage, reroll one damage die and use the new result.",
+  "descriptionMarkdown": "Masterwork Trait: Artificer Edge; Eligible Item: Melee weapon; Effect: Once per turn when you roll weapon damage, reroll one damage die and use the new result.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "18",
+        "heading": "Artificer Edge",
+        "pdfPage": 104,
+        "printedPage": 91
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "general",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Masterwork Trait: Artificer Edge; Eligible Item: Melee weapon; Effect: Once per turn when you roll weapon damage, reroll one damage die and use the new result.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Item-bound procedure retained manually, including host eligibility; no automatic actor-wide bonus."
+      }
+    ]
+  }
+}

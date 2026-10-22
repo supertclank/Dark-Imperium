@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.ogryn_skullbreaker.gun_lugger.level_14",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Gun Lugger level 14",
+  "summary": "Gun Lugger; You ignore disadvantage from firing Heavy or Ogryn weapons after moving.",
+  "descriptionMarkdown": "Gun Lugger; You ignore disadvantage from firing Heavy or Ogryn weapons after moving.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Gun Lugger level 14",
+        "pdfPage": 60,
+        "printedPage": 47
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Gun Lugger; You ignore disadvantage from firing Heavy or Ogryn weapons after moving.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

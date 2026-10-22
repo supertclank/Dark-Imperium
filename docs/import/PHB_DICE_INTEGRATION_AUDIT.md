@@ -1,3 +1,5 @@
+> Historical intake report. Current counts, dispositions and readiness are in [PHB_CANONICALISATION_REPORT](PHB_CANONICALISATION_REPORT.md); machine-readable review ledgers have been updated.
+
 # PHB dice integration audit
 
 The source establishes d20 tests, advantage/disadvantage and natural20 critical rules. Earlier design examples remain placeholders; source evidence now supplies these particular policies. These classifications assess representability, not deployed engine support.

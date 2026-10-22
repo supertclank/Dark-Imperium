@@ -7,7 +7,18 @@
     "source": "Printed 13–14 (PDF 26–27), chapter 4",
     "problem": "The eligibility matrix allows Rare Kin for Hiveborn, Penal Worlder, Forge World, Militarum Regiment and Underhive, but their Allowed Species prose omits Kin. Voidborn matrix permits Kin and rare Aeldari, whereas prose lists Human, Ratling and rare Ogryn.",
     "affected": "Six background definitions and future builder eligibility.",
-    "recommendedResolution": "Choose the authoritative matrix/prose values, and define approval requirements for Rare/Limited. No eligibility is silently selected."
+    "recommendedResolution": "Choose the authoritative matrix/prose values, and define approval requirements for Rare/Limited. No eligibility is silently selected.",
+    "resolutionStatus": "PARTIALLY_RESOLVED",
+    "expandedIssues": [
+      "PHB-RULE-001",
+      "PHB-RULE-002",
+      "PHB-RULE-003",
+      "PHB-RULE-004",
+      "PHB-RULE-005",
+      "PHB-RULE-006",
+      "PHB-RULE-007",
+      "PHB-RULE-008"
+    ]
   },
   {
     "id": "PHB-002",
@@ -17,7 +28,17 @@
     "source": "Printed 4–5, 19, 22, 37–71 (PDF 17–18,32,35,50–84)",
     "problem": "Ability modifiers, general resistance arithmetic and expertise are referenced without a located explicit defining table/formula. Point-buy and rolled-score methods need GM approval but their procedures are not given. The phrase familiar 5e-style is not permission to import external rules.",
     "affected": "All calculated sheets and derived roll modifiers.",
-    "recommendedResolution": "Supply exact rules or approve explicit profile policies with citations. Keep imported ft values; do not reuse foundation metre statistics."
+    "recommendedResolution": "Supply exact rules or approve explicit profile policies with citations. Keep imported ft values; do not reuse foundation metre statistics.",
+    "resolutionStatus": "PARTIALLY_RESOLVED",
+    "expandedIssues": [
+      "PHB-RULE-009",
+      "PHB-RULE-010",
+      "PHB-RULE-011",
+      "PHB-RULE-012",
+      "PHB-RULE-013",
+      "PHB-RULE-014",
+      "PHB-RULE-057"
+    ]
   },
   {
     "id": "PHB-003",
@@ -27,7 +48,12 @@
     "source": "Printed 37,73,99 (PDF 50,86,112)",
     "problem": "Class tables consistently grant ASI/Talent at levels 4,8,12,16,19. The amount, distribution and cap of ASI are not defined in the inspected text. General Talent repeatability is also not established.",
     "affected": "All twelve class progressions and feat choices.",
-    "recommendedResolution": "Confirm ASI amount/cap and repeatability. Level labels are structured, but improvement mechanics remain manual."
+    "recommendedResolution": "Confirm ASI amount/cap and repeatability. Level labels are structured, but improvement mechanics remain manual.",
+    "resolutionStatus": "OPEN",
+    "expandedIssues": [
+      "PHB-RULE-015",
+      "PHB-RULE-016"
+    ]
   },
   {
     "id": "PHB-004",
@@ -37,7 +63,17 @@
     "source": "Printed 22 and108 (PDF35,121)",
     "problem": "Overheat does not state its damage amount/type. Blast generally lacks an exact area. Heavy movement penalty is discretionary. Personal Burst extra ammunition is unspecified; chapter21 specifies three shots for mounts, not necessarily personal weapons. Suppression trigger/save is clearer for mounts than generic personal properties.",
     "affected": "Overheat/Burst/Blast/Heavy/Suppression weapons.",
-    "recommendedResolution": "Define missing parameters or explicitly retain GM procedures. Do not export mounted Burst rules to personal weapons without approval. Twin-Linked is unusual but preserved exactly."
+    "recommendedResolution": "Define missing parameters or explicitly retain GM procedures. Do not export mounted Burst rules to personal weapons without approval. Twin-Linked is unusual but preserved exactly.",
+    "resolutionStatus": "PARTIALLY_RESOLVED",
+    "expandedIssues": [
+      "PHB-RULE-017",
+      "PHB-RULE-018",
+      "PHB-RULE-019",
+      "PHB-RULE-020",
+      "PHB-RULE-021",
+      "PHB-RULE-022",
+      "PHB-RULE-023"
+    ]
   },
   {
     "id": "PHB-005",
@@ -47,7 +83,12 @@
     "source": "Printed 24–27,34,108 (PDF37–40,47,121)",
     "problem": "Armoury rows provide damage/range/properties but generally not explicit hands, reach for melee, or full proficiency-category membership. Required canonical weapon fields cannot be guessed. Grenade Launcher damage depends on another item.",
     "affected": "101 reserved weapon candidates including 84 chapter8 weapons, 10 additional mounted identities and 7 grenades.",
-    "recommendedResolution": "Confirm equipment taxonomy/hands/reach and map grenade payloads. Preserve known components/ranges/properties in review candidates until complete."
+    "recommendedResolution": "Confirm equipment taxonomy/hands/reach and map grenade payloads. Preserve known components/ranges/properties in review candidates until complete.",
+    "resolutionStatus": "OPEN",
+    "expandedIssues": [
+      "PHB-RULE-024",
+      "PHB-RULE-025"
+    ]
   },
   {
     "id": "PHB-006",
@@ -57,7 +98,12 @@
     "source": "Printed24–27,34,79–80 (PDF37–40,47,92–93)",
     "problem": "Examples include radiant/fire, poison/piercing, slashing/psychic and piercing/radiation. The source does not explain split damage, choice of type, or simultaneous type semantics. An explicit plus, such as bolter piercing + thunder, is distinct and is split into components.",
     "affected": "Plasma, needle, several xenos/Mechanicus weapons and psychic powers.",
-    "recommendedResolution": "State slash-type semantics. Candidates retain the original wording; no half-and-half split or extra damage dice are invented."
+    "recommendedResolution": "State slash-type semantics. Candidates retain the original wording; no half-and-half split or extra damage dice are invented.",
+    "resolutionStatus": "PARTIALLY_RESOLVED",
+    "expandedIssues": [
+      "PHB-RULE-026",
+      "PHB-RULE-027"
+    ]
   },
   {
     "id": "PHB-007",
@@ -67,7 +113,15 @@
     "source": "Printed29 (PDF42)",
     "problem": "Powered Carapace and Exo-Frame Plate read 17, max Dex +1; Ogryn Flak Plate reads 14 but says does not limit Dexterity. Confirm exact AC arithmetic. Other base-plus-Dex formulas need registered derived statistics; reactive fields are not zero-AC armour.",
     "affected": "Armour, fields and future defence calculation.",
-    "recommendedResolution": "Confirm ambiguous formulas; map remaining clear formulas via the existing stat-derivation mechanism. Ogryn Leathers AC12 and Shield +2 are imported as a small explicit slice."
+    "recommendedResolution": "Confirm ambiguous formulas; map remaining clear formulas via the existing stat-derivation mechanism. Ogryn Leathers AC12 and Shield +2 are imported as a small explicit slice.",
+    "resolutionStatus": "PARTIALLY_RESOLVED",
+    "expandedIssues": [
+      "PHB-RULE-028",
+      "PHB-RULE-029",
+      "PHB-RULE-030",
+      "PHB-RULE-031",
+      "PHB-RULE-032"
+    ]
   },
   {
     "id": "PHB-008",
@@ -77,7 +131,12 @@
     "source": "Printed43,70,78–80 (PDF56,83,91–93)",
     "problem": "Power tables carry multiple tags (Universal, Telekinesis, Warlock, Divination, etc.), while the canonical power requires one discipline ref. The access rules must not lose alternate list membership.",
     "affected": "52 power candidates and discipline-locked choices.",
-    "recommendedResolution": "Review either a plural discipline membership field or a documented access policy over canonical tags. No unrelated architecture change is needed. The Aeldari Warlock rules explicitly grant power access despite chapter14 general wording; record the specific exception."
+    "recommendedResolution": "Review either a plural discipline membership field or a documented access policy over canonical tags. No unrelated architecture change is needed. The Aeldari Warlock rules explicitly grant power access despite chapter14 general wording; record the specific exception.",
+    "resolutionStatus": "PARTIALLY_RESOLVED",
+    "expandedIssues": [
+      "PHB-RULE-033",
+      "PHB-RULE-034"
+    ]
   },
   {
     "id": "PHB-009",
@@ -87,7 +146,14 @@
     "source": "Printed78–83 (PDF91–96)",
     "problem": "Current duration union lacks minutes/concentration. Warp Pressure increases rather than spends and has no located cap; do not invent a maximum. Perils severity needs current pressure modifier and a 31+ open-ended band, unlike the current fixed-Dice table. Warp Step says roll even if Pressure would not normally trigger it, while chapter15 calls for a roll after every power.",
     "affected": "Psychic actions, resources, Perils and concentration.",
-    "recommendedResolution": "Add only reviewed duration/table/resource capabilities and clarify concentration/extra-roll wording. Continue manual until approved."
+    "recommendedResolution": "Add only reviewed duration/table/resource capabilities and clarify concentration/extra-roll wording. Continue manual until approved.",
+    "resolutionStatus": "OPEN",
+    "expandedIssues": [
+      "PHB-RULE-035",
+      "PHB-RULE-036",
+      "PHB-RULE-037",
+      "PHB-RULE-038"
+    ]
   },
   {
     "id": "PHB-010",
@@ -97,7 +163,13 @@
     "source": "Printed101–108 (PDF114–121)",
     "problem": "The PHB defines DT, Handling, per-mount limits, crew control, arcs, supplies and breakdown timing. Existing common stats/features/damageRule can host much of this, but no reviewed profile policy currently executes whole-hit DT or crew-dependent attack resolution.",
     "affected": "12 vehicle candidates, mounted weapons and repairs.",
-    "recommendedResolution": "Register typed statistics and a bounded vehicle damage/control policy. Preserve DT as a threshold, not subtraction, and reuse shared weapon IDs with mounting context. No microservice or separate vehicle engine."
+    "recommendedResolution": "Register typed statistics and a bounded vehicle damage/control policy. Preserve DT as a threshold, not subtraction, and reuse shared weapon IDs with mounting context. No microservice or separate vehicle engine.",
+    "resolutionStatus": "PARTIALLY_RESOLVED",
+    "expandedIssues": [
+      "PHB-RULE-039",
+      "PHB-RULE-040",
+      "PHB-RULE-041"
+    ]
   },
   {
     "id": "PHB-011",
@@ -107,7 +179,12 @@
     "source": "All chapters",
     "problem": "Most mechanical clauses are transcribed as ManualRule pending fine-grained effect/action mapping. No playable PHB profile/lock or complete actor-roll compiler exists. Canonical draft validity is not automatic gameplay support.",
     "affected": "All draft packages; especially restrictions, class hit dice/resources and event-driven features.",
-    "recommendedResolution": "Review transcriptions, map clauses incrementally, register policies, and publish only a closed, validated profile. Scope this as implementation work, not a claim that the PHB is ambiguous."
+    "recommendedResolution": "Review transcriptions, map clauses incrementally, register policies, and publish only a closed, validated profile. Scope this as implementation work, not a claim that the PHB is ambiguous.",
+    "resolutionStatus": "OPEN",
+    "expandedIssues": [
+      "PHB-RULE-042",
+      "PHB-RULE-058"
+    ]
   },
   {
     "id": "PHB-012",
@@ -117,7 +194,12 @@
     "source": "Printed37–71 (PDF50–84)",
     "problem": "All 12 class level tables are captured. Veteran has three explicit subclass progressions. The other 42 subclasses are reserved candidates; their repeated/split tables need level mapping. Some progression labels do not directly match section headings and are retained as labelled incomplete feature records.",
     "affected": "Class progression feature details and 42 subclass candidates.",
-    "recommendedResolution": "Match each source heading/table to level and parent, preserving upgrades and replacements. Do not label an unconverted clause as absent from the PHB."
+    "recommendedResolution": "Match each source heading/table to level and parent, preserving upgrades and replacements. Do not label an unconverted clause as absent from the PHB.",
+    "resolutionStatus": "PARTIALLY_RESOLVED",
+    "expandedIssues": [
+      "PHB-RULE-043",
+      "PHB-RULE-044"
+    ]
   },
   {
     "id": "PHB-013",
@@ -127,7 +209,14 @@
     "source": "Printed19–20,80 (PDF32–33,93)",
     "problem": "15 condition/state rows plus Exhaustion exist. Bloodied is explicitly a state. Default stacking/removal is not uniformly specified. Flesh Reforged mentions diseased, bleeding and crippled conditions without located canonical condition definitions; concentration also needs procedure review.",
     "affected": "16 condition/state candidates, psychic healing and runtime statuses.",
-    "recommendedResolution": "Separate defined states from unresolved narrative injuries; confirm defaults or retain explicit manual handling."
+    "recommendedResolution": "Separate defined states from unresolved narrative injuries; confirm defaults or retain explicit manual handling.",
+    "resolutionStatus": "PARTIALLY_RESOLVED",
+    "expandedIssues": [
+      "PHB-RULE-045",
+      "PHB-RULE-046",
+      "PHB-RULE-047",
+      "PHB-RULE-048"
+    ]
   },
   {
     "id": "PHB-014",
@@ -137,7 +226,14 @@
     "source": "Printed76,87–88,91–97 (PDF89,100–101,104–110)",
     "problem": "Starting lists use medkit, riot shield, light armour, survey auspex, maintenance tools, psychic focus, symbols/tokens and similar terms without a located complete dedicated entry for every name. Med-Pack is defined but not silently equated to medkit; Shield is not automatically riot shield. Minor augmetic upgrades are granted without an enumerated minor subset.",
     "affected": "Starting item choices, augmetic choices and remaining equipment candidates.",
-    "recommendedResolution": "Approve aliases or provide missing definitions; distinguish narrative belongings from mechanical items. Frag Bomb and Ogryn Club DO have entries and are not missing."
+    "recommendedResolution": "Approve aliases or provide missing definitions; distinguish narrative belongings from mechanical items. Frag Bomb and Ogryn Club DO have entries and are not missing.",
+    "resolutionStatus": "PARTIALLY_RESOLVED",
+    "expandedIssues": [
+      "PHB-RULE-049",
+      "PHB-RULE-050",
+      "PHB-RULE-051",
+      "PHB-RULE-052"
+    ]
   },
   {
     "id": "PHB-015",
@@ -147,7 +243,12 @@
     "source": "DICE_ROLLING and PHB printed18,24,78,108",
     "problem": "RollDefinition can carry typed damage components, but embedded RollTemplate groups currently have no explicit damage-type/component binding. Attack ability selection, healing, pressure modifiers and target context need a documented binding/compilation contract.",
     "affected": "Two imported base-dice action templates and future attack/damage generation.",
-    "recommendedResolution": "Extend only the template-to-component binding when implementing the compiler. Base templates are not complete calculated attacks or actor-resolved RollDefinitions."
+    "recommendedResolution": "Extend only the template-to-component binding when implementing the compiler. Base templates are not complete calculated attacks or actor-resolved RollDefinitions.",
+    "resolutionStatus": "PARTIALLY_RESOLVED",
+    "expandedIssues": [
+      "PHB-RULE-053",
+      "PHB-RULE-054"
+    ]
   },
   {
     "id": "PHB-016",
@@ -157,6 +258,11 @@
     "source": "Printed22,91 (PDF35,104)",
     "problem": "Targeting Optic refers to Aim, but the generic action list has no Aim procedure. Veteran Tactical Aim is a named class feature and cannot silently become a universal action. Armour-Breaking mentions half cover whereas combat uses Light/Heavy/Full Cover.",
     "affected": "Targeting Optic, Armour-Breaking and available generic actions.",
-    "recommendedResolution": "Identify the intended Aim procedure and cover mapping or retain explicit GM adjudication."
+    "recommendedResolution": "Identify the intended Aim procedure and cover mapping or retain explicit GM adjudication.",
+    "resolutionStatus": "OPEN",
+    "expandedIssues": [
+      "PHB-RULE-055",
+      "PHB-RULE-056"
+    ]
   }
 ]

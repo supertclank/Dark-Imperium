@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.feature.talent.pocket_marksman",
   "kind": "feature",
-  "revision": 1,
+  "revision": 2,
   "name": "Pocket Marksman",
   "summary": "Talent: Pocket Marksman Requirement: Ratling Benefit: When prone or behind cover, your first ranged attack each turn deals +1 damage.",
   "descriptionMarkdown": "Talent: Pocket Marksman\nRequirement: Ratling\nBenefit: When prone or behind cover, your first ranged attack each turn deals +1 damage.",
@@ -34,6 +34,12 @@
         "context": "source-defined procedure",
         "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
       }
-    ]
+    ],
+    "requirements": {
+      "kind": "selected",
+      "content": {
+        "id": "di.species.ratling"
+      }
+    }
   }
 }

@@ -34,3 +34,7 @@ Machine-readable examples and repository-local checks are described in [VERIFICA
 ## PHB import status — 22 October 2026
 
 The supplied Version 1.0 handbook is now registered and partially transcribed. See [PHB import report](../import/PHB_IMPORT_REPORT.md). The original example records remain historical placeholders and are not PHB data. Canonical drafts and incomplete candidates are separate; publication and full builder readiness remain blocked pending source review and mapping.
+
+## PHB canonicalisation pass
+
+PHB canonicalisation adds [calculation policies](CALCULATION_POLICIES.md), [prerequisites](PREREQUISITES.md), [damage vocabulary](DAMAGE_TYPES.md), [stacking](STACKING_RULES.md) and [capability proposals](PHB_SPEC_EXTENSIONS.md).

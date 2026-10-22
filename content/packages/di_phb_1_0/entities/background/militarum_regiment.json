@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.background.militarum_regiment",
   "kind": "background",
-  "revision": 1,
+  "revision": 2,
   "name": "Militarum Regiment",
   "summary": "4.7 Militarum Regiment Formerly attached to an Imperial Guard force, auxiliary formation, or battlefield logistics unit. Allowed Species: Human, Ogryn, Ratling, limited Skitarii. Skill Proficiency: Choose one from Athletics or Survival, and gain Perception. Squad Drill: Before initiative is rolled, choose one ally within 5 ft of you who can see or hear you. You and that chosen ally each gain +1 to initiative for that combat. You must choose the ally before anyone rolls initiative. If no ally ...",
   "descriptionMarkdown": "4.7 Militarum Regiment\nFormerly attached to an Imperial Guard force, auxiliary \nformation, or battlefield logistics unit.\nAllowed Species: Human, Ogryn, Ratling, limited \nSkitarii.\nSkill Proficiency: Choose one from Athletics or Survival, \nand gain Perception.\nSquad Drill: Before initiative is rolled, choose one ally \nwithin 5 ft of you who can see or hear you. You\nand that chosen ally each gain +1 to initiative for that \ncombat. You must choose the ally before anyone\nrolls initiative. If no ally is within 5 ft when initiative is \ncalled, this feature provides no benefit.\nField Discipline: Once per short rest, you may reroll a \nfailed saving throw against Suppression.",
@@ -31,6 +31,11 @@
       {
         "id": "di.choice.militarum_regiment.skills"
       }
-    ]
+    ],
+    "requirements": {
+      "kind": "fact",
+      "key": "phb.origin_eligibility.militarum_regiment",
+      "equals": true
+    }
   }
 }

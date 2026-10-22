@@ -1,0 +1,302 @@
+[
+  {
+    "id": "PHB-CALC-001",
+    "name": "Attribute modifiers",
+    "automation": "BLOCKED",
+    "inputs": "score",
+    "output": "modifier",
+    "order": "No formula located; do not evaluate a guessed floor((score-10)/2).",
+    "sourcePdfPages": "17,18,123",
+    "stackingCapsFloors": "None defined"
+  },
+  {
+    "id": "PHB-CALC-002",
+    "name": "Maximum wounds",
+    "automation": "PARTIAL",
+    "inputs": "class Hit Die, resolved Con modifier at acquisition, chosen die roll/fixed gain, feature contributions",
+    "output": "maximum HP",
+    "order": "Level 1: die maximum + Con; later d6/d8/d10/d12 fixed 4/5/6/7 or chosen roll + Con. Accumulate recorded gains, then only resolved feature policies. Retroactivity/floor needs ruling.",
+    "sourcePdfPages": "17",
+    "stackingCapsFloors": "No universal floor established"
+  },
+  {
+    "id": "PHB-CALC-003",
+    "name": "Current wounds",
+    "automation": "PARTIAL",
+    "inputs": "owned current HP, accepted damage/healing event, calculated maximum",
+    "output": "new owned current HP",
+    "order": "No mutation during recalculation. At 0 apply unconscious/death procedure. Max changes, healing overflow and negative healing require explicit policy.",
+    "sourcePdfPages": "31,32",
+    "stackingCapsFloors": "No invented reconciliation"
+  },
+  {
+    "id": "PHB-CALC-004",
+    "name": "Defence / AC",
+    "automation": "PARTIAL",
+    "inputs": "one source armour expression, resolved Dex, shield, applicable cover and effects",
+    "output": "AC for this attack",
+    "order": "Explicit base+Dex rows: base+min(Dex,cap) when cap stated; negative Dex is retained. Shield +2. Cover applies only to crossing attack. Unarmoured/ambiguous bases/stacking remain blocked.",
+    "sourcePdfPages": "31,42",
+    "stackingCapsFloors": "Caps only as printed"
+  },
+  {
+    "id": "PHB-CALC-005",
+    "name": "Movement",
+    "automation": "PARTIAL",
+    "inputs": "species base in ft, source modifiers, conditions, runtime mode",
+    "output": "Speed in ft",
+    "order": "Use species base; apply explicitly supported changes. Grappled: zero and cannot benefit from speed bonuses. Exhaustion uses cumulative levels; conflicting multiplication order unresolved.",
+    "sourcePdfPages": "23,24,32,33",
+    "stackingCapsFloors": "No universal inferred floor"
+  },
+  {
+    "id": "PHB-CALC-006",
+    "name": "Initiative",
+    "automation": "AUTOMATIC_INPUTS_REQUIRED",
+    "inputs": "resolved Dex modifier, applicable feature modifiers",
+    "output": "initiative roll intent",
+    "order": "d20 + Dex modifier + source-defined resolved bonuses. Squad Drill requires its chosen ally/context.",
+    "sourcePdfPages": "123,27,29",
+    "stackingCapsFloors": "Same-source dedup; cross-feature stacking unresolved"
+  },
+  {
+    "id": "PHB-CALC-007",
+    "name": "Attack modifiers",
+    "automation": "AUTOMATIC_INPUTS_REQUIRED",
+    "inputs": "relevant resolved ability, proficiency entitlement, level, context",
+    "output": "attack modifier",
+    "order": "Ability + proficiency once if proficient, then only applicable approved modifiers. Finesse permits Str/Dex; no universal weapon ability guessed.",
+    "sourcePdfPages": "35,123",
+    "stackingCapsFloors": "No cap specified"
+  },
+  {
+    "id": "PHB-CALC-008",
+    "name": "Damage modifiers",
+    "automation": "PARTIAL",
+    "inputs": "weapon components, ability/context, property/feature triggers",
+    "output": "typed components",
+    "order": "No complete personal weapon default ability rule located. Mounted attack-roll damage adds Dex once; mounted area adds none. Offhand Light melee excludes positive ability unless feature.",
+    "sourcePdfPages": "32,115",
+    "stackingCapsFloors": "No global stacking invented"
+  },
+  {
+    "id": "PHB-CALC-009",
+    "name": "Skill bonuses",
+    "automation": "AUTOMATIC_INPUTS_REQUIRED",
+    "inputs": "skill or GM-chosen ability, resolved modifier, entitlement, level",
+    "output": "bonus",
+    "order": "Ability modifier + PB if proficient. Explicit GM ability reassignment is context, not content rewrite.",
+    "sourcePdfPages": "18,123",
+    "stackingCapsFloors": "PB once"
+  },
+  {
+    "id": "PHB-CALC-010",
+    "name": "Saving throws",
+    "automation": "AUTOMATIC_INPUTS_REQUIRED",
+    "inputs": "resolved relevant ability, granted save proficiency, level",
+    "output": "save bonus",
+    "order": "Ability modifier + PB only if save proficiency is granted.",
+    "sourcePdfPages": "18,123",
+    "stackingCapsFloors": "PB once"
+  },
+  {
+    "id": "PHB-CALC-011",
+    "name": "Proficiency",
+    "automation": "AUTOMATIC",
+    "inputs": "level 1..20",
+    "output": "PB",
+    "order": "1–4:2;5–8:3;9–12:4;13–16:5;17–20:6. Use table thresholds; no extrapolation.",
+    "sourcePdfPages": "15,123",
+    "stackingCapsFloors": "Add once to a roll"
+  },
+  {
+    "id": "PHB-CALC-012",
+    "name": "Expertise",
+    "automation": "BLOCKED",
+    "inputs": "entitlement and proficiency",
+    "output": "bonus",
+    "order": "Referenced but not defined.",
+    "sourcePdfPages": "62,65,68,71,77,80",
+    "stackingCapsFloors": "Unknown"
+  },
+  {
+    "id": "PHB-CALC-013",
+    "name": "Critical thresholds",
+    "automation": "PARTIAL",
+    "inputs": "natural retained attack face, weapon/feature scope",
+    "output": "critical decision",
+    "order": "Ordinary natural20; only apply explicit scoped expanded ranges. Unconscious within5ft has special hit rule. No automatic-success convention inferred.",
+    "sourcePdfPages": "31,33,65,123",
+    "stackingCapsFloors": "Conflicting expanded thresholds unresolved"
+  },
+  {
+    "id": "PHB-CALC-014",
+    "name": "Critical damage",
+    "automation": "AUTOMATIC_INPUTS_REQUIRED",
+    "inputs": "ordinary attack damage dice/components and flat modifiers",
+    "output": "transformed dice",
+    "order": "Double ordinary attack damage dice counts; flat modifiers once; then explicit critical extra dice. Multi-die selection unresolved for personal properties, mounted first listed die explicit.",
+    "sourcePdfPages": "31,121",
+    "stackingCapsFloors": "Technical dice limits are not game caps"
+  },
+  {
+    "id": "PHB-CALC-015",
+    "name": "Advantage/disadvantage",
+    "automation": "AUTOMATIC",
+    "inputs": "resolved presence of each",
+    "output": "1d20 or 2d20 keep high/low",
+    "order": "Multiple same type do not stack; both cancel regardless of source count. Missing conditions remain unknown.",
+    "sourcePdfPages": "18",
+    "stackingCapsFloors": "At most two dice for this policy"
+  },
+  {
+    "id": "PHB-CALC-016",
+    "name": "Resistance",
+    "automation": "BLOCKED",
+    "inputs": "typed components, applicable resistance/bypass",
+    "output": "modified damage",
+    "order": "General factor/rounding not specified; do not infer half.",
+    "sourcePdfPages": "35,42,116",
+    "stackingCapsFloors": "Unknown stacking"
+  },
+  {
+    "id": "PHB-CALC-017",
+    "name": "Vulnerability",
+    "automation": "BLOCKED",
+    "inputs": "typed components, explicit vulnerability",
+    "output": "modified damage",
+    "order": "No general definition located; do not infer double.",
+    "sourcePdfPages": "15,116",
+    "stackingCapsFloors": "Unknown"
+  },
+  {
+    "id": "PHB-CALC-018",
+    "name": "Immunity",
+    "automation": "PARTIAL",
+    "inputs": "target-kind and effect eligibility, explicit immunity",
+    "output": "excluded effects/components",
+    "order": "Hull poison/radiation cannot harm it; psychic only if affects objects/machinery. Creature fear immunity does not imply psychic-damage immunity. General precedence with other modifiers requires review.",
+    "sourcePdfPages": "116",
+    "stackingCapsFloors": "No umbrella energy/physical group"
+  },
+  {
+    "id": "PHB-CALC-019",
+    "name": "Equipment modifiers",
+    "automation": "PARTIAL",
+    "inputs": "active owned item instances, host/scope, usage",
+    "output": "context contributions",
+    "order": "Only eligible source effects; do not grant carried items automatically. Signature Wargear maximum three active, switched during rest/downtime.",
+    "sourcePdfPages": "104,124",
+    "stackingCapsFloors": "No generic duplicate-item stacking"
+  },
+  {
+    "id": "PHB-CALC-020",
+    "name": "Armour modifiers",
+    "automation": "PARTIAL",
+    "inputs": "one explicit AC expression and penalties",
+    "output": "base and scoped changes",
+    "order": "Separate AC base from damage reduction/resistance and condition modifiers. Register profile derivations for explicit expressions.",
+    "sourcePdfPages": "42",
+    "stackingCapsFloors": "Competing bases unresolved"
+  },
+  {
+    "id": "PHB-CALC-021",
+    "name": "Shield modifiers",
+    "automation": "PARTIAL",
+    "inputs": "shield equipped, hands, conditional features",
+    "output": "AC contribution",
+    "order": "Shield +2 and one hand explicit. Riot Shield subclass +1 while shield used now structured; shove advantage stays manual.",
+    "sourcePdfPages": "42,62",
+    "stackingCapsFloors": "Multiple shields unresolved"
+  },
+  {
+    "id": "PHB-CALC-022",
+    "name": "Resource maximums",
+    "automation": "PARTIAL",
+    "inputs": "feature definition, level/PB",
+    "output": "maximum uses",
+    "order": "Use exact feature maximum only; once-per-rest=1, PB-per-rest=PB. Do not impose maximum on Warp Pressure.",
+    "sourcePdfPages": "50,62,86,95",
+    "stackingCapsFloors": "No generic max"
+  },
+  {
+    "id": "PHB-CALC-023",
+    "name": "Resource recovery",
+    "automation": "PARTIAL",
+    "inputs": "accepted rest/event, resource recharge rule",
+    "output": "updated uses",
+    "order": "Recover only explicitly matching rest/event; no recalculation/refresh recharge.",
+    "sourcePdfPages": "32",
+    "stackingCapsFloors": "One event applied once is technical idempotency"
+  },
+  {
+    "id": "PHB-CALC-024",
+    "name": "Rest recovery",
+    "automation": "PARTIAL",
+    "inputs": "time/rest qualification, spent Hit Dice, food/water/safety",
+    "output": "HP, HD, feature/pressure recovery",
+    "order": "Short >=1h: spend HD and heal roll+Con. Long >=8h/6sleep: restore HP; regain up to half total HD min1; pressure0; exhaustion-1 with food/water/safe rest. Once/24h; no Corruption removal. Odd HD rounding unresolved.",
+    "sourcePdfPages": "32,33,95",
+    "stackingCapsFloors": "Do not exceed spent HD; odd-half policy needs ruling"
+  },
+  {
+    "id": "PHB-CALC-025",
+    "name": "Level scaling",
+    "automation": "AUTOMATIC_INPUTS_REQUIRED",
+    "inputs": "class level, explicit source table",
+    "output": "grants/values",
+    "order": "Use exact source thresholds, no extrapolation; levels1..20. Keep source occurrence identities.",
+    "sourcePdfPages": "17,50–84",
+    "stackingCapsFloors": "No implicit multiclassing"
+  },
+  {
+    "id": "PHB-CALC-026",
+    "name": "Class progression",
+    "automation": "PARTIAL",
+    "inputs": "chosen class/subclass, level, prior answers",
+    "output": "grants and pending choices",
+    "order": "12 class tables;45 subclass progressions. Selected subclass grants its rows, parent grants choice once. Upgrades still manual until replacement semantics mapped.",
+    "sourcePdfPages": "50–84",
+    "stackingCapsFloors": "ASI amount/repeats unresolved"
+  },
+  {
+    "id": "PHB-CALC-027",
+    "name": "Psychic resource calculation",
+    "automation": "PARTIAL",
+    "inputs": "pressure,tier,empower,scoped cost modifiers",
+    "output": "pressure and Perils intent",
+    "order": "Gain1/2/3 plus1 empowered before resolving power/Perils; after power d20<=pressure;severityd20+pressure;31+ open. Rest0. Odd post-Perils rounding/floor unresolved.",
+    "sourcePdfPages": "91,95",
+    "stackingCapsFloors": "No pressure cap; specific minimum cost1 only when stated"
+  },
+  {
+    "id": "PHB-CALC-028",
+    "name": "Vehicle calculations",
+    "automation": "AUTOMATIC_INPUTS_REQUIRED",
+    "inputs": "resolved post-mitigation components,DT,Armour-Breaking,driver,Handling",
+    "output": "hull damage/checks",
+    "order": "Per hit sum components after resistance;DTfloor(DT/2) if Armour-Breaking;below0 else full. Driving Dex(Vehicles)+Handling; mounted attacks proficiency once. Hull damage does not also damage crew.",
+    "sourcePdfPages": "114–116,121",
+    "stackingCapsFloors": "Per-mount/round limits and crew state required"
+  },
+  {
+    "id": "PHB-CALC-029",
+    "name": "Weapon and psychic save DC",
+    "automation": "AUTOMATIC_INPUTS_REQUIRED",
+    "inputs": "resolved ability,PB,action context",
+    "output": "DC",
+    "order": "Weapon8+PB+weapon ability;psychic8+PB+Int/Wis;grenade8+PB+Dex;mounted8+Dex+PB only if trained.",
+    "sourcePdfPages": "35,91,115,123",
+    "stackingCapsFloors": "No unspecified bonuses"
+  },
+  {
+    "id": "PHB-CALC-030",
+    "name": "Bloodied",
+    "automation": "AUTOMATIC_INPUTS_REQUIRED",
+    "inputs": "current and positive maximum HP",
+    "output": "boolean state",
+    "order": "2*current<=maximum. No effect by itself. Below-half features use strict <, not Bloodied.",
+    "sourcePdfPages": "32,123",
+    "stackingCapsFloors": "Maximum<=0 unresolved"
+  }
+]

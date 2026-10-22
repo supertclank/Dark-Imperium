@@ -1,0 +1,2947 @@
+{
+  "canonicalDamageTypes": [
+    "acid",
+    "bludgeoning",
+    "fire",
+    "force",
+    "lightning",
+    "necrotic",
+    "piercing",
+    "poison",
+    "psychic",
+    "radiant",
+    "radiation",
+    "slashing",
+    "thunder"
+  ],
+  "occurrences": [
+    {
+      "term": "fire",
+      "pdfPage": 6,
+      "context": "......................................37 11.1.3 Suppressing Fire................................................................................",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 6,
+      "context": "..................................................37 11.1.6 Fire Team Veteran...................................................................",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 7,
+      "context": "..................................................41 11.3.1 Psychic Discipline.....................................................................",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 7,
+      "context": "..................................................43 11.3.2 Psychic Ward...........................................................................",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 10,
+      "context": "......................................................76 14 Psychic Powers.........................................................................",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 10,
+      "context": "....................................................78 14.1 Psychic Save DC........................................................................",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 10,
+      "context": "....................................................78 14.2 Psychic Attack Modifier................................................................",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 10,
+      "context": "....................................................78 14.4 Psychic Power Cost and Empowered Powers................................................",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 10,
+      "context": "..............................................78 14.5 Minor Psychic Powers.........................................................................",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 10,
+      "context": "...........................................78 14.6 Standard Psychic Powers.........................................................................",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 10,
+      "context": "..............................................79 14.7 Major Psychic Powers.........................................................................",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 12,
+      "context": "...................................................111 22.6 Psychic and Warp.......................................................................",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 15,
+      "context": "and adapted for firefights, armour, suppression, dangerous psychic power, factional authority and the brutal scale of the 41st Millennium. This P",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 15,
+      "context": "round ranged combat, cover, faith, corruption and dangerous psychic power. ● Playable with mixed warbands of soldiers, zealots, psykers, abhumans, ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 17,
+      "context": " specialist. Skitarii Skitarii Veteran Mechanicus-only; no psychic access. Squat / Kin Kin Armsman, Hernkyn Prospector Tough, technically capable ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 17,
+      "context": "10 Strength or Dexterity; Wisdom or Charisma Medium Psyker Psychic control/support d6 Intelligence or Wisdom High Ogryn Skullbreaker Tank/bruiser ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 17,
+      "context": "e striker/scout d8 Dexterity, Wisdom Medium Aeldari Warlock Psychic support/control d6 Wisdom or Intelligence; Dexterity High Optional campaign res",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 17,
+      "context": " the Machine Cult. Their identity should stay separate from psychic characters, faith- driven zealots, underhive scum, and normal Imperial soldiers",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 18,
+      "context": " such as Strength (Intimidation) for a physical display of force.",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "physical",
+      "pdfPage": 18,
+      "context": " Use Acrobatics Dexterity Balance, controlled movement and physical agility. Athletics Strength Climbing, jumping, grappling, shoving, swimming an",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "physical",
+      "pdfPage": 18,
+      "context": "he approach changes, such as Strength (Intimidation) for a physical display of force.",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 20,
+      "context": "d they may carry brutal weapons, shield their comrades, or force a passage through a position others cannot breach. The Imperium often judges a",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 21,
+      "context": "burden and a source of religious unease. Away from a larger force, a Skitarius must negotiate unfamiliar people and incomplete instructions. De",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 22,
+      "context": " history: the experience of a former warrior joined to the psychic disciplines of a seer. Neither role makes every decision certain, nor every r",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "bludgeoning",
+      "pdfPage": 23,
+      "context": "th: Your unarmed strikes deal 1d6 + your Strength modifier bludgeoning damage. Too Big for Standard Kit: You cannot use most standard armour, delicat",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 23,
+      "context": "est, when a problem could plausibly be solved through brute force, intimidation, endurance, or direct action, you may add your proficiency bonus",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "poison",
+      "pdfPage": 23,
+      "context": "3.4.1 Skitarii Traits Augmetic Body: You have resistance to poison damage and advantage on saving throws against",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 23,
+      "context": "sion does not let you see through smoke, solid objects, or psychic darkness unless its rules explicitly state otherwise. If you gain darkvision f",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "physical",
+      "pdfPage": 23,
+      "context": "ional mechanical distinction. Species defines a character’s physical baseline, cultural assumptions, and class access. Each species is written in t",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 24,
+      "context": " additional hit points equal to your proficiency bonus. No Psychic Potential: You cannot choose the Psyker class or any trait that grants psychic",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 24,
+      "context": "ou cannot choose the Psyker class or any trait that grants psychic powers. 3.5 Squat / Kin Squats, often known as Kin in modern Imperial records, ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 24,
+      "context": "ldar Aeldari are ancient xenos whose reflexes, senses, and psychic presence far exceed human norms. Player Aeldari should represent rare outcasts,",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 24,
+      "context": "n saving throws against being charmed or frightened by non-psychic effects. Xenos Distrust: You have disadvantage on Persuasion checks with most",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 26,
+      "context": "y gain advantage on a saving throw against fear, panic, or psychic manipulation. 4.6 Schola Progenium Raised in harsh Imperial institutions to bec",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 26,
+      "context": "on attack or class feature, you deal an additional 1d4 + 1 radiant damage. This damage represents zeal, ritual fury, and trained hatred rather th",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 27,
+      "context": "7 Militarum Regiment Formerly attached to an Imperial Guard force, auxiliary formation, or battlefield logistics unit. Allowed Species: Human, O",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "poison",
+      "pdfPage": 29,
+      "context": "bernetics. Chem-Hardened Advantage on saving throws against poison, disease and combat drugs. Devoted Servant Once per long rest, when you fail a ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 29,
+      "context": "d. Touched by the Warp Human only. Know one Minor Universal Psychic Power. Using it increases Warp Pressure by 1 and risks Perils. Skitarii cannot",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 31,
+      "context": "rners provide Full Cover. The GM decides whether a line of fire crosses the cover. 6.3 Suppression Some weapons and class features can Suppress",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 35,
+      "context": " tripod- or brace-mounted. Normal infantry cannot move and fire it unless a feature, rig or GM-approved setup allows it. Entangling A creature ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 35,
+      "context": " or Dexterity for attack and damage rolls. Suppression Can force Suppression saves. Thrown Can be thrown using its listed range or a GM-approved",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 35,
+      "context": "xterity for attack and damage rolls. Focus Can be used as a psychic focus for powers or class features that require one. Heavy Requires Strength 1",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 35,
+      "context": "ounts as powered for overcoming resistance. Psyker Requires psychic training or a class feature that allows psyker weapons. Reload X Must reload af",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 35,
+      "context": " a normal attack roll. Spirit Weapon A Psyker may use their psychic ability modifier instead of Strength or Dexterity for attack and damage rolls.",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "explosive",
+      "pdfPage": 35,
+      "context": "n a success. Cannot be used for opportunity attacks. Blast Explosive or impact burst. Nearby creatures or objects may also be affected, usually wit",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 37,
+      "context": "ng 40/120 Brutal, Reload 8 Scarce Plasma Pistol 2d8 radiant/fire 30/90 Overheat, Reload 4 Rare Melta Pistol 2d10 fire 15/45 Armour-Breaking, Rel",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 37,
+      "context": "adiant/fire 30/90 Overheat, Reload 4 Rare Melta Pistol 2d10 fire 15/45 Armour-Breaking, Reload 2 Rare Stub Rifle 1d8 piercing 70/210 Reload 10 I",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 37,
+      "context": "/180 Burst, Brutal, Twin-Linked, Reload 16 Rare Flamer 3d6 fire 15-ft cone Spray, Reload 4 Controlled Plasma Gun 2d10 radiant/fire 80/240 Overh",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 37,
+      "context": "-ft cone Spray, Reload 4 Controlled Plasma Gun 2d10 radiant/fire 80/240 Overheat, Reload 6 Rare Meltagun 3d10 fire 30/90 Armour-Breaking, Reload",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 37,
+      "context": "0 radiant/fire 80/240 Overheat, Reload 6 Rare Meltagun 3d10 fire 30/90 Armour-Breaking, Reload 4 Rare Grenade Launcher By grenade 80/240 Heavy, ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 37,
+      "context": "Weapon Damage Range Properties Availability Stub Pistol 1d6 piercing 40/120 Light, Reload 6 Issued Laspistol 1d6 radiant 50/150 Light, Reload 12 Iss",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 37,
+      "context": "l 1d6 radiant 50/150 Light, Reload 12 Issued Autopistol 1d6 piercing 40/120 Light, Burst, Reload 12 Issued Hand Cannon 1d8 piercing 30/90 Reload 6 C",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 37,
+      "context": "rcing 40/120 Light, Burst, Reload 12 Issued Hand Cannon 1d8 piercing 30/90 Reload 6 Controlled Bolt Pistol 1d10 piercing 40/120 Brutal, Reload 8 Sca",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 37,
+      "context": "non 1d8 piercing 30/90 Reload 6 Controlled Bolt Pistol 1d10 piercing 40/120 Brutal, Reload 8 Scarce Plasma Pistol 2d8 radiant/fire 30/90 Overheat, R",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 37,
+      "context": "10 fire 15/45 Armour-Breaking, Reload 2 Rare Stub Rifle 1d8 piercing 70/210 Reload 10 Issued Lascarbine 1d8 radiant 60/180 Reload 24 Issued Lasgun 1",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 37,
+      "context": "adiant 70/210 Armour-Breaking, Reload 18 Scarce Autogun 1d8 piercing 60/180 Burst, Suppression, Reload 30 Issued Shotgun 1d10 piercing 30/90 Close-Q",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 37,
+      "context": "ng 60/180 Burst, Suppression, Reload 30 Issued Shotgun 1d10 piercing 30/90 Close-Quarters, Reload 8 Issued Combat Shotgun 1d10 piercing 40/120 Close",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 37,
+      "context": "g 30/90 Close-Quarters, Reload 8 Issued Combat Shotgun 1d10 piercing 40/120 Close-Quarters, Suppression, Reload 8 Controlled Long-Las 1d10 radiant ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 37,
+      "context": "/600 Accurate, Reload 10 Controlled Needle Rifle 1d8 poison/piercing 80/240 Accurate, Silent, Reload 6 Scarce Bolter 1d10 piercing + 1d4 thunder 80/",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 37,
+      "context": "ercing 80/240 Accurate, Silent, Reload 6 Scarce Bolter 1d10 piercing + 1d4 thunder 80/240 Burst, Brutal, Reload 12 Scarce Combi-Bolter 1d10 piercing",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 37,
+      "context": "er 80/240 Burst, Brutal, Reload 12 Scarce Combi-Bolter 1d10 piercing + 1d4 thunder 60/180 Burst, Brutal, Twin-Linked, Reload 16 Rare Flamer 3d6 fir",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 37,
+      "context": "renade 80/240 Heavy, Reload 1 Controlled Heavy Stubber 1d12 piercing 120/360 Heavy, Burst, Suppression, Emplaced, Reload 40 Controlled Heavy Bolter",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 37,
+      "context": "pression, Emplaced, Reload 40 Controlled Heavy Bolter 1d12 piercing + 1d6 thunder 100/300 Heavy, Burst, Brutal, Suppression, Reload 30 Scarce Mult",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "poison",
+      "pdfPage": 37,
+      "context": "ant 150/600 Accurate, Reload 10 Controlled Needle Rifle 1d8 poison/piercing 80/240 Accurate, Silent, Reload 6 Scarce Bolter 1d10 piercing + 1d4 th",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 37,
+      "context": "ol 1d6 piercing 40/120 Light, Reload 6 Issued Laspistol 1d6 radiant 50/150 Light, Reload 12 Issued Autopistol 1d6 piercing 40/120 Light, Burst, Rel",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 37,
+      "context": "0 piercing 40/120 Brutal, Reload 8 Scarce Plasma Pistol 2d8 radiant/fire 30/90 Overheat, Reload 4 Rare Melta Pistol 2d10 fire 15/45 Armour-Breaking",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 37,
+      "context": "b Rifle 1d8 piercing 70/210 Reload 10 Issued Lascarbine 1d8 radiant 60/180 Reload 24 Issued Lasgun 1d8 radiant 80/240 Reload 30 Issued Hot-Shot Las",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 37,
+      "context": "d Lascarbine 1d8 radiant 60/180 Reload 24 Issued Lasgun 1d8 radiant 80/240 Reload 30 Issued Hot-Shot Lasgun 1d10 radiant 70/210 Armour-Breaking, Re",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 37,
+      "context": "un 1d8 radiant 80/240 Reload 30 Issued Hot-Shot Lasgun 1d10 radiant 70/210 Armour-Breaking, Reload 18 Scarce Autogun 1d8 piercing 60/180 Burst, Sup",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 37,
+      "context": "e-Quarters, Suppression, Reload 8 Controlled Long-Las 1d10 radiant 150/600 Accurate, Reload 10 Controlled Needle Rifle 1d8 poison/piercing 80/240 ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 37,
+      "context": " fire 15-ft cone Spray, Reload 4 Controlled Plasma Gun 2d10 radiant/fire 80/240 Overheat, Reload 6 Rare Meltagun 3d10 fire 30/90 Armour-Breaking, R",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 37,
+      "context": "rst, Brutal, Suppression, Reload 30 Scarce Multi-Laser 2d8 radiant 120/360 Heavy, Burst, Emplaced, Reload 40 Scarce",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "thunder",
+      "pdfPage": 37,
+      "context": "ccurate, Silent, Reload 6 Scarce Bolter 1d10 piercing + 1d4 thunder 80/240 Burst, Brutal, Reload 12 Scarce Combi-Bolter 1d10 piercing + 1d4 thunder",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "thunder",
+      "pdfPage": 37,
+      "context": ", Brutal, Reload 12 Scarce Combi-Bolter 1d10 piercing + 1d4 thunder 60/180 Burst, Brutal, Twin-Linked, Reload 16 Rare Flamer 3d6 fire 15-ft cone S",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "thunder",
+      "pdfPage": 37,
+      "context": "aced, Reload 40 Controlled Heavy Bolter 1d12 piercing + 1d6 thunder 100/300 Heavy, Burst, Brutal, Suppression, Reload 30 Scarce Multi-Laser 2d8 ra",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "plasma",
+      "pdfPage": 37,
+      "context": "ed Bolt Pistol 1d10 piercing 40/120 Brutal, Reload 8 Scarce Plasma Pistol 2d8 radiant/fire 30/90 Overheat, Reload 4 Rare Melta Pistol 2d10 fire 15",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "plasma",
+      "pdfPage": 37,
+      "context": " Rare Flamer 3d6 fire 15-ft cone Spray, Reload 4 Controlled Plasma Gun 2d10 radiant/fire 80/240 Overheat, Reload 6 Rare Meltagun 3d10 fire 30/90 A",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "melta",
+      "pdfPage": 37,
+      "context": "lasma Pistol 2d8 radiant/fire 30/90 Overheat, Reload 4 Rare Melta Pistol 2d10 fire 15/45 Armour-Breaking, Reload 2 Rare Stub Rifle 1d8 piercing 7",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "las",
+      "pdfPage": 37,
+      "context": "/120 Close-Quarters, Suppression, Reload 8 Controlled Long-Las 1d10 radiant 150/600 Accurate, Reload 10 Controlled Needle Rifle 1d8 poison/pie",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "bolt",
+      "pdfPage": 37,
+      "context": "2 Issued Hand Cannon 1d8 piercing 30/90 Reload 6 Controlled Bolt Pistol 1d10 piercing 40/120 Brutal, Reload 8 Scarce Plasma Pistol 2d8 radiant/f",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "bludgeoning",
+      "pdfPage": 38,
+      "context": "at Blade 1d6 piercing Finesse, Light Issued Trench Club 1d6 bludgeoning Light Issued Maul 1d8 bludgeoning Versatile 1d10 Issued Shock Maul 1d8 bludgeon",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "bludgeoning",
+      "pdfPage": 38,
+      "context": "ht Issued Trench Club 1d6 bludgeoning Light Issued Maul 1d8 bludgeoning Versatile 1d10 Issued Shock Maul 1d8 bludgeoning Shock Controlled Chain Knife 1",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "bludgeoning",
+      "pdfPage": 38,
+      "context": "d Maul 1d8 bludgeoning Versatile 1d10 Issued Shock Maul 1d8 bludgeoning Shock Controlled Chain Knife 1d6 slashing Light, Chain Controlled Chainsword 1d",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "bludgeoning",
+      "pdfPage": 38,
+      "context": "r Axe 1d10 slashing Power Field, Heavy Rare Power Maul 1d10 bludgeoning Power Field, Shock Rare Thunder Hammer 2d6 bludgeoning Heavy, Power Field, Shoc",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "bludgeoning",
+      "pdfPage": 38,
+      "context": "1d10 bludgeoning Power Field, Shock Rare Thunder Hammer 2d6 bludgeoning Heavy, Power Field, Shock Exceptional Force Sword 1d8 slashing Psyker, Power Fi",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "bludgeoning",
+      "pdfPage": 38,
+      "context": "Sword 1d8 slashing Psyker, Power Field Rare Force Staff 1d6 bludgeoning Psyker, Focus Rare Omnissian Axe 1d10 slashing Mechanicus, Power Field, Heavy R",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "bludgeoning",
+      "pdfPage": 38,
+      "context": "eavy, Burst, Suppression, Reload 40 Scarce Ogryn Club 1d12 bludgeoning Melee Ogryn, Heavy Issued Big Friendly Rock 1d10 bludgeoning 30/90 Ogryn, Throw",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "bludgeoning",
+      "pdfPage": 38,
+      "context": "ludgeoning Melee Ogryn, Heavy Issued Big Friendly Rock 1d10 bludgeoning 30/90 Ogryn, Thrown. Uses Strength. Large or smaller target hit: Strength sav",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "bludgeoning",
+      "pdfPage": 38,
+      "context": "ris or after a short rest. Improvised Brute Shield Bash 1d8 bludgeoning Melee Ogryn, Shield Controlled Power Maul, Ogryn Pattern 2d6 bludgeoning Melee ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "bludgeoning",
+      "pdfPage": 38,
+      "context": "elee Ogryn, Shield Controlled Power Maul, Ogryn Pattern 2d6 bludgeoning Melee Ogryn, Power Field, Shock Rare Industrial Cutter 2d6 slashing Melee Ogryn",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "bludgeoning",
+      "pdfPage": 38,
+      "context": "ashing Melee Ogryn, Heavy, Chain Controlled Slab Hammer 2d8 bludgeoning Melee Ogryn, Heavy, Brutal Controlled",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 38,
+      "context": "ters, Brutal, Reload 4 Scarce Grenadier Gauntlet 2d6 force/fire 40/120 Ogryn, Blast, Reload 1 Scarce Twin-Linked Heavy Stubber 2d10 piercing 10",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 38,
+      "context": "ammer 2d6 bludgeoning Heavy, Power Field, Shock Exceptional Force Sword 1d8 slashing Psyker, Power Field Rare Force Staff 1d6 bludgeoning Psyker,",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 38,
+      "context": "ceptional Force Sword 1d8 slashing Psyker, Power Field Rare Force Staff 1d6 bludgeoning Psyker, Focus Rare Omnissian Axe 1d10 slashing Mechanicus",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 38,
+      "context": "e-Quarters, Brutal, Reload 4 Scarce Grenadier Gauntlet 2d6 force/fire 40/120 Ogryn, Blast, Reload 1 Scarce Twin-Linked Heavy Stubber 2d10 pierci",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 38,
+      "context": "lee Weapons Weapon Damage Properties Availability Knife 1d4 piercing Finesse, Light, Thrown Issued Combat Blade 1d6 piercing Finesse, Light Issued T",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 38,
+      "context": "1d4 piercing Finesse, Light, Thrown Issued Combat Blade 1d6 piercing Finesse, Light Issued Trench Club 1d6 bludgeoning Light Issued Maul 1d8 bludgeo",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 38,
+      "context": "Weapon Damage Range Properties Availability Ripper Gun 1d12 piercing 40/120 Ogryn, Burst, Suppression, Reload 20 Controlled Kickback Shotgun 2d8 pi",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 38,
+      "context": "st, Suppression, Reload 20 Controlled Kickback Shotgun 2d8 piercing 25/75 Ogryn, Close-Quarters, Brutal, Reload 4 Scarce Grenadier Gauntlet 2d6 fo",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 38,
+      "context": "gryn, Blast, Reload 1 Scarce Twin-Linked Heavy Stubber 2d10 piercing 100/300 Ogryn, Heavy, Burst, Suppression, Reload 40 Scarce Ogryn Club 1d12 blu",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "slashing",
+      "pdfPage": 38,
+      "context": "Shock Maul 1d8 bludgeoning Shock Controlled Chain Knife 1d6 slashing Light, Chain Controlled Chainsword 1d8 slashing Chain Controlled Heavy Chainswo",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "slashing",
+      "pdfPage": 38,
+      "context": "n Knife 1d6 slashing Light, Chain Controlled Chainsword 1d8 slashing Chain Controlled Heavy Chainsword 1d10 slashing Heavy, Chain Scarce Power Sword",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "slashing",
+      "pdfPage": 38,
+      "context": "insword 1d8 slashing Chain Controlled Heavy Chainsword 1d10 slashing Heavy, Chain Scarce Power Sword 1d8 slashing Finesse, Power Field Rare Power Ax",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "slashing",
+      "pdfPage": 38,
+      "context": "hainsword 1d10 slashing Heavy, Chain Scarce Power Sword 1d8 slashing Finesse, Power Field Rare Power Axe 1d10 slashing Power Field, Heavy Rare Power",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "slashing",
+      "pdfPage": 38,
+      "context": "Sword 1d8 slashing Finesse, Power Field Rare Power Axe 1d10 slashing Power Field, Heavy Rare Power Maul 1d10 bludgeoning Power Field, Shock Rare Thu",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "slashing",
+      "pdfPage": 38,
+      "context": "oning Heavy, Power Field, Shock Exceptional Force Sword 1d8 slashing Psyker, Power Field Rare Force Staff 1d6 bludgeoning Psyker, Focus Rare Omnissi",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "slashing",
+      "pdfPage": 38,
+      "context": "Staff 1d6 bludgeoning Psyker, Focus Rare Omnissian Axe 1d10 slashing Mechanicus, Power Field, Heavy Rare Relic Blade 1d10 slashing Power Field, Brut",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "slashing",
+      "pdfPage": 38,
+      "context": "ashing Mechanicus, Power Field, Heavy Rare Relic Blade 1d10 slashing Power Field, Brutal, Heavy Exceptional Heavy Axe 1d10 slashing Heavy Controlled",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "slashing",
+      "pdfPage": 38,
+      "context": "shing Power Field, Brutal, Heavy Exceptional Heavy Axe 1d10 slashing Heavy Controlled 8.3 Ogryn Weapons Weapon Damage Range Properties Availability ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "slashing",
+      "pdfPage": 38,
+      "context": " Melee Ogryn, Power Field, Shock Rare Industrial Cutter 2d6 slashing Melee Ogryn, Heavy, Chain Controlled Slab Hammer 2d8 bludgeoning Melee Ogryn, H",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "thunder",
+      "pdfPage": 38,
+      "context": "vy Rare Power Maul 1d10 bludgeoning Power Field, Shock Rare Thunder Hammer 2d6 bludgeoning Heavy, Power Field, Shock Exceptional Force Sword 1d8 sl",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "bludgeoning",
+      "pdfPage": 40,
+      "context": " Industrial, Armour- Breaking Issued Concussion Hammer 1d10 bludgeoning Melee Shock, Heavy Controlled Kin Power Axe 1d10 slashing Melee Power Field, He",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "bludgeoning",
+      "pdfPage": 40,
+      "context": "e Power Field, Armour-Breaking Rare Concussion Gauntlet 1d8 bludgeoning Melee Shock, Light Scarce 8.5 Aeldari Weapons Weapon Damage Range Properties Av",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 40,
+      "context": ", Armour- Breaking, Reload 2 Rare Plasma Beamer 2d8 radiant/fire 60/180 Beam, Overheat, Reload 6 Rare EtaCarn Mining Tool 1d10 slashing/fire Mel",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 40,
+      "context": ", Overheat, Reload 6 Rare EtaCarn Mining Tool 1d10 slashing/fire Melee Heavy, Industrial, Armour- Breaking Issued Concussion Hammer 1d10 bludgeo",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 40,
+      "context": " radiant 90/270 Burst, Reload 30 Controlled Fusion Gun 3d10 fire 30/90 Armour-Breaking, Reload 4 Rare Death Spinner 2d6 slashing 40/120 Entangli",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 40,
+      "context": "210 Armour-Breaking, Reload 12 Scarce Magna-Rail Rifle 2d10 force 120/360 Accurate, Heavy, Armour- Breaking, Reload 2 Rare Plasma Beamer 2d8 radi",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "lightning",
+      "pdfPage": 40,
+      "context": "180 Burst, Mechanicus, Reload 24 Controlled Arc Pistol 1d8 lightning 40/120 Shock, Mechanicus, Reload 6 Scarce Arc Rifle 1d10 lightning 70/210 Shoc",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "lightning",
+      "pdfPage": 40,
+      "context": "g 40/120 Shock, Mechanicus, Reload 6 Scarce Arc Rifle 1d10 lightning 70/210 Shock, Mechanicus, Reload 10 Scarce Taser Goad 1d8 lightning Melee Shoc",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "lightning",
+      "pdfPage": 40,
+      "context": " 70/210 Shock, Mechanicus, Reload 10 Scarce Taser Goad 1d8 lightning Melee Shock, Mechanicus Controlled",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 40,
+      "context": "age Range Properties Availability Autoch-Pattern Pistol 1d8 piercing 40/120 Light, Reload 8 Issued Bolt Revolver 1d8 piercing + 1d4 thunder 40/120 B",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 40,
+      "context": "d8 piercing 40/120 Light, Reload 8 Issued Bolt Revolver 1d8 piercing + 1d4 thunder 40/120 Brutal, Reload 6 Controlled Ion Pistol 1d8 radiant 40/120 ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 40,
+      "context": "Armour-Breaking, Reload 6 Scarce Autoch-Pattern Bolter 1d10 piercing + 1d4 thunder 70/210 Brutal, Reload 12 Controlled Ion Blaster 1d10 radiant 70/2",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 40,
+      "context": "st, Monomolecular, Reload 24 Issued Ranger Long Rifle 1d10 piercing 160/640 Accurate, Silent, Reload 6 Controlled Aeldari Lasblaster 1d8 radiant 90",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 40,
+      "context": "Melee Finesse, Psyker, Spirit Weapon Rare Singing Spear 1d8 piercing/psychic 30/90 Thrown, Psyker, Spirit Weapon Rare Aeldari Power Sword 1d8 slashi",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 40,
+      "context": "on Damage Range Properties Availability Galvanic Rifle 1d10 piercing/radiant 100/300 Accurate, Mechanicus, Reload 12 Controlled Radium Carbine 1d8 ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 40,
+      "context": "urate, Mechanicus, Reload 12 Controlled Radium Carbine 1d8 piercing/radiation 60/180 Burst, Mechanicus, Reload 24 Controlled Arc Pistol 1d8 lightn",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 40,
+      "context": "ng 40/120 Entangling, Reload 8 Rare Witchblade 1d8 slashing/psychic Melee Finesse, Psyker, Spirit Weapon Rare Singing Spear 1d8 piercing/psychic 30",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 40,
+      "context": "esse, Psyker, Spirit Weapon Rare Singing Spear 1d8 piercing/psychic 30/90 Thrown, Psyker, Spirit Weapon Rare Aeldari Power Sword 1d8 slashing Melee",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 40,
+      "context": "ee Finesse, Power Field, Heavy Rare Ghostsword 1d8 slashing/psychic Melee Finesse, Spirit Weapon, Power Field Exceptional Biting Blade 1d10 slashi",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 40,
+      "context": "4 thunder 40/120 Brutal, Reload 6 Controlled Ion Pistol 1d8 radiant 40/120 Armour-Breaking, Reload 6 Scarce Autoch-Pattern Bolter 1d10 piercing + 1",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 40,
+      "context": "hunder 70/210 Brutal, Reload 12 Controlled Ion Blaster 1d10 radiant 70/210 Armour-Breaking, Reload 12 Scarce Magna-Rail Rifle 2d10 force 120/360 Ac",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 40,
+      "context": "e, Heavy, Armour- Breaking, Reload 2 Rare Plasma Beamer 2d8 radiant/fire 60/180 Beam, Overheat, Reload 6 Rare EtaCarn Mining Tool 1d10 slashing/fir",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 40,
+      "context": "hing Melee Power Field, Heavy Rare Plasma Axe 1d10 slashing/radiant Melee Power Field, Armour-Breaking Rare Concussion Gauntlet 1d8 bludgeoning Mel",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 40,
+      "context": "ccurate, Silent, Reload 6 Controlled Aeldari Lasblaster 1d8 radiant 90/270 Burst, Reload 30 Controlled Fusion Gun 3d10 fire 30/90 Armour-Breaking, ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 40,
+      "context": " Range Properties Availability Galvanic Rifle 1d10 piercing/radiant 100/300 Accurate, Mechanicus, Reload 12 Controlled Radium Carbine 1d8 piercing",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiation",
+      "pdfPage": 40,
+      "context": "chanicus, Reload 12 Controlled Radium Carbine 1d8 piercing/radiation 60/180 Burst, Mechanicus, Reload 24 Controlled Arc Pistol 1d8 lightning 40/120",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "slashing",
+      "pdfPage": 40,
+      "context": "/180 Beam, Overheat, Reload 6 Rare EtaCarn Mining Tool 1d10 slashing/fire Melee Heavy, Industrial, Armour- Breaking Issued Concussion Hammer 1d10 bl",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "slashing",
+      "pdfPage": 40,
+      "context": "ludgeoning Melee Shock, Heavy Controlled Kin Power Axe 1d10 slashing Melee Power Field, Heavy Rare Plasma Axe 1d10 slashing/radiant Melee Power Fiel",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "slashing",
+      "pdfPage": 40,
+      "context": "1d10 slashing Melee Power Field, Heavy Rare Plasma Axe 1d10 slashing/radiant Melee Power Field, Armour-Breaking Rare Concussion Gauntlet 1d8 bludgeo",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "slashing",
+      "pdfPage": 40,
+      "context": "on Damage Range Properties Availability Shuriken Pistol 1d6 slashing 50/150 Light, Monomolecular, Reload 12 Issued Shuriken Catapult 1d8 slashing 6",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "slashing",
+      "pdfPage": 40,
+      "context": "ght, Monomolecular, Reload 12 Issued Shuriken Catapult 1d8 slashing 60/180 Burst, Monomolecular, Reload 24 Issued Ranger Long Rifle 1d10 piercing ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "slashing",
+      "pdfPage": 40,
+      "context": "fire 30/90 Armour-Breaking, Reload 4 Rare Death Spinner 2d6 slashing 40/120 Entangling, Reload 8 Rare Witchblade 1d8 slashing/psychic Melee Finesse,",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "slashing",
+      "pdfPage": 40,
+      "context": "d6 slashing 40/120 Entangling, Reload 8 Rare Witchblade 1d8 slashing/psychic Melee Finesse, Psyker, Spirit Weapon Rare Singing Spear 1d8 piercing/ps",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "slashing",
+      "pdfPage": 40,
+      "context": " Thrown, Psyker, Spirit Weapon Rare Aeldari Power Sword 1d8 slashing Melee Finesse, Power Field Rare Monomolecular Blade 1d6 slashing Melee Finesse,",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "slashing",
+      "pdfPage": 40,
+      "context": "ing Melee Finesse, Power Field Rare Monomolecular Blade 1d6 slashing Melee Finesse, Light, Monomolecular Issued Corsair Sabre 1d6 slashing Melee Fin",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "slashing",
+      "pdfPage": 40,
+      "context": "elee Finesse, Light, Monomolecular Issued Corsair Sabre 1d6 slashing Melee Finesse, Light, Monomolecular Controlled Star Glaive 1d10 slashing Melee ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "slashing",
+      "pdfPage": 40,
+      "context": "e Finesse, Light, Monomolecular Controlled Star Glaive 1d10 slashing Melee Finesse, Power Field, Heavy Rare Ghostsword 1d8 slashing/psychic Melee Fi",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "slashing",
+      "pdfPage": 40,
+      "context": "shing Melee Finesse, Power Field, Heavy Rare Ghostsword 1d8 slashing/psychic Melee Finesse, Spirit Weapon, Power Field Exceptional Biting Blade 1d1",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "slashing",
+      "pdfPage": 40,
+      "context": ", Spirit Weapon, Power Field Exceptional Biting Blade 1d10 slashing Melee Heavy, Chain, Monomolecular Rare Executioner Blade 2d6 slashing Melee Hea",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "slashing",
+      "pdfPage": 40,
+      "context": "elee Heavy, Chain, Monomolecular Rare Executioner Blade 2d6 slashing Melee Heavy, Power Field Exceptional 8.6 Mechanicus Weapons Weapon Damage Range",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "thunder",
+      "pdfPage": 40,
+      "context": "120 Light, Reload 8 Issued Bolt Revolver 1d8 piercing + 1d4 thunder 40/120 Brutal, Reload 6 Controlled Ion Pistol 1d8 radiant 40/120 Armour-Breakin",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "thunder",
+      "pdfPage": 40,
+      "context": ", Reload 6 Scarce Autoch-Pattern Bolter 1d10 piercing + 1d4 thunder 70/210 Brutal, Reload 12 Controlled Ion Blaster 1d10 radiant 70/210 Armour-Brea",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "plasma",
+      "pdfPage": 40,
+      "context": "ce 120/360 Accurate, Heavy, Armour- Breaking, Reload 2 Rare Plasma Beamer 2d8 radiant/fire 60/180 Beam, Overheat, Reload 6 Rare EtaCarn Mining Too",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "plasma",
+      "pdfPage": 40,
+      "context": "d Kin Power Axe 1d10 slashing Melee Power Field, Heavy Rare Plasma Axe 1d10 slashing/radiant Melee Power Field, Armour-Breaking Rare Concussion Ga",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "bolt",
+      "pdfPage": 40,
+      "context": "h-Pattern Pistol 1d8 piercing 40/120 Light, Reload 8 Issued Bolt Revolver 1d8 piercing + 1d4 thunder 40/120 Brutal, Reload 6 Controlled Ion Pist",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "acid",
+      "pdfPage": 42,
+      "context": "Industrial protection; resistance to environmental fire or acid at GM discretion. Controlled Powered Carapace 17, max Dex +1 Rare; power-cell m",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 42,
+      "context": ", max +1 Industrial protection; resistance to environmental fire or acid at GM discretion. Controlled Powered Carapace 17, max Dex +1 Rare; pow",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 42,
+      "context": "st. Rare Conversion Field Special Reaction: reduce radiant, fire, force or thunder damage by 2d8 once per short rest; maximum roll emits bright",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 42,
+      "context": "re Conversion Field Special Reaction: reduce radiant, fire, force or thunder damage by 2d8 once per short rest; maximum roll emits bright light",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 42,
+      "context": "mour 13 + Dex modifier Once per short rest, reduce psychic, force or radiant damage by 1d8 + Wisdom modifier. Rare Aspect-Pattern Armour 15 + De",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 42,
+      "context": "d Rune Armour 13 + Dex modifier Once per short rest, reduce psychic, force or radiant damage by 1d8 + Wisdom modifier. Rare Aspect-Pattern Armour ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 42,
+      "context": "short rest. Rare Conversion Field Special Reaction: reduce radiant, fire, force or thunder damage by 2d8 once per short rest; maximum roll emits ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 42,
+      "context": " Dex modifier Once per short rest, reduce psychic, force or radiant damage by 1d8 + Wisdom modifier. Rare Aspect-Pattern Armour 15 + Dex modifier,",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "thunder",
+      "pdfPage": 42,
+      "context": "sion Field Special Reaction: reduce radiant, fire, force or thunder damage by 2d8 once per short rest; maximum roll emits bright light until your",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "bludgeoning",
+      "pdfPage": 44,
+      "context": ". Once per short rest, reduce damage from one non- critical bludgeoning, piercing, or slashing hit by 1d6 + your Constitution modifier. Slab-Lock Brac",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "lightning",
+      "pdfPage": 44,
+      "context": "Shock Insulation Scarce Resistance to the first instance of lightning or electrical damage you take after each short rest. Mag Boots / Anchor Rig Co",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 44,
+      "context": "ort rest, reduce damage from one non- critical bludgeoning, piercing, or slashing hit by 1d6 + your Constitution modifier. Slab-Lock Bracing Contro",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 44,
+      "context": "c Lining Rare Advantage on the first saving throw against a psychic or daemonic effect after each long rest. Species-pattern armour may use cultur",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiation",
+      "pdfPage": 44,
+      "context": "ted. Rad-Seal Shrouds Controlled Advantage on saves against radiation and contaminated atmospheres. The first time you take radiation damage after a",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiation",
+      "pdfPage": 44,
+      "context": "tion and contaminated atmospheres. The first time you take radiation damage after a short rest, reduce it by your proficiency bonus. Servo-Bracing ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "slashing",
+      "pdfPage": 44,
+      "context": "uce damage from one non- critical bludgeoning, piercing, or slashing hit by 1d6 + your Constitution modifier. Slab-Lock Bracing Controlled Slab Shi",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 45,
+      "context": "han brute reinforcement. They favour motion, deception and psychic protection. Modification Availability Effect Holo-Weave Matrix Rare Once per sh",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 45,
+      "context": "e Once per short rest, add +1d4 to a saving throw against a psychic or daemonic effect after seeing the roll but before the result is declared. Ad",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 47,
+      "context": "rolled Krak Grenade Single-target ranged attack; 3d10 force/fire damage. Controlled Smoke Grenade 20-ft radius heavily obscured area for 1 minut",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 47,
+      "context": "turn. Controlled Firebomb 10-ft radius; Dexterity save; 2d6 fire damage and burning ground. Controlled Rad Grenade 10-ft radius; Constitution sa",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 47,
+      "context": ". Controlled Krak Grenade Single-target ranged attack; 3d10 force/fire damage. Controlled Smoke Grenade 20-ft radius heavily obscured area for 1 ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 47,
+      "context": "Availability Frag Grenade 15-ft radius; Dexterity save; 3d6 piercing damage. Controlled Frag Bomb Ogryn only. 20-ft radius; Dexterity save; 4d6 pier",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 47,
+      "context": "led Frag Bomb Ogryn only. 20-ft radius; Dexterity save; 4d6 piercing damage and knocked prone on a failure; half damage and not knocked prone on a ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 49,
+      "context": "treet, a Shock Trooper relies on practised movement and the fire of the people beside them. Courage may be little more than doing the next nece",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 50,
+      "context": "l Features 1 Guardsman Training, Tactical Aim 2 Suppressing Fire 3 Regimental Doctrine 4 Ability Score Improvement / Talent 5 Extra Attack 6 Fir",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 50,
+      "context": "trine 4 Ability Score Improvement / Talent 5 Extra Attack 6 Fire Team Veteran 7 Doctrine Feature 8 Ability Score Improvement / Talent 9 Hold the",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 50,
+      "context": " damage equal to your proficiency bonus. 11.1.3 Suppressing Fire When using a weapon with Burst or Suppression, you may force one target you at",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 50,
+      "context": "u can attack twice when you take the Attack action. 11.1.6 Fire Team Veteran When you hit a creature with a ranged weapon attack, one ally wit",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 50,
+      "context": "ire When using a weapon with Burst or Suppression, you may force one target you attacked this turn to make a Wisdom saving throw. On a failure, ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "plasma",
+      "pdfPage": 50,
+      "context": "ficiency with one specialist weapon group: sniper weapons, plasma weapons, melta weapons, or heavy weapons. 11.1.2 Tactical Aim As a bonus actio",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "melta",
+      "pdfPage": 50,
+      "context": "e specialist weapon group: sniper weapons, plasma weapons, melta weapons, or heavy weapons. 11.1.2 Tactical Aim As a bonus action, choose one c",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "flame",
+      "pdfPage": 52,
+      "context": "ice. Purifier The Purifier confronts threats with cleansing flame and fierce resolve. Their certainty is most interesting when the people needin",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 53,
+      "context": " with a melee weapon attack, you may deal extra radiant or fire damage equal to your proficiency bonus. 11.2.2 Martyr’s Endurance When you are ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 53,
+      "context": "Purifier You gain proficiency with flamers. Once per turn, fire damage you deal ignores resistance. 11.2.6 Extra Attack At level 5, you can at",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 53,
+      "context": "hen you hit with a melee weapon attack, you may deal extra radiant or fire damage equal to your proficiency bonus. 11.2.2 Martyr’s Endurance When ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 54,
+      "context": "w half hit points, your melee attacks deal +1d8 radiant or fire damage. Purifier Your fire damage ignores resistance, and daemons/corrupted ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 54,
+      "context": "e attacks deal +1d8 radiant or fire damage. Purifier Your fire damage ignores resistance, and daemons/corrupted creatures cannot regain hit",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 54,
+      "context": "oints until the start of your next turn after taking your fire damage. 11.2.15 Living Saint’s Shadow Once per long rest, when you are reduced ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 54,
+      "context": "al to twice your proficiency bonus. Purifier When you deal fire damage, one affected creature cannot benefit from cover against your next at",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 54,
+      "context": "t points. You also have advantage on saving throws against psychic intimidation and corruption effects; you remain immune to the frightened cond",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 54,
+      "context": "u are below half hit points, your melee attacks deal +1d8 radiant or fire damage. Purifier Your fire damage ignores resistance, and daemons/co",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 55,
+      "context": "ning helps one companion but frightens another. Pyromancer Fire is both familiar and unforgiving. Ritual restraint, measured breathing or a rem",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 56,
+      "context": "tion, and reading echoes. Pyromancer Universal, Pyromancy Fire, soul-burning, area denial, purging flame. Malefic- Touched Universal, Malefic",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 56,
+      "context": "from a d20 roll made by a creature you can see. Pyromancer Fire powers deal +1 damage per damage die. Malefic-Touched When you trigger Perils,",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 56,
+      "context": "Armour: Light armour. Weapons: Simple weapons, pistols, and force weapons. Special: Uses Psychic Powers and Perils of the Warp. Level Features 1 ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 56,
+      "context": "oxins, and forced growth. Telekine Universal, Telekinesis Force shields, kinetic movement, crushing pressure, battlefield control. Diviner Un",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 56,
+      "context": " equal to your proficiency bonus. Telekine When you cast a force power, you may push the target 10 ft on a failed save. Diviner Once per short",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 56,
+      "context": "11.3 Psyker A sanctioned psychic operative walking the knife-edge between weapon and catastrophe. Allowed Specie",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 56,
+      "context": ": Simple weapons, pistols, and force weapons. Special: Uses Psychic Powers and Perils of the Warp. Level Features 1 Psychic Discipline, Warp Pressu",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 56,
+      "context": "ses Psychic Powers and Perils of the Warp. Level Features 1 Psychic Discipline, Warp Pressure 2 Psychic Ward 3 Discipline Feature 4 Ability Score I",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 56,
+      "context": " Warp. Level Features 1 Psychic Discipline, Warp Pressure 2 Psychic Ward 3 Discipline Feature 4 Ability Score Improvement / Talent 5 Empowered Mani",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 56,
+      "context": "5 7 7 2 16 7 8 2 17 8 8 2 18 8 8 3 19 8 9 3 20 9 9 3 11.3.1 Psychic Discipline Blank / Null-Bound is a GM-permission discipline. It represents a s",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 56,
+      "context": " way as Aeldari player characters. When a Psyker chooses a Psychic Discipline, that choice determines which non-universal powers they can learn. ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 56,
+      "context": "ive consequences. Blank / Null- Bound Universal, Null Anti-psychic pressure, witch- hunting, null aura, Warp denial. This rare path should requi",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 56,
+      "context": "proval because true blanks are not normal psykers. 11.3.2 Psychic Ward When you or an ally within 30 ft takes damage, you may use your reaction ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 56,
+      "context": "u may use your reaction to reduce the damage by 1d8 + your psychic ability modifier. Using this feature increases your Warp Pressure by 1. 11.3.3",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 56,
+      "context": "ge die. Malefic-Touched When you trigger Perils, your next psychic power deals +1d8 damage.",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "flame",
+      "pdfPage": 56,
+      "context": "ersal, Pyromancy Fire, soul-burning, area denial, purging flame. Malefic- Touched Universal, Malefic High-risk damage, fear, possession pressu",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 57,
+      "context": "romancer Once per short rest, your Pyromancy power ignores fire resistance. Malefic-Touched Once per long rest, after triggering Perils, you ma",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 57,
+      "context": "est, when a creature within 60 ft triggers Perils, you may force it to reroll the Perils severity roll and use the lower result if it is an all",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "poison",
+      "pdfPage": 57,
+      "context": "omancer Your healing powers also end one minor bleeding or poison effect. Telekine Your forced movement increases by 5 ft. Diviner When you use ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 57,
+      "context": "k / Null-Bound You have advantage on saving throws against psychic powers and Perils effects. When a creature you can see within 30 ft gains Wa",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 57,
+      "context": " gains Warp Pressure, you may use your reaction to reduce psychic damage dealt to one ally by your proficiency bonus. 11.3.5 Empowered Manifesta",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 57,
+      "context": "nifestation At level 5, once per short rest, you may cast a psychic power as Empowered without increasing its warp pressure cost. 11.3.6 Discipli",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 57,
+      "context": "your proficiency bonus. Blank / Null-Bound When you reduce psychic damage or resist a psychic effect, one hostile psyker or daemon within 30 ft",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 57,
+      "context": "nk / Null-Bound When you reduce psychic damage or resist a psychic effect, one hostile psyker or daemon within 30 ft has disadvantage on its nex",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 57,
+      "context": " same power. 11.3.11 Major Power Access You may learn Major Psychic Powers from your chosen discipline. You may know only one Major Power at level",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 57,
+      "context": "t point instead. Telekine Once per short rest, when you use Psychic Ward, you may also push the attacker 10 ft. Diviner Once per long rest, replac",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 58,
+      "context": "by the people still standing behind them when the incoming fire finally stops. Gun Lugger Heavy weapons demand confidence, endurance and attent",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 59,
+      "context": "tal Impact Once per turn, when you hit with a melee weapon, force the target to make a Strength saving throw. DC = 8 + proficiency bonus + Stren",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 59,
+      "context": " weapon or Ogryn weapon, deal an additional 2d8 damage and force the target to make a Strength saving throw. On a failure, it is knocked prone.",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 59,
+      "context": "fails a Wisdom or Intelligence saving throw against fear, psychic manipulation, confusion, or Suppression, you may use your reaction to let tha",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "bludgeoning",
+      "pdfPage": 60,
+      "context": "e per turn, when you push or knock a creature prone, deal bludgeoning damage equal to your Strength modifier. 11.4.15 Walking Fortress Once per long",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "bludgeoning",
+      "pdfPage": 60,
+      "context": "tress Once per long rest, for 1 minute, gain resistance to bludgeoning, piercing, and slashing damage from non-powered weapons. During this time, your",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 60,
+      "context": "r long rest, for 1 minute, gain resistance to bludgeoning, piercing, and slashing damage from non-powered weapons. During this time, your speed ca",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "slashing",
+      "pdfPage": 60,
+      "context": "or 1 minute, gain resistance to bludgeoning, piercing, and slashing damage from non-powered weapons. During this time, your speed cannot be reduce",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 62,
+      "context": "ves away from you or an ally, you may use your reaction to force it to make a Wisdom save. On a failure, its movement ends. 11.5.10 Judgement P",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 62,
+      "context": "ttack becomes a critical hit. 11.5.11 Riot Control When you force a creature to make a save against Authority, Lockdown Order, or No Escape, you",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "poison",
+      "pdfPage": 65,
+      "context": "age. Chem-User You gain advantage on saving throws against poison and combat drugs. Sump Ghost You may hide when lightly obscured by smoke, ste",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "las",
+      "pdfPage": 67,
+      "context": "nally makes them abandon an excellent firing position. Long-Las Sniper A carefully maintained rifle and a patient eye are professional tools. T",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "las",
+      "pdfPage": 68,
+      "context": "k armour. Weapons: Pistols, knives, shotguns, lasguns, long-las, sniper weapons. Tools: Cook’s utensils or thieves’ tools. Level Features 1 Sma",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "las",
+      "pdfPage": 68,
+      "context": "lt terrain for you. 11.7.4 Ratling Trick Trick Benefit Long-Las Sniper If you do not move this turn, your first ranged attack gains +2 to hit.",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "las",
+      "pdfPage": 68,
+      "context": "rn. 11.7.7 Ratling Trick Feature Ratling Trick Feature Long-Las Sniper Your first Accurate weapon hit each combat adds +1d6 damage. Underhive ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "las",
+      "pdfPage": 68,
+      "context": "s. 11.7.14 Ratling Trick Feature Ratling Trick Feature Long-Las Sniper When you use Killshot, the attack ignores light and heavy cover and ig",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "las",
+      "pdfPage": 69,
+      "context": "6. 11.7.18 Ratling Trick Feature Ratling Trick Feature Long-Las Sniper Your first Accurate weapon hit each round ignores heavy cover. Underhiv",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 70,
+      "context": "nger A hooded hunter accustomed to endurance and deliberate fire. The galvanic rifle is cared for with the patient attention given to a trusted",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "poison",
+      "pdfPage": 71,
+      "context": "ture affected by Vanguard Protocol also takes +1d4 rad or poison damage when you hit it. Protector If the protected attack misses, the ally gai",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "poison",
+      "pdfPage": 72,
+      "context": "u did not move. Vanguard Creatures damaged by your rad or poison effects cannot regain hit points until your next turn. Protector When you use ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "poison",
+      "pdfPage": 72,
+      "context": "o ignore heavy cover once per round. Vanguard Your rad or poison effects impose disadvantage on the target’s next Strength or Constitution sav",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 77,
+      "context": "ll of 7 or lower as an 8. This does not apply during direct psychic interference or Warp distortion.",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 80,
+      "context": "t of your next turn or until you make an attack. This is a psychic-adjacent Aeldari trick, not a normal Imperial stealth field. 11.11.14 Path Fea",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 82,
+      "context": "uture for complete understanding. Storm Warlock Destructive force demands a disciplined mind. A Storm Warlock may appear still and controlled eve",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "lightning",
+      "pdfPage": 82,
+      "context": " A Storm Warlock may appear still and controlled even while lightning answers the motion of a hand. Spirit Guardian Protection extends beyond the im",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 82,
+      "context": " the Path of the Warrior. That martial history helps shape psychic gifts suited to battle, channelled through discipline, runes and ritual equipme",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 83,
+      "context": "you can see. Storm Warlock When you deal force, lightning, fire, or radiant damage with a psychic power, add +1 damage per die. Spirit Guardi",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 83,
+      "context": "ade by a creature you can see. Storm Warlock When you deal force, lightning, fire, or radiant damage with a psychic power, add +1 damage per ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "lightning",
+      "pdfPage": 83,
+      "context": " a creature you can see. Storm Warlock When you deal force, lightning, fire, or radiant damage with a psychic power, add +1 damage per die. Spirit",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 83,
+      "context": "8 8 8 3 19 8 9 3 20 9 9 3 11.12.1 Runes of Battle You learn psychic powers from the Universal, Divination, Telekinesis, and Warlock power lists. Y",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 83,
+      "context": "u gain levels. 11.12.2 Witchblade Training You may use your psychic ability modifier for attack and damage rolls with witchblades and singing spea",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 83,
+      "context": "mage, use your reaction to reduce the damage by 1d8 + your psychic ability modifier. This increases Warp Pressure by 1. 11.12.4 Warlock Path Path",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 83,
+      "context": "you deal force, lightning, fire, or radiant damage with a psychic power, add +1 damage per die. Spirit Guardian Allies within 10 ft of you gain ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 83,
+      "context": "red Warp Pressure cost. 11.12.6 Battle-Seer When you cast a psychic power from Divination, Telekinesis, or the Warlock list, you may move 5 ft bef",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 83,
+      "context": " Warlock Path feature. Storm Warlock Once per turn, when a psychic power damages a creature, push it 5 ft.",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 83,
+      "context": "ee. Storm Warlock When you deal force, lightning, fire, or radiant damage with a psychic power, add +1 damage per die. Spirit Guardian Allies wi",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 84,
+      "context": "1.12.9 Ghosthelm Discipline When Perils trigger, reduce the psychic damage you take from the Perils result by your proficiency bonus. Once per lon",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 84,
+      "context": "ion. Warlock Path Feature Storm Warlock Your first damaging psychic power each combat deals +1d8 damage. Spirit Guardian Allies protected by your ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 84,
+      "context": "by your Rune Ward also gain advantage on the next fear or psychic saving throw they make before your next turn. 11.12.15 Storm of Runes Once per",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 84,
+      "context": "Storm of Runes Once per long rest, for 1 minute, your first psychic power each turn costs 1 less Warp Pressure, minimum 1. If Perils triggers duri",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 84,
+      "context": "ostile creature within 30 ft has disadvantage on its next psychic saving throw. 11.12.20 Farseer’s Echo Once per long rest, for 1 minute, wheneve",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 86,
+      "context": "d basic weapons as a bonus action instead of an action. Hip Fire After moving at least 10 ft, make one pistol attack as a bonus action. Close-Qu",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 86,
+      "context": "or shotgun, add 1d6 damage. Suppressive Discipline When you force a Suppression save, increase the DC by 1. Field Armourer During a short rest, r",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 86,
+      "context": "ee attack with it. Breacher You have advantage on checks to force doors, smash barricades, and breach weak bulkheads. Your first attack against ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 86,
+      "context": "n wielding a basic firearm in two hands, you may make a 1d6 piercing melee attack with it. Breacher You have advantage on checks to force doors, sma",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "plasma",
+      "pdfPage": 86,
+      "context": "s, sniper weapons, shotguns, chain weapons, shock weapons, plasma, melta, or heavy weapons. Gain +1 damage with that group. Armour Familiarity Wh",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "melta",
+      "pdfPage": 86,
+      "context": "r weapons, shotguns, chain weapons, shock weapons, plasma, melta, or heavy weapons. Gain +1 damage with that group. Armour Familiarity While wea",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "necrotic",
+      "pdfPage": 87,
+      "context": "otice Ogryn Once per short rest, reduce psychic, poison, or necrotic damage by 1d12 + Constitution modifier. Ratling Vanish Ratling When you take d",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "poison",
+      "pdfPage": 87,
+      "context": " Angry to Notice Ogryn Once per short rest, reduce psychic, poison, or necrotic damage by 1d12 + Constitution modifier. Ratling Vanish Ratling Wh",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "poison",
+      "pdfPage": 87,
+      "context": "our proficiency bonus. Rad-Hardened Skitarii Resistance to poison or radiation damage. Advantage on saves against radiation, toxins, and disease",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 87,
+      "context": "kill. Too Angry to Notice Ogryn Once per short rest, reduce psychic, poison, or necrotic damage by 1d12 + Constitution modifier. Ratling Vanish Ra",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 87,
+      "context": "treat a failed Wisdom saving throw against fear, charm, or psychic manipulation as a success. Witch-Sight Human Psyker You can sense active psychi",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 87,
+      "context": "as a success. Witch-Sight Human Psyker You can sense active psychic effects, daemonic influence, and Warp residue within 30 ft. Imperial Flexibili",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 87,
+      "context": "ning Scars Human Psyker When you trigger Perils, reduce the psychic damage you take from that Peril’s result by your proficiency bonus. Hive-Blood",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 87,
+      "context": "ith witchblades and singing spears; these weapons count as psychic for overcoming resistance. Alien Reflexes Aeldari Once per short rest, when an ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiation",
+      "pdfPage": 87,
+      "context": "ciency bonus. Rad-Hardened Skitarii Resistance to poison or radiation damage. Advantage on saves against radiation, toxins, and disease. Noospheric ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiation",
+      "pdfPage": 87,
+      "context": "e to poison or radiation damage. Advantage on saves against radiation, toxins, and disease. Noospheric Burst Skitarii Once per short rest, as a bonu",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "bludgeoning",
+      "pdfPage": 89,
+      "context": "carce Mechadendrite, Combat Once per short rest, make a 1d4 bludgeoning or piercing attack as a bonus action. Scarce Cranial Cogitator Gain proficiency",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 89,
+      "context": "rite, Combat Once per short rest, make a 1d4 bludgeoning or piercing attack as a bonus action. Scarce Cranial Cogitator Gain proficiency in Investig",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "poison",
+      "pdfPage": 89,
+      "context": "e Respirator Implant Advantage on saves against gas, smoke, poison, and airborne disease. Controlled Data-Jack Advantage on checks to interface wi",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "poison",
+      "pdfPage": 89,
+      "context": "n saves against exhaustion from forced marches, blood loss, poison, or shock. Rare Black-Iron Jaw Advantage on Intimidation checks when visible. D",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 90,
+      "context": "SECTION 14 Psychic Powers The candle bends away from a draught nobody feels. Across the chamber, t",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 91,
+      "context": "t. Ignite or extinguish a small flame; one creature takes 1 fire damage if holding a flammable object.",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 91,
+      "context": " Universal Action. Range 60 ft. Psychic attack. On hit, 1d8 force damage. Kinetic Push Telekinesis, Universal Action. Range 30 ft. Strength save.",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 91,
+      "context": "e 30 ft. Strength save. Failure: pushed 10 ft and takes 1d6 force damage. Mind Lumen Divination, Universal Bonus Action. Self. 10 minutes. See ps",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 91,
+      "context": "14 Psychic Powers “If the voice answers before you ask, end the communion.” — Warning copi",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 91,
+      "context": "ion.” — Warning copied into a sanctioned psyker’s journal A psychic attack uses the psychic attack modifier printed in this chapter. A psychic sav",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 91,
+      "context": "nto a sanctioned psyker’s journal A psychic attack uses the psychic attack modifier printed in this chapter. A psychic saving throw uses the psyc",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 91,
+      "context": "ses the psychic attack modifier printed in this chapter. A psychic saving throw uses the psychic save DC. Psychic powers are not spells for rule",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 91,
+      "context": " printed in this chapter. A psychic saving throw uses the psychic save DC. Psychic powers are not spells for rules that specifically refer to s",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 91,
+      "context": " chapter. A psychic saving throw uses the psychic save DC. Psychic powers are not spells for rules that specifically refer to spellcasting unles",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 91,
+      "context": "s and characters with the Touched by the Warp trait can use psychic powers. 14.1 Psychic Save DC 8 + proficiency bonus + Intelligence or Wisdom mod",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 91,
+      "context": " the Touched by the Warp trait can use psychic powers. 14.1 Psychic Save DC 8 + proficiency bonus + Intelligence or Wisdom modifier 14.2 Psychic At",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 91,
+      "context": " + proficiency bonus + Intelligence or Wisdom modifier 14.2 Psychic Attack Modifier Proficiency bonus + Intelligence or Wisdom modifier 14.3 Known ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 91,
+      "context": " relic, corruption event, or GM reward says otherwise. 14.4 Psychic Power Cost and Empowered Powers Revised cost table Each psychic power increases",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 91,
+      "context": "hic Power Cost and Empowered Powers Revised cost table Each psychic power increases Warp Pressure. Empowering a power now concretely changes the po",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 91,
+      "context": "estation If the power requires a saving throw, increase the Psychic Save DC by +1 for that casting. Extended Reach Increase the range by 30 ft, or",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 91,
+      "context": "eckless and should feel dangerous at low levels. 14.5 Minor Psychic Powers Power Tag Rule Warp Spark Universal Action. Range 60 ft. Psychic attack.",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 91,
+      "context": "rs Power Tag Rule Warp Spark Universal Action. Range 60 ft. Psychic attack. On hit, 1d8 force damage. Kinetic Push Telekinesis, Universal Action. R",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 91,
+      "context": "n Divination, Universal Bonus Action. Self. 10 minutes. See psychic traces, Warp residue, emotional impressions, and unnatural disturbances within",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 91,
+      "context": "Flesh Knit Biomancy Action. Touch. A creature regains 1d6 + psychic ability modifier HP. Pain Spike Biomancy Action. Range 60 ft. Constitution save",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 91,
+      "context": "omancy Action. Range 60 ft. Constitution save. Failure: 1d8 psychic damage, and the target cannot take reactions. Ember Flicker Pyromancy Bonus Ac",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "flame",
+      "pdfPage": 91,
+      "context": "ncy Bonus Action. Range 30 ft. Ignite or extinguish a small flame; one creature takes 1 fire damage if holding a flammable object.",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 92,
+      "context": "Pyromancy Action. Range: 60 ft. Psychic attack. On hit, 1d8 fire/radiant damage, and the target sheds dim light until your next turn. Danger Se",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 92,
+      "context": "Universal Action. Range 60 ft. Dexterity save. Failure: 2d6 fire/radiant damage and burns for 1d6 at the start of the next turn; success: half ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 92,
+      "context": " Pyromancy Action. 15-ft cone. Dexterity save. Failure: 3d6 fire/radiant damage; success: half. Daemons and corrupted creatures take +1d6. Burn",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 92,
+      "context": "f. 1 minute. Creatures that hit you with melee attacks take fire damage equal to your proficiency bonus. Terror Echo Malefic Action. Range 60 f",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 92,
+      "context": "versal Action. Range 90 ft. Intelligence save. Failure: 3d8 force damage; success: half. If this kills the target, reduce Warp Pressure by 1. As",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 92,
+      "context": "ee creatures. Psychic attack against each target. Hit: 1d6 force damage. Psychic Shield Telekinesis, Universal Action. Range 30 ft. One creature",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 92,
+      "context": "elekinesis Action. Range 60 ft. Strength save. Failure: 2d8 force damage, and speed becomes 0 until the end of the next turn. Fate’s Nudge Divin",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 92,
+      "context": "eaction. When a creature within 60 ft uses a psychic power, force it to make a Charisma save. On a failure, it adds +1d4 to any Perils severity ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "necrotic",
+      "pdfPage": 92,
+      "context": "radius within 60 ft. Constitution save. Failure: 2d8 poison/necrotic damage and poisoned until next turn; success: half and no poison. Kinetic Bulw",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "poison",
+      "pdfPage": 92,
+      "context": " 10-ft radius within 60 ft. Constitution save. Failure: 2d8 poison/necrotic damage and poisoned until next turn; success: half and no poison. Kin",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "poison",
+      "pdfPage": 92,
+      "context": " damage and poisoned until next turn; success: half and no poison. Kinetic Bulwark Telekinesis Reaction. When an ally within 30 ft is hit, reduce",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 92,
+      "context": "Power Tag Rule Ashen Brand Pyromancy Action. Range: 60 ft. Psychic attack. On hit, 1d8 fire/radiant damage, and the target sheds dim light until ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 92,
+      "context": "fore your next turn. Warp Bite Malefic Action. Range 60 ft. Psychic attack. On hit, 1d10 psychic damage. If you roll a natural 1, immediately add ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 92,
+      "context": "e Malefic Action. Range 60 ft. Psychic attack. On hit, 1d10 psychic damage. If you roll a natural 1, immediately add +1 Warp Pressure. Null Glare ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 92,
+      "context": " a Charisma save. Failure: it has disadvantage on the next psychic attack roll it makes, or the next saving throw it forces, before your next tur",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 92,
+      "context": "ank Sense Null Bonus Action. Self. 10 minutes. Sense active psychic effects, daemonic influence, blanks, and Warp residue within 30 ft. 14.6 Stand",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 92,
+      "context": "ence, blanks, and Warp residue within 30 ft. 14.6 Standard Psychic Powers Power Tag Rule Focused Rupture Universal Action. Range 90 ft. Intelligen",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 92,
+      "context": "niversal Action. Range 60 ft. Choose up to three creatures. Psychic attack against each target. Hit: 1d6 force damage. Psychic Shield Telekinesis,",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 92,
+      "context": "Psychic attack against each target. Hit: 1d6 force damage. Psychic Shield Telekinesis, Universal Action. Range 30 ft. One creature gains temporary",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 92,
+      "context": "Range 30 ft. One creature gains temporary HP equal to 1d8 + psychic ability modifier + proficiency bonus and advantage on fear saves while they re",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 92,
+      "context": "n. When an ally within 30 ft is hit, reduce damage by 2d8 + psychic ability modifier. Crush Grip Telekinesis Action. Range 60 ft. Strength save. Fa",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 92,
+      "context": "e: frightened until the end of the next turn and takes 2d6 psychic damage. Baleful Rupture Malefic Action. Range 90 ft. Intelligence save. Failure",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 92,
+      "context": "alefic Action. Range 90 ft. Intelligence save. Failure: 4d8 psychic damage; success: half. Add +1 extra Warp Pressure after resolving. Null Field ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 92,
+      "context": "Allies in the aura have advantage on saving throws against psychic powers. Hostile psykers inside the aura increase Warp Pressure by +1 when usin",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 92,
+      "context": "he Witch Null Reaction. When a creature within 60 ft uses a psychic power, force it to make a Charisma save. On a failure, it adds +1d4 to any Per",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 92,
+      "context": "ancy Action. Range: 60 ft. Psychic attack. On hit, 1d8 fire/radiant damage, and the target sheds dim light until your next turn. Danger Sense Divi",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 92,
+      "context": "rsal Action. Range 60 ft. Dexterity save. Failure: 2d6 fire/radiant damage and burns for 1d6 at the start of the next turn; success: half and no b",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 92,
+      "context": "mancy Action. 15-ft cone. Dexterity save. Failure: 3d6 fire/radiant damage; success: half. Daemons and corrupted creatures take +1d6. Burning Halo",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 93,
+      "context": "int within 90 ft. 15-ft radius Dexterity save. Failure: 5d6 fire/radiant damage; success:s half. Prescient Execution Divination Bonus Action. R",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 93,
+      "context": "on. 20-ft radius within 90 ft. Dexterity save. Failure: 4d6 fire/radiant damage and burning ground for 1 minute; success:s half. Malefic Door M",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 93,
+      "context": " Pyromancy Action. 15-ft cone. Dexterity save. Failure: 5d6 fire/radiant damage; success: half. Corrupted creatures take +1d6. Fortune Thread M",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 93,
+      "context": "elekinesis Action. Range 60 ft. Strength save. Failure: 4d8 force damage and restrained until the end of the next turn; success: half and not re",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 93,
+      "context": "ntage on Constitution saves until next turn; success: half. Force Dome Telekinesis Action. 10-ft radius centred on a point within 60 ft. Allies i",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "necrotic",
+      "pdfPage": 93,
+      "context": "omancy Action. Range 60 ft. Constitution save. Failure: 5d8 necrotic damage, and the target has disadvantage on Constitution saves until next turn;",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 93,
+      "context": "14.7 Major Psychic Powers Power Tag Rule Telekinetic Crush Telekinesis Action. Range 60 ft. Streng",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 93,
+      "context": "Surge Biomancy Action. Touch. A creature regains 4d8 + your psychic ability modifier HP and gains advantage on Strength and Constitution saves for",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 93,
+      "context": "aming tear. One creature makes a Wisdom save. Failure: 6d8 psychic damage and frightened for 1 minute; repeat save at the end of each turn. Immed",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 93,
+      "context": "incapacitated until the end of the next turn and takes 4d8 psychic damage. If this triggers Perils, roll Perils severity with advantage and use t",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 93,
+      "context": "n. 15-ft radius centred on you for 1 minute, concentration. Psychic powers cast inside the area cost +1 Warp Pressure, and allies inside the area ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 93,
+      "context": "es inside the area have advantage on saving throws against psychic powers. 14.8 Warlock Rune Powers Warlock Rune Powers are discipline-locked to A",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 93,
+      "context": "ithin 90 ft. 15-ft radius Dexterity save. Failure: 5d6 fire/radiant damage; success:s half. Prescient Execution Divination Bonus Action. Range 30 ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 93,
+      "context": "0-ft radius within 90 ft. Dexterity save. Failure: 4d6 fire/radiant damage and burning ground for 1 minute; success:s half. Malefic Door Malefic A",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 93,
+      "context": "mancy Action. 15-ft cone. Dexterity save. Failure: 5d6 fire/radiant damage; success: half. Corrupted creatures take +1d6. Fortune Thread Major War",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 95,
+      "context": "he first time on a turn or starts its turn there takes 2d6 force damage. 15.4.8 Catastrophic Perils You drop to 0 hit points. Every creature wit",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 95,
+      "context": "15 Perils of the Warp Psychic power is not normal spellcasting. It is dangerous, unstable, and tempting. 15.",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 95,
+      "context": "arp Pressure. Warp Pressure starts at 0. Whenever you use a psychic power, increase your Warp Pressure by that power’s cost. After resolving the p",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 95,
+      "context": "roficiency bonus. On failure, reduce it by 1 and take 1d6 psychic damage. Kill with Focused Rupture Reduce Warp Pressure by 1. Stabilising Foc",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 95,
+      "context": " Perils 15.4 Perils Effects 15.4.1 Warp Static You take 1d6 psychic damage and cannot take reactions until your next turn. 15.4.2 Bleeding Eyes Yo",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 95,
+      "context": "ns until your next turn. 15.4.2 Bleeding Eyes You take 2d6 psychic damage and are blinded until the end of your next turn. 15.4.3 Soul Echo Every",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 95,
+      "context": "ery creature within 10 ft of you, including you, takes 2d6 psychic damage. 15.4.4 Warp Scream Creatures of your choice within 30 ft must make a W",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 95,
+      "context": ". 15.4.6 Uncontrolled Manifestation The GM chooses a random psychic power you know. It immediately targets a random valid creature or location. 15",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 95,
+      "context": "rop to 0 hit points. Every creature within 30 ft takes 4d6 psychic damage. A hostile Warp entity, hallucination, corruption event, daemon sign, o",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 96,
+      "context": "t for the first time on a turn or starting there takes 2d6 force damage. 31+ Doom of the Seer You drop to 0 hit points. Every creature within 30",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 96,
+      "context": " Severity Aeldari Peril Result 2-6 Rune Static You take 1d6 psychic damage and cannot use Rune Ward until the start of your next turn. 7-10 Ghosthe",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 96,
+      "context": "e start of your next turn. 7-10 Ghosthelm Pain You take 2d6 psychic damage and have disadvantage on your next psychic attack roll or psychic savin",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 96,
+      "context": " take 2d6 psychic damage and have disadvantage on your next psychic attack roll or psychic saving throw before the end of your next turn. 11-14 An",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 96,
+      "context": "e and have disadvantage on your next psychic attack roll or psychic saving throw before the end of your next turn. 11-14 Ancestral Echo Every crea",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 96,
+      "context": "through your mind. Each creature, including you, takes 1d6 psychic damage and cannot take reactions until its next turn. 15-18 Fate Snarl Until th",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 96,
+      "context": " the end of your next turn. One ally within 30 ft takes 1d6 psychic damage unless they succeed on a Wisdom save against your Psychic Save DC. 23-2",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 96,
+      "context": "c damage unless they succeed on a Wisdom save against your Psychic Save DC. 23-26 Rune Miscast The GM chooses a Warlock, Divination, or Telekinesi",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 96,
+      "context": "drop to 0 hit points. Every creature within 30 ft takes 4d6 psychic damage. You gain 1 Corruption or a GM-approved Doom Mark tied to Aeldari fate,",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 96,
+      "context": "rity Malefic Peril Result 2-6 Malignant Static You take 1d6 psychic damage and have disadvantage on your next saving throw against fear, charm, or",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 96,
+      "context": "fear, charm, or corruption. 7-10 Blooded Eyes You take 2d6 psychic damage and a nearby Warp entity, cult icon, or daemon-touched creature becomes",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 96,
+      "context": " Echo Every creature within 10 ft, including you, takes 2d6 psychic damage. The GM may describe a hostile voice, omen, or watching presence. 15-18",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 96,
+      "context": "he end of your next turn. Make a Charisma save against your Psychic Save DC; on a failure, gain 1 Corruption. 23-26 Unbidden Manifestation The GM ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 96,
+      "context": "or 1 minute. Creatures entering or starting there take 2d6 psychic damage. Daemons and corrupted creatures have advantage on their next attack ma",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 96,
+      "context": "drop to 0 hit points. Every creature within 30 ft takes 4d6 psychic damage. A hostile Warp entity, possession threat, or daemon sign enters the sc",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 98,
+      "context": "16 Corruption Corruption represents lasting spiritual, psychic or bodily contamination. It is optional, but strongly recommended in campaign",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 98,
+      "context": "tions. 2 Tainted. The signs become repeatable; appropriate psychic or religious investigation can detect them. 3 Scarred. Choose or gain a minor ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 98,
+      "context": "ng hallucination, warp-sensitive wound, compulsive ritual, psychic echo, social stigma or another narrow effect. A scar should produce decisions ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 100,
+      "context": "rmour; symbol of faith; 1 firebomb; 1 frag grenade. Psyker Force sword or force staff; laspistol; heavy clothing or light armour; sanctioning br",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 100,
+      "context": "f faith; 1 firebomb; 1 frag grenade. Psyker Force sword or force staff; laspistol; heavy clothing or light armour; sanctioning brands/restraints",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 100,
+      "context": "y clothing or light armour; sanctioning brands/restraints; psychic focus; 2 Minor and 2 Standard Psychic Powers. Ogryn Skullbreaker Ripper gun or ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 100,
+      "context": "g brands/restraints; psychic focus; 2 Minor and 2 Standard Psychic Powers. Ogryn Skullbreaker Ripper gun or Ogryn club; Ogryn plate; 1 frag bomb; ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 100,
+      "context": " Witchblade or singing spear; shuriken pistol; rune armour; psychic focus/rune stones; 2 Minor and 2 Standard powers; spirit charm.",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "las",
+      "pdfPage": 100,
+      "context": "g grenade; black-market contact. Ratling Sharpshooter Long-las or lasgun; stub pistol or laspistol; knife; heavy clothing or flak armour; camo",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "bolt",
+      "pdfPage": 100,
+      "context": "grenades. Kin Armsman Autoch-pattern bolter or ion blaster; bolt revolver or autoch-pattern pistol; Kin mesh or Hearthkyn plate; Kin power axe ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "bolt",
+      "pdfPage": 100,
+      "context": "es; oath-token. Hernkyn Prospector Autoch-pattern pistol or bolt revolver; ion blaster or magna-rail rifle with GM approval; prospector rig; kn",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 101,
+      "context": "tion Once, when you fail a save against fear, corruption or psychic horror, add 1d4 to the roll; consumed or ritually spent. Controlled",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "plasma",
+      "pdfPage": 101,
+      "context": "ck Action or downtime Restore one expended Reload cycle for plasma, melta, bolt, needle, Kin, Aeldari or other advanced ammunition when that ammu",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "melta",
+      "pdfPage": 101,
+      "context": "n or downtime Restore one expended Reload cycle for plasma, melta, bolt, needle, Kin, Aeldari or other advanced ammunition when that ammunition ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "bolt",
+      "pdfPage": 101,
+      "context": "wntime Restore one expended Reload cycle for plasma, melta, bolt, needle, Kin, Aeldari or other advanced ammunition when that ammunition is lim",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "plasma",
+      "pdfPage": 103,
+      "context": "ition, carapace components and surveillance gear. Scarce 14 Plasma fuel, advanced auspexes, quality bionics and specialist transport. Rare 17 Powe",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 104,
+      "context": "ng Lug Issued A suitable ranged weapon can be used as a 1d6 piercing melee weapon without drawing another weapon. It is not Finesse unless the base",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 104,
+      "context": " Warp-Born creature or explicitly corrupted target, add +1 radiant damage per weapon damage die. Archeotech Interface Exceptional Choose one comp",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "physical",
+      "pdfPage": 104,
+      "context": " the same modification twice, and a modification must make physical and fictional sense for the weapon. The GM may rename an upgrade to match its ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 105,
+      "context": " bolt or flamer weapons. Once per turn on a hit, deal +1d4 fire damage. The ammunition is conspicuous and rarely appropriate for stealth. Hot-",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 105,
+      "context": " wearing armour of AC 13 or lower before Dexterity. Armour-Piercing Scarce Projectile or bolt weapons only. Once during the Reload cycle, one attac",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 105,
+      "context": "harge Pack Scarce Las weapons only. Once per turn, add +1d4 radiant damage, but the weapon gains Overheat for that Reload cycle. Sanctified Ammuni",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 105,
+      "context": "arp-Born creature or explicitly corrupted target, add +1d4 radiant damage. Xenos / Exotic Magazine Rare Restores one Reload cycle for a matching x",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "las",
+      "pdfPage": 105,
+      "context": "arely appropriate for stealth. Hot-Shot Charge Pack Scarce Las weapons only. Once per turn, add +1d4 radiant damage, but the weapon gains Ove",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "bolt",
+      "pdfPage": 105,
+      "context": "ower before Dexterity. Armour-Piercing Scarce Projectile or bolt weapons only. Once during the Reload cycle, one attack gains Armour-Breaking. ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "bolt",
+      "pdfPage": 105,
+      "context": "ore the attack roll. Incendiary Scarce Suitable projectile, bolt or flamer weapons. Once per turn on a hit, deal +1d4 fire damage. The ammuniti",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 106,
+      "context": "s. Item Availability Effect Inferno Pistol Exceptional 2d10 fire; 20/60 ft; Light, Armour-Breaking, Reload 2. Aeldari-pattern cells and mainten",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 106,
+      "context": "nd maintenance are normally required. Grav-Pistol Rare 1d10 force; 40/120 ft; Armour-Breaking, Reload 6. Once per turn against AC 17+, a vehicle",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 106,
+      "context": "r turn against AC 17+, a vehicle or a structure, deal +1d6 force damage.",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 107,
+      "context": "fter you hit a creature within 10 ft, deal +1d6 radiant or fire damage. It is not found without a deliberate search or suitable auspex. Null R",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 107,
+      "context": "ailability Effect Volkite Serpenta Exceptional 1d10 radiant/fire; 50/150 ft; Light, Reload 8. Once per turn when you hit a Bloodied target, dea",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 107,
+      "context": "8. Once per turn when you hit a Bloodied target, deal +1d6 fire damage. Volkite Charger Near-Unique 2d8 radiant/fire; 80/240 ft; Burst, Reload ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 107,
+      "context": "l +1d6 fire damage. Volkite Charger Near-Unique 2d8 radiant/fire; 80/240 ft; Burst, Reload 12. Once per turn, if the target has already taken d",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 107,
+      "context": " the target has already taken damage this round, deal +1d8 fire damage. Suspensor Harness Exceptional Choose one Heavy weapon you carry. You ig",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 107,
+      "context": "s movement-based Heavy penalty. If it is Emplaced, you may fire it as though it were merely Heavy while the harness is functioning. Requires S",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 107,
+      "context": "Item Availability Effect Grav-Gun Exceptional 2d8 force; 60/180 ft; Heavy, Armour-Breaking, Reload 6. On a hit against AC 17+, a vehic",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 107,
+      "context": "Once per short rest, use your reaction to reduce psychic or force damage to you by 2d8; a Warp-using source also gains +1 Warp Pressure. Rosariu",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 107,
+      "context": "ng source also gains +1 Warp Pressure. Rosarius Exceptional Force-field icon. Once per short rest, use your reaction to reduce damage to yoursel",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 107,
+      "context": "reaction cannot be used. Conversion Beamer Exceptional 2d10 force; 120/360 ft; Heavy, Beam, Emplaced, Reload 2. If the primary target is at leas",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 107,
+      "context": "2. If the primary target is at least 60 ft away, add +1d10 force damage. Teleport Homer Rare Action to deploy. Once per long rest, a friendly te",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "lightning",
+      "pdfPage": 107,
+      "context": "Arc of the Reductor - Mechanicus Near-Unique Arc rifle: 2d8 lightning; 80/240 ft; Shock, Armour-Breaking, Mechanicus, Reload 8. Once per short rest,",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 107,
+      "context": "Rod Exceptional While held, gain advantage on saves against psychic and daemonic effects. Once per short rest, use your reaction to reduce psychic",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 107,
+      "context": " effects. Once per short rest, use your reaction to reduce psychic or force damage to you by 2d8; a Warp-using source also gains +1 Warp Pressure",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 107,
+      "context": "ort rest, after you hit a creature within 10 ft, deal +1d6 radiant or fire damage. It is not found without a deliberate search or suitable auspex",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 107,
+      "context": " Item Availability Effect Volkite Serpenta Exceptional 1d10 radiant/fire; 50/150 ft; Light, Reload 8. Once per turn when you hit a Bloodied target",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 107,
+      "context": "get, deal +1d6 fire damage. Volkite Charger Near-Unique 2d8 radiant/fire; 80/240 ft; Burst, Reload 12. Once per turn, if the target has already ta",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 107,
+      "context": "y Effect The Last Light - Imperial Near-Unique Lasgun: 1d10 radiant; 100/300 ft; Accurate, Armour-Breaking, Reload 30. Once per short rest on a hi",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 107,
+      "context": "ft; if the original attack roll would hit it, it takes 1d10 radiant damage. Bulwark of Saint Drusus - Imperial Near-Unique Refractor relic. Once p",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 107,
+      "context": "corrupted creatures that start their turn in the aura take radiant damage equal to your proficiency bonus. Arc of the Reductor - Mechanicus Near-",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "bludgeoning",
+      "pdfPage": 108,
+      "context": "ilability Effect Grutt's Lucky Club - Ogryn Exceptional 2d6 bludgeoning; Melee; Ogryn, Heavy, Brutal. Once per short rest when you miss with it, rerol",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 108,
+      "context": "d 10 ft. Ancestor-Wrought Rail Rifle - Kin Near-Unique 2d10 force; 150/450 ft; Accurate, Heavy, Armour-Breaking, Reload 2. Once per short rest, ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 108,
+      "context": "r and Corruption saves; you gain resistance to psychic and force damage. Burden: visible possession attracts Ecclesiarchal attention and expect",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 108,
+      "context": ", minimum 0. Starfall Long Rifle - Aeldari Near-Unique 1d10 piercing; 180/720 ft; Accurate, Silent, Monomolecular, Reload 6. If you are Hidden and ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 108,
+      "context": "ntage on fear and Corruption saves; you gain resistance to psychic and force damage. Burden: visible possession attracts Ecclesiarchal attention ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 108,
+      "context": "ged attacks ignore Light Cover. Burden: The item carries a psychic echo noticeable to Aeldari and Warp-sensitive beings. The Door That Would Not B",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "poison",
+      "pdfPage": 110,
+      "context": "ajor surgery. Field Medicae Treat combat wounds, infection, poison and uncomplicated surgery. Hospital / Regimental Major surgery, rehabilitatio",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 110,
+      "context": "nt. Specialist Advanced augmetics, rare disease treatment, psychic care or xenobiological expertise. Exceptional Archeotech intervention, elite ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 112,
+      "context": "M may allow a character to retrain one proficiency, Talent, psychic power or comparable choice when the fiction supports training, reconditioning,",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "bludgeoning",
+      "pdfPage": 114,
+      "context": " below; a fall into a chasm remains a fall. Falls deal 1d6 bludgeoning per 10 ft, maximum 20d6, ignoring DT; exposed occupants take their own falling",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "bludgeoning",
+      "pdfPage": 115,
+      "context": "modifier + Vehicles proficiency, if trained. Damage is 4d6 bludgeoning for a Large rammer, 6d6 for Huge or 8d6 for Gargantuan. A creature takes half o",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 115,
+      "context": " its mounted area weapons. Cannot combine with Drive Hard. Fire a Mount At its station, make one mounted attack or use one mounted area weapon.",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 115,
+      "context": "ea weapon. Extra Attack does not add shots. Each mount can fire only once per round, including reactions. Reload a Mount At its station or load",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 115,
+      "context": "gy) check to clear one weapon jam, engine stall or vehicle fire. Restores no HP. One action cannot both drive and fire. A one-crew vehicle can ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 115,
+      "context": "icle fire. Restores no HP. One action cannot both drive and fire. A one-crew vehicle can move normally and fire using its driver’s action, but ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 115,
+      "context": "th drive and fire. A one-crew vehicle can move normally and fire using its driver’s action, but cannot Drive Hard and fire that turn. Readying ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 115,
+      "context": " fire using its driver’s action, but cannot Drive Hard and fire that turn. Readying a mount uses Ready and a reaction; its once-per-round limit",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 115,
+      "context": "still applies. An explicitly granted additional action may fire a different mount that the operator can access. Mounted attack = d20 + Dexterit",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 115,
+      "context": "eatures do not automatically apply to mounts. Turret mounts fire in any direction; forward mounts fire in a 90-degree arc centred on the hull’s ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 115,
+      "context": "mounts. Turret mounts fire in any direction; forward mounts fire in a 90-degree arc centred on the hull’s front. Terrain and the hull still blo",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 115,
+      "context": "the hull’s front. Terrain and the hull still block line of fire. Vehicle movement counts as occupant movement for Accurate and other “did not m",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 115,
+      "context": "their normal rules, including Extra Attack; they do not use Fire a Mount. Closed compartments provide Full Cover from outside attacks and effect",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 115,
+      "context": "iders provide Light Cover where the hull blocks the line of fire. Using a hatch or firing port exposes that occupant with Heavy Cover until the",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "bludgeoning",
+      "pdfPage": 116,
+      "context": "ts. Each occupant makes a DC 13 Dexterity save, taking 2d6 bludgeoning on failure or half on success. Conscious occupants may immediately leave into a",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "bludgeoning",
+      "pdfPage": 116,
+      "context": "also puts you Prone in the nearest safe space and deals 2d6 bludgeoning. Closed or locked hatches must still be opened or breached. Moving inside then",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 116,
+      "context": "until repaired. 3 Weapon jam One random fitted mount cannot fire until Damage Control succeeds. With no mount, use result 2. 4 Hull breach Lose",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 116,
+      "context": "g movement is lost until Damage Control succeeds. 6 Vehicle fire At the end of the driver’s turn, hull takes 2d6 fire damage ignoring DT. If unc",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 116,
+      "context": "ehicle fire At the end of the driver’s turn, hull takes 2d6 fire damage ignoring DT. If uncontrolled, use the former driver’s initiative. Damag",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 116,
+      "context": "rmally or be rescued. Wrecks do not automatically explode. Fire or hazardous cargo may create a separately signalled danger. Uncontrolled movem",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "poison",
+      "pdfPage": 116,
+      "context": "they overcome DT. Vehicles are objects. Hulls are immune to poison, disease, radiation, fear, Suppression and effects that target only creatures ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 116,
+      "context": "ppression and effects that target only creatures or minds. Psychic damage cannot harm a hull unless the power explicitly affects machinery or obje",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiation",
+      "pdfPage": 116,
+      "context": " Vehicles are objects. Hulls are immune to poison, disease, radiation, fear, Suppression and effects that target only creatures or minds. Psychic da",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 117,
+      "context": "ge Control Action; DC 13 Technology Clear one jam, stall or fire; no HP or parts. Field repair 10 minutes, tools, one repair kit; DC 13 Technol",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "physical",
+      "pdfPage": 118,
+      "context": "hoose one version; no duplicates. Chassis must have enough physical room. Spare-parts locker Scarce Includes two repair kits. Once per mission rero",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "bolt",
+      "pdfPage": 120,
+      "context": " Passengers 6 | Cargo 300 kg | Exceptional Weapons: forward bolt cannon and turret HYLas rotary cannon (same G; choose one per action). Enclosed",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 121,
+      "context": "pon Damage Range Properties Availability Heavy stubber 1d12 piercing 120/360 Burst, Suppression; Reload 40 Controlled Heavy bolter 1d12 piercing + 1",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 121,
+      "context": " Burst, Suppression; Reload 40 Controlled Heavy bolter 1d12 piercing + 1d6 thunder 100/300 Burst, Brutal, Suppression; Reload 30 Scarce Multi-laser",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 121,
+      "context": "2d8 radiant 120/360 Burst; Reload 40 Scarce Autocannon 2d10 piercing 160/480 Armour-Breaking; Reload 10 Rare Lascannon 4d10 radiant 200/600 Armour-B",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 121,
+      "context": "t 200/600 Armour-Breaking; Reload 5 Rare Battle cannon 3d10 piercing + 3d10 thunder 240 15-ft radius; Armour-Breaking; Reload 1 Exceptional Bolt ca",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 121,
+      "context": "dius; Armour-Breaking; Reload 1 Exceptional Bolt cannon 3d8 piercing 120/360 Burst, Brutal; Reload 12 Rare HYLas rotary cannon 3d8 radiant 120/360 B",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 121,
+      "context": "nt 120/360 Burst; Reload 20 Rare Magna-coil autocannon 3d10 piercing 160/480 Armour-Breaking; Reload 8 Rare Scatter laser 3d8 radiant 160/480 Burst;",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "piercing",
+      "pdfPage": 121,
+      "context": "Damage example: a heavy bolter hits a Chimera (DT 10) for 8 piercing + 5 thunder. The combined 13 meets DT, so apply all 13 HP damage. A separate 9",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 121,
+      "context": "urst, Brutal, Suppression; Reload 30 Scarce Multi-laser 2d8 radiant 120/360 Burst; Reload 40 Scarce Autocannon 2d10 piercing 160/480 Armour-Breakin",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 121,
+      "context": "cing 160/480 Armour-Breaking; Reload 10 Rare Lascannon 4d10 radiant 200/600 Armour-Breaking; Reload 5 Rare Battle cannon 3d10 piercing + 3d10 thun",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 121,
+      "context": "0/360 Burst, Brutal; Reload 12 Rare HYLas rotary cannon 3d8 radiant 120/360 Burst; Reload 20 Rare Magna-coil autocannon 3d10 piercing 160/480 Armou",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 121,
+      "context": "ng 160/480 Armour-Breaking; Reload 8 Rare Scatter laser 3d8 radiant 160/480 Burst; Reload 24 Rare Shuriken cannon 2d10 slashing 120/360 Burst, Mono",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "radiant",
+      "pdfPage": 121,
+      "context": "omolecular, Twin-Linked; Reload 24 Scarce Pulse laser 4d10 radiant 200/600 Armour-Breaking; Reload 6 Exceptional Battle cannon: choose a visible p",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "slashing",
+      "pdfPage": 121,
+      "context": " radiant 160/480 Burst; Reload 24 Rare Shuriken cannon 2d10 slashing 120/360 Burst, Monomolecular; Reload 18 Rare Twin shuriken catapults 1d8 slashi",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "slashing",
+      "pdfPage": 121,
+      "context": ", Monomolecular; Reload 18 Rare Twin shuriken catapults 1d8 slashing 60/180 Burst, Monomolecular, Twin-Linked; Reload 24 Scarce Pulse laser 4d10 ra",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "thunder",
+      "pdfPage": 121,
+      "context": "ion; Reload 40 Controlled Heavy bolter 1d12 piercing + 1d6 thunder 100/300 Burst, Brutal, Suppression; Reload 30 Scarce Multi-laser 2d8 radiant 12",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "thunder",
+      "pdfPage": 121,
+      "context": "Breaking; Reload 5 Rare Battle cannon 3d10 piercing + 3d10 thunder 240 15-ft radius; Armour-Breaking; Reload 1 Exceptional Bolt cannon 3d8 piercin",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "thunder",
+      "pdfPage": 121,
+      "context": "e: a heavy bolter hits a Chimera (DT 10) for 8 piercing + 5 thunder. The combined 13 meets DT, so apply all 13 HP damage. A separate 9-damage hit ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "bolt",
+      "pdfPage": 121,
+      "context": "der 240 15-ft radius; Armour-Breaking; Reload 1 Exceptional Bolt cannon 3d8 piercing 120/360 Burst, Brutal; Reload 12 Rare HYLas rotary cannon 3",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 123,
+      "context": "+ proficiency bonus + ability modifier used for the weapon. Psychic save DC 8 + proficiency bonus + Intelligence or Wisdom modifier. Psychic attack",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 123,
+      "context": "DC 8 + proficiency bonus + Intelligence or Wisdom modifier. Psychic attack d20 + proficiency bonus + Intelligence or Wisdom modifier. Grenade save ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "explosive",
+      "pdfPage": 123,
+      "context": "over from armour or vehicle plating at GM discretion. Blast Explosive/impact burst; nearby creatures or objects may also be affected. Brutal On a cri",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 124,
+      "context": " Overheat Natural 1: wielder takes damage and weapon cannot fire again until the end of next turn. Reload X Must reload after X shots or uses. S",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "force",
+      "pdfPage": 124,
+      "context": "ving throw instead of a normal attack roll. Suppression Can force Suppression saves. 22.5 Recovery and Medical Rule / Item Reference Short rest A",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 124,
+      "context": "ttacks/saves -> max HP -> Speed 0 -> death. See 6.14. 22.6 Psychic and Warp Rule Reference Minor power +1 Warp Pressure. Standard power +2 Warp Pr",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 124,
+      "context": "ered effect from Chapter 14. Perils check After resolving a psychic power, roll d20. If the result is equal to or lower than current Warp Pressure",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 124,
+      "context": "re by 1d4 + proficiency. Failure: reduce by 1 and take 1d6 psychic damage. Short/long rest Reduce Warp Pressure to 0. Corruption Track separately ",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "psychic",
+      "pdfPage": 124,
+      "context": "g-rest and proficiency-bonus-limited features. ● If you are psychic, track Warp Pressure openly. ● Keep mission gear, grenades and limited speciali",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "bludgeoning",
+      "pdfPage": 125,
+      "context": " HP Stop, mounts fail. Occupants: DC 13 Dexterity save; 2d6 bludgeoning, half on success. Conscious occupants may exit immediately. Damage Control Act",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 125,
+      "context": "protects the hull. Both penalise attacks from the vehicle. Fire a Mount One attack or area use per action; each mount once per round. Extra Att",
+      "classification": "context_review_required"
+    },
+    {
+      "term": "fire",
+      "pdfPage": 125,
+      "context": "e Control Action; DC 13 Technology: clear one jam, stall or fire. No HP recovery. Field repair 10 minutes, tools, kit, DC 13 Technology. Restore",
+      "classification": "context_review_required"
+    }
+  ]
+}

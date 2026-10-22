@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.hernkyn_prospector.trail_gunner.level_14",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Trail Gunner level 14",
+  "summary": "Trail Gunner; When you score a critical hit with a ranged attack, the target is Suppressed until your next turn.",
+  "descriptionMarkdown": "Trail Gunner; When you score a critical hit with a ranged attack, the target is Suppressed until your next turn.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Trail Gunner level 14",
+        "pdfPage": 78,
+        "printedPage": 65
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Trail Gunner; When you score a critical hit with a ranged attack, the target is Suppressed until your next turn.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.aeldari_warlock.spirit_guardian.level_3",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Spirit Guardian level 3",
+  "summary": "Spirit Guardian; Allies within 10 ft of you gain advantage on saving throws against fear while you are conscious.",
+  "descriptionMarkdown": "Spirit Guardian; Allies within 10 ft of you gain advantage on saving throws against fear while you are conscious.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Spirit Guardian level 3",
+        "pdfPage": 83,
+        "printedPage": 70
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Spirit Guardian; Allies within 10 ft of you gain advantage on saving throws against fear while you are conscious.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

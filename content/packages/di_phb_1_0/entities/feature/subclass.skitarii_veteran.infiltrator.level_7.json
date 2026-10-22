@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.skitarii_veteran.infiltrator.level_7",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Infiltrator Protocol level 7",
+  "summary": "Infiltrator; You may move 10 ft as part of the bonus action used to activate Infiltrator Protocol.",
+  "descriptionMarkdown": "Infiltrator; You may move 10 ft as part of the bonus action used to activate Infiltrator Protocol.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Infiltrator Protocol level 7",
+        "pdfPage": 71,
+        "printedPage": 58
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Infiltrator; You may move 10 ft as part of the bonus action used to activate Infiltrator Protocol.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

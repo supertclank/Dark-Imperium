@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "packageId": "di_phb",
-  "packageVersion": "1.0-intake.1",
+  "packageVersion": "1.0-canonicalisation.1",
   "lifecycle": "draft",
   "dependencies": [],
   "sources": [
@@ -10,7 +10,9 @@
       "sourceVersion": "1.0@a58335b1264a"
     }
   ],
-  "requiredCapabilities": [],
+  "requiredCapabilities": [
+    "phb.roll_bindings.v1"
+  ],
   "publicationBlocked": true,
   "publicationBlockers": [
     "PHB-002",
@@ -20,15 +22,15 @@
   "entities": [
     {
       "id": "di.action.lasgun.base_damage",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/action/lasgun.base_damage.json",
-      "sha256": "3eb9f4985759c9ad2775ecff4a24bfdd42e5b7745198c3b0c6e9b10fecb8d7a9"
+      "sha256": "c7c5fca10645c41e3e8f753c031db51307cee8d5981a58c7393afcd5930c4240"
     },
     {
       "id": "di.action.warp_spark.base_damage",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/action/warp_spark.base_damage.json",
-      "sha256": "eeed2786716d5a785b1f7917c65da8dab768f2b1a4a667604e9840a95179dab0"
+      "sha256": "ece5542d57145ea0317ca2dccfae5cb7b0f4e80d2c35f7f312071b0b11e2654c"
     },
     {
       "id": "di.armour.ogryn_leathers",
@@ -37,64 +39,70 @@
       "sha256": "d3aed68575e58ff0926038bd3d2e2a29104935a18a959875963c4d339d37207f"
     },
     {
-      "id": "di.background.craftworld_outcast",
+      "id": "di.armour.ogryn_plate",
       "revision": 1,
+      "path": "entities/armour/ogryn_plate.json",
+      "sha256": "9f68ecacbe79c6669d63b3d7f3f243391060890a0ed4df579f398e5b70cb82c6"
+    },
+    {
+      "id": "di.background.craftworld_outcast",
+      "revision": 2,
       "path": "entities/background/craftworld_outcast.json",
-      "sha256": "e932084df72a8ab74df871a5ed132f85c47f9004cdce836f5b90ef91e7fd0751"
+      "sha256": "bc3f1a6f5207010403fd047f61ee1af28b43934e7967666ebcc00451f527399b"
     },
     {
       "id": "di.background.forge_world",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/background/forge_world.json",
-      "sha256": "e9b6e609f7c5d1d79dd48f8ab38a41bee0dbcae375c90b01262d45ae5c2a0fc5"
+      "sha256": "a3f65ba34446fe2e129b136296354721871ec50812a1e3c7d363e19e4128e2b2"
     },
     {
       "id": "di.background.hiveborn",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/background/hiveborn.json",
-      "sha256": "4d0f78d8ec7f77c35918504a043725eadc188f7a252a37a620dc1ebdcc68d535"
+      "sha256": "4d15d76ec1a3fea8929dc6d4fe01deb74fb22218ddd077c4ad1cdb844fc82aae"
     },
     {
       "id": "di.background.militarum_regiment",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/background/militarum_regiment.json",
-      "sha256": "9240c5a83a4eea1e2640966c675b316517d194f55b8eab5f08e81378e187fc61"
+      "sha256": "6f7355aee08a3ef5c4b45c88e6a0933ceaa35b5e1830c2a9cdc20aacd2ab0983"
     },
     {
       "id": "di.background.mining_hold_guild",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/background/mining_hold_guild.json",
-      "sha256": "4e94816a6b45c10c5e9cefcf9756099c7b3d63630bba7c4f886165c20e73d26f"
+      "sha256": "ca786d1afcef37584fa12d8dd8296740771343c78130ff306cda0253824ab84b"
     },
     {
       "id": "di.background.penal_worlder",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/background/penal_worlder.json",
-      "sha256": "556ab844534a4e3dbc17baa430874276cc74e2566da4b76ae298c859750eb091"
+      "sha256": "f7abb2e9c7ec753cd824c7bc30ff4413529cb4420f1a56e4554741f9b9507504"
     },
     {
       "id": "di.background.schola_progenium",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/background/schola_progenium.json",
-      "sha256": "c661d56402cc03b947351a20cf090cbe4cffbbb7a45ba6b522649c04f73934cf"
+      "sha256": "bbbf6b32bb15dde12bd4d7247f98d81c3b2bddc97507252557a336ec85349992"
     },
     {
       "id": "di.background.shrine_worlder",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/background/shrine_worlder.json",
-      "sha256": "c6117d47092e61ec6b796cfbe72aa5cc580061a84ac4a481a825054e3b257b72"
+      "sha256": "4b733ae4721b2a8642ac84ea7feb24102e20b19adb6a013baaeb2e6e62ea8599"
     },
     {
       "id": "di.background.underhive",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/background/underhive.json",
-      "sha256": "2ae8eca0d5e83b21e3316b04cc43d47b3c82d774a07c4f73e3567a6e716981ff"
+      "sha256": "eb6ab3ce21db53d9f9fb9da73704fbf4e19cd9a976f5f042b4abf6f264a2ae87"
     },
     {
       "id": "di.background.voidborn",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/background/voidborn.json",
-      "sha256": "54e958a74c628da9f7fdec8f055603e91809ed7a9221fef40c2bb25a01e4791e"
+      "sha256": "d725d76104f1b7ef9f27a3e1c506c53e7a99a021c15421bff6ba8e9bd4ad3fad"
     },
     {
       "id": "di.choice.aeldari.ability_scores",
@@ -103,10 +111,40 @@
       "sha256": "ec2239097b07b9bf850636f72b7d682490849587a2c6633b00cf3d5553d1f300"
     },
     {
+      "id": "di.choice.aeldari_outcast.subclass",
+      "revision": 1,
+      "path": "entities/choice/aeldari_outcast.subclass.json",
+      "sha256": "749956e8e7d479e44f479e6cab4f10823b9731204ca3c35a3fa633596340a7b9"
+    },
+    {
+      "id": "di.choice.aeldari_warlock.subclass",
+      "revision": 1,
+      "path": "entities/choice/aeldari_warlock.subclass.json",
+      "sha256": "cc07cdcbb72f87f4b042bcfba96bb7687fed34881e139995e7e56de161d0aaba"
+    },
+    {
+      "id": "di.choice.arbites_enforcer.subclass",
+      "revision": 1,
+      "path": "entities/choice/arbites_enforcer.subclass.json",
+      "sha256": "47fb075e912b001c020e4c785656ae1b6822ead36d557015a67dc871df8616d5"
+    },
+    {
       "id": "di.choice.craftworld_outcast.skills",
       "revision": 1,
       "path": "entities/choice/craftworld_outcast.skills.json",
       "sha256": "53a54462c38c91af9409c035268c42f19e63113774992fe4e668ad54301fad14"
+    },
+    {
+      "id": "di.choice.hernkyn_prospector.subclass",
+      "revision": 1,
+      "path": "entities/choice/hernkyn_prospector.subclass.json",
+      "sha256": "383ff7699f425602d330ff357544b1d434e9d6c9206d66bc006d2ef99c1a2a13"
+    },
+    {
+      "id": "di.choice.hive_scum.subclass",
+      "revision": 1,
+      "path": "entities/choice/hive_scum.subclass.json",
+      "sha256": "ea26ce9065d2b3251be8f22152c48f30bfa5e72b3914a32856c19c903fc795fd"
     },
     {
       "id": "di.choice.hiveborn.skills",
@@ -133,6 +171,12 @@
       "sha256": "ff5f0b49eec72453d389cc18e1bb720a1db79a160856838f7c2f982bbe3cab6b"
     },
     {
+      "id": "di.choice.kin_armsman.subclass",
+      "revision": 1,
+      "path": "entities/choice/kin_armsman.subclass.json",
+      "sha256": "acb0c56772565887b4db2b49fb042bd92b9d4eeb04b8c431991767f168662458"
+    },
+    {
       "id": "di.choice.militarum_regiment.skills",
       "revision": 1,
       "path": "entities/choice/militarum_regiment.skills.json",
@@ -145,10 +189,28 @@
       "sha256": "fcb99f73a3b8c0474ba2ab4a1a1401101a2dc297e38f73c99a21da6ddbe0cd6a"
     },
     {
+      "id": "di.choice.ogryn_skullbreaker.subclass",
+      "revision": 1,
+      "path": "entities/choice/ogryn_skullbreaker.subclass.json",
+      "sha256": "1595edac3605861a6b19d0cbd8dbe997db3f9ca8bc18a73378cf748b6e0dd1cb"
+    },
+    {
       "id": "di.choice.penal_worlder.skills",
       "revision": 1,
       "path": "entities/choice/penal_worlder.skills.json",
       "sha256": "07b29efd20658bb516e71ed63760dcfc3ad45db1b38eb008e961a8537229a42f"
+    },
+    {
+      "id": "di.choice.psyker.subclass",
+      "revision": 1,
+      "path": "entities/choice/psyker.subclass.json",
+      "sha256": "30a3bb48eaf02e9285382a5f08c22207369c24a9bfc69f8628fd7d8d91f8df5b"
+    },
+    {
+      "id": "di.choice.ratling_sharpshooter.subclass",
+      "revision": 1,
+      "path": "entities/choice/ratling_sharpshooter.subclass.json",
+      "sha256": "4d4196f5c3ce83da43d953f3114c2d9e056d7b9ac190d9565032219bbfea0f28"
     },
     {
       "id": "di.choice.schola_progenium.skills",
@@ -175,6 +237,12 @@
       "sha256": "99d1e4c05876abe3eb8a2223bfe3409adcea1dd368d20ccf4cc6c57de931fe6a"
     },
     {
+      "id": "di.choice.skitarii_veteran.subclass",
+      "revision": 1,
+      "path": "entities/choice/skitarii_veteran.subclass.json",
+      "sha256": "a552f2d26da7a3ea3a898c8fbaa784a030fb037867d62b459d880f6abe46da03"
+    },
+    {
       "id": "di.choice.underhive.skills",
       "revision": 1,
       "path": "entities/choice/underhive.skills.json",
@@ -199,64 +267,70 @@
       "sha256": "80101e733b3b5ff722ff3896e1572869de7946eea21615efd10d7a7f4225014c"
     },
     {
-      "id": "di.class.aeldari_outcast",
+      "id": "di.choice.zealot.subclass",
       "revision": 1,
+      "path": "entities/choice/zealot.subclass.json",
+      "sha256": "297db6d17b005dfd02107148cb4280ea2f794af0f4de8f5c02a312122bc6d48f"
+    },
+    {
+      "id": "di.class.aeldari_outcast",
+      "revision": 2,
       "path": "entities/class/aeldari_outcast.json",
-      "sha256": "56ba357b8bb52c2020df9e1a6f9249cd1e71827449117aa6ec8f32725fa21cf1"
+      "sha256": "9ba1f590d48e0de6264beba438374e1c710ea467faad2f8359d168b3944c1934"
     },
     {
       "id": "di.class.aeldari_warlock",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/class/aeldari_warlock.json",
-      "sha256": "2e0a0896ef1ce687f4583c9c5e1f60eddcf81de1a335817f54a7b8d90d502c5c"
+      "sha256": "fff5e572651e0f90f569496cf95f1a7a85a705bd6b8e070a3af39c4a61b3cd35"
     },
     {
       "id": "di.class.arbites_enforcer",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/class/arbites_enforcer.json",
-      "sha256": "dea66e516f06a77bfd8be0ec443f1bf349fb8921bcbaf5b1ae6bd4258e5a48dd"
+      "sha256": "8afff42db3a001fe13931b59f2d0ff8987577f1b4a631c2c6ca286ab0272f5b7"
     },
     {
       "id": "di.class.hernkyn_prospector",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/class/hernkyn_prospector.json",
-      "sha256": "82ac60f8855005d160661ed28b9f6d2b248a457c6a6aa6eb7b4b9a67baf28bda"
+      "sha256": "6408743a649a6039f20383f9c4a14673131763ad72d7d95d2b460bfc687fcbb9"
     },
     {
       "id": "di.class.hive_scum",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/class/hive_scum.json",
-      "sha256": "f2dc9f40d72557905fbe49e88d5870a7f1a840c5f0aabaec6e00dedd9a83615f"
+      "sha256": "ed7f4c7a33463ff9b9010dac6beec85ba28f87f372ba4ad7e31cbd6e59b0d473"
     },
     {
       "id": "di.class.kin_armsman",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/class/kin_armsman.json",
-      "sha256": "8644ca1229dab8a1e29af5399482b75ff4f28bc67e5340c1c62b39c39ac07293"
+      "sha256": "0fe654a1f3d1d255b1cd2bb7df0de0e015939e6ad2ef3c99b54ad16bbb1dc096"
     },
     {
       "id": "di.class.ogryn_skullbreaker",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/class/ogryn_skullbreaker.json",
-      "sha256": "8b17b77b07842ac8871cb50d2cfe14b863db2b0424d88ca4559d002634bd6c33"
+      "sha256": "4b391364d924df43bb271f8231f699761d0fe40d2eab870511bc5fd456683453"
     },
     {
       "id": "di.class.psyker",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/class/psyker.json",
-      "sha256": "382f5e014004c59dc821fdf886b557954c68c5471e93e66b39e4927051cee7b8"
+      "sha256": "40bc0ec49ceedb1ee76646f07cad699f09d37ab46b58d5cdba598ab9c7d0492c"
     },
     {
       "id": "di.class.ratling_sharpshooter",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/class/ratling_sharpshooter.json",
-      "sha256": "814fdfc1fc2d6a81d8c436a7f83ba1c47d072ef287f470f7b5195f93b99b3974"
+      "sha256": "b0a42811577df09612366fb56474e9169d098678d4cf46e1358ab8c91372a52b"
     },
     {
       "id": "di.class.skitarii_veteran",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/class/skitarii_veteran.json",
-      "sha256": "068ace932d16c260a33e921f3a589505cd0b79b390dc2d176586d900398489ec"
+      "sha256": "32d605f70fc7f846e19eff3f5c69749dfcfa2cd347cc93c38a7bd00e531b0a24"
     },
     {
       "id": "di.class.veteran",
@@ -266,9 +340,15 @@
     },
     {
       "id": "di.class.zealot",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/class/zealot.json",
-      "sha256": "1696eedd15a157c4f837a499f94ba8839f1180f9c78eda0bce00382d9b213a1e"
+      "sha256": "d63adfea77f2bfdc80280460b953b94767374a7899f4417c144322ea8bb94f36"
+    },
+    {
+      "id": "di.damage_type.acid",
+      "revision": 1,
+      "path": "entities/damage_type/acid.json",
+      "sha256": "530945eb5bd5b3c65f823e4a4091995296ba18434b67313a61f4a1e881a16407"
     },
     {
       "id": "di.damage_type.bludgeoning",
@@ -1939,6 +2019,60 @@
       "sha256": "08d191a3508e24cb98a8571dc5e58b8f5618728aa9cfebb145bcd104552ba133"
     },
     {
+      "id": "di.feature.masterwork.artificer_armour",
+      "revision": 1,
+      "path": "entities/feature/masterwork.artificer_armour.json",
+      "sha256": "8e0af714c37c7e8d42d9a3c49454c39c010a12427677999403e2a6d7f2d79e92"
+    },
+    {
+      "id": "di.feature.masterwork.artificer_edge",
+      "revision": 1,
+      "path": "entities/feature/masterwork.artificer_edge.json",
+      "sha256": "a25c5e3769b7419e20f3770b14847bd4fb45256b1bab76cdb5ad62f938c69c4c"
+    },
+    {
+      "id": "di.feature.masterwork.compact_pattern",
+      "revision": 1,
+      "path": "entities/feature/masterwork.compact_pattern.json",
+      "sha256": "3ab26c23cd30cf48d9c2c18261a82980a53a193110145cc313283521657e269a"
+    },
+    {
+      "id": "di.feature.masterwork.perfect_balance",
+      "revision": 1,
+      "path": "entities/feature/masterwork.perfect_balance.json",
+      "sha256": "df0d4e4e3b65b76281db3a46d7fc0b7da29bc3dc5a0c6792adafa31de6ccf31e"
+    },
+    {
+      "id": "di.feature.masterwork.precision_barrel_focusing_array",
+      "revision": 1,
+      "path": "entities/feature/masterwork.precision_barrel_focusing_array.json",
+      "sha256": "713e0789fb7a0d701f040eed4eeebdf8538b167e6a113e12c22f9025e6712493"
+    },
+    {
+      "id": "di.feature.masterwork.rapid_feed",
+      "revision": 1,
+      "path": "entities/feature/masterwork.rapid_feed.json",
+      "sha256": "b5b3d7d77904a410266e893bdc8dd4b973e26ca8a20a552f6b3b8540d0ed916b"
+    },
+    {
+      "id": "di.feature.masterwork.recoil_compensation",
+      "revision": 1,
+      "path": "entities/feature/masterwork.recoil_compensation.json",
+      "sha256": "35e6d8d0cdf0fdcfcd6044501eceab168bef491278dfc0c003336d1de05068f9"
+    },
+    {
+      "id": "di.feature.masterwork.responsive_plating",
+      "revision": 1,
+      "path": "entities/feature/masterwork.responsive_plating.json",
+      "sha256": "09d54277b18f0cd5fd3aa52cb91d91bb63411423144734aaf95c211c5bf1a134"
+    },
+    {
+      "id": "di.feature.masterwork.sealed_systems",
+      "revision": 1,
+      "path": "entities/feature/masterwork.sealed_systems.json",
+      "sha256": "739bf7a9e3a1ae879643d0dba71dc93154c61ad847b90bd22b9fddb4d69bbde0"
+    },
+    {
       "id": "di.feature.origin.craftworld_outcast",
       "revision": 1,
       "path": "entities/feature/origin.craftworld_outcast.json",
@@ -2071,6 +2205,918 @@
       "sha256": "74de62ef0f284204520f22f4721c1588bbd4a267cffa6ee319bea31f07395a70"
     },
     {
+      "id": "di.feature.subclass.aeldari_outcast.corsair.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.aeldari_outcast.corsair.level_14.json",
+      "sha256": "e13eb20e256150d12ecdcf003bd60d5ef7ed80b1f990b32381609cc476c234a0"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_outcast.corsair.level_18",
+      "revision": 1,
+      "path": "entities/feature/subclass.aeldari_outcast.corsair.level_18.json",
+      "sha256": "a607a7a944785c2f44de7f377712d0e23d296f86608dfbb04931db1263639b4f"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_outcast.corsair.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.aeldari_outcast.corsair.level_3.json",
+      "sha256": "008b49049422ba069d3f72384f34aacdab006c40ffc15a69de0d1f68ea0e78e4"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_outcast.corsair.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.aeldari_outcast.corsair.level_7.json",
+      "sha256": "c5f80f828ce0c4296daf537e45fea641470bdf6a1f3d00a9b690317b30930a3f"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_outcast.ranger.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.aeldari_outcast.ranger.level_14.json",
+      "sha256": "1ce0dd22cf7f11200b3e22106105f01481da591b1dffd1f4a65673ec2f0db979"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_outcast.ranger.level_18",
+      "revision": 1,
+      "path": "entities/feature/subclass.aeldari_outcast.ranger.level_18.json",
+      "sha256": "937427a20799e86c26709a6de18208cf8ad6e369c7f97f6c9b77d1b5d0c9f217"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_outcast.ranger.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.aeldari_outcast.ranger.level_3.json",
+      "sha256": "1b71e1bbceb0ddf5f35593fc015c6b10cafd8db839ddb1913bc54244503897c1"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_outcast.ranger.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.aeldari_outcast.ranger.level_7.json",
+      "sha256": "f8e0e6a0fbbf6036bc0811bfe249dbb2403358477a701ee0b336cd2e165f4147"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_outcast.shadow_guide.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.aeldari_outcast.shadow_guide.level_14.json",
+      "sha256": "a65c29c4a4b2dd5c33673cc15307e9f50aa1a66b7d7fd97ccae2b502e1a8ac09"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_outcast.shadow_guide.level_18",
+      "revision": 1,
+      "path": "entities/feature/subclass.aeldari_outcast.shadow_guide.level_18.json",
+      "sha256": "4cac6188ae94d1aa9560fc568bb646b4b3e420562a7f6ce9f9d8c44a5332f08e"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_outcast.shadow_guide.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.aeldari_outcast.shadow_guide.level_3.json",
+      "sha256": "fadf222b7d819ba433ab0cb4a906671fae2aae0a291a9dfe940187514485efec"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_outcast.shadow_guide.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.aeldari_outcast.shadow_guide.level_7.json",
+      "sha256": "b8763517106e2910f28d0dc83966c29693fd37ed457e6f5244c74c7e9619e37c"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_warlock.seer_of_battle.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.aeldari_warlock.seer_of_battle.level_14.json",
+      "sha256": "5298f6bb4099a283a9d6f0cba95ffb18f66ef453f46e72ce83bc95f429e5d949"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_warlock.seer_of_battle.level_18",
+      "revision": 1,
+      "path": "entities/feature/subclass.aeldari_warlock.seer_of_battle.level_18.json",
+      "sha256": "b6f6c3d8e9bdf7242a33341bc5962e0a9584d8e4d0861ad3a2349719b5a3977e"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_warlock.seer_of_battle.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.aeldari_warlock.seer_of_battle.level_3.json",
+      "sha256": "b8660a492cf5ad22c164989fb0de8123a5abd7a440d6b88670af5bb8eddd852c"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_warlock.seer_of_battle.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.aeldari_warlock.seer_of_battle.level_7.json",
+      "sha256": "f2b5d7d84d170c8df378003fa6234c0174056ccd8a5104884bbd6ae774276ad7"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_warlock.spirit_guardian.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.aeldari_warlock.spirit_guardian.level_14.json",
+      "sha256": "c8c320bf56fb51114b9edc38482f44edc4bdd9d698810ecf99fe9c6a697a8293"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_warlock.spirit_guardian.level_18",
+      "revision": 1,
+      "path": "entities/feature/subclass.aeldari_warlock.spirit_guardian.level_18.json",
+      "sha256": "271c3623220d2872d81bbf7b313dee9b2846b77ac2ef4223cd1da6c642ab7935"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_warlock.spirit_guardian.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.aeldari_warlock.spirit_guardian.level_3.json",
+      "sha256": "fad899cf1660527947baaff7f3f129c84f94ac1d22e24d71d8788f8aff16633f"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_warlock.spirit_guardian.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.aeldari_warlock.spirit_guardian.level_7.json",
+      "sha256": "b8587d1e049bada15537e19da39198107dea03509c4727c5b69de5adeab00d14"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_warlock.storm_warlock.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.aeldari_warlock.storm_warlock.level_14.json",
+      "sha256": "3a814d82928323393b0464f56674738c6cadd2c948529a7d7d6225924aaa4485"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_warlock.storm_warlock.level_18",
+      "revision": 1,
+      "path": "entities/feature/subclass.aeldari_warlock.storm_warlock.level_18.json",
+      "sha256": "37eac487ad5522ed283e0b93e837c9e2b599f11c784043ba0f09a4c9043d81f4"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_warlock.storm_warlock.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.aeldari_warlock.storm_warlock.level_3.json",
+      "sha256": "c828c5848747e06a3e32066898791fb64f3a4de1f4d411f182f6a12583597aa4"
+    },
+    {
+      "id": "di.feature.subclass.aeldari_warlock.storm_warlock.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.aeldari_warlock.storm_warlock.level_7.json",
+      "sha256": "1f10b0c2729e10aec84e80dd17a1bc3d74aacb2c04b3eba01e2dfd92919aec86"
+    },
+    {
+      "id": "di.feature.subclass.arbites_enforcer.executioner.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.arbites_enforcer.executioner.level_14.json",
+      "sha256": "5e659ee274a43d3604765024232c2ab78b136785f4831dc156f9db6e2f0569e5"
+    },
+    {
+      "id": "di.feature.subclass.arbites_enforcer.executioner.level_18",
+      "revision": 1,
+      "path": "entities/feature/subclass.arbites_enforcer.executioner.level_18.json",
+      "sha256": "8ba1a3d7eb483423c0367e9fd016c01d2e6b7c727672fb21c1bb4cad35641d7b"
+    },
+    {
+      "id": "di.feature.subclass.arbites_enforcer.executioner.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.arbites_enforcer.executioner.level_3.json",
+      "sha256": "4cd41976424ed847f69f9c7e0e4d320ec67fcd7372edb1f828984d292e1a1f1b"
+    },
+    {
+      "id": "di.feature.subclass.arbites_enforcer.executioner.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.arbites_enforcer.executioner.level_7.json",
+      "sha256": "bd52c28aa872ebd972996a1a11473799ee03be91e1048c2aa4301acf702e5bb2"
+    },
+    {
+      "id": "di.feature.subclass.arbites_enforcer.investigator.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.arbites_enforcer.investigator.level_14.json",
+      "sha256": "bc2ed85c80623d603bdbac799cf05a6b4a34e38376b4fc13b229ed7ffc4ad800"
+    },
+    {
+      "id": "di.feature.subclass.arbites_enforcer.investigator.level_18",
+      "revision": 1,
+      "path": "entities/feature/subclass.arbites_enforcer.investigator.level_18.json",
+      "sha256": "b3b618ff56beeaa054fc78df7d064535351d0b02cbefac827bfe47a70dbf638e"
+    },
+    {
+      "id": "di.feature.subclass.arbites_enforcer.investigator.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.arbites_enforcer.investigator.level_3.json",
+      "sha256": "f81dc0de44147ac0439c1759919590dbddecd5cec673f5ac6dcbbc91f2726c32"
+    },
+    {
+      "id": "di.feature.subclass.arbites_enforcer.investigator.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.arbites_enforcer.investigator.level_7.json",
+      "sha256": "bb86ae157139dd52f87616762d8569bea5cb530ce1f1798472705f1bd87e10b8"
+    },
+    {
+      "id": "di.feature.subclass.arbites_enforcer.riot_shield.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.arbites_enforcer.riot_shield.level_14.json",
+      "sha256": "bb45ba7ff1e78ea7dc0c5eddadd67c553f424bdce4d78f676f83dda408536337"
+    },
+    {
+      "id": "di.feature.subclass.arbites_enforcer.riot_shield.level_18",
+      "revision": 1,
+      "path": "entities/feature/subclass.arbites_enforcer.riot_shield.level_18.json",
+      "sha256": "86be25c575f2e333f26deb2b8748b95ae2d189348efe398e149d2b415fb11b1c"
+    },
+    {
+      "id": "di.feature.subclass.arbites_enforcer.riot_shield.level_3",
+      "revision": 2,
+      "path": "entities/feature/subclass.arbites_enforcer.riot_shield.level_3.json",
+      "sha256": "0ba1c529b17b8c8fc6d89eda394333055a9a137d471d63a166e9f4d00bf39c8a"
+    },
+    {
+      "id": "di.feature.subclass.arbites_enforcer.riot_shield.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.arbites_enforcer.riot_shield.level_7.json",
+      "sha256": "1f63ec75a4e62f5e2b592ff8d397b441888f5446b674eec3d8695ab4cf609dfe"
+    },
+    {
+      "id": "di.feature.subclass.hernkyn_prospector.claim_staker.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.hernkyn_prospector.claim_staker.level_14.json",
+      "sha256": "c04c06974d3e2f66e21474cb2ca5068af6d174a67df5328a9aced81a941bdd3b"
+    },
+    {
+      "id": "di.feature.subclass.hernkyn_prospector.claim_staker.level_18",
+      "revision": 1,
+      "path": "entities/feature/subclass.hernkyn_prospector.claim_staker.level_18.json",
+      "sha256": "a1cb79b5a7e408afc79b7cc3c2e63ef1875b4ab924db4157689ee87372811df7"
+    },
+    {
+      "id": "di.feature.subclass.hernkyn_prospector.claim_staker.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.hernkyn_prospector.claim_staker.level_3.json",
+      "sha256": "6a55b9f2224cdb17b3a4ea9330dd50d9d5b8e3006723748a77ecfbaafb3e2516"
+    },
+    {
+      "id": "di.feature.subclass.hernkyn_prospector.claim_staker.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.hernkyn_prospector.claim_staker.level_7.json",
+      "sha256": "7772c9ed4fb8561d94623a8c9973e8f8c112c229e6b18b381bc827fe1612f487"
+    },
+    {
+      "id": "di.feature.subclass.hernkyn_prospector.outrider.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.hernkyn_prospector.outrider.level_14.json",
+      "sha256": "165bf3c8d5af32fda6bb543fa679d22a37f34c862c9da2a72c4aaca5ab5280b9"
+    },
+    {
+      "id": "di.feature.subclass.hernkyn_prospector.outrider.level_18",
+      "revision": 1,
+      "path": "entities/feature/subclass.hernkyn_prospector.outrider.level_18.json",
+      "sha256": "41d067be8ad4d010b5608a96d580b099c06a9e9dcf878b9aab6246ad37a3cf00"
+    },
+    {
+      "id": "di.feature.subclass.hernkyn_prospector.outrider.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.hernkyn_prospector.outrider.level_3.json",
+      "sha256": "04dcdc60e03f7e7ee279272cfbc7ef64ca754361f072da7a999054ddd79f7814"
+    },
+    {
+      "id": "di.feature.subclass.hernkyn_prospector.outrider.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.hernkyn_prospector.outrider.level_7.json",
+      "sha256": "32c8d1451f6217b353922561bcc669d099278cdae425881bfe2c73c236dc8566"
+    },
+    {
+      "id": "di.feature.subclass.hernkyn_prospector.trail_gunner.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.hernkyn_prospector.trail_gunner.level_14.json",
+      "sha256": "e45fbe8680be35bb8b09e2d308bef17cd6b216f801f67299737489c48c67427a"
+    },
+    {
+      "id": "di.feature.subclass.hernkyn_prospector.trail_gunner.level_18",
+      "revision": 1,
+      "path": "entities/feature/subclass.hernkyn_prospector.trail_gunner.level_18.json",
+      "sha256": "45aad2bfe8b392b54b829a241687a39a381e4ee3801ce84a7ab5d07f28629424"
+    },
+    {
+      "id": "di.feature.subclass.hernkyn_prospector.trail_gunner.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.hernkyn_prospector.trail_gunner.level_3.json",
+      "sha256": "4d5f6ae0836b4323c27d67f4b0d9b34a90b47994376675e9f2fb407cabacca0f"
+    },
+    {
+      "id": "di.feature.subclass.hernkyn_prospector.trail_gunner.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.hernkyn_prospector.trail_gunner.level_7.json",
+      "sha256": "b6d9122689a19fbedd3fa850ef1293b0e54d76196f79d6f54af72a897a94ca96"
+    },
+    {
+      "id": "di.feature.subclass.hive_scum.chem_user.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.hive_scum.chem_user.level_14.json",
+      "sha256": "9ea1aa7a2d16efd223ee7809c105457629b0ff4eb25519b2d939ceb52d341631"
+    },
+    {
+      "id": "di.feature.subclass.hive_scum.chem_user.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.hive_scum.chem_user.level_3.json",
+      "sha256": "c9173ac64efbc6b829c879a4963caba79aa8f1f9f91ab5850930278dc1b465d4"
+    },
+    {
+      "id": "di.feature.subclass.hive_scum.chem_user.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.hive_scum.chem_user.level_7.json",
+      "sha256": "088b6321717350fa66eba63480c5f055b98a4653e6dd955d729f5941b42dc7cc"
+    },
+    {
+      "id": "di.feature.subclass.hive_scum.gunslinger.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.hive_scum.gunslinger.level_14.json",
+      "sha256": "4e60fd59aae8ba32a6b291b998d9730e2dfc8f01a71bca97f8b0a57c041427ba"
+    },
+    {
+      "id": "di.feature.subclass.hive_scum.gunslinger.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.hive_scum.gunslinger.level_3.json",
+      "sha256": "4e6ea95be4a8e82392d18b92350c7346e47e089cac954ff818c1a937872a1bc2"
+    },
+    {
+      "id": "di.feature.subclass.hive_scum.gunslinger.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.hive_scum.gunslinger.level_7.json",
+      "sha256": "4c4435c1826b78747b8bf7e0e8a4319b082dc03c70e68ceb4131aa70115df576"
+    },
+    {
+      "id": "di.feature.subclass.hive_scum.knife_rat.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.hive_scum.knife_rat.level_14.json",
+      "sha256": "4dcf165da881fe29c1d1629dacc04e32683bd477eb3ff171d0738894222dfdb7"
+    },
+    {
+      "id": "di.feature.subclass.hive_scum.knife_rat.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.hive_scum.knife_rat.level_3.json",
+      "sha256": "44609579f8738e3e2aff69141a0265edad99ea204f237f528070eb6f7fbac82c"
+    },
+    {
+      "id": "di.feature.subclass.hive_scum.knife_rat.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.hive_scum.knife_rat.level_7.json",
+      "sha256": "8d003a5e08a91da3ad7f1e91d56ff80474eda1ad05a54e46a91c4b908307d3c2"
+    },
+    {
+      "id": "di.feature.subclass.hive_scum.sump_ghost.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.hive_scum.sump_ghost.level_14.json",
+      "sha256": "a9b9aae424c366f0ef9534292b68ab4b5e6b2b580df0ec18452bbe4191a2f4d9"
+    },
+    {
+      "id": "di.feature.subclass.hive_scum.sump_ghost.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.hive_scum.sump_ghost.level_3.json",
+      "sha256": "02024933584774adc328e87c843db93ff8648c54665898ceda5bdd8e606cdfbf"
+    },
+    {
+      "id": "di.feature.subclass.hive_scum.sump_ghost.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.hive_scum.sump_ghost.level_7.json",
+      "sha256": "31922778c575dca270436a70e54de1d3ec6c3890fc80c59bcd5f13864cd4a1e8"
+    },
+    {
+      "id": "di.feature.subclass.kin_armsman.guild_militant.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.kin_armsman.guild_militant.level_14.json",
+      "sha256": "442e3dcc3f15c10bfef8f69973275605b607670c41f95e1317ae83e9f62b546d"
+    },
+    {
+      "id": "di.feature.subclass.kin_armsman.guild_militant.level_18",
+      "revision": 1,
+      "path": "entities/feature/subclass.kin_armsman.guild_militant.level_18.json",
+      "sha256": "8b7c4c533eb307bc37ce85c2edce5391c798196d33773c4921b17d8091349ae7"
+    },
+    {
+      "id": "di.feature.subclass.kin_armsman.guild_militant.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.kin_armsman.guild_militant.level_3.json",
+      "sha256": "c1e3bb6115275b7c2a1577e01358cd4ac60ace1abaf6675e0bbcc1df525ba8d7"
+    },
+    {
+      "id": "di.feature.subclass.kin_armsman.guild_militant.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.kin_armsman.guild_militant.level_7.json",
+      "sha256": "795a2c5e57c76c04ccb8dce8399fe3919903c3a669c3b646588a069fe894af28"
+    },
+    {
+      "id": "di.feature.subclass.kin_armsman.hearthguard.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.kin_armsman.hearthguard.level_14.json",
+      "sha256": "1984de533244821e8d2969e880f9ff13397e359afb15e145bf4d0679cc041b30"
+    },
+    {
+      "id": "di.feature.subclass.kin_armsman.hearthguard.level_18",
+      "revision": 1,
+      "path": "entities/feature/subclass.kin_armsman.hearthguard.level_18.json",
+      "sha256": "002484237f0722aabd125e1f73f4a0498e325e25830b71f34f1ca3fd4d83e039"
+    },
+    {
+      "id": "di.feature.subclass.kin_armsman.hearthguard.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.kin_armsman.hearthguard.level_3.json",
+      "sha256": "b5519f346e181c2ea4848584b0b17f7ed1bf72dac076f7818628bd984367924b"
+    },
+    {
+      "id": "di.feature.subclass.kin_armsman.hearthguard.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.kin_armsman.hearthguard.level_7.json",
+      "sha256": "cea1e8054ca0425c679d7d0571fbaf9bc4bce59692913b197db8419a14b17379"
+    },
+    {
+      "id": "di.feature.subclass.kin_armsman.ironhead.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.kin_armsman.ironhead.level_14.json",
+      "sha256": "82120480b88c9f32cb9cfdc0cf76f10a6830a97273d2fb51fbe31cc5ca8900e2"
+    },
+    {
+      "id": "di.feature.subclass.kin_armsman.ironhead.level_18",
+      "revision": 1,
+      "path": "entities/feature/subclass.kin_armsman.ironhead.level_18.json",
+      "sha256": "4ad6347605893d1f4c0ba95e1b809ea54d58efe919d948effba66408c12313ba"
+    },
+    {
+      "id": "di.feature.subclass.kin_armsman.ironhead.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.kin_armsman.ironhead.level_3.json",
+      "sha256": "fccd5f73e8dca0524f8dfde85c19575cefb1a12d5634ff71f8a50620a52192f6"
+    },
+    {
+      "id": "di.feature.subclass.kin_armsman.ironhead.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.kin_armsman.ironhead.level_7.json",
+      "sha256": "db1b972747116e5e8edbf27226b4005a1b2def17ff137d319ab41d5bee480979"
+    },
+    {
+      "id": "di.feature.subclass.ogryn_skullbreaker.bone_ead.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.ogryn_skullbreaker.bone_ead.level_14.json",
+      "sha256": "36b33b09a248df3e3dc9b9464e81a1278384039a95c820cffa37ad2e214c84b1"
+    },
+    {
+      "id": "di.feature.subclass.ogryn_skullbreaker.bone_ead.level_18",
+      "revision": 1,
+      "path": "entities/feature/subclass.ogryn_skullbreaker.bone_ead.level_18.json",
+      "sha256": "41883e2c178047d6087b49d9a936f0472f0e62b744883ea62f43cdb4e132ec27"
+    },
+    {
+      "id": "di.feature.subclass.ogryn_skullbreaker.bone_ead.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.ogryn_skullbreaker.bone_ead.level_3.json",
+      "sha256": "d2dcb8d43b2df8585fc55fecbd74cb426f4d9339cdad80ca4bdbfd02a96d42d1"
+    },
+    {
+      "id": "di.feature.subclass.ogryn_skullbreaker.bone_ead.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.ogryn_skullbreaker.bone_ead.level_7.json",
+      "sha256": "04b885172f1fd21da94a46e02dde188b4a7252be8855e3ad7345ff52a80b2c59"
+    },
+    {
+      "id": "di.feature.subclass.ogryn_skullbreaker.brute.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.ogryn_skullbreaker.brute.level_14.json",
+      "sha256": "1ecd8c0aa9c145d1e10b5e6189db62d825c85896287e95247a4d774cfd42e428"
+    },
+    {
+      "id": "di.feature.subclass.ogryn_skullbreaker.brute.level_18",
+      "revision": 1,
+      "path": "entities/feature/subclass.ogryn_skullbreaker.brute.level_18.json",
+      "sha256": "435c040611183e91356d90dc49b5edb38c269031119c05fb35e60c91bcdb7d0b"
+    },
+    {
+      "id": "di.feature.subclass.ogryn_skullbreaker.brute.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.ogryn_skullbreaker.brute.level_3.json",
+      "sha256": "cb45be0ad10993e537960dcf2d34b19160b8a2a2377555880e219eaeb8756e3b"
+    },
+    {
+      "id": "di.feature.subclass.ogryn_skullbreaker.brute.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.ogryn_skullbreaker.brute.level_7.json",
+      "sha256": "ce09d97cdf2a47778913ddf8cb7832eac8ff24db21210ccce46384dbc913a85c"
+    },
+    {
+      "id": "di.feature.subclass.ogryn_skullbreaker.bulwark.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.ogryn_skullbreaker.bulwark.level_14.json",
+      "sha256": "267055ea6111fbe161e345b6dc8328f21cd60ec91f5cf94e7c57d198267cd837"
+    },
+    {
+      "id": "di.feature.subclass.ogryn_skullbreaker.bulwark.level_18",
+      "revision": 1,
+      "path": "entities/feature/subclass.ogryn_skullbreaker.bulwark.level_18.json",
+      "sha256": "b3dd25a8366e9adce29882a3c2fdecf8418551d444ec09511db3e3c4ae9317e9"
+    },
+    {
+      "id": "di.feature.subclass.ogryn_skullbreaker.bulwark.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.ogryn_skullbreaker.bulwark.level_3.json",
+      "sha256": "c3fc9b1fcd021bb46270e69fa14cf8b043d3dee818c3aa5e76b70f59240e87a7"
+    },
+    {
+      "id": "di.feature.subclass.ogryn_skullbreaker.bulwark.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.ogryn_skullbreaker.bulwark.level_7.json",
+      "sha256": "32373164bad19bbf22f49154cc35a9a11712b46c97f106b5f11cbd5429a3dcc2"
+    },
+    {
+      "id": "di.feature.subclass.ogryn_skullbreaker.gun_lugger.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.ogryn_skullbreaker.gun_lugger.level_14.json",
+      "sha256": "c2b8a4d75b75e1cf35580c22048df6d525a3e05c44936435b178e4ce31ccc680"
+    },
+    {
+      "id": "di.feature.subclass.ogryn_skullbreaker.gun_lugger.level_18",
+      "revision": 1,
+      "path": "entities/feature/subclass.ogryn_skullbreaker.gun_lugger.level_18.json",
+      "sha256": "704ade6765c677968fbf33a60f4567989e506c772ff84fdf35d5c809046e79f7"
+    },
+    {
+      "id": "di.feature.subclass.ogryn_skullbreaker.gun_lugger.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.ogryn_skullbreaker.gun_lugger.level_3.json",
+      "sha256": "665f020e9e7f1cf0dca76233e5da068d390b08a8a1ae11dd6bfa66f174b70c50"
+    },
+    {
+      "id": "di.feature.subclass.ogryn_skullbreaker.gun_lugger.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.ogryn_skullbreaker.gun_lugger.level_7.json",
+      "sha256": "c2f80b0f6fcad0d0317940eab9c0e6d96eb2ad51bb5160077a2039fe68f50935"
+    },
+    {
+      "id": "di.feature.subclass.psyker.biomancer.level_1",
+      "revision": 1,
+      "path": "entities/feature/subclass.psyker.biomancer.level_1.json",
+      "sha256": "055db6efc7bed95f4fee283c644dbfce6ab79a3addcea242fcc94af449f3a6ff"
+    },
+    {
+      "id": "di.feature.subclass.psyker.biomancer.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.psyker.biomancer.level_14.json",
+      "sha256": "99b7eaeebbf4c5b3e55fea56610e75ba1481dc6a9e4423bb25b29a4e16fd5af8"
+    },
+    {
+      "id": "di.feature.subclass.psyker.biomancer.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.psyker.biomancer.level_3.json",
+      "sha256": "8f89ccea54222cf0fd8f407c9ed90cbdc79d76ce39da5c322e92e41b88d42250"
+    },
+    {
+      "id": "di.feature.subclass.psyker.biomancer.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.psyker.biomancer.level_7.json",
+      "sha256": "19a1ca571dea551b269ae47bc7c95d2916393ab36a23b57ef0a117cdedf21102"
+    },
+    {
+      "id": "di.feature.subclass.psyker.blank_null_bound.level_1",
+      "revision": 1,
+      "path": "entities/feature/subclass.psyker.blank_null_bound.level_1.json",
+      "sha256": "0a3ee2613a0a5d6bedc21e81b1cad731dc37fec4ecefd2dfe585245b8433894c"
+    },
+    {
+      "id": "di.feature.subclass.psyker.blank_null_bound.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.psyker.blank_null_bound.level_14.json",
+      "sha256": "a37c3eeacd8a6cbf54ea58e8f214f58921b919a1a9881aa0b21658e4c81c5f9f"
+    },
+    {
+      "id": "di.feature.subclass.psyker.blank_null_bound.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.psyker.blank_null_bound.level_3.json",
+      "sha256": "62e12c0b431374d9ee8a3966c31cc62ccf8e7bfcea98b7ac3576aac762b3523b"
+    },
+    {
+      "id": "di.feature.subclass.psyker.blank_null_bound.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.psyker.blank_null_bound.level_7.json",
+      "sha256": "8172af322d9c88065de766c31f5ac30e84feffecdfa601dc72677a7a0fe9a18f"
+    },
+    {
+      "id": "di.feature.subclass.psyker.diviner.level_1",
+      "revision": 1,
+      "path": "entities/feature/subclass.psyker.diviner.level_1.json",
+      "sha256": "c61bae4c298f6ae1af462c2c51e0c52f08b34a2542e710440692ef953b054811"
+    },
+    {
+      "id": "di.feature.subclass.psyker.diviner.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.psyker.diviner.level_14.json",
+      "sha256": "62c4b75c8aac472bc6cd604574462440e9a3d61968202c59660673778a14910c"
+    },
+    {
+      "id": "di.feature.subclass.psyker.diviner.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.psyker.diviner.level_3.json",
+      "sha256": "b47b11aa667948492e57dae210cccd4350d4d59583a1ebe1a321ae83e4d84483"
+    },
+    {
+      "id": "di.feature.subclass.psyker.diviner.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.psyker.diviner.level_7.json",
+      "sha256": "bd1c95dac46895d3a69da08c9c27ddce3a87c8a3782fe444c6cab12888a2bb92"
+    },
+    {
+      "id": "di.feature.subclass.psyker.malefic_touched.level_1",
+      "revision": 1,
+      "path": "entities/feature/subclass.psyker.malefic_touched.level_1.json",
+      "sha256": "05c89b7e3b48d9df0776e21804965b7007ec9c78f288e5c0345243ce12ccda3d"
+    },
+    {
+      "id": "di.feature.subclass.psyker.malefic_touched.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.psyker.malefic_touched.level_14.json",
+      "sha256": "9b5fc335ace767b7ad6550b2696b6b7ac6f180e5e1ce9e0fceb5417163279f57"
+    },
+    {
+      "id": "di.feature.subclass.psyker.malefic_touched.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.psyker.malefic_touched.level_3.json",
+      "sha256": "d8a5fd4939e97a7ba048644f5e5d7c7249863db849da358dd8bf0ea85e42f131"
+    },
+    {
+      "id": "di.feature.subclass.psyker.malefic_touched.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.psyker.malefic_touched.level_7.json",
+      "sha256": "1c222fd0ae3defa24e190c0c2cfd547e66de97533cb939900dfabc2b68a40b8c"
+    },
+    {
+      "id": "di.feature.subclass.psyker.pyromancer.level_1",
+      "revision": 1,
+      "path": "entities/feature/subclass.psyker.pyromancer.level_1.json",
+      "sha256": "57a56f13794b0d0901a204a0f3da76657ce51d435b80daa65d06f9e54df1f1de"
+    },
+    {
+      "id": "di.feature.subclass.psyker.pyromancer.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.psyker.pyromancer.level_14.json",
+      "sha256": "f9b0e496506d0fe9555186ed65c8d4f44fa389cff0b225bbb12b2937147b7d84"
+    },
+    {
+      "id": "di.feature.subclass.psyker.pyromancer.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.psyker.pyromancer.level_3.json",
+      "sha256": "085ca5c79a2cd41a690fd21e9420ddb26b4cdf665ef14d5464d988caa5e539fe"
+    },
+    {
+      "id": "di.feature.subclass.psyker.pyromancer.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.psyker.pyromancer.level_7.json",
+      "sha256": "80a5b64c43f7b1769b7cda6b3b99b6b899316a222dd328a5a40731bc0840ab21"
+    },
+    {
+      "id": "di.feature.subclass.psyker.telekine.level_1",
+      "revision": 1,
+      "path": "entities/feature/subclass.psyker.telekine.level_1.json",
+      "sha256": "f4473fadaf4dceb5440b614256494aa9fa43e1f7a4a5ef38a482bf739f6a14f3"
+    },
+    {
+      "id": "di.feature.subclass.psyker.telekine.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.psyker.telekine.level_14.json",
+      "sha256": "d57857685ee83cfb5f235103b2b5a658e4defaaeea08e7e64d1e582cc643066d"
+    },
+    {
+      "id": "di.feature.subclass.psyker.telekine.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.psyker.telekine.level_3.json",
+      "sha256": "8f4d1f3b5eb623de1a42d116625e726f8835c04ef212a421212d1bd0fc298999"
+    },
+    {
+      "id": "di.feature.subclass.psyker.telekine.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.psyker.telekine.level_7.json",
+      "sha256": "40425521a6277e58c41ee625ec1bfeaeaafa6e996ecadc23f5d30e562a9c6c42"
+    },
+    {
+      "id": "di.feature.subclass.ratling_sharpshooter.black_market_gremlin.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.ratling_sharpshooter.black_market_gremlin.level_14.json",
+      "sha256": "5e2edfa02de0a8cec08b8a5892a14806fd583ae1b32c8612561d3cb7803049d2"
+    },
+    {
+      "id": "di.feature.subclass.ratling_sharpshooter.black_market_gremlin.level_18",
+      "revision": 1,
+      "path": "entities/feature/subclass.ratling_sharpshooter.black_market_gremlin.level_18.json",
+      "sha256": "6e0cae2bec0838b4bd86c7809b090cfb29c615ea3662a276b4a50b1759591551"
+    },
+    {
+      "id": "di.feature.subclass.ratling_sharpshooter.black_market_gremlin.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.ratling_sharpshooter.black_market_gremlin.level_3.json",
+      "sha256": "f5e6ca2cb735c94f01251b3ff8b5faabaa9e48cdbe011857a18c998fc2ba68c8"
+    },
+    {
+      "id": "di.feature.subclass.ratling_sharpshooter.black_market_gremlin.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.ratling_sharpshooter.black_market_gremlin.level_7.json",
+      "sha256": "255bca9fc5c982e3d98364fa3da8d75969a5791aaccc08c91d005bc2c93d755c"
+    },
+    {
+      "id": "di.feature.subclass.ratling_sharpshooter.long_las_sniper.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.ratling_sharpshooter.long_las_sniper.level_14.json",
+      "sha256": "32186e92759279098649175e9f0a9c2fa599d3f4999811a05b8476cd9e052455"
+    },
+    {
+      "id": "di.feature.subclass.ratling_sharpshooter.long_las_sniper.level_18",
+      "revision": 1,
+      "path": "entities/feature/subclass.ratling_sharpshooter.long_las_sniper.level_18.json",
+      "sha256": "2dc049e665645e8f217524adf194fb9a67279bd813754318227402149f7396af"
+    },
+    {
+      "id": "di.feature.subclass.ratling_sharpshooter.long_las_sniper.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.ratling_sharpshooter.long_las_sniper.level_3.json",
+      "sha256": "1aa6e870d765f96b9c4034f196c7c2926ceaf73eb6036cd650bd593ab8cd0dbe"
+    },
+    {
+      "id": "di.feature.subclass.ratling_sharpshooter.long_las_sniper.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.ratling_sharpshooter.long_las_sniper.level_7.json",
+      "sha256": "9503a9c2cec190e5abd2eac01e69056be2b3a0ab5f6b5a6f2412ff3abd6dacf1"
+    },
+    {
+      "id": "di.feature.subclass.ratling_sharpshooter.spotter.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.ratling_sharpshooter.spotter.level_14.json",
+      "sha256": "33b7f081a316d81eeca08a7529bec137b65c014dbc6cdc0ae333e98f254efad1"
+    },
+    {
+      "id": "di.feature.subclass.ratling_sharpshooter.spotter.level_18",
+      "revision": 1,
+      "path": "entities/feature/subclass.ratling_sharpshooter.spotter.level_18.json",
+      "sha256": "9d903e066584c6ccfd3674b059e92eb52be3ea595a3167b9b03e3aeb252ccc8f"
+    },
+    {
+      "id": "di.feature.subclass.ratling_sharpshooter.spotter.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.ratling_sharpshooter.spotter.level_3.json",
+      "sha256": "5616e2774adde2558683a551cc52fe37b365785e0127782b4b63e6b057916311"
+    },
+    {
+      "id": "di.feature.subclass.ratling_sharpshooter.spotter.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.ratling_sharpshooter.spotter.level_7.json",
+      "sha256": "5e870f5230fb221e8124ffe33e56df7165e6867cf9a39b6579b5b9440ee2f7bc"
+    },
+    {
+      "id": "di.feature.subclass.ratling_sharpshooter.underhive_rat.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.ratling_sharpshooter.underhive_rat.level_14.json",
+      "sha256": "ecffd5c3d853041c1cacdcf9c33b5f6543fcf747b3f463918139737713115cbf"
+    },
+    {
+      "id": "di.feature.subclass.ratling_sharpshooter.underhive_rat.level_18",
+      "revision": 1,
+      "path": "entities/feature/subclass.ratling_sharpshooter.underhive_rat.level_18.json",
+      "sha256": "7c2da95c0702808f6d7a3e54152e62eaa44249977ad91ae1f4b03ce33b13c274"
+    },
+    {
+      "id": "di.feature.subclass.ratling_sharpshooter.underhive_rat.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.ratling_sharpshooter.underhive_rat.level_3.json",
+      "sha256": "1abbd513fecb680b94948c7473223bbe9737691a73b43c45f4f8f251a5c4c49e"
+    },
+    {
+      "id": "di.feature.subclass.ratling_sharpshooter.underhive_rat.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.ratling_sharpshooter.underhive_rat.level_7.json",
+      "sha256": "802f7d93e66bc08c0beed088507b390e3df73d9329642527eb6060b639313658"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.data_hunter.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.skitarii_veteran.data_hunter.level_14.json",
+      "sha256": "8e5f9eff2bbd22635d37f4cf6087312036efd4fd0fe5f847892d93cae6d25982"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.data_hunter.level_18",
+      "revision": 1,
+      "path": "entities/feature/subclass.skitarii_veteran.data_hunter.level_18.json",
+      "sha256": "8dd7be1346cf7b4e18d1f736d685073d9ec427eb846df93b37c3a07bb5aede09"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.data_hunter.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.skitarii_veteran.data_hunter.level_3.json",
+      "sha256": "4ac89b1ba5ddcfb005871acb4c18b24aa4a676ba61a84ab28c333ce73413f26a"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.data_hunter.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.skitarii_veteran.data_hunter.level_7.json",
+      "sha256": "884f018d4dbe04f6d7afe787545e7a7d0f721c8eb692b90ea634434ba1eaeb7f"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.infiltrator.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.skitarii_veteran.infiltrator.level_14.json",
+      "sha256": "49f1422b8d25c7d0d9ff91622f5d56324d6a9c81a0b3c804ec12de0413a43bcb"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.infiltrator.level_18",
+      "revision": 1,
+      "path": "entities/feature/subclass.skitarii_veteran.infiltrator.level_18.json",
+      "sha256": "7b87d401435140c3a47bb8bcaca9aaf8ca92d5b8f5841b75a9713252f62360a9"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.infiltrator.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.skitarii_veteran.infiltrator.level_3.json",
+      "sha256": "ed2daac09267a3ed5e1315c4ba91186628c1ca2bc8fbe9569c0af1e41b8b8047"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.infiltrator.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.skitarii_veteran.infiltrator.level_7.json",
+      "sha256": "a9ad4bd15def026bb8628c452531a535bd7b06f8fd3afd0f2f9cb9a46c99d06e"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.protector.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.skitarii_veteran.protector.level_14.json",
+      "sha256": "f08ebb4ab617763bbdf88ddf20118ea697866561139ec5194ecd12c4843c8e29"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.protector.level_18",
+      "revision": 1,
+      "path": "entities/feature/subclass.skitarii_veteran.protector.level_18.json",
+      "sha256": "bc08dc1b96f1cd9d8384261b6ccba6ebca064e790016a481672ed5259ce69876"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.protector.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.skitarii_veteran.protector.level_3.json",
+      "sha256": "bea01038ce0cee96073c5d151a9f5f8c65ca507c22e0a74e0ccf1bdebfe8a309"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.protector.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.skitarii_veteran.protector.level_7.json",
+      "sha256": "ef7682947c53fc5cd6325d68bf9f9095666980a6d073c8d4dca71cc20c2d030b"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.ranger.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.skitarii_veteran.ranger.level_14.json",
+      "sha256": "55d008451f4c94f6ceb2c58085dc5401184bb64cf6f6d38d7ba73ae51661ec9a"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.ranger.level_18",
+      "revision": 1,
+      "path": "entities/feature/subclass.skitarii_veteran.ranger.level_18.json",
+      "sha256": "2adba5e32458dfb2506f6a3d91272257561eef44ba4c6d099f23749e6906e09b"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.ranger.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.skitarii_veteran.ranger.level_3.json",
+      "sha256": "23e3726b3286f3f4816782ba41c960fcaba11164c858435f97e00618f315d247"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.ranger.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.skitarii_veteran.ranger.level_7.json",
+      "sha256": "4c79e3f5789c5ec21e1ecfd5ade70d0936ccbaf988693331c03af1ebaf68e813"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.ruststalker.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.skitarii_veteran.ruststalker.level_14.json",
+      "sha256": "9f0aaa32e93ae892f756aac02cb44d83498f4300b26fc6e99dc5ff07b028be2d"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.ruststalker.level_18",
+      "revision": 1,
+      "path": "entities/feature/subclass.skitarii_veteran.ruststalker.level_18.json",
+      "sha256": "71402f9202da3a14eb0e00179d0d52aedb29099646d995c51118b5f20bada9a8"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.ruststalker.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.skitarii_veteran.ruststalker.level_3.json",
+      "sha256": "99bfdad92e657f382f0790e8c7aeadd7a933f1bbb29fe7700e880b741721e643"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.ruststalker.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.skitarii_veteran.ruststalker.level_7.json",
+      "sha256": "3089fbca20040ee2c7d7d3fdd02d75228e2bdf3bec973d70469056a90b02cba1"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.vanguard.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.skitarii_veteran.vanguard.level_14.json",
+      "sha256": "72948c46e08bdbe84597af181e60b9460ca5f4a94df2c8f3e5eacc6eaa26b05a"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.vanguard.level_18",
+      "revision": 1,
+      "path": "entities/feature/subclass.skitarii_veteran.vanguard.level_18.json",
+      "sha256": "3ecbe92d5833eee4fb25f18d3095ec26cfe9fd04b5beaaa5155b72c245646866"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.vanguard.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.skitarii_veteran.vanguard.level_3.json",
+      "sha256": "6088159e8c258222aa0503f57f32599e20f3057b775d3fe086f0e60cc79b7555"
+    },
+    {
+      "id": "di.feature.subclass.skitarii_veteran.vanguard.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.skitarii_veteran.vanguard.level_7.json",
+      "sha256": "7a76116185e7ee525ce1b5cefa8f5e459dd10795aaf4f9b16431c8da0e55cf2d"
+    },
+    {
       "id": "di.feature.subclass.veteran.marksman.level_14",
       "revision": 1,
       "path": "entities/feature/subclass.veteran.marksman.level_14.json",
@@ -2125,22 +3171,94 @@
       "sha256": "d593fa44546a0f8cb00a16ace49a93fb060cb3fc54861d90d4c7fc0e64da1284"
     },
     {
-      "id": "di.feature.talent.aeldari_grace",
+      "id": "di.feature.subclass.zealot.flagellant.level_14",
       "revision": 1,
+      "path": "entities/feature/subclass.zealot.flagellant.level_14.json",
+      "sha256": "629daf9f985596d0629f951359e58c2ecc529dfda26559c4a87d5b44f15229a6"
+    },
+    {
+      "id": "di.feature.subclass.zealot.flagellant.level_18",
+      "revision": 1,
+      "path": "entities/feature/subclass.zealot.flagellant.level_18.json",
+      "sha256": "60713fb276f7c7b27116d24394fbe3d44d65f17f5a086d2881682a8ddbbccf05"
+    },
+    {
+      "id": "di.feature.subclass.zealot.flagellant.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.zealot.flagellant.level_3.json",
+      "sha256": "b4056dda1223d6b0e6ef776e4e9b8952ef958f078748acff02fdf800097016cb"
+    },
+    {
+      "id": "di.feature.subclass.zealot.flagellant.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.zealot.flagellant.level_7.json",
+      "sha256": "efd8e86330ac3dfd1059de6b38b11e8681c2967bf87394d8dc79e79ed4e8f9f8"
+    },
+    {
+      "id": "di.feature.subclass.zealot.preacher.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.zealot.preacher.level_14.json",
+      "sha256": "4b5f3435524c2660b71e5670d44e03f21574251d77de4550b3c97d723c89a9b6"
+    },
+    {
+      "id": "di.feature.subclass.zealot.preacher.level_18",
+      "revision": 1,
+      "path": "entities/feature/subclass.zealot.preacher.level_18.json",
+      "sha256": "f2ac4e62163a30de8565cc2ebd5e4723557744377b3e5f8fd0788adf0d9550f0"
+    },
+    {
+      "id": "di.feature.subclass.zealot.preacher.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.zealot.preacher.level_3.json",
+      "sha256": "6ee743857acb86dde18b270e7c84d67d9372d59ea28c2fa75c30753705d6b04d"
+    },
+    {
+      "id": "di.feature.subclass.zealot.preacher.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.zealot.preacher.level_7.json",
+      "sha256": "2da7725433482d0fc1d343eca665669e18d7b0a1f0586c5624159aa2b798fcfc"
+    },
+    {
+      "id": "di.feature.subclass.zealot.purifier.level_14",
+      "revision": 1,
+      "path": "entities/feature/subclass.zealot.purifier.level_14.json",
+      "sha256": "7a5d781d3e6c83d2d461d3c42ea25db1539432f8cfc436d5576293f28c60632e"
+    },
+    {
+      "id": "di.feature.subclass.zealot.purifier.level_18",
+      "revision": 1,
+      "path": "entities/feature/subclass.zealot.purifier.level_18.json",
+      "sha256": "9062d448e684bed4acf7f9fb9e41ccf36674d23b30acd552706ae3084b3f8b66"
+    },
+    {
+      "id": "di.feature.subclass.zealot.purifier.level_3",
+      "revision": 1,
+      "path": "entities/feature/subclass.zealot.purifier.level_3.json",
+      "sha256": "15e573a81dff06152d8d38d55fbfc8567811e847c6f0d8bdf10449425415459a"
+    },
+    {
+      "id": "di.feature.subclass.zealot.purifier.level_7",
+      "revision": 1,
+      "path": "entities/feature/subclass.zealot.purifier.level_7.json",
+      "sha256": "f68bd3db4e73f44ae5f889c14c4e6697317785bbd001ebd69eab99807d7b5fc3"
+    },
+    {
+      "id": "di.feature.talent.aeldari_grace",
+      "revision": 2,
       "path": "entities/feature/talent.aeldari_grace.json",
-      "sha256": "b9904a101196bcbce5c006ea9254fef278061a873f8d726a7cfb26b4271f0736"
+      "sha256": "ffc6f2149f49715870f226057265e7af43b34aaff3da285e38e7f4c939a23e9d"
     },
     {
       "id": "di.feature.talent.alien_reflexes",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/talent.alien_reflexes.json",
-      "sha256": "6d3f4736ea0a3960dbb97f23dcc47451fc6f3baab0ff8634c5e487546d78795a"
+      "sha256": "8333982f8f1e87a3e32a3d2bb3c229c4b8dacde92f3532b2d28d2b390ebbf5a9"
     },
     {
       "id": "di.feature.talent.ancestors_grudge",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/talent.ancestors_grudge.json",
-      "sha256": "9c1b4b7de09513eeb5ecec3410ce93bc62f42e75f9695ea50e457760d80ec088"
+      "sha256": "aeb697b4c4c568f48e9e1a08b68ed028ee59f5cb97c4fb5db9ee016871529900"
     },
     {
       "id": "di.feature.talent.armour_familiarity",
@@ -2156,15 +3274,15 @@
     },
     {
       "id": "di.feature.talent.bigger_gun",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/talent.bigger_gun.json",
-      "sha256": "296ce491f87c2c05b179b755003a424eed481422134e43cf7a8041beb64a5977"
+      "sha256": "c6579b40eb28c60ff3e1f4d5edd89da5b1f4c31192cc7d851520bac1d8bf541f"
     },
     {
       "id": "di.feature.talent.bone_ead_implant",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/talent.bone_ead_implant.json",
-      "sha256": "2a3febed7a45b0e2c0a70c164d9b9108d76a8b27fc78a8f8569c5f6ac73c7ff2"
+      "sha256": "09ec17c8ca56ae488543e3fd750ccf3a4c6a61dea9cc64be0fc2ef937214731f"
     },
     {
       "id": "di.feature.talent.brawler",
@@ -2186,9 +3304,9 @@
     },
     {
       "id": "di.feature.talent.cold_logic",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/talent.cold_logic.json",
-      "sha256": "276755f45879b8de79beaf306002c077c7ae4a972d06670ddd9c80fb2a8fea25"
+      "sha256": "201b8efe4b9f0fcd6225d1166dc08a409fac8090ee4cc319826a78c278f90ab5"
     },
     {
       "id": "di.feature.talent.combat_medic",
@@ -2198,9 +3316,9 @@
     },
     {
       "id": "di.feature.talent.cooks_morale",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/talent.cooks_morale.json",
-      "sha256": "419b7c05029d7e16047436dc2e1b1502bd5f6704abd1e18f425b691a9360dec4"
+      "sha256": "f2e7fa793b9c0b848622f5394903dbb7b4e97559f0d9c035e621650a4ff72e21"
     },
     {
       "id": "di.feature.talent.crisis_runner",
@@ -2246,27 +3364,27 @@
     },
     {
       "id": "di.feature.talent.hive_blooded",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/talent.hive_blooded.json",
-      "sha256": "bd3929687f82729c736e87d5721f3db204120690c9ba010bac5ed3d4ebc27f7c"
+      "sha256": "b42b8cb075c12ed312be5fe803d011733ef5ba7d84ba6c92d5f9c7a6a28881f0"
     },
     {
       "id": "di.feature.talent.hold_born_engineer",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/talent.hold_born_engineer.json",
-      "sha256": "1e62d2a66b4f8bad23f2132c390db1d4e978015572bd1891b361f188179521f8"
+      "sha256": "b2d849ea8b33851d64ca83363142f4ded4bff07eb61a9d4a0dae9cf5f4c6e845"
     },
     {
       "id": "di.feature.talent.imperial_flexibility",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/talent.imperial_flexibility.json",
-      "sha256": "ba76513ba1dfb7d991fa60a02b384b43d7b5e866c6f3a53eb430175d2474aded"
+      "sha256": "086e3619fc88585664631cb4a2782424bb2a864db23d6feb5f8af7bbc87e74e4"
     },
     {
       "id": "di.feature.talent.impossible_shot",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/talent.impossible_shot.json",
-      "sha256": "15305aa179c249b880c6a52a105d1b01bde83bdc9fb7ec8b3a54d5869ee11ca3"
+      "sha256": "25c7a15efee975888cc2bbfaa7c949bec957b72d545045e961970451e952f5bd"
     },
     {
       "id": "di.feature.talent.iron_discipline",
@@ -2276,57 +3394,57 @@
     },
     {
       "id": "di.feature.talent.iron_stance",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/talent.iron_stance.json",
-      "sha256": "26110223cf616a5220127deef92c2ddf5b1c475dd72d1625803a6a9731f6ac66"
+      "sha256": "3a0d8e9113fdb9ff5bcc2eddf46e32918ce08677e2fa66f62273e7cb5949de99"
     },
     {
       "id": "di.feature.talent.kin_weapon_master",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/talent.kin_weapon_master.json",
-      "sha256": "1878dc049fbb6a2d9b0183d9552c1a9d54ea7d66bb411311cf0c77b1d95ebabb"
+      "sha256": "18e5dddfd441e89b53299fb4f56e29c75529a317c7b0d307f0319ce6bd3375ae"
     },
     {
       "id": "di.feature.talent.last_order_standing",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/talent.last_order_standing.json",
-      "sha256": "38e3983c26d341c10866c48f752f52a5c3f451c74be61c65bca9624f25880f34"
+      "sha256": "3d677aff0913cd38dbf345c551223922801c06bae90ea8ddc330cc42a5cfca0c"
     },
     {
       "id": "di.feature.talent.loyal_as_stone",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/talent.loyal_as_stone.json",
-      "sha256": "af5c4b6b0006d21034c7f0afbbd04f7b6ca5855f74b282182cff16fe4c98de61"
+      "sha256": "e4b4984cfff4043b3eb350176ae52601a40a4bf0585c6a82b07d66b7cdc85817"
     },
     {
       "id": "di.feature.talent.machine_precision",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/talent.machine_precision.json",
-      "sha256": "14ad4f29c264113eff6f11df2aa223c2462e873426710184fb3e8af15cd13d70"
+      "sha256": "8d17204665ecd3b778ab94deba2e6d2255f41a51dc5dc24e4292c89efc784d29"
     },
     {
       "id": "di.feature.talent.noospheric_burst",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/talent.noospheric_burst.json",
-      "sha256": "b293a47a31b44f60e8aaeda827733c37299f7e52ecd27ef3307d95f25e9b37fd"
+      "sha256": "d3cb9edbe5da0320491580198b3b0166e346655483521f454260d7fda40d155f"
     },
     {
       "id": "di.feature.talent.ogryn_wall",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/talent.ogryn_wall.json",
-      "sha256": "ea2254f35784ea9481fe13011878811f24cf4d6700fb643afbfabc294875a072"
+      "sha256": "9173c4f2195c70d072e203466b108bd54234cbf6c413fae945c94a76f3ee5146"
     },
     {
       "id": "di.feature.talent.path_discipline",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/talent.path_discipline.json",
-      "sha256": "560b371719fe5a81c101701d4d17a04f279b00015c966e5a69190fe34a0c4f05"
+      "sha256": "c03a6e0fd67f4da1ee0dedd031b3ca812be1f393316a33ac87efe16e0fca43a5"
     },
     {
       "id": "di.feature.talent.pocket_marksman",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/talent.pocket_marksman.json",
-      "sha256": "d55ce0a8d5f13520152b694e42f60e96ae7228044f16b0e7421f32e71c45348e"
+      "sha256": "954bf1be40eb8c40b8bc2bcda4b07f5d486779380cb601d1754e8165b555793c"
     },
     {
       "id": "di.feature.talent.point_blank_execution",
@@ -2336,15 +3454,15 @@
     },
     {
       "id": "di.feature.talent.rad_hardened",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/talent.rad_hardened.json",
-      "sha256": "9645a4461d84018f834a77278d24d168f7783f11206f0eeab5d07a92289cf9a8"
+      "sha256": "e29d2e58abf21761db98a1b2dc47d79a82c07bfef8f82d34df471faf3f04388a"
     },
     {
       "id": "di.feature.talent.rangers_cloak",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/talent.rangers_cloak.json",
-      "sha256": "5ce1efaff481da93d92c40eeba9671150652440f970a9cb304bb5fbde67b4d39"
+      "sha256": "982d099f934485f47cdc2f3cddd17b2a502b54f87046fbde22924d55ae0cbaf2"
     },
     {
       "id": "di.feature.talent.rapid_reload",
@@ -2354,9 +3472,9 @@
     },
     {
       "id": "di.feature.talent.ratling_vanish",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/talent.ratling_vanish.json",
-      "sha256": "d96b86c89945d75372154f5affe832cdc1bb284a9fd48da3d31c4297c98b422e"
+      "sha256": "50a016b5e44613651457a51fd7636f88c05a2ef57cc415c5636e07062ec025a8"
     },
     {
       "id": "di.feature.talent.relic_bearer",
@@ -2366,21 +3484,21 @@
     },
     {
       "id": "di.feature.talent.sacred_augmetics",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/talent.sacred_augmetics.json",
-      "sha256": "d3e8e844f1f582a733f74067559f5b47afc19c003d9eca3e07cb500e27f04a1c"
+      "sha256": "5185faa255b7c121d49376f3d2490704d9805488a56774aa5106d5a1a12fe85b"
     },
     {
       "id": "di.feature.talent.sanctioning_scars",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/talent.sanctioning_scars.json",
-      "sha256": "0476b64f748532e60dcb224938042b68774bc8ecf30612ba384d7b2c196991f1"
+      "sha256": "7ec864fc4f5dcbcfc22e00fef752230e592e096b4b51faf637116a9fdadb0159"
     },
     {
       "id": "di.feature.talent.scavvers_luck",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/talent.scavvers_luck.json",
-      "sha256": "7103748c5d12d65519ab6450ec565b4453bf7a37d10ff036daf592c117bc2bda"
+      "sha256": "836add05500bcd55961a89b399ac44844d41b493bf5c6e74e0956d687e7389c1"
     },
     {
       "id": "di.feature.talent.suppressive_discipline",
@@ -2396,15 +3514,15 @@
     },
     {
       "id": "di.feature.talent.too_angry_to_notice",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/talent.too_angry_to_notice.json",
-      "sha256": "ccf28c58e94626397b7b92e7e84d90a88a6c719f77dc33f0755f59541e00f40f"
+      "sha256": "e09e406bc48bf3a8b1e439d2c6de0b0854a58661befb1e1703ee652b227162cb"
     },
     {
       "id": "di.feature.talent.void_stock",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/talent.void_stock.json",
-      "sha256": "02ca8d29c08edbe35ba381731c80871dc6b804605b663a72f3e0372bb2a5305d"
+      "sha256": "4b90aa3cde70aaf6e5cc99565f99636e4ac81c17187adc8dd5c2292a90e6f575"
     },
     {
       "id": "di.feature.talent.weapon_specialist",
@@ -2414,15 +3532,15 @@
     },
     {
       "id": "di.feature.talent.witch_sight",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/talent.witch_sight.json",
-      "sha256": "750a8ce9c7a16c2e5a2f9b33a1c766be2df0f0ae1f88a9ed5304e8943c1dde57"
+      "sha256": "10a2e4089d281ca10eaafcbfd9d6cc81be78759319e3cb7455574e0c82b614b9"
     },
     {
       "id": "di.feature.talent.witchblade_adept",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/talent.witchblade_adept.json",
-      "sha256": "c4ba225e44ff59dfbae55eeb3be63c1f26bd74178264ffaf00ddac3f3e1228b3"
+      "sha256": "611608a2a95d5b1738768dbf80743bcdd22ecdb5ad5ed859d96b003290d0fa38"
     },
     {
       "id": "di.feature.universal.augmetic_scarred",
@@ -2522,9 +3640,9 @@
     },
     {
       "id": "di.feature.universal.touched_by_the_warp",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/universal.touched_by_the_warp.json",
-      "sha256": "6f3b3545bb8615e2c38abd2daa98c71d4cf16e03653e3863c6e1d37b1dffbc94"
+      "sha256": "de2f8a07a40d6eba7713b1a64aa966d57f3952b33bea91fcc5cb37e6f0a3c8c3"
     },
     {
       "id": "di.feature.universal.twitchy",
@@ -2636,63 +3754,297 @@
     },
     {
       "id": "di.progression.aeldari_outcast",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/progression/aeldari_outcast.json",
-      "sha256": "cddb54f1b546f3eca34399f4eaf741703900d99dbcb49802f3c784b73ec63190"
+      "sha256": "894867f95a732d097edc1354405cfdb5a10398242ef83e91c4d7fe98b85a441b"
+    },
+    {
+      "id": "di.progression.aeldari_outcast.corsair",
+      "revision": 1,
+      "path": "entities/progression/aeldari_outcast.corsair.json",
+      "sha256": "fe035d299970f62c10ebbc5196faa53e56f31c7094695fce5086cf524ea1e16c"
+    },
+    {
+      "id": "di.progression.aeldari_outcast.ranger",
+      "revision": 1,
+      "path": "entities/progression/aeldari_outcast.ranger.json",
+      "sha256": "efebb85506b5fad03ea32bd1069c14a90767841ef9cc7177c1441d3a4e9a30e6"
+    },
+    {
+      "id": "di.progression.aeldari_outcast.shadow_guide",
+      "revision": 1,
+      "path": "entities/progression/aeldari_outcast.shadow_guide.json",
+      "sha256": "0c5ab706b233e27e6de224ff9b6b9f2251c2b7004e4b13b71f58c7338a95e65f"
     },
     {
       "id": "di.progression.aeldari_warlock",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/progression/aeldari_warlock.json",
-      "sha256": "d24067cd3959b1e442a57aa59c4250ba68ca3d64aee4edaf10a71e06a823d523"
+      "sha256": "bf5a15354894924968c310a313520f189011c801897fc33ed1ae0d327e82b1de"
+    },
+    {
+      "id": "di.progression.aeldari_warlock.seer_of_battle",
+      "revision": 1,
+      "path": "entities/progression/aeldari_warlock.seer_of_battle.json",
+      "sha256": "1b608943a68ea07a67e467246c487bfc0b4a3d11f7e375f3f2ebfc55eb8f8f9f"
+    },
+    {
+      "id": "di.progression.aeldari_warlock.spirit_guardian",
+      "revision": 1,
+      "path": "entities/progression/aeldari_warlock.spirit_guardian.json",
+      "sha256": "b275f6e14fa7e670ab3b01996bbe19f5f69641e6451cbc24ab37f7366c8342bf"
+    },
+    {
+      "id": "di.progression.aeldari_warlock.storm_warlock",
+      "revision": 1,
+      "path": "entities/progression/aeldari_warlock.storm_warlock.json",
+      "sha256": "1fb7649353d3511103c29dd6c1a40eeec2ae8b3e1dd7ee6063a260f2d971c120"
     },
     {
       "id": "di.progression.arbites_enforcer",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/progression/arbites_enforcer.json",
-      "sha256": "dbc8f55e7c742f76d49b18c007e90c0b28da80f06bc317495ddf829ed53175e5"
+      "sha256": "88fed6b4c0b54e25c67662edbd08a409681c4be7a87fb9bf20aa7803372f2b84"
+    },
+    {
+      "id": "di.progression.arbites_enforcer.executioner",
+      "revision": 1,
+      "path": "entities/progression/arbites_enforcer.executioner.json",
+      "sha256": "a669439872c4bc697811a3dc0691f400605e8a3cd7df0a72c5c82a6f0c7decc9"
+    },
+    {
+      "id": "di.progression.arbites_enforcer.investigator",
+      "revision": 1,
+      "path": "entities/progression/arbites_enforcer.investigator.json",
+      "sha256": "ba3a539cc869ebd68536ecda637c559e5af4a71510c279f427a15dae89c0c27f"
+    },
+    {
+      "id": "di.progression.arbites_enforcer.riot_shield",
+      "revision": 1,
+      "path": "entities/progression/arbites_enforcer.riot_shield.json",
+      "sha256": "845ed78033ff4398e79208a80bbe484677fd35e337b01e1bc07d857d47b38896"
     },
     {
       "id": "di.progression.hernkyn_prospector",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/progression/hernkyn_prospector.json",
-      "sha256": "49209831b6a2367a5960f117a12a8f7c73f3e744cb45eece3f9c5156b1492a63"
+      "sha256": "77e617120d181562bff06ba305a57caf5a15f2d237951c8a3bf7b750c64c749c"
+    },
+    {
+      "id": "di.progression.hernkyn_prospector.claim_staker",
+      "revision": 1,
+      "path": "entities/progression/hernkyn_prospector.claim_staker.json",
+      "sha256": "08985d18f3a64cd3052ee2fa8d317975a8e19f1d88c9fc1db44b9b4b6e76e336"
+    },
+    {
+      "id": "di.progression.hernkyn_prospector.outrider",
+      "revision": 1,
+      "path": "entities/progression/hernkyn_prospector.outrider.json",
+      "sha256": "42a428fa1fd642f0d8e892b14b34ef41f184e2d4f3064ba9dba1ab467d7f8cf1"
+    },
+    {
+      "id": "di.progression.hernkyn_prospector.trail_gunner",
+      "revision": 1,
+      "path": "entities/progression/hernkyn_prospector.trail_gunner.json",
+      "sha256": "99bc8eee95e13259b84d603f73a12b00514f431264ade5423b60a2fd81b1fbe1"
     },
     {
       "id": "di.progression.hive_scum",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/progression/hive_scum.json",
-      "sha256": "7a8922ae2b870ae538f095b51a1782b3d920d971940c2165b068edd9d0f554d6"
+      "sha256": "950d8692ae54eab5a77a99808c6dcc0a5d942defea3ae25dba60664e99413159"
+    },
+    {
+      "id": "di.progression.hive_scum.chem_user",
+      "revision": 1,
+      "path": "entities/progression/hive_scum.chem_user.json",
+      "sha256": "14f53c6f6a9230e22b51a6088dd7cea963be820e93078ce13a778ef375c6e06b"
+    },
+    {
+      "id": "di.progression.hive_scum.gunslinger",
+      "revision": 1,
+      "path": "entities/progression/hive_scum.gunslinger.json",
+      "sha256": "25ad0e406ced5f44515232f5ca80c37d3d08beb1421bd5307fb20f97b1b1588e"
+    },
+    {
+      "id": "di.progression.hive_scum.knife_rat",
+      "revision": 1,
+      "path": "entities/progression/hive_scum.knife_rat.json",
+      "sha256": "4b64a73ea7d04d10767a04783e517a3108d1ad1610edf42cb81ba14241c6b9ff"
+    },
+    {
+      "id": "di.progression.hive_scum.sump_ghost",
+      "revision": 1,
+      "path": "entities/progression/hive_scum.sump_ghost.json",
+      "sha256": "f95f7a4788bdbd1fb7d9f98ef8bbd6de193a3d95ecec4c6ff1492378cbb612a6"
     },
     {
       "id": "di.progression.kin_armsman",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/progression/kin_armsman.json",
-      "sha256": "72ab3189bfae1e2353077cde2c961caa3d856379ebc2dea5df581c4f117b73fc"
+      "sha256": "25bff696c0011643fa507bb19683c49215e464e6d1d992af9f1234a251ada407"
+    },
+    {
+      "id": "di.progression.kin_armsman.guild_militant",
+      "revision": 1,
+      "path": "entities/progression/kin_armsman.guild_militant.json",
+      "sha256": "e367c5a6ce55c4b92ce3be130d43f872416afb846d7bb9d2261bb44b5513f385"
+    },
+    {
+      "id": "di.progression.kin_armsman.hearthguard",
+      "revision": 1,
+      "path": "entities/progression/kin_armsman.hearthguard.json",
+      "sha256": "60731ffdf55867347710f5b1de8b1fa38b60efce53f99571081182ee74cc2a65"
+    },
+    {
+      "id": "di.progression.kin_armsman.ironhead",
+      "revision": 1,
+      "path": "entities/progression/kin_armsman.ironhead.json",
+      "sha256": "a94915e0375a9c1d4c4605a056766ca16f8cb865b3013fa98245fa8e773a7ac7"
     },
     {
       "id": "di.progression.ogryn_skullbreaker",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/progression/ogryn_skullbreaker.json",
-      "sha256": "3da8f342227881989fe5519e31dd4940ae2b51f37c329e20b8d74f752e5b762a"
+      "sha256": "372fdb6630f1d88ee9e17c3e4dcb9c4bc1cf04c2c6e4d83d9546777497a98cbe"
+    },
+    {
+      "id": "di.progression.ogryn_skullbreaker.bone_ead",
+      "revision": 1,
+      "path": "entities/progression/ogryn_skullbreaker.bone_ead.json",
+      "sha256": "a56f5283c782b49941ce1292f9efe045869b5d5005e6e4f57d23f639be8f323e"
+    },
+    {
+      "id": "di.progression.ogryn_skullbreaker.brute",
+      "revision": 1,
+      "path": "entities/progression/ogryn_skullbreaker.brute.json",
+      "sha256": "7ca3d92a054ca3991c359fbe71985b28dcac0deb018df6f369956c567802e206"
+    },
+    {
+      "id": "di.progression.ogryn_skullbreaker.bulwark",
+      "revision": 1,
+      "path": "entities/progression/ogryn_skullbreaker.bulwark.json",
+      "sha256": "9fb942de7dc6c747c323755ed643c7770c3e767a9fec85c36772a7ae114e9c53"
+    },
+    {
+      "id": "di.progression.ogryn_skullbreaker.gun_lugger",
+      "revision": 1,
+      "path": "entities/progression/ogryn_skullbreaker.gun_lugger.json",
+      "sha256": "404a3487f66e256e1d554608f8533ee306328da8aeb7c5b5b44d2351fdd6d43c"
     },
     {
       "id": "di.progression.psyker",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/progression/psyker.json",
-      "sha256": "50c87ada3668f822eea4e3e8828169210e4462850357297c96d8286332c6dbfb"
+      "sha256": "f28d321226f4c9ff549f3252c223cf2626a461ce7653ab40ea2d453e181e3075"
+    },
+    {
+      "id": "di.progression.psyker.biomancer",
+      "revision": 1,
+      "path": "entities/progression/psyker.biomancer.json",
+      "sha256": "4e3a7a41f69bc3357649d5c904a6d79e456bfa8bbcf0b1995f102e8f3f7176c9"
+    },
+    {
+      "id": "di.progression.psyker.blank_null_bound",
+      "revision": 1,
+      "path": "entities/progression/psyker.blank_null_bound.json",
+      "sha256": "2ecb87dd4839b1fc8a86d8e1f774b107ac8fa65e56c969de97c4450939dde239"
+    },
+    {
+      "id": "di.progression.psyker.diviner",
+      "revision": 1,
+      "path": "entities/progression/psyker.diviner.json",
+      "sha256": "57245dcee2a29c0e93aea4001ebae8652bec150087d6a2dd8061a7508a7e5595"
+    },
+    {
+      "id": "di.progression.psyker.malefic_touched",
+      "revision": 1,
+      "path": "entities/progression/psyker.malefic_touched.json",
+      "sha256": "385848068da2e448b893e3a754a63a15948b31826ba59c4db3a063fa2caa609f"
+    },
+    {
+      "id": "di.progression.psyker.pyromancer",
+      "revision": 1,
+      "path": "entities/progression/psyker.pyromancer.json",
+      "sha256": "cd491207f5af79d5084899d983d4b6f282a412f9c8fdfeaab7728af1362bbc9c"
+    },
+    {
+      "id": "di.progression.psyker.telekine",
+      "revision": 1,
+      "path": "entities/progression/psyker.telekine.json",
+      "sha256": "ea56b5a8406e6e8f70f31a2209446bbb685431b8882fab10b95925f5a0d0a9eb"
     },
     {
       "id": "di.progression.ratling_sharpshooter",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/progression/ratling_sharpshooter.json",
-      "sha256": "82965870dd9b21b4c63310664ac4744622c2f64929f1b0eceafe65030385cbc3"
+      "sha256": "c2e995a3fe29d317678a4f3600429f3b587ead812fb958ed090d3766067bb981"
+    },
+    {
+      "id": "di.progression.ratling_sharpshooter.black_market_gremlin",
+      "revision": 1,
+      "path": "entities/progression/ratling_sharpshooter.black_market_gremlin.json",
+      "sha256": "c625bcc57d2c75e86450aa6ac57495532eeb5804e200ae227605c01ee23a25ee"
+    },
+    {
+      "id": "di.progression.ratling_sharpshooter.long_las_sniper",
+      "revision": 1,
+      "path": "entities/progression/ratling_sharpshooter.long_las_sniper.json",
+      "sha256": "4818487d15ea6bdc0de461dbe16fbd8c2a27ecfc4f2dbdf2e4bc387e254497e0"
+    },
+    {
+      "id": "di.progression.ratling_sharpshooter.spotter",
+      "revision": 1,
+      "path": "entities/progression/ratling_sharpshooter.spotter.json",
+      "sha256": "e0f1c131c4714c17d07199355509a9b2e8892aa97616c9ceef091c8943bfeedd"
+    },
+    {
+      "id": "di.progression.ratling_sharpshooter.underhive_rat",
+      "revision": 1,
+      "path": "entities/progression/ratling_sharpshooter.underhive_rat.json",
+      "sha256": "86e6780062cf470d983cea9c10d58b07165075e4fe179907e3d64b5fb502c334"
     },
     {
       "id": "di.progression.skitarii_veteran",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/progression/skitarii_veteran.json",
-      "sha256": "6331b6219e841f9900e73e34c45a6f775fe5b00b8c3ef06050b275c723927376"
+      "sha256": "0ba9a8e511503db3d68a27c4b165d1b1fd9dee8041474c3bcafb0adeb3ca38e0"
+    },
+    {
+      "id": "di.progression.skitarii_veteran.data_hunter",
+      "revision": 1,
+      "path": "entities/progression/skitarii_veteran.data_hunter.json",
+      "sha256": "eb55bb4504acd389f647ece242f41e888f5db7563e156e75112be8e1127f59ba"
+    },
+    {
+      "id": "di.progression.skitarii_veteran.infiltrator",
+      "revision": 1,
+      "path": "entities/progression/skitarii_veteran.infiltrator.json",
+      "sha256": "de94d0bf392859bfa69c024a41c6b6608aa583a0633eabe9ec6065a2cfe760da"
+    },
+    {
+      "id": "di.progression.skitarii_veteran.protector",
+      "revision": 1,
+      "path": "entities/progression/skitarii_veteran.protector.json",
+      "sha256": "25868993d682d2807c51de38ee34251258ab18850da51488b7d6a90f95eb66a6"
+    },
+    {
+      "id": "di.progression.skitarii_veteran.ranger",
+      "revision": 1,
+      "path": "entities/progression/skitarii_veteran.ranger.json",
+      "sha256": "fedb8ffd25dfebe841294d588ed58eb5a59ae57313125b0aa3335525f01d547c"
+    },
+    {
+      "id": "di.progression.skitarii_veteran.ruststalker",
+      "revision": 1,
+      "path": "entities/progression/skitarii_veteran.ruststalker.json",
+      "sha256": "f945d59d051b926c66e3b8eaea9a8ff7ec662c3c99b9b64bb4e5212005ee9e7d"
+    },
+    {
+      "id": "di.progression.skitarii_veteran.vanguard",
+      "revision": 1,
+      "path": "entities/progression/skitarii_veteran.vanguard.json",
+      "sha256": "4df22c68540b44ca219adfea2b95c6db72cdcc9a1af11d2ba0fc811e17bfecc9"
     },
     {
       "id": "di.progression.subclass.veteran.marksman",
@@ -2720,9 +4072,27 @@
     },
     {
       "id": "di.progression.zealot",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/progression/zealot.json",
-      "sha256": "146cfbf17083a0a7f8837ff5a42ae1f5b0c2588f35c0a634b2d56c6aba564515"
+      "sha256": "8b656c0f2830e50a84123b9918ca2de7b70563bf0baf05c66119491203c26d15"
+    },
+    {
+      "id": "di.progression.zealot.flagellant",
+      "revision": 1,
+      "path": "entities/progression/zealot.flagellant.json",
+      "sha256": "338e4633ea2f3c59e50ea8e5ecc85822912de18d3c3672d5efd8555edf654c53"
+    },
+    {
+      "id": "di.progression.zealot.preacher",
+      "revision": 1,
+      "path": "entities/progression/zealot.preacher.json",
+      "sha256": "304435098ab798b75e0ba9e4cb216aca2a7514a7fc73cb65d740efba3e290ea8"
+    },
+    {
+      "id": "di.progression.zealot.purifier",
+      "revision": 1,
+      "path": "entities/progression/zealot.purifier.json",
+      "sha256": "a226f95e14a7a1e625aba370a8d0b23139162a1abe9ae21005d8e8514dcbcbe7"
     },
     {
       "id": "di.property.weapon.accurate",
@@ -3601,6 +4971,240 @@
       "sha256": "dbdd6a27dbf9fcbcfbe3ecca9bd1f87894bf5d44ef158beb472adefa4a0f7f48"
     },
     {
+      "id": "di.subclass.aeldari_outcast.corsair",
+      "revision": 1,
+      "path": "entities/subclass/aeldari_outcast.corsair.json",
+      "sha256": "cd0d3363204f55d91e73f10d66034352e2dd67a525d0c94be888a293abe99495"
+    },
+    {
+      "id": "di.subclass.aeldari_outcast.ranger",
+      "revision": 1,
+      "path": "entities/subclass/aeldari_outcast.ranger.json",
+      "sha256": "0fd17867469f416d0490a9221199ab566bc61c240a4113676626726f69fc0cad"
+    },
+    {
+      "id": "di.subclass.aeldari_outcast.shadow_guide",
+      "revision": 1,
+      "path": "entities/subclass/aeldari_outcast.shadow_guide.json",
+      "sha256": "b8f016b67fa89b3c9cfb1feb847af4debcd494dd983633dbb12c8ceb92692487"
+    },
+    {
+      "id": "di.subclass.aeldari_warlock.seer_of_battle",
+      "revision": 1,
+      "path": "entities/subclass/aeldari_warlock.seer_of_battle.json",
+      "sha256": "f85307f6b503f09ff81d052281df77290839eeddd951440968032cbf46446548"
+    },
+    {
+      "id": "di.subclass.aeldari_warlock.spirit_guardian",
+      "revision": 1,
+      "path": "entities/subclass/aeldari_warlock.spirit_guardian.json",
+      "sha256": "456454559323674e40bcda513005e4cbe868cfb066c6e9e8fc4f9c3ffa72a2bd"
+    },
+    {
+      "id": "di.subclass.aeldari_warlock.storm_warlock",
+      "revision": 1,
+      "path": "entities/subclass/aeldari_warlock.storm_warlock.json",
+      "sha256": "9161adae315df76be4527fe1e92599055a7c9dbabf0e914ea731678582fa85b6"
+    },
+    {
+      "id": "di.subclass.arbites_enforcer.executioner",
+      "revision": 1,
+      "path": "entities/subclass/arbites_enforcer.executioner.json",
+      "sha256": "cf9abe056bda648d5a3f0b327fc013465e1e1cd38ae5da6604cb66bc07d436ce"
+    },
+    {
+      "id": "di.subclass.arbites_enforcer.investigator",
+      "revision": 1,
+      "path": "entities/subclass/arbites_enforcer.investigator.json",
+      "sha256": "bbbf1e63ebe4f9bccab785d5a750de742e6b87d6e3d28e6eab0cd9f4e1cc10f5"
+    },
+    {
+      "id": "di.subclass.arbites_enforcer.riot_shield",
+      "revision": 1,
+      "path": "entities/subclass/arbites_enforcer.riot_shield.json",
+      "sha256": "4409559ebe483d73e3dec2608dd4fdcb8e5617b86851ebcad5824794ce8895ec"
+    },
+    {
+      "id": "di.subclass.hernkyn_prospector.claim_staker",
+      "revision": 1,
+      "path": "entities/subclass/hernkyn_prospector.claim_staker.json",
+      "sha256": "9a447d86fd3979645cf3bf15981592d0a9636bc11e33633772b6a6b05c845ba7"
+    },
+    {
+      "id": "di.subclass.hernkyn_prospector.outrider",
+      "revision": 1,
+      "path": "entities/subclass/hernkyn_prospector.outrider.json",
+      "sha256": "8f26d8acd33c9644f7dd59543c5eedafcc10fdf3c0e2ce71872d47f5bdc118a1"
+    },
+    {
+      "id": "di.subclass.hernkyn_prospector.trail_gunner",
+      "revision": 1,
+      "path": "entities/subclass/hernkyn_prospector.trail_gunner.json",
+      "sha256": "1833f017f6d749cdceedb5f34279b73d57744c94bc957f01e6343f8c5261755a"
+    },
+    {
+      "id": "di.subclass.hive_scum.chem_user",
+      "revision": 1,
+      "path": "entities/subclass/hive_scum.chem_user.json",
+      "sha256": "32b3964dfb6444576eb193ce4973167f3da23c33df2db915416a632a09a3344b"
+    },
+    {
+      "id": "di.subclass.hive_scum.gunslinger",
+      "revision": 1,
+      "path": "entities/subclass/hive_scum.gunslinger.json",
+      "sha256": "63934597c2875d22f45bd3d90e0e7131b1d95221b7bab1680da8f0b4f9d78816"
+    },
+    {
+      "id": "di.subclass.hive_scum.knife_rat",
+      "revision": 1,
+      "path": "entities/subclass/hive_scum.knife_rat.json",
+      "sha256": "13e56892e2dbf7c5fb810b90438abe222d3f8b89188a57f539fc2fc0bbaae29d"
+    },
+    {
+      "id": "di.subclass.hive_scum.sump_ghost",
+      "revision": 1,
+      "path": "entities/subclass/hive_scum.sump_ghost.json",
+      "sha256": "90cbc88bf9e7ce09740095077461bb03f234eae975cd822dbeacb4cb0081ad7f"
+    },
+    {
+      "id": "di.subclass.kin_armsman.guild_militant",
+      "revision": 1,
+      "path": "entities/subclass/kin_armsman.guild_militant.json",
+      "sha256": "8abda0f094b84d6ac3b2343e7dfadaad744703352c32ea53110fe601e659105a"
+    },
+    {
+      "id": "di.subclass.kin_armsman.hearthguard",
+      "revision": 1,
+      "path": "entities/subclass/kin_armsman.hearthguard.json",
+      "sha256": "3abd86fc8463e62b84d82cab5492dbf31ca768109a34574c2f5701c0fcb61171"
+    },
+    {
+      "id": "di.subclass.kin_armsman.ironhead",
+      "revision": 1,
+      "path": "entities/subclass/kin_armsman.ironhead.json",
+      "sha256": "4b6971f140bbc5a0f2c1672a3ab2c985c5cfc487ff4ada5b96a851948ccadf80"
+    },
+    {
+      "id": "di.subclass.ogryn_skullbreaker.bone_ead",
+      "revision": 1,
+      "path": "entities/subclass/ogryn_skullbreaker.bone_ead.json",
+      "sha256": "8be4afc751e91a2c2289900cf8bb0422544ce011459c6aff275fdf7628e6d9a7"
+    },
+    {
+      "id": "di.subclass.ogryn_skullbreaker.brute",
+      "revision": 1,
+      "path": "entities/subclass/ogryn_skullbreaker.brute.json",
+      "sha256": "4f71fd1b5f121b5ade7754f9731dba8e282261dd012479e4bae6a8f703745ba0"
+    },
+    {
+      "id": "di.subclass.ogryn_skullbreaker.bulwark",
+      "revision": 1,
+      "path": "entities/subclass/ogryn_skullbreaker.bulwark.json",
+      "sha256": "75797ab274323d43e95f68b7c4ed9511def264b384791651d3c18b139bc6e751"
+    },
+    {
+      "id": "di.subclass.ogryn_skullbreaker.gun_lugger",
+      "revision": 1,
+      "path": "entities/subclass/ogryn_skullbreaker.gun_lugger.json",
+      "sha256": "40c4c64196cfae0f192d245ff07b1eab7d467b350ffd10db72ec95dac183ffe4"
+    },
+    {
+      "id": "di.subclass.psyker.biomancer",
+      "revision": 1,
+      "path": "entities/subclass/psyker.biomancer.json",
+      "sha256": "ed2f20af3a7749f1fce14721719692e3c1c4f8e5827691415d11142b3807dff8"
+    },
+    {
+      "id": "di.subclass.psyker.blank_null_bound",
+      "revision": 1,
+      "path": "entities/subclass/psyker.blank_null_bound.json",
+      "sha256": "aa346324c2bdde2f163ff3410be659ca3332f4e9c58d6ddd47d2582ff195754b"
+    },
+    {
+      "id": "di.subclass.psyker.diviner",
+      "revision": 1,
+      "path": "entities/subclass/psyker.diviner.json",
+      "sha256": "e0389e3adfbf3fd04dfa996a058a3883b06c432b2fbe10cbe4810ee7a454c4de"
+    },
+    {
+      "id": "di.subclass.psyker.malefic_touched",
+      "revision": 1,
+      "path": "entities/subclass/psyker.malefic_touched.json",
+      "sha256": "c5bac13a0ce299aa19f53904b5e1c2e875a2205d63a2d6556426d7f9ed6d9760"
+    },
+    {
+      "id": "di.subclass.psyker.pyromancer",
+      "revision": 1,
+      "path": "entities/subclass/psyker.pyromancer.json",
+      "sha256": "795d174fd1021d2e14f20e1843582c73ad5ed8871a8bc849deb1103f62052686"
+    },
+    {
+      "id": "di.subclass.psyker.telekine",
+      "revision": 1,
+      "path": "entities/subclass/psyker.telekine.json",
+      "sha256": "799962d0c1c643e9d4edb159eef2071e6f70a805bb874dbf76e784d9100a3adb"
+    },
+    {
+      "id": "di.subclass.ratling_sharpshooter.black_market_gremlin",
+      "revision": 1,
+      "path": "entities/subclass/ratling_sharpshooter.black_market_gremlin.json",
+      "sha256": "fbd665940f8903ae7344ddb7cb69957bf953f2ad5c0ff6b6236600b0fa49e073"
+    },
+    {
+      "id": "di.subclass.ratling_sharpshooter.long_las_sniper",
+      "revision": 1,
+      "path": "entities/subclass/ratling_sharpshooter.long_las_sniper.json",
+      "sha256": "0abafdf048cb03bad4f63e089a071ca50d867e2cc1663cc153167fc4dc9439bc"
+    },
+    {
+      "id": "di.subclass.ratling_sharpshooter.spotter",
+      "revision": 1,
+      "path": "entities/subclass/ratling_sharpshooter.spotter.json",
+      "sha256": "b90bac1849f035a45f4302940d647e65f8433ea45f6cc08ba3b5a942694f84e5"
+    },
+    {
+      "id": "di.subclass.ratling_sharpshooter.underhive_rat",
+      "revision": 1,
+      "path": "entities/subclass/ratling_sharpshooter.underhive_rat.json",
+      "sha256": "f612e164a46fdbfc61798a144c7ff4d2ba3852ecf6ba013ed6c886a9803600c5"
+    },
+    {
+      "id": "di.subclass.skitarii_veteran.data_hunter",
+      "revision": 1,
+      "path": "entities/subclass/skitarii_veteran.data_hunter.json",
+      "sha256": "cea44930ac29c3836a5a3fd92c9fcd34510ce5a6a76cb42a4bf37028c8e045aa"
+    },
+    {
+      "id": "di.subclass.skitarii_veteran.infiltrator",
+      "revision": 1,
+      "path": "entities/subclass/skitarii_veteran.infiltrator.json",
+      "sha256": "f85fe207e4906f36f5c53ed2ce1000b4a2fb963e54a97b79f4ae513104ea989e"
+    },
+    {
+      "id": "di.subclass.skitarii_veteran.protector",
+      "revision": 1,
+      "path": "entities/subclass/skitarii_veteran.protector.json",
+      "sha256": "1d9452baa0c33c25c521a16c8d38128199e093a3e0d91e4be658f899ce462876"
+    },
+    {
+      "id": "di.subclass.skitarii_veteran.ranger",
+      "revision": 1,
+      "path": "entities/subclass/skitarii_veteran.ranger.json",
+      "sha256": "43719b1a2af1d0eb41a4644a8c7e0d54d49147fe09665dd34f708aef336fcf09"
+    },
+    {
+      "id": "di.subclass.skitarii_veteran.ruststalker",
+      "revision": 1,
+      "path": "entities/subclass/skitarii_veteran.ruststalker.json",
+      "sha256": "7a9dcffa65fcf9dd135e47a382a5f67a44685d8c1d75bfbd1d916b8f9fd230cf"
+    },
+    {
+      "id": "di.subclass.skitarii_veteran.vanguard",
+      "revision": 1,
+      "path": "entities/subclass/skitarii_veteran.vanguard.json",
+      "sha256": "904e56f3afbf3a7915d90a48fb95d2548f3831ef225b84eb3ed49399ea65f699"
+    },
+    {
       "id": "di.subclass.veteran.marksman",
       "revision": 1,
       "path": "entities/subclass/veteran.marksman.json",
@@ -3617,6 +5221,24 @@
       "revision": 1,
       "path": "entities/subclass/veteran.shock_trooper.json",
       "sha256": "1eeee32845050046377d6bd44579d46ea0270c95aecf6af81f41081660c40f32"
+    },
+    {
+      "id": "di.subclass.zealot.flagellant",
+      "revision": 1,
+      "path": "entities/subclass/zealot.flagellant.json",
+      "sha256": "3646b5ebcc9bf8e7be1eeadd63f898a1f1b72e7e38063da9df9ffdf03432c0e7"
+    },
+    {
+      "id": "di.subclass.zealot.preacher",
+      "revision": 1,
+      "path": "entities/subclass/zealot.preacher.json",
+      "sha256": "09f4d41f76ce4888c3bd546268a07113c243db13bda65b8e3e1f3eec0ced61f3"
+    },
+    {
+      "id": "di.subclass.zealot.purifier",
+      "revision": 1,
+      "path": "entities/subclass/zealot.purifier.json",
+      "sha256": "aa7122220b0dc9f6d1f12b3f88c4c2f4db9d6a23ee67dfe87cc018ff784569e8"
     }
   ]
 }

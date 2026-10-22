@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "di.feature.subclass.hive_scum.knife_rat.level_3",
+  "kind": "feature",
+  "revision": 1,
+  "name": "Knife Rat level 3",
+  "summary": "Knife Rat; Your melee attacks with light weapons score a critical hit on 19- 20.",
+  "descriptionMarkdown": "Knife Rat; Your melee attacks with light weapons score a critical hit on 19- 20.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Knife Rat level 3",
+        "pdfPage": 65,
+        "printedPage": 52
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "flavor": "subclass_feature",
+    "effects": [],
+    "grants": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Knife Rat; Your melee attacks with light weapons score a critical hit on 19- 20.",
+        "adjudicator": "gm",
+        "context": "Source-defined procedure; display on sheet, compendium and GM tools.",
+        "reason": "Deterministic mechanic awaiting effect/action mapping; not manual by design."
+      }
+    ]
+  }
+}

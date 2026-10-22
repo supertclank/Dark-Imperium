@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.class.ratling_sharpshooter",
   "kind": "class",
-  "revision": 1,
+  "revision": 2,
   "name": "Ratling Sharpshooter",
   "summary": "11.7 Ratling Sharpshooter A tiny marksman, scout, thief, spotter, and survivor who wins fights through positioning and precision. Allowed Species: Ratling only. Hit Die: d8. Primary Abilities: Dexterity, Wisdom. Saving Throws: Dexterity, Wisdom. Armour: Light armour, flak armour. Weapons: Pistols, knives, shotguns, lasguns, long-las, sniper weapons. Tools: Cook’s utensils or thieves’ tools.",
   "descriptionMarkdown": "11.7 Ratling Sharpshooter\nA tiny marksman, scout, thief, spotter, and survivor who wins fights through positioning and precision.\nAllowed Species: Ratling only.\nHit Die: d8.\nPrimary Abilities: Dexterity, Wisdom.\nSaving Throws: Dexterity, Wisdom.\nArmour: Light armour, flak armour.\nWeapons: Pistols, knives, shotguns, lasguns, long-las, sniper weapons.\nTools: Cook’s utensils or thieves’ tools.",
@@ -35,6 +35,20 @@
       "content": {
         "id": "di.species.ratling"
       }
-    }
+    },
+    "allowedSubclasses": [
+      {
+        "id": "di.subclass.ratling_sharpshooter.black_market_gremlin"
+      },
+      {
+        "id": "di.subclass.ratling_sharpshooter.long_las_sniper"
+      },
+      {
+        "id": "di.subclass.ratling_sharpshooter.spotter"
+      },
+      {
+        "id": "di.subclass.ratling_sharpshooter.underhive_rat"
+      }
+    ]
   }
 }

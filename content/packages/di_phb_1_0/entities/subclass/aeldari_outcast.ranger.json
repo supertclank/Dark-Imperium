@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "di.subclass.aeldari_outcast.ranger",
+  "kind": "subclass",
+  "revision": 1,
+  "name": "Ranger",
+  "summary": "Ranger; If you do not move before attacking with a ranger long rifle, your first ranged attack this turn gains +2 to hit.  Ranger; Your attacks with Accurate Aeldari weapons ignore light cover.  Ranger; Your Death from Elsewhere feature recharges when you roll initiative if you have no uses remaining.  Ranger; Your attacks from hiding score a critical hit on 19-20.",
+  "descriptionMarkdown": "Ranger; If you do not move before attacking with a ranger long rifle, your first ranged attack this turn gains +2 to hit.\n\nRanger; Your attacks with Accurate Aeldari weapons ignore light cover.\n\nRanger; Your Death from Elsewhere feature recharges when you roll initiative if you have no uses remaining.\n\nRanger; Your attacks from hiding score a critical hit on 19-20.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Ranger",
+        "pdfPage": 80,
+        "printedPage": 67
+      }
+    },
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11",
+        "heading": "Ranger",
+        "pdfPage": 81,
+        "printedPage": 68
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "parentClass": {
+      "id": "di.class.aeldari_outcast"
+    },
+    "features": [],
+    "progression": {
+      "id": "di.progression.aeldari_outcast.ranger"
+    },
+    "requirements": {
+      "kind": "level",
+      "axis": {
+        "kind": "class_level",
+        "class": {
+          "id": "di.class.aeldari_outcast"
+        }
+      },
+      "operator": "gte",
+      "value": 3
+    }
+  }
+}
