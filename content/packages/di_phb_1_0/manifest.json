@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "packageId": "di_phb",
-  "packageVersion": "1.0-canonicalisation.1",
+  "packageVersion": "1.0-creation-readiness.1",
   "lifecycle": "draft",
   "dependencies": [],
   "sources": [
@@ -133,6 +133,30 @@
       "revision": 1,
       "path": "entities/choice/craftworld_outcast.skills.json",
       "sha256": "53a54462c38c91af9409c035268c42f19e63113774992fe4e668ad54301fad14"
+    },
+    {
+      "id": "di.choice.creation.class",
+      "revision": 1,
+      "path": "entities/choice/creation.class.json",
+      "sha256": "ceca3d60080c694a959d680706463ea6f7dd4bc37607c1344830f4e7ffe00909"
+    },
+    {
+      "id": "di.choice.creation.origin",
+      "revision": 1,
+      "path": "entities/choice/creation.origin.json",
+      "sha256": "a15125ce78d6f076fef6ced2eb29f83a05ea067e4e8e77710ade1b0dac1b0251"
+    },
+    {
+      "id": "di.choice.creation.species",
+      "revision": 1,
+      "path": "entities/choice/creation.species.json",
+      "sha256": "36508b2228806bdb826a8b3f4cae22ffd2c99a6a7b8f5adf2ec7b4a5b06022f9"
+    },
+    {
+      "id": "di.choice.creation.universal_trait",
+      "revision": 1,
+      "path": "entities/choice/creation.universal_trait.json",
+      "sha256": "b2658ee6b77c2adb0896fce8890f2b1d84c0fa98db1f56e0769c01140f46562b"
     },
     {
       "id": "di.choice.hernkyn_prospector.subclass",

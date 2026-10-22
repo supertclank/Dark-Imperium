@@ -1,0 +1,98 @@
+{
+  "purpose": "Source-supported partial draft; never a fabricated fully valid character.",
+  "draft": {
+    "id": "9e9c2e5d-3591-5d60-82e8-1ad0d4959483",
+    "name": "aeldari",
+    "selections": {
+      "species": {
+        "id": "di.species.aeldari"
+      },
+      "background": {
+        "id": "di.background.craftworld_outcast"
+      },
+      "classes": [
+        {
+          "class": {
+            "id": "di.class.aeldari_outcast"
+          },
+          "level": 1
+        }
+      ],
+      "attributes": {
+        "strength": 15,
+        "dexterity": 14,
+        "constitution": 13,
+        "intelligence": 12,
+        "wisdom": 10,
+        "charisma": 8
+      },
+      "answers": [
+        {
+          "occurrenceId": "ef4aa5d3-55cd-568e-b2e6-be69c72f24a3",
+          "origin": {
+            "kind": "creation_step",
+            "stepId": "pending_choices"
+          },
+          "choice": {
+            "id": "di.choice.aeldari.ability_scores"
+          },
+          "optionIds": [
+            "intelligence"
+          ],
+          "status": "valid"
+        },
+        {
+          "occurrenceId": "87afe703-6a8a-5ebb-be45-589ae26dacc2",
+          "origin": {
+            "kind": "creation_step",
+            "stepId": "pending_choices"
+          },
+          "choice": {
+            "id": "di.choice.craftworld_outcast.skills"
+          },
+          "optionIds": [
+            "acrobatics",
+            "insight"
+          ],
+          "status": "valid"
+        },
+        {
+          "occurrenceId": "7e759dae-7d31-5a6b-82ae-1abc6af3c376",
+          "origin": {
+            "kind": "creation_step",
+            "stepId": "pending_choices"
+          },
+          "choice": {
+            "id": "di.choice.creation.universal_trait"
+          },
+          "optionIds": [
+            "universal_twitchy"
+          ],
+          "status": "valid"
+        }
+      ]
+    },
+    "inventory": []
+  },
+  "expected": {
+    "status": "INCOMPLETE",
+    "baseEligibilityStatus": "VALID",
+    "baseWalk": 35,
+    "proficiencyBonus": 2,
+    "errorCodes": [],
+    "requiredUnresolvedCodes": [
+      "ATTRIBUTE_MODIFIER_POLICY_BLOCKED",
+      "STARTING_EQUIPMENT_CONTENT_BLOCKED",
+      "PLAYABLE_PROFILE_MISSING"
+    ],
+    "mustNotGenerate": [
+      "attributeModifiers",
+      "maximumWounds",
+      "defence",
+      "initiative",
+      "skills",
+      "saves"
+    ],
+    "rollDefinitionCount": 0
+  }
+}

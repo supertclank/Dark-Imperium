@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "di.choice.creation.origin",
+  "kind": "choice",
+  "revision": 1,
+  "name": "Choose origin",
+  "summary": "PHB creation choice; referenced prerequisites still apply.",
+  "descriptionMarkdown": "Choose one option. This choice does not waive unresolved prerequisites or publish the draft package.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "2",
+        "heading": "Character Creation",
+        "pdfPage": 17,
+        "printedPage": 4
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "purpose": "background",
+    "selectionMode": "options",
+    "cardinality": {
+      "min": 1,
+      "max": 1,
+      "unique": true
+    },
+    "repeatScope": "once_per_actor",
+    "options": [
+      {
+        "id": "craftworld_outcast",
+        "label": "Craftworld / Outcast",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "select",
+            "content": {
+              "id": "di.background.craftworld_outcast"
+            }
+          }
+        ]
+      },
+      {
+        "id": "forge_world",
+        "label": "Forge World",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "select",
+            "content": {
+              "id": "di.background.forge_world"
+            }
+          }
+        ]
+      },
+      {
+        "id": "hiveborn",
+        "label": "Hiveborn",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "select",
+            "content": {
+              "id": "di.background.hiveborn"
+            }
+          }
+        ]
+      },
+      {
+        "id": "militarum_regiment",
+        "label": "Militarum Regiment",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "select",
+            "content": {
+              "id": "di.background.militarum_regiment"
+            }
+          }
+        ]
+      },
+      {
+        "id": "mining_hold_guild",
+        "label": "Mining Hold / Guild",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "select",
+            "content": {
+              "id": "di.background.mining_hold_guild"
+            }
+          }
+        ]
+      },
+      {
+        "id": "penal_worlder",
+        "label": "Penal Worlder",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "select",
+            "content": {
+              "id": "di.background.penal_worlder"
+            }
+          }
+        ]
+      },
+      {
+        "id": "schola_progenium",
+        "label": "Schola Progenium",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "select",
+            "content": {
+              "id": "di.background.schola_progenium"
+            }
+          }
+        ]
+      },
+      {
+        "id": "shrine_worlder",
+        "label": "Shrine Worlder",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "select",
+            "content": {
+              "id": "di.background.shrine_worlder"
+            }
+          }
+        ]
+      },
+      {
+        "id": "underhive",
+        "label": "Underhive",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "select",
+            "content": {
+              "id": "di.background.underhive"
+            }
+          }
+        ]
+      },
+      {
+        "id": "voidborn",
+        "label": "Voidborn",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "select",
+            "content": {
+              "id": "di.background.voidborn"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

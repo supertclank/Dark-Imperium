@@ -490,6 +490,30 @@
       "path": "packages/di_phb_1_0/entities/choice/craftworld_outcast.skills.json"
     },
     {
+      "id": "di.choice.creation.class",
+      "name": "Choose class",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/creation.class.json"
+    },
+    {
+      "id": "di.choice.creation.origin",
+      "name": "Choose origin",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/creation.origin.json"
+    },
+    {
+      "id": "di.choice.creation.species",
+      "name": "Choose species",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/creation.species.json"
+    },
+    {
+      "id": "di.choice.creation.universal_trait",
+      "name": "Choose universal trait",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/creation.universal_trait.json"
+    },
+    {
       "id": "di.choice.hernkyn_prospector.subclass",
       "name": "Hernkyn Prospector subclass",
       "state": "draft_entity",

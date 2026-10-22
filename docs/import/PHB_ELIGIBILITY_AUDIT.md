@@ -74,7 +74,7 @@ Affected: di.background.forge_world, di.background.hiveborn, di.background.milit
 
 ## ELIG-013 — PARTIAL
 
-Power-tier counts and lists are explicit, but multilist membership/choices not yet canonical; known progression must not expose Major before11.
+Power-tier counts and lists are explicit, but multilist membership/choices not yet canonical; known progression must not expose Major before 11.
 
 Affected: di.class.psyker, di.class.aeldari_warlock; full set in review/eligibility-audit.json. PDF pages: [56, 83, 91].
 
@@ -86,6 +86,11 @@ Affected: di.feature.talent.cybernetic_implant; full set in review/eligibility-a
 
 ## Coverage and limits
 
-Species: all 6 class relationships checked. Origins: all 10, three clean/ seven gated. Classes: all 12. Subclasses: all 45 mapped. Talents: all 50 reviewed for printed Requirement column;30 explicit predicates. Features: per-record manual audit identifies remaining mechanics, not blanket readiness. Psychic powers: all 52 candidates retain tags/tier evidence but access compilation incomplete. Equipment/armour/weapons: all candidates triaged; complete acquire/use/proficiency validation is blocked by taxonomy and source omissions. Augmetics: all 22 retain evidence; minor subset undefined. Astartes: future compatibility uses generic affiliation/requirements, no invented content.
+Species: all 6 class relationships checked. Origins: all 10, three clean/ seven gated. Classes: all 12. Subclasses: all 45 mapped. Talents: all 50 reviewed for printed Requirement column; 30 explicit predicates. Features: per-record manual audit identifies remaining mechanics, not blanket readiness. Psychic powers: all 52 candidates retain tags/tier evidence but access compilation incomplete. Equipment/armour/weapons: all candidates triaged; complete acquire/use/proficiency validation is blocked by taxonomy and source omissions. Augmetics: all 22 retain evidence; minor subset undefined. Astartes: future compatibility uses generic affiliation/requirements, no invented content.
 
 No impossible-level Talent requirement was found in the printed requirements column. This is not proof that all future choice combinations are satisfiable. Starting-loadout strings cannot establish proficiency legality before their item identities/categories resolve. Existing source references to Ogryn Club and Frag Bomb are not missing items.
+
+
+## Human rulings integration pass — 2026-10-22
+
+No human rulings have been approved. All six Origin conflicts and seven unresolved Origin gates remain; the offline character validator now reports their ruling IDs. Five fixture base combinations pass known eligibility, one is incomplete, and the illegal Human/Skitarii case is invalid.

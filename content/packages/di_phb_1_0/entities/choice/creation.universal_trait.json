@@ -1,0 +1,296 @@
+{
+  "schemaVersion": 1,
+  "id": "di.choice.creation.universal_trait",
+  "kind": "choice",
+  "revision": 1,
+  "name": "Choose universal trait",
+  "summary": "PHB creation choice; referenced prerequisites still apply.",
+  "descriptionMarkdown": "Choose one option. This choice does not waive unresolved prerequisites or publish the draft package.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "2",
+        "heading": "Character Creation",
+        "pdfPage": 17,
+        "printedPage": 4
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "purpose": "feature",
+    "selectionMode": "options",
+    "cardinality": {
+      "min": 1,
+      "max": 1,
+      "unique": true
+    },
+    "repeatScope": "once_per_actor",
+    "options": [
+      {
+        "id": "universal_augmetic_scarred",
+        "label": "Augmetic Scarred",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.universal.augmetic_scarred"
+            }
+          }
+        ]
+      },
+      {
+        "id": "universal_black_market_eye",
+        "label": "Black-Market Eye",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.universal.black_market_eye"
+            }
+          }
+        ]
+      },
+      {
+        "id": "universal_chem_hardened",
+        "label": "Chem-Hardened",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.universal.chem_hardened"
+            }
+          }
+        ]
+      },
+      {
+        "id": "universal_devoted_servant",
+        "label": "Devoted Servant",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.universal.devoted_servant"
+            }
+          }
+        ]
+      },
+      {
+        "id": "universal_dirty_pragmatist",
+        "label": "Dirty Pragmatist",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.universal.dirty_pragmatist"
+            }
+          }
+        ]
+      },
+      {
+        "id": "universal_faith_in_steel",
+        "label": "Faith in Steel",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.universal.faith_in_steel"
+            }
+          }
+        ]
+      },
+      {
+        "id": "universal_faithful",
+        "label": "Faithful",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.universal.faithful"
+            }
+          }
+        ]
+      },
+      {
+        "id": "universal_field_chirurgeon",
+        "label": "Field Chirurgeon",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.universal.field_chirurgeon"
+            }
+          }
+        ]
+      },
+      {
+        "id": "universal_grudge_bearer",
+        "label": "Grudge-Bearer",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.universal.grudge_bearer"
+            }
+          }
+        ]
+      },
+      {
+        "id": "universal_hard_to_kill",
+        "label": "Hard to Kill",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.universal.hard_to_kill"
+            }
+          }
+        ]
+      },
+      {
+        "id": "universal_hive_survivor",
+        "label": "Hive Survivor",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.universal.hive_survivor"
+            }
+          }
+        ]
+      },
+      {
+        "id": "universal_iron_nerves",
+        "label": "Iron Nerves",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.universal.iron_nerves"
+            }
+          }
+        ]
+      },
+      {
+        "id": "universal_jaded",
+        "label": "Jaded",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.universal.jaded"
+            }
+          }
+        ]
+      },
+      {
+        "id": "universal_knife_in_the_boot",
+        "label": "Knife in the Boot",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.universal.knife_in_the_boot"
+            }
+          }
+        ]
+      },
+      {
+        "id": "universal_litany_marked",
+        "label": "Litany-Marked",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.universal.litany_marked"
+            }
+          }
+        ]
+      },
+      {
+        "id": "universal_munitorum_drilled",
+        "label": "Munitorum Drilled",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.universal.munitorum_drilled"
+            }
+          }
+        ]
+      },
+      {
+        "id": "universal_touched_by_the_warp",
+        "label": "Touched by the Warp",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.universal.touched_by_the_warp"
+            }
+          }
+        ]
+      },
+      {
+        "id": "universal_twitchy",
+        "label": "Twitchy",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.universal.twitchy"
+            }
+          }
+        ]
+      },
+      {
+        "id": "universal_unnaturally_lucky",
+        "label": "Unnaturally Lucky",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.universal.unnaturally_lucky"
+            }
+          }
+        ]
+      },
+      {
+        "id": "universal_vox_familiar",
+        "label": "Vox Familiar",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "feature",
+            "feature": {
+              "id": "di.feature.universal.vox_familiar"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

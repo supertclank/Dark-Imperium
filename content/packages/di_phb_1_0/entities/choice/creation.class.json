@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "id": "di.choice.creation.class",
+  "kind": "choice",
+  "revision": 1,
+  "name": "Choose class",
+  "summary": "PHB creation choice; referenced prerequisites still apply.",
+  "descriptionMarkdown": "Choose one option. This choice does not waive unresolved prerequisites or publish the draft package.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "2",
+        "heading": "Character Creation",
+        "pdfPage": 17,
+        "printedPage": 4
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "purpose": "class",
+    "selectionMode": "options",
+    "cardinality": {
+      "min": 1,
+      "max": 1,
+      "unique": true
+    },
+    "repeatScope": "once_per_actor",
+    "options": [
+      {
+        "id": "aeldari_outcast",
+        "label": "Aeldari Outcast",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "select",
+            "content": {
+              "id": "di.class.aeldari_outcast"
+            }
+          }
+        ]
+      },
+      {
+        "id": "aeldari_warlock",
+        "label": "Aeldari Warlock",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "select",
+            "content": {
+              "id": "di.class.aeldari_warlock"
+            }
+          }
+        ]
+      },
+      {
+        "id": "arbites_enforcer",
+        "label": "Arbites Enforcer",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "select",
+            "content": {
+              "id": "di.class.arbites_enforcer"
+            }
+          }
+        ]
+      },
+      {
+        "id": "hernkyn_prospector",
+        "label": "Hernkyn Prospector",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "select",
+            "content": {
+              "id": "di.class.hernkyn_prospector"
+            }
+          }
+        ]
+      },
+      {
+        "id": "hive_scum",
+        "label": "Hive Scum",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "select",
+            "content": {
+              "id": "di.class.hive_scum"
+            }
+          }
+        ]
+      },
+      {
+        "id": "kin_armsman",
+        "label": "Kin Armsman",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "select",
+            "content": {
+              "id": "di.class.kin_armsman"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ogryn_skullbreaker",
+        "label": "Ogryn Skullbreaker",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "select",
+            "content": {
+              "id": "di.class.ogryn_skullbreaker"
+            }
+          }
+        ]
+      },
+      {
+        "id": "psyker",
+        "label": "Psyker",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "select",
+            "content": {
+              "id": "di.class.psyker"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ratling_sharpshooter",
+        "label": "Ratling Sharpshooter",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "select",
+            "content": {
+              "id": "di.class.ratling_sharpshooter"
+            }
+          }
+        ]
+      },
+      {
+        "id": "skitarii_veteran",
+        "label": "Skitarii Veteran",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "select",
+            "content": {
+              "id": "di.class.skitarii_veteran"
+            }
+          }
+        ]
+      },
+      {
+        "id": "veteran",
+        "label": "Veteran",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "select",
+            "content": {
+              "id": "di.class.veteran"
+            }
+          }
+        ]
+      },
+      {
+        "id": "zealot",
+        "label": "Zealot",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "select",
+            "content": {
+              "id": "di.class.zealot"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

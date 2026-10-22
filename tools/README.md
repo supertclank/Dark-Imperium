@@ -1,5 +1,11 @@
 # PHB content tools
 
+## Character creation readiness adapter
+
+`character_creation.py` provides offline `validateCharacterSelection(characterDraft)` validation and partial projection against the existing CharacterModel selections. Run its regression fixtures with `python -m unittest discover -s tests/content -v`. It does not publish content or authorize gameplay. All 36 human rulings remain unresolved; current representative drafts are INCOMPLETE or INVALID, never complete valid characters.
+
+See [creation flow](../docs/content/CHARACTER_CREATION_FLOW.md), [current readiness report](../docs/import/CHARACTER_CREATION_READINESS_REPORT.md) and [prioritised ruling agenda](../docs/import/PHB_MINIMUM_RULINGS.md). Fixture inputs and expected results are in `tests/fixtures/characters`; source-derived audit results are in the package's `review` directory. Client-supplied facts cannot approve unresolved rules.
+
 `content_import.py` uses only Python's standard library. Run `python tools/content_import.py` and `python -m unittest discover -s tests/content -v` from the project root. `--plan output.jsonl` writes deterministic private staging operations; it never connects to PostgreSQL. `--publication-check` is expected to fail for this incomplete draft package.
 
 The validator is intentionally limited to the structures emitted by this first slice, including canonical drafts and the known fields of quarantined candidates. It is not a complete JSON Schema or game engine. Manual clauses, missing profile policies and source ambiguity are publication blockers even when technical validation passes.

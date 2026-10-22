@@ -184,7 +184,7 @@ def validate_records(records):
         elif k=='skill':require(d['attributeKey'] in ['strength','dexterity','constitution','intelligence','wisdom','charisma'],'ATTRIBUTE_KEY')
         elif k=='species':require(d['size'] in ['small','medium'],'SIZE_KEY')
         elif k=='choice':
-            require(d['purpose'] in ['skill','attribute','subclass'],'CHOICE_PURPOSE')
+            require(d['purpose'] in ['skill','attribute','subclass','species','background','class','feature'],'CHOICE_PURPOSE')
             require(d['selectionMode']=='options' and d['repeatScope']=='once_per_actor','CHOICE_MODE')
             c=d['cardinality'];shape(c,['min','max','unique']);integer(c['min'],0,500);integer(c['max'],c['min'],500)
             require(c['unique'] is True and len(d['options'])>=c['max'],'CHOICE_UNSATISFIABLE')

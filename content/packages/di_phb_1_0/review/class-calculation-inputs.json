@@ -57,7 +57,129 @@
         "pdfPage": 56,
         "printedPage": 43
       }
-    }
+    },
+    "knownPowers": [
+      {
+        "level": 1,
+        "minor": 2,
+        "standard": 2,
+        "major": 0
+      },
+      {
+        "level": 2,
+        "minor": 2,
+        "standard": 3,
+        "major": 0
+      },
+      {
+        "level": 3,
+        "minor": 3,
+        "standard": 3,
+        "major": 0
+      },
+      {
+        "level": 4,
+        "minor": 3,
+        "standard": 4,
+        "major": 0
+      },
+      {
+        "level": 5,
+        "minor": 3,
+        "standard": 4,
+        "major": 0
+      },
+      {
+        "level": 6,
+        "minor": 4,
+        "standard": 4,
+        "major": 0
+      },
+      {
+        "level": 7,
+        "minor": 4,
+        "standard": 5,
+        "major": 0
+      },
+      {
+        "level": 8,
+        "minor": 4,
+        "standard": 5,
+        "major": 0
+      },
+      {
+        "level": 9,
+        "minor": 5,
+        "standard": 5,
+        "major": 0
+      },
+      {
+        "level": 10,
+        "minor": 5,
+        "standard": 6,
+        "major": 0
+      },
+      {
+        "level": 11,
+        "minor": 5,
+        "standard": 6,
+        "major": 1
+      },
+      {
+        "level": 12,
+        "minor": 6,
+        "standard": 6,
+        "major": 1
+      },
+      {
+        "level": 13,
+        "minor": 6,
+        "standard": 7,
+        "major": 1
+      },
+      {
+        "level": 14,
+        "minor": 6,
+        "standard": 7,
+        "major": 2
+      },
+      {
+        "level": 15,
+        "minor": 7,
+        "standard": 7,
+        "major": 2
+      },
+      {
+        "level": 16,
+        "minor": 7,
+        "standard": 8,
+        "major": 2
+      },
+      {
+        "level": 17,
+        "minor": 8,
+        "standard": 8,
+        "major": 2
+      },
+      {
+        "level": 18,
+        "minor": 8,
+        "standard": 8,
+        "major": 3
+      },
+      {
+        "level": 19,
+        "minor": 8,
+        "standard": 9,
+        "major": 3
+      },
+      {
+        "level": 20,
+        "minor": 9,
+        "standard": 9,
+        "major": 3
+      }
+    ]
   },
   {
     "class": {
@@ -237,6 +359,128 @@
         "pdfPage": 83,
         "printedPage": 70
       }
-    }
+    },
+    "knownPowers": [
+      {
+        "level": 1,
+        "minor": 2,
+        "standard": 2,
+        "major": 0
+      },
+      {
+        "level": 2,
+        "minor": 2,
+        "standard": 3,
+        "major": 0
+      },
+      {
+        "level": 3,
+        "minor": 3,
+        "standard": 3,
+        "major": 0
+      },
+      {
+        "level": 4,
+        "minor": 3,
+        "standard": 4,
+        "major": 0
+      },
+      {
+        "level": 5,
+        "minor": 3,
+        "standard": 4,
+        "major": 0
+      },
+      {
+        "level": 6,
+        "minor": 4,
+        "standard": 4,
+        "major": 0
+      },
+      {
+        "level": 7,
+        "minor": 4,
+        "standard": 5,
+        "major": 0
+      },
+      {
+        "level": 8,
+        "minor": 4,
+        "standard": 5,
+        "major": 0
+      },
+      {
+        "level": 9,
+        "minor": 5,
+        "standard": 5,
+        "major": 0
+      },
+      {
+        "level": 10,
+        "minor": 5,
+        "standard": 6,
+        "major": 0
+      },
+      {
+        "level": 11,
+        "minor": 5,
+        "standard": 6,
+        "major": 1
+      },
+      {
+        "level": 12,
+        "minor": 6,
+        "standard": 6,
+        "major": 1
+      },
+      {
+        "level": 13,
+        "minor": 6,
+        "standard": 7,
+        "major": 1
+      },
+      {
+        "level": 14,
+        "minor": 6,
+        "standard": 7,
+        "major": 2
+      },
+      {
+        "level": 15,
+        "minor": 7,
+        "standard": 7,
+        "major": 2
+      },
+      {
+        "level": 16,
+        "minor": 7,
+        "standard": 8,
+        "major": 2
+      },
+      {
+        "level": 17,
+        "minor": 8,
+        "standard": 8,
+        "major": 2
+      },
+      {
+        "level": 18,
+        "minor": 8,
+        "standard": 8,
+        "major": 3
+      },
+      {
+        "level": 19,
+        "minor": 8,
+        "standard": 9,
+        "major": 3
+      },
+      {
+        "level": 20,
+        "minor": 9,
+        "standard": 9,
+        "major": 3
+      }
+    ]
   }
 ]

@@ -5218,5 +5218,33 @@
     "manualEntries": 0,
     "publicationReady": false,
     "reason": "Source transcription plus typed fields; full profile and review required."
+  },
+  "di.choice.creation.species": {
+    "coverage": "STRUCTURED_SUBSET",
+    "status": "DRAFT_VALIDATED",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Creation selection pool; referenced eligibility remains binding."
+  },
+  "di.choice.creation.origin": {
+    "coverage": "STRUCTURED_SUBSET",
+    "status": "DRAFT_VALIDATED",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Creation selection pool; referenced eligibility remains binding."
+  },
+  "di.choice.creation.class": {
+    "coverage": "STRUCTURED_SUBSET",
+    "status": "DRAFT_VALIDATED",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Creation selection pool; referenced eligibility remains binding."
+  },
+  "di.choice.creation.universal_trait": {
+    "coverage": "STRUCTURED_SUBSET",
+    "status": "DRAFT_VALIDATED",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Creation selection pool; referenced eligibility remains binding."
   }
 }

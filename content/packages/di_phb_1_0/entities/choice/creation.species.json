@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "di.choice.creation.species",
+  "kind": "choice",
+  "revision": 1,
+  "name": "Choose species",
+  "summary": "PHB creation choice; referenced prerequisites still apply.",
+  "descriptionMarkdown": "Choose one option. This choice does not waive unresolved prerequisites or publish the draft package.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "2",
+        "heading": "Character Creation",
+        "pdfPage": 17,
+        "printedPage": 4
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "purpose": "species",
+    "selectionMode": "options",
+    "cardinality": {
+      "min": 1,
+      "max": 1,
+      "unique": true
+    },
+    "repeatScope": "once_per_actor",
+    "options": [
+      {
+        "id": "aeldari",
+        "label": "Aeldari / Eldar",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "select",
+            "content": {
+              "id": "di.species.aeldari"
+            }
+          }
+        ]
+      },
+      {
+        "id": "human",
+        "label": "Human",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "select",
+            "content": {
+              "id": "di.species.human"
+            }
+          }
+        ]
+      },
+      {
+        "id": "kin",
+        "label": "Squat / Kin",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "select",
+            "content": {
+              "id": "di.species.kin"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ogryn",
+        "label": "Ogryn Abhuman",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "select",
+            "content": {
+              "id": "di.species.ogryn"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ratling",
+        "label": "Ratling Abhuman",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "select",
+            "content": {
+              "id": "di.species.ratling"
+            }
+          }
+        ]
+      },
+      {
+        "id": "skitarii",
+        "label": "Skitarii Augmented Human",
+        "grants": [
+          {
+            "id": "grant",
+            "kind": "select",
+            "content": {
+              "id": "di.species.skitarii"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "status": "BLOCKED",
+  "approvedHumanRulings": 0,
+  "originRulings": {
+    "di.background.hiveborn": [
+      "PHB-RULE-001",
+      "PHB-RULE-007"
+    ],
+    "di.background.penal_worlder": [
+      "PHB-RULE-002",
+      "PHB-RULE-007"
+    ],
+    "di.background.voidborn": [
+      "PHB-RULE-003",
+      "PHB-RULE-007"
+    ],
+    "di.background.forge_world": [
+      "PHB-RULE-004",
+      "PHB-RULE-007"
+    ],
+    "di.background.militarum_regiment": [
+      "PHB-RULE-005",
+      "PHB-RULE-007"
+    ],
+    "di.background.underhive": [
+      "PHB-RULE-006",
+      "PHB-RULE-007"
+    ],
+    "di.background.shrine_worlder": [
+      "PHB-RULE-007"
+    ]
+  },
+  "unresolvedRulings": [
+    "PHB-RULE-001",
+    "PHB-RULE-002",
+    "PHB-RULE-003",
+    "PHB-RULE-004",
+    "PHB-RULE-005",
+    "PHB-RULE-006",
+    "PHB-RULE-007",
+    "PHB-RULE-009",
+    "PHB-RULE-010",
+    "PHB-RULE-011",
+    "PHB-RULE-012",
+    "PHB-RULE-014",
+    "PHB-RULE-015",
+    "PHB-RULE-016",
+    "PHB-RULE-017",
+    "PHB-RULE-018",
+    "PHB-RULE-020",
+    "PHB-RULE-022",
+    "PHB-RULE-024",
+    "PHB-RULE-026",
+    "PHB-RULE-028",
+    "PHB-RULE-029",
+    "PHB-RULE-030",
+    "PHB-RULE-032",
+    "PHB-RULE-035",
+    "PHB-RULE-037",
+    "PHB-RULE-038",
+    "PHB-RULE-046",
+    "PHB-RULE-047",
+    "PHB-RULE-049",
+    "PHB-RULE-050",
+    "PHB-RULE-051",
+    "PHB-RULE-055",
+    "PHB-RULE-056",
+    "PHB-RULE-057",
+    "PHB-RULE-058"
+  ],
+  "coreProfileRulings": [
+    "PHB-RULE-009",
+    "PHB-RULE-024",
+    "PHB-RULE-051"
+  ],
+  "fullCatalogRulings": [
+    "PHB-RULE-001",
+    "PHB-RULE-002",
+    "PHB-RULE-003",
+    "PHB-RULE-004",
+    "PHB-RULE-005",
+    "PHB-RULE-006",
+    "PHB-RULE-007",
+    "PHB-RULE-009",
+    "PHB-RULE-024",
+    "PHB-RULE-049",
+    "PHB-RULE-050",
+    "PHB-RULE-051"
+  ],
+  "scope": "Full requested PHB creation catalog. A narrow proof fixture does not waive any blocked option."
+}

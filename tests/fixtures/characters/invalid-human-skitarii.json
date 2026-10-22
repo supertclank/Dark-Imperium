@@ -1,0 +1,127 @@
+{
+  "purpose": "Source-supported partial draft; never a fabricated fully valid character.",
+  "draft": {
+    "id": "e10ee15d-1108-5a86-a63a-19f123dd223a",
+    "name": "invalid-human-skitarii",
+    "selections": {
+      "species": {
+        "id": "di.species.human"
+      },
+      "background": {
+        "id": "di.background.schola_progenium"
+      },
+      "classes": [
+        {
+          "class": {
+            "id": "di.class.skitarii_veteran"
+          },
+          "level": 1
+        }
+      ],
+      "attributes": {
+        "strength": 15,
+        "dexterity": 14,
+        "constitution": 13,
+        "intelligence": 12,
+        "wisdom": 10,
+        "charisma": 8
+      },
+      "answers": [
+        {
+          "occurrenceId": "1d08e45e-f560-572b-a95b-1378f18ede37",
+          "origin": {
+            "kind": "creation_step",
+            "stepId": "pending_choices"
+          },
+          "choice": {
+            "id": "di.choice.human.ability_scores"
+          },
+          "optionIds": [
+            "strength_dexterity"
+          ],
+          "status": "valid"
+        },
+        {
+          "occurrenceId": "7162729b-8592-54ad-b0a0-4ba0bb6f3698",
+          "origin": {
+            "kind": "creation_step",
+            "stepId": "pending_choices"
+          },
+          "choice": {
+            "id": "di.choice.human.imperial_adaptability"
+          },
+          "optionIds": [
+            "acrobatics"
+          ],
+          "status": "valid"
+        },
+        {
+          "occurrenceId": "dc3360a1-056f-57c9-a616-9bf59648bbbb",
+          "origin": {
+            "kind": "creation_step",
+            "stepId": "pending_choices"
+          },
+          "choice": {
+            "id": "di.choice.schola_progenium.skills"
+          },
+          "optionIds": [
+            "history"
+          ],
+          "status": "valid"
+        },
+        {
+          "occurrenceId": "b989457d-6b9f-5c65-b1a3-2eeed0caa999",
+          "origin": {
+            "kind": "creation_step",
+            "stepId": "pending_choices"
+          },
+          "choice": {
+            "id": "di.choice.schola_progenium.skills_2"
+          },
+          "optionIds": [
+            "intimidation"
+          ],
+          "status": "valid"
+        },
+        {
+          "occurrenceId": "70a1d6f2-85d4-5e3e-8dda-7e82a0bce88c",
+          "origin": {
+            "kind": "creation_step",
+            "stepId": "pending_choices"
+          },
+          "choice": {
+            "id": "di.choice.creation.universal_trait"
+          },
+          "optionIds": [
+            "universal_twitchy"
+          ],
+          "status": "valid"
+        }
+      ]
+    },
+    "inventory": []
+  },
+  "expected": {
+    "status": "INVALID",
+    "baseEligibilityStatus": "INVALID",
+    "baseWalk": 30,
+    "proficiencyBonus": 2,
+    "errorCodes": [
+      "CLASS_NOT_ELIGIBLE"
+    ],
+    "requiredUnresolvedCodes": [
+      "ATTRIBUTE_MODIFIER_POLICY_BLOCKED",
+      "STARTING_EQUIPMENT_CONTENT_BLOCKED",
+      "PLAYABLE_PROFILE_MISSING"
+    ],
+    "mustNotGenerate": [
+      "attributeModifiers",
+      "maximumWounds",
+      "defence",
+      "initiative",
+      "skills",
+      "saves"
+    ],
+    "rollDefinitionCount": 0
+  }
+}

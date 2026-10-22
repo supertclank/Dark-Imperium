@@ -1,0 +1,3063 @@
+[
+  {
+    "id": "di.action.attack",
+    "kind": "action",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-011"
+    ]
+  },
+  {
+    "id": "di.action.dash",
+    "kind": "action",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-011"
+    ]
+  },
+  {
+    "id": "di.action.disengage",
+    "kind": "action",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-011"
+    ]
+  },
+  {
+    "id": "di.action.dodge",
+    "kind": "action",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-011"
+    ]
+  },
+  {
+    "id": "di.action.help",
+    "kind": "action",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-011"
+    ]
+  },
+  {
+    "id": "di.action.hide",
+    "kind": "action",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-011"
+    ]
+  },
+  {
+    "id": "di.action.ready",
+    "kind": "action",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-011"
+    ]
+  },
+  {
+    "id": "di.action.reload",
+    "kind": "action",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-011"
+    ]
+  },
+  {
+    "id": "di.action.use_mission_gear",
+    "kind": "action",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-011"
+    ]
+  },
+  {
+    "id": "di.ammunition.armour_piercing",
+    "kind": "ammunition",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.ammunition.hot_shot_charge_pack",
+    "kind": "ammunition",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.ammunition.incendiary",
+    "kind": "ammunition",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.ammunition.manstopper",
+    "kind": "ammunition",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.ammunition.sanctified_ammunition",
+    "kind": "ammunition",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.ammunition.tracer_target_marking",
+    "kind": "ammunition",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.ammunition.xenos_exotic_magazine",
+    "kind": "ammunition",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.armour.aeldari_mesh",
+    "kind": "armour",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-007"
+    ]
+  },
+  {
+    "id": "di.armour.armoured_bodyglove",
+    "kind": "armour",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-007"
+    ]
+  },
+  {
+    "id": "di.armour.aspect_pattern_armour",
+    "kind": "armour",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-007"
+    ]
+  },
+  {
+    "id": "di.armour.bullgryn_plate",
+    "kind": "armour",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-007"
+    ]
+  },
+  {
+    "id": "di.armour.carapace_armour",
+    "kind": "armour",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-007"
+    ]
+  },
+  {
+    "id": "di.armour.exo_frame_plate",
+    "kind": "armour",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-007"
+    ]
+  },
+  {
+    "id": "di.armour.flak_armour",
+    "kind": "armour",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-007"
+    ]
+  },
+  {
+    "id": "di.armour.flak_greatcoat",
+    "kind": "armour",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-007"
+    ]
+  },
+  {
+    "id": "di.armour.flak_vest",
+    "kind": "armour",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-007"
+    ]
+  },
+  {
+    "id": "di.armour.hazard_plate",
+    "kind": "armour",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-007"
+    ]
+  },
+  {
+    "id": "di.armour.hearthkyn_plate",
+    "kind": "armour",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-007"
+    ]
+  },
+  {
+    "id": "di.armour.heavy_clothing",
+    "kind": "armour",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-007"
+    ]
+  },
+  {
+    "id": "di.armour.kin_mesh",
+    "kind": "armour",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-007"
+    ]
+  },
+  {
+    "id": "di.armour.kin_void_suit",
+    "kind": "armour",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-007"
+    ]
+  },
+  {
+    "id": "di.armour.mesh_armour",
+    "kind": "armour",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-007"
+    ]
+  },
+  {
+    "id": "di.armour.ogryn_flak_plate",
+    "kind": "armour",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-007"
+    ]
+  },
+  {
+    "id": "di.armour.powered_carapace",
+    "kind": "armour",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-007"
+    ]
+  },
+  {
+    "id": "di.armour.prospector_rig",
+    "kind": "armour",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-007"
+    ]
+  },
+  {
+    "id": "di.armour.ranger_weave",
+    "kind": "armour",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-007"
+    ]
+  },
+  {
+    "id": "di.armour.riot_armour",
+    "kind": "armour",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-007"
+    ]
+  },
+  {
+    "id": "di.armour.rune_armour",
+    "kind": "armour",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-007"
+    ]
+  },
+  {
+    "id": "di.armour.scout_carapace",
+    "kind": "armour",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-007"
+    ]
+  },
+  {
+    "id": "di.armour.void_suit_armoured",
+    "kind": "armour",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-007"
+    ]
+  },
+  {
+    "id": "di.armour.wargear.oathplate_of_the_first_claim_kin",
+    "kind": "armour",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.augmetic.augmetic_heart",
+    "kind": "augmetic",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.augmetic.bionic_arm",
+    "kind": "augmetic",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.augmetic.bionic_legs",
+    "kind": "augmetic",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.augmetic.black_iron_jaw",
+    "kind": "augmetic",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.augmetic.chem_injector",
+    "kind": "augmetic",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.augmetic.cranial_cogitator",
+    "kind": "augmetic",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.augmetic.data_jack",
+    "kind": "augmetic",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.augmetic.dermal_insulation",
+    "kind": "augmetic",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.augmetic.internal_chrono",
+    "kind": "augmetic",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.augmetic.mag_lock_palm",
+    "kind": "augmetic",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.augmetic.mechadendrite_combat",
+    "kind": "augmetic",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.augmetic.mechadendrite_medicae",
+    "kind": "augmetic",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.augmetic.mechadendrite_utility",
+    "kind": "augmetic",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.augmetic.optical_implant",
+    "kind": "augmetic",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.augmetic.pain_editor",
+    "kind": "augmetic",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.augmetic.recoil_bracing",
+    "kind": "augmetic",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.augmetic.respirator_implant",
+    "kind": "augmetic",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.augmetic.skeletal_reinforcement",
+    "kind": "augmetic",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.augmetic.subdermal_plating",
+    "kind": "augmetic",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.augmetic.targeting_lens",
+    "kind": "augmetic",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.augmetic.vocal_coder",
+    "kind": "augmetic",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.augmetic.vox_implant",
+    "kind": "augmetic",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.condition.blinded",
+    "kind": "condition",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-013"
+    ]
+  },
+  {
+    "id": "di.condition.bloodied",
+    "kind": "condition",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-013"
+    ]
+  },
+  {
+    "id": "di.condition.charmed",
+    "kind": "condition",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-013"
+    ]
+  },
+  {
+    "id": "di.condition.exhaustion",
+    "kind": "condition",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-013"
+    ]
+  },
+  {
+    "id": "di.condition.frightened",
+    "kind": "condition",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-013"
+    ]
+  },
+  {
+    "id": "di.condition.grappled",
+    "kind": "condition",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-013"
+    ]
+  },
+  {
+    "id": "di.condition.hidden",
+    "kind": "condition",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-013"
+    ]
+  },
+  {
+    "id": "di.condition.incapacitated",
+    "kind": "condition",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-013"
+    ]
+  },
+  {
+    "id": "di.condition.invisible",
+    "kind": "condition",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-013"
+    ]
+  },
+  {
+    "id": "di.condition.poisoned",
+    "kind": "condition",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-013"
+    ]
+  },
+  {
+    "id": "di.condition.prone",
+    "kind": "condition",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-013"
+    ]
+  },
+  {
+    "id": "di.condition.restrained",
+    "kind": "condition",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-013"
+    ]
+  },
+  {
+    "id": "di.condition.stunned",
+    "kind": "condition",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-013"
+    ]
+  },
+  {
+    "id": "di.condition.suppressed",
+    "kind": "condition",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-013"
+    ]
+  },
+  {
+    "id": "di.condition.surprised",
+    "kind": "condition",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-013"
+    ]
+  },
+  {
+    "id": "di.condition.unconscious",
+    "kind": "condition",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-013"
+    ]
+  },
+  {
+    "id": "di.consumable.wargear.stasis_grenade",
+    "kind": "consumable",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.ammo_pack",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.auspex_battery",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.conversion_field",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-007"
+    ]
+  },
+  {
+    "id": "di.equipment.field_dressing",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.grenade_bandolier",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.holo_field_cloak",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-007"
+    ]
+  },
+  {
+    "id": "di.equipment.med_pack",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.med_stim",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.purity_seal_charm",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.rebreather_filter",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.refractor_field",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-007"
+    ]
+  },
+  {
+    "id": "di.equipment.specialist_ammo_pack",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.stimm_slug",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.void_patch_kit",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.wargear.arc_of_the_reductor_mechanicus",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.wargear.archeotech_logic_engine",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.wargear.big_lugs_door_ogryn",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.wargear.bulwark_of_saint_drusus_imperial",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.wargear.digital_weapon",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.wargear.displacer_field",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.wargear.ghosthelm_of_the_wandering_seer_aeldari",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.wargear.halo_of_saint_varro",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.wargear.heart_key_of_the_red_vault",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.wargear.martyrs_censer_imperial",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.wargear.medicae_crucible",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.wargear.null_rod",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.wargear.omnissian_data_relic_mechanicus",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.wargear.phase_shunt_field",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.wargear.rosarius",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.wargear.suspensor_harness",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.wargear.teleport_homer",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.wargear.the_door_that_would_not_break",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.wargear.the_first_oathstone",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.wargear.the_ghosts_coin",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.wargear.the_last_light_imperial",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.wargear.the_veiled_eye",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.equipment.weapon_maintenance_kit",
+    "kind": "equipment",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.power.ashen_brand",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.assail",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.baleful_rupture",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.biomantic_surge",
+    "kind": "power",
+    "status": "DEFERRED",
+    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1–3 readiness slice, still required for later-level creation.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.blank_sense",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.blood_surge",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.burning_halo",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.cleansing_wave",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.conceal",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.crush_grip",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.danger_sense",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.destructor_rune",
+    "kind": "power",
+    "status": "DEFERRED",
+    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1–3 readiness slice, still required for later-level creation.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.dominate_nerve",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.echo_read",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.ember_flicker",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.fates_nudge",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.flesh_knit",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.flesh_reforged",
+    "kind": "power",
+    "status": "DEFERRED",
+    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1–3 readiness slice, still required for later-level creation.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.focused_rupture",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.force_dome",
+    "kind": "power",
+    "status": "DEFERRED",
+    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1–3 readiness slice, still required for later-level creation.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.foresight_cascade",
+    "kind": "power",
+    "status": "DEFERRED",
+    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1–3 readiness slice, still required for later-level creation.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.fortune_thread",
+    "kind": "power",
+    "status": "DEFERRED",
+    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1–3 readiness slice, still required for later-level creation.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.hemorrhage",
+    "kind": "power",
+    "status": "DEFERRED",
+    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1–3 readiness slice, still required for later-level creation.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.inferno_bloom",
+    "kind": "power",
+    "status": "DEFERRED",
+    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1–3 readiness slice, still required for later-level creation.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.jinx",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.kinetic_bulwark",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.kinetic_push",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.malefic_door",
+    "kind": "power",
+    "status": "DEFERRED",
+    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1–3 readiness slice, still required for later-level creation.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.mind_lumen",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.null_field",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.null_glare",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.pain_spike",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.pariah_zone",
+    "kind": "power",
+    "status": "DEFERRED",
+    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1–3 readiness slice, still required for later-level creation.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.possession_spike",
+    "kind": "power",
+    "status": "DEFERRED",
+    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1–3 readiness slice, still required for later-level creation.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.prescient_aim",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.prescient_execution",
+    "kind": "power",
+    "status": "DEFERRED",
+    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1–3 readiness slice, still required for later-level creation.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.protect",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.psychic_shield",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.quicken",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.restrain_fate",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.reveal",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.silence_the_witch",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.soulfire",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.soulstorm",
+    "kind": "power",
+    "status": "DEFERRED",
+    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1–3 readiness slice, still required for later-level creation.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.static_veil",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.telekinetic_crush",
+    "kind": "power",
+    "status": "DEFERRED",
+    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1–3 readiness slice, still required for later-level creation.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.terror_echo",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.toxic_bloom",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.warp_bite",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.warp_spark",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.warp_step",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.power.whisper_from_below",
+    "kind": "power",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-008",
+      "PHB-009"
+    ]
+  },
+  {
+    "id": "di.shield.brute_shield_harness",
+    "kind": "shield",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-007"
+    ]
+  },
+  {
+    "id": "di.shield.slab_shield",
+    "kind": "shield",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-007"
+    ]
+  },
+  {
+    "id": "di.system.armour.ablative_ceramite",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.system.armour.adaptive_weave",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.system.armour.ancestor_wrought_plating",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.system.armour.blast_baffles",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.system.armour.camo_weave",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.system.armour.exo_servo_overdrive",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.system.armour.ghostplate_flexors",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.system.armour.grav_anchor_spurs",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.system.armour.hexagrammic_lining",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.system.armour.holo_weave_matrix",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.system.armour.mag_boots_anchor_rig",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.system.armour.medicae_harness",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.system.armour.noospheric_armour_link",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.system.armour.rad_seal_shrouds",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.system.armour.recoil_yoke",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.system.armour.reinforced_harness",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.system.armour.reinforced_plates",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.system.armour.sealed_system",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.system.armour.servo_assist",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.system.armour.servo_bracing",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.system.armour.shock_insulation",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.system.armour.slab_lock_bracing",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.system.armour.spirit_stone_lattice",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.system.armour.void_seal_redundancy",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.system.vehicle.all_terrain_running_gear",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-010"
+    ]
+  },
+  {
+    "id": "di.system.vehicle.auspex_survey_suite",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-010"
+    ]
+  },
+  {
+    "id": "di.system.vehicle.ogryn_accommodation",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-010"
+    ]
+  },
+  {
+    "id": "di.system.vehicle.recovery_winch",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-010"
+    ]
+  },
+  {
+    "id": "di.system.vehicle.reinforced_plating",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-010"
+    ]
+  },
+  {
+    "id": "di.system.vehicle.sealed_compartment",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-010"
+    ]
+  },
+  {
+    "id": "di.system.vehicle.smoke_launchers",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-010"
+    ]
+  },
+  {
+    "id": "di.system.vehicle.spare_parts_locker",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-010"
+    ]
+  },
+  {
+    "id": "di.system.weapon.archeotech_interface",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.system.weapon.bayonet_breaching_lug",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.system.weapon.camo_wrap_low_signature_furniture",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.system.weapon.extended_magazine_charge_pack",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.system.weapon.recoil_compensation",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.system.weapon.reflex_sight",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.system.weapon.reinforced_action",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.system.weapon.sanctified_fittings",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.system.weapon.targeting_optic",
+    "kind": "system",
+    "status": "DEFERRED",
+    "reason": "May belong to unresolved minor-augmetic or class-choice pools; no membership guessed.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.vehicle.aeldari_vyper",
+    "kind": "vehicle",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-010"
+    ]
+  },
+  {
+    "id": "di.vehicle.armoured_utility_truck",
+    "kind": "vehicle",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-010"
+    ]
+  },
+  {
+    "id": "di.vehicle.cargo_hauler",
+    "kind": "vehicle",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-010"
+    ]
+  },
+  {
+    "id": "di.vehicle.chimera",
+    "kind": "vehicle",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-010"
+    ]
+  },
+  {
+    "id": "di.vehicle.civilian_autocar",
+    "kind": "vehicle",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-010"
+    ]
+  },
+  {
+    "id": "di.vehicle.falcon_grav_tank",
+    "kind": "vehicle",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-010"
+    ]
+  },
+  {
+    "id": "di.vehicle.hernkyn_pioneer_bike",
+    "kind": "vehicle",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-010"
+    ]
+  },
+  {
+    "id": "di.vehicle.hive_outrider_bike",
+    "kind": "vehicle",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-010"
+    ]
+  },
+  {
+    "id": "di.vehicle.leman_russ_battle_tank",
+    "kind": "vehicle",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-010"
+    ]
+  },
+  {
+    "id": "di.vehicle.sagitaur",
+    "kind": "vehicle",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-010"
+    ]
+  },
+  {
+    "id": "di.vehicle.scout_sentinel",
+    "kind": "vehicle",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-010"
+    ]
+  },
+  {
+    "id": "di.vehicle.taurox",
+    "kind": "vehicle",
+    "status": "NON_BLOCKING",
+    "reason": "No direct reference identified in the literal starting-kit/power audit; narrative/runtime item retained. Reclassify if approved aliases/pools introduce it.",
+    "originalIssues": [
+      "PHB-010"
+    ]
+  },
+  {
+    "id": "di.weapon.aeldari_lasblaster",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.aeldari_power_sword",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.arc_pistol",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.arc_rifle",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.autocannon",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.autoch_pattern_bolter",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.autoch_pattern_pistol",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.autogun",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.autopistol",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.battle_cannon",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.big_friendly_rock",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.biting_blade",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.bolt_cannon",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.bolt_pistol",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.bolt_revolver",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.bolter",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.brute_shield_bash",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.chain_knife",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.chainsword",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.combat_blade",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.combat_shotgun",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.combi_bolter",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.concussion_gauntlet",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.concussion_hammer",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.corsair_sabre",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.death_spinner",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.etacarn_mining_tool",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005",
+      "PHB-006"
+    ]
+  },
+  {
+    "id": "di.weapon.executioner_blade",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.firebomb",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.flamer",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.force_staff",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.force_sword",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.frag_bomb",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.frag_grenade",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.fusion_gun",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.galvanic_rifle",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005",
+      "PHB-006"
+    ]
+  },
+  {
+    "id": "di.weapon.ghostsword",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005",
+      "PHB-006"
+    ]
+  },
+  {
+    "id": "di.weapon.grenade_launcher",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.grenadier_gauntlet",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005",
+      "PHB-006"
+    ]
+  },
+  {
+    "id": "di.weapon.hand_cannon",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.heavy_axe",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.heavy_bolter",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.heavy_chainsword",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.heavy_stubber",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.hot_shot_lasgun",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.hylas_rotary_cannon",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.industrial_cutter",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.ion_blaster",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.ion_pistol",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.kickback_shotgun",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.kin_power_axe",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.knife",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.krak_grenade",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.lascannon",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.lascarbine",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.lasgun",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.laspistol",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.long_las",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.magna_coil_autocannon",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.magna_rail_rifle",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.maul",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.melta_pistol",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.meltagun",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.monomolecular_blade",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.multi_laser",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.needle_rifle",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005",
+      "PHB-006"
+    ]
+  },
+  {
+    "id": "di.weapon.ogryn_club",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.omnissian_axe",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.plasma_axe",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005",
+      "PHB-006"
+    ]
+  },
+  {
+    "id": "di.weapon.plasma_beamer",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005",
+      "PHB-006"
+    ]
+  },
+  {
+    "id": "di.weapon.plasma_gun",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005",
+      "PHB-006"
+    ]
+  },
+  {
+    "id": "di.weapon.plasma_pistol",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005",
+      "PHB-006"
+    ]
+  },
+  {
+    "id": "di.weapon.power_axe",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.power_maul",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.power_maul_ogryn_pattern",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.power_sword",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.pulse_laser",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.rad_grenade",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.radium_carbine",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005",
+      "PHB-006"
+    ]
+  },
+  {
+    "id": "di.weapon.ranger_long_rifle",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.relic_blade",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.ripper_gun",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.scatter_laser",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.shock_maul",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.shotgun",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.shuriken_cannon",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.shuriken_catapult",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.shuriken_pistol",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.singing_spear",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005",
+      "PHB-006"
+    ]
+  },
+  {
+    "id": "di.weapon.slab_hammer",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.smoke_grenade",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.star_glaive",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.stub_pistol",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.stub_rifle",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.stun_grenade",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.taser_goad",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.thunder_hammer",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.trench_club",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.twin_linked_heavy_stubber",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.twin_shuriken_catapults",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-005"
+    ]
+  },
+  {
+    "id": "di.weapon.wargear.ancestor_wrought_rail_rifle_kin",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.weapon.wargear.conversion_beamer",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.weapon.wargear.grav_gun",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.weapon.wargear.grav_pistol",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.weapon.wargear.grutts_lucky_club_ogryn",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.weapon.wargear.inferno_pistol",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.weapon.wargear.starfall_long_rifle_aeldari",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.weapon.wargear.volkite_charger",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.weapon.wargear.volkite_serpenta",
+    "kind": "weapon",
+    "status": "DEFERRED",
+    "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
+    "originalIssues": [
+      "PHB-014"
+    ]
+  },
+  {
+    "id": "di.weapon.witchblade",
+    "kind": "weapon",
+    "status": "BLOCKS_CHARACTER_CREATION",
+    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
+    "originalIssues": [
+      "PHB-005",
+      "PHB-006"
+    ]
+  }
+]

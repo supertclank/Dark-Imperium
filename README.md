@@ -94,4 +94,9 @@ The supplied Version 1.0 handbook is now registered and partially transcribed. S
 
 ## Rules resolution pass — 2026-10-22
 
-870 canonical drafts,333 remaining candidates,45 mapped subclasses and44 passing content tests.15 concrete issues resolved;36 human questions remain. Builder NOT_READY; rules/dice PARTIAL. See the [canonicalisation report](docs/import/PHB_CANONICALISATION_REPORT.md) and its exact-rulings checklist. Application behaviour remains unchanged.
+870 canonical drafts, 333 remaining candidates, 45 mapped subclasses and 44 passing content tests.15 concrete issues resolved; 36 human questions remain. Builder NOT_READY; rules/dice PARTIAL. See the [canonicalisation report](docs/import/PHB_CANONICALISATION_REPORT.md) and its exact-rulings checklist. Application behaviour remains unchanged.
+
+
+## Human rulings integration pass — 2026-10-22
+
+Current result: [Character creation readiness report](docs/import/CHARACTER_CREATION_READINESS_REPORT.md).874 canonical drafts; 333 candidates; 61 passing content tests. Human rulings 0 integrated/36 unresolved. Builder BLOCKED; rules/dice PARTIAL. Docker and native application test execution remain environment-blocked.

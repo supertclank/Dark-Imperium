@@ -1,0 +1,510 @@
+[
+  {
+    "className": "Veteran",
+    "sourcePdfPage": 100,
+    "sourceText": "Lasgun or autogun; laspistol; combat blade; flak armour; 2 frag grenades; medkit or auspex.",
+    "exactNameMatches": [
+      {
+        "id": "di.armour.flak_armour",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.autogun",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.combat_blade",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.lasgun",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.laspistol",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      }
+    ],
+    "status": "BLOCKED",
+    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one."
+  },
+  {
+    "className": "Zealot",
+    "sourcePdfPage": 100,
+    "sourceText": "Chainsword or heavy axe; laspistol or autopistol; flak armour; symbol of faith; 1 firebomb; 1 frag grenade.",
+    "exactNameMatches": [
+      {
+        "id": "di.armour.flak_armour",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.autopistol",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.chainsword",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.firebomb",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.frag_grenade",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.heavy_axe",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.laspistol",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      }
+    ],
+    "status": "BLOCKED",
+    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one."
+  },
+  {
+    "className": "Psyker",
+    "sourcePdfPage": 100,
+    "sourceText": "Force sword or force staff; laspistol; heavy clothing or light armour; sanctioning brands/restraints; psychic focus; 2 Minor and 2 Standard Psychic Powers.",
+    "exactNameMatches": [
+      {
+        "id": "di.armour.heavy_clothing",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.force_staff",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.force_sword",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.laspistol",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      }
+    ],
+    "status": "BLOCKED",
+    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one."
+  },
+  {
+    "className": "Ogryn Skullbreaker",
+    "sourcePdfPage": 100,
+    "sourceText": "Ripper gun or Ogryn club; Ogryn plate; 1 frag bomb; rations; lucky charm; optional slab shield.",
+    "exactNameMatches": [
+      {
+        "id": "di.armour.ogryn_plate",
+        "state": "CANONICAL",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.shield.shield",
+        "state": "CANONICAL",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.shield.slab_shield",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.frag_bomb",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.ogryn_club",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.ripper_gun",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      }
+    ],
+    "status": "BLOCKED",
+    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one."
+  },
+  {
+    "className": "Arbites Enforcer",
+    "sourcePdfPage": 100,
+    "sourceText": "Combat shotgun; shock maul; riot shield; carapace or riot armour; manacles; 1 stun grenade; 1 smoke grenade.",
+    "exactNameMatches": [
+      {
+        "id": "di.shield.shield",
+        "state": "CANONICAL",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.armour.riot_armour",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.combat_shotgun",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.maul",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.shock_maul",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.shotgun",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.smoke_grenade",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.stun_grenade",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      }
+    ],
+    "status": "BLOCKED",
+    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one."
+  },
+  {
+    "className": "Hive Scum",
+    "sourcePdfPage": 100,
+    "sourceText": "Autopistol or stub pistol; knife; shotgun or autogun; heavy clothing or flak armour; 1 frag grenade; black-market contact.",
+    "exactNameMatches": [
+      {
+        "id": "di.armour.flak_armour",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.armour.heavy_clothing",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.autogun",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.autopistol",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.frag_grenade",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.knife",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.shotgun",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.stub_pistol",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      }
+    ],
+    "status": "BLOCKED",
+    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one."
+  },
+  {
+    "className": "Ratling Sharpshooter",
+    "sourcePdfPage": 100,
+    "sourceText": "Long-las or lasgun; stub pistol or laspistol; knife; heavy clothing or flak armour; camo cloak; cook's utensils or thieves' tools.",
+    "exactNameMatches": [
+      {
+        "id": "di.armour.flak_armour",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.armour.heavy_clothing",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.knife",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.lasgun",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.laspistol",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.long_las",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.stub_pistol",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      }
+    ],
+    "status": "BLOCKED",
+    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one."
+  },
+  {
+    "className": "Skitarii Veteran",
+    "sourcePdfPage": 100,
+    "sourceText": "Galvanic rifle, radium carbine, or lasgun; laspistol; taser goad or combat blade; flak or carapace armour; auspex; data-jack or maintenance tools; 2 frag grenades.",
+    "exactNameMatches": [
+      {
+        "id": "di.armour.carapace_armour",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.augmetic.data_jack",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.combat_blade",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.galvanic_rifle",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.lasgun",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.laspistol",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.radium_carbine",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.taser_goad",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      }
+    ],
+    "status": "BLOCKED",
+    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one."
+  },
+  {
+    "className": "Kin Armsman",
+    "sourcePdfPage": 100,
+    "sourceText": "Autoch-pattern bolter or ion blaster; bolt revolver or autoch-pattern pistol; Kin mesh or Hearthkyn plate; Kin power axe or concussion hammer; 2 frag grenades; oath-token.",
+    "exactNameMatches": [
+      {
+        "id": "di.armour.hearthkyn_plate",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.armour.kin_mesh",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.autoch_pattern_bolter",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.autoch_pattern_pistol",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.bolter",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.bolt_revolver",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.concussion_hammer",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.ion_blaster",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.kin_power_axe",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.power_axe",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      }
+    ],
+    "status": "BLOCKED",
+    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one."
+  },
+  {
+    "className": "Hernkyn Prospector",
+    "sourcePdfPage": 100,
+    "sourceText": "Autoch-pattern pistol or bolt revolver; ion blaster or magna-rail rifle with GM approval; prospector rig; knife or EtaCarn mining tool; survey auspex; climbing kit; claim marker.",
+    "exactNameMatches": [
+      {
+        "id": "di.armour.prospector_rig",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.autoch_pattern_pistol",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.bolt_revolver",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.etacarn_mining_tool",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.ion_blaster",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.knife",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.magna_rail_rifle",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      }
+    ],
+    "status": "BLOCKED",
+    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one."
+  },
+  {
+    "className": "Aeldari Outcast",
+    "sourcePdfPage": 100,
+    "sourceText": "Shuriken catapult or ranger long rifle; shuriken pistol; monomolecular blade; Aeldari mesh or ranger weave; spirit-token; camo cloak.",
+    "exactNameMatches": [
+      {
+        "id": "di.armour.aeldari_mesh",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.armour.ranger_weave",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.monomolecular_blade",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.ranger_long_rifle",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.shuriken_catapult",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.shuriken_pistol",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      }
+    ],
+    "status": "BLOCKED",
+    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one."
+  },
+  {
+    "className": "Aeldari Warlock",
+    "sourcePdfPage": 100,
+    "sourceText": "Witchblade or singing spear; shuriken pistol; rune armour; psychic focus/rune stones; 2 Minor and 2 Standard powers; spirit charm.",
+    "exactNameMatches": [
+      {
+        "id": "di.armour.rune_armour",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.shuriken_pistol",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.singing_spear",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      },
+      {
+        "id": "di.weapon.witchblade",
+        "state": "CANDIDATE",
+        "match": "literal name only; not a validated grant"
+      }
+    ],
+    "status": "BLOCKED",
+    "reason": "No executable inventory package: unresolved aliases/categories and candidate weapons remain. Omitted quantities are not assumed to be one."
+  }
+]

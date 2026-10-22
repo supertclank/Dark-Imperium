@@ -7,4 +7,9 @@ Do not publish these drafts or load review candidates into runtime tables. Exact
 
 ## Rules resolution pass — 2026-10-22
 
-870 canonical drafts,333 remaining candidates,45 mapped subclasses and44 passing content tests.15 concrete issues resolved;36 human questions remain. Builder NOT_READY; rules/dice PARTIAL. See the [canonicalisation report](PHB_CANONICALISATION_REPORT.md) and its exact-rulings checklist. Application behaviour remains unchanged.
+870 canonical drafts, 333 remaining candidates, 45 mapped subclasses and 44 passing content tests.15 concrete issues resolved; 36 human questions remain. Builder NOT_READY; rules/dice PARTIAL. See the [canonicalisation report](PHB_CANONICALISATION_REPORT.md) and its exact-rulings checklist. Application behaviour remains unchanged.
+
+
+## Human rulings integration pass — 2026-10-22
+
+Current result: [Character creation readiness report](CHARACTER_CREATION_READINESS_REPORT.md).874 drafts, 333 candidates, 61 passing content tests. All 36 human rulings remain unanswered; builder gate BLOCKED.

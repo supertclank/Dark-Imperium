@@ -1,0 +1,58 @@
+[
+  {
+    "name": "aeldari",
+    "status": "INCOMPLETE",
+    "baseEligibility": "VALID",
+    "baseMovementFt": 35,
+    "proficiencyBonus": 2,
+    "rollDefinitions": 0
+  },
+  {
+    "name": "human-veteran",
+    "status": "INCOMPLETE",
+    "baseEligibility": "VALID",
+    "baseMovementFt": 30,
+    "proficiencyBonus": 2,
+    "rollDefinitions": 0
+  },
+  {
+    "name": "invalid-human-skitarii",
+    "status": "INVALID",
+    "baseEligibility": "INVALID",
+    "baseMovementFt": 30,
+    "proficiencyBonus": 2,
+    "rollDefinitions": 0
+  },
+  {
+    "name": "ogryn",
+    "status": "INCOMPLETE",
+    "baseEligibility": "INCOMPLETE",
+    "baseMovementFt": 30,
+    "proficiencyBonus": 2,
+    "rollDefinitions": 0
+  },
+  {
+    "name": "psyker",
+    "status": "INCOMPLETE",
+    "baseEligibility": "VALID",
+    "baseMovementFt": 30,
+    "proficiencyBonus": 2,
+    "rollDefinitions": 0
+  },
+  {
+    "name": "subclass-veteran",
+    "status": "INCOMPLETE",
+    "baseEligibility": "VALID",
+    "baseMovementFt": 30,
+    "proficiencyBonus": 2,
+    "rollDefinitions": 0
+  },
+  {
+    "name": "warlock",
+    "status": "INCOMPLETE",
+    "baseEligibility": "VALID",
+    "baseMovementFt": 35,
+    "proficiencyBonus": 2,
+    "rollDefinitions": 0
+  }
+]
