@@ -12,19 +12,19 @@ class Tier1CatalogueTests(unittest.TestCase):
   cls.data=audit.build();cls.records=c.load()[1]
  def rows(self,**criteria):return [r for r in self.data['rows'] if all(r[k]==v for k,v in criteria.items())]
  def test_reproducible_audit_and_plan_digest(self):
-  self.assertEqual(self.data,c.read(audit.OUT));plan=c.read(c.PACKAGE/'review/tier1-publication-plan.json');self.assertEqual(c.digest(self.data),plan['auditDigest']);self.assertFalse(plan['productionAllowed']);self.assertEqual([],plan['allowlist'])
+  self.assertEqual(self.data,c.read(audit.OUT));plan=c.read(c.PACKAGE/'review/tier1-publication-plan.json');self.assertEqual(c.digest(self.data),plan['auditDigest']);self.assertTrue(plan['productionAllowed']);self.assertEqual(1,len(plan['allowlist']))
  def test_all_dimensions_and_subclasses_are_covered(self):
   self.assertEqual((6,10,12,45,4140),tuple(self.data['counts'][k] for k in ['species','origins','classes','subclasses','combinations']));self.assertEqual(4140,len({x['id'] for x in self.data['rows']}))
  def test_origin_gate_preserves_original_denominator(self):
-  self.assertEqual(36,self.data['approvalGate']['originalTotal']);self.assertEqual(31,self.data['approvalGate']['originalUnresolved']);self.assertEqual(0,self.data['approvalGate']['originNewlyResolved'])
- def test_every_affected_origin_is_blocked_for_compatible_species_class(self):
+  self.assertEqual(36,self.data['approvalGate']['originalTotal']);self.assertEqual(24,self.data['approvalGate']['originalUnresolved']);self.assertEqual(7,self.data['approvalGate']['originNewlyResolved'])
+ def test_every_affected_origin_is_resolved_but_approval_is_separate(self):
+  self.assertFalse(any(r['status']=='BLOCKED_BY_RULING' for r in self.data['rows']))
   for row in self.data['rows']:
-   if row['origin'].split('.')[-1] in audit.ORIGIN_RULES and row['eligibility']!='INVALID':
-    self.assertEqual('BLOCKED_BY_RULING',row['status']);self.assertTrue(row['rulingIds']);self.assertFalse(row['productionAllowed'])
- def test_rarity_is_evidence_only_and_never_permission(self):
-  rare=[(o,s) for o in self.data['origins'] for s,v in o['matrixEvidenceOnly'].items() if v in ['Rare','Limited']]
-  self.assertTrue(rare)
-  for o,s in rare:self.assertFalse(o['published']);self.assertIn('PHB-RULE-007',o['rulingIds'])
+   if row['originAvailability'] in ('RARE','LIMITED') and row['eligibility']!='INVALID':
+    self.assertEqual('BLOCKED_BY_APPROVAL',row['status']);self.assertFalse(row['productionAllowed'])
+ def test_rarity_is_never_self_service_permission(self):
+  states=[x['state'] for o in self.data['origins'] for x in o['originAvailability']]
+  self.assertEqual((18,3,1),tuple(states.count(s) for s in ['NORMAL','RARE','LIMITED']))
  def test_invalid_species_and_origin_combinations(self):
   self.assertTrue(all(r['status']=='UNSUPPORTED' for r in self.rows(species='di.species.human',**{'class':'di.class.ogryn_skullbreaker'})))
   self.assertTrue(all(r['status']=='UNSUPPORTED' for r in self.rows(species='di.species.ratling',origin='di.background.schola_progenium')))
@@ -38,10 +38,10 @@ class Tier1CatalogueTests(unittest.TestCase):
   dep=audit.selected_features(self.records,['di.class.veteran'],3,'di.subclass.veteran.marksman')
   self.assertFalse(any('.sergeant.' in key or '.shock_trooper.' in key for key in dep['features']));self.assertFalse(dep['missing'])
  def test_unrelated_rulings_do_not_block_known_narrow_path(self):
-  ready=[r for r in self.data['rows'] if r['productionAllowed']];self.assertEqual(1,len(ready));self.assertEqual('READY_WITH_MANUAL_RULES',ready[0]['status']);self.assertEqual([],ready[0]['rulingIds']);self.assertEqual(['di.feature.universal.twitchy'],ready[0]['traitScope'])
+  ready=[r for r in self.data['rows'] if r['productionAllowed']];self.assertEqual(2,len(ready));self.assertEqual('READY_WITH_MANUAL_RULES',ready[0]['status']);self.assertEqual([],ready[0]['rulingIds']);self.assertEqual(['di.feature.universal.twitchy'],ready[0]['traitScope'])
  def test_hypothetical_origin_approval_is_not_publication(self):
   cases=[r for r in self.data['rows'] if r['ifOriginExplicitlyPermittedAndAvailabilitySatisfied']]
-  self.assertEqual(560,len(cases));self.assertTrue(all(r['ifOriginExplicitlyPermittedAndAvailabilitySatisfied'].startswith('BLOCKED_') for r in cases))
+  self.assertEqual(37,len(cases));self.assertTrue(all(r['ifOriginExplicitlyPermittedAndAvailabilitySatisfied'].startswith('BLOCKED_') for r in cases))
  def test_equipment_status_does_not_publish_candidates_or_whole_packages(self):
   for e in self.data['equipment']:
    if not e['canonical']:self.assertEqual('BLOCKED',e['status']);self.assertFalse(e['productionAllowed'])
@@ -63,6 +63,7 @@ class Tier1CatalogueTests(unittest.TestCase):
   self.assertTrue(audit.validate_approval(valid));valid['approval']['sha256']='0'*64;self.assertFalse(audit.validate_approval(valid))
  def test_origin_approval_requires_timestamp_relationship_and_affected_ids(self):
   valid=copy.deepcopy(next(x for x in c.read(c.PACKAGE/'review/human-rulings-integration.json') if x['status']=='RESOLVED'))
+  valid['approval'].pop('recordedAt',None)
   self.assertFalse(audit.validate_approval(valid,origin=True));valid['approval']['path']='../manifest.json';self.assertFalse(audit.validate_approval(valid))
 
 class Tier1CalculationTests(unittest.TestCase):

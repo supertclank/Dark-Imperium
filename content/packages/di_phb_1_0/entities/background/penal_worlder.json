@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.background.penal_worlder",
   "kind": "background",
-  "revision": 2,
+  "revision": 3,
   "name": "Penal Worlder",
   "summary": "4.3 Penal Worlder A convict, survivor, conscript, or former prisoner. Allowed Species: Human, Ogryn, Ratling. Skill Proficiency: Survival and one of Athletics, Deception, or Intimidation. Hard Time: You have advantage on saving throws against exhaustion caused by forced marches, starvation, poor conditions, or sleep deprivation. Dirty Survival: Once per long rest, when you are reduced to 0 hit points but not killed outright, you may drop to 1 hit point instead.",
   "descriptionMarkdown": "4.3 Penal Worlder\nA convict, survivor, conscript, or former prisoner.\nAllowed Species: Human, Ogryn, Ratling.\nSkill Proficiency: Survival and one of Athletics, \nDeception, or Intimidation.\nHard Time: You have advantage on saving throws \nagainst exhaustion caused by forced marches,\nstarvation, poor conditions, or sleep deprivation.\nDirty Survival: Once per long rest, when you are \nreduced to 0 hit points but not killed outright, you\nmay drop to 1 hit point instead.",
@@ -33,9 +33,47 @@
       }
     ],
     "requirements": {
-      "kind": "fact",
-      "key": "phb.origin_eligibility.penal_worlder",
-      "equals": true
-    }
+      "kind": "any",
+      "predicates": [
+        {
+          "kind": "selected",
+          "content": {
+            "id": "di.species.human"
+          }
+        },
+        {
+          "kind": "selected",
+          "content": {
+            "id": "di.species.ogryn"
+          }
+        },
+        {
+          "kind": "selected",
+          "content": {
+            "id": "di.species.ratling"
+          }
+        }
+      ]
+    },
+    "originAvailability": [
+      {
+        "species": {
+          "id": "di.species.human"
+        },
+        "state": "NORMAL"
+      },
+      {
+        "species": {
+          "id": "di.species.ogryn"
+        },
+        "state": "NORMAL"
+      },
+      {
+        "species": {
+          "id": "di.species.ratling"
+        },
+        "state": "NORMAL"
+      }
+    ]
   }
 }

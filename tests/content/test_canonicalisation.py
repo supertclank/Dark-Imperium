@@ -81,7 +81,7 @@ class CanonicalisationTests(unittest.TestCase):
         self.assertTrue(pp.evaluate(clean,{'selected':['di.species.human']}))
         self.assertFalse(pp.evaluate(clean,{'selected':['di.species.kin']}))
         conflict=self.records['di.background.voidborn']['data']['requirements']
-        self.assertIsNone(pp.evaluate(conflict,{'selected':['di.species.human']}))
+        self.assertTrue(pp.evaluate(conflict,{'selected':['di.species.human']}));self.assertFalse(pp.evaluate(conflict,{'selected':['di.species.kin']}))
 
     def test_class_species_restrictions(self):
         for cls,allowed,denied in [('ogryn_skullbreaker','ogryn','human'),('skitarii_veteran','skitarii','human'),('psyker','human','skitarii'),('aeldari_warlock','aeldari','human')]:

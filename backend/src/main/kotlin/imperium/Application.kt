@@ -86,7 +86,7 @@ fun Application.module(db: Database, config: AppConfig, dice: DiceEngine = DiceE
             get("/character-builder/profile") { call.owner(); call.respond(characters.rules.profile()) }
             post("/characters/validate") {
                 call.owner(); val input=call.receive<NarrowDraft>()
-                call.respond(withContext(Dispatchers.Default) { characters.rules.validate(input) })
+                call.respond(withContext(Dispatchers.Default) { characters.rulesFor(input.profileId).validate(input) })
             }
             get("/characters") { val owner = call.owner(); call.respond(withContext(Dispatchers.IO) { characters.list(owner) }) }
             post("/characters") {

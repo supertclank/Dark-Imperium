@@ -1,156 +1,70 @@
-# Level 1–3 catalogue readiness — 22 October 2026
+# Origin approvals and first tier-1 publication
 
-## Outcome and scope
+Completed 22 October 2026. This report supersedes the previous audit-only readiness state. The full catalogue remains PARTIAL; one additional path is certified and registered locally. No hosted deployment is claimed.
 
-Independent audit complete; catalogue expansion is NOT READY for production. The owner confirmed that PHB-RULE-001–007 have no approved decisions and requested an audit-only continuation. No Origin ruling was integrated, no additional combination was published, and no production adapter, builder UI, saved character or narrow profile was changed.
+## Approved decisions
 
-The original 36-question ledger remains at 5 resolved and 31 unresolved. The separate item-specific Frag Grenade ruling remains separate from that denominator. PHB-CAT identifiers below are implementation findings, not new human rulings.
+PHB-RULE-001 through 007 are RESOLVED independently. Exact approved sections, user provenance, UTC recordedAt, affected Origin IDs, source relationships and the SHA-256 of the supplied brief are retained in both ruling ledgers. The original ledger is **12 resolved / 24 unresolved / 36 total**. The separate PHB-RULE-059 Frag Grenade decision remains outside that denominator. Earlier approval records were not rewritten.
 
-## Inventory and counting boundaries
+The detailed Origin Allowed Species entry overrides the summary matrix. NORMAL is legal without additional approval, subject to all other prerequisites. RARE requires explicit trusted GM approval. LIMITED requires approval for the specific combination and appropriate narrative justification; a generic rare-content permission cannot satisfy it. No approval infrastructure or client approval control was added.
 
-948 canonical records are schema/reference validated. The audit covers 6 species, 10 Origins, 12 classes, 45 subclasses and 20 universal traits. Its 4,140 rows enumerate Species × Origin × class at levels 1 and 2, and each parent-class subclass at level 3. They do not enumerate all attribute, trait, skill, equipment or optional feature selections.
+## Updated matrix
 
-| Family readiness | Rows |
+| Status | Rows |
 |---|---:|
-| BLOCKED_BY_CONTENT | 44 |
-| BLOCKED_BY_ENGINE | 4 |
-| BLOCKED_BY_RULING | 560 |
-| READY_WITH_MANUAL_RULES | 1 |
-| UNSUPPORTED | 3531 |
+| READY | 0 |
+| READY_WITH_MANUAL_RULES | 2 |
+| BLOCKED_BY_CONTENT | 292 |
+| BLOCKED_BY_ENGINE | 63 |
+| BLOCKED_BY_RULING | 0 |
+| BLOCKED_BY_APPROVAL | 37 |
+| UNSUPPORTED | 3746 |
 
-The sole ready row is restricted to Human / Schola Progenium / Veteran level 1, Twitchy and the existing reviewed kit/choices. Known-invalid species/class or known Origin restrictions are UNSUPPORTED. Status precedence retains ruling blockers ahead of content/engine gaps; all gaps remain in the JSON. The 560 Origin-gated rows still require content or engine work even if future rulings permit them. Another 48 unpublished rows have known base eligibility but content/engine gaps.
+Total: 4,140 family rows across 6 Species, 10 Origins, 12 classes, levels 1–3 and 45 subclasses. The two ready rows are the existing narrow path and the new tier-1 path, with their explicit trait/kit/choice limits. These rows do not certify every optional permutation. Status precedence is unsupported, certified, approval, ruling, content, then engine. Conditional feature ruling review and implementation gaps remain in each row; zero BLOCKED_BY_RULING here means no unresolved Origin prerequisite, not that the remaining 24 rulings are irrelevant to future paths.
 
-See [full publication matrix](LEVEL_1_3_PUBLICATION_MATRIX.md) and [Origin scenarios](LEVEL_1_3_ORIGIN_SCENARIOS.md). Machine-readable evidence is in `content/packages/di_phb_1_0/review/level-1-3-catalogue.json`.
+See [full publication matrix](LEVEL_1_3_PUBLICATION_MATRIX.md) and [approved Origin table](LEVEL_1_3_ORIGIN_SCENARIOS.md). There are **18 NORMAL, 3 RARE, 1 LIMITED** Species/Origin pairs; the other 38 pairs are invalid. The legal-but-unapproved pairs contribute 37 family rows.
 
-## Species and class access
+## Published profile and certified scope
 
-| Species | Canonical class access | Production scope |
-|---|---|---|
-| Aeldari / Eldar | aeldari_outcast, aeldari_warlock | Blocked: PHB-CAT-005 and path-specific gaps |
-| Human | arbites_enforcer, hive_scum, psyker, veteran, zealot | Existing narrow only |
-| Squat / Kin | hernkyn_prospector, kin_armsman | Blocked: PHB-CAT-005 and path-specific gaps |
-| Ogryn Abhuman | ogryn_skullbreaker | Blocked: PHB-CAT-005 and path-specific gaps |
-| Ratling Abhuman | hive_scum, ratling_sharpshooter, veteran | Blocked: PHB-CAT-005 and path-specific gaps |
-| Skitarii Augmented Human | skitarii_veteran | Blocked: PHB-CAT-005 and path-specific gaps |
+Profile: `di-phb-1.0-tier1-v1`; digest: `d75739125210dd704ca0b3362a2c864a0fdd32b6b2765b0bbc137f5792971f32`; adapter: `phb-tier1-kotlin-v1`.
 
-Baseline species movement/ability effects and references are present. Non-Human manual traits still contain core proficiencies, restrictions and calculations requiring mapping. Ogryn per-level HP and Ratling proficiency effects cannot be silently treated as flavour. Skitarii access points to the dedicated Skitarii Veteran class, not generic Veteran.
+**New level-1 path:** Human / Hiveborn / Veteran / Twitchy. Standard array, all reviewed Human ability-score allocations, canonical skill choices, reviewed Broad Training weapon option and Veteran specialist-group choice remain backend-validated. Equipment is lasgun, laspistol, combat blade, equipped flak armour, two Frag Grenades and medpack. Autogun, auspex and other alternatives are not selectable. Hiveborn crowd-terrain exceptions and situational fear-save advantage remain visibly manual, as do existing Tactical Aim and other contextual procedures.
 
-## Level 1–3 class and subclass dependencies
+**New level-2 paths: none. New level-3 paths: none. Subclasses certified: none.** All 45 parent/progression relationships still validate, but that is not production certification. Newly unlocked features, selected resources and conditional rulings need further work. The existing data-driven builder consumes the new backend profile without React game-rule logic; it exposes only level 1 and the certified selectors. RARE/LIMITED messages are supplied by the profile, with no self-approval button. Tampered requests fail server validation.
 
-Every class has exactly one progression entry at each of levels 1, 2 and 3. Every subclass points to its actual parent and its granted dependency closure resolves. Choice alternatives are canonical-reference validated but are not automatically selected or certified by this traversal. No level-3 subclass is published.
+The new immutable snapshot includes canonical records, resolved approvals, explicit allowlist, executable package, training, proficiency policy and availability policy. The exporter refuses to replace different bytes at the same release path. Existing characters load their stored snapshot and adapter; old creation requests remain supported by the registry. The original narrow digest remains `3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af` and its source spec and bundled snapshot are unchanged. Frozen-release verification now checks the frozen snapshot, rather than attempting to rebuild it from a changing development catalogue.
 
-| Class | Hit die | Saving throws | Level 2 newly reached features | Kit |
-|---|---|---|---|---|
-| Aeldari Outcast | 8 | ['dexterity', 'wisdom'] | ghostwalk | BLOCKED_BY_CONTENT |
-| Aeldari Warlock | 6 | ['wisdom', 'intelligence'] | rune_ward | BLOCKED_BY_CONTENT |
-| Arbites Enforcer | 10 | ['strength', 'wisdom'] | breach_and_clear | BLOCKED_BY_CONTENT |
-| Hernkyn Prospector | 8 | ['dexterity', 'wisdom'] | surveyors_step | BLOCKED_BY_CONTENT |
-| Hive Scum | 8 | ['dexterity', 'charisma'] | cunning_action | BLOCKED_BY_CONTENT |
-| Kin Armsman | 10 | ['constitution', 'wisdom'] | steady_advance | BLOCKED_BY_CONTENT |
-| Ogryn Skullbreaker | 12 | ['strength', 'constitution'] | brutal_impact | BLOCKED_BY_CONTENT |
-| Psyker | 6 | ['intelligence', 'wisdom'] | psychic_ward | BLOCKED_BY_CONTENT |
-| Ratling Sharpshooter | 8 | ['dexterity', 'wisdom'] | scamper | BLOCKED_BY_CONTENT |
-| Skitarii Veteran | 10 | ['dexterity', 'intelligence'] | augmetic_reflexes | BLOCKED_BY_CONTENT |
-| Veteran | 10 | ['dexterity', 'wisdom'] | suppressing_fire | PARTIAL_SUPPORTED_BRANCH |
-| Zealot | 10 | ['strength', 'charisma'] | charge_of_conviction | BLOCKED_BY_CONTENT |
+## Implementation blockers progressed
 
-| Subclass | Parent | Granted feature dependencies |
-|---|---|---|
-| corsair | aeldari_outcast | level_3 |
-| ranger | aeldari_outcast | level_3 |
-| shadow_guide | aeldari_outcast | level_3 |
-| seer_of_battle | aeldari_warlock | level_3 |
-| spirit_guardian | aeldari_warlock | level_3 |
-| storm_warlock | aeldari_warlock | level_3 |
-| executioner | arbites_enforcer | level_3 |
-| investigator | arbites_enforcer | level_3 |
-| riot_shield | arbites_enforcer | level_3 |
-| claim_staker | hernkyn_prospector | level_3 |
-| outrider | hernkyn_prospector | level_3 |
-| trail_gunner | hernkyn_prospector | level_3 |
-| chem_user | hive_scum | level_3 |
-| gunslinger | hive_scum | level_3 |
-| knife_rat | hive_scum | level_3 |
-| sump_ghost | hive_scum | level_3 |
-| guild_militant | kin_armsman | level_3 |
-| hearthguard | kin_armsman | level_3 |
-| ironhead | kin_armsman | level_3 |
-| bone_ead | ogryn_skullbreaker | level_3 |
-| brute | ogryn_skullbreaker | level_3 |
-| bulwark | ogryn_skullbreaker | level_3 |
-| gun_lugger | ogryn_skullbreaker | level_3 |
-| biomancer | psyker | level_1, level_3 |
-| blank_null_bound | psyker | level_1, level_3 |
-| diviner | psyker | level_1, level_3 |
-| malefic_touched | psyker | level_1, level_3 |
-| pyromancer | psyker | level_1, level_3 |
-| telekine | psyker | level_1, level_3 |
-| black_market_gremlin | ratling_sharpshooter | level_3 |
-| long_las_sniper | ratling_sharpshooter | level_3 |
-| spotter | ratling_sharpshooter | level_3 |
-| underhive_rat | ratling_sharpshooter | level_3 |
-| data_hunter | skitarii_veteran | level_3 |
-| infiltrator | skitarii_veteran | level_3 |
-| protector | skitarii_veteran | level_3 |
-| ranger | skitarii_veteran | level_3 |
-| ruststalker | skitarii_veteran | level_3 |
-| vanguard | skitarii_veteran | level_3 |
-| shock_trooper | veteran | level_3 |
-| marksman | veteran | level_3 |
-| sergeant | veteran | level_3 |
-| flagellant | zealot | level_3 |
-| preacher | zealot | level_3 |
-| purifier | zealot | level_3 |
+- **PHB-CAT-001:** Added a generic structured package compiler for fixed quantity grants, exclusive/nested package choices, optional branches, proficiency grants, equip state and narrative/contact entries. It rejects unsupported items, invalid quantities, unknown/duplicate choices and equip-without-grant. The production Veteran branch uses this compiler. The other eleven class package definitions still need source-backed mapping; they are not implicitly certified.
+- **PHB-CAT-002:** No speculative equipment promotions. Of 74 identified starting dependencies, 5 remain SUPPORTED, 1 MANUAL, 23 canonical COMING_LATER and 45 candidates BLOCKED. This is an identified union, not a claim that unresolved pools are complete. Approved aliases resolve to canonical IDs before compilation; runtime compilation never parses display text.
+- **PHB-CAT-003:** Psyker/Warlock remain blocked. All 52 power candidates remain separate: 38 required Minor/Standard and 14 deferred Major. Evidence such as Assail includes source mechanics, but the canonical power schema, pool validation, psychic resources and multi-target execution boundaries are still incomplete. No invented power or manual shortcut was published.
+- **PHB-CAT-004:** Registered the separate tier-1 adapter version and explicit whole-path gate. It shares the pinned calculation/projection/roll code with the unchanged narrow branch, adds approved level 1–3 fixed-HP and explicit armour/dexterity-cap policies and invokes the package compiler. Production certification is only level 1. Mandatory progression/resource calculations outside that branch remain blocked; higher-level numeric unit proofs do not publish those levels.
+- **PHB-CAT-005:** Mapped Ratling Naturally Sneaky to a canonical Stealth proficiency grant and removed its duplicate prose-only grant. No non-Human species is published. Remaining core restrictions, size/equipment compatibility, Ogryn HP/unarmed effects, vision and conditional species procedures still require mapping and certification.
 
-Expertise mentions are flagged for PHB-RULE-011 review on selected feature dependencies; this is not a blanket block on all subclasses. The six level-3 families are Outcast Shadow Guide, Arbites Investigator, Hernkyn Claim Staker, Hive Scum Sump Ghost, Ratling Underhive Rat and Skitarii Data Hunter. Full source references, choices and feature execution classifications are in the audit JSON. MANUAL/PARTIALLY_AUTOMATED labels describe representation, not production certification.
+## Goldens and validation
 
-## Starting equipment and psychic paths
-
-74 unique item dependencies are identified from literal kit matches, approved aliases and referenced choice pools: 5 SUPPORTED, 1 MANUAL, 23 canonical COMING_LATER and 45 incomplete candidates BLOCKED. This is an identified union, not a claim that unresolved category pools are complete. Canonical definitions alone do not establish legal quantities, proficiency, inventory grants or generated actions.
-
-Only Veteran has a structured reviewed starting package. Its published branch remains lasgun, laspistol, combat blade, flak armour, two Frag Grenades and a manually adjudicated medpack. Autogun is not added to production; auspex remains blocked. Other eleven packages require executable quantity/choice/proficiency grants. Equipment checks retain source provenance, requirements and available structured fields; absent fields are not represented as validated.
-
-Psyker and Warlock have known-power counts of Minor/Standard 2/2 at level 1, 2/3 at level 2 and 3/3 at level 3; Major is zero. There are no canonical power records. Of 52 candidates, 38 required Minor/Standard candidates block creation pools and 14 Major candidates are deferred. No psychic character is certified through a manual shortcut.
-
-## Independent calculation work and fixtures
-
-`tools/tier1_calculations.py` composes existing policies for fixed HP, ability modifiers, proficiency, saves, skills, explicit armour, movement and initiative across levels 1–3. It requires resolved inputs and is review-only, not a registered production adapter. Constitution changes and nonpositive HP gains remain blocked by PHB-RULE-014; no minimum gain or retroactivity is invented. It does not implement species grants, selected-choice resources, goldens for new playable characters or roll compilation.
-
-36 family-readiness fixtures cover twelve eligible Species/class families at levels 1–3, including one parent-valid subclass per family at level 3. They explicitly record expected blockers and are not valid-character golden fixtures. Independent numeric proofs cover d6/d8/d10/d12 HP across all three levels. Negative tests cover invalid eligibility, subclass dependencies, missing approval provenance, source hash mismatch, path traversal, unresolved Constitution policy and unsupported level/skill inputs. Existing narrow character goldens and immutable bundle hash checks remain in place.
-
-## Blockers and publication plan
-
-- **PHB-CAT-001**: Starting-package compiler absent outside Veteran: source tokens/approved aliases are not executable quantity, choice, proficiency and inventory grants.
-- **PHB-CAT-002**: At least one identified starting option remains an incomplete candidate; source alternatives must be independently certified.
-- **PHB-CAT-003**: Psychic power candidates lack canonical power schema/choice pools and production execution boundaries; no manual shortcut can validate unknown creation choices.
-- **PHB-CAT-004**: Only narrow-kotlin-v1 is production-registered. Tier-1 selected-level choice/resource/projection/roll compilation and golden certification are not implemented.
-- **PHB-CAT-005**: Non-Human species traits include unmapped core calculations/proficiencies/restrictions. Manual prose cannot substitute for those calculations.
-
-PHB-RULE-001–006 gate their affected Origin predicates; PHB-RULE-007 gates Rare/Limited availability. No matrix/prose precedence or GM-permission default is inferred. The smallest ruling set for one affected Origin is its corresponding 001–006 plus 007; Shrine Worlder depends on 007. These are necessary Origin decisions, not sufficient character certificates. All seven are required for the requested complete Origin integration. Existing narrow creation needs none of these new decisions.
-
-Other unresolved rules are configuration-specific: 011 expertise, 014 changed Constitution/minimum HP, 015 ASI, 016 repeated talents, 026 slash damage, 028 Powered Carapace, 029 Exo-frame, 030 Ogryn flak, 032 unarmoured/competing protection and 058 stacking apply when the selected path exercises them. They are not global substitutes for a dependency audit. Alternate arrays (012), runtime resistance (010), overheat (017), generic Blast (018), Burst (020), suppression (022), concentration (035), pressure halving (037), Warp Step (038), conditions (046), injuries (047), Aim (055), cover (056) and rest/Hit Dice (057) may remain unresolved for paths that do not require them; manual runtime scope must remain explicit. Exact questions and existing impact classifications remain in the ledger and audit JSON.
-
-Reserved plan: `di-phb-1.0-tier1-v1`, proposed adapter `phb-tier1-kotlin-v1`. This is PLANNED_NOT_PUBLISHED with an empty allowlist. There is no new production profile digest. Its auditDigest detects inventory changes only. Activation requires explicit approvals, tuple and choice certification, executable packages, a registered adapter, immutable export, server validation and browser acceptance.
-
-Existing production profile: `di-phb-1.0-narrow-v1`, digest `3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af`, adapter `narrow-kotlin-v1`. No migrations or snapshot rebinding were introduced.
-
-## Verification
+Added actual tier-1 draft and independently expected mechanics/inventory/action/roll fixtures in backend test resources. Expected values include HP 11, AC 14, speed 30 ft, initiative +4, Stealth +4, History +1 and Intimidation -1 for the golden allocation. Existing family-readiness fixtures remain labelled as audits and are not converted into fake playable characters.
 
 | Check | Result |
 |---|---|
-| Content | 117 passed, including 22 new audit/calculation tests |
+| Content | 122 passed: original 117 retained with updated approved-rule expectations, plus 5 Origin/schema/profile tests |
+| Backend | 50 passed: previous 43 plus 6 tier-1/compiler/policy tests and 1 API persistence/roll/backwards-compatibility test |
 | Frontend | 46 passed |
-| TypeScript | Passed, no emit |
-| Backend | 43 passed against local PostgreSQL; zero skipped/failures/errors |
-| Migrations | Five existing migrations validated; existing schema up to date; no new migration |
-| Generated inventory | Reproducibility check passed |
-| Narrow profile | Export check and pinned digest compatibility passed |
-| Production build | Compilation, TypeScript and eight static pages succeeded; standalone packaging failed with Windows EPERM mkdir under .next/standalone/node_modules/next |
-| Docker | UNVERIFIED: dockerDesktopLinuxEngine named pipe unavailable |
-| Browser | New paths not applicable; existing browser acceptance not rerun in this audit pass |
+| TypeScript | Passed |
+| Backend distribution | Gradle installDist passed |
+| Migrations | Five existing migrations validated; preview schema up to date; no new migration |
+| Frozen profiles | Narrow and tier-1 export checks passed |
+| Browser | New path created, persisted, reopened and rolled; stored result replayed in 3D; original narrow character reopened |
+| Production frontend build | Compilation and TypeScript passed; prerender failed with Windows EPERM mkdir under .next/server/app/login.segments/login |
+| Docker startup | UNVERIFIED: Docker Desktop Linux engine named pipe absent |
 
-These are checks of the independently completed audit and existing application, not certification of the unpublished tier-1 plan. New-path browser acceptance is not applicable: no new path is published. Existing browser flows were not re-exercised in this audit pass; automated regression and profile-byte compatibility checks are reported separately.
+Browser acceptance used `Mara Hiveborn acceptance` (`a2c8c563-b713-454b-b9ad-da27152ae707`). The persisted initiative result was 16 + 4 = 20, retained after reload. Local 3D replay did not create a second result. Existing `Cassian UI verification` (`fb2d077a-cc97-4b93-8db2-3f3d31e2d590`) reopened on narrow-v1 with HP 11/11, AC 14, exhausted grenade inventory and existing history intact. No level-2, level-3 or non-Human browser acceptance is claimed.
 
-## Next milestone
+![Tier-1 stored result replay](../verification/tier1-roll.png)
 
-Receive the explicit approved 001–007 ruling set, integrate it with provenance, then implement and certify selected tier-1 paths using this inventory. Character advancement and levels 4–20 remain later work; this audit does not justify starting them.
+## Remaining gates and next milestone
+
+Keep all remaining 24 rulings unresolved. Apply them only to selected mechanics: expertise 011; Constitution reconciliation/minimum HP 014; ASI 015; repeated talents 016; slash damage 026; Powered Carapace 028; Exo-frame 029; Ogryn flak 030; unarmoured/competing protection 032; stacking 058, plus runtime rules where actually exercised. Existing item-specific Frag rules do not resolve generic Blast 018. The matrix retains conditional feature review metadata instead of treating broad historical affected-entity lists as a dependency graph.
+
+Next: certify additional NORMAL Human paths and complete selected level-2/3 feature/resource dependencies and golden fixtures. In parallel, map non-Veteran packages and mandatory non-Human mechanics. Once multiple level 1–3 paths are certified, implement advancement through levels 1–3 before considering levels 4–20. Trusted approval infrastructure, campaigns and encounters remain outside this iteration.

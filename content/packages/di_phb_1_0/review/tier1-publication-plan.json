@@ -1,23 +1,26 @@
 {
   "id": "di-phb-1.0-tier1-v1",
-  "status": "PLANNED_NOT_PUBLISHED",
+  "status": "INITIAL_CERTIFIED_BRANCH",
   "engineVersion": "phb-tier1-kotlin-v1",
   "levels": [
     1,
     2,
     3
   ],
-  "productionAllowed": false,
-  "allowlist": [],
-  "blockingOriginRulings": [
-    "PHB-RULE-001",
-    "PHB-RULE-002",
-    "PHB-RULE-003",
-    "PHB-RULE-004",
-    "PHB-RULE-005",
-    "PHB-RULE-006",
-    "PHB-RULE-007"
+  "publishedLevels": [
+    1
   ],
+  "productionAllowed": true,
+  "allowlist": [
+    {
+      "classId": "di.class.veteran",
+      "level": 1,
+      "originId": "di.background.hiveborn",
+      "speciesId": "di.species.human",
+      "traitId": "di.feature.universal.twitchy"
+    }
+  ],
+  "blockingOriginRulings": [],
   "sourceProfile": {
     "id": "di-phb-1.0-narrow-v1",
     "digest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af"
@@ -32,8 +35,8 @@
     "PHB-CAT-001": "Starting-package compiler absent outside Veteran: source tokens/approved aliases are not executable quantity, choice, proficiency and inventory grants.",
     "PHB-CAT-002": "At least one identified starting option remains an incomplete candidate; source alternatives must be independently certified.",
     "PHB-CAT-003": "Psychic power candidates lack canonical power schema/choice pools and production execution boundaries; no manual shortcut can validate unknown creation choices.",
-    "PHB-CAT-004": "Only narrow-kotlin-v1 is production-registered. Tier-1 selected-level choice/resource/projection/roll compilation and golden certification are not implemented.",
+    "PHB-CAT-004": "Tier-1 adapter initially certifies Human Hiveborn Veteran level 1 only. Other selected-level choice/resource/projection/roll paths require mapping and golden certification.",
     "PHB-CAT-005": "Non-Human species traits include unmapped core calculations/proficiencies/restrictions. Manual prose cannot substitute for those calculations."
   },
-  "auditDigest": "808030b960809b7b45b1df0f7dc4d820d9c8663ca10263d79a244dca6f2f01e8"
+  "auditDigest": "571b8aa4f91dc90fd2de602c5e4e156096ca1484525d75dc2859dca1a9105ae9"
 }

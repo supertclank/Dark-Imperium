@@ -1,8 +1,7 @@
-"""Build/check the immutable production profile snapshot from canonical sources.
+"""Verify the frozen narrow release independently of the development catalogue.
 
-Only the declared release allowlist is exposed to clients. The server snapshot
-retains source records verbatim, never regenerates canonical IDs or publishes
-the full PHB package. Release changes require a new profile ID.
+The bundled immutable snapshot retains its original canonical source records and
+approvals. New approvals and catalogue revisions belong to a new profile ID.
 """
 import copy
 import json
@@ -11,16 +10,11 @@ from pathlib import Path
 import content_import as c
 
 def build():
-    _,records=c.load()
-    spec=c.read(c.ROOT/'content/profiles/di-phb-1.0-narrow-v1.json')
-    kit=copy.deepcopy(c.read(c.PACKAGE/'review/veteran-starting-package.json'))
-    for choice in kit['choices']:
-        choice['options']=[r for r in choice['options'] if r['id'] in spec['equipment']]
-    training=next(x for x in c.read(c.PACKAGE/'review/class-calculation-inputs.json') if x['class']['id']==spec['classes'][0])
-    table=next(t for t in c.read(c.PACKAGE/'evidence/tables.json') if t['rows'][0]==['Levels','Proficiency Bonus'])
-    bands=[{'maximumLevel':int(row[0].split('-')[1]),'bonus':int(row[1])} for row in table['rows'][1:]]
-    payload={'spec':spec,'records':records,'package':kit,'training':training,'proficiencyBands':bands,'approvals':c.read(c.PACKAGE/'review/decisions.json')}
-    return {'digest':c.digest(payload),'payload':payload}
+    result=c.read(c.ROOT/'backend/src/main/resources/profiles/di-phb-1.0-narrow-v1.json')
+    assert result['digest']=='3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af'
+    assert c.digest(result['payload'])==result['digest'],'Frozen release snapshot corrupted'
+    assert result['payload']['spec']==c.read(c.ROOT/'content/profiles/di-phb-1.0-narrow-v1.json')
+    return result
 
 if __name__=='__main__':
     result=build();path=c.ROOT/'backend/src/main/resources/profiles/di-phb-1.0-narrow-v1.json'

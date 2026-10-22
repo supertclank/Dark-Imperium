@@ -1,48 +1,182 @@
 # Human ruling checklist
 
-Five approved decisions are integrated; **31 of the original 36 remain unresolved**. The separate Frag Grenade save-success gap is now RESOLVED by PHB-RULE-059; [current report](PHB_FRAG_GATE_REPORT.md).
+Twelve approved decisions are integrated; **24 of the original 36 remain unresolved**. PHB-RULE-059 remains separate. See the [current readiness report](LEVEL_1_3_CATALOGUE_REPORT.md).
 
-## PHB-RULE-001 — UNRESOLVED
+## PHB-RULE-001 — RESOLVED
 
-For Hiveborn, does the eligibility matrix or the Allowed Species list govern? State permitted species.
+# Approved PHB-RULE-001 — Hiveborn
 
-## PHB-RULE-002 — UNRESOLVED
+The detailed Origin `Allowed Species` entry is authoritative over the summary Origin matrix when they conflict.
 
-For Penal Worlder, does the eligibility matrix or the Allowed Species list govern? State permitted species.
+Hiveborn eligibility:
 
-## PHB-RULE-003 — UNRESOLVED
+- Human: allowed normally
+- Ratling: allowed normally
+- Ogryn: allowed as `RARE`
+- Skitarii: not allowed
+- Squat / Kin: not allowed
+- Aeldari: not allowed
 
-For Voidborn, does the eligibility matrix or the Allowed Species list govern? State permitted species.
+The previous matrix entry suggesting Rare Squat/Kin does not apply.
 
-## PHB-RULE-004 — UNRESOLVED
+Mark PHB-RULE-001 RESOLVED.
 
-For Forge World, does the eligibility matrix or the Allowed Species list govern? State permitted species.
+Provenance: `review/approved-origin-rulings.txt`; exact digest and UTC timestamp are recorded in both ruling ledgers.
 
-## PHB-RULE-005 — UNRESOLVED
+## PHB-RULE-002 — RESOLVED
 
-For Militarum Regiment, does the eligibility matrix or the Allowed Species list govern? State permitted species.
+# Approved PHB-RULE-002 — Penal Worlder
 
-## PHB-RULE-006 — UNRESOLVED
+The detailed Origin `Allowed Species` entry is authoritative.
 
-For Underhive, does the eligibility matrix or the Allowed Species list govern? State permitted species.
+Penal Worlder eligibility:
 
-## PHB-RULE-007 — UNRESOLVED
+- Human: allowed normally
+- Ogryn: allowed normally
+- Ratling: allowed normally
+- Skitarii: not allowed
+- Squat / Kin: not allowed
+- Aeldari: not allowed
 
-What approval or prerequisite makes a Rare/Limited Origin selectable?
+The previous matrix entry suggesting Rare Squat/Kin does not apply.
+
+Mark PHB-RULE-002 RESOLVED.
+
+Provenance: `review/approved-origin-rulings.txt`; exact digest and UTC timestamp are recorded in both ruling ledgers.
+
+## PHB-RULE-003 — RESOLVED
+
+# Approved PHB-RULE-003 — Voidborn
+
+The detailed Origin `Allowed Species` entry is authoritative.
+
+Voidborn eligibility:
+
+- Human: allowed normally
+- Ratling: allowed normally
+- Ogryn: allowed as `RARE`
+- Skitarii: not allowed
+- Squat / Kin: not allowed
+- Aeldari: not allowed
+
+The previous matrix entries permitting Squat/Kin or Rare Aeldari do not apply.
+
+Mark PHB-RULE-003 RESOLVED.
+
+Provenance: `review/approved-origin-rulings.txt`; exact digest and UTC timestamp are recorded in both ruling ledgers.
+
+## PHB-RULE-004 — RESOLVED
+
+# Approved PHB-RULE-004 — Forge World
+
+The detailed Origin `Allowed Species` entry is authoritative.
+
+Forge World eligibility:
+
+- Human: allowed normally
+- Skitarii: allowed normally
+- Ogryn: not allowed
+- Ratling: not allowed
+- Squat / Kin: not allowed
+- Aeldari: not allowed
+
+The previous matrix entry suggesting Rare Squat/Kin does not apply.
+
+Mark PHB-RULE-004 RESOLVED.
+
+Provenance: `review/approved-origin-rulings.txt`; exact digest and UTC timestamp are recorded in both ruling ledgers.
+
+## PHB-RULE-005 — RESOLVED
+
+# Approved PHB-RULE-005 — Militarum Regiment
+
+The detailed Origin `Allowed Species` entry is authoritative.
+
+Militarum Regiment eligibility:
+
+- Human: allowed normally
+- Ogryn: allowed normally
+- Ratling: allowed normally
+- Skitarii: allowed as `LIMITED`
+- Squat / Kin: not allowed
+- Aeldari: not allowed
+
+The previous matrix entry suggesting Rare Squat/Kin does not apply.
+
+Mark PHB-RULE-005 RESOLVED.
+
+Provenance: `review/approved-origin-rulings.txt`; exact digest and UTC timestamp are recorded in both ruling ledgers.
+
+## PHB-RULE-006 — RESOLVED
+
+# Approved PHB-RULE-006 — Underhive
+
+The detailed Origin `Allowed Species` entry is authoritative.
+
+Underhive eligibility:
+
+- Human: allowed normally
+- Ratling: allowed normally
+- Ogryn: not allowed
+- Skitarii: not allowed
+- Squat / Kin: not allowed
+- Aeldari: not allowed
+
+The previous matrix entry suggesting Rare Squat/Kin does not apply.
+
+Mark PHB-RULE-006 RESOLVED.
+
+Provenance: `review/approved-origin-rulings.txt`; exact digest and UTC timestamp are recorded in both ruling ledgers.
+
+## PHB-RULE-007 — RESOLVED
+
+# Approved PHB-RULE-007 — Rare / Limited Origin Availability
+
+Origin availability uses three production-relevant states.
+
+## NORMAL
+
+The Species/Origin combination is legal without additional approval, assuming all other prerequisites are satisfied.
+
+## RARE
+
+The Species/Origin combination is a legal player option but requires explicit GM approval.
+
+Rare does NOT mean:
+
+- invalid
+- NPC-only
+- automatically selectable
+
+Until the application has a trusted GM/campaign approval mechanism, Rare combinations may be displayed but must not be available for ordinary self-service character creation.
+
+## LIMITED
+
+The Species/Origin combination is an exceptional player option.
+
+It requires explicit GM/campaign approval for the specific combination and appropriate narrative justification.
+
+Limited approval must be specific to the affected Species/Origin combination.
+
+A generic `allow rare content` permission is not sufficient for Limited options.
+
+Until a trusted campaign approval mechanism exists, Limited combinations may be displayed but must remain unavailable for ordinary self-service character creation.
+
+Represent these states structurally.
+
+Do not hard-code approval behaviour into React.
+
+Mark PHB-RULE-007 RESOLVED.
+
+Provenance: `review/approved-origin-rulings.txt`; exact digest and UTC timestamp are recorded in both ruling ledgers.
 
 ## PHB-RULE-009 — RESOLVED
 
 Ability modifier:
 
-
-
 `floor((abilityScore - 10) / 2)`
 
-
-
 Rules:
-
-
 
 - Use mathematical floor.
 
@@ -56,11 +190,7 @@ Rules:
 
 - The engine must support legitimate scores above 20.
 
-
-
 Update calculation policies, validation and tests.
-
-
 
 Mark PHB-RULE-009 RESOLVED.
 
@@ -108,81 +238,45 @@ Specify trigger, chosen target, save ability and frequency for personal Suppress
 
 ## Default Weapon Ability Binding
 
-
-
 Normal melee weapon:
-
-
 
 - Attack ability: Strength
 
 - Damage ability: Strength
 
-
-
 Normal ranged weapon:
-
-
 
 - Attack ability: Dexterity
 
 - Damage ability: Dexterity
 
-
-
 Finesse:
-
-
 
 - Strength or Dexterity
 
 - The same selected ability is used for attack and damage
 
-
-
 Thrown:
-
-
 
 - Uses the ability the weapon would normally use for its melee attack unless an explicit rule overrides it
 
-
-
 Spirit Weapon:
-
-
 
 - May substitute the user's psychic ability for Strength/Dexterity for attack and damage
 
-
-
 Explicit weapon-specific rules override all defaults.
-
-
 
 ## Save-Based Weapons
 
-
-
 Save-based weapon effects do not automatically add an ability modifier to their listed damage.
-
-
 
 Only add an ability modifier when a rule explicitly says to do so.
 
-
-
 Grenades and similar fixed-damage save effects therefore use their listed damage dice.
-
-
 
 ## Hands
 
-
-
 Defaults:
-
-
 
 - Pistol: 1
 
@@ -204,19 +298,11 @@ Defaults:
 
 - Heavy ranged weapon: 2
 
-
-
 Add explicit overrides where required.
-
-
 
 Force Staff is explicitly 2-handed.
 
-
-
 ## Reach
-
-
 
 - Default melee reach: 5 ft
 
@@ -224,19 +310,11 @@ Force Staff is explicitly 2-handed.
 
 - Thrown melee weapons retain normal melee reach as well as their throwing range
 
-
-
 ## Proficiency Groups
-
-
 
 Canonical weapon entities must have explicit `proficiencyGroups`.
 
-
-
 Support groups including at minimum:
-
-
 
 - simple_melee
 
@@ -284,53 +362,29 @@ Support groups including at minimum:
 
 - mining_tool
 
-
-
 Weapons may belong to more than one group.
-
-
 
 Properties may help derive initial group membership, but canonical records must store membership explicitly.
 
-
-
 ## Starting Equipment Proficiency
-
-
 
 A class is proficient with every weapon or shield granted directly by its own level-1 starting-equipment package.
 
-
-
 For a package choice, this applies to the selected option.
-
-
 
 Do not use this rule to grant unrelated weapon-group proficiency.
 
-
-
 ## Emplaced Weapons
-
-
 
 Emplaced is a deployment restriction, not a proficiency.
 
-
-
 Represent conceptually as:
-
-
 
 - deployment: emplaced
 
 - requires mount, brace, rig, feature or GM-approved setup
 
-
-
 Do not create an `emplaced proficiency`.
-
-
 
 Mark PHB-RULE-024 RESOLVED.
 
@@ -378,15 +432,9 @@ Define these statuses or explicitly designate them narrative injury labels with 
 
 `medkit` in starting equipment is an alias for the canonical Med-Pack.
 
-
-
 Do not create a separate Medkit entity.
 
-
-
 Update all starting-package references to use the canonical Med-Pack entity while retaining "medkit" as a recognised display/source alias if useful.
-
-
 
 Mark PHB-RULE-049 RESOLVED.
 
@@ -394,17 +442,11 @@ Mark PHB-RULE-049 RESOLVED.
 
 Riot Shield uses the generic Shield profile:
 
-
-
 - +2 AC
 
 - requires one hand
 
-
-
 Add appropriate tags such as:
-
-
 
 - shield
 
@@ -412,15 +454,9 @@ Add appropriate tags such as:
 
 - arbites
 
-
-
 It qualifies for features that require or reference using a shield.
 
-
-
 Do not duplicate the full Shield rules in a separate incompatible entity.
-
-
 
 Mark PHB-RULE-050 RESOLVED.
 
@@ -428,21 +464,13 @@ Mark PHB-RULE-050 RESOLVED.
 
 ## Generic Starting Light Armour Pool
 
-
-
 The starting-equipment option `light armour` contains:
-
-
 
 - Armoured Bodyglove
 
 - Mesh Armour
 
-
-
 Do not include:
-
-
 
 - Heavy Clothing
 
@@ -450,23 +478,13 @@ Do not include:
 
 - Species-pattern armour
 
-
-
 Heavy Clothing remains a separately selectable item where explicitly offered.
-
-
 
 ## Minor Augmetic Pool
 
-
-
 `minor augmetic` means a Controlled-Availability Augmetic Upgrade.
 
-
-
 The current approved pool is:
-
-
 
 - Optical Implant
 
@@ -488,19 +506,11 @@ The current approved pool is:
 
 - Vocal Coder
 
-
-
 Scarce and Rare augmetics do not belong to the generic Minor Augmetic pool.
-
-
 
 ## Narrative / Utility Starting Items
 
-
-
 Canonicalise the following without inventing automatic mechanical bonuses:
-
-
 
 - Symbol of Faith: narrative item
 
@@ -534,11 +544,7 @@ Canonicalise the following without inventing automatic mechanical bonuses:
 
 - Spirit charm: narrative item
 
-
-
 A canonical inventory item may legitimately have no automated combat mechanics.
-
-
 
 Mark PHB-RULE-051 RESOLVED.
 
@@ -557,7 +563,6 @@ For odd total Hit Dice, round long-rest recovery up or down?
 ## PHB-RULE-058 — UNRESOLVED
 
 Define same/different-source flat bonus, multiplier, temporary effect and duplicate equipment stacking where the PHB is silent.
-
 
 ## PHB-RULE-059 — RESOLVED (additional item-specific ruling)
 

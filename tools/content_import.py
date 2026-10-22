@@ -145,7 +145,7 @@ FIELDS={
  'skill':(['attributeKey'],[]), 'proficiency':(['category','appliesTo'],[]),
  'feature':(['flavor','effects','grants','manualRules'],['choices','requirements']),
  'choice':(['purpose','selectionMode','cardinality','repeatScope','options'],[]),
- 'species':(['features','size'],['choices']), 'background':(['features'],['choices','requirements']),
+ 'species':(['features','size'],['choices']), 'background':(['features'],['choices','requirements','originAvailability']),
  'property':(['appliesToKinds','parameters','effects','manualRules'],[]),
  'rule':(['role','automation','effects','manualRules'],[]),
  'progression':(['axis','maxLevel','entries'],[]),
@@ -184,6 +184,12 @@ def validate_records(records):
         if k in ['weapon','equipment','tool','augmetic','armour','shield']:
             from phb_equipment import validate_equipment
             validate_equipment(e,records)
+        if k=='background' and 'originAvailability' in d:
+            rows=d['originAvailability'];require(isinstance(rows,list) and rows,'ORIGIN_AVAILABILITY_REQUIRED')
+            require(len({x['species']['id'] for x in rows})==len(rows),'DUPLICATE_ORIGIN_SPECIES')
+            for row in rows:
+                shape(row,['species','state']);ref(row['species'],records,'species')
+                require(row['state'] in ['NORMAL','RARE','LIMITED'],'ORIGIN_AVAILABILITY_STATE')
         if k=='feature':
             require(d['flavor'] in ['general','feat','species_trait','background_feature','class_feature','subclass_feature'],'FLAVOR');grants(d['grants'],records)
         elif k=='proficiency':

@@ -329,11 +329,8 @@
       "level": 1,
       "subclass": null
     },
-    "expectedStatus": "BLOCKED_BY_RULING",
-    "rulingIds": [
-      "PHB-RULE-005",
-      "PHB-RULE-007"
-    ],
+    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "rulingIds": [],
     "gapIds": [
       "PHB-CAT-004",
       "PHB-CAT-005",
@@ -350,11 +347,8 @@
       "level": 2,
       "subclass": null
     },
-    "expectedStatus": "BLOCKED_BY_RULING",
-    "rulingIds": [
-      "PHB-RULE-005",
-      "PHB-RULE-007"
-    ],
+    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "rulingIds": [],
     "gapIds": [
       "PHB-CAT-004",
       "PHB-CAT-005",
@@ -371,11 +365,8 @@
       "level": 3,
       "subclass": "di.subclass.ogryn_skullbreaker.bone_ead"
     },
-    "expectedStatus": "BLOCKED_BY_RULING",
-    "rulingIds": [
-      "PHB-RULE-005",
-      "PHB-RULE-007"
-    ],
+    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "rulingIds": [],
     "gapIds": [
       "PHB-CAT-004",
       "PHB-CAT-005",
@@ -446,11 +437,8 @@
       "level": 1,
       "subclass": null
     },
-    "expectedStatus": "BLOCKED_BY_RULING",
-    "rulingIds": [
-      "PHB-RULE-001",
-      "PHB-RULE-007"
-    ],
+    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "rulingIds": [],
     "gapIds": [
       "PHB-CAT-004",
       "PHB-CAT-005",
@@ -467,11 +455,8 @@
       "level": 2,
       "subclass": null
     },
-    "expectedStatus": "BLOCKED_BY_RULING",
-    "rulingIds": [
-      "PHB-RULE-001",
-      "PHB-RULE-007"
-    ],
+    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "rulingIds": [],
     "gapIds": [
       "PHB-CAT-004",
       "PHB-CAT-005",
@@ -488,11 +473,8 @@
       "level": 3,
       "subclass": "di.subclass.ratling_sharpshooter.black_market_gremlin"
     },
-    "expectedStatus": "BLOCKED_BY_RULING",
-    "rulingIds": [
-      "PHB-RULE-001",
-      "PHB-RULE-007"
-    ],
+    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "rulingIds": [],
     "gapIds": [
       "PHB-CAT-004",
       "PHB-CAT-005",
@@ -509,11 +491,8 @@
       "level": 1,
       "subclass": null
     },
-    "expectedStatus": "BLOCKED_BY_RULING",
-    "rulingIds": [
-      "PHB-RULE-004",
-      "PHB-RULE-007"
-    ],
+    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "rulingIds": [],
     "gapIds": [
       "PHB-CAT-004",
       "PHB-CAT-005",
@@ -530,11 +509,8 @@
       "level": 2,
       "subclass": null
     },
-    "expectedStatus": "BLOCKED_BY_RULING",
-    "rulingIds": [
-      "PHB-RULE-004",
-      "PHB-RULE-007"
-    ],
+    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "rulingIds": [],
     "gapIds": [
       "PHB-CAT-004",
       "PHB-CAT-005",
@@ -551,11 +527,8 @@
       "level": 3,
       "subclass": "di.subclass.skitarii_veteran.data_hunter"
     },
-    "expectedStatus": "BLOCKED_BY_RULING",
-    "rulingIds": [
-      "PHB-RULE-004",
-      "PHB-RULE-007"
-    ],
+    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "rulingIds": [],
     "gapIds": [
       "PHB-CAT-004",
       "PHB-CAT-005",

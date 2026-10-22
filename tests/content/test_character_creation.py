@@ -43,11 +43,10 @@ class CreationReadinessTests(unittest.TestCase):
         self.assertIn('rollDefinitions',out['projection']['unresolvedFields'])
 
     def test_client_facts_cannot_approve_origin(self):
-        d=self.draft('ogryn');d['facts']={'phb.origin_eligibility.penal_worlder':True}
+        d=self.draft('ogryn');d['selections']['background']={'id':'di.background.hiveborn'};d['facts']={'approved':True,'allowRare':True}
         out=cc.validate_character_selection(d,self.records)
         self.assertEqual(out['eligibilityStatus'],'INCOMPLETE')
-        issue=next(x for x in out['unresolved'] if x['code']=='ELIGIBILITY_UNRESOLVED')
-        self.assertIn('PHB-RULE-002',issue['rulingIds'])
+        self.assertIn('ORIGIN_APPROVAL_REQUIRED',{x['code'] for x in out['unresolved']})
 
     def test_invalid_class_is_rejected_with_field_reason(self):
         out=cc.validate_character_selection(self.draft('invalid-human-skitarii'),self.records)
@@ -107,7 +106,7 @@ class CreationReadinessTests(unittest.TestCase):
     def test_only_five_approved_rulings_resolved(self):
         ledger=ci.read(ci.PACKAGE/'review/human-rulings-integration.json')
         self.assertEqual(len(ledger),36)
-        approved={f'PHB-RULE-{n:03}' for n in [9,24,49,50,51]}
+        approved={f'PHB-RULE-{n:03}' for n in [1,2,3,4,5,6,7,9,24,49,50,51]}
         self.assertEqual({x['id'] for x in ledger if x['status']=='RESOLVED'},approved)
         self.assertTrue(all(x['status']=='UNRESOLVED' and x['decision'] is None for x in ledger if x['id'] not in approved))
         self.assertEqual({x['id'] for x in ci.read(ci.PACKAGE/'review/decisions.json')['humanRulings']},approved)

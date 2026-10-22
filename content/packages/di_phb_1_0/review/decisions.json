@@ -238,6 +238,120 @@
         "approvedBy": "user",
         "date": "2026-10-22"
       }
+    },
+    {
+      "id": "PHB-RULE-001",
+      "status": "RESOLVED",
+      "decision": "# Approved PHB-RULE-001 — Hiveborn\r\n\r\nThe detailed Origin `Allowed Species` entry is authoritative over the summary Origin matrix when they conflict.\r\n\r\nHiveborn eligibility:\r\n\r\n- Human: allowed normally\r\n- Ratling: allowed normally\r\n- Ogryn: allowed as `RARE`\r\n- Skitarii: not allowed\r\n- Squat / Kin: not allowed\r\n- Aeldari: not allowed\r\n\r\nThe previous matrix entry suggesting Rare Squat/Kin does not apply.\r\n\r\nMark PHB-RULE-001 RESOLVED.",
+      "affectedIds": [
+        "di.background.hiveborn"
+      ],
+      "approval": {
+        "path": "review/approved-origin-rulings.txt",
+        "sha256": "46415426beba0938a6449ba4dc47b558c94792dd2353770c38244eb0a76a80f6",
+        "approvedBy": "user",
+        "recordedAt": "2026-10-22T22:12:15.134611+00:00",
+        "sourceRelationship": "User-approved detailed Origin precedence and explicit NORMAL/RARE/LIMITED policy; PHB PDF 26-27"
+      }
+    },
+    {
+      "id": "PHB-RULE-002",
+      "status": "RESOLVED",
+      "decision": "# Approved PHB-RULE-002 — Penal Worlder\r\n\r\nThe detailed Origin `Allowed Species` entry is authoritative.\r\n\r\nPenal Worlder eligibility:\r\n\r\n- Human: allowed normally\r\n- Ogryn: allowed normally\r\n- Ratling: allowed normally\r\n- Skitarii: not allowed\r\n- Squat / Kin: not allowed\r\n- Aeldari: not allowed\r\n\r\nThe previous matrix entry suggesting Rare Squat/Kin does not apply.\r\n\r\nMark PHB-RULE-002 RESOLVED.",
+      "affectedIds": [
+        "di.background.penal_worlder"
+      ],
+      "approval": {
+        "path": "review/approved-origin-rulings.txt",
+        "sha256": "46415426beba0938a6449ba4dc47b558c94792dd2353770c38244eb0a76a80f6",
+        "approvedBy": "user",
+        "recordedAt": "2026-10-22T22:12:15.134611+00:00",
+        "sourceRelationship": "User-approved detailed Origin precedence and explicit NORMAL/RARE/LIMITED policy; PHB PDF 26-27"
+      }
+    },
+    {
+      "id": "PHB-RULE-003",
+      "status": "RESOLVED",
+      "decision": "# Approved PHB-RULE-003 — Voidborn\r\n\r\nThe detailed Origin `Allowed Species` entry is authoritative.\r\n\r\nVoidborn eligibility:\r\n\r\n- Human: allowed normally\r\n- Ratling: allowed normally\r\n- Ogryn: allowed as `RARE`\r\n- Skitarii: not allowed\r\n- Squat / Kin: not allowed\r\n- Aeldari: not allowed\r\n\r\nThe previous matrix entries permitting Squat/Kin or Rare Aeldari do not apply.\r\n\r\nMark PHB-RULE-003 RESOLVED.",
+      "affectedIds": [
+        "di.background.voidborn"
+      ],
+      "approval": {
+        "path": "review/approved-origin-rulings.txt",
+        "sha256": "46415426beba0938a6449ba4dc47b558c94792dd2353770c38244eb0a76a80f6",
+        "approvedBy": "user",
+        "recordedAt": "2026-10-22T22:12:15.134611+00:00",
+        "sourceRelationship": "User-approved detailed Origin precedence and explicit NORMAL/RARE/LIMITED policy; PHB PDF 26-27"
+      }
+    },
+    {
+      "id": "PHB-RULE-004",
+      "status": "RESOLVED",
+      "decision": "# Approved PHB-RULE-004 — Forge World\r\n\r\nThe detailed Origin `Allowed Species` entry is authoritative.\r\n\r\nForge World eligibility:\r\n\r\n- Human: allowed normally\r\n- Skitarii: allowed normally\r\n- Ogryn: not allowed\r\n- Ratling: not allowed\r\n- Squat / Kin: not allowed\r\n- Aeldari: not allowed\r\n\r\nThe previous matrix entry suggesting Rare Squat/Kin does not apply.\r\n\r\nMark PHB-RULE-004 RESOLVED.",
+      "affectedIds": [
+        "di.background.forge_world"
+      ],
+      "approval": {
+        "path": "review/approved-origin-rulings.txt",
+        "sha256": "46415426beba0938a6449ba4dc47b558c94792dd2353770c38244eb0a76a80f6",
+        "approvedBy": "user",
+        "recordedAt": "2026-10-22T22:12:15.134611+00:00",
+        "sourceRelationship": "User-approved detailed Origin precedence and explicit NORMAL/RARE/LIMITED policy; PHB PDF 26-27"
+      }
+    },
+    {
+      "id": "PHB-RULE-005",
+      "status": "RESOLVED",
+      "decision": "# Approved PHB-RULE-005 — Militarum Regiment\r\n\r\nThe detailed Origin `Allowed Species` entry is authoritative.\r\n\r\nMilitarum Regiment eligibility:\r\n\r\n- Human: allowed normally\r\n- Ogryn: allowed normally\r\n- Ratling: allowed normally\r\n- Skitarii: allowed as `LIMITED`\r\n- Squat / Kin: not allowed\r\n- Aeldari: not allowed\r\n\r\nThe previous matrix entry suggesting Rare Squat/Kin does not apply.\r\n\r\nMark PHB-RULE-005 RESOLVED.",
+      "affectedIds": [
+        "di.background.militarum_regiment"
+      ],
+      "approval": {
+        "path": "review/approved-origin-rulings.txt",
+        "sha256": "46415426beba0938a6449ba4dc47b558c94792dd2353770c38244eb0a76a80f6",
+        "approvedBy": "user",
+        "recordedAt": "2026-10-22T22:12:15.134611+00:00",
+        "sourceRelationship": "User-approved detailed Origin precedence and explicit NORMAL/RARE/LIMITED policy; PHB PDF 26-27"
+      }
+    },
+    {
+      "id": "PHB-RULE-006",
+      "status": "RESOLVED",
+      "decision": "# Approved PHB-RULE-006 — Underhive\r\n\r\nThe detailed Origin `Allowed Species` entry is authoritative.\r\n\r\nUnderhive eligibility:\r\n\r\n- Human: allowed normally\r\n- Ratling: allowed normally\r\n- Ogryn: not allowed\r\n- Skitarii: not allowed\r\n- Squat / Kin: not allowed\r\n- Aeldari: not allowed\r\n\r\nThe previous matrix entry suggesting Rare Squat/Kin does not apply.\r\n\r\nMark PHB-RULE-006 RESOLVED.",
+      "affectedIds": [
+        "di.background.underhive"
+      ],
+      "approval": {
+        "path": "review/approved-origin-rulings.txt",
+        "sha256": "46415426beba0938a6449ba4dc47b558c94792dd2353770c38244eb0a76a80f6",
+        "approvedBy": "user",
+        "recordedAt": "2026-10-22T22:12:15.134611+00:00",
+        "sourceRelationship": "User-approved detailed Origin precedence and explicit NORMAL/RARE/LIMITED policy; PHB PDF 26-27"
+      }
+    },
+    {
+      "id": "PHB-RULE-007",
+      "status": "RESOLVED",
+      "decision": "# Approved PHB-RULE-007 — Rare / Limited Origin Availability\r\n\r\nOrigin availability uses three production-relevant states.\r\n\r\n## NORMAL\r\n\r\nThe Species/Origin combination is legal without additional approval, assuming all other prerequisites are satisfied.\r\n\r\n## RARE\r\n\r\nThe Species/Origin combination is a legal player option but requires explicit GM approval.\r\n\r\nRare does NOT mean:\r\n\r\n- invalid\r\n- NPC-only\r\n- automatically selectable\r\n\r\nUntil the application has a trusted GM/campaign approval mechanism, Rare combinations may be displayed but must not be available for ordinary self-service character creation.\r\n\r\n## LIMITED\r\n\r\nThe Species/Origin combination is an exceptional player option.\r\n\r\nIt requires explicit GM/campaign approval for the specific combination and appropriate narrative justification.\r\n\r\nLimited approval must be specific to the affected Species/Origin combination.\r\n\r\nA generic `allow rare content` permission is not sufficient for Limited options.\r\n\r\nUntil a trusted campaign approval mechanism exists, Limited combinations may be displayed but must remain unavailable for ordinary self-service character creation.\r\n\r\nRepresent these states structurally.\r\n\r\nDo not hard-code approval behaviour into React.\r\n\r\nMark PHB-RULE-007 RESOLVED.",
+      "affectedIds": [
+        "di.background.hiveborn",
+        "di.background.shrine_worlder",
+        "di.background.penal_worlder",
+        "di.background.voidborn",
+        "di.background.forge_world",
+        "di.background.schola_progenium",
+        "di.background.militarum_regiment",
+        "di.background.underhive",
+        "di.background.craftworld_outcast",
+        "di.background.mining_hold_guild"
+      ],
+      "approval": {
+        "path": "review/approved-origin-rulings.txt",
+        "sha256": "46415426beba0938a6449ba4dc47b558c94792dd2353770c38244eb0a76a80f6",
+        "approvedBy": "user",
+        "recordedAt": "2026-10-22T22:12:15.134611+00:00",
+        "sourceRelationship": "User-approved detailed Origin precedence and explicit NORMAL/RARE/LIMITED policy; PHB PDF 26-27"
+      }
     }
   ],
   "note": "No user rulings or publication approvals invented. Resolved decisions are source-supported mappings/policies.",

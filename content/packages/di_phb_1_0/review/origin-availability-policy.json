@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "rulingIds": [
+    "PHB-RULE-001",
+    "PHB-RULE-002",
+    "PHB-RULE-003",
+    "PHB-RULE-004",
+    "PHB-RULE-005",
+    "PHB-RULE-006",
+    "PHB-RULE-007"
+  ],
+  "precedence": "For Origin eligibility, the individual Origin's Allowed Species entry is authoritative. The Origin matrix is a quick-reference summary. Where the matrix and individual Origin entry conflict, the individual Origin entry takes precedence.",
+  "states": {
+    "NORMAL": {
+      "approval": "NONE",
+      "selfService": true
+    },
+    "RARE": {
+      "approval": "TRUSTED_GM",
+      "selfService": false
+    },
+    "LIMITED": {
+      "approval": "TRUSTED_COMBINATION_AND_NARRATIVE",
+      "selfService": false
+    }
+  },
+  "trustedApprovalImplemented": false
+}

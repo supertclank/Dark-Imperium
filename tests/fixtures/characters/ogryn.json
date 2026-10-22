@@ -61,7 +61,7 @@
   },
   "expected": {
     "status": "INCOMPLETE",
-    "baseEligibilityStatus": "INCOMPLETE",
+    "baseEligibilityStatus": "VALID",
     "baseWalk": 30,
     "proficiencyBonus": 2,
     "errorCodes": [],

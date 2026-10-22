@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "packageId": "di_phb",
-  "packageVersion": "1.0-frag-save.1",
+  "packageVersion": "1.0-origin-approvals.1",
   "lifecycle": "draft",
   "dependencies": [],
   "sources": [
@@ -180,63 +180,63 @@
     },
     {
       "id": "di.background.craftworld_outcast",
-      "revision": 2,
+      "revision": 3,
       "path": "entities/background/craftworld_outcast.json",
-      "sha256": "bc3f1a6f5207010403fd047f61ee1af28b43934e7967666ebcc00451f527399b"
+      "sha256": "df24e0a1964e652d4dc48a7353fc2317f9f0980eab1653e80e4b8d2d4de65dcc"
     },
     {
       "id": "di.background.forge_world",
-      "revision": 2,
+      "revision": 3,
       "path": "entities/background/forge_world.json",
-      "sha256": "a3f65ba34446fe2e129b136296354721871ec50812a1e3c7d363e19e4128e2b2"
+      "sha256": "0e900da8344e6ce054f788ceccff305d94a9f8bda96e7ce8e61a6dcb01296891"
     },
     {
       "id": "di.background.hiveborn",
-      "revision": 2,
+      "revision": 3,
       "path": "entities/background/hiveborn.json",
-      "sha256": "4d15d76ec1a3fea8929dc6d4fe01deb74fb22218ddd077c4ad1cdb844fc82aae"
+      "sha256": "c647db25b3c5a03c24fd5b83609040dae90a85ae78c1afdc75ed74c6a38d4398"
     },
     {
       "id": "di.background.militarum_regiment",
-      "revision": 2,
+      "revision": 3,
       "path": "entities/background/militarum_regiment.json",
-      "sha256": "6f7355aee08a3ef5c4b45c88e6a0933ceaa35b5e1830c2a9cdc20aacd2ab0983"
+      "sha256": "353dbf1174bc8f1ffba1ed41b674a6cd9028d1f22e43d9ec20a28d9f6afa81e8"
     },
     {
       "id": "di.background.mining_hold_guild",
-      "revision": 2,
+      "revision": 3,
       "path": "entities/background/mining_hold_guild.json",
-      "sha256": "ca786d1afcef37584fa12d8dd8296740771343c78130ff306cda0253824ab84b"
+      "sha256": "9109108c34131a0d85e396c0882c956d8a7fa285476084f169fae01062683241"
     },
     {
       "id": "di.background.penal_worlder",
-      "revision": 2,
+      "revision": 3,
       "path": "entities/background/penal_worlder.json",
-      "sha256": "f7abb2e9c7ec753cd824c7bc30ff4413529cb4420f1a56e4554741f9b9507504"
+      "sha256": "3155c3ffc086386f98bc9ec5a74bc8c4a65cdf599e272d47b4c612e2cdc48e3c"
     },
     {
       "id": "di.background.schola_progenium",
-      "revision": 2,
+      "revision": 3,
       "path": "entities/background/schola_progenium.json",
-      "sha256": "bbbf6b32bb15dde12bd4d7247f98d81c3b2bddc97507252557a336ec85349992"
+      "sha256": "0bb1ebc2785d1531e7088634d76d6325b9b793fc0c523f43e7d2e0079346b746"
     },
     {
       "id": "di.background.shrine_worlder",
-      "revision": 2,
+      "revision": 3,
       "path": "entities/background/shrine_worlder.json",
-      "sha256": "4b733ae4721b2a8642ac84ea7feb24102e20b19adb6a013baaeb2e6e62ea8599"
+      "sha256": "82ed9ef566eda9346c54b002dbd75e9ba59bd1faabcfe689b62649d66ea7eada"
     },
     {
       "id": "di.background.underhive",
-      "revision": 2,
+      "revision": 3,
       "path": "entities/background/underhive.json",
-      "sha256": "eb6ab3ce21db53d9f9fb9da73704fbf4e19cd9a976f5f042b4abf6f264a2ae87"
+      "sha256": "9cf5625da511757cd5e022992e76e146de1b25624a2874611b541a04a2bb3fe8"
     },
     {
       "id": "di.background.voidborn",
-      "revision": 2,
+      "revision": 3,
       "path": "entities/background/voidborn.json",
-      "sha256": "d725d76104f1b7ef9f27a3e1c506c53e7a99a021c15421bff6ba8e9bd4ad3fad"
+      "sha256": "ae81afe339cf2cb7d54dca9418f734b2d6eddf071966e91753b2c38ff410f412"
     },
     {
       "id": "di.choice.aeldari.ability_scores",
@@ -2454,9 +2454,9 @@
     },
     {
       "id": "di.feature.species.ratling.traits",
-      "revision": 1,
+      "revision": 2,
       "path": "entities/feature/species.ratling.traits.json",
-      "sha256": "805848b3e6933c892e76290adbf6edbaa5a6ee7a7ec4e72628a815aaa4b7238e"
+      "sha256": "d2dbbc41c141d429ee3217ec13bdc0a7b05f19e75f60480bf952d87b8c77caf8"
     },
     {
       "id": "di.feature.species.skitarii.baseline",

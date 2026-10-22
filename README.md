@@ -118,3 +118,7 @@ Optional Three.js dice now present completed server results, with persistent red
 ## Level 1–3 independent catalogue audit — 2026-10-22
 
 See the [catalogue readiness report](docs/import/LEVEL_1_3_CATALOGUE_REPORT.md), [full publication matrix](docs/import/LEVEL_1_3_PUBLICATION_MATRIX.md) and [Origin scenarios](docs/import/LEVEL_1_3_ORIGIN_SCENARIOS.md). PHB-RULE-001–007 remain unresolved. The 4,140-row inventory, calculation proofs and blocked-family fixtures prepare expansion; they publish no new paths. The existing narrow production profile is unchanged.
+
+## Origin approvals and initial tier-1 publication — 2026-10-22
+
+PHB-RULE-001–007 are integrated (12/36 resolved). The new immutable tier-1 profile supports Human / Hiveborn / Veteran level 1, with Twitchy and the reviewed kit. Rare/Limited paths remain approval-blocked. Existing narrow characters retain their snapshot and adapter. See the [current readiness and verification report](docs/import/LEVEL_1_3_CATALOGUE_REPORT.md) for the updated 4,140-row matrix, compiler/adapter scope, tests, browser evidence and remaining blockers. Earlier milestone sections are historical.

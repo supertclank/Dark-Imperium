@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.background.voidborn",
   "kind": "background",
-  "revision": 2,
+  "revision": 3,
   "name": "Voidborn",
   "summary": "4.4 Voidborn Born aboard a voidship, orbital station, warship, pilgrim vessel, or ancient wreck. Allowed Species: Human, Ratling, rare Ogryn. Skill Proficiency: Choose one from Acrobatics, Perception, Investigation, or Technology. Void Legs: You have advantage on checks and saving throws to avoid being knocked prone or moved against your will. Shipwise: You are proficient with basic voidship procedures, airlocks, auspex consoles, pressure doors, and shipboard emergency systems.",
   "descriptionMarkdown": "4.4 Voidborn\nBorn aboard a voidship, orbital station, warship, pilgrim \nvessel, or ancient wreck.\nAllowed Species: Human, Ratling, rare Ogryn.\nSkill Proficiency: Choose one from Acrobatics, \nPerception, Investigation, or Technology.\nVoid Legs: You have advantage on checks and saving \nthrows to avoid being knocked prone or moved\nagainst your will.\nShipwise: You are proficient with basic voidship \nprocedures, airlocks, auspex consoles, pressure doors,\nand shipboard emergency systems.",
@@ -33,9 +33,47 @@
       }
     ],
     "requirements": {
-      "kind": "fact",
-      "key": "phb.origin_eligibility.voidborn",
-      "equals": true
-    }
+      "kind": "any",
+      "predicates": [
+        {
+          "kind": "selected",
+          "content": {
+            "id": "di.species.human"
+          }
+        },
+        {
+          "kind": "selected",
+          "content": {
+            "id": "di.species.ratling"
+          }
+        },
+        {
+          "kind": "selected",
+          "content": {
+            "id": "di.species.ogryn"
+          }
+        }
+      ]
+    },
+    "originAvailability": [
+      {
+        "species": {
+          "id": "di.species.human"
+        },
+        "state": "NORMAL"
+      },
+      {
+        "species": {
+          "id": "di.species.ratling"
+        },
+        "state": "NORMAL"
+      },
+      {
+        "species": {
+          "id": "di.species.ogryn"
+        },
+        "state": "RARE"
+      }
+    ]
   }
 }

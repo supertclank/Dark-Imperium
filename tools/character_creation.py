@@ -39,7 +39,7 @@ def validate_character_selection(draft, records=None):
     subclass=resolve(entry['subclass'],'subclass','selections.classes.0.subclass') if 'subclass' in entry else None
     selected=[e['id'] for e in (species,origin,klass) if e]
     snapshot={'selected':selected,'classLevels':{klass['id']:level} if klass and level else {},'totalLevel':level,'facts':{}}
-    # Facts are intentionally empty: no human rulings have been approved.
+    # Client facts never grant trusted approval.
     def eligible(e,field,code):
         if e and 'requirements' in e['data']:
             answer=policy.evaluate(e['data']['requirements'],snapshot)
@@ -48,6 +48,9 @@ def validate_character_selection(draft, records=None):
                 ids=ci.read(ci.PACKAGE/'review/creation-readiness.json').get('originRulings',{}).get(e['id'],[]) if e['kind']=='background' else []
                 problem('ELIGIBILITY_UNRESOLVED',field,'Prerequisite requires missing information or an unapproved ruling.',ids)
     eligible(origin,'selections.background','ORIGIN_NOT_ELIGIBLE')
+    if origin and species:
+        availability=next((x['state'] for x in origin['data'].get('originAvailability',[]) if x['species']['id']==species['id']),None)
+        if availability in ('RARE','LIMITED'):problem('ORIGIN_APPROVAL_REQUIRED','selections.background','Trusted approval infrastructure is unavailable; '+availability+' is not self-service.')
     eligible(klass,'selections.classes.0.class','CLASS_NOT_ELIGIBLE')
     if subclass:
         if not klass or subclass['data']['parentClass']['id']!=klass['id']:

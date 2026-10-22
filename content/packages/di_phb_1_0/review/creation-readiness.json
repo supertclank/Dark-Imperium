@@ -1,43 +1,8 @@
 {
-  "status": "BLOCKED",
-  "approvedHumanRulings": 5,
-  "originRulings": {
-    "di.background.hiveborn": [
-      "PHB-RULE-001",
-      "PHB-RULE-007"
-    ],
-    "di.background.penal_worlder": [
-      "PHB-RULE-002",
-      "PHB-RULE-007"
-    ],
-    "di.background.voidborn": [
-      "PHB-RULE-003",
-      "PHB-RULE-007"
-    ],
-    "di.background.forge_world": [
-      "PHB-RULE-004",
-      "PHB-RULE-007"
-    ],
-    "di.background.militarum_regiment": [
-      "PHB-RULE-005",
-      "PHB-RULE-007"
-    ],
-    "di.background.underhive": [
-      "PHB-RULE-006",
-      "PHB-RULE-007"
-    ],
-    "di.background.shrine_worlder": [
-      "PHB-RULE-007"
-    ]
-  },
+  "status": "PARTIAL_CERTIFIED_PROFILES",
+  "approvedHumanRulings": 12,
+  "originRulings": {},
   "unresolvedRulings": [
-    "PHB-RULE-001",
-    "PHB-RULE-002",
-    "PHB-RULE-003",
-    "PHB-RULE-004",
-    "PHB-RULE-005",
-    "PHB-RULE-006",
-    "PHB-RULE-007",
     "PHB-RULE-010",
     "PHB-RULE-011",
     "PHB-RULE-012",
@@ -64,14 +29,6 @@
     "PHB-RULE-058"
   ],
   "coreProfileRulings": [],
-  "fullCatalogRulings": [
-    "PHB-RULE-001",
-    "PHB-RULE-002",
-    "PHB-RULE-003",
-    "PHB-RULE-004",
-    "PHB-RULE-005",
-    "PHB-RULE-006",
-    "PHB-RULE-007"
-  ],
-  "scope": "Full requested PHB creation catalog. A narrow proof fixture does not waive any blocked option."
+  "fullCatalogRulings": [],
+  "scope": "Full catalogue remains incomplete; narrow and initial tier1 have explicit certified scopes. Origin availability is resolved; Rare/Limited require trusted approval."
 }

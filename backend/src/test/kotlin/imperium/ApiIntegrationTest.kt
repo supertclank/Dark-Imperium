@@ -128,7 +128,7 @@ class ApiIntegrationTest {
         assertEquals(HttpStatusCode.Unauthorized,client.get("/api/character-builder/profile").status)
         val cookie=client.account()
         val profile=client.get("/api/character-builder/profile"){header(HttpHeaders.Cookie,cookie)}.json()
-        assertEquals("di-phb-1.0-narrow-v1",profile.text("id"))
+        assertEquals("di-phb-1.0-tier1-v1",profile.text("id"))
         assertFalse(profile.containsKey("records"))
         val invalid=productionFixture().copy(speciesId="di.species.ogryn",answers=emptyMap())
         val body=Json.encodeToString(NarrowDraft.serializer(),invalid)
@@ -194,4 +194,23 @@ class ApiIntegrationTest {
         }
     }
 
+
+    @Test fun `tier1 saves reopens and rolls while old characters remain pinned`() = runApi {
+        val cookie=client.account();val old=client.create(cookie).json()
+        val draft=tier1Fixture().copy(requestId=UUID.randomUUID().toString())
+        val createdResponse=client.postJson("/api/characters",Json.encodeToString(NarrowDraft.serializer(),draft),cookie)
+        assertEquals(HttpStatusCode.Created,createdResponse.status)
+        val created=createdResponse.json();val id=created.text("id")
+        val reopened=client.get("/api/characters/$id") { header(HttpHeaders.Cookie,cookie) }.json()
+        assertEquals(created,reopened);assertEquals(draft.profileDigest,reopened.text("rulesetDigest"))
+        val options=client.get("/api/characters/$id/rolls/options") { header(HttpHeaders.Cookie,cookie) }.json()
+        val roll=options.objects("options").first()
+        val request=RollRequest(UUID.randomUUID().toString(),roll.text("id"),draft.profileId,draft.profileDigest,0)
+        val rolled=client.postJson("/api/characters/$id/rolls",Json.encodeToString(RollRequest.serializer(),request),cookie)
+        assertEquals(HttpStatusCode.OK,rolled.status)
+        val oldAgain=client.get("/api/characters/${old.text("id")}") { header(HttpHeaders.Cookie,cookie) }.json()
+        assertEquals(old,oldAgain)
+        val invalid=draft.copy(requestId=UUID.randomUUID().toString(),speciesId="di.species.ogryn")
+        assertEquals(HttpStatusCode.UnprocessableEntity,client.postJson("/api/characters",Json.encodeToString(NarrowDraft.serializer(),invalid),cookie).status)
+    }
 }

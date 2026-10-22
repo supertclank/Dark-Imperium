@@ -1,0 +1,823 @@
+# Dark Imperium Web – Integrate PHB-RULE-001–007 & Begin Tier-1 Catalogue Publication
+
+You are working on **Dark Imperium Web**.
+
+A complete independent level 1–3 catalogue audit has now been completed.
+
+Current audited state:
+
+- 948 canonical records
+- 6 Species
+- 10 Origins
+- 12 Classes
+- 45 Subclasses
+- 20 Universal Traits
+- 4,140 audited Species × Origin × Class / level rows
+- 44 rows BLOCKED_BY_CONTENT
+- 4 rows BLOCKED_BY_ENGINE
+- 560 rows BLOCKED_BY_RULING
+- 1 row READY_WITH_MANUAL_RULES
+- 3,531 rows UNSUPPORTED
+- 117 content tests passing
+- 46 frontend tests passing
+- 43 backend tests passing
+- Existing narrow production profile remains unchanged and valid
+- Planned tier-1 profile remains unpublished
+
+The following seven human rulings are now explicitly approved and authoritative.
+
+Do not infer any additional ruling from them.
+
+---
+
+# Approved PHB-RULE-001 — Hiveborn
+
+The detailed Origin `Allowed Species` entry is authoritative over the summary Origin matrix when they conflict.
+
+Hiveborn eligibility:
+
+- Human: allowed normally
+- Ratling: allowed normally
+- Ogryn: allowed as `RARE`
+- Skitarii: not allowed
+- Squat / Kin: not allowed
+- Aeldari: not allowed
+
+The previous matrix entry suggesting Rare Squat/Kin does not apply.
+
+Mark PHB-RULE-001 RESOLVED.
+
+---
+
+# Approved PHB-RULE-002 — Penal Worlder
+
+The detailed Origin `Allowed Species` entry is authoritative.
+
+Penal Worlder eligibility:
+
+- Human: allowed normally
+- Ogryn: allowed normally
+- Ratling: allowed normally
+- Skitarii: not allowed
+- Squat / Kin: not allowed
+- Aeldari: not allowed
+
+The previous matrix entry suggesting Rare Squat/Kin does not apply.
+
+Mark PHB-RULE-002 RESOLVED.
+
+---
+
+# Approved PHB-RULE-003 — Voidborn
+
+The detailed Origin `Allowed Species` entry is authoritative.
+
+Voidborn eligibility:
+
+- Human: allowed normally
+- Ratling: allowed normally
+- Ogryn: allowed as `RARE`
+- Skitarii: not allowed
+- Squat / Kin: not allowed
+- Aeldari: not allowed
+
+The previous matrix entries permitting Squat/Kin or Rare Aeldari do not apply.
+
+Mark PHB-RULE-003 RESOLVED.
+
+---
+
+# Approved PHB-RULE-004 — Forge World
+
+The detailed Origin `Allowed Species` entry is authoritative.
+
+Forge World eligibility:
+
+- Human: allowed normally
+- Skitarii: allowed normally
+- Ogryn: not allowed
+- Ratling: not allowed
+- Squat / Kin: not allowed
+- Aeldari: not allowed
+
+The previous matrix entry suggesting Rare Squat/Kin does not apply.
+
+Mark PHB-RULE-004 RESOLVED.
+
+---
+
+# Approved PHB-RULE-005 — Militarum Regiment
+
+The detailed Origin `Allowed Species` entry is authoritative.
+
+Militarum Regiment eligibility:
+
+- Human: allowed normally
+- Ogryn: allowed normally
+- Ratling: allowed normally
+- Skitarii: allowed as `LIMITED`
+- Squat / Kin: not allowed
+- Aeldari: not allowed
+
+The previous matrix entry suggesting Rare Squat/Kin does not apply.
+
+Mark PHB-RULE-005 RESOLVED.
+
+---
+
+# Approved PHB-RULE-006 — Underhive
+
+The detailed Origin `Allowed Species` entry is authoritative.
+
+Underhive eligibility:
+
+- Human: allowed normally
+- Ratling: allowed normally
+- Ogryn: not allowed
+- Skitarii: not allowed
+- Squat / Kin: not allowed
+- Aeldari: not allowed
+
+The previous matrix entry suggesting Rare Squat/Kin does not apply.
+
+Mark PHB-RULE-006 RESOLVED.
+
+---
+
+# Approved PHB-RULE-007 — Rare / Limited Origin Availability
+
+Origin availability uses three production-relevant states.
+
+## NORMAL
+
+The Species/Origin combination is legal without additional approval, assuming all other prerequisites are satisfied.
+
+## RARE
+
+The Species/Origin combination is a legal player option but requires explicit GM approval.
+
+Rare does NOT mean:
+
+- invalid
+- NPC-only
+- automatically selectable
+
+Until the application has a trusted GM/campaign approval mechanism, Rare combinations may be displayed but must not be available for ordinary self-service character creation.
+
+## LIMITED
+
+The Species/Origin combination is an exceptional player option.
+
+It requires explicit GM/campaign approval for the specific combination and appropriate narrative justification.
+
+Limited approval must be specific to the affected Species/Origin combination.
+
+A generic `allow rare content` permission is not sufficient for Limited options.
+
+Until a trusted campaign approval mechanism exists, Limited combinations may be displayed but must remain unavailable for ordinary self-service character creation.
+
+Represent these states structurally.
+
+Do not hard-code approval behaviour into React.
+
+Mark PHB-RULE-007 RESOLVED.
+
+---
+
+# Origin Precedence Policy
+
+Record the common policy underpinning PHB-RULE-001 through PHB-RULE-006:
+
+> For Origin eligibility, the individual Origin's `Allowed Species` entry is authoritative. The Origin matrix is a quick-reference summary. Where the matrix and individual Origin entry conflict, the individual Origin entry takes precedence.
+
+Preserve all six ruling IDs independently for audit/provenance purposes.
+
+Do not collapse them into one historical ruling record.
+
+---
+
+# Phase 1 – Approval Provenance
+
+Record the seven approved rulings using the existing ruling-approval provenance system.
+
+For each preserve:
+
+- ruling ID
+- exact approved text
+- user approval provenance
+- UTC timestamp
+- source relationships
+- affected Origin IDs
+- digest/hash according to existing project conventions
+
+Do not rewrite earlier approval history.
+
+Expected original ruling ledger state after integration:
+
+- 12 of original 36 RESOLVED
+- 24 of original 36 UNRESOLVED
+
+The separate PHB-RULE-059 Frag Grenade ruling remains outside that original denominator.
+
+---
+
+# Phase 2 – Rebuild Origin Eligibility Data
+
+Update canonical Origin eligibility from the approved rulings.
+
+At minimum correctly represent:
+
+## Hiveborn
+
+- Human NORMAL
+- Ratling NORMAL
+- Ogryn RARE
+
+## Shrine Worlder
+
+Use the existing non-conflicting detailed rule:
+
+- Human NORMAL
+- Ratling RARE
+
+Apply PHB-RULE-007 to the existing Rare classification.
+
+## Penal Worlder
+
+- Human NORMAL
+- Ogryn NORMAL
+- Ratling NORMAL
+
+## Voidborn
+
+- Human NORMAL
+- Ratling NORMAL
+- Ogryn RARE
+
+## Forge World
+
+- Human NORMAL
+- Skitarii NORMAL
+
+## Schola Progenium
+
+- Human NORMAL
+
+## Militarum Regiment
+
+- Human NORMAL
+- Ogryn NORMAL
+- Ratling NORMAL
+- Skitarii LIMITED
+
+## Underhive
+
+- Human NORMAL
+- Ratling NORMAL
+
+## Craftworld / Outcast
+
+- Aeldari NORMAL
+
+## Mining Hold / Guild
+
+- Squat / Kin NORMAL
+
+All unlisted Species combinations are invalid.
+
+---
+
+# Phase 3 – Rarity / Approval Schema
+
+Implement or finalise a reusable Origin availability model.
+
+At minimum support:
+
+```text
+NORMAL
+RARE
+LIMITED
+```
+
+Represent approval requirement separately if architecturally cleaner.
+
+The system should be extensible toward future:
+
+- campaign approval
+- GM approval
+- campaign-specific exceptions
+
+Do NOT implement fake client-side approval.
+
+For this release:
+
+- NORMAL may become production-publishable if all other dependencies pass
+- RARE remains production blocked until GM approval infrastructure exists
+- LIMITED remains production blocked until GM/campaign approval infrastructure exists
+
+---
+
+# Phase 4 – Re-run Level 1–3 Publication Matrix
+
+Regenerate the full audited matrix using the approved Origin rules.
+
+Reclassify all 4,140 rows.
+
+Do not automatically mark an Origin-approved row READY.
+
+After Origin eligibility resolution, each combination must still pass:
+
+- Species mechanics
+- Class eligibility
+- starting package
+- calculations
+- level feature dependencies
+- subclass dependencies
+- selected choices
+- equipment
+- power choices
+- engine capability
+
+Report updated counts for:
+
+- READY
+- READY_WITH_MANUAL_RULES
+- BLOCKED_BY_CONTENT
+- BLOCKED_BY_ENGINE
+- BLOCKED_BY_RULING
+- BLOCKED_BY_APPROVAL
+- UNSUPPORTED
+
+Introduce `BLOCKED_BY_APPROVAL` if useful to distinguish Rare/Limited legal-but-unapproved combinations from actual unresolved rules.
+
+---
+
+# Phase 5 – Preserve Narrow Profile
+
+Do NOT mutate:
+
+`di-phb-1.0-narrow-v1`
+
+Do not change its:
+
+- digest
+- canonical snapshot
+- calculation adapter
+- saved characters
+
+Existing narrow characters must continue to behave identically.
+
+---
+
+# Phase 6 – Tier-1 Publication Strategy
+
+Continue preparing:
+
+`di-phb-1.0-tier1-v1`
+
+with adapter:
+
+`phb-tier1-kotlin-v1`
+
+The profile must remain unpublished until at least one new complete path is certified.
+
+Do not publish an empty or speculative allowlist.
+
+---
+
+# Phase 7 – Prioritise New NORMAL Paths
+
+Prioritise NORMAL Origin combinations first.
+
+Do NOT spend this task implementing GM approval infrastructure solely to unlock Rare/Limited combinations.
+
+Suggested path priority:
+
+## Human
+
+Audit/certify:
+
+- Hiveborn
+- Shrine Worlder
+- Penal Worlder
+- Voidborn
+- Forge World
+- Schola Progenium
+- Militarum Regiment
+- Underhive
+
+against valid Human classes.
+
+## Ratling
+
+Audit/certify NORMAL:
+
+- Hiveborn
+- Penal Worlder
+- Voidborn
+- Militarum Regiment
+- Underhive
+
+Rare Shrine Worlder remains approval-blocked.
+
+## Ogryn
+
+Audit/certify NORMAL:
+
+- Penal Worlder
+- Militarum Regiment
+
+Hiveborn and Voidborn remain approval-blocked.
+
+## Skitarii
+
+Audit/certify:
+
+- Forge World NORMAL
+
+Militarum Regiment remains approval-blocked because it is LIMITED.
+
+## Squat / Kin
+
+Audit/certify:
+
+- Mining Hold / Guild NORMAL
+
+## Aeldari
+
+Audit/certify:
+
+- Craftworld / Outcast NORMAL
+
+---
+
+# Phase 8 – Resolve Implementation Blockers Independently
+
+The catalogue audit identified major non-ruling blockers.
+
+Work through them without inventing new game rules.
+
+## PHB-CAT-001
+
+Starting-package compiler absent outside Veteran.
+
+Implement a generic executable package compiler supporting:
+
+- fixed grants
+- quantities
+- one-of choices
+- optional choices
+- proficiency grants
+- armour equip state
+- inventory grants
+- reviewed aliases
+- validated pools
+
+Do not hard-code per-class kits in controllers or React.
+
+## PHB-CAT-002
+
+Incomplete starting options.
+
+Promote only candidates whose definitions are fully supported by source evidence or already-approved rulings.
+
+Leave ambiguous alternatives blocked.
+
+A class may expose only independently certified package branches if the choice model supports doing so honestly.
+
+## PHB-CAT-003
+
+Psychic power content.
+
+Do not invent powers.
+
+Canonicalise/import existing PHB power candidates where source evidence is complete.
+
+If psychic power pools remain incomplete, Psyker/Warlock remain blocked.
+
+## PHB-CAT-004
+
+Production calculation adapter.
+
+Implement the generic level 1–3 production adapter required by certified paths.
+
+Reuse approved calculation policies.
+
+Do not duplicate formulas by class.
+
+## PHB-CAT-005
+
+Non-Human species mechanics.
+
+Promote required Species traits into structured:
+
+- calculations
+- proficiencies
+- restrictions
+- equipment compatibility
+- movement/vision
+- starting effects
+
+Manual prose is acceptable only for genuinely manual narrative behaviour, not for mandatory calculations.
+
+---
+
+# Phase 9 – Starting Package Compiler
+
+The new package compiler should consume structured canonical package definitions.
+
+Support at minimum:
+
+```text
+grant item X quantity N
+
+choose 1 from [A, B]
+
+choose package A or package B
+
+optional item
+
+grant proficiency
+
+equip item
+
+grant narrative/contact entry
+```
+
+Do not make equipment package interpretation depend on display text.
+
+Validation must reject:
+
+- unknown item
+- invalid quantity
+- invalid package branch
+- duplicate exclusive choices
+- unsupported candidate content
+
+---
+
+# Phase 10 – Levels 1–3
+
+Certify paths independently for:
+
+- Level 1
+- Level 2
+- Level 3
+
+Do not assume Level 1 readiness implies Level 2 or 3 readiness.
+
+Level 2 requires its newly granted feature dependencies.
+
+Level 3 additionally requires subclass choice and feature dependencies.
+
+---
+
+# Phase 11 – Subclass Certification
+
+All 45 subclass progression relationships are mapped.
+
+Now determine which level-3 subclasses are actually production-safe.
+
+For each candidate verify:
+
+- parent class is publishable
+- level 3 progression is valid
+- choice dependency is complete
+- granted feature is structured sufficiently
+- mandatory calculation is supported
+- no unresolved selected-context rule blocks it
+
+A manual feature may still permit `READY_WITH_MANUAL_RULES` if all mandatory calculated values remain valid.
+
+---
+
+# Phase 12 – Conditional Human Rulings
+
+The remaining original rulings continue to apply only where the selected configuration requires them.
+
+Examples already identified include:
+
+- PHB-RULE-011 expertise
+- PHB-RULE-014 Constitution/HP reconciliation
+- PHB-RULE-015 Ability Score Improvement
+- PHB-RULE-016 repeat Talent behaviour
+- PHB-RULE-026 slash damage
+- PHB-RULE-028 Powered Carapace
+- PHB-RULE-029 Exo-frame
+- PHB-RULE-030 Ogryn Flak Plate
+- PHB-RULE-032 competing/unarmoured protection
+- PHB-RULE-058 modifier stacking
+
+Do not globally block paths that do not exercise these rules.
+
+Do not resolve them by inference.
+
+---
+
+# Phase 13 – Generic Production Calculations
+
+Expand beyond `narrow-kotlin-v1`.
+
+The new adapter should derive supported values from canonical data.
+
+At minimum support where approved:
+
+- ability scores
+- modifiers
+- proficiency bonus
+- HP by level
+- movement
+- AC
+- initiative
+- saves
+- skills
+- proficiencies
+- available actions
+- resources
+- baseline RollDefinitions
+
+Avoid named class/species logic where the rule can be data-driven.
+
+---
+
+# Phase 14 – New Golden Characters
+
+Create actual valid golden fixtures only for newly certified paths.
+
+Do not turn the existing audit fixtures into fake playable characters.
+
+For every published major family, aim for at least one:
+
+- saved draft input
+- expected calculated projection
+- expected inventory
+- expected actions
+- expected rolls
+
+---
+
+# Phase 15 – New Production Profile
+
+When at least one additional path beyond the existing narrow profile is completely certified:
+
+build and register:
+
+`di-phb-1.0-tier1-v1`
+
+Requirements:
+
+- immutable canonical snapshot
+- unique digest
+- versioned calculation adapter
+- explicit allowlist
+- only certified content
+- old snapshot preserved
+
+Do not modify the existing profile in place.
+
+---
+
+# Phase 16 – Builder Expansion
+
+Only after the tier-1 profile is valid:
+
+update the builder to expose the new supported catalogue.
+
+Selections should come from backend profile data.
+
+Dynamic flow should support:
+
+Species
+→ Origin
+→ Class
+→ Level
+→ required choices
+→ subclass at level 3
+→ equipment
+→ review
+
+Blocked or approval-required combinations must not be submit-able.
+
+---
+
+# Phase 17 – Approval UX
+
+For Rare/Limited combinations, display clear informational state.
+
+Examples:
+
+`Rare Origin — requires GM approval`
+
+`Limited Origin — requires explicit campaign approval`
+
+Do not add a button allowing the player to approve themselves.
+
+No production creation request for such a combination should succeed until trusted approval support exists.
+
+---
+
+# Phase 18 – Existing Dice / 3D Integration
+
+New supported RollDefinitions should use the existing production pipeline:
+
+authoritative backend roll
+→ persisted DiceRollResult
+→ optional Three.js presentation
+
+Do not modify the 3D renderer to understand classes, Species, weapons or powers.
+
+---
+
+# Phase 19 – Tests
+
+Preserve all existing:
+
+- 117 content tests
+- 46 frontend tests
+- 43 backend tests
+
+Add coverage for:
+
+- all seven approved rulings
+- Origin precedence
+- rarity states
+- approval-blocked combinations
+- valid NORMAL combinations
+- starting-package compiler
+- non-Human Species mappings
+- tier-1 calculations
+- subclass certification
+- profile immutability
+- narrow-profile backwards compatibility
+- new golden characters
+- invalid tampered selections
+
+---
+
+# Phase 20 – Browser Acceptance
+
+Once new paths are published:
+
+Exercise representative paths through:
+
+- creation
+- persistence
+- reopen
+- character sheet
+- authoritative roll
+- optional 3D presentation
+
+Also reopen an existing `di-phb-1.0-narrow-v1` character and verify compatibility.
+
+---
+
+# Completion Report
+
+Provide:
+
+1. Seven ruling approvals integrated
+2. Updated original-ruling count
+3. Updated level 1–3 matrix counts
+4. Normal / Rare / Limited Origin combinations
+5. Starting-package compiler status
+6. Non-Human Species support
+7. Psychic content status
+8. New production adapter status
+9. Newly certified level-1 paths
+10. Newly certified level-2 paths
+11. Newly certified level-3 paths
+12. Subclasses certified
+13. New tier-1 profile ID/digest if published
+14. Golden characters added
+15. Backend tests
+16. Frontend tests
+17. Content tests
+18. Browser acceptance
+19. Build status
+20. Docker status
+21. Exact remaining blockers
+22. Recommended next milestone
+
+Do not implement levels 4–20 in this pass.
+
+Do not implement campaign approval infrastructure solely to unlock Rare/Limited Origins.
+
+Do not invent any remaining game rule.
+
+---
+
+# Definition of Done
+
+This iteration is successful when:
+
+- PHB-RULE-001–007 are formally integrated
+- Origin eligibility is no longer ambiguous
+- Rare/Limited combinations are structurally represented
+- independent tier-1 implementation blockers have materially progressed
+- at least one additional production character path is certified if source completeness permits
+- existing narrow characters remain immutable and compatible
+- no unresolved rule is silently filled in
+
+If multiple level 1–3 paths are successfully published, the next major milestone should be:
+
+**Implement level-up and character advancement through levels 1–3 on the validated tier-1 production profile before beginning levels 4–20.**

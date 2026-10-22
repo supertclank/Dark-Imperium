@@ -5,13 +5,18 @@ import java.util.UUID
 import kotlinx.serialization.json.*
 
 /** Selections and owned state are persisted separately; derived values are never stored. */
-class ProductionCharacters(private val db: Database, val rules: NarrowRules = NarrowRules.bundled()) {
+class ProductionCharacters(private val db: Database, val rules: NarrowRules = NarrowRules.tier1()) {
+    private val profiles=listOf(NarrowRules.bundled(),rules).associateBy { it.id }
+    fun rulesFor(profileId:String)=profiles[profileId] ?: rules
     init { db.transaction { connection ->
+      for(rules in profiles.values) {
         connection.execute("INSERT INTO ruleset_profiles(id,digest,engine_version,snapshot) VALUES (?,?,?,?::jsonb) ON CONFLICT(id) DO NOTHING",rules.id,rules.digest,rules.spec.text("engineVersion"),rules.bundle.toString())
         val pinned=connection.query("SELECT digest FROM ruleset_profiles WHERE id=?",rules.id) { it.getString(1) }.single()
         check(pinned==rules.digest) { "Immutable profile ID reused with changed content; publish a new profile ID" }
+      }
     } }
     fun create(owner:UUID,draft:NarrowDraft):JsonObject {
+        val rules=rulesFor(draft.profileId)
         val requestId=try { UUID.fromString(draft.requestId) } catch(_:IllegalArgumentException) { throw InvalidDraft(listOf(DraftIssue("INVALID_REQUEST_ID","requestId","A creation request UUID is required."))) }
         val id=UUID.randomUUID();val validation=rules.validate(draft,id.toString())
         if(validation.errors.isNotEmpty()) throw InvalidDraft(validation.errors)

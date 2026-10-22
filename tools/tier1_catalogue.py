@@ -82,7 +82,9 @@ def build():
     assert len(original)==36,'Historical denominator changed'
     approved=[x for x in original if validate_approval(x)]
     origins_approved=[x for x in ledger['humanRulings'] if x['id'] in {f'PHB-RULE-{n:03}' for n in range(1,8)} and validate_approval(x,origin=True)]
-    assert not origins_approved,'New approvals require explicit integration before regenerating this blocked audit'
+    assert len(origins_approved)==7,'All seven Origin approvals require verified provenance'
+    tier_path=ROOT/'content/profiles/di-phb-1.0-tier1-v1.json'
+    tier=c.read(tier_path) if tier_path.exists() else {'certifiedPaths':[]}
     groups={kind:sorted((e for e in records.values() if e['kind']==kind),key=lambda e:e['id']) for kind in ['species','background','class','subclass']}
     candidates={e['proposedId']:e for p in sorted((c.PACKAGE/'review/candidates').rglob('*.json')) if isinstance((e:=c.read(p)),dict) and 'proposedId' in e}
     bindings=c.read(c.PACKAGE/'review/starting-reference-bindings.json')['bindings']
@@ -120,10 +122,10 @@ def build():
     origins=[]
     for e in groups['background']:
         rules=['PHB-RULE-'+x for x in ORIGIN_RULES.get(e['id'].split('.')[-1],[])]
-        origins.append({'id':e['id'],'name':e['name'],'rulingIds':rules,'eligibility':e['data']['requirements'],
-         'published':e['id'] in spec['origins'],'availability':'BLOCKED' if rules else 'EXISTING_PROFILE_ONLY' if e['id'] in spec['origins'] else 'UNPUBLISHED',
+        origins.append({'id':e['id'],'name':e['name'],'rulingIds':[],'approvedRulingIds':rules,'originAvailability':e['data']['originAvailability'],'eligibility':e['data']['requirements'],
+         'published':e['id'] in spec['origins'] or e['id'] in tier.get('origins',[]),'availability':'RESOLVED_SEPARATE_APPROVAL_GATE',
          'proseEvidenceOnly':e['descriptionMarkdown'],'matrixEvidenceOnly':origin_rows[e['id']],'matrixSourcePdfPage':26,'proseSource':e['sources'],
-         'warning':'Matrix labels are source evidence, not resolved Rare/Limited permissions.'})
+         'warning':'Approved detailed entries override matrix evidence. RARE/LIMITED require trusted approval and remain unavailable.'})
     classes=[];subclasses=[]
     for klass in groups['class']:
         progression=records[klass['data']['progression']['id']]['data']['entries']
@@ -150,29 +152,32 @@ def build():
     feature_ruling_refs={key:['PHB-RULE-011'] for key,e in records.items() if e['kind']=='feature' and 'expertise' in str(e['data'].get('manualRules',[])).casefold()}
     rows=[]
     for s,o,k in itertools.product(groups['species'],groups['background'],groups['class']):
-        origin_rules=['PHB-RULE-'+v for v in ORIGIN_RULES.get(o['id'].split('.')[-1],[])]
+        origin_rules=[]
+        availability=next((x['state'] for x in o['data']['originAvailability'] if x['species']['id']==s['id']),None)
         class_ok=eligible(k,s['id']);origin_ok=eligible(o,s['id'])
         levels=[(1,None),(2,None)]+[(3,ref['id']) for ref in k['data']['allowedSubclasses']]
         for level,sub in levels:
             key='|'.join([s['id'],o['id'],k['id'],str(level),sub or '-'])
             invalid=class_ok is False or origin_ok is False
             existing=(s['id'] in spec['species'] and o['id'] in spec['origins'] and k['id'] in spec['classes'] and level==1)
+            newly_certified=any(x['speciesId']==s['id'] and x['originId']==o['id'] and x['classId']==k['id'] and x['level']==level for x in tier['certifiedPaths'])
+            published=existing or newly_certified
             gaps=[]
-            if not existing:
+            if not published:
                 gaps.append('PHB-CAT-004')
                 if s['id'] not in spec['species']:gaps.append('PHB-CAT-005')
                 if k['id']!='di.class.veteran':gaps.append('PHB-CAT-001')
                 if 'PHB-CAT-002' in kit_by_class[k['id']]['gaps']:gaps.append('PHB-CAT-002')
                 if k['id'] in ['di.class.psyker','di.class.aeldari_warlock']:gaps.append('PHB-CAT-003')
-            status='UNSUPPORTED' if invalid else 'READY_WITH_MANUAL_RULES' if existing else 'BLOCKED_BY_RULING' if origin_rules else 'BLOCKED_BY_CONTENT' if any(g in gaps for g in ['PHB-CAT-001','PHB-CAT-002','PHB-CAT-003']) else 'BLOCKED_BY_ENGINE'
+            status='UNSUPPORTED' if invalid else 'READY_WITH_MANUAL_RULES' if published else 'BLOCKED_BY_APPROVAL' if availability in ('RARE','LIMITED') else 'BLOCKED_BY_RULING' if origin_rules else 'BLOCKED_BY_CONTENT' if any(g in gaps for g in ['PHB-CAT-001','PHB-CAT-002','PHB-CAT-003']) else 'BLOCKED_BY_ENGINE'
             after='UNSUPPORTED' if class_ok is False else 'BLOCKED_BY_CONTENT' if any(g in gaps for g in ['PHB-CAT-001','PHB-CAT-002','PHB-CAT-003']) else 'BLOCKED_BY_ENGINE'
             deps=selected_features(records,[s['id'],o['id'],k['id']],level,sub)
             conditional_refs=sorted({rule for fid in deps['features'] for rule in feature_ruling_refs.get(fid,[])})
             rows.append({'conditionalFeatureRulingReview':conditional_refs,'id':key,'species':s['id'],'origin':o['id'],'class':k['id'],'level':level,'subclass':sub,
              'status':status,'eligibility':'INVALID' if invalid else 'UNRESOLVED' if origin_rules else 'KNOWN_BASE_ELIGIBLE',
-             'rulingIds':origin_rules if not invalid else [],'gapIds':gaps,'productionAllowed':existing,
-             'traitScope':spec['traits'] if existing else [],'equipmentScope':spec['equipment'] if existing else [],
-             'ifOriginExplicitlyPermittedAndAvailabilitySatisfied':after if origin_rules and class_ok is True else None})
+             'rulingIds':origin_rules if not invalid else [],'gapIds':gaps,'productionAllowed':published,'originAvailability':availability,
+             'traitScope':spec['traits'] if published else [],'equipmentScope':spec['equipment'] if published else [],
+             'ifOriginExplicitlyPermittedAndAvailabilitySatisfied':after if availability in ('RARE','LIMITED') and class_ok is True else None})
     features={key for row in classes for level in row['levels'].values() for key in level['features']}
     features.update(key for row in subclasses+species for key in row['features'])
     traits=[records[g['feature']['id']] for option in records['di.choice.creation.universal_trait']['data']['options'] for g in option['grants'] if g['kind']=='feature']
@@ -180,12 +185,12 @@ def build():
     dispositions={x['id']:x for x in c.read(c.PACKAGE/'review/creation-candidate-dispositions.json')}
     powers=[{'requiredForTier1Pool':dispositions.get(key,{}).get('status')=='BLOCKS_CHARACTER_CREATION','id':key,'status':'BLOCKED','kind':e['kind'],'evidence':e['evidence'],'reason':'No canonical power record or validated choice pool'} for key,e in sorted(candidates.items()) if e['kind']=='power']
     conditional=[{'id':x['id'],'question':x['question'],'impact':x['creationImpact'],'scope':'Apply only when the selected configuration actually exercises this unresolved mechanic; broad historical affectedIds are not a dependency graph.'} for x in original if x['status']=='UNRESOLVED' and x['id'] not in {f'PHB-RULE-{n:03}' for n in range(1,8)}]
-    return {'schemaVersion':1,'scope':'AUDIT_ONLY_NOT_PUBLICATION','sourceProfile':{'id':spec['id'],'digest':bundle['digest']},
-     'approvalGate':{'originalTotal':36,'originalResolved':len(approved),'originalUnresolved':36-len(approved),'originNewlyResolved':0,'originBlocked':[f'PHB-RULE-{n:03}' for n in range(1,8)]},
-     'counts':{'species':len(species),'origins':len(origins),'classes':len(classes),'subclasses':len(subclasses),'combinations':len(rows),'statuses':dict(sorted(Counter(x['status'] for x in rows).items())),
+    return {'schemaVersion':1,'scope':'CERTIFIED_PROFILE_AND_REMAINING_READINESS','sourceProfile':{'id':spec['id'],'digest':bundle['digest']},
+     'approvalGate':{'originalTotal':36,'originalResolved':len(approved),'originalUnresolved':36-len(approved),'originNewlyResolved':7,'originBlocked':[]},
+     'counts':{'species':len(species),'origins':len(origins),'classes':len(classes),'subclasses':len(subclasses),'combinations':len(rows),'statuses':{k:sum(x['status']==k for x in rows) for k in ['READY','READY_WITH_MANUAL_RULES','BLOCKED_BY_CONTENT','BLOCKED_BY_ENGINE','BLOCKED_BY_RULING','BLOCKED_BY_APPROVAL','UNSUPPORTED']},
       'equipmentIdentified':len(equipment),'equipmentStatuses':dict(sorted(Counter(x['status'] for x in equipment).items())), 'powerCandidates':len(powers),'powerRequiredTier1':sum(x['requiredForTier1Pool'] for x in powers),'traits':len(traits)},
      'origins':origins,'species':species,'classes':classes,'subclasses':subclasses,'equipment':equipment,'powers':powers,
-     'features':[{'id':key,'execution':execution(records[key]),'conditionalRulingReview':feature_ruling_refs.get(key,[]),'published':key in selected_features(records,spec['species']+spec['origins']+spec['classes'],1)['features'] or key in spec['traits'],'sources':records[key]['sources']} for key in sorted(features)],
+     'features':[{'id':key,'execution':execution(records[key]),'conditionalRulingReview':feature_ruling_refs.get(key,[]),'published':key in selected_features(records,spec['species']+spec['origins']+spec['classes'],1)['features'] or key in spec['traits'] or key in selected_features(records,tier.get('species',[])+tier.get('origins',[])+tier.get('classes',[]),1)['features'],'sources':records[key]['sources']} for key in sorted(features)],
      'traits':[{'id':e['id'],'execution':execution(e),'productionAllowed':e['id'] in spec['traits'],'requirements':e['data'].get('requirements')} for e in traits],
      'conditionalRulings':conditional,'rows':rows}
 
@@ -193,13 +198,13 @@ GAPS={
  'PHB-CAT-001':'Starting-package compiler absent outside Veteran: source tokens/approved aliases are not executable quantity, choice, proficiency and inventory grants.',
  'PHB-CAT-002':'At least one identified starting option remains an incomplete candidate; source alternatives must be independently certified.',
  'PHB-CAT-003':'Psychic power candidates lack canonical power schema/choice pools and production execution boundaries; no manual shortcut can validate unknown creation choices.',
- 'PHB-CAT-004':'Only narrow-kotlin-v1 is production-registered. Tier-1 selected-level choice/resource/projection/roll compilation and golden certification are not implemented.',
+ 'PHB-CAT-004':'Tier-1 adapter initially certifies Human Hiveborn Veteran level 1 only. Other selected-level choice/resource/projection/roll paths require mapping and golden certification.',
  'PHB-CAT-005':'Non-Human species traits include unmapped core calculations/proficiencies/restrictions. Manual prose cannot substitute for those calculations.'}
 
 def render(data):
-    lines=['# Level 1–3 publication matrix','', 'Generated by `tools/tier1_catalogue.py`. AUDIT ONLY. No approvals or production publication.', '',
-      'Rows enumerate species × Origin × class at levels 1/2 and each parent-class subclass at level 3. They are family readiness rows, not approval of every attribute/trait/equipment permutation. The sole ready row is restricted to the existing Twitchy/kit/choice scope. Invalid species/class or known Origin restrictions are UNSUPPORTED, not invented rulings.', '',
-      'All 001–007 remain blocked. The hypothetical column requires an explicit species permission AND satisfaction of the future approved Rare/Limited policy. It neither selects matrix/prose precedence nor assumes GM permission. It reports the remaining gate, not legal approval. No additional row becomes publishable from Origin rulings alone.', '',
+    lines=['# Level 1–3 publication matrix','', 'Generated by `tools/tier1_catalogue.py`. Approved Origin rulings and explicit profile certification are separate gates.', '',
+      'Rows enumerate species × Origin × class at levels 1/2 and each parent-class subclass at level 3. They are family readiness rows, not approval of every attribute/trait/equipment permutation. Ready rows are restricted to their explicitly certified Twitchy/kit/choice scope. Invalid species/class or known Origin restrictions are UNSUPPORTED, not invented rulings.', '',
+      'All 001–007 are resolved. RARE/LIMITED rows remain BLOCKED_BY_APPROVAL until trusted approval infrastructure exists. The hypothetical column removes only that approval gate; content/engine gaps remain. Unlisted species are invalid, and no client fact grants approval.', '',
       'Machine-readable detail: `content/packages/di_phb_1_0/review/level-1-3-catalogue.json`.', '',
       '| Species | Origin | Class | Level | Subclass | Current | Rulings | Other gaps | Hypothetical Origin gate removed |','|---|---|---|---:|---|---|---|---|---|']
     for r in data['rows']:
@@ -207,8 +212,8 @@ def render(data):
     return '\n'.join(lines)+'\n'
 
 def write(check=False):
-    data=build();plan={'id':'di-phb-1.0-tier1-v1','status':'PLANNED_NOT_PUBLISHED','engineVersion':'phb-tier1-kotlin-v1','levels':[1,2,3],
-      'productionAllowed':False,'allowlist':[],'blockingOriginRulings':data['approvalGate']['originBlocked'],'sourceProfile':data['sourceProfile'],
+    data=build();plan={'id':'di-phb-1.0-tier1-v1','status':'INITIAL_CERTIFIED_BRANCH','engineVersion':'phb-tier1-kotlin-v1','levels':[1,2,3],'publishedLevels':[1],
+      'productionAllowed':True,'allowlist':c.read(ROOT/'content/profiles/di-phb-1.0-tier1-v1.json')['certifiedPaths'],'blockingOriginRulings':data['approvalGate']['originBlocked'],'sourceProfile':data['sourceProfile'],
       'activationRequirements':['Approved Origin ledger entries with exact decision, hash, user provenance, timestamp, source relationship and affected IDs','Explicit eligible tuple allowlist, selected-choice dependency certification and golden fixtures','New adapter registration and immutable export; old snapshots retain their adapter','Server filtering, authoritative validation, creation/retrieval/rolling/browser regression'],
       'gapDefinitions':GAPS,'auditDigest':c.digest(data)}
     outputs={OUT:json.dumps(data,ensure_ascii=False,indent=2)+'\n',c.PACKAGE/'review/tier1-publication-plan.json':json.dumps(plan,ensure_ascii=False,indent=2)+'\n',ROOT/'docs/import/LEVEL_1_3_PUBLICATION_MATRIX.md':render(data)}

@@ -49,10 +49,11 @@ class NarrowRules(val bundle: JsonObject) {
     val records = payload.getValue("records").jsonObject
     val kit = payload.getValue("package").jsonObject
     val attributes = spec.strings("attributes")
+    private val tier1 = spec.text("engineVersion")=="phb-tier1-kotlin-v1"
     private val policy = spec.getValue("calculations").jsonObject
     init {
         require(sha(canonicalJson(payload)) == digest) { "Profile digest mismatch" }
-        require(spec.text("engineVersion") == "narrow-kotlin-v1") { "Unsupported calculation engine" }
+        require(spec.text("engineVersion") in setOf("narrow-kotlin-v1","phb-tier1-kotlin-v1")) { "Unsupported calculation engine" }
     }
     fun record(id: String) = records.getValue(id).jsonObject
     fun data(id: String) = record(id).getValue("data").jsonObject
@@ -90,6 +91,12 @@ class NarrowRules(val bundle: JsonObject) {
             if(value !in spec.strings(group)) issue(if(value.isEmpty()) "MISSING_CHOICE" else "CONTENT_NOT_SUPPORTED",field,"Choose a supported ${field.removeSuffix("Id")}.")
         }
         if(draft.level !in spec.arr("levels").map { it.jsonPrimitive.int }) issue("CONTENT_NOT_SUPPORTED","level","This level is not supported.")
+        if(tier1) {
+            val origin=(records[draft.originId] as? JsonObject)?.get("data") as? JsonObject
+            val state=origin?.objects("originAvailability")?.singleOrNull { ref(it,"species")==draft.speciesId }?.text("state")
+            if(state in setOf("RARE","LIMITED")) issue("APPROVAL_REQUIRED","originId","$state Origin requires trusted GM/campaign approval; self-service approval is unavailable.")
+            if(spec.objects("certifiedPaths").none { it.text("speciesId")==draft.speciesId && it.text("originId")==draft.originId && it.text("classId")==draft.classId && it.num("level")==draft.level && it.text("traitId")==draft.traitId }) issue("PATH_NOT_CERTIFIED","level","This complete path has not been certified.")
+        }
         val selected=setOf(draft.speciesId,draft.originId,draft.classId,draft.traitId)
         for((field,key) in listOf("originId" to draft.originId,"classId" to draft.classId)) if(key in records) {
             val req=data(key)["requirements"] as? JsonObject
@@ -119,6 +126,12 @@ class NarrowRules(val bundle: JsonObject) {
             if(item.definitionId !in spec.strings("equipment")) issue("CONTENT_NOT_SUPPORTED","inventory.${item.definitionId}","Item is unavailable in this profile.")
             if(item.equipped != (item.definitionId in spec.strings("armour"))) issue("INVALID_EQUIPMENT_SELECTION","inventory.${item.definitionId}.equipped","Equip the supported armour; other starting items are carried.")
         }
+        if(tier1) {
+            try {
+                val compiled=StartingPackages.compile(payload.getValue("executablePackage").jsonObject,draft.packageChoices.mapValues { listOf(it.value) },records,spec.strings("equipment").toSet())
+                if(compiled.inventory.sortedBy { it.definitionId }!=draft.inventory.sortedBy { it.definitionId }) issue("INVALID_EQUIPMENT_SELECTION","inventory","Inventory must equal the compiled canonical package.")
+            } catch(e:IllegalArgumentException) { issue("INVALID_EQUIPMENT_SELECTION","packageChoices",e.message ?: "Invalid package") }
+        }
         val preview=if(baseValid && errors.none { it.field in allowed.filter { key -> data(key).text("purpose")=="attribute" }.map { key -> "answers.$key" } }) { val values=scores(draft);obj("scores" to values,"modifiers" to modifiers(values)) } else null
         return DraftValidation(if(errors.isEmpty()) "VALID" else "INVALID",errors,preview,if(errors.isEmpty()) calculate(draft,actorId) else null)
     }
@@ -138,13 +151,16 @@ class NarrowRules(val bundle: JsonObject) {
         val progression=data(ref(data(draft.classId),"progression"))
         progression.objects("entries").filter { it.num("level")<=draft.level }.forEach { row -> row.objects("grants").forEach { if(it.text("kind")=="feature") visit(ref(it,"feature")) else applyGrant(it) } }
         draft.answers.forEach { (key,options) -> data(key).objects("options").filter { it.text("id") in options }.forEach { it.objects("grants").forEach(::applyGrant) } }
+        if(tier1) profs+=StartingPackages.compile(payload.getValue("executablePackage").jsonObject,draft.packageChoices.mapValues { listOf(it.value) },records,spec.strings("equipment").toSet()).proficiencies
         val effects=features.flatMap { data(it).objects("effects") }.filter { it.text("automation")=="automatic" }
         fun effectSum(key:String)=effects.filter { it.getValue("target").jsonObject.text("key")==key }.sumOf { it.getValue("value").jsonObject.num("value") }
         val pb=payload.objects("proficiencyBands").first { draft.level<=it.num("maximumLevel") }.num("bonus")
         val training=payload.getValue("training").jsonObject
-        val hp=training.num("hitDie")+mods.getValue("constitution")
+        val hp=if(tier1) Tier1Calculations.hp(training.num("hitDie"),draft.level,mods.getValue("constitution")) else training.num("hitDie")+mods.getValue("constitution")
         val armour=draft.inventory.single { it.equipped };val armourData=data(armour.definitionId)
-        val ac=armourData.getValue("defence").jsonObject.getValue("value").jsonObject.num("value")+mods.getValue("dexterity")
+        val baseAc=armourData.getValue("defence").jsonObject.getValue("value").jsonObject.num("value")
+        val dex=armourData["dexterityBonus"]?.jsonObject
+        val ac=if(tier1) Tier1Calculations.armour(baseAc,if(dex?.get("enabled")?.jsonPrimitive?.boolean==true) mods.getValue("dexterity") else 0,dex?.get("cap")?.jsonPrimitive?.int) else baseAc+mods.getValue("dexterity")
         val saves=attributes.associateWith { attr -> val proficient=attr in training.strings("savingThrows");obj("modifier" to mods.getValue(attr)+(if(proficient) pb else 0),"proficient" to proficient) }
         val skillIds=profs.filter { data(it).text("category")=="skill" }.flatMap { data(it).getValue("appliesTo").jsonObject.objects("ids").map { x -> x.text("id") } }.toSet()
         val skills=records.values.map { it.jsonObject }.filter { it.text("kind")=="skill" }.sortedBy { it.text("name") }.associate { e -> val key=e.text("id");val attr=data(key).text("attributeKey");key to obj("name" to e.text("name"),"attribute" to attr,"proficient" to (key in skillIds),"modifier" to mods.getValue(attr)+(if(key in skillIds) pb else 0)) }
@@ -182,6 +198,7 @@ class NarrowRules(val bundle: JsonObject) {
         return obj("attributes" to final,"attributeModifiers" to mods,"proficiencyBonus" to pb,"maximumWounds" to hp,"defence" to ac,"movement" to effectSum("movement.walk"),"initiative" to initiative,"saves" to saves,"skills" to skills,"proficiencies" to profs.map(::view),"weaponProficiencies" to obj("groups" to groups.sorted(),"specificWeapons" to direct.sorted(),"startingPackageWeapons" to starting),"features" to features.map { key->obj("id" to key,"name" to label(key),"text" to record(key).text("descriptionMarkdown"),"sources" to record(key).arr("sources"),"manual" to data(key).objects("manualRules").isNotEmpty()) },"inventory" to inventory,"actions" to actions,"rollDefinitions" to rolls,"readiness" to "PLAYABLE_WITH_MANUAL_RULES","rollAuthority" to "DISPLAY_ONLY_NOT_AUTHORIZATION","profileDigest" to digest)
     }
     companion object {
+        fun tier1(): NarrowRules = NarrowRules(Json.parseToJsonElement(requireNotNull(NarrowRules::class.java.getResource("/profiles/di-phb-1.0-tier1-v1.json")).readText()).jsonObject)
         fun bundled(): NarrowRules = NarrowRules(Json.parseToJsonElement(requireNotNull(NarrowRules::class.java.getResource("/profiles/di-phb-1.0-narrow-v1.json")).readText()).jsonObject)
     }
 }
