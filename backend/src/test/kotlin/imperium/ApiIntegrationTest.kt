@@ -52,6 +52,21 @@ class ApiIntegrationTest {
     }
     private suspend fun HttpResponse.json() = Json.parseToJsonElement(bodyAsText()).jsonObject
 
+    @Test fun `presentation seeds vary and expired sessions cannot finalize`() = runApi {
+        val cookie=client.account();val seeds=mutableSetOf<String>()
+        repeat(40){
+            val body=Json.encodeToString(FreeRollRequest.serializer(),FreeRollRequest(UUID.randomUUID().toString(),listOf(FreeDiePool(1,20))))
+            val session=client.postJson("/api/roll-sessions/free",body,cookie).json()
+            assertTrue(Regex("[0-9a-f]{64}").matches(session.text("presentationSeed")))
+            assertTrue(seeds.add(session.text("presentationSeed")))
+            val id=session.text("rollSessionId")
+            database.read{it.execute("UPDATE physical_roll_sessions SET expires_at=now()-interval '1 second' WHERE id=?",uuid(id))}
+            val expired=client.postJson("/api/roll-sessions/$id/finalize","{\"values\":[[10]]}",cookie)
+            assertEquals(HttpStatusCode.Conflict,expired.status)
+            assertEquals("SESSION_EXPIRED",expired.json().getValue("error").jsonObject.text("code"))
+        }
+        assertEquals(0,client.get("/api/rolls/free"){header(HttpHeaders.Cookie,cookie)}.json().arr("items").size)
+    }
     @Test fun `notes accept the advertised Unicode limit through HTTP and remain owned`() = runApi {
         val cookie=client.account();val other=client.account()
         val id=client.create(cookie).json().text("id")

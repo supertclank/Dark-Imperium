@@ -1,0 +1,9 @@
+{
+  "command": "docker version",
+  "status": "ENVIRONMENT_BLOCKED",
+  "error": "permission denied while trying to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine",
+  "context": "desktop-linux",
+  "note": "Historical Codex-session access check only. Subsequent user verification confirms host Docker build/runtime, Compose startup and localhost application access. See host-docker-verification.json. Do not treat this error as a host or application defect.",
+  "date": "2026-10-23",
+  "clientVersion": "29.9.2"
+}

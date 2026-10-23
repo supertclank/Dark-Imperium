@@ -1,0 +1,42 @@
+[
+  {
+    "path": "backend/src/main/resources/profiles/di-phb-1.0-narrow-v1.json",
+    "unchangedFromHead": true,
+    "digest": "3d1235b3cb86ac5c8939c94a9c55964e07e1ce96d7b05d20966feb7dd78001af"
+  },
+  {
+    "path": "backend/src/main/resources/profiles/di-phb-1.0-tier1-v1.json",
+    "unchangedFromHead": true,
+    "digest": "d75739125210dd704ca0b3362a2c864a0fdd32b6b2765b0bbc137f5792971f32"
+  },
+  {
+    "path": "backend/src/main/resources/profiles/di-phb-1.0-tier1-v2.json",
+    "unchangedFromHead": true,
+    "digest": "2882f86ce5f26e0806be49ad8fc6d3068b9573f376222fc6b0b835b32cdeabf8"
+  },
+  {
+    "path": "backend/src/main/resources/profiles/di-phb-1.0-tier1-v3.json",
+    "unchangedFromHead": true,
+    "digest": "5c4d81d1cf9a55be138d5e73a58acfccd96fb2dcb0eeadb157fbcfde08b2a795"
+  },
+  {
+    "path": "backend/src/main/resources/profiles/di-phb-1.0-tier1-v4.json",
+    "unchangedFromHead": true,
+    "digest": "2ef85cd454999670ee61f51eebcc9b23e6805d5220b518d2c5643001831c5119"
+  },
+  {
+    "path": "backend/src/main/resources/profiles/di-phb-1.0-tier1-v5.json",
+    "unchangedFromHead": true,
+    "digest": "b061617c32eb325d73552b56b7e7c240faf77b5ac44de309375c929574dbf98b"
+  },
+  {
+    "path": "backend/src/main/resources/profiles/di-phb-1.0-tier1-v6.json",
+    "unchangedFromHead": true,
+    "digest": "fc78eebe9eab846b96aecf4823f88185e6d9818a1cde59bf255368be37db7769"
+  },
+  {
+    "path": "backend/src/main/resources/profiles/di-phb-1.0-tier1-v7.json",
+    "unchangedFromHead": true,
+    "digest": "af92705fc1a85b49a4e06c52999cfff335e8a9800f43608a30e540f391b4b6d5"
+  }
+]

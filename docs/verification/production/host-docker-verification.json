@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-23",
+  "evidenceSource": "Explicit user report in this chat; host manual verification, not executed by Codex",
+  "hostDockerRuntime": "VERIFIED",
+  "dockerComposeApplicationStartup": "VERIFIED",
+  "localhostApplicationAccess": "VERIFIED",
+  "codexSessionDockerEngineAccess": "ENVIRONMENT_BLOCKED",
+  "dockerRuntimeVerificationInsideCodex": "NOT POSSIBLE DUE TO SESSION PERMISSIONS",
+  "reportedFacts": [
+    "Docker Desktop installed and running",
+    "docker version returns Client and Server sections",
+    "Active context desktop-linux",
+    "Linux engine operational",
+    "Docker Compose available",
+    "docker compose up --build successfully builds and starts Dark Imperium stack",
+    "Application accessed through localhost and confirmed operational"
+  ],
+  "notEstablished": [
+    "Browser names and versions",
+    "Detailed production browser/device acceptance",
+    "Fresh Docker volume migration sequence",
+    "Clean no-cache rebuild or deployed image digest"
+  ],
+  "instruction": "Do not attempt host Docker repair from restricted Codex session.",
+  "productionUrlConfirmedByUser": "http://localhost:3100/",
+  "browserFollowUp": "Port 3000 conflict resolved by host port 3100 and matching APP_ORIGIN. Host output confirms all three containers healthy. Codex browser now confirms production runtime on 3100 without Dev Tools. See docker-browser-acceptance.json.",
+  "hostComposeStatus": {
+    "backend": "healthy",
+    "database": "healthy",
+    "frontend": "healthy",
+    "publishedPort": "127.0.0.1:3100->3000/tcp"
+  },
+  "frontendBuildEvidence": "User supplied Docker build output: pnpm build and standalone/static copy layers successfully reused; image exported. Not a fresh no-cache rebuild."
+}

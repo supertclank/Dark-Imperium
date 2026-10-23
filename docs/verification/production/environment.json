@@ -1,0 +1,15 @@
+{
+  "node": "24.22.1",
+  "next": "16.4.2",
+  "pnpm": "11.25.0",
+  "cleanWorkspace": "C:/Users/tgccl/Documents/Codex/di-prod-validation",
+  "cleanWorkspaceUnderOneDrive": false,
+  "copiedNodeModules": false,
+  "cleanDependencyInstall": "frozen lockfile; local store; hoisted",
+  "docker": "VERIFIED: user-reported host build/runtime, Compose startup and localhost access",
+  "linux": "Host Docker Linux build/runtime VERIFIED by user; separate WSL validation remains blocked by E_ACCESSDENIED",
+  "productionFrontend": "Docker standalone running on localhost:3100; production browser checks pass for creation/sheet/notes/responsive layouts. WASM CSP fix awaits host rebuild and dice retest.",
+  "antivirusOrLockingCause": "Not established; protections unchanged",
+  "codexDockerAccess": "ENVIRONMENT_BLOCKED: session/sandbox engine access restriction; no further repair attempts",
+  "hostVerificationEvidence": "host-docker-verification.json"
+}

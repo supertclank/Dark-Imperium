@@ -15,7 +15,7 @@ async function proxy(
     path.some(
       (segment, index) =>
         !(
-          detailPath && index === 3 ? /^di\.[a-z0-9_.-]+$/ : /^[a-zA-Z0-9-]+$/
+          detailPath && index === 3 ? /^di(?:\.[a-z0-9_-]+)+$/ : /^[a-zA-Z0-9-]+$/
         ).test(segment),
     )
   )

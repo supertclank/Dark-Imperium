@@ -43,6 +43,45 @@ class CharacterRollsTest {
     private fun error(code:String,block:()->Unit) { assertEquals(code,assertFailsWith<ApiException>(block=block).code) }
 
 
+    @Test fun `all historical profile generations reopen without migration`() {
+        val generations=listOf(
+            productionFixture(),tier1Fixture(),tier2Fixture(),
+            tier2Fixture("veteran-1").let { it.copy(profileId=NarrowRules.tier3().id,profileDigest=NarrowRules.tier3().digest) },
+            nonhumanFixtures().first(),
+            tier6Fixtures().first(),
+            tier6Fixtures().first().let { it.copy(profileId=NarrowRules.tier7().id,profileDigest=NarrowRules.tier7().digest) })
+        for(draft in generations){
+            val r=rig(draft=draft);val result=r.execute("Initiative")
+            assertEquals(draft.profileId,r.sheet().text("rulesetProfileId"))
+            assertEquals(draft.profileDigest,r.sheet().text("rulesetDigest"))
+            assertEquals(draft.profileDigest,result.text("rulesetDigest"))
+        }
+        val r=rig(draft=tier2Fixture("marksman").copy(profileId=NarrowRules.tier4().id,profileDigest=NarrowRules.tier4().digest))
+        CharacterAdvancement(db,r.characters).advance(r.owner,r.id,AdvanceRequest(UUID.randomUUID().toString(),0,4,mapOf("di.choice.veteran.level4_improvement" to listOf("plus_two_constitution")),true))
+        assertEquals(NarrowRules.tier5().id,r.sheet().text("rulesetProfileId"))
+        assertEquals(NarrowRules.tier5().digest,r.execute("Initiative").text("rulesetDigest"))
+    }
+    @Test fun `inspector covers owned entity categories without using the global draft catalogue`() {
+        val rules=NarrowRules.tier7()
+        val base=tier6Fixtures().first { it.classId=="di.class.ratling_sharpshooter" && it.level==4 }
+        val draft=base.copy(profileId=rules.id,profileDigest=rules.digest,answers=base.answers+mapOf("di.choice.veteran.level4_improvement" to listOf("armour_familiarity")))
+        val one=rules.spec.objects("pathConfigurations").first { it.text("speciesId")==draft.speciesId && it.text("originId")==draft.originId && it.text("classId")==draft.classId && it.num("level")==1 }.strings("choices").toSet()
+        val r=rig(draft=draft.copy(level=1,answers=draft.answers.filterKeys { it in one }))
+        val advance=CharacterAdvancement(db,r.characters)
+        for(level in 2..4){val config=rules.spec.objects("pathConfigurations").first { it.text("speciesId")==draft.speciesId && it.text("originId")==draft.originId && it.text("classId")==draft.classId && it.num("level")==level };val choices=draft.answers.filterKeys { it in config.strings("choices") && it !in r.sheet().getValue("selections").jsonObject.getValue("answers").jsonObject.keys };advance.advance(r.owner,r.id,AdvanceRequest(UUID.randomUUID().toString(),(level-2).toLong(),level,choices))}
+        val sheet=r.sheet();val calc=sheet.getValue("calculated").jsonObject
+        val details=SheetDetails(db,r.characters)
+        val keys=listOf(draft.speciesId,draft.originId,draft.classId,draft.traitId)+
+            draft.inventory.map{it.definitionId}+calc.objects("features").map{it.text("id")}+
+            calc.objects("proficiencies").map{it.text("id")}+calc.getValue("skills").jsonObject.keys+
+            listOf(calc.getValue("subclass").jsonObject.text("id"))
+        for(key in keys.distinct()) {
+            val entity=details.entity(r.owner,r.id,key)
+            assertEquals(key,entity.text("id"));assertEquals(rules.digest,entity.text("profileDigest"))
+        }
+        assertEquals("Armour Familiarity",details.entity(r.owner,r.id,"di.feature.talent.armour_familiarity").text("name"))
+        assertFailsWith<ApiException>{details.entity(UUID.randomUUID(),r.id,draft.classId)}
+    }
     @Test fun `fixed Knife rejects forged ability and notes remain private versioned and independent`() {
         val rules=NarrowRules.tier7()
         val draft=tier6Fixtures().first { it.classId=="di.class.ratling_sharpshooter" && it.level==1 }.copy(profileId=rules.id,profileDigest=rules.digest)

@@ -33,6 +33,22 @@ export function SheetInspector({
 }) {
   const [data, setData] = useState<Inspection | null>(target.local ?? null),
     [error, setError] = useState("");
+  const [mobile, setMobile] = useState(false);
+  useEffect(() => {
+    const query = window.matchMedia?.("(max-width:700px)");
+    const sync = () => setMobile(query?.matches ?? false);
+    sync();
+    query?.addEventListener("change", sync);
+    return () => query?.removeEventListener("change", sync);
+  }, []);
+  useEffect(() => {
+    if (!mobile) return;
+    const previous = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = previous;
+    };
+  }, [mobile]);
   const panel = useRef<HTMLElement>(null),
     close = useRef<HTMLButtonElement>(null);
   useEffect(() => {
@@ -61,96 +77,104 @@ export function SheetInspector({
     };
   }, []);
   return (
-    <aside
-      className="sheet-inspector"
-      role="dialog"
-      aria-label={`${target.name} details`}
-      ref={panel}
-      onKeyDown={(e) => {
-        if (e.key === "Escape") {
-          e.stopPropagation();
-          onClose();
-        }
-        if (e.key === "Tab" && window.matchMedia("(max-width:700px)").matches) {
-          const all = Array.from(
-            panel.current?.querySelectorAll<HTMLElement>(
-              'button:not(:disabled),a[href],[tabindex="0"]',
-            ) ?? [],
-          );
-          const first = all[0],
-            last = all[all.length - 1];
-          if (e.shiftKey && document.activeElement === first) {
-            e.preventDefault();
-            last?.focus();
-          } else if (!e.shiftKey && document.activeElement === last) {
-            e.preventDefault();
-            first?.focus();
+    <>
+      <div
+        className="inspector-backdrop"
+        aria-hidden="true"
+        onClick={onClose}
+      />
+      <aside
+        className="sheet-inspector"
+        role="dialog"
+        aria-modal={mobile || undefined}
+        aria-label={`${target.name} details`}
+        ref={panel}
+        onKeyDown={(e) => {
+          if (e.key === "Escape") {
+            e.stopPropagation();
+            onClose();
           }
-        }
-      }}
-    >
-      <div className="inspector-heading">
-        <div>
-          <p className="eyebrow">{data?.kind ?? "Rules reference"}</p>
-          <h2>{data?.name ?? target.name}</h2>
+          if (e.key === "Tab" && mobile) {
+            const all = Array.from(
+              panel.current?.querySelectorAll<HTMLElement>(
+                'button:not(:disabled),a[href],[tabindex="0"]',
+              ) ?? [],
+            );
+            const first = all[0],
+              last = all[all.length - 1];
+            if (e.shiftKey && document.activeElement === first) {
+              e.preventDefault();
+              last?.focus();
+            } else if (!e.shiftKey && document.activeElement === last) {
+              e.preventDefault();
+              first?.focus();
+            }
+          }
+        }}
+      >
+        <div className="inspector-heading">
+          <div>
+            <p className="eyebrow">{data?.kind ?? "Rules reference"}</p>
+            <h2>{data?.name ?? target.name}</h2>
+          </div>
+          <button ref={close} onClick={onClose} aria-label="Close details">
+            ×
+          </button>
         </div>
-        <button ref={close} onClick={onClose} aria-label="Close details">
-          ×
-        </button>
-      </div>
-      {error ? (
-        <p role="alert">{error}</p>
-      ) : !data ? (
-        <p role="status">Loading pinned rules…</p>
-      ) : (
-        <>
-          <p className="inspector-status">{data.status}</p>
-          <dl className="inspector-fields">
-            {data.fields.map((f, i) => (
-              <div key={i}>
-                <dt>{f.label}</dt>
-                <dd>{f.value}</dd>
-              </div>
-            ))}
-          </dl>
-          {data.actionItemId && (
-            <div className="inspector-rolls">
-              {options
-                .filter((o) => o.itemId === data.actionItemId)
-                .map((o) => (
-                  <RollActionButton
-                    key={o.id}
-                    option={o}
-                    disabled={disabled}
-                    onRoll={() => onRoll(o)}
-                  />
-                ))}
-            </div>
-          )}
-          {data.note && <p>{data.note}</p>}
-          <h3>Rules & details</h3>
-          <div className="canonical-description">{data.description}</div>
-          {data.rules?.map((text, i) => (
-            <p className="canonical-description" key={i}>
-              {text}
-            </p>
-          ))}
-          {data.sources?.length ? (
-            <footer>
-              <h3>Source</h3>
-              {data.sources.map((s, i) => (
-                <p key={i}>
-                  {s.locator.heading}
-                  {s.locator.pdfPage ? ` · PDF ${s.locator.pdfPage}` : ""}
-                </p>
+        {error ? (
+          <p role="alert">{error}</p>
+        ) : !data ? (
+          <p role="status">Loading pinned rules…</p>
+        ) : (
+          <>
+            <p className="inspector-status">{data.status}</p>
+            <dl className="inspector-fields">
+              {data.fields.map((f, i) => (
+                <div key={i}>
+                  <dt>{f.label}</dt>
+                  <dd>{f.value}</dd>
+                </div>
               ))}
-              {data.profileId && (
-                <small>Pinned profile: {data.profileId}</small>
-              )}
-            </footer>
-          ) : null}
-        </>
-      )}
-    </aside>
+            </dl>
+            {data.actionItemId && (
+              <div className="inspector-rolls">
+                {options
+                  .filter((o) => o.itemId === data.actionItemId)
+                  .map((o) => (
+                    <RollActionButton
+                      key={o.id}
+                      option={o}
+                      disabled={disabled}
+                      onRoll={() => onRoll(o)}
+                    />
+                  ))}
+              </div>
+            )}
+            {data.note && <p>{data.note}</p>}
+            <h3>Rules & details</h3>
+            <div className="canonical-description">{data.description}</div>
+            {data.rules?.map((text, i) => (
+              <p className="canonical-description" key={i}>
+                {text}
+              </p>
+            ))}
+            {data.sources?.length ? (
+              <footer>
+                <h3>Source</h3>
+                {data.sources.map((s, i) => (
+                  <p key={i}>
+                    {s.locator.heading}
+                    {s.locator.pdfPage ? ` · PDF ${s.locator.pdfPage}` : ""}
+                  </p>
+                ))}
+                {data.profileId && (
+                  <small>Pinned profile: {data.profileId}</small>
+                )}
+              </footer>
+            ) : null}
+          </>
+        )}
+      </aside>
+    </>
   );
 }

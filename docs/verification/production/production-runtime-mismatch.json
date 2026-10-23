@@ -1,0 +1,31 @@
+{
+  "url": "http://localhost:3000/",
+  "date": "2026-10-23",
+  "evidenceSource": "Fresh Codex in-app browser navigation",
+  "observation": {
+    "devTools": true,
+    "scripts": [
+      "http://localhost:3000/_next/static/chunks/1daa_next_dist_compiled_react-dom_cjs_react-dom-client_development_0mp0cp_t-ezj9.js",
+      "http://localhost:3000/_next/static/chunks/1q96_modules_next_dist_compiled_react-dom_cjs_react-dom_development_1sqry0_53krp4.js",
+      "http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_0grqycjrj6mju._.js",
+      "http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-67asdr9._.js",
+      "http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_next-devtools_index_090k2jmam7qwg.js",
+      "http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcmz--cdp._.js",
+      "http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_1wygxxh5rwq0t._.js",
+      "http://localhost:3000/_next/static/chunks/node_modules_next_dist_05y3oi5z9mc_3._.js",
+      "http://localhost:3000/_next/static/chunks/node_modules_%40swc_helpers_cjs_1r9vbqwj2323d._.js",
+      "http://localhost:3000/_next/static/chunks/_1anvha4rlo79g._.js",
+      "http://localhost:3000/_next/static/chunks/turbopack-_06rkbud3pyrlm._.js",
+      "http://localhost:3000/_next/static/chunks/_219uq1sj0q91c._.js",
+      "http://localhost:3000/_next/static/chunks/src_lib_dice-renderer_ts_08cpy5ds_tdvj._.js",
+      "http://localhost:3000/_next/static/chunks/_2018udzao97fe._.js",
+      "http://localhost:3000/_next/static/chunks/src_app_error_tsx_0ts9uj72u-_iy._.js",
+      "http://localhost:3000/_next/static/chunks/node_modules_next_dist_build_polyfills_polyfill-nomodule.js",
+      "http://localhost:3000/_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_1mojsayzyj2p6._.js",
+      "http://localhost:3000/_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_0qva5cupmdgep._.js"
+    ]
+  },
+  "ipv4Observation": "http://127.0.0.1:3000/ also displayed Open Next.js Dev Tools",
+  "status": "PRODUCTION_BROWSER_TARGET_UNCONFIRMED",
+  "hostDockerStatus": "VERIFIED by user; unchanged"
+}

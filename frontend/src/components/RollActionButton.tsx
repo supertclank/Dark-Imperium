@@ -17,6 +17,7 @@ export function RollActionButton({
     : `Roll ${option.label}`;
   return (
     <button
+      className="roll-action-button"
       type="button"
       disabled={disabled || !option.available}
       onClick={onRoll}

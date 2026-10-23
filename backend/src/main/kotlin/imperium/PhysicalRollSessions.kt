@@ -42,6 +42,7 @@ class PhysicalRollSessions(private val db:Database,private val characters:Charac
   else {val values=input.values?:fail("INVALID_VALUES","Physical values are required.");if(values.size!=groups.size||groups.indices.any{i->values[i].size!=groups[i].num("count")||values[i].any{it !in 1..groups[i].num("sides")}})fail("INVALID_VALUES","Submit exactly the authorised dice counts and ranges.")}
   val request=row.getValue("request").jsonObject;val character=row["characterId"]?.jsonPrimitive?.contentOrNull
   val result=if(character!=null)characters.execute(owner,uuid(character),Json.decodeFromJsonElement(RollRequest.serializer(),request),input.values,sessionCon=con,reservationSession=id)else free.execute(owner,Json.decodeFromJsonElement(FreeRollRequest.serializer(),request),input.values,sessionCon=con)
+  if(input.fallback)org.slf4j.LoggerFactory.getLogger("imperium.rolls").info("Physical roll server fallback session={}",id)
   val enriched=JsonObject(result+mapOf("physical" to obj("rollSessionId" to id.toString(),"source" to if(input.fallback)"SERVER_FALLBACK" else "PHYSICS","physicsVersion" to input.physicsVersion,"geometryVersion" to input.geometryVersion,"presentationSeed" to row.text("presentationSeed"),"rawPhysicalValues" to input.values)))
   val table=if(character!=null)"character_rolls" else "free_rolls"
   con.execute("UPDATE $table SET result=?::jsonb WHERE id=?",enriched.toString(),uuid(result.text("id")))

@@ -4,3 +4,6 @@
 **/.gradle
 .git
 .env
+
+**/.pnpm-store
+**/.next-*

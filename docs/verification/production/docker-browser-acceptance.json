@@ -1,0 +1,253 @@
+{
+  "date": "2026-10-23",
+  "url": "http://localhost:3100",
+  "characterId": "4cd99cd0-d353-4687-9908-2f96058216ff",
+  "browser": "Codex IAB; version not exposed",
+  "runtime": {
+    "devTools": false,
+    "scripts": [
+      "http://localhost:3100/_next/static/chunks/00avp_f3fia6h.js",
+      "http://localhost:3100/_next/static/chunks/0dnlx8tjpwbwv.js",
+      "http://localhost:3100/_next/static/chunks/2y3r_nsmtue7_.js",
+      "http://localhost:3100/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+      "http://localhost:3100/_next/static/chunks/1fvqq-a3vbpk3.js",
+      "http://localhost:3100/_next/static/chunks/2tvb2hgae-xa6.js",
+      "http://localhost:3100/_next/static/chunks/0u--gpxf0trq3.js",
+      "http://localhost:3100/_next/static/chunks/0cz1d0mv5g_q7.js",
+      "http://localhost:3100/_next/static/chunks/25g-9u6-1-6uc.js",
+      "http://localhost:3100/_next/static/chunks/2-o6931bwrklr.js"
+    ]
+  },
+  "viewports": [
+    {
+      "width": 1920,
+      "height": 1080,
+      "tabs": [
+        {
+          "scrollWidth": 1905,
+          "selected": "Actions",
+          "width": 1905
+        },
+        {
+          "scrollWidth": 1905,
+          "selected": "Inventory",
+          "width": 1905
+        },
+        {
+          "scrollWidth": 1905,
+          "selected": "Features & Traits",
+          "width": 1905
+        },
+        {
+          "scrollWidth": 1905,
+          "selected": "Origin & Character",
+          "width": 1905
+        },
+        {
+          "scrollWidth": 1905,
+          "selected": "Notes",
+          "width": 1905
+        },
+        {
+          "scrollWidth": 1905,
+          "selected": "Extras",
+          "width": 1905
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "tabs": [
+        {
+          "scrollWidth": 1425,
+          "selected": "Actions",
+          "width": 1425
+        },
+        {
+          "scrollWidth": 1425,
+          "selected": "Inventory",
+          "width": 1425
+        },
+        {
+          "scrollWidth": 1425,
+          "selected": "Features & Traits",
+          "width": 1425
+        },
+        {
+          "scrollWidth": 1425,
+          "selected": "Origin & Character",
+          "width": 1425
+        },
+        {
+          "scrollWidth": 1425,
+          "selected": "Notes",
+          "width": 1425
+        },
+        {
+          "scrollWidth": 1425,
+          "selected": "Extras",
+          "width": 1425
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "tabs": [
+        {
+          "scrollWidth": 1265,
+          "selected": "Actions",
+          "width": 1265
+        },
+        {
+          "scrollWidth": 1265,
+          "selected": "Inventory",
+          "width": 1265
+        },
+        {
+          "scrollWidth": 1265,
+          "selected": "Features & Traits",
+          "width": 1265
+        },
+        {
+          "scrollWidth": 1265,
+          "selected": "Origin & Character",
+          "width": 1265
+        },
+        {
+          "scrollWidth": 1265,
+          "selected": "Notes",
+          "width": 1265
+        },
+        {
+          "scrollWidth": 1265,
+          "selected": "Extras",
+          "width": 1265
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "tabs": [
+        {
+          "scrollWidth": 753,
+          "selected": "Actions",
+          "width": 753
+        },
+        {
+          "scrollWidth": 753,
+          "selected": "Inventory",
+          "width": 753
+        },
+        {
+          "scrollWidth": 753,
+          "selected": "Features & Traits",
+          "width": 753
+        },
+        {
+          "scrollWidth": 753,
+          "selected": "Origin & Character",
+          "width": 753
+        },
+        {
+          "scrollWidth": 753,
+          "selected": "Notes",
+          "width": 753
+        },
+        {
+          "scrollWidth": 753,
+          "selected": "Extras",
+          "width": 753
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "tabs": [
+        {
+          "scrollWidth": 375,
+          "selected": "Actions",
+          "width": 375
+        },
+        {
+          "scrollWidth": 375,
+          "selected": "Inventory",
+          "width": 375
+        },
+        {
+          "scrollWidth": 375,
+          "selected": "Features & Traits",
+          "width": 375
+        },
+        {
+          "scrollWidth": 375,
+          "selected": "Origin & Character",
+          "width": 375
+        },
+        {
+          "scrollWidth": 375,
+          "selected": "Notes",
+          "width": 375
+        },
+        {
+          "scrollWidth": 375,
+          "selected": "Extras",
+          "width": 375
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "tabs": [
+        {
+          "scrollWidth": 305,
+          "selected": "Actions",
+          "width": 305
+        },
+        {
+          "scrollWidth": 305,
+          "selected": "Inventory",
+          "width": 305
+        },
+        {
+          "scrollWidth": 305,
+          "selected": "Features & Traits",
+          "width": 305
+        },
+        {
+          "scrollWidth": 305,
+          "selected": "Origin & Character",
+          "width": 305
+        },
+        {
+          "scrollWidth": 305,
+          "selected": "Notes",
+          "width": 305
+        },
+        {
+          "scrollWidth": 305,
+          "selected": "Extras",
+          "width": 305
+        }
+      ]
+    }
+  ],
+  "passed": [
+    "Login with separate test account",
+    "Character creation through complete UI",
+    "Saved v7 Ratling Sharpshooter sheet",
+    "Authenticated deep-link reload",
+    "All six tabs at six widths without horizontal overflow",
+    "Weapon inspector fixed Dexterity",
+    "Mobile feature inspector modal and scroll lock",
+    "Notes save and persistence after reload",
+    "Two-tab stale notes rejected with draft preserved",
+    "Single labelled server fallback saved as d20 17 + 5 = 22",
+    "History result retained after reload"
+  ],
+  "blocker": "Production CSP omits WASM permission. next.config.ts fixed and regression-tested; host rebuild and physics/replay verification pending."
+}

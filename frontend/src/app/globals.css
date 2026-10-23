@@ -1251,3 +1251,12 @@ main:has(.play-sheet){max-width:1600px;width:100%;padding:1.25rem 2rem}.play-she
 @media(max-width:700px){.sheet-inspector{top:auto;bottom:0;right:0;left:0;max-height:82dvh;width:100%;box-sizing:border-box;border-radius:12px 12px 0 0;z-index:85}.sheet-inspector .inspector-heading{position:sticky;top:-1.2rem;background:#182019;padding-top:.5rem}.sheet-filters{grid-template-columns:1fr}.play-tabs button{flex-basis:28%;min-height:44px}.play-sheet .inspect-link{min-height:32px!important}.training-list .inspect-link{min-height:24px!important}.sheet-inspector .inspect-link{min-height:44px!important}}
 
 .stat-line .inspect-link{min-width:0}
+
+.inspector-backdrop{display:none}
+@media(max-width:700px){.inspector-backdrop{display:block;position:fixed;inset:0;background:#0008;z-index:84}.sheet-inspector{padding-bottom:calc(1.2rem + env(safe-area-inset-bottom))}}
+/* Keep settled dice above fixed controls; resizing changes projection, never physics poses. */
+.dice-overlay .dice-canvas{bottom:calc(6rem + env(safe-area-inset-bottom))}
+.free-dice-launcher{bottom:calc(1.5rem + env(safe-area-inset-bottom))}
+.free-dice-panel{bottom:calc(6rem + env(safe-area-inset-bottom))}
+body:has(.free-dice-launcher){padding-bottom:calc(5rem + env(safe-area-inset-bottom))}
+@media(pointer:coarse){.play-sheet .roll-action-button,.play-tabs button,.ability-strip button{min-height:44px}}

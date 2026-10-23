@@ -1,4 +1,5 @@
 import * as T from "three";
+import { simulationClock } from "./simulation-clock";
 import {
   createSimulation,
   type PhysicalSimulation,
@@ -58,6 +59,7 @@ export async function startPhysicalRoll(
       });
       renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 1.5));
       host.appendChild(renderer.domElement);
+      renderer.domElement.addEventListener("webglcontextlost", contextLost);
       renderer.domElement.setAttribute("aria-hidden", "true");
       scene.add(new T.HemisphereLight(0xffefd0, 0x18221c, 2.2));
       const light = new T.DirectionalLight(0xffdeb1, 2.5);
@@ -126,6 +128,16 @@ export async function startPhysicalRoll(
       fast = true;
     }
   else fast = true;
+  function contextLost(event: Event) {
+    event.preventDefault();
+    // Keep the already-authorised world and faces; losing presentation must never reroll.
+    renderer?.domElement.remove();
+    fast = true;
+    cancelAnimationFrame(frame);
+    clearTimeout(timer);
+    if (!disposed && !finished)
+      timer = setTimeout(() => tick(performance.now()), 0);
+  }
   function draw() {
     if (!renderer || disposed) return;
     sim.dice.forEach((d, i) => {
@@ -138,20 +150,18 @@ export async function startPhysicalRoll(
       fast = true;
     }
   }
-  let previous = performance.now(),
-    accumulator = 0;
+  let previous = performance.now();
+  const stepsForFrame = simulationClock(
+    physicsTuning.timestep,
+    physicsTuning.maxCatchup,
+  );
   function tick(now: number) {
     if (disposed || finished) return;
     try {
       let count = 0;
       if (fast) count = 120;
       else {
-        accumulator += Math.min(
-          (now - previous) / 1000,
-          physicsTuning.maxCatchup,
-        );
-        count = Math.floor(accumulator / physicsTuning.timestep);
-        accumulator -= count * physicsTuning.timestep;
+        count = stepsForFrame((now - previous) / 1000);
       }
       previous = now;
       for (let i = 0; i < count; i++)
@@ -193,6 +203,7 @@ export async function startPhysicalRoll(
       materials.forEach((m) => m.dispose());
       labelGeometries.forEach((g) => g.dispose());
       textures.forEach((t) => t.dispose());
+      renderer?.domElement.removeEventListener("webglcontextlost", contextLost);
       renderer?.dispose();
       renderer?.forceContextLoss();
       renderer?.domElement.remove();

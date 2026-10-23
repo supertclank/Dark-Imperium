@@ -1,0 +1,9 @@
+{
+  "inspector": "Knife",
+  "profile": "di-phb-1.0-tier1-v7",
+  "digest": "af92705fc1a85b49a4e06c52999cfff335e8a9800f43608a30e540f391b4b6d5",
+  "health": "ok",
+  "fallbackSource": "SERVER_FALLBACK",
+  "environment": "Isolated production backend distribution; not browser acceptance",
+  "duplicateResultUnchanged": true
+}

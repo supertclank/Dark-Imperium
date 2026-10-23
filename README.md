@@ -1,3 +1,5 @@
+Production readiness: [release decision and 45-point report](docs/PRODUCTION_READINESS_REPORT.md) · [runbook](docs/PRODUCTION_RUNBOOK.md) · [browser support](docs/BROWSER_SUPPORT.md) · [device checks](docs/DEVICE_VALIDATION.md).
+
 Current sheet/weapon-ability milestone: [40-point completion and acceptance report](docs/CHARACTER_SHEET_V7_REPORT.md).
 
 Current dice and play UX: [physics-determined dice and compact sheet report](docs/PHYSICAL_DICE_AND_PLAY_UX_REPORT.md) — physical outcomes, server validation, transactional reservations, and browser evidence.

@@ -1,6 +1,6 @@
 import * as T from "three";
 import { ConvexGeometry } from "three/examples/jsm/geometries/ConvexGeometry.js";
-/** Geometry and face orientation are purely visual. Face numbers never resolve a roll. */
+/** Shared physical/render geometry. Accepted settled face normals resolve raw values. */
 export function dieGeometry(sides: number): T.BufferGeometry {
   switch (sides) {
     case 4: {

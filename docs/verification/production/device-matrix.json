@@ -1,0 +1,467 @@
+{
+  "environment": "Development server only; production build blocked",
+  "results": [
+    {
+      "rollButtons": [
+        {
+          "height": 34,
+          "width": 61.21875
+        },
+        {
+          "height": 34,
+          "width": 61.21875
+        },
+        {
+          "height": 34,
+          "width": 61.21875
+        },
+        {
+          "height": 34,
+          "width": 61.21875
+        },
+        {
+          "height": 34,
+          "width": 61.21875
+        },
+        {
+          "height": 34,
+          "width": 55.1875
+        }
+      ],
+      "scrollWidth": 1905,
+      "tabs": [
+        {
+          "height": 34,
+          "left": 859.078125,
+          "right": 1139.203125,
+          "text": "Actions",
+          "width": 280.125
+        },
+        {
+          "height": 34,
+          "left": 1143.203125,
+          "right": 1423.34375,
+          "text": "Inventory",
+          "width": 280.140625
+        },
+        {
+          "height": 34,
+          "left": 1427.34375,
+          "right": 1707.484375,
+          "text": "Features & Traits",
+          "width": 280.140625
+        },
+        {
+          "height": 34,
+          "left": 859.078125,
+          "right": 1139.203125,
+          "text": "Origin & Character",
+          "width": 280.125
+        },
+        {
+          "height": 34,
+          "left": 1143.203125,
+          "right": 1423.34375,
+          "text": "Notes",
+          "width": 280.140625
+        },
+        {
+          "height": 34,
+          "left": 1427.34375,
+          "right": 1707.484375,
+          "text": "Extras",
+          "width": 280.140625
+        }
+      ],
+      "viewport": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "rollButtons": [
+        {
+          "height": 34,
+          "width": 61.21875
+        },
+        {
+          "height": 34,
+          "width": 61.21875
+        },
+        {
+          "height": 34,
+          "width": 61.21875
+        },
+        {
+          "height": 34,
+          "width": 61.21875
+        },
+        {
+          "height": 34,
+          "width": 61.21875
+        },
+        {
+          "height": 34,
+          "width": 55.1875
+        }
+      ],
+      "scrollWidth": 1425,
+      "tabs": [
+        {
+          "height": 34,
+          "left": 633.3125,
+          "right": 879.53125,
+          "text": "Actions",
+          "width": 246.21875
+        },
+        {
+          "height": 34,
+          "left": 883.53125,
+          "right": 1129.765625,
+          "text": "Inventory",
+          "width": 246.234375
+        },
+        {
+          "height": 34,
+          "left": 1133.765625,
+          "right": 1380,
+          "text": "Features & Traits",
+          "width": 246.234375
+        },
+        {
+          "height": 34,
+          "left": 633.3125,
+          "right": 879.53125,
+          "text": "Origin & Character",
+          "width": 246.21875
+        },
+        {
+          "height": 34,
+          "left": 883.53125,
+          "right": 1129.765625,
+          "text": "Notes",
+          "width": 246.234375
+        },
+        {
+          "height": 34,
+          "left": 1133.765625,
+          "right": 1380,
+          "text": "Extras",
+          "width": 246.234375
+        }
+      ],
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "rollButtons": [
+        {
+          "height": 34,
+          "width": 61.21875
+        },
+        {
+          "height": 34,
+          "width": 61.21875
+        },
+        {
+          "height": 34,
+          "width": 61.21875
+        },
+        {
+          "height": 34,
+          "width": 61.21875
+        },
+        {
+          "height": 34,
+          "width": 61.21875
+        },
+        {
+          "height": 34,
+          "width": 55.1875
+        }
+      ],
+      "scrollWidth": 1265,
+      "tabs": [
+        {
+          "height": 34,
+          "left": 566.34375,
+          "right": 781.546875,
+          "text": "Actions",
+          "width": 215.203125
+        },
+        {
+          "height": 34,
+          "left": 785.546875,
+          "right": 1000.765625,
+          "text": "Inventory",
+          "width": 215.21875
+        },
+        {
+          "height": 34,
+          "left": 1004.765625,
+          "right": 1219.984375,
+          "text": "Features & Traits",
+          "width": 215.21875
+        },
+        {
+          "height": 34,
+          "left": 566.34375,
+          "right": 781.546875,
+          "text": "Origin & Character",
+          "width": 215.203125
+        },
+        {
+          "height": 34,
+          "left": 785.546875,
+          "right": 1000.765625,
+          "text": "Notes",
+          "width": 215.21875
+        },
+        {
+          "height": 34,
+          "left": 1004.765625,
+          "right": 1219.984375,
+          "text": "Extras",
+          "width": 215.21875
+        }
+      ],
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    {
+      "rollButtons": [
+        {
+          "height": 34,
+          "width": 61.21875
+        },
+        {
+          "height": 34,
+          "width": 61.21875
+        },
+        {
+          "height": 34,
+          "width": 61.21875
+        },
+        {
+          "height": 34,
+          "width": 61.21875
+        },
+        {
+          "height": 34,
+          "width": 61.21875
+        },
+        {
+          "height": 34,
+          "width": 55.1875
+        }
+      ],
+      "scrollWidth": 753,
+      "tabs": [
+        {
+          "height": 34,
+          "left": 45,
+          "right": 263.328125,
+          "text": "Actions",
+          "width": 218.328125
+        },
+        {
+          "height": 34,
+          "left": 267.328125,
+          "right": 485.671875,
+          "text": "Inventory",
+          "width": 218.34375
+        },
+        {
+          "height": 34,
+          "left": 489.671875,
+          "right": 708,
+          "text": "Features & Traits",
+          "width": 218.328125
+        },
+        {
+          "height": 34,
+          "left": 45,
+          "right": 263.328125,
+          "text": "Origin & Character",
+          "width": 218.328125
+        },
+        {
+          "height": 34,
+          "left": 267.328125,
+          "right": 485.671875,
+          "text": "Notes",
+          "width": 218.34375
+        },
+        {
+          "height": 34,
+          "left": 489.671875,
+          "right": 708,
+          "text": "Extras",
+          "width": 218.328125
+        }
+      ],
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "rollButtons": [
+        {
+          "height": 44,
+          "width": 61.21875
+        },
+        {
+          "height": 44,
+          "width": 61.21875
+        },
+        {
+          "height": 44,
+          "width": 61.21875
+        },
+        {
+          "height": 44,
+          "width": 61.21875
+        },
+        {
+          "height": 44,
+          "width": 61.21875
+        },
+        {
+          "height": 44,
+          "width": 55.1875
+        }
+      ],
+      "scrollWidth": 375,
+      "tabs": [
+        {
+          "height": 44,
+          "left": 25,
+          "right": 130.65625,
+          "text": "Actions",
+          "width": 105.65625
+        },
+        {
+          "height": 44,
+          "left": 134.65625,
+          "right": 240.328125,
+          "text": "Inventory",
+          "width": 105.671875
+        },
+        {
+          "height": 44,
+          "left": 244.328125,
+          "right": 350,
+          "text": "Features & Traits",
+          "width": 105.671875
+        },
+        {
+          "height": 44,
+          "left": 25,
+          "right": 130.65625,
+          "text": "Origin & Character",
+          "width": 105.65625
+        },
+        {
+          "height": 44,
+          "left": 134.65625,
+          "right": 240.328125,
+          "text": "Notes",
+          "width": 105.671875
+        },
+        {
+          "height": 44,
+          "left": 244.328125,
+          "right": 350,
+          "text": "Extras",
+          "width": 105.671875
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "rollButtons": [
+        {
+          "height": 44,
+          "width": 61.21875
+        },
+        {
+          "height": 44,
+          "width": 61.21875
+        },
+        {
+          "height": 44,
+          "width": 61.21875
+        },
+        {
+          "height": 44,
+          "width": 61.21875
+        },
+        {
+          "height": 44,
+          "width": 61.21875
+        },
+        {
+          "height": 44,
+          "width": 55.1875
+        }
+      ],
+      "scrollWidth": 305,
+      "tabs": [
+        {
+          "height": 44,
+          "left": 25,
+          "right": 107.328125,
+          "text": "Actions",
+          "width": 82.328125
+        },
+        {
+          "height": 44,
+          "left": 111.328125,
+          "right": 193.671875,
+          "text": "Inventory",
+          "width": 82.34375
+        },
+        {
+          "height": 44,
+          "left": 197.671875,
+          "right": 280,
+          "text": "Features & Traits",
+          "width": 82.328125
+        },
+        {
+          "height": 44,
+          "left": 25,
+          "right": 107.328125,
+          "text": "Origin & Character",
+          "width": 82.328125
+        },
+        {
+          "height": 44,
+          "left": 111.328125,
+          "right": 193.671875,
+          "text": "Notes",
+          "width": 82.34375
+        },
+        {
+          "height": 44,
+          "left": 197.671875,
+          "right": 280,
+          "text": "Extras",
+          "width": 82.328125
+        }
+      ],
+      "viewport": [
+        320,
+        740
+      ]
+    }
+  ]
+}

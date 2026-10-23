@@ -25,7 +25,8 @@ fun main() {
     val db = Database(env("DATABASE_URL"), env("DATABASE_USER"), env("DATABASE_PASSWORD"))
     db.migrate()
     val config = AppConfig(env("APP_ORIGIN"), (System.getenv("COOKIE_SECURE") ?: "true").toBooleanStrict())
-    embeddedServer(Netty, port = 8080) {
+    val port = (System.getenv("PORT") ?: "8080").toInt().also { require(it in 1..65535) { "PORT must be between 1 and 65535" } }
+    embeddedServer(Netty, port = port) {
         monitor.subscribe(ApplicationStopped) { db.close() }
         module(db, config)
     }.start(wait = true)
@@ -43,7 +44,7 @@ fun Application.module(db: Database, config: AppConfig, dice: DiceEngine = DiceE
     install(ContentNegotiation) { json(Json { ignoreUnknownKeys = false }) }
     install(StatusPages) {
         exception<InvalidDraft> { call, e -> call.respond(HttpStatusCode.UnprocessableEntity, DraftValidation("INVALID", e.issues)) }
-        exception<ApiException> { call, e -> call.respond(HttpStatusCode.fromValue(e.status), ApiError(ErrorDetail(e.code, e.message))) }
+        exception<ApiException> { call, e -> logger.info("API rejection: {} {} status={} code={}",call.request.httpMethod.value,call.request.path(),e.status,e.code); call.respond(HttpStatusCode.fromValue(e.status), ApiError(ErrorDetail(e.code, e.message))) }
         exception<BadRequestException> { call, _ -> call.respond(HttpStatusCode.BadRequest, ApiError(ErrorDetail("INVALID_REQUEST", "The request body is invalid."))) }
         exception<SerializationException> { call, _ -> call.respond(HttpStatusCode.BadRequest, ApiError(ErrorDetail("INVALID_REQUEST", "The request body is invalid."))) }
         exception<Throwable> { call, e ->

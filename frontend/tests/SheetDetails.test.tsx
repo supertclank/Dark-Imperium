@@ -69,3 +69,11 @@ it("loads pinned details and closes with Escape without presenting an ability se
   fireEvent.keyDown(screen.getByRole("dialog"), { key: "Escape" });
   expect(close).toHaveBeenCalledOnce();
 });
+it('mobile inspector locks background scrolling and restores opening focus',async()=>{
+ vi.stubGlobal('matchMedia',()=>({matches:true,addEventListener:vi.fn(),removeEventListener:vi.fn()}));
+ const opener=document.createElement('button');document.body.append(opener);opener.focus();
+ const view=render(<SheetInspector characterId="owned" target={{id:'local',name:'Resource',local:{id:'local',name:'Resource',kind:'resource',description:'Manual tracking',fields:[],status:'Manual'}}} options={[]} disabled={false} onRoll={vi.fn()} onClose={vi.fn()}/>);
+ expect(screen.getByRole('dialog')).toHaveAttribute('aria-modal','true');
+ expect(document.body.style.overflow).toBe('hidden');
+ view.unmount();expect(document.body.style.overflow).toBe('');expect(document.activeElement).toBe(opener);opener.remove();vi.unstubAllGlobals();
+});

@@ -50,3 +50,32 @@ it("exports PUT and accepts full Unicode notes within the notes-only byte limit"
   ).toBe(200);
   expect(fetcher).toHaveBeenCalledOnce();
 });
+it.each([
+  "..",
+  "di.weapon..knife",
+  "di.weapon.%2e%2e",
+  "di.weapon/knife",
+  "di.weapon\\knife",
+  "di.weapon.knife?x=1",
+])("rejects malformed canonical detail ID %s", async (id) => {
+  const fetcher = vi.fn();
+  vi.stubGlobal("fetch", fetcher);
+  const result = await GET(new NextRequest("http://localhost/api/test"), {
+    params: Promise.resolve({ path: ["characters", "id", "details", id] }),
+  });
+  expect(result.status).toBe(400);
+  expect(fetcher).not.toHaveBeenCalled();
+});
+it("larger body allowance is not applied to another endpoint", async () => {
+  const fetcher = vi.fn();
+  vi.stubGlobal("fetch", fetcher);
+  const result = await PUT(
+    new NextRequest("http://localhost/api/characters/id/rolls", {
+      method: "PUT",
+      body: "x".repeat(17000),
+    }),
+    { params: Promise.resolve({ path: ["characters", "id", "rolls"] }) },
+  );
+  expect(result.status).toBe(413);
+  expect(fetcher).not.toHaveBeenCalled();
+});
