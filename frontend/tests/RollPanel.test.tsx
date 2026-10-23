@@ -12,6 +12,7 @@ import { DiceResult } from "../src/components/DiceResult";
 import { ApiError } from "../src/lib/api";
 import { SavedCharacter } from "../src/lib/builder";
 import { RollResult } from "../src/lib/rolls";
+import { physicalSession } from "./physical-fixture";
 import character from "./fixtures/roll-character.json";
 import options from "./fixtures/roll-options.json";
 import attack from "./fixtures/roll-result.json";
@@ -19,7 +20,12 @@ import grenade from "./fixtures/grenade-result.json";
 const state = vi.hoisted(() => ({ api: vi.fn(), refresh: vi.fn() }));
 vi.mock("../src/lib/api", async (importOriginal) => ({
   ...(await importOriginal<typeof import("../src/lib/api")>()),
-  api: state.api,
+  api: async (path: string, init?: RequestInit) => {
+    const value = await state.api(path, init);
+    return init?.method === "POST" && path.endsWith("/roll-sessions")
+      ? { ...physicalSession, status: "COMPLETED", result: value }
+      : value;
+  },
 }));
 const posts = () => state.api.mock.calls.filter((c) => c[1]?.method === "POST");
 const display = () =>

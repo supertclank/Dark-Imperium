@@ -53,6 +53,13 @@ class CharacterRolls(
             val item = item(definition,rules)
             val count = item?.let { quantity(sheet,it) }
             val component = definition.objects("components").single()
+            val modifier = component.objects("modifiers").sumOf { it.num("value") }
+            val modifierChoices = if(finesse(item,rules)) {
+                val calculated=sheet.getValue("calculated").jsonObject
+                val defaultAbility=calculated.objects("actions").single { it.text("id")==actionId(definition) }.text("ability")
+                val attributes=calculated.getValue("attributeModifiers").jsonObject
+                obj(*listOf("strength","dexterity").map { it to (modifier+attributes.num(it)-attributes.num(defaultAbility)) }.toTypedArray())
+            } else obj()
             val unavailable = when {
                 blockedState(sheet) -> "Current conditions or temporary effects require unsupported runtime adjudication."
                 count != null && count < 1 -> if(consumes(item,rules)) "You have no ${rules.label(item!!)} remaining." else "This item is not available."
@@ -61,22 +68,23 @@ class CharacterRolls(
             obj("id" to definition.text("id"),"label" to definition.text("label"),"category" to definition.text("category"),
                 "actionId" to actionId(definition),"itemId" to item,"available" to (unavailable == null),"reason" to unavailable,
                 "consumes" to consumes(item,rules),"quantity" to count,"abilities" to if(finesse(item,rules)) listOf("strength","dexterity") else emptyList<String>(),
-                "groups" to component.arr("groups"),"modifier" to component.objects("modifiers").sumOf { it.num("value") })
+                "groups" to component.arr("groups"),"modifier" to modifier,"modifierChoices" to modifierChoices)
         }
         obj("profileId" to rules.id,"profileDigest" to rules.digest,"stateVersion" to sheet.getValue("runtime").jsonObject.getValue("stateVersion"),"options" to options)
     }
 
-    fun execute(owner: UUID, character: UUID, request: RollRequest): JsonObject {
+    fun execute(owner: UUID, character: UUID, request: RollRequest, rawValues:List<List<Int>>?=null, validateOnly:Boolean=false, sessionCon:Connection?=null, reservationSession:UUID?=null): JsonObject {
         val requestId = requestUuid(request.requestId)
         val requestDigest = sha(canonicalJson(obj("characterId" to character.toString(),"request" to Json.encodeToJsonElement(RollRequest.serializer(),request))))
-        return db.transaction { con ->
+        val operation:(Connection)->JsonObject = operation@{ con ->
             // Serialize the owner/request key even when competing requests target different characters.
             con.query("SELECT pg_advisory_xact_lock(hashtextextended(?,0))","$owner:$requestId") { 0 }
             own(con,owner,character,lock=true)
+            if(sessionCon==null && con.query("SELECT id FROM physical_roll_sessions WHERE user_id=? AND request_id=?",owner,requestId){it.getString(1)}.isNotEmpty())fail("SESSION_REQUIRED","Complete this request through its authorised roll session.",409)
             val previous = con.query("SELECT request_digest,result FROM character_rolls WHERE user_id=? AND request_id=?",owner,requestId) { it.getString(1) to Json.parseToJsonElement(it.getString(2)).jsonObject }.singleOrNull()
             if(previous != null) {
                 if(previous.first != requestDigest) fail("IDEMPOTENCY_CONFLICT","This request ID was already used with different roll choices.",409)
-                return@transaction previous.second // replay precedes state/resource checks
+                return@operation previous.second // replay precedes state/resource checks
             }
             val (sheet,rules) = load(con,owner,character)
             if(request.profileId != rules.id || request.profileDigest != rules.digest)
@@ -115,7 +123,12 @@ class CharacterRolls(
             val modifiers = calculation.getValue("attributeModifiers").jsonObject
             val modifier = baseModifier + if(finesse(item,rules)) modifiers.num(ability!!) - modifiers.num(defaultAbility!!) else 0
             val groups = baseComponent.objects("groups").map { DiceGroup(it.num("count"),it.num("sides")) }
-            val resolved = dice.resolve(groups,modifier)
+            if(mutates && !validateOnly) {
+                val reserved=con.query("SELECT count(*) FROM physical_roll_sessions WHERE character_id=? AND reserved_item=? AND status='CREATED' AND expires_at>now() AND (?::uuid IS NULL OR id<>?::uuid)",character,item,reservationSession,reservationSession){it.getInt(1)}.single()
+                if(quantity(sheet,item!!)<=reserved)fail("RESOURCE_RESERVED","This item is reserved by an active roll.",409)
+            }
+            if(validateOnly)return@operation obj("groups" to groups.map{obj("count" to it.count,"sides" to it.sides,"keep" to it.keep.name,"keepCount" to it.keepCount)},"modifier" to modifier,"label" to baseline.text("label"),"actionId" to action,"reservedItem" to if(mutates)item else null,"quantity" to if(mutates)quantity(sheet,item!!)else null)
+            val resolved = if(rawValues==null)dice.resolve(groups,modifier) else dice.resolveRaw(groups,modifier,rawValues)
             val natural = if(category != "damage") resolved.groups.single().kept.single() else null
             val resultId = UUID.randomUUID()
             val after = before + if(mutates) 1 else 0
@@ -167,6 +180,7 @@ class CharacterRolls(
                 VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?::jsonb,?)""",resultId,owner,character,requestId,requestDigest,rules.id,rules.digest,uuid(definitionId),action,category,request.visibility,request.parentResultId?.let(::requestUuid),before,after,result.toString(),java.sql.Timestamp.from(now))
             result
         }
+        return if(sessionCon!=null)operation(sessionCon) else db.transaction(operation)
     }
 
     /** Bounded newest-first snapshot history; never recalculates historical totals. */

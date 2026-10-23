@@ -1,4 +1,6 @@
-Current dice UX: [overhaul completion report](docs/DICE_UX_OVERHAUL_REPORT.md) — overlay physics, delayed reveal, free pools and verification limits.
+Current dice and play UX: [physics-determined dice and compact sheet report](docs/PHYSICAL_DICE_AND_PLAY_UX_REPORT.md) — physical outcomes, server validation, transactional reservations, and browser evidence.
+
+Previous dice UX milestone: [overhaul completion report](docs/DICE_UX_OVERHAUL_REPORT.md) — overlay physics, delayed reveal, free pools and verification limits.
 
 ## Non-Human advancement release (v6)
 

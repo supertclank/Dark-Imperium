@@ -1,224 +1,153 @@
-import { beforeEach, expect, it, vi } from "vitest";
+import React from "react";
+import { beforeEach, it, expect, vi } from "vitest";
 import {
   render,
   screen,
-  fireEvent,
   waitFor,
   act,
+  fireEvent,
 } from "@testing-library/react";
-import React from "react";
-import {
-  presentRoll,
-  readPreferences,
-  effectiveMode,
-  preferenceKey,
-} from "../src/lib/dice-presentation";
-import {
-  dieGeometry,
-  dieFaceMap,
-  settledOrientation,
-} from "../src/lib/dice-geometry";
 import { DicePresentation } from "../src/components/DicePresentation";
-import type { RollResult } from "../src/lib/rolls";
-import grenade from "./fixtures/grenade-result.json";
-import attack from "./fixtures/roll-result.json";
+import { physicalSession } from "./physical-fixture";
+import fixture from "./fixtures/roll-result.json";
+import { preferenceKey } from "../src/lib/dice-presentation";
 const mock = vi.hoisted(() => ({
-  show: vi.fn(),
+  api: vi.fn(),
+  start: vi.fn(),
+  complete: (_v: number[][]) => {},
+  fail: () => {},
+  cocked: () => {},
   skip: vi.fn(),
   dispose: vi.fn(),
-  create: vi.fn(),
-  failure: () => {},
-  settle: () => {},
-  settling: () => {},
 }));
+vi.mock("../src/lib/api", () => ({ api: mock.api }));
 vi.mock("../src/lib/dice-renderer", () => ({
-  createDiceRenderer: (...args: unknown[]) => mock.create(...args),
+  startPhysicalRoll: (...args: unknown[]) => mock.start(...args),
 }));
+const event = () => ({ session: physicalSession, serial: 1, replay: false });
 beforeEach(() => {
   vi.clearAllMocks();
   localStorage.clear();
-  mock.create.mockImplementation((_host, failed, settle, settling) => {
-    mock.failure = failed;
-    mock.settle = settle;
-    mock.settling = settling;
-    mock.skip.mockImplementation(settle);
-    return mock;
-  });
-  Object.defineProperty(window, "matchMedia", {
-    configurable: true,
-    value: vi.fn(() => ({
-      matches: false,
-      addEventListener: vi.fn(),
-      removeEventListener: vi.fn(),
-    })),
+  mock.api.mockResolvedValue(fixture);
+  mock.start.mockImplementation((_s, _h, _animate, complete, fail, cocked) => {
+    mock.complete = complete;
+    mock.fail = fail;
+    mock.cocked = cocked;
+    return Promise.resolve(mock);
   });
 });
-const event = (result = grenade, serial = 1) => ({
-  result: result as RollResult,
-  serial,
-  replay: false,
+it("holds result until physical faces and server acceptance, submits exact observed values", async () => {
+  let accept!: (v: unknown) => void;
+  mock.api.mockImplementation(() => new Promise((r) => (accept = r)));
+  const reveal = vi.fn();
+  render(<DicePresentation event={event()} onReveal={reveal} />);
+  await waitFor(() => expect(mock.start).toHaveBeenCalled());
+  expect(screen.queryByRole("article")).not.toBeInTheDocument();
+  expect(mock.api).not.toHaveBeenCalled();
+  act(() => mock.complete([[13]]));
+  expect(JSON.parse(mock.api.mock.calls[0][1].body).values).toEqual([[13]]);
+  expect(screen.queryByRole("article")).not.toBeInTheDocument();
+  expect(screen.getByText("Saving physical result…")).toBeInTheDocument();
+  await act(async () => accept(fixture));
+  expect(screen.getByRole("article")).toHaveTextContent(
+    `Total: ${fixture.total}`,
+  );
+  expect(reveal).toHaveBeenCalledTimes(1);
 });
-it("copies every die and metadata without recomputing authoritative totals", () => {
-  const result = { ...grenade, total: 999 };
-  const p = presentRoll(result as RollResult);
-  expect(p.total).toBe(999);
-  expect(p.dice.map((d) => d.value)).toEqual(grenade.dice.groups[0].dice);
-  expect(p.dice).toHaveLength(3);
-  expect(new Set(p.dice.map((d) => d.id)).size).toBe(3);
-  expect(p.damageType).toBe(grenade.damageType.name);
+it("cocked reroll keeps result hidden and does not submit partial faces", async () => {
+  render(<DicePresentation event={event()} />);
+  await waitFor(() => expect(mock.start).toHaveBeenCalled());
+  act(() => mock.cocked());
+  expect(screen.getByText("Cocked die – rerolling")).toBeInTheDocument();
+  expect(mock.api).not.toHaveBeenCalled();
 });
-it("preserves discarded identity with equal values and authoritative critical metadata", () => {
-  const r = {
-    ...attack,
-    naturalResult: 20,
-    criticalCandidate: false,
-    dice: {
-      ...attack.dice,
-      groups: [
-        {
-          sides: 20,
-          dice: [20, 20],
-          kept: [20],
-          discarded: [20],
-          keptIndices: [1],
-          discardedIndices: [0],
-          keep: "HIGHEST",
-        },
-      ],
-    },
-  };
-  const p = presentRoll(r as RollResult);
-  expect(p.dice.map((d) => d.discarded)).toEqual([true, false]);
-  expect(p.natural).toBe(20);
-  expect(p.criticalCandidate).toBe(false);
-});
-it("retains d100 values without needing a mechanics conversion", () => {
-  const r = structuredClone(grenade);
-  r.dice.groups[0].sides = 100;
-  r.dice.groups[0].dice = [100];
-  expect(presentRoll(r as RollResult).dice[0].value).toBe(100);
-});
-it.each([4, 6, 8, 10, 12, 20])(
-  "d%i has numbered faces and every target settles physically upward",
-  (sides) => {
-    const g = dieGeometry(sides),
-      faces = dieFaceMap(g);
-    expect(faces).toHaveLength(sides);
-    for (let value = 1; value <= sides; value++) {
-      const normal = faces[value - 1].normal
-        .clone()
-        .applyQuaternion(settledOrientation(g, value));
-      expect(normal.y).toBeCloseTo(1, 7);
-    }
-    g.dispose();
+it.each(["TEXT_ONLY", "REDUCED_MOTION"])(
+  "%s runs the same physical session before final submission",
+  async (mode) => {
+    localStorage.setItem(preferenceKey, JSON.stringify({ mode }));
+    render(<DicePresentation event={event()} />);
+    await waitFor(() => expect(mock.start).toHaveBeenCalled());
+    expect(mock.start.mock.calls[0][0]).toEqual(physicalSession);
+    expect(mock.start.mock.calls[0][2]).toBe(false);
+    if (mode === "TEXT_ONLY") expect(mock.start.mock.calls[0][1]).toBeNull();
+    expect(mock.api).not.toHaveBeenCalled();
+    act(() => mock.complete([[9]]));
+    expect(await screen.findByRole("article")).toBeInTheDocument();
   },
 );
-it("validates corrupt preferences and respects system motion priority", () => {
-  expect(readPreferences("{")).toEqual({ mode: "3D", sound: false });
-  expect(readPreferences('{"mode":"bad","sound":"yes"}').sound).toBe(false);
-  expect(effectiveMode("3D", true)).toBe("REDUCED_MOTION");
-  expect(effectiveMode("TEXT_ONLY", true)).toBe("TEXT_ONLY");
-});
-
-it("holds all text until the all-dice callback, including settling", async () => {
-  const reveal = vi.fn();
-  render(<DicePresentation event={event()} onReveal={reveal} />);
-  await waitFor(() => expect(mock.show).toHaveBeenCalled());
-  expect(screen.queryByRole("article")).not.toBeInTheDocument();
-  act(() => mock.settling());
-  expect(screen.getByText("Settling…")).toBeInTheDocument();
-  expect(reveal).not.toHaveBeenCalled();
-  expect(screen.queryByText(/Successful save:/)).not.toBeInTheDocument();
-  act(() => mock.settle());
-  expect(screen.getByRole("article")).toHaveTextContent(
-    `Total: ${grenade.total}`,
-  );
-  expect(reveal).toHaveBeenCalledTimes(1);
-});
-it("text-only reveals immediately without initializing physics", async () => {
-  localStorage.setItem(preferenceKey, JSON.stringify({ mode: "TEXT_ONLY" }));
-  const reveal = vi.fn();
-  render(<DicePresentation event={event()} onReveal={reveal} />);
-  expect(await screen.findByRole("article")).toHaveTextContent(
-    `Total: ${grenade.total}`,
-  );
-  expect(reveal).toHaveBeenCalledTimes(1);
-  expect(mock.create).not.toHaveBeenCalled();
-});
-it("reduced motion places static dice before revealing", async () => {
-  localStorage.setItem(
-    preferenceKey,
-    JSON.stringify({ mode: "REDUCED_MOTION" }),
-  );
+it("skip accelerates existing simulation without selecting a face", async () => {
   render(<DicePresentation event={event()} />);
-  await waitFor(() => expect(mock.show).toHaveBeenCalled());
-  expect(mock.show.mock.calls[0][1]).toBe(true);
-  expect(screen.queryByRole("article")).not.toBeInTheDocument();
-  act(() => mock.settle());
-  expect(screen.queryByRole("article")).not.toBeInTheDocument();
-  expect(await screen.findByRole("article")).toBeInTheDocument();
-});
-it("skip requests final placement and only its completion reveals", async () => {
-  render(<DicePresentation event={event()} />);
-  await waitFor(() => expect(mock.show).toHaveBeenCalled());
-  mock.skip.mockImplementation(() => {});
+  await waitFor(() => expect(mock.start).toHaveBeenCalled());
   fireEvent.click(screen.getByRole("button", { name: "Skip animation" }));
   expect(mock.skip).toHaveBeenCalled();
+  expect(mock.api).not.toHaveBeenCalled();
   expect(screen.queryByRole("article")).not.toBeInTheDocument();
-  act(() => mock.settle());
-  expect(screen.getByRole("article")).toBeInTheDocument();
 });
-it("replay remasks the stored result and does not mutate values", async () => {
-  const view = render(<DicePresentation event={event()} />);
-  await waitFor(() => expect(mock.show).toHaveBeenCalled());
-  act(() => mock.settle());
-  expect(screen.getByRole("article")).toBeInTheDocument();
-  view.rerender(
-    <DicePresentation event={{ ...event(grenade, 2), replay: true }} />,
+it("engine failure requests exactly one server fallback without client values", async () => {
+  render(<DicePresentation event={event()} />);
+  await waitFor(() => expect(mock.start).toHaveBeenCalled());
+  act(() => mock.fail());
+  await screen.findByRole("article");
+  expect(mock.api).toHaveBeenCalledTimes(1);
+  expect(JSON.parse(mock.api.mock.calls[0][1].body)).toMatchObject({
+    values: null,
+    fallback: true,
+  });
+});
+it("lost finalisation response retries identical physical values without a second simulation", async () => {
+  mock.api
+    .mockRejectedValueOnce(Error("Connection lost"))
+    .mockResolvedValueOnce(fixture);
+  render(<DicePresentation event={event()} />);
+  await waitFor(() => expect(mock.start).toHaveBeenCalled());
+  act(() => mock.complete([[11]]));
+  fireEvent.click(
+    await screen.findByRole("button", { name: "Retry submission" }),
   );
+  await screen.findByRole("article");
+  expect(mock.api.mock.calls[0][1].body).toBe(mock.api.mock.calls[1][1].body);
+  expect(mock.start).toHaveBeenCalledTimes(1);
+});
+it("legacy replay shows canonical stored result with no session or submission", async () => {
+  render(
+    <DicePresentation event={{ result: fixture, serial: 1, replay: true }} />,
+  );
+  expect(await screen.findByRole("article")).toHaveTextContent(
+    `Total: ${fixture.total}`,
+  );
+  expect(mock.api).not.toHaveBeenCalled();
+  expect(mock.start).not.toHaveBeenCalled();
+});
+it("physical replay reruns seed without modifying canonical values or making requests", async () => {
+  const result = {
+    ...fixture,
+    physical: {
+      source: "PHYSICS" as const,
+      presentationSeed: physicalSession.presentationSeed,
+      physicsVersion: physicalSession.physicsVersion,
+      geometryVersion: physicalSession.geometryVersion,
+      rawPhysicalValues: [[13]],
+    },
+  };
+  render(<DicePresentation event={{ result, serial: 1, replay: true }} />);
+  await waitFor(() => expect(mock.start).toHaveBeenCalled());
   expect(screen.queryByRole("article")).not.toBeInTheDocument();
-  await waitFor(() => expect(mock.show).toHaveBeenCalledTimes(2));
-  expect(mock.show.mock.calls[1][0]).toEqual(mock.show.mock.calls[0][0]);
-  act(() => mock.settle());
+  act(() => mock.complete([[fixture.dice.groups[0].dice[0] % 20 + 1]]));
   expect(screen.getByRole("article")).toHaveTextContent(
-    `Total: ${grenade.total}`,
+    `Total: ${fixture.total}`,
   );
-});
-it("failed initialization reveals the stored result without rerolling", async () => {
-  mock.create.mockRejectedValue(Error("No GPU"));
-  render(<DicePresentation event={event()} />);
-  expect(await screen.findByText(/3D unavailable/)).toBeInTheDocument();
-  expect(screen.getByRole("article")).toHaveTextContent(
-    `Total: ${grenade.total}`,
-  );
-});
-it("context loss disposes physics and reveals once", async () => {
-  const reveal = vi.fn();
-  render(<DicePresentation event={event()} onReveal={reveal} />);
-  await waitFor(() => expect(mock.show).toHaveBeenCalled());
-  act(() => mock.failure());
-  expect(await screen.findByRole("article")).toBeInTheDocument();
   expect(mock.dispose).toHaveBeenCalled();
-  expect(reveal).toHaveBeenCalledTimes(1);
+  expect(screen.getByText(/Replay trajectory differs/)).toBeInTheDocument();
+  expect(mock.api).not.toHaveBeenCalled();
 });
-it("unmount discards stale completion callbacks", async () => {
-  const reveal = vi.fn();
-  const view = render(<DicePresentation event={event()} onReveal={reveal} />);
-  await waitFor(() => expect(mock.show).toHaveBeenCalled());
-  view.unmount();
-  act(() => mock.settle());
-  expect(reveal).not.toHaveBeenCalled();
+it("cancel releases session and ignores late physical completion", async () => {
+  const cancel = vi.fn();
+  render(<DicePresentation event={event()} onCancel={cancel} />);
+  await waitFor(() => expect(mock.start).toHaveBeenCalled());
+  fireEvent.click(screen.getByRole("button", { name: "Cancel roll" }));
+  await waitFor(() => expect(cancel).toHaveBeenCalled());
+  expect(mock.api.mock.calls[0][0]).toContain("/cancel");
   expect(mock.dispose).toHaveBeenCalled();
-});
-
-it("changing display preference after reveal does not replay or expose a new animation", async () => {
-  render(<DicePresentation event={event()} />);
-  await waitFor(() => expect(mock.show).toHaveBeenCalled());
-  act(() => mock.settle());
-  fireEvent.change(
-    screen.getByRole("combobox", { name: "Dice presentation" }),
-    { target: { value: "REDUCED_MOTION" } },
-  );
-  expect(mock.show).toHaveBeenCalledTimes(1);
-  expect(screen.queryByText("Rolling…")).not.toBeInTheDocument();
+  act(() => mock.complete([[13]]));
+  expect(mock.api).toHaveBeenCalledTimes(1);
 });

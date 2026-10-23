@@ -20,6 +20,11 @@ class SecureDice : DieSource {
 @Serializable data class DiceResolution(val groups: List<ResolvedGroup>, val modifier: Int, val total: Int)
 
 class DiceEngine(private val source: DieSource = SecureDice()) {
+    fun resolveRaw(groups:List<DiceGroup>,modifier:Int,values:List<List<Int>>):DiceResolution {
+        require(values.size==groups.size && groups.indices.all { i -> values[i].size==groups[i].count && values[i].all { it in 1..groups[i].sides } })
+        val iterator=values.flatten().iterator()
+        return DiceEngine(DieSource { iterator.next() }).resolve(groups,modifier)
+    }
     fun resolve(groups: List<DiceGroup>, modifier: Int): DiceResolution {
         require(groups.isNotEmpty() && groups.size <= 16 && groups.sumOf { it.count } in 1..100)
         require(modifier in -1000000..1000000)

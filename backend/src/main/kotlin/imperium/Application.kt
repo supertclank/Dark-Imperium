@@ -36,6 +36,7 @@ fun Application.module(db: Database, config: AppConfig, dice: DiceEngine = DiceE
     val characters = ProductionCharacters(db)
     val rolls = CharacterRolls(db,characters,dice)
     val freeRolls = FreeRolls(db,dice)
+    val physicalRolls=PhysicalRollSessions(db,rolls,freeRolls)
     val advancements = CharacterAdvancement(db,characters)
     val logger = LoggerFactory.getLogger("imperium.api")
     install(ContentNegotiation) { json(Json { ignoreUnknownKeys = false }) }
@@ -113,6 +114,10 @@ fun Application.module(db: Database, config: AppConfig, dice: DiceEngine = DiceE
                 val owner=call.owner();val id=uuid(call.parameters["id"]!!);val input=call.receive<AdvanceRequest>()
                 call.respond(withContext(Dispatchers.IO) { advancements.advance(owner,id,input) })
             }
+            post("/characters/{id}/roll-sessions") {val owner=call.owner();val id=uuid(call.parameters["id"]!!);val input=call.receive<RollRequest>();call.respond(withContext(Dispatchers.IO){physicalRolls.character(owner,id,input)})}
+            post("/roll-sessions/free") {val owner=call.owner();val input=call.receive<FreeRollRequest>();call.respond(withContext(Dispatchers.IO){physicalRolls.free(owner,input)})}
+            post("/roll-sessions/{id}/finalize") {val owner=call.owner();val id=uuid(call.parameters["id"]!!);val input=call.receive<PhysicalSubmission>();call.respond(withContext(Dispatchers.IO){physicalRolls.finalize(owner,id,input)})}
+            post("/roll-sessions/{id}/cancel") {val owner=call.owner();val id=uuid(call.parameters["id"]!!);call.respond(withContext(Dispatchers.IO){physicalRolls.cancel(owner,id)})}
             post("/rolls/free") {
                 val owner=call.owner();val input=call.receive<FreeRollRequest>()
                 call.respond(withContext(Dispatchers.IO) { freeRolls.execute(owner,input) })

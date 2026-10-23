@@ -92,6 +92,8 @@ class CharacterRollsTest {
     @Test fun `finesse chooses strength or dexterity but never arbitrary substitution`() {
         val r=rig();val attack=r.request("Combat Blade attack")
         assertEquals(6,r.rolls.execute(r.owner,r.id,attack.copy(ability="strength")).num("total"))
+        val option=r.rolls.options(r.owner,r.id).objects("options").single { it.text("label")=="Combat Blade attack" }
+        assertEquals(4,option.getValue("modifierChoices").jsonObject.num("dexterity"))
         assertEquals(5,r.rolls.execute(r.owner,r.id,attack.copy(requestId=UUID.randomUUID().toString(),ability="dexterity")).num("total"))
         assertEquals(3,r.rolls.execute(r.owner,r.id,r.request("Combat Blade damage").copy(ability="dexterity")).num("total"))
         error("INVALID_CONTEXT") { r.rolls.execute(r.owner,r.id,r.request("Combat Blade attack").copy(ability="wisdom")) }

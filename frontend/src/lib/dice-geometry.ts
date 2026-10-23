@@ -18,7 +18,7 @@ export function dieGeometry(sides: number): T.BufferGeometry {
         vertices.flatMap((v, i) =>
           vertices
             .filter((_, j) => i !== j)
-            .map((w) => v.clone().lerp(w, 0.12)),
+            .map((w) => v.clone().lerp(w, 0.26)),
         ),
       );
     }
@@ -97,22 +97,30 @@ export function dieFaces(geometry: T.BufferGeometry) {
 export function faceOrientation(normal: T.Vector3) {
   return new T.Quaternion().setFromUnitVectors(new T.Vector3(0, 0, 1), normal);
 }
-export function settledOrientation(geometry: T.BufferGeometry, value: number) {
-  const face = dieFaceMap(geometry)[value - 1];
-  if (!face) throw new Error("Invalid supplied face");
-  // Align the labelled face normal with physical world +Y, independent of camera.
-  return new T.Quaternion()
-    .setFromEuler(new T.Euler(-Math.PI / 2, 0, 0))
-    .multiply(faceOrientation(face.normal).invert());
-}
-
 export function dieFaceMap(geometry: T.BufferGeometry) {
-  const faces = dieFaces(geometry);
-  const numbered =
-    faces.length === 8 && faces.some((f) => f.vertices.length === 6)
-      ? faces.filter((f) => f.vertices.length === 6)
-      : faces;
-  return numbered.map((face, index) => ({
+  const faces = dieFaces(geometry),
+    major = faces.filter((f) => f.vertices.length === 6);
+  if (faces.length === 8 && major.length === 4) {
+    return faces.map((face, index) => {
+      const primary =
+        face.vertices.length === 6
+          ? major.indexOf(face)
+          : major.reduce(
+              (best, f, i) =>
+                f.normal.dot(face.normal) < major[best].normal.dot(face.normal)
+                  ? i
+                  : best,
+              0,
+            );
+      return {
+        ...face,
+        index,
+        value: primary + 1,
+        numeralOrientation: faceOrientation(face.normal),
+      };
+    });
+  }
+  return faces.map((face, index) => ({
     ...face,
     index,
     value: index + 1,

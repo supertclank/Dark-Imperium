@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useDiceCoordinator } from "@/lib/dice-coordinator";
 import { api, ApiError } from "@/lib/api";
-import type { RollHistory, RollResult } from "@/lib/rolls";
+import type { RollHistory, RollResult, RollSession } from "@/lib/rolls";
 import { useSession } from "./Session";
 import { DicePresentation, type PresentationEvent } from "./DicePresentation";
 import { DiceResult } from "./DiceResult";
@@ -55,12 +55,21 @@ export function FreeDice() {
     setError("");
     setRetry(request);
     try {
-      const result = await api<RollResult>("/rolls/free", {
+      const session = await api<RollSession>("/roll-sessions/free", {
         method: "POST",
         body: JSON.stringify(request),
       });
       setRetry(null);
-      present(result, false);
+      if (session.result) present(session.result, true);
+      else if (session.status === "CREATED") {
+        setPhase("PRESENTING");
+        setEvent((e) => ({
+          session,
+          serial: (e?.serial ?? 0) + 1,
+          replay: false,
+        }));
+      } else
+        throw new ApiError(409, "Roll expired or cancelled. Start a new roll.");
     } catch (e) {
       setError((e as Error).message);
       if (e instanceof ApiError && e.status > 0 && e.status < 500)
@@ -85,6 +94,11 @@ export function FreeDice() {
       <div className="free-dice-settings">
         <DicePresentation
           event={event}
+          onCancel={() => {
+            setPhase("IDLE");
+            setEvent(null);
+            coordinator.release();
+          }}
           requesting={phase === "REQUESTING"}
           onReveal={(r) => {
             setLatest(r);
@@ -99,7 +113,7 @@ export function FreeDice() {
       {open && (
         <aside className="free-dice-panel" aria-label="Free dice roller">
           <h2>Free dice</h2>
-          <p>Raw dice · no modifiers · private server rolls</p>
+          <p>Raw physical dice · no modifiers · private rolls</p>
           <div className="free-dice-pool">
             {sides.map((s) => (
               <div key={s}>

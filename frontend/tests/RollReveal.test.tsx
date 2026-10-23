@@ -9,6 +9,7 @@ import {
 } from "@testing-library/react";
 import { RollPanel } from "../src/components/RollPanel";
 import type { SavedCharacter } from "../src/lib/builder";
+import { physicalSession } from "./physical-fixture";
 import character from "./fixtures/roll-character.json";
 import options from "./fixtures/roll-options.json";
 import attack from "./fixtures/roll-result.json";
@@ -23,27 +24,42 @@ vi.mock("../src/lib/api", async (original) => ({
   api: mock.api,
 }));
 vi.mock("../src/lib/dice-renderer", () => ({
-  createDiceRenderer: (
+  startPhysicalRoll: (
+    _s: unknown,
     _h: unknown,
+    _a: unknown,
+    done: (v: number[][]) => void,
     _f: unknown,
-    done: () => void,
-    settling: () => void,
+    cocked: () => void,
   ) => {
-    mock.settle = done;
-    mock.settling = settling;
-    return { show: mock.show, skip: done, dispose: () => {} };
+    mock.show();
+    mock.settle = () => done([[13]]);
+    mock.settling = cocked;
+    return Promise.resolve({ skip: mock.settle, dispose: () => {} });
   },
 }));
 beforeEach(() => {
   vi.clearAllMocks();
   localStorage.clear();
 });
-it("masks even freshly fetched persisted history until all dice finish", async () => {
+it("does not persist or reveal a character result until physical faces are accepted", async () => {
   let saved = false;
   mock.api.mockImplementation((path: string, init?: RequestInit) => {
     if (init?.method === "POST") {
-      saved = true;
-      return Promise.resolve(attack);
+      if (path.endsWith("/finalize")) {
+        saved = true;
+        return Promise.resolve({
+          ...attack,
+          physical: {
+            source: "PHYSICS",
+            presentationSeed: physicalSession.presentationSeed,
+            physicsVersion: physicalSession.physicsVersion,
+            geometryVersion: physicalSession.geometryVersion,
+            rawPhysicalValues: [[13]],
+          },
+        });
+      }
+      return Promise.resolve(physicalSession);
     }
     return Promise.resolve(
       path.endsWith("/options")
@@ -61,7 +77,7 @@ it("masks even freshly fetched persisted history until all dice finish", async (
     await screen.findByRole("button", { name: "Roll Lasgun attack" }),
   );
   await waitFor(() => expect(mock.show).toHaveBeenCalled());
-  expect(saved).toBe(true);
+  expect(saved).toBe(false);
   expect(screen.queryByRole("article")).not.toBeInTheDocument();
   expect(screen.queryByText("Latest result")).not.toBeInTheDocument();
   expect(
@@ -72,7 +88,8 @@ it("masks even freshly fetched persisted history until all dice finish", async (
   expect(
     screen.queryByRole("button", { name: /linked damage/ }),
   ).not.toBeInTheDocument();
-  act(() => mock.settle());
+  await act(async () => mock.settle());
+  expect(saved).toBe(true);
   expect(screen.getByText("Latest result")).toBeInTheDocument();
   expect(
     screen.getByRole("button", { name: /linked damage/ }),
@@ -83,5 +100,5 @@ it("masks even freshly fetched persisted history until all dice finish", async (
   expect(screen.queryByText("Latest result")).not.toBeInTheDocument();
   expect(
     mock.api.mock.calls.filter((c) => c[1]?.method === "POST"),
-  ).toHaveLength(1);
+  ).toHaveLength(2);
 });

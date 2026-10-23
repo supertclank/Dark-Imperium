@@ -1,13 +1,16 @@
 "use client";
 import type { RollOption } from "@/lib/rolls";
+import type { ReactNode } from "react";
 export function RollActionButton({
   option,
   disabled,
   onRoll,
+  children,
 }: {
   option: RollOption;
   disabled: boolean;
   onRoll: () => void;
+  children?: ReactNode;
 }) {
   const name = option.consumes
     ? `Use ${option.label.replace(/ damage$/, "")} and roll damage`
@@ -19,7 +22,7 @@ export function RollActionButton({
       onClick={onRoll}
       aria-label={name}
     >
-      {name}
+      {children ?? name}
     </button>
   );
 }

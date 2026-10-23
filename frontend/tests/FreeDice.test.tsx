@@ -8,6 +8,7 @@ import {
   act,
 } from "@testing-library/react";
 import { FreeDice } from "../src/components/FreeDice";
+import { physicalSession } from "./physical-fixture";
 import fixture from "./fixtures/roll-result.json";
 const mock = vi.hoisted(() => ({
   api: vi.fn(),
@@ -22,9 +23,15 @@ vi.mock("../src/components/Session", () => ({
   useSession: () => ({ user: { id: "tester" } }),
 }));
 vi.mock("../src/lib/dice-renderer", () => ({
-  createDiceRenderer: (_h: unknown, _f: unknown, done: () => void) => {
-    mock.settle = done;
-    return { show: mock.show, skip: done, dispose: () => {} };
+  startPhysicalRoll: (
+    _s: unknown,
+    _h: unknown,
+    _a: unknown,
+    done: (v: number[][]) => void,
+  ) => {
+    mock.show();
+    mock.settle = () => done([[13]]);
+    return Promise.resolve({ skip: mock.settle, dispose: () => {} });
   },
 }));
 const result = {
@@ -35,6 +42,13 @@ const result = {
   characterName: "Free dice",
   dice: { ...fixture.dice, modifier: 0 },
   naturalResult: null,
+  physical: {
+    source: "PHYSICS",
+    presentationSeed: physicalSession.presentationSeed,
+    physicsVersion: physicalSession.physicsVersion,
+    geometryVersion: physicalSession.geometryVersion,
+    rawPhysicalValues: [[13]],
+  },
 };
 beforeEach(() => {
   vi.clearAllMocks();
@@ -42,7 +56,9 @@ beforeEach(() => {
   mock.api.mockImplementation((_path: string, init?: RequestInit) =>
     Promise.resolve(
       init?.method === "POST"
-        ? result
+        ? _path.endsWith("/finalize")
+          ? result
+          : physicalSession
         : { items: [], limit: 25, hasMore: false },
     ),
   );
@@ -62,7 +78,7 @@ it("builds pool with add remove and clear and sends no modifier", async () => {
   expect(JSON.parse(post[1].body)).not.toHaveProperty("modifier");
   expect(screen.queryByRole("article")).not.toBeInTheDocument();
   expect(screen.queryByText("Free roll history")).not.toBeInTheDocument();
-  act(() => mock.settle());
+  await act(async () => mock.settle());
   expect(screen.getByText("Free roll history")).toBeInTheDocument();
   fireEvent.click(screen.getByRole("button", { name: "Clear Dice" }));
   expect(screen.getByLabelText("Dice pool")).toHaveTextContent("Choose dice");
@@ -73,17 +89,19 @@ it("replay masks history without POST and Roll Again uses a new UUID", async () 
   fireEvent.click(screen.getByRole("button", { name: "d20" }));
   fireEvent.click(screen.getByRole("button", { name: "Roll pool" }));
   await waitFor(() => expect(mock.show).toHaveBeenCalled());
-  act(() => mock.settle());
+  await act(async () => mock.settle());
   fireEvent.click(screen.getByRole("button", { name: "Replay Dice" }));
   await waitFor(() => expect(mock.show).toHaveBeenCalledTimes(2));
   expect(screen.queryByRole("article")).not.toBeInTheDocument();
   expect(
     mock.api.mock.calls.filter((c) => c[1]?.method === "POST"),
-  ).toHaveLength(1);
-  act(() => mock.settle());
+  ).toHaveLength(2);
+  await act(async () => mock.settle());
   fireEvent.click(screen.getByRole("button", { name: "Roll Again" }));
   await waitFor(() => expect(mock.show).toHaveBeenCalledTimes(3));
-  const posts = mock.api.mock.calls.filter((c) => c[1]?.method === "POST");
+  const posts = mock.api.mock.calls.filter(
+    (c) => c[0] === "/roll-sessions/free",
+  );
   expect(JSON.parse(posts[0][1].body).requestId).not.toBe(
     JSON.parse(posts[1][1].body).requestId,
   );

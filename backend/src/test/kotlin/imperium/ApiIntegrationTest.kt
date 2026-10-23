@@ -52,6 +52,53 @@ class ApiIntegrationTest {
     }
     private suspend fun HttpResponse.json() = Json.parseToJsonElement(bodyAsText()).jsonObject
 
+    @Test fun `physical free sessions validate faces ownership and concurrent finalisation`() = runApi {
+        val cookie=client.account();val other=client.account()
+        val request=FreeRollRequest(UUID.randomUUID().toString(),listOf(FreeDiePool(2,6),FreeDiePool(1,100)))
+        val body=Json.encodeToString(FreeRollRequest.serializer(),request)
+        val authorised=client.postJson("/api/roll-sessions/free",body,cookie)
+        assertEquals(HttpStatusCode.OK,authorised.status);val session=authorised.json();val id=session.text("rollSessionId")
+        assertEquals(64,session.text("presentationSeed").length);assertEquals(JsonNull,session["result"]);assertFalse(session.containsKey("values"));assertFalse(session.containsKey("total"))
+        assertEquals(session,client.postJson("/api/roll-sessions/free",body,cookie).json())
+        assertEquals(HttpStatusCode.Conflict,client.postJson("/api/rolls/free",body,cookie).status)
+        val endpoint="/api/roll-sessions/$id/finalize"
+        assertEquals(HttpStatusCode.Unauthorized,client.postJson(endpoint,"{\"values\":[[4,6],[100]]}").status)
+        assertEquals(HttpStatusCode.NotFound,client.postJson(endpoint,"{\"values\":[[4,6],[100]]}",other).status)
+        for(invalid in listOf("[[6],[100]]","[[6,9],[100]]","[[6,6],[101]]","[[6,6],[0]]"))assertEquals(HttpStatusCode.UnprocessableEntity,client.postJson(endpoint,"{\"values\":$invalid}",cookie).status)
+        assertEquals(HttpStatusCode.UnprocessableEntity,client.postJson(endpoint,"{\"values\":[[4,6],[100]],\"physicsVersion\":\"forged\"}",cookie).status)
+        val results=coroutineScope{(1..2).map{async{client.postJson(endpoint,"{\"values\":[[4,6],[100]]}",cookie)}}.awaitAll()}
+        results.forEach{assertEquals(HttpStatusCode.OK,it.status)};val result=results[0].json();assertEquals(result,results[1].json());assertEquals(110,result.num("total"));assertEquals("PHYSICS",result.getValue("physical").jsonObject.text("source"))
+        assertEquals(HttpStatusCode.Conflict,client.postJson(endpoint,"{\"values\":[[1,1],[1]]}",cookie).status)
+        assertEquals(1,client.get("/api/rolls/free"){header(HttpHeaders.Cookie,cookie)}.json().arr("items").size)
+    }
+    @Test fun `physical sessions expire cancel and fall back once without invented client faces`() = runApi {
+        val cookie=client.account()
+        suspend fun session()=client.postJson("/api/roll-sessions/free",Json.encodeToString(FreeRollRequest.serializer(),FreeRollRequest(UUID.randomUUID().toString(),listOf(FreeDiePool(1,20)))),cookie).json().text("rollSessionId")
+        val expired=session();database.read{it.execute("UPDATE physical_roll_sessions SET expires_at=now()-interval '1 second' WHERE id=?",uuid(expired))}
+        assertEquals(HttpStatusCode.Conflict,client.postJson("/api/roll-sessions/$expired/finalize","{\"values\":[[10]]}",cookie).status)
+        val cancelled=session();assertEquals(HttpStatusCode.OK,client.postJson("/api/roll-sessions/$cancelled/cancel","{}",cookie).status)
+        assertEquals(HttpStatusCode.Conflict,client.postJson("/api/roll-sessions/$cancelled/finalize","{\"values\":[[10]]}",cookie).status)
+        val fallback=session();val url="/api/roll-sessions/$fallback/finalize"
+        assertEquals(HttpStatusCode.UnprocessableEntity,client.postJson(url,"{\"fallback\":true,\"values\":[[20]]}",cookie).status)
+        val first=client.postJson(url,"{\"fallback\":true}",cookie).json();assertEquals("SERVER_FALLBACK",first.getValue("physical").jsonObject.text("source"));assertEquals(first,client.postJson(url,"{\"fallback\":true}",cookie).json())
+        assertEquals(HttpStatusCode.Conflict,client.postJson(url,"{\"values\":[[20]]}",cookie).status)
+    }
+    @Test fun `physical grenade reservations do not consume until accepted and expire safely`() = runApi {
+        val cookie=client.account();val sheet=client.create(cookie).json();val character=sheet.text("id")
+        val options=client.get("/api/characters/$character/rolls/options"){header(HttpHeaders.Cookie,cookie)}.json();val grenade=options.objects("options").first{it.getValue("consumes").jsonPrimitive.boolean};val quantity=grenade.num("quantity")
+        fun request()=RollRequest(UUID.randomUUID().toString(),grenade.text("id"),options.text("profileId"),options.text("profileDigest"),options.getValue("stateVersion").jsonPrimitive.long,confirmConsumption=true)
+        val requests=(1..quantity).map{request()};val sessions=requests.map{client.postJson("/api/characters/$character/roll-sessions",Json.encodeToString(RollRequest.serializer(),it),cookie).json()}
+        fun quantityNow()=database.read{it.query("SELECT quantity FROM player_character_inventory WHERE character_id=? AND definition_id=?",uuid(character),grenade.text("itemId")){r->r.getInt(1)}.single()}
+        assertEquals(quantity,quantityNow())
+        assertEquals(HttpStatusCode.Conflict,client.postJson("/api/characters/$character/roll-sessions",Json.encodeToString(RollRequest.serializer(),request()),cookie).status)
+        assertEquals(HttpStatusCode.Conflict,client.postJson("/api/characters/$character/rolls",Json.encodeToString(RollRequest.serializer(),request()),cookie).status)
+        val first=sessions.first();val raw=first.objects("groups").map{g->List(g.num("count")){1}}
+        val submit=Json.encodeToString(PhysicalSubmission.serializer(),PhysicalSubmission(raw))
+        val url="/api/roll-sessions/${first.text("rollSessionId")}/finalize";val result=client.postJson(url,submit,cookie);assertEquals(HttpStatusCode.OK,result.status);assertEquals(quantity-1,quantityNow());assertEquals(result.json(),client.postJson(url,submit,cookie).json());assertEquals(quantity-1,quantityNow())
+        sessions.drop(1).forEach{session->database.read{it.execute("UPDATE physical_roll_sessions SET expires_at=now()-interval '1 second' WHERE id=?",uuid(session.text("rollSessionId")))}}
+        if(quantity>1){val next=request().copy(expectedStateVersion=1);assertEquals(HttpStatusCode.OK,client.postJson("/api/characters/$character/roll-sessions",Json.encodeToString(RollRequest.serializer(),next),cookie).status)}
+    }
+
     @Test fun `free dice authenticate validate persist and replay idempotently`() = runApi {
         val cookie=client.account();val stranger=client.account()
         val request=FreeRollRequest(UUID.randomUUID().toString(),listOf(FreeDiePool(2,20),FreeDiePool(3,6),FreeDiePool(1,100)))

@@ -9,13 +9,19 @@ import {
   RollOptions,
   RollRequest,
   RollResult,
+  RollSession,
 } from "@/lib/rolls";
 import { DicePresentation, type PresentationEvent } from "./DicePresentation";
 import { RollActionButton } from "./RollActionButton";
+import { PlaySheet } from "./PlaySheet";
 import { DiceResult } from "./DiceResult";
 
-type Props = { character: SavedCharacter; onRefresh: () => Promise<void> };
-export function RollPanel({ character, onRefresh }: Props) {
+type Props = {
+  character: SavedCharacter;
+  onRefresh: () => Promise<void>;
+  playLayout?: boolean;
+};
+export function RollPanel({ character, onRefresh, playLayout = false }: Props) {
   const coordinator = useDiceCoordinator();
   const [options, setOptions] = useState<RollOptions | null>(null);
   const [history, setHistory] = useState<RollHistory>({
@@ -79,28 +85,26 @@ export function RollPanel({ character, onRefresh }: Props) {
     setLastRequest(request);
     setConfirmation(null);
     try {
-      const result = await api<RollResult>(base, {
-        method: "POST",
-        body: JSON.stringify(request),
-      });
-      present(result, seenResults.current.has(result.id));
-      seenResults.current.add(result.id);
+      const session = await api<RollSession>(
+        `/characters/${character.id}/roll-sessions`,
+        {
+          method: "POST",
+          body: JSON.stringify(request),
+        },
+      );
       setUncertain(false);
-      setHistory((h) => ({
-        ...h,
-        items: [result, ...h.items.filter((r) => r.id !== result.id)].slice(
-          0,
-          25,
-        ),
-      }));
-      try {
-        await refresh();
-      } catch {
-        setError(
-          "Roll saved. Refresh the sheet to load current inventory and history.",
+      if (session.result) present(session.result, true);
+      else if (session.status === "CREATED")
+        setPresentation((p) => ({
+          session,
+          serial: (p?.serial ?? 0) + 1,
+          replay: false,
+        }));
+      else
+        throw new ApiError(
+          409,
+          "Roll session expired or was cancelled. Start a new roll.",
         );
-        setOptions(null);
-      }
     } catch (e) {
       const failure = e as ApiError;
       coordinator.release();
@@ -177,16 +181,19 @@ export function RollPanel({ character, onRefresh }: Props) {
         )
       : undefined;
   return (
-    <section className="panel roll-panel" aria-labelledby="rolling-heading">
-      <h2 id="rolling-heading">Roll dice</h2>
-      <p>
-        Private, server-resolved rolls. Checks and weapon rolls do not spend
-        ammunition. Consumable damage rolls spend one item after confirmation.
-      </p>
-      <p className="small muted">
-        Resolve targets, hits, critical damage and conditional features
-        manually. No target HP is changed.
-      </p>
+    <section
+      className={playLayout ? "play-roll-panel" : "panel roll-panel"}
+      aria-label="Character rolls"
+    >
+      {!playLayout && (
+        <>
+          <h2 id="rolling-heading">Roll dice</h2>
+          <p>
+            Server-authorised physical rolls. Confirmed consumables are reserved
+            until the result is saved.
+          </p>
+        </>
+      )}
       {!options && !error && <p role="status">Loading supported rolls…</p>}
       <DicePresentation
         event={presentation}
@@ -195,75 +202,103 @@ export function RollPanel({ character, onRefresh }: Props) {
           setLatest(result);
           setPresenting(false);
           coordinator.release();
+          void refresh().catch(() =>
+            setError("Result saved. Refresh the sheet to load current state."),
+          );
+        }}
+        onCancel={() => {
+          setPresenting(false);
+          setPresentation(null);
+          coordinator.release();
         }}
       />
-      <div className="roll-controls">
-        {Object.entries(grouped).map(([key, items]) => {
-          const weapon = !!items[0].itemId;
-          const label = weapon
-            ? character.calculated.actions.find((a) => a.itemId === key)
-                ?.name || items[0].label
-            : {
-                attribute: "Ability checks",
-                skill: "Skill checks",
-                save: "Saving throws",
-                ability: "Initiative",
-                damage: "Innate damage",
-              }[key] || key;
-          const choices = items[0].abilities;
-          return (
-            <details key={key} open={weapon || key === "ability"}>
-              <summary>{label}</summary>
-              {choices.length > 0 && (
-                <>
-                  <label htmlFor={`roll-ability-${key}`}>{label} ability</label>
-                  <select
-                    id={`roll-ability-${key}`}
-                    disabled={
-                      coordinator.otherBusy || busy || presenting || uncertain
-                    }
-                    value={abilities[key] || choices[0]}
-                    onChange={(e) =>
-                      setAbilities({ ...abilities, [key]: e.target.value })
-                    }
-                  >
-                    {choices.map((a) => (
-                      <option key={a} value={a}>
-                        {a}
-                      </option>
-                    ))}
-                  </select>
-                </>
-              )}
-              <div className="roll-button-grid">
-                {items.map((option) => (
-                  <div key={option.id}>
-                    <RollActionButton
-                      option={option}
+      {playLayout ? (
+        <PlaySheet
+          character={character}
+          options={options?.options ?? []}
+          disabled={coordinator.otherBusy || busy || presenting || uncertain}
+          onRoll={requestRoll}
+          abilities={abilities}
+          onAbility={(key, value) =>
+            setAbilities((p) => ({ ...p, [key]: value }))
+          }
+        />
+      ) : (
+        <div className="roll-controls">
+          {Object.entries(grouped).map(([key, items]) => {
+            const weapon = !!items[0].itemId;
+            const label = weapon
+              ? character.calculated.actions.find((a) => a.itemId === key)
+                  ?.name || items[0].label
+              : {
+                  attribute: "Ability checks",
+                  skill: "Skill checks",
+                  save: "Saving throws",
+                  ability: "Initiative",
+                  damage: "Innate damage",
+                }[key] || key;
+            const choices = items[0].abilities;
+            return (
+              <details key={key} open={weapon || key === "ability"}>
+                <summary>{label}</summary>
+                {choices.length > 0 && (
+                  <>
+                    <label htmlFor={`roll-ability-${key}`}>
+                      {label} ability
+                    </label>
+                    <select
+                      id={`roll-ability-${key}`}
                       disabled={
                         coordinator.otherBusy || busy || presenting || uncertain
                       }
-                      onRoll={() => requestRoll(option)}
-                    />
-                    <p className="small muted">
-                      Baseline:{" "}
-                      {option.groups
-                        .map((g) => `${g.count}d${g.sides}`)
-                        .join(" + ")}{" "}
-                      {signed(option.modifier)}
-                      {option.consumes ? ` · Quantity: ${option.quantity}` : ""}
-                      {choices.length
-                        ? " · Selected ability is calculated on the server"
-                        : ""}
-                    </p>
-                    {!option.available && <p>{option.reason}</p>}
-                  </div>
-                ))}
-              </div>
-            </details>
-          );
-        })}
-      </div>
+                      value={abilities[key] || choices[0]}
+                      onChange={(e) =>
+                        setAbilities({ ...abilities, [key]: e.target.value })
+                      }
+                    >
+                      {choices.map((a) => (
+                        <option key={a} value={a}>
+                          {a}
+                        </option>
+                      ))}
+                    </select>
+                  </>
+                )}
+                <div className="roll-button-grid">
+                  {items.map((option) => (
+                    <div key={option.id}>
+                      <RollActionButton
+                        option={option}
+                        disabled={
+                          coordinator.otherBusy ||
+                          busy ||
+                          presenting ||
+                          uncertain
+                        }
+                        onRoll={() => requestRoll(option)}
+                      />
+                      <p className="small muted">
+                        Baseline:{" "}
+                        {option.groups
+                          .map((g) => `${g.count}d${g.sides}`)
+                          .join(" + ")}{" "}
+                        {signed(option.modifier)}
+                        {option.consumes
+                          ? ` · Quantity: ${option.quantity}`
+                          : ""}
+                        {choices.length
+                          ? " · Selected ability is calculated on the server"
+                          : ""}
+                      </p>
+                      {!option.available && <p>{option.reason}</p>}
+                    </div>
+                  ))}
+                </div>
+              </details>
+            );
+          })}
+        </div>
+      )}
       {confirmation && (
         <div
           className="consumption-confirm"
@@ -381,41 +416,44 @@ export function RollPanel({ character, onRefresh }: Props) {
           </>
         )}
       </div>
-      <h3>Recent rolls</h3>
-      {presenting ? (
-        <p>History hidden until dice settle.</p>
-      ) : !history.items.length ? (
-        <p>No rolls recorded yet.</p>
-      ) : (
-        <ol className="roll-history">
-          {history.items.map((result) => (
-            <li key={result.id}>
-              <details>
-                <summary>
-                  <time dateTime={result.timestamp}>
-                    {new Date(result.timestamp).toLocaleTimeString()}
-                  </time>{" "}
-                  · {result.label} · {result.total}
-                  {result.damageType ? ` ${result.damageType.name}` : ""}
-                </summary>
-                <DiceResult result={result} mode="TEXT_ONLY" />
-                <button
-                  type="button"
-                  className="secondary"
-                  onClick={() => present(result, true)}
-                >
-                  Replay Dice
-                </button>
-              </details>
-            </li>
-          ))}
-        </ol>
-      )}
-      {history.hasMore && (
-        <p>
-          Showing the latest {history.limit} rolls. Older results remain stored.
-        </p>
-      )}
+      <details className="play-history" open={!playLayout}>
+        <summary>Recent rolls</summary>
+        {presenting ? (
+          <p>History hidden until dice settle.</p>
+        ) : !history.items.length ? (
+          <p>No rolls recorded yet.</p>
+        ) : (
+          <ol className="roll-history">
+            {history.items.map((result) => (
+              <li key={result.id}>
+                <details>
+                  <summary>
+                    <time dateTime={result.timestamp}>
+                      {new Date(result.timestamp).toLocaleTimeString()}
+                    </time>{" "}
+                    · {result.label} · {result.total}
+                    {result.damageType ? ` ${result.damageType.name}` : ""}
+                  </summary>
+                  <DiceResult result={result} mode="TEXT_ONLY" />
+                  <button
+                    type="button"
+                    className="secondary"
+                    onClick={() => present(result, true)}
+                  >
+                    Replay Dice
+                  </button>
+                </details>
+              </li>
+            ))}
+          </ol>
+        )}
+        {history.hasMore && (
+          <p>
+            Showing the latest {history.limit} rolls. Older results remain
+            stored.
+          </p>
+        )}
+      </details>
     </section>
   );
 }

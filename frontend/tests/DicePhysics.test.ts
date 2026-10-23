@@ -6,8 +6,8 @@ import {
   physicsTuning,
   nearSettled,
 } from "../src/lib/dice-physics";
-import {Vector3} from "three";
-import { dieGeometry, dieFaceMap, settledOrientation } from "../src/lib/dice-geometry";
+import {Vector3,Quaternion} from "three";
+import { dieGeometry, dieFaceMap } from "../src/lib/dice-geometry";
 import { physicalDice, presentRoll } from "../src/lib/dice-presentation";
 import type { RollResult } from "../src/lib/rolls";
 import fixture from "./fixtures/grenade-result.json";
@@ -71,4 +71,4 @@ it.each([
   },
 );
 
-it.each([4,6,8,10,12,20])('every authoritative d%i orientation has a planar supporting face',sides=>{const g=dieGeometry(sides),p=g.getAttribute('position');for(const face of dieFaceMap(g)){const q=settledOrientation(g,face.value),points=Array.from({length:p.count},(_,i)=>new Vector3().fromBufferAttribute(p,i).applyQuaternion(q));const low=Math.min(...points.map(v=>v.y));const contact:Vector3[]=[];for(const v of points.filter(v=>Math.abs(v.y-low)<1e-5))if(!contact.some(c=>c.distanceToSquared(v)<1e-8))contact.push(v);expect(contact.length).toBeGreaterThanOrEqual(3);}g.dispose();});
+it.each([4,6,8,10,12,20])('every authoritative d%i orientation has a planar supporting face',sides=>{const g=dieGeometry(sides),p=g.getAttribute('position');for(const face of dieFaceMap(g)){const q=new Quaternion().setFromUnitVectors(face.normal,new Vector3(0,1,0)),points=Array.from({length:p.count},(_,i)=>new Vector3().fromBufferAttribute(p,i).applyQuaternion(q));const low=Math.min(...points.map(v=>v.y));const contact:Vector3[]=[];for(const v of points.filter(v=>Math.abs(v.y-low)<1e-5))if(!contact.some(c=>c.distanceToSquared(v)<1e-8))contact.push(v);expect(contact.length).toBeGreaterThanOrEqual(3);}g.dispose();});

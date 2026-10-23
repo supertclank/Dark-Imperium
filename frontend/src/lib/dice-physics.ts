@@ -7,8 +7,9 @@ export const physicsTuning = {
   gravity: -25,
   timestep: 1 / 60,
   maxCatchup: 0.1,
-  maxDuration: 3200,
-  convergenceDuration: 700,
+  mass: 1,
+  maxStepsPerAttempt: 600,
+  stableSteps: 24,
 };
 export function makeBoundaries(world: RAPIER.World, x: number, z: number) {
   return [
@@ -42,6 +43,7 @@ export function createBody(
   if (!hull) throw Error("Invalid die hull");
   world.createCollider(
     hull
+      .setMass(physicsTuning.mass)
       .setFriction(physicsTuning.friction)
       .setRestitution(physicsTuning.restitution),
     body,

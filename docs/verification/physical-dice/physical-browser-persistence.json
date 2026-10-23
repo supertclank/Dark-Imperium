@@ -1,0 +1,238 @@
+[
+  {
+    "id": "a8d8e4d5-cdff-45ce-a064-aa6f7827b720",
+    "label": "Long-Las damage",
+    "total": 10,
+    "physical": {
+      "source": "PHYSICS",
+      "rollSessionId": "25adcb4a-854d-497b-9416-9a927a32eb04",
+      "physicsVersion": "rapier-0.21.0-di-1",
+      "geometryVersion": "di-physical-2",
+      "presentationSeed": "0e915a290509078ca634e6683b85d1e0894ff171deba7d9acec61185da33204f",
+      "rawPhysicalValues": [
+        [
+          6
+        ]
+      ]
+    }
+  },
+  {
+    "id": "12cc1024-99ec-4b56-a86b-3909d18b8d64",
+    "label": "Long-Las attack",
+    "total": 9,
+    "physical": {
+      "source": "PHYSICS",
+      "rollSessionId": "fd273ee1-c0b2-4e1f-9393-8af98c770ef7",
+      "physicsVersion": "rapier-0.21.0-di-1",
+      "geometryVersion": "di-physical-2",
+      "presentationSeed": "c5539951f4bfb95ce12533cd3f3261bdb8a9d248dbae7c4a89496f5b316cd483",
+      "rawPhysicalValues": [
+        [
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "id": "b5af4849-59f8-4f7a-a949-1c86bffdd9bd",
+    "label": "Initiative",
+    "total": 18,
+    "physical": {
+      "source": "PHYSICS",
+      "rollSessionId": "97718733-fdd4-4e24-9bac-351ba75f7b8a",
+      "physicsVersion": "rapier-0.21.0-di-1",
+      "geometryVersion": "di-physical-2",
+      "presentationSeed": "9393af845614fd3f1fe3c95c1091223d93fa4d09823b54c853c53ce6f35480fd",
+      "rawPhysicalValues": [
+        [
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "b23edb1d-1ae7-4a1b-81d0-75ef7fc4d62e",
+    "label": "strength save",
+    "total": 16,
+    "physical": {
+      "source": "PHYSICS",
+      "rollSessionId": "ed84ea0f-bc2f-4763-84a0-d3ca7afb38cf",
+      "physicsVersion": "rapier-0.21.0-di-1",
+      "geometryVersion": "di-physical-2",
+      "presentationSeed": "b39fa974878411bd2af204d5f984ae57fdafb23fcb1f67e2fa3d65075755aba3",
+      "rawPhysicalValues": [
+        [
+          14
+        ]
+      ]
+    }
+  },
+  {
+    "id": "c7e886ed-89a4-4bea-bd98-acea7d1ef197",
+    "label": "Acrobatics",
+    "total": 6,
+    "physical": {
+      "source": "PHYSICS",
+      "rollSessionId": "75710835-c6ba-4c7f-9755-2ca06c0ee7ec",
+      "physicsVersion": "rapier-0.21.0-di-1",
+      "geometryVersion": "di-physical-2",
+      "presentationSeed": "62207c272f932a314dce3c66932b945a0aea8ac3d2e0aca0fe7f05ff30585536",
+      "rawPhysicalValues": [
+        [
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "id": "34cf216a-ed7a-438a-ae72-b80dac4c00b1",
+    "label": "strength check",
+    "total": 12,
+    "physical": {
+      "source": "PHYSICS",
+      "rollSessionId": "c24d7140-70d0-4b6f-a963-4a19ca820b27",
+      "physicsVersion": "rapier-0.21.0-di-1",
+      "geometryVersion": "di-physical-2",
+      "presentationSeed": "19ea4ac292ccb6cbe58ade3d0fa7d9d3c24625e5da2f1326f3acc2929c9c08cc",
+      "rawPhysicalValues": [
+        [
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "e97bc5aa-6205-44a2-b19b-e974cf00c274",
+    "label": "constitution check",
+    "total": 7,
+    "physical": {
+      "source": "PHYSICS",
+      "rollSessionId": "3fa55b25-9cb6-4ad8-b9f6-c18da1a1b5f9",
+      "physicsVersion": "rapier-0.21.0-di-1",
+      "geometryVersion": "di-physical-2",
+      "presentationSeed": "6b445480e9065cc58217572e1c794b3169ae91c3311550f124984ea447f5e32c",
+      "rawPhysicalValues": [
+        [
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "c5cd00af-5f85-4fdc-ad41-f3fe01a74ef8",
+    "label": "constitution check",
+    "total": 6,
+    "physical": {
+      "source": "PHYSICS",
+      "rollSessionId": "deddf2f3-79d8-4437-82fc-2bc3ae0919be",
+      "physicsVersion": "rapier-0.21.0-di-1",
+      "geometryVersion": "di-physical-2",
+      "presentationSeed": "e3e408963d81ddd1093431942422cdcecf7903ce08754de45920adbb8702620a",
+      "rawPhysicalValues": [
+        [
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "id": "1c4775f0-ef66-4e69-90bc-a0866912ef60",
+    "label": "dexterity check",
+    "total": 4,
+    "physical": {
+      "source": "PHYSICS",
+      "rollSessionId": "dab2f928-19ec-48bd-8045-bbdb49c64659",
+      "physicsVersion": "rapier-0.21.0-di-1",
+      "geometryVersion": "di-physical-2",
+      "presentationSeed": "f270a284b3d419b8a7567b41cad1fe0f04da6f305a5f1cab2d227b86caf1de7a",
+      "rawPhysicalValues": [
+        [
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "id": "e8937d92-7312-4e88-8d78-8a8658e98544",
+    "label": "Frag Grenade damage",
+    "total": 13,
+    "physical": {
+      "source": "PHYSICS",
+      "rollSessionId": "5254eed1-8aad-4871-8577-b1205eef1faa",
+      "physicsVersion": "rapier-0.21.0-di-1",
+      "geometryVersion": "di-physical-2",
+      "presentationSeed": "495487495b7ea56fa640cfc3cb482d151c1f0536a80c33e9ce0ed5fa3c494198",
+      "rawPhysicalValues": [
+        [
+          4,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "dd0eab93-7223-4256-ace7-64a01a597e3c",
+    "label": "1d100",
+    "total": 16,
+    "physical": {
+      "source": "PHYSICS",
+      "rollSessionId": "0cd88302-6d31-4906-92c8-7553f2bd6e5a",
+      "physicsVersion": "rapier-0.21.0-di-1",
+      "geometryVersion": "di-physical-2",
+      "presentationSeed": "726aedbdc56c370da6add3785a96c288fdbf418fbab5c9734cd511924da9c57c",
+      "rawPhysicalValues": [
+        [
+          16
+        ]
+      ]
+    }
+  },
+  {
+    "id": "b869cc2e-28fb-498f-a12d-54af1be44adc",
+    "label": "1d20 + 1d12 + 1d8 + 2d6",
+    "total": 22,
+    "physical": {
+      "source": "PHYSICS",
+      "rollSessionId": "0861adac-3dfe-4a9e-8bc7-c8182d51cae2",
+      "physicsVersion": "rapier-0.21.0-di-1",
+      "geometryVersion": "di-physical-2",
+      "presentationSeed": "499bcd08a0a9bfb80520746e96a26e24e335b22d4cd3f97fa68c757a769de896",
+      "rawPhysicalValues": [
+        [
+          8
+        ],
+        [
+          2
+        ],
+        [
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "80475137-fd60-433d-ba9c-98a1da4cb4df",
+    "label": "4d6",
+    "total": 16,
+    "physical": {
+      "source": "PHYSICS",
+      "rollSessionId": "02e65f37-094f-4562-bce7-00b601a13c70",
+      "physicsVersion": "rapier-0.21.0-di-1",
+      "geometryVersion": "di-physical-2",
+      "presentationSeed": "999b5cd63140ffa2fd82f9332ad159123b47fa39312aa0861c9d28925fb45b55",
+      "rawPhysicalValues": [
+        [
+          2,
+          6,
+          2,
+          6
+        ]
+      ]
+    }
+  }
+]
