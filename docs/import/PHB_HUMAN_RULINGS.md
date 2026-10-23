@@ -1,3 +1,5 @@
+Current advancement status: [non-Human v6 completion report](NONHUMAN_ADVANCEMENT_V6_REPORT.md). This release adds no human ruling decisions.
+
 # Human ruling checklist
 
 Fifteen approved decisions are integrated; **21 of the original 36 remain unresolved**. PHB-RULE-059 remains separate. See the [current readiness report](LEVEL4_ADVANCEMENT_REPORT.md).

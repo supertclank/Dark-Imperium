@@ -129,7 +129,8 @@ class ApiIntegrationTest {
         assertEquals(HttpStatusCode.Unauthorized,client.get("/api/character-builder/profile").status)
         val cookie=client.account()
         val profile=client.get("/api/character-builder/profile"){header(HttpHeaders.Cookie,cookie)}.json()
-        assertEquals("di-phb-1.0-tier1-v4",profile.text("id"))
+        assertEquals("di-phb-1.0-tier1-v6",profile.text("id"))
+        assertEquals(listOf(JsonPrimitive(1)),profile.arr("levels").toList())
         assertFalse(profile.containsKey("records"))
         val invalid=productionFixture().copy(speciesId="di.species.ogryn",answers=emptyMap())
         val body=Json.encodeToString(NarrowDraft.serializer(),invalid)
@@ -346,6 +347,65 @@ class ApiIntegrationTest {
         val response=client.postJson("/api/characters/$id/advance",Json.encodeToString(AdvanceRequest.serializer(),request),cookie)
         assertEquals(HttpStatusCode.UnprocessableEntity,response.status);assertTrue(response.bodyAsText().contains("UPGRADE_INCOMPATIBLE"))
         assertEquals(r.id,client.get("/api/characters/$id"){header(HttpHeaders.Cookie,cookie)}.json().text("rulesetProfileId"))
+    }
+
+    @Test fun `nonhuman upgrades advance every class sequentially preserving spent kit and runtime`() = runApi {
+        val cookie=client.account();val rules=NarrowRules.tier6()
+        val fixtures=tier6Fixtures().filter { it.level==1 && it.speciesId!="di.species.human" }.distinctBy { it.classId }
+        assertEquals(8,fixtures.size)
+        for(base in fixtures) {
+            val old=if(base.classId=="di.class.ratling_sharpshooter")rules else NarrowRules.tier4()
+            val d=base.copy(profileId=old.id,profileDigest=old.digest,requestId=UUID.randomUUID().toString())
+            val created=client.postJson("/api/characters",Json.encodeToString(NarrowDraft.serializer(),d),cookie);assertEquals(HttpStatusCode.Created,created.status,created.bodyAsText())
+            val id=created.json().text("id")
+            database.transaction { con ->
+                con.execute("UPDATE player_character_runtime SET current_hp=3,conditions='[\"test-context\"]'::jsonb,temporary_effects='[{\"id\":\"retained\"}]'::jsonb WHERE character_id=?",uuid(id))
+                con.execute("UPDATE player_character_inventory SET quantity=0 WHERE character_id=? AND definition_id IN ('di.weapon.frag_grenade','di.weapon.frag_bomb')",uuid(id))
+                con.execute("UPDATE player_character_runtime SET resources=(SELECT coalesce(jsonb_object_agg(key,value || '{\"remaining\":0}'::jsonb),'{}'::jsonb) FROM jsonb_each(resources)) WHERE character_id=?",uuid(id))
+            }
+            suspend fun sheet()=client.get("/api/characters/$id"){header(HttpHeaders.Cookie,cookie)}.json()
+            val before=sheet();val oldRuntime=before.getValue("runtime").jsonObject
+            val owner=database.read { it.query("SELECT user_id FROM player_characters WHERE id=?",uuid(id)){r->r.getObject(1,UUID::class.java)}.single() }
+            database.transaction { it.execute("UPDATE player_character_runtime SET conditions='[]'::jsonb,temporary_effects='[]'::jsonb WHERE character_id=?",uuid(id)) }
+            val rollService=CharacterRolls(database,ProductionCharacters(database));val ro=rollService.options(owner,uuid(id));val roll=ro.objects("options").first { it.text("label")=="Initiative" }
+            rollService.execute(owner,uuid(id),RollRequest(UUID.randomUUID().toString(),roll.text("id"),old.id,old.digest,0))
+            database.transaction { it.execute("UPDATE player_character_runtime SET conditions=?::jsonb,temporary_effects=?::jsonb WHERE character_id=?",oldRuntime.getValue("conditions").toString(),oldRuntime.getValue("temporaryEffects").toString(),uuid(id)) }
+            for(level in 2..4) {
+                val expected=tier6Fixtures().first { it.speciesId==base.speciesId && it.originId==base.originId && it.classId==base.classId && it.level==level }
+                val current=sheet();val answers=Json.decodeFromJsonElement(NarrowDraft.serializer(),current.getValue("selections")).answers
+                val request=AdvanceRequest(UUID.randomUUID().toString(),(level-2).toLong(),level,expected.answers.filterKeys { it !in answers },true)
+                fun body(q:AdvanceRequest)=Json.encodeToString(AdvanceRequest.serializer(),q)
+                if(level==2 && old.id!=rules.id) {
+                    val ready=client.get("/api/characters/$id/advancement"){header(HttpHeaders.Cookie,cookie)}.json();assertTrue(ready.getValue("requiresProfileUpgrade").jsonPrimitive.boolean)
+                    assertEquals(HttpStatusCode.UnprocessableEntity,client.postJson("/api/characters/$id/advance",body(request.copy(confirmProfileUpgrade=false)),cookie).status)
+                }
+                assertEquals(HttpStatusCode.UnprocessableEntity,client.postJson("/api/characters/$id/advance",body(request.copy(destinationLevel=level+1)),cookie).status)
+                val response=client.postJson("/api/characters/$id/advance",body(request),cookie);assertEquals(HttpStatusCode.OK,response.status,response.bodyAsText())
+                assertEquals(response.json(),client.postJson("/api/characters/$id/advance",body(request),cookie).json())
+                assertEquals(HttpStatusCode.Conflict,client.postJson("/api/characters/$id/advance",body(request.copy(requestId=UUID.randomUUID().toString())),cookie).status)
+                val saved=sheet();assertEquals(rules.id,saved.text("rulesetProfileId"));assertEquals(level,saved.num("level"));assertEquals(before["inventory"],saved["inventory"])
+                val runtime=saved.getValue("runtime").jsonObject;assertEquals(3,runtime.num("currentHp"));assertEquals(oldRuntime["conditions"],runtime["conditions"]);assertEquals(oldRuntime["temporaryEffects"],runtime["temporaryEffects"])
+                for((key,value) in oldRuntime.getValue("resources").jsonObject)assertEquals(value,runtime.getValue("resources").jsonObject[key])
+            }
+            // Unknown runtime conditions remain preserved and correctly prevent baseline roll authorization.
+            assertFailsWith<ApiException> { val opts=rollService.options(owner,uuid(id));rollService.execute(owner,uuid(id),RollRequest(UUID.randomUUID().toString(),opts.objects("options").first().text("id"),rules.id,rules.digest,3)) }
+            database.transaction { it.execute("UPDATE player_character_runtime SET conditions='[]'::jsonb,temporary_effects='[]'::jsonb WHERE character_id=?",uuid(id)) }
+            val ro4=rollService.options(owner,uuid(id));val initiative=ro4.objects("options").first { it.text("label")=="Initiative" }
+            rollService.execute(owner,uuid(id),RollRequest(UUID.randomUUID().toString(),initiative.text("id"),rules.id,rules.digest,3))
+            assertEquals(old.digest,database.read { it.query("SELECT profile_digest FROM character_rolls WHERE character_id=? ORDER BY created_at LIMIT 1",uuid(id)){r->r.getString(1)}.single() })
+            assertEquals(if(old.id==rules.id)0 else 1,database.read { it.query("SELECT count(*) FROM character_profile_upgrades WHERE character_id=?",uuid(id)){r->r.getInt(1)}.single() })
+        }
+    }
+    @Test fun `nonhuman upgrade failure rolls back profile level and resources`() = runApi {
+        val cookie=client.account();val r=NarrowRules.tier4();val d=nonhumanFixtures().first().copy(requestId=UUID.randomUUID().toString())
+        val before=client.postJson("/api/characters",Json.encodeToString(NarrowDraft.serializer(),d),cookie).json();val id=before.text("id")
+        database.transaction { con->con.execute("CREATE FUNCTION test_fail_v6() RETURNS trigger LANGUAGE plpgsql AS $$ BEGIN RAISE EXCEPTION 'forced v6 rollback'; END $$");con.execute("CREATE TRIGGER test_fail_v6 BEFORE INSERT ON character_profile_upgrades FOR EACH ROW EXECUTE FUNCTION test_fail_v6()") }
+        try {
+            val request=AdvanceRequest(UUID.randomUUID().toString(),0,2,confirmProfileUpgrade=true)
+            assertEquals(HttpStatusCode.InternalServerError,client.postJson("/api/characters/$id/advance",Json.encodeToString(AdvanceRequest.serializer(),request),cookie).status)
+            assertEquals(before,client.get("/api/characters/$id"){header(HttpHeaders.Cookie,cookie)}.json())
+            assertEquals(0,database.read { it.query("SELECT count(*) FROM character_profile_upgrades WHERE character_id=?",uuid(id)){r->r.getInt(1)}.single() })
+        } finally {database.transaction { it.execute("DROP TRIGGER test_fail_v6 ON character_profile_upgrades");it.execute("DROP FUNCTION test_fail_v6()") }}
     }
 
 }

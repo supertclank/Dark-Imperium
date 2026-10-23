@@ -17,10 +17,13 @@ class CharacterAdvancement(private val db:Database,private val characters:Produc
     private fun draft(sheet:JsonObject)=Json.decodeFromJsonElement(NarrowDraft.serializer(),sheet.getValue("selections"))
     private fun config(rules:NarrowRules,d:NarrowDraft)=rules.spec.objects("pathConfigurations").singleOrNull { it.text("speciesId")==d.speciesId && it.text("originId")==d.originId && it.text("classId")==d.classId && it.num("level")==d.level }
     private fun required(rules:NarrowRules,d:NarrowDraft):List<String> = config(rules,d.copy(level=d.level+1))?.strings("choices").orEmpty()-config(rules,d)?.strings("choices").orEmpty().toSet()
-    private fun target(rules:NarrowRules,d:NarrowDraft):NarrowRules {
-        val v5=NarrowRules.tier5();val contract=v5.spec.getValue("upgradeContract").jsonObject
-        return if(rules.id==contract.text("fromProfile") && rules.digest==contract.text("fromDigest") && d.level==contract.num("fromLevel") && d.speciesId==contract.text("speciesId") && d.classId==contract.text("classId") && config(v5,d.copy(level=4))!=null) v5 else rules
+    private fun contract(source:NarrowRules,destination:NarrowRules,d:NarrowDraft):JsonObject? {
+        val contracts=destination.spec.objects("upgradeContracts")+listOfNotNull(destination.spec["upgradeContract"] as? JsonObject)
+        return contracts.singleOrNull { c -> source.id==c.text("fromProfile") && source.digest==c.text("fromDigest") && destination.id==c.text("toProfile") && d.level==c.num("fromLevel") && d.level+1==c.num("toLevel") &&
+            (if(c.containsKey("speciesIds")) d.speciesId in c.strings("speciesIds") else d.speciesId==c.text("speciesId")) &&
+            (if(c.containsKey("classIds")) d.classId in c.strings("classIds") else d.classId==c.text("classId")) && config(destination,d.copy(level=d.level+1))!=null }
     }
+    private fun target(rules:NarrowRules,d:NarrowDraft):NarrowRules = listOf(NarrowRules.tier5(),NarrowRules.tier6()).firstOrNull { contract(rules,it,d)!=null } ?: rules
     private fun blockers(rules:NarrowRules,d:NarrowDraft):List<JsonObject> {
         val next=target(rules,d)
         if(d.level>=4 || (d.level>=3 && next.id==rules.id && Level4Rules.policy(rules)==null)) return listOf(obj("code" to "LEVEL_CAP","message" to "No further level is certified for this pinned profile."))
@@ -28,8 +31,8 @@ class CharacterAdvancement(private val db:Database,private val characters:Produc
         return emptyList()
     }
     private fun compatible(sheet:JsonObject,source:NarrowRules,destination:NarrowRules) {
-        val d=draft(sheet);val contract=destination.spec.getValue("upgradeContract").jsonObject
-        if(source.id!=contract.text("fromProfile") || source.digest!=contract.text("fromDigest") || d.level!=contract.num("fromLevel") || d.speciesId!=contract.text("speciesId") || d.classId!=contract.text("classId")) throw ApiException(422,"UPGRADE_NOT_CERTIFIED","No matching upgrade contract exists.")
+        val d=draft(sheet)
+        if(contract(source,destination,d)==null) throw ApiException(422,"UPGRADE_NOT_CERTIFIED","No matching upgrade contract exists.")
         val check=destination.validate(d.copy(profileId=destination.id,profileDigest=destination.digest),sheet.text("id"))
         if(check.errors.isNotEmpty()) throw ApiException(422,"UPGRADE_INCOMPATIBLE","Existing selections are incompatible with the destination profile.")
         val before=sheet.getValue("calculated").jsonObject;val after=check.calculated!!
@@ -69,8 +72,8 @@ class CharacterAdvancement(private val db:Database,private val characters:Produc
     fun readiness(owner:UUID,id:UUID):JsonObject=db.transaction { con ->
         own(con,owner,id,false);val sheet=characters.get(con,owner,id);val rules=pinned(con,sheet);val d=draft(sheet)
         val targetRules=target(rules,d);val blocked=blockers(rules,d);val keys=required(targetRules,d);val version=sheet.getValue("runtime").jsonObject.getValue("stateVersion").jsonPrimitive.long
-        val preview=if(blocked.isEmpty() && keys.isEmpty()) { val (next,c)=destination(sheet,rules,AdvanceRequest(UUID.randomUUID().toString(),version,d.level+1));previewView(sheet,next,c) } else null
-        obj("available" to blocked.isEmpty(),"currentLevel" to d.level,"nextLevel" to if(blocked.isEmpty()) d.level+1 else null,"stateVersion" to version,"requiresProfileUpgrade" to (targetRules.id!=rules.id),"upgradeContract" to (if(targetRules.id!=rules.id) targetRules.spec["upgradeContract"] else null),"level4Choice" to (if(d.level==3 && blocked.isEmpty()) Level4Rules.policy(targetRules) else null),"ownedTalentIds" to sheet.getValue("calculated").jsonObject.objects("features").filter { it.text("id").startsWith("di.feature.talent.") }.map { it.text("id") },"requiredChoices" to targetRules.profile().objects("choices").filter { it.text("id") in keys },"blockers" to blocked,"preview" to preview)
+        val preview=if(blocked.isEmpty() && keys.isEmpty() && targetRules.id==rules.id) { val (next,c)=destination(sheet,rules,AdvanceRequest(UUID.randomUUID().toString(),version,d.level+1));previewView(sheet,next,c) } else null
+        obj("available" to blocked.isEmpty(),"currentLevel" to d.level,"nextLevel" to if(blocked.isEmpty()) d.level+1 else null,"stateVersion" to version,"requiresProfileUpgrade" to (targetRules.id!=rules.id),"upgradeContract" to (if(targetRules.id!=rules.id) contract(rules,targetRules,d) else null),"level4Choice" to (if(d.level==3 && blocked.isEmpty()) Level4Rules.policy(targetRules)?.let { policy -> JsonObject(policy+mapOf("options" to json(policy.objects("options").filter { option -> val talent=option["talentId"]?.jsonPrimitive?.content;talent==null || Level4Rules.eligible(targetRules.data(talent)["requirements"] as? JsonObject,setOf(d.speciesId,d.originId,d.classId,d.traitId)) }))) } else null),"ownedTalentIds" to sheet.getValue("calculated").jsonObject.objects("features").filter { it.text("id").startsWith("di.feature.talent.") }.map { it.text("id") },"requiredChoices" to targetRules.profile().objects("choices").filter { it.text("id") in keys },"blockers" to blocked,"preview" to preview)
     }
     fun preview(owner:UUID,id:UUID,request:AdvanceRequest):JsonObject=db.transaction { con ->
         own(con,owner,id,false);val sheet=characters.get(con,owner,id);val (next,c)=destination(sheet,pinned(con,sheet),request);previewView(sheet,next,c)
@@ -92,7 +95,7 @@ class CharacterAdvancement(private val db:Database,private val characters:Produc
             val runtime=sheet.getValue("runtime").jsonObject;val resources=runtime.getValue("resources").jsonObject.toMutableMap()
             for(r in c.objects("resources")) if(r.text("key") !in resources) resources[r.text("key")]=obj("sourceId" to r.text("sourceId"),"remaining" to r.num("maximum"),"maximum" to r.num("maximum"),"recovery" to r.text("recovery"),"automation" to r.text("automation"))
             con.execute("UPDATE player_character_runtime SET current_hp=?,resources=?::jsonb WHERE character_id=?",Level4Rules.currentHp(runtime.num("currentHp"),c.num("maximumWounds")),JsonObject(resources).toString(),id)
-            if(next.profileId!=sheet.text("rulesetProfileId")) con.execute("INSERT INTO character_profile_upgrades(character_id,from_profile,from_digest,to_profile,to_digest,request_id,contract_version) VALUES (?,?,?,?,?,?,?)",id,sheet.text("rulesetProfileId"),sheet.text("rulesetDigest"),next.profileId,next.profileDigest,requestId,NarrowRules.tier5().spec.getValue("upgradeContract").jsonObject.text("version"))
+            if(next.profileId!=sheet.text("rulesetProfileId")) con.execute("INSERT INTO character_profile_upgrades(character_id,from_profile,from_digest,to_profile,to_digest,request_id,contract_version) VALUES (?,?,?,?,?,?,?)",id,sheet.text("rulesetProfileId"),sheet.text("rulesetDigest"),next.profileId,next.profileDigest,requestId,contract(pinned(con,sheet),characters.rulesFor(next.profileId),draft(sheet))!!.text("version"))
             check(con.execute("UPDATE player_character_runtime SET state_version=state_version+1 WHERE character_id=? AND state_version=?",id,request.expectedStateVersion)==1)
             val result=obj("advancementId" to UUID.randomUUID().toString(),"preview" to previewView(sheet,next,c),"character" to characters.get(con,owner,id))
             con.execute("INSERT INTO character_advancements(id,user_id,character_id,request_id,request_digest,from_level,to_level,state_version_before,state_version_after,result) VALUES (?,?,?,?,?,?,?,?,?,?::jsonb)",uuid(result.text("advancementId")),owner,id,requestId,digest,sheet.num("level"),next.level,request.expectedStateVersion,request.expectedStateVersion+1,result.toString())

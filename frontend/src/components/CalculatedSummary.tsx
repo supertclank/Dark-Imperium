@@ -1,3 +1,4 @@
+import { ChoiceFeatureList } from "./ChoiceCard";
 import { Calculation, signed } from "@/lib/builder";
 export function CalculatedSummary({calculated:c,currentHp,rollingEnabled=false}:{calculated:Calculation;currentHp?:number;rollingEnabled?:boolean}) {
   const labels={AUTOMATED:"Calculated",PARTIAL:"Partly calculated",MANUAL:"Manual tracking",BLOCKED:"Unavailable"};
@@ -13,7 +14,7 @@ export function CalculatedSummary({calculated:c,currentHp,rollingEnabled=false}:
     <section className="panel"><h2>Inventory</h2><ul>{c.inventory.map(i=><li key={i.definitionId}>{i.name} × {i.quantity}{i.equipped?" · equipped":""}{c.equipmentNotes?.[i.definitionId] && <p>{c.equipmentNotes[i.definitionId]}</p>}</li>)}</ul></section>
     {!!c.contacts?.length && <section className="panel"><h2>Contacts</h2>{c.contacts.map(contact=><p key={contact.id}>{contact.text}</p>)}</section>}
     {!!c.proceduralProficiencies?.length && <section className="panel"><h2>Procedural training</h2><ul>{c.proceduralProficiencies.map(p=><li key={p}>{p}</li>)}</ul></section>}
-    {c.subclass && <section className="panel"><h2>{c.subclass.name}</h2><p>{c.subclass.description}</p></section>}
+    {c.subclass && <section className="panel"><h2>{c.subclass.name}</h2><ChoiceFeatureList features={c.features.filter(f=>f.id.startsWith(c.subclass!.id.replace("di.subclass.","di.feature.subclass.")+"."))}/></section>}
     <section className="panel"><h2>Features</h2>{c.features.map(f=><details key={f.id} className="feature-detail"><summary>{f.name} · {f.classification?labels[f.classification]:f.manual?"Manual tracking":"Calculated"}</summary>{f.playerNote && <p>{f.playerNote}</p>}<p className="source-text">{f.text}</p><p className="small muted">Source: {f.sources.map(s=>`${s.locator.heading}, PDF ${s.locator.pdfPage}`).join("; ")}</p></details>)}</section>
   </div>;
 }

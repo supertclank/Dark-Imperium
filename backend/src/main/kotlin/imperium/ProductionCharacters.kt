@@ -5,8 +5,8 @@ import java.util.UUID
 import kotlinx.serialization.json.*
 
 /** Selections and owned state are persisted separately; derived values are never stored. */
-class ProductionCharacters(private val db: Database, val rules: NarrowRules = NarrowRules.tier4()) {
-    private val profiles=listOf(NarrowRules.bundled(),NarrowRules.tier1(),NarrowRules.tier2(),NarrowRules.tier3(),NarrowRules.tier4(),NarrowRules.tier5(),rules).associateBy { it.id }
+class ProductionCharacters(private val db: Database, val rules: NarrowRules = NarrowRules.tier6()) {
+    private val profiles=listOf(NarrowRules.bundled(),NarrowRules.tier1(),NarrowRules.tier2(),NarrowRules.tier3(),NarrowRules.tier4(),NarrowRules.tier5(),NarrowRules.tier6(),rules).associateBy { it.id }
     fun rulesFor(profileId:String)=profiles[profileId] ?: rules
     init { db.transaction { connection ->
       for(rules in profiles.values) {
@@ -17,7 +17,7 @@ class ProductionCharacters(private val db: Database, val rules: NarrowRules = Na
     } }
     fun create(owner:UUID,draft:NarrowDraft):JsonObject {
         val rules=rulesFor(draft.profileId)
-        if(Level4Rules.policy(rules)!=null) throw ApiException(422,"ADVANCEMENT_REQUIRED","This profile is entered only through explicit certified advancement.")
+        if(Level4Rules.policy(rules)!=null && draft.level !in (rules.spec["creationLevels"] as? JsonArray).orEmpty().map { it.jsonPrimitive.int }) throw ApiException(422,"ADVANCEMENT_REQUIRED","This profile is entered only through explicit certified advancement.")
         val requestId=try { UUID.fromString(draft.requestId) } catch(_:IllegalArgumentException) { throw InvalidDraft(listOf(DraftIssue("INVALID_REQUEST_ID","requestId","A creation request UUID is required."))) }
         val id=UUID.randomUUID();val validation=rules.validate(draft,id.toString())
         if(validation.errors.isNotEmpty()) throw InvalidDraft(validation.errors)

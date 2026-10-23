@@ -31,3 +31,15 @@ it('shows unavailable features contacts and procedural training plainly',()=>{
 it('does not show an empty contacts section for older projections',()=>{
  render(<CalculatedSummary calculated={saved.calculated as Calculation}/>);expect(screen.queryByRole('heading',{name:'Contacts'})).not.toBeInTheDocument();
 });
+
+it('creation levels do not expose advancement-only configurations',()=>{
+ const creation={...profile,levels:[1]};const d=initialDraft(creation,'request');
+ expect(pathProfile(creation,d).levels).toEqual([1]);
+ expect(changePath(creation,d,{level:3}).level).toBe(1);
+});
+it('sheet shows granted subclass features without leaking future progression prose',()=>{
+ const c={...saved.calculated,subclass:{id:'di.subclass.example.ranger',name:'Ranger',description:'Future level-seven benefit'},features:[{...saved.calculated.features[0],id:'di.feature.subclass.example.ranger.level_3',name:'Ranger 3',text:'Current source-backed feature',classification:'MANUAL'}]} as Calculation;
+ render(<CalculatedSummary calculated={c}/>);
+ expect(screen.queryByText('Future level-seven benefit')).not.toBeInTheDocument();
+ expect(screen.getAllByText('Current source-backed feature').length).toBeGreaterThan(0);
+});

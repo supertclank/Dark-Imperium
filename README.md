@@ -1,3 +1,9 @@
+## Non-Human advancement release (v6)
+
+Eight non-Human martial class contexts now have certified paths through level 4, including Ratling Sharpshooter. The release has 220 certified family rows and 40 individually filtered Talent alternatives. Existing v4 non-Humans use an explicit atomic upgrade; earlier profiles remain pinned. Validation: 152 content, 97 backend and 72 frontend tests pass, plus TypeScript and eight-class browser acceptance. Frontend standalone packaging remains blocked by Windows EPERM; Docker startup remains unverified.
+
+See the [30-point completion report](docs/import/NONHUMAN_ADVANCEMENT_V6_REPORT.md), [browser evidence](docs/import/NONHUMAN_V6_BROWSER_EVIDENCE.json), and [current publication matrix](content/packages/di_phb_1_0/review/nonhuman-v6-publication-matrix.json).
+
 ## Level 4 advancement release
 
 Human Veteran level-4 advancement is available for 24 certified families through an explicit v4-to-v5 upgrade, with ASI or 18 audited Talents. Older profiles stay pinned. Validation: 146 content, 88 backend and 69 frontend tests pass; TypeScript passes. Frontend production packaging is blocked by Windows EPERM; Docker startup is unverified. See the [full release report](docs/import/LEVEL4_ADVANCEMENT_REPORT.md).

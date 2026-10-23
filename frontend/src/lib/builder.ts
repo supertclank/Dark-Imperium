@@ -41,7 +41,7 @@ export function pathProfile(base:Profile,draft:Pick<Draft,"speciesId"|"originId"
   if(!base.pathConfigurations)return base;
   const family=base.pathConfigurations.filter(p=>p.speciesId===draft.speciesId && p.originId===draft.originId && p.classId===draft.classId);
   const current=family.find(p=>p.level===draft.level);
-  return {...base,origins:base.origins.filter(o=>base.pathConfigurations!.some(p=>p.speciesId===draft.speciesId && p.originId===o.id)),classes:base.classes.filter(c=>base.pathConfigurations!.some(p=>p.speciesId===draft.speciesId && p.originId===draft.originId && p.classId===c.id)),levels:family.map(p=>p.level),choices:base.choices.filter(c=>current?.choices.includes(c.id)),package:base.packages?.[draft.classId]||base.package,training:base.classTraining?.[draft.classId]||base.training,levelFeatures:(base.featureCatalogue||[]).filter(f=>current?.features.includes(f.id))};
+  return {...base,origins:base.origins.filter(o=>base.pathConfigurations!.some(p=>p.speciesId===draft.speciesId && p.originId===o.id)),classes:base.classes.filter(c=>base.pathConfigurations!.some(p=>p.speciesId===draft.speciesId && p.originId===draft.originId && p.classId===c.id)),levels:family.map(p=>p.level).filter(level=>base.levels.includes(level)),choices:base.choices.filter(c=>current?.choices.includes(c.id)),package:base.packages?.[draft.classId]||base.package,training:base.classTraining?.[draft.classId]||base.training,levelFeatures:(base.featureCatalogue||[]).filter(f=>current?.features.includes(f.id))};
 }
 export function changePath(base:Profile,draft:Draft,next:Partial<Draft>):Draft {
   let result={...draft,...next};

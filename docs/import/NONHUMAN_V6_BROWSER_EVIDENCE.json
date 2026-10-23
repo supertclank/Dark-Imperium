@@ -1,0 +1,1231 @@
+{
+  "characters": [
+    {
+      "id": "2467eacc-9647-48c8-94a1-69d9b6e9a959",
+      "classId": "di.class.veteran",
+      "name": "V6 acceptance veteran",
+      "initialHp": 11,
+      "level": 4,
+      "profile": "di-phb-1.0-tier1-v6",
+      "digest": "fc78eebe9eab846b96aecf4823f88185e6d9818a1cde59bf255368be37db7769",
+      "currentHp": 11,
+      "maximumHp": 36,
+      "subclass": "Marksman",
+      "movement": 25,
+      "initiative": 5,
+      "selection": "Constitution +2",
+      "rollHistory": {
+        "items": [
+          {
+            "id": "91359b9c-eb36-4180-a853-b64bd4fb68f8",
+            "dice": {
+              "total": 8,
+              "groups": [
+                {
+                  "dice": [
+                    3
+                  ],
+                  "keep": "ALL",
+                  "kept": [
+                    3
+                  ],
+                  "sides": 20,
+                  "discarded": [],
+                  "keptIndices": [
+                    0
+                  ],
+                  "discardedIndices": []
+                }
+              ],
+              "modifier": 5
+            },
+            "label": "Initiative",
+            "total": 8,
+            "userId": "38416b0f-31de-45ee-84fc-143fa0ab7fb9",
+            "context": {
+              "mode": "baseline",
+              "ability": null,
+              "characterLevel": 4,
+              "criticalDamage": "NOT_APPLIED",
+              "parentResultId": null,
+              "targetResolution": "MANUAL",
+              "consumptionConfirmed": false
+            },
+            "grenade": null,
+            "request": {
+              "rollId": "e66249a5-7e93-3f94-9909-83f2774c9951",
+              "ability": null,
+              "profileId": "di-phb-1.0-tier1-v6",
+              "requestId": "af3d3dc2-1fd4-43c2-a9ff-3b74f5b1ea86",
+              "visibility": "PRIVATE",
+              "profileDigest": "fc78eebe9eab846b96aecf4823f88185e6d9818a1cde59bf255368be37db7769",
+              "parentResultId": null,
+              "confirmConsumption": false,
+              "expectedStateVersion": 3
+            },
+            "actionId": null,
+            "rollType": "ability",
+            "requestId": "af3d3dc2-1fd4-43c2-a9ff-3b74f5b1ea86",
+            "timestamp": "2026-10-23T12:19:43.947578200Z",
+            "damageType": null,
+            "definition": {
+              "id": "32771652-885c-3dd8-ae43-211abd1854ae",
+              "actor": {
+                "kind": "character",
+                "instanceId": "2467eacc-9647-48c8-94a1-69d9b6e9a959"
+              },
+              "label": "Initiative",
+              "source": {
+                "ref": {
+                  "id": "di.feature.universal.twitchy"
+                },
+                "kind": "content"
+              },
+              "natural": {
+                "groupId": "base",
+                "componentId": "base"
+              },
+              "category": "ability",
+              "critical": {
+                "status": "disabled",
+                "policyId": "phb.critical.v1"
+              },
+              "snapshot": {
+                "stateVersion": 3,
+                "contextDigest": "103aa0bbbaad922f31d778ae6ce7f5e03d5d80adceb4b022ca9c6e9e1fe6b6e4",
+                "engineVersion": "phb-tier1-kotlin-v1",
+                "rulesetLockDigest": "fc78eebe9eab846b96aecf4823f88185e6d9818a1cde59bf255368be37db7769"
+              },
+              "advantage": {
+                "state": "normal",
+                "policyId": "phb.advantage.v1",
+                "appliedGroupIds": []
+              },
+              "components": [
+                {
+                  "id": "base",
+                  "groups": [
+                    {
+                      "id": "base",
+                      "count": 1,
+                      "sides": 20
+                    }
+                  ],
+                  "modifiers": [
+                    {
+                      "id": "resolved",
+                      "label": "Server-calculated modifier",
+                      "value": 5,
+                      "source": {
+                        "ref": {
+                          "id": "di.feature.universal.twitchy"
+                        },
+                        "kind": "content"
+                      },
+                      "contextual": false
+                    }
+                  ]
+                }
+              ],
+              "schemaVersion": 1
+            },
+            "naturalOne": false,
+            "visibility": "PRIVATE",
+            "characterId": "2467eacc-9647-48c8-94a1-69d9b6e9a959",
+            "consumption": null,
+            "characterName": "V6 acceptance veteran",
+            "engineVersion": "production-dice-v1",
+            "naturalResult": 3,
+            "rulesetDigest": "fc78eebe9eab846b96aecf4823f88185e6d9818a1cde59bf255368be37db7769",
+            "parentResultId": null,
+            "requestedRollId": "e66249a5-7e93-3f94-9909-83f2774c9951",
+            "rollDefinitionId": "32771652-885c-3dd8-ae43-211abd1854ae",
+            "rulesetProfileId": "di-phb-1.0-tier1-v6",
+            "criticalCandidate": false,
+            "stateVersionAfter": 3,
+            "stateVersionBefore": 3
+          }
+        ],
+        "limit": 25,
+        "hasMore": false
+      },
+      "browserAcceptance": "Sequential advancement, reload, authoritative roll and 3D replay observed in browser"
+    },
+    {
+      "id": "323d7ce2-5d9f-46a6-9a35-528481a81fe6",
+      "classId": "di.class.hive_scum",
+      "name": "V6 acceptance hive scum",
+      "initialHp": 9,
+      "level": 4,
+      "profile": "di-phb-1.0-tier1-v6",
+      "digest": "fc78eebe9eab846b96aecf4823f88185e6d9818a1cde59bf255368be37db7769",
+      "currentHp": 9,
+      "maximumHp": 27,
+      "subclass": "Gunslinger",
+      "movement": 25,
+      "initiative": 5,
+      "selection": "Impossible Shot",
+      "rollHistory": {
+        "items": [
+          {
+            "id": "6a523302-adf1-4427-93cd-43f4e86e28a0",
+            "dice": {
+              "total": 19,
+              "groups": [
+                {
+                  "dice": [
+                    14
+                  ],
+                  "keep": "ALL",
+                  "kept": [
+                    14
+                  ],
+                  "sides": 20,
+                  "discarded": [],
+                  "keptIndices": [
+                    0
+                  ],
+                  "discardedIndices": []
+                }
+              ],
+              "modifier": 5
+            },
+            "label": "Initiative",
+            "total": 19,
+            "userId": "38416b0f-31de-45ee-84fc-143fa0ab7fb9",
+            "context": {
+              "mode": "baseline",
+              "ability": null,
+              "characterLevel": 4,
+              "criticalDamage": "NOT_APPLIED",
+              "parentResultId": null,
+              "targetResolution": "MANUAL",
+              "consumptionConfirmed": false
+            },
+            "grenade": null,
+            "request": {
+              "rollId": "4904b62c-2646-3ba6-bc7c-2ab39d1b2111",
+              "ability": null,
+              "profileId": "di-phb-1.0-tier1-v6",
+              "requestId": "50367ae4-2bbe-40e2-8742-552c2914ffcc",
+              "visibility": "PRIVATE",
+              "profileDigest": "fc78eebe9eab846b96aecf4823f88185e6d9818a1cde59bf255368be37db7769",
+              "parentResultId": null,
+              "confirmConsumption": false,
+              "expectedStateVersion": 3
+            },
+            "actionId": null,
+            "rollType": "ability",
+            "requestId": "50367ae4-2bbe-40e2-8742-552c2914ffcc",
+            "timestamp": "2026-10-23T12:20:58.196851300Z",
+            "damageType": null,
+            "definition": {
+              "id": "5fb57f32-eb37-314a-8154-321aab299fe0",
+              "actor": {
+                "kind": "character",
+                "instanceId": "323d7ce2-5d9f-46a6-9a35-528481a81fe6"
+              },
+              "label": "Initiative",
+              "source": {
+                "ref": {
+                  "id": "di.feature.universal.twitchy"
+                },
+                "kind": "content"
+              },
+              "natural": {
+                "groupId": "base",
+                "componentId": "base"
+              },
+              "category": "ability",
+              "critical": {
+                "status": "disabled",
+                "policyId": "phb.critical.v1"
+              },
+              "snapshot": {
+                "stateVersion": 3,
+                "contextDigest": "103aa0bbbaad922f31d778ae6ce7f5e03d5d80adceb4b022ca9c6e9e1fe6b6e4",
+                "engineVersion": "phb-tier1-kotlin-v1",
+                "rulesetLockDigest": "fc78eebe9eab846b96aecf4823f88185e6d9818a1cde59bf255368be37db7769"
+              },
+              "advantage": {
+                "state": "normal",
+                "policyId": "phb.advantage.v1",
+                "appliedGroupIds": []
+              },
+              "components": [
+                {
+                  "id": "base",
+                  "groups": [
+                    {
+                      "id": "base",
+                      "count": 1,
+                      "sides": 20
+                    }
+                  ],
+                  "modifiers": [
+                    {
+                      "id": "resolved",
+                      "label": "Server-calculated modifier",
+                      "value": 5,
+                      "source": {
+                        "ref": {
+                          "id": "di.feature.universal.twitchy"
+                        },
+                        "kind": "content"
+                      },
+                      "contextual": false
+                    }
+                  ]
+                }
+              ],
+              "schemaVersion": 1
+            },
+            "naturalOne": false,
+            "visibility": "PRIVATE",
+            "characterId": "323d7ce2-5d9f-46a6-9a35-528481a81fe6",
+            "consumption": null,
+            "characterName": "V6 acceptance hive scum",
+            "engineVersion": "production-dice-v1",
+            "naturalResult": 14,
+            "rulesetDigest": "fc78eebe9eab846b96aecf4823f88185e6d9818a1cde59bf255368be37db7769",
+            "parentResultId": null,
+            "requestedRollId": "4904b62c-2646-3ba6-bc7c-2ab39d1b2111",
+            "rollDefinitionId": "5fb57f32-eb37-314a-8154-321aab299fe0",
+            "rulesetProfileId": "di-phb-1.0-tier1-v6",
+            "criticalCandidate": false,
+            "stateVersionAfter": 3,
+            "stateVersionBefore": 3
+          }
+        ],
+        "limit": 25,
+        "hasMore": false
+      },
+      "browserAcceptance": "Sequential advancement, reload, authoritative roll and 3D replay observed in browser"
+    },
+    {
+      "id": "f4bfa215-b0ab-4292-8051-fb2f97c5abcc",
+      "classId": "di.class.ogryn_skullbreaker",
+      "name": "V6 acceptance ogryn skullbreaker",
+      "initialHp": 17,
+      "level": 4,
+      "profile": "di-phb-1.0-tier1-v6",
+      "digest": "fc78eebe9eab846b96aecf4823f88185e6d9818a1cde59bf255368be37db7769",
+      "currentHp": 17,
+      "maximumHp": 57,
+      "subclass": "Bone \u2019ead",
+      "movement": 30,
+      "initiative": 3,
+      "selection": "Constitution +2",
+      "rollHistory": {
+        "items": [
+          {
+            "id": "fc5b191c-7a80-4c5d-896f-819cd763fd51",
+            "dice": {
+              "total": 9,
+              "groups": [
+                {
+                  "dice": [
+                    6
+                  ],
+                  "keep": "ALL",
+                  "kept": [
+                    6
+                  ],
+                  "sides": 20,
+                  "discarded": [],
+                  "keptIndices": [
+                    0
+                  ],
+                  "discardedIndices": []
+                }
+              ],
+              "modifier": 3
+            },
+            "label": "Initiative",
+            "total": 9,
+            "userId": "38416b0f-31de-45ee-84fc-143fa0ab7fb9",
+            "context": {
+              "mode": "baseline",
+              "ability": null,
+              "characterLevel": 4,
+              "criticalDamage": "NOT_APPLIED",
+              "parentResultId": null,
+              "targetResolution": "MANUAL",
+              "consumptionConfirmed": false
+            },
+            "grenade": null,
+            "request": {
+              "rollId": "dab3ee24-0780-3361-9342-4a7acd0ed112",
+              "ability": null,
+              "profileId": "di-phb-1.0-tier1-v6",
+              "requestId": "2094f887-8a7b-448f-8a4e-f90f5c715efb",
+              "visibility": "PRIVATE",
+              "profileDigest": "fc78eebe9eab846b96aecf4823f88185e6d9818a1cde59bf255368be37db7769",
+              "parentResultId": null,
+              "confirmConsumption": false,
+              "expectedStateVersion": 3
+            },
+            "actionId": null,
+            "rollType": "ability",
+            "requestId": "2094f887-8a7b-448f-8a4e-f90f5c715efb",
+            "timestamp": "2026-10-23T12:21:23.295650700Z",
+            "damageType": null,
+            "definition": {
+              "id": "d9d7c953-78d3-3fe4-a2d5-fd2deaad0649",
+              "actor": {
+                "kind": "character",
+                "instanceId": "f4bfa215-b0ab-4292-8051-fb2f97c5abcc"
+              },
+              "label": "Initiative",
+              "source": {
+                "ref": {
+                  "id": "di.feature.universal.twitchy"
+                },
+                "kind": "content"
+              },
+              "natural": {
+                "groupId": "base",
+                "componentId": "base"
+              },
+              "category": "ability",
+              "critical": {
+                "status": "disabled",
+                "policyId": "phb.critical.v1"
+              },
+              "snapshot": {
+                "stateVersion": 3,
+                "contextDigest": "103aa0bbbaad922f31d778ae6ce7f5e03d5d80adceb4b022ca9c6e9e1fe6b6e4",
+                "engineVersion": "phb-tier1-kotlin-v1",
+                "rulesetLockDigest": "fc78eebe9eab846b96aecf4823f88185e6d9818a1cde59bf255368be37db7769"
+              },
+              "advantage": {
+                "state": "normal",
+                "policyId": "phb.advantage.v1",
+                "appliedGroupIds": []
+              },
+              "components": [
+                {
+                  "id": "base",
+                  "groups": [
+                    {
+                      "id": "base",
+                      "count": 1,
+                      "sides": 20
+                    }
+                  ],
+                  "modifiers": [
+                    {
+                      "id": "resolved",
+                      "label": "Server-calculated modifier",
+                      "value": 3,
+                      "source": {
+                        "ref": {
+                          "id": "di.feature.universal.twitchy"
+                        },
+                        "kind": "content"
+                      },
+                      "contextual": false
+                    }
+                  ]
+                }
+              ],
+              "schemaVersion": 1
+            },
+            "naturalOne": false,
+            "visibility": "PRIVATE",
+            "characterId": "f4bfa215-b0ab-4292-8051-fb2f97c5abcc",
+            "consumption": null,
+            "characterName": "V6 acceptance ogryn skullbreaker",
+            "engineVersion": "production-dice-v1",
+            "naturalResult": 6,
+            "rulesetDigest": "fc78eebe9eab846b96aecf4823f88185e6d9818a1cde59bf255368be37db7769",
+            "parentResultId": null,
+            "requestedRollId": "dab3ee24-0780-3361-9342-4a7acd0ed112",
+            "rollDefinitionId": "d9d7c953-78d3-3fe4-a2d5-fd2deaad0649",
+            "rulesetProfileId": "di-phb-1.0-tier1-v6",
+            "criticalCandidate": false,
+            "stateVersionAfter": 3,
+            "stateVersionBefore": 3
+          }
+        ],
+        "limit": 25,
+        "hasMore": false
+      },
+      "browserAcceptance": "Sequential advancement, reload, authoritative roll and 3D replay observed in browser"
+    },
+    {
+      "id": "c74ec941-051b-495f-8c24-cda70ea4b868",
+      "classId": "di.class.skitarii_veteran",
+      "name": "V6 acceptance skitarii veteran",
+      "initialHp": 12,
+      "level": 4,
+      "profile": "di-phb-1.0-tier1-v6",
+      "digest": "fc78eebe9eab846b96aecf4823f88185e6d9818a1cde59bf255368be37db7769",
+      "currentHp": 12,
+      "maximumHp": 36,
+      "subclass": "Infiltrator Protocol",
+      "movement": 30,
+      "initiative": 7,
+      "selection": "Intelligence +2",
+      "rollHistory": {
+        "items": [
+          {
+            "id": "7a4933ca-de34-4a9b-a592-c6f3309a698b",
+            "dice": {
+              "total": 27,
+              "groups": [
+                {
+                  "dice": [
+                    20
+                  ],
+                  "keep": "ALL",
+                  "kept": [
+                    20
+                  ],
+                  "sides": 20,
+                  "discarded": [],
+                  "keptIndices": [
+                    0
+                  ],
+                  "discardedIndices": []
+                }
+              ],
+              "modifier": 7
+            },
+            "label": "Initiative",
+            "total": 27,
+            "userId": "38416b0f-31de-45ee-84fc-143fa0ab7fb9",
+            "context": {
+              "mode": "baseline",
+              "ability": null,
+              "characterLevel": 4,
+              "criticalDamage": "NOT_APPLIED",
+              "parentResultId": null,
+              "targetResolution": "MANUAL",
+              "consumptionConfirmed": false
+            },
+            "grenade": null,
+            "request": {
+              "rollId": "95a370d0-265b-3770-8819-fe289ff19970",
+              "ability": null,
+              "profileId": "di-phb-1.0-tier1-v6",
+              "requestId": "5ae42a26-af14-4159-93a7-c0800119e3c0",
+              "visibility": "PRIVATE",
+              "profileDigest": "fc78eebe9eab846b96aecf4823f88185e6d9818a1cde59bf255368be37db7769",
+              "parentResultId": null,
+              "confirmConsumption": false,
+              "expectedStateVersion": 3
+            },
+            "actionId": null,
+            "rollType": "ability",
+            "requestId": "5ae42a26-af14-4159-93a7-c0800119e3c0",
+            "timestamp": "2026-10-23T12:21:48.491346700Z",
+            "damageType": null,
+            "definition": {
+              "id": "3d4f53e9-11e8-3ee3-8fb8-3e571e396472",
+              "actor": {
+                "kind": "character",
+                "instanceId": "c74ec941-051b-495f-8c24-cda70ea4b868"
+              },
+              "label": "Initiative",
+              "source": {
+                "ref": {
+                  "id": "di.feature.universal.twitchy"
+                },
+                "kind": "content"
+              },
+              "natural": {
+                "groupId": "base",
+                "componentId": "base"
+              },
+              "category": "ability",
+              "critical": {
+                "status": "disabled",
+                "policyId": "phb.critical.v1"
+              },
+              "snapshot": {
+                "stateVersion": 3,
+                "contextDigest": "103aa0bbbaad922f31d778ae6ce7f5e03d5d80adceb4b022ca9c6e9e1fe6b6e4",
+                "engineVersion": "phb-tier1-kotlin-v1",
+                "rulesetLockDigest": "fc78eebe9eab846b96aecf4823f88185e6d9818a1cde59bf255368be37db7769"
+              },
+              "advantage": {
+                "state": "normal",
+                "policyId": "phb.advantage.v1",
+                "appliedGroupIds": []
+              },
+              "components": [
+                {
+                  "id": "base",
+                  "groups": [
+                    {
+                      "id": "base",
+                      "count": 1,
+                      "sides": 20
+                    }
+                  ],
+                  "modifiers": [
+                    {
+                      "id": "resolved",
+                      "label": "Server-calculated modifier",
+                      "value": 7,
+                      "source": {
+                        "ref": {
+                          "id": "di.feature.universal.twitchy"
+                        },
+                        "kind": "content"
+                      },
+                      "contextual": false
+                    }
+                  ]
+                }
+              ],
+              "schemaVersion": 1
+            },
+            "naturalOne": false,
+            "visibility": "PRIVATE",
+            "characterId": "c74ec941-051b-495f-8c24-cda70ea4b868",
+            "consumption": null,
+            "characterName": "V6 acceptance skitarii veteran",
+            "engineVersion": "production-dice-v1",
+            "naturalResult": 20,
+            "rulesetDigest": "fc78eebe9eab846b96aecf4823f88185e6d9818a1cde59bf255368be37db7769",
+            "parentResultId": null,
+            "requestedRollId": "95a370d0-265b-3770-8819-fe289ff19970",
+            "rollDefinitionId": "3d4f53e9-11e8-3ee3-8fb8-3e571e396472",
+            "rulesetProfileId": "di-phb-1.0-tier1-v6",
+            "criticalCandidate": false,
+            "stateVersionAfter": 3,
+            "stateVersionBefore": 3
+          }
+        ],
+        "limit": 25,
+        "hasMore": false
+      },
+      "browserAcceptance": "Sequential advancement, reload, authoritative roll and 3D replay observed in browser"
+    },
+    {
+      "id": "ac704c46-a57d-4831-b000-4274a2c9ae23",
+      "classId": "di.class.kin_armsman",
+      "name": "V6 acceptance kin armsman",
+      "initialHp": 12,
+      "level": 4,
+      "profile": "di-phb-1.0-tier1-v6",
+      "digest": "fc78eebe9eab846b96aecf4823f88185e6d9818a1cde59bf255368be37db7769",
+      "currentHp": 12,
+      "maximumHp": 36,
+      "subclass": "Hearthguard",
+      "movement": 25,
+      "initiative": 4,
+      "selection": "Kin Weapon Master",
+      "rollHistory": {
+        "items": [
+          {
+            "id": "bf8150f2-b042-4d0c-8511-b2bbb34122f0",
+            "dice": {
+              "total": 20,
+              "groups": [
+                {
+                  "dice": [
+                    16
+                  ],
+                  "keep": "ALL",
+                  "kept": [
+                    16
+                  ],
+                  "sides": 20,
+                  "discarded": [],
+                  "keptIndices": [
+                    0
+                  ],
+                  "discardedIndices": []
+                }
+              ],
+              "modifier": 4
+            },
+            "label": "Initiative",
+            "total": 20,
+            "userId": "38416b0f-31de-45ee-84fc-143fa0ab7fb9",
+            "context": {
+              "mode": "baseline",
+              "ability": null,
+              "characterLevel": 4,
+              "criticalDamage": "NOT_APPLIED",
+              "parentResultId": null,
+              "targetResolution": "MANUAL",
+              "consumptionConfirmed": false
+            },
+            "grenade": null,
+            "request": {
+              "rollId": "e23fc932-6699-32d0-a53b-11d971d57435",
+              "ability": null,
+              "profileId": "di-phb-1.0-tier1-v6",
+              "requestId": "0a027af1-3b04-465b-885d-626a7c1e9287",
+              "visibility": "PRIVATE",
+              "profileDigest": "fc78eebe9eab846b96aecf4823f88185e6d9818a1cde59bf255368be37db7769",
+              "parentResultId": null,
+              "confirmConsumption": false,
+              "expectedStateVersion": 3
+            },
+            "actionId": null,
+            "rollType": "ability",
+            "requestId": "0a027af1-3b04-465b-885d-626a7c1e9287",
+            "timestamp": "2026-10-23T12:22:16.557602500Z",
+            "damageType": null,
+            "definition": {
+              "id": "61fa0553-6a90-3d8b-aec4-325e515f6cc4",
+              "actor": {
+                "kind": "character",
+                "instanceId": "ac704c46-a57d-4831-b000-4274a2c9ae23"
+              },
+              "label": "Initiative",
+              "source": {
+                "ref": {
+                  "id": "di.feature.universal.twitchy"
+                },
+                "kind": "content"
+              },
+              "natural": {
+                "groupId": "base",
+                "componentId": "base"
+              },
+              "category": "ability",
+              "critical": {
+                "status": "disabled",
+                "policyId": "phb.critical.v1"
+              },
+              "snapshot": {
+                "stateVersion": 3,
+                "contextDigest": "103aa0bbbaad922f31d778ae6ce7f5e03d5d80adceb4b022ca9c6e9e1fe6b6e4",
+                "engineVersion": "phb-tier1-kotlin-v1",
+                "rulesetLockDigest": "fc78eebe9eab846b96aecf4823f88185e6d9818a1cde59bf255368be37db7769"
+              },
+              "advantage": {
+                "state": "normal",
+                "policyId": "phb.advantage.v1",
+                "appliedGroupIds": []
+              },
+              "components": [
+                {
+                  "id": "base",
+                  "groups": [
+                    {
+                      "id": "base",
+                      "count": 1,
+                      "sides": 20
+                    }
+                  ],
+                  "modifiers": [
+                    {
+                      "id": "resolved",
+                      "label": "Server-calculated modifier",
+                      "value": 4,
+                      "source": {
+                        "ref": {
+                          "id": "di.feature.universal.twitchy"
+                        },
+                        "kind": "content"
+                      },
+                      "contextual": false
+                    }
+                  ]
+                }
+              ],
+              "schemaVersion": 1
+            },
+            "naturalOne": false,
+            "visibility": "PRIVATE",
+            "characterId": "ac704c46-a57d-4831-b000-4274a2c9ae23",
+            "consumption": null,
+            "characterName": "V6 acceptance kin armsman",
+            "engineVersion": "production-dice-v1",
+            "naturalResult": 16,
+            "rulesetDigest": "fc78eebe9eab846b96aecf4823f88185e6d9818a1cde59bf255368be37db7769",
+            "parentResultId": null,
+            "requestedRollId": "e23fc932-6699-32d0-a53b-11d971d57435",
+            "rollDefinitionId": "61fa0553-6a90-3d8b-aec4-325e515f6cc4",
+            "rulesetProfileId": "di-phb-1.0-tier1-v6",
+            "criticalCandidate": false,
+            "stateVersionAfter": 3,
+            "stateVersionBefore": 3
+          }
+        ],
+        "limit": 25,
+        "hasMore": false
+      },
+      "browserAcceptance": "Sequential advancement, reload, authoritative roll and 3D replay observed in browser"
+    },
+    {
+      "id": "5d6f9628-9461-41b5-8a31-8d8d9fc89516",
+      "classId": "di.class.hernkyn_prospector",
+      "name": "V6 acceptance hernkyn prospector",
+      "initialHp": 10,
+      "level": 4,
+      "profile": "di-phb-1.0-tier1-v6",
+      "digest": "fc78eebe9eab846b96aecf4823f88185e6d9818a1cde59bf255368be37db7769",
+      "currentHp": 10,
+      "maximumHp": 35,
+      "subclass": "Outrider",
+      "movement": 30,
+      "initiative": 4,
+      "selection": "Constitution +2",
+      "rollHistory": {
+        "items": [
+          {
+            "id": "96791132-3683-4e9a-a6e0-8f8964d2754b",
+            "dice": {
+              "total": 20,
+              "groups": [
+                {
+                  "dice": [
+                    16
+                  ],
+                  "keep": "ALL",
+                  "kept": [
+                    16
+                  ],
+                  "sides": 20,
+                  "discarded": [],
+                  "keptIndices": [
+                    0
+                  ],
+                  "discardedIndices": []
+                }
+              ],
+              "modifier": 4
+            },
+            "label": "Initiative",
+            "total": 20,
+            "userId": "38416b0f-31de-45ee-84fc-143fa0ab7fb9",
+            "context": {
+              "mode": "baseline",
+              "ability": null,
+              "characterLevel": 4,
+              "criticalDamage": "NOT_APPLIED",
+              "parentResultId": null,
+              "targetResolution": "MANUAL",
+              "consumptionConfirmed": false
+            },
+            "grenade": null,
+            "request": {
+              "rollId": "37f12376-3707-3a78-a401-1d3f60e6f103",
+              "ability": null,
+              "profileId": "di-phb-1.0-tier1-v6",
+              "requestId": "1e01dd4a-0458-4ebc-9b34-d5d111302d8f",
+              "visibility": "PRIVATE",
+              "profileDigest": "fc78eebe9eab846b96aecf4823f88185e6d9818a1cde59bf255368be37db7769",
+              "parentResultId": null,
+              "confirmConsumption": false,
+              "expectedStateVersion": 3
+            },
+            "actionId": null,
+            "rollType": "ability",
+            "requestId": "1e01dd4a-0458-4ebc-9b34-d5d111302d8f",
+            "timestamp": "2026-10-23T12:22:42.182658800Z",
+            "damageType": null,
+            "definition": {
+              "id": "5f2c5aca-e05d-34b4-917f-cb5f0e48e974",
+              "actor": {
+                "kind": "character",
+                "instanceId": "5d6f9628-9461-41b5-8a31-8d8d9fc89516"
+              },
+              "label": "Initiative",
+              "source": {
+                "ref": {
+                  "id": "di.feature.universal.twitchy"
+                },
+                "kind": "content"
+              },
+              "natural": {
+                "groupId": "base",
+                "componentId": "base"
+              },
+              "category": "ability",
+              "critical": {
+                "status": "disabled",
+                "policyId": "phb.critical.v1"
+              },
+              "snapshot": {
+                "stateVersion": 3,
+                "contextDigest": "103aa0bbbaad922f31d778ae6ce7f5e03d5d80adceb4b022ca9c6e9e1fe6b6e4",
+                "engineVersion": "phb-tier1-kotlin-v1",
+                "rulesetLockDigest": "fc78eebe9eab846b96aecf4823f88185e6d9818a1cde59bf255368be37db7769"
+              },
+              "advantage": {
+                "state": "normal",
+                "policyId": "phb.advantage.v1",
+                "appliedGroupIds": []
+              },
+              "components": [
+                {
+                  "id": "base",
+                  "groups": [
+                    {
+                      "id": "base",
+                      "count": 1,
+                      "sides": 20
+                    }
+                  ],
+                  "modifiers": [
+                    {
+                      "id": "resolved",
+                      "label": "Server-calculated modifier",
+                      "value": 4,
+                      "source": {
+                        "ref": {
+                          "id": "di.feature.universal.twitchy"
+                        },
+                        "kind": "content"
+                      },
+                      "contextual": false
+                    }
+                  ]
+                }
+              ],
+              "schemaVersion": 1
+            },
+            "naturalOne": false,
+            "visibility": "PRIVATE",
+            "characterId": "5d6f9628-9461-41b5-8a31-8d8d9fc89516",
+            "consumption": null,
+            "characterName": "V6 acceptance hernkyn prospector",
+            "engineVersion": "production-dice-v1",
+            "naturalResult": 16,
+            "rulesetDigest": "fc78eebe9eab846b96aecf4823f88185e6d9818a1cde59bf255368be37db7769",
+            "parentResultId": null,
+            "requestedRollId": "37f12376-3707-3a78-a401-1d3f60e6f103",
+            "rollDefinitionId": "5f2c5aca-e05d-34b4-917f-cb5f0e48e974",
+            "rulesetProfileId": "di-phb-1.0-tier1-v6",
+            "criticalCandidate": false,
+            "stateVersionAfter": 3,
+            "stateVersionBefore": 3
+          }
+        ],
+        "limit": 25,
+        "hasMore": false
+      },
+      "browserAcceptance": "Sequential advancement, reload, authoritative roll and 3D replay observed in browser"
+    },
+    {
+      "id": "411ddb32-63e0-4a44-bd61-894617867d7d",
+      "classId": "di.class.aeldari_outcast",
+      "name": "V6 acceptance aeldari outcast",
+      "initialHp": 9,
+      "level": 4,
+      "profile": "di-phb-1.0-tier1-v6",
+      "digest": "fc78eebe9eab846b96aecf4823f88185e6d9818a1cde59bf255368be37db7769",
+      "currentHp": 9,
+      "maximumHp": 27,
+      "subclass": "Ranger",
+      "movement": 40,
+      "initiative": 5,
+      "selection": "Aeldari Grace",
+      "rollHistory": {
+        "items": [
+          {
+            "id": "fa445241-3db3-41fb-9ab0-05caf4bdbb13",
+            "dice": {
+              "total": 21,
+              "groups": [
+                {
+                  "dice": [
+                    16
+                  ],
+                  "keep": "ALL",
+                  "kept": [
+                    16
+                  ],
+                  "sides": 20,
+                  "discarded": [],
+                  "keptIndices": [
+                    0
+                  ],
+                  "discardedIndices": []
+                }
+              ],
+              "modifier": 5
+            },
+            "label": "Initiative",
+            "total": 21,
+            "userId": "38416b0f-31de-45ee-84fc-143fa0ab7fb9",
+            "context": {
+              "mode": "baseline",
+              "ability": null,
+              "characterLevel": 4,
+              "criticalDamage": "NOT_APPLIED",
+              "parentResultId": null,
+              "targetResolution": "MANUAL",
+              "consumptionConfirmed": false
+            },
+            "grenade": null,
+            "request": {
+              "rollId": "3b1d84ba-4031-328e-8314-ae7ca096c97b",
+              "ability": null,
+              "profileId": "di-phb-1.0-tier1-v6",
+              "requestId": "027b93b0-a942-4137-b1c7-4a2cb5609652",
+              "visibility": "PRIVATE",
+              "profileDigest": "fc78eebe9eab846b96aecf4823f88185e6d9818a1cde59bf255368be37db7769",
+              "parentResultId": null,
+              "confirmConsumption": false,
+              "expectedStateVersion": 3
+            },
+            "actionId": null,
+            "rollType": "ability",
+            "requestId": "027b93b0-a942-4137-b1c7-4a2cb5609652",
+            "timestamp": "2026-10-23T12:23:17.486038900Z",
+            "damageType": null,
+            "definition": {
+              "id": "1e259205-b17a-3c76-83cd-2fceda4e32cf",
+              "actor": {
+                "kind": "character",
+                "instanceId": "411ddb32-63e0-4a44-bd61-894617867d7d"
+              },
+              "label": "Initiative",
+              "source": {
+                "ref": {
+                  "id": "di.feature.universal.twitchy"
+                },
+                "kind": "content"
+              },
+              "natural": {
+                "groupId": "base",
+                "componentId": "base"
+              },
+              "category": "ability",
+              "critical": {
+                "status": "disabled",
+                "policyId": "phb.critical.v1"
+              },
+              "snapshot": {
+                "stateVersion": 3,
+                "contextDigest": "103aa0bbbaad922f31d778ae6ce7f5e03d5d80adceb4b022ca9c6e9e1fe6b6e4",
+                "engineVersion": "phb-tier1-kotlin-v1",
+                "rulesetLockDigest": "fc78eebe9eab846b96aecf4823f88185e6d9818a1cde59bf255368be37db7769"
+              },
+              "advantage": {
+                "state": "normal",
+                "policyId": "phb.advantage.v1",
+                "appliedGroupIds": []
+              },
+              "components": [
+                {
+                  "id": "base",
+                  "groups": [
+                    {
+                      "id": "base",
+                      "count": 1,
+                      "sides": 20
+                    }
+                  ],
+                  "modifiers": [
+                    {
+                      "id": "resolved",
+                      "label": "Server-calculated modifier",
+                      "value": 5,
+                      "source": {
+                        "ref": {
+                          "id": "di.feature.universal.twitchy"
+                        },
+                        "kind": "content"
+                      },
+                      "contextual": false
+                    }
+                  ]
+                }
+              ],
+              "schemaVersion": 1
+            },
+            "naturalOne": false,
+            "visibility": "PRIVATE",
+            "characterId": "411ddb32-63e0-4a44-bd61-894617867d7d",
+            "consumption": null,
+            "characterName": "V6 acceptance aeldari outcast",
+            "engineVersion": "production-dice-v1",
+            "naturalResult": 16,
+            "rulesetDigest": "fc78eebe9eab846b96aecf4823f88185e6d9818a1cde59bf255368be37db7769",
+            "parentResultId": null,
+            "requestedRollId": "3b1d84ba-4031-328e-8314-ae7ca096c97b",
+            "rollDefinitionId": "1e259205-b17a-3c76-83cd-2fceda4e32cf",
+            "rulesetProfileId": "di-phb-1.0-tier1-v6",
+            "criticalCandidate": false,
+            "stateVersionAfter": 3,
+            "stateVersionBefore": 3
+          }
+        ],
+        "limit": 25,
+        "hasMore": false
+      },
+      "browserAcceptance": "Sequential advancement, reload, authoritative roll and 3D replay observed in browser"
+    },
+    {
+      "id": "564e1f6b-fe20-4cc5-9ca8-3e95f4045761",
+      "classId": "di.class.ratling_sharpshooter",
+      "name": "V6 acceptance ratling sharpshooter",
+      "initialHp": 9,
+      "level": 4,
+      "profile": "di-phb-1.0-tier1-v6",
+      "digest": "fc78eebe9eab846b96aecf4823f88185e6d9818a1cde59bf255368be37db7769",
+      "currentHp": 9,
+      "maximumHp": 27,
+      "subclass": "Black-Market Gremlin",
+      "movement": 25,
+      "initiative": 6,
+      "selection": "Dexterity +2",
+      "rollHistory": {
+        "items": [
+          {
+            "id": "a8b242f4-395b-467b-8ab7-34de564ebbfa",
+            "dice": {
+              "total": 16,
+              "groups": [
+                {
+                  "dice": [
+                    10
+                  ],
+                  "keep": "ALL",
+                  "kept": [
+                    10
+                  ],
+                  "sides": 20,
+                  "discarded": [],
+                  "keptIndices": [
+                    0
+                  ],
+                  "discardedIndices": []
+                }
+              ],
+              "modifier": 6
+            },
+            "label": "Long-Las attack",
+            "total": 16,
+            "userId": "38416b0f-31de-45ee-84fc-143fa0ab7fb9",
+            "context": {
+              "mode": "baseline",
+              "ability": "dexterity",
+              "characterLevel": 4,
+              "criticalDamage": "NOT_APPLIED",
+              "parentResultId": null,
+              "targetResolution": "MANUAL",
+              "consumptionConfirmed": false
+            },
+            "grenade": null,
+            "request": {
+              "rollId": "0868c5c6-9019-371f-bd13-be5d64df87af",
+              "ability": null,
+              "profileId": "di-phb-1.0-tier1-v6",
+              "requestId": "20e7cf2e-08d2-41f8-83a5-8b9fae09706f",
+              "visibility": "PRIVATE",
+              "profileDigest": "fc78eebe9eab846b96aecf4823f88185e6d9818a1cde59bf255368be37db7769",
+              "parentResultId": null,
+              "confirmConsumption": false,
+              "expectedStateVersion": 3
+            },
+            "actionId": "di.action.long_las.attack",
+            "rollType": "attack",
+            "requestId": "20e7cf2e-08d2-41f8-83a5-8b9fae09706f",
+            "timestamp": "2026-10-23T12:23:53.620696600Z",
+            "damageType": null,
+            "definition": {
+              "id": "900033cb-e912-34d2-ae26-baf7c6905532",
+              "actor": {
+                "kind": "character",
+                "instanceId": "564e1f6b-fe20-4cc5-9ca8-3e95f4045761"
+              },
+              "label": "Long-Las attack",
+              "action": {
+                "ref": {
+                  "id": "di.action.long_las.attack"
+                },
+                "modeId": "base",
+                "stageId": "attack",
+                "executionId": "a8b242f4-395b-467b-8ab7-34de564ebbfa"
+              },
+              "source": {
+                "ref": {
+                  "id": "di.weapon.long_las"
+                },
+                "kind": "content"
+              },
+              "natural": {
+                "groupId": "base",
+                "componentId": "base"
+              },
+              "category": "attack",
+              "critical": {
+                "status": "enabled",
+                "policyId": "phb.critical.v1",
+                "threshold": 20,
+                "comparison": "at_least"
+              },
+              "snapshot": {
+                "stateVersion": 3,
+                "contextDigest": "e1b694da9318de6e0728147fe8849c4f024a00ae6631ef4681776b08e084585b",
+                "engineVersion": "phb-tier1-kotlin-v1",
+                "rulesetLockDigest": "fc78eebe9eab846b96aecf4823f88185e6d9818a1cde59bf255368be37db7769"
+              },
+              "advantage": {
+                "state": "normal",
+                "policyId": "phb.advantage.v1",
+                "appliedGroupIds": []
+              },
+              "components": [
+                {
+                  "id": "base",
+                  "groups": [
+                    {
+                      "id": "base",
+                      "count": 1,
+                      "sides": 20
+                    }
+                  ],
+                  "modifiers": [
+                    {
+                      "id": "resolved",
+                      "label": "Server-calculated modifier",
+                      "value": 6,
+                      "source": {
+                        "ref": {
+                          "id": "di.weapon.long_las"
+                        },
+                        "kind": "content"
+                      },
+                      "contextual": false
+                    }
+                  ]
+                }
+              ],
+              "schemaVersion": 1
+            },
+            "naturalOne": false,
+            "visibility": "PRIVATE",
+            "characterId": "564e1f6b-fe20-4cc5-9ca8-3e95f4045761",
+            "consumption": null,
+            "characterName": "V6 acceptance ratling sharpshooter",
+            "engineVersion": "production-dice-v1",
+            "naturalResult": 10,
+            "rulesetDigest": "fc78eebe9eab846b96aecf4823f88185e6d9818a1cde59bf255368be37db7769",
+            "parentResultId": null,
+            "requestedRollId": "0868c5c6-9019-371f-bd13-be5d64df87af",
+            "rollDefinitionId": "900033cb-e912-34d2-ae26-baf7c6905532",
+            "rulesetProfileId": "di-phb-1.0-tier1-v6",
+            "criticalCandidate": false,
+            "stateVersionAfter": 3,
+            "stateVersionBefore": 3
+          }
+        ],
+        "limit": 25,
+        "hasMore": false
+      },
+      "browserAcceptance": "Sequential advancement, reload, authoritative roll and 3D replay observed in browser"
+    }
+  ],
+  "fullWizardCreation": "ba87b379-8915-4f6d-bcb8-24ca0fbbe1a3",
+  "historicalProfilesReopened": [
+    "narrow-v1",
+    "tier1-v1",
+    "tier1-v2",
+    "tier1-v3",
+    "tier1-v4",
+    "tier1-v5"
+  ]
+}

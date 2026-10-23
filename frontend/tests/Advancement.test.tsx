@@ -27,3 +27,13 @@ it("requires explicit profile-upgrade consent before sending a preview",async()=
  fireEvent.click(screen.getByRole("checkbox",{name:/I confirm the validated rules profile upgrade/}));fireEvent.click(screen.getByRole("button",{name:"Review advancement"}));
  await screen.findByRole("button",{name:"Confirm advancement"});expect(JSON.parse(state.api.mock.calls[1][1].body).confirmProfileUpgrade).toBe(true);
 });
+it("shows explicit upgrade consent at level two without calling it level four",async()=>{
+ state.api.mockResolvedValueOnce({...ready,requiresProfileUpgrade:true}).mockResolvedValueOnce(preview);
+ render(<AdvancementPanel character={saved as unknown as SavedCharacter} onChanged={vi.fn()}/>);
+ fireEvent.click(await screen.findByRole("button",{name:"Level up to 2"}));
+ expect(screen.getByText(/This advancement uses a newer validated/)).toBeInTheDocument();
+ expect(screen.getByRole("button",{name:"Review advancement"})).toBeDisabled();
+ fireEvent.click(screen.getByRole("checkbox",{name:/I confirm the validated/}));fireEvent.click(screen.getByRole("button",{name:"Review advancement"}));
+ await screen.findByRole("button",{name:"Confirm advancement"});
+ expect(JSON.parse(state.api.mock.calls[1][1].body)).toMatchObject({destinationLevel:2,confirmProfileUpgrade:true});
+});

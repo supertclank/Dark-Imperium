@@ -40,6 +40,9 @@ object Level4Rules {
  }
  fun weaponBonus(r:NarrowRules,d:NarrowDraft,item:String):Int {
   val o=selected(r,d) ?: return 0
-  return if(o["talentId"]?.jsonPrimitive?.content=="di.feature.talent.weapon_specialist" && o.text("subchoiceId") in r.data(item).strings("proficiencyGroups")) 1 else 0
+  val groups=r.data(item).strings("proficiencyGroups")
+  if(o["talentId"]?.jsonPrimitive?.content=="di.feature.talent.weapon_specialist" && o.text("subchoiceId") in groups) return 1
+  val support=(r.payload["featureSupport"] as? JsonObject)?.get(o["talentId"]?.jsonPrimitive?.content)?.jsonObject
+  return if((support?.get("weaponDamageGroups") as? JsonArray)?.any { it.jsonPrimitive.content in groups }==true) 1 else 0
  }
 }
