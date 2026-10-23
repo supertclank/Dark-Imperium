@@ -106,7 +106,7 @@ class CreationReadinessTests(unittest.TestCase):
     def test_only_five_approved_rulings_resolved(self):
         ledger=ci.read(ci.PACKAGE/'review/human-rulings-integration.json')
         self.assertEqual(len(ledger),36)
-        approved={f'PHB-RULE-{n:03}' for n in [1,2,3,4,5,6,7,9,24,49,50,51]}
+        approved={f'PHB-RULE-{n:03}' for n in [1,2,3,4,5,6,7,9,14,15,16,24,49,50,51]}
         self.assertEqual({x['id'] for x in ledger if x['status']=='RESOLVED'},approved)
         self.assertTrue(all(x['status']=='UNRESOLVED' and x['decision'] is None for x in ledger if x['id'] not in approved))
         self.assertEqual({x['id'] for x in ci.read(ci.PACKAGE/'review/decisions.json')['humanRulings']},approved)

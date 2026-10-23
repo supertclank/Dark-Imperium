@@ -1216,3 +1216,8 @@ summary { cursor:pointer; line-height:1.8; }
 
 .choice-stats > div { display:block; min-width:0; padding:8px 0; }
 .choice-stats dd { text-align:left; }
+
+.level4-branches { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr)); gap:12px; margin:16px 0 24px; }
+.level4-branches label,.upgrade-consent { display:flex; align-items:center; gap:12px; padding:12px; border:1px solid var(--line); min-height:48px; cursor:pointer; }
+.level4-branches input,.upgrade-consent input { width:20px; height:20px; min-height:20px; flex:none; margin:0; accent-color:var(--brass); }
+.selection-state { flex-shrink:0; white-space:nowrap; }

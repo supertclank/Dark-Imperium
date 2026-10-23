@@ -1,6 +1,6 @@
 # Human ruling checklist
 
-Twelve approved decisions are integrated; **24 of the original 36 remain unresolved**. PHB-RULE-059 remains separate. See the [current readiness report](LEVEL_1_3_CATALOGUE_REPORT.md).
+Fifteen approved decisions are integrated; **21 of the original 36 remain unresolved**. PHB-RULE-059 remains separate. See the [current readiness report](LEVEL4_ADVANCEMENT_REPORT.md).
 
 ## PHB-RULE-001 — RESOLVED
 
@@ -206,17 +206,23 @@ Define expertise contribution and interaction with proficiency or repeated grant
 
 If alternate methods are required, supply point costs/budget or dice/reroll procedure.
 
-## PHB-RULE-014 — UNRESOLVED
+## PHB-RULE-014 — RESOLVED
 
-How do Constitution changes affect prior HP gains, and is there a minimum per-level gain? How does a max-HP change affect current HP?
+Current Constitution applies once to every attained class level; each class Hit Die contribution has a minimum of 1 before separate feature HP. Maximum HP changes do not heal current HP; clamp only when current HP exceeds the new maximum.
 
-## PHB-RULE-015 — UNRESOLVED
+Exact approval and provenance: [approved level-4 brief](../../content/packages/di_phb_1_0/review/approved-level4-rulings.txt), [ledger](../../content/packages/di_phb_1_0/review/decisions.json).
 
-Specify ASI amount, allocation, score cap and exceptions.
+## PHB-RULE-015 — RESOLVED
 
-## PHB-RULE-016 — UNRESOLVED
+Choose +2 to one ability, +1 to two different abilities, or one eligible Talent. ASI-specific maximum 20; no partial or wasted increases. PHB-RULE-009 remains unchanged.
 
-Can a Talent be selected repeatedly, and which selections/benefits stack?
+Exact approval and provenance: [approved level-4 brief](../../content/packages/di_phb_1_0/review/approved-level4-rulings.txt), [ledger](../../content/packages/di_phb_1_0/review/decisions.json).
+
+## PHB-RULE-016 — RESOLVED
+
+A Talent is owned at most once unless its own explicit text says otherwise. Universal Traits are separate. No general stacking policy is introduced.
+
+Exact approval and provenance: [approved level-4 brief](../../content/packages/di_phb_1_0/review/approved-level4-rulings.txt), [ledger](../../content/packages/di_phb_1_0/review/decisions.json).
 
 ## PHB-RULE-017 — UNRESOLVED
 

@@ -88,7 +88,7 @@ class FragGateTests(unittest.TestCase):
         self.assertEqual(item['approval']['sha256'],hashlib.sha256(raw).hexdigest())
         self.assertIn('Frag Grenade only',raw.decode('utf8'));self.assertEqual(item['affectedIds'],['di.weapon.frag_grenade','di.action.frag_grenade.throw'])
         original=c.read(c.PACKAGE/'review/human-rulings-integration.json')
-        self.assertEqual(len(original),36);self.assertEqual(sum(x['status']=='UNRESOLVED' for x in original),24)
+        self.assertEqual(len(original),36);self.assertEqual(sum(x['status']=='UNRESOLVED' for x in original),21)
     def test_missing_grenade_not_authorized_by_definition(self):
         out=n.project(self.fixture['draft'],self.records)
         out['projection']['inventory']=[i for i in out['projection']['inventory'] if i['definition']['id']!='di.weapon.frag_grenade']

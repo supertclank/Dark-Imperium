@@ -108,7 +108,7 @@ class MinimumRulingsTests(unittest.TestCase):
         d=self.draft();d['inventory'].pop();self.assertIn('STARTING_PACKAGE_MISMATCH',{x['code'] for x in n.project(d,self.records)['unresolved']})
         d=self.draft();d['selections']['answers']=[a for a in d['selections']['answers'] if a['choice']['id']!='di.choice.veteran.specialist_group'];self.assertIn('CHOICE_REQUIRED',{x['code'] for x in n.project(d,self.records)['unresolved']})
     def test_rulings_provenance_and_31_remain(self):
-        rows=c.read(c.PACKAGE/'review/human-rulings-integration.json');self.assertEqual(sum(x['status']=='UNRESOLVED' for x in rows),24)
+        rows=c.read(c.PACKAGE/'review/human-rulings-integration.json');self.assertEqual(sum(x['status']=='UNRESOLVED' for x in rows),21)
         sha=hashlib.sha256((c.PACKAGE/'review/approved-minimum-rulings.txt').read_bytes()).hexdigest()
         for x in rows:
             if x['id'] in ['PHB-RULE-009','PHB-RULE-024','PHB-RULE-049','PHB-RULE-050','PHB-RULE-051']:self.assertEqual(x['approval']['sha256'],sha)

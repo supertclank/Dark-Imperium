@@ -22,7 +22,7 @@ class OriginApprovalsTests(unittest.TestCase):
    self.assertEqual(states,{x['species']['id'].split('.')[-1]:x['state'] for x in e['data']['originAvailability']})
    for s in ['human','ogryn','ratling','skitarii','kin','aeldari']:self.assertEqual(s in states,audit.eligible(e,'di.species.'+s))
  def test_seven_exact_approvals_and_historical_denominator(self):
-  history=c.read(c.PACKAGE/'review/human-rulings-integration.json');self.assertEqual(36,len(history));self.assertEqual(12,sum(x['status']=='RESOLVED' for x in history))
+  history=c.read(c.PACKAGE/'review/human-rulings-integration.json');self.assertEqual(36,len(history));self.assertEqual(15,sum(x['status']=='RESOLVED' for x in history))
   ledger=c.read(c.PACKAGE/'review/decisions.json')['humanRulings']
   for n in range(1,8):
    entry=next(x for x in ledger if x['id']==f'PHB-RULE-{n:03}');self.assertTrue(audit.validate_approval(entry,origin=True));self.assertTrue(entry['affectedIds'])

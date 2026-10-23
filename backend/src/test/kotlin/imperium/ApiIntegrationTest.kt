@@ -292,4 +292,60 @@ class ApiIntegrationTest {
         } finally { database.transaction { con -> con.execute("DROP TRIGGER test_fail_advance ON character_advancements");con.execute("DROP FUNCTION test_fail_advance()") } }
     }
 
+    @Test fun `level four upgrade preserves state history and retry result with authoritative new rolls`() = runApi {
+        val cookie=client.account();val v4=NarrowRules.tier4();val d=tier2Fixture("marksman").copy(profileId=v4.id,profileDigest=v4.digest,requestId=UUID.randomUUID().toString())
+        val created=client.postJson("/api/characters",Json.encodeToString(NarrowDraft.serializer(),d),cookie).json();val id=created.text("id")
+        database.transaction { it.execute("UPDATE player_character_runtime SET current_hp=11 WHERE character_id=?",uuid(id)) }
+        suspend fun sheet()=client.get("/api/characters/$id"){header(HttpHeaders.Cookie,cookie)}.json()
+        val before=sheet();val owner=database.read { it.query("SELECT user_id FROM player_characters WHERE id=?",uuid(id)){r->r.getObject(1,UUID::class.java)}.single() }
+        val characters=ProductionCharacters(database);val rolls=CharacterRolls(database,characters)
+        val oldOptions=rolls.options(owner,uuid(id));val oldRoll=oldOptions.objects("options").first { it.text("label")=="Initiative" }
+        rolls.execute(owner,uuid(id),RollRequest(UUID.randomUUID().toString(),oldRoll.text("id"),v4.id,v4.digest,0))
+        val request=AdvanceRequest(UUID.randomUUID().toString(),0,4,mapOf("di.choice.veteran.level4_improvement" to listOf("plus_two_constitution")),true)
+        fun body(r:AdvanceRequest)=Json.encodeToString(AdvanceRequest.serializer(),r)
+        assertEquals(HttpStatusCode.UnprocessableEntity,client.postJson("/api/characters/$id/advance",body(request.copy(confirmProfileUpgrade=false)),cookie).status)
+        assertEquals(before,sheet())
+        val response=client.postJson("/api/characters/$id/advance",body(request),cookie);assertEquals(HttpStatusCode.OK,response.status,response.bodyAsText())
+        val result=response.json();val saved=sheet();assertEquals(4,saved.num("level"));assertEquals(NarrowRules.tier5().id,saved.text("rulesetProfileId"));assertEquals(36,saved.getValue("calculated").jsonObject.num("maximumWounds"));assertEquals(11,saved.getValue("runtime").jsonObject.num("currentHp"));assertEquals(before["inventory"],saved["inventory"])
+        assertEquals(result,client.postJson("/api/characters/$id/advance",body(request),cookie).json())
+        assertEquals(1,database.read { it.query("SELECT count(*) FROM character_profile_upgrades WHERE character_id=?",uuid(id)){r->r.getInt(1)}.single() })
+        assertEquals(v4.digest,database.read { it.query("SELECT profile_digest FROM character_rolls WHERE character_id=? ORDER BY created_at LIMIT 1",uuid(id)){r->r.getString(1)}.single() })
+        val newOptions=rolls.options(owner,uuid(id));val con=newOptions.objects("options").first { it.text("label")=="constitution check" };assertEquals(2,con.num("modifier"))
+        val rolled=rolls.execute(owner,uuid(id),RollRequest(UUID.randomUUID().toString(),con.text("id"),newOptions.text("profileId"),newOptions.text("profileDigest"),1));assertTrue(rolled.isNotEmpty())
+        assertEquals(HttpStatusCode.Conflict,client.postJson("/api/characters/$id/advance",body(request.copy(requestId=UUID.randomUUID().toString())),cookie).status)
+    }
+    @Test fun `failed level four final insert rolls back upgrade choices resources and history`() = runApi {
+        val cookie=client.account();val v4=NarrowRules.tier4();val d=tier2Fixture("marksman").copy(profileId=v4.id,profileDigest=v4.digest,requestId=UUID.randomUUID().toString())
+        val before=client.postJson("/api/characters",Json.encodeToString(NarrowDraft.serializer(),d),cookie).json();val id=before.text("id")
+        val request=AdvanceRequest(UUID.randomUUID().toString(),0,4,mapOf("di.choice.veteran.level4_improvement" to listOf("combat_medic")),true)
+        database.transaction { con -> con.execute("CREATE OR REPLACE FUNCTION test_fail_level4() RETURNS trigger LANGUAGE plpgsql AS 'BEGIN RAISE EXCEPTION ''forced rollback''; END'");con.execute("CREATE TRIGGER test_fail_level4 BEFORE INSERT ON character_advancements FOR EACH ROW EXECUTE FUNCTION test_fail_level4()") }
+        try {
+            assertEquals(HttpStatusCode.InternalServerError,client.postJson("/api/characters/$id/advance",Json.encodeToString(AdvanceRequest.serializer(),request),cookie).status)
+            assertEquals(before,client.get("/api/characters/$id"){header(HttpHeaders.Cookie,cookie)}.json())
+            assertEquals(0,database.read { it.query("SELECT count(*) FROM character_profile_upgrades WHERE character_id=?",uuid(id)){r->r.getInt(1)}.single() })
+        } finally {database.transaction { it.execute("DROP TRIGGER test_fail_level4 ON character_advancements");it.execute("DROP FUNCTION test_fail_level4()") }}
+    }
+
+    @Test fun `level four rejects forged profile HP and old profiles without contract`() = runApi {
+        val cookie=client.account();val v4=NarrowRules.tier4()
+        for(profile in listOf(NarrowRules.tier3(),v4)) {
+            val d=tier2Fixture("marksman").copy(profileId=profile.id,profileDigest=profile.digest,requestId=UUID.randomUUID().toString())
+            val before=client.postJson("/api/characters",Json.encodeToString(NarrowDraft.serializer(),d),cookie).json();val id=before.text("id")
+            val request=AdvanceRequest(UUID.randomUUID().toString(),0,4,mapOf("di.choice.veteran.level4_improvement" to listOf("rapid_reload")),true)
+            val body=Json.encodeToJsonElement(AdvanceRequest.serializer(),request).jsonObject
+            if(profile.id!=v4.id) assertEquals(HttpStatusCode.UnprocessableEntity,client.postJson("/api/characters/$id/advance",body.toString(),cookie).status)
+            else for(extra in listOf("profileId" to JsonPrimitive(NarrowRules.tier5().id),"calculated" to obj("maximumWounds" to 999))) assertEquals(HttpStatusCode.BadRequest,client.postJson("/api/characters/$id/advance",JsonObject(body+extra).toString(),cookie).status)
+            assertEquals(before,client.get("/api/characters/$id"){header(HttpHeaders.Cookie,cookie)}.json())
+        }
+    }
+    @Test fun `v4 upgrade rejects incompatible runtime resources without any write`() = runApi {
+        val cookie=client.account();val r=NarrowRules.tier4();val d=tier2Fixture("marksman").copy(profileId=r.id,profileDigest=r.digest,requestId=UUID.randomUUID().toString())
+        val created=client.postJson("/api/characters",Json.encodeToString(NarrowDraft.serializer(),d),cookie).json();val id=created.text("id")
+        database.transaction { it.execute("UPDATE player_character_runtime SET resources=resources || ?::jsonb WHERE character_id=?",obj("unknown" to obj("maximum" to 1,"remaining" to 1)).toString(),uuid(id)) }
+        val request=AdvanceRequest(UUID.randomUUID().toString(),0,4,mapOf("di.choice.veteran.level4_improvement" to listOf("rapid_reload")),true)
+        val response=client.postJson("/api/characters/$id/advance",Json.encodeToString(AdvanceRequest.serializer(),request),cookie)
+        assertEquals(HttpStatusCode.UnprocessableEntity,response.status);assertTrue(response.bodyAsText().contains("UPGRADE_INCOMPATIBLE"))
+        assertEquals(r.id,client.get("/api/characters/$id"){header(HttpHeaders.Cookie,cookie)}.json().text("rulesetProfileId"))
+    }
+
 }

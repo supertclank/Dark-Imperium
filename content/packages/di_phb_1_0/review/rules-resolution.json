@@ -735,13 +735,13 @@
     "group": "PHB-002",
     "title": "HP acquisition and changing Constitution",
     "category": "GLOBAL_POLICY_REQUIRED",
-    "status": "OPEN",
+    "status": "RESOLVED",
     "sourcePages": [
       17,
       32
     ],
     "evidence": "Level-one maximum die and later fixed values are explicit. Minimum gain, retroactive Constitution changes and maximum/current reconciliation are not.",
-    "decision": "Test per-level gain with already-resolved modifier; do not invent floors or retroactive changes.",
+    "decision": "# Approved PHB-RULE-014\r\n\r\n## Constitution Modifier and Maximum HP\r\n\r\nWhen a character's Constitution modifier changes, maximum HP is recalculated retroactively.\r\n\r\nEach character level receives the character's current Constitution modifier once.\r\n\r\nIf the Constitution modifier changes from `oldModifier` to `newModifier`:\r\n\r\n```text\r\nmaximumHpDelta =\r\n(newModifier - oldModifier) × characterLevel\r\n```\r\n\r\nThis applies to all levels already attained.\r\n\r\n## Minimum Hit Point Contribution\r\n\r\nFor each class level:\r\n\r\n```text\r\nclassHitPointContribution =\r\nmax(1, hitDieContribution + constitutionModifier)\r\n```\r\n\r\nAt level 1, the Hit Die contribution is the maximum class Hit Die value.\r\n\r\nAt later levels, use the existing recorded/fixed Hit Die contribution.\r\n\r\nSpecies and class features that separately add maximum HP are applied outside this minimum.\r\n\r\nExample:\r\n\r\nOgryn Massive Build remains an additional `+3 HP per level`.\r\n\r\nIt is not part of the minimum-one calculation.\r\n\r\n## Current HP\r\n\r\nIncreasing maximum HP due to Constitution does **not** restore current HP.\r\n\r\nExample:\r\n\r\n```text\r\nCurrent: 11 / 25\r\nNew maximum: 29\r\n\r\nResult:\r\n11 / 29\r\n```\r\n\r\nIf maximum HP decreases below current HP:\r\n\r\n```text\r\ncurrentHp = newMaximumHp\r\n```\r\n\r\nNo other healing or damage occurs.\r\n\r\n## Historical HP\r\n\r\nIf rolled level HP is supported in future, preserve the historical Hit Die roll.\r\n\r\nOnly the Constitution contribution is recalculated.\r\n\r\nMark PHB-RULE-014 RESOLVED.",
     "humanQuestion": "How do Constitution changes affect prior HP gains, and is there a minimum per-level gain? How does a max-HP change affect current HP?",
     "affectedIds": [
       "di.rule.phb_2_1",
@@ -761,21 +761,28 @@
     "possibleInterpretations": [
       "Apply the cited source-scoped interpretation when complete.",
       "Preserve unresolved context/precedence rather than applying an external-game convention."
-    ]
+    ],
+    "approval": {
+      "path": "review/approved-level4-rulings.txt",
+      "sha256": "5c804b05c1fa8c0092a1ec06719bc838c1f91290145edb2cf7757047e11af483",
+      "approvedBy": "user",
+      "recordedAt": "2026-10-23T00:35:09.490373+00:00",
+      "sourceRelationship": "Explicit user-approved level-4 brief; PHB source pages 17, 32"
+    }
   },
   {
     "id": "PHB-RULE-015",
     "group": "PHB-003",
     "title": "Ability Score Improvement",
     "category": "MISSING_INFORMATION",
-    "status": "OPEN",
+    "status": "RESOLVED",
     "sourcePages": [
       50,
       86,
       112
     ],
     "evidence": "Levels 4/8/12/16/19 grant ASI/Talent; no amount/distribution/cap located.",
-    "decision": "Keep progression entitlement but block ASI answer validation.",
+    "decision": "# Approved PHB-RULE-015\r\n\r\n## Ability Score Improvement\r\n\r\nAt a class level that grants:\r\n\r\n`Ability Score Improvement / Talent`\r\n\r\nthe player chooses exactly one of:\r\n\r\n### Option A\r\n\r\nIncrease one ability score by:\r\n\r\n`+2`\r\n\r\n### Option B\r\n\r\nIncrease two **different** ability scores by:\r\n\r\n`+1 each`\r\n\r\n### Option C\r\n\r\nChoose one eligible Talent instead.\r\n\r\nThese options are mutually exclusive for that advancement event.\r\n\r\n## ASI Maximum\r\n\r\nAn Ability Score Improvement cannot increase an ability score above:\r\n\r\n`20`\r\n\r\nThis is an **ASI-specific limit**.\r\n\r\nIt does not create a universal ability-score maximum.\r\n\r\nFeatures with their own explicit maximum/minimum continue to use their own text.\r\n\r\nThe existing PHB-RULE-009 policy remains intact.\r\n\r\n## No Wasted Increase\r\n\r\nThe complete selected increase must be legal.\r\n\r\nExamples:\r\n\r\n```text\r\n18 → 20 using +2\r\nVALID\r\n```\r\n\r\n```text\r\n19 → 21 using +2\r\nINVALID\r\n```\r\n\r\n```text\r\n19 → 20 and another ability +1\r\nVALID\r\n```\r\n\r\n```text\r\n20 → 21\r\nINVALID\r\n```\r\n\r\nDo not silently reduce +2 to +1.\r\n\r\nDo not allow intentionally wasted ASI points.\r\n\r\nMark PHB-RULE-015 RESOLVED.",
     "humanQuestion": "Specify ASI amount, allocation, score cap and exceptions.",
     "affectedIds": [
       "di.choice.veteran.starting_skills",
@@ -836,20 +843,27 @@
       "Obtain an authoritative definition/erratum.",
       "Record a separate campaign ruling, never mislabel it PHB transcription.",
       "Keep dependent calculation unresolved."
-    ]
+    ],
+    "approval": {
+      "path": "review/approved-level4-rulings.txt",
+      "sha256": "5c804b05c1fa8c0092a1ec06719bc838c1f91290145edb2cf7757047e11af483",
+      "approvedBy": "user",
+      "recordedAt": "2026-10-23T00:35:09.490373+00:00",
+      "sourceRelationship": "Explicit user-approved level-4 brief; PHB source pages 50, 86, 112"
+    }
   },
   {
     "id": "PHB-RULE-016",
     "group": "PHB-003",
     "title": "Talent repeatability",
     "category": "GLOBAL_POLICY_REQUIRED",
-    "status": "OPEN",
+    "status": "RESOLVED",
     "sourcePages": [
       86,
       87
     ],
     "evidence": "Talents have benefits and some requirements; general repeatability unspecified.",
-    "decision": "No repeatable default is published.",
+    "decision": "# Approved PHB-RULE-016\r\n\r\n## Repeated Talents\r\n\r\nA Talent may be selected only once per character unless that Talent explicitly states that it may be selected more than once.\r\n\r\nThe current PHB Talent catalogue does not establish a general repeatability rule.\r\n\r\nTherefore:\r\n\r\n- General Talent: maximum once\r\n- Species-restricted Talent: maximum once\r\n- Class/species requirements must be satisfied\r\n- Future Talent with explicit repeatability text may override this rule\r\n\r\nA character receiving another ASI/Talent opportunity may choose:\r\n\r\n- an ASI\r\n- a different eligible Talent\r\n\r\nbut may not select an already-owned non-repeatable Talent.\r\n\r\nUniversal Traits are separate from Talents.\r\n\r\nUniversal Trait ownership does not prevent a similarly themed Talent unless a specific prerequisite says otherwise.\r\n\r\nMark PHB-RULE-016 RESOLVED.",
     "humanQuestion": "Can a Talent be selected repeatedly, and which selections/benefits stack?",
     "affectedIds": [
       "di.feature.talent.aeldari_grace",
@@ -906,7 +920,14 @@
     "possibleInterpretations": [
       "Apply the cited source-scoped interpretation when complete.",
       "Preserve unresolved context/precedence rather than applying an external-game convention."
-    ]
+    ],
+    "approval": {
+      "path": "review/approved-level4-rulings.txt",
+      "sha256": "5c804b05c1fa8c0092a1ec06719bc838c1f91290145edb2cf7757047e11af483",
+      "approvedBy": "user",
+      "recordedAt": "2026-10-23T00:35:09.490373+00:00",
+      "sourceRelationship": "Explicit user-approved level-4 brief; PHB source pages 86, 87"
+    }
   },
   {
     "id": "PHB-RULE-017",

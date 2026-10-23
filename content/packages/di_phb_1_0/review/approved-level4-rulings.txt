@@ -1,0 +1,1130 @@
+# Dark Imperium Web – Level 4 Advancement, Ability Score Improvements & Talents
+
+You are working on **Dark Imperium Web**.
+
+The current production application supports:
+
+- All six core Species
+- 64 READY_WITH_MANUAL_RULES family rows
+- Human Veteran advancement through level 3
+- Veteran Regimental Doctrines
+- Human Hive Scum level 1
+- Ratling Veteran/Hive Scum level 1
+- Ogryn Skullbreaker level 1
+- Skitarii Veteran level 1
+- Kin Armsman / Hernkyn Prospector level 1
+- Aeldari Outcast level 1
+- Character persistence
+- Immutable ruleset profiles
+- Server-authoritative calculations
+- Transactional advancement
+- Authoritative dice
+- Roll history
+- 3D dice presentation
+- Improved Species/Origin/Class/Subclass builder presentation
+- Shared-pool Standard Array UX
+
+Current release:
+
+`di-phb-1.0-tier1-v4`
+
+Adapter:
+
+`phb-tier1-kotlin-v1`
+
+Digest:
+
+`2ef85cd454999670ee61f51eebcc9b23e6805d5220b518d2c5643001831c5119`
+
+Verification baseline:
+
+- Content: 141 passing
+- Backend: 77 passing
+- Frontend: 63 passing
+- TypeScript: passing
+
+No v5 profile currently exists.
+
+Your task is to integrate the three explicitly approved level-4 rulings below and implement the first production **level-4 advancement workflow**.
+
+Initial production level-4 certification should focus on **Human Veteran paths already certified through level 3**.
+
+Do not assume other Species/classes are automatically ready for level 4.
+
+---
+
+# Approved PHB-RULE-014
+
+## Constitution Modifier and Maximum HP
+
+When a character's Constitution modifier changes, maximum HP is recalculated retroactively.
+
+Each character level receives the character's current Constitution modifier once.
+
+If the Constitution modifier changes from `oldModifier` to `newModifier`:
+
+```text
+maximumHpDelta =
+(newModifier - oldModifier) × characterLevel
+```
+
+This applies to all levels already attained.
+
+## Minimum Hit Point Contribution
+
+For each class level:
+
+```text
+classHitPointContribution =
+max(1, hitDieContribution + constitutionModifier)
+```
+
+At level 1, the Hit Die contribution is the maximum class Hit Die value.
+
+At later levels, use the existing recorded/fixed Hit Die contribution.
+
+Species and class features that separately add maximum HP are applied outside this minimum.
+
+Example:
+
+Ogryn Massive Build remains an additional `+3 HP per level`.
+
+It is not part of the minimum-one calculation.
+
+## Current HP
+
+Increasing maximum HP due to Constitution does **not** restore current HP.
+
+Example:
+
+```text
+Current: 11 / 25
+New maximum: 29
+
+Result:
+11 / 29
+```
+
+If maximum HP decreases below current HP:
+
+```text
+currentHp = newMaximumHp
+```
+
+No other healing or damage occurs.
+
+## Historical HP
+
+If rolled level HP is supported in future, preserve the historical Hit Die roll.
+
+Only the Constitution contribution is recalculated.
+
+Mark PHB-RULE-014 RESOLVED.
+
+---
+
+# Approved PHB-RULE-015
+
+## Ability Score Improvement
+
+At a class level that grants:
+
+`Ability Score Improvement / Talent`
+
+the player chooses exactly one of:
+
+### Option A
+
+Increase one ability score by:
+
+`+2`
+
+### Option B
+
+Increase two **different** ability scores by:
+
+`+1 each`
+
+### Option C
+
+Choose one eligible Talent instead.
+
+These options are mutually exclusive for that advancement event.
+
+## ASI Maximum
+
+An Ability Score Improvement cannot increase an ability score above:
+
+`20`
+
+This is an **ASI-specific limit**.
+
+It does not create a universal ability-score maximum.
+
+Features with their own explicit maximum/minimum continue to use their own text.
+
+The existing PHB-RULE-009 policy remains intact.
+
+## No Wasted Increase
+
+The complete selected increase must be legal.
+
+Examples:
+
+```text
+18 → 20 using +2
+VALID
+```
+
+```text
+19 → 21 using +2
+INVALID
+```
+
+```text
+19 → 20 and another ability +1
+VALID
+```
+
+```text
+20 → 21
+INVALID
+```
+
+Do not silently reduce +2 to +1.
+
+Do not allow intentionally wasted ASI points.
+
+Mark PHB-RULE-015 RESOLVED.
+
+---
+
+# Approved PHB-RULE-016
+
+## Repeated Talents
+
+A Talent may be selected only once per character unless that Talent explicitly states that it may be selected more than once.
+
+The current PHB Talent catalogue does not establish a general repeatability rule.
+
+Therefore:
+
+- General Talent: maximum once
+- Species-restricted Talent: maximum once
+- Class/species requirements must be satisfied
+- Future Talent with explicit repeatability text may override this rule
+
+A character receiving another ASI/Talent opportunity may choose:
+
+- an ASI
+- a different eligible Talent
+
+but may not select an already-owned non-repeatable Talent.
+
+Universal Traits are separate from Talents.
+
+Universal Trait ownership does not prevent a similarly themed Talent unless a specific prerequisite says otherwise.
+
+Mark PHB-RULE-016 RESOLVED.
+
+---
+
+# Ruling Provenance
+
+Store all three rulings through the existing approval ledger process.
+
+Preserve:
+
+- exact approval text
+- user provenance
+- UTC recorded timestamp
+- source relationships
+- affected mechanics
+- SHA-256 approval digest
+
+Do not rewrite older ruling records.
+
+Expected original ruling ledger after integration:
+
+- 15 resolved
+- 21 unresolved
+- 36 original total
+
+PHB-RULE-059 remains separate from this denominator.
+
+---
+
+# Phase 1 – Level-4 Publication Audit
+
+Re-evaluate existing certified paths for level 4.
+
+Do not publish level 4 globally.
+
+Initial focus:
+
+Human
+→ NORMAL Origin
+→ Veteran
+→ certified Regimental Doctrine
+→ Level 4
+
+Audit each currently supported Human Veteran family.
+
+At level 4 the new mandatory progression choice is:
+
+`Ability Score Improvement / Talent`
+
+No level-4 family may certify until this choice is executable.
+
+---
+
+# Phase 2 – Advancement Choice Model
+
+Extend the generic advancement-choice system.
+
+At level 4 the server should expose a required choice:
+
+```text
+ADVANCEMENT_CHOICE
+ability_score_improvement_or_talent
+```
+
+with three branches:
+
+```text
+ASI_PLUS_TWO
+ASI_SPLIT
+TALENT
+```
+
+Do not encode this solely in frontend state.
+
+The backend/profile defines available branches.
+
+---
+
+# Phase 3 – ASI +2
+
+For `ASI_PLUS_TWO`:
+
+require exactly one ability.
+
+Server validates:
+
+- canonical ability ID
+- current score
+- +2 legality
+- resulting score <= 20
+
+Preview must display derived consequences.
+
+Example:
+
+```text
+DEX 18 → 20
+Modifier +4 → +5
+```
+
+---
+
+# Phase 4 – Split ASI
+
+For:
+
+`ASI_SPLIT`
+
+require exactly two **different** abilities.
+
+Each receives:
+
+`+1`
+
+Reject:
+
+- same ability twice
+- unknown ability
+- resulting score >20
+- incomplete selection
+
+Persist the selected advancement choice canonically.
+
+---
+
+# Phase 5 – Derived Recalculation
+
+ASI must flow through the existing calculation engine.
+
+Changing an ability may affect:
+
+- ability modifier
+- skills
+- saving throws
+- initiative
+- AC
+- weapon attacks
+- weapon damage
+- save DCs
+- maximum HP
+- feature calculations
+
+Do not special-case derived values in React.
+
+The backend recalculates the complete destination profile.
+
+---
+
+# Phase 6 – Constitution ASI
+
+Apply PHB-RULE-014.
+
+Example:
+
+Level 4 Veteran:
+
+```text
+CON 13
+modifier +1
+
+→ ASI +2 CON
+
+CON 15
+modifier +2
+```
+
+Retroactive Constitution difference:
+
+```text
++1 × 4 levels = +4 maximum HP
+```
+
+This is in addition to the normal level-4 Hit Die contribution calculated using the new Constitution modifier.
+
+Ensure there is no double-counting.
+
+Use independent golden tests.
+
+---
+
+# Phase 7 – Advancement Calculation Order
+
+Define and document an explicit level-4 advancement order.
+
+Recommended authoritative order:
+
+1. validate current level/profile
+2. apply level progression to destination level
+3. apply level-4 ASI/Talent selection
+4. calculate final ability scores
+5. calculate final modifiers
+6. calculate destination HP using PHB-RULE-014
+7. calculate all other derived statistics
+8. initialise newly granted resources
+9. preserve existing runtime state
+10. persist advancement transactionally
+
+Ensure Constitution changes are counted exactly once.
+
+Document the chosen order.
+
+---
+
+# Phase 8 – Current HP
+
+Preserve current HP during advancement.
+
+Example:
+
+```text
+Before:
+11 / 25
+
+After level 4 + CON increase:
+11 / 35
+```
+
+The exact maximum depends on canonical calculation.
+
+Do not heal to maximum.
+
+If maximum decreases below current HP:
+
+clamp current HP to maximum.
+
+---
+
+# Phase 9 – Talent Canonicalisation
+
+Chapter 12 contains the Talent catalogue.
+
+Audit all Talents required for production level 4.
+
+Create:
+
+`docs/import/LEVEL4_TALENT_READINESS.md`
+
+Classify every Talent:
+
+```text
+READY
+READY_WITH_MANUAL_RULES
+BLOCKED_BY_RULE
+BLOCKED_BY_CONTENT
+BLOCKED_BY_ENGINE
+INELIGIBLE
+```
+
+Do not publish every Talent automatically merely because text exists.
+
+---
+
+# Phase 10 – General Talents
+
+Audit all General Talents individually.
+
+Examples include:
+
+- Rapid Reload
+- Hip Fire
+- Close-Quarters Killer
+- Heavy Weapon Training
+- Iron Discipline
+- Combat Medic
+- Grenadier
+- Brawler
+- Cybernetic Implant
+- Point Blank Execution
+- Suppressive Discipline
+- Field Armourer
+- Bayonet Fighter
+- Breacher
+- Crisis Runner
+- Dead Calm
+- Tactical Reposition
+- Weapon Specialist
+- Armour Familiarity
+- Relic-Bearer
+
+Use actual canonical records/source text.
+
+Do not infer unresolved mechanics.
+
+---
+
+# Phase 11 – Talent Requirements
+
+Species-restricted Talents must expose structured requirements.
+
+Examples:
+
+- Ogryn
+- Ratling
+- Skitarii
+- Human
+- Human Psyker
+- Squat/Kin
+- Aeldari
+- Aeldari Outcast
+- Aeldari Warlock
+
+Do not parse display prose at runtime to decide eligibility.
+
+---
+
+# Phase 12 – Human Veteran Talent Pool
+
+For the first level-4 production path, publish only Talents that are safely usable by a Human Veteran.
+
+Exclude:
+
+- Species-ineligible Talents
+- Psyker-only Talents
+- blocked content
+- unresolved mandatory mechanics
+
+Manual contextual Talents may be published as:
+
+`READY_WITH_MANUAL_RULES`
+
+if they do not invalidate character calculations.
+
+---
+
+# Phase 13 – Talent Ownership
+
+Persist Talent ownership as canonical character choices/features.
+
+A selected Talent must:
+
+- survive reload
+- survive future advancement
+- appear on character sheet
+- appear in advancement eligibility
+- prevent reselection where non-repeatable
+
+Do not store only display text.
+
+---
+
+# Phase 14 – Duplicate Talent Validation
+
+Backend rejects a second copy of an owned Talent.
+
+Stable validation code should identify:
+
+`TALENT_ALREADY_OWNED`
+
+or established project equivalent.
+
+Frontend removes/disables already-owned Talents.
+
+Backend remains authoritative.
+
+---
+
+# Phase 15 – Talent Detail UI
+
+The advancement interface should explain each Talent before selection.
+
+Display:
+
+- name
+- requirement
+- canonical benefit
+- automation/manual classification
+
+Use the improved choice-card/detail style from the recent builder UX pass.
+
+Do not present a bare dropdown containing unexplained Talent names.
+
+---
+
+# Phase 16 – ASI/Talent Choice UI
+
+Level-up should first ask:
+
+```text
+Choose your Level 4 advancement
+```
+
+Options:
+
+```text
+Ability Score Improvement
+Talent
+```
+
+If ASI:
+
+```text
++2 to one ability
+
+OR
+
++1 to two different abilities
+```
+
+If Talent:
+
+show eligible Talent cards.
+
+---
+
+# Phase 17 – Advancement Preview
+
+Server preview must clearly show before/after effects.
+
+Example:
+
+```text
+LEVEL 3 → LEVEL 4
+
+Ability Score Improvement
+
+Dexterity
+18 → 20
+
+Modifier
++4 → +5
+
+Initiative
++4 → +5
+
+Lasgun Attack
++6 → +7
+```
+
+For Constitution:
+
+show:
+
+- Constitution
+- modifier
+- maximum HP delta
+- current HP unchanged
+
+For Talent:
+
+show newly granted feature/resource/action.
+
+---
+
+# Phase 18 – Talent Runtime Classification
+
+A Talent may be:
+
+```text
+AUTOMATED
+PARTIALLY_AUTOMATED
+MANUAL
+```
+
+Do not hide manual status.
+
+Do not expose internal development vocabulary unnecessarily.
+
+Player-facing examples:
+
+`Manual tracking required`
+
+`Some effects require manual adjudication`
+
+---
+
+# Phase 19 – Existing Unresolved Rules
+
+Do not resolve remaining rules by implementing Talents.
+
+Examples:
+
+PHB-RULE-020 Burst  
+PHB-RULE-022 Suppression  
+PHB-RULE-046 Conditions  
+PHB-RULE-058 Stacking
+
+A Talent depending on them may remain manual or unavailable according to its dependency.
+
+Example:
+
+Suppressive Discipline must not magically resolve Suppression.
+
+---
+
+# Phase 20 – Weapon Specialist
+
+Weapon Specialist requires a weapon-group choice.
+
+Use canonical weapon groups.
+
+Persist:
+
+```text
+talent.weapon_specialist
++
+selectedWeaponGroup
+```
+
+Do not hard-code the list in React.
+
+Its +1 damage should flow through calculation/action generation where safe.
+
+PHB-RULE-058 remains unresolved for ambiguous stacking contexts.
+
+---
+
+# Phase 21 – Cybernetic Implant
+
+Cybernetic Implant grants one minor augmetic upgrade.
+
+Reuse the already approved minor-augmetic pool from PHB-RULE-051.
+
+Require one valid choice.
+
+Do not invent a broader augmetic pool.
+
+Because PHB-RULE-016 prevents repeated Talent selection, Cybernetic Implant may currently be chosen only once.
+
+---
+
+# Phase 22 – Species Talents
+
+Build the eligibility architecture now even if initial level-4 publication is Human Veteran only.
+
+Do not publish non-Human level-4 paths until their levels 2–3 are independently certified.
+
+Their Talents may still be canonicalised/prepared.
+
+---
+
+# Phase 23 – Immutable v5 Profile
+
+Level-4 publication requires a new immutable release.
+
+Create:
+
+`di-phb-1.0-tier1-v5`
+
+with a new digest.
+
+Do NOT modify:
+
+- narrow-v1
+- tier1-v1
+- tier1-v2
+- tier1-v3
+- tier1-v4
+
+---
+
+# Phase 24 – Existing Character Upgrade Problem
+
+Existing tier1-v4 characters are pinned to v4 and v4 does not certify level 4.
+
+Do NOT silently rebind them to v5.
+
+Implement an explicit, certified ruleset-upgrade path.
+
+Conceptually:
+
+```text
+tier1-v4
+→ compatibility validation
+→ tier1-v5
+→ level 4 advancement
+```
+
+Only profiles with an explicit migration/upgrade contract may be upgraded.
+
+---
+
+# Phase 25 – Ruleset Upgrade Contract
+
+Create a production migration record such as:
+
+```text
+fromProfile: di-phb-1.0-tier1-v4
+toProfile: di-phb-1.0-tier1-v5
+```
+
+The migration must verify:
+
+- Species unchanged
+- Origin unchanged
+- Class unchanged
+- level 1–3 mechanics remain compatible
+- subclass unchanged
+- inventory canonical IDs remain valid
+- resources remain valid
+- ability scores remain valid
+- runtime state can be preserved
+
+Do not make migration depend merely on profile naming.
+
+---
+
+# Phase 26 – Explicit Player Confirmation
+
+If a v4 character must upgrade before level 4, explain:
+
+```text
+Level 4 uses the newer validated Dark Imperium rules profile.
+
+Your existing character choices, inventory, HP,
+history and current state will be preserved.
+```
+
+Require explicit confirmation.
+
+Do not use alarming migration language where unnecessary.
+
+---
+
+# Phase 27 – Profile Migration Transaction
+
+Migration + advancement should be atomic where appropriate.
+
+A failure must not leave the character:
+
+- on v5 but level 3 unintentionally
+- half-advanced
+- with duplicated choices
+- with lost inventory/resources
+
+Use transaction and idempotency protections.
+
+---
+
+# Phase 28 – Migration History
+
+Persist profile upgrade history.
+
+At minimum:
+
+- character ID
+- from profile
+- to profile
+- timestamp
+- advancement request reference
+- migration contract/version
+
+Historical dice results retain the ruleset snapshot under which they occurred.
+
+Do not rewrite old roll history.
+
+---
+
+# Phase 29 – Level-4 Persistence
+
+Persist:
+
+- level = 4
+- ASI/Talent choice
+- selected ability IDs where ASI
+- selected Talent ID where Talent
+- Talent subchoice where required
+- resulting profile identity
+
+Derived stats remain calculated, not duplicated unnecessarily.
+
+---
+
+# Phase 30 – Advancement Idempotency
+
+Existing advancement idempotency remains required.
+
+Retrying the same level-4 request must not:
+
+- apply ASI twice
+- grant Talent twice
+- grant augmetic twice
+- alter HP twice
+- migrate profile twice
+
+---
+
+# Phase 31 – Golden Fixtures
+
+Add Human Veteran level-4 goldens covering at minimum:
+
+## +2 ASI
+
+Example Dexterity increase.
+
+## Split ASI
+
+Two different abilities.
+
+## Constitution ASI
+
+Must verify retroactive max HP and unchanged current HP.
+
+## Talent
+
+At least one simple validated Talent.
+
+## Talent with choice
+
+Weapon Specialist or Cybernetic Implant if certified.
+
+---
+
+# Phase 32 – Negative Fixtures
+
+Test:
+
+- +2 exceeding 20
+- split ASI using same ability twice
+- split ASI exceeding 20
+- partial ASI
+- ASI + Talent simultaneously
+- ineligible Species Talent
+- duplicate Talent
+- unknown Talent
+- invalid Talent subchoice
+- old profile without approved migration
+- stale advancement state
+- forged calculated HP
+- direct client profile replacement
+
+---
+
+# Phase 33 – Character Sheet
+
+After level 4 display:
+
+- updated ability scores
+- updated derived modifiers
+- max/current HP
+- owned Talent where applicable
+- Talent details
+- source/manual status
+
+Do not add an empty Talent section to characters with none.
+
+---
+
+# Phase 34 – Dice Recalculation
+
+After ASI:
+
+authoritative rolls must use new calculated values.
+
+Example:
+
+Dexterity improvement must affect supported:
+
+- Dexterity checks
+- Dexterity saves
+- initiative
+- relevant weapon attacks
+- relevant damage
+- AC where armour permits
+
+Old roll history remains unchanged.
+
+---
+
+# Phase 35 – Advancement Browser Acceptance
+
+Exercise at minimum:
+
+## ASI Character
+
+1. Open certified Human Veteran level 3.
+2. Begin level 4.
+3. Explicitly upgrade v4 → v5 if required.
+4. Select +2 ASI.
+5. Preview derived changes.
+6. Confirm.
+7. Reload.
+8. Verify level 4 and new statistics.
+9. Roll an affected action.
+10. Verify new bonus.
+
+## Constitution Character
+
+Verify:
+
+- retroactive max HP change
+- current HP not healed
+- reload persistence
+
+## Talent Character
+
+1. Advance another level-3 Human Veteran.
+2. Choose an eligible Talent.
+3. Confirm.
+4. Verify Talent appears on sheet.
+5. Verify duplicate selection is unavailable.
+
+---
+
+# Phase 36 – Previous Profiles
+
+Reopen representative:
+
+- narrow-v1
+- tier1-v1
+- tier1-v2
+- tier1-v3
+- tier1-v4
+
+without migrating them.
+
+Only characters deliberately entering the approved v4→v5 advancement flow should move profile.
+
+---
+
+# Phase 37 – Tests
+
+Preserve:
+
+- 141 content tests
+- 77 backend tests
+- 63 frontend tests
+
+Add coverage for:
+
+- all three approved rulings
+- ASI validation
+- retroactive Constitution HP
+- current HP preservation
+- Talent eligibility
+- Talent uniqueness
+- Talent subchoices
+- migration compatibility
+- migration transaction rollback
+- profile history
+- level-4 calculation
+- authoritative rolls after ASI
+
+---
+
+# Out of Scope
+
+Do NOT implement:
+
+- level 5+
+- non-Human level 2–4 advancement
+- unrestricted Talent catalogue
+- repeated Talents
+- multiclassing
+- respec
+- profile auto-migration
+- campaign approval infrastructure
+- unresolved psychic content
+- unresolved Suppression/conditions/stacking rules
+
+---
+
+# Definition of Done
+
+This iteration succeeds when:
+
+- PHB-RULE-014 is formally integrated
+- PHB-RULE-015 is formally integrated
+- PHB-RULE-016 is formally integrated
+- Human Veteran level 4 is production-certified
+- ASI +2 works
+- split ASI works
+- Talent alternative works
+- Constitution changes correctly reconcile maximum HP
+- current HP does not become free healing
+- Talent ownership is canonical and non-repeatable
+- a new immutable v5 profile exists
+- v4 characters can explicitly and safely upgrade for level 4
+- old historical profiles/results remain intact
+- backend remains authoritative
+
+---
+
+# Completion Report
+
+Report:
+
+1. PHB-RULE-014 integration
+2. PHB-RULE-015 integration
+3. PHB-RULE-016 integration
+4. Original ruling ledger totals
+5. ASI workflow
+6. Constitution HP reconciliation
+7. Talent catalogue readiness
+8. Talents published for Human Veteran
+9. Talent subchoices
+10. Level-4 Human Veteran families
+11. v5 profile ID/digest
+12. v4→v5 upgrade implementation
+13. Migration history/preservation
+14. Content tests
+15. Backend tests
+16. Frontend tests
+17. Browser ASI acceptance
+18. Browser Constitution acceptance
+19. Browser Talent acceptance
+20. Build status
+21. Docker status
+22. Remaining blockers
+23. Recommended next milestone
+
+If level 4 is stable, the next milestone should be:
+
+**Certify non-Human advancement through levels 2–4 and complete Ratling Sharpshooter where source-backed content permits, before beginning level 5 and Extra Attack.**

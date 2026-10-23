@@ -16,7 +16,7 @@ class Tier1CatalogueTests(unittest.TestCase):
  def test_all_dimensions_and_subclasses_are_covered(self):
   self.assertEqual((6,10,12,45,4140),tuple(self.data['counts'][k] for k in ['species','origins','classes','subclasses','combinations']));self.assertEqual(4140,len({x['id'] for x in self.data['rows']}))
  def test_origin_gate_preserves_original_denominator(self):
-  self.assertEqual(36,self.data['approvalGate']['originalTotal']);self.assertEqual(24,self.data['approvalGate']['originalUnresolved']);self.assertEqual(7,self.data['approvalGate']['originNewlyResolved'])
+  self.assertEqual(36,self.data['approvalGate']['originalTotal']);self.assertEqual(21,self.data['approvalGate']['originalUnresolved']);self.assertEqual(7,self.data['approvalGate']['originNewlyResolved'])
  def test_every_affected_origin_is_resolved_but_approval_is_separate(self):
   self.assertFalse(any(r['status']=='BLOCKED_BY_RULING' for r in self.data['rows']))
   for row in self.data['rows']:

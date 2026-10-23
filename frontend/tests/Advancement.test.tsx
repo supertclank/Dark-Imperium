@@ -19,3 +19,11 @@ it("reviews server HP and preserves request UUID after uncertain confirmation",a
  fireEvent.click(screen.getByRole("button",{name:"Confirm advancement"}));await waitFor(()=>expect(changed).toHaveBeenCalledWith(saved));
  expect(state.api.mock.calls[2][1].body).toBe(state.api.mock.calls[3][1].body);
 });
+
+it("requires explicit profile-upgrade consent before sending a preview",async()=>{
+ state.api.mockResolvedValueOnce({...ready,nextLevel:4,requiresProfileUpgrade:true}).mockResolvedValueOnce({...preview,toLevel:4});
+ render(<AdvancementPanel character={saved as unknown as SavedCharacter} onChanged={vi.fn()}/>);
+ fireEvent.click(await screen.findByRole("button",{name:"Level up to 4"}));expect(screen.getByRole("button",{name:"Review advancement"})).toBeDisabled();
+ fireEvent.click(screen.getByRole("checkbox",{name:/I confirm the validated rules profile upgrade/}));fireEvent.click(screen.getByRole("button",{name:"Review advancement"}));
+ await screen.findByRole("button",{name:"Confirm advancement"});expect(JSON.parse(state.api.mock.calls[1][1].body).confirmProfileUpgrade).toBe(true);
+});

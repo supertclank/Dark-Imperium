@@ -1,3 +1,7 @@
+## Level 4 advancement release
+
+Human Veteran level-4 advancement is available for 24 certified families through an explicit v4-to-v5 upgrade, with ASI or 18 audited Talents. Older profiles stay pinned. Validation: 146 content, 88 backend and 69 frontend tests pass; TypeScript passes. Frontend production packaging is blocked by Windows EPERM; Docker startup is unverified. See the [full release report](docs/import/LEVEL4_ADVANCEMENT_REPORT.md).
+
 > **Builder UX pass:** [Presentation and ability-score verification](docs/BUILDER_PRESENTATION_REPORT.md). Structured choices, immediate doctrine details and an initially unassigned unique Standard Array. 141 content / 77 backend / 63 frontend tests pass; v4 snapshot unchanged. Mobile browser verification and Windows standalone packaging remain unverified.
 
 > **Current v4 release:** [Non-Human certification and verification](docs/import/NONHUMAN_V4_REPORT.md). Six species, 64 restricted certified families; Ogryn, Skitarii, Kin and Aeldari now have reviewed level-one paths. Open tool/vehicle and equipment alternatives remain unavailable. Existing profiles stay pinned. Earlier reports below are historical.

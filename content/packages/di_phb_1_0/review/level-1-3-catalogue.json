@@ -7,8 +7,8 @@
   },
   "approvalGate": {
     "originalTotal": 36,
-    "originalResolved": 12,
-    "originalUnresolved": 24,
+    "originalResolved": 15,
+    "originalUnresolved": 21,
     "originNewlyResolved": 7,
     "originBlocked": []
   },
@@ -11577,24 +11577,6 @@
       "id": "PHB-RULE-012",
       "question": "If alternate methods are required, supply point costs/budget or dice/reroll procedure.",
       "impact": "NON_BLOCKING_INITIAL_CREATION",
-      "scope": "Apply only when the selected configuration actually exercises this unresolved mechanic; broad historical affectedIds are not a dependency graph."
-    },
-    {
-      "id": "PHB-RULE-014",
-      "question": "How do Constitution changes affect prior HP gains, and is there a minimum per-level gain? How does a max-HP change affect current HP?",
-      "impact": "CONDITIONAL_CREATION_BLOCKER",
-      "scope": "Apply only when the selected configuration actually exercises this unresolved mechanic; broad historical affectedIds are not a dependency graph."
-    },
-    {
-      "id": "PHB-RULE-015",
-      "question": "Specify ASI amount, allocation, score cap and exceptions.",
-      "impact": "CONDITIONAL_CREATION_BLOCKER",
-      "scope": "Apply only when the selected configuration actually exercises this unresolved mechanic; broad historical affectedIds are not a dependency graph."
-    },
-    {
-      "id": "PHB-RULE-016",
-      "question": "Can a Talent be selected repeatedly, and which selections/benefits stack?",
-      "impact": "CONDITIONAL_CREATION_BLOCKER",
       "scope": "Apply only when the selected configuration actually exercises this unresolved mechanic; broad historical affectedIds are not a dependency graph."
     },
     {
