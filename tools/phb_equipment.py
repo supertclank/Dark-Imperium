@@ -38,7 +38,7 @@ def validate_equipment(entity, records):
             c.require(m['save']['attribute']=='dexterity' and m['save']['dcPolicy']=='phb.grenade_dc.v1','GRENADE_SAVE_SUBSET')
             c.require(('successOutcome' in m['save']) != ('outcomes' in m['save']),'SAVE_OUTCOME_REPRESENTATION')
             if 'outcomes' in m['save']:
-                validate_save_outcomes(m['save']['outcomes'])
+                validate_save_outcomes(m['save']['outcomes'], exact_fraction=entity['id']=='di.weapon.frag_bomb')
             else:c.require(m['save']['successOutcome']=='unresolved','UNRESOLVED_SAVE_OUTCOME')
         if 'area' in m:
             c.shape(m['area'],['shape','radius']);c.require(m['area']['shape']=='sphere','AREA_SHAPE');c.shape(m['area']['radius'],['value','unit']);c.integer(m['area']['radius']['value'],1,1000000);c.require(m['area']['radius']['unit']=='ft','AREA_UNIT')
@@ -53,7 +53,7 @@ def validate_equipment(entity, records):
         else:c.shape(r,['kind','normal','long']);c.require(r['kind']=='distance','RANGE_KIND');distances=[r['normal'],r['long']];c.require(r['long']['value']>=r['normal']['value'],'RANGE_ORDER')
         for distance in distances:c.shape(distance,['value','unit']);c.require(distance['unit']=='ft','RANGE_UNIT');c.integer(distance['value'],1,1000000)
 
-def validate_save_outcomes(outcomes):
+def validate_save_outcomes(outcomes, exact_fraction=False):
     """Explicit rational scaling only. Absence never supplies a default."""
     c.shape(outcomes,['failure','success'])
     for outcome in outcomes.values():
@@ -61,4 +61,4 @@ def validate_save_outcomes(outcomes):
         c.shape(outcome['damageMultiplier'],['numerator','denominator'])
         c.integer(outcome['damageMultiplier']['numerator'],0,10)
         c.integer(outcome['damageMultiplier']['denominator'],1,10)
-        c.require(outcome['rounding']=='floor','DAMAGE_ROUNDING')
+        c.require(outcome['rounding'] in (['exact_fraction'] if exact_fraction else ['floor']),'DAMAGE_ROUNDING')

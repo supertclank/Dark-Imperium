@@ -43,7 +43,9 @@ class FragGateTests(unittest.TestCase):
         self.assertEqual(blast['status'],'UNRESOLVED');self.assertIsNone(blast['decision'])
         for e in self.records.values():
             for mode in e['data'].get('modes',[]):
-                if 'outcomes' in mode.get('save',{}):self.assertEqual(e['id'],'di.weapon.frag_grenade')
+                if 'outcomes' in mode.get('save',{}):
+                    self.assertIn(e['id'],['di.weapon.frag_grenade','di.weapon.frag_bomb'])
+                    self.assertEqual(mode['save']['outcomes']['success']['rounding'],'exact_fraction' if e['id']=='di.weapon.frag_bomb' else 'floor')
         for key in ['firebomb','krak_grenade']:
             candidate=c.read(c.PACKAGE/f'review/candidates/weapon/{key}.json')
             self.assertNotIn('outcomes',candidate['proposedData'].get('save',{}))

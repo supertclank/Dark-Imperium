@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "id": "di.weapon.frag_bomb",
+  "kind": "weapon",
+  "revision": 1,
+  "name": "Frag Bomb",
+  "summary": "Grenade: Frag Bomb; Effect: Ogryn only. 20-ft radius; Dexterity save; 4d6 piercing damage and knocked prone on a failure; half damage and not knocked prone on a success.; Availability: Controlled",
+  "descriptionMarkdown": "Grenade: Frag Bomb; Effect: Ogryn only. 20-ft radius; Dexterity save; 4d6 piercing damage and knocked prone on a failure; half damage and not knocked prone on a success.; Availability: Controlled",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "10",
+        "heading": "Frag Bomb",
+        "pdfPage": 47,
+        "printedPage": 34
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "category": "grenade",
+    "subcategory": "grenade",
+    "hands": 1,
+    "properties": [],
+    "features": [],
+    "availability": "Controlled",
+    "proficiencyGroups": [
+      "ogryn",
+      "grenade"
+    ],
+    "abilityBinding": {
+      "attack": "none",
+      "damage": "none"
+    },
+    "modes": [
+      {
+        "id": "base",
+        "name": "Throw to point",
+        "attackKind": "area",
+        "delivery": "target_test",
+        "range": {
+          "kind": "distance",
+          "normal": {
+            "value": 30,
+            "unit": "ft"
+          },
+          "long": {
+            "value": 90,
+            "unit": "ft"
+          }
+        },
+        "costs": [],
+        "action": {
+          "id": "di.action.frag_bomb.use"
+        },
+        "save": {
+          "attribute": "dexterity",
+          "dcPolicy": "phb.grenade_dc.v1",
+          "outcomes": {
+            "failure": {
+              "damageMultiplier": {
+                "numerator": 1,
+                "denominator": 1
+              },
+              "rounding": "exact_fraction"
+            },
+            "success": {
+              "damageMultiplier": {
+                "numerator": 1,
+                "denominator": 2
+              },
+              "rounding": "exact_fraction"
+            }
+          }
+        },
+        "damage": [
+          {
+            "id": "base",
+            "dice": {
+              "count": 4,
+              "sides": 6,
+              "bonus": 0
+            },
+            "bonus": {
+              "kind": "constant",
+              "value": 0
+            },
+            "damageType": {
+              "id": "di.damage_type.piercing"
+            }
+          }
+        ],
+        "area": {
+          "shape": "sphere",
+          "radius": {
+            "value": 20,
+            "unit": "ft"
+          }
+        },
+        "consumption": {
+          "resource": "item_quantity",
+          "quantity": 1,
+          "on": "committed_use"
+        },
+        "manualRules": [
+          {
+            "id": "source_rule",
+            "automation": "manual",
+            "text": "Ogryn only. Failure: full damage and knocked prone. Success: half damage and not knocked prone. Prone application and any integer rounding are manual. No generic Blast or Frag Grenade ruling is imported.",
+            "adjudicator": "gm",
+            "context": "PHB selected source context",
+            "reason": "Baseline only; contextual rules are adjudicated manually."
+          }
+        ]
+      }
+    ],
+    "requirements": {
+      "kind": "selected",
+      "content": {
+        "id": "di.species.ogryn"
+      }
+    }
+  }
+}

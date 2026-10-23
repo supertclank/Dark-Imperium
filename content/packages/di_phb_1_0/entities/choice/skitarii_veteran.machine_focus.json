@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "di.choice.skitarii_veteran.machine_focus",
+  "kind": "choice",
+  "revision": 1,
+  "name": "Machine Focus choice",
+  "summary": "You do not suffer disadvantage on Perception checks in \ndarkness if you have an auspex, visor, or\nintegrated optics. You gain proficiency in Investigation or \nTechnology.",
+  "descriptionMarkdown": "You do not suffer disadvantage on Perception checks in \ndarkness if you have an auspex, visor, or\nintegrated optics. You gain proficiency in Investigation or \nTechnology.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.8.1",
+        "heading": "Machine Focus",
+        "pdfPage": 71,
+        "printedPage": 58
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "purpose": "skill",
+    "selectionMode": "options",
+    "cardinality": {
+      "min": 1,
+      "max": 1,
+      "unique": true
+    },
+    "repeatScope": "once_per_actor",
+    "options": [
+      {
+        "id": "investigation",
+        "label": "Investigation",
+        "grants": [
+          {
+            "id": "investigation",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.investigation"
+            }
+          }
+        ]
+      },
+      {
+        "id": "technology",
+        "label": "Technology",
+        "grants": [
+          {
+            "id": "technology",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.technology"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

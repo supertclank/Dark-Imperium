@@ -14,7 +14,7 @@ export type RollResult = {
   context:{ ability:string|null; targetResolution:string; criticalDamage:string };
   stateVersionBefore:number; stateVersionAfter:number;
   consumption:{itemId:string;quantity:number;remaining:number}|null;
-  grenade:{saveAttribute:string;saveDc:number;outcomes:{failure:number;success:number};application:string}|null;
+  grenade:{saveAttribute:string;saveDc:number;outcomes:{failure:number|string;success:number|string};application:string}|null;
 };
 export type RollHistory={items:RollResult[];limit:number;hasMore:boolean};
 // Presentation consumes a completed server result; it can never determine a result.

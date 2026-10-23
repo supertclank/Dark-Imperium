@@ -131,17 +131,17 @@
       },
       {
         "id": "di.weapon.frag_bomb",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
         "id": "di.weapon.ogryn_club",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
         "id": "di.weapon.ripper_gun",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       }
     ],
@@ -336,7 +336,7 @@
       },
       {
         "id": "di.weapon.taser_goad",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       }
     ],
@@ -351,12 +351,12 @@
     "exactNameMatches": [
       {
         "id": "di.armour.hearthkyn_plate",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
         "id": "di.armour.kin_mesh",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
@@ -366,7 +366,7 @@
       },
       {
         "id": "di.weapon.autoch_pattern_pistol",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
@@ -381,17 +381,17 @@
       },
       {
         "id": "di.weapon.concussion_hammer",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
         "id": "di.weapon.ion_blaster",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
         "id": "di.weapon.kin_power_axe",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
@@ -411,12 +411,12 @@
     "exactNameMatches": [
       {
         "id": "di.armour.prospector_rig",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
         "id": "di.weapon.autoch_pattern_pistol",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
@@ -431,7 +431,7 @@
       },
       {
         "id": "di.weapon.ion_blaster",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
@@ -456,32 +456,32 @@
     "exactNameMatches": [
       {
         "id": "di.armour.aeldari_mesh",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
         "id": "di.armour.ranger_weave",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
         "id": "di.weapon.monomolecular_blade",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
         "id": "di.weapon.ranger_long_rifle",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
         "id": "di.weapon.shuriken_catapult",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {
         "id": "di.weapon.shuriken_pistol",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       }
     ],
@@ -501,7 +501,7 @@
       },
       {
         "id": "di.weapon.shuriken_pistol",
-        "state": "CANDIDATE",
+        "state": "CANONICAL",
         "match": "literal name only; not a validated grant"
       },
       {

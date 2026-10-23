@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.feature.class.kin_armsman.level_1.kin_training",
   "kind": "feature",
-  "revision": 1,
+  "revision": 2,
   "name": "Kin Training",
   "summary": "Gain proficiency in two skills from Athletics, Insight, Investigation, Perception, Survival, Technology, and Persuasion. You also gain proficiency with Kin weapons and void suits.",
   "descriptionMarkdown": "Gain proficiency in two skills from Athletics, Insight, \nInvestigation, Perception, Survival, Technology,\nand Persuasion. You also gain proficiency with Kin \nweapons and void suits.",
@@ -24,7 +24,15 @@
   "data": {
     "flavor": "class_feature",
     "effects": [],
-    "grants": [],
+    "grants": [
+      {
+        "id": "kin_armsman_training",
+        "kind": "choice",
+        "choice": {
+          "id": "di.choice.kin_armsman.training"
+        }
+      }
+    ],
     "manualRules": [
       {
         "id": "source_rule",

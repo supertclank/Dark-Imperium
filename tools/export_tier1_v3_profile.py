@@ -4,7 +4,7 @@ import content_import as c
 import export_tier1_v2_profile as previous
 import tier1_catalogue as audit
 
-def build():
+def compose_historical_v3():
     _,records=c.load();c.validate_records(records)
     payload=copy.deepcopy(previous.build()['payload']);spec=payload['spec'];payload['records']=records
     spec.update(id='di-phb-1.0-tier1-v3',name='PHB 1.0 · Human and Ratling',speciesComposition=True)
@@ -24,6 +24,12 @@ def build():
     spec['availability'][-1]['message']='Other species, Ratling higher levels and Sharpshooter remain uncertified. Existing characters retain their pinned profile.'
     payload['featureSupport']['di.feature.species.ratling.traits']={'classification':'PARTIAL','playerNote':'Stealth and 60 ft darkvision are calculated. Small Target, Sniper’s Eye, Lucky Shot and Bad in a Straight Fight are manual. No generic Small weapon penalty is applied. Darkvision uses the longest granted range; it does not penetrate smoke, solids or psychic darkness.','rulingIds':[],'resources':[{'key':'lucky_shot','maximum':1,'recovery':'short_rest','automation':'manual'}]}
     return {'digest':c.digest(payload),'payload':payload}
+
+def build():
+    b=c.read(c.ROOT/'backend/src/main/resources/profiles/di-phb-1.0-tier1-v3.json')
+    assert b['digest']=='5c4d81d1cf9a55be138d5e73a58acfccd96fb2dcb0eeadb157fbcfde08b2a795'
+    assert c.digest(b['payload'])==b['digest']
+    return b
 
 if __name__=='__main__':
     result=build()

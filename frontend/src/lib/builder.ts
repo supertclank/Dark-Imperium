@@ -6,7 +6,7 @@ export type PathConfiguration = { speciesId:string; originId:string; classId:str
 export type Profile = { pathConfigurations?:PathConfiguration[]; packages?:Record<string,Profile["package"]>; classTraining?:Record<string,Profile["training"]>; featureCatalogue?:OptionRecord[]; id: string; digest: string; name: string; attributes: string[]; standardArray: number[]; levels: number[]; species: OptionRecord[]; origins: OptionRecord[]; classes: OptionRecord[]; traits: OptionRecord[]; choices: Choice[]; levelFeatures: OptionRecord[]; equipment: OptionRecord[]; armour: string[]; training: { hitDie: number; savingThrows: string[] }; package: { fixed: { item: { id: string }; quantity: number }[]; choices: { id: string; options: { id: string }[]; quantity: number }[] }; availability: { status: string; message: string }[] };
 export type Issue = { code: string; field: string; message: string };
 export type Calculation = {
-  size?:string; darkvisionFeet?:number;
+  speciesMechanics?:{kind:string;contexts?:string[];text?:string;name?:string;count?:number;sides?:number;ability?:string}[]; size?:string; darkvisionFeet?:number;
   subclass?:OptionRecord|null; contacts?:{id:string;text:string}[]; proceduralProficiencies?:string[]; equipmentNotes?:Record<string,string>;
   attributes: Record<string, number>; attributeModifiers: Record<string, number>; proficiencyBonus: number; maximumWounds: number; defence: number; movement: number; initiative: number;
   saves: Record<string, { modifier: number; proficient: boolean }>;

@@ -144,7 +144,7 @@ def effects(values, records=None):
 
 FIELDS={
  'skill':(['attributeKey'],[]), 'proficiency':(['category','appliesTo'],[]),
- 'feature':(['flavor','effects','grants','manualRules'],['choices','requirements']),
+ 'feature':(['flavor','effects','grants','manualRules'],['choices','requirements','mechanics']),
  'choice':(['purpose','selectionMode','cardinality','repeatScope','options'],[]),
  'species':(['features','size'],['choices']), 'background':(['features'],['choices','requirements','originAvailability']),
  'property':(['appliesToKinds','parameters','effects','manualRules'],[]),
@@ -155,11 +155,30 @@ FIELDS={
  'damage_type':(['category'],[]),
  'armour':(['category','equip','properties','features','defence'],['requirements','availability','dexterityBonus']),
  'shield':(['equip','properties','features','defence'],['proficiencyGroups','aliases']),
- 'weapon':(['category','subcategory','hands','properties','features','modes','proficiencyGroups','availability','abilityBinding'],['deployment','manualRules']),
+ 'weapon':(['category','subcategory','hands','properties','features','modes','proficiencyGroups','availability','abilityBinding'],['deployment','manualRules','requirements']),
  'equipment':(['features','manualRules','functionalTags'],['availability','aliases']),
  'tool':(['features','manualRules','functionalTags'],['availability']),
  'augmetic':(['features','manualRules','functionalTags','availability'],[]),
  'action':(['economy','target','costs','outcomes'],['rolls'])}
+
+def validate_species_mechanics(values,records):
+    require(isinstance(values,list),'MECHANICS_ARRAY')
+    for m in values:
+        k=m.get('kind')
+        if k=='score_adjustment':
+            shape(m,['kind','attribute','amount','minimum','phase']);require(m['attribute'] in ['strength','dexterity','constitution','intelligence','wisdom','charisma'],'ATTRIBUTE_KEY');integer(m['amount'],-20,20);integer(m['minimum'],1,30);require(m['phase']=='after_species','SPECIES_PHASE')
+        elif k=='hp_per_level':shape(m,['kind','amount']);integer(m['amount'],1,20)
+        elif k=='duplicate_proficiency_bonus':
+            shape(m,['kind','proficiency','amount']);ref(m['proficiency'],records,'proficiency');integer(m['amount'],1,1)
+        elif k=='psychic_prohibition':shape(m,['kind','classes','traits']);refs(m['classes'],records,'class');refs(m['traits'],records,'feature')
+        elif k=='contextual_size':
+            shape(m,['kind','increase','contexts']);require(m['increase']==1 and set(m['contexts'])<=set(['carrying','lifting','pushing','dragging','grappling','shoving','breaking']),'CONTEXTUAL_SIZE')
+        elif k=='equipment_frame':shape(m,['kind','frame','text']);require(m['frame']=='ogryn' and bool(m['text']),'FRAME')
+        elif k=='innate_damage':
+            shape(m,['kind','name','count','sides','ability','damageType']);integer(m['count'],1,1);integer(m['sides'],6,6);require(m['ability']=='strength','INNATE_ABILITY');ref(m['damageType'],records,'damage_type')
+        elif k=='open_tool_pool':
+            shape(m,['kind','domains']);require(set(m['domains'])==set(['engineering','mining','weapons','armour','voidcraft']),'GUILD_TOOL_DOMAINS')
+        else:raise InvalidContent('UNKNOWN_SPECIES_MECHANIC')
 
 def validate_records(records):
     for id,e in records.items():
@@ -192,13 +211,14 @@ def validate_records(records):
                 shape(row,['species','state']);ref(row['species'],records,'species')
                 require(row['state'] in ['NORMAL','RARE','LIMITED'],'ORIGIN_AVAILABILITY_STATE')
         if k=='feature':
+            validate_species_mechanics(d.get('mechanics',[]),records)
             require(d['flavor'] in ['general','feat','species_trait','background_feature','class_feature','subclass_feature'],'FLAVOR');grants(d['grants'],records)
         elif k=='proficiency':
-            require(d['category'] in ['skill','weapon','weapon_group'],'PROFICIENCY_CATEGORY')
+            require(d['category'] in ['skill','weapon','weapon_group','tool','armour'],'PROFICIENCY_CATEGORY')
             if d['category']=='weapon_group':
                 from phb_policies import WEAPON_GROUPS
                 shape(d['appliesTo'],['groups']);require(bool(d['appliesTo']['groups']) and set(d['appliesTo']['groups'])<=WEAPON_GROUPS,'WEAPON_GROUP')
-            else:shape(d['appliesTo'],['ids']);refs(d['appliesTo']['ids'],records,'skill' if d['category']=='skill' else 'weapon')
+            else:shape(d['appliesTo'],['ids']);refs(d['appliesTo']['ids'],records,d['category'])
         elif k=='skill':require(d['attributeKey'] in ['strength','dexterity','constitution','intelligence','wisdom','charisma'],'ATTRIBUTE_KEY')
         elif k=='species':require(d['size'] in ['small','medium'],'SIZE_KEY')
         elif k=='choice':

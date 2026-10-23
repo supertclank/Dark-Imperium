@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "di.choice.kin_armsman.training",
+  "kind": "choice",
+  "revision": 1,
+  "name": "Kin Training choice",
+  "summary": "Gain proficiency in two skills from Athletics, Insight, \nInvestigation, Perception, Survival, Technology,\nand Persuasion. You also gain proficiency with Kin \nweapons and void suits.",
+  "descriptionMarkdown": "Gain proficiency in two skills from Athletics, Insight, \nInvestigation, Perception, Survival, Technology,\nand Persuasion. You also gain proficiency with Kin \nweapons and void suits.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.9.1",
+        "heading": "Kin Training",
+        "pdfPage": 74,
+        "printedPage": 61
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "purpose": "skill",
+    "selectionMode": "options",
+    "cardinality": {
+      "min": 2,
+      "max": 2,
+      "unique": true
+    },
+    "repeatScope": "once_per_actor",
+    "options": [
+      {
+        "id": "athletics",
+        "label": "Athletics",
+        "grants": [
+          {
+            "id": "athletics",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.athletics"
+            }
+          }
+        ]
+      },
+      {
+        "id": "insight",
+        "label": "Insight",
+        "grants": [
+          {
+            "id": "insight",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.insight"
+            }
+          }
+        ]
+      },
+      {
+        "id": "investigation",
+        "label": "Investigation",
+        "grants": [
+          {
+            "id": "investigation",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.investigation"
+            }
+          }
+        ]
+      },
+      {
+        "id": "perception",
+        "label": "Perception",
+        "grants": [
+          {
+            "id": "perception",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.perception"
+            }
+          }
+        ]
+      },
+      {
+        "id": "survival",
+        "label": "Survival",
+        "grants": [
+          {
+            "id": "survival",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.survival"
+            }
+          }
+        ]
+      },
+      {
+        "id": "technology",
+        "label": "Technology",
+        "grants": [
+          {
+            "id": "technology",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.technology"
+            }
+          }
+        ]
+      },
+      {
+        "id": "persuasion",
+        "label": "Persuasion",
+        "grants": [
+          {
+            "id": "persuasion",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.persuasion"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

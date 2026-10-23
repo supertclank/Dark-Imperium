@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.feature.class.skitarii_veteran.training",
   "kind": "feature",
-  "revision": 1,
+  "revision": 2,
   "name": "Skitarii Veteran training and hit die",
   "summary": "11.8 Skitarii Veteran A machine-disciplined marksman, cybernetic hunter, rad-soldier, or Mechanicus shock trooper. Allowed Species: Skitarii only. Hit Die: d10. Primary Abilities: Dexterity, Intelligence. Saving Throws: Dexterity, Intelligence. Armour: Light, medium, flak, carapace. Weapons: Pistols, basic firearms, advanced firearms, shock weapons, rad weapons, Mechanicus weapons, grenades.",
   "descriptionMarkdown": "11.8 Skitarii Veteran\nA machine-disciplined marksman, cybernetic hunter, rad-soldier, or Mechanicus shock trooper.\nAllowed Species: Skitarii only.\nHit Die: d10.\nPrimary Abilities: Dexterity, Intelligence.\nSaving Throws: Dexterity, Intelligence.\nArmour: Light, medium, flak, carapace.\nWeapons: Pistols, basic firearms, advanced firearms, shock weapons, rad weapons, Mechanicus\nweapons, grenades.",
@@ -24,7 +24,22 @@
   "data": {
     "flavor": "class_feature",
     "effects": [],
-    "grants": [],
+    "grants": [
+      {
+        "id": "weapon_group",
+        "kind": "proficiency",
+        "proficiency": {
+          "id": "di.proficiency.skitarii_veteran.weapon_group"
+        }
+      },
+      {
+        "id": "armour",
+        "kind": "proficiency",
+        "proficiency": {
+          "id": "di.proficiency.skitarii_veteran.armour"
+        }
+      }
+    ],
     "manualRules": [
       {
         "id": "source_rule",

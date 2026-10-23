@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "di.armour.hearthkyn_plate",
+  "kind": "armour",
+  "revision": 1,
+  "name": "Hearthkyn Plate",
+  "summary": "AC: 15 + Dex modifier, max +2; Advantage against being shoved while braced.; Availability: Controlled",
+  "descriptionMarkdown": "AC: 15 + Dex modifier, max +2; Advantage against being shoved while braced.; Availability: Controlled",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "9",
+        "heading": "Hearthkyn Plate",
+        "pdfPage": 42,
+        "printedPage": 29
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "category": "kin",
+    "equip": {
+      "slots": [
+        "body"
+      ],
+      "hands": 0
+    },
+    "properties": [],
+    "features": [],
+    "defence": {
+      "value": {
+        "kind": "constant",
+        "value": 15
+      },
+      "mode": "base",
+      "stackGroup": "di.defence.armour"
+    },
+    "dexterityBonus": {
+      "enabled": true,
+      "cap": 2
+    },
+    "availability": "Controlled",
+    "requirements": {
+      "equip": {
+        "kind": "selected",
+        "content": {
+          "id": "di.species.kin"
+        }
+      }
+    }
+  }
+}

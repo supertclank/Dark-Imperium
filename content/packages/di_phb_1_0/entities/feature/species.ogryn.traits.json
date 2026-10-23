@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.feature.species.ogryn.traits",
   "kind": "feature",
-  "revision": 1,
+  "revision": 2,
   "name": "Ogryn Abhuman traits",
   "summary": "3.2 Ogryn Abhuman Ogryns are massive abhumans used by the Imperium as shock troops, bodyguards, line-breakers, and living siege weapons. They are loyal and terrifyingly durable, but they are not subtle and struggle with equipment designed for normal human frames. Ability Scores: +2 Strength, +1 Constitution. Size: Medium, but you count as one size larger for carrying, lifting, pushing, dragging, grappling, and shoving. Speed: 30 ft. Available Classes: Ogryn Skullbreaker only. 3.2.1 Ogryn Trai...",
   "descriptionMarkdown": "3.2 Ogryn Abhuman\nOgryns are massive abhumans used by the Imperium as \nshock troops, bodyguards, line-breakers, and\nliving siege weapons. They are loyal and terrifyingly \ndurable, but they are not subtle and struggle with\nequipment designed for normal human frames.\nAbility Scores: +2 Strength, +1 Constitution.\nSize: Medium, but you count as one size larger for \ncarrying, lifting, pushing, dragging, grappling, and\nshoving.\nSpeed: 30 ft.\nAvailable Classes: Ogryn Skullbreaker only.\n3.2.1 Ogryn Traits\nMassive Build: Your maximum hit points increase by 3 \nper character level. You also count as one size\nlarger for carrying, lifting, pushing, dragging, grappling, \nand shoving.\nThick Skull: You have advantage on saving throws \nagainst being frightened.\nBrute Strength: Your unarmed strikes deal 1d6 + your \nStrength modifier bludgeoning damage.\nToo Big for Standard Kit: You cannot use most \nstandard armour, delicate weapons, compact firearms,\nor subtle tools unless they have been modified for Ogryn \nuse.\nSimple Solutions: You are not automatically stupid, but \nyou struggle with delicate logic, subtle\ninterfaces, encrypted systems, and advanced technology. \nYou have disadvantage on Intelligence checks\ninvolving advanced technology, forbidden lore, cogitators, \nsecurity systems, encrypted data, or complex\nmachinery unless you are proficient in a relevant skill or \ntool. However, once per short rest, when a\nproblem could plausibly be solved through brute force, \nintimidation, endurance, or direct action, you\nmay add your proficiency bonus to the check even if you \nwould not normally be proficient.",
@@ -33,6 +33,39 @@
         "adjudicator": "gm",
         "context": "source-defined procedure",
         "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ],
+    "mechanics": [
+      {
+        "kind": "hp_per_level",
+        "amount": 3
+      },
+      {
+        "kind": "contextual_size",
+        "increase": 1,
+        "contexts": [
+          "carrying",
+          "lifting",
+          "pushing",
+          "dragging",
+          "grappling",
+          "shoving"
+        ]
+      },
+      {
+        "kind": "equipment_frame",
+        "frame": "ogryn",
+        "text": "Most standard armour, delicate weapons, compact firearms and subtle tools require Ogryn modification."
+      },
+      {
+        "kind": "innate_damage",
+        "name": "Brute Strength unarmed damage",
+        "count": 1,
+        "sides": 6,
+        "ability": "strength",
+        "damageType": {
+          "id": "di.damage_type.bludgeoning"
+        }
       }
     ]
   }

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "di.weapon.ranger_long_rifle",
+  "kind": "weapon",
+  "revision": 1,
+  "name": "Ranger Long Rifle",
+  "summary": "Weapon: Ranger Long Rifle; Damage: 1d10 piercing; Range: 160/640; Properties: Accurate, Silent, Reload 6; Availability: Controlled",
+  "descriptionMarkdown": "Weapon: Ranger Long Rifle; Damage: 1d10 piercing; Range: 160/640; Properties: Accurate, Silent, Reload 6; Availability: Controlled",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "8",
+        "heading": "Ranger Long Rifle",
+        "pdfPage": 40,
+        "printedPage": 27
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "properties": [
+      {
+        "property": {
+          "id": "di.property.weapon.accurate"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.silent"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.reload"
+        },
+        "arguments": {
+          "capacity": 6
+        }
+      }
+    ],
+    "modes": [
+      {
+        "id": "base",
+        "name": "Base profile",
+        "damage": [
+          {
+            "id": "component_1",
+            "dice": {
+              "count": 1,
+              "sides": 10,
+              "bonus": 0
+            },
+            "bonus": {
+              "kind": "constant",
+              "value": 0
+            },
+            "damageType": {
+              "id": "di.damage_type.piercing"
+            }
+          }
+        ],
+        "range": {
+          "kind": "distance",
+          "normal": {
+            "value": 160,
+            "unit": "ft"
+          },
+          "long": {
+            "value": 640,
+            "unit": "ft"
+          }
+        },
+        "attackKind": "ranged",
+        "delivery": "attack_roll",
+        "costs": [],
+        "action": {
+          "id": "di.action.ranger_long_rifle.attack"
+        }
+      }
+    ],
+    "category": "ranged",
+    "subcategory": "sniper",
+    "hands": 2,
+    "features": [],
+    "proficiencyGroups": [
+      "aeldari",
+      "sniper"
+    ],
+    "availability": "Controlled",
+    "abilityBinding": {
+      "attack": "dexterity",
+      "damage": "dexterity"
+    }
+  }
+}

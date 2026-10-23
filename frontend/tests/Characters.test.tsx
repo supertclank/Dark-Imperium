@@ -15,3 +15,9 @@ it("lists an empty-state creation link",()=>{state.data=[];render(<Characters/>)
 it("lists owned character summary and a reopen link",()=>{state.data=[saved];render(<Characters/>);expect(screen.getByRole("link",{name:new RegExp(saved.name)})).toHaveAttribute("href",`/characters/${saved.id}`);expect(screen.getByText(/Schola Progenium/)).toBeInTheDocument();});
 it("displays persisted statistics without implicitly executing actions",()=>{state.data=saved;render(<CharacterSheet id={saved.id}/>);expect(screen.getByText("11 / 11")).toBeInTheDocument();expect(screen.getByText("Frag Grenade × 2")).toBeInTheDocument();expect(screen.getByText(/Tactical Aim · Manual/)).toBeInTheDocument();expect(screen.queryByRole("button",{name:/roll/i})).not.toBeInTheDocument();expect(state.api).not.toHaveBeenCalled();});
 it("requires confirmation before deleting and navigates to list",async()=>{state.data=saved;render(<CharacterSheet id={saved.id}/>);fireEvent.click(screen.getByRole("button",{name:"Delete character"}));expect(state.api).not.toHaveBeenCalled();fireEvent.click(screen.getByRole("button",{name:"Delete permanently"}));await waitFor(()=>expect(state.push).toHaveBeenCalledWith("/characters"));expect(state.api).toHaveBeenCalledWith(`/characters/${saved.id}`,{method:"DELETE"});});
+
+it("keeps panel identities distinct when consumed inventory version equals level",()=>{
+ const errors=vi.spyOn(console,"error").mockImplementation(()=>{});
+ try { state.data={...saved,runtime:{...saved.runtime,stateVersion:saved.level}};render(<CharacterSheet id={saved.id}/>);expect(errors.mock.calls.flat().join(" ")).not.toMatch(/same key|unique.*key/i);expect(screen.getByText("11 / 11")).toBeInTheDocument();expect(state.api).not.toHaveBeenCalled(); }
+ finally { errors.mockRestore(); }
+});

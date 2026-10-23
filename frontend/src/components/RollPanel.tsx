@@ -56,26 +56,26 @@ export function RollPanel({character,onRefresh}:Props) {
   const linkedDamage=latest?.rollType==="attack"?options?.options.find(o=>o.actionId===latest.actionId && o.category==="damage"):undefined;
   return <section className="panel roll-panel" aria-labelledby="rolling-heading">
     <h2 id="rolling-heading">Roll dice</h2>
-    <p>Private, server-resolved rolls. Checks and weapon rolls do not spend ammunition. Frag Grenade use consumes one grenade after confirmation.</p>
+    <p>Private, server-resolved rolls. Checks and weapon rolls do not spend ammunition. Consumable damage rolls spend one item after confirmation.</p>
     <p className="small muted">Resolve targets, hits, critical damage and conditional features manually. No target HP is changed.</p>
     {!options && !error && <p role="status">Loading supported rolls…</p>}
     <DicePresentation event={presentation}/>
     <div className="roll-controls">{Object.entries(grouped).map(([key,items])=>{
       const weapon=!!items[0].itemId;
-      const label=weapon?character.calculated.actions.find(a=>a.itemId===key)?.name || items[0].label:({attribute:"Ability checks",skill:"Skill checks",save:"Saving throws",ability:"Initiative"}[key] || key);
+      const label=weapon?character.calculated.actions.find(a=>a.itemId===key)?.name || items[0].label:({attribute:"Ability checks",skill:"Skill checks",save:"Saving throws",ability:"Initiative",damage:"Innate damage"}[key] || key);
       const choices=items[0].abilities;
       return <details key={key} open={weapon || key==="ability"}><summary>{label}</summary>
         {choices.length>0 && <><label htmlFor={`roll-ability-${key}`}>{label} ability</label><select id={`roll-ability-${key}`} disabled={busy||uncertain} value={abilities[key]||choices[0]} onChange={e=>setAbilities({...abilities,[key]:e.target.value})}>{choices.map(a=><option key={a} value={a}>{a}</option>)}</select></>}
         <div className="roll-button-grid">{items.map(option=><div key={option.id}>
-          <button type="button" disabled={!option.available || busy || uncertain} onClick={()=>requestRoll(option)} aria-label={option.consumes?"Use Frag Grenade and roll damage":`Roll ${option.label}`}>
-            {option.consumes?"Use Frag Grenade / Roll damage":`Roll ${option.label}`}
+          <button type="button" disabled={!option.available || busy || uncertain} onClick={()=>requestRoll(option)} aria-label={option.consumes?`Use ${option.label.replace(/ damage$/, "")} and roll damage`:`Roll ${option.label}`}>
+            {option.consumes?`Use ${option.label.replace(/ damage$/, "")} / Roll damage`:`Roll ${option.label}`}
           </button>
           <p className="small muted">Baseline: {option.groups.map(g=>`${g.count}d${g.sides}`).join(" + ")} {signed(option.modifier)}{option.consumes?` · Quantity: ${option.quantity}`:""}{choices.length?" · Selected ability is calculated on the server":""}</p>
           {!option.available && <p>{option.reason}</p>}
         </div>)}</div>
       </details>;
     })}</div>
-    {confirmation && <div className="consumption-confirm" role="group" aria-label="Confirm grenade use"><p>Use Frag Grenade? This will consume 1 of {confirmation.quantity}.</p><button type="button" disabled={busy} onClick={()=>requestRoll(confirmation,undefined,true)}>Confirm use of one Frag Grenade</button><button type="button" disabled={busy} onClick={()=>setConfirmation(null)}>Cancel grenade use</button></div>}
+    {confirmation && <div className="consumption-confirm" role="group" aria-label="Confirm grenade use"><p>Use {confirmation.label.replace(/ damage$/, "")}? This will consume 1 of {confirmation.quantity}.</p><button type="button" disabled={busy} onClick={()=>requestRoll(confirmation,undefined,true)}>Confirm use of one {confirmation.label.replace(/ damage$/, "")}</button><button type="button" disabled={busy} onClick={()=>setConfirmation(null)}>Cancel grenade use</button></div>}
     {busy && <p role="status">Resolving roll on the server…</p>}
     {error && <p role="alert">{error}</p>}
     {uncertain && <p>The outcome is uncertain. Retry this same request to recover the original result without duplicate consumption.</p>}

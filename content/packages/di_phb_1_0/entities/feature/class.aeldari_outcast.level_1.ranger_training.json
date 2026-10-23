@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.feature.class.aeldari_outcast.level_1.ranger_training",
   "kind": "feature",
-  "revision": 1,
+  "revision": 2,
   "name": "Ranger Training",
   "summary": "Gain proficiency in Stealth and Perception. You also gain proficiency with Aeldari weapons and ranger weave.",
   "descriptionMarkdown": "Gain proficiency in Stealth and Perception. You also gain \nproficiency with Aeldari weapons and ranger weave.",
@@ -24,7 +24,22 @@
   "data": {
     "flavor": "class_feature",
     "effects": [],
-    "grants": [],
+    "grants": [
+      {
+        "id": "stealth",
+        "kind": "proficiency",
+        "proficiency": {
+          "id": "di.proficiency.skill.stealth"
+        }
+      },
+      {
+        "id": "perception",
+        "kind": "proficiency",
+        "proficiency": {
+          "id": "di.proficiency.skill.perception"
+        }
+      }
+    ],
     "manualRules": [
       {
         "id": "source_rule",

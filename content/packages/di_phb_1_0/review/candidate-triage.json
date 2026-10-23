@@ -210,15 +210,15 @@
   {
     "id": "di.armour.aeldari_mesh",
     "kind": "armour",
-    "category": "NEEDS_GLOBAL_POLICY",
-    "reason": "Defence derivation and species-pattern access/slot/category mapping must be completed.",
+    "category": "SOURCE_REVIEW_PROMOTED",
+    "reason": "Source-bounded nonhuman-v4 mapping; archived original evidence and promotion hash retained.",
     "issues": [
       "PHB-007"
     ],
     "sourcePages": [
       42
     ],
-    "outcome": "retained_candidate"
+    "outcome": "canonical_entity"
   },
   {
     "id": "di.armour.armoured_bodyglove",
@@ -358,15 +358,15 @@
   {
     "id": "di.armour.hearthkyn_plate",
     "kind": "armour",
-    "category": "NEEDS_GLOBAL_POLICY",
-    "reason": "Defence derivation and species-pattern access/slot/category mapping must be completed.",
+    "category": "SOURCE_REVIEW_PROMOTED",
+    "reason": "Source-bounded nonhuman-v4 mapping; archived original evidence and promotion hash retained.",
     "issues": [
       "PHB-007"
     ],
     "sourcePages": [
       42
     ],
-    "outcome": "retained_candidate"
+    "outcome": "canonical_entity"
   },
   {
     "id": "di.armour.heavy_clothing",
@@ -384,15 +384,15 @@
   {
     "id": "di.armour.kin_mesh",
     "kind": "armour",
-    "category": "NEEDS_GLOBAL_POLICY",
-    "reason": "Defence derivation and species-pattern access/slot/category mapping must be completed.",
+    "category": "SOURCE_REVIEW_PROMOTED",
+    "reason": "Source-bounded nonhuman-v4 mapping; archived original evidence and promotion hash retained.",
     "issues": [
       "PHB-007"
     ],
     "sourcePages": [
       42
     ],
-    "outcome": "retained_candidate"
+    "outcome": "canonical_entity"
   },
   {
     "id": "di.armour.kin_void_suit",
@@ -468,28 +468,28 @@
   {
     "id": "di.armour.prospector_rig",
     "kind": "armour",
-    "category": "NEEDS_GLOBAL_POLICY",
-    "reason": "Defence derivation and species-pattern access/slot/category mapping must be completed.",
+    "category": "SOURCE_REVIEW_PROMOTED",
+    "reason": "Source-bounded nonhuman-v4 mapping; archived original evidence and promotion hash retained.",
     "issues": [
       "PHB-007"
     ],
     "sourcePages": [
       42
     ],
-    "outcome": "retained_candidate"
+    "outcome": "canonical_entity"
   },
   {
     "id": "di.armour.ranger_weave",
     "kind": "armour",
-    "category": "NEEDS_GLOBAL_POLICY",
-    "reason": "Defence derivation and species-pattern access/slot/category mapping must be completed.",
+    "category": "SOURCE_REVIEW_PROMOTED",
+    "reason": "Source-bounded nonhuman-v4 mapping; archived original evidence and promotion hash retained.",
     "issues": [
       "PHB-007"
     ],
     "sourcePages": [
       42
     ],
-    "outcome": "retained_candidate"
+    "outcome": "canonical_entity"
   },
   {
     "id": "di.armour.riot_armour",
@@ -3797,15 +3797,15 @@
   {
     "id": "di.weapon.autoch_pattern_pistol",
     "kind": "weapon",
-    "category": "MISSING_SOURCE_DATA",
-    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "category": "SOURCE_REVIEW_PROMOTED",
+    "reason": "Source-bounded nonhuman-v4 mapping; archived original evidence and promotion hash retained.",
     "issues": [
       "PHB-005"
     ],
     "sourcePages": [
       40
     ],
-    "outcome": "retained_candidate"
+    "outcome": "canonical_entity"
   },
   {
     "id": "di.weapon.autogun",
@@ -4036,15 +4036,15 @@
   {
     "id": "di.weapon.concussion_hammer",
     "kind": "weapon",
-    "category": "MISSING_SOURCE_DATA",
-    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "category": "SOURCE_REVIEW_PROMOTED",
+    "reason": "Source-bounded nonhuman-v4 mapping; archived original evidence and promotion hash retained.",
     "issues": [
       "PHB-005"
     ],
     "sourcePages": [
       40
     ],
-    "outcome": "retained_candidate"
+    "outcome": "canonical_entity"
   },
   {
     "id": "di.weapon.corsair_sabre",
@@ -4154,15 +4154,15 @@
   {
     "id": "di.weapon.frag_bomb",
     "kind": "weapon",
-    "category": "MISSING_SOURCE_DATA",
-    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "category": "SOURCE_REVIEW_PROMOTED",
+    "reason": "Source-bounded nonhuman-v4 mapping; archived original evidence and promotion hash retained.",
     "issues": [
       "PHB-005"
     ],
     "sourcePages": [
       47
     ],
-    "outcome": "retained_candidate"
+    "outcome": "canonical_entity"
   },
   {
     "id": "di.weapon.frag_grenade",
@@ -4360,15 +4360,15 @@
   {
     "id": "di.weapon.ion_blaster",
     "kind": "weapon",
-    "category": "MISSING_SOURCE_DATA",
-    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "category": "SOURCE_REVIEW_PROMOTED",
+    "reason": "Source-bounded nonhuman-v4 mapping; archived original evidence and promotion hash retained.",
     "issues": [
       "PHB-005"
     ],
     "sourcePages": [
       40
     ],
-    "outcome": "retained_candidate"
+    "outcome": "canonical_entity"
   },
   {
     "id": "di.weapon.ion_pistol",
@@ -4399,15 +4399,15 @@
   {
     "id": "di.weapon.kin_power_axe",
     "kind": "weapon",
-    "category": "MISSING_SOURCE_DATA",
-    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "category": "SOURCE_REVIEW_PROMOTED",
+    "reason": "Source-bounded nonhuman-v4 mapping; archived original evidence and promotion hash retained.",
     "issues": [
       "PHB-005"
     ],
     "sourcePages": [
       40
     ],
-    "outcome": "retained_candidate"
+    "outcome": "canonical_entity"
   },
   {
     "id": "di.weapon.knife",
@@ -4580,15 +4580,15 @@
   {
     "id": "di.weapon.monomolecular_blade",
     "kind": "weapon",
-    "category": "MISSING_SOURCE_DATA",
-    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "category": "SOURCE_REVIEW_PROMOTED",
+    "reason": "Source-bounded nonhuman-v4 mapping; archived original evidence and promotion hash retained.",
     "issues": [
       "PHB-005"
     ],
     "sourcePages": [
       40
     ],
-    "outcome": "retained_candidate"
+    "outcome": "canonical_entity"
   },
   {
     "id": "di.weapon.multi_laser",
@@ -4621,15 +4621,15 @@
   {
     "id": "di.weapon.ogryn_club",
     "kind": "weapon",
-    "category": "MISSING_SOURCE_DATA",
-    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "category": "SOURCE_REVIEW_PROMOTED",
+    "reason": "Source-bounded nonhuman-v4 mapping; archived original evidence and promotion hash retained.",
     "issues": [
       "PHB-005"
     ],
     "sourcePages": [
       38
     ],
-    "outcome": "retained_candidate"
+    "outcome": "canonical_entity"
   },
   {
     "id": "di.weapon.omnissian_axe",
@@ -4795,15 +4795,15 @@
   {
     "id": "di.weapon.ranger_long_rifle",
     "kind": "weapon",
-    "category": "MISSING_SOURCE_DATA",
-    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "category": "SOURCE_REVIEW_PROMOTED",
+    "reason": "Source-bounded nonhuman-v4 mapping; archived original evidence and promotion hash retained.",
     "issues": [
       "PHB-005"
     ],
     "sourcePages": [
       40
     ],
-    "outcome": "retained_candidate"
+    "outcome": "canonical_entity"
   },
   {
     "id": "di.weapon.relic_blade",
@@ -4821,15 +4821,15 @@
   {
     "id": "di.weapon.ripper_gun",
     "kind": "weapon",
-    "category": "MISSING_SOURCE_DATA",
-    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "category": "SOURCE_REVIEW_PROMOTED",
+    "reason": "Source-bounded nonhuman-v4 mapping; archived original evidence and promotion hash retained.",
     "issues": [
       "PHB-005"
     ],
     "sourcePages": [
       38
     ],
-    "outcome": "retained_candidate"
+    "outcome": "canonical_entity"
   },
   {
     "id": "di.weapon.scatter_laser",
@@ -4886,28 +4886,28 @@
   {
     "id": "di.weapon.shuriken_catapult",
     "kind": "weapon",
-    "category": "MISSING_SOURCE_DATA",
-    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "category": "SOURCE_REVIEW_PROMOTED",
+    "reason": "Source-bounded nonhuman-v4 mapping; archived original evidence and promotion hash retained.",
     "issues": [
       "PHB-005"
     ],
     "sourcePages": [
       40
     ],
-    "outcome": "retained_candidate"
+    "outcome": "canonical_entity"
   },
   {
     "id": "di.weapon.shuriken_pistol",
     "kind": "weapon",
-    "category": "MISSING_SOURCE_DATA",
-    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "category": "SOURCE_REVIEW_PROMOTED",
+    "reason": "Source-bounded nonhuman-v4 mapping; archived original evidence and promotion hash retained.",
     "issues": [
       "PHB-005"
     ],
     "sourcePages": [
       40
     ],
-    "outcome": "retained_candidate"
+    "outcome": "canonical_entity"
   },
   {
     "id": "di.weapon.singing_spear",
@@ -5010,15 +5010,15 @@
   {
     "id": "di.weapon.taser_goad",
     "kind": "weapon",
-    "category": "MISSING_SOURCE_DATA",
-    "reason": "Required hands/reach/category or payload binding is incomplete; retain known damage/range/properties.",
+    "category": "SOURCE_REVIEW_PROMOTED",
+    "reason": "Source-bounded nonhuman-v4 mapping; archived original evidence and promotion hash retained.",
     "issues": [
       "PHB-005"
     ],
     "sourcePages": [
       40
     ],
-    "outcome": "retained_candidate"
+    "outcome": "canonical_entity"
   },
   {
     "id": "di.weapon.thunder_hammer",

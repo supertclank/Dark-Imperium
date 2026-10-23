@@ -10,6 +10,12 @@
       "path": "packages/di_phb_1_0/review/candidates/action/attack.json"
     },
     {
+      "id": "di.action.autoch_pattern_pistol.attack",
+      "name": "Autoch-Pattern Pistol attack",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/action/autoch_pattern_pistol.attack.json"
+    },
+    {
       "id": "di.action.autogun.attack",
       "name": "Autogun attack",
       "state": "draft_entity",
@@ -40,6 +46,12 @@
       "path": "packages/di_phb_1_0/entities/action/combat_shotgun.attack.json"
     },
     {
+      "id": "di.action.concussion_hammer.attack",
+      "name": "Concussion Hammer attack",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/action/concussion_hammer.attack.json"
+    },
+    {
       "id": "di.action.dash",
       "name": "Dash",
       "state": "incomplete_candidate",
@@ -56,6 +68,12 @@
       "name": "Dodge",
       "state": "incomplete_candidate",
       "path": "packages/di_phb_1_0/review/candidates/action/dodge.json"
+    },
+    {
+      "id": "di.action.frag_bomb.use",
+      "name": "Frag Bomb use",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/action/frag_bomb.use.json"
     },
     {
       "id": "di.action.frag_grenade.throw",
@@ -82,6 +100,18 @@
       "path": "packages/di_phb_1_0/review/candidates/action/hide.json"
     },
     {
+      "id": "di.action.ion_blaster.attack",
+      "name": "Ion Blaster attack",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/action/ion_blaster.attack.json"
+    },
+    {
+      "id": "di.action.kin_power_axe.attack",
+      "name": "Kin Power Axe attack",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/action/kin_power_axe.attack.json"
+    },
+    {
       "id": "di.action.knife.attack",
       "name": "Knife attack",
       "state": "draft_entity",
@@ -106,6 +136,24 @@
       "path": "packages/di_phb_1_0/entities/action/laspistol.attack.json"
     },
     {
+      "id": "di.action.monomolecular_blade.attack",
+      "name": "Monomolecular Blade attack",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/action/monomolecular_blade.attack.json"
+    },
+    {
+      "id": "di.action.ogryn_club.attack",
+      "name": "Ogryn Club attack",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/action/ogryn_club.attack.json"
+    },
+    {
+      "id": "di.action.ranger_long_rifle.attack",
+      "name": "Ranger Long Rifle attack",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/action/ranger_long_rifle.attack.json"
+    },
+    {
       "id": "di.action.ready",
       "name": "Ready",
       "state": "incomplete_candidate",
@@ -118,16 +166,40 @@
       "path": "packages/di_phb_1_0/review/candidates/action/reload.json"
     },
     {
+      "id": "di.action.ripper_gun.attack",
+      "name": "Ripper Gun attack",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/action/ripper_gun.attack.json"
+    },
+    {
       "id": "di.action.shock_maul.attack",
       "name": "Shock Maul attack",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/action/shock_maul.attack.json"
     },
     {
+      "id": "di.action.shuriken_catapult.attack",
+      "name": "Shuriken Catapult attack",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/action/shuriken_catapult.attack.json"
+    },
+    {
+      "id": "di.action.shuriken_pistol.attack",
+      "name": "Shuriken Pistol attack",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/action/shuriken_pistol.attack.json"
+    },
+    {
       "id": "di.action.stub_pistol.attack",
       "name": "Stub Pistol attack",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/action/stub_pistol.attack.json"
+    },
+    {
+      "id": "di.action.taser_goad.attack",
+      "name": "Taser Goad attack",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/action/taser_goad.attack.json"
     },
     {
       "id": "di.action.trench_club.attack",
@@ -192,8 +264,8 @@
     {
       "id": "di.armour.aeldari_mesh",
       "name": "Aeldari Mesh",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/armour/aeldari_mesh.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/armour/aeldari_mesh.json"
     },
     {
       "id": "di.armour.armoured_bodyglove",
@@ -252,8 +324,8 @@
     {
       "id": "di.armour.hearthkyn_plate",
       "name": "Hearthkyn Plate",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/armour/hearthkyn_plate.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/armour/hearthkyn_plate.json"
     },
     {
       "id": "di.armour.heavy_clothing",
@@ -264,8 +336,8 @@
     {
       "id": "di.armour.kin_mesh",
       "name": "Kin Mesh",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/armour/kin_mesh.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/armour/kin_mesh.json"
     },
     {
       "id": "di.armour.kin_void_suit",
@@ -306,14 +378,14 @@
     {
       "id": "di.armour.prospector_rig",
       "name": "Prospector Rig",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/armour/prospector_rig.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/armour/prospector_rig.json"
     },
     {
       "id": "di.armour.ranger_weave",
       "name": "Ranger Weave",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/armour/ranger_weave.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/armour/ranger_weave.json"
     },
     {
       "id": "di.armour.riot_armour",
@@ -544,6 +616,12 @@
       "path": "packages/di_phb_1_0/entities/choice/aeldari.ability_scores.json"
     },
     {
+      "id": "di.choice.aeldari.inhuman_grace",
+      "name": "Aeldari / Eldar traits choice",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/aeldari.inhuman_grace.json"
+    },
+    {
       "id": "di.choice.aeldari_outcast.subclass",
       "name": "Aeldari Outcast subclass",
       "state": "draft_entity",
@@ -598,6 +676,12 @@
       "path": "packages/di_phb_1_0/entities/choice/hernkyn_prospector.subclass.json"
     },
     {
+      "id": "di.choice.hernkyn_prospector.training",
+      "name": "Prospector Training choice",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/hernkyn_prospector.training.json"
+    },
+    {
       "id": "di.choice.hive_scum.streetwise",
       "name": "Streetwise skills",
       "state": "draft_entity",
@@ -623,7 +707,7 @@
     },
     {
       "id": "di.choice.human.broad_training_proof",
-      "name": "Broad Training — reviewed weapon option",
+      "name": "Broad Training \u2014 reviewed weapon option",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/choice/human.broad_training_proof.json"
     },
@@ -640,10 +724,22 @@
       "path": "packages/di_phb_1_0/entities/choice/kin.ability_scores.json"
     },
     {
+      "id": "di.choice.kin.guild_craft",
+      "name": "Squat / Kin traits choice",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/kin.guild_craft.json"
+    },
+    {
       "id": "di.choice.kin_armsman.subclass",
       "name": "Kin Armsman subclass",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/choice/kin_armsman.subclass.json"
+    },
+    {
+      "id": "di.choice.kin_armsman.training",
+      "name": "Kin Training choice",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/kin_armsman.training.json"
     },
     {
       "id": "di.choice.militarum_regiment.skills",
@@ -704,6 +800,18 @@
       "name": "Skitarii Augmented Human ability score choice",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/choice/skitarii.ability_scores.json"
+    },
+    {
+      "id": "di.choice.skitarii.noospheric_focus",
+      "name": "Skitarii Augmented Human traits choice",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/skitarii.noospheric_focus.json"
+    },
+    {
+      "id": "di.choice.skitarii_veteran.machine_focus",
+      "name": "Machine Focus choice",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/choice/skitarii_veteran.machine_focus.json"
     },
     {
       "id": "di.choice.skitarii_veteran.subclass",
@@ -1016,6 +1124,12 @@
       "name": "Ammo Pack",
       "state": "incomplete_candidate",
       "path": "packages/di_phb_1_0/review/candidates/equipment/ammo_pack.json"
+    },
+    {
+      "id": "di.equipment.auspex",
+      "name": "Auspex",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/equipment/auspex.json"
     },
     {
       "id": "di.equipment.auspex_battery",
@@ -1781,7 +1895,7 @@
     },
     {
       "id": "di.feature.class.hernkyn_prospector.level_2.surveyors_step",
-      "name": "Surveyor’s Step",
+      "name": "Surveyor\u2019s Step",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/feature/class.hernkyn_prospector.level_2.surveyors_step.json"
     },
@@ -1829,7 +1943,7 @@
     },
     {
       "id": "di.feature.class.hernkyn_prospector.level_9.outriders_escape",
-      "name": "Outrider’s Escape",
+      "name": "Outrider\u2019s Escape",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/feature/class.hernkyn_prospector.level_9.outriders_escape.json"
     },
@@ -2141,7 +2255,7 @@
     },
     {
       "id": "di.feature.class.ogryn_skullbreaker.level_13.cant_keep_him_down",
-      "name": "Can’t Keep Him Down",
+      "name": "Can\u2019t Keep Him Down",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/feature/class.ogryn_skullbreaker.level_13.cant_keep_him_down.json"
     },
@@ -2657,7 +2771,7 @@
     },
     {
       "id": "di.feature.class.veteran.level_11.veterans_accuracy",
-      "name": "Veteran’s Accuracy",
+      "name": "Veteran\u2019s Accuracy",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/feature/class.veteran.level_11.veterans_accuracy.json"
     },
@@ -2777,13 +2891,13 @@
     },
     {
       "id": "di.feature.class.zealot.level_1.martyrs_endurance",
-      "name": "Martyr’s Endurance",
+      "name": "Martyr\u2019s Endurance",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/feature/class.zealot.level_1.martyrs_endurance.json"
     },
     {
       "id": "di.feature.class.zealot.level_1.martyrs_mercy",
-      "name": "Martyr’s Mercy",
+      "name": "Martyr\u2019s Mercy",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/feature/class.zealot.level_1.martyrs_mercy.json"
     },
@@ -2795,7 +2909,7 @@
     },
     {
       "id": "di.feature.class.zealot.level_11.martyrs_renewal",
-      "name": "Martyr’s Renewal",
+      "name": "Martyr\u2019s Renewal",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/feature/class.zealot.level_11.martyrs_renewal.json"
     },
@@ -2819,7 +2933,7 @@
     },
     {
       "id": "di.feature.class.zealot.level_15.living_saints_shadow",
-      "name": "Living Saint’s Shadow",
+      "name": "Living Saint\u2019s Shadow",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/feature/class.zealot.level_15.living_saints_shadow.json"
     },
@@ -3527,25 +3641,25 @@
     },
     {
       "id": "di.feature.subclass.ogryn_skullbreaker.bone_ead.level_14",
-      "name": "Bone ’ead level 14",
+      "name": "Bone \u2019ead level 14",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/feature/subclass.ogryn_skullbreaker.bone_ead.level_14.json"
     },
     {
       "id": "di.feature.subclass.ogryn_skullbreaker.bone_ead.level_18",
-      "name": "Bone ’ead level 18",
+      "name": "Bone \u2019ead level 18",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/feature/subclass.ogryn_skullbreaker.bone_ead.level_18.json"
     },
     {
       "id": "di.feature.subclass.ogryn_skullbreaker.bone_ead.level_3",
-      "name": "Bone ’ead level 3",
+      "name": "Bone \u2019ead level 3",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/feature/subclass.ogryn_skullbreaker.bone_ead.level_3.json"
     },
     {
       "id": "di.feature.subclass.ogryn_skullbreaker.bone_ead.level_7",
-      "name": "Bone ’ead level 7",
+      "name": "Bone \u2019ead level 7",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/feature/subclass.ogryn_skullbreaker.bone_ead.level_7.json"
     },
@@ -4145,7 +4259,7 @@
     },
     {
       "id": "di.feature.talent.ancestors_grudge",
-      "name": "Ancestor’s Grudge",
+      "name": "Ancestor\u2019s Grudge",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/feature/talent.ancestors_grudge.json"
     },
@@ -4169,7 +4283,7 @@
     },
     {
       "id": "di.feature.talent.bone_ead_implant",
-      "name": "Bone ’ead Implant",
+      "name": "Bone \u2019ead Implant",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/feature/talent.bone_ead_implant.json"
     },
@@ -4205,7 +4319,7 @@
     },
     {
       "id": "di.feature.talent.cooks_morale",
-      "name": "Cook’s Morale",
+      "name": "Cook\u2019s Morale",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/feature/talent.cooks_morale.json"
     },
@@ -4349,7 +4463,7 @@
     },
     {
       "id": "di.feature.talent.rangers_cloak",
-      "name": "Ranger’s Cloak",
+      "name": "Ranger\u2019s Cloak",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/feature/talent.rangers_cloak.json"
     },
@@ -4385,7 +4499,7 @@
     },
     {
       "id": "di.feature.talent.scavvers_luck",
-      "name": "Scavver’s Luck",
+      "name": "Scavver\u2019s Luck",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/feature/talent.scavvers_luck.json"
     },
@@ -4643,7 +4757,7 @@
     },
     {
       "id": "di.power.fates_nudge",
-      "name": "Fate’s Nudge",
+      "name": "Fate\u2019s Nudge",
       "state": "incomplete_candidate",
       "path": "packages/di_phb_1_0/review/candidates/power/fates_nudge.json"
     },
@@ -4864,6 +4978,54 @@
       "path": "packages/di_phb_1_0/review/candidates/power/whisper_from_below.json"
     },
     {
+      "id": "di.proficiency.aeldari_outcast.armour",
+      "name": "Aeldari Outcast armour proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/aeldari_outcast.armour.json"
+    },
+    {
+      "id": "di.proficiency.aeldari_outcast.weapon_group",
+      "name": "Aeldari Outcast weapon_group proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/aeldari_outcast.weapon_group.json"
+    },
+    {
+      "id": "di.proficiency.hernkyn_prospector.armour",
+      "name": "Hernkyn Prospector armour proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/hernkyn_prospector.armour.json"
+    },
+    {
+      "id": "di.proficiency.hernkyn_prospector.weapon_group",
+      "name": "Hernkyn Prospector weapon_group proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/hernkyn_prospector.weapon_group.json"
+    },
+    {
+      "id": "di.proficiency.kin_armsman.armour",
+      "name": "Kin Armsman armour proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/kin_armsman.armour.json"
+    },
+    {
+      "id": "di.proficiency.kin_armsman.weapon_group",
+      "name": "Kin Armsman weapon_group proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/kin_armsman.weapon_group.json"
+    },
+    {
+      "id": "di.proficiency.ogryn_skullbreaker.armour",
+      "name": "Ogryn Skullbreaker armour proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/ogryn_skullbreaker.armour.json"
+    },
+    {
+      "id": "di.proficiency.ogryn_skullbreaker.weapon_group",
+      "name": "Ogryn Skullbreaker weapon_group proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/ogryn_skullbreaker.weapon_group.json"
+    },
+    {
       "id": "di.proficiency.skill.acrobatics",
       "name": "Acrobatics proficiency",
       "state": "draft_entity",
@@ -4952,6 +5114,18 @@
       "name": "Technology proficiency",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/proficiency/skill.technology.json"
+    },
+    {
+      "id": "di.proficiency.skitarii_veteran.armour",
+      "name": "Skitarii Veteran armour proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/skitarii_veteran.armour.json"
+    },
+    {
+      "id": "di.proficiency.skitarii_veteran.weapon_group",
+      "name": "Skitarii Veteran weapon_group proficiency",
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/proficiency/skitarii_veteran.weapon_group.json"
     },
     {
       "id": "di.proficiency.weapon.trench_club",
@@ -5255,7 +5429,7 @@
     },
     {
       "id": "di.progression.ogryn_skullbreaker.bone_ead",
-      "name": "Bone ’ead progression",
+      "name": "Bone \u2019ead progression",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/progression/ogryn_skullbreaker.bone_ead.json"
     },
@@ -6443,7 +6617,7 @@
     },
     {
       "id": "di.subclass.ogryn_skullbreaker.bone_ead",
-      "name": "Bone ’ead",
+      "name": "Bone \u2019ead",
       "state": "draft_entity",
       "path": "packages/di_phb_1_0/entities/subclass/ogryn_skullbreaker.bone_ead.json"
     },
@@ -6966,8 +7140,8 @@
     {
       "id": "di.weapon.autoch_pattern_pistol",
       "name": "Autoch-Pattern Pistol",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/weapon/autoch_pattern_pistol.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/weapon/autoch_pattern_pistol.json"
     },
     {
       "id": "di.weapon.autogun",
@@ -7068,8 +7242,8 @@
     {
       "id": "di.weapon.concussion_hammer",
       "name": "Concussion Hammer",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/weapon/concussion_hammer.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/weapon/concussion_hammer.json"
     },
     {
       "id": "di.weapon.corsair_sabre",
@@ -7122,8 +7296,8 @@
     {
       "id": "di.weapon.frag_bomb",
       "name": "Frag Bomb",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/weapon/frag_bomb.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/weapon/frag_bomb.json"
     },
     {
       "id": "di.weapon.frag_grenade",
@@ -7212,8 +7386,8 @@
     {
       "id": "di.weapon.ion_blaster",
       "name": "Ion Blaster",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/weapon/ion_blaster.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/weapon/ion_blaster.json"
     },
     {
       "id": "di.weapon.ion_pistol",
@@ -7230,8 +7404,8 @@
     {
       "id": "di.weapon.kin_power_axe",
       "name": "Kin Power Axe",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/weapon/kin_power_axe.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/weapon/kin_power_axe.json"
     },
     {
       "id": "di.weapon.knife",
@@ -7308,8 +7482,8 @@
     {
       "id": "di.weapon.monomolecular_blade",
       "name": "Monomolecular Blade",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/weapon/monomolecular_blade.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/weapon/monomolecular_blade.json"
     },
     {
       "id": "di.weapon.multi_laser",
@@ -7326,8 +7500,8 @@
     {
       "id": "di.weapon.ogryn_club",
       "name": "Ogryn Club",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/weapon/ogryn_club.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/weapon/ogryn_club.json"
     },
     {
       "id": "di.weapon.omnissian_axe",
@@ -7404,8 +7578,8 @@
     {
       "id": "di.weapon.ranger_long_rifle",
       "name": "Ranger Long Rifle",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/weapon/ranger_long_rifle.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/weapon/ranger_long_rifle.json"
     },
     {
       "id": "di.weapon.relic_blade",
@@ -7416,8 +7590,8 @@
     {
       "id": "di.weapon.ripper_gun",
       "name": "Ripper Gun",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/weapon/ripper_gun.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/weapon/ripper_gun.json"
     },
     {
       "id": "di.weapon.scatter_laser",
@@ -7446,14 +7620,14 @@
     {
       "id": "di.weapon.shuriken_catapult",
       "name": "Shuriken Catapult",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/weapon/shuriken_catapult.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/weapon/shuriken_catapult.json"
     },
     {
       "id": "di.weapon.shuriken_pistol",
       "name": "Shuriken Pistol",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/weapon/shuriken_pistol.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/weapon/shuriken_pistol.json"
     },
     {
       "id": "di.weapon.singing_spear",
@@ -7500,8 +7674,8 @@
     {
       "id": "di.weapon.taser_goad",
       "name": "Taser Goad",
-      "state": "incomplete_candidate",
-      "path": "packages/di_phb_1_0/review/candidates/weapon/taser_goad.json"
+      "state": "draft_entity",
+      "path": "packages/di_phb_1_0/entities/weapon/taser_goad.json"
     },
     {
       "id": "di.weapon.thunder_hammer",

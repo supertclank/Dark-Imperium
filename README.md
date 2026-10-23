@@ -1,3 +1,5 @@
+> **Current v4 release:** [Non-Human certification and verification](docs/import/NONHUMAN_V4_REPORT.md). Six species, 64 restricted certified families; Ogryn, Skitarii, Kin and Aeldari now have reviewed level-one paths. Open tool/vehicle and equipment alternatives remain unavailable. Existing profiles stay pinned. Earlier reports below are historical.
+
 > **Current release:** [Advancement and Ratling v3 report](docs/import/ADVANCEMENT_RATLING_V3_REPORT.md). Transactional Human Veteran advancement through level 3 and ten Ratling level-one families; 58 certified families total. Older profiles remain pinned. Prior release reports below are historical.
 
 > **Current release:** [Human tier-1 v2 completion report](docs/import/HUMAN_TIER1_V2_REPORT.md). Eight NORMAL Human Origins; Veteran levels 1–3 (Shock Trooper, Marksman, Sergeant at level 3), Hive Scum level 1. Authoritative rolls/history/3D presentation; unresolved procedures explicitly manual or unavailable. Prior reports below are historical.

@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "di.choice.skitarii.noospheric_focus",
+  "kind": "choice",
+  "revision": 1,
+  "name": "Skitarii Augmented Human traits choice",
+  "summary": "3.4 Skitarii Augmented Human\nSkitarii are cybernetically enhanced soldiers of the \nAdeptus Mechanicus. They are machine-disciplined,\nsensor-linked, and doctrinally conditioned beyond normal \nhuman limits.\nAbility Scores: +2 Dexterity or Intelligence, +1 \nConstitution.\nSize: Medium.\nSpeed: 30 ft.\nAvailable Classes: Skitarii Veteran.\n3.4.1 Skitarii Traits\nAugmetic Body: You have resistance to poison damage \nand advantage on saving throws against\ndisease.\nMachine Discipline: You have advantage on s",
+  "descriptionMarkdown": "3.4 Skitarii Augmented Human\nSkitarii are cybernetically enhanced soldiers of the \nAdeptus Mechanicus. They are machine-disciplined,\nsensor-linked, and doctrinally conditioned beyond normal \nhuman limits.\nAbility Scores: +2 Dexterity or Intelligence, +1 \nConstitution.\nSize: Medium.\nSpeed: 30 ft.\nAvailable Classes: Skitarii Veteran.\n3.4.1 Skitarii Traits\nAugmetic Body: You have resistance to poison damage \nand advantage on saving throws against\ndisease.\nMachine Discipline: You have advantage on saving \nthrows against being charmed.\nNoospheric Focus: Gain proficiency in Investigation, \nPerception, or Technology.\nIntegrated Auspex: Once per short rest, as a bonus \naction, choose one creature within 60 ft that you\ncan see. Your next attack against that creature before \nthe end of your turn gains +1d4 to hit.\nCybernetic Maintenance: During a short rest, if you or \nan ally has tinker’s tools or Mechanicus tools,\nyou may regain additional hit points equal to your \nproficiency bonus.\nNo Psychic Potential: You cannot choose the Psyker \nclass or any trait that grants psychic powers.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "3.4",
+        "heading": "Skitarii Augmented Human traits",
+        "pdfPage": 23,
+        "printedPage": 10
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "purpose": "skill",
+    "selectionMode": "options",
+    "cardinality": {
+      "min": 1,
+      "max": 1,
+      "unique": true
+    },
+    "repeatScope": "once_per_actor",
+    "options": [
+      {
+        "id": "investigation",
+        "label": "Investigation",
+        "grants": [
+          {
+            "id": "investigation",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.investigation"
+            }
+          }
+        ]
+      },
+      {
+        "id": "perception",
+        "label": "Perception",
+        "grants": [
+          {
+            "id": "perception",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.perception"
+            }
+          }
+        ]
+      },
+      {
+        "id": "technology",
+        "label": "Technology",
+        "grants": [
+          {
+            "id": "technology",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.technology"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

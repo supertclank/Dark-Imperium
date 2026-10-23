@@ -1,0 +1,393 @@
+[
+  {
+    "profileId": "di-phb-1.0-tier1-v4",
+    "profileDigest": "2ef85cd454999670ee61f51eebcc9b23e6805d5220b518d2c5643001831c5119",
+    "name": "ogryn level one",
+    "speciesId": "di.species.ogryn",
+    "originId": "di.background.penal_worlder",
+    "classId": "di.class.ogryn_skullbreaker",
+    "level": 1,
+    "traitId": "di.feature.universal.twitchy",
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.penal_worlder.skills": [
+        "athletics"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.ripper_gun"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.armour.ogryn_plate",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_bomb",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.rations",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.lucky_charm",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.ripper_gun",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v4",
+    "profileDigest": "2ef85cd454999670ee61f51eebcc9b23e6805d5220b518d2c5643001831c5119",
+    "name": "ogryn level one",
+    "speciesId": "di.species.ogryn",
+    "originId": "di.background.militarum_regiment",
+    "classId": "di.class.ogryn_skullbreaker",
+    "level": 1,
+    "traitId": "di.feature.universal.twitchy",
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.militarum_regiment.skills": [
+        "athletics"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.ripper_gun"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.armour.ogryn_plate",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.frag_bomb",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.rations",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.lucky_charm",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.ripper_gun",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v4",
+    "profileDigest": "2ef85cd454999670ee61f51eebcc9b23e6805d5220b518d2c5643001831c5119",
+    "name": "skitarii level one",
+    "speciesId": "di.species.skitarii",
+    "originId": "di.background.forge_world",
+    "classId": "di.class.skitarii_veteran",
+    "level": 1,
+    "traitId": "di.feature.universal.twitchy",
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.skitarii.ability_scores": [
+        "dexterity"
+      ],
+      "di.choice.skitarii.noospheric_focus": [
+        "investigation"
+      ],
+      "di.choice.skitarii_veteran.machine_focus": [
+        "investigation"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.lasgun",
+      "melee": "di.weapon.taser_goad",
+      "armour": "di.armour.flak_armour"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.laspistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.auspex",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.tool.maintenance_tools",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.lasgun",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.taser_goad",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.flak_armour",
+        "quantity": 1,
+        "equipped": true
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v4",
+    "profileDigest": "2ef85cd454999670ee61f51eebcc9b23e6805d5220b518d2c5643001831c5119",
+    "name": "kin level one",
+    "speciesId": "di.species.kin",
+    "originId": "di.background.mining_hold_guild",
+    "classId": "di.class.kin_armsman",
+    "level": 1,
+    "traitId": "di.feature.universal.twitchy",
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.kin.ability_scores": [
+        "intelligence"
+      ],
+      "di.choice.kin.guild_craft": [
+        "technology"
+      ],
+      "di.choice.kin_armsman.training": [
+        "athletics",
+        "insight"
+      ],
+      "di.choice.mining_hold_guild.skills": [
+        "athletics",
+        "investigation"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.ion_blaster",
+      "pistol": "di.weapon.autoch_pattern_pistol",
+      "armour": "di.armour.kin_mesh",
+      "melee": "di.weapon.kin_power_axe"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.frag_grenade",
+        "quantity": 2,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.oath_token",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.ion_blaster",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.autoch_pattern_pistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.kin_mesh",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.kin_power_axe",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v4",
+    "profileDigest": "2ef85cd454999670ee61f51eebcc9b23e6805d5220b518d2c5643001831c5119",
+    "name": "kin level one",
+    "speciesId": "di.species.kin",
+    "originId": "di.background.mining_hold_guild",
+    "classId": "di.class.hernkyn_prospector",
+    "level": 1,
+    "traitId": "di.feature.universal.twitchy",
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.hernkyn_prospector.training": [
+        "investigation"
+      ],
+      "di.choice.kin.ability_scores": [
+        "intelligence"
+      ],
+      "di.choice.kin.guild_craft": [
+        "technology"
+      ],
+      "di.choice.mining_hold_guild.skills": [
+        "athletics",
+        "investigation"
+      ]
+    },
+    "packageChoices": {
+      "pistol": "di.weapon.autoch_pattern_pistol",
+      "primary": "di.weapon.ion_blaster",
+      "armour": "di.armour.prospector_rig",
+      "melee": "di.weapon.knife"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.equipment.survey_auspex",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.tool.climbing_kit",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.claim_marker",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.autoch_pattern_pistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.ion_blaster",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.prospector_rig",
+        "quantity": 1,
+        "equipped": true
+      },
+      {
+        "definitionId": "di.weapon.knife",
+        "quantity": 1,
+        "equipped": false
+      }
+    ]
+  },
+  {
+    "profileId": "di-phb-1.0-tier1-v4",
+    "profileDigest": "2ef85cd454999670ee61f51eebcc9b23e6805d5220b518d2c5643001831c5119",
+    "name": "aeldari level one",
+    "speciesId": "di.species.aeldari",
+    "originId": "di.background.craftworld_outcast",
+    "classId": "di.class.aeldari_outcast",
+    "level": 1,
+    "traitId": "di.feature.universal.twitchy",
+    "attributes": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "answers": {
+      "di.choice.aeldari.ability_scores": [
+        "intelligence"
+      ],
+      "di.choice.aeldari.inhuman_grace": [
+        "acrobatics"
+      ],
+      "di.choice.craftworld_outcast.skills": [
+        "acrobatics",
+        "insight"
+      ]
+    },
+    "packageChoices": {
+      "primary": "di.weapon.shuriken_catapult",
+      "armour": "di.armour.aeldari_mesh"
+    },
+    "inventory": [
+      {
+        "definitionId": "di.weapon.shuriken_pistol",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.monomolecular_blade",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.spirit_token",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.equipment.camo_cloak",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.weapon.shuriken_catapult",
+        "quantity": 1,
+        "equipped": false
+      },
+      {
+        "definitionId": "di.armour.aeldari_mesh",
+        "quantity": 1,
+        "equipped": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "di.armour.kin_mesh",
+  "kind": "armour",
+  "revision": 1,
+  "name": "Kin Mesh",
+  "summary": "AC: 14 + Dex modifier, max +2; Dense compact armour weave.; Availability: Controlled",
+  "descriptionMarkdown": "AC: 14 + Dex modifier, max +2; Dense compact armour weave.; Availability: Controlled",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "9",
+        "heading": "Kin Mesh",
+        "pdfPage": 42,
+        "printedPage": 29
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "category": "kin",
+    "equip": {
+      "slots": [
+        "body"
+      ],
+      "hands": 0
+    },
+    "properties": [],
+    "features": [],
+    "defence": {
+      "value": {
+        "kind": "constant",
+        "value": 14
+      },
+      "mode": "base",
+      "stackGroup": "di.defence.armour"
+    },
+    "dexterityBonus": {
+      "enabled": true,
+      "cap": 2
+    },
+    "availability": "Controlled",
+    "requirements": {
+      "equip": {
+        "kind": "selected",
+        "content": {
+          "id": "di.species.kin"
+        }
+      }
+    }
+  }
+}

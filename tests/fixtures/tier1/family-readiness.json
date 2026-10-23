@@ -8,7 +8,7 @@
       "level": 1,
       "subclass": null
     },
-    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "expectedStatus": "READY_WITH_MANUAL_RULES",
     "rulingIds": [],
     "gapIds": [
       "PHB-CAT-004",
@@ -170,7 +170,7 @@
       "level": 1,
       "subclass": null
     },
-    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "expectedStatus": "READY_WITH_MANUAL_RULES",
     "rulingIds": [],
     "gapIds": [
       "PHB-CAT-004",
@@ -275,7 +275,7 @@
       "level": 1,
       "subclass": null
     },
-    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "expectedStatus": "READY_WITH_MANUAL_RULES",
     "rulingIds": [],
     "gapIds": [
       "PHB-CAT-004",
@@ -329,7 +329,7 @@
       "level": 1,
       "subclass": null
     },
-    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "expectedStatus": "READY_WITH_MANUAL_RULES",
     "rulingIds": [],
     "gapIds": [
       "PHB-CAT-004",
@@ -491,7 +491,7 @@
       "level": 1,
       "subclass": null
     },
-    "expectedStatus": "BLOCKED_BY_CONTENT",
+    "expectedStatus": "READY_WITH_MANUAL_RULES",
     "rulingIds": [],
     "gapIds": [
       "PHB-CAT-004",

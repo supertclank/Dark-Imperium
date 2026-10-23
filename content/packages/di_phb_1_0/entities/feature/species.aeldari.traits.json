@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.feature.species.aeldari.traits",
   "kind": "feature",
-  "revision": 1,
+  "revision": 2,
   "name": "Aeldari / Eldar traits",
   "summary": "3.6 Aeldari / Eldar Aeldari are ancient xenos whose reflexes, senses, and psychic presence far exceed human norms. Player Aeldari should represent rare outcasts, rangers, corsair- adjacent wanderers, or warlocks operating under a specific hidden purpose. Ability Scores: +2 Dexterity, +1 Intelligence or Wisdom. Size: Medium. Speed: 35 ft. Available Classes: Aeldari Outcast, Aeldari Warlock. 3.6.1 Aeldari Traits Darkvision: You have darkvision to a range of 90 ft (see the rules at the start of ...",
   "descriptionMarkdown": "3.6 Aeldari / Eldar\nAeldari are ancient xenos whose reflexes, senses, and \npsychic presence far exceed human norms. Player\nAeldari should represent rare outcasts, rangers, corsair-\nadjacent wanderers, or warlocks operating\nunder a specific hidden purpose.\nAbility Scores: +2 Dexterity, +1 Intelligence or Wisdom.\nSize: Medium.\nSpeed: 35 ft.\nAvailable Classes: Aeldari Outcast, Aeldari Warlock.\n3.6.1 Aeldari Traits\nDarkvision: You have darkvision to a range of 90 ft (see \nthe rules at the start of this chapter).\nInhuman Grace: Gain proficiency in Acrobatics or \nStealth.\nKeen Senses: Gain proficiency in Perception. If you \nalready have Perception proficiency, add +1 to\nPerception checks instead.\nBattle Trance: You may move through the space of \nallied creatures without treating it as difficult\nterrain. Once per short rest, when you move at least 10 ft \nbefore making a weapon attack, add +1d4 to\nthe attack roll.\nAncient Mind: You have advantage on saving throws \nagainst being charmed or frightened by non-psychic \neffects.\nXenos Distrust: You have disadvantage on Persuasion \nchecks with most Imperial authorities unless\ndisguised, vouched for, or operating under an established \ntruce.",
@@ -23,8 +23,47 @@
   "tags": [],
   "data": {
     "flavor": "species_trait",
-    "effects": [],
-    "grants": [],
+    "effects": [
+      {
+        "id": "darkvision",
+        "automation": "automatic",
+        "activation": "continuous",
+        "target": {
+          "kind": "stat",
+          "key": "sense.darkvision",
+          "scope": "self"
+        },
+        "operation": "base",
+        "value": {
+          "kind": "constant",
+          "value": 90
+        },
+        "duration": {
+          "kind": "while_source"
+        },
+        "stacking": {
+          "group": "di.sense.darkvision",
+          "mode": "max"
+        },
+        "priority": 0
+      }
+    ],
+    "grants": [
+      {
+        "id": "aeldari_inhuman_grace",
+        "kind": "choice",
+        "choice": {
+          "id": "di.choice.aeldari.inhuman_grace"
+        }
+      },
+      {
+        "id": "perception",
+        "kind": "proficiency",
+        "proficiency": {
+          "id": "di.proficiency.skill.perception"
+        }
+      }
+    ],
     "manualRules": [
       {
         "id": "source_rule",
@@ -33,6 +72,15 @@
         "adjudicator": "gm",
         "context": "source-defined procedure",
         "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ],
+    "mechanics": [
+      {
+        "kind": "duplicate_proficiency_bonus",
+        "proficiency": {
+          "id": "di.proficiency.skill.perception"
+        },
+        "amount": 1
       }
     ]
   }

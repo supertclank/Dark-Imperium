@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "di.armour.aeldari_mesh",
+  "kind": "armour",
+  "revision": 1,
+  "name": "Aeldari Mesh",
+  "summary": "AC: 12 + Dex modifier; Light xenos mesh; no Stealth disadvantage.; Availability: Controlled",
+  "descriptionMarkdown": "AC: 12 + Dex modifier; Light xenos mesh; no Stealth disadvantage.; Availability: Controlled",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "9",
+        "heading": "Aeldari Mesh",
+        "pdfPage": 42,
+        "printedPage": 29
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "category": "aeldari",
+    "equip": {
+      "slots": [
+        "body"
+      ],
+      "hands": 0
+    },
+    "properties": [],
+    "features": [],
+    "defence": {
+      "value": {
+        "kind": "constant",
+        "value": 12
+      },
+      "mode": "base",
+      "stackGroup": "di.defence.armour"
+    },
+    "dexterityBonus": {
+      "enabled": true
+    },
+    "availability": "Controlled",
+    "requirements": {
+      "equip": {
+        "kind": "selected",
+        "content": {
+          "id": "di.species.aeldari"
+        }
+      }
+    }
+  }
+}

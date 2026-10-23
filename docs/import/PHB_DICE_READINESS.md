@@ -1,3 +1,5 @@
+> **Current v4 release:** [Non-Human certification and verification](NONHUMAN_V4_REPORT.md). Six species, 64 restricted certified families; Ogryn, Skitarii, Kin and Aeldari now have reviewed level-one paths. Open tool/vehicle and equipment alternatives remain unavailable. Existing profiles stay pinned. Earlier reports below are historical.
+
 > **Current release:** [Advancement and Ratling v3 report](ADVANCEMENT_RATLING_V3_REPORT.md). 58 certified families, transactional Human Veteran advancement through level 3, ten Ratling level-one families and authoritative persisted dice are implemented. The earlier narrow-only status below is historical. Full catalogue remains blocked.
 
 > **Production update:** [Narrow builder implementation](../PRODUCTION_CHARACTER_BUILDER.md). Narrow creation/list/sheet and persistence are implemented; full catalogue remains BLOCKED and authoritative dice execution remains PARTIAL. The report below is historical.

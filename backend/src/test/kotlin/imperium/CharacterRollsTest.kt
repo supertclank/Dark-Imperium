@@ -42,6 +42,37 @@ class CharacterRollsTest {
     }
     private fun error(code:String,block:()->Unit) { assertEquals(code,assertFailsWith<ApiException>(block=block).code) }
 
+    @Test fun `v4 retains existing Human advancement and pinned original HP inventory and history`() {
+        val rules=NarrowRules.tier4();val d=tier2Fixture("veteran-1").copy(profileId=rules.id,profileDigest=rules.digest)
+        val r=rig(DieSource { 10 },d);val rolled=r.execute("Initiative");val before=r.sheet()
+        val advance=CharacterAdvancement(db,r.characters)
+        advance.advance(r.owner,r.id,AdvanceRequest(UUID.randomUUID().toString(),0,2))
+        advance.advance(r.owner,r.id,AdvanceRequest(UUID.randomUUID().toString(),1,3,mapOf("di.choice.veteran.subclass" to listOf("marksman"))))
+        val after=r.sheet();assertEquals(3,after.num("level"));assertEquals(before["inventory"],after["inventory"])
+        assertEquals(before.getValue("runtime").jsonObject.num("currentHp"),after.getValue("runtime").jsonObject.num("currentHp"))
+        assertEquals(25,after.getValue("calculated").jsonObject.num("maximumWounds"));assertEquals(rules.digest,after.text("rulesetDigest"))
+        assertEquals(rolled.text("id"),r.rolls.history(r.owner,r.id).objects("items").single().text("id"))
+    }
+    @Test fun `new species persist reopen roll and retain pinned history`() {
+        for(d in nonhumanFixtures()) {
+            val r=rig(DieSource { 10 },d);val result=r.execute("Initiative")
+            assertEquals(d.profileId,r.sheet().text("rulesetProfileId"))
+            assertEquals(d.profileDigest,r.sheet().text("rulesetDigest"))
+            assertEquals(r.sheet().getValue("calculated").jsonObject.num("initiative")+10,result.num("total"))
+            assertEquals(result.text("id"),r.rolls.history(r.owner,r.id).objects("items").first().text("id"))
+        }
+    }
+    @Test fun `Frag Bomb consumes once uses own exact half policy and leaves prone manual`() {
+        val count=AtomicInteger(0);val r=rig(DieSource { if(count.getAndIncrement()==0) 2 else 1 },nonhumanFixtures().first())
+        val request=r.request("Frag Bomb damage");val result=r.rolls.execute(r.owner,r.id,request)
+        assertEquals(5,result.num("total"));val grenade=result.getValue("grenade").jsonObject
+        assertEquals("5/2",grenade.getValue("outcomes").jsonObject.text("success"))
+        assertTrue(grenade.text("application").contains("not knocked prone"))
+        assertEquals(0,r.sheet().objects("inventory").single { it.text("definitionId")=="di.weapon.frag_bomb" }.num("quantity"))
+        assertEquals(result,r.rolls.execute(r.owner,r.id,request));assertEquals(4,count.get())
+        error("RESOURCE_EXHAUSTED") { r.execute("Frag Bomb damage") }
+        assertTrue(r.sheet().getValue("runtime").jsonObject.arr("conditions").isEmpty())
+    }
     @Test fun `checks skills saves and initiative use saved calculated modifiers without mutation`() {
         val r=rig(DieSource { 10 })
         for((label,total) in mapOf("strength check" to 13,"Athletics" to 15,"wisdom save" to 12,"Initiative" to 14)) {

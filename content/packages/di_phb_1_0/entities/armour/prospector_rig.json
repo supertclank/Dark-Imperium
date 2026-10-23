@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "di.armour.prospector_rig",
+  "kind": "armour",
+  "revision": 1,
+  "name": "Prospector Rig",
+  "summary": "AC: 14 + Dex modifier, max +2; Climbing anchors, void seals and harness points; advantage on climbing, anchoring or forced-movement checks in low gravity.; Availability: Controlled",
+  "descriptionMarkdown": "AC: 14 + Dex modifier, max +2; Climbing anchors, void seals and harness points; advantage on climbing, anchoring or forced-movement checks in low gravity.; Availability: Controlled",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "9",
+        "heading": "Prospector Rig",
+        "pdfPage": 42,
+        "printedPage": 29
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "category": "kin",
+    "equip": {
+      "slots": [
+        "body"
+      ],
+      "hands": 0
+    },
+    "properties": [],
+    "features": [],
+    "defence": {
+      "value": {
+        "kind": "constant",
+        "value": 14
+      },
+      "mode": "base",
+      "stackGroup": "di.defence.armour"
+    },
+    "dexterityBonus": {
+      "enabled": true,
+      "cap": 2
+    },
+    "availability": "Controlled",
+    "requirements": {
+      "equip": {
+        "kind": "selected",
+        "content": {
+          "id": "di.species.kin"
+        }
+      }
+    }
+  }
+}

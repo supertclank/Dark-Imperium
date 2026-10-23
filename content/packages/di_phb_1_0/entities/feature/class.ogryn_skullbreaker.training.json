@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.feature.class.ogryn_skullbreaker.training",
   "kind": "feature",
-  "revision": 1,
+  "revision": 2,
   "name": "Ogryn Skullbreaker training and hit die",
   "summary": "11.4 Ogryn Skullbreaker A walking wall of muscle, loyalty, and violence. Allowed Species: Ogryn only. Hit Die: d12. Primary Abilities: Strength, Constitution. Saving Throws: Strength, Constitution. Armour: Modified heavy armour, Ogryn armour, Ogryn plate. Weapons: Ogryn weapons, simple melee weapons, heavy blunt weapons, ripper guns.",
   "descriptionMarkdown": "11.4 Ogryn Skullbreaker\nA walking wall of muscle, loyalty, and violence.\nAllowed Species: Ogryn only.\nHit Die: d12.\nPrimary Abilities: Strength, Constitution.\nSaving Throws: Strength, Constitution.\nArmour: Modified heavy armour, Ogryn armour, Ogryn plate.\nWeapons: Ogryn weapons, simple melee weapons, heavy blunt weapons, ripper guns.",
@@ -24,7 +24,22 @@
   "data": {
     "flavor": "class_feature",
     "effects": [],
-    "grants": [],
+    "grants": [
+      {
+        "id": "weapon_group",
+        "kind": "proficiency",
+        "proficiency": {
+          "id": "di.proficiency.ogryn_skullbreaker.weapon_group"
+        }
+      },
+      {
+        "id": "armour",
+        "kind": "proficiency",
+        "proficiency": {
+          "id": "di.proficiency.ogryn_skullbreaker.armour"
+        }
+      }
+    ],
     "manualRules": [
       {
         "id": "source_rule",

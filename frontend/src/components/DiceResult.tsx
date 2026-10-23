@@ -13,7 +13,7 @@ export function DiceResult({result:r}:DicePresentationProps) {
     {r.rollType==="attack" && <p>Attack total only. Determine the hit manually; critical damage is not applied automatically.</p>}
     {r.rollType==="damage" && !r.grenade && <p>Baseline damage; apply hit and critical rules manually.</p>}
     {r.parentResultId && <p className="small">Linked attack: {r.parentResultId}</p>}
-    {r.grenade && <><p>DC {r.grenade.saveDc} {r.grenade.saveAttribute} save · Failed save: {r.grenade.outcomes.failure} · Successful save: {r.grenade.outcomes.success} (half, rounded down).</p><p>{r.grenade.application}</p></>}
-    {r.consumption && <p>Consumed {r.consumption.quantity} Frag Grenade · Remaining at execution: {r.consumption.remaining}.</p>}
+    {r.grenade && <><p>DC {r.grenade.saveDc} {r.grenade.saveAttribute} save · Failed save: {r.grenade.outcomes.failure} · Successful save: {r.grenade.outcomes.success} (resolved using the pinned source policy).</p><p>{r.grenade.application}</p></>}
+    {r.consumption && <p>Consumed {r.consumption.quantity} {r.label.replace(/ damage$/, "")} · Remaining at execution: {r.consumption.remaining}.</p>}
   </article>;
 }

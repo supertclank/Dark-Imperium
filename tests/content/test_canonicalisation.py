@@ -19,7 +19,7 @@ class CanonicalisationTests(unittest.TestCase):
         self.assertEqual(len(self.triage),385)
         self.assertEqual(len({x['id'] for x in self.triage}),385)
         for x in self.triage:
-            if x['category'] in ['AUTO_COMPLETABLE','HUMAN_RULING_PROMOTED']:self.assertIn(x['id'],self.records)
+            if x['category'] in ['AUTO_COMPLETABLE','HUMAN_RULING_PROMOTED','SOURCE_REVIEW_PROMOTED']:self.assertIn(x['id'],self.records)
             else:self.assertNotIn(x['id'],self.records)
         self.assertEqual(sum(x['category']=='AUTO_COMPLETABLE' for x in self.triage),52)
 

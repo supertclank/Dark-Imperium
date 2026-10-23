@@ -1,0 +1,145 @@
+{
+  "promotions": [
+    {
+      "id": "di.weapon.ogryn_club",
+      "originalPath": "review\\candidates\\weapon\\ogryn_club.json",
+      "rawSha256": "be628cb64bec6a4e54569b6c7b73ee20dcbdb9825972da05b52c880e539d76ea",
+      "archivePath": "review/archive/nonhuman-v4/weapon/ogryn_club.json"
+    },
+    {
+      "id": "di.weapon.ripper_gun",
+      "originalPath": "review\\candidates\\weapon\\ripper_gun.json",
+      "rawSha256": "d4dff4fc078bc139ea8e0554ecb44c177e82f6397f8ffa8e13d1d0b088bf2688",
+      "archivePath": "review/archive/nonhuman-v4/weapon/ripper_gun.json"
+    },
+    {
+      "id": "di.weapon.taser_goad",
+      "originalPath": "review\\candidates\\weapon\\taser_goad.json",
+      "rawSha256": "90a80665fe7fb1e97d1c989328bc7c16d66c4effa51773e177819414f55331e2",
+      "archivePath": "review/archive/nonhuman-v4/weapon/taser_goad.json"
+    },
+    {
+      "id": "di.weapon.ion_blaster",
+      "originalPath": "review\\candidates\\weapon\\ion_blaster.json",
+      "rawSha256": "1afdaf161a2441e1f2d8652c191fa66cf13440e7806f3b8b910f01263ba7e552",
+      "archivePath": "review/archive/nonhuman-v4/weapon/ion_blaster.json"
+    },
+    {
+      "id": "di.weapon.autoch_pattern_pistol",
+      "originalPath": "review\\candidates\\weapon\\autoch_pattern_pistol.json",
+      "rawSha256": "0824100c5f5b153cdef8ae0e75a473fdfbfac8f46971e29bb2bc501910054541",
+      "archivePath": "review/archive/nonhuman-v4/weapon/autoch_pattern_pistol.json"
+    },
+    {
+      "id": "di.weapon.kin_power_axe",
+      "originalPath": "review\\candidates\\weapon\\kin_power_axe.json",
+      "rawSha256": "475639f93fb8735ccb9cb58cee54f9dea59451bb868cd04d6c848d5e45af3b9a",
+      "archivePath": "review/archive/nonhuman-v4/weapon/kin_power_axe.json"
+    },
+    {
+      "id": "di.weapon.concussion_hammer",
+      "originalPath": "review\\candidates\\weapon\\concussion_hammer.json",
+      "rawSha256": "737bfe2f18f2047a96d05d54eea70b0ba2bc46dd3c08d4d181028280ee08f61c",
+      "archivePath": "review/archive/nonhuman-v4/weapon/concussion_hammer.json"
+    },
+    {
+      "id": "di.weapon.shuriken_pistol",
+      "originalPath": "review\\candidates\\weapon\\shuriken_pistol.json",
+      "rawSha256": "10bfd8a837b372c388b03c2e6321718ca269bf21d222cb9f77df8a1e89a12b98",
+      "archivePath": "review/archive/nonhuman-v4/weapon/shuriken_pistol.json"
+    },
+    {
+      "id": "di.weapon.shuriken_catapult",
+      "originalPath": "review\\candidates\\weapon\\shuriken_catapult.json",
+      "rawSha256": "bc08c2e7461a292c576d14d7da805548ef79ce48b3772179f3611eb85610820d",
+      "archivePath": "review/archive/nonhuman-v4/weapon/shuriken_catapult.json"
+    },
+    {
+      "id": "di.weapon.ranger_long_rifle",
+      "originalPath": "review\\candidates\\weapon\\ranger_long_rifle.json",
+      "rawSha256": "635002b2da29d9ee0e1bd133850d73b3223a0ce9f56a354b5ca1dd6a16dbe200",
+      "archivePath": "review/archive/nonhuman-v4/weapon/ranger_long_rifle.json"
+    },
+    {
+      "id": "di.weapon.monomolecular_blade",
+      "originalPath": "review\\candidates\\weapon\\monomolecular_blade.json",
+      "rawSha256": "2036c0b2a39e3bd09370c3c5770b2e67be592006ecd955f9f337a2491cd62ad2",
+      "archivePath": "review/archive/nonhuman-v4/weapon/monomolecular_blade.json"
+    },
+    {
+      "id": "di.armour.kin_mesh",
+      "originalPath": "review\\candidates\\armour\\kin_mesh.json",
+      "rawSha256": "7a29496a3fe7edf10d545d8764c289716dde048e9d6330fe3e4449c6a3673bed",
+      "archivePath": "review/archive/nonhuman-v4/armour/kin_mesh.json"
+    },
+    {
+      "id": "di.armour.hearthkyn_plate",
+      "originalPath": "review\\candidates\\armour\\hearthkyn_plate.json",
+      "rawSha256": "f19c342b9317d6725f0e18d83e5bb0f404a23c031c4fea4569c33d3fe112d88b",
+      "archivePath": "review/archive/nonhuman-v4/armour/hearthkyn_plate.json"
+    },
+    {
+      "id": "di.armour.prospector_rig",
+      "originalPath": "review\\candidates\\armour\\prospector_rig.json",
+      "rawSha256": "c5b4d60fbb1038c20d10f49ef73c7ff49b6fdcceb7b557aec7afc2e5187b1710",
+      "archivePath": "review/archive/nonhuman-v4/armour/prospector_rig.json"
+    },
+    {
+      "id": "di.armour.aeldari_mesh",
+      "originalPath": "review\\candidates\\armour\\aeldari_mesh.json",
+      "rawSha256": "c221a1bf7fb389cb8dbff9485bf487aecd5fa6f4c9a275230199bd94c8d279dd",
+      "archivePath": "review/archive/nonhuman-v4/armour/aeldari_mesh.json"
+    },
+    {
+      "id": "di.armour.ranger_weave",
+      "originalPath": "review\\candidates\\armour\\ranger_weave.json",
+      "rawSha256": "394d72913536d7b8b1c56e956db98fc0f95e800fc68ea7c9d1c4aa41fcb599ed",
+      "archivePath": "review/archive/nonhuman-v4/armour/ranger_weave.json"
+    },
+    {
+      "id": "di.weapon.frag_bomb",
+      "originalPath": "review\\candidates\\weapon\\frag_bomb.json",
+      "rawSha256": "c4a7c2146780c0832dbacd2f32dc11ffb009137cd6f44559f8c6d96b60df4e19",
+      "archivePath": "review/archive/nonhuman-v4/weapon/frag_bomb.json"
+    }
+  ],
+  "addedRecords": [
+    "di.choice.skitarii.noospheric_focus",
+    "di.choice.skitarii_veteran.machine_focus",
+    "di.choice.kin.guild_craft",
+    "di.choice.aeldari.inhuman_grace",
+    "di.choice.kin_armsman.training",
+    "di.choice.hernkyn_prospector.training",
+    "di.weapon.ogryn_club",
+    "di.action.ogryn_club.attack",
+    "di.weapon.ripper_gun",
+    "di.action.ripper_gun.attack",
+    "di.weapon.taser_goad",
+    "di.action.taser_goad.attack",
+    "di.weapon.ion_blaster",
+    "di.action.ion_blaster.attack",
+    "di.weapon.autoch_pattern_pistol",
+    "di.action.autoch_pattern_pistol.attack",
+    "di.weapon.kin_power_axe",
+    "di.action.kin_power_axe.attack",
+    "di.weapon.concussion_hammer",
+    "di.action.concussion_hammer.attack",
+    "di.weapon.shuriken_pistol",
+    "di.action.shuriken_pistol.attack",
+    "di.weapon.shuriken_catapult",
+    "di.action.shuriken_catapult.attack",
+    "di.weapon.ranger_long_rifle",
+    "di.action.ranger_long_rifle.attack",
+    "di.weapon.monomolecular_blade",
+    "di.action.monomolecular_blade.attack",
+    "di.armour.kin_mesh",
+    "di.armour.hearthkyn_plate",
+    "di.armour.prospector_rig",
+    "di.armour.aeldari_mesh",
+    "di.armour.ranger_weave",
+    "di.equipment.auspex",
+    "di.weapon.frag_bomb",
+    "di.action.frag_bomb.use"
+  ],
+  "basis": "PHB source profiles and approved PHB-RULE-024; no new ruling decisions."
+}

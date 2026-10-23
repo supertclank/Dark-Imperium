@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "di.weapon.ripper_gun",
+  "kind": "weapon",
+  "revision": 1,
+  "name": "Ripper Gun",
+  "summary": "Weapon: Ripper Gun; Damage: 1d12 piercing; Range: 40/120; Properties: Ogryn, Burst, Suppression, Reload 20; Availability: Controlled",
+  "descriptionMarkdown": "Weapon: Ripper Gun; Damage: 1d12 piercing; Range: 40/120; Properties: Ogryn, Burst, Suppression, Reload 20; Availability: Controlled",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "8",
+        "heading": "Ripper Gun",
+        "pdfPage": 38,
+        "printedPage": 25
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "properties": [
+      {
+        "property": {
+          "id": "di.property.weapon.ogryn"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.burst"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.suppression"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.reload"
+        },
+        "arguments": {
+          "capacity": 20
+        }
+      }
+    ],
+    "modes": [
+      {
+        "id": "base",
+        "name": "Base profile",
+        "damage": [
+          {
+            "id": "component_1",
+            "dice": {
+              "count": 1,
+              "sides": 12,
+              "bonus": 0
+            },
+            "bonus": {
+              "kind": "constant",
+              "value": 0
+            },
+            "damageType": {
+              "id": "di.damage_type.piercing"
+            }
+          }
+        ],
+        "range": {
+          "kind": "distance",
+          "normal": {
+            "value": 40,
+            "unit": "ft"
+          },
+          "long": {
+            "value": 120,
+            "unit": "ft"
+          }
+        },
+        "attackKind": "ranged",
+        "delivery": "attack_roll",
+        "costs": [],
+        "action": {
+          "id": "di.action.ripper_gun.attack"
+        }
+      }
+    ],
+    "category": "ranged",
+    "subcategory": "basic_firearm",
+    "hands": 2,
+    "features": [],
+    "proficiencyGroups": [
+      "ogryn"
+    ],
+    "availability": "Controlled",
+    "abilityBinding": {
+      "attack": "dexterity",
+      "damage": "dexterity"
+    }
+  }
+}

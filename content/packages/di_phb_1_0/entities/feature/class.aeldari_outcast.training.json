@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.feature.class.aeldari_outcast.training",
   "kind": "feature",
-  "revision": 1,
+  "revision": 2,
   "name": "Aeldari Outcast training and hit die",
   "summary": "11.11 Aeldari Outcast An Aeldari ranger, exile, corsair-adjacent wanderer, pathless scout, or alien marksman pursuing a hidden agenda. Allowed Species: Aeldari only. Hit Die: d8. Primary Abilities: Dexterity, Wisdom. Saving Throws: Dexterity, Wisdom. Armour: Aeldari mesh, ranger weave, light armour. Weapons: Aeldari weapons, pistols, blades, sniper weapons.",
   "descriptionMarkdown": "11.11 Aeldari Outcast\nAn Aeldari ranger, exile, corsair-adjacent wanderer, pathless scout, or alien marksman pursuing a hidden agenda.\nAllowed Species: Aeldari only.\nHit Die: d8.\nPrimary Abilities: Dexterity, Wisdom.\nSaving Throws: Dexterity, Wisdom.\nArmour: Aeldari mesh, ranger weave, light armour.\nWeapons: Aeldari weapons, pistols, blades, sniper weapons.",
@@ -24,7 +24,22 @@
   "data": {
     "flavor": "class_feature",
     "effects": [],
-    "grants": [],
+    "grants": [
+      {
+        "id": "weapon_group",
+        "kind": "proficiency",
+        "proficiency": {
+          "id": "di.proficiency.aeldari_outcast.weapon_group"
+        }
+      },
+      {
+        "id": "armour",
+        "kind": "proficiency",
+        "proficiency": {
+          "id": "di.proficiency.aeldari_outcast.armour"
+        }
+      }
+    ],
     "manualRules": [
       {
         "id": "source_rule",

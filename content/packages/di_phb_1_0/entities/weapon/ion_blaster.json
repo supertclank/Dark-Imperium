@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "di.weapon.ion_blaster",
+  "kind": "weapon",
+  "revision": 1,
+  "name": "Ion Blaster",
+  "summary": "Weapon: Ion Blaster; Damage: 1d10 radiant; Range: 70/210; Properties: Armour-Breaking, Reload 12; Availability: Scarce",
+  "descriptionMarkdown": "Weapon: Ion Blaster; Damage: 1d10 radiant; Range: 70/210; Properties: Armour-Breaking, Reload 12; Availability: Scarce",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "8",
+        "heading": "Ion Blaster",
+        "pdfPage": 40,
+        "printedPage": 27
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "properties": [
+      {
+        "property": {
+          "id": "di.property.weapon.armour_breaking"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.reload"
+        },
+        "arguments": {
+          "capacity": 12
+        }
+      }
+    ],
+    "modes": [
+      {
+        "id": "base",
+        "name": "Base profile",
+        "damage": [
+          {
+            "id": "component_1",
+            "dice": {
+              "count": 1,
+              "sides": 10,
+              "bonus": 0
+            },
+            "bonus": {
+              "kind": "constant",
+              "value": 0
+            },
+            "damageType": {
+              "id": "di.damage_type.radiant"
+            }
+          }
+        ],
+        "range": {
+          "kind": "distance",
+          "normal": {
+            "value": 70,
+            "unit": "ft"
+          },
+          "long": {
+            "value": 210,
+            "unit": "ft"
+          }
+        },
+        "attackKind": "ranged",
+        "delivery": "attack_roll",
+        "costs": [],
+        "action": {
+          "id": "di.action.ion_blaster.attack"
+        }
+      }
+    ],
+    "category": "ranged",
+    "subcategory": "basic_firearm",
+    "hands": 2,
+    "features": [],
+    "proficiencyGroups": [
+      "kin"
+    ],
+    "availability": "Scarce",
+    "abilityBinding": {
+      "attack": "dexterity",
+      "damage": "dexterity"
+    }
+  }
+}

@@ -19,7 +19,7 @@ class CharacterAdvancement(private val db:Database,private val characters:Produc
     private fun required(rules:NarrowRules,d:NarrowDraft):List<String> = config(rules,d.copy(level=d.level+1))?.strings("choices").orEmpty()-config(rules,d)?.strings("choices").orEmpty().toSet()
     private fun blockers(rules:NarrowRules,d:NarrowDraft):List<JsonObject> {
         if(d.level>=3) return listOf(obj("code" to "LEVEL_CAP","message" to "Advancement beyond level 3 is unavailable."))
-        if(rules.id !in setOf("di-phb-1.0-tier1-v2","di-phb-1.0-tier1-v3") || config(rules,d.copy(level=d.level+1))==null) return listOf(obj("code" to "PATH_NOT_CERTIFIED","message" to "The pinned ruleset does not certify the next level for this path. No profile migration is performed."))
+        if(rules.id !in setOf("di-phb-1.0-tier1-v2","di-phb-1.0-tier1-v3","di-phb-1.0-tier1-v4") || config(rules,d.copy(level=d.level+1))==null) return listOf(obj("code" to "PATH_NOT_CERTIFIED","message" to "The pinned ruleset does not certify the next level for this path. No profile migration is performed."))
         return emptyList()
     }
     private fun destination(sheet:JsonObject,rules:NarrowRules,request:AdvanceRequest):Pair<NarrowDraft,JsonObject> {

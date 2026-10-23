@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "di.action.ranger_long_rifle.attack",
+  "kind": "action",
+  "revision": 2,
+  "name": "Ranger Long Rifle attack",
+  "summary": "Ranger Long Rifle attack baseline; conditional properties remain manual.",
+  "descriptionMarkdown": "Baseline attack and damage only; conditional properties are manual.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "8",
+        "heading": "Ranger Long Rifle",
+        "pdfPage": 40,
+        "printedPage": 27
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "economy": "manual",
+    "target": {
+      "kind": "single",
+      "scope": "actor"
+    },
+    "costs": [],
+    "outcomes": [
+      {
+        "id": "hit",
+        "on": "always",
+        "effects": [],
+        "manualRules": [
+          {
+            "id": "source_rule",
+            "automation": "manual",
+            "text": "Use the source attack and damage procedure. Resolve ammunition, target context and hit outcome before applying damage.",
+            "adjudicator": "gm",
+            "context": "source-defined procedure",
+            "reason": "Source-defined manual procedure; no automatic bonus inferred."
+          }
+        ]
+      }
+    ]
+  }
+}

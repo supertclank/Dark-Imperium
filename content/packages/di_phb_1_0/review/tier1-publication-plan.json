@@ -1,6 +1,6 @@
 {
-  "id": "di-phb-1.0-tier1-v3",
-  "status": "HUMAN_AND_RATLING",
+  "id": "di-phb-1.0-tier1-v4",
+  "status": "SIX_SPECIES_RESTRICTED_BRANCHES",
   "engineVersion": "phb-tier1-kotlin-v1",
   "levels": [
     1,
@@ -477,12 +477,60 @@
       "speciesId": "di.species.ratling",
       "subclassId": null,
       "traitId": "di.feature.universal.twitchy"
+    },
+    {
+      "classId": "di.class.ogryn_skullbreaker",
+      "level": 1,
+      "originId": "di.background.penal_worlder",
+      "speciesId": "di.species.ogryn",
+      "subclassId": null,
+      "traitId": "di.feature.universal.twitchy"
+    },
+    {
+      "classId": "di.class.ogryn_skullbreaker",
+      "level": 1,
+      "originId": "di.background.militarum_regiment",
+      "speciesId": "di.species.ogryn",
+      "subclassId": null,
+      "traitId": "di.feature.universal.twitchy"
+    },
+    {
+      "classId": "di.class.skitarii_veteran",
+      "level": 1,
+      "originId": "di.background.forge_world",
+      "speciesId": "di.species.skitarii",
+      "subclassId": null,
+      "traitId": "di.feature.universal.twitchy"
+    },
+    {
+      "classId": "di.class.kin_armsman",
+      "level": 1,
+      "originId": "di.background.mining_hold_guild",
+      "speciesId": "di.species.kin",
+      "subclassId": null,
+      "traitId": "di.feature.universal.twitchy"
+    },
+    {
+      "classId": "di.class.hernkyn_prospector",
+      "level": 1,
+      "originId": "di.background.mining_hold_guild",
+      "speciesId": "di.species.kin",
+      "subclassId": null,
+      "traitId": "di.feature.universal.twitchy"
+    },
+    {
+      "classId": "di.class.aeldari_outcast",
+      "level": 1,
+      "originId": "di.background.craftworld_outcast",
+      "speciesId": "di.species.aeldari",
+      "subclassId": null,
+      "traitId": "di.feature.universal.twitchy"
     }
   ],
   "blockingOriginRulings": [],
   "sourceProfile": {
-    "id": "di-phb-1.0-tier1-v3",
-    "digest": "5c4d81d1cf9a55be138d5e73a58acfccd96fb2dcb0eeadb157fbcfde08b2a795"
+    "id": "di-phb-1.0-tier1-v4",
+    "digest": "2ef85cd454999670ee61f51eebcc9b23e6805d5220b518d2c5643001831c5119"
   },
   "activationRequirements": [
     "Approved Origin ledger entries with exact decision, hash, user provenance, timestamp, source relationship and affected IDs",
@@ -491,11 +539,11 @@
     "Server filtering, authoritative validation, creation/retrieval/rolling/browser regression"
   ],
   "gapDefinitions": {
-    "PHB-CAT-001": "Starting-package certification incomplete outside Veteran and Hive Scum: source tokens/approved aliases are not executable quantity, choice, proficiency and inventory grants.",
+    "PHB-CAT-001": "Starting-package certification remains incomplete outside explicitly published branches; source tokens or aliases alone do not authorize quantity, choice, proficiency or inventory grants.",
     "PHB-CAT-002": "At least one identified starting option remains an incomplete candidate; source alternatives must be independently certified.",
     "PHB-CAT-003": "Psychic power candidates lack canonical power schema/choice pools and production execution boundaries; no manual shortcut can validate unknown creation choices.",
     "PHB-CAT-004": "Tier-1 adapter certifies Human Veteran levels 1–3 and Hive Scum level 1, plus Ratling Veteran/Hive Scum level 1 across five NORMAL Origins. Other selected-level choice/resource/projection/roll paths require mapping and golden certification.",
-    "PHB-CAT-005": "Non-Human species traits include unmapped core calculations/proficiencies/restrictions. Manual prose cannot substitute for those calculations."
+    "PHB-CAT-005": "Unpublished non-Human branches may require additional tool, vehicle, psychic, level or equipment mappings; the v4 selected-level mechanics do not certify every branch."
   },
-  "auditDigest": "b87fafb21751739b78f7bdb6f2c5f2b01a0b6af84e47b3d640cf928f7f7e2cb8"
+  "auditDigest": "a1ae674161a2bd57006278de7f3508732ac70045fe4b3ca6dab722f21d7c7e8b"
 }

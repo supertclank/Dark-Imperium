@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "di.equipment.auspex",
+  "kind": "equipment",
+  "revision": 1,
+  "name": "Auspex",
+  "summary": "Auspex; Skitarii Veteran starting package, PHB PDF 100.",
+  "descriptionMarkdown": "Auspex; Skitarii Veteran starting package, PHB PDF 100.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "17",
+        "heading": "Survey auspex",
+        "pdfPage": 100,
+        "printedPage": 87
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "features": [],
+    "manualRules": [
+      {
+        "id": "source_rule",
+        "automation": "manual",
+        "text": "Auspex from the Skitarii starting package. Resolve scans and target context manually; no inherent numerical bonus is assumed.",
+        "adjudicator": "gm",
+        "context": "PHB selected source context",
+        "reason": "Baseline only; contextual rules are adjudicated manually."
+      }
+    ],
+    "functionalTags": [
+      "scanner"
+    ]
+  }
+}

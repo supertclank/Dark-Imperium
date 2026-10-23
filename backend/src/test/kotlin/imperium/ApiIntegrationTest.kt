@@ -129,7 +129,7 @@ class ApiIntegrationTest {
         assertEquals(HttpStatusCode.Unauthorized,client.get("/api/character-builder/profile").status)
         val cookie=client.account()
         val profile=client.get("/api/character-builder/profile"){header(HttpHeaders.Cookie,cookie)}.json()
-        assertEquals("di-phb-1.0-tier1-v3",profile.text("id"))
+        assertEquals("di-phb-1.0-tier1-v4",profile.text("id"))
         assertFalse(profile.containsKey("records"))
         val invalid=productionFixture().copy(speciesId="di.species.ogryn",answers=emptyMap())
         val body=Json.encodeToString(NarrowDraft.serializer(),invalid)

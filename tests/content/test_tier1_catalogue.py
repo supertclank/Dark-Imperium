@@ -12,7 +12,7 @@ class Tier1CatalogueTests(unittest.TestCase):
   cls.data=audit.build();cls.records=c.load()[1]
  def rows(self,**criteria):return [r for r in self.data['rows'] if all(r[k]==v for k,v in criteria.items())]
  def test_reproducible_audit_and_plan_digest(self):
-  self.assertEqual(self.data,c.read(audit.OUT));plan=c.read(c.PACKAGE/'review/tier1-publication-plan.json');self.assertEqual(c.digest(self.data),plan['auditDigest']);self.assertTrue(plan['productionAllowed']);self.assertEqual(58,len(plan['allowlist']))
+  self.assertEqual(self.data,c.read(audit.OUT));plan=c.read(c.PACKAGE/'review/tier1-publication-plan.json');self.assertEqual(c.digest(self.data),plan['auditDigest']);self.assertTrue(plan['productionAllowed']);self.assertEqual(64,len(plan['allowlist']))
  def test_all_dimensions_and_subclasses_are_covered(self):
   self.assertEqual((6,10,12,45,4140),tuple(self.data['counts'][k] for k in ['species','origins','classes','subclasses','combinations']));self.assertEqual(4140,len({x['id'] for x in self.data['rows']}))
  def test_origin_gate_preserves_original_denominator(self):
@@ -38,15 +38,15 @@ class Tier1CatalogueTests(unittest.TestCase):
   dep=audit.selected_features(self.records,['di.class.veteran'],3,'di.subclass.veteran.marksman')
   self.assertFalse(any('.sergeant.' in key or '.shock_trooper.' in key for key in dep['features']));self.assertFalse(dep['missing'])
  def test_unrelated_rulings_do_not_block_known_narrow_path(self):
-  ready=[r for r in self.data['rows'] if r['productionAllowed']];self.assertEqual(58,len(ready));self.assertEqual('READY_WITH_MANUAL_RULES',ready[0]['status']);self.assertEqual([],ready[0]['rulingIds']);self.assertEqual(['di.feature.universal.twitchy'],ready[0]['traitScope'])
+  ready=[r for r in self.data['rows'] if r['productionAllowed']];self.assertEqual(64,len(ready));self.assertEqual('READY_WITH_MANUAL_RULES',ready[0]['status']);self.assertEqual([],ready[0]['rulingIds']);self.assertEqual(['di.feature.universal.twitchy'],ready[0]['traitScope'])
  def test_hypothetical_origin_approval_is_not_publication(self):
   cases=[r for r in self.data['rows'] if r['ifOriginExplicitlyPermittedAndAvailabilitySatisfied']]
   self.assertEqual(37,len(cases));self.assertTrue(all(r['ifOriginExplicitlyPermittedAndAvailabilitySatisfied'].startswith('BLOCKED_') for r in cases))
  def test_equipment_status_does_not_publish_candidates_or_whole_packages(self):
   for e in self.data['equipment']:
    if not e['canonical']:self.assertEqual('BLOCKED',e['status']);self.assertFalse(e['productionAllowed'])
-  self.assertEqual(10,sum(e['productionAllowed'] for e in self.data['equipment']))
-  self.assertTrue(all(k['startingKit']['structuredPackage'] is None for k in self.data['classes'] if k['id'] not in ['di.class.veteran','di.class.hive_scum','di.class.zealot','di.class.arbites_enforcer']))
+  self.assertEqual(37,sum(e['productionAllowed'] for e in self.data['equipment']))
+  self.assertTrue(all(k['startingKit']['structuredPackage'] is None for k in self.data['classes'] if k['id'] not in ['di.class.veteran','di.class.hive_scum','di.class.zealot','di.class.arbites_enforcer','di.class.ogryn_skullbreaker','di.class.skitarii_veteran','di.class.kin_armsman','di.class.hernkyn_prospector','di.class.aeldari_outcast']))
  def test_psychic_counts_and_required_pools_are_audited_separately(self):
   for k in self.data['classes']:
    if k['psychic']:self.assertEqual([(2,2),(2,3),(3,3)],[(x['minor'],x['standard']) for x in k['psychic']['knownPowerCounts']]);self.assertEqual('BLOCKED_BY_CONTENT',k['psychic']['status'])

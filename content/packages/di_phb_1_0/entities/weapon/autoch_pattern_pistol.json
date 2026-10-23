@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "id": "di.weapon.autoch_pattern_pistol",
+  "kind": "weapon",
+  "revision": 1,
+  "name": "Autoch-Pattern Pistol",
+  "summary": "Weapon: Autoch-Pattern Pistol; Damage: 1d8 piercing; Range: 40/120; Properties: Light, Reload 8; Availability: Issued",
+  "descriptionMarkdown": "Weapon: Autoch-Pattern Pistol; Damage: 1d8 piercing; Range: 40/120; Properties: Light, Reload 8; Availability: Issued",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "8",
+        "heading": "Autoch-Pattern Pistol",
+        "pdfPage": 40,
+        "printedPage": 27
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "properties": [
+      {
+        "property": {
+          "id": "di.property.weapon.light"
+        },
+        "arguments": {}
+      },
+      {
+        "property": {
+          "id": "di.property.weapon.reload"
+        },
+        "arguments": {
+          "capacity": 8
+        }
+      }
+    ],
+    "modes": [
+      {
+        "id": "base",
+        "name": "Base profile",
+        "damage": [
+          {
+            "id": "component_1",
+            "dice": {
+              "count": 1,
+              "sides": 8,
+              "bonus": 0
+            },
+            "bonus": {
+              "kind": "constant",
+              "value": 0
+            },
+            "damageType": {
+              "id": "di.damage_type.piercing"
+            }
+          }
+        ],
+        "range": {
+          "kind": "distance",
+          "normal": {
+            "value": 40,
+            "unit": "ft"
+          },
+          "long": {
+            "value": 120,
+            "unit": "ft"
+          }
+        },
+        "attackKind": "ranged",
+        "delivery": "attack_roll",
+        "costs": [],
+        "action": {
+          "id": "di.action.autoch_pattern_pistol.attack"
+        }
+      }
+    ],
+    "category": "ranged",
+    "subcategory": "pistol",
+    "hands": 1,
+    "features": [],
+    "proficiencyGroups": [
+      "kin",
+      "pistol"
+    ],
+    "availability": "Issued",
+    "abilityBinding": {
+      "attack": "dexterity",
+      "damage": "dexterity"
+    }
+  }
+}

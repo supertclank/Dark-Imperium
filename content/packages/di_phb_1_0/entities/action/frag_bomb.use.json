@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "di.action.frag_bomb.use",
+  "kind": "action",
+  "revision": 2,
+  "name": "Frag Bomb use",
+  "summary": "Ogryn Frag Bomb: Dexterity save, full/half damage and manual prone outcome.",
+  "descriptionMarkdown": "Resolve each target in the 20 ft radius separately: failure takes full 4d6 piercing and is knocked prone; success takes half damage and is not knocked prone. Exact half damage does not choose an integer rounding rule.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "10",
+        "heading": "Frag Bomb",
+        "pdfPage": 47,
+        "printedPage": 34
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "economy": "manual",
+    "target": {
+      "kind": "single",
+      "scope": "actor"
+    },
+    "costs": [],
+    "outcomes": [
+      {
+        "id": "hit",
+        "on": "always",
+        "effects": [],
+        "manualRules": [
+          {
+            "id": "source_rule",
+            "automation": "manual",
+            "text": "Resolve each target in the 20 ft radius separately: failure takes full 4d6 piercing and is knocked prone; success takes half damage and is not knocked prone. Exact half damage does not choose an integer rounding rule.",
+            "adjudicator": "gm",
+            "context": "source-defined procedure",
+            "reason": "Source-defined manual procedure; no automatic bonus inferred."
+          }
+        ]
+      }
+    ]
+  }
+}

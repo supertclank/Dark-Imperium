@@ -29,7 +29,7 @@ class CharacterRolls(
         val sheet = characters.get(con,owner,character)
         val snapshot = con.query("SELECT snapshot FROM ruleset_profiles WHERE id=? AND digest=?",sheet.text("rulesetProfileId"),sheet.text("rulesetDigest")) { Json.parseToJsonElement(it.getString(1)).jsonObject }.single()
         val rules = NarrowRules(snapshot)
-        if(mapOf("di-phb-1.0-narrow-v1" to "narrow-kotlin-v1", "di-phb-1.0-tier1-v1" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v2" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v3" to "phb-tier1-kotlin-v1")[rules.id] != rules.spec.text("engineVersion"))
+        if(mapOf("di-phb-1.0-narrow-v1" to "narrow-kotlin-v1", "di-phb-1.0-tier1-v1" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v2" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v3" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v4" to "phb-tier1-kotlin-v1")[rules.id] != rules.spec.text("engineVersion"))
             fail("RULESET_MISMATCH","Runtime rolling is not supported for this ruleset.",409)
         return sheet to rules
     }
@@ -41,7 +41,7 @@ class CharacterRolls(
         val source = definition.getValue("source").jsonObject.getValue("ref").jsonObject.text("id")
         return source.takeIf { rules.record(it).text("kind") == "weapon" }
     }
-    private fun consumes(item: String?) = item == "di.weapon.frag_grenade"
+    private fun consumes(item: String?, rules: NarrowRules) = item != null && rules.data(item).objects("modes").singleOrNull()?.containsKey("consumption") == true
     private fun finesse(item: String?, rules: NarrowRules) = item != null && rules.data(item).getValue("abilityBinding").jsonObject.text("attack") == "finesse"
     private fun quantity(sheet: JsonObject, item: String) = sheet.objects("inventory").singleOrNull { it.text("definitionId") == item }?.num("quantity") ?: 0
     private fun actionId(definition: JsonObject) = (definition["action"] as? JsonObject)?.getValue("ref")?.jsonObject?.text("id")
@@ -55,12 +55,12 @@ class CharacterRolls(
             val component = definition.objects("components").single()
             val unavailable = when {
                 blockedState(sheet) -> "Current conditions or temporary effects require unsupported runtime adjudication."
-                count != null && count < 1 -> if(consumes(item)) "You have no Frag Grenades remaining." else "This item is not available."
+                count != null && count < 1 -> if(consumes(item,rules)) "You have no ${rules.label(item!!)} remaining." else "This item is not available."
                 else -> null
             }
             obj("id" to definition.text("id"),"label" to definition.text("label"),"category" to definition.text("category"),
                 "actionId" to actionId(definition),"itemId" to item,"available" to (unavailable == null),"reason" to unavailable,
-                "consumes" to consumes(item),"quantity" to count,"abilities" to if(finesse(item,rules)) listOf("strength","dexterity") else emptyList<String>(),
+                "consumes" to consumes(item,rules),"quantity" to count,"abilities" to if(finesse(item,rules)) listOf("strength","dexterity") else emptyList<String>(),
                 "groups" to component.arr("groups"),"modifier" to component.objects("modifiers").sumOf { it.num("value") })
         }
         obj("profileId" to rules.id,"profileDigest" to rules.digest,"stateVersion" to sheet.getValue("runtime").jsonObject.getValue("stateVersion"),"options" to options)
@@ -92,9 +92,9 @@ class CharacterRolls(
             val action = actionId(baseline)
             val category = baseline.text("category")
             if(item != null && quantity(sheet,item) < 1)
-                fail(if(consumes(item)) "RESOURCE_EXHAUSTED" else "ACTION_NOT_AVAILABLE",if(consumes(item)) "You have no Frag Grenades remaining." else "The required weapon is unavailable.")
-            val mutates = consumes(item)
-            if(mutates && (!request.confirmConsumption || category != "damage")) fail("INVALID_CONTEXT","Confirm consuming one Frag Grenade to execute its base damage roll.")
+                fail(if(consumes(item,rules)) "RESOURCE_EXHAUSTED" else "ACTION_NOT_AVAILABLE",if(consumes(item,rules)) "You have no ${rules.label(item!!)} remaining." else "The required weapon is unavailable.")
+            val mutates = consumes(item,rules)
+            if(mutates && (!request.confirmConsumption || category != "damage")) fail("INVALID_CONTEXT","Confirm consuming one ${rules.label(item!!)} to execute its base damage roll.")
             if(!mutates && request.confirmConsumption) fail("INVALID_CONTEXT","This roll does not consume an item.")
             val actionView = calculation.objects("actions").singleOrNull { it.text("id") == action }
             val defaultAbility = (actionView?.get("ability") as? JsonPrimitive)?.contentOrNull
@@ -136,12 +136,16 @@ class CharacterRolls(
                 val save = actionView!!.getValue("save").jsonObject
                 val outcomes = save.getValue("outcomes").jsonObject.mapValues { (_,value) ->
                     val outcome = value.jsonObject
-                    check(outcome.text("rounding") == "floor")
                     val fraction = outcome.getValue("damageMultiplier").jsonObject
-                    Math.floorDiv(resolved.total * fraction.num("numerator"),fraction.num("denominator"))
+                    val numerator=resolved.total*fraction.num("numerator");val denominator=fraction.num("denominator")
+                    when(outcome.text("rounding")) {
+                        "floor" -> json(Math.floorDiv(numerator,denominator))
+                        "exact_fraction" -> if(numerator%denominator==0) json(numerator/denominator) else json("$numerator/$denominator")
+                        else -> error("Unsupported damage rounding policy")
+                    }
                 }
                 obj("saveAttribute" to save.text("attribute"),"saveDc" to actionView.num("saveDc"),"area" to actionView.getValue("area"),"outcomes" to outcomes,
-                    "rule" to save,"application" to "Target-by-target application currently requires manual adjudication.")
+                    "rule" to save,"application" to (rules.data(item!!).objects("modes").single().objects("manualRules").joinToString(" ") { it.text("text") }+" Target-by-target application currently requires manual adjudication."))
             } else null
             val now = Instant.now()
             val result = obj("request" to Json { encodeDefaults = true }.encodeToJsonElement(RollRequest.serializer(),request),"id" to resultId.toString(),"requestId" to requestId.toString(),"userId" to owner.toString(),"characterId" to character.toString(),"characterName" to sheet.text("name"),

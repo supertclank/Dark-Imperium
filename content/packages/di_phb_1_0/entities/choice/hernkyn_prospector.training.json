@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "di.choice.hernkyn_prospector.training",
+  "kind": "choice",
+  "revision": 1,
+  "name": "Prospector Training choice",
+  "summary": "Gain proficiency in Survival and one of Investigation, \nPerception, Stealth, Technology, or Vehicles. You\nalso gain proficiency with prospector rigs and Kin ranged \nweapons.",
+  "descriptionMarkdown": "Gain proficiency in Survival and one of Investigation, \nPerception, Stealth, Technology, or Vehicles. You\nalso gain proficiency with prospector rigs and Kin ranged \nweapons.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "11.10.1",
+        "heading": "Prospector Training",
+        "pdfPage": 77,
+        "printedPage": 64
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "purpose": "skill",
+    "selectionMode": "options",
+    "cardinality": {
+      "min": 1,
+      "max": 1,
+      "unique": true
+    },
+    "repeatScope": "once_per_actor",
+    "options": [
+      {
+        "id": "investigation",
+        "label": "Investigation",
+        "grants": [
+          {
+            "id": "investigation",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.investigation"
+            }
+          }
+        ]
+      },
+      {
+        "id": "perception",
+        "label": "Perception",
+        "grants": [
+          {
+            "id": "perception",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.perception"
+            }
+          }
+        ]
+      },
+      {
+        "id": "stealth",
+        "label": "Stealth",
+        "grants": [
+          {
+            "id": "stealth",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.stealth"
+            }
+          }
+        ]
+      },
+      {
+        "id": "technology",
+        "label": "Technology",
+        "grants": [
+          {
+            "id": "technology",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.technology"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

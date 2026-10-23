@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.feature.species.skitarii.traits",
   "kind": "feature",
-  "revision": 1,
+  "revision": 3,
   "name": "Skitarii Augmented Human traits",
   "summary": "3.4 Skitarii Augmented Human Skitarii are cybernetically enhanced soldiers of the Adeptus Mechanicus. They are machine-disciplined, sensor-linked, and doctrinally conditioned beyond normal human limits. Ability Scores: +2 Dexterity or Intelligence, +1 Constitution. Size: Medium. Speed: 30 ft. Available Classes: Skitarii Veteran. 3.4.1 Skitarii Traits Augmetic Body: You have resistance to poison damage and advantage on saving throws against disease. Machine Discipline: You have advantage on sa...",
   "descriptionMarkdown": "3.4 Skitarii Augmented Human\nSkitarii are cybernetically enhanced soldiers of the \nAdeptus Mechanicus. They are machine-disciplined,\nsensor-linked, and doctrinally conditioned beyond normal \nhuman limits.\nAbility Scores: +2 Dexterity or Intelligence, +1 \nConstitution.\nSize: Medium.\nSpeed: 30 ft.\nAvailable Classes: Skitarii Veteran.\n3.4.1 Skitarii Traits\nAugmetic Body: You have resistance to poison damage \nand advantage on saving throws against\ndisease.\nMachine Discipline: You have advantage on saving \nthrows against being charmed.\nNoospheric Focus: Gain proficiency in Investigation, \nPerception, or Technology.\nIntegrated Auspex: Once per short rest, as a bonus \naction, choose one creature within 60 ft that you\ncan see. Your next attack against that creature before \nthe end of your turn gains +1d4 to hit.\nCybernetic Maintenance: During a short rest, if you or \nan ally has tinker’s tools or Mechanicus tools,\nyou may regain additional hit points equal to your \nproficiency bonus.\nNo Psychic Potential: You cannot choose the Psyker \nclass or any trait that grants psychic powers.",
@@ -24,7 +24,15 @@
   "data": {
     "flavor": "species_trait",
     "effects": [],
-    "grants": [],
+    "grants": [
+      {
+        "id": "skitarii_noospheric_focus",
+        "kind": "choice",
+        "choice": {
+          "id": "di.choice.skitarii.noospheric_focus"
+        }
+      }
+    ],
     "manualRules": [
       {
         "id": "source_rule",
@@ -33,6 +41,21 @@
         "adjudicator": "gm",
         "context": "source-defined procedure",
         "reason": "Source transcribed; automatic mapping has not been validated for this import slice."
+      }
+    ],
+    "mechanics": [
+      {
+        "kind": "psychic_prohibition",
+        "classes": [
+          {
+            "id": "di.class.psyker"
+          }
+        ],
+        "traits": [
+          {
+            "id": "di.feature.universal.touched_by_the_warp"
+          }
+        ]
       }
     ]
   }

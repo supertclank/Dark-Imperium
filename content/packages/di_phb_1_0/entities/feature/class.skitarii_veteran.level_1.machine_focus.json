@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.feature.class.skitarii_veteran.level_1.machine_focus",
   "kind": "feature",
-  "revision": 1,
+  "revision": 2,
   "name": "Machine Focus",
   "summary": "You do not suffer disadvantage on Perception checks in darkness if you have an auspex, visor, or integrated optics. You gain proficiency in Investigation or Technology.",
   "descriptionMarkdown": "You do not suffer disadvantage on Perception checks in \ndarkness if you have an auspex, visor, or\nintegrated optics. You gain proficiency in Investigation or \nTechnology.",
@@ -24,7 +24,15 @@
   "data": {
     "flavor": "class_feature",
     "effects": [],
-    "grants": [],
+    "grants": [
+      {
+        "id": "skitarii_veteran_machine_focus",
+        "kind": "choice",
+        "choice": {
+          "id": "di.choice.skitarii_veteran.machine_focus"
+        }
+      }
+    ],
     "manualRules": [
       {
         "id": "source_rule",

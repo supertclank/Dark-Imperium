@@ -56,3 +56,12 @@ it("replays persisted grenade presentation after a fresh mount without any backe
 
 it("Roll Again submits a fresh UUID and replay animation does not submit",async()=>{display();fireEvent.click(await screen.findByRole("button",{name:"Roll Lasgun attack"}));fireEvent.click(await screen.findByRole("button",{name:"Replay animation"}));expect(posts()).toHaveLength(1);fireEvent.click(screen.getByRole("button",{name:"Roll Again"}));await waitFor(()=>expect(posts()).toHaveLength(2));expect(JSON.parse(posts()[0][1].body).requestId).not.toBe(JSON.parse(posts()[1][1].body).requestId);});
 it("grenade success offers replay but never casual Roll Again",async()=>{state.api.mockImplementation((path:string,init?:RequestInit)=>Promise.resolve(init?.method==="POST"?grenade:path.endsWith("/options")?options:{items:[],limit:25,hasMore:false}));display();fireEvent.click(await screen.findByRole("button",{name:"Use Frag Grenade and roll damage"}));fireEvent.click(screen.getByRole("button",{name:"Confirm use of one Frag Grenade"}));fireEvent.click(await screen.findByRole("button",{name:"Replay animation"}));expect(posts()).toHaveLength(1);expect(screen.queryByRole("button",{name:"Roll Again"})).not.toBeInTheDocument();});
+it("uses the actual consumable name for Frag Bomb confirmation",async()=>{
+ state.api.mockImplementation((path:string)=>Promise.resolve(path.endsWith("/options")?{...options,options:options.options.filter(o=>o.consumes).map(o=>({...o,label:"Frag Bomb damage",itemId:"di.weapon.frag_bomb",quantity:1}))}:{items:[],limit:25,hasMore:false}));
+ display();fireEvent.click(await screen.findByRole("button",{name:"Use Frag Bomb and roll damage"}));
+ expect(screen.getByText("Use Frag Bomb? This will consume 1 of 1.")).toBeInTheDocument();expect(screen.getByRole("button",{name:"Confirm use of one Frag Bomb"})).toBeInTheDocument();expect(posts()).toHaveLength(0);
+});
+it("displays exact fractional damage without claiming integer rounding",()=>{
+ render(<DiceResult result={{...grenade,grenade:{...grenade.grenade!,outcomes:{failure:5,success:"5/2"}}} as RollResult} mode="TEXT_ONLY"/>);
+ expect(screen.getByText(/Successful save: 5\/2/)).toBeInTheDocument();expect(screen.queryByText(/rounded down/)).not.toBeInTheDocument();
+});

@@ -25,7 +25,7 @@ object StartingPackages {
                     val selected=answers[id].orEmpty();val min=step.num("min");val max=step.num("max");val options=step.objects("options")
                     require(min in 0..1 && max==1 && options.isNotEmpty() && options.map { it.text("id") }.distinct().size==options.size) { "PACKAGE_CHOICE_SCHEMA" }
                     require(selected.size in min..max && selected.distinct().size==selected.size) { "PACKAGE_CHOICE_CARDINALITY" }
-                    for(option in selected) { val branch=options.singleOrNull { it.text("id")==option };require(branch!=null) { "INVALID_PACKAGE_BRANCH" };visit(branch.objects("steps"),depth+1) }
+                    for(option in selected) { val branch=options.singleOrNull { it.text("id")==option };require(branch!=null) { "INVALID_PACKAGE_BRANCH" };require(branch["approvalRequired"]?.jsonPrimitive?.boolean != true) { "GM_APPROVAL_REQUIRED" };visit(branch.objects("steps"),depth+1) }
                 }
                 else -> error("UNKNOWN_PACKAGE_OPERATION")
             }

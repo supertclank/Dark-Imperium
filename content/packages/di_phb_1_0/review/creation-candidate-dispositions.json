@@ -144,15 +144,6 @@
     ]
   },
   {
-    "id": "di.armour.aeldari_mesh",
-    "kind": "armour",
-    "status": "BLOCKS_CHARACTER_CREATION",
-    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
-    "originalIssues": [
-      "PHB-007"
-    ]
-  },
-  {
     "id": "di.armour.aspect_pattern_armour",
     "kind": "armour",
     "status": "DEFERRED",
@@ -207,25 +198,7 @@
     ]
   },
   {
-    "id": "di.armour.hearthkyn_plate",
-    "kind": "armour",
-    "status": "BLOCKS_CHARACTER_CREATION",
-    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
-    "originalIssues": [
-      "PHB-007"
-    ]
-  },
-  {
     "id": "di.armour.heavy_clothing",
-    "kind": "armour",
-    "status": "BLOCKS_CHARACTER_CREATION",
-    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
-    "originalIssues": [
-      "PHB-007"
-    ]
-  },
-  {
-    "id": "di.armour.kin_mesh",
     "kind": "armour",
     "status": "BLOCKS_CHARACTER_CREATION",
     "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
@@ -256,24 +229,6 @@
     "kind": "armour",
     "status": "DEFERRED",
     "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
-    "originalIssues": [
-      "PHB-007"
-    ]
-  },
-  {
-    "id": "di.armour.prospector_rig",
-    "kind": "armour",
-    "status": "BLOCKS_CHARACTER_CREATION",
-    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
-    "originalIssues": [
-      "PHB-007"
-    ]
-  },
-  {
-    "id": "di.armour.ranger_weave",
-    "kind": "armour",
-    "status": "BLOCKS_CHARACTER_CREATION",
-    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
     "originalIssues": [
       "PHB-007"
     ]
@@ -942,7 +897,7 @@
     "id": "di.power.biomantic_surge",
     "kind": "power",
     "status": "DEFERRED",
-    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1\u20133 readiness slice, still required for later-level creation.",
+    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1–3 readiness slice, still required for later-level creation.",
     "originalIssues": [
       "PHB-008",
       "PHB-009"
@@ -1022,7 +977,7 @@
     "id": "di.power.destructor_rune",
     "kind": "power",
     "status": "DEFERRED",
-    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1\u20133 readiness slice, still required for later-level creation.",
+    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1–3 readiness slice, still required for later-level creation.",
     "originalIssues": [
       "PHB-008",
       "PHB-009"
@@ -1082,7 +1037,7 @@
     "id": "di.power.flesh_reforged",
     "kind": "power",
     "status": "DEFERRED",
-    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1\u20133 readiness slice, still required for later-level creation.",
+    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1–3 readiness slice, still required for later-level creation.",
     "originalIssues": [
       "PHB-008",
       "PHB-009"
@@ -1102,7 +1057,7 @@
     "id": "di.power.force_dome",
     "kind": "power",
     "status": "DEFERRED",
-    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1\u20133 readiness slice, still required for later-level creation.",
+    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1–3 readiness slice, still required for later-level creation.",
     "originalIssues": [
       "PHB-008",
       "PHB-009"
@@ -1112,7 +1067,7 @@
     "id": "di.power.foresight_cascade",
     "kind": "power",
     "status": "DEFERRED",
-    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1\u20133 readiness slice, still required for later-level creation.",
+    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1–3 readiness slice, still required for later-level creation.",
     "originalIssues": [
       "PHB-008",
       "PHB-009"
@@ -1122,7 +1077,7 @@
     "id": "di.power.fortune_thread",
     "kind": "power",
     "status": "DEFERRED",
-    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1\u20133 readiness slice, still required for later-level creation.",
+    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1–3 readiness slice, still required for later-level creation.",
     "originalIssues": [
       "PHB-008",
       "PHB-009"
@@ -1132,7 +1087,7 @@
     "id": "di.power.hemorrhage",
     "kind": "power",
     "status": "DEFERRED",
-    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1\u20133 readiness slice, still required for later-level creation.",
+    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1–3 readiness slice, still required for later-level creation.",
     "originalIssues": [
       "PHB-008",
       "PHB-009"
@@ -1142,7 +1097,7 @@
     "id": "di.power.inferno_bloom",
     "kind": "power",
     "status": "DEFERRED",
-    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1\u20133 readiness slice, still required for later-level creation.",
+    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1–3 readiness slice, still required for later-level creation.",
     "originalIssues": [
       "PHB-008",
       "PHB-009"
@@ -1182,7 +1137,7 @@
     "id": "di.power.malefic_door",
     "kind": "power",
     "status": "DEFERRED",
-    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1\u20133 readiness slice, still required for later-level creation.",
+    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1–3 readiness slice, still required for later-level creation.",
     "originalIssues": [
       "PHB-008",
       "PHB-009"
@@ -1232,7 +1187,7 @@
     "id": "di.power.pariah_zone",
     "kind": "power",
     "status": "DEFERRED",
-    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1\u20133 readiness slice, still required for later-level creation.",
+    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1–3 readiness slice, still required for later-level creation.",
     "originalIssues": [
       "PHB-008",
       "PHB-009"
@@ -1242,7 +1197,7 @@
     "id": "di.power.possession_spike",
     "kind": "power",
     "status": "DEFERRED",
-    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1\u20133 readiness slice, still required for later-level creation.",
+    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1–3 readiness slice, still required for later-level creation.",
     "originalIssues": [
       "PHB-008",
       "PHB-009"
@@ -1262,7 +1217,7 @@
     "id": "di.power.prescient_execution",
     "kind": "power",
     "status": "DEFERRED",
-    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1\u20133 readiness slice, still required for later-level creation.",
+    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1–3 readiness slice, still required for later-level creation.",
     "originalIssues": [
       "PHB-008",
       "PHB-009"
@@ -1342,7 +1297,7 @@
     "id": "di.power.soulstorm",
     "kind": "power",
     "status": "DEFERRED",
-    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1\u20133 readiness slice, still required for later-level creation.",
+    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1–3 readiness slice, still required for later-level creation.",
     "originalIssues": [
       "PHB-008",
       "PHB-009"
@@ -1362,7 +1317,7 @@
     "id": "di.power.telekinetic_crush",
     "kind": "power",
     "status": "DEFERRED",
-    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1\u20133 readiness slice, still required for later-level creation.",
+    "reason": "Explicit Major power; known-power tables do not grant Major until level11. Non-blocking for the level1–3 readiness slice, still required for later-level creation.",
     "originalIssues": [
       "PHB-008",
       "PHB-009"
@@ -1978,15 +1933,6 @@
     ]
   },
   {
-    "id": "di.weapon.autoch_pattern_pistol",
-    "kind": "weapon",
-    "status": "BLOCKS_CHARACTER_CREATION",
-    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
-    "originalIssues": [
-      "PHB-005"
-    ]
-  },
-  {
     "id": "di.weapon.battle_cannon",
     "kind": "weapon",
     "status": "DEFERRED",
@@ -2086,15 +2032,6 @@
     ]
   },
   {
-    "id": "di.weapon.concussion_hammer",
-    "kind": "weapon",
-    "status": "BLOCKS_CHARACTER_CREATION",
-    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
-    "originalIssues": [
-      "PHB-005"
-    ]
-  },
-  {
     "id": "di.weapon.corsair_sabre",
     "kind": "weapon",
     "status": "DEFERRED",
@@ -2160,15 +2097,6 @@
   },
   {
     "id": "di.weapon.force_sword",
-    "kind": "weapon",
-    "status": "BLOCKS_CHARACTER_CREATION",
-    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
-    "originalIssues": [
-      "PHB-005"
-    ]
-  },
-  {
-    "id": "di.weapon.frag_bomb",
     "kind": "weapon",
     "status": "BLOCKS_CHARACTER_CREATION",
     "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
@@ -2288,15 +2216,6 @@
     ]
   },
   {
-    "id": "di.weapon.ion_blaster",
-    "kind": "weapon",
-    "status": "BLOCKS_CHARACTER_CREATION",
-    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
-    "originalIssues": [
-      "PHB-005"
-    ]
-  },
-  {
     "id": "di.weapon.ion_pistol",
     "kind": "weapon",
     "status": "DEFERRED",
@@ -2310,15 +2229,6 @@
     "kind": "weapon",
     "status": "DEFERRED",
     "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
-    "originalIssues": [
-      "PHB-005"
-    ]
-  },
-  {
-    "id": "di.weapon.kin_power_axe",
-    "kind": "weapon",
-    "status": "BLOCKS_CHARACTER_CREATION",
-    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
     "originalIssues": [
       "PHB-005"
     ]
@@ -2405,15 +2315,6 @@
     ]
   },
   {
-    "id": "di.weapon.monomolecular_blade",
-    "kind": "weapon",
-    "status": "BLOCKS_CHARACTER_CREATION",
-    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
-    "originalIssues": [
-      "PHB-005"
-    ]
-  },
-  {
     "id": "di.weapon.multi_laser",
     "kind": "weapon",
     "status": "DEFERRED",
@@ -2430,15 +2331,6 @@
     "originalIssues": [
       "PHB-005",
       "PHB-006"
-    ]
-  },
-  {
-    "id": "di.weapon.ogryn_club",
-    "kind": "weapon",
-    "status": "BLOCKS_CHARACTER_CREATION",
-    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
-    "originalIssues": [
-      "PHB-005"
     ]
   },
   {
@@ -2555,28 +2447,10 @@
     ]
   },
   {
-    "id": "di.weapon.ranger_long_rifle",
-    "kind": "weapon",
-    "status": "BLOCKS_CHARACTER_CREATION",
-    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
-    "originalIssues": [
-      "PHB-005"
-    ]
-  },
-  {
     "id": "di.weapon.relic_blade",
     "kind": "weapon",
     "status": "DEFERRED",
     "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
-    "originalIssues": [
-      "PHB-005"
-    ]
-  },
-  {
-    "id": "di.weapon.ripper_gun",
-    "kind": "weapon",
-    "status": "BLOCKS_CHARACTER_CREATION",
-    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
     "originalIssues": [
       "PHB-005"
     ]
@@ -2604,24 +2478,6 @@
     "kind": "weapon",
     "status": "DEFERRED",
     "reason": "Not an exact starting-name match; could participate in unresolved category/alias pools. Do not assert non-blocking until pools are defined.",
-    "originalIssues": [
-      "PHB-005"
-    ]
-  },
-  {
-    "id": "di.weapon.shuriken_catapult",
-    "kind": "weapon",
-    "status": "BLOCKS_CHARACTER_CREATION",
-    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
-    "originalIssues": [
-      "PHB-005"
-    ]
-  },
-  {
-    "id": "di.weapon.shuriken_pistol",
-    "kind": "weapon",
-    "status": "BLOCKS_CHARACTER_CREATION",
-    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
     "originalIssues": [
       "PHB-005"
     ]
@@ -2674,15 +2530,6 @@
   },
   {
     "id": "di.weapon.stun_grenade",
-    "kind": "weapon",
-    "status": "BLOCKS_CHARACTER_CREATION",
-    "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",
-    "originalIssues": [
-      "PHB-005"
-    ]
-  },
-  {
-    "id": "di.weapon.taser_goad",
     "kind": "weapon",
     "status": "BLOCKS_CHARACTER_CREATION",
     "reason": "Literal starting-item reference or required Minor/Standard psychic option pool; complete mapping needed.",

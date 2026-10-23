@@ -5756,5 +5756,281 @@
     "manualEntries": 0,
     "publicationReady": false,
     "reason": "Source-backed baseline mapping; release certification is separate."
+  },
+  "di.action.autoch_pattern_pistol.attack": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.action.concussion_hammer.attack": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.action.frag_bomb.use": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.action.ion_blaster.attack": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.action.kin_power_axe.attack": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.action.monomolecular_blade.attack": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.action.ogryn_club.attack": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.action.ranger_long_rifle.attack": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.action.ripper_gun.attack": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.action.shuriken_catapult.attack": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.action.shuriken_pistol.attack": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.action.taser_goad.attack": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.armour.aeldari_mesh": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.armour.hearthkyn_plate": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.armour.kin_mesh": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.armour.prospector_rig": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.armour.ranger_weave": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.choice.aeldari.inhuman_grace": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.choice.hernkyn_prospector.training": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.choice.kin.guild_craft": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.choice.kin_armsman.training": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.choice.skitarii.noospheric_focus": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.choice.skitarii_veteran.machine_focus": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.equipment.auspex": {
+    "coverage": "PARTIALLY_MACHINE_READABLE",
+    "manualEntries": 1,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.weapon.autoch_pattern_pistol": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.weapon.concussion_hammer": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.weapon.frag_bomb": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.weapon.ion_blaster": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.weapon.kin_power_axe": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.weapon.monomolecular_blade": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.weapon.ogryn_club": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.weapon.ranger_long_rifle": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.weapon.ripper_gun": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.weapon.shuriken_catapult": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.weapon.shuriken_pistol": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.weapon.taser_goad": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Source-bounded mapping. Production is authorized only by explicit immutable profile paths, not by canonical status alone."
+  },
+  "di.proficiency.ogryn_skullbreaker.weapon_group": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Explicit class source proficiency; armour IDs limited to reviewed canonical items. Remaining prose training remains recorded."
+  },
+  "di.proficiency.ogryn_skullbreaker.armour": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Explicit class source proficiency; armour IDs limited to reviewed canonical items. Remaining prose training remains recorded."
+  },
+  "di.proficiency.skitarii_veteran.weapon_group": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Explicit class source proficiency; armour IDs limited to reviewed canonical items. Remaining prose training remains recorded."
+  },
+  "di.proficiency.skitarii_veteran.armour": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Explicit class source proficiency; armour IDs limited to reviewed canonical items. Remaining prose training remains recorded."
+  },
+  "di.proficiency.kin_armsman.weapon_group": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Explicit class source proficiency; armour IDs limited to reviewed canonical items. Remaining prose training remains recorded."
+  },
+  "di.proficiency.kin_armsman.armour": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Explicit class source proficiency; armour IDs limited to reviewed canonical items. Remaining prose training remains recorded."
+  },
+  "di.proficiency.hernkyn_prospector.weapon_group": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Explicit class source proficiency; armour IDs limited to reviewed canonical items. Remaining prose training remains recorded."
+  },
+  "di.proficiency.hernkyn_prospector.armour": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Explicit class source proficiency; armour IDs limited to reviewed canonical items. Remaining prose training remains recorded."
+  },
+  "di.proficiency.aeldari_outcast.weapon_group": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Explicit class source proficiency; armour IDs limited to reviewed canonical items. Remaining prose training remains recorded."
+  },
+  "di.proficiency.aeldari_outcast.armour": {
+    "coverage": "STRUCTURED_SUBSET",
+    "manualEntries": 0,
+    "publicationReady": false,
+    "reason": "Explicit class source proficiency; armour IDs limited to reviewed canonical items. Remaining prose training remains recorded."
   }
 }

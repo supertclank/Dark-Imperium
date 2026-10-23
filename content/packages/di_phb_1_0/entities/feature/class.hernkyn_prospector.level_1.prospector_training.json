@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "di.feature.class.hernkyn_prospector.level_1.prospector_training",
   "kind": "feature",
-  "revision": 1,
+  "revision": 2,
   "name": "Prospector Training",
   "summary": "Gain proficiency in Survival and one of Investigation, Perception, Stealth, Technology, or Vehicles. You also gain proficiency with prospector rigs and Kin ranged weapons.",
   "descriptionMarkdown": "Gain proficiency in Survival and one of Investigation, \nPerception, Stealth, Technology, or Vehicles. You\nalso gain proficiency with prospector rigs and Kin ranged \nweapons.",
@@ -24,7 +24,22 @@
   "data": {
     "flavor": "class_feature",
     "effects": [],
-    "grants": [],
+    "grants": [
+      {
+        "id": "hernkyn_prospector_training",
+        "kind": "choice",
+        "choice": {
+          "id": "di.choice.hernkyn_prospector.training"
+        }
+      },
+      {
+        "id": "survival",
+        "kind": "proficiency",
+        "proficiency": {
+          "id": "di.proficiency.skill.survival"
+        }
+      }
+    ],
     "manualRules": [
       {
         "id": "source_rule",

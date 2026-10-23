@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "di.choice.aeldari.inhuman_grace",
+  "kind": "choice",
+  "revision": 1,
+  "name": "Aeldari / Eldar traits choice",
+  "summary": "3.6 Aeldari / Eldar\nAeldari are ancient xenos whose reflexes, senses, and \npsychic presence far exceed human norms. Player\nAeldari should represent rare outcasts, rangers, corsair-\nadjacent wanderers, or warlocks operating\nunder a specific hidden purpose.\nAbility Scores: +2 Dexterity, +1 Intelligence or Wisdom.\nSize: Medium.\nSpeed: 35 ft.\nAvailable Classes: Aeldari Outcast, Aeldari Warlock.\n3.6.1 Aeldari Traits\nDarkvision: You have darkvision to a range of 90 ft (see \nthe rules at the start of t",
+  "descriptionMarkdown": "3.6 Aeldari / Eldar\nAeldari are ancient xenos whose reflexes, senses, and \npsychic presence far exceed human norms. Player\nAeldari should represent rare outcasts, rangers, corsair-\nadjacent wanderers, or warlocks operating\nunder a specific hidden purpose.\nAbility Scores: +2 Dexterity, +1 Intelligence or Wisdom.\nSize: Medium.\nSpeed: 35 ft.\nAvailable Classes: Aeldari Outcast, Aeldari Warlock.\n3.6.1 Aeldari Traits\nDarkvision: You have darkvision to a range of 90 ft (see \nthe rules at the start of this chapter).\nInhuman Grace: Gain proficiency in Acrobatics or \nStealth.\nKeen Senses: Gain proficiency in Perception. If you \nalready have Perception proficiency, add +1 to\nPerception checks instead.\nBattle Trance: You may move through the space of \nallied creatures without treating it as difficult\nterrain. Once per short rest, when you move at least 10 ft \nbefore making a weapon attack, add +1d4 to\nthe attack roll.\nAncient Mind: You have advantage on saving throws \nagainst being charmed or frightened by non-psychic \neffects.\nXenos Distrust: You have disadvantage on Persuasion \nchecks with most Imperial authorities unless\ndisguised, vouched for, or operating under an established \ntruce.",
+  "lifecycle": "draft",
+  "verification": "transcribed",
+  "sources": [
+    {
+      "sourceId": "di.source.phb",
+      "sourceVersion": "1.0@a58335b1264a",
+      "locator": {
+        "sectionKey": "3.6",
+        "heading": "Aeldari / Eldar traits",
+        "pdfPage": 24,
+        "printedPage": 11
+      }
+    }
+  ],
+  "tags": [],
+  "data": {
+    "purpose": "skill",
+    "selectionMode": "options",
+    "cardinality": {
+      "min": 1,
+      "max": 1,
+      "unique": true
+    },
+    "repeatScope": "once_per_actor",
+    "options": [
+      {
+        "id": "acrobatics",
+        "label": "Acrobatics",
+        "grants": [
+          {
+            "id": "acrobatics",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.acrobatics"
+            }
+          }
+        ]
+      },
+      {
+        "id": "stealth",
+        "label": "Stealth",
+        "grants": [
+          {
+            "id": "stealth",
+            "kind": "proficiency",
+            "proficiency": {
+              "id": "di.proficiency.skill.stealth"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
