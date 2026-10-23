@@ -1,3 +1,5 @@
+> **Builder UX pass:** [Presentation and ability-score verification](docs/BUILDER_PRESENTATION_REPORT.md). Structured choices, immediate doctrine details and an initially unassigned unique Standard Array. 141 content / 77 backend / 63 frontend tests pass; v4 snapshot unchanged. Mobile browser verification and Windows standalone packaging remain unverified.
+
 > **Current v4 release:** [Non-Human certification and verification](docs/import/NONHUMAN_V4_REPORT.md). Six species, 64 restricted certified families; Ogryn, Skitarii, Kin and Aeldari now have reviewed level-one paths. Open tool/vehicle and equipment alternatives remain unavailable. Existing profiles stay pinned. Earlier reports below are historical.
 
 > **Current release:** [Advancement and Ratling v3 report](docs/import/ADVANCEMENT_RATLING_V3_REPORT.md). Transactional Human Veteran advancement through level 3 and ten Ratling level-one families; 58 certified families total. Older profiles remain pinned. Prior release reports below are historical.
