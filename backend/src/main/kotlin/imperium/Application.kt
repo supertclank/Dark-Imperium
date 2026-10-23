@@ -35,6 +35,7 @@ fun Application.module(db: Database, config: AppConfig, dice: DiceEngine = DiceE
     val content = ContentRepository(db)
     val characters = ProductionCharacters(db)
     val rolls = CharacterRolls(db,characters,dice)
+    val freeRolls = FreeRolls(db,dice)
     val advancements = CharacterAdvancement(db,characters)
     val logger = LoggerFactory.getLogger("imperium.api")
     install(ContentNegotiation) { json(Json { ignoreUnknownKeys = false }) }
@@ -111,6 +112,13 @@ fun Application.module(db: Database, config: AppConfig, dice: DiceEngine = DiceE
             post("/characters/{id}/advance") {
                 val owner=call.owner();val id=uuid(call.parameters["id"]!!);val input=call.receive<AdvanceRequest>()
                 call.respond(withContext(Dispatchers.IO) { advancements.advance(owner,id,input) })
+            }
+            post("/rolls/free") {
+                val owner=call.owner();val input=call.receive<FreeRollRequest>()
+                call.respond(withContext(Dispatchers.IO) { freeRolls.execute(owner,input) })
+            }
+            get("/rolls/free") {
+                val owner=call.owner();call.respond(withContext(Dispatchers.IO) { freeRolls.history(owner) })
             }
             get("/characters/{id}/rolls/options") {
                 val owner=call.owner();val id=uuid(call.parameters["id"]!!)

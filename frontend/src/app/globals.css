@@ -1221,3 +1221,20 @@ summary { cursor:pointer; line-height:1.8; }
 .level4-branches label,.upgrade-consent { display:flex; align-items:center; gap:12px; padding:12px; border:1px solid var(--line); min-height:48px; cursor:pointer; }
 .level4-branches input,.upgrade-consent input { width:20px; height:20px; min-height:20px; flex:none; margin:0; accent-color:var(--brass); }
 .selection-state { flex-shrink:0; white-space:nowrap; }
+
+/* Transparent viewport dice surface; never moves focus or scroll. */
+.dice-overlay {position:fixed;inset:0;z-index:100;pointer-events:none;background:radial-gradient(ellipse,transparent 40%,#0003);}
+.dice-overlay[hidden]{display:none}
+.dice-overlay .dice-canvas{position:absolute;inset:4vh 4vw;width:auto;height:auto;min-height:0;}
+.dice-overlay-controls{position:absolute;bottom:2rem;left:50%;transform:translateX(-50%);display:flex;gap:1rem;align-items:center;pointer-events:auto;background:#131913e8;padding:.6rem 1rem;border-radius:8px;}
+.dice-floating-result{position:absolute;top:1.5rem;right:1.5rem;max-width:min(420px,90vw);max-height:65vh;overflow:auto;padding:1rem;background:#151b15f5;border:1px solid #968052;border-radius:10px;pointer-events:auto;animation:dice-reveal .15s ease-out;}
+@keyframes dice-reveal{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.dice-floating-result{animation:none}}
+
+.free-dice-launcher{position:fixed;right:1.5rem;bottom:1.5rem;z-index:60;border-radius:50%;width:64px;height:64px;background:#28392b;border:1px solid #b79c60;box-shadow:0 4px 20px #0009;}
+.free-dice-panel{position:fixed;right:1rem;bottom:6rem;width:min(380px,calc(100vw - 2rem));max-height:75vh;overflow:auto;background:#161d18;border:1px solid #8c784c;padding:1rem;border-radius:12px;z-index:65;box-shadow:0 10px 40px #0009;}
+.free-dice-pool>div{display:flex;align-items:center;gap:.5rem;margin:.4rem 0}.free-dice-pool output{min-width:2rem;text-align:center}.free-dice-pool button:first-child{min-width:5rem}.free-dice-settings>.dice-presentation>.dice-preferences{position:fixed;bottom:.3rem;right:6rem;z-index:60;background:#161d18;padding:.3rem;font-size:.8rem;}
+
+.dice-floating-result .roll-result{padding:0;border:0;background:none;margin:0}.dice-floating-result .roll-result h3{margin-top:0}.dice-floating-result .roll-result p{margin:.45rem 0}.dice-floating-result .roll-result>.small{font-size:.7rem}
+
+.dice-overlay[data-state="REVEALED"]{animation:dice-hold 4.5s linear forwards}@keyframes dice-hold{0%,92%{opacity:1}100%{opacity:0}}@media(prefers-reduced-motion:reduce){.dice-overlay[data-state="REVEALED"]{animation:none}}

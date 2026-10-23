@@ -52,6 +52,27 @@ class ApiIntegrationTest {
     }
     private suspend fun HttpResponse.json() = Json.parseToJsonElement(bodyAsText()).jsonObject
 
+    @Test fun `free dice authenticate validate persist and replay idempotently`() = runApi {
+        val cookie=client.account();val stranger=client.account()
+        val request=FreeRollRequest(UUID.randomUUID().toString(),listOf(FreeDiePool(2,20),FreeDiePool(3,6),FreeDiePool(1,100)))
+        val body=Json.encodeToString(FreeRollRequest.serializer(),request)
+        assertEquals(HttpStatusCode.Unauthorized,client.postJson("/api/rolls/free",body).status)
+        val response=client.postJson("/api/rolls/free",body,cookie);assertEquals(HttpStatusCode.OK,response.status)
+        val result=response.json();assertEquals("FREE_ROLL",result.text("rollType"));assertEquals(0,result.getValue("dice").jsonObject.num("modifier"))
+        assertEquals(result,client.postJson("/api/rolls/free",body,cookie).json())
+        val history=client.get("/api/rolls/free"){header(HttpHeaders.Cookie,cookie)}.json()
+        assertEquals(1,history.arr("items").size);assertEquals(result,history.arr("items").single())
+        assertEquals(0,client.get("/api/rolls/free"){header(HttpHeaders.Cookie,stranger)}.json().arr("items").size)
+        val conflict=Json.encodeToString(FreeRollRequest.serializer(),request.copy(pool=listOf(FreeDiePool(1,4))))
+        assertEquals(HttpStatusCode.Conflict,client.postJson("/api/rolls/free",conflict,cookie).status)
+        for(pool in listOf(emptyList(),listOf(FreeDiePool(101,6)),listOf(FreeDiePool(1,3)),listOf(FreeDiePool(0,6)),listOf(FreeDiePool(1,6),FreeDiePool(1,6)))) {
+            assertEquals(HttpStatusCode.UnprocessableEntity,client.postJson("/api/rolls/free",Json.encodeToString(FreeRollRequest.serializer(),FreeRollRequest(UUID.randomUUID().toString(),pool)),cookie).status)
+        }
+        assertEquals(HttpStatusCode.BadRequest,client.postJson("/api/rolls/free",body.dropLast(1)+",\"modifier\":10}",cookie).status)
+        val maximum=client.postJson("/api/rolls/free",Json.encodeToString(FreeRollRequest.serializer(),FreeRollRequest(UUID.randomUUID().toString(),listOf(FreeDiePool(100,100)))),cookie)
+        assertEquals(HttpStatusCode.OK,maximum.status);assertEquals(100,maximum.json().getValue("dice").jsonObject.objects("groups").single().arr("dice").size)
+    }
+
     @Test fun `registration login creation and persistent sheet retrieval`() = runApi {
         val cookie=client.account()
         val response=client.create(cookie)

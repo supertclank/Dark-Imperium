@@ -1,3 +1,5 @@
+Current dice UX: [overhaul completion report](docs/DICE_UX_OVERHAUL_REPORT.md) — overlay physics, delayed reveal, free pools and verification limits.
+
 ## Non-Human advancement release (v6)
 
 Eight non-Human martial class contexts now have certified paths through level 4, including Ratling Sharpshooter. The release has 220 certified family rows and 40 individually filtered Talent alternatives. Existing v4 non-Humans use an explicit atomic upgrade; earlier profiles remain pinned. Validation: 152 content, 97 backend and 72 frontend tests pass, plus TypeScript and eight-class browser acceptance. Frontend standalone packaging remains blocked by Windows EPERM; Docker startup remains unverified.

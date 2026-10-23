@@ -1,4 +1,5 @@
 "use client";
+import { FreeDice } from "./FreeDice";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
@@ -20,6 +21,7 @@ export function Header() {
   }
   return (
     <>
+      <FreeDice />
       <header className="header">
         <Link href="/" className="brand">
           <span className="brand-mark" aria-hidden="true">

@@ -7,6 +7,9 @@ settings:
 importers:
   .:
     dependencies:
+      "@dimforge/rapier3d-compat":
+        specifier: 0.21.0
+        version: 0.21.0
       next:
         specifier: 16.4.2
         version: 16.4.2(@types/node@22.19.11)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
@@ -49,6 +52,8 @@ importers:
         version: 4.0.18(@types/node@22.19.11)(jsdom@28.0.0)
 
 packages:
+  "@dimforge/rapier3d-compat@0.21.0":
+    resolution: {integrity: sha512-tCl1HPGwOhn5aCQbgqWbOH+Nx/5fnr3IPAnzQuR7zIhC/raqi2yxC6LhvZqjdI2El5hQgY5RDAwDrAjAi2FdPA==}
   "@acemir/cssom@0.9.32":
     resolution:
       {
@@ -1851,6 +1856,7 @@ packages:
     resolution: {integrity: sha512-blFeqb49wRCSGUGj7gtpfnSGHy2lwDk94RhUmS1c/hTby70kvChbWpkJ4Pm1390LqzzvTmzgXKHPEafJwCb8jA==}
 
 snapshots:
+  "@dimforge/rapier3d-compat@0.21.0": {}
   "@acemir/cssom@0.9.32": {}
 
   "@adobe/css-tools@4.5.0": {}
