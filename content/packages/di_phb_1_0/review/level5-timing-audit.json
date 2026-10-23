@@ -1,0 +1,537 @@
+[
+  {
+    "id": "di.feature.class.aeldari_outcast.level_1.shuriken_grace",
+    "name": "Shuriken Grace",
+    "timingPhrases": [
+      "once per turn",
+      "when you hit"
+    ],
+    "canonicalText": "Once per turn, when you hit with a shuriken, ranger, or \nAeldari blade weapon after moving at least 10 ft, add \n+1d6 damage.",
+    "sources": [
+      {
+        "locator": {
+          "heading": "Shuriken Grace",
+          "pdfPage": 80,
+          "printedPage": 67,
+          "sectionKey": "11.11.2"
+        },
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a"
+      }
+    ],
+    "automation": "PARTIAL",
+    "sequenceBehaviour": "Existing support unchanged; sequence does not repeat or spend this feature. Conditional triggers remain manual."
+  },
+  {
+    "id": "di.feature.class.aeldari_outcast.level_2.ghostwalk",
+    "name": "Ghostwalk",
+    "timingPhrases": [
+      "bonus action"
+    ],
+    "canonicalText": "You may Dash, Disengage, or Hide as a bonus action if \nyou are wearing light or Aeldari armour.",
+    "sources": [
+      {
+        "locator": {
+          "heading": "Ghostwalk",
+          "pdfPage": 80,
+          "printedPage": 67,
+          "sectionKey": "11.11.3"
+        },
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a"
+      }
+    ],
+    "automation": "MANUAL",
+    "sequenceBehaviour": "Existing support unchanged; sequence does not repeat or spend this feature. Conditional triggers remain manual."
+  },
+  {
+    "id": "di.feature.class.hernkyn_prospector.level_1.claim_sight",
+    "name": "Claim Sight",
+    "timingPhrases": [
+      "bonus action"
+    ],
+    "canonicalText": "As a bonus action, mark one creature, object, route, or \nterrain feature within 120 ft that you can see.\nUntil the end of your next turn, you or one ally gains +1d4 \nto the next check or attack involving that\nmark. Uses: proficiency bonus per long rest.",
+    "sources": [
+      {
+        "locator": {
+          "heading": "Claim Sight",
+          "pdfPage": 77,
+          "printedPage": 64,
+          "sectionKey": "11.10.2"
+        },
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a"
+      }
+    ],
+    "automation": "PARTIAL",
+    "sequenceBehaviour": "Existing support unchanged; sequence does not repeat or spend this feature. Conditional triggers remain manual."
+  },
+  {
+    "id": "di.feature.class.hive_scum.level_1.dirty_fighter",
+    "name": "Dirty Fighter",
+    "timingPhrases": [
+      "once per turn",
+      "when you hit"
+    ],
+    "canonicalText": "Once per turn, when you hit a creature that is distracted, \nflanked, prone, restrained, or within 5 ft of one\nof your allies, deal +1d6 damage.",
+    "sources": [
+      {
+        "locator": {
+          "heading": "Dirty Fighter",
+          "pdfPage": 65,
+          "printedPage": 52,
+          "sectionKey": "11.6.1"
+        },
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a"
+      }
+    ],
+    "automation": "MANUAL",
+    "sequenceBehaviour": "Existing support unchanged; sequence does not repeat or spend this feature. Conditional triggers remain manual."
+  },
+  {
+    "id": "di.feature.class.hive_scum.level_2.cunning_action",
+    "name": "Cunning Action",
+    "timingPhrases": [
+      "bonus action"
+    ],
+    "canonicalText": "You may Dash, Disengage, or Hide as a bonus action.",
+    "sources": [
+      {
+        "locator": {
+          "heading": "Cunning Action",
+          "pdfPage": 65,
+          "printedPage": 52,
+          "sectionKey": "11.6.3"
+        },
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a"
+      }
+    ],
+    "automation": "MANUAL",
+    "sequenceBehaviour": "Existing support unchanged; sequence does not repeat or spend this feature. Conditional triggers remain manual."
+  },
+  {
+    "id": "di.feature.class.kin_armsman.level_1.oath_mark",
+    "name": "Oath-Mark",
+    "timingPhrases": [
+      "bonus action"
+    ],
+    "canonicalText": "As a bonus action, mark one creature you can see within \n90 ft as the subject of your oath. Until the end\nof your next turn, your first weapon hit against that \ncreature deals bonus damage equal to your\nproficiency bonus. Uses: proficiency bonus per long \nrest.",
+    "sources": [
+      {
+        "locator": {
+          "heading": "Oath-Mark",
+          "pdfPage": 74,
+          "printedPage": 61,
+          "sectionKey": "11.9.2"
+        },
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a"
+      }
+    ],
+    "automation": "PARTIAL",
+    "sequenceBehaviour": "Existing support unchanged; sequence does not repeat or spend this feature. Conditional triggers remain manual."
+  },
+  {
+    "id": "di.feature.class.ogryn_skullbreaker.level_1.big_lad",
+    "name": "Big Lad",
+    "timingPhrases": [
+      "reaction"
+    ],
+    "canonicalText": "You count as one size larger for grappling, shoving, \ncarrying, lifting, dragging, and breaking objects. You\ngain proficiency in Athletics. Due to your enormous bulk \nand slow reactions in cramped spaces, your\nDexterity score is reduced by 2, to a minimum of 6. This \npenalty is applied after the species ability score\nincreases. You cannot benefit from armour, stealth gear, \nor weapons that require a normal human\nframe unless they are modified for Ogryn use.",
+    "sources": [
+      {
+        "locator": {
+          "heading": "Big Lad",
+          "pdfPage": 59,
+          "printedPage": 46,
+          "sectionKey": "11.4.1"
+        },
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a"
+      }
+    ],
+    "automation": "PARTIAL",
+    "sequenceBehaviour": "Existing support unchanged; sequence does not repeat or spend this feature. Conditional triggers remain manual."
+  },
+  {
+    "id": "di.feature.class.ogryn_skullbreaker.level_1.loyal_protector",
+    "name": "Loyal Protector",
+    "timingPhrases": [
+      "reaction"
+    ],
+    "canonicalText": "When an ally within 5 ft is targeted by an attack, and you \ncan see the attacker, you may use your reaction before \nthe attack roll is resolved to impose disadvantage on that \nroll. If the attack still hits, you may choose to take half of \nthe damage dealt to the ally; that transferred damage \ncannot be reduced again by Loyal Protector.",
+    "sources": [
+      {
+        "locator": {
+          "heading": "Loyal Protector",
+          "pdfPage": 59,
+          "printedPage": 46,
+          "sectionKey": "11.4.2"
+        },
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a"
+      }
+    ],
+    "automation": "PARTIAL",
+    "sequenceBehaviour": "Existing support unchanged; sequence does not repeat or spend this feature. Conditional triggers remain manual."
+  },
+  {
+    "id": "di.feature.class.ogryn_skullbreaker.level_2.brutal_impact",
+    "name": "Brutal Impact",
+    "timingPhrases": [
+      "once per turn",
+      "when you hit"
+    ],
+    "canonicalText": "Once per turn, when you hit with a melee weapon, force \nthe target to make a Strength saving throw. DC\n= 8 + proficiency bonus + Strength modifier. On a failure, \nthe target is pushed 10 ft.",
+    "sources": [
+      {
+        "locator": {
+          "heading": "Brutal Impact",
+          "pdfPage": 59,
+          "printedPage": 46,
+          "sectionKey": "11.4.3"
+        },
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a"
+      }
+    ],
+    "automation": "MANUAL",
+    "sequenceBehaviour": "Existing support unchanged; sequence does not repeat or spend this feature. Conditional triggers remain manual."
+  },
+  {
+    "id": "di.feature.class.ratling_sharpshooter.level_1.deadeye",
+    "name": "Deadeye",
+    "timingPhrases": [
+      "once per turn",
+      "when you hit"
+    ],
+    "canonicalText": "Once per turn, when you hit with a ranged weapon attack \nand had advantage on the attack roll, you deal\nan extra +1d6 damage. This increases to +2d6 at level 5 \nand +3d6 at level 11.",
+    "sources": [
+      {
+        "locator": {
+          "heading": "Deadeye",
+          "pdfPage": 68,
+          "printedPage": 55,
+          "sectionKey": "11.7.2"
+        },
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a"
+      }
+    ],
+    "automation": "MANUAL",
+    "sequenceBehaviour": "Existing support unchanged; sequence does not repeat or spend this feature. Conditional triggers remain manual."
+  },
+  {
+    "id": "di.feature.class.ratling_sharpshooter.level_2.scamper",
+    "name": "Scamper",
+    "timingPhrases": [
+      "bonus action"
+    ],
+    "canonicalText": "You may Dash, Disengage, or Hide as a bonus action. \nMoving through the space of a Medium or larger\nally does not count as difficult terrain for you.",
+    "sources": [
+      {
+        "locator": {
+          "heading": "Scamper",
+          "pdfPage": 68,
+          "printedPage": 55,
+          "sectionKey": "11.7.3"
+        },
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a"
+      }
+    ],
+    "automation": "MANUAL",
+    "sequenceBehaviour": "Existing support unchanged; sequence does not repeat or spend this feature. Conditional triggers remain manual."
+  },
+  {
+    "id": "di.feature.class.ratling_sharpshooter.level_5.killshot",
+    "name": "Killshot",
+    "timingPhrases": [
+      "when you hit"
+    ],
+    "canonicalText": "At level 5, once per short rest, when you hit a creature \nwith a ranged weapon attack using an Accurate\nweapon, you may turn the hit into a critical hit. Your \nDeadeye damage also increases to +2d6.",
+    "sources": [
+      {
+        "locator": {
+          "heading": "Killshot",
+          "pdfPage": 68,
+          "printedPage": 55,
+          "sectionKey": "11.7.5"
+        },
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a"
+      }
+    ],
+    "automation": "MANUAL",
+    "sequenceBehaviour": "Existing support unchanged; sequence does not repeat or spend this feature. Conditional triggers remain manual."
+  },
+  {
+    "id": "di.feature.class.skitarii_veteran.level_1.targeting_protocol",
+    "name": "Targeting Protocol",
+    "timingPhrases": [
+      "bonus action"
+    ],
+    "canonicalText": "As a bonus action, mark one enemy within 90 ft. Until the \nend of your turn, your next weapon attack\nagainst it gains +1d4 to hit. Uses: proficiency bonus \nper long rest.",
+    "sources": [
+      {
+        "locator": {
+          "heading": "Targeting Protocol",
+          "pdfPage": 71,
+          "printedPage": 58,
+          "sectionKey": "11.8.2"
+        },
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a"
+      }
+    ],
+    "automation": "PARTIAL",
+    "sequenceBehaviour": "Existing support unchanged; sequence does not repeat or spend this feature. Conditional triggers remain manual."
+  },
+  {
+    "id": "di.feature.class.veteran.level_1.tactical_aim",
+    "name": "Tactical Aim",
+    "timingPhrases": [
+      "bonus action"
+    ],
+    "canonicalText": "As a bonus action, choose one creature you can see \nwithin weapon range. Until the end of your turn,\nyour next ranged weapon attack against that creature \ndeals bonus damage equal to your proficiency\nbonus.",
+    "sources": [
+      {
+        "locator": {
+          "heading": "Tactical Aim",
+          "pdfPage": 50,
+          "printedPage": 37,
+          "sectionKey": "11.1.2"
+        },
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a"
+      }
+    ],
+    "automation": "PARTIAL",
+    "sequenceBehaviour": "Existing support unchanged; sequence does not repeat or spend this feature. Conditional triggers remain manual."
+  },
+  {
+    "id": "di.feature.origin.shrine_worlder",
+    "name": "Shrine Worlder benefits",
+    "timingPhrases": [
+      "once per turn"
+    ],
+    "canonicalText": "4.2 Shrine Worlder\nRaised in devotion, ritual, sacrifice, and Imperial worship.\nAllowed Species: Human, rare Ratling.\nSkill Proficiency: Religion and either Persuasion or \nIntimidation.\nLitany of Resolve: Once per long rest, you can give \nyourself or one ally within 30 ft. advantage on a Wisdom \nsaving throw.\nSacred Hatred: Once per turn, when you damage a \nheretic, daemon, mutant, witch, traitor, or xenos with\na weapon attack or class feature, you deal an additional \n1d4 + 1 radiant damage.\nThis damage represents zeal, ritual fury, and trained \nhatred rather than true divine magic.",
+    "sources": [
+      {
+        "locator": {
+          "heading": "Shrine Worlder benefits",
+          "pdfPage": 26,
+          "printedPage": 13,
+          "sectionKey": "4.2"
+        },
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a"
+      }
+    ],
+    "automation": "PARTIAL",
+    "sequenceBehaviour": "Existing support unchanged; sequence does not repeat or spend this feature. Conditional triggers remain manual."
+  },
+  {
+    "id": "di.feature.origin.underhive",
+    "name": "Underhive benefits",
+    "timingPhrases": [
+      "when you hit"
+    ],
+    "canonicalText": "4.8 Underhive\nRaised below the proper world, among gangs, sump-rats, \nchem dens, scavvers, and forgotten habs.\nAllowed Species: Human, Ratling.\nSkill Proficiency: Choose two from Deception, \nIntimidation, Sleight of Hand, Stealth, and Survival.\nBlack-Market Instinct: You know how to locate illegal \ngoods, smugglers, fences, and information\nbrokers in hive settlements.\nNever Fight Fair: Once per short rest, when you hit a \ncreature that has not acted yet in combat, deal\nadditional damage equal to your proficiency bonus.",
+    "sources": [
+      {
+        "locator": {
+          "heading": "Underhive benefits",
+          "pdfPage": 27,
+          "printedPage": 14,
+          "sectionKey": "4.8"
+        },
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a"
+      }
+    ],
+    "automation": "PARTIAL",
+    "sequenceBehaviour": "Existing support unchanged; sequence does not repeat or spend this feature. Conditional triggers remain manual."
+  },
+  {
+    "id": "di.feature.subclass.hive_scum.gunslinger.level_3",
+    "name": "Gunslinger level 3",
+    "timingPhrases": [
+      "once per turn"
+    ],
+    "canonicalText": "Gunslinger; Once per turn, you can reload a pistol without using an action.",
+    "sources": [
+      {
+        "locator": {
+          "heading": "Gunslinger level 3",
+          "pdfPage": 65,
+          "printedPage": 52,
+          "sectionKey": "11"
+        },
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a"
+      }
+    ],
+    "automation": "MANUAL",
+    "sequenceBehaviour": "Existing support unchanged; sequence does not repeat or spend this feature. Conditional triggers remain manual."
+  },
+  {
+    "id": "di.feature.subclass.kin_armsman.guild_militant.level_3",
+    "name": "Guild-Militant level 3",
+    "timingPhrases": [
+      "when you hit"
+    ],
+    "canonicalText": "Guild-Militant; When you hit a creature marked by Oath-Mark, one ally within 30 ft gains +1 to hit that creature before your next turn.",
+    "sources": [
+      {
+        "locator": {
+          "heading": "Guild-Militant level 3",
+          "pdfPage": 74,
+          "printedPage": 61,
+          "sectionKey": "11"
+        },
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a"
+      }
+    ],
+    "automation": "MANUAL",
+    "sequenceBehaviour": "Existing support unchanged; sequence does not repeat or spend this feature. Conditional triggers remain manual."
+  },
+  {
+    "id": "di.feature.subclass.ogryn_skullbreaker.brute.level_3",
+    "name": "Brute level 3",
+    "timingPhrases": [
+      "once per turn",
+      "when you hit"
+    ],
+    "canonicalText": "Brute; Once per turn, when you hit with a melee weapon, deal +1d6 damage.",
+    "sources": [
+      {
+        "locator": {
+          "heading": "Brute level 3",
+          "pdfPage": 59,
+          "printedPage": 46,
+          "sectionKey": "11"
+        },
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a"
+      }
+    ],
+    "automation": "MANUAL",
+    "sequenceBehaviour": "Existing support unchanged; sequence does not repeat or spend this feature. Conditional triggers remain manual."
+  },
+  {
+    "id": "di.feature.subclass.ratling_sharpshooter.spotter.level_3",
+    "name": "Spotter level 3",
+    "timingPhrases": [
+      "bonus action"
+    ],
+    "canonicalText": "Spotter; As a bonus action, mark one enemy you can see within 120 ft. The next ally to attack that target gains +1d4 to hit. This benefit affects allies only and does not apply to your own attack unless a later feature says otherwise.",
+    "sources": [
+      {
+        "locator": {
+          "heading": "Spotter level 3",
+          "pdfPage": 68,
+          "printedPage": 55,
+          "sectionKey": "11"
+        },
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a"
+      }
+    ],
+    "automation": "MANUAL",
+    "sequenceBehaviour": "Existing support unchanged; sequence does not repeat or spend this feature. Conditional triggers remain manual."
+  },
+  {
+    "id": "di.feature.subclass.skitarii_veteran.infiltrator.level_3",
+    "name": "Infiltrator Protocol level 3",
+    "timingPhrases": [
+      "bonus action"
+    ],
+    "canonicalText": "Infiltrator Protocol; Gain proficiency in Stealth. Once per short rest, as a bonus action, become hidden from creatures relying on standard vision or auspex until the end of your turn, provided you have cover or concealment.",
+    "sources": [
+      {
+        "locator": {
+          "heading": "Infiltrator Protocol level 3",
+          "pdfPage": 71,
+          "printedPage": 58,
+          "sectionKey": "11"
+        },
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a"
+      }
+    ],
+    "automation": "PARTIAL",
+    "sequenceBehaviour": "Existing support unchanged; sequence does not repeat or spend this feature. Conditional triggers remain manual."
+  },
+  {
+    "id": "di.feature.subclass.skitarii_veteran.protector.level_3",
+    "name": "Protector Protocol level 3",
+    "timingPhrases": [
+      "reaction"
+    ],
+    "canonicalText": "Protector Protocol; When an ally within 30 ft is targeted by an attack, you may use your reaction before the roll is resolved to give that ally +2 AC against the attack if you can see the attacker.",
+    "sources": [
+      {
+        "locator": {
+          "heading": "Protector Protocol level 3",
+          "pdfPage": 71,
+          "printedPage": 58,
+          "sectionKey": "11"
+        },
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a"
+      }
+    ],
+    "automation": "MANUAL",
+    "sequenceBehaviour": "Existing support unchanged; sequence does not repeat or spend this feature. Conditional triggers remain manual."
+  },
+  {
+    "id": "di.feature.subclass.skitarii_veteran.vanguard.level_3",
+    "name": "Vanguard Protocol level 3",
+    "timingPhrases": [
+      "once per turn",
+      "when you hit"
+    ],
+    "canonicalText": "Vanguard Protocol; Once per turn, when you hit a creature within 30 ft, it has disadvantage on its next Constitution saving throw before your next turn.",
+    "sources": [
+      {
+        "locator": {
+          "heading": "Vanguard Protocol level 3",
+          "pdfPage": 71,
+          "printedPage": 58,
+          "sectionKey": "11"
+        },
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a"
+      }
+    ],
+    "automation": "MANUAL",
+    "sequenceBehaviour": "Existing support unchanged; sequence does not repeat or spend this feature. Conditional triggers remain manual."
+  },
+  {
+    "id": "di.feature.subclass.veteran.shock_trooper.level_3",
+    "name": "Shock Trooper 3",
+    "timingPhrases": [
+      "once per turn",
+      "when you hit"
+    ],
+    "canonicalText": "Once per turn, when you hit with a lasgun, autogun, shotgun, or bolter, deal +1d6 damage.",
+    "sources": [
+      {
+        "locator": {
+          "heading": "Shock Trooper 3",
+          "pdfPage": 50,
+          "printedPage": 37,
+          "sectionKey": "11.1"
+        },
+        "sourceId": "di.source.phb",
+        "sourceVersion": "1.0@a58335b1264a"
+      }
+    ],
+    "automation": "MANUAL",
+    "sequenceBehaviour": "Existing support unchanged; sequence does not repeat or spend this feature. Conditional triggers remain manual."
+  }
+]

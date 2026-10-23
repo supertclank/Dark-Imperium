@@ -9,6 +9,7 @@ export type PathConfiguration = { speciesId:string; originId:string; classId:str
 export type Profile = { pathConfigurations?:PathConfiguration[]; packages?:Record<string,Profile["package"]>; classTraining?:Record<string,Profile["training"]>; featureCatalogue?:OptionRecord[]; id: string; digest: string; name: string; attributes: string[]; standardArray: number[]; levels: number[]; species: OptionRecord[]; origins: OptionRecord[]; classes: OptionRecord[]; traits: OptionRecord[]; choices: Choice[]; levelFeatures: OptionRecord[]; equipment: OptionRecord[]; armour: string[]; training: { hitDie: number; savingThrows: string[] }; package: { fixed: { item: { id: string }; quantity: number }[]; choices: { id: string; options: { id: string }[]; quantity: number }[] }; availability: { status: string; message: string }[] };
 export type Issue = { code: string; field: string; message: string };
 export type Calculation = {
+  attackAction?:{attacksPerAttackAction:number;featureIds:string[];actionIds:string[];scope:string;turnTracking:boolean};
   advancementSelection?:{talentId?:string;label:string;benefit?:string;subchoiceLabel?:string;subchoiceText?:string;note?:string;classification?:string}|null;
   abilityAdjustments?:{attribute:string;amount:number;minimum:number;before:number;after:number;floorApplied:boolean}[];
   speciesMechanics?:{kind:string;contexts?:string[];text?:string;name?:string;count?:number;sides?:number;ability?:string}[]; size?:string; darkvisionFeet?:number;

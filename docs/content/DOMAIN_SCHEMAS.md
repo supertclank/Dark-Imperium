@@ -81,3 +81,7 @@ Location/adventure/encounter content references templates; it contains no active
 ## Integrated dice extension
 
 Actions may expose optional rolls:RollTemplate[]; test rules supply roll templates for attribute/skill/save/attack procedures. Weapon modes bind their existing test and damage components to distinct action stages. Existing Dice and DamageComponent fields retain their meaning. Profiles may opt into a versioned core.rolls.v1 capability with registered advantage/critical policies; absence does not imply D&D defaults. This additive proposal does not alter the current catalog fixtures. See [Integrated dice rolling](DICE_ROLLING.md).
+
+## Implemented v8 Attack-action capacity
+
+`action.attack.capacity` is a registered stat target for continuous automatic constant `base` effects with max stacking; validated integer range 1–20. v8 grants 2 only through canonical Extra Attack features. `spec.attackActionVersion=1` enables `calculated.attackAction` with `attacksPerAttackAction`, source feature IDs, eligible owned weapon action IDs, scope and `turnTracking=false`. This additive output is absent from historical profiles. Capacity does not generate extra actions or duplicate bonus/reaction/consumable actions. Each attack and linked damage has its own roll definition/session/result. Frontend sequence state is optional and not authoritative.

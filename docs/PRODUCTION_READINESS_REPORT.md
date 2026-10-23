@@ -1,3 +1,7 @@
+> Docker v8 follow-up, 23 October 2026: host rebuild completed; port 3100 now serves the expected v8 digest. Explicit level-5 upgrade, mixed-weapon physical attacks, linked damage, replay, persistence and 320/390px layout verified. Production WASM CSP failure below is resolved; all four new rolls used PHYSICS. See [Level 5 Docker acceptance](verification/level5/docker-acceptance.json). Historical pending statements below are retained as the earlier checkpoint, not the latest status. Broader device/browser coverage is not implied.
+
+> Superseding scope decision, 23 October 2026: the user explicitly accepted the prior readiness milestone as sufficient to resume rules progression. Its earlier Level 5 gate below is historical. See [v8 Level 5 certification](LEVEL5_CERTIFICATION_REPORT.md) for current implementation and deployment verification limits.
+
 # Production Readiness & Cross-Device Validation
 
 23 October 2026. **Release decision: NOT YET PRODUCTION-READY.** Independent hardening and automated validation are complete. Docker build, Compose startup and localhost application access are VERIFIED by the user on the host Windows machine. Detailed production browser/device acceptance remains pending; Codex Docker access is a session restriction, not an application or host Docker defect. Do not advance to level 5/Extra Attack on the strength of this pass alone.

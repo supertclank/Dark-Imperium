@@ -1260,3 +1260,8 @@ main:has(.play-sheet){max-width:1600px;width:100%;padding:1.25rem 2rem}.play-she
 .free-dice-panel{bottom:calc(6rem + env(safe-area-inset-bottom))}
 body:has(.free-dice-launcher){padding-bottom:calc(5rem + env(safe-area-inset-bottom))}
 @media(pointer:coarse){.play-sheet .roll-action-button,.play-tabs button,.ability-strip button{min-height:44px}}
+
+.attack-sequence { border: 1px solid var(--border); padding: .75rem; margin-block: .5rem; }
+.attack-sequence select { width: 100%; min-width: 0; }
+.attack-sequence button { white-space: normal; max-width: 100%; margin: .25rem .25rem .25rem 0; }
+.attack-sequence li { overflow-wrap: anywhere; margin-block: .5rem; }

@@ -29,7 +29,7 @@ class CharacterRolls(
         val sheet = characters.get(con,owner,character)
         val snapshot = con.query("SELECT snapshot FROM ruleset_profiles WHERE id=? AND digest=?",sheet.text("rulesetProfileId"),sheet.text("rulesetDigest")) { Json.parseToJsonElement(it.getString(1)).jsonObject }.single()
         val rules = NarrowRules(snapshot)
-        if(mapOf("di-phb-1.0-narrow-v1" to "narrow-kotlin-v1", "di-phb-1.0-tier1-v1" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v2" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v3" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v4" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v5" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v6" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v7" to "phb-tier1-kotlin-v1")[rules.id] != rules.spec.text("engineVersion"))
+        if(mapOf("di-phb-1.0-narrow-v1" to "narrow-kotlin-v1", "di-phb-1.0-tier1-v1" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v2" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v3" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v4" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v5" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v6" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v7" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v8" to "phb-tier1-kotlin-v1")[rules.id] != rules.spec.text("engineVersion"))
             fail("RULESET_MISMATCH","Runtime rolling is not supported for this ruleset.",409)
         return sheet to rules
     }

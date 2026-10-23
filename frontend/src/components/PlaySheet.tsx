@@ -11,8 +11,9 @@ type Props = {
   options: RollOption[];
   disabled: boolean;
   onRoll: (o: RollOption) => void;
+  attackSequence?: ReactNode;
 };
-export function PlaySheet({ character, options, disabled, onRoll }: Props) {
+export function PlaySheet({ character, options, disabled, onRoll, attackSequence }: Props) {
   const c = character.calculated,
     [tab, setTab] = useState("Actions");
   const tabs = [
@@ -323,6 +324,11 @@ export function PlaySheet({ character, options, disabled, onRoll }: Props) {
                   Roll from a modifier or damage formula. Hits and conditional
                   effects remain manual.
                 </p>
+                {c.attackAction && c.attackAction.attacksPerAttackAction > 1 && <section aria-label="Attack action capacity">
+                  <h3>{c.attackAction.featureIds.map(id => <span key={id}>{inspect(id,c.features.find(f=>f.id===id)?.name ?? "Extra Attack")}</span>)}</h3>
+                  <p>{c.attackAction.attacksPerAttackAction} attacks when you take the Attack action on your turn.</p>
+                  {attackSequence}
+                </section>}
                 {c.actions.map(weapon)}
                 {options
                   .filter(
@@ -551,14 +557,13 @@ export function PlaySheet({ character, options, disabled, onRoll }: Props) {
                 <p className="profile-digest">{character.rulesetDigest}</p>
                 <p className="small">
                   Existing characters keep their historical ruleset. The fixed
-                  Finesse Dexterity amendment applies to new v7 characters; no
+                  Finesse Dexterity amendment applies to v7 and later characters; no
                   silent profile migration occurs.
                 </p>
                 <h3>Manual adjudication</h3>
                 <p>
                   Resolve targets, hit/miss, critical damage, conditional
-                  effects and resource recovery at the table. No blocked psychic
-                  content or level 5 rules are enabled.
+                  effects and resource recovery at the table. Blocked psychic content and uncertified higher levels remain unavailable.
                 </p>
               </>
             )}

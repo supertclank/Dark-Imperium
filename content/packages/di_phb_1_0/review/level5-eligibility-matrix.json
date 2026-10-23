@@ -1,0 +1,82 @@
+[
+  {
+    "species": "Human",
+    "className": "Veteran",
+    "maximumCertifiedLevel": 5,
+    "level5Families": 24,
+    "status": "READY_WITH_MANUAL_RULES",
+    "reason": ""
+  },
+  {
+    "species": "Human",
+    "className": "Hive Scum",
+    "maximumCertifiedLevel": 1,
+    "level5Families": 0,
+    "status": "BLOCKED_BY_PRIOR_PATH_CERTIFICATION",
+    "reason": "Existing profile has no certified level-4 path to extend. Human Hive Scum remains level 1; no lower-level choices or subclasses invented."
+  },
+  {
+    "species": "Ratling Abhuman",
+    "className": "Veteran",
+    "maximumCertifiedLevel": 5,
+    "level5Families": 15,
+    "status": "READY_WITH_MANUAL_RULES",
+    "reason": ""
+  },
+  {
+    "species": "Ratling Abhuman",
+    "className": "Hive Scum",
+    "maximumCertifiedLevel": 5,
+    "level5Families": 5,
+    "status": "READY_WITH_MANUAL_RULES",
+    "reason": ""
+  },
+  {
+    "species": "Ratling Abhuman",
+    "className": "Ratling Sharpshooter",
+    "maximumCertifiedLevel": 5,
+    "level5Families": 15,
+    "status": "READY_WITH_MANUAL_RULES",
+    "reason": ""
+  },
+  {
+    "species": "Ogryn Abhuman",
+    "className": "Ogryn Skullbreaker",
+    "maximumCertifiedLevel": 5,
+    "level5Families": 8,
+    "status": "READY_WITH_MANUAL_RULES",
+    "reason": ""
+  },
+  {
+    "species": "Skitarii Augmented Human",
+    "className": "Skitarii Veteran",
+    "maximumCertifiedLevel": 5,
+    "level5Families": 4,
+    "status": "READY_WITH_MANUAL_RULES",
+    "reason": ""
+  },
+  {
+    "species": "Squat / Kin",
+    "className": "Kin Armsman",
+    "maximumCertifiedLevel": 5,
+    "level5Families": 3,
+    "status": "READY_WITH_MANUAL_RULES",
+    "reason": ""
+  },
+  {
+    "species": "Squat / Kin",
+    "className": "Hernkyn Prospector",
+    "maximumCertifiedLevel": 5,
+    "level5Families": 2,
+    "status": "READY_WITH_MANUAL_RULES",
+    "reason": ""
+  },
+  {
+    "species": "Aeldari / Eldar",
+    "className": "Aeldari Outcast",
+    "maximumCertifiedLevel": 5,
+    "level5Families": 1,
+    "status": "READY_WITH_MANUAL_RULES",
+    "reason": ""
+  }
+]

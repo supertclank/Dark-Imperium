@@ -15,6 +15,7 @@ import { DicePresentation, type PresentationEvent } from "./DicePresentation";
 import { RollActionButton } from "./RollActionButton";
 import { PlaySheet } from "./PlaySheet";
 import { DiceResult } from "./DiceResult";
+import { AttackSequence } from "./AttackSequence";
 
 type Props = {
   character: SavedCharacter;
@@ -39,6 +40,7 @@ export function RollPanel({ character, onRefresh, playLayout = false }: Props) {
     null,
   );
   const seenResults = useRef(new Set<string>());
+  const completion = useRef<{requestId:string;done:(result:RollResult)=>void}|null>(null);
   function present(result: RollResult, replay = false) {
     if (replay && !coordinator.acquire()) return;
     setPresenting(true);
@@ -131,6 +133,7 @@ export function RollPanel({ character, onRefresh, playLayout = false }: Props) {
     option: RollOption,
     parent?: RollResult,
     confirmed = false,
+    done?: (result:RollResult)=>void,
   ) {
     if (
       !options ||
@@ -148,8 +151,10 @@ export function RollPanel({ character, onRefresh, playLayout = false }: Props) {
     const ability = option.abilities.length
       ? parent?.context.ability
       : undefined;
+    const requestId=crypto.randomUUID();
+    completion.current=done ? {requestId,done} : null;
     void submit({
-      requestId: crypto.randomUUID(),
+      requestId,
       rollId: option.id,
       profileId: options.profileId,
       profileDigest: options.profileDigest,
@@ -196,6 +201,10 @@ export function RollPanel({ character, onRefresh, playLayout = false }: Props) {
         event={presentation}
         requesting={busy}
         onReveal={(result) => {
+          const pending=completion.current;
+          if(pending?.requestId===result.requestId && !seenResults.current.has(result.id)) {
+            seenResults.current.add(result.id);completion.current=null;pending.done(result);
+          }
           setLatest(result);
           setPresenting(false);
           coordinator.release();
@@ -204,6 +213,7 @@ export function RollPanel({ character, onRefresh, playLayout = false }: Props) {
           );
         }}
         onCancel={() => {
+          completion.current=null;
           setPresenting(false);
           setPresentation(null);
           coordinator.release();
@@ -215,6 +225,15 @@ export function RollPanel({ character, onRefresh, playLayout = false }: Props) {
           options={options?.options ?? []}
           disabled={coordinator.otherBusy || busy || presenting || uncertain}
           onRoll={requestRoll}
+          attackSequence={character.calculated.attackAction && <AttackSequence
+            key={`${character.id}:${character.rulesetDigest}:${character.level}`}
+            count={character.calculated.attackAction.attacksPerAttackAction}
+            actionIds={character.calculated.attackAction.actionIds}
+            options={options?.options ?? []}
+            disabled={coordinator.otherBusy || busy || presenting || uncertain}
+            onAttack={(o,done)=>requestRoll(o,undefined,false,done)}
+            onDamage={(o,parent)=>requestRoll(o,parent)}
+          />}
         />
       ) : (
         <div className="roll-controls">

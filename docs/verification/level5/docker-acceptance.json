@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-23",
+  "environment": "User-rebuilt Docker stack at http://localhost:3100",
+  "hostBuildAndStartup": "VERIFIED_USER_REPORTED",
+  "browserAcceptance": "VERIFIED",
+  "codexDockerEngineAccess": "ENVIRONMENT_BLOCKED",
+  "profileId": "di-phb-1.0-tier1-v8",
+  "digest": "ebb729c9d8953afbe5053085374279053f446551181ec7ea1e409d8c711ec4b5",
+  "characterId": "09365bdb-2200-436f-9ccb-8eaf84cf271f",
+  "advancement": {
+    "from": 4,
+    "to": 5,
+    "explicitV7Upgrade": true,
+    "maximumHp": [
+      40,
+      49
+    ],
+    "currentHp": [
+      12,
+      12
+    ],
+    "constitutionAsiPreserved": true
+  },
+  "rolls": [
+    {
+      "id": "52809a8d-efee-44db-9550-79c5b8835da0",
+      "label": "Ion Blaster attack",
+      "ability": "dexterity",
+      "raw": [
+        [
+          7
+        ]
+      ],
+      "total": 12,
+      "source": "PHYSICS",
+      "sessionId": "f354559c-eb61-4a8f-ae45-3b52106049ae",
+      "parentResultId": null
+    },
+    {
+      "id": "3d962611-05c8-487c-9fc6-cb66b907d360",
+      "label": "Kin Power Axe attack",
+      "ability": "strength",
+      "raw": [
+        [
+          4
+        ]
+      ],
+      "total": 9,
+      "source": "PHYSICS",
+      "sessionId": "959287b3-be32-4e13-a77c-358ce45d1849",
+      "parentResultId": null
+    },
+    {
+      "id": "dfb58a60-f17d-458d-a727-ba6cd6ac1ef2",
+      "label": "Ion Blaster damage",
+      "ability": "dexterity",
+      "raw": [
+        [
+          9
+        ]
+      ],
+      "total": 11,
+      "source": "PHYSICS",
+      "sessionId": "30b5f793-8485-46aa-bcb1-384d8e535bd1",
+      "parentResultId": "52809a8d-efee-44db-9550-79c5b8835da0"
+    },
+    {
+      "id": "d8e105ae-1dee-415a-80cf-23812c38f15c",
+      "label": "Kin Power Axe damage",
+      "ability": "strength",
+      "raw": [
+        [
+          2
+        ]
+      ],
+      "total": 4,
+      "source": "PHYSICS",
+      "sessionId": "abf517f4-9427-41b8-bc6b-de284dead3c0",
+      "parentResultId": "3d962611-05c8-487c-9fc6-cb66b907d360"
+    }
+  ],
+  "replay": "First attack replayed; four history results remain; no new resource consumption",
+  "reload": "Level 5 and current HP preserved",
+  "historicalCharacter": {
+    "id": "4cd99cd0-d353-4687-9908-2f96058216ff",
+    "level": 1,
+    "profile": "di-phb-1.0-tier1-v7"
+  },
+  "mobile": [
+    {
+      "viewport": 390,
+      "documentWidth": 375
+    },
+    {
+      "viewport": 320,
+      "documentWidth": 305
+    }
+  ],
+  "csp": "wasm-unsafe-eval present; JavaScript unsafe-eval absent",
+  "browserWarningsAndErrors": [],
+  "limits": [
+    "IAB Chromium only; no claim of physical phone or Firefox/Safari testing",
+    "No direct Codex Docker-engine access attempted"
+  ]
+}

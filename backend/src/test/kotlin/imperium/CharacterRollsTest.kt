@@ -43,6 +43,67 @@ class CharacterRollsTest {
     private fun error(code:String,block:()->Unit) { assertEquals(code,assertFailsWith<ApiException>(block=block).code) }
 
 
+    private fun level5Rig(cl:String="kin_armsman",upgrade:Boolean=false):Rig {
+        val rules=if(upgrade) NarrowRules.tier7() else NarrowRules.tier8()
+        val full=tier8Fixtures().first { it.classId=="di.class.$cl" && it.level==5 }
+        fun keys(level:Int)=rules.spec.objects("pathConfigurations").first { it.text("speciesId")==full.speciesId && it.text("originId")==full.originId && it.text("classId")==full.classId && it.num("level")==level }.strings("choices").toSet()
+        val r=rig(draft=full.copy(profileId=rules.id,profileDigest=rules.digest,level=1,answers=full.answers.filterKeys { it in keys(1) }))
+        val service=CharacterAdvancement(db,r.characters)
+        for(level in 2..4) service.advance(r.owner,r.id,AdvanceRequest(UUID.randomUUID().toString(),(level-2).toLong(),level,full.answers.filterKeys { it in keys(level) && it !in keys(level-1) }))
+        val before=r.sheet();val priorHp=before.getValue("runtime").jsonObject.num("currentHp")
+        if(upgrade) {
+            assertEquals(rules.id,before.text("rulesetProfileId"));assertTrue(service.readiness(r.owner,r.id).getValue("requiresProfileUpgrade").jsonPrimitive.boolean)
+            error("PROFILE_UPGRADE_CONFIRMATION_REQUIRED"){service.advance(r.owner,r.id,AdvanceRequest(UUID.randomUUID().toString(),3,5))}
+            assertEquals(before,r.sheet())
+        }
+        val request=AdvanceRequest(UUID.randomUUID().toString(),3,5,confirmProfileUpgrade=upgrade)
+        val result=service.advance(r.owner,r.id,request);assertEquals(result,service.advance(r.owner,r.id,request))
+        val after=r.sheet();assertEquals(NarrowRules.tier8().id,after.text("rulesetProfileId"));assertEquals(priorHp,after.getValue("runtime").jsonObject.num("currentHp"))
+        assertEquals(before.getValue("selections").jsonObject["answers"],after.getValue("selections").jsonObject["answers"]);assertEquals(before["inventory"],after["inventory"])
+        error("INVALID_TRANSITION"){service.preview(r.owner,r.id,AdvanceRequest(UUID.randomUUID().toString(),4,6))}
+        return r
+    }
+    @Test fun `level five explicit v7 upgrade preserves ASI inventory HP and rejects extra choices`() {
+        val r=level5Rig(upgrade=true);val service=CharacterAdvancement(db,r.characters)
+        assertFalse(service.readiness(r.owner,r.id).getValue("available").jsonPrimitive.boolean)
+        assertEquals(2,r.sheet().getValue("calculated").jsonObject.getValue("attackAction").jsonObject.num("attacksPerAttackAction"))
+        val feature="di.feature.class.kin_armsman.level_5.extra_attack"
+        assertTrue(SheetDetails(db,r.characters).entity(r.owner,r.id,feature).objects("fields").any{it.text("label")=="Attacks per Attack action" && it.text("value")=="2"})
+    }
+    @Test fun `mixed level five weapon sessions bind independent fixed abilities damage and raw values`() {
+        val r=level5Rig();val sessions=PhysicalRollSessions(db,r.rolls,FreeRolls(db))
+        fun request(item:String,category:String):RollRequest {val o=r.rolls.options(r.owner,r.id).objects("options").single{it["itemId"]?.jsonPrimitive?.content==item && it.text("category")==category};return r.request(o.text("label"))}
+        val dex=request("di.weapon.ion_blaster","attack");val str=request("di.weapon.kin_power_axe","attack")
+        error("INVALID_CONTEXT"){sessions.character(r.owner,r.id,str.copy(ability="dexterity"))}
+        val first=sessions.character(r.owner,r.id,dex);val second=sessions.character(r.owner,r.id,str)
+        assertNotEquals(first.text("rollSessionId"),second.text("rollSessionId"))
+        assertFailsWith<ApiException>{sessions.finalize(r.owner,uuid(first.text("rollSessionId")),PhysicalSubmission(listOf(listOf(21))))}
+        val b=sessions.finalize(r.owner,uuid(second.text("rollSessionId")),PhysicalSubmission(listOf(listOf(7))))
+        val a=sessions.finalize(r.owner,uuid(first.text("rollSessionId")),PhysicalSubmission(listOf(listOf(14))))
+        assertEquals("dexterity",a.getValue("context").jsonObject.text("ability"));assertEquals("strength",b.getValue("context").jsonObject.text("ability"))
+        assertEquals(14,a.num("naturalResult"));assertEquals(7,b.num("naturalResult"));assertNotEquals(a.text("id"),b.text("id"))
+        assertEquals(b,sessions.finalize(r.owner,uuid(second.text("rollSessionId")),PhysicalSubmission(listOf(listOf(7)))))
+        for((item,parent) in listOf("di.weapon.ion_blaster" to a,"di.weapon.kin_power_axe" to b)) {
+            val q=request(item,"damage").copy(parentResultId=parent.text("id"));val v=sessions.character(r.owner,r.id,q)
+            val values=v.objects("groups").map{g->List(g.num("count")){1}};val d=sessions.finalize(r.owner,uuid(v.text("rollSessionId")),PhysicalSubmission(values))
+            assertEquals(parent.text("id"),d.text("parentResultId"));assertEquals(parent.getValue("context").jsonObject["ability"],d.getValue("context").jsonObject["ability"])
+        }
+        assertEquals(2,r.quantity());assertEquals(4,r.sheet().getValue("runtime").jsonObject.num("stateVersion"))
+    }
+    @Test fun `two ranged level five sessions remain Dexterity and consumables stay separate`() {
+        val r=level5Rig();val a=r.execute("Ion Blaster attack");val b=r.execute("Autoch-Pattern Pistol attack")
+        assertEquals("dexterity",a.getValue("context").jsonObject.text("ability"));assertEquals("dexterity",b.getValue("context").jsonObject.text("ability"))
+        val grenade=r.sheet().getValue("calculated").jsonObject.objects("actions").single{it.text("itemId")=="di.weapon.frag_grenade"}
+        assertFalse(grenade.text("id") in r.sheet().getValue("calculated").jsonObject.getValue("attackAction").jsonObject.strings("actionIds"))
+        val request=r.request("Frag Grenade damage");val one=r.rolls.execute(r.owner,r.id,request);assertEquals(one,r.rolls.execute(r.owner,r.id,request));assertEquals(1,r.quantity())
+    }
+    @Test fun `Killshot adds a manual resource without healing or enabling Extra Attack`() {
+        val r=level5Rig("ratling_sharpshooter",true);val c=r.sheet().getValue("calculated").jsonObject
+        assertEquals(1,c.getValue("attackAction").jsonObject.num("attacksPerAttackAction"));assertEquals(1,r.sheet().getValue("runtime").jsonObject.getValue("resources").jsonObject.getValue("killshot").jsonObject.num("remaining"))
+        error("INVALID_CONTEXT"){r.rolls.execute(r.owner,r.id,r.request("Knife attack").copy(ability="strength"))}
+        assertEquals("dexterity",r.execute("Knife attack").getValue("context").jsonObject.text("ability"))
+    }
+
     @Test fun `all historical profile generations reopen without migration`() {
         val generations=listOf(
             productionFixture(),tier1Fixture(),tier2Fixture(),

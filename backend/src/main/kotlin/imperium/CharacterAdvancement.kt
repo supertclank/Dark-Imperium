@@ -23,10 +23,10 @@ class CharacterAdvancement(private val db:Database,private val characters:Produc
             (if(c.containsKey("speciesIds")) d.speciesId in c.strings("speciesIds") else d.speciesId==c.text("speciesId")) &&
             (if(c.containsKey("classIds")) d.classId in c.strings("classIds") else d.classId==c.text("classId")) && config(destination,d.copy(level=d.level+1))!=null }
     }
-    private fun target(rules:NarrowRules,d:NarrowDraft):NarrowRules = listOf(NarrowRules.tier5(),NarrowRules.tier6()).firstOrNull { contract(rules,it,d)!=null } ?: rules
+    private fun target(rules:NarrowRules,d:NarrowDraft):NarrowRules = listOf(NarrowRules.tier5(),NarrowRules.tier6(),NarrowRules.tier8()).firstOrNull { contract(rules,it,d)!=null } ?: rules
     private fun blockers(rules:NarrowRules,d:NarrowDraft):List<JsonObject> {
         val next=target(rules,d)
-        if(d.level>=4 || (d.level>=3 && next.id==rules.id && Level4Rules.policy(rules)==null)) return listOf(obj("code" to "LEVEL_CAP","message" to "No further level is certified for this pinned profile."))
+        if(d.level>=5 || (d.level>=4 && next.spec.arr("levels").none { it.jsonPrimitive.int==5 }) || (d.level>=3 && next.id==rules.id && Level4Rules.policy(rules)==null)) return listOf(obj("code" to "LEVEL_CAP","message" to "No further level is certified for this pinned profile."))
         if(config(next,d.copy(level=d.level+1))==null) return listOf(obj("code" to "PATH_NOT_CERTIFIED","message" to "The next level is not certified for this path."))
         return emptyList()
     }
@@ -49,7 +49,7 @@ class CharacterAdvancement(private val db:Database,private val characters:Produc
         val current=draft(sheet);val rules=target(source,current)
         if(rules.id!=source.id) { if(!request.confirmProfileUpgrade) throw ApiException(422,"PROFILE_UPGRADE_CONFIRMATION_REQUIRED","Confirm the validated profile upgrade before advancing.");compatible(sheet,source,rules) }
         if(request.expectedStateVersion!=sheet.getValue("runtime").jsonObject.getValue("stateVersion").jsonPrimitive.long) throw ApiException(409,"STATE_CONFLICT","Character changed. Refresh the preview.")
-        if(request.destinationLevel!=current.level+1 || request.destinationLevel !in 2..4) throw ApiException(422,"INVALID_TRANSITION","Advance exactly one level, through certified level 4 only.")
+        if(request.destinationLevel!=current.level+1 || request.destinationLevel !in 2..5) throw ApiException(422,"INVALID_TRANSITION","Advance exactly one level, through certified level 5 only.")
         val blocked=blockers(source,current)
         if(blocked.isNotEmpty()) throw ApiException(422,blocked.first().text("code"),blocked.first().text("message"))
         val allowed=required(rules,current)

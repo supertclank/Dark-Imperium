@@ -35,7 +35,7 @@ object Level4Rules {
  }
  fun currentHp(current:Int,maximum:Int)=minOf(current,maximum)
  fun hp(hitDie:Int,level:Int,constitution:Int):Int {
-  require(hitDie in setOf(6,8,10,12) && level in 1..4)
+  require(hitDie in setOf(6,8,10,12) && level in 1..5)
   return maxOf(1,hitDie+constitution)+(level-1)*maxOf(1,hitDie/2+1+constitution)
  }
  fun weaponBonus(r:NarrowRules,d:NarrowDraft,item:String):Int {

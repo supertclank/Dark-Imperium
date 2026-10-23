@@ -136,10 +136,11 @@ def effects(values, records=None):
         if e['automation']=='conditional':require('when' in e,'CONDITION_REQUIRED')
         if 'when' in e:require(e['automation']=='conditional','CONDITIONAL_AUTOMATION');predicate(e['when'],records)
         shape(e['target'],['kind','key','scope']);require(e['target']['kind']=='stat' and e['target']['scope']=='self','TARGET_SUBSET')
-        require(e['target']['key'] in ['movement.walk','initiative','defence','sense.darkvision']+['attribute.'+a+'.score' for a in ['strength','dexterity','constitution','intelligence','wisdom','charisma']],'STAT_KEY')
+        require(e['target']['key'] in ['movement.walk','initiative','defence','sense.darkvision','action.attack.capacity']+['attribute.'+a+'.score' for a in ['strength','dexterity','constitution','intelligence','wisdom','charisma']],'STAT_KEY')
         require(e['operation'] in ['add','base'],'OPERATION');number(e['value'])
         require(e['duration']=={'kind':'while_source'},'DURATION');shape(e['stacking'],['group','mode'])
-        require(e['stacking']['mode'] in (['max'] if e['target']['key']=='sense.darkvision' else ['sum','replace']),'STACK_MODE');integer(e['priority'],-1000,1000)
+        require(e['stacking']['mode'] in (['max'] if e['target']['key'] in ['sense.darkvision','action.attack.capacity'] else ['sum','replace']),'STACK_MODE');integer(e['priority'],-1000,1000)
+        if e['target']['key']=='action.attack.capacity':require(e['operation']=='base' and e['automation']=='automatic' and e['value']['kind']=='constant' and 1<=e['value']['value']<=20,'ATTACK_CAPACITY_POLICY')
         if e['target']['key']=='sense.darkvision':require(e['operation']=='base' and e['automation']=='automatic' and e['value']['kind']=='constant' and e['value']['value']>=0,'DARKVISION_POLICY')
 
 FIELDS={

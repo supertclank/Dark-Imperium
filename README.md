@@ -1,3 +1,5 @@
+Current progression release: [Level 5 and Extra Attack certification](docs/LEVEL5_CERTIFICATION_REPORT.md). v8 adds 77 level-5 families (297 total), preserves historical profiles, and keeps conditional effects manual.
+
 Production readiness: [release decision and 45-point report](docs/PRODUCTION_READINESS_REPORT.md) · [runbook](docs/PRODUCTION_RUNBOOK.md) · [browser support](docs/BROWSER_SUPPORT.md) · [device checks](docs/DEVICE_VALIDATION.md).
 
 Current sheet/weapon-ability milestone: [40-point completion and acceptance report](docs/CHARACTER_SHEET_V7_REPORT.md).

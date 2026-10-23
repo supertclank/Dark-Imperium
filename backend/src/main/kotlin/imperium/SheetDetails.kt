@@ -48,6 +48,8 @@ class SheetDetails(private val db:Database,private val characters:ProductionChar
         val inventory=sheet.objects("inventory").singleOrNull { it.text("definitionId")==key }
         inventory?.let { field("Quantity",it.num("quantity").toString());field("Equipped",if(it["equipped"]?.jsonPrimitive?.boolean==true) "Yes" else "No") }
         val feature=calc.objects("features").singleOrNull { it.text("id")==key }
+        val capacity=data.objects("effects").filter { it.text("automation")=="automatic" && it.getValue("target").jsonObject.text("key")=="action.attack.capacity" }.maxOfOrNull { it.getValue("value").jsonObject.num("value") }
+        if(capacity!=null) {field("Level","5");field("Attacks per Attack action",capacity.toString());field("Scope","Attack action on your turn; not bonus actions or reactions")}
         val status=feature?.get("classification")?.jsonPrimitive?.content ?: if(action!=null) "Baseline rolls available; conditional effects are manual" else "Reference information"
         val rulesText=data.objects("manualRules").mapNotNull { it["text"]?.jsonPrimitive?.content } + data.objects("properties").map { val prop=it.getValue("property").jsonObject.text("id");rules.label(prop)+": "+rules.record(prop).text("descriptionMarkdown") }
         obj("id" to key,"name" to record.text("name"),"kind" to record.text("kind"),"description" to record.text("descriptionMarkdown"),"fields" to fields,"sources" to record.arr("sources"),"rules" to rulesText.distinct(),"status" to status,"note" to feature?.get("playerNote"),"actionItemId" to action?.get("itemId"),"profileId" to rules.id,"profileDigest" to rules.digest)

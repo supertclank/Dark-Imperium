@@ -1,0 +1,92 @@
+{
+  "environment": "Native API 8082 + development frontend 3200; not Docker",
+  "characterId": "89c7176d-bb50-48dd-869f-0fd6f522290f",
+  "upgrade": {
+    "fromLevel": 4,
+    "toLevel": 5,
+    "fromProfile": "di-phb-1.0-tier1-v7",
+    "toProfile": "di-phb-1.0-tier1-v8",
+    "oldMaximumHp": 40,
+    "newMaximumHp": 49,
+    "currentHpBeforeAndAfter": 12,
+    "preservedAsi": "Constitution +2"
+  },
+  "rolls": [
+    {
+      "id": "8bf0c0b3-8521-46ad-a982-74522771955f",
+      "label": "Ion Blaster attack",
+      "ability": "dexterity",
+      "total": 13,
+      "raw": [
+        [
+          8
+        ]
+      ],
+      "sessionId": "9e85482f-2eac-4454-8f84-241cff9801f1",
+      "source": "PHYSICS",
+      "parentResultId": null
+    },
+    {
+      "id": "3130b1d3-25e5-46b4-8c78-41fa3968cd3b",
+      "label": "Kin Power Axe attack",
+      "ability": "strength",
+      "total": 25,
+      "raw": [
+        [
+          20
+        ]
+      ],
+      "sessionId": "86fcc522-4995-495a-abf7-71526557b726",
+      "source": "PHYSICS",
+      "parentResultId": null
+    },
+    {
+      "id": "ae640846-983c-4802-a454-4366c0607f27",
+      "label": "Ion Blaster damage",
+      "ability": "dexterity",
+      "total": 3,
+      "raw": [
+        [
+          1
+        ]
+      ],
+      "sessionId": "1d80231c-e314-41d1-b9a2-87c356aeaf5c",
+      "source": "PHYSICS",
+      "parentResultId": "8bf0c0b3-8521-46ad-a982-74522771955f"
+    },
+    {
+      "id": "0b20961b-ffec-42de-b7f3-70e226c33480",
+      "label": "Kin Power Axe damage",
+      "ability": "strength",
+      "total": 8,
+      "raw": [
+        [
+          6
+        ]
+      ],
+      "sessionId": "09a3b51a-7309-4fbb-b047-bb2767076eba",
+      "source": "PHYSICS",
+      "parentResultId": "3130b1d3-25e5-46b4-8c78-41fa3968cd3b"
+    }
+  ],
+  "replay": "First attack replayed; still four stored results, state version 4 throughout; no resources consumed",
+  "mobile": [
+    {
+      "viewport": 390,
+      "documentWidth": 375
+    },
+    {
+      "viewport": 320,
+      "documentWidth": 305
+    }
+  ],
+  "ratling": {
+    "characterId": "8b65f809-b97b-4c2e-a786-cb9de6796a11",
+    "level": 5,
+    "currentHp": 9,
+    "maximumHp": 38,
+    "killshot": "1/1 short rest, manual",
+    "extraAttack": false
+  },
+  "cancel": "Cancelled a new physical attack before finalisation; sequence stayed at attack 1, four history results retained."
+}
