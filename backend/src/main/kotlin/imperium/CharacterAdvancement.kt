@@ -23,7 +23,7 @@ class CharacterAdvancement(private val db:Database,private val characters:Produc
             (if(c.containsKey("speciesIds")) d.speciesId in c.strings("speciesIds") else d.speciesId==c.text("speciesId")) &&
             (if(c.containsKey("classIds")) d.classId in c.strings("classIds") else d.classId==c.text("classId")) && config(destination,d.copy(level=d.level+1))!=null }
     }
-    private fun target(rules:NarrowRules,d:NarrowDraft):NarrowRules = listOf(NarrowRules.tier5(),NarrowRules.tier6(),NarrowRules.tier8()).firstOrNull { contract(rules,it,d)!=null } ?: rules
+    private fun target(rules:NarrowRules,d:NarrowDraft):NarrowRules = listOf(NarrowRules.tier5(),NarrowRules.tier6(),NarrowRules.tier8(),NarrowRules.tier9()).firstOrNull { contract(rules,it,d)!=null } ?: rules
     private fun blockers(rules:NarrowRules,d:NarrowDraft):List<JsonObject> {
         val next=target(rules,d)
         if(d.level>=5 || (d.level>=4 && next.spec.arr("levels").none { it.jsonPrimitive.int==5 }) || (d.level>=3 && next.id==rules.id && Level4Rules.policy(rules)==null)) return listOf(obj("code" to "LEVEL_CAP","message" to "No further level is certified for this pinned profile."))

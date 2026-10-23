@@ -5,8 +5,8 @@ import java.util.UUID
 import kotlinx.serialization.json.*
 
 /** Selections and owned state are persisted separately; derived values are never stored. */
-class ProductionCharacters(private val db: Database, val rules: NarrowRules = NarrowRules.tier8()) {
-    private val profiles=listOf(NarrowRules.bundled(),NarrowRules.tier1(),NarrowRules.tier2(),NarrowRules.tier3(),NarrowRules.tier4(),NarrowRules.tier5(),NarrowRules.tier6(),NarrowRules.tier7(),NarrowRules.tier8(),rules).associateBy { it.id }
+class ProductionCharacters(private val db: Database, val rules: NarrowRules = NarrowRules.tier9()) {
+    private val profiles=listOf(NarrowRules.bundled(),NarrowRules.tier1(),NarrowRules.tier2(),NarrowRules.tier3(),NarrowRules.tier4(),NarrowRules.tier5(),NarrowRules.tier6(),NarrowRules.tier7(),NarrowRules.tier8(),NarrowRules.tier9(),rules).associateBy { it.id }
     fun rulesFor(profileId:String)=profiles[profileId] ?: rules
     init { db.transaction { connection ->
       for(rules in profiles.values) {

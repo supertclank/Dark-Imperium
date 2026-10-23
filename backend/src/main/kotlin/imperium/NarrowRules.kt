@@ -281,6 +281,7 @@ class NarrowRules(val bundle: JsonObject) {
     }
     companion object {
         fun tier8(): NarrowRules = NarrowRules(Json.parseToJsonElement(requireNotNull(NarrowRules::class.java.getResource("/profiles/di-phb-1.0-tier1-v8.json")).readText()).jsonObject)
+        fun tier9(): NarrowRules = NarrowRules(Json.parseToJsonElement(requireNotNull(NarrowRules::class.java.getResource("/profiles/di-phb-1.0-tier1-v9.json")).readText()).jsonObject)
         fun tier7(): NarrowRules = NarrowRules(Json.parseToJsonElement(requireNotNull(NarrowRules::class.java.getResource("/profiles/di-phb-1.0-tier1-v7.json")).readText()).jsonObject)
         fun tier6(): NarrowRules = NarrowRules(Json.parseToJsonElement(requireNotNull(NarrowRules::class.java.getResource("/profiles/di-phb-1.0-tier1-v6.json")).readText()).jsonObject)
         fun tier5(): NarrowRules = NarrowRules(Json.parseToJsonElement(requireNotNull(NarrowRules::class.java.getResource("/profiles/di-phb-1.0-tier1-v5.json")).readText()).jsonObject)

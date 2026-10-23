@@ -330,4 +330,37 @@ class CharacterRollsTest {
         error("INVALID_ADVANCEMENT_CHOICE") { service.advance(r.owner,r.id,AdvanceRequest(UUID.randomUUID().toString(),0,2,mapOf("di.choice.veteran.subclass" to listOf("marksman")))) }
     }
 
+    @Test fun `Human Scum every Origin advances continuously without healing or replacing history`() {
+        val rules=NarrowRules.tier9()
+        for(full in tier9Fixtures().filter{it.speciesId=="di.species.human" && it.classId=="di.class.hive_scum" && it.level==5}) {
+            fun keys(level:Int)=rules.spec.objects("pathConfigurations").single{it.text("speciesId")==full.speciesId && it.text("originId")==full.originId && it.text("classId")==full.classId && it.num("level")==level}.strings("choices").toSet()
+            val r=rig(draft=full.copy(level=1,answers=full.answers.filterKeys{it in keys(1)}));val service=CharacterAdvancement(db,r.characters)
+            val first=r.sheet();val notes=SheetDetails(db,r.characters);notes.saveNotes(r.owner,r.id,NotesUpdate("Roster verification notes",0))
+            r.execute("Knife attack");val history=r.rolls.history(r.owner,r.id)
+            for(level in 2..5) {
+                val version=r.sheet().getValue("runtime").jsonObject.getValue("stateVersion").jsonPrimitive.long
+                if(level<5)error("INVALID_TRANSITION"){service.advance(r.owner,r.id,AdvanceRequest(UUID.randomUUID().toString(),version,level+1))}
+                val request=AdvanceRequest(UUID.randomUUID().toString(),version,level,full.answers.filterKeys{it in keys(level) && it !in keys(level-1)})
+                val result=service.advance(r.owner,r.id,request);assertEquals(result,service.advance(r.owner,r.id,request))
+                assertEquals(level,r.sheet().num("level"));assertEquals(first.getValue("runtime").jsonObject["currentHp"],r.sheet().getValue("runtime").jsonObject["currentHp"])
+                assertEquals(first["inventory"],r.sheet()["inventory"]);assertEquals(history,r.rolls.history(r.owner,r.id));assertEquals("Roster verification notes",notes.notes(r.owner,r.id).text("text"))
+            }
+            val final=r.sheet();assertEquals(1,final.getValue("calculated").jsonObject.getValue("attackAction").jsonObject.num("attacksPerAttackAction"))
+            assertEquals("dexterity",r.execute("Knife attack").getValue("context").jsonObject.text("ability"))
+        }
+    }
+    @Test fun `v7 and v8 Human Scum upgrades require explicit consent and existing level five stays pinned`() {
+        val next=NarrowRules.tier9();val full=tier9Fixtures().first{it.speciesId=="di.species.human" && it.classId=="di.class.hive_scum" && it.level==1}
+        for(old in listOf(NarrowRules.tier7(),NarrowRules.tier8())) {
+            val r=rig(draft=full.copy(profileId=old.id,profileDigest=old.digest));val service=CharacterAdvancement(db,r.characters)
+            assertTrue(service.readiness(r.owner,r.id).getValue("requiresProfileUpgrade").jsonPrimitive.boolean)
+            val request=AdvanceRequest(UUID.randomUUID().toString(),0,2)
+            error("PROFILE_UPGRADE_CONFIRMATION_REQUIRED"){service.advance(r.owner,r.id,request)}
+            assertEquals(old.id,r.sheet().text("rulesetProfileId"));service.advance(r.owner,r.id,request.copy(confirmProfileUpgrade=true));assertEquals(next.id,r.sheet().text("rulesetProfileId"))
+        }
+        val r=level5Rig();val ready=CharacterAdvancement(db,r.characters).readiness(r.owner,r.id)
+        assertFalse(ready.getValue("requiresProfileUpgrade").jsonPrimitive.boolean);assertEquals(NarrowRules.tier8().id,r.sheet().text("rulesetProfileId"))
+    }
+
 }
+
