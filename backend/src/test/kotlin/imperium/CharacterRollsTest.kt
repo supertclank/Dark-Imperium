@@ -42,6 +42,30 @@ class CharacterRollsTest {
     }
     private fun error(code:String,block:()->Unit) { assertEquals(code,assertFailsWith<ApiException>(block=block).code) }
 
+
+    @Test fun `fixed Knife rejects forged ability and notes remain private versioned and independent`() {
+        val rules=NarrowRules.tier7()
+        val draft=tier6Fixtures().first { it.classId=="di.class.ratling_sharpshooter" && it.level==1 }.copy(profileId=rules.id,profileDigest=rules.digest)
+        val r=rig(DieSource { minOf(10,it) },draft)
+        error("INVALID_CONTEXT") { r.rolls.execute(r.owner,r.id,r.request("Knife attack").copy(ability="strength")) }
+        val attack=r.execute("Knife attack")
+        assertEquals("dexterity",attack.getValue("context").jsonObject.text("ability"))
+        val damage=r.rolls.execute(r.owner,r.id,r.request("Knife damage").copy(parentResultId=attack.text("id")))
+        assertEquals("dexterity",damage.getValue("context").jsonObject.text("ability"))
+        val details=SheetDetails(db,r.characters)
+        assertEquals(rules.id,details.entity(r.owner,r.id,"di.weapon.knife").text("profileId"))
+        error("DETAIL_NOT_AVAILABLE") { details.entity(r.owner,r.id,"di.weapon.thunder_hammer") }
+        val before=r.sheet().getValue("runtime")
+        assertEquals("",details.notes(r.owner,r.id).text("text"))
+        details.saveNotes(r.owner,r.id,NotesUpdate("Private session journal",0))
+        assertEquals("Private session journal",details.notes(r.owner,r.id).text("text"))
+        error("NOTES_CONFLICT") { details.saveNotes(r.owner,r.id,NotesUpdate("stale",0)) }
+        error("NOTES_TOO_LONG") { details.saveNotes(r.owner,r.id,NotesUpdate("x".repeat(20001),1)) }
+        error("NOT_FOUND") { details.notes(UUID.randomUUID(),r.id) }
+        error("NOT_FOUND") { details.saveNotes(UUID.randomUUID(),r.id,NotesUpdate("intrusion",1)) }
+        assertEquals(before,r.sheet().getValue("runtime"))
+        assertEquals(rules.digest,r.sheet().text("rulesetDigest"))
+    }
     @Test fun `v4 retains existing Human advancement and pinned original HP inventory and history`() {
         val rules=NarrowRules.tier4();val d=tier2Fixture("veteran-1").copy(profileId=rules.id,profileDigest=rules.digest)
         val r=rig(DieSource { 10 },d);val rolled=r.execute("Initiative");val before=r.sheet()

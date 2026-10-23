@@ -1336,7 +1336,14 @@
       "sha256": "dc5f34452786e00e86d53dbfd3ebbff0ef39a10ccc99eef50bacb4112ca53077",
       "approvedBy": "user",
       "date": "2026-10-22"
-    }
+    },
+    "amendments": [
+      {
+        "id": "PHB-RULE-024-AMENDMENT-2026-10-23",
+        "path": "review/weapon-ability-amendments.json",
+        "effectiveProfile": "di-phb-1.0-tier1-v7"
+      }
+    ]
   },
   {
     "id": "PHB-RULE-026",

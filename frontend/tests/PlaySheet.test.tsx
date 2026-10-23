@@ -14,8 +14,6 @@ const setup = () => {
       options={options.options as RollOption[]}
       disabled={false}
       onRoll={onRoll}
-      abilities={{}}
-      onAbility={() => {}}
     />,
   );
   return onRoll;
@@ -59,7 +57,7 @@ it("keeps inventory and traits behind accessible keyboard tabs with manual flags
   ).toBeInTheDocument();
   expect(screen.getByText("Frag Grenade")).toBeInTheDocument();
   fireEvent.keyDown(screen.getByRole("tab", { name: "Inventory" }), {
-    key: "End",
+    key: "ArrowRight",
   });
   expect(
     screen.getByRole("tab", { name: "Features & Traits" }),
@@ -72,25 +70,8 @@ it("shows proficient and non-proficient markers beside server modifiers", () => 
   expect(screen.getAllByLabelText("Not proficient").length).toBeGreaterThan(0);
 });
 
-it("displays server-supplied Finesse alternatives without recalculating modifiers", () => {
-  const choices = options.options.map((o) => ({
-    ...o,
-    modifierChoices: { strength: 2, dexterity: 7 },
-  }));
-  render(
-    <PlaySheet
-      character={character as SavedCharacter}
-      options={choices as RollOption[]}
-      disabled={false}
-      onRoll={() => {}}
-      abilities={{ "di.weapon.combat_blade": "dexterity" }}
-      onAbility={() => {}}
-    />,
-  );
-  expect(
-    screen.getByRole("button", { name: "Roll Combat Blade attack" }),
-  ).toHaveTextContent("+7");
-  expect(
-    screen.getByRole("button", { name: "Roll Combat Blade damage" }),
-  ).toHaveTextContent("1d6 +7");
+it("shows fixed ability information and no weapon ability selector",()=>{
+ setup();expect(screen.queryByLabelText('Combat Blade ability')).not.toBeInTheDocument();
+ expect(screen.getAllByText(/Attack ability:/).length).toBeGreaterThan(0);
+ expect(screen.getAllByRole('tab')).toHaveLength(6);
 });

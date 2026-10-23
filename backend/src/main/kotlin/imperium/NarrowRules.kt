@@ -50,6 +50,7 @@ class NarrowRules(val bundle: JsonObject) {
     val kit = payload.getValue("package").jsonObject
     val attributes = spec.strings("attributes")
     private val tier1 = spec.text("engineVersion")=="phb-tier1-kotlin-v1"
+    val fixedWeaponAbilities = spec["weaponAbilityPolicyVersion"]?.jsonPrimitive?.int == 2
     val expanded = spec["compositionVersion"]?.jsonPrimitive?.int == 2
     private val speciesComposition = spec["speciesComposition"]?.jsonPrimitive?.boolean == true
     private val speciesMechanics = spec["speciesMechanicsVersion"]?.jsonPrimitive?.int == 1
@@ -252,15 +253,16 @@ class NarrowRules(val bundle: JsonObject) {
         }
         for(item in starting) {
             val d=data(item);val mode=d.objects("modes").single();val binding=d.getValue("abilityBinding").jsonObject
-            val ability=when(binding.text("attack")) { "finesse"->"strength";"none"->null;else->binding.text("attack") }
+            val ability=WeaponAbilities.resolve(binding.text("attack"),fixedWeaponAbilities)
+            val damageAbility=if(fixedWeaponAbilities) WeaponAbilities.resolve(binding.text("damage"),true) else if(binding.text("damage")=="none") null else ability
             val proficient=item in starting || item in direct || d.strings("proficiencyGroups").any { it in groups }
             val attack=ability?.let { mods.getValue(it)+(if(proficient) pb else 0) };val actionId=ref(mode,"action")
             if(attack!=null) roll("$item.attack","attack","${label(item)} attack",item,1,20,attack,actionId=actionId)
             val component=mode.objects("damage").single();val dice=component.getValue("dice").jsonObject
-            val damageBonus=Level4Rules.weaponBonus(this,draft,item)+dice.num("bonus")+component.getValue("bonus").jsonObject.num("value")+(if(binding.text("damage")=="none") 0 else mods.getValue(ability!!))
+            val damageBonus=Level4Rules.weaponBonus(this,draft,item)+dice.num("bonus")+component.getValue("bonus").jsonObject.num("value")+(damageAbility?.let { mods.getValue(it) } ?: 0)
             val damageRoll=roll("$item.damage","damage","${label(item)} damage",item,dice.num("count"),dice.num("sides"),damageBonus,component.getValue("damageType"),actionId)
             val expression="${dice.num("count")}d${dice.num("sides")}"+(if(damageBonus==0) "" else if(damageBonus>0) " + $damageBonus" else " - ${-damageBonus}")
-            actions+=obj("id" to actionId,"itemId" to item,"name" to label(item),"attackBonus" to attack,"ability" to ability,"damageExpression" to expression,"damageType" to label(ref(component,"damageType")),"range" to mode.getValue("range"),"properties" to d.objects("properties").map { property -> label(ref(property,"property")) + ((property["arguments"] as? JsonObject)?.entries?.takeIf { it.isNotEmpty() }?.joinToString(", ", " (", ")") { (key,value) -> "$key: ${value.jsonPrimitive.content}" } ?: "") },"save" to mode["save"],"saveDc" to if(mode.containsKey("save")) policy.num("grenadeDcBase")+pb+mods.getValue("dexterity") else null,"area" to mode["area"],"consumption" to mode["consumption"],"damageRollId" to damageRoll.text("id"),"manual" to true)
+            actions+=obj("id" to actionId,"itemId" to item,"name" to label(item),"attackBonus" to attack,"ability" to ability,"attackAbilityId" to ability,"damageAbilityId" to damageAbility,"damageExpression" to expression,"damageType" to label(ref(component,"damageType")),"range" to mode.getValue("range"),"properties" to d.objects("properties").map { property -> label(ref(property,"property")) + ((property["arguments"] as? JsonObject)?.entries?.takeIf { it.isNotEmpty() }?.joinToString(", ", " (", ")") { (key,value) -> "$key: ${value.jsonPrimitive.content}" } ?: "") },"save" to mode["save"],"saveDc" to if(mode.containsKey("save")) policy.num("grenadeDcBase")+pb+mods.getValue("dexterity") else null,"area" to mode["area"],"consumption" to mode["consumption"],"damageRollId" to damageRoll.text("id"),"manual" to true)
         }
         return obj("advancementSelection" to Level4Rules.selected(this,draft),"abilityAdjustments" to trace.filter { it.text("kind")=="adjustment" },"attributes" to final,"attributeModifiers" to mods,"proficiencyBonus" to pb,"maximumWounds" to hp,"defence" to ac,"movement" to (effectSum("movement.walk")+featureSupports.mapNotNull { it["armourMovement"] as? JsonObject }.filter { armourData.text("category") in it.strings("categories") }.sumOf { it.num("amount") }),"initiative" to initiative,"saves" to saves,"skills" to skills,"proficiencies" to profs.map(::view),"weaponProficiencies" to obj("groups" to groups.sorted(),"specificWeapons" to direct.sorted(),"startingPackageWeapons" to starting),"features" to features.map(::featureView),"inventory" to inventory,"actions" to actions,"rollDefinitions" to rolls,"readiness" to "PLAYABLE_WITH_MANUAL_RULES","rollAuthority" to "DISPLAY_ONLY_NOT_AUTHORIZATION","profileDigest" to digest).let { base ->
             if(!expanded) base else {
@@ -271,6 +273,7 @@ class NarrowRules(val bundle: JsonObject) {
         }
     }
     companion object {
+        fun tier7(): NarrowRules = NarrowRules(Json.parseToJsonElement(requireNotNull(NarrowRules::class.java.getResource("/profiles/di-phb-1.0-tier1-v7.json")).readText()).jsonObject)
         fun tier6(): NarrowRules = NarrowRules(Json.parseToJsonElement(requireNotNull(NarrowRules::class.java.getResource("/profiles/di-phb-1.0-tier1-v6.json")).readText()).jsonObject)
         fun tier5(): NarrowRules = NarrowRules(Json.parseToJsonElement(requireNotNull(NarrowRules::class.java.getResource("/profiles/di-phb-1.0-tier1-v5.json")).readText()).jsonObject)
         fun tier4(): NarrowRules = NarrowRules(Json.parseToJsonElement(requireNotNull(NarrowRules::class.java.getResource("/profiles/di-phb-1.0-tier1-v4.json")).readText()).jsonObject)

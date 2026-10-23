@@ -104,16 +104,11 @@ it("sends only a roll identity and permitted context with current state", async 
   for (const key of ["dice", "modifier", "total", "userId", "definition"])
     expect(body).not.toHaveProperty(key);
 });
-it("sends the permitted Finesse ability choice", async () => {
-  display();
-  const select = await screen.findByLabelText("Combat Blade ability");
-  fireEvent.change(select, { target: { value: "dexterity" } });
-  fireEvent.click(
-    screen.getByRole("button", { name: "Roll Combat Blade attack" }),
-  );
-  await waitFor(() =>
-    expect(JSON.parse(posts()[0][1].body).ability).toBe("dexterity"),
-  );
+it("does not expose or submit a player-selected weapon ability", async () => {
+ display();fireEvent.click(await screen.findByRole('button',{name:'Roll Combat Blade attack'}));
+ await waitFor(()=>expect(posts()).toHaveLength(1));
+ expect(screen.queryByLabelText('Combat Blade ability')).not.toBeInTheDocument();
+ expect(JSON.parse(posts()[0][1].body)).not.toHaveProperty('ability');
 });
 it("requires grenade confirmation and refreshes quantity after committed result", async () => {
   let used = false;

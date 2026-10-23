@@ -29,7 +29,7 @@ class CharacterRolls(
         val sheet = characters.get(con,owner,character)
         val snapshot = con.query("SELECT snapshot FROM ruleset_profiles WHERE id=? AND digest=?",sheet.text("rulesetProfileId"),sheet.text("rulesetDigest")) { Json.parseToJsonElement(it.getString(1)).jsonObject }.single()
         val rules = NarrowRules(snapshot)
-        if(mapOf("di-phb-1.0-narrow-v1" to "narrow-kotlin-v1", "di-phb-1.0-tier1-v1" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v2" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v3" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v4" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v5" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v6" to "phb-tier1-kotlin-v1")[rules.id] != rules.spec.text("engineVersion"))
+        if(mapOf("di-phb-1.0-narrow-v1" to "narrow-kotlin-v1", "di-phb-1.0-tier1-v1" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v2" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v3" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v4" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v5" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v6" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v7" to "phb-tier1-kotlin-v1")[rules.id] != rules.spec.text("engineVersion"))
             fail("RULESET_MISMATCH","Runtime rolling is not supported for this ruleset.",409)
         return sheet to rules
     }
@@ -105,7 +105,8 @@ class CharacterRolls(
             if(mutates && (!request.confirmConsumption || category != "damage")) fail("INVALID_CONTEXT","Confirm consuming one ${rules.label(item!!)} to execute its base damage roll.")
             if(!mutates && request.confirmConsumption) fail("INVALID_CONTEXT","This roll does not consume an item.")
             val actionView = calculation.objects("actions").singleOrNull { it.text("id") == action }
-            val defaultAbility = (actionView?.get("ability") as? JsonPrimitive)?.contentOrNull
+            val defaultAbility = (actionView?.get(if(rules.fixedWeaponAbilities && category=="damage") "damageAbilityId" else "ability") as? JsonPrimitive)?.contentOrNull
+            if(rules.fixedWeaponAbilities && request.ability != null) fail("INVALID_CONTEXT","Weapon ability is fixed by the pinned ruleset; do not submit an ability override.")
             if(request.ability != null && (!finesse(item,rules) || request.ability !in listOf("strength","dexterity")))
                 fail("INVALID_CONTEXT","Ability substitution is permitted only for this weapon's Finesse choices.")
             val ability = request.ability ?: defaultAbility
@@ -114,7 +115,7 @@ class CharacterRolls(
                 con.query("SELECT result FROM character_rolls WHERE id=? AND character_id=? AND user_id=?",requestUuid(value),character,owner) { Json.parseToJsonElement(it.getString(1)).jsonObject }.singleOrNull()
                     ?: fail("INVALID_CONTEXT","The parent attack is not available for this character.")
             }
-            if(parent != null && (parent.text("rollType") != "attack" || parent.text("rulesetDigest") != rules.digest || parent["actionId"] != json(action) || parent.getValue("context").jsonObject["ability"] != json(ability)))
+            if(parent != null && (parent.text("rollType") != "attack" || parent.text("rulesetDigest") != rules.digest || parent["actionId"] != json(action) || parent.getValue("context").jsonObject["ability"] != (if(rules.fixedWeaponAbilities) actionView?.get("attackAbilityId") else json(ability))))
                 fail("INVALID_CONTEXT","Damage must use the same weapon and ability as its parent attack.")
             if(parent != null && calculation.objects("rollDefinitions").none { it.text("category")=="attack" && it.text("id")==parent.text("requestedRollId") })
                 fail("INVALID_CONTEXT","The parent attack belongs to an earlier character level; roll a new attack.")

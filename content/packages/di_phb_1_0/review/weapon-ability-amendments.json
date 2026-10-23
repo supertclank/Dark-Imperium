@@ -1,0 +1,24 @@
+[
+  {
+    "id": "PHB-RULE-024-AMENDMENT-2026-10-23",
+    "rulingId": "PHB-RULE-024",
+    "status": "APPROVED",
+    "approvedBy": "user",
+    "date": "2026-10-23",
+    "approvalPath": "review/approved-weapon-ability-amendment.txt",
+    "approvalSha256": "d6546cd6bd559ffd064c6603f63e0363ea50b45b7b4979aa6002fda04780e30e",
+    "supersedes": "Finesse player-selected Strength/Dexterity only; other approved defaults remain",
+    "policyVersion": 2,
+    "historicalPolicyVersion": 1,
+    "policy": {
+      "melee": "strength",
+      "finesse": "dexterity",
+      "ranged": "dexterity",
+      "thrown": "normal_fixed_binding",
+      "explicitOverride": "takes_precedence",
+      "saveDamage": "none_unless_explicit"
+    },
+    "priorApprovalPath": "review/approved-minimum-rulings.txt",
+    "priorApprovalSha256": "dc5f34452786e00e86d53dbfd3ebbff0ef39a10ccc99eef50bacb4112ca53077"
+  }
+]

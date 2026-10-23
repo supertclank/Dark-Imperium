@@ -1,0 +1,238 @@
+{
+  "character": {
+    "id": "b1b8fefd-bca5-4dc2-99e0-c5b5c825b524",
+    "dice": {
+      "total": 23,
+      "groups": [
+        {
+          "dice": [
+            18
+          ],
+          "keep": "ALL",
+          "kept": [
+            18
+          ],
+          "sides": 20,
+          "discarded": [],
+          "keptIndices": [
+            0
+          ],
+          "discardedIndices": []
+        }
+      ],
+      "modifier": 5
+    },
+    "label": "Knife attack",
+    "total": 23,
+    "userId": "38416b0f-31de-45ee-84fc-143fa0ab7fb9",
+    "context": {
+      "mode": "baseline",
+      "ability": "dexterity",
+      "characterLevel": 1,
+      "criticalDamage": "NOT_APPLIED",
+      "parentResultId": null,
+      "targetResolution": "MANUAL",
+      "consumptionConfirmed": false
+    },
+    "grenade": null,
+    "request": {
+      "rollId": "f72af084-c222-39eb-9893-56111ef6f257",
+      "ability": null,
+      "profileId": "di-phb-1.0-tier1-v7",
+      "requestId": "e46d3ad4-9489-484c-aa7d-1c125b28615f",
+      "visibility": "PRIVATE",
+      "profileDigest": "af92705fc1a85b49a4e06c52999cfff335e8a9800f43608a30e540f391b4b6d5",
+      "parentResultId": null,
+      "confirmConsumption": false,
+      "expectedStateVersion": 0
+    },
+    "actionId": "di.action.knife.attack",
+    "physical": {
+      "source": "PHYSICS",
+      "rollSessionId": "cba179b2-d46e-492f-b570-49b51c61045c",
+      "physicsVersion": "rapier-0.21.0-di-1",
+      "geometryVersion": "di-physical-2",
+      "presentationSeed": "7dad59ef290aab8f6eae66fe5cd48e910516538ef7df3ffa4961da2768dc00cf",
+      "rawPhysicalValues": [
+        [
+          18
+        ]
+      ]
+    },
+    "rollType": "attack",
+    "requestId": "e46d3ad4-9489-484c-aa7d-1c125b28615f",
+    "timestamp": "2026-10-23T16:11:16.451443700Z",
+    "damageType": null,
+    "definition": {
+      "id": "1520815f-3c13-3195-8134-d24d1546b3d6",
+      "actor": {
+        "kind": "character",
+        "instanceId": "076d5e3f-c9ce-4f43-b7d1-46185d116f15"
+      },
+      "label": "Knife attack",
+      "action": {
+        "ref": {
+          "id": "di.action.knife.attack"
+        },
+        "modeId": "base",
+        "stageId": "attack",
+        "executionId": "b1b8fefd-bca5-4dc2-99e0-c5b5c825b524"
+      },
+      "source": {
+        "ref": {
+          "id": "di.weapon.knife"
+        },
+        "kind": "content"
+      },
+      "natural": {
+        "groupId": "base",
+        "componentId": "base"
+      },
+      "category": "attack",
+      "critical": {
+        "status": "enabled",
+        "policyId": "phb.critical.v1",
+        "threshold": 20,
+        "comparison": "at_least"
+      },
+      "snapshot": {
+        "stateVersion": 0,
+        "contextDigest": "851c2123aceb5425971ce8edb6cdfeac2f0e38e3703f418bd91c6865113fc683",
+        "engineVersion": "phb-tier1-kotlin-v1",
+        "rulesetLockDigest": "af92705fc1a85b49a4e06c52999cfff335e8a9800f43608a30e540f391b4b6d5"
+      },
+      "advantage": {
+        "state": "normal",
+        "policyId": "phb.advantage.v1",
+        "appliedGroupIds": []
+      },
+      "components": [
+        {
+          "id": "base",
+          "groups": [
+            {
+              "id": "base",
+              "count": 1,
+              "sides": 20
+            }
+          ],
+          "modifiers": [
+            {
+              "id": "resolved",
+              "label": "Server-calculated modifier",
+              "value": 5,
+              "source": {
+                "ref": {
+                  "id": "di.weapon.knife"
+                },
+                "kind": "content"
+              },
+              "contextual": false
+            }
+          ]
+        }
+      ],
+      "schemaVersion": 1
+    },
+    "naturalOne": false,
+    "visibility": "PRIVATE",
+    "characterId": "076d5e3f-c9ce-4f43-b7d1-46185d116f15",
+    "consumption": null,
+    "characterName": "Fixed Dexterity – Knife acceptance",
+    "engineVersion": "production-dice-v1",
+    "naturalResult": 18,
+    "rulesetDigest": "af92705fc1a85b49a4e06c52999cfff335e8a9800f43608a30e540f391b4b6d5",
+    "parentResultId": null,
+    "requestedRollId": "f72af084-c222-39eb-9893-56111ef6f257",
+    "rollDefinitionId": "1520815f-3c13-3195-8134-d24d1546b3d6",
+    "rulesetProfileId": "di-phb-1.0-tier1-v7",
+    "criticalCandidate": false,
+    "stateVersionAfter": 0,
+    "stateVersionBefore": 0
+  },
+  "free": {
+    "id": "35bea8dc-e8c6-446b-9f89-5e5f8a1b2436",
+    "dice": {
+      "total": 13,
+      "groups": [
+        {
+          "dice": [
+            4,
+            6,
+            1,
+            2
+          ],
+          "keep": "ALL",
+          "kept": [
+            4,
+            6,
+            1,
+            2
+          ],
+          "sides": 6,
+          "discarded": [],
+          "keptIndices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "discardedIndices": []
+        }
+      ],
+      "modifier": 0
+    },
+    "label": "4d6",
+    "total": 13,
+    "context": {
+      "ability": null,
+      "criticalDamage": "NOT_APPLIED",
+      "targetResolution": "MANUAL"
+    },
+    "grenade": null,
+    "actionId": null,
+    "physical": {
+      "source": "PHYSICS",
+      "rollSessionId": "cd80a212-00dc-4a57-8e75-efa2241c1d66",
+      "physicsVersion": "rapier-0.21.0-di-1",
+      "geometryVersion": "di-physical-2",
+      "presentationSeed": "dd328fc48cb5853dac681f6036602e00096532f0496845bf9eb41d977aa0d85e",
+      "rawPhysicalValues": [
+        [
+          4,
+          6,
+          1,
+          2
+        ]
+      ]
+    },
+    "rollType": "FREE_ROLL",
+    "requestId": "92679739-b265-4e60-ad25-9da19ce05845",
+    "timestamp": "2026-10-23T16:11:30.226921700Z",
+    "damageType": null,
+    "definition": {
+      "groups": [
+        {
+          "count": 4,
+          "sides": 6
+        }
+      ],
+      "category": "FREE_ROLL",
+      "modifier": 0,
+      "authority": "SERVER"
+    },
+    "naturalOne": false,
+    "visibility": "PRIVATE",
+    "characterId": "",
+    "consumption": null,
+    "characterName": "Free dice",
+    "naturalResult": null,
+    "rulesetDigest": "",
+    "parentResultId": null,
+    "requestedRollId": "FREE_ROLL",
+    "rulesetProfileId": "",
+    "criticalCandidate": false,
+    "stateVersionAfter": 0,
+    "stateVersionBefore": 0
+  }
+}

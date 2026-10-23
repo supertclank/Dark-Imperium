@@ -1,0 +1,216 @@
+## 15. Approved PHB-RULE-024 Amendment
+
+Update the existing PHB-RULE-024 weapon ability policy.
+
+The previous Finesse policy allowed choosing Strength or Dexterity.
+
+That portion is superseded.
+
+The new policy is:
+
+### Standard melee weapons
+
+Use:
+
+```text
+Strength
+```
+
+for attack and damage.
+
+### Finesse melee weapons
+
+Use:
+
+```text
+Dexterity
+```
+
+for attack and damage.
+
+There is no player Strength/Dexterity choice.
+
+### Ranged weapons
+
+Use:
+
+```text
+Dexterity
+```
+
+for attack and damage unless explicitly overridden.
+
+### Thrown weapons
+
+Use the weapon's normal fixed attack ability.
+
+Examples:
+
+- Thrown Knife → Dexterity
+- a thrown Strength-based melee weapon → Strength unless canonical weapon data explicitly says otherwise
+
+### Psychic/Special Weapons
+
+An explicit feature/weapon override takes precedence.
+
+Example:
+
+- Spirit Weapon may use the explicitly defined psychic ability if the canonical rule grants that substitution.
+
+### Save-Based Damage
+
+Save-based attacks do not automatically add an ability modifier unless their canonical rule explicitly says so.
+
+### Explicit Overrides
+
+Specific weapon/feature text always beats the generic category rule.
+
+---
+
+## 16. Required Examples
+
+The following examples are explicitly approved:
+
+```text
+Knife
+Finesse · Light · Thrown
+
+Attack Ability: Dexterity
+Damage Ability: Dexterity
+```
+
+The UI must NOT display a Strength/Dexterity selector.
+
+---
+
+```text
+Thunder Hammer
+
+Attack Ability: Strength
+Damage Ability: Strength
+```
+
+No Dexterity option.
+
+---
+
+## 17. Server-Resolved Ability
+
+Every executable weapon action should expose its resolved ability through calculated action metadata.
+
+Conceptually:
+
+```text
+attackAbilityId = dexterity
+damageAbilityId = dexterity
+```
+
+or:
+
+```text
+attackAbilityId = strength
+damageAbilityId = strength
+```
+
+React displays the resulting modifier.
+
+React does not decide which ability makes sense.
+
+---
+
+## 18. No Weapon-Specific React Branches
+
+Forbidden:
+
+```ts
+if (weapon.name === "Knife") {
+  ability = "dexterity"
+}
+```
+
+Forbidden:
+
+```ts
+if (weapon.name.includes("Hammer")) {
+  ability = "strength"
+}
+```
+
+The rule/content engine resolves this from structured canonical properties/effects.
+
+---
+
+## 19. Generic Weapon Metadata
+
+Where necessary, extend canonical weapon/action metadata with a declarative binding such as:
+
+```text
+attackAbilityPolicy:
+  DEXTERITY
+```
+
+or:
+
+```text
+attackAbilityPolicy:
+  STRENGTH
+```
+
+or:
+
+```text
+attackAbilityPolicy:
+  EXPLICIT_OVERRIDE
+```
+
+Exact schema naming should fit the existing architecture.
+
+Do not encode game logic in display strings.
+
+---
+
+## 20. Finesse Semantics
+
+Finesse now means:
+
+```text
+this weapon uses Dexterity
+```
+
+for the ordinary Dark Imperium weapon-action calculation.
+
+It no longer means:
+
+```text
+player chooses Strength or Dexterity each attack
+```
+
+Update:
+
+- ruling ledger
+- approved ruling integration
+- canonical calculation tests
+- action-generation tests
+- frontend tests
+- presentation text
+
+Preserve original approval provenance and record this amendment clearly.
+
+Do not silently rewrite historical approval records.
+
+---
+
+## 21. Historical Profiles
+
+Do NOT mutate old immutable profile bytes simply to rewrite history.
+
+Existing historical roll records remain associated with the profile/rule behaviour under which they were generated.
+
+If this mechanical amendment changes current production calculation bytes, create the required next immutable profile/release according to existing project conventions.
+
+Do not silently rebind existing characters.
+
+Report whether a new profile was required.
+
+---
+

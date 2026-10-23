@@ -3,26 +3,51 @@ import { useState, type ReactNode } from "react";
 import type { SavedCharacter } from "@/lib/builder";
 import { signed } from "@/lib/builder";
 import type { RollOption } from "@/lib/rolls";
+import { SheetInspector, type Inspection } from "./SheetInspector";
+import { SheetNotes } from "./SheetNotes";
 import { RollActionButton } from "./RollActionButton";
 type Props = {
   character: SavedCharacter;
   options: RollOption[];
   disabled: boolean;
   onRoll: (o: RollOption) => void;
-  abilities: Record<string, string>;
-  onAbility: (key: string, value: string) => void;
 };
-export function PlaySheet({
-  character,
-  options,
-  disabled,
-  onRoll,
-  abilities,
-  onAbility,
-}: Props) {
+export function PlaySheet({ character, options, disabled, onRoll }: Props) {
   const c = character.calculated,
     [tab, setTab] = useState("Actions");
-  const tabs = ["Actions", "Inventory", "Features & Traits"];
+  const tabs = [
+    "Actions",
+    "Inventory",
+    "Features & Traits",
+    "Origin & Character",
+    "Notes",
+    "Extras",
+  ];
+  const [target, setTarget] = useState<{
+      id: string;
+      name: string;
+      local?: Inspection;
+    } | null>(null),
+    [inventoryQuery, setInventoryQuery] = useState(""),
+    [inventoryFilter, setInventoryFilter] = useState("All"),
+    [featureFilter, setFeatureFilter] = useState("All");
+  const inspect = (id: string, name: string) => (
+    <button
+      type="button"
+      className="inspect-link"
+      aria-label={`Inspect ${name}`}
+      onClick={() => setTarget({ id, name })}
+    >
+      {name}
+    </button>
+  );
+  const inventoryKind = (id: string) =>
+    c.actions.some((a) => a.itemId === id)
+      ? "Weapons"
+      : id.startsWith("di.armour.")
+        ? "Armour"
+        : "Other";
+
   const find = (category: string, label: string) =>
     options.find(
       (o) =>
@@ -70,20 +95,10 @@ export function PlaySheet({
       damage = options.find(
         (o) => o.itemId === action.itemId && o.category === "damage",
       );
-    const choices = attack?.abilities ?? damage?.abilities ?? [];
-    const selectedAbility = abilities[action.itemId] ?? choices[0];
-    const attackModifier =
-      attack?.modifierChoices?.[selectedAbility] ?? attack?.modifier;
-    const damageModifier = damage?.modifierChoices?.[selectedAbility];
-    const damageExpression =
-      damageModifier === undefined
-        ? action.damageExpression
-        : damage!.groups.map((g) => `${g.count}d${g.sides}`).join(" + ") +
-          (damageModifier === 0 ? "" : ` ${signed(damageModifier)}`);
     return (
       <article className="play-weapon" key={action.id}>
         <div className="play-weapon-title">
-          <h3>{action.name}</h3>
+          <h3>{inspect(action.itemId, action.name)}</h3>
           <span className="small muted">{action.properties.join(" · ")}</span>
         </div>
         <div className="play-weapon-stats">
@@ -98,7 +113,7 @@ export function PlaySheet({
           <div>
             <small>{attack ? "Attack" : "Save DC"}</small>
             {attack ? (
-              roll(attack, signed(attackModifier!))
+              roll(attack, signed(attack.modifier))
             ) : (
               <span>{action.saveDc ?? "—"}</span>
             )}
@@ -112,51 +127,30 @@ export function PlaySheet({
             {roll(
               damage,
               <>
-                {damageExpression} <small>{action.damageType}</small>
+                {action.damageExpression} <small>{action.damageType}</small>
               </>,
             )}
           </div>
         </div>
-        {choices.length > 0 && (
-          <label className="finesse-choice">
-            Ability
-            <select
-              aria-label={`${action.name} ability`}
-              value={abilities[action.itemId] ?? choices[0]}
-              disabled={disabled}
-              onChange={(e) => onAbility(action.itemId, e.target.value)}
-            >
-              {choices.map((a) => (
-                <option key={a}>{a}</option>
-              ))}
-            </select>
-            <small>Server-calculated ability choice</small>
-          </label>
-        )}
+        <p className="weapon-binding">
+          Attack ability:{" "}
+          <strong>{action.attackAbilityId ?? action.ability ?? "None"}</strong>{" "}
+          · Damage ability:{" "}
+          <strong>
+            {action.damageAbilityId ??
+              (action.save ? "None" : action.ability) ??
+              "None"}
+          </strong>
+        </p>
         {damage && !damage.available && (
           <p className="small">{damage.reason}</p>
         )}
-        <details>
-          <summary>Rules & details</summary>
-          {c.equipmentNotes?.[action.itemId] && (
-            <p>{c.equipmentNotes[action.itemId]}</p>
-          )}
-          {action.save && (
-            <p>
-              DC {action.saveDc} {action.save.attribute} save. Damage outcomes
-              use the pinned source policy.
-            </p>
-          )}
-          {action.area && (
-            <p>
-              Radius {action.area.radius.value} {action.area.radius.unit}
-            </p>
-          )}
-          <p className="small">
-            Targets, hits, conditional effects and critical damage are resolved
-            manually.
-          </p>
-        </details>
+        <button
+          className="text-button small"
+          onClick={() => setTarget({ id: action.itemId, name: action.name })}
+        >
+          Rules & details
+        </button>
       </article>
     );
   }
@@ -171,16 +165,6 @@ export function PlaySheet({
             {character.characterClass.name}
             {c.subclass ? ` · ${c.subclass.name}` : ""}
           </p>
-          <details>
-            <summary>Profile & identity</summary>
-            <p>
-              {character.trait.name} · {character.rulesetProfileId}
-            </p>
-            <small>
-              Saved character calculations; conditional rules require manual
-              adjudication.
-            </small>
-          </details>
         </div>
         <div className="combat-strip">
           <div>
@@ -261,7 +245,7 @@ export function PlaySheet({
             <h2>Training</h2>
             <ul className="training-list">
               {c.proficiencies.map((p) => (
-                <li key={p.id}>{p.name}</li>
+                <li key={p.id}>{inspect(p.id, p.name)}</li>
               ))}
             </ul>
             {c.proceduralProficiencies?.map((p) => (
@@ -284,7 +268,7 @@ export function PlaySheet({
                 >
                   {skill.proficient ? "●" : "○"}
                 </span>
-                {skill.name}
+                {inspect(key, skill.name)}
               </span>
               {roll(find("skill", skill.name), signed(skill.modifier))}
             </div>
@@ -365,7 +349,42 @@ export function PlaySheet({
                     {Object.entries(character.runtime.resources).map(
                       ([key, value]) => (
                         <div className="stat-line" key={key}>
-                          <span>{key.replaceAll("_", " ")}</span>
+                          <button
+                            className="inspect-link"
+                            onClick={() =>
+                              setTarget({
+                                id: key,
+                                name: key.replaceAll("_", " "),
+                                local: {
+                                  id: key,
+                                  name: key.replaceAll("_", " "),
+                                  kind: "Resource",
+                                  description:
+                                    "Track this resource manually under the feature’s canonical usage rules.",
+                                  fields: [
+                                    {
+                                      label: "Remaining",
+                                      value: String(value.remaining),
+                                    },
+                                    {
+                                      label: "Maximum",
+                                      value: String(value.maximum),
+                                    },
+                                    {
+                                      label: "Recovery",
+                                      value: value.recovery.replaceAll(
+                                        "_",
+                                        " ",
+                                      ),
+                                    },
+                                  ],
+                                  status: "Manual tracking",
+                                },
+                              })
+                            }
+                          >
+                            {key.replaceAll("_", " ")}
+                          </button>
                           <span>
                             {value.remaining} / {value.maximum} ·{" "}
                             {value.recovery.replaceAll("_", " ")}
@@ -380,65 +399,182 @@ export function PlaySheet({
             {tab === "Inventory" && (
               <>
                 <h2>Inventory</h2>
-                {character.inventory.map((item) => (
-                  <details className="inventory-line" key={item.definitionId}>
-                    <summary>
-                      <span>{item.name}</span>
+                <div className="sheet-filters">
+                  <label>
+                    Search inventory
+                    <input
+                      type="search"
+                      value={inventoryQuery}
+                      onChange={(e) => setInventoryQuery(e.target.value)}
+                    />
+                  </label>
+                  <label>
+                    Show items
+                    <select
+                      value={inventoryFilter}
+                      onChange={(e) => setInventoryFilter(e.target.value)}
+                    >
+                      {[
+                        "All",
+                        "Equipped",
+                        ...Array.from(
+                          new Set(
+                            character.inventory.map((i) =>
+                              inventoryKind(i.definitionId),
+                            ),
+                          ),
+                        ),
+                      ].map((x) => (
+                        <option key={x}>{x}</option>
+                      ))}
+                    </select>
+                  </label>
+                </div>
+                {character.inventory
+                  .filter(
+                    (i) =>
+                      i.name
+                        .toLowerCase()
+                        .includes(inventoryQuery.toLowerCase()) &&
+                      (inventoryFilter === "All" ||
+                        (inventoryFilter === "Equipped" && i.equipped) ||
+                        inventoryKind(i.definitionId) === inventoryFilter),
+                  )
+                  .map((item) => (
+                    <div
+                      className="inventory-line stat-line"
+                      key={item.definitionId}
+                    >
+                      {inspect(item.definitionId, item.name)}
                       <span>
                         ×{item.quantity}
                         {item.equipped ? " · Equipped" : ""}
                       </span>
-                    </summary>
-                    {c.equipmentNotes?.[item.definitionId] && (
-                      <p>{c.equipmentNotes[item.definitionId]}</p>
-                    )}
-                    {options
-                      .filter((o) => o.itemId === item.definitionId)
-                      .map((o) => (
-                        <div key={o.id}>{roll(o, o.label)}</div>
-                      ))}
-                  </details>
-                ))}
+                    </div>
+                  ))}
               </>
             )}
             {tab === "Features & Traits" && (
               <>
-                {Object.entries(groups).map(([name, features]) => (
-                  <section key={name}>
-                    <h2>{name}</h2>
-                    {features.map((f) => (
-                      <details className="feature-line" key={f.id}>
-                        <summary>
-                          <span>{f.name}</span>
-                          <small>
-                            {f.classification === "AUTOMATED"
-                              ? "Calculated"
-                              : f.classification === "BLOCKED"
-                                ? "Unavailable"
-                                : f.classification === "PARTIAL"
-                                  ? "Conditional / manual"
-                                  : "Manual"}
-                          </small>
-                        </summary>
-                        {f.playerNote && <p>{f.playerNote}</p>}
-                        <p>{f.text}</p>
-                        <small>
-                          {f.sources
-                            .map(
-                              (s) =>
-                                `${s.locator.heading} · PDF ${s.locator.pdfPage}`,
-                            )
-                            .join("; ")}
-                        </small>
-                      </details>
+                <label className="feature-filter">
+                  Feature category
+                  <select
+                    value={featureFilter}
+                    onChange={(e) => setFeatureFilter(e.target.value)}
+                  >
+                    {["All", ...Object.keys(groups)].map((x) => (
+                      <option key={x}>{x}</option>
                     ))}
-                  </section>
-                ))}
+                  </select>
+                </label>
+                {Object.entries(groups)
+                  .filter(
+                    ([name]) =>
+                      featureFilter === "All" || featureFilter === name,
+                  )
+                  .map(([name, features]) => (
+                    <section key={name}>
+                      <h2>{name}</h2>
+                      {features.map((f) => (
+                        <details className="feature-line" key={f.id}>
+                          <summary>
+                            <span>{f.name}</span>
+                            <small>
+                              {f.classification === "AUTOMATED"
+                                ? "Calculated"
+                                : f.classification === "BLOCKED"
+                                  ? "Unavailable"
+                                  : f.classification === "PARTIAL"
+                                    ? "Conditional / manual"
+                                    : "Manual"}
+                            </small>
+                          </summary>
+                          {f.playerNote && <p>{f.playerNote}</p>}
+                          <p>{f.text}</p>
+                          {inspect(f.id, f.name)}
+                        </details>
+                      ))}
+                    </section>
+                  ))}
+              </>
+            )}
+            {tab === "Origin & Character" && (
+              <>
+                <h2>Origin & Character</h2>
+                <dl className="identity-details">
+                  {[
+                    [
+                      "Species",
+                      character.selections.speciesId,
+                      character.species.name,
+                    ],
+                    [
+                      "Origin",
+                      character.selections.originId,
+                      character.origin.name,
+                    ],
+                    [
+                      "Class",
+                      character.selections.classId,
+                      character.characterClass.name,
+                    ],
+                    [
+                      "Trait",
+                      character.selections.traitId,
+                      character.trait.name,
+                    ],
+                    ...(c.subclass
+                      ? [["Subclass", c.subclass.id, c.subclass.name]]
+                      : []),
+                  ].map(([label, id, name]) => (
+                    <div key={label}>
+                      <dt>{label}</dt>
+                      <dd>{inspect(id, name)}</dd>
+                    </div>
+                  ))}
+                </dl>
+                {c.contacts?.length ? (
+                  <>
+                    <h3>Contacts</h3>
+                    {c.contacts.map((contact) => (
+                      <p key={contact.id}>{contact.text}</p>
+                    ))}
+                  </>
+                ) : null}
+              </>
+            )}
+            <SheetNotes characterId={character.id} active={tab === "Notes"} />
+            {tab === "Extras" && (
+              <>
+                <h2>Pinned ruleset</h2>
+                <p className="small">{character.rulesetProfileId}</p>
+                <p className="profile-digest">{character.rulesetDigest}</p>
+                <p className="small">
+                  Existing characters keep their historical ruleset. The fixed
+                  Finesse Dexterity amendment applies to new v7 characters; no
+                  silent profile migration occurs.
+                </p>
+                <h3>Manual adjudication</h3>
+                <p>
+                  Resolve targets, hit/miss, critical damage, conditional
+                  effects and resource recovery at the table. No blocked psychic
+                  content or level 5 rules are enabled.
+                </p>
               </>
             )}
           </div>
         </section>
       </div>
+      {target && (
+        <SheetInspector
+          characterId={character.id}
+          target={target}
+          options={options}
+          disabled={disabled}
+          onRoll={onRoll}
+          onClose={() => setTarget(null)}
+        />
+      )}
     </div>
   );
 }

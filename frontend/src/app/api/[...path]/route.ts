@@ -9,7 +9,16 @@ async function proxy(
   context: { params: Promise<{ path: string[] }> },
 ) {
   const { path } = await context.params;
-  if (path.some((segment) => !/^[a-zA-Z0-9-]+$/.test(segment)))
+  const detailPath =
+    path.length === 4 && path[0] === "characters" && path[2] === "details";
+  if (
+    path.some(
+      (segment, index) =>
+        !(
+          detailPath && index === 3 ? /^di\.[a-z0-9_.-]+$/ : /^[a-zA-Z0-9-]+$/
+        ).test(segment),
+    )
+  )
     return error(400, "INVALID_PATH", "Invalid API path.");
   const headers = new Headers();
   for (const key of ["cookie", "content-type", "origin"]) {
@@ -25,7 +34,12 @@ async function proxy(
       const chunk = await reader.read();
       if (chunk.done) break;
       size += chunk.value.length;
-      if (size > 16_384) {
+      if (
+        size >
+        (path.length === 3 && path[0] === "characters" && path[2] === "notes"
+          ? 131_072
+          : 16_384)
+      ) {
         await reader.cancel();
         return error(413, "REQUEST_TOO_LARGE", "Request body is too large.");
       }
@@ -69,4 +83,10 @@ async function proxy(
     );
   }
 }
-export { proxy as GET, proxy as POST, proxy as PATCH, proxy as DELETE };
+export {
+  proxy as GET,
+  proxy as POST,
+  proxy as PATCH,
+  proxy as PUT,
+  proxy as DELETE,
+};

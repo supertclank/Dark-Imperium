@@ -177,3 +177,16 @@ def topological_order(dependencies):
         active.remove(key);done.add(key);result.append(key)
     for key in dependencies:visit(key)
     return result
+
+
+def fixed_weapon_ability(kind, finesse=False, override=None, normal_ability=None, save_based=False, explicitly_add=False):
+    """PHB-RULE-024 amendment v2. Historical weapon_ability remains v1 for pinned proof fixtures."""
+    require(kind in ('melee','ranged','thrown'),'WEAPON_KIND')
+    if override is not None:
+        require(override in ('strength','dexterity','constitution','intelligence','wisdom','charisma'),'ABILITY_OVERRIDE')
+        return override
+    if save_based and not explicitly_add:return None
+    if kind=='thrown' and normal_ability is not None:
+        require(normal_ability in ('strength','dexterity','constitution','intelligence','wisdom','charisma'),'ABILITY_OVERRIDE')
+        return normal_ability
+    return 'dexterity' if finesse or kind=='ranged' else 'strength'

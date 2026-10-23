@@ -30,7 +30,6 @@ export function RollPanel({ character, onRefresh, playLayout = false }: Props) {
     hasMore: false,
   });
   const [latest, setLatest] = useState<RollResult | null>(null);
-  const [abilities, setAbilities] = useState<Record<string, string>>({});
   const [confirmation, setConfirmation] = useState<RollOption | null>(null);
   const [busy, setBusy] = useState(false),
     [error, setError] = useState("");
@@ -147,9 +146,7 @@ export function RollPanel({ character, onRefresh, playLayout = false }: Props) {
       return;
     }
     const ability = option.abilities.length
-      ? parent?.context.ability ||
-        abilities[option.itemId!] ||
-        option.abilities[0]
+      ? parent?.context.ability
       : undefined;
     void submit({
       requestId: crypto.randomUUID(),
@@ -218,10 +215,6 @@ export function RollPanel({ character, onRefresh, playLayout = false }: Props) {
           options={options?.options ?? []}
           disabled={coordinator.otherBusy || busy || presenting || uncertain}
           onRoll={requestRoll}
-          abilities={abilities}
-          onAbility={(key, value) =>
-            setAbilities((p) => ({ ...p, [key]: value }))
-          }
         />
       ) : (
         <div className="roll-controls">
@@ -241,29 +234,6 @@ export function RollPanel({ character, onRefresh, playLayout = false }: Props) {
             return (
               <details key={key} open={weapon || key === "ability"}>
                 <summary>{label}</summary>
-                {choices.length > 0 && (
-                  <>
-                    <label htmlFor={`roll-ability-${key}`}>
-                      {label} ability
-                    </label>
-                    <select
-                      id={`roll-ability-${key}`}
-                      disabled={
-                        coordinator.otherBusy || busy || presenting || uncertain
-                      }
-                      value={abilities[key] || choices[0]}
-                      onChange={(e) =>
-                        setAbilities({ ...abilities, [key]: e.target.value })
-                      }
-                    >
-                      {choices.map((a) => (
-                        <option key={a} value={a}>
-                          {a}
-                        </option>
-                      ))}
-                    </select>
-                  </>
-                )}
                 <div className="roll-button-grid">
                   {items.map((option) => (
                     <div key={option.id}>
@@ -287,7 +257,7 @@ export function RollPanel({ character, onRefresh, playLayout = false }: Props) {
                           ? ` · Quantity: ${option.quantity}`
                           : ""}
                         {choices.length
-                          ? " · Selected ability is calculated on the server"
+                          ? " · Uses this historical profile’s default ability"
                           : ""}
                       </p>
                       {!option.available && <p>{option.reason}</p>}

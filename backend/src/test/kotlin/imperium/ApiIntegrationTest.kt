@@ -52,6 +52,21 @@ class ApiIntegrationTest {
     }
     private suspend fun HttpResponse.json() = Json.parseToJsonElement(bodyAsText()).jsonObject
 
+    @Test fun `notes accept the advertised Unicode limit through HTTP and remain owned`() = runApi {
+        val cookie=client.account();val other=client.account()
+        val id=client.create(cookie).json().text("id")
+        val body=Json.encodeToString(NotesUpdate.serializer(),NotesUpdate("界".repeat(20000),0))
+        suspend fun putNotes(session:String)=client.put("/api/characters/$id/notes") {
+            header(HttpHeaders.Origin,"http://localhost:3000");header(HttpHeaders.Cookie,session)
+            contentType(ContentType.Application.Json);setBody(body)
+        }
+        assertEquals(HttpStatusCode.OK,putNotes(cookie).status)
+        assertEquals(HttpStatusCode.Conflict,putNotes(cookie).status)
+        assertEquals(HttpStatusCode.NotFound,putNotes(other).status)
+        val saved=client.get("/api/characters/$id/notes") { header(HttpHeaders.Cookie,cookie) }.json()
+        assertEquals("界".repeat(20000),saved.text("text"))
+    }
+
     @Test fun `physical free sessions validate faces ownership and concurrent finalisation`() = runApi {
         val cookie=client.account();val other=client.account()
         val request=FreeRollRequest(UUID.randomUUID().toString(),listOf(FreeDiePool(2,6),FreeDiePool(1,100)))
@@ -197,7 +212,7 @@ class ApiIntegrationTest {
         assertEquals(HttpStatusCode.Unauthorized,client.get("/api/character-builder/profile").status)
         val cookie=client.account()
         val profile=client.get("/api/character-builder/profile"){header(HttpHeaders.Cookie,cookie)}.json()
-        assertEquals("di-phb-1.0-tier1-v6",profile.text("id"))
+        assertEquals("di-phb-1.0-tier1-v7",profile.text("id"))
         assertEquals(listOf(JsonPrimitive(1)),profile.arr("levels").toList())
         assertFalse(profile.containsKey("records"))
         val invalid=productionFixture().copy(speciesId="di.species.ogryn",answers=emptyMap())

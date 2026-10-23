@@ -34,6 +34,7 @@ fun Application.module(db: Database, config: AppConfig, dice: DiceEngine = DiceE
     val auth = AuthService(db)
     val content = ContentRepository(db)
     val characters = ProductionCharacters(db)
+    val sheetDetails = SheetDetails(db,characters)
     val rolls = CharacterRolls(db,characters,dice)
     val freeRolls = FreeRolls(db,dice)
     val physicalRolls=PhysicalRollSessions(db,rolls,freeRolls)
@@ -56,7 +57,8 @@ fun Application.module(db: Database, config: AppConfig, dice: DiceEngine = DiceE
         if (call.request.httpMethod in listOf(HttpMethod.Post, HttpMethod.Patch, HttpMethod.Delete, HttpMethod.Put)) {
             if (call.request.header(HttpHeaders.Origin) != config.origin)
                 throw ApiException(403, "INVALID_ORIGIN", "Request origin is not allowed.")
-            if (call.request.header(HttpHeaders.ContentLength)?.toLongOrNull()?.let { it > 16_384 } == true)
+            val bodyLimit = if(call.request.httpMethod == HttpMethod.Put && Regex("^/api/characters/[a-fA-F0-9-]{36}/notes$").matches(call.request.path())) 131_072 else 16_384
+            if (call.request.header(HttpHeaders.ContentLength)?.toLongOrNull()?.let { it > bodyLimit } == true)
                 throw ApiException(413, "REQUEST_TOO_LARGE", "Request body is too large.")
         }
     }
@@ -102,6 +104,12 @@ fun Application.module(db: Database, config: AppConfig, dice: DiceEngine = DiceE
                 val owner = call.owner(); val id = uuid(call.parameters["id"]!!)
                 call.respond(withContext(Dispatchers.IO) { characters.get(owner, id) })
             }
+            get("/characters/{id}/details/{entityId}") {
+                val owner=call.owner();val id=uuid(call.parameters["id"]!!);val entity=call.parameters["entityId"]!!
+                call.respond(withContext(Dispatchers.IO){sheetDetails.entity(owner,id,entity)})
+            }
+            get("/characters/{id}/notes") {val owner=call.owner();val id=uuid(call.parameters["id"]!!);call.respond(withContext(Dispatchers.IO){sheetDetails.notes(owner,id)})}
+            put("/characters/{id}/notes") {val owner=call.owner();val id=uuid(call.parameters["id"]!!);val input=call.receive<NotesUpdate>();call.respond(withContext(Dispatchers.IO){sheetDetails.saveNotes(owner,id,input)})}
             get("/characters/{id}/advancement") {
                 val owner=call.owner();val id=uuid(call.parameters["id"]!!)
                 call.respond(withContext(Dispatchers.IO) { advancements.readiness(owner,id) })
