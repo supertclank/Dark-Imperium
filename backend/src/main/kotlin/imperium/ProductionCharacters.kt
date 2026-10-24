@@ -7,6 +7,9 @@ import kotlinx.serialization.json.*
 /** Selections and owned state are persisted separately; derived values are never stored. */
 class ProductionCharacters(private val db: Database, val rules: NarrowRules = NarrowRules.tier9()) {
     private val profiles=listOf(NarrowRules.bundled(),NarrowRules.tier1(),NarrowRules.tier2(),NarrowRules.tier3(),NarrowRules.tier4(),NarrowRules.tier5(),NarrowRules.tier6(),NarrowRules.tier7(),NarrowRules.tier8(),NarrowRules.tier9(),rules).associateBy { it.id }
+    internal fun approvals(con:Connection,owner:UUID,profile:String):Set<String> = con.query("SELECT scope FROM character_creation_approvals WHERE user_id=? AND profile_id=?",owner,profile){it.getString(1)}.toSet()
+    fun profile(owner:UUID):JsonObject=db.read { con -> JsonObject(rules.profile()+mapOf("approvalScopes" to json(approvals(con,owner,rules.id)))) }
+    fun validate(owner:UUID,draft:NarrowDraft):DraftValidation=db.read { con -> rulesFor(draft.profileId).validate(draft,trustedApprovals=approvals(con,owner,draft.profileId)) }
     fun rulesFor(profileId:String)=profiles[profileId] ?: rules
     init { db.transaction { connection ->
       for(rules in profiles.values) {
@@ -19,7 +22,7 @@ class ProductionCharacters(private val db: Database, val rules: NarrowRules = Na
         val rules=rulesFor(draft.profileId)
         if(Level4Rules.policy(rules)!=null && draft.level !in (rules.spec["creationLevels"] as? JsonArray).orEmpty().map { it.jsonPrimitive.int }) throw ApiException(422,"ADVANCEMENT_REQUIRED","This profile is entered only through explicit certified advancement.")
         val requestId=try { UUID.fromString(draft.requestId) } catch(_:IllegalArgumentException) { throw InvalidDraft(listOf(DraftIssue("INVALID_REQUEST_ID","requestId","A creation request UUID is required."))) }
-        val id=UUID.randomUUID();val validation=rules.validate(draft,id.toString())
+        val id=UUID.randomUUID();val validation=db.read { con -> rules.validate(draft,id.toString(),approvals(con,owner,draft.profileId)) }
         if(validation.errors.isNotEmpty()) throw InvalidDraft(validation.errors)
         val requestDigest=sha(canonicalJson(Json.encodeToJsonElement(NarrowDraft.serializer(),draft)))
         return db.transaction { con ->
@@ -48,10 +51,10 @@ class ProductionCharacters(private val db: Database, val rules: NarrowRules = Na
         val choices=con.query("SELECT choice_id,option_ids FROM player_character_choices WHERE character_id=? ORDER BY choice_id",id) { it.getString(1) to Json.decodeFromString<List<String>>(it.getString(2)) }.toMap()
         val inventory=con.query("SELECT * FROM player_character_inventory WHERE character_id=? ORDER BY definition_id",id) { row -> obj("id" to row.getString("id"),"definitionId" to row.getString("definition_id"),"name" to base.third.label(row.getString("definition_id")),"initialQuantity" to row.getInt("initial_quantity"),"quantity" to row.getInt("quantity"),"equipped" to row.getBoolean("equipped"),"ammunition" to row.getString("ammunition")?.let(Json::parseToJsonElement)) }
         val draft=base.second.copy(answers=choices,inventory=inventory.map { InventorySelection(it.text("definitionId"),it.num("initialQuantity"),it.getValue("equipped").jsonPrimitive.boolean) })
-        val calculation=base.third.validate(draft,id.toString())
+        val calculation=base.third.validate(draft,id.toString(),approvals(con,owner,draft.profileId))
         check(calculation.errors.isEmpty()) { "Persisted selections violate their pinned profile" }
-        val runtime=con.query("SELECT * FROM player_character_runtime WHERE character_id=?",id) { row -> obj("currentHp" to row.getInt("current_hp"),"stateVersion" to row.getLong("state_version"),"resources" to Json.parseToJsonElement(row.getString("resources")),"conditions" to Json.parseToJsonElement(row.getString("conditions")),"temporaryEffects" to Json.parseToJsonElement(row.getString("temporary_effects"))) }.single()
-        return JsonObject(base.first+mapOf("rulesetProfileId" to JsonPrimitive(draft.profileId),"rulesetDigest" to JsonPrimitive(draft.profileDigest),"selections" to Json { encodeDefaults = true }.encodeToJsonElement(NarrowDraft.serializer(),draft),"species" to obj("id" to draft.speciesId,"name" to base.third.label(draft.speciesId)),"origin" to obj("id" to draft.originId,"name" to base.third.label(draft.originId)),"characterClass" to obj("id" to draft.classId,"name" to base.third.label(draft.classId)),"trait" to obj("id" to draft.traitId,"name" to base.third.label(draft.traitId)),"level" to JsonPrimitive(draft.level),"calculated" to calculation.calculated!!,"runtime" to runtime,"inventory" to json(inventory)))
+        val runtime=con.query("SELECT * FROM player_character_runtime WHERE character_id=?",id) { row -> obj("currentWarpPressure" to row.getInt("warp_pressure"),"pendingAction" to row.getString("pending_action")?.let(Json::parseToJsonElement),"currentHp" to row.getInt("current_hp"),"stateVersion" to row.getLong("state_version"),"resources" to Json.parseToJsonElement(row.getString("resources")),"conditions" to Json.parseToJsonElement(row.getString("conditions")),"temporaryEffects" to Json.parseToJsonElement(row.getString("temporary_effects"))) }.single()
+        return JsonObject(base.first+mapOf("rulesetProfileId" to JsonPrimitive(draft.profileId),"rulesetDigest" to JsonPrimitive(draft.profileDigest),"selections" to Json { encodeDefaults = true }.encodeToJsonElement(NarrowDraft.serializer(),draft),"species" to obj("id" to draft.speciesId,"name" to base.third.label(draft.speciesId)),"origin" to obj("id" to draft.originId,"name" to base.third.label(draft.originId)),"characterClass" to obj("id" to draft.classId,"name" to base.third.label(draft.classId)),"trait" to obj("id" to draft.traitId,"name" to base.third.label(draft.traitId)),"approvalScopes" to json(approvals(con,owner,draft.profileId)),"level" to JsonPrimitive(draft.level),"calculated" to calculation.calculated!!,"runtime" to runtime,"inventory" to json(inventory)))
     }
     fun list(owner:UUID):List<JsonObject> = db.read { con ->
         con.query("SELECT id FROM player_characters WHERE user_id=? ORDER BY created_at DESC",owner) { it.getObject(1,UUID::class.java) }.map { id ->

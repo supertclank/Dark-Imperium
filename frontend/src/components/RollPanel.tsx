@@ -220,7 +220,7 @@ export function RollPanel({ character, onRefresh, playLayout = false }: Props) {
         }}
       />
       {playLayout ? (
-        <PlaySheet
+        <PlaySheet onRefresh={refresh}
           character={character}
           options={options?.options ?? []}
           disabled={coordinator.otherBusy || busy || presenting || uncertain}
@@ -233,6 +233,8 @@ export function RollPanel({ character, onRefresh, playLayout = false }: Props) {
             disabled={coordinator.otherBusy || busy || presenting || uncertain}
             onAttack={(o,done)=>requestRoll(o,undefined,false,done)}
             onDamage={(o,parent)=>requestRoll(o,parent)}
+            authorityAvailable={(character.runtime.resources.authority?.remaining??0)>0}
+            onAuthority={character.calculated.attackAction.replacementActions?.some(a=>a.id==="authority")?async()=>{const requestId=crypto.randomUUID();await api(`/characters/${character.id}/actions`,{method:"POST",body:JSON.stringify({requestId,expectedStateVersion:character.runtime.stateVersion,action:"resource",resourceKey:"authority"})});await refresh();return {id:requestId,kind:"authority",saveDc:character.calculated.classActions!.authority!.saveDc};}:undefined}
           />}
         />
       ) : (

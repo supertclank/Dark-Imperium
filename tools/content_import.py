@@ -156,7 +156,7 @@ FIELDS={
  'damage_type':(['category'],[]),
  'armour':(['category','equip','properties','features','defence'],['requirements','availability','dexterityBonus']),
  'shield':(['equip','properties','features','defence'],['proficiencyGroups','aliases']),
- 'weapon':(['category','subcategory','hands','properties','features','modes','proficiencyGroups','availability','abilityBinding'],['deployment','manualRules','requirements']),
+ 'weapon':(['category','subcategory','hands','properties','features','modes','proficiencyGroups','availability','abilityBinding'],['deployment','manualRules','requirements','manualOnly']),
  'equipment':(['features','manualRules','functionalTags'],['availability','aliases']),
  'tool':(['features','manualRules','functionalTags'],['availability']),
  'augmetic':(['features','manualRules','functionalTags','availability'],[]),

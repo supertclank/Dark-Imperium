@@ -25,6 +25,9 @@ def validate_equipment(entity, records):
         params=records[prop['property']['id']]['data']['parameters']
         c.require(set(prop['arguments'])=={p['name'] for p in params},'PROPERTY_ARGUMENTS')
         for p in params:c.integer(prop['arguments'][p['name']],p['min'],p.get('max',1000))
+    if d.get('manualOnly') is True:
+        c.require(d['modes']==[] and bool(d.get('manualRules')) and d['category']=='grenade','MANUAL_WEAPON_CONTRACT')
+        return
     c.require(isinstance(d['modes'],list) and d['modes'],'WEAPON_MODES')
     c.require(len({m['id'] for m in d['modes']})==len(d['modes']),'DUPLICATE_MODE')
     for m in d['modes']:

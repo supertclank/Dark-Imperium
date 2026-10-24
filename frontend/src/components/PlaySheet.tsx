@@ -4,6 +4,7 @@ import type { SavedCharacter } from "@/lib/builder";
 import { signed } from "@/lib/builder";
 import type { RollOption } from "@/lib/rolls";
 import { SheetInspector, type Inspection } from "./SheetInspector";
+import {PowersPanel,ClassActions} from "./PowersPanel";
 import { SheetNotes } from "./SheetNotes";
 import { RollActionButton } from "./RollActionButton";
 type Props = {
@@ -12,12 +13,14 @@ type Props = {
   disabled: boolean;
   onRoll: (o: RollOption) => void;
   attackSequence?: ReactNode;
+  onRefresh?:()=>Promise<void>;
 };
-export function PlaySheet({ character, options, disabled, onRoll, attackSequence }: Props) {
+export function PlaySheet({ character, options, disabled, onRoll, attackSequence, onRefresh=async()=>{} }: Props) {
   const c = character.calculated,
     [tab, setTab] = useState("Actions");
   const tabs = [
     "Actions",
+    ...(c.psychic?.powers.length?["Powers"]:[]),
     "Inventory",
     "Features & Traits",
     "Origin & Character",
@@ -318,6 +321,8 @@ export function PlaySheet({ character, options, disabled, onRoll, attackSequence
             aria-labelledby={`play-tab-${tabs.indexOf(tab)}`}
             tabIndex={0}
           >
+            <ClassActions character={character} options={options} disabled={disabled} onRoll={onRoll} onRefresh={onRefresh}/>
+            {tab === "Powers" && c.psychic && <PowersPanel character={character} disabled={disabled} onRefresh={onRefresh}/>}
             {tab === "Actions" && (
               <>
                 <p className="small muted play-note">

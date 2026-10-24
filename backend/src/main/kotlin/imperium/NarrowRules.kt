@@ -71,7 +71,7 @@ class NarrowRules(val bundle: JsonObject) {
         "choices" to spec.strings("choices").map { key -> val d=data(key);obj("id" to key,"name" to label(key),"purpose" to d.text("purpose"),"cardinality" to d.getValue("cardinality"),"options" to d.objects("options").map { BuilderPresentation(this).choiceOption(it) }) },
         "levelFeatures" to spec.strings("classes").flatMap { classId -> data(ref(data(classId),"progression")).objects("entries").filter { it.num("level") == 1 }.flatMap { it.objects("grants") }.filter { it.text("kind")=="feature" }.map { view(ref(it,"feature")) } },
         "package" to kit,"equipment" to spec.strings("equipment").map(::view),"armour" to spec.arr("armour"),"training" to payload.getValue("training"),"availability" to spec.arr("availability")
-    ).let { base -> if(!expanded) base else JsonObject(base+mapOf("pathConfigurations" to spec.getValue("pathConfigurations"),"packages" to JsonObject(payload.getValue("packages").jsonObject.mapValues { it.value.jsonObject.getValue("display") }),"classTraining" to payload.getValue("classTraining"),"featureCatalogue" to json(records.keys.filter { record(it).text("kind")=="feature" }.map(::view)))) }
+    ).let { base -> if(!expanded) base else JsonObject(base+mapOf("pathConfigurations" to spec.getValue("pathConfigurations"),"packages" to JsonObject(payload.getValue("packages").jsonObject.mapValues { it.value.jsonObject.getValue("display") }),"classTraining" to payload.getValue("classTraining"),"psychic" to (payload["psychic"] ?: JsonNull),"featureCatalogue" to json(records.keys.filter { record(it).text("kind")=="feature" }.map(::view)))) }
     private fun configuration(d: NarrowDraft) = spec.objects("pathConfigurations").singleOrNull { it.text("speciesId")==d.speciesId && it.text("originId")==d.originId && it.text("classId")==d.classId && it.num("level")==d.level }
     private fun choicesFor(d: NarrowDraft) = if(expanded) configuration(d)?.strings("choices").orEmpty() else spec.strings("choices")
     private fun packageFor(d: NarrowDraft) = (payload["packages"] as? JsonObject)?.get(d.classId)?.jsonObject
@@ -110,7 +110,7 @@ class NarrowRules(val bundle: JsonObject) {
         return result
     }
     private fun modifiers(scores: Map<String,Int>) = scores.mapValues { (_,value) -> Math.floorDiv(value-policy.num("abilityOffset"),policy.num("abilityDivisor")) }
-    fun validate(draft: NarrowDraft, actorId: String = "00000000-0000-0000-0000-000000000000"): DraftValidation {
+    fun validate(draft: NarrowDraft, actorId: String = "00000000-0000-0000-0000-000000000000", trustedApprovals:Set<String> = emptySet()): DraftValidation {
         val errors=mutableListOf<DraftIssue>()
         fun issue(code:String,field:String,message:String) { errors+=DraftIssue(code,field,message) }
         if(draft.profileId!=id) issue("RULESET_MISMATCH","profileId","Select the supported ruleset.")
@@ -136,6 +136,7 @@ class NarrowRules(val bundle: JsonObject) {
             val req=data(key)["requirements"] as? JsonObject
             if(req!=null && !eligible(req,selected)) issue("INVALID_ELIGIBILITY",field,"This choice does not meet its prerequisite.")
         }
+        errors+=PsychicRules.validate(this,draft,trustedApprovals)
         val baseValid=draft.attributes.keys==attributes.toSet() && draft.attributes.values.sorted()==spec.arr("standardArray").map { it.jsonPrimitive.int }.sorted()
         if(!baseValid) issue("INVALID_ABILITY_ALLOCATION","attributes","Assign every standard-array score exactly once.")
         val allowed=choicesFor(draft)
@@ -219,7 +220,7 @@ class NarrowRules(val bundle: JsonObject) {
         val pb=payload.objects("proficiencyBands").first { draft.level<=it.num("maximumLevel") }.num("bonus")
         val training=if(expanded) payload.getValue("classTraining").jsonObject.getValue(draft.classId).jsonObject else payload.getValue("training").jsonObject
         val hp=(if(Level4Rules.policy(this)!=null) Level4Rules.hp(training.num("hitDie"),draft.level,mods.getValue("constitution")) else if(tier1) Tier1Calculations.hp(training.num("hitDie"),draft.level,mods.getValue("constitution")) else training.num("hitDie")+mods.getValue("constitution"))+mechanics(draft).filter { it.text("kind")=="hp_per_level" }.sumOf { it.num("amount")*draft.level }
-        val armour=draft.inventory.single { it.equipped };val armourData=data(armour.definitionId)
+        val armour=draft.inventory.single { it.equipped && record(it.definitionId).text("kind")=="armour" };val armourData=data(armour.definitionId)
         val baseAc=armourData.getValue("defence").jsonObject.getValue("value").jsonObject.num("value")
         val dex=armourData["dexterityBonus"]?.jsonObject
         val ac=if(tier1) Tier1Calculations.armour(baseAc,if(dex?.get("enabled")?.jsonPrimitive?.boolean==true) mods.getValue("dexterity") else 0,dex?.get("cap")?.jsonPrimitive?.int) else baseAc+mods.getValue("dexterity")
@@ -251,10 +252,11 @@ class NarrowRules(val bundle: JsonObject) {
         if(speciesMechanics) for(feature in features) for(m in data(feature).objects("mechanics").filter { it.text("kind")=="innate_damage" }) {
             roll("$feature.innate","damage",m.text("name"),feature,m.num("count"),m.num("sides"),mods.getValue(m.text("ability")),m.getValue("damageType"))
         }
-        for(item in starting) {
+        for(item in starting.filter { record(it).text("kind")=="weapon" && data(it)["manualOnly"]?.jsonPrimitive?.boolean != true }) {
             val d=data(item);val mode=d.objects("modes").single();val binding=d.getValue("abilityBinding").jsonObject
-            val ability=WeaponAbilities.resolve(binding.text("attack"),fixedWeaponAbilities)
-            val damageAbility=if(fixedWeaponAbilities) WeaponAbilities.resolve(binding.text("damage"),true) else if(binding.text("damage")=="none") null else ability
+            val psychicWeapon=PsychicRules.enabled(this,draft) && draft.classId=="di.class.aeldari_warlock" && item in setOf("di.weapon.witchblade","di.weapon.singing_spear")
+            val ability=if(psychicWeapon) PsychicRules.ability(draft) else WeaponAbilities.resolve(binding.text("attack"),fixedWeaponAbilities)
+            val damageAbility=if(psychicWeapon) ability else if(fixedWeaponAbilities) WeaponAbilities.resolve(binding.text("damage"),true) else if(binding.text("damage")=="none") null else ability
             val proficient=item in starting || item in direct || d.strings("proficiencyGroups").any { it in groups }
             val attack=ability?.let { mods.getValue(it)+(if(proficient) pb else 0) };val actionId=ref(mode,"action")
             if(attack!=null) roll("$item.attack","attack","${label(item)} attack",item,1,20,attack,actionId=actionId)
@@ -271,11 +273,15 @@ class NarrowRules(val bundle: JsonObject) {
             "actionIds" to actions.filter { a -> val mode=data(a.text("itemId")).objects("modes").single(); mode.text("delivery")=="attack_roll" && !mode.containsKey("consumption") && a["attackBonus"]!=JsonNull }.map { it.text("id") },
             "scope" to "Attack action on your turn", "turnTracking" to false) else null
         return obj("advancementSelection" to Level4Rules.selected(this,draft),"abilityAdjustments" to trace.filter { it.text("kind")=="adjustment" },"attributes" to final,"attributeModifiers" to mods,"proficiencyBonus" to pb,"maximumWounds" to hp,"defence" to ac,"movement" to (effectSum("movement.walk")+featureSupports.mapNotNull { it["armourMovement"] as? JsonObject }.filter { armourData.text("category") in it.strings("categories") }.sumOf { it.num("amount") }),"initiative" to initiative,"saves" to saves,"skills" to skills,"proficiencies" to profs.map(::view),"weaponProficiencies" to obj("groups" to groups.sorted(),"specificWeapons" to direct.sorted(),"startingPackageWeapons" to starting),"features" to features.map(::featureView),"inventory" to inventory,"actions" to actions,"rollDefinitions" to rolls,"readiness" to "PLAYABLE_WITH_MANUAL_RULES","rollAuthority" to "DISPLAY_ONLY_NOT_AUTHORIZATION","profileDigest" to digest).let { base ->
-            val base=if(attackAction==null) base else JsonObject(base+mapOf("attackAction" to attackAction))
+            val attackAction=if(attackAction!=null && spec["psychicMechanicsVersion"]!=null && draft.classId=="di.class.arbites_enforcer" && draft.level>=5) JsonObject(attackAction+mapOf("replacementActions" to json(listOf(obj("id" to "authority","maximumPerAttackAction" to 1,"consumesResource" to "authority"))))) else attackAction
+            val attackBase=if(attackAction==null) base else JsonObject(base+mapOf("attackAction" to attackAction))
+            val psychic=PsychicRules.projection(this,draft,mods,pb)
+            val psychicBase=if(psychic==null) attackBase else JsonObject(attackBase+mapOf("psychic" to psychic))
+            val base=if(spec["psychicMechanicsVersion"]!=null && draft.classId=="di.class.arbites_enforcer") JsonObject(psychicBase+mapOf("classActions" to obj("authority" to obj("saveDc" to 8+pb+mods.getValue("wisdom"))))) else psychicBase
             if(!expanded) base else {
                 val supports=features.map(::featureView)
                 val resources=spec.objects("runtimeResources").filter { !speciesComposition || it.text("sourceId") in features }+supports.flatMap { f -> f.objects("resources").map { JsonObject(it+mapOf("sourceId" to JsonPrimitive(f.text("id")))) } }
-                JsonObject(base+(if(speciesComposition) mapOf("size" to data(draft.speciesId).getValue("size"),"darkvisionFeet" to json(effects.filter { it.getValue("target").jsonObject.text("key")=="sense.darkvision" }.maxOfOrNull { it.getValue("value").jsonObject.num("value") } ?: 0)) else emptyMap())+mapOf("subclass" to (subclass?.let(::view) ?: JsonNull),"resources" to json(resources),"contacts" to json(StartingPackages.compile(executableFor(draft),draft.packageChoices.mapValues { listOf(it.value) },records,spec.strings("equipment").toSet()).contacts),"proceduralProficiencies" to json(supports.flatMap { (it["proceduralProficiencies"] as? JsonArray)?.toList().orEmpty() }),"equipmentNotes" to JsonObject(payload.getValue("equipmentSupport").jsonObject.filterKeys { key -> if(speciesMechanics) draft.inventory.any { it.definitionId==key } else key in starting }),"speciesMechanics" to json(mechanics(draft))))
+                JsonObject(base+(if(speciesComposition) mapOf("size" to data(draft.speciesId).getValue("size"),"darkvisionFeet" to json(effects.filter { it.getValue("target").jsonObject.text("key")=="sense.darkvision" }.maxOfOrNull { it.getValue("value").jsonObject.num("value") } ?: 0)) else emptyMap())+mapOf("subclass" to (subclass?.let(::view) ?: JsonNull),"resources" to json(resources.map { resource -> if(resource["maximumPolicy"]?.jsonPrimitive?.content=="proficiency_bonus") JsonObject(resource+mapOf("maximum" to json(pb))) else resource }),"contacts" to json(StartingPackages.compile(executableFor(draft),draft.packageChoices.mapValues { listOf(it.value) },records,spec.strings("equipment").toSet()).contacts),"proceduralProficiencies" to json(supports.flatMap { (it["proceduralProficiencies"] as? JsonArray)?.toList().orEmpty() }),"equipmentNotes" to JsonObject(payload.getValue("equipmentSupport").jsonObject.filterKeys { key -> if(speciesMechanics) draft.inventory.any { it.definitionId==key } else key in starting }),"speciesMechanics" to json(mechanics(draft))))
             }
         }
     }

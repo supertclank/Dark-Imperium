@@ -31,15 +31,16 @@ fun main() {
         module(db, config)
     }.start(wait = true)
 }
-fun Application.module(db: Database, config: AppConfig, dice: DiceEngine = DiceEngine()) {
+fun Application.module(db: Database, config: AppConfig, dice: DiceEngine = DiceEngine(), rules:NarrowRules = NarrowRules.tier9()) {
     val auth = AuthService(db)
     val content = ContentRepository(db)
-    val characters = ProductionCharacters(db)
+    val characters = ProductionCharacters(db,rules)
     val sheetDetails = SheetDetails(db,characters)
     val rolls = CharacterRolls(db,characters,dice)
     val freeRolls = FreeRolls(db,dice)
     val physicalRolls=PhysicalRollSessions(db,rolls,freeRolls)
     val advancements = CharacterAdvancement(db,characters)
+    val actions = CharacterActions(db,characters)
     val logger = LoggerFactory.getLogger("imperium.api")
     install(ContentNegotiation) { json(Json { ignoreUnknownKeys = false }) }
     install(StatusPages) {
@@ -89,10 +90,10 @@ fun Application.module(db: Database, config: AppConfig, dice: DiceEngine = DiceE
             get("/species") { call.owner(); call.respond(withContext(Dispatchers.IO) { content.list(ContentKind.SPECIES) }) }
             get("/classes") { call.owner(); call.respond(withContext(Dispatchers.IO) { content.list(ContentKind.CLASS) }) }
             get("/weapons") { call.owner(); call.respond(withContext(Dispatchers.IO) { content.weapons() }) }
-            get("/character-builder/profile") { call.owner(); call.respond(characters.rules.profile()) }
+            get("/character-builder/profile") { val owner=call.owner(); call.respond(withContext(Dispatchers.IO){characters.profile(owner)}) }
             post("/characters/validate") {
-                call.owner(); val input=call.receive<NarrowDraft>()
-                call.respond(withContext(Dispatchers.Default) { characters.rulesFor(input.profileId).validate(input) })
+                val owner=call.owner(); val input=call.receive<NarrowDraft>()
+                call.respond(withContext(Dispatchers.IO) { characters.validate(owner,input) })
             }
             get("/characters") { val owner = call.owner(); call.respond(withContext(Dispatchers.IO) { characters.list(owner) }) }
             post("/characters") {
@@ -111,6 +112,7 @@ fun Application.module(db: Database, config: AppConfig, dice: DiceEngine = DiceE
             }
             get("/characters/{id}/notes") {val owner=call.owner();val id=uuid(call.parameters["id"]!!);call.respond(withContext(Dispatchers.IO){sheetDetails.notes(owner,id)})}
             put("/characters/{id}/notes") {val owner=call.owner();val id=uuid(call.parameters["id"]!!);val input=call.receive<NotesUpdate>();call.respond(withContext(Dispatchers.IO){sheetDetails.saveNotes(owner,id,input)})}
+            post("/characters/{id}/actions") { val owner=call.owner();val id=uuid(call.parameters["id"]!!);val input=call.receive<CharacterActionRequest>();call.respond(withContext(Dispatchers.IO){actions.execute(owner,id,input)}) }
             get("/characters/{id}/advancement") {
                 val owner=call.owner();val id=uuid(call.parameters["id"]!!)
                 call.respond(withContext(Dispatchers.IO) { advancements.readiness(owner,id) })

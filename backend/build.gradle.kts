@@ -24,3 +24,11 @@ kotlin { jvmToolchain(21) }
 application { mainClass.set("imperium.ApplicationKt") }
 sourceSets.main { resources.srcDir("../database") }
 tasks.test { useJUnitPlatform() }
+
+tasks.register<JavaExec>("runCandidate") {
+    group = "verification"
+    description = "Run the unpublished candidate against the isolated local acceptance database."
+    dependsOn(tasks.testClasses)
+    classpath = sourceSets.test.get().runtimeClasspath
+    mainClass.set("imperium.CandidateServer")
+}

@@ -104,3 +104,14 @@ it("does not offer Extra Attack below capacity two or when the coordinator is bu
   view.rerender(<AttackSequence {...p} count={2} disabled />);
   expect(screen.getByText("Start Attack action")).toBeDisabled();
 });
+
+it("Authority occupies one of two attack slots and cannot become a third action", async()=>{
+ const authority=vi.fn().mockResolvedValue({id:"authority-use",kind:"authority",saveDc:14});
+ let finish:(r:RollResult)=>void=()=>{};
+ render(<AttackSequence count={2} actionIds={["Knife"]} options={[knife]} disabled={false} authorityAvailable onAuthority={authority} onAttack={(_o,done)=>{finish=done;}} onDamage={()=>{}}/>);
+ fireEvent.click(screen.getByText("Start Attack action"));
+ await act(async()=>{fireEvent.click(screen.getByText(/Replace attack 1 with Authority/));});
+ expect(screen.getByText("Attack 2 of 2")).toBeTruthy();expect(screen.queryByText(/Replace attack 2 with Authority/)).toBeNull();
+ fireEvent.click(screen.getByText("Roll attack 2 of 2"));act(()=>finish(result("weapon")));
+ expect(screen.getByText("2 attacks complete")).toBeTruthy();expect(authority).toHaveBeenCalledTimes(1);expect(screen.queryByText(/Roll attack 3/)).toBeNull();
+});

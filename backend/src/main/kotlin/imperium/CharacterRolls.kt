@@ -29,7 +29,7 @@ class CharacterRolls(
         val sheet = characters.get(con,owner,character)
         val snapshot = con.query("SELECT snapshot FROM ruleset_profiles WHERE id=? AND digest=?",sheet.text("rulesetProfileId"),sheet.text("rulesetDigest")) { Json.parseToJsonElement(it.getString(1)).jsonObject }.single()
         val rules = NarrowRules(snapshot)
-        if(mapOf("di-phb-1.0-narrow-v1" to "narrow-kotlin-v1", "di-phb-1.0-tier1-v1" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v2" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v3" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v4" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v5" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v6" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v7" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v8" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v9" to "phb-tier1-kotlin-v1")[rules.id] != rules.spec.text("engineVersion"))
+        if(mapOf("di-phb-1.0-narrow-v1" to "narrow-kotlin-v1", "di-phb-1.0-tier1-v1" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v2" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v3" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v4" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v5" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v6" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v7" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v8" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v9" to "phb-tier1-kotlin-v1", "di-phb-1.0-tier1-v10" to "phb-tier1-kotlin-v1")[rules.id] != rules.spec.text("engineVersion"))
             fail("RULESET_MISMATCH","Runtime rolling is not supported for this ruleset.",409)
         return sheet to rules
     }
@@ -70,7 +70,7 @@ class CharacterRolls(
                 "consumes" to consumes(item,rules),"quantity" to count,"abilities" to if(finesse(item,rules)) listOf("strength","dexterity") else emptyList<String>(),
                 "groups" to component.arr("groups"),"modifier" to modifier,"modifierChoices" to modifierChoices)
         }
-        obj("profileId" to rules.id,"profileDigest" to rules.digest,"stateVersion" to sheet.getValue("runtime").jsonObject.getValue("stateVersion"),"options" to options)
+        obj("profileId" to rules.id,"profileDigest" to rules.digest,"stateVersion" to sheet.getValue("runtime").jsonObject.getValue("stateVersion"),"options" to (options+listOfNotNull(PsychicDice.option(sheet,rules))))
     }
 
     fun execute(owner: UUID, character: UUID, request: RollRequest, rawValues:List<List<Int>>?=null, validateOnly:Boolean=false, sessionCon:Connection?=null, reservationSession:UUID?=null): JsonObject {
@@ -93,6 +93,7 @@ class CharacterRolls(
             if(request.expectedStateVersion != before) fail("STATE_CONFLICT","Character state changed. Refresh before rolling.",409)
             if(request.visibility != "PRIVATE") fail("INVALID_CONTEXT","Only private owner-visible rolls are supported.")
             if(blockedState(sheet)) fail("ACTION_NOT_AVAILABLE","Current conditions or temporary effects are not supported by this runtime adapter.")
+            if(request.rollId.startsWith("psychic:"))return@operation PsychicDice.execute(con,owner,character,request,requestDigest,sheet,rules,dice,rawValues,validateOnly)
             val calculation = sheet.getValue("calculated").jsonObject
             val baseline = calculation.objects("rollDefinitions").singleOrNull { it.text("id") == request.rollId }
                 ?: fail("ROLL_NOT_AVAILABLE","This roll is not available for the current character.")

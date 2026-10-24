@@ -46,6 +46,7 @@ class CharacterAdvancement(private val db:Database,private val characters:Produc
         }
     }
     private fun destination(sheet:JsonObject,source:NarrowRules,request:AdvanceRequest):Pair<NarrowDraft,JsonObject> {
+        if(sheet.getValue("runtime").jsonObject["pendingAction"] is JsonObject)throw ApiException(422,"ACTION_PENDING","Finish the pending action before advancement.")
         val current=draft(sheet);val rules=target(source,current)
         if(rules.id!=source.id) { if(!request.confirmProfileUpgrade) throw ApiException(422,"PROFILE_UPGRADE_CONFIRMATION_REQUIRED","Confirm the validated profile upgrade before advancing.");compatible(sheet,source,rules) }
         if(request.expectedStateVersion!=sheet.getValue("runtime").jsonObject.getValue("stateVersion").jsonPrimitive.long) throw ApiException(409,"STATE_CONFLICT","Character changed. Refresh the preview.")
@@ -55,13 +56,13 @@ class CharacterAdvancement(private val db:Database,private val characters:Produc
         val allowed=required(rules,current)
         if(request.choices.keys.any { it !in allowed }) throw ApiException(422,"INVALID_ADVANCEMENT_CHOICE","Only newly required level choices may be supplied; existing choices cannot be changed.")
         val next=current.copy(profileId=rules.id,profileDigest=rules.digest,level=request.destinationLevel,answers=current.answers+request.choices)
-        val validation=rules.validate(next,sheet.text("id"))
+        val validation=rules.validate(next,sheet.text("id"),sheet.strings("approvalScopes").toSet())
         if(validation.errors.isNotEmpty()) throw InvalidDraft(validation.errors)
         val calculated=validation.calculated!!;val old=sheet.getValue("calculated").jsonObject
         if(Level4Rules.policy(rules)==null && calculated.getValue("attributes").jsonObject["constitution"]!=old.getValue("attributes").jsonObject["constitution"]) throw ApiException(422,"PHB_RULE_014","Constitution changes during advancement require an approved HP policy.")
         val oldResources=old.objects("resources").associateBy { it.text("key") }
         // v5 initialises new source-defined resources at full uses; existing maxima cannot change.
-        if(calculated.objects("resources").any { val prior=oldResources[it.text("key")]; (prior!=null && prior!=it) || (prior==null && Level4Rules.policy(rules)==null) }) throw ApiException(422,"RESOURCE_POLICY_REQUIRED","New or changed resources require a certified initial-use policy.")
+        if(calculated.objects("resources").any { val prior=oldResources[it.text("key")]; (prior!=null && prior!=it && !(rules.spec["resourceScalingVersion"]!=null && it["maximumPolicy"]?.jsonPrimitive?.content=="proficiency_bonus" && JsonObject(prior.filterKeys { k->k!="maximum" })==JsonObject(it.filterKeys { k->k!="maximum" }))) || (prior==null && Level4Rules.policy(rules)==null) }) throw ApiException(422,"RESOURCE_POLICY_REQUIRED","New or changed resources require a certified initial-use policy.")
         return next to calculated
     }
     private fun previewView(sheet:JsonObject,next:NarrowDraft,calculated:JsonObject):JsonObject {
@@ -73,7 +74,7 @@ class CharacterAdvancement(private val db:Database,private val characters:Produc
         own(con,owner,id,false);val sheet=characters.get(con,owner,id);val rules=pinned(con,sheet);val d=draft(sheet)
         val targetRules=target(rules,d);val blocked=blockers(rules,d);val keys=required(targetRules,d);val version=sheet.getValue("runtime").jsonObject.getValue("stateVersion").jsonPrimitive.long
         val preview=if(blocked.isEmpty() && keys.isEmpty() && targetRules.id==rules.id) { val (next,c)=destination(sheet,rules,AdvanceRequest(UUID.randomUUID().toString(),version,d.level+1));previewView(sheet,next,c) } else null
-        obj("available" to blocked.isEmpty(),"currentLevel" to d.level,"nextLevel" to if(blocked.isEmpty()) d.level+1 else null,"stateVersion" to version,"requiresProfileUpgrade" to (targetRules.id!=rules.id),"upgradeContract" to (if(targetRules.id!=rules.id) contract(rules,targetRules,d) else null),"level4Choice" to (if(d.level==3 && blocked.isEmpty()) Level4Rules.policy(targetRules)?.let { policy -> JsonObject(policy+mapOf("options" to json(policy.objects("options").filter { option -> val talent=option["talentId"]?.jsonPrimitive?.content;talent==null || Level4Rules.eligible(targetRules.data(talent)["requirements"] as? JsonObject,setOf(d.speciesId,d.originId,d.classId,d.traitId)) }))) } else null),"ownedTalentIds" to sheet.getValue("calculated").jsonObject.objects("features").filter { it.text("id").startsWith("di.feature.talent.") }.map { it.text("id") },"requiredChoices" to targetRules.profile().objects("choices").filter { it.text("id") in keys },"blockers" to blocked,"preview" to preview)
+        obj("available" to blocked.isEmpty(),"currentLevel" to d.level,"nextLevel" to if(blocked.isEmpty()) d.level+1 else null,"stateVersion" to version,"requiresProfileUpgrade" to (targetRules.id!=rules.id),"upgradeContract" to (if(targetRules.id!=rules.id) contract(rules,targetRules,d) else null),"level4Choice" to (if(d.level==3 && blocked.isEmpty()) Level4Rules.policy(targetRules)?.let { policy -> JsonObject(policy+mapOf("options" to json(policy.objects("options").filter { option -> val talent=option["talentId"]?.jsonPrimitive?.content;talent==null || Level4Rules.eligible(targetRules.data(talent)["requirements"] as? JsonObject,setOf(d.speciesId,d.originId,d.classId,d.traitId)) }))) } else null),"ownedTalentIds" to sheet.getValue("calculated").jsonObject.objects("features").filter { it.text("id").startsWith("di.feature.talent.") }.map { it.text("id") },"psychic" to (targetRules.payload["psychic"] ?: JsonNull),"requiredChoices" to targetRules.profile().objects("choices").filter { it.text("id") in keys },"blockers" to blocked,"preview" to preview)
     }
     fun preview(owner:UUID,id:UUID,request:AdvanceRequest):JsonObject=db.transaction { con ->
         own(con,owner,id,false);val sheet=characters.get(con,owner,id);val (next,c)=destination(sheet,pinned(con,sheet),request);previewView(sheet,next,c)
@@ -94,6 +95,10 @@ class CharacterAdvancement(private val db:Database,private val characters:Produc
             con.execute("UPDATE player_characters SET level=?,profile_id=?,profile_digest=?,updated_at=now() WHERE id=?",next.level,next.profileId,next.profileDigest,id)
             val runtime=sheet.getValue("runtime").jsonObject;val resources=runtime.getValue("resources").jsonObject.toMutableMap()
             for(r in c.objects("resources")) if(r.text("key") !in resources) resources[r.text("key")]=obj("sourceId" to r.text("sourceId"),"remaining" to r.num("maximum"),"maximum" to r.num("maximum"),"recovery" to r.text("recovery"),"automation" to r.text("automation"))
+            if(c.containsKey("resources"))for(r in c.objects("resources")) {
+                val prior=resources[r.text("key")]?.jsonObject ?: continue
+                if(r["maximumPolicy"]?.jsonPrimitive?.content=="proficiency_bonus" && prior.num("maximum")!=r.num("maximum"))resources[r.text("key")]=JsonObject(prior+mapOf("maximum" to r.getValue("maximum"),"remaining" to json(minOf(prior.num("remaining"),r.num("maximum")))))
+            }
             con.execute("UPDATE player_character_runtime SET current_hp=?,resources=?::jsonb WHERE character_id=?",Level4Rules.currentHp(runtime.num("currentHp"),c.num("maximumWounds")),JsonObject(resources).toString(),id)
             if(next.profileId!=sheet.text("rulesetProfileId")) con.execute("INSERT INTO character_profile_upgrades(character_id,from_profile,from_digest,to_profile,to_digest,request_id,contract_version) VALUES (?,?,?,?,?,?,?)",id,sheet.text("rulesetProfileId"),sheet.text("rulesetDigest"),next.profileId,next.profileDigest,requestId,contract(pinned(con,sheet),characters.rulesFor(next.profileId),draft(sheet))!!.text("version"))
             check(con.execute("UPDATE player_character_runtime SET state_version=state_version+1 WHERE character_id=? AND state_version=?",id,request.expectedStateVersion)==1)

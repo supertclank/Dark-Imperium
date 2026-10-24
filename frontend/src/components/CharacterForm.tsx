@@ -5,6 +5,7 @@ import { api } from "@/lib/api";
 import { useResource, ResourceState } from "./Resource";
 import { Profile, Draft, Choice, Issue, Validation, SavedCharacter, initialDraft, startingInventory, signed, pathProfile, changePath } from "@/lib/builder";
 import { ChoiceCard, SubclassDetails } from "./ChoiceCard";
+import {PowerChoices} from "./PowerChoices";
 import { AbilityAllocation } from "./AbilityAllocation";
 import { CalculatedSummary } from "./CalculatedSummary";
 
@@ -31,7 +32,7 @@ export function CharacterForm() {
     const selected=choice.cardinality.max===1 ? (option?[option]:[]) : checked?[...old,option]:old.filter(x=>x!==option);
     update({answers:{...draft.answers,[choice.id]:selected}});
   };
-  const choiceControl=(choice:Choice)=><fieldset className="panel" key={choice.id} aria-describedby={`${choice.id}-help`}>
+  const choiceControl=(choice:Choice)=>choice.id.startsWith("di.choice.psychic.") && choice.id.includes("_level_") && profile.psychic ? <PowerChoices key={choice.id} choice={choice} draft={draft} approvals={profile.approvalScopes} policy={profile.psychic} disabled={busy} onChange={ids=>update({answers:{...draft.answers,[choice.id]:ids}})}/> : <fieldset className="panel" key={choice.id} aria-describedby={`${choice.id}-help`}>
     <legend>{choice.name}</legend><p id={`${choice.id}-help`} className="muted">Choose {choice.cardinality.min}{choice.cardinality.max!==choice.cardinality.min?`–${choice.cardinality.max}`:""}.</p>
     {choice.cardinality.max===1 ? <><label htmlFor={choice.id}>{choice.name}</label><select id={choice.id} value={draft.answers[choice.id]?.[0] || ""} onChange={e=>answer(choice,e.target.value)}><option value="">Choose an option</option>{choice.options.map(o=><option key={o.id} value={o.id}>{o.label}</option>)}</select></> : <div className="choice-grid">{choice.options.map(o=><label className="choice compact-choice" key={o.id}><input type="checkbox" checked={draft.answers[choice.id]?.includes(o.id)||false} disabled={busy || (!draft.answers[choice.id]?.includes(o.id) && (draft.answers[choice.id]?.length||0)>=choice.cardinality.max)} onChange={e=>answer(choice,o.id,e.target.checked)}/><span>{o.label}</span></label>)}</div>}
     {choice.purpose==="subclass" && <SubclassDetails detail={choice.options.find(o=>o.id===draft.answers[choice.id]?.[0])?.detail} level={draft.level}/>}
